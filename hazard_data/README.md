@@ -14,16 +14,16 @@ Raw source data is not stored in this repository (files are too large). Final pr
 
 | Folder | Hazard | Source | Spatial Resolution | Processing Script |
 |---|---|---|---|---|
-| `flood/river_flood/` | River flood | JRC Global Flood Maps | 90 m | `flood_download.ipynb` |
-| `flood/coastal_flood/` | Coastal flood | JRC Global Flood Maps | 90 m | `flood_download.ipynb` |
-| `drought/agricultural_drought/` | Agricultural drought | FAO ASIS | 1 km | `ASI_RP.ipynb` |
+| `flood/river_flood/` | River flood | JRC | 90 m | `flood_download.ipynb` |
+| `flood/coastal_flood/` | Coastal flood | JRC | 90 m | `flood_download.ipynb` |
+| `drought/agricultural_drought/` | Agricultural drought | FAO | 1 km | `ASI_RP.ipynb` |
 | `drought/meteorological_drought/` | Meteorological drought (SPI-12, SPEI-12) | TerraClimate | 5 km | `compute_SPI_SPEI.ipynb` |
-| `heatwave/` | Heatwave (frequency, duration, severity, extreme heat) | ERA5 / ECMWF | 10 km | `heatwave_RP.ipynb` |
+| `heatwave/` | Heatwave (frequency, duration, severity, extreme heat) | ECMWF | 10 km | `heatwave_RP.ipynb` |
 | `tropical_storm/` | Tropical storm | GIRI | 10 km | Direct download |
 | `fire/` | Wildfire (frequency, radiative power) | NASA FIRMS | 250 m | `Fire_90th_percentile.ipynb` |
-| `air_pollution/` | PM2.5 air pollution | ACAG (satellite-derived) | 1 km | `PM25_90th_percentile.ipynb` |
+| `air_pollution/` | PM2.5 air pollution | ACAG | 1 km | `PM25_90th_percentile.ipynb` |
 | `sand_dust_storm/` | Sand and dust storm | UNCCD | 1 km | Direct download |
-| `malaria/` | Malaria (Pf, Pv) | MAP (Malaria Atlas Project) | 5 km | `malaria_average.ipynb` |
+| `malaria/` | Malaria (Pf, Pv) | MAP | 5 km | `malaria_average.ipynb` |
 | `earthquake/` | Earthquake | *(planned Q3 2025)* | — | — |
 | `volcano/` | Volcano | *(planned Q3 2025)* | — | — |
 | `landslide/` | Landslide | *(planned Q3 2025)* | — | — |
