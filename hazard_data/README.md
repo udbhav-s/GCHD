@@ -24,10 +24,10 @@ Raw source data is not stored in this repository (files are too large). Final pr
 | `air_pollution/` | PM2.5 air pollution | ACAG | 1 km | `PM25_90th_percentile.ipynb` |
 | `sand_dust_storm/` | Sand and dust storm | UNCCD | 1 km | Direct download |
 | `malaria/` | Malaria (Pf, Pv) | MAP | 5 km | `malaria_average.ipynb` |
-| `earthquake/` | Earthquake | *(planned Q3 2025)* | — | — |
-| `volcano/` | Volcano | *(planned Q3 2025)* | — | — |
-| `landslide/` | Landslide | *(planned Q3 2025)* | — | — |
-| `conflict/` | Armed conflict | *(planned Q3 2025)* | — | — |
+| `earthquake/` | Earthquake | *(planned Q3 2026)* | — | — |
+| `volcano/` | Volcano | *(planned Q3 2026)* | — | — |
+| `landslide/` | Landslide | *(planned Q3 2026)* | — | — |
+| `conflict/` | Armed conflict | *(planned Q3 2026)* | — | — |
 
 ---
 

@@ -1,6 +1,6 @@
 # Earthquake
 
-> **Status: Planned — Q3 2025**
+> **Status: Planned — Q3 2026**
 
 This layer is under development. Documentation and processing scripts will be added when the earthquake hazard layer is integrated into GCHD.
 
