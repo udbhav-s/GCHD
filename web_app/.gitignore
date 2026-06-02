@@ -1,0 +1,18 @@
+# Credentials — NEVER commit these
+credentials/
+
+# Python runtime
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs and runtime data
+*.log
+otp_store.db
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

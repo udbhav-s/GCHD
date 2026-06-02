@@ -1,0 +1,33 @@
+# Coastal Flood
+
+## Data Source
+
+**JRC Global Coastal Flood Hazard Maps**  
+Joint Research Centre (JRC), European Commission  
+https://global-flood-database.cloudnaturalresource.org/
+
+## Metric
+
+100-year return period coastal inundation (1% annual probability of occurrence). Binary threshold applied to identify coastal flood-prone areas.
+
+## Processing
+
+Data is downloaded and uploaded to Google Earth Engine as a raster asset. No additional statistical processing is applied beyond the return-period calculation embedded in the source data.
+
+**Script:** [`flood_download.ipynb`](../flood_download.ipynb) (from CCRR `script/data_prep/`)  
+**GEE asset:** `projects/unicef-ccri/assets/hazards/coastal_flood`
+
+## Output Format
+
+- GEE raster asset (binary: 1 = flood-prone, 0 = not flood-prone)
+- Spatial resolution: ~0.1°
+- Coverage: global
+
+## Known Data Caveats
+
+The following small island states are force-nulled for coastal flood due to unreliable model outputs:
+- Federated States of Micronesia, Kiribati, Niue, Palau, Papua New Guinea, Marshall Islands, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu
+
+## Update Cadence
+
+Updated when JRC releases a new version of the coastal flood hazard maps.
