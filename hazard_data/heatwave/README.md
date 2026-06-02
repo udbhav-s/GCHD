@@ -21,9 +21,16 @@ Four heat hazard indicators are derived from ERA5 daily maximum temperature data
 
 ## Processing
 
-ERA5 daily maximum 2 m temperature is processed in Google Earth Engine to compute each indicator over a multi-decade baseline. Return levels are derived and uploaded as GEE assets.
+ERA5 Land daily maximum 2 m temperature is processed in Google Earth Engine to compute annual values of each indicator. Return levels are then derived pixel-by-pixel using an **empirical (non-parametric) method** based on the Weibull plotting position:
+
+1. Annual values for each pixel are sorted in descending order
+2. The empirical return period for each ranked value is estimated as `(n + 1) / rank`
+3. Return levels for standard return periods (10, 30, 50, 100 years) are interpolated from this empirical distribution
+
+This approach requires no parametric distribution fitting (e.g. GEV or Gumbel) and is applied directly to the observed annual record. A minimum of 5 years of valid data is required per pixel.
 
 **Processing repository:** [github.com/unicef/heat](https://github.com/unicef/heat)  
+**Script:** `heatwave_RP.ipynb`  
 **GEE assets:**  
 - `projects/unicef-ccri/assets/hazards/heatwave_frequency`  
 - `projects/unicef-ccri/assets/hazards/heatwave_duration`  
