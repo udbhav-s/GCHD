@@ -76,13 +76,13 @@ Source code is in [`web_app/`](web_app/).
 
 | Hazard | Source | Return Period / Metric |
 |---|---|---|
-| River flood | JRC Global Flood Maps | 100-year return |
-| Coastal flood | JRC Global Flood Maps | 100-year return |
-| Tropical storm | GIRI | 100-year return |
-| Agricultural drought | FAO ASIS | Return level |
-| Meteorological drought | TerraClimate (SPI-12, SPEI-12) | 90th percentile |
-| Heatwave | ERA5 / ECMWF | Frequency, duration, severity |
-| Extreme heat | ERA5 / ECMWF | Degree-days |
+| River flood | JRC Global Flood Maps | 100-year return level|
+| Coastal flood | JRC Global Flood Maps | 100-year return level|
+| Tropical storm | GIRI | 100-year return level |
+| Agricultural drought | FAO ASIS | 100-year return level|
+| Meteorological drought | TerraClimate (SPI-12, SPEI-12) | emprical probability |
+| Heatwave | ERA5 / ECMWF | Frequency, duration, severity  100-year return level|
+| Extreme heat | ERA5 / ECMWF | Degree-days 100-year return level|
 | Wildfire | NASA FIRMS | 90th percentile |
 | Air pollution (PM2.5) | Satellite-derived | 90th percentile, 1998–2023 |
 | Sand & dust storm | UNCCD | Occurrence frequency |
@@ -92,7 +92,7 @@ Source code is in [`web_app/`](web_app/).
 
 ## Citing GCHD
 
-> UNICEF (2025). *Global Children's Hazard Database (GCHD)*. UNICEF Data Science, Climate & Environment Data Unit. https://github.com/unicef/GCHD
+> UNICEF (2025). *Global Children's Hazard Database (GCHD)*. UNICEF Office of Strategy and Evidence, Climate & Environment Data Team. https://github.com/unicef/GCHD
 
 ---
 
@@ -100,9 +100,3 @@ Source code is in [`web_app/`](web_app/).
 
 **Dohyung Kim** — Data Science Specialist, UNICEF  
 dokim@unicef.org
-
-**Tom Slaymaker** — Senior Adviser, UNICEF  
-tslaymaker@unicef.org
-
-**Rohini Swaminathan** — Data Analyst, UNICEF  
-rswaminathan@unicef.org
