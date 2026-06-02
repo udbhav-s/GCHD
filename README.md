@@ -67,7 +67,7 @@ See [`multi_hazard_indicators/`](multi_hazard_indicators/) for methodology and s
 
 ## Web Application
 
-An interactive dashboard built in Python Dash with Google Earth Engine map tiles is available at **[gchd.pixel-aid.com](https://gchd.pixel-aid.com)**.
+An interactive dashboard built in Python Dash with Google Earth Engine map tiles is available at **[gchd.unicef.org](https://gchd.unicef.org)**.
 
 Source code is in [`web_app/`](web_app/).
 
