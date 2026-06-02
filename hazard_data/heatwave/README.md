@@ -2,9 +2,11 @@
 
 ## Data Source
 
-**ERA5 Reanalysis**  
-European Centre for Medium-Range Weather Forecasts (ECMWF) via Google Earth Engine  
+**ERA5 Land / ERA5 Reanalysis**  
+European Centre for Medium-Range Weather Forecasts (ECMWF)  
 https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels
+
+ERA5 Land is used as the primary data source for the majority of land areas. For small island states where ERA5 Land coverage is missing, ERA5 Reanalysis data is used as a supplement.
 
 ## Metrics
 
