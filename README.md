@@ -40,7 +40,7 @@ GCHD/
 ## Hazard Coverage
 
 ### Spatial Resolution
-All hazard layers are processed at a globally consistent resolution (approximately 0.1° / ~10 km) for country-level exposure aggregation, and at 100 m for pixel-level multi-hazard composite scores.
+All hazard layers are processed at their original resolution (varying from 100 m to ~15 km depending on the source dataset) then overlaid with 100 m gridded children's population data for exposure computation.
 
 ### Population Reference
 Children's exposure is computed using **WorldPop gridded population estimates for children under 18, 2025 baseline**, at 100 m spatial resolution.
