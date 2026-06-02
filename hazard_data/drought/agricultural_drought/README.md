@@ -20,7 +20,7 @@ Raw ASIS data is downloaded from FAO and processed to compute return levels. The
 ## Output Format
 
 - GEE raster asset (continuous: return level score)
-- Spatial resolution: ~0.1°
+- Spatial resolution: 1 km
 - Coverage: global (agricultural areas)
 
 ## Update Cadence

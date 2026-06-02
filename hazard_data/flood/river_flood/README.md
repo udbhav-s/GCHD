@@ -20,7 +20,7 @@ Data is downloaded and uploaded to Google Earth Engine as a raster asset. No add
 ## Output Format
 
 - GEE raster asset (binary: 1 = flood-prone, 0 = not flood-prone)
-- Spatial resolution: ~0.1°
+- Spatial resolution: 90 m
 - Coverage: global
 
 ## Known Data Caveats

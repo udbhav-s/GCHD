@@ -27,7 +27,7 @@ Monthly precipitation (and temperature/PET for SPEI) data is downloaded from Ter
 ## Output Format
 
 - GEE raster assets (continuous: standardised index values)
-- Spatial resolution: ~0.1° (~10 km)
+- Spatial resolution: 5 km
 - Coverage: global (land areas)
 
 ## Update Cadence

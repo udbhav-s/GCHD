@@ -27,7 +27,7 @@ Annual malaria prevalence rasters are downloaded from MAP and averaged over the 
 ## Output Format
 
 - GEE raster assets (continuous: prevalence rate 0–1)
-- Spatial resolution: ~0.1° (native: ~5 km)
+- Spatial resolution: 5 km
 - Coverage: malaria-endemic regions (global)
 - Temporal coverage: 2013–2022 average
 

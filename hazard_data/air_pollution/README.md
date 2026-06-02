@@ -20,7 +20,7 @@ Annual PM2.5 rasters are downloaded and processed in Google Earth Engine to comp
 ## Output Format
 
 - GEE raster asset (continuous: µg/m³)
-- Spatial resolution: ~0.1° (native: ~1 km)
+- Spatial resolution: 1 km
 - Coverage: global (land areas)
 - Temporal coverage: 1998–2023
 

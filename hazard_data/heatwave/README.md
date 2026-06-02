@@ -33,7 +33,7 @@ ERA5 daily maximum 2 m temperature is processed in Google Earth Engine to comput
 ## Output Format
 
 - GEE raster assets (continuous: return level scores)
-- Spatial resolution: ~0.1° (native ERA5 resolution: 0.25°)
+- Spatial resolution: 10 km
 - Coverage: global (land areas)
 
 ## Update Cadence

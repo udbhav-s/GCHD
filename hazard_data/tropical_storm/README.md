@@ -19,7 +19,7 @@ Data is downloaded directly from the GIRI platform and uploaded to Google Earth 
 ## Output Format
 
 - GEE raster asset (continuous: wind speed in km/h at 100-year return)
-- Spatial resolution: ~0.1°
+- Spatial resolution: 10 km
 - Coverage: tropical and sub-tropical regions (global where cyclone tracks exist)
 
 ## Update Cadence

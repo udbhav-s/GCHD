@@ -19,7 +19,7 @@ Data is downloaded directly from the UNCCD source. No additional processing is a
 ## Output Format
 
 - GEE raster asset
-- Spatial resolution: ~0.1°
+- Spatial resolution: 1 km
 - Coverage: global (arid and semi-arid regions primarily)
 
 ## Update Cadence

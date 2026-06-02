@@ -27,7 +27,7 @@ NASA FIRMS MODIS/VIIRS active fire detections are processed in Google Earth Engi
 ## Output Format
 
 - GEE raster assets (continuous: 90th percentile scores)
-- Spatial resolution: ~0.1°
+- Spatial resolution: 250 m
 - Coverage: global (land areas with fire detections)
 
 ## Update Cadence
