@@ -14,18 +14,16 @@ Four heat hazard indicators are derived from ERA5 daily maximum temperature data
 
 | Indicator | Definition |
 |---|---|
-| Heatwave frequency | Number of heatwave events per year (3+ consecutive days above the 90th percentile threshold) |
-| Heatwave duration | Mean duration (days) of heatwave events |
-| Heatwave severity | Mean temperature anomaly above threshold during heatwave events |
-| Extreme heat degree-days | Cumulative temperature above 35°C per year |
-
-The return-level exceedance is computed for each indicator.
+| Heatwave frequency | Any period of three days or more when the maximum temperature each day is in the top 10 per cent of the local 15-day average between 1960 and 1990 |
+| Heatwave duration | Average length of heatwave event (number of days) |
+| Heatwave severity | Average exceedance in degrees Celsius of the heatwave threshold for each event |
+| Extreme high temperature | Annual average number of days in which 35°C is exceeded |
 
 ## Processing
 
 ERA5 daily maximum 2 m temperature is processed in Google Earth Engine to compute each indicator over a multi-decade baseline. Return levels are derived and uploaded as GEE assets.
 
-**Script:** [`heatwave_RP.ipynb`](heatwave_RP.ipynb) (from CCRR `script/data_prep/`)  
+**Processing repository:** [github.com/unicef/heat](https://github.com/unicef/heat)  
 **GEE assets:**  
 - `projects/unicef-ccri/assets/hazards/heatwave_frequency`  
 - `projects/unicef-ccri/assets/hazards/heatwave_duration`  
