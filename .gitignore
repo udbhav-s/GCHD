@@ -55,8 +55,6 @@ otp_store.db
 *.swo
 Thumbs.db
 
-# Internal project files
-CLAUDE.md
 
 # Office lock files
 .~lock.*
