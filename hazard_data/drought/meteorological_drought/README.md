@@ -19,7 +19,7 @@ The hazard indicator is an **empirical drought probability**: the number of mont
 
 Monthly precipitation (and temperature/PET for SPEI) data is downloaded from TerraClimate. SPI-12 and SPEI-12 are computed across the full 1958–2025 record. For each pixel, the number of months where the index falls below the drought threshold (−1.5) is counted and divided by the total number of months (804) to produce an empirical probability score, which is then uploaded to Google Earth Engine.
 
-**Script:** [`compute_SPI_SPEI.ipynb`](compute_SPI_SPEI.ipynb) (from CCRR `script/data_prep/`)  
+**Processing repository:** [github.com/dohyung-kim/precip-index](https://github.com/dohyung-kim/precip-index)  
 **GEE assets:**  
 - `projects/unicef-ccri/assets/hazards/SPI12`  
 - `projects/unicef-ccri/assets/hazards/SPEI12`
