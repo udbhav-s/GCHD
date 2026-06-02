@@ -18,9 +18,9 @@ The database covers four hazard categories:
 |---|---|
 | **Climate** | River flood, coastal flood, tropical storm, agricultural drought, meteorological drought, heatwave, extreme heat, wildfire, sand & dust storm |
 | **Climate-related** | Air pollution (PM2.5), malaria |
-| **Geophysical** | Earthquake, volcano, landslide *(planned Q3 2025)* |
+| **Geophysical** | Earthquake, volcano, landslide *(planned Q3 2026)* |
 | **Environmental** | *(planned Q4 2025)* |
-| **Conflict** | Armed conflict *(planned Q3 2025)* |
+| **Conflict** | Armed conflict *(planned Q3 2026)* |
 
 ---
 
