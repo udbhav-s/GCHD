@@ -13,11 +13,11 @@ Two standardised drought indices computed at 12-month accumulation period:
 - **SPI-12** (Standardised Precipitation Index): measures precipitation deficit relative to long-term average
 - **SPEI-12** (Standardised Precipitation-Evapotranspiration Index): measures water balance deficit accounting for temperature-driven evapotranspiration
 
-The 90th percentile of SPI-12 and SPEI-12 severity is used as the hazard indicator.
+The hazard indicator is an **empirical drought probability**: the number of months in which the index falls below the drought threshold, divided by the total number of months in the full study period (1958–2025, 804 monthly time steps). This gives a dimensionless probability score between 0 and 1 representing how often a location experiences drought conditions.
 
 ## Processing
 
-Monthly precipitation (and temperature/PET for SPEI) data is downloaded from TerraClimate. SPI and SPEI are computed over a multi-decade baseline period, and the 90th percentile of drought severity is extracted and uploaded to Google Earth Engine.
+Monthly precipitation (and temperature/PET for SPEI) data is downloaded from TerraClimate. SPI-12 and SPEI-12 are computed across the full 1958–2025 record. For each pixel, the number of months where the index falls below the drought threshold is counted and divided by the total number of months (804) to produce an empirical probability score, which is then uploaded to Google Earth Engine.
 
 **Script:** [`compute_SPI_SPEI.ipynb`](compute_SPI_SPEI.ipynb) (from CCRR `script/data_prep/`)  
 **GEE assets:**  
