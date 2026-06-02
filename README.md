@@ -2,7 +2,7 @@
 
 **UNICEF Data Science | Climate & Environment Data Unit**
 
-The Global Children's Hazard Database (GCHD) is an open, spatially explicit database cataloguing children's exposure to climate, geophysical, and conflict hazards worldwide. It provides the foundational hazard data layer for UNICEF's [Children's Climate Risk Index (CCRI)](https://www.unicef.org/reports/climate-crisis-child-rights-crisis) and sub-national risk assessments.
+The Global Children's Hazard Database (GCHD) is an open, spatially explicit database cataloguing children's exposure to climate, geophysical, and conflict hazards worldwide. It provides the foundational hazard data layer for UNICEF's [Children's Climate Risk Report (CCRR)](https://www.unicef.org/reports/climate-crisis-child-rights-crisis) and sub-national risk assessments.
 
 ---
 
