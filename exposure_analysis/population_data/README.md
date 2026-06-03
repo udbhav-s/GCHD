@@ -10,10 +10,12 @@ https://www.worldpop.org/
 
 | Layer | Description | GEE Asset |
 |---|---|---|
-| Children (under 18) | Total children under 18 per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_U18_2025_CN_100m` |
+| Children under 18 (total) | Total children under 18 per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_U18_2025_CN_100m` |
+| Children under 18 (female) | Girls under 18 per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_F_U18_2025_CN_100m` |
+| Children under 18 (male) | Boys under 18 per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_M_U18_2025_CN_100m` |
 | Total population | Total population per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_2025_CN_100m` |
-
-Sex-disaggregated layers (girls, boys) are derived from the same WorldPop source.
+| Total population (female) | Female population per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_F_2025_CN_100m` |
+| Total population (male) | Male population per 100 m pixel, 2025 | `projects/unicef-ccri/assets/population/worldpop_T_M_2025_CN_100m` |
 
 ## Spatial Resolution
 
