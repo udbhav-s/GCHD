@@ -8,9 +8,8 @@ This folder contains scripts for computing and storing country-level (ADM0) chil
 
 Population-weighted exposure is computed in Google Earth Engine using `reduceRegions` over ADM0 country boundaries.
 
-**Scripts** (from CCRR `script/data_prep/`):
-- [`hazard_exposure_new.ipynb`](hazard_exposure_new.ipynb) — Country-level exposure computation (primary script)
-- [`adm2_hazard_exposure_updated.ipynb`](adm2_hazard_exposure_updated.ipynb) — Sub-national exposure (also used for ADM0 aggregation)
+**Script:**
+- [`hazard_exposure_new.ipynb`](hazard_exposure_new.ipynb) — Country-level exposure computation
 
 ## Output
 
