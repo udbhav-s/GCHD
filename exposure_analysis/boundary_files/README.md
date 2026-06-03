@@ -4,11 +4,13 @@
 
 GCHD uses UNICEF's harmonised administrative boundary layers hosted as Google Earth Engine assets.
 
-| Level | Description | GEE Asset |
-|---|---|---|
-| ADM0 | Country boundaries (229 countries and territories) | `projects/unicef-ccri/assets/boundaries/adm0_chunked_500km_shp` |
-| ADM1 | First sub-national level | `projects/unicef-ccri/assets/boundaries/adm1` |
-| ADM2 | Second sub-national level | `projects/unicef-ccri/assets/boundaries/adm2` |
+| Level | Description | Default GEE Asset | Chunked Asset (batch processing) |
+|---|---|---|---|
+| ADM0 | Country boundaries (229 countries and territories) | `projects/unicef-ccri/assets/global_boundary/adm0` | `projects/unicef-ccri/assets/global_boundary/adm0_chunked` |
+| ADM1 | First sub-national level | `projects/unicef-ccri/assets/global_boundary/adm1` | `projects/unicef-ccri/assets/global_boundary/adm1_chunked` |
+| ADM2 | Second sub-national level | `projects/unicef-ccri/assets/global_boundary/adm2` | `projects/unicef-ccri/assets/global_boundary/adm2_chunked` |
+
+The default asset is used for standard processing. The chunked variant splits boundaries into smaller tiles for enhanced batch processing performance in Google Earth Engine.
 
 ## Coverage
 
