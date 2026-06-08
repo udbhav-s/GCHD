@@ -61,3 +61,8 @@ CLAUDE.md
 
 # Office lock files
 .~lock.*
+
+# Allow specific config files (override *.json and *.csv rules above)
+!exposure_analysis/subnational_level/config/hazard_info.json
+!exposure_analysis/subnational_level/config/countries_info.csv
+!exposure_analysis/subnational_level/config/countries_NA_summary.csv
