@@ -1,0 +1,290 @@
+,ISO3,name,type,ucode
+0,ATA,Antarctica,Antarctica,ATA_V1
+1,AIA,Anguilla,Non-Self Governing Territory,AIA_V2
+2,ASM,American Samoa (USA),Non-Self Governing Territory,ASM_V1
+3,BMU,Bermuda,Non-Self Governing Territory,BMU_V2
+4,CYM,Cayman Islands,Non-Self Governing Territory,CYM_V2
+5,ESH,Western Sahara,Non-Self Governing Territory,ESH_V1
+6,FLK,Falkland Islands (Malvinas),Non-Self Governing Territory,FLK_V1
+7,GIB,Gibraltar,Non-Self Governing Territory,GIB_V1
+8,GUM,Guam (USA),Non-Self Governing Territory,GUM_V1
+9,MSR,Montserrat,Non-Self Governing Territory,MSR_V2
+10,NCL,New Caledonia,Non-Self Governing Territory,NCL_V1
+11,PCN,Pitcairn,Non-Self Governing Territory,PCN_V1
+12,PYF,Clipperton Island,Non-Self Governing Territory,PYF1_V1
+13,PYF,French Polynesia,Non-Self Governing Territory,PYF_V1
+14,SHN,Saint Helena (Ascencion),Non-Self Governing Territory,SHN1_V1
+15,SHN,Saint Helena (Tristan da Cunha),Non-Self Governing Territory,SHN2_V1
+16,SHN,Saint Helena (Gough),Non-Self Governing Territory,SHN3_V1
+17,SHN,Saint Helena,Non-Self Governing Territory,SHN_V1
+18,TCA,Turks and Caicos Islands,Non-Self Governing Territory,TCA_V2
+19,TKL,Tokelau,Non-Self Governing Territory,TKL_V2
+20,VGB,British Virgin Islands,Non-Self Governing Territory,VGB_V2
+21,VIR,United States Virgin Islands (USA),Non-Self Governing Territory,VIR_V2
+22,GRL,Greenland,Self Governing Territory,GRL_V1
+23,EGY,Bi'r Tawīl,Sovereignty unsettled,EGY1_V1
+24,SDN,Hala'ib Triangle,Sovereignty unsettled,SDN1_V1
+25,SSD,Ilemi Triangle,Sovereignty unsettled,SSD1_V1
+26,xAB,Abyei,Sovereignty unsettled,xAB_V1
+27,xAC,Aksai Chin,Sovereignty unsettled,xAC_V1
+28,xAP,Arunachal Pradesh,Sovereignty unsettled,xAP_V1
+29,xJK,Jammu and Kashmir,Sovereignty unsettled,xJK_V1
+30,xJL,Sovereignty unsettled,Sovereignty unsettled,xJL_V1
+31,xPI,Paracel Islands,Sovereignty unsettled,xPI_V1
+32,xRI,Kuril Islands,Sovereignty unsettled,xRI_V1
+33,xSI,Spratly Islands,Sovereignty unsettled,xSI_V1
+34,xSK,Senkaku Islands,Sovereignty unsettled,xSK_V1
+35,xSR,Scarborough Reef,Sovereignty unsettled,xSR_V1
+36,xxx,China/India,Sovereignty unsettled,xxx_V1
+37,HKG,Hong Kong,Special Region or Province,HKG_V1
+38,MAC,Macao,Special Region or Province,MAC_V1
+39,TWN,Taiwan,Special Region or Province,TWN_V1
+40,AFG,Afghanistan,State,AFG_V1
+41,AGO,Angola,State,AGO_V1
+42,ALB,Albania,State,ALB_V1
+43,AND,Andorra,State,AND_V1
+44,ARE,United Arab Emirates,State,ARE_V1
+45,ARG,Argentina,State,ARG_V1
+46,ARM,Armenia,State,ARM_V1
+47,ATG,Antigua and Barbuda,State,ATG_V2
+48,AUS,Australia,State,AUS_V1
+49,AUT,Austria,State,AUT_V1
+50,AZE,Azerbaijan,State,AZE_V1
+51,BDI,Burundi,State,BDI_V1
+52,BEL,Belgium,State,BEL_V1
+53,BEN,Benin,State,BEN_V1
+54,BFA,Burkina Faso,State,BFA_V1
+55,BGD,Bangladesh,State,BGD_V1
+56,BGR,Bulgaria,State,BGR_V1
+57,BHR,Bahrain,State,BHR_V2
+58,BHS,Bahamas,State,BHS_V2
+59,BIH,Bosnia and Herzegovina,State,BIH_V1
+60,BLR,Belarus,State,BLR_V1
+61,BLZ,Belize,State,BLZ_V1
+62,BOL,Bolivia (Plurinational State of),State,BOL_V1
+63,BRA,Brazil,State,BRA_V1
+64,BRB,Barbados,State,BRB_V2
+65,BRN,Brunei Darussalam,State,BRN_V1
+66,BTN,Bhutan,State,BTN_V1
+67,BWA,Botswana,State,BWA_V1
+68,CAF,Central African Republic,State,CAF_V1
+69,CAN,Canada,State,CAN_V1
+70,CHE,Switzerland,State,CHE_V1
+71,CHL,Chile,State,CHL_V1
+72,CHN,China,State,CHN_V1
+73,CIV,Côte d'Ivoire,State,CIV_V1
+74,CMR,Cameroon,State,CMR_V1
+75,COD,Democratic Republic of the Congo,State,COD_V1
+76,COG,Congo,State,COG_V1
+77,COL,Colombia,State,COL_V1
+78,COM,Comoros,State,COM_V2
+79,CPV,Cape Verde,State,CPV_V2
+80,CRI,Costa Rica,State,CRI_V1
+81,CUB,Cuba,State,CUB_V2
+82,CYP,Cyprus,State,CYP_V1
+83,CZE,Czechia,State,CZE_V1
+84,DEU,Germany,State,DEU_V1
+85,DJI,Djibouti,State,DJI_V1
+86,DMA,Dominica,State,DMA_V2
+87,DNK,Denmark,State,DNK_V1
+88,DOM,Dominican Republic,State,DOM_V2
+89,DZA,Algeria,State,DZA_V1
+90,ECU,Ecuador,State,ECU_V1
+91,EGY,Egypt,State,EGY_V1
+92,ERI,Eritrea,State,ERI_V1
+93,ESP,Spain,State,ESP_V1
+94,EST,Estonia,State,EST_V1
+95,ETH,Ethiopia,State,ETH_V1
+96,FIN,Finland,State,FIN_V1
+97,FJI,Fiji,State,FJI_V2
+98,FRA,France,State,FRA_V1
+99,FSM,Micronesia (Federated States of),State,FSM_V2
+100,GAB,Gabon,State,GAB_V1
+101,GBR,United Kingdom of Great Britain & Northern Ireland,State,GBR_V1
+102,GEO,Georgia,State,GEO_V1
+103,GHA,Ghana,State,GHA_V1
+104,GIN,Guinea,State,GIN_V1
+105,GMB,Gambia,State,GMB_V1
+106,GNB,Guinea-Bissau,State,GNB_V1
+107,GNQ,Equatorial Guinea,State,GNQ_V1
+108,GRC,Greece,State,GRC_V1
+109,GRD,Grenada,State,GRD_V2
+110,GTM,Guatemala,State,GTM_V1
+111,GUY,Guyana,State,GUY_V1
+112,HND,Honduras,State,HND_V1
+113,HRV,Croatia,State,HRV_V1
+114,HTI,Haiti,State,HTI_V2
+115,HUN,Hungary,State,HUN_V1
+116,IDN,Indonesia,State,IDN_V1
+117,IND,India,State,IND_V1
+118,IRL,Ireland,State,IRL_V1
+119,IRN,Iran (Islamic Republic of),State,IRN_V1
+120,IRQ,Iraq,State,IRQ_V1
+121,ISL,Iceland,State,ISL_V1
+122,ISR,Israel,State,ISR_V1
+123,ITA,Italy,State,ITA_V1
+124,JAM,Jamaica,State,JAM_V2
+125,JOR,Jordan,State,JOR_V1
+126,JPN,Japan,State,JPN_V1
+127,KAZ,Kazakhstan,State,KAZ_V1
+128,KEN,Kenya,State,KEN_V1
+129,KGZ,Kyrgyzstan,State,KGZ_V1
+130,KHM,Cambodia,State,KHM_V1
+131,KIR,Kiribati,State,KIR_V2
+132,KNA,Saint Kitts and Nevis,State,KNA_V2
+133,KOR,Republic of Korea,State,KOR_V1
+134,KWT,Kuwait,State,KWT_V1
+135,LAO,Lao People's Democratic Republic,State,LAO_V1
+136,LBN,Lebanon,State,LBN_V1
+137,LBR,Liberia,State,LBR_V1
+138,LBY,Libya,State,LBY_V1
+139,LCA,Saint Lucia,State,LCA_V2
+140,LIE,Liechtenstein,State,LIE_V1
+141,LKA,Sri Lanka,State,LKA_V1
+142,LSO,Lesotho,State,LSO_V1
+143,LTU,Lithuania,State,LTU_V1
+144,LUX,Luxembourg,State,LUX_V1
+145,LVA,Latvia,State,LVA_V1
+146,MAR,Morocco,State,MAR_V1
+147,MCO,Monaco,State,MCO_V1
+148,MDA,Moldova,State,MDA_V1
+149,MDG,Madagascar,State,MDG_V1
+150,MDV,Maldives,State,MDV_V2
+151,MEX,Mexico,State,MEX_V1
+152,MHL,Marshall Islands,State,MHL_V2
+153,MKD,North Macedonia,State,MKD_V1
+154,MLI,Mali,State,MLI_V1
+155,MLT,Malta,State,MLT_V1
+156,MMR,Myanmar,State,MMR_V1
+157,MNE,Montenegro,State,MNE_V1
+158,MNG,Mongolia,State,MNG_V1
+159,MOZ,Mozambique,State,MOZ_V1
+160,MRT,Mauritania,State,MRT_V1
+161,MUS,Mauritius,State,MUS_V2
+162,MWI,Malawi,State,MWI_V1
+163,MYS,Malaysia,State,MYS_V1
+164,NAM,Namibia,State,NAM_V1
+165,NER,Niger,State,NER_V1
+166,NGA,Nigeria,State,NGA_V1
+167,NIC,Nicaragua,State,NIC_V1
+168,NLD,Netherlands,State,NLD_V1
+169,NOR,Norway,State,NOR_V1
+170,NPL,Nepal,State,NPL_V1
+171,NRU,Nauru,State,NRU_V2
+172,NZL,New Zealand,State,NZL_V1
+173,OMN,Oman,State,OMN_V1
+174,PAK,Pakistan,State,PAK_V1
+175,PAN,Panama,State,PAN_V1
+176,PER,Peru,State,PER_V1
+177,PHL,Philippines,State,PHL_V1
+178,PLW,Palau,State,PLW_V2
+179,PNG,Papua New Guinea,State,PNG_V1
+180,POL,Poland,State,POL_V1
+181,PRK,Democratic People's Republic of Korea,State,PRK_V1
+182,PRT,Portugal,State,PRT_V1
+183,PRY,Paraguay,State,PRY_V1
+184,PSE,State of Palestine,State,PSE_V1
+185,QAT,Qatar,State,QAT_V1
+186,ROU,Romania,State,ROU_V1
+187,RUS,Russian Federation,State,RUS_V1
+188,RWA,Rwanda,State,RWA_V1
+189,SAU,Saudi Arabia,State,SAU_V1
+190,SDN,Sudan,State,SDN_V1
+191,SEN,Senegal,State,SEN_V1
+192,SGP,Singapore,State,SGP_V2
+193,SLB,Solomon Islands,State,SLB_V2
+194,SLE,Sierra Leone,State,SLE_V1
+195,SLV,El Salvador,State,SLV_V1
+196,SMR,San Marino,State,SMR_V1
+197,SOM,Somalia,State,SOM_V1
+198,SRB,Serbia,State,SRB_V1
+199,SSD,South Sudan,State,SSD_V1
+200,STP,Sao Tome and Principe,State,STP_V2
+201,SUR,Suriname,State,SUR_V1
+202,SVK,Slovakia,State,SVK_V1
+203,SVN,Slovenia,State,SVN_V1
+204,SWE,Sweden,State,SWE_V1
+205,SWZ,Eswatini,State,SWZ_V1
+206,SYC,Seychelles,State,SYC_V2
+207,SYR,Syrian Arab Republic,State,SYR_V1
+208,TCD,Chad,State,TCD_V1
+209,TGO,Togo,State,TGO_V1
+210,THA,Thailand,State,THA_V1
+211,TJK,Tajikistan,State,TJK_V1
+212,TKM,Turkmenistan,State,TKM_V1
+213,TLS,Timor-Leste,State,TLS_V1
+214,TON,Tonga,State,TON_V2
+215,TTO,Trinidad and Tobago,State,TTO_V2
+216,TUN,Tunisia,State,TUN_V1
+217,TUR,Republic of Türkiye,State,TUR_V1
+218,TUV,Tuvalu,State,TUV_V2
+219,TZA,United Republic of Tanzania,State,TZA_V1
+220,UGA,Uganda,State,UGA_V1
+221,UKR,Ukraine,State,UKR_V1
+222,URY,Uruguay,State,URY_V1
+223,USA,United States of America,State,USA_V1
+224,UZB,Uzbekistan,State,UZB_V1
+225,VAT,Holy See,State,VAT_V1
+226,VCT,Saint Vincent and the Grenadines,State,VCT_V2
+227,VEN,Venezuela,State,VEN_V1
+228,VNM,Viet Nam,State,VNM_V1
+229,VUT,Vanuatu,State,VUT_V2
+230,WSM,Samoa,State,WSM_V2
+231,YEM,Yemen,State,YEM_V1
+232,ZAF,South Africa,State,ZAF_V1
+233,ZMB,Zambia,State,ZMB_V1
+234,ZWE,Zimbabwe,State,ZWE_V1
+235,ABW,Aruba,Territory,ABW_V2
+236,ALA,Åland Islands,Territory,ALA_V1
+237,ATF,Bassas da India,Territory,ATF1_V1
+238,ATF,Europa Island,Territory,ATF2_V1
+239,ATF,Juan de Nova Island,Territory,ATF3_V1
+240,ATF,French Southern Territories,Territory,ATF_V1
+241,AUS,Ashmore and Cartier Islands,Territory,AUS1_V1
+242,BES,Saba,Territory,BES1_V2
+243,BES,Sint Eustatius,Territory,BES2_V2
+244,BES,Bonaire,Territory,BES3_V2
+245,BLM,Saint Barthélemy,Territory,BLM_V2
+246,BVT,Bouvet Island,Territory,BVT_V1
+247,CCK,Cocos (Keeling) Islands,Territory,CCK_V1
+248,COK,Cook Islands,Territory,COK_V2
+249,CUW,Curaçao,Territory,CUW_V2
+250,CXR,Christmas Island,Territory,CXR_V1
+251,ESP,Canary Islands,Territory,ESP1_V1
+252,FRO,Faroe Islands,Territory,FRO_V1
+253,GGY,Guernsey,Territory,GGY_V1
+254,GLP,Guadeloupe,Territory,GLP_V2
+255,GUF,French Guiana,Territory,GUF_V1
+256,HMD,Heard Island and McDonald Islands,Territory,HMD_V1
+257,IMN,Isle of Man,Territory,IMN_V1
+258,IOT,Chagos Archipelagio,Territory,IOT_V1
+259,JEY,Jersey,Territory,JEY_V1
+260,MAF,Saint Martin,Territory,MAF_V2
+261,MNP,Northern Mariana Is. (USA),Territory,MNP_V1
+262,MTQ,Martinique,Territory,MTQ_V2
+263,MYT,Mayotte,Territory,MYT_V1
+264,NFK,Norfolk Island,Territory,NFK_V1
+265,NIU,Niue,Territory,NIU_V2
+266,PRI,Puerto Rico (USA),Territory,PRI_V2
+267,PRT,Azores Islands,Territory,PRT1_V1
+268,PRT,Madeira Islands,Territory,PRT2_V1
+269,REU,Réunion,Territory,REU_V1
+270,SGS,South Georgia and the South Sandwich Islands,Territory,SGS_V1
+271,SJM,Svalbard and Jan Mayen Islands,Territory,SJM_V1
+272,SPM,Saint Pierre et Miquelon,Territory,SPM_V1
+273,SXM,Sint Maarten,Territory,SXM_V2
+274,UMI,Baker Island,Territory,UMI1_V1
+275,UMI,Wake Island,Territory,UMI2_V1
+276,UMI,Howland Island,Territory,UMI3_V1
+277,UMI,Jarvis Island,Territory,UMI4_V1
+278,UMI,Johnston Atoll,Territory,UMI5_V1
+279,UMI,Kingman Reef,Territory,UMI6_V1
+280,UMI,Midway Islands,Territory,UMI7_V1
+281,UMI,Palmyra Atoll,Territory,UMI8_V1
+282,UMI,Navassa Island,Territory,UMI9_V1
+283,VEN,Bird Island,Territory,VEN1_V1
+284,WLF,Wallis and Futuna,Territory,WLF_V1
+285,xFR,Tromelin Island,Territory,xFR1_V1
+286,xFR,Glorioso Islands,Territory,xFR2_V1
+287,xUK,Akrotiri,Territory,xUK1_V1
+288,xUK,Dekelia,Territory,xUK2_V1

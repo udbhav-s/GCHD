@@ -1,0 +1,34 @@
+no,ucode,name,type,list_name
+1,ALA_V1,Åland Islands,Non-official,non_official_codes
+2,CCK_V1,Cocos (Keeling) Islands,Non-official,non_official_codes
+3,CXR_V1,Christmas Island,Non-official,non_official_codes
+4,ESH_V1,Western Sahara,Non-official,non_official_codes
+5,GGY_V1,Guernsey,Non-official,non_official_codes
+6,JEY_V1,Jersey,Non-official,non_official_codes
+7,NFK_V1,Norfolk Island,Non-official,non_official_codes
+8,PCN_V1,Pitcairn,Non-official,non_official_codes
+9,SJM_V1,Svalbard and Jan Mayen Islands,Non-official,non_official_codes
+10,EGY1_V1,Bi'r Tawīl,Sovereignty unsettled,sovereignty_unsettled_countries
+11,SDN1_V1,Hala'ib Triangle,Sovereignty unsettled,sovereignty_unsettled_countries
+12,SSD1_V1,Ilemi Triangle,Sovereignty unsettled,sovereignty_unsettled_countries
+13,xAB_V1,Abyei,Sovereignty unsettled,sovereignty_unsettled_countries
+14,xAC_V1,Aksai Chin,Sovereignty unsettled,sovereignty_unsettled_countries
+15,xAP_V1,Arunachal Pradesh,Sovereignty unsettled,sovereignty_unsettled_countries
+16,xJK_V1,Jammu and Kashmir,Sovereignty unsettled,sovereignty_unsettled_countries
+17,xJL_V1,Sovereignty unsettled,Sovereignty unsettled,sovereignty_unsettled_countries
+18,xPI_V1,Paracel Islands,Sovereignty unsettled,sovereignty_unsettled_countries
+19,xRI_V1,Kuril Islands,Sovereignty unsettled,sovereignty_unsettled_countries
+20,xSI_V1,Spratly Islands,Sovereignty unsettled,sovereignty_unsettled_countries
+21,xSK_V1,Senkaku Islands,Sovereignty unsettled,sovereignty_unsettled_countries
+22,xSR_V1,Scarborough Reef,Sovereignty unsettled,sovereignty_unsettled_countries
+23,xxx_V1,China/India,Sovereignty unsettled,sovereignty_unsettled_countries
+24,NIC_V1,Nicaragua,Insufficient data,id_countries_insufficient_data
+25,PSE_V1,State of Palestine,Insufficient data,id_countries_insufficient_data
+26,TUV_V2,Tuvalu,SPEI/SPI insufficient data,id_countries_spei_spi
+27,MHL_V2,Marshall Islands,SPEI/SPI insufficient data,id_countries_spei_spi
+28,FSM_V2,Micronesia (Federated States of),SPEI/SPI insufficient data,id_countries_spei_spi
+29,MDV_V2,Maldives,SPEI/SPI insufficient data,id_countries_spei_spi
+30,KIR_V2,Kiribati,SPEI/SPI insufficient data,id_countries_spei_spi
+31,NRU_V2,Nauru,SPEI/SPI insufficient data,id_countries_spei_spi
+32,SYC_V2,Seychelles,SPEI/SPI insufficient data,id_countries_spei_spi
+33,VCT_V2,Saint Vincent and the Grenadines,SPEI/SPI insufficient data,id_countries_spei_spi
