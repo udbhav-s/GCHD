@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+  "title": "Environment-friendly urban street design for decentralized ecological rainwater management in Ober-Grafendorf, Lower Austria",
+  "summary": "In Ober-Grafendorf, a decentralized rainwater management system was implemented to address flooding and drought challenges caused by climate change. This system reduces costs for the municipality and households, and provides multiple environmental benefits through smart street infrastructure. The municipality of Ober-Grafendorf is located at an elevation of 280 m in a typical pre-Alpine landscape in the Mostviertel region in the western part of the Austrian province Lower Austria.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ober-Grafendorf",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Oberösterreich",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Oberösterreich__AT_",
+        "source_name": "Oberösterreich (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.1518862465,
+    "lon": 15.5696868896,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zenebio.at",
+      "url": "http://zenebio.at/buchenstrasse-obergrafendorf/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cipra.org",
+      "url": "https://www.cipra.org/en/cipra/international/projects/completed/C3-Alps",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ober-grafendorf.gv.at",
+      "url": "https://www.ober-grafendorf.gv.at/sites/oekostrasse",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "c70f3450b07a4026b4b2a42569b3be16",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

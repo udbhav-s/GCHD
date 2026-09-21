@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+  "title": "An orchard as living laboratory for exploring climate resilient agrobiodiversity and food production in IJsselstein (The Netherlands)",
+  "summary": "A publicly accessible urban orchard with immense genetic heritage is maintained to preserve its biodiversity and food provision in the face of climate change. This requires continuity in funding and management. The fruit collection of IJsselstein is the largest within Dutch city boundaries. It contains more than 2000 fruit trees representing over 800 varieties, including around 300 rare or no longer cultivated types. The preservation of this important genetic variety is key to maintain agrobiodiversity under current and future climate conditions. The collection includes around 30 orchard sites, spread around the suburbs in the city, covering an average surface of 0.5 hectare each.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "IJsselstein",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Utrecht",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Utrecht__NL_",
+        "source_name": "Utrecht (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 52.02560104913948,
+    "lon": 5.03280249356953,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "fruitcollectieijsselstein.nl",
+      "url": "https://www.fruitcollectieijsselstein.nl/infoborden-rondom-het-fruit/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.fruitcollectieijsselstein.nl",
+      "url": "www.fruitcollectieijsselstein.nl",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.knij.nl",
+      "url": "www.knij.nl",
+      "role": "contextual_input"
+    },
+    {
+      "name": "rmn.kaartviewer.nl",
+      "url": "https://rmn.kaartviewer.nl/iconviewer/index.html?website=Fruitbomen_iconen",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+    "publication_date": "2025-11-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "351227cd9a1b4fb78d2141f9014c9fba",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:27:02+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

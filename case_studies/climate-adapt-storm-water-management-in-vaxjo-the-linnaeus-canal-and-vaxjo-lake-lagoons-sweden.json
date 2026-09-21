@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-storm-water-management-in-vaxjo-the-linnaeus-canal-and-vaxjo-lake-lagoons-sweden",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/storm-water-management-in-vaxjo-the-linnaeus-canal-and-vaxjo-lake-lagoons-sweden",
+  "title": "Storm water management in Växjö - the Linnaeus canal and Växjö lake lagoons, Sweden",
+  "summary": "The Linnaeus canal and connected lagoons were constructed to prevent the frequent flooding of the nearby streets. While its dimensions had to be restrained due to urban space limitations, the canal provides benefits both in terms of environmental and water management targets. The City of Växjö is situated in the southern part of Sweden, surrounded by forests and lakes. As many parts of the central city of Växjö were built upon wet and swampy areas they are vulnerable to floods after heavy rainfall events. One of the most affected parts is the street Linnégatan which is built on a previously existing small stream and which is situated much lower than the surrounding built areas.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Växjö",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": "country/SWE",
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Småland med öarna",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Småland_med_öarna__SE_",
+        "source_name": "Småland med öarna (SE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 56.8850017189,
+    "lon": 14.7875976557,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/storm-water-management-in-vaxjo-the-linnaeus-canal-and-vaxjo-lake-lagoons-sweden",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "01055f7d55844119b5fe4f7643a0c0cb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/storm-water-management-in-vaxjo-the-linnaeus-canal-and-vaxjo-lake-lagoons-sweden",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:01+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

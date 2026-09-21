@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-wetland-adaptation-in-attica-region-greece-1",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/wetland-adaptation-in-attica-region-greece-1",
+  "title": "Adaptation to droughts in wetlands of Attica Region, Greece",
+  "summary": "The Attica region in Greece is working to gradually implement an adaptation strategy and action plan for the conservation of wetlands, a highly vulnerable ecosystem that suffers from increasing droughts. The improved scientific evidence on the benefits provided by wetlands is creating the conditions for their legal designation and adaptive management. The strategy and action plan for the wetland ecosystems in Attica Region (Greece) were developed in the OrientGate project by the Environmental Department of Attica Regional Authority with the scientific support of the Greek Biotope Wetland Centre (EKBY).",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": "country/GRC",
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Aττική (Attiki)",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Aττική__Attiki__GR_",
+        "source_name": "Aττική (Attiki) (GR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 38.0221314722,
+    "lon": 23.8732910147,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "orientgateproject.org",
+      "url": "https://orientgateproject.org",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eeagrants.org",
+      "url": "https://eeagrants.org/archive/2009-2014/projects/GR02-0006",
+      "role": "contextual_input"
+    },
+    {
+      "name": "adriadapt.eu",
+      "url": "https://adriadapt.eu/case-studies/climate-change-adaptation-of-wetlands-in-attica-region-greece/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "una.city",
+      "url": "https://una.city/nbs/athens/wetland-adaptation-attica-region",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pka.attica.gov.gr",
+      "url": "https://pka.attica.gov.gr",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/wetland-adaptation-in-attica-region-greece-1",
+    "publication_date": "2023-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e11fef1073804dbab98b0f4a1459a290",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/wetland-adaptation-in-attica-region-greece-1",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:27+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

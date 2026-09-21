@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
+  "title": "CALCHAS - An integrated analysis system for the effective fire conservancy of forests",
+  "summary": "To address the rising wildfire threats in Mediterranean forests, the CALCHAS project created the Integrated Forest Fire Analysis System (IFFAS), a transferable system using simulations and meteorological data for effective fire conservation. Training was provided for local authorities. Fire is the most significant natural threat to forests and wooded areas of the Mediterranean basin. The average annual number of forest fires in the Mediterranean basin, particularly in southern Europe, is close to 50,000 - twice as many as during the 1970s. The natural plant ecosystem of the Mediterranean basin is rich in shrubs and coniferous forests and, thus, particularly susceptible to fire.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Cyprus",
+        "ucode": "CYP_V1",
+        "dcid": "country/CYP",
+        "iso3": "CYP"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": "country/GRC",
+        "iso3": "GRC"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 40.3919270096,
+    "lon": 20.8340263358,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "ec.europa.eu",
+      "url": "https://ec.europa.eu/environment/life/project/Projects/index.cfm?fuseaction=search.dspPage&n_proj_id=3478",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=qrjkyqpkmz4",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
+    "publication_date": "2014-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "cc7ed55a55e9439abf13ce8cfbe56d43",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

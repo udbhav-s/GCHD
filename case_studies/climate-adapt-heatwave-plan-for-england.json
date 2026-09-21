@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-heatwave-plan-for-england",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heatwave-plan-for-england",
+  "title": "Heatwave plan for England",
+  "summary": "In 2003, a 10 day heatwave period caused over 2,000 excess deaths (compared to the same dates in the previous five years) in UK. As a response, the heatwave plan for England was first issued in 2014 and has since undergone annual updates (last update in May 2016 has not introduced changes to 2015 version that therefore it is the one still valid). The plan intends to protect the population from heat-related harm to health. It aims to prepare for, alert people to, and prevent, the major avoidable effects on health during periods of severe heat.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 52.6412861629,
+    "lon": -1.43554776907,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/government/publications/heatwave-plan-for-england",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/guidance/local-resilience-forums-contact-details",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/government/publications/healthy-lives-healthy-people-improving-outcomes-and-supporting-transparency",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heatwave-plan-for-england",
+    "publication_date": "2016-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e78ef8e7240d4b0e883b0d0e187b74bc",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/heatwave-plan-for-england",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:47+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

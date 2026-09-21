@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+  "title": "Online training in climate change and health for the public health and wider health workforce in Europe",
+  "summary": "An open online course on the interplay between climate change and health, by the Association of Schools of Public Health in the European Region (ASPHER) and the Global Consortium on Climate and Health Education (GCCHE), built capacity and enhanced the climate-health literacy of the public health and wider health professionals in Europe.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Europe",
+      "adm0": null,
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 50.8465573,
+    "lon": 4.351697,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "aspher.org",
+      "url": "https://www.aspher.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "publichealth.columbia.edu",
+      "url": "https://www.publichealth.columbia.edu/research/programs/global-consortium-climate-health-education/courses/past-courses/european-climate-health-responder-course",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+    "publication_date": "2024-10-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "dd7db8462664429d928cb69086bee2e9",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

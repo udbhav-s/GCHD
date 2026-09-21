@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-protecting-surface-water-quality-in-lappeenranta",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+  "title": "Protecting surface water quality in Lappeenranta, Finland",
+  "summary": "A stormwater management program integrates infrastructure and nature-based solutions to guarantee high quality standards for lake water in Lappeenranta, Finland, where climate change will raise human health risk due to deteriorating drinking and bathing water quality in Lake Saimaa. Lappeenranta is a medium-sized city (73,000 inhabitants) on the shore of Lake Saimaa in south-eastern Finland. The city is facing significant climate change risks from increased rainfall, extreme weather and flood events. Flood water and water from melting snow carry contaminants which decrease water quality in the lake and jeopardises drinking and bathing water quality for Lappeenranta residents.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lappeenranta",
+      "adm0": {
+        "name": "Finland",
+        "ucode": "FIN_V1",
+        "dcid": "country/FIN",
+        "iso3": "FIN"
+      },
+      "adm1": {
+        "name": "Etelä-Suomi",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Etelä_Suomi__FI_",
+        "source_name": "Etelä-Suomi (FI)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 61.0,
+    "lon": 28.0,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "transformar.eu",
+      "url": "https://transformar.eu/demonstrator-1-city-of-lappeenranta-finland/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+    "publication_date": "2024-02-29",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4e61866caa4d4042a96c8a371d854f16",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
+  "title": "Adapting to climate change by improving irrigation practice in Vipava Valley, Slovenia",
+  "summary": "In the Vipava Valley, the LIFE ViVaCCAdapt project developed a decision support system for irrigation to help farmers optimize water usage during dry periods, based on real-time soil-water monitoring. As a result, energy consumption and CO 2 emissions were also reduced. The Vipava Valley is a Slovenian region characterized by favourable natural conditions for the development of intensive agriculture. However, this region is also exposed to drought, floods, frost and strong winds. Due to climate change, this specific exposure effects becomes more frequent. Extensive measures have been applied in the region over the years to improve irrigation reliability during dry periods.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Slovenia",
+        "ucode": "SVN_V1",
+        "dcid": "country/SVN",
+        "iso3": "SVN"
+      },
+      "adm1": {
+        "name": "Zahodna Slovenija",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Zahodna_Slovenija__SI_",
+        "source_name": "Zahodna Slovenija (SI)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 45.8598305466,
+    "lon": 13.9286899567,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
+    "publication_date": "2023-01-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b97a968a085648f2845a1bca6a8096d0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:44+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

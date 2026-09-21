@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+  "title": "New North Zealand Hospital: A resilient acute care hospital for the future, Hillerød, Denmark",
+  "summary": "The new North Zealand Hospital in Hillerød aims to enhance resilience against climate-related impacts by incorporating a climate-informed design, innovative solutions for flood risk reduction and flexible organisation. It sets a blueprint for future hospitals of the country. Climate change is increasing the frequency and magnitude of extreme weather events and creates risks that will impact health care facilities. Exposure of hospitals and other health facilities to heatwaves, flooding or other climate impacts can have negative impact on the patient and staff health.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hillerød",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": "country/DNK",
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "Hovedstaden",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Hovedstaden__DK_",
+        "source_name": "Hovedstaden (DK)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 55.92899,
+    "lon": 12.3057,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "regionh.dk",
+      "url": "https://www.regionh.dk/nythospitalnordsjaelland/Sider/default.aspx",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+    "publication_date": "2022-02-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ad0d73c1ae37420587e8df4805c7da93",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:10+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

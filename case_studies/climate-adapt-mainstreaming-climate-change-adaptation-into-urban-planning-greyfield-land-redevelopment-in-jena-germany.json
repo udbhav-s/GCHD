@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+  "title": "Mainstreaming climate change adaptation into urban planning: greyfield land redevelopment in Jena (Germany)",
+  "summary": "In Jena, adaptation has been integrated in urban planning thanks to public awareness, public institutional support, and investments in collaboration and research. Detailed cost-benefit analyses inform decision-making for interventions such as the greyfield land redevelopment. Jena is a city of about 108,000 inhabitants and – due to its specific geographic location – is exposed to various climate change-related risks, whereas heatwaves are the most relevant. Climate projections for Jena expect a substantial increase of this risk in the future.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jena",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Thüringen",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Thüringen__DE_",
+        "source_name": "Thüringen (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 50.871844771,
+    "lon": 11.5631103516,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "base-adaptation.eu",
+      "url": "https://base-adaptation.eu/mainstreaming-climate-change-adaptation-urban-planning-jena-germany",
+      "role": "contextual_input"
+    },
+    {
+      "name": "uni-jena.de",
+      "url": "https://www.uni-jena.de/en/Campus_Inselplatz",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+    "publication_date": "2020-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "cdbea2ad7a4a4553a305e695ff9d1c33",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:46+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

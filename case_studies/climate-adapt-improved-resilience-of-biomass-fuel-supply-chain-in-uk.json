@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+  "title": "Improved resilience of biomass fuel supply chain in UK",
+  "summary": "Nine UK electricity generating companies have been receiving support based on the provisions of the Climate Change Act of 2008. Specifically, the Joint Environmental Programme (an initiative funded by nine of the leading energy producers in the UK) supports a programme of research focusing on the environmental impacts of these nine leading producers, including Drax Power. The operating subsidiary of the Drax Group plc, Drax Power Limited has 6 boilers with a maximum capacity of 3,945 MW, 3 of which are powered by biomass pellets.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tyne, Liverpool, Hull and Immingham",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 52.1604545577,
+    "lon": -1.23046875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "drax.com",
+      "url": "https://www.drax.com/sustainability/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webarchive.nationalarchives.gov.uk",
+      "url": "http://webarchive.nationalarchives.gov.uk/20130124005001/http://www.defra.gov.uk/environment/climate/sectors/reporting-authorities/reporting-authorities-reports/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "401e8e22cf124ef9a8c4144def682bd0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:01+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

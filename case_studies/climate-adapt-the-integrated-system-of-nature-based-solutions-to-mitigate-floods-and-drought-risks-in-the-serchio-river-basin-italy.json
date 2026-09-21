@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
+  "title": "The integrated system of Nature-based Solutions to mitigate floods and drought risks in the Serchio River Basin (Italy)",
+  "summary": "Massaciuccoli Lake faces vulnerability due to agricultural drainage and nutrient influx. The EU Horizon 2020 Phusicos Project employs Nature-Based Solutions to combat climate change effects, enhance ecosystem resilience, and reduce pollutants, using a participative \"Living Lab\" approach for innovation testing and validation. Massaciuccoli Lake (7 km 2 wide and about 2 m deep) is a coastal lake surrounded by marshy areas that are part of the Serchio river basin. Large part of the basin has been drained for agricultural purposes since 1930 by means of a complex network of artificial ditches and pumping stations forcing water from the drained areas into the lake.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Vecchiano, Pisa",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Toscana",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Toscana__IT_",
+        "source_name": "Toscana (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 43.8347744352,
+    "lon": 10.3573608398,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "appenninosettentrionale.it",
+      "url": "http://www.appenninosettentrionale.it/itc/?s=phusicos",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cordis.europa.eu",
+      "url": "https://cordis.europa.eu/project/id/776681",
+      "role": "contextual_input"
+    },
+    {
+      "name": "phusicos.eu",
+      "url": "https://phusicos.eu/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
+    "publication_date": "2022-06-21",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "94c823c86bf74a60a8191b398275ee61",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

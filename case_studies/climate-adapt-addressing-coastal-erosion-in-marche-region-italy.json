@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-addressing-coastal-erosion-in-marche-region-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/addressing-coastal-erosion-in-marche-region-italy",
+  "title": "Addressing coastal erosion in Marche region, Italy",
+  "summary": "The Marche region addresses coastal erosion through beach nourishment, cliff stabilization, and re-naturalisation interventions. The activities are aligned with two Integrated Coastal Zone Management Plans issued by the regional government. A series of actions were taken to address erosion in the coastal area of Marche region in Italy. The interventions carried out in the section of coast between the municipalities of Sirolo and Numana represent an example of what has been implemented throughout the whole coast of the region. Interventions included: beach nourishment, cliff stabilisation and removal of a portion of artificial reef.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Sirolo, Numana",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Marche",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Marche__IT_",
+        "source_name": "Marche (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 43.5186802502,
+    "lon": 13.6206436152,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "regione.marche.it",
+      "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Difesa-della-costa",
+      "role": "contextual_input"
+    },
+    {
+      "name": "regione.marche.it",
+      "url": "https://www.regione.marche.it/Regione-Utile/Ambiente/Difesa-della-costa#Piano-GIZC-2019",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/addressing-coastal-erosion-in-marche-region-italy",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "c570b340a5a04dbb9581519b0439ecf0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/addressing-coastal-erosion-in-marche-region-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:55+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

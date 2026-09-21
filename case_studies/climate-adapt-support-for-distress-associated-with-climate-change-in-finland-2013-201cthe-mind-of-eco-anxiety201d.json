@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
+  "title": "Support for distress associated with climate change in Finland – “The mind of eco-anxiety”",
+  "summary": "Established by mental health professionals, The \"Mind of Eco-Anxiety\" project in Finland recognizes eco-anxiety as a societal phenomenon. The initiative employs three pillars: awareness campaigns, mental health support, and education for professionals. It has reached millions through campaigns and involved hundreds in workshops. Even though climate change substantially influences mental health and well-being , attention to this issue in science and practice has been limited. Climate- or eco-anxiety are emerging concepts describing the distress linked to environmental and climate change.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Finland",
+        "ucode": "FIN_V1",
+        "dcid": "country/FIN",
+        "iso3": "FIN"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 60.17116,
+    "lon": 24.93265,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "nyyti.fi",
+      "url": "https://www.nyyti.fi/hankkeet/ymparistoahdistuksen-mieli/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "tunne.org",
+      "url": "https://tunne.org/english/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ymparistoahdistus.fi",
+      "url": "https://www.ymparistoahdistus.fi/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
+    "publication_date": "2022-04-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "00c533f9d84840ad9c94be8016353706",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:06+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

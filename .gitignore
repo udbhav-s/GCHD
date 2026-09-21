@@ -47,6 +47,9 @@ service_account.json
 *.log
 otp_store.db
 
+# Scraper response cache
+.cache/
+
 # OS / IDE
 .DS_Store
 .vscode/

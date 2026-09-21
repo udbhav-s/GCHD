@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
+  "title": "Implementing climate change allowances in drainage standards across the UK railway network",
+  "summary": "The UK is generally projected to experience increases in extremes of the precipitation regime as a result of climate change, especially in terms of higher occurrence and intensity of heavy summer rainfall events. An important resilience action to mitigate the impacts from such increases is the improvement of drainage management. Climate change resilience within Network Rail, the national railway infrastructure managing authority in Great Britain, is driven by corporate strategic objectives defined by the Weather Resilience and Climate Change Adaptation Strategy (WRCCA), finalized in 2017.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 53.9560855295,
+    "lon": -2.06542968742,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "networkrail.co.uk",
+      "url": "https://www.networkrail.co.uk/communities/environment/climate-change-and-weather-resilience/climate-change-adaptation/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "42a1f0e925734c3f94dad90e8e4afc90",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:59+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

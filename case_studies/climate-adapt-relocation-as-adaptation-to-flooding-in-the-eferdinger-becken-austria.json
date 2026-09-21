@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+  "title": "Relocation as adaptation to flooding in the Eferdinger Becken, Austria",
+  "summary": "Eferdinger Becken in Austria successfully reduced flood vulnerability by offering 80% compensation for the voluntary relocation of 154 flood-prone houses after major flooding in 2002 and 2013. The rapid negotiation and allocation of a 250 million EUR budget facilitated substantial compensations, encouraging residents to move. The area of the Eferdinger Becken, Upper Austria, is a small area that lies on the Danube. It has no protection against floods with a 100-year return time: the flood-prone area includes about 154 houses that flood regularly.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Eferding",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Oberösterreich",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Oberösterreich__AT_",
+        "source_name": "Oberösterreich (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.3124279041,
+    "lon": 14.0618133545,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "land-oberoesterreich.gv.at",
+      "url": "https://www.land-oberoesterreich.gv.at/193034.htm",
+      "role": "contextual_input"
+    },
+    {
+      "name": "land-oberoesterreich.gv.at",
+      "url": "https://www.land-oberoesterreich.gv.at/184800.htm",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6b85bf285fbc438b80d0841aa1d296b0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

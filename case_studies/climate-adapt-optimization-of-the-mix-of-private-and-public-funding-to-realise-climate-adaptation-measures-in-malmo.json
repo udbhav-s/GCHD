@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+  "title": "Optimization of the mix of private and public funding to realise climate adaptation measures in Malmö",
+  "summary": "Malmö is experiencing negative effects from climate change due to rising temperatures and excessive rainfall. The city therefore aims to realise climate adaptation measures by integrating it directly in the design of urban development projects, such as in the case of the Western Harbour. The private funding to realise these measures is provided by developers, who realise the actual construction of the projects. They engage in a stakeholder partnership process initiated by the city to ensure that the final realisation of the urban development reflects Malmö’s sustainable vision.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Malmö",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": "country/SWE",
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Sydsverige",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Sydsverige__SE_",
+        "source_name": "Sydsverige (SE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 55.6093840881,
+    "lon": 12.9968261719,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "malmo.se",
+      "url": "https://malmo.se/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+    "publication_date": "2016-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "da23ad2428fe463c86ccc4d9fc13b20c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

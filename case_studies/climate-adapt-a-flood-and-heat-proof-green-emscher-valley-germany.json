@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-a-flood-and-heat-proof-green-emscher-valley-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+  "title": "A flood and heat proof green Emscher valley, Germany",
+  "summary": "After a century of use for wastewater drainage, the Emscher Valley has initiated a large-scale restoration plan, aiming to improve its capacity as carbon sink, create a more favourable microclimate, reduce flood risks, and achieve a more balanced water cycle in times of dry summer periods. Over a century ago a sparsely populated landscape of water meadows was transformed into an industrial conurbation, and the untamed river Emscher, in the Ruhr area, turned into a man-made system of open waste waterways. Due to subsidence caused by mining, it was impossible to build an underground sewer system.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Arnsberg",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Arnsberg__DE_",
+        "source_name": "Arnsberg (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.548043063,
+    "lon": 7.16720581025,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "eglv.de",
+      "url": "http://www.eglv.de/emschergenossenschaft",
+      "role": "contextual_input"
+    },
+    {
+      "name": "future-cities.eu",
+      "url": "http://www.future-cities.eu",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4c0e4c40467c4969a1956dbce4adfb32",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:55+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+  "title": "Urban river restoration: a sustainable strategy for storm-water management in Lodz, Poland",
+  "summary": "The pilot river restoration activities implemented around the Sokołówka, using eco-hydrology as part of a Blue-Green Network, have been a success and have convinced the Lodz authorities and water professionals of the value of replicating these for other rivers across the city. The 19 th century industrialisation in Lodz heavily affected the city’s rivers, altering their ecosystems and hydrology. Many rivers in the densely built-up city were canalized. This resulted in a higher flood risk from runoff during heavy rain periods. Low water retention also implies reduction of soil moisture during dry spells, contributing to higher temperature and reduced air humidity (urban heat island).",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lodz",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": "country/POL",
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Łódzkie",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Łódzkie__PL_",
+        "source_name": "Łódzkie (PL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.7712391991,
+    "lon": 19.4677734367,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "uml.lodz.pl",
+      "url": "https://uml.lodz.pl/ekoportal",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webgate.ec.europa.eu",
+      "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE08-ENV-PL-000517/ecohydrologic-rehabilitation-of-recreational-reservoirs-arturowek-in-lodz-as-a-model-approach-to-rehabilitation-of-urban-reservoirs",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5da4c586fb17427c9d52ea9783d4a290",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

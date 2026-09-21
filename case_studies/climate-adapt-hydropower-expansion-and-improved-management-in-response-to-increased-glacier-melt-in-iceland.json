@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+  "title": "Hydropower expansion and improved management in response to increased glacier melt in Iceland",
+  "summary": "Landsvirkjun, the national power company of Iceland, bases its reservoir management strategies on hydrological modelling of future changes of water flows induced by climate change. This is leading to increased reservoir capacity installations that can also ensure buffer capacity against extreme flooding. Iceland has 100% renewable electricity and heat system due to its abundant hydro- and geothermal resources. Despite the clear dominance of geothermal resources for house heating, hydropower plays an important role in Iceland’s energy mix, enabling Iceland’s electricity generation to be 100% renewable with 73% coming from hydro; 27% from geothermal and less than 0.01% from wind.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Iceland",
+        "ucode": "ISL_V1",
+        "dcid": "country/ISL",
+        "iso3": "ISL"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 64.7178799268,
+    "lon": -18.6987304688,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "landsvirkjun.com",
+      "url": "https://www.landsvirkjun.com/powerstations",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "f6fd0b3bba614a12a7e1377cf03ee06d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:51+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

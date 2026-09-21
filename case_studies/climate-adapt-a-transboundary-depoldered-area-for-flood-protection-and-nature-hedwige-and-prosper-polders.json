@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+  "title": "A transboundary depoldered area for flood protection and nature: Hedwige and Prosper Polders",
+  "summary": "The Hedwige-Prosper polders project, under the Belgian Sigma Plan, improves flood protection by creating estuarine natural areas through depoldering. The approach involves building an inland dike, promoting natural processes, and addressing EU Habitat Directive commitments. The area serves as a living lab and offers educational opportunities. The Hedwige-Prosper polders project is part of the Belgian Sigma Plan : this integrated plan is reinforcing dikes and quay walls and opening flood areas to protect land along the Scheldt Estuary and the upstream basin against floods.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": {
+        "name": "Prov. Antwerpen",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Prov__Antwerpen__BE_",
+        "source_name": "Prov. Antwerpen (BE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zeeland",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Zeeland__NL_",
+        "source_name": "Zeeland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 51.3190262632,
+    "lon": 4.26475524885,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/publicaties",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "364d5a68827a4de8810568bd6ff361bb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

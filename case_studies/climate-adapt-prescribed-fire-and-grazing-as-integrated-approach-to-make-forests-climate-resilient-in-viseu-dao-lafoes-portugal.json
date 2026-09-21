@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+  "title": "Prescribed fire and grazing as integrated approach to make forests climate resilient in Viseu Dão Lafões, Portugal",
+  "summary": "An integrated approach that combines planned grazing with prescribed fire to prevent large and destructive fire events is being implemented in Portugal. The solutions also help to preserve extensive livestock farming as a sustainable economic activity in the region. The Viseu Dão Lafões Intermunicipal Community ( CIM ) is an association of 14 municipalities part of Viseu and Guarda districts, in central Portugal. It includes a mountain landscape with forested areas and various pasture areas and extensive livestock farms. The area suffers from recurrent fires that are a severe threat for the population and for the ecosystems.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": "country/PRT",
+        "iso3": "PRT"
+      },
+      "adm1": {
+        "name": "Centro (PT)",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Centro__PT___PT_",
+        "source_name": "Centro (PT) (PT)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Extremadura",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Extremadura__ES_",
+        "source_name": "Extremadura (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 40.6796012,
+    "lon": -7.92396109015,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "life.cimvdl.pt",
+      "url": "https://life.cimvdl.pt/?lang=en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cimvdl.pt",
+      "url": "https://www.cimvdl.pt/viver/ambiente-seguranca-e-protecao-civil/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+    "publication_date": "2024-08-06",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "59812f46a29c4635b7c63ade0a9553b0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:43+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

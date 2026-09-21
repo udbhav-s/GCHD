@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
+  "title": "The refurbishment of Gomeznarro park in Madrid focused on storm water retention",
+  "summary": "The aim of this initiative was to improve living conditions in the urbanised area of Gomeznarro Park by restoring the park’s natural water cycle through a combination of grey and green infrastructure. The project reduced erosion, risk of flooding, and pressure on the drainage systems. As a result of sloped topography and impermeable ground surface, the Gomeznarro Park in Madrid was affected by erosion during heavy rainfall events, and the surrounding residential areas suffered from flash flooding. In response to these problems, in 2003 complex works aiming at improving the natural drainage and rainwater retention were carried out in the park.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Madrid",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Comunidad de Madrid",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Comunidad_de_Madrid__ES_",
+        "source_name": "Comunidad de Madrid (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 40.4218603607,
+    "lon": -3.7133789061,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "mirror.unhabitat.org",
+      "url": "https://mirror.unhabitat.org/bp/bp.list.details.aspx?bp_id=617",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "23da1ff4682846e9ac9ca3460022076b",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:40+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

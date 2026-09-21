@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+  "title": "Tatabánya, Hungary, addressing the impacts of urban heatwaves and forest fires with alert measures",
+  "summary": "To reduce heatwave and wildfire impact, Tatabánya uses a proactive heat and UV alert system, along with improved fire brigade capabilities, and educational activities targeting vulnerable groups. Community engagement and communication play a pivotal role in the success of these measures. The City of Tatabánya has a Local Climate Change Strategy and Action Plan, approved in 2008, which have been implemented to address diverse climate hazards, which mainly impact people’s health (e.g. heatwaves and heat stress, UV radiation, forest fires).",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tatabánya",
+      "adm0": {
+        "name": "Hungary",
+        "ucode": "HUN_V1",
+        "dcid": "country/HUN",
+        "iso3": "HUN"
+      },
+      "adm1": {
+        "name": "Közép-Dunántúl",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Közép_Dunántúl__HU_",
+        "source_name": "Közép-Dunántúl (HU)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 47.5705035787,
+    "lon": 18.4031295769,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "tatabanya.hu",
+      "url": "http://www.tatabanya.hu",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8b4f38e69968412b93c72bd48b1dfce4",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:22+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

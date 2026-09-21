@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+  "title": "Communal action group to control mosquitoes – Upper Rhine Plain, Germany",
+  "summary": "Climate change is driving the geographical expansion of the Asian tiger mosquito in Germany's Upper Rhine Plain. The Communal Action Group to Control Mosquitoes (KABS) employs ecological measures, including biological control and community involvement, to eradicate or reduce tiger mosquito populations. There is growing evidence that climate change is linked to observed and projected changes in endemicity of vector-borne disease (VBD). This is causing shifts in vector distribution and expansion of vector species into geographical regions that were previously unsuitable for climatic reasons.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Rheinhessen-Pfalz",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Rheinhessen_Pfalz__DE_",
+        "source_name": "Rheinhessen-Pfalz (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Freiburg",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Freiburg__DE_",
+        "source_name": "Freiburg (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Karlsruhe",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Karlsruhe__DE_",
+        "source_name": "Karlsruhe (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.4729212725,
+    "lon": 7.84423828125,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "kabsev.de",
+      "url": "https://www.kabsev.de/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=5qiSdIEEeM4",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+    "publication_date": "2022-11-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "492371bd93814b368380902582074d9d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:02+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

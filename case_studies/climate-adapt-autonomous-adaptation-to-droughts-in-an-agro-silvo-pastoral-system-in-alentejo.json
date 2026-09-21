@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
+  "title": "Autonomous adaptation to droughts in an agro-silvo-pastoral system in Alentejo",
+  "summary": "Guided by the ethics of agroecology , a Portuguese farm is implementing a food production model based on the respect for nature, aligned with the objectives of sustainable development and able to protect water resources in a drought prone area. Herdade do Freixo do Meio is multifunctional landscape that is located in the Alentejo region, in the south of Portugal. It hosts an organic certified farm, a historic archeological area and a natural protected area over a surface area of 584 hectares. The region is characterized by the multifunctional and dynamic agro-silvo-pastoral systems of cork and holm oak trees.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": "country/PRT",
+        "iso3": "PRT"
+      },
+      "adm1": {
+        "name": "Alentejo",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Alentejo__PT_",
+        "source_name": "Alentejo (PT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 38.7048027115,
+    "lon": -8.32454681396,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "herdadedofreixodomeio.pt",
+      "url": "https://herdadedofreixodomeio.pt",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lifemontadoadapt.com",
+      "url": "https://www.lifemontadoadapt.com/?p=380",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ecomontadoxxi.uevora.pt",
+      "url": "http://www.ecomontadoxxi.uevora.pt/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
+    "publication_date": "2023-11-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "fb9d22d1e98d4f0aa521a2f1042081e8",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:07+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

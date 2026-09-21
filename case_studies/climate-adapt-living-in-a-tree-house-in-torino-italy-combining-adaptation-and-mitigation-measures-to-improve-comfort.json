@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
+  "title": "Living in a tree house in Torino (Italy): combining adaptation and mitigation measures to improve comfort",
+  "summary": "The building 25 Verde in Torino combines adaptation and mitigation design measures. Its structure integrates greenery and geothermy to reduce extreme temperature impacts, while minimizing energy use. While construction was costly, 25 Verde flats sales were very successful. 25 Verde is a residential building in Torino including 63 apartments (ranging from 50 to 140 square meters), which has been designed to integrate over 150 trees and other plants in the façade and on the roof to create an ideal micro-climate inside the building, while reducing air and noise pollution.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Torino",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Piemonte",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Piemonte__IT_",
+        "source_name": "Piemonte (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 45.0580014354,
+    "lon": 7.684154,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "lucianopia.it",
+      "url": "http://www.lucianopia.it/opere-e-progetti/2007-2012-25-green-25-verde/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lineeverdi.com",
+      "url": "http://www.lineeverdi.com/portfolio/25-verde/#",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6c6a7933aa9d4999af10c6a3b5696ec9",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:38+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+  "title": "How to choose climate adapted tree species: Decision support for forest owners in Hesse, Germany",
+  "summary": "Mixed forests increase the resilience to large-scale climate damage. The recommendations developed in Hesse region provide decision support to forest owners and foresters for selecting climate-adapted compositions of tree species based on current soil and future climate conditions. The process revealed that cooperation between science and practice as well as ensuring the transfer of knowledge are crucial factors. Climate change and the rapidly changing tree growth conditions pose major challenges for forest ecosystems and the forest sector as a whole.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Kassel",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Kassel__DE_",
+        "source_name": "Kassel (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Gießen",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Gießen__DE_",
+        "source_name": "Gießen (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Darmstadt",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Darmstadt__DE_",
+        "source_name": "Darmstadt (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 50.659935775303126,
+    "lon": 9.019008964124833,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "nw-fva.de",
+      "url": "https://www.nw-fva.de/unterstuetzen/software/baem/hessen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "nw-fva.de",
+      "url": "https://www.nw-fva.de//forschen/projekte/ksp-hessen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=mk8XUrf-3sU&t=7s",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+    "publication_date": "2025-01-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5bc97e490bd5465f9ebe80a68d8de16d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:49+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

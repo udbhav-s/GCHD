@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+  "title": "Sustainable climate change adaptation of forestry in the province of Soria, Spain",
+  "summary": "Climate change is increasing the threat of pest proliferation and fire risk in the forest of Soria. Adaptation solutions include the creation of a mixed forest with diverse tree species and ages and the operation of a continuous fire prevention system. Forest monitoring and close cooperation with landowners are considered crucial aspects for making those adaptation measures effective. About 60% of the whole province of Soria (North-central Spain) is covered by forest (620 830 hectares). This includes various landscape types such as woodland, scrubland, and natural pastures. Wooded forests cover an area of 447,546 ha which is a share of 43.45% of the whole province area.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Castilla y León",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Castilla_y_León__ES_",
+        "source_name": "Castilla y León (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 41.763548659816166,
+    "lon": -2.468412285098025,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://soriaforestadapt.es/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "medmodelforest.net",
+      "url": "https://www.medmodelforest.net/en/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://soriaforestadapt.es/herramienta/#",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=slKAFIxyag4",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=SsN7BYfZ3y8",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=Q8MdMPgzBsw",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=ZhyzPNGJygo",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=cilwlon5rn4",
+      "role": "contextual_input"
+    },
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://www.soriaforestadapt.es/es/pagina/fitoclim",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+    "publication_date": "2024-09-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4d75b17b8c81404491aea6ee57d5a289",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

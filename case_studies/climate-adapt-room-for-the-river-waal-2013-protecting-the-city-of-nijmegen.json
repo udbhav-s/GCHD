@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+  "title": "Room for the River Waal – protecting the city of Nijmegen",
+  "summary": "In response to frequent flooding, Nijmegen redesigned the Waal River to reduce water levels, moving dykes inland and creating a new channel. This involved expropriation of land and compensation schemes. An important success factor was the overall coordination and funding by the national government. At Nijmegen, the Waal River bends sharply and narrows. This creates a bottleneck, which often caused flooding of the historic city centre of Nijmegen, located on the south bank of the Wall.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nijemegen",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Gelderland",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Gelderland__NL_",
+        "source_name": "Gelderland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.8387474532,
+    "lon": 5.86051940894,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=-2TE2eSV77k&feature=youtu.be",
+      "role": "contextual_input"
+    },
+    {
+      "name": "urbanclimateadaptation.net",
+      "url": "https://www.urbanclimateadaptation.net/ezine1/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "goexplorer.org",
+      "url": "https://goexplorer.org/nijmegen-embracing-the-river-to-combat-flooding/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "hnsland.nl",
+      "url": "https://hnsland.nl/en/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "086033ea878b441985c9eac18bf89960",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:37+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

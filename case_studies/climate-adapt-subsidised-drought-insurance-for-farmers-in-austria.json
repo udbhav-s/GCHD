@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-subsidised-drought-insurance-for-farmers-in-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/Subsidised-drought-insurance-for-farmers-in-Austria",
+  "title": "Subsidised drought insurance for farmers in Austria",
+  "summary": "The subsidised public-private drought insurance system for agriculture adopted by the Austrian government combines indemnity-based insurance with weather index-based products. It aims at preparing farmers to overcome extreme events, reduce their dependence on subsidies and as such promote their well-being and mental health, while simultaneously allowing through public-private partnerships for better financial planning. Agriculture is highly sensitive to weather extremes, such as droughts, floods, storms, hail and heat. Drought in particular poses a significant challenge to farmers and governments due to its potential, negative impact on crop yields.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 48.208354,
+    "lon": 16.372504,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "iiasa.ac.at",
+      "url": "https://iiasa.ac.at/projects/farm",
+      "role": "contextual_input"
+    },
+    {
+      "name": "hagel.at",
+      "url": "https://www.hagel.at/versicherung/ackerbau/versicherung-duerreindex/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/Subsidised-drought-insurance-for-farmers-in-Austria",
+    "publication_date": "2024-03-06",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "2735f59f62cf4d838b52384005ae7c42",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/Subsidised-drought-insurance-for-farmers-in-Austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:48+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

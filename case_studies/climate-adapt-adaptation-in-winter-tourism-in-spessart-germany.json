@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-adaptation-in-winter-tourism-in-spessart-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-in-winter-tourism-in-spessart-germany",
+  "title": "Adaptation in winter tourism in Spessart (Germany)",
+  "summary": "Spessart, a German highland area in Bavaria and Hesse, adapts to declining skiing opportunities due to climate change. The region shifts focus to year-round tourism, developing new trails, removing ski lifts, and emphasizing hiking, biking, wellness, and culture. Spessart is a highland area with a range of low wooded mountains, in the states of Bavaria and Hesse in Germany. It is bordered by the regions of Vogelsberg, Rhön and Odenwald. The region has about 1.35 million overnight stays and over 13 million day visitors per year. The highest elevation is the Geiersberg at 586 metres. Hiking is a major tourist attraction in the Spessart in the summer.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Unterfranken",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Unterfranken__DE_",
+        "source_name": "Unterfranken (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 49.9441503516,
+    "lon": 9.37408447266,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "spessart-tourismus.de",
+      "url": "http://www.spessart-tourismus.de",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-in-winter-tourism-in-spessart-germany",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5a8a7776445449fa9cb73133ef966816",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adaptation-in-winter-tourism-in-spessart-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:27:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

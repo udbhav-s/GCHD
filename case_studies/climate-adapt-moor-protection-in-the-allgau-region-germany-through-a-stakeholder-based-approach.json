@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+  "title": "Moor protection in the Allgäu region (Germany) through a stakeholder-based approach",
+  "summary": "By fostering collaboration between nature conservation, regional development, and tourism, the \"Allgäuer Moorallianz,\" initiative engages stakeholders, particularly farmers and landowners, to ensure long-term conservation. The Moorallianz has successfully implemented measures on bog habitat areas. “Allgäuer Moorallianz” is an initiative which was founded in 2007 aiming to foster moor protection in the Allgäu region. The Allgäu region belongs to the Bavarian Alpine foreland (Germany) and hosts one of the most important hotspots of high wetland with its diversity of moor types existing across the young moraine landscape and at different elevation levels.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Schwaben",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Schwaben__DE_",
+        "source_name": "Schwaben (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 47.4076441485,
+    "lon": 10.368347168,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "moorallianz.de",
+      "url": "http://www.moorallianz.de",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "0f2c1de24cad42eeafc8fd5651914f6c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:45+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+  "title": "Ghent crowdfunding platform realising climate change adaptation through urban greening, Belgium",
+  "summary": "The crowdfunding platform of Ghent stimulates various community-based initiatives that are improving the living conditions of the city, with high potential for realising small “drops” of climate adaptation, while defending the application of non-discrimination and equity principles. Ghent aims at realizing more green areas in response to climate change and actively seeks citizen involvement to achieve this. This is in line with the city being very social and creative with many citizens actively developing bottom-up initiatives. Many of these small-scale projects however have difficulty developing into a successful project through the available financing mechanisms.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ghent",
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": {
+        "name": "Prov. Oost-Vlaanderen",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Prov__Oost_Vlaanderen__BE",
+        "source_name": "Prov. Oost-Vlaanderen (BE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.0552073386,
+    "lon": 3.71337890625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "crowdfunding.gent",
+      "url": "https://crowdfunding.gent/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+    "publication_date": "2023-11-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "bd42b21e70d84d8e8b30a9385866f86a",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:38+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+  "title": "Room for the River Regge, Netherlands - restoring the river dynamics",
+  "summary": "The Regge river underwent canalization in 1935. In response to flooding and water scarcity issues, a re-naturalization program, “Reggevisie”, was initiated in 1998. It focuses on restoring river dynamics, creating water buffering space, promoting nature development, and enhancing recreational appeal, with completion expected in 2025. Historically, the Regge was a free-flowing shallow lowland river which meandered through a landscape containing marshes, wet meadows and sandy levees. To facilitate shipping, from 1848 onwards the river was straightened by cutting off meanders, and the river channel was deepened and widened.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 52.47994,
+    "lon": 6.41649,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "klimaatbuffers.nl",
+      "url": "https://www.klimaatbuffers.nl/projecten/regge",
+      "role": "contextual_input"
+    },
+    {
+      "name": "landschapoverijssel.nl",
+      "url": "https://www.landschapoverijssel.nl/gebieden/gebiedenregge",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/RSKaqkuTkws",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/_SzBeOYP7sQ",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "18ec8dab9d0e4636bf2f5183749b1b89",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
+  "title": "Bosco Limite - A participatory strategy of water saving and aquifer artificial recharge in Northern Italy",
+  "summary": "Forested Infiltration Area (FIA), a Managed Aquifer Recharge (MAR) solution, is a promising adaptation measure for climate change vulnerability related to water management. The case of Bosco Limite proves that a FIA is crucial for improving groundwater quality and ecosystem functions. The Forested Infiltration Area (FIA) is proving to be an effective tool in Northern Italy helping to address water scarcity challenges and/or to achieve environmental benefits over the long term. FIA is a method to recharge groundwater aquifers by channelling surface waters during times of excess into designated areas that have been planted with various species of trees and/or shrubs.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Carmignano di Brenta",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Veneto__IT_",
+        "source_name": "Veneto (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 45.6236425983,
+    "lon": 11.7042160034,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "etifor.com",
+      "url": "https://www.etifor.com/en/portfolio/boscolimite/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "watermuseumofvenice.com",
+      "url": "http://www.watermuseumofvenice.com/network-en/the-forest-bosco-limite-in-carmignano-di-brenta-en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "http://www.youtube.com/watch?v=k48KW6b9CxQ&",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "http://www.youtube.com/watch?v=VoL0Gm-saV8",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6a3c1874dfc048bca915d9328cfa7219",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:17+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

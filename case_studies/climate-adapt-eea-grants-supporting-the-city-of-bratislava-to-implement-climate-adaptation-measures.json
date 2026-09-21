@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+  "title": "EEA grants supporting the city of Bratislava (Slovakia) to implement climate mitigation and adaptation measures",
+  "summary": "A repeated access to EEA grants supports Bratislava in gradually transforming its urban layout by creating new green spaces. The interventions are in line with the mitigation and adaptation goals set in the City strategic plans . Bratislava has received two times funding from “EEA Grants and Norway Grants” (hereafter called EEA Grants) for urban climate adaptation projects. The first project was entitled ‘Bratislava is preparing for climate change’ and implemented measures to enhance the resilience of Bratislava city to the adverse impacts of climate change, in particular intense rainfall and heat. These measures included tree planting, green roofs and rainwater retention facilities.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bratislava",
+      "adm0": {
+        "name": "Slovakia",
+        "ucode": "SVK_V1",
+        "dcid": "country/SVK",
+        "iso3": "SVK"
+      },
+      "adm1": {
+        "name": "Bratislavský kraj",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Bratislavský_kraj__SK_",
+        "source_name": "Bratislavský kraj (SK)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.1331006594,
+    "lon": 17.1112060547,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "eeagrants.org",
+      "url": "https://eeagrants.org/archive/2009-2014/projects/SK02-0005",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eeagrants.sk",
+      "url": "https://www.eeagrants.sk/en/projects/klimaticky-odolna-bratislava-pilotne-projekty-zamerane-na-dekarbonizaciu-energeticku-ucinnost-budov-a-udrzatelne-h/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "klimatickyodolna.bratislava.sk",
+      "url": "https://klimatickyodolna.bratislava.sk/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "una.city",
+      "url": "https://una.city/nbs/bratislava/svoradova-park-renovation",
+      "role": "contextual_input"
+    },
+    {
+      "name": "interlace-hub.com",
+      "url": "https://interlace-hub.com/subsidy-scheme-support-rainwater-management-installations-bratislava",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+    "publication_date": "2023-12-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b4c1fe392421435eb5bf9b8dd5f20e29",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:14+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

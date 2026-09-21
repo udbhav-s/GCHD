@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-new-forde-hospital-measures-for-flood-protection",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-forde-hospital-measures-for-flood-protection",
+  "title": "New Førde Hospital: Measures for flood protection",
+  "summary": "Førde Central Hospital is highly exposed to flooding. This is due to its riverside location and the increasing likelihood of intense rainfall and rapid snowmelt under a changing climate. Although a 2014 flood caused damage, regulations only required flood protection for newly constructed buildings, leaving older buildings exposed to future impacts. Flood protection measures for the older buildings were eventually made possible through a broader site development plan, which included a flood risk assessment and enabled the financing of flood protection measures for the entire site. As part of this, a 750-meter long flood barrier and pumping station were completed in 2020, protecting both new and existing infrastructure. This investment ensures service continuity and strengthens healthcare access for the local community.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": "country/NOR",
+        "iso3": "NOR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 61.4521759,
+    "lon": 5.8571725,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "helse-forde.no",
+      "url": "https://www.helse-forde.no/en/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-forde-hospital-measures-for-flood-protection",
+    "publication_date": "2025-06-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "302b6e5dcd204dc18e4a2d8f8002d96b",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/new-forde-hospital-measures-for-flood-protection",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
+  "title": "Incorporating climate change risks in planning the modernization of the railway corridor in Slovakia",
+  "summary": "Slovakia is modernizing its rail system to enhance safety and competitiveness, while considering climate change risks like floods and changes in weather extremes. The adaptation plan includes technical options, management options and an early warning. Rail transport plays an important role in in Slovakia, providing 35.6% of the total volume of passenger transport and 19.0% of freight transport in 2017. The main railway corridor, which connects the cities of Bratislava, Žilina and Košice, part of the trans-European TEN-T transport system and Rail Freight Corridor 9 (Eastern Corridor, RFC 9), is currently being modernized with the support from the European financial instruments.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Slovakia",
+        "ucode": "SVK_V1",
+        "dcid": "country/SVK",
+        "iso3": "SVK"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.6909603909,
+    "lon": 19.16015625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "opii.gov.sk",
+      "url": "https://www.opii.gov.sk/information/railways",
+      "role": "contextual_input"
+    },
+    {
+      "name": "asb.sk",
+      "url": "https://www.asb.sk/stavebnictvo/inzinierske-stavby/zeleznica/modernizacia-zeleznicnej-trate-na-useku-puchov-zilina",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7d028154d8434439a4e81af8003b3422",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:05+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

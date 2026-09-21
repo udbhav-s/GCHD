@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-amphibious-housing-in-maasbommel-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/amphibious-housing-in-maasbommel-the-netherlands",
+  "title": "Amphibious housing in Maasbommel, the Netherlands",
+  "summary": "The Netherlands' \"Room for the river\" program developed amphibious houses in Maasbommel in 2005, showcasing their potential for urban development in flood-prone areas. These houses, anchored to the ground, can float up to 5.5 meters during floods, addressing safety concerns. They provide a transformative flood-resilient solution. The Netherlands is a country with a long history of mitigating flood damage and adapting to flood risk. With 60% of the country below sea level, the development and implementation of flood resilient infrastructure has become an important part of the Dutch culture. The flood threat in the Netherlands is not only related to rising sea-levels.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Maasbommel",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Gelderland",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Gelderland__NL_",
+        "source_name": "Gelderland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.8200760406,
+    "lon": 5.5391693113,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "factorarchitecten.nl",
+      "url": "https://www.factorarchitecten.nl/project/drijvende-woningen-maasbommel/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "urbangreenbluegrids.com",
+      "url": "http://www.urbangreenbluegrids.com/projects/amphibious-homes-maasbommel-the-netherlands",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/amphibious-housing-in-maasbommel-the-netherlands",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "3e46f54c92e64393af38298b3f1b8321",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/amphibious-housing-in-maasbommel-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:59+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

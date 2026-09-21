@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+  "title": "White roof, innovative solar shadings and bioclimatic design in Madrid",
+  "summary": "This new IMDEA building in Madrid incorporates both mitigation and adaptation solutions such as bioclimatic design, water-saving systems, and renewable energy. With a focus on energy efficiency and resource sustainability, it exemplifies integrated climate-resilient construction. Climate change impacts are expected to strongly impact the Madrid region and include extreme heat in summer, water scarcity and occasional heavy rainfall. In 2012, the new building of the energy department of the Madrid Institute for Advanced Studies (IMDEA) was completed. The building, located in Móstoles, 18 Km southwest from central Madrid, incorporates different climate change adaptation solutions.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Móstoles",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Comunidad de Madrid",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Comunidad_de_Madrid__ES_",
+        "source_name": "Comunidad de Madrid (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 40.4202804565,
+    "lon": -3.70577001572,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "construction21.org",
+      "url": "http://www.construction21.org/case-studies/es/madrid-institute-for-advanced-studies-imdea.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "energy.imdea.org",
+      "url": "http://www.energy.imdea.org",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "dd58569e78e840a4b2f1b36265c6419f",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

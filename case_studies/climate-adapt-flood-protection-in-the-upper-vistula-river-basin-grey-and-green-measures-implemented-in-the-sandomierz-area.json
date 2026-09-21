@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
+  "title": "Flood protection in the Upper Vistula river basin: grey and green measures implemented in the Sandomierz area",
+  "summary": "Sandomierz addresses flood risk with a hybrid approach, integrating green and grey infrastructure. Implemented along the Upper Vistula River, these measures enhance water retention capacity and protect urban areas. This comprehensive flood protection strategy has been strongly driven by local community experience and EU directives. The Vistula River is a 1,046 km long river which springs in southern Poland and ends in the Baltic Sea. The Upper Vistula extends over the three Polish provinces of Małopolskie, Podkarpackie and Swietokrzyskie. The Upper Vistula region covers an area of 43,000 km 2 , including the cities of Krakow, Tarnow, Kielce, Nowy Sacz, Rzeszow, Przemysl and Krosno.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Sandomierz",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": "country/POL",
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Lubuskie",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Lubuskie__PL_",
+        "source_name": "Lubuskie (PL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 50.6773163267,
+    "lon": 21.7886352539,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "odrapcu.pl",
+      "url": "https://odrapcu.pl/en/project-ovfmp/about-project-ovfmp/upper-vistula/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eea.europa.eu",
+      "url": "https://www.eea.europa.eu/publications/green-infrastructure-and-flood-management",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "2e3aa1531bca4e3fa0fe080ecd25d109",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:31+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

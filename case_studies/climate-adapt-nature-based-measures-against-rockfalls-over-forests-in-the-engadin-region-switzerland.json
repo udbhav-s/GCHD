@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
+  "title": "Nature-based measures against rockfalls over forests in the Engadin Region, Switzerland",
+  "summary": "Forests offer natural protection against rockfalls, landslides, and avalanches. The Protect Bio method, applied in Switzerland, allowed to take into account the effect of the forest and other nature-based measures in hazard protection projects, saving costs on technical protective structures. Forests can provide effective protection against rockfalls, landslides and avalanches; their preservation and proper management can maintain these services and functions which assume relevance also in the perspective of adaptation to current extreme events and future climate changes. The Protect Bio method enables the evaluation of these ecosystem services.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": "country/CHE",
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Ostschweiz",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Ostschweiz_CH_",
+        "source_name": "Ostschweiz (CH)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 46.6404796785,
+    "lon": 10.2931594849,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "bafu.admin.ch",
+      "url": "https://www.bafu.admin.ch/bafu/en/home/topics/natural-hazards/publications-studies/publications/magazin-umwelt-2-2015-leben-mit-naturgefahren.html",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "186b3efe479b4c098beffae25fcf2857",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:56+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

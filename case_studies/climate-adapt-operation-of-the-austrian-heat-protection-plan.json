@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-operation-of-the-austrian-heat-protection-plan",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+  "title": "Operation of the Austrian Heat Protection Plan",
+  "summary": "Austria's Heat Protection Plan, launched after the 2003 heatwave, aims to reduce heat stress and health risks especially in urban areas. It includes early warnings and tailored protection measures, focuses on vulnerable populations and involves collaboration between national and regional authorities. Evidence that increasing temperatures leads to increased mortality and morbidity is well documented, with population vulnerability being location specific. Especially the 2003 heat wave in Europe raised the awareness of negative impacts of heat stress on human health in Austria.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 47.0701218238,
+    "lon": 13.3154296875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "warnungen.zamg.at",
+      "url": "https://warnungen.zamg.at/html/en/today/all/at/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gesundheit.steiermark.at",
+      "url": "http://www.gesundheit.steiermark.at/cms/beitrag/11685019/72561200",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ktn.gv.at",
+      "url": "https://www.ktn.gv.at/Themen-AZ/Details?thema=32&subthema=39&detail=472",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "74342b24978b4d48971fc0089c25ee15",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:23+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

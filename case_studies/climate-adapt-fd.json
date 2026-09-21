@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-fd",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/fd",
+  "title": "Flood risk management for hydropower plants in France",
+  "summary": "The Piano Key Weir (PKW) system, developed by France's Hydro Engineering Centre, safeguards hydropower infrastructure from climate change-induced floods in 10 local dams and globally in 30 installations. PKW adapts dam capacity efficiently with increased water discharge, offering a cost-effective, reliable, and collaborative solution. Hydropower is an essential part of the energy mix in France, accounting for around 20% of installed capacity. Climate change is projected to increase the frequency and intensity of extreme precipitation events and to accelerate snowmelt, which would result in increased flood risk.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Rhône-Alpes",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Rhône_Alpes__FR_",
+        "source_name": "Rhône-Alpes (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 44.442665969,
+    "lon": 4.06991958618,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "edf.fr",
+      "url": "https://www.edf.fr/en/the-edf-group/world-s-largest-power-company/edf-official-partner-of-a-low-carbon-world/our-solutions-for-the-climate/piano-keys-for-reconfigured-dam",
+      "role": "contextual_input"
+    },
+    {
+      "name": "uee.uliege.be",
+      "url": "https://www.uee.uliege.be/cms/c_5026433/en/world-register-of-piano-key-weirs-prototypes",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/fd",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6ec2c48e75d542619f34bad6e180b6af",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/fd",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:22+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

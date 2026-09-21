@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
+  "title": "Zaragoza: combining awareness raising and financial measures to enhance water efficiency",
+  "summary": "The Zaragoza Water Saving City program combines awareness campaigns with financial measures to enhance water efficiency. By involving stakeholders, coordinating efforts, targeting sectors, and gaining political commitment, Zaragoza achieved a nearly 30% reduction in water consumption. However, economic constraints have slowed further progress. The Zaragoza Water Saving City programme was initiated in 1996 in response to water scarcity and is still on-going. It has included awareness raising campaigns, the implementation of examples of good practice of reduced water consumption and voluntary public commitments by citizens and businesses.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Zaragoza",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Aragón",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Aragón__ES_",
+        "source_name": "Aragón (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 41.644183478,
+    "lon": -0.889892578089,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zaragoza.es",
+      "url": "https://www.zaragoza.es/sede/portal/medioambiente/agua/ahorro-agua/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "zaragoza.es",
+      "url": "https://www.zaragoza.es/contenidos/medioambiente/ahorro-agua/Folleto-CuidamosCadaGota-2019.pdf",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4eaef8e862d541f597b753ef499febdd",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:32+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+  "title": "Implementation of the Heat-Health Action Plan of North Macedonia",
+  "summary": "The Heat Health Action Plan (HHAP) of North Macedonia, implemented since 2012, includes a heat health warning system, cross-government coordination, and public awareness strategies. Translating climate health impacts for policymakers, and involving stakeholders was key for its implementation. The National Heat-Health Action Plan (HHAP) of North Macedonia was developed in 2011 and approved in 2012, following the National Climate Change Health Adaptation Strategy and Action Plan. The HHAP aims to decrease morbidity and mortality connected with extreme temperatures and heatwaves.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "North Macedonia",
+        "ucode": "MKD_V1",
+        "dcid": "country/MKD",
+        "iso3": "MKD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 41.738528468,
+    "lon": 21.5771484366,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "iph.mk",
+      "url": "http://www.iph.mk",
+      "role": "contextual_input"
+    },
+    {
+      "name": "zdravstvo.gov.mk",
+      "url": "https://zdravstvo.gov.mk/en-GB/dokumenti/akciski-planovi",
+      "role": "contextual_input"
+    },
+    {
+      "name": "iris.who.int",
+      "url": "https://iris.who.int/items/608d8fdd-be15-460d-83b6-092ef889ef24",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+    "publication_date": "2021-03-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7dff199b250a40999fe9a6783bd075d0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

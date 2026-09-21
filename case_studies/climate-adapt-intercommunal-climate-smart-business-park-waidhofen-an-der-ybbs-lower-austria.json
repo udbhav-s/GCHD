@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-intercommunal-climate-smart-business-park-waidhofen-an-der-ybbs-lower-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/intercommunal-climate-smart-business-park-waidhofen-an-der-ybbs-lower-austria",
+  "title": "Intercommunal Climate smart business park Waidhofen an der Ybbs, Lower Austria",
+  "summary": "The municipality Waidhofen an der Ybbs in Austria elaborated a concept for a climate smart sustainable development of a 60.000 m 2 intercommunal business park, including green spaces, rainwater management and energy efficiency measures. Specific design elements mitigate the impacts of heavy rainfall events and extreme temperatures while increasing the attractiveness both for businesses and citizens. The intercommunal Kreilhof business park is a former agricultural area, acquired by the Waidhofen municipality, as part of a change in land zoning. The site covers an area of approximately 60.000,00 m2 and is located in the Ybbs valley, about 3.5 km away from the town centre of Waidhofen.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Waidhofen a.d. Ybbs",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Niederösterreich",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Niederösterreich__AT_",
+        "source_name": "Niederösterreich (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMECOLD",
+      "label": "Extreme cold",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 47.9442784,
+    "lon": 14.803146,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "klimafit-noe.at",
+      "url": "https://www.klimafit-noe.at/kreilhof/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/intercommunal-climate-smart-business-park-waidhofen-an-der-ybbs-lower-austria",
+    "publication_date": "2025-11-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "71db62874b804063a8289f79ca639032",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/intercommunal-climate-smart-business-park-waidhofen-an-der-ybbs-lower-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-10T10:15:17+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

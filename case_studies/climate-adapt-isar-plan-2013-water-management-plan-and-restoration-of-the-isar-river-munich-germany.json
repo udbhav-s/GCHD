@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+  "title": "Isar-Plan – Water management plan and restoration of the Isar river, Munich (Germany)",
+  "summary": "The Isar-Plan combined water retention and renaturation measures for the Isar River in Munich. It significantly improved flood protection, water quality, biodiversity habitat, and recreational opportunities in the area. Stakeholder involvement and mediation were key aspects of the initiative. This case study describes the flood risk management plan and the related restoration of a formerly canalized eight kilometres stretch of the Isar river in the city of Munich (the so called “Isar Plan”). Still in the beginning of the 19 th century, the Isar was a typical wild alpine river with wide gravel islands and sandbanks and a constantly changing riverbed.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Munich",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Oberbayern",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Oberbayern__DE_",
+        "source_name": "Oberbayern (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.1367666782,
+    "lon": 11.5356445308,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "yumpu.com",
+      "url": "https://www.yumpu.com/en/document/read/3768185/a-new-lease-of-life-for-the-isar-river-wasserwirtschaftsamt-munchen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "panorama.solutions",
+      "url": "https://panorama.solutions/en/solution/isar-plan-improving-flood-protection-and-recreational-opportunities-redesigning-isar",
+      "role": "contextual_input"
+    },
+    {
+      "name": "restorerivers.eu",
+      "url": "https://restorerivers.eu/wiki/index.php?title=Case_study%3AIsar-Plan",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6789332771ae4ee589bd50f7ea45eaea",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:27+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
+  "title": "Lower Danube green corridor: floodplain restoration for flood protection",
+  "summary": "The Lower Danube Green Corridor Agreement, initiated in 2000 by Bulgaria, Romania, Ukraine, and Moldova, focuses on restoring wetlands, reconnecting the river to natural floodplains, and improving local economies. Positive outcomes include enhanced flood resilience, biodiversity, and economic diversification. In 2000, the governments of Bulgaria, Romania, Ukraine and Moldova pledged to work together – with the signing of the Lower Danube Green Corridor Agreement - to establish a green corridor along the entire length of the Lower Danube River (~1,000 km). All partners recognized a need and shared responsibility to protect and manage the Lower Danube in a sustainable way.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Bulgaria",
+        "ucode": "BGR_V1",
+        "dcid": "country/BGR",
+        "iso3": "BGR"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Romania",
+        "ucode": "ROU_V1",
+        "dcid": "country/ROU",
+        "iso3": "ROU"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Moldova",
+        "ucode": "MDA_V1",
+        "dcid": "country/MDA",
+        "iso3": "MDA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Ukraine",
+        "ucode": "UKR_V1",
+        "dcid": "country/UKR",
+        "iso3": "UKR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 44.1230848931,
+    "lon": 27.3614501953,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "wwfeu.awsassets.panda.org",
+      "url": "https://wwfeu.awsassets.panda.org/downloads/lessons_learnt_fromthe_lower_danube_landscape.pdf",
+      "role": "contextual_input"
+    },
+    {
+      "name": "iopscience.iop.org",
+      "url": "http://iopscience.iop.org/1755-1315/6/40/402002",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "f4e6a831e1d24645ac027aeef9982bfa",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-11T06:35:26+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

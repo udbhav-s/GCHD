@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
+  "title": "Toolbox for transboundary water contingency management in the Sava River Basin",
+  "summary": "The toolbox and related strategies for transboundary water contingency management in the Sava River Basin improve the resilience of countries within the basin against flooding and pollution events, and reduce associated risks to people and the environment Climate change increases the frequency and severity of heavy precipitation. The Sava River Basin in Southeastern Europe is increasingly at risk of flooding, presenting a challenge to both people and the environment.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Bosnia and Herzegovina",
+        "ucode": "BIH_V1",
+        "dcid": "country/BIH",
+        "iso3": "BIH"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Croatia",
+        "ucode": "HRV_V1",
+        "dcid": "country/HRV",
+        "iso3": "HRV"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Serbia",
+        "ucode": "SRB_V1",
+        "dcid": "country/SRB",
+        "iso3": "SRB"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Slovenia",
+        "ucode": "SVN_V1",
+        "dcid": "country/SVN",
+        "iso3": "SVN"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 46.0500268,
+    "lon": 14.5069289,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "interreg-danube.eu",
+      "url": "https://www.interreg-danube.eu/approved-projects/wacom",
+      "role": "contextual_input"
+    },
+    {
+      "name": "interreg-danube.eu",
+      "url": "https://www.interreg-danube.eu/approved-projects/wacom/section/booklet",
+      "role": "contextual_input"
+    },
+    {
+      "name": "icpdr.org",
+      "url": "https://www.icpdr.org/danube-basin/sub-basins/sava-basin/danube-watch-3-2021-wacom-water-contingency-management-sava",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
+    "publication_date": "2024-03-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "d493b99211c24c3fbf9b752e780f01a0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:49+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
+  "title": "Large-Scale Oyster reef restoration for coastal protection in Brittany, France",
+  "summary": "Innovative reef system design has been tested in Brittany to facilitate the formation of large-scale, cohesive oyster aggregates. These systems are expected to protect coastlines from erosion induced by sea level rise while supporting biodiversity and revitalising local fisheries. The CLIMAREST project focuses on restoring native flat oyster reefs ( Ostrea edulis ) in two pilot sites—Rade de Brest and Quiberon Bay—in Brittany, France, addressing environmental, economic, and social challenges linked to climate change and human activities.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Bretagne",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Bretagne__FR_",
+        "source_name": "Bretagne (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 47.5339789,
+    "lon": -3.00336,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "climarest.eu",
+      "url": "https://climarest.eu/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "climarest.eu",
+      "url": "https://climarest.eu/demo-3/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "marinerestorationtoolbox.ser-rrc.org",
+      "url": "https://marinerestorationtoolbox.ser-rrc.org/oyster-reef-practices/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "marinerestorationtoolbox.ser-rrc.org",
+      "url": "https://marinerestorationtoolbox.ser-rrc.org/oyster-reef-restoration-france-case-study/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/Dttdh6qFDvE",
+      "role": "contextual_input"
+    },
+    {
+      "name": "marinerestorationtoolbox.ser-rrc.org",
+      "url": "https://marinerestorationtoolbox.ser-rrc.org/about/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
+    "publication_date": "2026-04-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7cb107378c1b4629888e29bc8346dd6c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:37+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

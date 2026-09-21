@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+  "title": "Green roofs in Basel, Switzerland: combining mitigation and adaptation measures",
+  "summary": "Basel, Switzerland boasts the world's highest green roof area per capita. The initiative, driven by energy-saving and biodiversity goals, is promoted through incentive programs and legal mandates, and expected to bring significant adaptation benefits. With 5.71 m 2 /inhabitant in 2019, the city of Basel in Switzerland has the largest area of green roofs per capita in the world ( Living roofs and walls from policy to practice , 2019). Initiatives aiming to increase the provision of green roofs in Basel were initially driven by energy-saving programmes, and subsequently by biodiversity conservation.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Basel",
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": "country/CHE",
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Nordwestschweiz",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Nordwestschweiz_CH_",
+        "source_name": "Nordwestschweiz (CH)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 47.5524330226,
+    "lon": 7.58605957001,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "urbanhabitats.org",
+      "url": "http://www.urbanhabitats.org/v04n01/wildlife_pdf.pdf",
+      "role": "contextual_input"
+    },
+    {
+      "name": "urbanhabitats.org",
+      "url": "http://urbanhabitats.org/v04n01/wildlife_full.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "greenroofs.org",
+      "url": "http://www.greenroofs.org",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "3ee0d5132b454c5d82a9047e7e9f35f2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:41+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

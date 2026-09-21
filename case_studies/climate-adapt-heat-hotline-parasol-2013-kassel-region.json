@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-heat-hotline-parasol-2013-kassel-region",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heat-hotline-parasol-2013-kassel-region",
+  "title": "Heat Hotline Parasol – Kassel region",
+  "summary": "Launched in 2010, the heat hotline parasol is a free hotline service that provides heat warnings and guidance to citizens, particularly the elderly, to deal with urban heatwaves in the city of Kassel. This prevention service is operated by volunteers and has been well received by the public. Demographic change and climate change together place great challenges on the society. The life expectancy of the population in Germany rises and so does the share of older people. Besides chronic patients and children, the elderly are especially affected by the effects of the climate change.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kassel",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Kassel",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Kassel__DE_",
+        "source_name": "Kassel (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.316880504,
+    "lon": 9.4482421875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "kassel.de",
+      "url": "https://www.kassel.de/buerger/gesundheit/gesundheitsfoerderung/inhaltsseiten-hitze/hitze-verteilerseite.php",
+      "role": "contextual_input"
+    },
+    {
+      "name": "kassel.de",
+      "url": "https://www.kassel.de/buerger/gesundheit/index.php",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heat-hotline-parasol-2013-kassel-region",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "31e656d0e6024886acf8ed07d61eb940",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/heat-hotline-parasol-2013-kassel-region",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:37:33+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

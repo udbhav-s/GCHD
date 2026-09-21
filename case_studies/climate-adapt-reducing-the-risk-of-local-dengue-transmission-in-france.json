@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-reducing-the-risk-of-local-dengue-transmission-in-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+  "title": "Reducing the risk of local dengue transmission in France",
+  "summary": "To curb the spread of dengue, chikungunya, and Zika, enhanced surveillance, mandatory reporting, epidemiological investigations, and preventive measures are implemented in France. Although no quantitative estimates exist about saved lives, the system is expected to significantly reduce the risks of disease transmission, due to early detection of cases. The risk of local outbreaks of dengue is growing in many areas across Europe due to increasing urbanisation and globalisation. In addition, climate change increases climatic suitability in Europe for Aedes albopictus, an invasive mosquito species acting as a vector for the dengue virus. In France, Aedes albopictus is already widespread.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 48.818262292,
+    "lon": 2.426544021,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "santepubliquefrance.fr",
+      "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-transmission-vectorielle/chikungunya/articles/donnees-en-france-metropolitaine/chikungunya-dengue-et-zika-donnees-de-la-surveillance-renforcee-en-france-metropolitaine-en-2022",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+    "publication_date": "2023-02-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ddc8b7fb10ac4c01bc7808ee8a0e7bf2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:09+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

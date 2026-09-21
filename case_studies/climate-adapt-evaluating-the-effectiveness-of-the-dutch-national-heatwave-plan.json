@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan",
+  "title": "Evaluating the effectiveness of the Dutch National Heatwave Plan",
+  "summary": "Across Europe, Heat Health Action Plans (HHAPs) play a critical role in coordinating the public health response during periods of extreme heat. However, there is limited evidence on the effectiveness of measures identified in HHAPs in reducing mortality and morbidity (EEA, 2024). Therefore, evaluating measures included in HHAPs and revising them accordingly is essential.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 52.370802861407554,
+    "lon": 4.908705936704604,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "rivm.nl",
+      "url": "https://www.rivm.nl/en/news/national-heatwave-plan-evaluation-substantial-attenuation-in-risk-of-dying-from-heat-since",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan",
+    "publication_date": "2026-06-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "fc2d6a950bec4cfb997e32ca2be01f96",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-14T08:06:17+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

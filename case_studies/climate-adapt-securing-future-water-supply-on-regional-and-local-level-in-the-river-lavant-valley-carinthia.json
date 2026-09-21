@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
+  "title": "Securing future water supply on regional and local level in the River Lavant Valley, Carinthia",
+  "summary": "The River Lavant valley has developed a regional water association network to address climate-induced water shortages, securing supply through inter-municipal cooperation. This strategy of risk management has proven successful for consumers connected to the public water supply system. The densely populated River Lavant valley region in the eastern part of Carinthia in the southern Austrian Alps is characterised by a low level of precipitation, geological conditions unfavourable to groundwater storage and a limited number of springs that can be used for water supply.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wolfsberg",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Kärnten",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Kärnten__AT_",
+        "source_name": "Kärnten (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 46.813218976,
+    "lon": 14.8095703125,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "wasserwerk.at",
+      "url": "http://www.wasserwerk.at/home/wasserwerke/lavanttal_offline",
+      "role": "contextual_input"
+    },
+    {
+      "name": "wolfsberger-stadtwerke.at",
+      "url": "http://www.wolfsberger-stadtwerke.at/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "wasserwerk.at",
+      "url": "http://www.wasserwerk.at/home/wasserwerke/wolfsberg/daten-fakten",
+      "role": "contextual_input"
+    },
+    {
+      "name": "bmk.gv.at",
+      "url": "https://www.bmk.gv.at/dam/jcr:a112a1d2-ba51-4d84-bcea-1a9413637e91/Good_Practice_Broschuere.pdf",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "1cce149eb74a4844a3755b7d0061621b",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:49+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

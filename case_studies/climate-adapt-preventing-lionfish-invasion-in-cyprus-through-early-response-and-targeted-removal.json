@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
+  "title": "Preventing lionfish invasion in Cyprus through early response and targeted removal",
+  "summary": "The RELIONMED-LIFE project in Cyprus addresses the rapid spread of invasive lionfish in the Mediterranean, impacting biodiversity, fisheries, and tourism. The project aims to control lionfish invasion through risk assessment, system citizen engagement, early detection system, removal actions and market promotion of lionfish products. Lionfish ( Pterois miles ), a generalist and voracious mesopredator native of the Indian Ocean, is rapidly spreading in the Mediterranean Sea, demonstrating the fastest invasion ever recorded in the region.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Cyprus",
+        "ucode": "CYP_V1",
+        "dcid": "country/CYP",
+        "iso3": "CYP"
+      },
+      "adm1": {
+        "name": "Κύπρος (Kýpros)",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Κύπρος__Kýpros___CY_",
+        "source_name": "Κύπρος (Kýpros) (CY)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 35.0503911521,
+    "lon": 33.2262638211,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "webgate.ec.europa.eu",
+      "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE16-NAT-CY-000832/preventing-a-lionfish-invasion-in-the-mediterranean-through-early-response-and-targeted-removal",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
+    "publication_date": "2021-10-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "de88af34a05e45449d1b439f0639c9f9",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:46+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

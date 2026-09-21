@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
+  "title": "Habitat restoration and integrated management in the Ebro delta to improve biodiversity protection and climate resilience",
+  "summary": "The Ebro Delta implemented two LIFE projects between 2009 and 2018 to address wetland deterioration, sea level rise, and subsidence. DELTA-LAGOON focused on lagoon habitat restoration and hydrological connectivity. EBRO-ADMICLIM adopted an integrated approach for managing water, sediment and habitats, also including mitigation goals. The Ebro delta (Catalonia, Spain) and its coastal lagoons (Alfacada and Tancada) are vulnerable to the effects of climate change, particularly to sea level rise. In combination with sediment deficit due to river regulation and subsidence, sea lever rise can lead to exacerbated coastal erosion and retreat. Local management practices (e.g.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Cataluña",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Cataluña__ES_",
+        "source_name": "Cataluña (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 40.7035458021,
+    "lon": 0.836334228484,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "icgc.cat",
+      "url": "https://icgc.cat/en/Public-Administration-and-Enterprises/Services/Applied-Geophysics/Life-EBRO-ADMICLIM",
+      "role": "contextual_input"
+    },
+    {
+      "name": "climate-adapt.eea.europa.eu",
+      "url": "https://climate-adapt.eea.europa.eu/en/metadata/projects/adaptation-and-mitigation-measures-to-climate-change-in-the-ebro-delta",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "fd949d3d4bc846d4a1f66e405c05787c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:43+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

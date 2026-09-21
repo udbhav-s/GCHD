@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+  "title": "Sustainability credits for promoting sustainable forestry in the Tuscan-Emilian Apennines, Italy",
+  "summary": "Through sustainability credit marketing and the adherence to international certification systems, the Tuscan-Emilian Apennines National Park financially supports the sustainable management of forests, making them more resilient to climate change. The Tuscan-Emilian Apennines National Park is situated on the mountain divide between Tuscany and Emilia-Romagna, Italy. The Park Authority coordinates a project that generates market value for ecosystem services of sustainable forest management. The project helps forests adapt to climate change, and offers companies a way to support environmental protection through the purchase of Sustainability Credits.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Toscana",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Toscana__IT_",
+        "source_name": "Toscana (IT)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 44.2883385,
+    "lon": 10.1970184,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "creditisostenibilita.it",
+      "url": "https://creditisostenibilita.it/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.parcoappennino.it",
+      "url": "www.parcoappennino.it",
+      "role": "contextual_input"
+    },
+    {
+      "name": "fsc.org",
+      "url": "https://fsc.org/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pefc.org",
+      "url": "https://www.pefc.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pefc.it",
+      "url": "https://www.pefc.it/cosa-facciamo/sviluppo-standard-di-servizi-ecosistemici-di-foreste-e-piantagioni-pefc-italia",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+    "publication_date": "2025-10-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7b44db6a298e44d8b8cd0ef9ccc66ff5",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:32+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

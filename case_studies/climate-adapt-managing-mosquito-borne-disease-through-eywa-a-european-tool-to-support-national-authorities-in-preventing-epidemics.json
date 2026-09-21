@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
+  "title": "Managing mosquito borne disease through EYWA: a European tool to support public health authorities in preventing epidemics",
+  "summary": "(Case study focussed on the use of a tool) EYWA (EarlY WArning System for Mosquito-borne diseases) is a collaborative and innovative early-warning system that integrates satellite data and models to forecast and monitor Mosquito-Borne Diseases (MBDs). It provides critical support to public health authorities. Climate change, globalisation and other drivers are altering ecological conditions for mosquitoes and some areas are becoming more suitable for new species, including various infectious diseases carried by them. Globally, Mosquito-Borne Diseases (MBDs) infect almost 700 million people every year and are present in over 100 countries, causing millions of deaths annually.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Europe",
+      "adm0": null,
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 50.84439,
+    "lon": 4.35609,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "beyond-eocenter.eu",
+      "url": "https://beyond-eocenter.eu/eywa.html",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
+    "publication_date": "2022-02-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ba0e5f1dacb64c259b96a97908903431",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:47+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

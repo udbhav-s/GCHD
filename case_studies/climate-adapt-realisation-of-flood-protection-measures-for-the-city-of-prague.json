@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-realisation-of-flood-protection-measures-for-the-city-of-prague",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/realisation-of-flood-protection-measures-for-the-city-of-prague",
+  "title": "Realisation of flood protection measures for the city of Prague",
+  "summary": "The need for city protection originated with the experiences of the flood in Moravia in 1997 and it became even more urgent after the devastating flood of 2002 and its extensive damages. These events triggered an adaptive reaction with enhancement of flood-control measures capacity to a flooding event of 500-year return period (+30 cm safety margin), compared to 100-years of the previous defences . In 2002, Prague experienced severe flooding with total damage of 24 billion CZK (1 billion EUR). This event was recognized as one of the most expensive weather-related disasters in the history of the city with heavy damages on infrastructure, housing and environment.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Prague",
+      "adm0": {
+        "name": "Czechia",
+        "ucode": "CZE_V1",
+        "dcid": "country/CZE",
+        "iso3": "CZE"
+      },
+      "adm1": {
+        "name": "Praha",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Praha__CZ_",
+        "source_name": "Praha (CZ)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 50.0994409876,
+    "lon": 14.4250488281,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "base-adaptation.eu",
+      "url": "http://base-adaptation.eu/case-studies",
+      "role": "contextual_input"
+    },
+    {
+      "name": "base-adaptation.eu",
+      "url": "http://base-adaptation.eu/central-european-flooding-focus-czech-republic",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/realisation-of-flood-protection-measures-for-the-city-of-prague",
+    "publication_date": "2023-11-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "effe95c84fb94d67a3d69384819ded1c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/realisation-of-flood-protection-measures-for-the-city-of-prague",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:04+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

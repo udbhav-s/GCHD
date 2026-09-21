@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
+  "title": "European funds for flood protection measures in Smolyan - Bulgaria",
+  "summary": "Smolyan municipality is reinforcing river flood protection measures by strengthening defence walls, maintaining riverbanks and c leaning riverbeds. European funds have been a clear enabling factor for all these interventions. The Smolyan region has been declared in a state of emergency several times due to floods. In particular, in response to flooding causing damage in Smolyan’s Ustovo neighbourhood in 2005, the city implemented a number of flood protection measures in 2007-2013 that have paid off . River banks were widened, existing protection walls were reinforced and new walls constructed.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Smolyan",
+      "adm0": {
+        "name": "Bulgaria",
+        "ucode": "BGR_V1",
+        "dcid": "country/BGR",
+        "iso3": "BGR"
+      },
+      "adm1": {
+        "name": "Южен централен (Yuzhen tsentralen)",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Южен централен (Yuzhen tsentralen) (BG)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 41.5766728073,
+    "lon": 24.7034454346,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "crossborderfloodprotection.eu",
+      "url": "https://crossborderfloodprotection.eu/to-programma-2/?lang=en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "greece-bulgaria.eu",
+      "url": "https://www.greece-bulgaria.eu/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
+    "publication_date": "2023-12-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "918299b2df834383b00134169980d5d1",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:21+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

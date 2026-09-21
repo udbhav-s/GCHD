@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+  "title": "Multi-Hazard approach to early warning system in Sogn og Fjordane, Norway",
+  "summary": "The Sogn og Fjordane county in Norway tested a cost-effective multi-hazard early warning system, utilizing mobile phones and social media. While the demonstration project successfully distributed alerts, the warning system has not been implemented by national or subnational authorities, due to budget constraints and legislative barriers. The county of Sogn og Fjordane frequently experiences avalanches and landslides, storm surges and flooding. Due to climate change and related impacts on extreme weather events above hazards are expected to be exacerbated; more extensive adaptation strategies and measures are therefore needed.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": "country/NOR",
+        "iso3": "NOR"
+      },
+      "adm1": {
+        "name": "Vestlandet",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Vestlandet_NO_",
+        "source_name": "Vestlandet (NO)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 60.9010599944,
+    "lon": 7.18368530245,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+    "publication_date": "2014-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "69738f15bd05438f8c961486932af883",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:47+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

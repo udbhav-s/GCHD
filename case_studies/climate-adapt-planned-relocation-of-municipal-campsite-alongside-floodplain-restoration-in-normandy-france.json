@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+  "title": "Planned relocation of municipal campsite alongside floodplain restoration in Normandy (France)",
+  "summary": "The PACCo project in Saâne Valley demonstrates that proactive coastal adaptation, including habitat restoration and the planned relocation of a vital municipal asset away from the floodplain is effective in reducing vulnerability to climate risks. Normandy’s proactive approach to managing coastal risks sets a positive example for advancing coastal resilience across Europe. The Saâne Valley, located in Normandy Region, has been impacted by flooding, mainly due to development in the floodplains and land use modifications leading to the Saâne river being disconnected from the sea. This has adversely affected both the economic prospects and the ecology of the Valley.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Haute-Normandie",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Haute_Normandie__FR_",
+        "source_name": "Haute-Normandie (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 49.906725131,
+    "lon": 0.931800653503,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/milieux-aquatiques-eaux-et-littoral",
+      "role": "contextual_input"
+    },
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/giec-normand",
+      "role": "contextual_input"
+    },
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/idee-notre-littoral-pour-demain",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pacco-interreg.com",
+      "url": "https://www.pacco-interreg.com/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "basse-saane-2050.com",
+      "url": "https://basse-saane-2050.com/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+    "publication_date": "2024-10-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "12cd1e7e2fd74df1bfc0d50428afe5d2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

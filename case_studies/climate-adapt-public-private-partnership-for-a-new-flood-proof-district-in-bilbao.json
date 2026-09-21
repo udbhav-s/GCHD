@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+  "title": "Public-private partnership for a new flood proof district in Bilbao, Spain",
+  "summary": "A major restoration project is underway to transform a degraded urban area into a modern and sustainable residential neighbourhood and in a lively area for social, cultural, recreational and commercial activities. This new urban space is designed to withstand the increased vulnerability to extreme flooding events induced by climate change. In view of increasing extreme precipitations projected across the Basque country due to climate change, and considering the need for new housing to accommodate citizens of Bilbao, a major urban regeneration project is currently underway to redevelop Zorrotzaurre district into a new flood-proof residential quarter.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bilbao",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "País Vasco",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_País_Vasco__ES_",
+        "source_name": "País Vasco (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 43.2732059171,
+    "lon": -2.94708251953,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zorrotzaurre.com",
+      "url": "http://www.zorrotzaurre.com/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "zaha-hadid.com",
+      "url": "https://www.zaha-hadid.com/masterplans/zorrozaurre-masterplan/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+    "publication_date": "2023-11-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "2e43e052354f433687257580de89ab99",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

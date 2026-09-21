@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
+  "title": "Multifunctional water management and green infrastructure development in an eco-district in Rouen",
+  "summary": "The former industrial area of Luciline in Rouen, located along the Seine River, was re-designed into an eco-district, including both climate change adaptation and mitigation solutions. Public support and funding, integrated planning, and stakeholder engagement were key success factors. The former industrial area “Luciline” in Rouen, along the Seine river, has been profoundly re-designed into an ecodistrict covering 9 hectares in total and including both climate change adaptation and mitigation solutions. Sustainable living is the core principle of the neighbourhood re-design.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rouen",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Haute-Normandie",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Haute_Normandie__FR_",
+        "source_name": "Haute-Normandie (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 49.4341987725,
+    "lon": 1.09245300293,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "rouen.fr",
+      "url": "http://www.rouen.fr/luciline-rive-de-seine",
+      "role": "contextual_input"
+    },
+    {
+      "name": "rouen-normandie-amenagement.fr",
+      "url": "http://www.rouen-normandie-amenagement.fr",
+      "role": "contextual_input"
+    },
+    {
+      "name": "future-cities.eu",
+      "url": "http://www.future-cities.eu/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "92d0a4b51359403fa79bc5778eae2780",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:50+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+  "title": "Online monitoring and early warning system for bacterial contamination in public surface waters in Breda, the Netherlands",
+  "summary": "A remote monitoring system for the presence of potentially harmful bacteria in surface and river waters triggers early warnings for local authorities in Breda. This allows them to take preventive measures and protect people against negative health impacts of microbiological contamination when recreating in public waters.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Breda",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Noord-Brabant",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Noord_Brabant__NL_",
+        "source_name": "Noord-Brabant (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 51.5930421967,
+    "lon": 4.77615594864,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "microlan.nl",
+      "url": "https://www.microlan.nl/monitoring-products/bactcontrol-online-monitor-of-total-and-specific-bacteria-activity-in-water/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "microlan.nl",
+      "url": "https://www.microlan.nl/2023/03/16/smart-city-and-bathing-water-monitoring/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "admin.recreatiewater-breda.nl",
+      "url": "https://admin.recreatiewater-breda.nl/Waterkwaliteit/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+    "publication_date": "2024-04-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e91b71d3d973473e8b8864b33f755202",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:15+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

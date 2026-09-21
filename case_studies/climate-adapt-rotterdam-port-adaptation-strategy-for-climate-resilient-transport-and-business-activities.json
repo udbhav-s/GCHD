@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
+  "title": "Rotterdam port adaptation strategy for climate resilient transport and business activities",
+  "summary": "The Port Authority, in collaboration with the municipality of Rotterdam, other government bodies and the private sector co-developed an adaptation strategy aiming to make the largest European port water proof. The strategy is based on prevention, adaptation-driven spatial planning and crises management approaches and is expected to generate benefits that overcome costs. Rotterdam is the largest port in Europe, with a cargo handling volume of over 460 million tons in 2022, around 8% of the total cargo handled in Europe (Eurostat, 2023 ). Port of Rotterdam N.V. (PoR) is the port development company. It operates on a landlord model, i.e.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rotterdam",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 51.94248156159583,
+    "lon": 4.02050612293039,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "portofrotterdam.com",
+      "url": "https://www.portofrotterdam.com/en/water-safety-overview",
+      "role": "contextual_input"
+    },
+    {
+      "name": "portofrotterdam.com",
+      "url": "https://www.portofrotterdam.com/nl/bouwen-aan-de-haven/veilige-haven/waterveiligheid#adaptie",
+      "role": "contextual_input"
+    },
+    {
+      "name": "portofrotterdam.com",
+      "url": "https://www.portofrotterdam.com/en/building-port/safe-port/flood-risk-management",
+      "role": "contextual_input"
+    },
+    {
+      "name": "portofrotterdam.com",
+      "url": "https://www.portofrotterdam.com/nl/bouwen-aan-de-haven/veilige-haven/waterveiligheid",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
+    "publication_date": "2025-02-25",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6082a5f1dc61458d970c84dc65a4754e",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:39+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

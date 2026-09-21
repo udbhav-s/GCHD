@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-preventive-relocation-of-households-at-high-hydrogeological-risk-in-piemonte-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/preventive-relocation-of-households-at-high-hydrogeological-risk-in-piemonte-italy",
+  "title": "Preventive relocation of households at high hydrogeological risk in Piemonte (Italy)",
+  "summary": "Planned relocation is increasingly recognised as a tool for disaster risk reduction and climate change adaptation. When undertaken in an anticipatory way, it reduces people’s exposure to disasters and environmental change by supporting them to move permanently away from high-risk areas. Planned relocation refers to the deliberate resettling of households and communities to another location to reduce exposure to climate and environmental hazards. It can rely on a variety of tools, from property acquisitions (e.g. buyouts) to land use planning and zoning regulations (e.g. rezoning of residential land and abandonment) and a combination of them.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bussoleno, Lambriasco, Pragelato, Villar Pellice",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Piemonte",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Piemonte__IT_",
+        "source_name": "Piemonte (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 45.06935763254049,
+    "lon": 7.682826896369391,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "regione.piemonte.it",
+      "url": "https://www.regione.piemonte.it/web/temi/protezione-civile-difesa-suolo-opere-pubbliche/difesa-suolo/strumenti-per-difesa-suolo/rilocalizzazione-dalle-aree-rischio-idrogeologico",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/preventive-relocation-of-households-at-high-hydrogeological-risk-in-piemonte-italy",
+    "publication_date": "2024-10-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "992c9134be664f7dabadb0d6c15da9a1",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/preventive-relocation-of-households-at-high-hydrogeological-risk-in-piemonte-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:48+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

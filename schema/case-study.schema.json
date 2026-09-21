@@ -22,7 +22,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "2.0"
+      "enum": ["2.0", "2.1"]
     },
     "id": {
       "type": "string",
@@ -53,24 +53,26 @@
       "type": "array",
       "uniqueItems": true,
       "items": {
-        "enum": [
-          "river_flood",
-          "coastal_flood",
-          "tropical_storm",
-          "agricultural_drought",
-          "meteorological_drought",
-          "heatwave",
-          "extreme_heat",
-          "wildfire",
-          "sand_dust_storm",
-          "air_pollution_pm25",
-          "malaria",
-          "earthquake",
-          "volcano",
-          "landslide",
-          "armed_conflict"
-        ]
+        "$ref": "#/$defs/hazardId"
       }
+    },
+    "source_hazard_tags": {
+      "type": "array",
+      "description": "The hazard vocabulary of the source collection, kept verbatim. Tags that have no GCHD equivalent stay here so nothing is lost when hazards is narrower than the source.",
+      "items": {
+        "$ref": "#/$defs/sourceHazardTag"
+      }
+    },
+    "point": {
+      "description": "A representative point for the study, used to place it on a map when no boundary is resolved.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/point"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "data_sources": {
       "type": "array",
@@ -137,6 +139,25 @@
     }
   ],
   "$defs": {
+    "hazardId": {
+      "enum": [
+        "river_flood",
+        "coastal_flood",
+        "tropical_storm",
+        "agricultural_drought",
+        "meteorological_drought",
+        "heatwave",
+        "extreme_heat",
+        "wildfire",
+        "sand_dust_storm",
+        "air_pollution_pm25",
+        "malaria",
+        "earthquake",
+        "volcano",
+        "landslide",
+        "armed_conflict"
+      ]
+    },
     "administrativeUnit": {
       "type": "object",
       "additionalProperties": false,
@@ -151,11 +172,19 @@
           "pattern": "^[A-Z]{3}$"
         },
         "ucode": {
-          "type": "string",
+          "type": ["string", "null"],
           "minLength": 1
         },
         "dcid": {
           "type": ["string", "null"]
+        },
+        "source_code": {
+          "type": ["string", "null"],
+          "description": "The region identifier used by the source collection, such as a NUTS code or the source's own region token. Kept so an unresolved unit can be matched to a GeoRepo ucode later."
+        },
+        "source_name": {
+          "type": ["string", "null"],
+          "description": "The region label exactly as the source wrote it, before any normalisation."
         }
       }
     },
@@ -199,6 +228,54 @@
               "type": "null"
             }
           ]
+        }
+      }
+    },
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lat", "lon"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "source": {
+          "type": "string",
+          "description": "Where the coordinate came from, such as the source record or a geocoder."
+        }
+      }
+    },
+    "sourceHazardTag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocabulary", "code", "label", "mapped_to"],
+      "properties": {
+        "vocabulary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the source vocabulary, for example climate_adapt_climate_impacts."
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mapped_to": {
+          "type": "array",
+          "description": "GCHD hazard IDs this tag was mapped to. Empty means the tag has no GCHD equivalent.",
+          "items": {
+            "$ref": "#/$defs/hazardId"
+          }
         }
       }
     },
@@ -267,6 +344,27 @@
         },
         "extraction_method": {
           "enum": ["manual", "scraped", "api", "llm_assisted"]
+        },
+        "source_record_id": {
+          "type": ["string", "null"],
+          "description": "The identifier the source collection uses for this record, such as a CMS UID."
+        },
+        "source_api_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "The exact endpoint the record was read from, so a re-run can fetch the same bytes."
+        },
+        "source_content_type": {
+          "type": ["string", "null"],
+          "description": "The content type the source assigns the record, for example eea.climateadapt.casestudy."
+        },
+        "source_modified": {
+          "type": ["string", "null"],
+          "description": "When the source last changed the record. Use this to decide whether a re-scrape is needed."
+        },
+        "extracted_by": {
+          "type": ["string", "null"],
+          "description": "Name and version of the script that produced this record, for example scrape_climate_adapt.py@1.0."
         }
       }
     },

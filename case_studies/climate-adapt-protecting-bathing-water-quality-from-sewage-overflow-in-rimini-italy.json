@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+  "title": "Protecting bathing water quality from sewage overflow in Rimini, Italy",
+  "summary": "During heavy rainfall events, Rimini frequently experienced combined sewage system overflows which caused local surface flooding in the city and direct discharge of untreated, diluted wastewater into the sea. The resultant contamination of sea water was posing health risks and necessitated frequent implementation of bathing bans on the city’s beaches, with negative impacts on tourism.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rimini",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 44.05542,
+    "lon": 12.57004,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "gruppohera.it",
+      "url": "https://www.gruppohera.it/-/psbo-il-gigante-buono-che-protegge-il-mare-di-rimini",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=vk2ysfwxR4o&t=56s",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cittaclima.it",
+      "url": "https://cittaclima.it/portfolio-items/rimini-piazzale-kennedy/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "wateractionhub.org",
+      "url": "https://wateractionhub.org/projects/2237/d/the-rimini-seawater-protection-plan/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "riminiturismo.it",
+      "url": "https://riminiturismo.it/en/what-do/enjoy-and-relax/sea-beaches-and-nature/parco-del-mare-sea-and-promenade-together-new",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+    "publication_date": "2024-02-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ffc3a83193e243e9acb50fa40c7744d5",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

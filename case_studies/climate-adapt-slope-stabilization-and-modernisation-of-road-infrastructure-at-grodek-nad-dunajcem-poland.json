@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
+  "title": "Slope stabilisation and modernisation of road infrastructure at Gródek nad Dunajcem, Poland",
+  "summary": "A complex engineering intervention secured slopes at risk of landslides in the Małopolska region. It ensures the continued operation of road transport in areas affected by increasing intense rainfall due to climate change. The project entitled “Securing landslides along provincial road No. 975 and construction of a bridge in Gródek nad Dunajcem” (hereinafter referred to as ‘the project’) concerned the comprehensive protection of a section of provincial road No. 975 in Gródek nad Dunajcem (Małopolska), south-east of Krakow, against the threat of landslides.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Gródek nad Dunajcem",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": "country/POL",
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Małopolskie",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Małopolskie__PL_",
+        "source_name": "Małopolskie (PL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 49.7486434,
+    "lon": 20.7323128,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zdw.krakow.pl",
+      "url": "https://www.zdw.krakow.pl/inwestycje/rpo/zabezpieczenie-osuwisk-w-ciagu-dw-975/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
+    "publication_date": "2026-03-04",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "61a9bae8c1c949b19d798156a754b0f3",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:33+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-coastal-protection-by-managed-realignment-titchwell-marsh",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+  "title": "Coastal protection by managed realignment, Titchwell Marsh",
+  "summary": "Titchwell Marsh lies towards the western end of the North Norfolk coast in UK. It forms a key part of the North Norfolk Coast Special Protection Area (SPA) and Special Area of Conservation (SAC). The freshwater and brackish habitats at Titchwell are protected by seawalls. However, these walls would have been in danger of not being able to withstand the next few years due to coastal erosion and rising sea levels.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 52.9673031956,
+    "lon": 0.602874755837,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "rspb.org.uk",
+      "url": "https://www.rspb.org.uk/our-work/conservation/projects/titchwell-marsh-coastal-change-project/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "rspb.org.uk",
+      "url": "https://www.rspb.org.uk/reserves-and-events/reserves-a-z/titchwell-marsh/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+    "publication_date": "2015-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8b313d845e8d44af8ae1c9fbaa193053",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

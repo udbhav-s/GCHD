@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-regional-flood-management-by-combining-soft-and-hard-engineering-solutions-the-norfolk-broadlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/regional-flood-management-by-combining-soft-and-hard-engineering-solutions-the-norfolk-broadlands",
+  "title": "Regional flood management by combining soft and hard engineering solutions, the Norfolk Broadlands",
+  "summary": "Situated in East Anglia, Norfolk Broads (Broadland) is one of the finest areas of wetland in Britain. It includes both open water, the Broads themselves (a network of mostly navigable rivers and lakes), and the low-lying marshland surrounding the tidal reaches of the Yare, Waveney, Bure rivers and their tributaries. These rivers reach the sea at Great Yarmouth. The Broadland Flood Alleviation Project (BFAP) is a long-term 20-years project to provide a range of flood defence improvements, maintenance and emergency response services along the tidal rivers within the Broadland.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 52.6530616951,
+    "lon": 1.59851074213,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "ice.org.uk",
+      "url": "https://www.ice.org.uk/what-is-civil-engineering/what-do-civil-engineers-do/broadland-flood-alleviation",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/regional-flood-management-by-combining-soft-and-hard-engineering-solutions-the-norfolk-broadlands",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "aaa7d0905753414b9d900e5ad328b703",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/regional-flood-management-by-combining-soft-and-hard-engineering-solutions-the-norfolk-broadlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:11+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

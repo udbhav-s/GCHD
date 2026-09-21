@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
+  "title": "Managing the increasing risk of wildfires in a changing climate, Sweden",
+  "summary": "Extensive wildfires in 2014 and 2018 led Sweden to update its civil protection laws and guidelines, in order to minimize the environmental and societal effects of future wildfires induced by climate change. This is done through clarifying roles and responsibilities further at all levels and strengthening the overall coordination, monitoring and adherence to rules and procedures. Climate change is increasing the frequency, intensity and duration of extreme weather events, such as droughts, heatwaves and high-speed winds, which fuel longer and stronger fires.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": "country/SWE",
+        "iso3": "SWE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 59.3251172,
+    "lon": 18.0710935,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "naturvardsverket.se",
+      "url": "https://www.naturvardsverket.se/en/topics/the-right-of-public-access/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "riksdagen.se",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003778-om-skydd-mot-olyckor_sfs-2003-778/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "msb-bbk.metria.se",
+      "url": "https://msb-bbk.metria.se/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "skogforsk.se",
+      "url": "https://www.skogforsk.se",
+      "role": "contextual_input"
+    },
+    {
+      "name": "smhi.se",
+      "url": "https://www.smhi.se/vader/prognoser-och-varningar/brandriskprognoser",
+      "role": "contextual_input"
+    },
+    {
+      "name": "msb.se",
+      "url": "https://www.msb.se/sv/utbildning--ovning/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
+    "publication_date": "2024-11-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8f950e4a21b74fe79dec67c03ab8e75e",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:49+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-restoration-and-climate-adaptation-of-church-ruins-holla-norway",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/restoration-and-climate-adaptation-of-church-ruins-holla-norway",
+  "title": "Restoration and climate adaptation of church ruins, Holla, Norway",
+  "summary": "With increasing precipitation and intensification of frost-thaw cycles, new renovation works of the Holla church ruins were needed. The intervention is expected to provide long-term conservation of the building while also increasing the number of visitors. The Holla church ruin is located at Ulefoss, South-Eastern Norway, in the middle of the settlement, with an exceptional view. The church (part of Gea Norvegica UNESCO Global Geopark) was built in the 13 th Century and stands as a ruin since the site got a new church in 1867. Later, and especially since the 1920s, various major and minor repairs to the masonry have been carried out.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nome",
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": "country/NOR",
+        "iso3": "NOR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMECOLD",
+      "label": "Extreme cold",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 59.2839949,
+    "lon": 9.264519,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "riksantikvaren.no",
+      "url": "https://riksantikvaren.no/eksempelsamling/istandsetting-og-klimatilpasning-av-kirkeruin",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/restoration-and-climate-adaptation-of-church-ruins-holla-norway",
+    "publication_date": "2024-12-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ecb36e418fe34d2eb32665b265be9900",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/restoration-and-climate-adaptation-of-church-ruins-holla-norway",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:18+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

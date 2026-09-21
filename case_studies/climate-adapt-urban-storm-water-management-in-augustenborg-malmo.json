@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-urban-storm-water-management-in-augustenborg-malmo",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-storm-water-management-in-augustenborg-malmo",
+  "title": "Urban stormwater management in Augustenborg, Malmö",
+  "summary": "After a period of repeated flooding and degradation, the Augustenborg neighbourhood (Malmö, Sweden) introduced sustainable urban drainage systems (SUDS) to renew its infrastructures. Green roofs, water channels, and ponds transformed the area, resolving flood issues and enhancing its image. During the 1980s and 1990s, the neighbourhood of Augustenborg in Malmö was an area of social and economic decline and was frequently flooded by an overflowing drainage system. Between 1998 and 2002, the area was regenerated. The physical changes in infrastructure included the creation of sustainable urban drainage systems (SUDS), including 6 Km of water channels and ten retention ponds.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Malmö",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": "country/SWE",
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Sydsverige",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Sydsverige__SE_",
+        "source_name": "Sydsverige (SE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 55.6102981567,
+    "lon": 13.0748996735,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "smartcitysweden.com",
+      "url": "https://smartcitysweden.com/best-practice/329/eco-city-augustenborg-creating-an-attractive-and-resilient-district/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "malmo.se",
+      "url": "https://malmo.se/Welcome-to-Malmo/Sustainable-Malmo/Sustainable-Urban-Development/Augustenborg-Eco-City/The-Green-City.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "naturvation.eu",
+      "url": "https://naturvation.eu/location/europe/se/malmo.html",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-storm-water-management-in-augustenborg-malmo",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e2e080f564d94280bc89a1f61aba0416",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/urban-storm-water-management-in-augustenborg-malmo",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

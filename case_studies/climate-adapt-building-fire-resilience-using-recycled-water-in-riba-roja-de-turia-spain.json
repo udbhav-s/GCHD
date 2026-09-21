@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+  "title": "Building fire resilience using recycled water in Riba-Roja de Túria, Spain",
+  "summary": "The forest surrounding the urban areas of Riba-Roja de Túria (Valencia, Spain) is exposed to increased wildfires. The municipality aims to enhance resilience by implementing green urban actions, including recycling 80000 m³ of wastewater and creating green firebreaks to mitigate forest fire risks. Riba-Roja de Túria is a municipality located in the National Park of Túria’s River in Valencia (Spain) which represents one of the last remaining forestry ‘lungs’ in its metropolitan area. The Túria Park also represents a clear example of the scarce and valuable Mediterranean riparian forests associated with the River Túria.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Riba-Roja de Túria",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Comunidad Valenciana",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Comunidad_Valenciana__ES_",
+        "source_name": "Comunidad Valenciana (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 39.54519,
+    "lon": -0.56811,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "proyectoguardian.com",
+      "url": "https://proyectoguardian.com",
+      "role": "contextual_input"
+    },
+    {
+      "name": "portico.urban-initiative.eu",
+      "url": "https://portico.urban-initiative.eu/uia/guardian-green-urban-actions-resilient-fire-defence-interface-area",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/nw70Nloz0Z8",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+    "publication_date": "2024-12-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5c55bc6a04e3434885e8556a6d3d9c2d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

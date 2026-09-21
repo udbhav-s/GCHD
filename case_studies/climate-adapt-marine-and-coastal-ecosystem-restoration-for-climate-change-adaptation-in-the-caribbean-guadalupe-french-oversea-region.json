@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
+  "title": "Marine and coastal ecosystem restoration for climate change adaptation in the Caribbean (Guadaloupe, French Oversea region)",
+  "summary": "Corals, seagrasses and mangroves are key for coastal resilience to climate change but are also highly vulnerable to multiple pressures. A large restoration intervention, combined with focussed protection activities, was implemented in Guadeloupe to favour their reproduction and growing potential. Due to their size and location, Caribbean is particularly susceptible to the impacts of climate change, as developing economies rely on sectors vulnerable to climate patterns such as tourism, agriculture and fishing. Thus, Caribbean region is greatly affected by the ongoing rise in sea levels, changes in rain patterns and temperatures, and increasing intensity of natural disasters.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Guadeloupe",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Guadeloupe__FR_",
+        "source_name": "Guadeloupe (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 16.240787902095988,
+    "lon": -61.570224365814234,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "cayoli.fr",
+      "url": "https://www.cayoli.fr/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cayoli.fr",
+      "url": "https://www.cayoli.fr/en/life-adaptisland-2/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webgate.ec.europa.eu",
+      "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/details/5068",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
+    "publication_date": "2024-12-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8df064878df54cae8626de34737a883d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:51+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+  "title": "IRRINET: IT irrigation system for agricultural water management in Emilia-Romagna, Italy",
+  "summary": "IRRINET, a web-based irrigation system developed in Emilia-Romagna region, assists over 12000 farms in daily irrigation scheduling. It efficiently manages water resources, contributing to saving around 90 million cubic meters annually, equivalent to 20% of the region's agricultural water demand. IRRINET is an IT irrigation system aiming to advise farmers on efficient water management. This web service was developed with public funding by the CER (Canale Emiliano Romagnolo, a water consortium located in the Emilia-Romagna region) based on a 1984 project which tested the use of telematics tools in agriculture in Emilia-Romagna.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 44.5278427985,
+    "lon": 11.42578125,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "irriframe.it",
+      "url": "https://www.irriframe.it/Irriframe",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4accee4ba63948fa8a168a30f400819e",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:25+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

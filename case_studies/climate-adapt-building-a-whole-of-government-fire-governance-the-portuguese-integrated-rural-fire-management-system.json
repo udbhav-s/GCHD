@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+  "title": "Building a whole-of-government fire governance: the Portuguese Integrated Rural Fire Management System",
+  "summary": "Protecting Portugal and its forests from severe rural wildfires is in line with the mandate to protect people and property and to support the rural development, by ensuring that ecosystems are adequately maintained. To fulfill this mission an integrated plan for rural fire management has been established. Forested areas of Portugal (about 36% of land area) are endangered by the outbreak of rural wildfires, destroying large areas of forest stands every year. Growing wildfire risk in Portugal results from the interplay of several factors, including changing land-use and management practices, changing vegetation cover, as well as climate change ( OECD, 2023 ).",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": "country/PRT",
+        "iso3": "PRT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 38.7077507,
+    "lon": -9.1365919,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "agif.pt",
+      "url": "https://www.agif.pt/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sgifr.gov.pt",
+      "url": "https://www.sgifr.gov.pt/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "agif.pt",
+      "url": "https://www.agif.pt/en/landscape-fire-governance-framework",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+    "publication_date": "2026-03-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "941000c19c144cacaf4a99d08bd107cb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:40+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

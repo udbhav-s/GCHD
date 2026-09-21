@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
+  "title": "Community-led partnership for coastal restoration in the Maharees peninsula, Ireland",
+  "summary": "Facing pressures from climate change and growing tourism flows, the Maharees Conservation Association was formed. This community-led partnership brings together different stakeholders and successfully implemented a range of nature-based solutions to strengthen the long-term resilience of the Maharees Peninsula. The Maharees (Na Machairí) is a 5 km long natural tombolo, i.e. a sandy deposition landform by which an island becomes attached to the mainland. It is located on the north side of the Dingle peninsula in County Kerry (Ireland), and has a year-round population of 310 inhabitants.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kerry County",
+      "adm0": {
+        "name": "Ireland",
+        "ucode": "IRL_V1",
+        "dcid": "country/IRL",
+        "iso3": "IRL"
+      },
+      "adm1": {
+        "name": "Southern and Eastern",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Southern_and_Eastern__IE_",
+        "source_name": "Southern and Eastern (IE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 52.295411182140896,
+    "lon": -10.027172197079398,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "mahareesconservation.com",
+      "url": "https://mahareesconservation.com/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
+    "publication_date": "2025-10-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "d5235fef65734ab4be95430ff22c9bb3",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-01T09:12:58+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

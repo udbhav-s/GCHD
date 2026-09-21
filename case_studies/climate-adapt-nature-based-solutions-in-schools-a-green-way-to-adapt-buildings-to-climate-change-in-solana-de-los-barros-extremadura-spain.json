@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
+  "title": "Nature-Based Solutions in schools: a green way to adapt buildings to climate change in Solana de los Barros, Extremadura (Spain)",
+  "summary": "Different types of green roofs, green facades, permeable paving and ventilation systems have been tested in a school building of Spain to address increasing temperatures and water scarcity. The implementation of a detailed monitoring scheme revealed positive results indicating high replication potential and possible incorporation of nature-based solutions in the national building code . In a school located in Solana de los Barros (Badajoz, Extremadura, Spain) several nature-based solutions (NbS) have been designed and implemented to minimise climate impacts, as part of the EU LIFE project myBUILDINGisGREEN LIFE .",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Extremadura",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Extremadura__ES_",
+        "source_name": "Extremadura (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 38.72611,
+    "lon": -6.53791,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "life-mybuildingisgreen.eu",
+      "url": "https://life-mybuildingisgreen.eu/en/home/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "twitter.com",
+      "url": "https://twitter.com/buildingisgreen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "linkedin.com",
+      "url": "https://www.linkedin.com/company/28944174",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/@lifemybuildingisgreen6359",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
+    "publication_date": "2026-09-07",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "20a2b161c9a44fb39c9fc988de215278",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-18T13:14:17+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

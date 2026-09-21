@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
+  "title": "Integrating adaptation in the design of the metro of Copenhagen",
+  "summary": "The Copenhagen metro system integrates climate change adaptation in its line design, implementing measures like elevated entrances, drainage systems, and waterproofing. Consistency and coherence with the city-wide adaptation plan to climate changes is key to ensure success. Climate change impact assessment has been an integrated part of the design and planning of the Copenhagen metro since the first metro line was designed in the mid-1990s. For this scope, Metroselskabet, the Copenhagen metro company, developed a climate change adaptation strategy, which supports the integration of adaptation aspects since the planning and dimensioning phase of the metro system.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": "country/DNK",
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "Hovedstaden",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Hovedstaden__DK_",
+        "source_name": "Hovedstaden (DK)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 55.7085453105,
+    "lon": 12.5024414058,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "ramboll.com",
+      "url": "https://www.ramboll.com/news/the-copenhagen-metro-awards-a-major-assignment-for-the-new-metro-line-to-the-joint-venture-ramboll-systra",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eng.klimatilpasning.dk",
+      "url": "https://eng.klimatilpasning.dk/examples-of-climate-adaptation/the-capital-region-of-denmark/the-metro-has-been-designed-for-climate-change",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "44e7d6cb8bc84a1997e9474ed9de7317",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:20+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

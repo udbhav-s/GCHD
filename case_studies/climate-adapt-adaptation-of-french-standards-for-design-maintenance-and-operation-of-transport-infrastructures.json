@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
+  "title": "Adaptation of French standards for design, maintenance and operation of transport infrastructures",
+  "summary": "The French Ministry of Ecology, based on a review by Cerema, updates transport infrastructure standards to adapt to future climates, prioritizing revisions based on resilience needs. The success factors include collaboration with climate experts, mobilization of in-house technical knowledge, pragmatic prioritization, and transparency. At the request of the Ministry of Ecology, Sustainable Development and Energy (DGITM), Cerema (Centre d’Études et d’Expertise sur les Risques, l’Environnement, la Mobilité et l’Aménagement) under supervision of the French Administration, completed in 2015 a systematic review of standards and guidelines on the design, maintenance and operation of transport infra…",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 47.1000446926,
+    "lon": 4.13085937483,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "cerema.fr",
+      "url": "https://www.cerema.fr/fr/actualites/adapting-technical-documents-and-standards-take-account",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cerema.fr",
+      "url": "https://www.cerema.fr/fr/actualites/cerema-acteur-clef-du-volet-transport-du-plan-national",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
+    "publication_date": "2015-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "a807810a74ef495f97f7927f1a496c57",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

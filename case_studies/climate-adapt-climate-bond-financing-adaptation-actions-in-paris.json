@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-climate-bond-financing-adaptation-actions-in-paris",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-bond-financing-adaptation-actions-in-paris",
+  "title": "Climate bond financing urban adaptation actions to reduce heat stress in Paris, France",
+  "summary": "The City of Paris has attracted several investors to finance public adaptation and mitigation projects through climate and sustainability bonds. With this mechanism, new trees were planted, and new parks were created, pursuing the goals of the Paris Adaptation Strategy. Sustainable development has been a major concern for the City of Paris since the beginning of this century. When, in 2015, the City of Paris hosted the COP21, the City Hall wanted to send out a strong signal to the international community and to other local and regional authorities and show the diversity of municipal environmental actions and commitments.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Paris",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Île de France",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Île_de_France__FR_",
+        "source_name": "Île de France (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 48.8647147618,
+    "lon": 2.373046875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "paris.fr",
+      "url": "http://www.paris.fr/municipalite/action-municipale/paris-pour-le-climat-2148",
+      "role": "contextual_input"
+    },
+    {
+      "name": "climatebonds.net",
+      "url": "https://www.climatebonds.net/2015/11/update-vive-paris-green-bond-mkt-builds-cop21-host-city-paris-issuing-inaugural-green-bond-",
+      "role": "contextual_input"
+    },
+    {
+      "name": "paris.fr",
+      "url": "https://www.paris.fr/pages/investisseurs-4750",
+      "role": "contextual_input"
+    },
+    {
+      "name": "paris.fr",
+      "url": "https://www.paris.fr/pages/paris-s-adapte-au-changement-climatique-18541",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-bond-financing-adaptation-actions-in-paris",
+    "publication_date": "2023-12-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "654a28a977cf4d7b99122af9eaba4495",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-bond-financing-adaptation-actions-in-paris",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:38+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+  "title": "Reduction of heat stress through innovative ventilated and air-permeable roof retrofit, enabling passive cooling in buildings, Emilia-Romagna (Italy)",
+  "summary": "A ventilated roof retrofit with enhanced air permeability was implemented in Reggio Emilia as building-scale adaptation measure to address overheating during summer. Innovative highly permeable clay tiles (HEROTILE) were used and their performance was evaluated under real operating conditions. Within the EU LIFE SUPERHERO project, two multi-storey social housing buildings with flat roofs in Via Maramotti 23 and 25 in Reggio Emilia (Northern Italy) were selected as pilot sites to demonstrate a replicable retrofit solution for obsolescent residential stock.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Reggio Emilia",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "point": {
+    "lat": 44.709414524005524,
+    "lon": 10.689682907581513,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu/hu-bes-data-sharing-platform",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu/demo-buildings",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+    "publication_date": "2026-07-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "12b1be9bf8e24f368c257c51b02b640c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-11T07:38:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

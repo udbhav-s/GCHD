@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.1",
+  "id": "climate-adapt-natural-water-retention-measures-in-the-altovicentino-area-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/natural-water-retention-measures-in-the-altovicentino-area-italy",
+  "title": "Natural Water Retention Measures in the Altovicentino area (Italy)",
+  "summary": "In the north-eastern part of Italy, several Natural Water Retention Measures were implemented to cope with the increasing risk of intense precipitation and flooding. A detailed cost-benefit analysis revealed an advantageous cost/benefit ratio for the implemented interventions, suggesting high potential for replication and upscaling of the selected approach. Alongside with large areas of Italy that suffer from hydrogeological risk, the Altovicentino area (north-eastern Italy) is experiencing flooding events that have been occurring with increasing frequency and intensity over the last decades and are expected to continue in the future .",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Marano Vicentino and Santorso",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Veneto__IT_",
+        "source_name": "Veneto (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "point": {
+    "lat": 45.6937106165,
+    "lon": 11.4295578003,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "lifebeware.eu",
+      "url": "http://www.lifebeware.eu/en",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/natural-water-retention-measures-in-the-altovicentino-area-italy",
+    "publication_date": "2022-10-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e10cb9584f4f4f05867c1ad4cce76327",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/natural-water-retention-measures-in-the-altovicentino-area-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}
