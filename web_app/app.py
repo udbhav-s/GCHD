@@ -42,7 +42,7 @@ from georepo_core import (
     get_boundary_collection,
     get_feature_by_ucode as get_local_feature_by_ucode,
 )
-from case_studies_core import load_case_studies
+from case_studies_core import load_case_studies, studies_in_region
 
 # ---------------------------------------------------------------------------
 # GEE init (once at server start)
@@ -696,6 +696,21 @@ def tab_case_studies():
                     ),
                 ]),
             ]),
+            html.Div(className="case-study-filter-row", children=[
+                html.Div(className="case-study-filter", children=[
+                    dcc.Checklist(
+                        id="case-study-region-lock",
+                        options=[{
+                            "label": "Only studies inside the region selected on the map",
+                            "value": "on",
+                        }],
+                        value=[],
+                        className="case-study-region-lock",
+                    ),
+                    html.Div(id="case-study-region-lock-note",
+                             className="case-study-region-lock-note"),
+                ]),
+            ]),
         ]),
         html.Div(id="case-study-result-count", className="case-study-result-count"),
         html.Div(id="case-study-list", className="case-study-list"),
@@ -1105,7 +1120,15 @@ def update_case_study_admin_options(country_ucode, current_admin):
     return options, current_admin if current_admin in valid_values else None
 
 
-def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode):
+def _selected_map_region(region_lock, clicked_ucode, country_ucode):
+    """The region the map is currently on, when the user has asked to limit to it."""
+    if not region_lock:
+        return None
+    return clicked_ucode or country_ucode
+
+
+def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode,
+                         map_region_ucode=None):
     selected_sdgs = set(sdg_goals or [])
     # A hazard filter value may be a dashboard topic covering several hazard IDs.
     selected_hazards = hazard_taxonomy.expand_filter_values(hazards)
@@ -1124,6 +1147,13 @@ def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode):
         if admin_ucode and admin_ucode not in study_regions:
             continue
         matches.append(study)
+
+    if map_region_ucode:
+        try:
+            matches = studies_in_region(matches, map_region_ucode)
+        except Exception:
+            # A missing boundary should narrow nothing rather than empty the list.
+            pass
     return matches
 
 
@@ -1158,11 +1188,16 @@ def _case_study_feature_collection(studies):
     Input("case-study-hazard-filter", "value"),
     Input("case-study-country-filter", "value"),
     Input("case-study-admin-filter", "value"),
+    Input("case-study-region-lock", "value"),
+    State("store-clicked-ucode", "data"),
+    State("store-ucode", "data"),
     State("case-study-page", "data"),
     prevent_initial_call=True,
 )
-def update_case_study_page(_prev, _next, _sdgs, _hazards, _country, _admin, page):
-    studies = _filter_case_studies(_sdgs, _hazards, _country, _admin)
+def update_case_study_page(_prev, _next, _sdgs, _hazards, _country, _admin,
+                           region_lock, clicked_ucode, map_country_ucode, page):
+    region = _selected_map_region(region_lock, clicked_ucode, map_country_ucode)
+    studies = _filter_case_studies(_sdgs, _hazards, _country, _admin, region)
     page_count = max(1, math.ceil(len(studies) / CASE_STUDY_PAGE_SIZE))
     current_page = min(max(page or 0, 0), page_count - 1)
     if ctx.triggered_id == "case-study-prev-page":
@@ -1182,10 +1217,15 @@ def update_case_study_page(_prev, _next, _sdgs, _hazards, _country, _admin, page
     Input("case-study-hazard-filter", "value"),
     Input("case-study-country-filter", "value"),
     Input("case-study-admin-filter", "value"),
+    Input("case-study-region-lock", "value"),
+    Input("store-clicked-ucode", "data"),
+    Input("store-ucode", "data"),
     Input("case-study-page", "data"),
 )
-def update_case_study_cards(sdg_goals, hazards, country_ucode, admin_ucode, page):
-    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode)
+def update_case_study_cards(sdg_goals, hazards, country_ucode, admin_ucode,
+                            region_lock, clicked_ucode, map_country_ucode, page):
+    region = _selected_map_region(region_lock, clicked_ucode, map_country_ucode)
+    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode, region)
     mapped = [study for study in studies if study.get("map_point")]
     page_count = max(1, (len(studies) + CASE_STUDY_PAGE_SIZE - 1) // CASE_STUDY_PAGE_SIZE)
     page = min(max(page or 0, 0), page_count - 1)
@@ -1207,17 +1247,38 @@ def update_case_study_cards(sdg_goals, hazards, country_ucode, admin_ucode, page
 
 
 @app.callback(
+    Output("case-study-region-lock-note", "children"),
+    Input("case-study-region-lock", "value"),
+    Input("store-clicked-ucode", "data"),
+    Input("store-clicked-name", "data"),
+    Input("store-country", "data"),
+)
+def describe_region_lock(region_lock, clicked_ucode, clicked_name, country_name):
+    if not region_lock:
+        return "Pick a country or click a region on the Hazard map, then switch this on."
+    name = clicked_name or country_name
+    if not name:
+        return "No region selected on the map yet, so nothing is being narrowed."
+    return f"Limited to {name}."
+
+
+@app.callback(
     Output("case-study-markers", "data"),
     Input("case-study-sdg-filter", "value"),
     Input("case-study-hazard-filter", "value"),
     Input("case-study-country-filter", "value"),
     Input("case-study-admin-filter", "value"),
+    Input("case-study-region-lock", "value"),
+    Input("store-clicked-ucode", "data"),
+    Input("store-ucode", "data"),
     Input("store-tab", "data"),
 )
-def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode, active_tab):
+def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode,
+                              region_lock, clicked_ucode, map_country_ucode, active_tab):
     if active_tab != "case-studies":
         return EMPTY_FEATURE_COLLECTION
-    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode)
+    region = _selected_map_region(region_lock, clicked_ucode, map_country_ucode)
+    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode, region)
     return _case_study_feature_collection(studies)
 
 

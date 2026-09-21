@@ -1,10 +1,12 @@
 """Load case-study records and join their locations to GeoRepo boundaries."""
 
 import json
+from functools import lru_cache
 from pathlib import Path
 
-from shapely.geometry import shape
+from shapely.geometry import Point, shape
 from shapely.ops import unary_union
+from shapely.prepared import prep
 
 from georepo_core import get_feature_by_ucode
 
@@ -87,11 +89,13 @@ def enrich_case_study(record, feature_lookup=get_feature_by_ucode):
         location_labels.append("Global")
 
     point, bounds = _map_geometry(locations, feature_lookup)
-    if point is None:
-        # Sources that give a coordinate can still be mapped with no boundary match.
-        record_point = record.get("point")
-        if record_point:
-            point = [record_point["lat"], record_point["lon"]]
+
+    # A coordinate from the source beats a centroid worked out from a boundary.
+    # Falling back to a country centroid would put a city study hundreds of
+    # kilometres away, outside every region it actually belongs to.
+    record_point = record.get("point")
+    if record_point:
+        point = [record_point["lat"], record_point["lon"]]
 
     return {
         **record,
@@ -101,6 +105,43 @@ def enrich_case_study(record, feature_lookup=get_feature_by_ucode):
         "map_point": point,
         "map_bounds": bounds,
     }
+
+
+@lru_cache(maxsize=64)
+def _prepared_region(region_ucode):
+    """Fetch a boundary once and keep it ready for repeated point tests."""
+    feature = get_feature_by_ucode(region_ucode)
+    if not feature:
+        return None
+    geometry = shape(feature["feature"]["geometry"])
+    return prep(geometry)
+
+
+def studies_in_region(studies, region_ucode):
+    """Keep the studies that sit inside the given boundary.
+
+    A study matches if it names the region in its own location path, or if its
+    mapped point falls inside the boundary. The point test is what lets a study
+    whose narrower unit never resolved still show up for the right region.
+    """
+    if not region_ucode:
+        return list(studies)
+
+    region = _prepared_region(region_ucode)
+    matches = []
+    for study in studies:
+        named = any(
+            unit and unit.get("ucode") == region_ucode
+            for location in study.get("locations", [])
+            for unit in (location.get("adm0"), location.get("adm1"), location.get("adm2"))
+        )
+        if named:
+            matches.append(study)
+            continue
+        point = study.get("map_point")
+        if region and point and region.contains(Point(point[1], point[0])):
+            matches.append(study)
+    return matches
 
 
 def load_case_studies(directory=CASE_STUDIES_DIR, feature_lookup=get_feature_by_ucode):
