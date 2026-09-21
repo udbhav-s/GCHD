@@ -70,5 +70,6 @@ CLAUDE.md
 !exposure_analysis/subnational_level/config/countries_info.csv
 !exposure_analysis/subnational_level/config/countries_NA_summary.csv
 !schema/case-study.schema.json
+!schema/hazard-taxonomy.json
 !case_studies/*.json
 !case_study_imports/c40/*.json

@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "description": "Links each case-study hazard ID to the GCHD raster layers and dashboard topics that represent it. Case-study records carry only the hazard ID; this file holds the layer codes so they are stated once rather than repeated in every record.",
+  "layer_code_source": "web_app/config.py (HAZARD_VIS_PALETTES, HAZARD_TOPICS, HAZARD_INFO)",
+  "hazards": {
+    "river_flood": {
+      "name": "River flood",
+      "dashboard_topic": "River Flood",
+      "hazard_data_dir": "hazard_data/flood",
+      "layers": ["river_flood_100yr_jrc_2024"]
+    },
+    "coastal_flood": {
+      "name": "Coastal flood",
+      "dashboard_topic": "Coastal Flood",
+      "hazard_data_dir": "hazard_data/flood",
+      "layers": ["coastal_flood_100yr_jrc_2024"]
+    },
+    "tropical_storm": {
+      "name": "Tropical storm",
+      "dashboard_topic": "Tropical Storm",
+      "hazard_data_dir": "hazard_data/tropical_storm",
+      "layers": ["tropical_storm_100yr_giri_2024"]
+    },
+    "agricultural_drought": {
+      "name": "Agricultural drought",
+      "dashboard_topic": "Drought",
+      "hazard_data_dir": "hazard_data/drought",
+      "layers": ["agricultural_drought_fao_1984-2023"]
+    },
+    "meteorological_drought": {
+      "name": "Meteorological drought",
+      "dashboard_topic": "Drought",
+      "hazard_data_dir": "hazard_data/drought",
+      "layers": [
+        "drought_spi_terraclimate_1958-2025",
+        "drought_spei_terraclimate_1958-2025",
+        "drought_pdsi_terraclimate_2024"
+      ]
+    },
+    "heatwave": {
+      "name": "Heatwave",
+      "dashboard_topic": "Heatwave",
+      "hazard_data_dir": "hazard_data/heatwave",
+      "layers": [
+        "heatwave_frequency_ecmwf_2014-2024",
+        "heatwave_duration_ecmwf_2014-2024",
+        "heatwave_severity_ecmwf_2014-2024"
+      ]
+    },
+    "extreme_heat": {
+      "name": "Extreme heat",
+      "dashboard_topic": "Extreme Heat",
+      "hazard_data_dir": "hazard_data/heatwave",
+      "layers": ["extreme_heat_ecmwf_2014-2024", "maximum_temperature_era5_land_2024"]
+    },
+    "wildfire": {
+      "name": "Wildfire",
+      "dashboard_topic": "Fire",
+      "hazard_data_dir": "hazard_data/fire",
+      "layers": [
+        "fire_FRP_nasa_2001-2024",
+        "fire_frequency_nasa_2001-2023",
+        "active_fire_frequency_firms_2024"
+      ]
+    },
+    "sand_dust_storm": {
+      "name": "Sand and dust storm",
+      "dashboard_topic": "Sand and Dust Storm",
+      "hazard_data_dir": "hazard_data/sand_dust_storm",
+      "layers": ["sand_dust_storm_unccd_2024"]
+    },
+    "air_pollution_pm25": {
+      "name": "Air pollution (PM2.5)",
+      "dashboard_topic": "Air Pollution",
+      "hazard_data_dir": "hazard_data/air_pollution",
+      "layers": ["air_pollution_pm25_1998-2023"]
+    },
+    "malaria": {
+      "name": "Malaria",
+      "dashboard_topic": "Malaria",
+      "hazard_data_dir": "hazard_data/malaria",
+      "layers": ["vectorborne_malariapv_2012-2022", "vectorborne_malariapf_2012-2022"]
+    },
+    "earthquake": {
+      "name": "Earthquake",
+      "dashboard_topic": null,
+      "hazard_data_dir": "hazard_data/earthquake",
+      "layers": []
+    },
+    "volcano": {
+      "name": "Volcano",
+      "dashboard_topic": null,
+      "hazard_data_dir": "hazard_data/volcano",
+      "layers": []
+    },
+    "landslide": {
+      "name": "Landslide",
+      "dashboard_topic": null,
+      "hazard_data_dir": "hazard_data/landslide",
+      "layers": []
+    },
+    "armed_conflict": {
+      "name": "Armed conflict",
+      "dashboard_topic": null,
+      "hazard_data_dir": "hazard_data/conflict",
+      "layers": []
+    }
+  },
+  "public_layers": [
+    "population_worldpop_2020",
+    "maximum_temperature_era5_land_2024",
+    "drought_pdsi_terraclimate_2024",
+    "active_fire_frequency_firms_2024"
+  ],
+  "public_layers_note": "The public web app serves only these four layers. Every other layer code above names a GCHD product that the public build does not currently load."
+}
