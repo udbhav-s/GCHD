@@ -1,16 +1,42 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "omdena-digital-divide",
   "url": "https://medium.com/omdena/ai-the-digital-divide-analyzing-the-impact-of-digital-connectivity-on-human-development-6bb2bb814bc7",
   "title": "AI & the Digital Divide: Analyzing the Impact of Digital Connectivity on Human Development",
   "location_scope": "global",
   "locations": [],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "Internet access and connectivity datasets", "url": null, "role": "contextual_input" },
-    { "name": "UN E-Government Development Index", "url": "https://publicadministration.un.org/egovkb/", "role": "contextual_input" },
-    { "name": "G3ict Digital Accessibility Rights Evaluation Index 2020", "url": "https://g3ict.org/digital-accessibility-rights-evaluation-index/", "role": "contextual_input" },
-    { "name": "Human Development Index", "url": "https://hdr.undp.org/data-center/human-development-index", "role": "contextual_input" }
+    {
+      "name": "Internet access and connectivity datasets",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "UN E-Government Development Index",
+      "url": "https://publicadministration.un.org/egovkb/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "G3ict Digital Accessibility Rights Evaluation Index 2020",
+      "url": "https://g3ict.org/digital-accessibility-rights-evaluation-index/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "Human Development Index",
+      "url": "https://hdr.undp.org/data-center/human-development-index",
+      "role": "contextual_input"
+    }
   ],
   "provenance": {
     "collection_name": "Omdena",
@@ -19,15 +45,34 @@
     "document_url": "https://medium.com/omdena/ai-the-digital-divide-analyzing-the-impact-of-digital-connectivity-on-human-development-6bb2bb814bc7",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 9, "name": "Industry, Innovation and Infrastructure" },
-    { "goal": 10, "name": "Reduced Inequalities" },
-    { "goal": 17, "name": "Partnerships for the Goals" },
-    { "goal": 4, "name": "Quality Education" },
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 5, "name": "Gender Equality" }
+    {
+      "goal": 9,
+      "name": "Industry, Innovation and Infrastructure"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    }
   ],
   "indicators_measured": [
     {

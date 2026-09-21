@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "unwomen-gaza-gender-data",
   "url": "https://data.unwomen.org/features/gender-data-gaza-are-helping-humanitarian-response-reach-women-and-girls",
   "title": "Gender data in Gaza are helping the humanitarian response reach women and girls",
@@ -8,17 +8,64 @@
     {
       "level": "adm1",
       "place_name": null,
-      "adm0": { "name": "State of Palestine", "iso3": "PSE", "ucode": "PSE_V1", "dcid": "country/PSE" },
-      "adm1": { "name": "Gaza Strip", "ucode": "PSE_0002_V1", "dcid": null },
+      "adm0": {
+        "name": "State of Palestine",
+        "iso3": "PSE",
+        "ucode": "PSE_V1",
+        "dcid": "country/PSE"
+      },
+      "adm1": {
+        "name": "Gaza Strip",
+        "ucode": "PSE_0002_V1",
+        "dcid": null
+      },
       "adm2": null
     }
   ],
-  "hazards": ["armed_conflict"],
+  "hazards": [
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "women"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "girls",
+      "women"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "women": 13
+    }
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "UN Women Rapid Gender Assessments", "url": null, "role": "survey_input" },
-    { "name": "UN Women Gender Alerts", "url": null, "role": "contextual_input" },
-    { "name": "Survey data from Rafah", "url": null, "role": "survey_input" },
-    { "name": "Humanitarian food distribution records", "url": null, "role": "operational_input" }
+    {
+      "name": "UN Women Rapid Gender Assessments",
+      "url": null,
+      "role": "survey_input"
+    },
+    {
+      "name": "UN Women Gender Alerts",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "Survey data from Rafah",
+      "url": null,
+      "role": "survey_input"
+    },
+    {
+      "name": "Humanitarian food distribution records",
+      "url": null,
+      "role": "operational_input"
+    }
   ],
   "provenance": {
     "collection_name": "UN Women Data Hub",
@@ -27,14 +74,30 @@
     "document_url": "https://data.unwomen.org/features/gender-data-gaza-are-helping-humanitarian-response-reach-women-and-girls",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 5, "name": "Gender Equality" },
-    { "goal": 2, "name": "Zero Hunger" },
-    { "goal": 6, "name": "Clean Water and Sanitation" },
-    { "goal": 3, "name": "Good Health and Well-being" },
-    { "goal": 16, "name": "Peace, Justice and Strong Institutions" }
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
   ],
   "indicators_measured": [
     {

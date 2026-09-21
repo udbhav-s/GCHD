@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "unhcr-azraq-shelter",
   "url": "https://www.unhcr.org/innovation/using-gis-technology-map-shelter-allocation-azraq-refugee-camp/",
   "title": "Using GIS technology to map shelter allocation in Azraq refugee camp",
@@ -8,16 +8,56 @@
     {
       "level": "non_administrative",
       "place_name": "Azraq refugee camp",
-      "adm0": { "name": "Jordan", "iso3": "JOR", "ucode": "JOR_V1", "dcid": "country/JOR" },
-      "adm1": { "name": "Az Zarqa'", "ucode": "JOR_0011_V1", "dcid": null },
+      "adm0": {
+        "name": "Jordan",
+        "iso3": "JOR",
+        "ucode": "JOR_V1",
+        "dcid": "country/JOR"
+      },
+      "adm1": {
+        "name": "Az Zarqa'",
+        "ucode": "JOR_0011_V1",
+        "dcid": null
+      },
       "adm2": null
     }
   ],
-  "hazards": ["armed_conflict"],
+  "hazards": [
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "displaced"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "refugee",
+      "refugees"
+    ],
+    "group_mentions": {
+      "displaced": 4
+    }
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "Azraq shelter inventory and physical addresses", "url": null, "role": "operational_input" },
-    { "name": "Refugee occupancy and allocation records", "url": null, "role": "operational_input" },
-    { "name": "Camp GIS basemap", "url": null, "role": "administrative_input" }
+    {
+      "name": "Azraq shelter inventory and physical addresses",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Refugee occupancy and allocation records",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Camp GIS basemap",
+      "url": null,
+      "role": "administrative_input"
+    }
   ],
   "provenance": {
     "collection_name": "UNHCR Innovation",
@@ -26,13 +66,26 @@
     "document_url": "https://www.unhcr.org/innovation/using-gis-technology-map-shelter-allocation-azraq-refugee-camp/",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 10, "name": "Reduced Inequalities" },
-    { "goal": 11, "name": "Sustainable Cities and Communities" },
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 16, "name": "Peace, Justice and Strong Institutions" }
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
   ],
   "indicators_measured": [
     {

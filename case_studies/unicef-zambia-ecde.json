@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "unicef-zambia-ecde",
   "url": "https://data.unicef.org/data-for-action/harnessing-geospatial-technology-for-early-childhood-development-and-education-in-zambia/",
   "title": "Harnessing Geospatial Technology for Early Childhood Development and Education in Zambia",
@@ -8,18 +8,62 @@
     {
       "level": "adm0",
       "place_name": null,
-      "adm0": { "name": "Zambia", "iso3": "ZMB", "ucode": "ZMB_V1", "dcid": "country/ZMB" },
+      "adm0": {
+        "name": "Zambia",
+        "iso3": "ZMB",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB"
+      },
       "adm1": null,
       "adm2": null
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "schools"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 1
+    }
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "Gridded population estimates for children in the target age group", "url": null, "role": "population_input" },
-    { "name": "School locations", "url": null, "role": "operational_input" },
-    { "name": "Health facility locations", "url": null, "role": "operational_input" },
-    { "name": "Road networks", "url": null, "role": "operational_input" },
-    { "name": "Focus groups, consultative meetings, and field visits", "url": null, "role": "survey_input" }
+    {
+      "name": "Gridded population estimates for children in the target age group",
+      "url": null,
+      "role": "population_input"
+    },
+    {
+      "name": "School locations",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Health facility locations",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Road networks",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Focus groups, consultative meetings, and field visits",
+      "url": null,
+      "role": "survey_input"
+    }
   ],
   "provenance": {
     "collection_name": "UNICEF Data for Action",
@@ -28,14 +72,30 @@
     "document_url": "https://data.unicef.org/data-for-action/harnessing-geospatial-technology-for-early-childhood-development-and-education-in-zambia/",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 4, "name": "Quality Education" },
-    { "goal": 3, "name": "Good Health and Well-being" },
-    { "goal": 6, "name": "Clean Water and Sanitation" },
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 5, "name": "Gender Equality" }
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    }
   ],
   "indicators_measured": [
     {

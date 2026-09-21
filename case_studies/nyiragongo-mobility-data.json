@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "nyiragongo-mobility-data",
   "url": "https://www.ie.edu/insights/disaster-risk-management/response/case-study-harnessing-mobility-data-for-crisis-response-nyiragongo/",
   "title": "Case Study: Harnessing Mobility Data for Crisis Response, Nyiragongo",
@@ -8,37 +8,119 @@
     {
       "level": "adm2",
       "place_name": null,
-      "adm0": { "name": "Democratic Republic of the Congo", "iso3": "COD", "ucode": "COD_V1", "dcid": "country/COD" },
-      "adm1": { "name": "Nord-Kivu", "ucode": "COD_0019_V1", "dcid": null },
-      "adm2": { "name": "Goma", "ucode": "COD_0019_0003_V1", "dcid": null }
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "iso3": "COD",
+        "ucode": "COD_V1",
+        "dcid": "country/COD"
+      },
+      "adm1": {
+        "name": "Nord-Kivu",
+        "ucode": "COD_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Goma",
+        "ucode": "COD_0019_0003_V1",
+        "dcid": null
+      }
     },
     {
       "level": "adm2",
       "place_name": null,
-      "adm0": { "name": "Democratic Republic of the Congo", "iso3": "COD", "ucode": "COD_V1", "dcid": "country/COD" },
-      "adm1": { "name": "Sud-Kivu", "ucode": "COD_0022_V1", "dcid": null },
-      "adm2": { "name": "Bukavu", "ucode": "COD_0022_0001_V1", "dcid": null }
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "iso3": "COD",
+        "ucode": "COD_V1",
+        "dcid": "country/COD"
+      },
+      "adm1": {
+        "name": "Sud-Kivu",
+        "ucode": "COD_0022_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bukavu",
+        "ucode": "COD_0022_0001_V1",
+        "dcid": null
+      }
     },
     {
       "level": "adm2",
       "place_name": null,
-      "adm0": { "name": "Democratic Republic of the Congo", "iso3": "COD", "ucode": "COD_V1", "dcid": "country/COD" },
-      "adm1": { "name": "Nord-Kivu", "ucode": "COD_0019_V1", "dcid": null },
-      "adm2": { "name": "Rutshuru", "ucode": "COD_0019_0008_V1", "dcid": null }
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "iso3": "COD",
+        "ucode": "COD_V1",
+        "dcid": "country/COD"
+      },
+      "adm1": {
+        "name": "Nord-Kivu",
+        "ucode": "COD_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rutshuru",
+        "ucode": "COD_0019_0008_V1",
+        "dcid": null
+      }
     },
     {
       "level": "adm2",
       "place_name": "Sake-Masisi",
-      "adm0": { "name": "Democratic Republic of the Congo", "iso3": "COD", "ucode": "COD_V1", "dcid": "country/COD" },
-      "adm1": { "name": "Nord-Kivu", "ucode": "COD_0019_V1", "dcid": null },
-      "adm2": { "name": "Masisi", "ucode": "COD_0019_0005_V1", "dcid": null }
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "iso3": "COD",
+        "ucode": "COD_V1",
+        "dcid": "country/COD"
+      },
+      "adm1": {
+        "name": "Nord-Kivu",
+        "ucode": "COD_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Masisi",
+        "ucode": "COD_0019_0005_V1",
+        "dcid": null
+      }
     }
   ],
-  "hazards": ["volcano"],
+  "hazards": [
+    "volcano"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "Anonymized Vodacom RDC call detail records", "url": null, "role": "population_input" },
-    { "name": "Satellite imagery", "url": null, "role": "hazard_input" },
-    { "name": "Community assessments", "url": null, "role": "survey_input" }
+    {
+      "name": "Anonymized Vodacom RDC call detail records",
+      "url": null,
+      "role": "population_input"
+    },
+    {
+      "name": "Satellite imagery",
+      "url": null,
+      "role": "hazard_input"
+    },
+    {
+      "name": "Community assessments",
+      "url": null,
+      "role": "survey_input"
+    }
   ],
   "provenance": {
     "collection_name": "IE Insights",
@@ -47,14 +129,30 @@
     "document_url": "https://www.ie.edu/insights/disaster-risk-management/response/case-study-harnessing-mobility-data-for-crisis-response-nyiragongo/",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 11, "name": "Sustainable Cities and Communities" },
-    { "goal": 3, "name": "Good Health and Well-being" },
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 13, "name": "Climate Action" },
-    { "goal": 10, "name": "Reduced Inequalities" }
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    }
   ],
   "indicators_measured": [
     {

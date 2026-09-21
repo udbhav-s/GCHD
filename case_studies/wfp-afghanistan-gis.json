@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "wfp-afghanistan-gis",
   "url": "https://www.esri.com/about/newsroom/blog/world-food-programme-apps-afghanistan",
   "title": "World Food Programme Guides Operations in Afghanistan with Online GIS Apps",
@@ -8,18 +8,57 @@
     {
       "level": "adm0",
       "place_name": null,
-      "adm0": { "name": "Afghanistan", "iso3": "AFG", "ucode": "AFG_V1", "dcid": "country/AFG" },
+      "adm0": {
+        "name": "Afghanistan",
+        "iso3": "AFG",
+        "ucode": "AFG_V1",
+        "dcid": "country/AFG"
+      },
       "adm1": null,
       "adm2": null
     }
   ],
-  "hazards": ["river_flood", "meteorological_drought", "armed_conflict"],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "WFP vulnerability analysis", "url": null, "role": "contextual_input" },
-    { "name": "Security and conflict layers", "url": null, "role": "hazard_input" },
-    { "name": "Supply-chain routes and road conditions", "url": null, "role": "operational_input" },
-    { "name": "Field GPS and driver access reports", "url": null, "role": "operational_input" },
-    { "name": "WFP programme data", "url": null, "role": "operational_input" }
+    {
+      "name": "WFP vulnerability analysis",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "Security and conflict layers",
+      "url": null,
+      "role": "hazard_input"
+    },
+    {
+      "name": "Supply-chain routes and road conditions",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Field GPS and driver access reports",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "WFP programme data",
+      "url": null,
+      "role": "operational_input"
+    }
   ],
   "provenance": {
     "collection_name": "Esri Newsroom",
@@ -28,14 +67,30 @@
     "document_url": "https://www.esri.com/about/newsroom/blog/world-food-programme-apps-afghanistan",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 2, "name": "Zero Hunger" },
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 11, "name": "Sustainable Cities and Communities" },
-    { "goal": 16, "name": "Peace, Justice and Strong Institutions" },
-    { "goal": 13, "name": "Climate Action" }
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
   ],
   "indicators_measured": [
     {

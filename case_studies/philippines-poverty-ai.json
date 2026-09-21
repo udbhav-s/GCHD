@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "philippines-poverty-ai",
   "url": "https://stories.thinkingmachin.es/poverty-mapping-artificial-intelligence/",
   "title": "Understanding poverty in the Philippines with artificial intelligence",
@@ -8,18 +8,59 @@
     {
       "level": "adm0",
       "place_name": null,
-      "adm0": { "name": "Philippines", "iso3": "PHL", "ucode": "PHL_V1", "dcid": "country/PHL" },
+      "adm0": {
+        "name": "Philippines",
+        "iso3": "PHL",
+        "ucode": "PHL_V1",
+        "dcid": "country/PHL"
+      },
       "adm1": null,
       "adm2": null
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "low_income"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "poverty"
+    ],
+    "group_mentions": {
+      "low_income": 2
+    }
+  },
+  "intervention": null,
+  "point": null,
   "data_sources": [
-    { "name": "2017 Philippines Demographic and Health Survey", "url": "https://dhsprogram.com/", "role": "survey_input" },
-    { "name": "VIIRS nighttime lights", "url": "https://eogdata.mines.edu/products/vnl/", "role": "contextual_input" },
-    { "name": "Land surface temperature and NDVI satellite products", "url": null, "role": "contextual_input" },
-    { "name": "OpenStreetMap points of interest", "url": "https://www.openstreetmap.org/", "role": "contextual_input" },
-    { "name": "Facebook Marketing API", "url": null, "role": "contextual_input" }
+    {
+      "name": "2017 Philippines Demographic and Health Survey",
+      "url": "https://dhsprogram.com/",
+      "role": "survey_input"
+    },
+    {
+      "name": "VIIRS nighttime lights",
+      "url": "https://eogdata.mines.edu/products/vnl/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "Land surface temperature and NDVI satellite products",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "OpenStreetMap points of interest",
+      "url": "https://www.openstreetmap.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "Facebook Marketing API",
+      "url": null,
+      "role": "contextual_input"
+    }
   ],
   "provenance": {
     "collection_name": "Thinking Machines Stories",
@@ -28,12 +69,22 @@
     "document_url": "https://stories.thinkingmachin.es/poverty-mapping-artificial-intelligence/",
     "publication_date": null,
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
   },
   "sdgs": [
-    { "goal": 1, "name": "No Poverty" },
-    { "goal": 10, "name": "Reduced Inequalities" },
-    { "goal": 8, "name": "Decent Work and Economic Growth" }
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    }
   ],
   "indicators_measured": [
     {
