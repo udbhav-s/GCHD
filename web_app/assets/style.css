@@ -519,7 +519,29 @@ body {
   font-weight: 600;
   line-height: 1.35;
 }
-.case-study-tag-sdg { background: #e8f5fb; color: #087ca7; }
+/* SDG pills use the official UN goal colours, from the UN SDG guidelines
+   (E_SDG_Guidelines_Sep2023). White text on every goal, as the UN icons do. */
+.case-study-tag-sdg { background: #7f8a99; color: #fff; }
+.case-study-tag-sdg-1  { background: #E5243B; }
+.case-study-tag-sdg-2  { background: #DDA63A; }
+.case-study-tag-sdg-3  { background: #4C9F38; }
+.case-study-tag-sdg-4  { background: #C5192D; }
+.case-study-tag-sdg-5  { background: #FF3A21; }
+.case-study-tag-sdg-6  { background: #26BDE2; }
+.case-study-tag-sdg-7  { background: #FCC30B; }
+.case-study-tag-sdg-8  { background: #A21942; }
+.case-study-tag-sdg-9  { background: #FD6925; }
+.case-study-tag-sdg-10 { background: #DD1367; }
+.case-study-tag-sdg-11 { background: #FD9D24; }
+.case-study-tag-sdg-12 { background: #BF8B2E; }
+.case-study-tag-sdg-13 { background: #3F7E44; }
+.case-study-tag-sdg-14 { background: #0A97D9; }
+.case-study-tag-sdg-15 { background: #56C02B; }
+.case-study-tag-sdg-16 { background: #00689D; }
+.case-study-tag-sdg-17 { background: #19486A; }
+/* Goals 7 and 6 are light enough that white text loses contrast. */
+.case-study-tag-sdg-6,
+.case-study-tag-sdg-7 { color: #1d2430; }
 .case-study-tag-hazard { background: #fff1e6; color: #b45309; }
 .case-study-tag-region { background: #f0f1f3; color: #59616e; }
 .case-study-card-footer {

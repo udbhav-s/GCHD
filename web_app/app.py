@@ -611,9 +611,19 @@ def _case_study_tag(text, kind):
     return html.Span(text, className=f"case-study-tag case-study-tag-{kind}")
 
 
+def _case_study_sdg_tag(sdg):
+    """An SDG pill in that goal's official UN colour, with the goal name on hover."""
+    goal = sdg["goal"]
+    return html.Span(
+        f"SDG {goal}",
+        className=f"case-study-tag case-study-tag-sdg case-study-tag-sdg-{goal}",
+        title=f"SDG {goal}: {sdg['name']}",
+    )
+
+
 def _case_study_card(study):
     tags = []
-    tags.extend(_case_study_tag(f"SDG {sdg['goal']}", "sdg") for sdg in study.get("sdgs", []))
+    tags.extend(_case_study_sdg_tag(sdg) for sdg in study.get("sdgs", []))
     tags.extend(
         _case_study_tag(HAZARD_LABELS.get(hazard, _layer_label(hazard)), "hazard")
         for hazard in study.get("hazards", [])
