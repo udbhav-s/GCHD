@@ -21,7 +21,9 @@ from config import (
     HAZARD_TOPICS, TOPIC_COLORS, ADMIN_DATA,
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
     MHC_OPTIONS, MHI_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
+    CHILD_AGE_LABEL,
 )
+import hazard_taxonomy
 from auth import request_otp, verify_otp, SESSION_HOURS
 from gee_core import (
     initialize_gee, build_core_images,
@@ -310,15 +312,18 @@ def tab_exposure():
     ]
     return html.Div(id="tab-exposure", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
-            html.Div("Population Exposure", className="ph-title"),
-            html.Div("2020 population exposed to each public hazard layer", className="ph-sub"),
+            html.Div("Child Population Exposure", className="ph-title"),
+            html.Div(f"2020 population {CHILD_AGE_LABEL} exposed to each public hazard layer",
+                     className="ph-sub"),
         ]),
         html.Div(topics),
         html.Div(className="exposure-method-note", children=[
             html.Div("Methodology", className="hi-label", style={"marginBottom": "6px"}),
             html.P(
                 "Exposure estimates use WorldPop's 2020 UN-adjusted global population "
-                "grid at approximately 100 m spatial resolution.",
+                "grid at approximately 100 m spatial resolution. Counts cover children "
+                f"{CHILD_AGE_LABEL}, summed from the age bands for ages 0 to 14 plus "
+                "three fifths of the 15 to 19 band, which straddles the age cutoff.",
                 className="exposure-method-p",
             ),
             html.P(
@@ -577,8 +582,7 @@ def _case_study_filter_options():
             countries[country["ucode"]] = country["name"]
     return (
         [{"label": f"SDG {goal}: {sdgs[goal]}", "value": goal} for goal in sorted(sdgs)],
-        [{"label": HAZARD_LABELS.get(hazard, _layer_label(hazard)), "value": hazard}
-         for hazard in sorted(hazards)],
+        hazard_taxonomy.filter_options(hazards),
         [{"label": name, "value": ucode}
          for ucode, name in sorted(countries.items(), key=lambda item: item[1])],
     )
@@ -1103,7 +1107,8 @@ def update_case_study_admin_options(country_ucode, current_admin):
 
 def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode):
     selected_sdgs = set(sdg_goals or [])
-    selected_hazards = set(hazards or [])
+    # A hazard filter value may be a dashboard topic covering several hazard IDs.
+    selected_hazards = hazard_taxonomy.expand_filter_values(hazards)
     matches = []
     for study in CASE_STUDIES:
         study_sdgs = {sdg["goal"] for sdg in study.get("sdgs", [])}
