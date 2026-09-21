@@ -1,0 +1,4 @@
+# Dependencies for the scripts in this folder. The web app does not need these;
+# its own requirements are in web_app/requirements.txt.
+shapely>=2.1.0
+jsonschema>=4.21.0

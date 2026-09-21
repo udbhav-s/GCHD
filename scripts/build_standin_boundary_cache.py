@@ -19,6 +19,10 @@ What is real and what is not:
 Do not use this for analysis, and do not treat an ADM1 match here as a verified
 GeoRepo identifier. Replace it with a real export if GeoRepo data resurfaces.
 
+The default output path is the one the app reads, and building drops whatever
+table is already there. A real cache is worth more than this one, so the script
+stops rather than overwrite it. Pass --force if replacing it is what you mean.
+
     python scripts/build_standin_boundary_cache.py
 """
 
@@ -47,6 +51,28 @@ TOLERANCE = {0: 0.02, 1: 0.01}
 
 # Natural Earth codes a few territories differently from ISO 3166-1.
 NE_TO_ISO3 = {"SDS": "SSD", "SAH": "ESH", "PSX": "PSE", "ALD": "ALA"}
+
+
+def holds_real_boundaries(path):
+    """Say whether a cache already at this path came from GeoRepo.
+
+    Every ucode this script writes below ADM0 ends in _V0. A cache holding
+    anything else was built from a real export and should not be replaced.
+    """
+    import sqlite3
+
+    if not Path(path).exists():
+        return False
+    connection = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+    try:
+        rows = connection.execute(
+            "SELECT count(*) FROM boundaries WHERE level > 0 AND ucode NOT LIKE '%\\_V0' ESCAPE '\\'"
+        ).fetchone()
+    except sqlite3.DatabaseError:
+        return False
+    finally:
+        connection.close()
+    return bool(rows and rows[0])
 
 
 def download(name, cache_dir):
@@ -92,7 +118,17 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_DB)
     parser.add_argument("--cache-dir", type=Path, default=DEFAULT_CACHE)
+    parser.add_argument(
+        "--force", action="store_true", help="replace a real cache with this stand-in"
+    )
     args = parser.parse_args()
+
+    if not args.force and holds_real_boundaries(args.output):
+        sys.exit(
+            f"{args.output} already holds real GeoRepo boundaries.\n"
+            "Building here would replace them with stand-in data. Pass --force if "
+            "that is what you want, or --output to write somewhere else."
+        )
 
     ucodes, names = load_country_ucodes()
     adm0_path = download(ADM0_FILE, args.cache_dir)
