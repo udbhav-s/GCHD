@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-heat-hotline-parasol-2013-kassel-region",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heat-hotline-parasol-2013-kassel-region",
   "title": "Heat Hotline Parasol – Kassel region",
@@ -38,6 +38,113 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning",
+      "label": "early warning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "elderly people",
+      "label": "elderly people"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Capacity building",
+      "label": "Capacity building"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "morbidity",
+      "label": "morbidity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mortality",
+      "label": "mortality"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "infants",
+      "older people",
+      "patients"
+    ],
+    "group_mentions": {
+      "children_youth": 3,
+      "older_people": 14,
+      "health_patients": 1
+    }
+  },
+  "intervention": {
+    "objectives": "Based on the experience of the hot summer and heatwaves in 2003, the German Weather Service developed a heat warning system for the Land of Hessen, within which Kassel is located. The objectives were to warn citizens and relevant organisations in early phases before a heatwave strikes and also to be better prepared for the increased frequency and intensity of heat stress and heatwaves in the future due to climate change. The heat hotline parasol supports this effort providing its service to citizen of the city of Kassel to be informed about heat warnings and recommendations for measures to deal with increased heat stress.",
+    "measures": "The heat hotline parasol has found a simple and effective solution to provide information on heat-warnings: by telephone, deaconess (members of the protestant sisterhood) and members of the elderly committee inform about heat hazard and possible measure to be adopted to reduce the risk. In the framework of KLIMZUG-Nordhessen (climate adaptation network for the Nordhessen region, part of the Hessen Land), the Health Department of the Kassel region and the mother house of the deaconship started the heat hotline parasol in 2010 as a pilot activity. After the pilot phase, since summer 2011 it has developed into a basic service offer. In the period from 15 June to 31 August members of the elderly committee inform for free about heat warning (starting from warning level 2) issued by the German Weather Service for the city and the region of Kassel. The written application of citizens to the service is taken up by the Health Department of the Kassel region. During an initial telephone conversation the staff of the Health Department offers each user an individual risk assessment. If it turns out that an increased heat-related risk is given, a broad set of further support activities is provided. These include an individual health consultation by telephone or in the users own household as well as a detailed individual risk management consultation within the framework of a preventive home visit. The basis for the heat hotline parasol is the heat warning provided by the German Weather Service for the city of Kassel and its region. In response to the hot summer of 2003, the Hessian Ministry of Social Affairs developed in cooperation with the German Weather Service a heat warning system for the state of Hessen (Decree of 22 June 2004, amended on 22 April 2008). Main characteristics of the Hessen heat warning system are: It is based on the bio meteorological concept of \"perceived temperature\". In addition to the air temperature parameters such as wind speed, solar radiation and humidity - because of the heat exchange between man and the atmosphere is significantly influenced by their interactions - are included in the calculation of the sensed temperature. Heat warnings are divided into two alert levels: (i) high thermal load (or high heat load) which is published 48 hours in advance with a sensed temperature above 32°C; (ii) extreme thermal load (or extreme heat load) which is issued 24 hours in advance in case of perceived temperature exceeding 38°C. In addition, the second warning level automatically applies from the fourth consecutive day of the heat warnings. The measures under strong heat stress (high thermal load) are aimed primarily at people who live in nursing homes. In the case of a heat warning all nursing homes operating in the jurisdiction of the Hessian home supervision are informed by the German Weather Service via e-mail. In case of a heat warning, the nursing homes are required to initiate and document all necessary individualized, preventive emergency measures. The Hessian home supervision checks the quality of the performed nursing interventions randomly. In case of extreme heat load, the nursing homes must ensure enhanced medical care for their residents, if necessary by including the attending doctors. In addition, the nursing homes at risk of health problems and abnormalities that may be associated with the extreme heat stress are obliged to inform the competent health authority. The heat hotline parasol informs about these warnings as the next step in the information chain.",
+    "outcomes": "The heat hotline started for the first time in summer 2010 as a pilot activity. In the test phase the heat hotline was only offered to one Kassel district with particularly high heat-related risks. Due to the positive experiences and the large public resonance, the heat hotline was offered to all citizens of the city of Kassel in the summer 2011 for the first time. Elderly people are affected to a high degree by heat, but are generally cautious about prevention offers. Often this group underestimates own vulnerability against heat-related risks regarding their health. This might represent a limiting factor in the actual implementation of the heat hotline parasol service.",
+    "cost_benefit": "The initial phase was based on a research project held in 2010. The service itself is free of charge and run by volunteers of the elderly committee and is coordinated by the Health Department of the Kassel region. It is challenging to estimate the staff time working on the hotline regarding the costs and resources associated with running the hotline.",
+    "timeline": "The heat hotline parasol was developed in 2010 and implemented in some districts of Kassel in 2011. Since 2013 it became a service of the Health Department of Kassel region; the service is available for free every summer to the city and the region of Kassel.",
+    "lifetime": "The heat hotline parasol is assumed to continue for the long-term and started this year in its 6 th season.",
+    "stakeholders": "As a first step, it was important to find out in which heavily heat-affected areas lots of elderly people live. Especially there, preventive action is required. In cooperation with KLIMZUG-Nordhessen, small-scale climate and demographic data were compared with the structural fabric of the residential areas. The results was the identification of risk areas of the city of Kassel. Examples of measures for adaptation to heat extremes were developed and tested in these areas. To this end, the Network for Heat Prevention was established at the municipal level, in which selected actors worked together in an interdisciplinary and cross-sectoral manner. In 2010, partners of this network conducted a district conference. Their goal was to discuss climate change in Northern Hessen and its health effects on the elderly population and to develop strategies for preventive care. About 40 people from the health care sector, municipal elderly care, residential construction, public administration, churches and retailers took part in the conference. The mother house of the deaconship, represented by its superior, put forward the idea of a heat hotline. At the same time, it signalled the willingness to take part in project planning and implementation. Other people participating at the conference – employees from outpatient care services, doctors' offices and pharmacies – were also interested. The idea of the heat hotline parasol was born. Finally, a project group consisting of representatives of KLIMZUG-Nordhessen and the organizations involved was commissioned with the project. Their overall objective was to develop a transparent, uniform and binding approach for all concerned. The working group developed workflows, work aids (documentation sheets, etc.), a training concept for the volunteer callers as well as the related training materials.",
+    "legal_context": "The heat hotline parasol is a volunteer’s activity and a joint collaboration between the elderly committee and the Health Department of Kassel region."
+  },
   "point": {
     "lat": 51.316880504,
     "lon": 9.4482421875,
@@ -67,7 +174,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/heat-hotline-parasol-2013-kassel-region",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:37:33+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

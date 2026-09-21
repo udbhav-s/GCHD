@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-restoration-of-the-oka-river2019s-upper-estuary-part-of-the-urdaibai-biosphere-reserve",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/restoration-of-the-oka-river2019s-upper-estuary-part-of-the-urdaibai-biosphere-reserve",
   "title": "Restoration of the Oka River’s upper estuary, part of the Urdaibai Biosphere Reserve, Spain",
@@ -56,6 +56,99 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "marshland",
+      "label": "marshland"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Oka River",
+      "label": "Oka River"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "estuary",
+      "label": "estuary"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological restoration",
+      "label": "ecological restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Urdaibai",
+      "label": "Urdaibai"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biosphere reserve",
+      "label": "Biosphere reserve"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological role",
+      "label": "ecological role"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objectives of the actions implemented in the upper estuary of the Oka River are: (i) Improve the resilience of the estuarine ecosystems to the impacts of climate change, such as sea level rise and changes in the water regime; (ii) Increase local biodiversity thanks to the recovery of part of the ecosystem's functionality; (iii) Increase the sustainable public use of the natural space of the Urdaibai Biosphere reserve.",
+    "measures": "Restoration activities aiming to recover the previously existing marshland have been implemented in the upper estuary of the Oka River, including the permanent flooding of the Barrutibaso area part of the upper estuary. Moreover, the functionality of part of the original intertidal channel of the Oka River’s lower section has been recovered. As part of these restoration activities, some of the dykes and other artificial barriers have been removed to improve the estuary renaturalisation, while embankments have been constructed to create lagoons that will become intertidal zones in the future. The restoration of marshlands formerly drained for sanitary reasons can help the estuary to face climate change. Marshes, in addition to protect against the effects of sea level rise, play an important ecological role providing new habitats to various species of amphibians and birds and improving their adaptation capacity. Moreover, the permanent presence of brackish water favours the elimination of some invasive species (e.g. Baccharis halimifolia ). The restoration project also included other interventions and activities: The construction of a 14 km pathway network and of a pedestrian and cycling bridge connecting the neighbouring municipalities among each other and to the Oka river estuary, aiming to facilitate sustainable visit of the area; The development of tools for environmental education, the most notable being a smartphone application providing information on the habitats, species and culture of the area. Moreover, panels have been installed providing on-site information on local habitats and species. Eradication of invasive species (as Baccharis halimifolia and Cortaderia selloana ) in an area of approximately 700 ha of the estuary.",
+    "outcomes": "The newly constructed pathway network has facilitated the connection of different municipalities through sustainable transport (bicycle and walking). Besides improving the sustainable public use of the estuary area it also contributed in raising awareness on the restoration project. Some of the municipalities included in the area where the restoration measures have been implemented did not take part into the project, thus posing some limitation to its complete development. Therefore, some phases of the project (mainly dealing with removal of some of the dams) are still to be implemented. Moreover, the ingrained sense of ownership of the people in the area to be restored has made the implementation of some of the project activities difficult. The 1998 Coastal Law establishes an area 100m wide on both sides of the river, where land owners can make objections to actions planned. For this reason some actions included in the restoration project have not been implemented, yet. Nevertheless, negotiations are continuing in order to make sure that the totality of the project is implemented.",
+    "cost_benefit": "The project has been completely funded by the Department of Environment, Land planning and Housing of the Government of Basque Country. The overall amount of the project budget is about 2.5 million euro.",
+    "timeline": "Implementation of restoration measures started in 2010 and is still on-going. Most of the measures have been implemented, while few of them are waiting for permission from the Spanish Ministry, as in the case of the dyke removal in the upper estuary.",
+    "lifetime": "Implemented measures are meant to be permanent, if needed maintenance is ensured.",
+    "stakeholders": "The restoration project of the Oka River’s upper estuary included the organisation of several meetings with different stakeholders, such as the municipalities located in the area, landowners and environmental associations. Stakeholder engagement aimed at setting common objectives. In addition, informative talks with civil society have been held in town halls and recreational activities have been developed to advertise the project and improve awareness on climate change adaptation.",
+    "legal_context": "The Spanish Law 42/2007 on natural heritage and biodiversity supports the implementation of the restoration project of the Oka River’s upper estuary, as among its purposes it includes conservation, sustainable use, improvement and restoration of natural ecosystems and habitats. The Urdaibai Biosphere reserve is located in the Basque Country, where the local government has set various strategies and plans that promote this type of restoration works, including in particular the “Basque Country’s Climate Change Strategy for 2050”, the Environment Framework Program 2020 and the Biodiversity Strategy."
+  },
   "point": {
     "lat": 43.3930737207,
     "lon": -2.68684387207,
@@ -80,7 +173,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/restoration-of-the-oka-river2019s-upper-estuary-part-of-the-urdaibai-biosphere-reserve",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:20+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

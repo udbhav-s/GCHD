@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-intercommunal-trauma-centre-for-psychosocial-assistance-in-response-to-floods-in-schleiden-germany",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/intercommunal-trauma-centre-for-psychosocial-assistance-in-response-to-floods-in-schleiden-germany",
   "title": "Intercommunal trauma centre for psychosocial assistance in response to floods in Schleiden, Germany",
@@ -38,6 +38,71 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mental health",
+      "label": "mental health"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "psychosocial support",
+      "label": "psychosocial support"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "trauma support",
+      "label": "trauma support"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "psychological care",
+      "label": "psychological care"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "adolescents",
+      "children"
+    ],
+    "group_mentions": {
+      "children_youth": 4
+    }
+  },
+  "intervention": {
+    "objectives": "The goal of the intercommunal trauma centre for psychosocial assistance is to reduce the psychosocial impact of flooding in communities in North Rhine-Westphalia and beyond.",
+    "measures": "Immediately after the flooding in July 2021, the town authorities of Schleiden, together with several partners (i.e., the Euskirchen district and various charitable and aid organisations), established a psychosocial crisis management centre. Within a few days, several measures were implemented to support affected citizens and emergency service providers in the communities of Kall, Hellenthal and Schleiden in the Schleiden region. These measures included: A coordination centre for short-, medium- and long-term psychosocial care to accompany and support the affected citizens and emergency service providers in dealing with disasters; A comprehensive information campaign on available psychosocial assistance (via press articles, information evenings, word-of-mouth information, etc.). Outreach social work was conducted to identify those in need of support and connect them with the relevant services; A wide variety of counselling and therapy services (e.g. grief and loss counselling, general psychological advice, trauma therapy, long-term psychotherapy), including specialised support to specific demographic groups (e.g., children and adolescents); A series of lectures on relevant topics such as trauma management, stress management and resilience, grief and loss coping strategies. Concretely, the following support was offered in the short-, medium- and long-term: Short-term support Psychosocial emergency care was offered immediately following the floods. Citizens affected by the flooding, including those who experienced or witnessed (near-) death experiences, suffered from survivors’ guilt, anxiety and depression, or loss were eligible to receive psychosocial support. To understand the need for support and improve strategic planning, an initial assessment of how the flood event impacted the community was carried out. In addition, psychological support was offered to emergency workers involved in the flood response. Efforts were made to identify emergency service workers who were most at risk and to evaluate their need for mid-disaster psychological support. For 14 days following the floods, approximately 1500 conversations took place and the following measures were in place: Hotline for people in need of support who did not want to or could not physically attend; Presence of care workers at food distribution points and active identification of those in need of social services (so-called low-threshold, outreach social work); Consultations in a safe place, for citizens and emergency workers; Continuous reassessment of the psychosocial situation (via outreach interviews) and adjustment of support. Medium-term support To continue to support individuals with lasting mental health impacts, two weeks after the flood, the Schleiden town council set up an advisory and coordination centre. The centre was initially planned to be in operation for 2 months, but was designed to be extended for 6-months if necessary. The centre aimed to continue the acute psychosocial emergency care, while also introducing a low-threshold psychological counselling service for people in the region who were still affected by the stressful flood event. Long-term support Following the success of the medium-term psychosocial support services, Schleiden Valley Aid Centre continues to give long-term support until the end of 2024. Several interdisciplinary specialist staff offer a wide range of advisory services for citizens affected by the flooding and affected emergency workers.",
+    "outcomes": "The following factors allowed for the successful development of an intercommunal trauma centre and provision of mental health support: Supportive political leadership that allowed immediate intervention through quick access to funding; Early consultation and collaboration with the partner organisations (within 2 days of the disaster); Experienced specialists in a multi-disciplinary team, including those experienced with crisis situations; Frequent networking and collaboration among specialists and support staff; Good support from volunteers who determined the needs of the community via in-person visits. An ongoing evaluation of the intervention aims to identify all enabling and hindering factors.",
+    "cost_benefit": "The main funding source of the intervention is Aktion Deutschland Hilft , Germany’s relief coalition that provides funding to NGOs for crisis relief. From this fund, EUR 920 000 went to the intercommunal trauma centre to provide psychosocial support. The budget mainly funded staffing costs and a number of large events, such as “family days” aimed at children and families to provide free entertainment and support to affected children and their families. This intervention increased individual and community resilience to cope with stress caused by extreme events, like flooding, thus decreasing the likelihood of experiencing poor mental health outcomes and the associated societal costs. An ongoing evaluation by the Medical Competence Centre Hamburg aims at assessing the effectiveness of the intervention and drawing conclusions for future concepts in the same or other regions.",
+    "timeline": "The support began two days after the 2-day flooding event in July 2021. The long-term psychosocial support continues until today via the intercommunal trauma centre that is mandated to remain open until December 2024.",
+    "lifetime": "July 2021 until December 2024, with potential for extension in Schleiden if funding is available The developed sustainable model and framework can be replicated elsewhere in the case of extreme flooding at any time in the future.",
+    "stakeholders": "Schleiden town developed and implemented the support framework alongside several charitable organisations, who were involved in developing each stage of the psychological support service. The organisations have experience in supporting local populations following traumatic events. They include: Malteser , a catholic aid organisation active in emergency situations worldwide; Caritas , a catholic relief, development and social service organisation; Diakonie , a protestant social welfare organisation; Arbeiterwohlfahrt , a welfare association. After winning a tender in December 2021, Malteser continues to provide institutional psychosocial support in the Schleiden Valley Aid Centre (HIZ). Specialised staff is one of the most important elements to the intervention. The staff includes a mix of individuals from the involved partner organisations and experts including doctors, psychologists, sociologists, therapists, psychological psychotherapists, disaster management and risk governance experts, paramedics, emergency counselors, and social scientists. These specialists networked extensively among themselves to develop a holistic support approach.",
+    "legal_context": "The trauma centre is an intermunicipal project, based on an intermunicipal agreement between the municipalities of Schleiden, Kall and Hellenthal. A tender was used to decide which aid organisation would continue to provide institutional psychosocial support in the long-term."
+  },
   "point": {
     "lat": 50.52913,
     "lon": 6.47696,
@@ -56,7 +121,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/intercommunal-trauma-centre-for-psychosocial-assistance-in-response-to-floods-in-schleiden-germany",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:23+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

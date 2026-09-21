@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
   "title": "Managing the increasing risk of wildfires in a changing climate, Sweden",
@@ -50,6 +50,115 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Wildfires",
+      "label": "Wildfires"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Civil Protection",
+      "label": "Civil Protection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Governance",
+      "label": "Governance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Fire danger forecasting",
+      "label": "Fire danger forecasting"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Fire risk mapping",
+      "label": "Fire risk mapping"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "school"
+    ],
+    "group_mentions": {
+      "schools": 5
+    }
+  },
+  "intervention": {
+    "objectives": "With an expected increase in the number of wildfires in the future, the Swedish government aims to minimise the risks, damages and costs of wildfires as much as possible. Several government inquiries were set up after the 2018 wildfires to analyse the existing legislation and the operational rescue efforts. Based on the inquiries, the Government decided on changes to the Civil Protection Act with the objective of improving wildfire protection and reducing potential damages. These changes were also made to clarify the roles, responsibilities and communication strategies. Other improvements included making use of modern technology for early detection and monitoring of wildfires, improving fire-fighting capabilities and raising wildfire knowledge levels both among forest owners and citizens in general.",
+    "measures": "The new Civil Protection Act, updated by the Swedish Government includes the following areas of action. Clear mandates and improved coordination and cooperation between relevant public and private actors In a crisis or emergency situation, clear responsibilities, procedures, funding, and communication channels are essential. Through the updated act, the Swedish Civil Contingency Agency (MSB) now has enhanced authority to oversee municipal adherence to wildfire management regulations, organize crisis leadership, and supervise wildfire response. Although regional and municipal fire services retain primary responsibility, MSB has expanded powers to support and coordinate among municipalities, counties, and emergency services, and can allocate additional resources if local supplies are insufficient, including personnel, equipment, helicopters, and water planes. These legal updates give MSB greater control by enabling it to issue binding regulations and monitor municipal compliance with wildfire response requirements. MSB reviews regional coordination practices, providing feedback on about half of the systems monitored. Additionally, MSB provides local authorities with information to guide fire ban decisions, using forecasts from the Swedish Meteorological and Hydrological Institute (SMHI). While MSB is responsible for wildfire protection, responsibilities for compliance with the national strategy for the protection of forest, including forests with high natural values, fall under the Swedish Environmental Protection Agency . Alongside the MSB and the other public sector organisations, the private sector continues to develop products, services and equipment to assist forest owners with detection, monitoring and management of wildfires. Better forecasting, detection and mapping services Timely and reliable fire danger forecasts and maps are needed to provide direct guidance to the municipality emergency services, so that they can plan and prepare in order to reduce the response time in case of fire outbreaks. The forecasts also serve as a basis for directing joint firefighting resources. Fire danger forecasting technologies are constantly evolving, with more and more information being added to the advanced calculations at an increasingly detailed geographical level. Improved fire danger forecast models for Sweden have been developed by the Swedish Meteorological and Hydrological Institute (SMHI) in co-operation with MSB. The forecasts and fire danger information form part of SMHI's general forecast and warning services and are available to the public through the SMHI website. These forecasts also provide the foundation for MSB's Outdoor Fire Danger app lication and their Fire Danger map services , which show five-day forecasts that are updated several times each day. The products are designed for the general public and for the municipal fire and rescue services, county administrative boards (Länsstyrelser) and others to provide information on how fire-prone the forest vegetation is. The forecasts and fire danger maps are used by the municipalities and county administrative boards to issue fire bans. They also help guide wildfire monitoring flights. It is important to detect fires at an early stage, which is why wildfire monitoring is carried out using aeroplanes. The county administrative boards decide where and how they should be used for surveillance. Drones are now sometimes used instead of, or as a complement to, aeroplanes. During the summer of 2022, fire detection using satellite data was introduced as a new and important complement to wildfire monitoring aircraft. Another improvement is the mapping of waterways suitable for water scooping to guide the scooping aircraft, which is done by MSB. Increased resources for firefighting National firefighting preparedness has been reinforced to include at least ten firefighting helicopters and four water-scooping aircraft that can be deployed to different locations based on the current fire danger forecast. There are now also more than twenty wildfire depots around the country that can be used when the local rescue services' own resources are exhausted. The depots contain various types of equipment for extinguishing fires, such as fire hoses, motorised sprayers, off-road vehicles, chainsaws, etc. In addition to the depots, there are also two high-capacity pumps that allow water to be transported over long distances available centrally. The four water scooping aircrafts are connected to rescEU , which means that they are EU-wide resources where the EU finances most of the costs. The firefighting pilots receive continuous training to maintain high competency levels and safety standards. MSB also supports county administrative boards, fire and rescue services and other authorities with information and regular training, and has developed a free digital training service with online courses and exercise material. Increased public awareness Raising public knowledge on how to avoid wildfires and how to extinguish fires, is an essential part of the preventative work, as many wildfires are accidentally started by people. Information starts at school where the rights and responsibilities related to the Right to Public Access forms part of the school curriculum. Most Swedes therefore have a basic understanding of the risk of wildfires by the time they leave school. General wildfire information to the public, residents and tourists, is mainly the responsibility of municipalities and county administrative boards, but MSB also provides communication support and materials. A lot of the information to the public is now available digitally, for example through the fire danger app and websites described above, which help private individuals to keep track of the fire danger in forests and fields. The app shows the forecast for current and future fire danger by area, existing fire bans and provides advice and information on how to safely build fires and barbecues during times when fires are allowed. It is available in both Swedish and English. New guidelines for forest management In addition to the Civil Protection organisations, the Swedish Forest Agency and forest owners have important roles in the prevention of wildfires. Swedish forestry policy is often summarised under the motto “ Freedom with responsibility ”. Freedom means that forestry legislation contains relatively few governing and binding rules. Guidelines are therefore needed to help forest owners become aware of how they can help reduce the risk of wildfires starting through management measures. The forestry industry stakeholders are developing their own tools to prevent the occurrence and spread of wildfires. Updated industry-wide guidelines provide support for planning, consultation, skills, emergency procedures and equipment and nature-based solutions. The forestry advice and guidelines are presented on the website of Skogforsk , the Swedish forestry research institute, funded by the forestry industry and the government. The Swedish Meteorological and Hydrological Institute (SMHI) is conducting research into the use of Nature-based solutions (NbS) in the light of climate change. NbS can be a long-term approach to reducing fire danger. Fires in deciduous forests are less intense and spread more slowly. Wetlands, with their ability to retain water in the landscape, can sometimes also help to limit fire danger, although the processes are complex. Creating, preserving and restoring wetlands in the forest landscape is thus a potential new management opportunity. Guidelines for deciduous forests and wetlands are available from the Swedish Environmental Protection Agency. The Swedish Government has recently commissioned a special investigation (2024) to review the national forest policy with the aim of developing an appropriate forest policy for the future that promotes long-term sustainable Swedish forestry and a growing bio-economy, i.e. for an economic and societal development based on renewable resources.",
+    "outcomes": "Factors that have contributed to success outweigh the limiting factors. Political factors In this case the public and the government have the same priorities, i.e. to reduce the impact of wildfires and to maintain a healthy forest landscape as a base for the economy, but also for recreation and wellbeing. The strong government support, leadership and subsequent changes to the legal framework governing wildfires, has been an essential factor in speeding up implementation of the recommendations. Governance factors With a multi-faceted stakeholder pattern, it has been essential for the implementation of adaptation measures to have clear responsibilities and mandates. The 2018 wildfires proved that unclear communication lines and roles risk slowing down vital decision-making and contributed to increased damages. The fact that the mandates and overall responsibility for wildfire resources and follow-up are anchored in the Civil Protection Act further serves to strengthen the implementation structures. Technical factors Technology and expertise is widespread across society. Appointing the Civil Protection Contingency Agency (MSB) to coordinate resources and follow-up on responsibilities helps to ensure that technical know-how, expertise and resources are up-to-date. Wildfire detection technologies continue to be developed and refined. It is expected that the use of satellite data and drones will increase in the future as they are cost effective means of detecting and monitoring wildfires. Physical and biological forest management factors Sweden has a lot of forests spread over a vast area, many of which are remote. The forests are mainly made up of pine and spruce species. Coniferous forests are more prone to wildfires than deciduous forests that contain more moisture. These factors help to argue the case for coordination and sharing of resources to keep costs down, but also to introduce Nature-based solutions, such as limiting monocultures and mixing in more deciduous trees to reduce the risk of so-called mega wildfires in the future. Social factors The right to roam and public access to nature (Allemansrätt) are cornerstones of Swedish society and most Swedes have a basic understanding of how to behave in nature through the school curriculum. There is also a common understanding that spending time in nature is good for your health and well-being. The need for a robust legal framework and adaptation measures to reduce wildfires in order to protect nature and people, are therefore well anchored with the general public . It is important to continue to raising awareness to remind people of the risks and costs related to wildfires and to encourage responsible behaviour to avoid accidental fires. This needs to include groups such as new arrivals and foreign tourists that have not been through the Swedish school system and may not have a full understanding of the roles and responsibilities associated with the “allemansrätt ”, especially in view of the expected increase in tourist numbers in the future. Economic factors Fighting wildfires is expensive and often requires joint resources. Sharing of resources like aeroplanes and helicopters is a cost-effective way to manage the wildfire services. Recurrent budget allocations to maintain the services could become a limiting factor if the national economy is under pressure. The coordination of wildfire services is implemented with a national perspective and in collaboration with the EU. The services are mainly funded through public budgets - from the state, municipalities and also EU funds.",
+    "cost_benefit": "The combined economic losses of a mega wildfire are likely to be much higher than the cost of the adaptation measures, as wildfires affect not just the forest but the whole forestry industry, infrastructure and public health. The total cost to society of the 2014 and 2018 wildfires is difficult to estimate. The insurance sector alone estimates the cost of direct damages to over 500 million Swedish Kronor (over 43 million EUR) each time and the societal costs are likely to exceed 1 billion SEK (around 87 million EUR). The forestry industry is important for Sweden and produces, directly and indirectly, goods with a value added of around 120 billion SEK (around 10 million EUR) per year, which corresponds to just under 2.5 per cent of Sweden's GDP. A total of 120,000 people work in the forestry industry. The benefits of reducing damages to forests, disruptions to production, negative effects on biodiversity and health as much as possible is though is therefore most likely to outweigh the cost of detection and firefighting. There are also non-economic societal benefits from limiting the number of uncontrolled wildfires. They include maintained biodiversity and ecosystem services, reduced air pollution, maintained water and soil quality, preserved landscapes and recreational areas. These, in turn, have a positive effect on health and well-being, and on job creation through the forest industry, berry picking and tourism, for example. Avoiding wildfires is also beneficial for climate mitigation. Forests directly contribute to carbon sequestration and potential directly contribute to climate mitigation through carbon sinks. Biomass is a renewable energy source and wood products, if used in a sustainable result in far less carbon emissions than those made from either steel or concrete.",
+    "timeline": "The analysis of needs, the changes to an enabling legislation and subsequent implementation of wildfire adaptation measures have taken ca 5 years. By 2024, the adaptation measures are not finished and improvements will continue indefinitely, but there is now a practical structure in place to build on.",
+    "lifetime": "As wildfires are recurrent events, measures to prevent, detect and manage wildfires will need to continue indefinitely and possibly be increased in the future, depending on the rate of climate change. In March 2018, the Swedish Government presented a Swedish national climate change adaptation strategy. The strategy includes Sweden’s climate change adaptation goals, guiding principles for the work, organisation and distribution of responsibilities, monitoring, financing principles and knowledge-boosting initiatives. The national climate change adaptation strategy will be updated every five years and is another source for tracking the success of the wildfire climate adaptation measures.",
+    "stakeholders": "A Government inquiry was conducted after the major wildfires in 2018. It included representation from various ministries, national authorities, including the Swedish Civil Contingency Agency (MSB), the defence force, rescue services, forest owners, regional authorities (county administrative boards), and local fire-fighting services. Various researchers and organisations, such as MSB, have also published accounts and evaluations of the wildfire event. The respective reports are based on extensive interviews with all the groups and people who had been involved in fighting the wildfires. The conclusions and the proposed improvements are thus well anchored both at government and public levels.",
+    "legal_context": null
+  },
   "point": {
     "lat": 59.3251172,
     "lon": 18.0710935,
@@ -99,7 +208,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/managing-the-increasing-risk-of-wildfires-in-a-changing-climate-sweden",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:49+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

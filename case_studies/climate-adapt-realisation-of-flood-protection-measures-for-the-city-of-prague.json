@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-realisation-of-flood-protection-measures-for-the-city-of-prague",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/realisation-of-flood-protection-measures-for-the-city-of-prague",
   "title": "Realisation of flood protection measures for the city of Prague",
@@ -38,6 +38,84 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mobile barriers",
+      "label": "mobile barriers"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "grey measures",
+      "label": "grey measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "safety valves",
+      "label": "safety valves"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Flood risk management",
+      "label": "Flood risk management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "fixed barriers",
+      "label": "fixed barriers"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "pumping systems",
+      "label": "pumping systems"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The 2002-flood substantially speeded up the development of a more resilient flood risk management system to protect the city of Prague. At that time, the flood protection measures were not presented and named as climate change adaptation measures because climate change adaptation was not a topic issue on the political agenda. The identified measures are now considered suitable to increase resilience to flood risk, also in a climate change perspective. In particular, realised measures can now cope with flooding events with a return period of 500-years, thus considerably increasing Prague resilience towards extremes events. The objectives of this intervention contribute to the actions foreseen in the Prague Climate Change Adaptation Strategy (2020) for reducing the city’s vulnerability to floods. In particular the Strategy’s actions include: flood prevention and control on the Vltava and Berounka rivers and on other watercourses on the Capital City of Prague´s territory; enhancing rainfall water management; implementation of measures aiming at slowing surface water runoff from the landscape and erosion prevention, changing of paved water impermeable surfaces into water permeable and semipermeable ones; continuing integrated restoration of floodplains, watercourses and reservoirs; enhancing landscape permeability and its use in recreation/leisure.",
+    "measures": "Based on the 2002 flood experience, the flood control measures were improved and designed to protect the city from an event like the 2002 flood (Maximum Flow 2002 = 5160 m3s-1), which corresponds to a water level of 782 cm, with safety reserve of 30 cm. The construction of the flood control system in Prague was realised throughout 8 phases, each one addressing a specific sector of the Vltava River. The total length of flood protection measures (fixed barriers, solid concrete walls and mobile barriers) after the completion of all stages is approximately 19.255 km, of which 6.925 km are mobile barriers. The flood protection system of Prague has been completed and protects most parts of Prague from flood with 1 to 500 years return period (the only exception is the protection of the Zbraslav district, where the protection is at Q100 + 30 cm safety margin). In 2022, a building permit was issued to change the first stage of flood protection measures in the Old Town where the level of protection was only on Q100. The increase in protection was allowed and the level of protection in the entire city was thus unified (Q500 + 30 cm safety margin). The provision of flood protection for the Prague’s Zoo is also being considered. Before the construction of such protection system, the area threatened by floods in Prague was 57.5 square kilometres (in total 11.6% of the city). After the completion of the intervention, an overall surface area of 52.5 square kilometres of the previously threatened area became protected against flooding. The residual areas with limited flood protection are referred to Sedlec and Troja zones and to the areas of Vltava and Berounka river confluence, which are not densely populated. To protect the city, its inhabitants and the priceless historical heritage from such great floods, the implementation of a grey infrastructure was considered necessary, as further described below. Green and blue infrastructure were planned as additional support to the flood barriers and are considered very useful for example to tackle flash floods caused by extreme precipitation. The grey adaptation measures (engineering infrastructure) implemented to control Vltava river floods include: Fixed barriers (levees, dykes, earth mounds, solid concrete walls) constructed along the Vltava River. For instance, closure at Čertovka (Old Town), which is a steel sliding door, 23.5 m length, 4.9 meters height, and weighting 45 tonnes. Mobile barriers which are mainly used in the old historical centre, and partly in the surrounding areas. Mobile barriers are stored in a central storage area in Dubeč and for smaller parts in Zbraslav. The transport and installation of mobile barriers to the areas potentially affected by flooding is based on the Flood Management Plan of the Prague City. In Dubeč, a training area for the installation of mobile barriers was built. Workers in this section are continuously trained. Moreover, once a year, a test for the installation of mobile elements takes place on a selected section of the flood protection infrastructure of the city. Other measures, as closures, pumping systems and safety valves in the canalisation network along the Vltava River. The success of the implemented flood protection system was proved during the 2013 flood event, when large part of the city along Vltava River was protected and only very minor parts were flooded. After each flood event, evaluation reports are drawn up, as relatively extensive documents (in Czech language). The evaluation reports identify critical points, assess damages and contain suggestions for improvement. Since 2013, there has not been a significant flood event in Prague. However, flows reached a maximum value of 600 m 3 /sec several times. The lowest flood warning is reached at 450 m3/sec. With this warning level, the anti-flood system is already activated: vehicles are being evacuated from the embankment, flood gates are being closed, etc . . M easures are mainly preventive and no damages are incurred. The green and blue solutions mainly realized to tackle flash floods, consist in the revitalization of smaller streams in the city, like for example Rokytka. In this case, the main goal is to slow down the runoff and reduce the man-made modifications of riverbeds (Strems for Life Project , 10 years of revitalization projects in Prague ). Further green strategies or approaches are in a study phase for example in Rohan Island , at the confluence Perurbian Park and in the Troja Basin and Imperial Island .",
+    "outcomes": "The main problems occurred during the approval and permit process of flood control system installation and were referred to both stakeholder’s scepticism and cultural and historical heritage authorities constraints. In particular the limiting factors were: Issues of property rights and relations of land that was in the area of the planned flood control system. Land ownership and property relations often hinder the implementation of such measures, but compensation or exchanges for other land were offered to private owners of other lands to overcome this problem Coping with the requirements of cultural and historical heritage preservation authorities, especially in the historical centre, where the line of the mobile flood control measures was required to be as invisible as possible. In this case, the project had to be modified, especially in terms of the use of materials and visual impact. In the city centre, for example, stone elements were preferred over stainless steel. In some sections, concrete walls are replaced by a soil dike or permanent elements are replaced by mobile ones. Conflicting views of investors, designers, and the historical heritage authorities regarding the implementation of flood protection measures, in order to maintain the panoramas in the historical parts of the city. The success of the implemented flood protection system was proved during the 2013 flood event, when a great part of the city along Vltava River was protected and only very minor parts were flooded. On the other hand, the 2013 flood event highlighted the “weak points”, such as the capacity of the pumping station on Rokytka creek that is planned to be enlarged based on that flood event. At the moment (2023) the expansion of the capacity of the pumping station (twice the previous one) has a valid building permit but the construction has not started yet.",
+    "cost_benefit": "The costs and benefits of the implemented flood protection measures were calculated for particular events with different return period: 20, 50, 100 and 500-year flood. The estimated total cost amounts to 145.94 Million EUR (2013) and includes: total cost of the realisation of the flood control system (144.4 Million EUR, 2013), installation costs per event (0.65 Million EUR, 2013), annual maintenance and storage costs of mobile barriers(0.89 Million EUR, 2013). Benefits include the enhanced safety of citizens from hydraulic risk and the avoided damage costs to properties. In the absence of any protection measure, the estimated costs for property damages are detailed below (Million EUR for events with different return periods (Q)): Residential buildings, ranging between 332 (Q20) and 1,971 (Q500); Infrastructure and industrial buildings, ranging between 124 (Q20) and 613 (Q500); Equipment, ranging between 42 (Q20) and 254 (Q500); Citizen´s evacuation, cleaning and other costs, ranging between 42 (Q20) and 74 (Q500); Environmental and cultural assets, ranging between 38 (Q20) and 57 (Q500). Residual costs, despite the flood control system, are estimated to range between -410 (Q20) and -966 (Q500) Million EUR. Total net avoided damage costs are (in Million EUR) therefore between 168 (Q20) and 2,003 (Q500). If costs and benefits are compared for each event, it is possible to see that benefits are greater than costs for the event with a return period of 50 years (Q50) and more. Benefits are slightly greater than costs also for flood events Q20. However, flood events with a return period of 20 years could appear more times than once in the 80 years (life span of the measures), which would make the comparison negative. Even if a scenario where there would be just one event of Q50 (or events with longer return period, i.e. Q100 and Q500) during the expected life span of the measures (about 80 years) is considered, the benefits would still overweight the costs, also despite the annual maintenance and storage costs. Based on calculations it is possible to argue that if at least one event of Q50/100/500, or Q20 with a combination with another event (Q20/50/100/500) or any other combination of these occur, the flood control system investment will return. The implementation of grey infrastructure including flood barriers was essential in order to effectively protect the city centre. Based on the performed cost-benefits analysis it proved to be a very effective investment.",
+    "timeline": "The adaptation process in the City of Prague is a continuous task . The main flood protection measures to protect the city of Prague from floods (engineering infrastructure) were constructed from 1997 to 2012. The implementation of these measures took quite a long time, including design, project preparation and construction of the measures. Several green and blue measures were implemented in the 2005-2015 period, while additional measures are still under investigation, to implement the adaptation strategies and plans.",
+    "lifetime": "The estimated life-time of the main protection system of the City of Prague (engineering infrastructure) is approximately 80 years, while green-blue infrastructure (re-naturalisation of streams) are planned to have an indefinite duration.",
+    "stakeholders": "The responsibility for flood protection measures in Czechia, which have been implemented since 1997, is divided between two institutions at the national level: the Ministry of Agriculture, which is responsible primarily for the implementation of technical measures, and the Ministry of the Environment that together with various non-governmental organizations and local initiatives are the main promoters of ‘‘green’’ adaptation measures. At the regional level, Prague City Hall in cooperation with the Povodí Vltavy, a State enterprise, is responsible for the implementation of flood control measures on the Vltava River and small watercourses. Some environmentally oriented organizations and local initiatives of citizens raising suggestions are also involved in the adaptation process through consultations . The stakeholders involved include Prague City Hall, affected Prague districts, political representatives, the Czech Hydrometeorological Institute, Povodí Vltavy - Vltava River Basin and professional companies (eg. Hydrosoft).",
+    "legal_context": "The Water Framework Directive (EC 2000) and the Flood Directive (EC 2007) represent the EU legal instruments which pushed to establish water and flood risk management laws in the Czech Republic. At the national level , the current Czech flood risk management is based on the Strategy for Protection against Floods approved by the government in 2000. In addition, another Strategy for protection against negative impacts of floods and erosion phenomena, using nature‑based measures in the Czech Republic was adopted in 2016. It is based on the concept of using nature-based solutions to solve the problem of flood protection in the Czech Republic, approved by Resolution of the Government of the Czech Republic No. 799/2010. A study of Rainwater Management in Urbanized Areas was also prepared, which follows on from the requirements of the National Action Plan for Adaptation to Climate Change , which was approved by Government Resolution No. 34 of January 16, 2017. It is an implementation document of the Strategy for Adapting to Climate Change in the Conditions of the Czech Republic (2015). Specific adaptation actions (also including green and blue measures) are included in the “ City of Prague Climate Change Adaptation Strategy, 2020 ” (which aims at reducing vulnerability of the city to climate change effects: heat waves and urban heat island, floods, insufficient rainfall water infiltration and drought) and in the “ Prague Climate Plan 2030 ”. Moreover, by Prague Council Decision No. 3213 of December 12, 2015 and submitting an application, the Capital City of Prague became a member of the Mayors Adapt Initiative now Covenant of Mayors for Climate and Energy Europe ), thus accepting a commitment to develop a climate change adaptation strategy and to monitor and assess the process and procedure of adaptation measures. Finally, flood protection measures in the City of Prague are also consistent with other national planning instruments: the Plan for the Main River Basins (implementation of the EU Directive No 2000/60/EC ), which is an important strategic document for water planning. Issued by the Ministry of Agriculture in 2007, it includes flood protection among its three main topics (protection of water as a component of the environment, flood protection and sustainable use of water resources and water management). The document places great emphasis on preventive protection and recognizes that a suitable combination of measures in the landscape that increase natural water retention and technical measures addressing flood run-off are necessary for effective flood protection. The Spatial Development Policy (2021), which is a strategic document for coordination of spatial planning. (e.g. Spatial Plan in Prague)."
+  },
   "point": {
     "lat": 50.0994409876,
     "lon": 14.4250488281,
@@ -67,7 +145,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/realisation-of-flood-protection-measures-for-the-city-of-prague",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:04+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

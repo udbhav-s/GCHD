@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
   "title": "Lower Danube green corridor: floodplain restoration for flood protection",
@@ -68,6 +68,109 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecosystem services",
+      "label": "ecosystem services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood management",
+      "label": "flood management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biodiversity enhancement",
+      "label": "Biodiversity enhancement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "floodplain restoration",
+      "label": "floodplain restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Danube",
+      "label": "Danube"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green corridor",
+      "label": "green corridor"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Lower Danube Green Corridor Agreement aims to: preserve a total of 935,000 ha, including enhanced protection for 775,000 hectares of existing protected areas and new protection for another 160,000 ha; restore 224,000 hectares of natural floodplain; promote sustainable use and development along the 1,000 km downstream of the Danube, including the Danube Delta. The restoration of floodplains is meant to provide room to retain and safely release flood waters.",
+    "measures": "In the Lower Danube Green Corridor Agreement the governments of Bulgaria, Romania, Moldova and Ukraine agreed to restore 224,000 hectares of floodplain, as part of a wider preserved area of 935,000 hectares forming the Lower Danube Green Corridor. These ambitious goals are expected to be met in a long term perspective. By 2020, restoration was underway in about more than 60,000 hectares of floodplains in the Lower Danube. Dikes have been removed, allowing the river to resume its natural course. Invasive vegetation species have been cleared. Tens of thousands of native trees have been planted on dozens of small sites. This is helping forests to regenerate naturally over a much larger area. In Romania, 6,000 hectares of floodplains on the islands of Babina and Cernovca, Mahmudia, Balta Geraiului, Gârla Mare - Vrata have been or are being reconnected to the river, creating a mosaic of habitats. As natural processes have been re-established, numerous bird species have come back and fish populations have increased. On Tataru Island in Ukraine, traditional cattle breeds were brought in to control invasive species. Dikes were removed to allow 750 hectares of land to flood naturally, providing rich feeding, breeding and spawning grounds for wildlife. As of today, some restoration projects are still ongoing, such as the Gârla Mare and Vrata ones that will have an impact on an area of 2000 ha. Decommissioning under-performing flood protection dikes and restoring floodplains is contributing to safer and more effective floodwater retention, more robust and dependable freshwater ecosystem services, lower infrastructure maintenance costs and strengthened local economies through diversification of livelihoods based on natural resources. During the 2013 flood in the Danube, along the Lower Danube there was no flooding, although water was above the average level.",
+    "outcomes": "International agreements for better water and river management have been a powerful tool for change in the Danube River Basin. Restoring the natural resilience of the environment to climate events (in this case large-scale adaptation) by decommissioning under-performing water infrastructure and thereby improving the natural capacity to retain and release peak floods, brings additional benefits both for nature and people. New opportunities for eco-tourism, fishing, grazing and fibre production strengthen local economies. The resulting higher quality of habitats attracts a wider range of species, including endangered ones. The Lower Danube Green Corridor Agreement served as an excellent basis to translate governmental decisions into actions. In countries like Romania and Bulgaria, the implementation of the Natura 2000 network significantly contributed to increasing the area under protection. Also, the harmonisation of the environmental legislation with the EU requirements, especially the implementation of the Water Framework Directive, opened new opportunities to restore lateral connectivity. In other cases, the need of the local communities to have access to enhanced natural resources was the main driver. Proper attention to the issue of land ownership was the key to success in the project. In each restoration project a few to a dozen landowners - depending on the size of the restoration area - had to be convinced that a change in land use would be beneficial for them. In the case of private landowners, it was important to assure that they do not lose the property rights. WWF started two pilot projects in Romania, where local communities and individuals gave their land to be flooded. The trigger to accept such rigorous change in land use was the understanding of the benefits deriving from changing the unproductive arable land into wetlands. The implementation of the restoration projects would likely be accelerated if financial mechanisms for landowners are in place (such as EU funding of floodplain restoration); however, this is not the case in any of the participating countries. Another success factor was that an independent organisation with know-how - in this case, WWF - took the lead. It kept putting effort in bringing the countries together, providing technical and financial support for meetings and background documents, encouraging governments to stay committed, etc. The most convincing argument for signing the agreement was the need to have a holistic approach in nature conservation and environmental protection for the Lower Danube. Certainly, the availability of financial resources has been important, but in the end, the political will in each country is believed to be the decisive factor to actually move to implementation on a larger scale.",
+    "cost_benefit": "Floodplain restoration along the Lower Danube Green Corridor has been estimated to cost 183 million euro. The restoration of wetlands is not only important for nature, but also for humans in terms of ecosystem services. The wide array of benefits the restoration provides include flood and drought management through holding and slowly releasing water, water purification through filtration, production of natural resources (e.g. fish and reeds), support to recreational activities and many others. These ecosystem benefits provide also economic benefits, such as avoidance of floods damages. Expected annual earnings through ecosystem services (flood control, water purification, groundwater replenishment, sediment and nutrient retention, reservoirs of biodiversity, recreation, tourism, etc.) from restored floodplains was estimated to be 111.8 million € per year. Each hectare of restored floodplain is estimated to provide 500 euro per year in ecosystem services, helping to diversify the livelihoods of local people ( Mansourian et al., 2019 ).",
+    "timeline": "The Lower Danube Green Corridor programme started in 2000 and is ongoing ever since with no foreseen end time.",
+    "lifetime": "Measures aiming at creating a green corridor along the lower Danube River are meant to be permanent, if properly maintained.",
+    "stakeholders": "WWF has taken responsibility for the Lower Danube Green Corridor initiative as part of the WWF Living Planet Programme which is aimed to secure the conservation of important biological resources and ecosystems into the next millennium. In the Lower Danube Green Corridor project, WWF works closely with the governments of the countries - Bulgaria, Romania, Moldova and Ukraine - that signed the Agreement, as well as local stakeholders. To achieve the objectives, each country prepared an action plan in which additional areas of floodplain were designated for protection and restoration. These action plans described for each designated area what specific measures were needed and what steps had to be taken to carry out these measures. Involved stakeholders supported a regular exchange of information - through meetings and by establishing contact points at the Ministries of Environment in the four participating countries - in order to achieve effective protection of the Lower Danube Green Corridor. WWF played a facilitator role to increase communication and cooperation between the Lower Danube Green Corridor countries. It also supported the implementation of concrete restoration projects, like models to be scaled up. Both citizens and environmental NGOs were offered the opportunity to play an active role in decision making processes. WWF has conducted awareness raising campaigns and also directly engaged the general public and NGOs in the decision making process in the project area. Active lobbying has been done at national and international levels to boost the implementation of the Lower Danube Green Corridor. Furthermore, partners were sought locally and nationally as well as internationally, i.e. GEF, UNDP, UNEP, World Bank, EU, WWF, IUCN, Ramsar Convention and other Governments (i.e. Austria, Germany, Denmark, Netherlands), to solicit their co-operation and assistance in the creation and maintenance of a Lower Danube Green Corridor. The main funding came from WWF, national governments, EU and the business sector. Nowadays, due to political changes, the main challenge for WWF’s activities is to furthermore convince the authorities about the multi-beneficial effects of nature-based solutions, such as floodplain and wetland restoration to increase climate change resilience.",
+    "legal_context": "The Lower Danube Green Corridor found its legal basis in: The Strategic Action Plan for the Protection and Restoration of the Danube River Basin; The Danube River Basin Climate Adaptation Strategy; The GEF Danube River Pollution Reduction Programme Transboundary Analysis; A series of wetland related activities in the Danube basin funded by the EU Phare Multibeneficiary Programme for Environment which emphasized the need to take actions to protect and restore wetlands and floodplain habitats throughout the entire Danube River Basin; The Convention on Wetlands of International Importance Especially as Waterfowl Habitat (Ramsar, 1971); The Convention on the Conservation of Wildlife and Natural Habitats in Europe (Bern, 1979); The Pan European Landscape and Biological Diversity Strategy; National strategies and commitments to protect biodiversity; The Convention on Co-operation for the Protection and Sustainable Use of the Danube River (Sofia, 1994); The reinforcement of the principle of joint action from Danube countries to protect and restore the water quality and environmental conditions of the Danube river ecosystem; The Danube River Basin Management Plan."
+  },
   "point": {
     "lat": 44.1230848931,
     "lon": 27.3614501953,
@@ -97,7 +200,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/lower-danube-green-corridor-floodplain-restoration-for-flood-protection",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-09-11T06:35:26+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
   "title": "Living in a tree house in Torino (Italy): combining adaptation and mitigation measures to improve comfort",
@@ -38,6 +38,99 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable materials",
+      "label": "sustainable materials"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Bioclimatic architecture",
+      "label": "Bioclimatic architecture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "thermal insulation",
+      "label": "thermal insulation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat island effect",
+      "label": "heat island effect"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Torino has already experienced dangerous heatwaves, and the number of these events is expected to increase due to global warming. Thermal insulation, making buildings more resilient to temperature extremes and variability, will increase capacity to cope with changing conditions. Moreover, thermal insulation, decreasing the need for cooling, will also contribute to the decrease of the urban heat island effect, with benefits for the whole neighbourhood. Ultimately, since energy use will decrease, synergies between climate change mitigation and adaptation are enabled.",
+    "measures": "To enable the building to cope with heatwaves, and increased temperature in general, two measures have been integrated in the design of 25 Verde: thermal insulation and energy efficiency. To achieve both several combined solutions have been adopted. The structure of the building is characterized by: high thermal mass that provides inertia through the 35 cm thick solid floor slabs; exterior increased thickness brick walls; continuous exterior thermal insulation and ventilated façade; passive solar protection through louvers and deciduous plants; wide glass surfaces for winter solar gain and for improved interior natural lighting; green roof, which includes a thick layer of soil. The main reinforced concrete structure is protected from atmospheric conditions by the exterior infill wall, which also provides the insulation, keeping it at about the same temperature all year round. The materials used for the exterior surface were specifically chosen to increase the durability and decrease maintenance of the building: cor-ten steel structure and copper rain gutters and downspouts, which are protected by the natural oxidation process; larch shingles, which do not need to be painted because they are ventilated; natural mahogany beams; and glass panels. Window frames in Douglas pine are protected from atmospheric conditions by the shingles and are treated with oil and wax, which need to be applied every two years. Moreover, trees and plants on the façade deliver natural thermal regulation both in summer and winter: species have been chosen according to their specific exposure to the sun and are deciduous, i.e. they provide shade in the summer time and allow more heat inside the building in the winter time. The green roof has a layer of 60 to 100 cm of fertile soil, and can be used as garden with grass and trees, as orchard, and for fruit trees. The soil also provides thermal insulation, due to its high thermal inertia, and ensures rainwater filtering and absorption, decreasing, thus, water irrigation requirements and delaying the release to the ground of the rain water. People living on the top floor manage the green roof, which is their private property. The heating and cooling systems installed in the building are heat pumps that use geothermal energy, connecting to the groundwater system through existing wells. Hot water for sanitary purposes is produced, in summer time, using the thermal surplus created by the cooling geothermal system. The vertical pipes of the heating system are placed in insulated ducts to limit thermal dispersion. The heating system is made with radiant panels, thus requires warm water, i.e. between 25 and 30 °C. Additionally, metering of individual use of heating and cooling fosters energy saving. All these features together minimize energy use and improve internal comfort during extreme outside air temperature events, adapting the building to global warming and, at the same time, addressing climate change mitigation.",
+    "outcomes": "The 25 Verde is an example of how synergies between mitigation and adaptation can be used to design buildings, which are able to better cope with extreme temperatures. The building has no direct CO 2 emissions: high efficiency heat pumps, which use table water, provide both heating (including hot water) and cooling. Moreover, 25 Verde, for its high thermal inertia and cooling system, is also contributing less than the surrounding buildings to the urban heat island effect. People living in the “Tree house” are well aware of the added comfort given by the architectural choices, i.e. forms, functions and materials, specifically valuing living in the densely built city surrounded by plants, with big balconies and terraces, natural light, good protection from the sun in the summertime, pleasant indoor temperatures both in summer and winter, and noise insulation. Discounts on taxes were granted to the developer in the procedure for the licensing of the building. There were no delays in the design and construction phases, because the developer already owned the lot and the licensing procedure was smooth.",
+    "cost_benefit": "The building cost was about 2,500€/m 2 , about double of the average cost for a standard building (1200€/ m 2 ). The greenery alone accounted for 10-15% of the total cost, compared to an average of 3-5% for a standard building. The apartments were sold quickly: 55% were sold in two days after the launch of the initiative, and during construction sales reached 90%. Average sale price was 5,500€/m 2 , about 500€/m 2 above average for the area in that period.",
+    "timeline": "The design phase run between 2007 and 2010, while the building was constructed in 2010-2012.",
+    "lifetime": "It can be reasonably assumed that 25 Verde will have a life of about 50 years with only ordinary maintenance, no exterior renovation should be necessary in this timeframe.",
+    "stakeholders": "The building developer has shown interest in the principles at the base of this building and has actively participated in the design of the project and in the choices made since the beginning, aware of being part of an exemplary case. The building is known by citizens and is visited in guided tours by Italians and foreigners, who want to see responsible and quality architecture. Moreover, since most of the apartments were sold before construction started, owners were able to personalize their apartments during the construction phase, enabling a more efficient completion.",
+    "legal_context": "The building has obtained compliance with building regulation of Torino municipality and it was assigned to energy performance class A. During the licensing it was awarded a discount of 20% on the construction taxes, because it provided: thermal insulation and inertia, average natural lighting performance, passive solar protection above requested standards and norms, green roofs and stormwater retention and reuse."
+  },
   "point": {
     "lat": 45.0580014354,
     "lon": 7.684154,
@@ -67,7 +160,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/living-in-a-tree-house-in-torino-italy-combining-adaptation-and-mitigation-measures-to-improve-comfort",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:38+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

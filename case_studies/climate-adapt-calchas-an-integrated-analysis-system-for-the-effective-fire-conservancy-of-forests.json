@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
   "title": "CALCHAS - An integrated analysis system for the effective fire conservancy of forests",
@@ -59,6 +59,74 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest fire",
+      "label": "Forest fire"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "risk assessment",
+      "label": "risk assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "land use planning",
+      "label": "land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest management",
+      "label": "forest management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "monitoring station",
+      "label": "monitoring station"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "information network",
+      "label": "information network"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In two pilots areas (Troodos, Cyprus; Grammos, Greece), the project aimed to: Improve the knowledge and skills of civil protection professionals and services on effective temporal and spatial planning of resources; Improve the knowledge and skills of decision-makers on evacuation planning; Increase the effectiveness and readiness of fire brigades, civil protection, local communities and any other stakeholders to deal with forest fire threats.",
+    "measures": "The CALCHAS project developed and established an Integrated Forest Fire Analysis System (IFFAS) for the effective fire conservancy of forests. It uses a forest-fire simulation tool that is capable of estimating the evolution of a wild forest fire. The tool uses inputs data on ignition risk, real-time meteorological data, the vegetation of the area and spatial information (iso-contours and ground elevation). Meteorological stations are installed in the areas of the two pilot sites (Troodos in Cyprus and Grammos in Greece) more subjected to fire risk and structural characteristics on vegetation provide detailed information useful to know when environmental conditions are favourable for fire development. The fire simulator tool is then used to predict fire development and to help in managing it.",
+    "outcomes": "The use of meteorological stations and morphological information provides detailed information on the environmental characteristics of the two pilot areas. It also involves local stakeholders such as fire services, civil protection and local communities so the information obtained with the application of the system can be disseminated in order to discuss further strategies to cope with fire risk. IFFAS is transferable to other forest areas, even if it requires to be tailored and must incorporate some specific characteristics of the areas where it is applied. The vegetation (species, density and flammability), the topography and spatial parameters of the area, as well as the identified possible areas for a fire to start, need to be determined for each site in which IFFAS is applied. Within IFFAS, these inputs can be combined with local meteorological data (to be available locally) to generate a real-time estimation/prognosis of the evolution of the wild fire. One of the limits of the system could be the ability of local authorities (civil protection, fire brigades, and decision makers) to apply the simulator and to manage the information obtained from it. To deal with this potential limit, 5 training sessions (3 for Cyprus and 2 for Greece) on the use of the software were organized within the CALCHAS project. Furthermore the authorized users of the simulation platform were advised to contact the project’s team at any time, for any further information and help.",
+    "cost_benefit": "The Integrated Forest Fire Analysis System (IFFAS) is a useful tool for the responsible authorities: At scenario level: (i) for personnel training purposes, (ii) for planning of the necessary fire conservancy infrastructures (fire monitoring stations, firebreak zones, water tanks, etc.). At operational level: for decision making and coordination during forest fire incidents. Total budget for the CALCHAS project amounted at 2,337,114.00 € (EU contribution through the LIFE program accounted for 1,158,803.00 €). This included cost for IFFAS development, project management, dissemination, capacity building, etc. The required overall investment cost for the development and application of IFFAS in other forest areas is calculated to be around € 350.000 for a 100 km 2 forest area and € 1.000.000 for a 500 km 2 forest area. The costs for IFFAS application in other areas include: study of site specific characteristics, data collection and analysis, application of the developed methodologies, design of IFFAS for the specific areas, development of the required hardware (meteorological stations, auxiliary equipment, etc.), installation of the hardware, testing of IFFAS, and training of the competent authorities. These costs can vary depending on several parameters such as geomorphological and flora complexity of the area, location and remoteness of the forest area, and availability of existing data for the specific forest area.",
+    "timeline": "IFFAS was developed and tested within the CALCHAS project which run between March 2010 and August 2013.",
+    "lifetime": "There is no lifespan limit for IFFAS as long as proper maintenance operations are ensured.",
+    "stakeholders": "Competent authorities such as fire departments, civil protection departments, forestry authorities, local authorities, ministry of agriculture and environment, as well as private citizens were involved in the IFFAS development and in the dissemination of the project results in order to deal with forest fire threats. During the last three months of the CALCHAS project, IFFAS was delivered to the competent forest fire authorities of the two pilot sites: the Fire & Civil Protection Departments of Kastoria Region in Greece and the Department of Forest and Ministry of Agriculture, Natural Resources, and Environment of Cyprus.",
+    "legal_context": null
+  },
   "point": {
     "lat": 40.3919270096,
     "lon": 20.8340263358,
@@ -88,7 +156,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/calchas-an-integrated-analysis-system-for-the-effective-fire-conservancy-of-forests",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:29+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

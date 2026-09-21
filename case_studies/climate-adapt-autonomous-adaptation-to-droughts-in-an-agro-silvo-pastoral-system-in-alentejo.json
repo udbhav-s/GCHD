@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
   "title": "Autonomous adaptation to droughts in an agro-silvo-pastoral system in Alentejo",
@@ -62,6 +62,141 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extensive agriculture",
+      "label": "extensive agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crop diversification",
+      "label": "crop diversification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "community supported agriculture",
+      "label": "community supported agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "permaculture",
+      "label": "permaculture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "agro-forestry",
+      "label": "agro-forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "organic farming",
+      "label": "organic farming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Agro-ecology",
+      "label": "Agro-ecology"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rain-fed agriculture",
+      "label": "rain-fed agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "autonomous adaptation",
+      "label": "autonomous adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "montado",
+      "label": "montado"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "school",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "Montado do Freixo do Meio promotes a space for cooperation, inclusion, personal development, work and community building. It seeks the realization of a community that harmoniously integrates the ecosystem to which it belongs, to be autonomous, resilient, peaceful and ecumenical. The goal of the various initiatives performed by the agricultural company is to improve the relationship between human actions and resources: water, soil, biodiversity, energy, science and culture. With this approach in mind, the adaptation measures implemented by Montado do Freixo do Meio aim to multiple goals: reduce water needs, desertification and soil erosion, and increase resilience of crops to climate change and climate extremes, all while sustaining an economically viable agro-forestry system. The mission of Montado do Freixo do Meio is aligned with the environmental objectives of EU policies on sustainable development, forest preservation and climate change adaptation. This is also proved by the participation in EU-funded projects ( LIFE Montado-Adapt , Ecomontado XXI , WildFood ) aimed to improve forest management, water retention in agricultural areas and sustainable food production.",
+    "measures": "The management strategy of Montado do Freixo do Meio is organised around four main components: (1) a central area of traditional Montado (275 ha, 47% of the total surface) mainly focussed on production, (2) a second area further south (139 ha, 24% of the total surface) of mixed forests with management more oriented towards conservation and biodiversity, (3) four areas dedicated to plant production and experimental agroforestry (66 ha, 11%) and (4) an area to the north (106 ha, 18%) where various innovative techniques for installing and maintaining new tree stands will be tested with a view to minimizing the effects of climate change. In this context, since 1990s, Montado do Freixo do Meio has implemented a wide number of measures aiming at reducing water needs, and at diversifying crop products, to increase the resilience of production to droughts. Measures implemented to improve water retention and reduce water needs include : More efficient use of rainwater through small retention basins integrated in the landscape; Drip irrigation (to reduce water consumption) with organic fertilizer (farmer-made organic liquid fertilizer rich in bacteria introduced in drip irrigation); Use of renewable energy for water pumping to reduce irrigation costs; Mulch, i.e., use of straw, leaves, shredded wood, other natural fibre or even compost to cover soil and prevent evaporation; Tilling on contour line and no tilling in steep areas or any other areas except for firebreaks, aiming to prevent soil erosion and increase soil’s water retention; Keyline design of terrain, trees and crops. This practice increases water infiltration and water soil retention, preventing erosion, increasing pastures productivity and water availability in a larger area and increasing the depth of roots and carbon sink; Increasing organic matter of soil to improve soil’s water retention; Preparation of terrain with swales and boomerang shapes to increase soil’s water retention; Planting trees and crops in areas with particular microclimates within the farm (e.g. northwest slopes have higher levels of humidity). Agroforestry and crop diversification measures include: Maintaining or creating the traditional Montado multifunctional landscape, i.e. cork oak or holm oak trees combined with pastures and grazing sheep, goat, pig or cow as well as cereal or forage agriculture; Introduction of new drought-adapted plant species, such as the establishment of orchards of Ziziphus jujuba (Jujube) and holm oaks grafted with especially sweet acorn; Diversification of crops and using autochthone animal breeds; Supporting the commercialisation and the diversification of products through CSA – Community Supported Agriculture, a close, participatory, responsible and conscious model of consumption and organic food production. Considering the last two points, diversification is considered one of the main strategies to adapt agroforestry systems to climate change and uncertainty of seasonal patterns. Montado do Freixo do Meio has 34 horticulture products, 4 species of animals (cow, pig, lamb, goat), olive oil, honey, mushrooms, wine, grape juice, processed food products etc. They still sell a significant amount of dehydrated vine leaves (1400 kg in 2023) every year to a biodynamic medicine company. Since 2008, they have also invested in the transformation of the sweet acorn, from the holm oak, producing a range of vegan products such as acorn burgers, cookies, acorn infusion, acorn bread, pate, just to name a few of these products. In order to survive in the market, a “Community Supported Agriculture” was successfully experimented. CSA creates a direct link and trust relationship with consumers, outside of conventional distribution channels. Different types of “box schemes” have been experimented and are being implemented. These schemes consist of delivering boxes with different products adapted to the consumers’ needs (e.g. vegetables, meat, etc.) directly to the consumers’ doors. One particular scheme that strongly supports the farm is the establishment of a group of consumers that sign a three month contract in advance to receive a weekly box. In the CSA scheme, consumers become co-producers, by signing an agreement of mutual commitment, bound by values of solidarity and trust. This scheme also includes awareness raising events, visits and courses organised at the farm, in particular: Awareness raising campaigns : the farm organizes several campaigns not only to improve consumers loyalty, but also to create a larger pool of consumers that support sustainable climate adapted farms as well as to inspire other farmers to adopt climate adaptation solutions. Training courses on: ecological management of Montado ecosystem, permaculture (Permanent Agriculture) design and ecological landscape design (i.e., landscape design methods and approaches that are based in working with nature and its patterns, thus reducing the need for external input and therefore increasing the efficiency of the agricultural system, which is important in case of increasing pressure of climate variables); Visits to the farm and on-farm events to raise awareness on environmental friendly management of organic, permaculture and agro-ecological farming. Within the framework of the LIFE Montado-Adapt Project, an integrated management system based on the three pillars of sustainability (environmental, social and economic) was developed in a pilot area of 110 ha of the Montado do Freixo do Meio’s property. The system included three types of intervention: (1) conservation of the traditional Montado ; (2) innovation to obtain new products in the Montado , more resilient to climate change and (3) diversification of products on plots not classified as Montado . A regular monitoring programme was performed within this project, to evaluate soil changes, natural rhizobial population, tree biomass, carbon sequestration, and biodiversity. Monitoring results indicates high biodiversity and very good ecological conditions of the ecosystem. The management actions adopted in the project are also expected to produce long-term impacts that could not be detected yet in the monitoring period.",
+    "outcomes": "The main general barriers to climate change adaptation for Montado do Freixo do Meio can be summariesed in the following points: Policy and agriculture regulations and bureaucracy (e.g. it is very difficult to have permission to build a dam or off-stream water catchment); Lack of information about climate adaptation measures and methods; Present economic situation of Portugal; Availability of and access to new technologies. A relevant factor determinant for the success of Montado do Freixo do Meio is the innovative approach used by the farm to reach a market niche that is growing in Portugal, looking for ecological, organic and responsible farm production. Another relevant factor is the motivation, knowledge and human capacities of the owner, the main promoter and keeper of the vision for the farm. His knowledge of agro-ecology combined with more expert knowledge of consultants and workers on agro-ecology and permaculture have played a key role in the success of the farm and its approach . The fact that many of the adaptation measures were implemented autonomously without subsidies or incentives specifically focusing on climate change adaptation and sustainable development is mostly due to the motivation mentioned above but also to the financial capacity of the farm. Nevertheless this farm has been able to use and benefit from some general farm subsidies to reach some of its vision and goals. Decisive support is being provided by the participation in the EU LIFE Project Montado-ADAPT (2016-2021) whose objective was to develop the processes to adapt Montado management to current and future weather conditions and to be more resilient to climate change impacts. The Project developed an integrated management system aimed at improving climate change adaptation, while ensuring the profitability of the farm. A knowledge web platform was made available to support all Montado owners and managers that wish to start adapting to climate change. These outcomes enable the upscaling and replication of similar adaptation initiatives in Montado areas of Alentejo and other regions of Portugal and Spain. At the end of the project, 147 farms registered in the platform (127 in Portugal; 20 in Spain), totalling an area of 64 829 ha.",
+    "cost_benefit": "Montado do Freixo do Meio yearly net income is about 500.000 € and about 40% of this value is from European Common Agriculture Policy (CAP) subsidies, namely in basic payment scheme and agro-Environmental measures. The farm employs 30 full-time workers, 4 seasonal workers and about two trainee students every year. Adaptation interventions are not separately assessed in the farm yearly financial reports, since they can be hardly isolated from the overall set of actions generally targeted to improve the sustainability of production. The financial execution of the LIFE Montado-Adapt Project for the Herdade do Freixo do Meio pilot area involved a total investment of 145,978 euro. This included the cost of personnel, travel, technical assistance, equipment, etc. According to the economic assessment report of the project, the adaptation actions performed in the pilot area have quite long return on investment period (14 years). This result derives from the high weight of the investment made in planting some species which did not actually survive (high rate of mortality of some species) and in planting species with no direct production purposes (targeted at enhancing biodiversity). The weakness of the delayed return on investment might make the interventions less attractive in the logic of an investor seeking for direct economic gains. Notwithstanding, the interventions showed positive results after the first year of production. In the long term, the intervention led to a positive Net Present Value, showing positive contribution to the long-term financial sustainability of the farm. The economic benefits of the various measures ordinarily implemented in the farm, can be also seen when compared to neighbouring farms and in regions with similar conditions. Typically farms with 400 ha of Montado without irrigation facilities employ 1 to 5 workers. Herdade do Freixo do Meio employs 7 times more people which is a good indicator of employment promotion. Further, some of the neighbouring farms have gone bankrupt due to big financial investments and loss in global market competition. Diversification of products (over 300 different agro-silvo-pastoral products) has guaranteed an increased resilience to extreme events such as droughts as well as to potential fluctuations in market prices. Beyond economic benefits, the agroforestry approach undertaken by Montado do Freixo do Meio created landscape mosaics with associated benefits for biodiversity preservation. Moreover, it enabled the development of sustainable tourism initiatives.",
+    "timeline": "Implementation of sustainable and climate change adaptation measures is considered a continuous practice and is not limited in time. Some measures are very fast to implement (e.g. mulching, takes minutes for each tree/plant), while others take decades (e.g. establishing a oak multifunctional forest takes 40 years to become profitable). The LIFE Montado-Adapt project ran from 2016 to 2021, with actions implemented from 2018 to 2021 in the pilot site of the Montado do Freixo do Meio property.",
+    "lifetime": "Some measures have a very short lifetime (e.g. mulching, lasts from 3 months to 1 or 2 years depending on the technique and the amount of mulching material used) while others have very long lifetime such as oak forest plantation (e.g. cork and holm oaks can last up to 250 years).",
+    "stakeholders": "The main stakeholders of the farm are its workers, neighbours and consumers. Stakeholders participation is relevant to achieve a more effective and lasting adaptation to climate changes. As mentioned above, involving consumers is essential to be able to market the farm diversity and pay for the added ecosystem services provided by the farm (organic farming, reduced pollution, increased biodiversity, carbon sequestration, etc.). Consumers are directly involved in the farm life and to some extent influence the farm production by joining the Community Supported Agriculture scheme. It involves both farmers and consumers together in contracts of three months in advance of consumption of farm products. Consumers that embrace this scheme are called co-producers and have a closer relation to the farm, having the possibility to visit the farm, provide suggestions and be involved in several participation events. More in general, the farm is frequently open for tourist visits and courses throughout the year. Two smaller areas inside the farm are being used with free 50 year contracts by young farmers initiating their organic farm projects. A team of about 30 employees works on the farm, producing a set of more than 300 in-house processed foods using organic methods. The products are then distributed through different channels: an agroecological proximity production and consumption model (the CSA scheme), an online store, and two physical stores: one on the estate and another on Montemor-o-Novo Producers Market. There is also a strong experimental and demonstration component to this area. Various research activities are carried out at the Montado do Freixo do Meio with several partnerships with universities and other entities such as the University of Évora, the Faculty of Sciences of the University of Lisbon, the University of Coimbra and the Catholic University of Porto, and INIAV (National Institute of Agricultural and Veterinary Research). Within one of these activities, the LIFE-Montado Adapt Project, questionnaires and interviews to different stakeholders were carried out to understand potential barriers for adaptation to climate change in the Montado area (see Success and Limiting Factors). There are also regular activities for school excursions to visit and learn about the rich cultural and natural history of the area. There are more than 8000 visitors per year engaged in cultural, culinary and ecosystem conservation projects.",
+    "legal_context": "Montado is a habitat classified and protected by the European Union's Habitats Directive (habitat 6310 -Dehesas with evergreen Quercus spp.), an important ecosystem with elements of high cultural, identity and natural value that must be preserved and valued. Montado do Freixo do Meio is a limited company with one single owner. Furthermore there are some parts of the land with free-leased agreements for young farmers to implement organic farming and innovative adaptation measures such as keyline design to reduce soil erosion and increase rain infiltration."
+  },
   "point": {
     "lat": 38.7048027115,
     "lon": -8.32454681396,
@@ -96,7 +231,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/autonomous-adaptation-to-droughts-in-an-agro-silvo-pastoral-system-in-alentejo",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:07+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

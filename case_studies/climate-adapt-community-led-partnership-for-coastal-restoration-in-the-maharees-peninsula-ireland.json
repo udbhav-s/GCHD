@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
   "title": "Community-led partnership for coastal restoration in the Maharees peninsula, Ireland",
@@ -53,6 +53,116 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "CULTURALHERITAGE",
+      "label": "Cultural heritage"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Coastal erosion",
+      "label": "Coastal erosion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Community-based Adaptation",
+      "label": "Community-based Adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Regenerative tourism",
+      "label": "Regenerative tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sand dunes",
+      "label": "sand dunes"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Dune fencing",
+      "label": "Dune fencing"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 3
+    }
+  },
+  "intervention": {
+    "objectives": "The measures implemented by the Maharees Conservation Association address the challenges encountered by the local community. In particular, they aim to: Preserve the ecosystem (restore the protective sand dunes, prevent wild camping, illegal parking, fire and waste dumping, control or restrict the access to vulnerable areas). Preserve the attractiveness of the area for sustainable tourism (prevent sand deposition that leads to the blockage of the only road to access the Peninsula, foster “regenerative tourism” to restore and enhance natural, social and economic capital, offer opportunities for visitors to be engaged in the preservation of the dune ecosystem, preserve the tangible and intangible cultural heritage). Foster a participatory governance to manage the coastal area in a sustainable way (build partnerships with local, regional and national stakeholders, promote bottom-up approaches to coastal restoration, design a community-led vision and a climate adaptation plan, raise awareness about the fragility of the dune ecosystems among locals and visitors).",
+    "measures": "In response to a lack of coordinated coastal management, the Maharees Conservation Association was founded by the local community in 2016. It involves a diverse range of stakeholders from hospitality business, tourism, farming, education and other sectors. Additionally, the association has built partnerships with local councils, national agencies, NGOs and research institutions. This has enabled the Maharees Conservation Association to address the increasing environmental and socio-economic pressures on the Maharees Peninsula, by implementing a number of community-led solutions, such as: · Dune fencing: Wind-blown sand deposition frequently blocked the access road to the Maharees Peninsula and this is expected to worsen with increasingly frequent and severe storms due to climate change. Thus, the Maharees Conservation Association installed dune fences along the base of the sand dunes with the help of local volunteers. The fencing has successfully prevented sand deposition, and the road has not been blocked after the intervention. In addition, the fences prevent human interference with the dune vegetation and thus protect the integrity of the dune system. However, the solutions require constant maintenance efforts as they have to be dug out or replaced. · Marram grass planting: Unmanaged access, parking, wild camping, fires and waste dumping led to significant dune degradation. The dunes were successfully restored through marram grass planting. Marram grass ( Ammophila arenaria ) is a plant with matted roots that naturally stabilises sand dunes. The restored dunes play a key role in increasing the resilience of the coastal area to climate change, acting as a barrier to storm surges, reducing flooding in the hinterland and mitigating coastal erosion. Since marram grass is a valuable habitat for other species, this nature-based solution has also contributed to enhance the biodiversity of the dunes. Wide participation from schools, locals and visitors in the marram planting ensured the successful implementation of the solution. Additionally, volunteers supported the continued maintenance activities multiple times each year. The environmental NGO Clean Coasts supported the restoration of the dunes through on-site training of community members. · Awareness raising and education: Diverse initiatives, such as community training events, education material, signage and guided walks, supported by the Kerry Education and Training Board , enable locals and visitors to learn about the unique natural heritage of the Maharees Peninsula. The Maharees Conservation Association also cooperates with Munster Technological University (MTU) lecturers and students to implement awareness raising events and educational activities on endangered plants and animal species and regenerative tourism. These educational initiatives aim to increase the understanding of the impacts of climate change and build awareness about the fragility and importance of the dune ecosystem. They favour behavioural shifts and increased involvement of the local community and visitors in biodiversity protection. In addition, this serves to build relationships between visitors and the local community and enhances the visitor experience of the destination. · Preservation of Cultural heritage: A range of actions has been taken to preserve the cultural heritage of the Maharees in the light of climate change and of rising tourism visit numbers. For raising awareness among visitors and locals, the Maharees heritage trail has been developed. The audio-guided tour, available as a smartphone app , allows to experience the rich natural and cultural heritage of the Maharees peninsula. In the summer months, the Maharees Conservation Association regularly organises a series of events related to natural and cultural heritage. Another initiative focused on documenting the traditional placenames , which revealed the close relationship between the community and its immediate environment. The built heritage is especially at risk from climate hazards. The research project SEA-CCHange , funded by the national government, focused on a historic graveyard and highlighted that coastal erosion and flooding will lead to further degradation of the site. Therefore, the association has successfully applied for the Adopt a Monument Programme organised by the Heritage Council. In the coming years, various actions are planned to preserve the Kilshannig Church and graveyard. It is also aimed to acquire funding for a full or partial reconstruction of the church gable which was damaged in 2012. · Visitor management: Without adequate management, the high number of visitors in the summer season had led to wild parking and congestion, with negative impacts on the local community and the Maharees dune ecosystem. This had been exacerbated by the lack of visitor facilities (such as parking areas). To address this challenge, a summer car park with access to the beach was established with support from the local authority and a local land owner. It was accompanied by marking, signposting, and a system to report illegal activities such as littering, illegal parking, camping or unauthorised access to protected areas. These activities contribute to protect the fragile dune ecosystem. · Research: The Maharees Conservation Association has built partnerships with universities, in particular with the University of Galway and the Munster Technological University (MTU). The collaboration with researchers provides the evidence base to implement effective solutions, and facilitates monitoring and evaluation. Drone images and measurements of erosion and accumulation demonstrate the progress in restoring the dune ecosystem. Surveys of residents and visitors have been carried out to increase understanding of the short- and long-term coastal evolution of the peninsula and to identify challenges and solutions. Moreover, a Coastal Erosion and Flood Risk Management Study, commissioned by the local authority (Kerry County), is nearing completion. It includes a medium to long-term prognosis for the tombolo and suggests a range of measures to protect it. The collaboration with research institutions has supported awareness raising through community and visitor engagement experiences.",
+    "outcomes": "Several factors were decisive for successfully initiating and implementing community-led approaches to coastal management on the Maharees Peninsula. The involvement of local stakeholders from diverse backgrounds, ranging from tourism, the hospitality business, farming and education, ensured the representation of different economic and social interests. Strong social cohesion between different members of the community was fostered though the planning of and participation in activities such as fencing or marram grass planting. The support of the local community is a key success factor, as it allows for a higher flexibility in responding to urgent challenges outside the standard working hours. Moreover, the local knowledge of the stakeholders enables to monitor the solution effectively. Building trustful partnerships with public authorities (e.g. Kerry County Council, National Parks and Wildlife Service) formed the basis for pilot testing of innovative solutions. These partnerships provided access to technical and financial support and helped to align climate change adaptation initiatives with broader policy objectives, such as biodiversity protection and sustainable tourism. The evidence base for the implementation of several solutions was built through the collaboration with universities. The challenges for the Maharees Peninsula were effectively addressed through nature-based solutions. Additionally, awareness-raising (e.g. guided tours, educational material, social media) resulted in significant behavioural change among visitors and locals. A recent collaboration with the Dingle Hub and Creative Ireland called Neart na Machairí supported community-led climate adaptation planning through creativity. The Maharees Conservation Association is also actively engaged in exchanging knowledge and experiences with other coastal communities, e.g., by presenting the learnings at conferences, fostering public outreach, and directly engaging with other coastal communities at site visits, thus facilitating replication. By 2025, 25 coastal communities in Ireland were engaged in this process. However, the efforts to build coastal resilience are hindered by the lack of a holistic coastal management instrument and insufficient systematic support of community-led initiatives from higher governance levels. The management of the Irish coast remains fragmented, with numerous departments and public bodies having a remit in the coastal area. This results in conflicting policy objectives and gaps in the coherence between local, regional and national governance levels. In addition, the Maharees Conservation Association initiative relies heavily on the commitment of local volunteers and external funding sources. Strengthening long-term resilience of the Maharees Peninsula would benefit from a more formal recognition of community-led initiatives, adequate resourcing, and the creation of mechanisms and forums that facilitate the exchange of technical and policy knowledge to support inclusive and informed decision-making.",
+    "cost_benefit": "The solutions implemented by the Maharees Conservation Association are cost-effective due to the extensive involvement of local volunteers and efficient use of a wide range of funding sources. Funding was primarily provided by the Kerry County Council and the National Parks and Wildlife Service (NPWS). Additionally, a wide range of other funding opportunities has been used (e.g., Creative Ireland, LEADER, BIM Flag, The Heritage Council, Local Authority Waters Programme, Clean Coasts an Taisce, Community Foundation of Ireland). Some solutions have also been supported through fundraising and private donations. The Climate Action Fund , provided by the Department of the Environment, Climate and Communications and administered by the local authority, now provides a systematic funding opportunity for coastal communities. The cost of implementing solutions varies. For example, chestnut fencing to support the recovery of marram grass and enhance the stability of the dunes costs €20 per meter. This solution has also been implemented to prevent sand deposition on the road. The Kerry County Council has provided a total of €14,000 for fencing over the last nine years. Some sections of fencing have also been funded by the Maharees Conservation Association and the National Parks and Wildlife Service. The installation of the fences as well as subsequent maintenance activities have been performed by unpaid local volunteers. This reduces costs, but requires constant commitment from the local community for maintenance. The implemented measures have led to various environmental, social and economic benefits. The restoration of degraded dunes improves the habitat conditions for protected species and contributes to decrease the vulnerability to erosional pressures. Regarding the social aspect, the involvement of schools, tourism businesses, visitors and residents improved the understanding of the challenges and built a shared responsibility for ecosystem protection. Increased environmental awareness led to behavioural change and decreased unease between residents and visitors. Through strengthening the resilience of the Maharees Peninsula and restoring the unique ecosystem, the initiative contributed to maintaining the attractiveness for tourism and recreational activities. In addition, new forms of tourism such as regenerative tourism and heritage tourism have been established. Sustainable tourism development therefore also secures income sources for the local economy.",
+    "timeline": "Diverse solutions with various implementation times have been implemented by the Maharees Conservation Association since it was formed in 2016. In most cases, the nature-based solutions can be implemented within several days or weeks. For example, 20 volunteers built a 1 km long fence within 3 days. Planting marram grass on a 1 m² section approximately took 20 minutes for one person. However, longer timeframes were needed to plan the intervention, consider the interests of affected stakeholders, secure funding (e.g., through fundraising, applying for public funding) and engage local volunteers in the installation and maintenance of the solutions. Regenerative tourism initiatives and awareness raising activities are concentrated in the summer months, with weekly events about the cultural and natural heritage of the Maharees.",
+    "lifetime": "The lifetime depends on the type of action. Chestnut fencing, that is taken down in winter and reinstalled in summer, has to be replaced approximately after 6 years due to the rusting of the wire. Permanent fences can have a longer lifetime. However, events like a big tidal swell can cause damage and require an earlier replacement. Moreover, maintenance efforts are needed to lengthen the lifetime (e.g., to prevent the fences from being buried by sand, they need to be dug out and raised).",
+    "stakeholders": "The success of the Maharees Conservation Association is rooted in the participation of a range of stakeholders. The local community is at the heart of the initiative and plays a central role in both the decision-making and implementation process. The association is a non-profit organisation and registered charity which aims to protect Maharees and its heritage for the benefit of the local community and visitors alike. All members have the right to participate in decision-making, and the elected committee is composed of volunteers from diverse backgrounds, ensuring representation across various social and economic groups. Community training events have been organised to enable learning about the sand dune habitats and management opportunities, and encourage locals and visitors to participate in the protection of the Maharees Peninsula. The implementation of the solutions has been supported through local fundraising efforts. The support of several research institutions facilitated the selection of appropriate solutions as well as the evaluation of the outcomes. Additionally, the Maharees Conservation Association also fostered collaboration with public authorities including the Kerry County Council, the National Parks and Wildlife Service (NPWS) and the Office of Public Works (OPW). These institutions provided approval for the implementation of nature-based solutions as well as financial support.",
+    "legal_context": null
+  },
   "point": {
     "lat": 52.295411182140896,
     "lon": -10.027172197079398,
@@ -77,7 +187,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/community-led-partnership-for-coastal-restoration-in-the-maharees-peninsula-ireland",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-09-01T09:12:58+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-nurses-climate-challenge-europe-a-campaign-to-engage-health-professionals-on-the-impacts-of-climate-change-on-health",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nurses-climate-challenge-europe-a-campaign-to-engage-health-professionals-on-the-impacts-of-climate-change-on-health",
   "title": "Nurses Climate Challenge Europe: A campaign to engage health professionals on the impacts of climate change on health",
@@ -23,6 +23,87 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Nurses",
+      "label": "Nurses"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Health professionals",
+      "label": "Health professionals"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "education",
+      "label": "education"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Good practices",
+      "label": "Good practices"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "healthcare",
+      "label": "healthcare"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "hospital",
+      "hospitals",
+      "patient",
+      "patients",
+      "school",
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 6,
+      "health_patients": 6
+    }
+  },
+  "intervention": {
+    "objectives": "The Nurses Climate Challenge aims to meet several goals: Educate nurses and health professionals (3,500 in total by 2023) about the health impacts of climate change Build a cohort of health professionals informed on climate change and engaged in the prevention of climate-related health impacts in care settings by promoting the networking of committed nurses. Launch a movement of health professionals committed to climate solutions in care settings and in the community Meet nurses’ time constraints by providing precise short resources on how climate change impacts health and how the healthcare provision also impacts climate change.",
+    "measures": "The Nurses Climate Challenge Europe mobilises nurses around climate change education and engagement. The Challenge provides nurses with free online resources to educate colleagues on climate change and health, present best-practice solutions, and engage others in taking action to educate health professionals about the health impacts of climate change. An online registration on the website of the Nurses Climate Challenge is necessary to access the set of resources and become a “Nurse Climate Champion”. Developed by nurses and climate and health professionals through Health Care Without Harm Europe, these resources are organised by category: Learn: The material provides theoretical background on climate change and the relationships between climate and health, including an overview of the current situation in Europe and the predicted impact in the future. Effects of climate change focus on heatwaves, air pollution, vector-borne diseases, extreme weather events, natural disasters, and mental health. Educate: These resources give essential educational information on climate and health but also material to plan, promote, and host an educational event in a clinic or community. Advocate : Resources of this category include a guide to strengthen advocacy skills, to advocate for climate and health on social media, but also recommendations that nurses can address to their hospital administration. Practice : Resources of this category are still under development and aim to integrate climate knowledge into nursing practice. There are already three case studies of successful projects available to support the agency and knowledge of nurses in planning and implementation. The case studies are: Nurse a Tree (Creating green spaces and improving biodiversity close to healthcare facilities) - Ireland, Plastics recycling in the hospital - UK, and Waste reduction in the operating theatre - Ireland. Case studies of adaptation projects will be further developed. Additional readings: There is a collection of additional resources from external sources available including the Lancet Countdown, a guide for clinical diagnosis involving climate change (PAHO) that can help nurses to understand the impact climate has on patients’ specific illness and future health, and other key documents vital for understanding the interrelation of climate change and health. Participants then report the numbers of health professionals educated with the help of NCC resources in order to track progress toward the Nurses Climate Challenge Europe goal. Nurses are also invited to give their feedback to improve the supporting materials. There are already nurses across Europe who are engaged and working to adapt healthcare to the impacts of climate change. The Nurses Climate Challenge provides a networking group where nurses can contact like-minded healthcare professionals who are as passionate about planetary health and climate change as they are, as well as share questions, resources and ideas. Through this, the Nurses Climate Challenge built a supportive network of nurses from all across the continent.",
+    "outcomes": "As of the end of October 2021, 205 Nurse Climate Champions from 31 countries are participating in the Challenge in Europe. The bulk of these nurses are practicing in the United Kingdom (39%) with the rest scattered around Europe (Germany, Spain, Italy, Belgium, Finland, Sweden, Portugal, etc.). In total, 901 healthcare professionals have been educated by the Nurse Climate Champions during the first ten months of the campaign, revealing strong success of the initiative and evidencing progress towards the achievement of the goals of the initiative. It has been helpful that the Nurses Climate Challenge already exists in the US and Canada, where it is very successful (in three years it has managed to educate over 20,000 nurses). The NCC US team allowed NCC Europe to use their resources and adapt them to the European needs. The Nurses Climate Challenge Europe is a success because there are already many nurses who are interested in the topic. NCC Europe just provides simple and quick-to-use resources for them and makes it as easy as possible to fit education and advocacy about climate and health into their busy schedule. Additionally, it becomes increasingly clear how heavily health is influenced by climate change. With rising attention to the topic, more and more nurses are searching for the information and support that the Nurses Climate Challenge provides. One challenge encountered is the language barrier and the need to translate the resources into multiple languages. The original language used is English, but step-by-step all the resources are being translated by staff, engaged nurses, and interested nursing associations into other European languages (German, French, Italian, Spanish, etc.). Additionally, there are many nursing specialties, which all have a different focus and would need resources specifically tailored to the vulnerabilities of the patient group they are caring for. Both the variety of languages and nursing specialities limit the reach of the Nurses Climate Challenge and these issues can only be solved gradually over time. NCC Europe is inviting the Nurse Climate Champions to submit translations of the resources in their languages and will provide a fully translated German page by 2022.",
+    "cost_benefit": "Health Care Without Harm Europe (HCWH) is funded by a mix of public agencies and private foundations, including the EU Commission (through a LIFE programme), national health and environment ministries across Europe and donations from individual supporters. All funds are used for educational and information purposes targeted to key audiences, without profit scope. All HCWH Europe financial reports of the previous year are publicly available in the 2020 annual report . Working with healthcare professionals and providing the opportunity for increasing their knowledge, and building capacity and awareness is creating the basis for sustained change inside healthcare organisations. It is vitally important to not only have leadership support from the hospitals and other healthcare providers, but to have healthcare professionals working in these health institutions involved in the discussion and implementation of adaptation measures - without the continuous support from staff, changes implemented top-down might be short lived. The nurses that have been educated through the Nurses Climate Challenge themselves educate others on the health impacts of climate change, thus enlarging the benefits of the initiative to a wider number of actors. Moreover, educated and trained nurses also feel empowered to become innovative and may demand the implementation of sustainable adaptation measures in their healthcare institutions and societies.",
+    "timeline": "Built on the continuing success of the Nurses Climate Challenge US and Canada, which started in 2018 in the United States, the Nurses Climate Challenge was launched in Europe in January 2021.",
+    "lifetime": "In view of the success of the Nurse Climate Challenge in the US (over 20,000 healthcare professionals educated in three years) and considering the first results of the European initiative (205 Nurse Climate Champions from 31 countries and over 900 educated healthcare professionals in the first ten months), it is planned that the initiative will continue over the next years. The positive effects of informing and training nurses will be long-lasting, as they are preparing the ground for fundamental changes in the health system.",
+    "stakeholders": "Health Care Without Harm Europe works on different levels to make healthcare provision environmentally sustainable and decrease negative health impacts from environmental pollution and climate change. Even though advocacy, and cooperation with ministries of health and the environment is an integral part of HCWH’s work, the principal part is the support for healthcare institutions across Europe. Apart from experts on climate change from Health Care Without Harm, the NCC Europe is including nurses from different specialties into the creation of resources. Through this, nurses from different organisations, like the Breastfeeding Network , have the opportunity to contribute the best practice resources for adaptation of nursing practice. Although the Nurses Climate Challenge is targeted at individual nurses, universities and schools of nursing can join the Nurses Climate Challenge through the Nursing School Commitmen t , by committing to including climate change and planetary health into their curriculum. The Nursing School Commitment has been developed in cooperation with 23 professors of nursing from all across Europe in recognition of the importance to educate the next generation of nurses already at school about the impacts of climate change. As of October 2021, there are 10 European nursing schools and universities from seven countries participating. Together with nursing associations, like the Irish Nurses and Midwives Organisation and the Italian nursing association, the NCC plans on delivering advocacy workshops for nurses in 2022, developing region specific resources, and providing translated NCC resources.",
+    "legal_context": "The Nurse Climate Challenge does not steam from a specific legislative framework. However, it aims to address the need of capacity building of health practitioners on climate change adaptation which is included in many National Adaptation Strategies of European Countries, by planning to provide additional education and training of public health professionals to address climate change impacts on health. This requires considering, firstly, the development of new training materials and modules, and secondly, the implementation of continued education seminars and courses for already qualified health professionals. In that way, the initiative is also in line with the Health programme of the European Union the European thematic network Climate action through public health education and training , led by the Association of Schools of Public Health in the European Region, championed by DG SANTE."
+  },
   "point": {
     "lat": 50.84439,
     "lon": 4.35609,
@@ -52,7 +133,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/nurses-climate-challenge-europe-a-campaign-to-engage-health-professionals-on-the-impacts-of-climate-change-on-health",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:23:13+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

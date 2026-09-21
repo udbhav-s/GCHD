@@ -27,16 +27,19 @@ from climate_adapt_mapping import (  # noqa: E402
     COLLECTION_NAME,
     COLLECTION_URL,
     IMPACT_VOCABULARY,
+    INTERVENTION_FIELDS,
     ISO2_TO_ISO3,
     PUBLISHER,
     SOURCE_CONTENT_TYPE,
+    SOURCE_TAG_FIELDS,
     dcid_for_iso3,
+    detect_population_groups,
     load_country_ucodes,
     slugify,
     split_region_label,
 )
 
-SCRAPER_VERSION = "scrape_climate_adapt.py@1.0"
+SCRAPER_VERSION = "scrape_climate_adapt.py@1.1"
 API_ROOT = "https://climate-adapt.eea.europa.eu/++api++/en"
 SEARCH_URL = f"{API_ROOT}/@search"
 ID_PREFIX = "climate-adapt"
@@ -182,6 +185,53 @@ def build_hazards(record):
     return hazards, tags
 
 
+def build_source_tags(record):
+    """Keep the source's other controlled vocabularies, such as sectors."""
+    tags = []
+    for field, vocabulary in SOURCE_TAG_FIELDS.items():
+        for entry in record.get(field) or []:
+            code = entry.get("token")
+            if not code:
+                continue
+            tags.append(
+                {"vocabulary": vocabulary, "code": code, "label": entry.get("title") or code}
+            )
+    for keyword in record.get("keywords") or []:
+        keyword = clean_text(keyword)
+        if keyword:
+            tags.append(
+                {"vocabulary": "climate_adapt_keywords", "code": keyword, "label": keyword}
+            )
+    return tags
+
+
+def build_intervention(record):
+    """Pull the source's account of what was done and what came of it."""
+    intervention = {
+        key: (rich_text(record.get(field)) or None)
+        for key, field in INTERVENTION_FIELDS.items()
+    }
+    return intervention if any(intervention.values()) else None
+
+
+def build_population_focus(record):
+    """Scan the study's text for the groups it is aimed at."""
+    parts = [clean_text(record.get("description"))]
+    parts += [rich_text(record.get(field)) for field in INTERVENTION_FIELDS.values()]
+    parts.append(rich_text(record.get("long_description")))
+    parts.append(rich_text(record.get("challenges")))
+
+    groups, evidence, mentions = detect_population_groups(
+        " ".join(part for part in parts if part)
+    )
+    return {
+        "groups": groups,
+        "determined_by": "keyword_scan",
+        "evidence_terms": evidence,
+        "group_mentions": mentions,
+    }
+
+
 def admin_unit(name, ucode=None, iso3=None, dcid=None, source_code=None, source_name=None):
     unit = {"name": name, "ucode": ucode, "dcid": dcid}
     if iso3 is not None:
@@ -318,7 +368,7 @@ def convert(record, country_ucodes, country_names, retrieved_at):
     page_url = record["@id"]
 
     return {
-        "schema_version": "2.1",
+        "schema_version": "2.2",
         "id": f"{ID_PREFIX}-{slugify(record['id'])}",
         "url": page_url,
         "title": clean_text(record.get("title")),
@@ -327,6 +377,9 @@ def convert(record, country_ucodes, country_names, retrieved_at):
         "locations": locations,
         "hazards": hazards,
         "source_hazard_tags": hazard_tags,
+        "source_tags": build_source_tags(record),
+        "population_focus": build_population_focus(record),
+        "intervention": build_intervention(record),
         "point": build_point(record),
         "data_sources": build_data_sources(record),
         "provenance": {

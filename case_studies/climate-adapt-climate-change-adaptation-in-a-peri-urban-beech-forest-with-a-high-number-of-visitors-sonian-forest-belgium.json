@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-climate-change-adaptation-in-a-peri-urban-beech-forest-with-a-high-number-of-visitors-sonian-forest-belgium",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-change-adaptation-in-a-peri-urban-beech-forest-with-a-high-number-of-visitors-sonian-forest-belgium",
   "title": "Climate change adaptation in a peri-urban beech forest with a high number of visitors - Sonian Forest, Belgium",
@@ -83,6 +83,104 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "eco-bridge",
+      "label": "eco-bridge"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "resilient tree species",
+      "label": "resilient tree species"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "UNESCO world heritage site",
+      "label": "UNESCO world heritage site"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "dead wood biomass",
+      "label": "dead wood biomass"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Natura 2000",
+      "label": "Natura 2000"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 3,
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The management plans of the three administrative regions covered by the Sonian Forest take climate change into account. They include the following main lines of action which are all intimately linked with each other. Improving and enhancing the value of nature and the state of conservation of habitats and species protected under the EU Natura 2000 network. The main objectives are: forest defragmentation (reconnecting separated parcels of forest and other green spaces for ecological connectivity); increasing tree species diversity and genetic variation; improving forest structure; leaving more dead wood and trees (as a habitat for insects, fungi, birds and many other organisms) and paying attention to specific fauna and flora; and to increase individual tree resistance and resilience to abiotic and biotic stress (heavy thinning to provide trees with more growing space and accessible soil area). Making the forest more resilient to the expected effects of climate change, such as extreme droughts in spring, very wet winters, severe rainstorms, and windstorms. Finding a sustainable balance between recreation, protection of biodiversity and timber harvesting. Increasing awareness about the forest by improving the communication between the managers and the public, reconnecting citizens with nature, and creating a climate-resilient society. Preserving the landscape’s qualities and its cultural and environmental heritage.",
+    "measures": "Two main groups of solutions are being implemented in the Sonian forest. The first one includes several actions for a climate-adapted forest management, the second one includes measures to reconnect citizens with nature, creating a nature-inclusive and climate-resilient society. Climate-adapted Forest Management To achieve the objectives listed above, small-scale forestry and continuous forest cover measures are being implemented to protect the site and realize the Natura 2000 requirements. In this way, typical landscape features such as the beech cathedral are being partially preserved. Open spaces, water bodies and the edges of the forest (particularly sensitive and valuable areas) are receiving increasingly attention. Mixing tree species is done by planting rare (indigenous) and more resistant tree species to augment resilience. Sessile oak is being planted together with other rarer tree species such as hornbeam and small-leaved lime. This provides opportunities for sessile oak trees to regenerate spontaneously with less competition for sunlight. Natural regeneration of indigenous tree species ensures that the forest regenerates itself. These actions are imitating nature and directing or guiding the natural dynamic. Also, the reduction of the percentage of beech helps the most resilient species to establish and supports the forest to adjust to climate threats. This ensures that the forest is not only less disease-prone and less exposed to the risks of severe storms, but also better equipped to withstand other effects of climate change. In addition to mixing tree species for forest regeneration, other management actions are continuously performed: Clear-cutting : clear-cutting is no longer practiced following more natural approach to forest management without disturbing the forest. Tree harvesting by a single-tree selection system can be a real challenge for mixing tree species in a beech dominated forest. Instead of planting in large openings created by clearcuts, small-scale regeneration is practiced by creating small openings where light conditions are optimal for a newly introduced tree species. This alternative technique allows maintaining a favourable microclimate due to the continuous cover and prevents a proliferous development of competitive vegetation such as brambles and ferns. Adapted wood harvesting techniques (harvesting with horses) are being used to minimize or avoid disturbing the soil, e.g. specific skidding lanes are assigned for wood harvesting or abolished where other techniques apply to prevent disturbing the forest with management tools. Management of dead wood biomass : to increase the amount of dead wood biomass (an important habitat for many species), an active deadwood management is locally implemented by leaving windblown trees in the forest. When big trees are sold, the contractor must leave the tree crowns of the felled trees entirely in the forest. When trees are cut down in sensitive habitats (e.g., valleys), the cut trees are left in the stands without logging the wood. For harvested trees larger than 80 cm diameter at breast height, every piece of wood beyond 16 m stem wood is left in the forest. Improving ecological connectivity : improving migration and preservation of species within forests is ensured by setting aside parts of the forest to create an internal network of old trees and dead wood islands. One of the actions to reconnect the forests internally was done by building an eco-bridge and fencing railroads and highways in order to avoid traffic accidents with wildlife. This was an action under the LIFE+ OZON project (2013-2018). In 2012, an ‘eco-bridge’ was built over the main railway connecting Brussels with Namur. The construction of another eco-bridge across a highly frequented road is planned to reconnect the two core zones of the UNESCO world heritage site of Grippensdelle. Re-connecting and enlarging the small UNESCO world heritage sites of the Sonian forest to a minimum of 50 ha is also part of the management concept and will essentially contribute to create a natural self-sustaining beech forest ecosystem. . Water management: water retention is an important topic for conservation of species such as fire salamander and fish. Small natural dams with wood logs or small artificial ponds are being created to slow water drainage. Retaining water in the soil is crucial for mitigating the impacts of increasing drought events. Moreover, redirecting or preventing polluted waters from entering the forest is being studied and will be implemented soon. Moreover, in all parts of the forests, active management of invasive animals and plant species is practiced through manual removing or mowing. Finally, parts of the forest are no longer being managed on purpose, or being managed less intensively, to create more opportunities for spontaneous, natural processes to develop. The implementation of these solutions is done together with monitoring, to study if the Sonian forests will be able to adjust well as the climate changes through (semi)-natural regeneration and beech reduction. To monitor the success of the management strategy, all trees are mapped and measured in the Sonian forest. The habitat provided by trees is documented and, whenever feasible, wildlife and animal or plant biodiversity is recorded, and a dedicated reporting of biodiversity is done. Particular attention is given to monitoring Very Large Trees (VLT). The Sonian forest contains over 400 ha of old beech stands (>200 years old) and more than 25,000 are VLT, mainly beech ( Vandekerkhove et al., 2011 ) . It can therefore be considered one of the most important hotspots for VLT in Northwestern Europe. Forest managers are committed to maintain the total number of VLT, meaning that if one tree falls, other smaller trees will be given the chance to develop into VLT ( Vandekerkhove et al., K. 2018 ). Reconnecting citizens with nature, creating a nature-inclusive and climate-resilient society Raising awareness on the environmental value of the forest is one of the main objectives to mitigate the pressure from recreation. The EU-funded Life Prognoses project is working on Old Growth forests and standards ( Vandekerkhove et al, 2022 ). The Sonian Forest Foundation enhances interregional communication and awareness rising for the public by organising multiple actions like the Day of the Sonian Forest, World’s Forest Day, team building programs inviting all possible stakeholders to give input and feedback. Interregional initiatives with volunteers are organised to communicate to the public the forest management strategies and the need to reduce tourism pressures on the forest. To protect the core of the forest and mitigate the adverse effects on nature, the recreational pressure is directed via entrance gates at the peripheries of the forest. Here visitors are welcomed close to public transport and guided to stay within 500 m of the entrance gates. These gates are marked with the Sonian forest trail system and demarcated in order to make visitor aware that the paths are part of one single interconnected forest (although spread throughout the three different Belgian regions). Information panels are present only on these entrance gates and not in the inner parts of the forest. Food and lodging and other infrastructures that welcome visitors are concentrated here.",
+    "outcomes": "Limiting factors The main limiting factors are related to: (i) the limited financial resources and to (ii) the rules applying to different areas of the same forests. Concerning the first point, staff and resources lag behind the amount of physical management that needs to be done in the forest. Indeed, the forest is changing faster than management can follow to tackle the effects of climate change or in augmenting climate resilience. Concerning the second point, different regulations and land-use management strategies apply in the three different regions of the forest, making forest preservation particularly challenging. Legislation changes are underway to ensure the same level of protection in the whole forest. Moreover, effective communication represents an additional challenge. It is difficult to make visitors aware of what are the most vulnerable parts of the forest and what are the well-established (less vulnerable) areas. Language represents another barrier, since different languages are spoken across the three regions covered by the Sonian forest. Success factors Climate change can sometimes reduce the time it takes for forest managers to solve a regeneration problem. Natural regeneration can be accelerated by climate change for certain species that thrive at higher temperatures like the small-leafed linden Tilia cordata or wild cherry ( Prunus avium ). Since 2005, abundant natural regeneration of beech has been successful all over the forest, which helps create a favourable microclimate and enhance the forest resistance to climate change. An overall increased climate resilience is expected from the adaptive management of the forest, even in case of storm damages. Introducing rare indigenous species with a broad genetic basis is crucial and this action could assure the presence of seed sources for the future, even without human intervention.",
+    "cost_benefit": "Wood harvest from the Sonian forest provides a small revenue from about 10.000m³/year with annual benefits of at least ~600.000 euros. Annual infrastructure maintenance (inside the forest) is calculated at a rate of about 1.000.000 euros per year. Annual planting costs are calculated at about 80.000 euros/year. The funding for these costs comes from the various provinces covered by the Sonian forest and by European funded projects (Eu LIFE programme). Benefits associated to the forest management measures have been already observed. Especially in the protected UNESCO sites (“Transnational serial property: Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe ”) the biodiversity is flourishing and the water retention created by natural dams and pools mitigates the effects of soil erosion and drainage from the increased rainfall and storms. The increased tree diversity (in age and species) helps to regulate forest productivity in times of drought or temperature stress. It also protects the forest from disease and pest stress that are more common in the last years due to climate change. As a result of management actions, the forest is slowly becoming mixed and layered, with a number of the forested avenues renewed. In the UNESCO site part of the forest, the amount of dead wood has increased from 28 to 116 m³/ha in the period 1986-2001 and stabilised at about 109m³/ha in 2011. These values are close to what has been found in natural beech forests. Despite climate change and the expected effect on beech forests, the forest still seems to thrive. More than 1000 mushroom species, of which 200 deadwood species have been identified as well as more than 300 deadwood beetle species (Vandekerkhove et al, 2019). Deadwood management is also being actively practiced and monitored in the areas outside the Unesco designations and has been reported to have increased up to 21 m 3 /ha (and still increasing). It provides a growing habitat area , for many insects, mushrooms, and therefore birds and other aspects of forest biodiversity (permanent forest inventory, 2020). In the most ancient forest reserve, Joseph Zwaenpoel, spectacular changes have been recorded such as major increases of dead wood and dead wood dependent biodiversity.",
+    "timeline": "The implementation time of the different management plans runs for 24 years. The Flemish region’s management plan for the site has been adopted in 2013, the management plan for the Wallonian part of the site in 2016 and a management plan for the Brussels part has been adopted in 2019. The adaptive management is implemented at a rate of about 0,5% per year in converting beech stands by planting other species (about 20 ha per year).",
+    "lifetime": "The implementation of these climate adaptive forestry management plans is expected to last many generations.",
+    "stakeholders": "The three administrative Regions covered by the Sonian Forest (Flanders, Brussels Capital, Wallonia) are working together to protect the forest. The regional managers of the forest have worked together on a common and interregional long-term vision for the forest. The three Regions have contributed to the creation of an interregional foundation, which is the Sonian Forest Foundation, established in 2019. To support initiatives that help to preserve the ecosystem functioning of the forest and its vulnerable fauna and flora, the Foundation counts on the support of the public. Visitors need to be more aware of the most vulnerable areas of the forest that require specific attention and respect. The “users” of the Sonian forest is a diverse group, composed of residents, walkers, cyclists and mountain bikers, horse riders, joggers, families with children, dog owners, nature lovers, schools, youth organizations, etc. In its communication task, the Foundation needs to tackle the different languages used by different users (Flemish, French and German) and their different cultural background, as the Sonian Forest covers three regions. These actions are expected to reduce the stress caused by the intensive recreational use of the forests, making this ecosystem more resilient to climate change. The involvement of the following different categories of stakeholders is also crucial: public authorities, managers of the forest, administrations in charge of roads, water, urban development as well as the eleven municipalities concerned by the forest. Moreover, other stakeholders active in and around the Sonian Forest are nature conservation associations, guide associations, sports associations, tourism partners and youth movements.",
+    "legal_context": "The whole of the Sonian forest is protected by Belgian legislation since 1959 as a nature reserve; and protected as an EU Natura 2000 site in the three regions. Three different governing entities are responsible for the forest management. Since the Forest is split across three regions, there are diverse legislations in the three regions (see success and limiting factors). Rules and other legal aspects in the Flemish region are mentioned in the “ Nature and forest code ”. The Wallonian legislation has a similar code of conduct concerning forests and forestry, published in September 2008. The Brussels legislation depends in the majority of aspects still on the “ Forest Code ” dating back to 1854. A revision and adaptation of this Code is ongoing."
+  },
   "point": {
     "lat": 50.78333,
     "lon": 4.41667,
@@ -127,7 +225,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-change-adaptation-in-a-peri-urban-beech-forest-with-a-high-number-of-visitors-sonian-forest-belgium",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:40+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

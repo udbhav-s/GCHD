@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-stuttgart-combating-the-heat-island-effect-and-poor-air-quality-with-green-ventilation-corridors",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/stuttgart-combating-the-heat-island-effect-and-poor-air-quality-with-green-ventilation-corridors",
   "title": "Stuttgart: combating the heat island effect and poor air quality with ventilation corridors and green-blue infrastructure",
@@ -47,6 +47,109 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green space",
+      "label": "green space"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Air quality",
+      "label": "Air quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "blue infrastructure",
+      "label": "blue infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "spatial planning",
+      "label": "spatial planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban heat island",
+      "label": "urban heat island"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "One of the primary objectives for the region of Stuttgart is to facilitate air exchange in the city, thereby enhancing the potential for cool air flow from the hills towards the urban areas on the valley floor. The city also aims to protect the urban natural areas, increase the extension of greenery and promote the implementation of green and blue infrastructures. All together, these strategies aim to improve Stuttgart adaptation to hotter summer and more frequent heatwaves due to climate change.",
+    "measures": "The Climate Atlas for the region of Stuttgart was published in 2008, based on the previous work in this area carried out by the City of Stuttgart since the 1980s and by the in-house urban climatology department (existing in the City of Stuttgart since 1938). As part of a research project on \" Integrative urban-regional adaptation strategies \" run by the Federal Ministry of Education and Research (BMBF), the climate atlas is currently being updated and its contents are being further developed into an urban-regional online information and advice tool. The Climate Atlas provides standardised climatic assessments for the towns and municipalities of the Stuttgart region. The Atlas comprises maps which show regional wind patterns, flows of cold air, air pollution concentrations, and other relevant information required to inform planners on how to improve climatic conditions that could inform new projects and retrofits. The Atlas classifies urban areas on the basis of the role they play in air exchange and cool airflow in the Stuttgart region as well as their topography, development density and character, and provision of green space. The Atlas distinguishes eight categories of areas in this manner, and for each of them different planning measures and recommendations are provided. In addition to responding to local climate characteristics, the following principles form the basis for the planning recommendations included in the “Climate Booklet for Urban Development Online – Städtebauliche Klimafibel Online ”: Vegetation should be placed to surround developments and larger, connected green spaces should be created or maintained throughout developed areas to facilitate air exchange; Valleys serve as air delivery corridors and should not be developed; Hillsides should remain undeveloped, especially when development exists in valleys, since intensive cold- and fresh-air transport occurs here; Saddle-like topographies serve as air induction corridors and should not be developed; Urban sprawl is to be avoided; All trees growing in the urban core with a trunk circumference of more than 80 cm at height of 1m are protected with a tree preservation order. The implementation of the recommendations in the Climate Atlas and in the Climate Booklet is carried out by the Office for Urban Planning and Urban Renewal, supported by the Office for Environmental Protection. The Section of Urban Climatology within the Office for Environmental Protection evaluates the climatic implications of intended development and larger buildings. As a result of the implementation of these recommendations, over 39% of Stuttgart’s surface area has been protected to preserve natural elements. In addition, greenery covers more than 60% of the city. Stuttgart contains 5,000 hectares of forests and woodland, 65,000 trees in parks and open spaces and 35,000 street trees. More than 300,000 square meters of rooftops have been greened and 63 out of 273 (as of 2019) kilometres of tram tracks have been planted with oligotrophic grasses. Moreover, in line with the city development vision, 60 hectares of greenfield land previously earmarked for development has been cut from the 2010 land development plan to protect existing green space. Targeted interventions such as a building ban in the hills around the town, and prevention of building projects that might obstruct the ventilation effect of nocturnal cold-air flows have resulted in preservation and enhancement of air exchange and cool air flows in the city. To further improve the adaptation capacity of Stuttgart to hotter summers, the green infrastructure in the city is currently being expanded as part of a climate protection package, including: greening of buildings, shading of traffic routes (e.g. footpaths and bike-routes), shading of facades of buildings through street trees, and the upgrading of smaller public areas to \"cool spots\" (areas equipped with drinking water, water fountains, water sprays and shading facilities). Moreover, the city is implementing a program aiming to improve urban blue infrastructure, in particular through drinking fountains and other water elements. Water surfaces and moving water contribute to a reduction in thermal loads through evaporation. The project \" Integrated strategies for strengthening urban blue-green infrastructures \" (INTERESS-I) has implemented a pilot to test climate-effective and resilient building blocks of blue-green infrastructure. The overarching goal is to develop an integrated strategy for optimizing green, water, settlement and building structures, on the basis of water availability and water quality and taking into account climate resilience, social justice and quality of life needs.",
+    "outcomes": "The following factors which have positively contributed to the Stuttgart adaptation initiative are highlighted: Compilation of detailed information about the area’s topography, climate and land use allows for precise planning for different areas, which together aim to improve air quality and mitigate the urban heat island effect. The case demonstrates the advantages to a municipality of having in-house climatic research capacity to provide concrete knowledge of local conditions and remedies, as opposed to relying on an understanding derived from general principles. Cumulatively, over several decades, the city has used its planning and landscaping powers to engineer an entire system of urban air circulation. Constructive use of existing regulations (e.g. the German Building Code) provides a mandate for the implementation of planning recommendations relating to local climate. Close collaboration between the Office for Environmental Protection (analysis of information, provision of recommendations) and the City Planning and Renewal team means that the recommended green infrastructure solutions are being implemented through spatial planning and development control. In some areas of the city, the availability of framework plans clearly referring to climate change adaptation supported the implementation of specific measures. This is for example the case in the Talgrund (Stuttgart-West) framework plan, within which adaptation is addressed through greening and structural measures aiming to preserve nightly cold air flows.",
+    "cost_benefit": "An overall estimation of the costs of the full range of implemented measures is not available. Details are available for some interventions, also relevant for adaptation. Since 2016, the City of Stuttgart has provided around 2 million euros annually as part of a green funding program, which is still active. Moreover, 12.7 million euros were provided one-off for the renovation of urban parks. In addition: Preservation of the inner-city vineyards and steep slopes (ensuring ventilation) is supported by a budget of approximately 850,000 euros per year over 4 years (2018-2021). Funding of greening of private buildings (e.g. for façade, courtyards and roofs) has so far totalled 1.5 million euros. There are plenty of individual projects with relevance for adaptation within the scope of the current budget for the garden, forest and cemetery office. Moreover, as part of the climate package (an extra budget of 200 million euros for the period 2020-2023 including climate adaptation measures), 20 million euros will be made available for additional trees, hedges and forest conversion to improve adaptation to climate change as well as to subsequently implement green facades, courtyards or roofs. In urban areas, it is mostly the high heat load in summer that leads to heat stress on the human body and has negative effects on thermal comfort. It is particularly pronounced during the day due to intense solar radiation. In case of heatwaves, i.e. during consecutive days with high heat stress, cooling during night-time often does not reach the extent that is necessary for restful sleep. Extended and adequate urban green space – also at the building level – and unsealed surface areas are expected to counteract the urban heat island effect and provide benefits to the population. Low and less dense vegetation, green spaces and open corridors promote the ventilation in urban areas, reducing heat build-up and thermal stress especially during hot periods and reducing pollution. They function as cold air generation areas that set thermally induced local wind systems, such as nocturnal floor winds, downhill winds and mountain winds. Their preservation and possible extension can provide many benefits to the city and limit the use of technical cooling (e.g. through air conditioning).",
+    "timeline": "The adaptation of Stuttgart to the urban heat island effect started with the 2008 Climate Atlas and still continues. Measures are usually implemented within the framework of urban land-use planning, whereby the implementation time depends heavily on the complexity of the planning process as a whole and on the boundary conditions such as living space requirements, etc. In most cases, however, several years can be expected. Implementation measures in public spaces (e.g. tree planting) are usually carried out in the respective budget year or promptly.",
+    "lifetime": "The green and blue infrastructures implemented and under implementation need to be maintained, while ventilation corridors need to be protected in order to keep their function also in the future. When green and blues solutions are applied to infrastructures, their lifetime can be considered the same of the built environment (approximately 40 years, if maintenance is ensured). In the case of subsidized private measures, the beneficiaries are obliged to maintain the infrastructure for at least 10 years.",
+    "stakeholders": "The Climate Atlas 2008 was developed in close collaboration between the Verband Region Stuttgart (the association of regional cities and municipalities) and the City of Stuttgart. The Section of Urban Climatology within the Office for Environmental Protection of the City of Stuttgart contributed with its specialist knowledge. The City of Stuttgart emphasises the importance of public participation in greening strategies aimed at improving air quality and mitigating the heat island effect. This is achieved through different strategies, for example: Since 1986, the City of Stuttgart has provided financial support to citizens for green roofs, remarking that in the strongly overheated and poorly ventilated valley areas, the potential for green roofs should be used as extensively as possible. In 2016, a municipal greening program (courtyard, roof and facade greening) was resumed to accelerate greening measures in the existing buildings. Since 1992, a scheme has been in place for Stuttgart residents to adopt a tree or a green area. Today care-takers have adopted over 900 trees. They are responsible for watering the tree, reporting pest attacks, removing the leaf litter and fallen branches, and protecting the tree from dog fouling. Finally, it is useful to note that climate change adaptation and mitigation are both high on the political agenda. The city has had a climate change mitigation strategy since 1997 and a climate change adaptation strategy was developed in 2012. A working group accompanies the implementation of the mitigation and adaptation measures.",
+    "legal_context": "The preservation of natural environment in urban areas is principally guided by the Federal Nature Conservation Act (BNatSchG) and by the Nature Conservation Act of the Land of Baden-Württemberg (NatSchG). The Federal Nature Conservation Act prohibits the modification or impairment of protected green spaces or changing the land use in these protected areas. Protected green spaces comprise: green zones in settlement areas, parks, cemeteries, gardens, single trees, lines of trees, avenues or groves in settled or under developed areas; and some plantings and protective wooded areas outside forests. Preserving the history and culture of the region can also be a reason for protecting green spaces. The German Building Code, amended in 2011 requires that the urban development supports and improves climate change mitigation and adaptation. These can be addressed both through land use plans and urban redevelopment measures. Amongst other things, it stresses the role of preservation of unused and cleared areas, which have a big potential for climate-friendly urban development, especially that of green spaces."
+  },
   "point": {
     "lat": 48.8357974609,
     "lon": 9.18457031213,
@@ -76,7 +179,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/stuttgart-combating-the-heat-island-effect-and-poor-air-quality-with-green-ventilation-corridors",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:03+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

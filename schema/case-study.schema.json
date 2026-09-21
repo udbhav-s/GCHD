@@ -22,7 +22,7 @@
   ],
   "properties": {
     "schema_version": {
-      "enum": ["2.0", "2.1"]
+      "enum": ["2.0", "2.1", "2.2"]
     },
     "id": {
       "type": "string",
@@ -62,6 +62,35 @@
       "items": {
         "$ref": "#/$defs/sourceHazardTag"
       }
+    },
+    "source_tags": {
+      "type": "array",
+      "description": "Other controlled vocabularies the source applies to the record, such as sectors or keywords. Kept verbatim for filtering and for later mapping.",
+      "items": {
+        "$ref": "#/$defs/sourceTag"
+      }
+    },
+    "population_focus": {
+      "description": "Which population groups the study is aimed at, and how that was decided.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/populationFocus"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "intervention": {
+      "description": "What was done and what came of it. Free text taken from the source, for reading rather than filtering.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/intervention"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "point": {
       "description": "A representative point for the study, used to place it on a map when no boundary is resolved.",
@@ -249,6 +278,107 @@
         "source": {
           "type": "string",
           "description": "Where the coordinate came from, such as the source record or a geocoder."
+        }
+      }
+    },
+    "sourceTag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocabulary", "code", "label"],
+      "properties": {
+        "vocabulary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the source vocabulary, for example climate_adapt_sectors."
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "populationFocus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["groups", "determined_by"],
+      "properties": {
+        "groups": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "children_youth",
+              "schools",
+              "women",
+              "older_people",
+              "low_income",
+              "displaced",
+              "health_patients",
+              "general_population"
+            ]
+          }
+        },
+        "determined_by": {
+          "enum": ["manual", "source_vocabulary", "keyword_scan", "llm_assisted"],
+          "description": "How the groups were decided. A keyword scan is a hint, not a curated judgement, so treat it as such when filtering."
+        },
+        "evidence_terms": {
+          "type": "array",
+          "description": "Terms found in the source text that led to the groups above.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "group_mentions": {
+          "type": "object",
+          "description": "How many times each group's terms appear. A single mention is usually incidental, so require more than one before treating a group as the study's actual focus.",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "intervention": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "objectives": {
+          "type": ["string", "null"],
+          "description": "What the study set out to achieve."
+        },
+        "measures": {
+          "type": ["string", "null"],
+          "description": "What was actually put in place."
+        },
+        "outcomes": {
+          "type": ["string", "null"],
+          "description": "What resulted, including limits and things that did not work."
+        },
+        "cost_benefit": {
+          "type": ["string", "null"],
+          "description": "What it cost and what it returned."
+        },
+        "timeline": {
+          "type": ["string", "null"],
+          "description": "When the work ran."
+        },
+        "lifetime": {
+          "type": ["string", "null"],
+          "description": "How long the measure is expected to last."
+        },
+        "stakeholders": {
+          "type": ["string", "null"],
+          "description": "Who was involved and how."
+        },
+        "legal_context": {
+          "type": ["string", "null"],
+          "description": "Policy or legal background the measure depended on."
         }
       }
     },

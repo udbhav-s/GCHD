@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-temporary-flood-water-storage-in-agricultural-areas-in-the-middle-tisza-river-basin-hungary",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/temporary-flood-water-storage-in-agricultural-areas-in-the-middle-tisza-river-basin-hungary",
   "title": "Temporary flood water storage in agricultural areas in the Middle Tisza river basin - Hungary",
@@ -32,6 +32,109 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "retention ponds",
+      "label": "retention ponds"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "polders",
+      "label": "polders"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "temporary storage reservoirs",
+      "label": "temporary storage reservoirs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood protection system",
+      "label": "flood protection system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "room for the river",
+      "label": "room for the river"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Economic Policy Instruments",
+      "label": "Economic Policy Instruments"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Tisza",
+      "label": "Tisza"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The overall objective of the flood protection strategy for the middle Tisza river basin is to adopt cost-effective measures. The proposed measures aimed at ensuring an adequate flood protection level able to cope with the changing conditions of the river basin and the consequences of increasing peak flows. The strategy was designed to respond to the changes in local climatic variability and specific characteristics of the hydrological system.",
+    "measures": "As a first reaction to the 1998-2000 floods, the government decided to speed up the on-going process of strengthening the dikes: the first plan (Government decree n.2005/2000) focused on the reinforcement of 740 km of dikes over a ten year period. In the second stage, the governmental strategy intended to intensify the process further by strengthening an additional 550 km of dikes, but in a shorter period of 5 years. The works started, but suddenly the programme was stopped. A new Act was designed in 2004 with broader objectives: to increase flood safety by the reactivation of former floodplain territories and the management of the water surpluses, the development of the regions with most disadvantageous status and the improvement of living conditions in these regions. The new plan for flood safety included: the strengthening of the existing weak points of the dike system the restoration of the run-off capacity of the flood channel (the cross-section between the dikes) and the completion of temporary flood reservoirs (also known as “polders”) to reduce the peak of the biggest flood waves with a total capacity of 721 million m 3 in the long term. The intention was to give room to the river using agricultural areas as temporary storage reservoirs for containing peak flow during extreme events. According to this plan, the area utilised for agricultural purposes in normal conditions, can be eventually flooded (intentionally and under controlled conditions) and utilised for temporary retention of flood waters in case of emergency. This system is designed to supplement the dikes to cope with floods with a return period of 100 years or higher. It allows buffering during extreme precipitation events and reducing flood wave propagation, with consistent beneficial implications for flood risk mitigation. A mechanism of economic compensation for the farmers involved in the construction of water retention reservoirs was put in place. Compensation is composed on two items: an upfront one-sum compensation for all the inconvenience and value loss associated with the scheme and an event-based damage compensation, to compensate possible economic losses due to the flooding of the agricultural area. The flood risk mitigation system, based on the temporary flood water storage in agricultural areas, proved to be extremely effective for the purposes of disaster risk reduction. It also revealed trade-offs for the agricultural production of the affected areas, that cannot be completely recovered with the compensation scheme. The first polder was inaugurated in 2009, while all the other five planned temporary reservoirs were completed in the following years (2010-2015) with financial support, both from national and EU funds. One of these polders was successfully used in a 2010 flood event. Hydrological modelling results ( Ungvári and Kis, 2022 ) show that using more than one polder at the same time for major flooding events further mitigates risks compared to the use of a single polder. The same study suggests that adding more polders to the current system can be effective in reducing risks with an acceptable investment cost range.",
+    "outcomes": "The strategy adopted by the government has shown to be extremely effective in terms of flood risk mitigation, being scalable and flexible enough to cope with the uncertainty of future climate change projections. The retention of flood waters in the identified temporary reservoirs is crucial for the reduction of flood frequency and magnitude in the downstream areas, with considerable benefits for the cities located along the river. Unfortunately, as frequently happens in these cases, not all the stakeholders are enthusiastic about the solution adopted. Farmers claim inadequate consideration of their views and perspectives in the process that brought the government to use their land for temporary flood-water storage. Landowners are called to use their property for providing an important service, but they have not been involved in the design of the flood management strategy and the associated operating rules. This fact limited the acceptance of the measure by several stakeholders, hindering the success of the initiative. Indeed, the current scheme revealed the existence of multiple problems, making the use of the reservoirs expensive for the government and, at the same time, leaving farmers and landowners dissatisfied. Limiting factors included the following unresolved issues about the compensation scheme: Compensation is not adequate in comparison to the real amount of damages. It compensates the yield losses, but it does not take into consideration soil rehabilitation and the financial consequences due to the disruption of the seasonal production cycle. These extra costs are particularly significant for high value cultivations. Long processing time, up to one year in some cases, for the compensation process to be completed. High unpredictability of the compensation scheme cost over time, with potential high impacts on the national financial budget. An increasing frequency of future floods, projected by the hydrologic models, is expected to increase the amount of damages to the agricultural sector. This could exacerbate the already delicate debate between local farmers and the government and increase the opposition to the construction of new retention areas.",
+    "cost_benefit": "The use of polder systems offers many benefits in terms of flood risk mitigation. The solution is easily scalable and flexible (activation of a single polder or different combination of two or more polders), able to face the wide range of uncertainty that features future projections of extreme flood events. The solution adopted resulted in an overall cost of around 260 million Euro. The strategy has been implemented with the contribution from the European Regional Development Fund and the Cohesion Fund. Several analyses have been conducted in order to assess costs and benefits of the chosen flood mitigation strategy. The results of a comprehensive ex-post cost-benefit analysis ( Koncsos 2006 ) showed that the implemented scenario, with 6 reservoirs and no modification to the existing dike system, substantially reduces the risk compared to the baseline (no intervention). It represents a trade-off between efficiency in risk reduction and relatively low initial investment costs. The scenario analysis also highlighted that further investments in flood defence infrastructures are economically justified. An up to date cost-benefit analysis performed in 2022 ( Ungvári and Kis, 2022 ) showed that using most reservoirs is economically justified even for floods with a return period of 20-30 years. Hence, most reservoirs would be advantageous even if they were used with a higher frequency than the originally planned one (100-years events). However it poses the issue of maintaining the current land use (with special reference to agriculture) or adapting it in the long term (towards a forested area) to accommodate new and more frequent use of polders as flooding reservoirs.",
+    "timeline": "The flood protection strategy with the realisation of six water retention areas was implemented during the period 2009-2015. An additional water retention area along the Tisza river was created in 2022.",
+    "lifetime": "The water retention areas are planned to last more than 100 years.",
+    "stakeholders": "The initial purpose of the plan was to include a wide, multi-disciplinary and multi-sectoral participation in the strategy planning process. This has not been fully accomplished in the implementation phase ( Sendzimir and Magnuszewski, 2008 ) . The flood mitigation project was designed with an approach aimed at minimizing the amount of agricultural land surface to be involved. In this way, policy makers tried to minimize the potential conflicts with farmers and landowners that could represent an obstacle for the development of the project. The design and implementation of the plan and the rules to operate the reservoirs were made by the central government (national level). The Government also identified the most suitable sites for the construction of the flood-water storage reservoirs. Farmers and landowners , not properly involved in the design of the strategy, were asked to accept the decision of the government (receiving an economic compensation for the potential losses) or be subject to the expropriation of their land for public use. In this second case, according to the landowners interviewed, the sum paid out by the government was considered consistent with the market value. This case was analysed in the context of the EU FP7 funded project EPI-Water , Evaluating Economic Policy Instruments for Sustainable Water Management in Europe. Within this project, a compensation scheme able to better satisfy the requests of the agricultural sector and the needs of government was designed. For the EPI-Water project, the participation of the stakeholders has been considered crucial. Landowners and farmers operating in the floodable areas and representatives from the regional water directorate were involved in the development of a compensation scheme that would have been able to more fairly compensate for the losses to the agricultural sector. The analysis conducted within the EPI-Water Project proposed to the farmers and government an Economic Policy Instrument based on a flat fee paid to the farmers plus compensation in case of flood. According to the project results, this scheme, not actually implemented, would have several benefits: Improved farmers’ financial compensation with a scheme that could be perceived as more transparent and fair, increasing the public acceptance of the flood management strategy; Incentive for the farmers to reduce the amount of value exposed to flood events. This could be realised by a different use of the floodable areas, lowering the value of the crop at risk within the reservoir. This would make the whole scheme cheaper in the long run; Stakeholder consultations performed during the research project revealed that the parties involved had different interests: representatives of the government were in favour of modifications aimed at improving the scheme, while farmers had mixed opinions driven by their specific economic conditions. However, although for different reasons, both parties expressed scepticism about the viability and enforceability of long term agreements.",
+    "legal_context": "The designed flood protection strategies were planned as to be integrated into a wider process of regional development. It envisioned large scale landscape and social rehabilitation efforts. Those measures should be combined with the restoration of the natural ecosystem of the region characterised by a complex system of wetlands. The solution of establishing the temporary flood-water retention areas is in line with the requirements of the EU Water Framework and Flood Directives. The intervention adopts a flood mitigation strategy that is respectful of the natural ecosystems and the natural hydrodynamics. However, since a large portion of the Tisza river basin is dedicated to agriculture, further constrains derive from the implementation of the Common Agricultural Policy and its system of subsides that influence landowner decisions. The compensation schemes for farmers is established through a legal act. However, its implementation left a considerable uncertainty with regard to the agricultural production process, raising the direct costs as well as the opportunity costs for the farmers."
+  },
   "point": {
     "lat": 47.8574028932,
     "lon": 21.0937499991,
@@ -56,7 +159,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/temporary-flood-water-storage-in-agricultural-areas-in-the-middle-tisza-river-basin-hungary",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:26+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

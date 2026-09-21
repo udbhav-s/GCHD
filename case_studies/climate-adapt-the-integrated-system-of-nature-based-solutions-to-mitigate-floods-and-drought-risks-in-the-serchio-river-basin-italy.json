@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
   "title": "The integrated system of Nature-based Solutions to mitigate floods and drought risks in the Serchio River Basin (Italy)",
@@ -53,6 +53,139 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "eutrophication",
+      "label": "eutrophication"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Nature-based solutions",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "living labs",
+      "label": "living labs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological restoration",
+      "label": "ecological restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "transferability",
+      "label": "transferability"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hydrogeological risk",
+      "label": "hydrogeological risk"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stakeholder involvment",
+      "label": "stakeholder involvment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soil erosion",
+      "label": "soil erosion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "participatory approach",
+      "label": "participatory approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "co-creation",
+      "label": "co-creation"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Action strategies carried out in Massaciuccoli Lake area come out from the \" Phusicos - According to nature “, project, funded by the EU Horizon 2020 program. It aimed at demonstrating how Nature-Based Solutions (NbS) are adequate, economically and environmentally sustainable and able to reduce the risk of extreme weather events (especially floods and drought) in rural landscapes, to increase resilience and contrast climate change effects. The NbS implemented during the project, which were identified through a participatory path, can help mitigating the hydrogeological risk and improving the delicate environmental system of the Massaciuccoli Lake area. The NbS implemented through the Phusicos Project are part of a broader general intervention plan of the Serchio river basin with the overall objective of reducing the hydrogeological risk of the area and restore ecosystem functionality. An additional objective of the solutions implemented in this case was to test the application of the “Living Labs” approach in landscape and environment related topics and to investigate how it could serve in cooperative planning of NbS to contrast the challenges due to climate change in the Serchio River Basin. A Living Lab is a physical area and interaction space, in which stakeholders form a network including companies, public agencies, universities, generic users (as citizens), and other actors with the aim to collaborate for co-creating, validating and testing new technologies, services, products, and systems in real-life contexts. Such an intense collaboration among different public and private actors, as well as citizens, for co-designing and implementing solutions is recognized as an efficient tool in environmental governance and can be crucial in successfully implementing NbS. The involvement of the local stakeholders and community for co-designing the NbS had also the aim to facilitate the acceptance and the implementation of such innovative and sustainable solutions, as well as to strengthen the sense of community, of belonging and protection of the territory. The ultimate goal of the project was to achieve multiple environmental improvements in the Serchio River Basin by increasing the overall resilience of the territory to multiple pressures, favouring biodiversity and usability of natural areas as well as to allow the replication of NbS as \"best practice\" in other areas by providing farms with new opportunities for growth, development and revitalization in the post-Covid-19 phase.",
+    "measures": "The broad intervention plan for the Serchio river basin and the Massaciuccoli lake includes the following interventions: One phyto-depuration plant of 45 ha, under construction. The phytodepuration system is located south-east of Lake Massaciuccoli and has already been partially built and activated for an area of 15 hectares. The remaining part is under construction and will be completed by 2021. It is projected to treat approximately 135.000 mc/day of water. Buffer strips, along two main areas of the secondary canal network. Buffer strips are vegetated areas consisting of bands of multi-annual herbaceous species and/or tree and shrub species placed at the margins of cultivated fields. They have the advantage of being reversible, sustainable over time, synergistic with other measures. Buffer strips limit soil erosion, trap sediments, and enhance the filtration of potential nutrients or pollutants flowing into water bodies and contribute to improve water quality and the ecological status of lakes and surrounding areas. A consequent increase in the overall resilience of the territory to multiple pressures is expected. Conservation agriculture is characterized by a substantial reduction in the intensity of tillage and by the use of cover-crops , as for example plants (“ Lolium multiflorum Lam ”), inserted between different crops, only for ecological and agronomic purposes or sod-seeding. Conservative agriculture is being tested, on a total area of about 60 hectares, at two farms (Azienda Agricola La Costanza, Azienda Agricola Bonifica della Casa Rossa) that are involved in the Serchio Demonstration Case of the Phusicos project. Sedimentation basin , under construction. The basin has been planned to further reduce the transport of soil and nutrients. It is a water retention basin that will be built at the outflow of the sub-catchment, just before the pumping station that raises the drainage waters to deliver them to the Massaciuccoli Lake. The sedimentation basin, about 4.0 ha wide, can significantly abate the particulate materials by means of the sedimentation processes. Moreover, the plants growing around the basin can uptake nitrogen and phosporous reducing the nutrient loads to the Lake. The sedimentation basin certainly represents a good example of a win - win measure: in addition to contributing to the improvement of the quality of the water resource, it also constitutes a water retention basin, mitigating the effect of flood flows and acting as a reservoir in periods of drought. The \"gentle management of the canals\" acts on the effective section of the canals; in particular the original trapezoidal section is enlarged by the realization of a floodplain on one bank keeping the vegetation on the banks and preventing erosive processes. The gentle management of canals is a sustainable and ecological practice aimed at recreating and/or maintaining the natural conditions of waterways, by recreating morphological dynamism, environmental diversity, hydraulic and ecological functions of the river system. The aquatic vegetation of the canals favours the natural process of water depuration from pollutants. The overall purpose is to allow the river to naturally expand during a flood event and at the same time to maintain the vegetation on the banks to increase water purification and biodiversity. The intervention, still in a planning stage (2021 update), has been approved and financed. Dedicated Living Labs have been established with famers and local stakeholders which provided their specific knowledge and actively participated in the co-design and implementation of the NbS in a shared path. The Living Labs process followed three main phases: (i) understand, investigate, plan, and explore; (ii) creative co-design and refinement; (iii) evaluation and testing. NbS effectiveness is assessed through an interdisciplinary programme of monitoring, including soil sampling and analysis, measuring precipitation and temperature trend, hydrogeological and geochemical characterization of soil and water, qualitative-quantitative monitoring of solid transport, and crop productivity.",
+    "outcomes": "Success factors for this case study mainly rely on the integrated approach used to target the multiple challenges that Serchio river basin is facing. Climate change impacts (specifically droughts and floods) have been considered as part of a broad intervention plan addressing non-climate pressures as eutrophication, water pollution, soil erosion, and biodiversity loss in an area of internationally recognised high ecological value. Other success factors are related to the ecosystem approach used in this intervention plan, that selected several synergic Nature-based Solutions, as no regret, sustainable and effective measures with a high potential of enhancing the ecosystem resilience. The Living Lab approach contributed to the success of the planned solutions too. The full involvement of stakeholders and especially farmers, contributed to tailor solutions to the local context, stimulate new ideas and create additional learning opportunities. The implementation of a detailed and multidisciplinary monitoring program, that can demonstrate through scientific data the effectiveness of the implemented NbS, can favour the transferability of good practices to other areas facing similar challenges. The factors that have slowed down the implementation of the identified actions are mainly bureaucratic and administrative. Currently, the Italian legislation considers NbS as naturalistic engineering works, that require a long approval process. In addition, many meetings were needed through Living Labs sessions, requiring time to strengthen relationships with some stakeholders and with trade associations to illustrate and explain the project, NbS and their applications.",
+    "cost_benefit": "The implementation of NbS in the Serchio river basin is expected to slow down the process of discharging pollutants from the agricultural land to the lake, improving the ecological status of the lake ecosystems and the surrounding areas, favouring the reappearance of animal species and enhancing biodiversity. The implementation of these measures will also contribute to the control of soil erosion, and reduction of solid transport though the canals. All together these actions will increase the overall hydraulic resilience of the territory against flooding and water scarcity. Socio-economic benefits are also expected from the implementation of the intervention plan: Creating new tourism and recreational opportunities especially for local associations (bird watching, kayaking, etc.) Improving wellbeing of citizens Boosting local green economy based on sustainable agricultural practices Creating increased cooperation, enthusiasm, and sense of ‘ownership’ among stakeholders (farmers), leading to an increased acceptance and smooth implementation of the measures Increasing awareness on climate related risk among the stakeholders. Finally, climate change mitigation benefits are expected, due to the increased extension of vegetated area, with increased carbon sequestration potential. The NbS in the Lake district are partly financed by EU funding (1 .425.000,00 €) through the EU Horizon \"Phusicos – According to nature\" project. Other funding sources include the Tuscany Region (for the phyto-depuration project and other NbS through the PIT-Pianura Pisana Project), and the National Ministry for the Environment (now called Ministry for the Ecological Transition) for the hydraulic network improvement.",
+    "timeline": "Most of NbS are implemented in the framework of the PHUSICOS project, that started in 2018 and will end in 2023.",
+    "lifetime": "The solutions implemented in the case study area are expected to have a long lifetime (typically more than 15 years for this type of interventions), especially if they are properly monitored and maintained. A monitoring project is ongoing to assess the efficiency and the effectiveness of the solutions implemented.",
+    "stakeholders": "Since February 2019, the program of works carried out in the Serchio river basin was implemented through a participatory approach, actively involving a wide range of stakeholders in living labs, technical discussion tables and decision making process. The participatory process involved stakeholders from private groups and public authorities, such as the Land Reclamation Consortium Toscana Nord, the regional natural Park of Migliarino San Rossore Massaciuccoli, the municipalities of Vecchiano , Pisa, Viareggio, and Massarosa, trade associations, environmental associations, farmers and citizens. All stakeholders were engaged in all phases of the Living Lab process, from the definition of goals and objectives, to the solutions, including their design and implementation. Farmers had a key role in the project, making their agricultural land available for NbS and sharing their specific expertise. They have reshaped the canals and seeded typical native species to function as buffers against runoff of nutrients and chemicals (fertilizers, pesticides) used during agriculture practices. They also contributed to the creation of the sedimentation basin through a mixture of Phragmites australis and Thypha latifolia water plants to trap sediments and stop its flow into the basin. The Northern Apennines River Basin District Authority coordinated and co-financed the works, ensuring coherence and synergies with other activities and land plans such as the Rural Development Plan, the River basin Management Plan according to the European Water Framework Directive and the Flood risk management plan according to the European Flood Directive.",
+    "legal_context": "Most interventions implemented in the case study area are included in the River basin Management Plan and the Flood Risk Management Plan of the Northern Apennines River Basin District, therefore implementing the European Water Framework and Floods Directives."
+  },
   "point": {
     "lat": 43.8347744352,
     "lon": 10.3573608398,
@@ -87,7 +220,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-integrated-system-of-nature-based-solutions-to-mitigate-floods-and-drought-risks-in-the-serchio-river-basin-italy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:35+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

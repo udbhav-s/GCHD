@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
   "title": "Adaptation of French standards for design, maintenance and operation of transport infrastructures",
@@ -62,6 +62,59 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "operation",
+      "label": "operation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Design",
+      "label": "Design"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "maintenance",
+      "label": "maintenance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "standards",
+      "label": "standards"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objectives of the systematic review of standards are: Adapt technical requirements of transport infrastructure to expected changes in climate. Provide an unbiased review and identification of revision needs and priorities. Address transport infrastructure resilience in a comprehensive way, including design, maintenance and operations. Update climate parameters and indicators commonly used in transport standards, to take account of potential changes in French climate.",
+    "measures": "The review of French standards for design, maintenance and operation of transport infrastructure was carried out by a technical working group set up by the DGITM involving experts of different transport infrastructures and systems: roads, bridges, earthworks, cableway, railway, aeronautic, waterway, maritime and port sectors. After summarizing major climate trends at short and long term, the working group screened existing French standards, in order to identify those that include references to key climate elements (such as \"temperature\", \"flood\", \"rain\", \"wind\"...) that could change in future. The screening, based on databases and expert opinions, mostly focused on technical documents; some regulatory and normative documents have also been taken into consideration. The selected standards were subsequently classified into three groups, in accordance with the needs for their revision from a climate change adaptation perspective: those with no need for revision: technical reference documents and corresponding standards that are not impacted by climate change; those needing revision: technical reference documents that are impacted by climate change and that already need to undergo a technical revision, and those needing more precise information of the climatic variables and indicators involved in order to determine whether they have to be revised, and how. For the third group of standards, the existing information is not sufficient to assess whether there is a need to adapt them to future changes in climate, and further studies will be needed in future. Some examples of standards in each category follow: Standards with no need for revision: road traffic noise, road landscape design, road drainage guidelines, recommendations for structural design (limit states) in aquatic sites. Standards needing revision: road pavement design, estimate of general actions for aquatic structures (snow, wind, etc.). Standards needing further clarifications of the climate parameters: design and construction of new roads, maintenance of urban roads, draining road pavements, guidance on road embankments, principles to laying of long welded rails. Some hundreds of technical standards (more than 800 only for roads) were revised. For those needing a more precise understanding of climate parameters involved (category (3) above), the transport experts have provided a list of the precisions required. These refer to the timing (when certain climate changes are likely to happen) and areas affected, or to the precise effects of those changes on some of the parameters used for infrastructure design (frequency of occurrence, intensity, number of days above certain levels, etc.). Whereas the revision of standards within category (2) is already being undertaken, the revision of standards under category (3) can only proceed once the necessary clarifications have been provided by climate and meteorological experts. The revised standards will be adopted following the general procedure, including the participation of all relevant stakeholders, and subsequently implemented.",
+    "outcomes": "This action provides an innovative approach to transport infrastructure adaptation as it tries to undertake a homogeneous methodology to review standards to be applied (in a climate change adaptation perspective) to different transport modes and to different phases, as design, maintenance and operations. Other success factors are: Partnership with climatic experts and meteorological services. Climate and meteorological expertise is crucial to define future climate conditions and to understand their consequences for the various elements of transport infrastructure. Efficient partnership is based on a fruitful dialogue, with climate experts understanding the information needs of transport infrastructure designers and managers, and transport specialists adapting their practices to the climate information actually available and its related uncertainty. Mobilization of in-house technical knowledge within the national administration, overcoming technical fields. Pragmatic approach, aiming at establishing clear priorities in the revision process, and to achieve quick results for the selected priorities. Transparency, allowing all interested parties to get access to the information produced by the working group and to the recommendations made. Limiting factors include: Heterogeneity in the contents and approach of existing standards within the different transport modes. A few standards databases. Difficulties to identify all standards with climate-related variables: an absolute necessity to consult a high number of transport experts to list and review the standards. High specialization in technical expertise, making it difficult to undertake common approaches that cross the traditional borders among \"knowledge communities\". Standards for design, maintenance and operation are based on specific values of climate-related variables, whereas climate projections are often given as ranges of values. Adaptation to long term climate change is often considered as a non-priority issue.",
+    "cost_benefit": "Information on detailed costs is not available; however, as the review activities were carried out by the technical services of the French government, the process did not required significant additional resources. Main benefits are expected to be related to long-term savings in operating and maintenance costs of transport infrastructure. The new standards will replace the existing ones for the design, maintenance and operation of transport infrastructure. The final purpose of the process is to make sure that transport infrastructure, with a long time span of service (sometimes of 100 years or more), can satisfactorily cope with the conditions imposed by future climate and extreme weather events.",
+    "timeline": "The working group should continue to work until 2016, launching the drafting of some of the standards and deciding on the need for revision of category (3) standards, based on the clarifications of the experts.",
+    "lifetime": "The revised standards will be applied to the construction of new infrastructure and the upgrading and maintenance of existing one, with design life spans of 25 to 100 years.",
+    "stakeholders": "The review of transport standard was undertaken in coordination with the DGITM (Directorate General for Infrastructure, Transport and Sea) by the different technical services of the French government: CEREMA (Centre d’Études et d’Expertise sur les Risques, l’Environnement, la Mobilité et l’Aménagement), CETU (Centre d’Études Techniques des Tunnels), STAC (Service Technique de l’Aviation Civile), STRMTG (Service Technique des Remontées Mécaniques et des Transports Guidés), and from the various public transport managers: RFF and SNCF (rail), VNF (inland waterways), and from IFRECOR (Initiative Française pour les Récifs Coralliens). Experts and researchers will be mobilized to calculate climate projections and to adapt the standards. The working group is also currently involved in the AFNOR’s coordination group “Climate Change”.",
+    "legal_context": "The main legal framework of this review is the French National Climate Change Adaptation Plan, which includes a mandate to the Ministry of Ecology, Sustainable Development and Energy (Direction Générale des Infrastructures de Transports et de la Mer) to set up a working group on this action."
+  },
   "point": {
     "lat": 47.1000446926,
     "lon": 4.13085937483,
@@ -91,7 +144,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adaptation-of-french-standards-for-design-maintenance-and-operation-of-transport-infrastructures",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:35+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

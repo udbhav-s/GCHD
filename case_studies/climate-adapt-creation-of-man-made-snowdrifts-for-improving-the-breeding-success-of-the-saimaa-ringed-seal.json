@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-creation-of-man-made-snowdrifts-for-improving-the-breeding-success-of-the-saimaa-ringed-seal",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/creation-of-man-made-snowdrifts-for-improving-the-breeding-success-of-the-saimaa-ringed-seal",
   "title": "Creation of man-made snowdrifts to improve the breeding success of the Saimaa ringed seal, Finland",
@@ -62,6 +62,119 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Saimaa lake",
+      "label": "Saimaa lake"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protected areas",
+      "label": "protected areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "man-made snowdrift",
+      "label": "man-made snowdrift"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "pup mortality",
+      "label": "pup mortality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sub-nivean lair",
+      "label": "sub-nivean lair"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Saimaa ringed seal",
+      "label": "Saimaa ringed seal"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "endangered species",
+      "label": "endangered species"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "conservation method",
+      "label": "conservation method"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "school",
+      "students"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The EU LIFE Saimaa seal project and the Our Saimaa Seal LIFE follow up project aimed to reduce the main threats to the Saimaa ringed seal, which were identified in the Saimaa seal conservation strategy and action plan. In particular, the projects sought to reduce risks related to climate change, fishing, and human induced disturbance. The results of the projects were used in the conservation strategy and related regulations’ updating. One of the main goals of the projects was to facilitate adaptation to climate change by piling up man-made snow drifts and build artificial nests to improve the Saimaa seal´s breeding success during mild winters. Other goals include reducing by-catch mortality. This was achieved through developing seal-friendly fishing methods, reducing human-induced disturbances, involving various (local) stakeholders in conservation actions and awareness raising initiatives. The projects also aimed at updating knowledge as the basis for effective monitoring and conservation, such as essential functioning of ecological interrelations and potential threats to the seals.",
+    "measures": "The man-made snowdrift method was developed at the University of Eastern Finland. It was implemented as a new conservation method on full scale to improve the seal’s pup survival in mild winters when the snow cover is not sufficient for lairs. It was implemented during the EU LIFE Saimaa Seal project and continued in the Our Saimaa seal project. During the winters with poor snow conditions, man-made snowdrifts were piled up at the breeding habitat of the seal. The drifts were piled annually in January and early February. The shape and size of the man-made drifts mimic the natural wind drifted snow mounds. Saimaa ringed seal lairs are located on ice in snowdrifts on shoreline. Man-made snowdrifts were piled using natural snow collected nearby the drift site using snow shovels and pushers. The drifts were located in the vicinity of the potential lair sites. Minimum snow cover on ice for making a snowdrift is around 5 centimetres. The exact dimensions of the snowdrift depend on the location and amount of snow available. However, snowdrifts should be large enough for large birth lairs, i.e., approximately 1 m high, 3-6 m wide and 8-15 m long. Each year, more than 300 volunteers participated in lair censuses and/or the construction of man-made snowdrifts. Based on findings from lair census, conducted annually, creating human-made snowdrifts resulted an effective conservation method. During the project ‘Our Saimaa seal LIFE’, 1,130 snowdrifts were built, largely made by volunteers. Around half of these snowdrifts were used as a resting or birth lair and 171 pups were born in them. Due to this conservation action, the perinatal mortality remained significantly lower compared to earlier winters with poor snow conditions. When the snow conditions made it impossible to create man-made snowdrifts, artificial floating nest structures were built and placed. The artificial nests are floating structures that can be installed either in open water or on ice. Throughout the project, 120 of these artificial nests were deployed and half of these were used by the seals. The projects also implemented other measures that do not address the effects of climate change but reduce seals’ mortality, and therefore also increase their resilience to climate change. Seal-safe fyke nets (a type of fish trap used by professional fishermen, for perch and pike-perch) were developed in collaboration with local professional fishers. In the first Saimaa Seal project, nearly 300 gill nets owned by recreational fishermen were replaced by seal-safe fish traps (a different fishing gear type, smaller than the fyke net mostly used by professional fishermen). Moreover, nearly 1,500 “stoppers” were distributed to fishermen. Stoppers make the traditional fish traps ‘seal-safe’: they prevent the maximum opening width exceeding 15 cm and thus blocking the seals way into the trap. During the course of ‘Our Saimaa seals LIFE’ project, one additional thousand seal safe fish traps have been built by over 1700 participants in 135 workshops. Those actions enabled to replace approximately 150 gill nets with 600 seal safe fish traps. At fishing events during the two Life projects, about 1100 individual recreational fishers signed the agreement to refrain from gill net fishing in the breeding area, in exchange for the seal-safe fish traps. Moreover, Our Saimaa Seal LIFE Project reached over 23.000 people through environmental education. Furthermore, ensuring genetic diversity within the ring seal population is considered fundamental for coping with changing environmental conditions posed by climate change. To address this issue, three seals within the Saimaa Lake were successfully translocated and monitored during the project. Future research may help to verify whether this has helped to increase genetic diversity. Management plans for Natura 2000 areas vital for the Saimaa ringed seal were prepared during the LIFE Saimaa Seal project from 2013-2018. 34 ha land (islands) and 670 ha of water were acquired for nature conservation. Finally, initiatives for awareness raising and educational purposes were also undertaken. In the following years (2020-2025), additional protection and conservation measures were implemented for the two most important habitats of the Baltic ringed seal, located in the Archipelago Sea and Åland. Within the ‘Our Saimaa seals LIFE’, three new protected areas were established in the Åland archipelago. Additionally, the protection of the Baltic ringed seal was added as a mandatory criterion for six existing protected areas (Our Saimaa Seal LIFE report 2025 ). Monitoring results indicate that man-made snowdrifts resulted in a reduction of the perinatal ringed seal mortality. During the winters of 2014-2016, when man-made snowdrifts were piled, the perinatal mortality fluctuated from 8% to 16%. Conversely, before the method was implemented, the mortality was near 30% (e.g. 2006 and 2007). During the last five years (2020-2025), the seals have accepted around 50% of man-made snowdrifts as a lair site and 171 pups have been born in them. In the same period, due to the conservation measures implemented, the Saimaa ringed seal population increased from 425 to 530 individuals. These results come from the lair census which begins every year in spring when the roofs of snow lair collapse and become detectable. This census extends over about 70% of Lake Saimaa’s shorelines (about 11500 km).",
+    "outcomes": "Success factors A crucial element of success for this adaptation option is the generally positive local and national attitude towards the Saimaa Seal ( IUCN SSC, 2025 ). In this regard, volunteers were fundamental for the success of the project and for monitoring sail population dynamics. The man-made snowdrifts have shown to be an effective method to decrease the pup mortality in winters with poor snow conditions. A key success factor is that due to their steadfastness, seals return to the same location every year to build their lair. This helps to facilitate the successful placement of human-made snowdrifts ( IUCN SSC, 2025 ). The success demonstrated with the first project (LIFE Saimaa seal project) prompted its follow-up through the Our Saimaa Seal LIFE project. This project has received the Biodiversity Award 2013-2014 awarded by the National Committee of Finland for the International Union for Conservation of Nature (IUCN). Due to publications in international journals and media dissemination, the results also raised interest outside Finland. It was promoted as a new, simple and innovative solution to mitigate the adverse effects of climate change on a highly endangered population that was successfully tested under real conditions. Limiting factors However, the man-made snowdrift method is effective only as long as there is some snow available and the lake has contiguous ice cover. Since the first LIFE project, in some areas the amount of snow and/or ice has been a limiting factor for creating man-made snowdrifts. Therefore, the development and testing of long lasting artificial lair structures, started in the first LIFE project, continued in the second project and were considered particularly relevant.",
+    "cost_benefit": "Costs The total LIFE Saimaa Seal project budget was EUR 5,261,612. A share of 75% of the total budget was funded by European Union’s LIFE+ ( Nature and Biodiversity Programme ). The action “Improving breeding conditions of the Saimaa ringed seal with man-made snowdrifts” is one of the 63 actions in the project. The costs for this specific action is about 4% of the total project budget. The total project budget of ‘Our Saimaa Seal LIFE’ was EUR 7.1 million, of which the EU contributed EUR 5.3 million. Benefits Around 50% of the pups were born in lairs created in man-made snowdrifts. The perinatal mortality was significantly lower compared to earlier winters with poor snow conditions when the method was not in use. This highlights the usefulness and success of the technique (for further details refer to the “Solutions” section). Beyond the direct conservation outcomes, the involvement of hundreds of local volunteers has had important social benefits. Participation in conservation work improved public attitudes towards the Saimaa ringed seal and its protection. It also strengthened trust between local communities and conservation authorities. Fishers, students and lake visitors were educated in seal conservation efforts. More aware behaviour and respectful fishing practices are therefore expected to enhance the results of the adaptation measures implemented during the two EU LIFE projects. Seal-friendly tourism was also developed. Participants in seal excursions received information about the Saimaa ringed seals and the conservation measures implemented to safeguard this species.",
+    "timeline": "The LIFE Saimaa Seal project, ran from 2013 to 2018. It was followed by the Our Saimaa Seal LIFE which ran from 2020 to 2025. Man-made snowdrifts continue to be built annually. Their implementation takes a short period (a couple of weeks per winter and before the reproductive season).",
+    "lifetime": "Man-made snowdrifts only last one breeding season and thus need to be rebuilt every year. The man-made snowdrift method was included in the pool of established conservation practices of the Saimaa ringed seal.",
+    "stakeholders": "Metsähallitus, Parks & Wildlife Finland is responsible for most of the conservation and monitoring measures of the Saimaa seal. The University of Eastern Finland played a crucial role not only in developing the man-made snowdrift method and participating in annual lair censuses. More broadly, it also advanced Saimaa ringed seal conservation by providing new monitoring and conservation methods, as well as scientific knowledge to support decision-making. The role of the volunteers is also extremely important both for making the snowdrifts and for monitoring and evaluating the population dynamics. During the years, experienced local volunteers participated in the annual lair censuses of the Saimaa ringed seal. These volunteers know the demanding field work conditions on the ice and the location of the traditional breeding sites of the ringed seals. This network of volunteers grew significantly during Our Saimaa Seal LIFE project from 2020-2025. Based on this initial group of key volunteers, the project started building a larger scale network of volunteers to cover the whole distribution area of the seal to be prepared for the possible challenges of warming winter climate. In addition to the conservationists, the volunteers included recreational fishermen, politicians (local and national), policymakers, local inhabitants, summer residents and NGO members. It is a good example of how a concrete conservation action can induce openness and involvement of locals to conservation and bring people together. In the period 2020-2025, more than 300 volunteers were active annually in making snowdrifts and or lair censuses. Their efforts accounted for a total of almost 3500 workdays. Considering the entire period of the two EU LIFE projects (2013-2018 and 2020-2025), the effort of volunteers accounted for 5770 workdays. In addition to volunteers and Metsähallitus, also other cooperation partners, like University of Eastern Finland, WWF Finland and local Centres for Economic Development, Transport and the Environment, participated to realise the human-made snowdrifts in a notable effort. 135 workshops were organised to inform and educate stakeholders. During these events, seal-safe fish traps were built with the help of fishers, school children, and water area managers.",
+    "legal_context": null
+  },
   "point": {
     "lat": 61.7471311936,
     "lon": 28.7292480469,
@@ -121,7 +234,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/creation-of-man-made-snowdrifts-for-improving-the-breeding-success-of-the-saimaa-ringed-seal",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:08+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

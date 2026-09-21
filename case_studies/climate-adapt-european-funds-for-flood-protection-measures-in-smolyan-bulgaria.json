@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
   "title": "European funds for flood protection measures in Smolyan - Bulgaria",
@@ -37,6 +37,74 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Smolyan",
+      "label": "Smolyan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ERDF",
+      "label": "ERDF"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protection wall",
+      "label": "protection wall"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river bed",
+      "label": "river bed"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood risk management",
+      "label": "flood risk management"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The flood protection measures have been implemented to reduce the risk of flooding in the Ustovo District (specifically residential areas “Progresi” 1, 2 and 3) in the city of Smolyan with the aim to protect the population and to prevent flood damage.The interventions were implemented within two different EU funded projects with the following overarching objectives: to improve/support/maintain existing permanent flood protection infrastructure in order to either increase their ability to constrain flood water or facilitate better water flow and therefore reduce the risk of flood; to supply necessary equipment to react promptly against imminent floods and constrain the negative effects of water in flood areas; to reduce the socio-economic differences between Bulgaria and other EU Member States; to make living and working conditions in Bulgaria more attractive; to develop tourism potential; to stimulate investments in smaller municipalities. The interventions were also implemented to address the need for cross-border cooperation (Greece-Bulgaria), in order to prevent and manage floods in the areas around two international rivers (Strymonas and Evros), areas that have faced serious flooding events in recent years. The main activities implemented by the Smolyan district administration also contribute to the objectives of the flood risk management plan of the Black Sea River Basin Management District ( FRMP, 2021 in draft version). FRMP aims to provide an overview of flood hazard and flood risk across the country, identifying areas where hazard and risk levels are higher (areas with potential significant flood risk). This plan represents the implementation process of the EU Directive 2007/60/EC (European Floods Directive, FD). Further actions to prevent flooding risks from the Cherna River can derive also from the Flood Risk Management Plan for the East Aegean Sea Basin District for the period 2022-2027, adopted in December 2023 (Decision n. 937/2023 of the Council of Ministers).",
+    "measures": "The measures implemented to reduce the risk of flooding were mainly financed by ERDF through the Operational Programme “Regional Development 2007 – 2013 ( Contract No BG161PO001/1.4-06/2010/011 ‘Support For Small-Scale Measures To Prevent Flooding In Urban Agglomerations’) and through the cooperation programme Interreg V A Greece-Bulgaria 2014-2020 ( Flood Protection Project) . The first project consisted of two main construction works: (1) expansion and cleaning of the riverbed of the Cherna River to have a higher capacity for dealing with high amounts of water, and (2) reconstruction and upgrading of the existing retaining walls and construction of new walls with reinforced concrete railings and parapets on the left and right bank of the river. These works were carried out through several sub-projects. In total, 240 metres of new flood walls were built, and over 430 metres of existing walls were reinforced. The interventions realized showed to be effective in preventing floods in the Ustovo district of Smolyan, especially during 2014, an extremely wet year. As reported in the drat Draft Preliminary Flood Risk Assessment for the Black Sea River Basin Management District (2021), the distribution of flooding instances per years during the observed period (2011-2019) showed a clear peak in 2014, followed by an alternation of years with higher and lower number of floods. About 38% of all registered floods during the observed period (2011-2019) occurred in 2014. Starting from 2015 and within the second project ( Interreg Greece-Bulgaria ), several other interventions have been implemented in the city in order to ensure the retaining wall reinforce, the hydraulic conductivity and the cleaning of the rivers bed (Cherna and Byala river) in the urbanized part of Smolyan. All these interventions were again focused on reducing the risk of floods and preventing damage to people and infrastructure. For those measures, significant amounts of material were taken from critical stretches of the riverbeds. Fallen trees and overgrown vegetation were removed, while construction works were carried out to strengthen bridge structures and the existing stone walls, which are particularly relevant for the security of the main bypass road above them. The Municipal Development Plan of Smoylan envisages the construction of additional facilities to prevent flooding, including: cleaning the riverbeds of vegetation and sediments, reconstruction of the two municipal dams (Kiranov dol and Laga), and afforestation of adjacent land. In order to be informed and warned in time, the municipality regularly receives information on rainfall by the Ministry of Environment and Water. A dedicated service provides hourly information (even per minute) on expected rainfall and river water levels. Municipal experts process this information and post it on the municipal website.",
+    "outcomes": "Funding by the EU was an important factor in enabling the construction works. The municipality applied for funding with the Operational Programme ‘Regional Development’ (see also ‘Costs and Benefits’ section), and for the Interreg Cooperation Programme. Municipal experts took care of the application form and they had access to all the information required for the project, including preliminary studies and technical designs, as well as a clearly defined goal. This helped them greatly in the process of applying for EU funding. The project proposal was submitted to the Ministry of Regional Development in 2012. The Ministry acted at the time as a managing authority of this programme. When the project was granted, a contract was drafted between the Ministry and the municipality of Smolyan. In the next phase, an open procedure was started for the construction work. The construction company answered directly to the municipality, who in turn reported to the ministry. Other factors that contributed to the smooth implementation of the project were that the land on which the measures were being implemented is mainly owned by the municipality and that it was easy to obtain building permits.",
+    "cost_benefit": "The costs of the flood protection measures covered under the first EU project combined surmounted to 933.438 Bulgarian Lev, or €477.259 Euro. A small part, 5% of the total sum (46.959 Lev, or €24.010), was provided by Smolyan. The majority of funding, 886.478 Lev (€453.249), originated from the EU through the Operational Programme “Regional Development 2007 – 2013 ( Contract No BG161PO001/1.4-06/2010/011 ), ‘Support For Small-Scale Measures To Prevent Flooding In Urban Agglomerations’). The construction works executed within the second project (Interreg V-A Greece-Bulgaria - Flood Protection project) cost 2,145,943.51 BGN (about 109 million €, Interreg webpage ). The project was co-financed by the European Union, through the European Regional Development Fund, and by the national contribution of Bulgaria and Greece. The benefits of the measures (in terms of reduced damage due to flooding) have not been estimated and quantified. However, the damage of the 2005 flood event will now be probably avoided during future heavy precipitation events. In fact, the year 2014 was a very wet year and other neighbourhoods in Smolyan have experienced flooding, but the Ustovo district was not affected. Other co-benefits have not been taken into account. The new measures of the current Municipal Development Plan were funded by different sources such as by the municipal budget, the Operational Programme ‘Environment’ (2014 – 2020), Cross-border Cooperation Programmes, and by the Interministerial Committee on Disaster.",
+    "timeline": "The interventions were implemented between June 2011 and June 2013, as part of the first project funded under the Regional Development Programme (2007 – 2013). Additional interventions have been completed during the 2017-2022 period, within the Interreg VA “Greece-Bulgaria” cooperation programme.",
+    "lifetime": "The interventions are planned to last least 100 years.",
+    "stakeholders": "The Mayor and the municipal experts held many meetings during the project where they thoroughly explained to residents the need for the flood protection measures and their positive effect. Few people were directly affected by the construction works. There were some issues with the residents as, for instance, the presence of illegal buildings on the construction site, like barns and gardens that had to be demolished before work could start. However, they could be solved within the legislative framework and did not result in protests or any major negative reactions.",
+    "legal_context": "The main bodies responsible for flood protection care in Smolyan are the East Belomorksi Region Basin Directorate of Plovdiv, as well as the mayor of the municipality of the water course concerned. The municipality is responsible for maintenance of the implemented measures which consists of cleaning the riverbed of vegetation and sediments twice a year."
+  },
   "point": {
     "lat": 41.5766728073,
     "lon": 24.7034454346,
@@ -66,7 +134,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/european-funds-for-flood-protection-measures-in-smolyan-bulgaria",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:21+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

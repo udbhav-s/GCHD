@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-climate-proofing-social-housing-landscapes-2013-groundwork-london-and-hammersmith-fulham-council",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-proofing-social-housing-landscapes-2013-groundwork-london-and-hammersmith-fulham-council",
   "title": "Climate-Proofing Social Housing Landscapes – Groundwork London and Hammersmith & Fulham Council",
@@ -41,6 +41,100 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "social housing",
+      "label": "social housing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "local communities",
+      "label": "local communities"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "light-engineering measures",
+      "label": "light-engineering measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Climate-proofing",
+      "label": "Climate-proofing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable drainage",
+      "label": "sustainable drainage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "retrofit",
+      "label": "retrofit"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "West London",
+      "label": "West London"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "low_income"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "deprived"
+    ],
+    "group_mentions": {
+      "low_income": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The key objectives of the project were to: Develop a transferable methodology for designing affordable, light-engineering climate change adaptation measures for social housing landscapes using green and blue infrastructure. Design and implement comprehensive packages of retrofitting measures in three different types of social housing landscapes. Implement the main measures through employment programmes for long-term unemployed beneficiaries creating local jobs. Develop a set of training modules for housing and grounds maintenance professionals on the whole cycle of adaptation and green infrastructure relevant procurement systems, design, retrofit and maintenance. Develop a transferable methodology for resident stakeholder engagement, resulting in site-specific community adaptation action plans and practical involvement in retrofitting and maintenance activities. Design an evaluation methodology capturing technical performance and social return on investment. Develop interactive e-learning materials including a film to inform local, national and EU policy, strategy and best practice.",
+    "measures": "The Climate-Proofing Social Housing Landscapes project sought to deliver a holistic package of climate change adaptation solutions in three social housing estates within the London Borough of Hammersmith and Fulham. Through the project, various highly effective, affordable and socially acceptable green and blue infrastructure interventions have been implemented in all three estates. The aim was to improve the overall quality of these urban environments, addressing climate threats such as flood risk, water scarcity and overheating, and wider contributors to local environmental quality such as biodiversity, air quality and water quality. The implemented measures are light-engineering solutions, including small basins, rain gardens, and green roofs. Soft landscaping elements have been implemented through accredited apprenticeship and employment programmes for local people as part of Groundwork London’s Green Teams, many of whom have been out of work for long periods of time, therefore creating local jobs. Hard landscaping elements have been delivered by externally appointed contractors. In this way, different mechanisms for resourcing the delivery of adaptation measures have been demonstrated. Specific interventions at each site are as follows: Queen Caroline Estate: Low-level green roofs Rain gardens Swales and basins Schotterasen (Austrian gravel lawn) Food growing beds Tree and shrub planting Cyril Thatcher, Eric MacDonald and Richard Knight Houses: Residential and low-level green roofs Rain garden combined with tree pit Swale Food growing beds Tree and shrub planting Cheeseman’s Terrace: Low-level green roof Rain gardens Grassy basins Permeable paving Shrub planting Resident planting/gardening areas In order to raise awareness, promote the benefits of such measures, and ensure that they are properly managed, a series of training modules has been developed and delivered for housing professionals and grounds maintenance contractors, supporting them through the full process from planning through to procurement, implementation and maintenance. Residents on the three estates have also been closely engaged throughout the project, raising their awareness of, and support for, the measures being implemented. As well as being informed of project progress through regular communications and events, they have also been actively involved in the design process and will continue to participate in the long-term maintenance of the installed measures. Residents on all three estates have been given the opportunity to become Sustainability Champions, with free training to equip them with the skills and understanding to manage their green space assets effectively. To support their on-going involvement in the initiative, residents have also been given training on the maintenance of certain measures, such as food growing beds. Some residents have also attended maintenance handover sessions with contractors so that they are informed of the maintenance activities that contractors are responsible for. The project has sought to provide an evidence base that makes the business case for cross-cutting investment in green and blue infrastructure for social housing, by demonstrating its cost effectiveness and value for money through the environmental, social and economic benefits it offers. With this aim in mind, an evaluation methodology was established in order to monitor both the technical performance of the measures and their social and environmental value, with the University of East London appointed for the technical monitoring elements. Through all of the above, the project aimed to develop a methodology that would be applicable and transferable to other housing estates, not only within the UK but also across Europe. Various resources have been developed in order to share learning from the project, including an Implementation Guide, training materials, a Layman’s Guide, project film and 360 o virtual tour. These are available on the project’s dedicated website .",
+    "outcomes": "The project has helped to demonstrate that: Retrofitting open spaces in social housing environments is both necessary and cost-effective: affordable and socially acceptable light-engineering climate adaptation measures implemented through the project help to demonstrate the role these spaces can play in increasing urban resilience to climate change. Such projects work better when not delivered in isolation: climate adaptation is multi-faceted and requires cross-disciplinary working – from consultation to co-design, from community engagement activities to training and employment opportunities. Communities, in particular residents, are expert users of spaces and have valuable knowledge of their local environment: their involvement from the start of the project has been essential to secure their input and support. A comprehensive approach to monitoring and evaluation can help make the business case for such schemes: as exemplified by this project, this should not only include technical monitoring of the environmental benefits, but also additional evaluation to capture the wider social and economic benefits of the project. There were no major limiting factors to the project. Small challenges were addressed as they emerged, including: It was hard to engage some estate residents in the climate change agenda at first as it wasn’t seen as an immediate problem for the estates. The project overcame this by linking wider threats to local issues, such as water pooling and overheating. Several open spaces on the estates were fenced off and rarely used before the work started. Some residents were concerned that opening up the spaces might encourage anti-social behaviour. In reality, the opposite has happened, with the spaces now more widely used and valued. Even with utility company drawings and radar surveys for underground services, not all services were identified. This meant some design changes were needed during construction. Construction works close to residents’ homes and altering access routes were a concern for some residents. This was expected and managed through Groundwork London’s Community Projects Officer and relevant council teams. The scheduling of works at the final estate reduced the time available for monitoring. This was solved by using storm simulation tests which allow for spot testing of the performance of interventions. The aim is to extend the monitoring period by up to a year (subject to funding) to better understand the longer-term performance of the SuDS (Sustainable Drainage Systems) measures.",
+    "cost_benefit": "The total project budget was 1.6 million EUR, co-funded by the LIFE+ Programme (50%) with match funding from other sources including Hammersmith & Fulham Council and the Greater London Authority. Costs of the adaptation measures were 526,000 EUR, consisting of: Queen Caroline Estate: 297,000 EUR; Cyril Thatcher, Richard Knight and Eric MacDonald Houses: 137,000 EUR; Cheeseman’s Terrace: 92,000 EUR. Benefits of the project include: Demonstration of the important role that urban housing estates can play in adapting our cities to cope better with climate change, with a focus on deprived and vulnerable communities. Improved local resilience to the impact of extreme weather events and other effects of a changing climate, including flood risk and the urban heat island effect. The achievement of wider green infrastructure goals, including biodiversity, local air quality and play provision. Greater awareness among residents of the implications of climate change for London, and the actions that residents can take themselves to contribute to adaptation and resilience. Greater skills and employability for those engaged in the programme as Green Team trainees, and improved skills and awareness amongst housing and grounds maintenance professionals. Monitoring and evaluation results adding to the existing evidence base to support the implementation of similar schemes across Europe. The main outcomes and successes of the project in numbers were as follows: Achievements: 4,537m 2 of land improved; 3,158m 2 of impermeable surface diverted from draining directly to the sewer; 325 trees and shrubs planted; 432m 2 green roofs installed; 113m 3 capacity of SuDS features; 472 residents engaged; 22 Green Team trainees involved (a training and employment programme for those who are young, unemployed and lacking experience and qualifications) 46 Hammersmith and Fulham Council maintenance contractors and senior managers engaged in training programme. Results: 100% of rainfall has been diverted away from the storm drain system by the ground level SuDS; 89% (on average) of the rainfall landing on the green roofs has been absorbed; 1,286,815 litres annual rainfall retention and diversion away from the storm drain system by the interventions; 81% of residents agree or strongly agree that the quality of the green spaces has improved significantly; SROI (Social Return on Investment) assessment identified that for every £1 invested, the programme generated £4.39 of benefits Further detail on the technical results and the results of the Social Return On Investment are available on the project website.",
+    "timeline": "2013-2016 (project timeframe).",
+    "lifetime": "Lifetime of SuDS interventions varies, but the design life can be unlimited, with component life of 20+ years depending on the intervention.",
+    "stakeholders": "The project has been led by environmental regeneration charity Groundwork London, working closely with Hammersmith & Fulham Council – the local authority and owner of the social housing estates in focus. The project demonstrated a holistic approach, with multiple teams working together to ensure its successful delivery. Groundwork London delivered the programme through a multi-disciplinary team experienced in joining up diverse activities from community engagement to digital marketing and from landscape design to employment advice and improving people’s skills. The organisation employs formally qualified community development officers, landscape architects, employment & training specialists and communications, contract management and finance staff who were involved in both managing and delivering the project successfully. The London Borough of Hammersmith and Fulham is one of the 32 London Boroughs and has a population of circa 182,500. Hammersmith & Fulham Council is responsible for the delivery of services including education, social services, planning, waste disposal, recycling and collection, trading standards, emergency planning, roads, highways and transportation, housing, environmental health and parks and open spaces. In this project, the Housing Department’s Estate Services Unit acted as the Council’s project lead and also facilitated input from all other relevant Departments, including Environment and Finance teams. Residents were key external stakeholders in the project, closely engaged throughout in order to secure their support for the interventions and giving them the opportunity to shape the open space improvements on their estates. This was done through meetings with Tenant and Resident Associations, as well as engagement with the wider resident population through events, door knocking and activities such as gardening groups. This engagement helped to promote greater awareness of the implications of climate change for London, and the actions that residents can take themselves to contribute to adaptation and resilience. Other external stakeholders were engaged in both the delivery of the project and as expert advisers. This included green infrastructure specialists, monitoring and evaluation experts (the Sustainability Research Institute at the University of East London), the Landscape Institute, National Housing Federation, Town and Country Planning Association (TCPA), London Climate Change Partnership, Natural England, Environment Agency, Thames Water, Greater London Authority and CIRIA.",
+    "legal_context": "Adaptation measures of this nature are to a certain extent covered by European policy under the Water Framework Directive and the EU Floods Directive. These measures also demonstrate practical responses in line with the EU Strategy on Adaptation to Climate Change, which encourages all Member States to adopt comprehensive adaptation strategies and recognises that it makes sense to begin with measures that are low-cost, flexible and good for both the economy and the climate. A key relevant policy document is the European Commission’s Green Infrastructure Strategy, which recognises the important role these measures play in a number of areas, including the provision of ecosystem services, the protection and enhancement of natural capital, adaptation to climate change and disaster risk management, as well as offering health and social benefits too. At the national level, the project has contributed to the development of the UK’s approach towards Sustainable Drainage Systems, inputting to a Defra/CLG consultation in 2014. At the regional level, the project is highly relevant for the London Sustainable Drainage Action Plan, which aims to ensure that London can manage its rainwater sustainably to reduce flood risk and improve water security, and is referred to in the Plan. The project has also helped to strengthen local planning policies associated with SuDS and climate change proofing of future developments within Hammersmith & Fulham Council’s new Local Plan, and is also feeding into the new Ecology / Biodiversity Policy that the local authority is proposing."
+  },
   "point": {
     "lat": 51.5019041076,
     "lon": -0.120849609375,
@@ -70,7 +164,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-proofing-social-housing-landscapes-2013-groundwork-london-and-hammersmith-fulham-council",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:52+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

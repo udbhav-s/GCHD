@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
   "title": "Nature-Based Solutions in schools: a green way to adapt buildings to climate change in Solana de los Barros, Extremadura (Spain)",
@@ -44,6 +44,166 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "indoor temperature",
+      "label": "indoor temperature"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bioclimatic architecture",
+      "label": "bioclimatic architecture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green facades",
+      "label": "green facades"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "permeable surface",
+      "label": "permeable surface"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cooling",
+      "label": "cooling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water saving",
+      "label": "water saving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "energy efficiency",
+      "label": "energy efficiency"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "classrooms",
+      "nurseries",
+      "playground",
+      "playgrounds",
+      "pupil",
+      "pupils",
+      "school",
+      "schools",
+      "student",
+      "students"
+    ],
+    "group_mentions": {
+      "children_youth": 3,
+      "schools": 43
+    }
+  },
+  "intervention": {
+    "objectives": "The overall objective of the implemented NbS is to contribute to increasing the resilience of buildings used for education in the Extremadura region to the increasingly frequent periods of heat and water scarcity caused by climate change in southern European countries, improving the well-being of students and staff working in this type of buildings. To achieve this general objective, this case study pursues a number of specific objectives: Improving the knowledge of NbS at building level. Analysing the cost-benefit of NbS as climate adaptation tools. Promoting governance actions to improve the transferability of the implemented solutions by facilitating their inclusion in local, regional and national regulations. Transferring and replicating the prototypes of NbS implemented and tested in this case study, through capacity building initiatives for specialised staff.",
+    "measures": "Several NbS were designed, implemented, and tested in a primary school in Solana de los Barros (Badajoz, Extremadura, Spain), as part of the myBUILDINGisGREEN LIFE project. The implemented measures can be classified in four main categories: green roofs, green facades, ventilation, and development of outdoor areas. Firstly, green roofs have been implemented in the school building. Green roofs are a promising option to reduce the temperature in buildings while increasing local biodiversity, making the living environment more pleasant and providing the option of a direct learning experience on adaptation to climate change for the students. The pilot building tested three types of green roofs with a variety of more than 25 native plant species. The first solution was an extensive green roof (mBiGCUVE 1), while the second solution was a roof with an inner air chamber located between the roof and the vegetation substrate (mBiGCUVE 2). It was tested to retain higher temperature, while also improving humidity levels and thus reducing auxiliary irrigation demands. The third solution included a more sustainable substrate (mBiG-SUS) that allows for better rainwater filtration. The main sustainability of this substrate lies in the fact that it is composed of recycled aggregates for the realisation of the roof drainage. Two of these green roofs reuse excess water by gravity to make it available for irrigation. The second category of NbS is green facades . The implemented green facades system includes a system of planters set on metal structures parallel and perpendicular to building facades. It includes climbing plants that protect the facade from sunlight. There is also a vertical awning system with mineral substrate for vertical vegetation growth. It includes plants for hydroponic irrigation that incorporates nutrients into the system and allows their growth on the mineral substrate. In an internal corridor of the building, an indoor vertical garden with a wide variety of plant species has been installed to maintain adequate humidity levels and contain the high temperatures experienced in this room. This system requires continued maintenance and pruning to avoid the fall of the wall due to overweight. Next, a ventilation system was included in the building, allowing fresh air to circulate in the school during the night and morning hours (9:30-10:00 / 12:30-13:00). The induced natural ventilation system was created by programming the automatic closing and opening of five windows. This measure cools the environment and reduces the indoor CO 2 concentrations and favours re-oxygenation inside the classrooms. Further interventions were carried out in the school playground. In addition to planting trees for natural shading, several measures have been implemented such as: Vegetated Pergola: it includes a planter system set on metal structures similar to the one described for the green facade but without anchoring to building facades. It includes deciduous climbing plants. Porous paving: permeable surfaces that improves rainwater infiltration, reducing runoff into the sewage system. This type of pavement also allows the growth of natural vegetation. Wooden structures for shading of recreational areas: these structures are located in playgrounds with a high occupancy rate by pupils. They were designed in collaboration with the educational community of the pilot building. Monitoring In order to measure the impact of the solutions implemented in the pilot building, a monitoring plan has been developed and the measurements were carried out. As NbS require long time before all the effects become measurable, the monitoring scheme will continue after the end of the project, until spring 2028. This long-term monitoring scheme has been included in the After-LIFE Plan of the myBUILDINGisGREEN LIFE project, which is available in the results section of the project website. A framework of 22 indicators was established to measure: a) temperature change (indoor temperature inside and in the building envelope, outdoor temperature and humidity, and estimated energy and heating savings); b) water management (estimated savings related to water consumption and savings in rainwater management); c) green area management (increased plant and animal biodiversity and number of recovered native plant species suitable for integration in green areas); d) indoor air quality and noise reduction (CO 2 concentration levels inside the classrooms, noise reduction levels from outside and pollution levels through installation of bio-indicator species and training in their observation); e) urban regeneration (energy efficiency and increase in green area - surface area and percentage); f) governance and participation (citizens' perception of urban nature, number of education policies and strategic plans for climate change adaptation that include NbS and open participatory processes); g) social cohesion (number of agreements with stakeholders for possible replication activities); h) public health and well-being (reduction in the number of pupil absences and teacher sick leaves) and i) economic opportunities and employment (number of jobs created, creation of new skills in self-employed and NbS-related businesses in the area and reduction of school staff absenteeism). More information on the monitoring plan can be found in a dedicated video from the online training created in the framework of the myBUILDINGisGREEN LIFE project. Around five years after the implementation of the Nature-Based Solutions (NBS) in the school building, biodiversity monitoring continues to provide promising results, and most solutions remain in good condition. The green roofs and the indoor vertical garden perform particularly well: the roof species have not only persisted but expanded, with additional species colonising spontaneously from the surrounding area, while the corridor vertical garden shows dense, uniform coverage. The permeable paving also continues to fulfil its intended function. However, several years of operation have brought new challenges, mostly related to the long-term maintenance of some solutions. The current maintenance dedication (one visit per month) has proven insufficient for the diversity of installations: the split between the gardening team and the external company managing irrigation makes it harder to adjust watering to the observed state of the vegetation. As a result, irrigation is proving inadequate for the pergolas (green facades), whose substrate shows signs of drying out. The elevated wooden planters of the entrance and sand-yard pergolas are also showing moderate rot and will need repair or replacement in the short term for safety reasons. The vertical green awnings, based on a hydroponic system, did not deliver the expected results: the plants did not survive, most likely due to an unsuitable substrate and irrigation, leaving a bare surface. Possible corrective measures and practical recommendations for ensuring long-term maintenance and effective replication in other sites are in preparation. They include, for example: increasing maintenance frequency and ideally centralising irrigation management within the same team; adjusting the irrigation regime for the green facades to less frequent but longer sessions (every other day, around 45 minutes each) to improve water infiltration; replacing or repairing the deteriorated planters; rethinking the vertical awnings by using them as a support for climbing species rather than as a hydroponic system. For the pergolas and awnings, species with good coverage and tolerance to high sun exposure — such as Parthenocissus quinquefolia , Parthenocissus tricuspidata or Campsis radicans , already used successfully elsewhere in the school — are recommended.",
+    "outcomes": "Factors that favoured the success of the adaptation actions were the fruitful collaboration created among project partners and the school community. This collaborative environment allowed to design solutions in a tailored way, addressing actual needs of students and school staff. This also allowed to gather data useful to monitor the adaptation outcomes. The project partner composition, bringing together different skills and expertise, was also crucial to properly design and monitor the selected measures. The monitoring programme, showing encouraging results was also a success factor. They can be used to replicate the tested solutions in other schools and buildings. Many local, regional and national authorities were involved to study the transferability potential of the solutions designed and tested. These institutions provided advice on several key aspects such as: (i) incorporating NbS in the Catalogue of Construction Solutions of the national Technical Building Code of cities, (ii) designing municipal and regional regulations and tax incentives to encourage the use of this type of solutions, and (iii) finding out about ways to certify buildings with NbS under sustainability standards in buildings. After the consultation process, declarations of interest were signed with 8 municipalities in the province of Badajoz (Spain) to promote the use of NbS for climate adaptation in public buildings in these municipalities. A letter of support was obtained from the Spanish Ministry of Transport, Mobility and Urban Agenda confirming the interest in the project and offering advice for the future inclusion of the project's NbS in the Technical Building Code. This renovated school building has become a reference in the Extremadura region for sustainable construction to be followed in the future. The interest in its maintenance (provided by the Badajoz Provincial Council and the Solana de los Barros municipality) is very high. At the same time, some barriers were also encountered which delayed some of the planned tasks and made it necessary to look for alternative solutions in order to proceed with the implementation of the project. Some of these barriers (need for highly specialised technical capacity) might hinder the transferability potential. The main limiting factors are summarised below: Limited local availability of construction companies able to implement the measures. To address this issue, specialised companies were identified at national level. The correct drafting of the construction project is essential. The greater the level of detail, the more successful the project will be. The specialisation of the work (green roofs, NbS shading systems) requires prior market research during the drafting of the project. By contacting professionals in the field, it is possible to obtain prior conditions and budgets for implementation, which must be transferred to the project together with the rest of the necessary work. This avoids unforeseen implementation problems or out-of-market budgets and possible public tenders that may not be awarded. Inaccurate scheduling of maintenance services. For maintaining NbS, constant monitoring of their condition is necessary, especially in hot periods to ensure irrigation and the availability of water. Conflictual issues among contractors for operating the irrigation control system and lack of technical skills for its optimal use. It was necessary to search for companies specialised in this type of operations at national level and to organise public tenders in an appropriate manner. Some of the species selected for use in the NbS revealed to be poorly suited to survive in those environmental conditions. During the course of the project some of these plant species were replaced by other species from provincial nurseries or through external contracts. Lack of some crucial data to properly assess some adaptation outcomes. Water meters were not available in the building to measure water consumption before and after the implementation of NbS. Slow and insufficient growth of shaded plant spaces (virgin vines). NbS may requires long time before their outcomes are measurable. Specific problems with low growth rate of some species (vine arbour) have been addressed by the Royal Botanical Garden (RJB-CSIC), a specific consultancy service for the Badajoz Provincial Council. High costs of some NbS. A permeable pavement with photocatalytic activity has been developed at laboratory level, but has not been implemented in the school mainly for cost reasons.",
+    "cost_benefit": "Benefits of NbS implemented in the school building are manyfold, suggesting that these types of solutions can be part of a holistic response to multiple challenges. Benefits include savings in electricity and water consumption, increase in local biodiversity, creation of green corridors for pollinators, and improvement of building aesthetics. The use of native species to green the buildings also prevents the spread of invasive alien species. Moreover, NbS are providing living materials for pupil’s education, and are expected to provide improved concentration and performance of the students, improved well-being of school workers, and acoustic isolation of classrooms. Some of these benefits can only be measured after some years and are not always monetizable, although their value is indisputable. However, by the end of 2023 (about two years from the implementation), first results of the monitoring activities suggest the following outcomes: Increase of 1,991.20 m 2 of green area and 451.70 m 2 of permeable paving in the pilot building. Reduction of 5.4 °C in the average temperature of the surfaces with green roofs compared to those without vegetation. Reduction of the temperature inside the classrooms to below 27 °C (recommended value for indoor thermal comfort) in September, after the installation of the NbS. During the hottest months of June, July and August, this objective was not achieved but temperature has decreased compared to the previous situation. The desired reduction is expected to be achieved in the coming years when the state of vegetation development is optimal. Reduction of rainwater lost through runoff from an average of 13 % in the situation without interventions to 3 % in the building with the implemented solutions. Increase of 77 animal species (mainly flying insects, flies, mosquitoes and Hymenoptera) and colonisation of 16 additional native plant species in the renovated building compared to the previous situation. Biodiversity data will be even more positive after years of maturation of the ecosystems created by the Nature-Based Solutions. In terms of costs, the most significant share includes the materials needed for the installation of the prototypes and the cost of the staff involved in the various phases of design, implementation, monitoring and dissemination of the NbS. The initial costs for implementing the solution per square metre (m 2 ) are: 130.40-301.83 €/m 2 for green roofs, 88.59-105.51 €/m 2 for green facades, 54.29 €/m 2 for draining pavements, 2,862.04 €/m 2 for the automated windows, 252.71 €/m 2 for the vegetable pergola and about 400 €/m 2 for the tree planting (depending on the species to be planted). Some rough estimations of maintenance costs were made and included in the After-LIFE Plan ( results section of the project website).",
+    "timeline": "The implementation of this project started in 2019 with the selection of the pilot building and ended in 2021 with the implementation of the NbS in the selected school. Dissemination activities, monitoring activities and works to incorporate NbS in the building code took place in the following years and are expected to last until 2028.",
+    "lifetime": "The pilot building is maintained by the Badajoz Provincial Council and the Solana de los Barros municipality. Provided that the NbS are well maintained, its useful life is estimated to be over 30 years.",
+    "stakeholders": "The implementation of the NbS was coordinated by the local authority, Badajoz Provincial Council, and carried out by a private company that was awarded the project. It was supported by experts from the Spanish National Research Council (CSIC) in technical issues on buildings and for the selection and maintenance of plants. The CARTIF Foundation, based in Valladolid (Spain), was one of the leading technical partners during the design, implementation and testing of the NbS. These organisations were supported by the local authorities involved in the construction projects and by the school staff where the NbS were implemented. They facilitated collecting data about electricity, energy or water consumption, student and teacher absences, etc., and assisted the sampling campaigns following indications from the CARTIF and CSIC experts. The implementation of the NbS needed the active participation of the educational community of the primary school in order to support their design, the implementation of the monitoring system and the promotion of the activities organised in the pilot building. There were some participatory workshops with the students, their parents and the school staff to design the NbS of the playgrounds according to their actual needs. The students at this school were also involved in some data collection initiatives through practical classes leaded by their science teachers. Opportunities for disseminating the importance of NbS in adapting buildings to climate change to students’ families and neighbours were used. Among the dissemination events, three exhibitions were organised to show the implemented solutions to the educational community and the inhabitants of the surroundings. Almost 100 people attended those events. A conference in Badajoz, a congress in Madrid and two online round tables were also organised, with a total attendance of more than 400 people. In addition, more than 100 news items were published in various media and information was exchanged with various knowledge platforms on climate adaptation at national and international level. Finally, two face-to-face courses on green roofs and green facades and an online course on the experience gained during the implementation of the NbS at the school were held, with a total attendance of more than 250 people.",
+    "legal_context": "The main legal framework that regulates the green infrastructure in Spain is composed of the following regulations: The Spanish Technical Building Code . It is the regulatory framework that establishes the basic quality requirements that buildings must meet in relation to safety and habitability established in Law 38/1999, of November 5, of the Construction Regulation (LOE). The Spanish National Strategy for Green Infrastructure and Connectivity and Ecological Restoration. It entered into force in July 2021 and is the strategic planning document that regulates the implementation and development of Green Infrastructure in Spain, establishing a harmonized administrative and technical framework for the entire Spanish territory, including maritime waters under national sovereignty or jurisdiction. The Spanish National Plan for Adaptation to Climate Change (PNACC) 2021-2030. It is the basic planning instrument to promote coordinated action against the effects of climate change in Spain. The PNACC embraces NbS as desired options for cities, urban planning and buildings."
+  },
   "point": {
     "lat": 38.72611,
     "lon": -6.53791,
@@ -83,7 +243,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/nature-based-solutions-in-schools-a-green-way-to-adapt-buildings-to-climate-change-in-solana-de-los-barros-extremadura-spain",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-09-18T13:14:17+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

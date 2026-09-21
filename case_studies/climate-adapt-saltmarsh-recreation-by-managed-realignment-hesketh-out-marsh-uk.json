@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-saltmarsh-recreation-by-managed-realignment-hesketh-out-marsh-uk",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/saltmarsh-recreation-by-managed-realignment-hesketh-out-marsh-uk",
   "title": "Saltmarsh recreation by managed realignment, Hesketh Out Marsh – UK",
@@ -41,6 +41,95 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "restoration measure",
+      "label": "restoration measure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Hesketh Out",
+      "label": "Hesketh Out"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecological restoration",
+      "label": "Ecological restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "managed realignment",
+      "label": "managed realignment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood protection system",
+      "label": "flood protection system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "saltmarsh",
+      "label": "saltmarsh"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soft engineering",
+      "label": "soft engineering"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal defence",
+      "label": "coastal defence"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The main goal of the marsh realignment was to protect existing built assets and infrastructure on adjacent sites against flooding and help the estuary adapt to the threat of sea level rise, avoiding adverse impacts on estuary processes. Other objectives included: to create intertidal habitat for nature conservation; to create intertidal habitat that has unhindered tidal exchange, requires minimal management and has the capacity to respond to dynamic estuarine change; to avoid adverse effects on water quality and especially on bathing beaches as a result of faecal coliforms deposited in new intertidal areas by grazing animals; to maintain or enhance the existing landscape character, including features of historic, archaeological and environmental importance.",
+    "measures": "As sea levels rise and we experience the effects of climate change, we are starting to look at new ways of managing the coast, moving away from the solid flood-defence structures that have previously protected our coast and estuaries. The Royal Society for the Protection of Birds (RSPB) and the Environment Agency have explored a more natural way of dealing with coastal flooding, through what is called \"managed realignment\" – using land as a place to store floodwater. In the past, this land might have been drained for farming. But allowing floodwater back on to the land returns it to salt marsh or mudflats. These can then absorb the impacts of higher sea levels and increased storm surges resulting from climate change. The Royal Society for the Protection of Birds bought half of the land at Hesketh Out Marsh in 2006, to turn into a nature reserve. Since then, they have been working with the Environment Agency and other organisations to create salt marshes, creeks and lagoons. After first upgrading the original embankment inland, the Environment Agency then removed sections of an earlier (1980s) privately built embankment. This allowed high tides back on to the nature reserve to re-create 168 hectares of salt marsh habitat. This first part of Hesketh Out Marsh was restored in 2008. In the years thereafter, a grant from FCC Environment (a UK waste and resource management company) enabled the RSPB to purchase the remaining land of Hesketh Out Marsh East. Permission was obtained in 2013 for works to be carried out on site to strengthen the inner flood bank, carry out landscaping works and return the land to the tidal estuary. Works started in 2014 with the purchase of the first tranche of land and were completed in 2017 with the breaching of the outer bank. With the completion of the realignment of Hesketh Out Marsh East, a total of total of 322 hectares of land to saltmarsh was restored.",
+    "outcomes": "Main success factors included: commitment to partnership working particularly between the Environment Agency, the Royal Society for the Protection of Birds, Natural England and Lancaster City Council; engagement of several partners during the various phases of the project design and implementation, that ensured the necessary financial resources and the political will to deliver the project; adoption of an ecosystem-based and adaptive management approach. Limiting factors included: concerns over the impacts on the land drainage upstream of the site were raised by some local landowners and contributed significantly to the design of the scheme; the potential of for the project to increase the risk of bird-strike for the neighbouring aerodrome determined that the lagoon size was limited to 1ha. Islands - that might attract nesting gulls - were not included in the design to further limit this risk. In addition, i t was necessary to set up a monitoring system to observe the use of the site by some species that could be liable to create bird-strikes.",
+    "cost_benefit": "The total costs of the first phase of the Hesketh Out Marsh realignment (completed in 2008) are not available but the Environmental Agency estimates that about £2m saving was made from the ability to use local soil for the bank improvement work. The total out-turn cost of the second phase of the Hesketh Out Marsh realignment (completed in 2017) is £7.2m including both Environment Agency (project management costs) and RSPB expenditure (including land purchase and land management costs funded by RSPB and grants from external sources). Land purchasing was an important component of the total project costs. In the first part, the high cost of the land implied that the project only became economically feasible when the opportunity arose for the site to provide compensatory habitat to offset damage to the Morecambe Bay SPA in Lancaster District. The Lancaster City Council was looking for a suitable compensation site to offset lost intertidal habitat that would result from a project to improve the defences on part of Morecambe’s sea frontage. The Lancaster City Council was able to help funding the purchase of the site as compensation for the habitat loss in Morecambe Bay SPA occasioned by the sea defence works at Morecambe. Moreover, the Environmental Agency was able to contribute a significant amount towards the cost of the land in exchange for the use of the soil derived from excavating the creeks and lagoons on the site for the defence work. The availability of the material on site made the project feasible: a hugely expensive and environmentally damaging operation to import soil to the site by road was not necessary. The purchase of the land for the managed realignment of Hesketh Out Marsh East (the second part of the entire site) was funded through a significant grant of FCC Environment. Finally, funds from Biffaward and Natural England were used to provide facilities and services to visitors and for the cows and sheep that graze the marshes. These funds have also been used for research about the changes that are taking place as a consequence of the managed realignment. The Hesketh Out Marsh project provides protection from 1 in 200 years flooding event for about 140 residential properties and 3 commercial buildings. The newly created 322 hectares of saltmarshes in front of the flood defence embankment dissipate tidal energy, improving the resilience of coastal defences. Moreover, they provide priority intertidal habitats (according to the EU Habitats Directive) and biodiversity benefits for water birds, fish and invertebrates. Key target bird species for the recreated habitat include redshank, avocet and lapwing. Extensive data on bird species richness and abundance has been collected in recent years, clearly confirming the positive development of vulnerable natural habitats. The Hesketh Out Marsh project also contributes to the implementation of the EU Water Framework Directive: it is a key target action for the Ribble catchment in the North West River Basin Management Plan (RBMP). The project has also created a significant new recreational asset for the Ribble Coast & Wetlands Regional Park. It attracts 10,000 visitors per year as well as a dynamic educational resource for students of coastal change and adaptation.",
+    "timeline": "Work started in 2006 with the purchase of the first tranche of the land used for managed realignment (the final tranche of land was purchased in February 2016) and was completed in 2017 with the final breaching of the outer bank.",
+    "lifetime": "The embankment provides a standard of flood protection against a 1 in 200 year event meaning that further raising of the height of the embankment would not be required in the medium term (at least 25 years).",
+    "stakeholders": "The RSPB worked in partnership with the Environment Agency and Natural England and with funding from Lancaster City Council (LCC) (under the Lancashire Rural Recovery Action Plan), Biffaward (a fund which awards grants to community and environmental projects across the UK) and FCC Environment. The project also created facilities and a nature trail for visitors that help to disseminate the project goals and results. Furthermore, RSPB frequently organizes activities such as walks in the reserve.",
+    "legal_context": "Main legal aspects are related to: The EU Habitats and Birds Directives The Biodiversity 2020: A strategy for England’s wildlife and ecosystem services The Conservation Regulations 1994, relating to the Special Protection Areas; The EU Water Framework Directive; The Shoreline Management Plan; The Ribble Coast & Wetlands Regional Park initiative."
+  },
   "point": {
     "lat": 53.7170283162,
     "lon": -2.8578186034,
@@ -65,7 +154,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/saltmarsh-recreation-by-managed-realignment-hesketh-out-marsh-uk",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:44+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

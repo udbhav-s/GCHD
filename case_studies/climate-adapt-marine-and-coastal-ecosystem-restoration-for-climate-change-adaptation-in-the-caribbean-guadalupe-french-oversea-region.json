@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
   "title": "Marine and coastal ecosystem restoration for climate change adaptation in the Caribbean (Guadaloupe, French Oversea region)",
@@ -53,6 +53,137 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MARINE",
+      "label": "Marine and Fisheries"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal ecosystem",
+      "label": "coastal ecosystem"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coral reefs",
+      "label": "coral reefs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecosystem restoration",
+      "label": "ecosystem restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecosystem Services",
+      "label": "Ecosystem Services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mangroves",
+      "label": "mangroves"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Marine Ecosystem",
+      "label": "Marine Ecosystem"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "seagrass meadows",
+      "label": "seagrass meadows"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological mooring",
+      "label": "ecological mooring"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "nurseries",
+      "nursery",
+      "school",
+      "schools",
+      "young people"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 8
+    }
+  },
+  "intervention": {
+    "objectives": "The objectives of LIFE Adapt'Islands project are: Develop an ambitious, innovative and transferable strategy to adapt to climate change; Restore physical ecological connections between coastal and marine ecosystems; Demonstrate the efficiency and replicability of innovative techniques for restoring coastal and marine ecosystems in the Caribbean; Carry out an ambitious campaign to engage with civil society through educational and awareness-raising initiatives targeting business leaders, users, school children and the public. A key objective was to introduce the younger generations to the importance of sustainabilty using their environment, capturing the attention of decision makers, reaching a broad audience and fostering enduring gestures. Strengthen resilience to climate change by integrating coastal biodiversity with socio-economic development through involvement of economic stakeholders and development of training for young people; Replicate techniques developed during the project across the Caribbean and carry out an ambitious communication campaign for the Caribbean and Europe to disseminate results. These objectives are achieved through restoring and protecting coastal and marine ecosystems and their ecological connections, to improve the quality of goods and services that these ecosystems provide. In particular, corals represent essential habitats for diverse marine species, providing a natural barrier able to dissipate wave energy. Similarly, coastal forests (formed by coastal xerophytic forests, mangrove and swamp forests) can attenuate wave energy and limit coastal erosion. Located at the interface between land and sea, they host important species, including the Guadeloupe endemic species found only in this area (e.g., the Guadeloupe woodpecker). Finally, seagrass meadows can stabilize the soil, reduce wave effects on coastal areas and provide food for many species. Restoration actions pursue the objective of rehabilitating and protecting 45,000 m² of Coral reefs, 45,000m² of seagrass beds and 80,000m² of mangroves.",
+    "measures": "The solutions implemented in Guadeloupe were divided in “Rehabilitation Actions” and “Society Actions”. Rehabilitation actions were based on the development of an innovative strategy for adapting to the effects of climate change through the preservation of natural environments. Society Actions focussed on raising awareness and involvement of different communities (schools, citizens, tourists, scientists, politicians, planners and managers of natural areas) in good ecological restoration practices at different spatial scales (local, Caribbean, European and international). Society Actions are described in the section “Stakeholder participation” below. Rehabilitation actions were carried out in two project sites (the industrial zones of Jarry and Petit-Cul-de-Sac Marin and Folle-Anse in Marie-Galante). They were focussed on three target ecosystems (coral reefs, mangrove wetlands and swamp forests, and seagrass meadows). About Coral reefs, the actions were targeted to favour their reproduction and growth potential. Two technical solutions were adopted for transplanting corals from a donor site to a destination site, using “fragmentation” and “spawning collection” techniques. Fragmentation means taking a coral cutting to preserve a donor genotype. The species taken for the fragmentation were Acropora cervicornis , Acropora palmata , Porites porites , and Madracis auretenra. The cuttings are then cultivated in underwater farms made of 3 different substrates for the coral’s growth, depending on the species ( project video ). Two coral nurseries were created, one located north of Caye à Dupont between 9 and 11 meters deep on a sandy-muddy bottom and one west of the Caye à Dupont between 4 and 6 meters deep on a sandy bottom. Finally annual coral transplantation was done in several destination sites. Spawning collection technique involved the pooling of thousands of gametes (reproductive cells) ejected at the same time into the sea from different colonies of Acropora , through specific landing nets. Once the selection phase was over, some of the gametes were placed in a submerged container known as a “gamete cage”, where fertilisation takes place, and gametes were protected from predators. The new formed larvae can then attach themselves to appropriate supports called “biscuits”. The growth of these new-borns was monitored in the nursery. When they were mature enough, they were transplanted to their natural environment. About Mangroves, the actions were focussed on rehabilitation and restoration operations. An intervention area was the Canal du DIC (Domaine Industriel et Commercial) area, with a study perimeter of 124240 m 2. It was divided into two zones: a core zone of 68765 m 2 severely degraded and a buffer zone of 55134 m 2 that is used for ecological monitoring. Following preliminary studies, in a pilot site, clearing egan in late 2021. An amount of 891.97 m 3 of soil was excavated and filled to enhance mangrove development conditions. Mangroves restoration also involved the creation of nurseries for the target tree species. Those were maintained by the LIFE Adapt'Island team and by local nurserymen. By the end of 2022 three nurseries were established. In November 2022, a replanting operation involved more than 100 red mangrove propagules (seedlings) in Jarry, an industrial area heavily impacted by human activities. Monitoring of all the actions both in the nursery and on the target sites, is conducted to evaluate the success of the operations. About the Seagrass meadows , actions involved the introduction of specific anchorages for recreational boats (located in the area of the Grand port Maritime). The installation of an eco-friendly anchorage and light equipment zone (ZMEL) is being set up in the bay of Pointe-à-Pitre. The objective is to create an organized mooring designed to minimise the disturbance of boats on seagrasses. A new seagrass meadow was created in the Pointe-à-Pitre zone, near the Cochon Islet. Around 100 fruits of Thalassia testudinum were harvested in June-July 2023, followed by a cultivation phase in a controlled environment and accompanied by monitoring (July 2023 - January 2024). Then seedlings were transplanted to the destination site, in December 2023 - January 2024. An ongoing phase to monitor transplantation effectiveness (from December 2023).",
+    "outcomes": "One of the key success factors of the project lies in the extensive network of relationships built through a range of awareness-raising initiatives. These initiatives not only involved the local community but also encompassed efforts to forge partnerships with the scientific community, local stakeholders, programs to develop responsible behaviour of citizens (eco-citizenship), and international communication campaigns. Moreover, the project's endeavours to involve younger generations and the tourism sector further enhanced the effectiveness of these actions. The project stems from a previous successful initiative, the Cayoli environmental program, launched in 2016 and managed by the Gran port Maritime of Guadalupe. Cayoli was followed by Cayoli Junior in 2017, to strengthen the educational component alongside the ecosystem restoration. A pivotal success factor is the potential for scaling up engagement protocols. These protocols, although they need to be further proven in the environment, are designed to be replicable across the Caribbean region and have gained endorsement from the scientific community. Additionally, the project aims to facilitate the transfer of best practices at both regional and international levels. As for limiting factors, external variables beyond the project's control may lead to results below expectations. Environmental variables (major storms, predation, disease) can pose limits to the success of some specific restoration actions such as transplantation and reproduction actions. Strong evidence also indicated that in some cases, ecosystem destruction, due to multiple pressures, can be partly irreversible in the short term. The initial preliminary results of the restoration activities revealed concerns about the survival rates of seagrass meadows and coral transplants. Those were low due to external pressures such as mooring activities, the value of some climate variables, the resurgence of storms as extreme weather events, and diseases affecting species in the coastal area. To improve the success of the project, the project was adapted to balance protection (e.g. reducing pressures through installing eco-mooring) and restoration, ultimately achieving positive outcomes for seagrass meadows and mangroves. This revised plan emphasized the importance of immediate protection of endangered ecosystems, particularly seagrass beds, alongside restoration efforts. It also revealed the importance of adopting a flexible approach to adaptation. Several scientific studies highlight the challenges of restoring Caribbean seagrass beds solely by planting seeds or seedlings. They suggest that restoration must be complemented by protection activities. Both strategies must work together to achieve the common goal of safeguarding natural capital. Finally, the restoration efforts performed in this project faces high logistical and cost challenges.",
+    "cost_benefit": "The benefits of the project include the restored ecosystem services provided by corals, mangroves and seagrass meadows. These include regulating functions, such as stabilizing and trapping sediment, safeguarding the coastline against extreme weather events, reducing flood risks, enhancing water quality, and conserving biodiversity. Cultural and recreational values were also provided, by preserving and enhancing the landscape beauty. Additionally, the project is gradually paving the path towards a better acceptance of Nature-based Solutions to adapt to climate change. In this regard, the benefits of the \"Society actions\" component includes the dissemination of enhanced knowledge and awareness for various stakeholders, including residents and tourists). Furthermore, the socio-economic aspect of the project is expected to benefit the entire region. This includes the creation of new job opportunities, the development of local skills, the promotion of careers related to the environment, the stimulation of eco-tourism offers and an increased number of individuals knowledgeable about climate change adaptation and the protection of coastal ecosystems. Costs included a substantial investment from public and private authorities in the region. Success was not guaranteed, and no direct return on investment was expected, except for the preservation and restoration of marine and coastal ecosystems. The project received an EU Funding contribution of 2,532,707 EUR.",
+    "timeline": "The project’s activities’ implementation time ranged from 01/07/2019 to 30/06/2024. Within this period, the coral transplantation has been carried out annually in 2021, 2022 and 2023, preceded in 2020 by a fragmentation activity. The mangroves rehabilitation and restoration began in late 2021 with clearing activities. By the end of 2022, the nurseries were established. The seagrass meadow ecosystem preservation actions were completed in January 2023, while the installation of Screw Anchors was realized between August and September 2023. The second phase on seagrass restoration took place in June-July 2023, followed by a cultivation phase in a controlled environment (July 2023 - January 2024). The final transplantation, was done in December 2023 -January 2024. Monitoring activities started in December 2023 and are planned until June 2024. They will be sustained also after the end of the project.",
+    "lifetime": "The solutions implemented in this case study are supposed to have an indefinite lifetime. However, the lifetime is affected by the survival rate of restored and planted species, which cannot be predicted. Continuous monitoring is essential to ensure the long term effectiveness of solutions.",
+    "stakeholders": "The ‘Society Actions’ of the project involved the civil society and the communities across various sectors including: The scientific community for evaluating protocols, disseminating scientific knowledge, acquiring expertise, and fostering partnerships; The civil society, to promote eco-citizenship (responsible behaviour of citizens towards the environment) by raising awareness about the preservation of natural environments, educating the younger generation and supporting associations in adopting responsible and sustainable approaches. Local stakeholders, representing various sectors such as the water management (Syndicat Mixte de Gestion de l'eau et de l'assainissement de Guadeloupe, SMGEAG), the maritime fisheries and aquaculture (Comité Régional des Pêches Maritimes et des Elevages Marins de Guadeloupe (CRPMRM) and the Port Authority (Grand Port Maritime de la Guadeloupe, GPMG). This facilitated the creation of partnerships, the development of local economic sectors, the dissemination of best practices for developers and managers, and the support to associations. Additionally, efforts were made to collaborate with research and cultural institutions (University of Antilles, Conservatoire du Littoral, ect) and governmental bodies (Region, Direction de l'Environnement, de l'Aménagement et du Logement de Guadeloupe (DEAL), Agence Régional de la Biodiversité des iles de Guadeloupe (ARBiG), Parc National de la Guadeloupe (PNG), Office de l'eau de Guadeloupe (ODE), URAPEG France Nature Environment), at different governance levels, guiding and influencing territorial public policies. Further engaging actions included awareness raising campaigns on the importance of seagrass beds, including the creation of an underwater seagrass meadow trail, an illustration poster campaign to promote best practices, and a television awareness campaign and field outreach events.",
+    "legal_context": "The project’s results are aligned and support the EU Adaptation Strategy to climate change (adopted on 24 February 2021) and the EU Biodiversity Strategy for 2030 (of the 20 th of May 2023), aimed at protecting nature and reverse the degradation of ecosystems. At local level, the activities show a strong alignment with the Cayoli environmental program , managed by the Gran port Maritime of Guadalupe. The Cáyoli program was initiated in June 2016. Before its implementation, the Environment Department of Guadeloupe Port Caraïbes worked for several years to improve knowledge of the natural areas of the port district. This knowledge provision supported the impact study of the New Generation Port upgrade but also by supporting the actions of environmental associations through technical and financial means. The first two years of the program were largely dedicated to research and development. The aim is to propose rigorous scientific protocols for the management and active restoration of the natural environments targeted by the program."
+  },
   "point": {
     "lat": 16.240787902095988,
     "lon": -61.570224365814234,
@@ -87,7 +218,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/marine-and-coastal-ecosystem-restoration-for-climate-change-adaptation-in-the-caribbean-guadalupe-french-oversea-region",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:51+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

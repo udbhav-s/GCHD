@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-an-integrated-plan-incorporating-flood-protection-the-sigma-plan-scheldt-estuary-belgium",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/an-integrated-plan-incorporating-flood-protection-the-sigma-plan-scheldt-estuary-belgium",
   "title": "An integrated plan incorporating flood protection: the Sigma Plan (Scheldt Estuary, Belgium)",
@@ -53,6 +53,138 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "depoldering",
+      "label": "depoldering"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Controlled flood area",
+      "label": "Controlled flood area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature restoration",
+      "label": "nature restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Habitats Directive",
+      "label": "Habitats Directive"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "dike",
+      "label": "dike"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sigma Plan",
+      "label": "Sigma Plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetlands",
+      "label": "wetlands"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "embankment",
+      "label": "embankment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Scheldt estuary",
+      "label": "Scheldt estuary"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "nurseries"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The main objectives of the Sigma Plan are to protect the land bordering the Scheldt River and its tributaries such as the Rupel, the Nete and the Durme rivers from storm surges and river flooding. Another objective is to restore the Scheldt's ecosystems, helping Belgium meet its EU obligations for nature protection and achieve conservation objectives in the framework of Natura 2000. Moreover, the Sigma Plan aims to make the Scheldt and its tributaries more attractive to cyclists, hikers and other visitors, enhancing different recreational uses of the area.",
+    "measures": "While the Sigma Plan’s main purpose is flood control, the plan is based on an integrative perspective on river management which acknowledges various river functions and their importance for society. These include: shipping, nature protection, preservation of landscape values, cleansing functions, fish nurseries and more. The Sigma Plan was originally conceived in 1977 with flood control as its main purpose. Since then, perspectives on water management have evolved. An updated Sigma Plan was adopted in 2005. It was based on three main pillars; flood protection, access to Scheldt Ports and a natural functioning of the physical and ecological system. The original Sigma Plan called for dikes stretching a total length of 512 kilometres to be raised and strengthened, the establishment of 13 controlled flood areas covering a total of about 1,100 hectares, as well as the construction of a storm surge barrier. Plans for the storm surge barrier were later suspended after analysis showed that the benefits did not outweigh the costs. The consideration that the storm surge barrier was prohibitively expensive, together with an increased demand for a healthier river ecosystem, led to a greater application of a concept called ‘room for the river’. The 2005 revision also took into account projected climate change impacts. The 2005 plan gives a greater role to controlled flood areas (CFAs) and depoldered areas that counter storm surges by temporarily storing excess water. Controlled flooding areas have low dikes, called overflow dykes, along the river, and higher dykes on the inland side to maintain flood protection. The overflow dykes allow water to flood during storm surges. After high water levels have receded, drainage outlets allow water to exit. The CFAs help attenuate the impacts of flooding events by increasing the river catchment area, thus reducing upstream water levels. The volume of many CFAs is increased as their ground levels are below the average water level due to historic compacting of the soil and loss of natural sedimentation processes. These low ground levels however mean that overflow dikes and artificial water regulation are needed. The predominant use for land within CFAs has been as nature areas that contribute to achieving conservation objectives and improving water quality. Under EU nature legislation – in particular, requirements to compensate for the loss of natural areas taken by the expansion of the Port of Antwerp – the total area set aside as flooding areas was increased for the purpose of nature development: by 2030, a total of about 2,450 hectares are to be created. Another 650 hectares have been indicated as possible future flood zones to be constructed after 2030 if necessary to guarantee flood safety beyond 2050. Some CFAs also include controlled tidal areas, where a regular, reduced tide is produced through an adjustable weir system in the overflow dike. During high tide, water from the Scheldt flows into the area through a weir and during low tide it flows out through a low weir. The controlled tidal areas allow for the creation of tidal habitats while maintaining the CFA’s functions. Depoldering areas are zones where dike protection is moved inland exposing a former polder (land reclaimed from the water) once again to tidal influences. Depoldered areas provide room for river water during high water levels. Thus they, like the CFAs, attenuate storm surge levels. They also provide room for estuarine habitats. The Sigma Plan also includes projects aiming to raise and reinforce river levees for a total length of 645 km. The required thickness and height of the Scheldt river levees have been calculated considering the water pressure on the levees, through simulations of storm tides with computer models. Levees are raised to 8 metres TAW (Tweede Algemene Waterpassing, the reference height for measuring water levels in Belgium) in those areas that are more upstream along the River Scheldt. Levees are raised to 11 metres TAW in the section between Antwerp and the Western Scheldt. The Sigma Plan has already proven its effectiveness in recent years during several storms surges occurred between 2013 and 2018, successfully containing excess water and preventing dangerous flooding. In particular, during the event of the 3 rd January 2018, a strong storm tide caused very high water levels in the Scheldt and its tributaries. Fifteen Flood Control Areas, out of the total sixteen already completed, became operational, buffering the excess water.",
+    "outcomes": "Main success factors include: The coordinated identification of suitable areas for the development of controlled flood zones, providing increased safety with limited damage caused to agriculture, land use and economy. The integration of climate change and sea level rise projections. The integration of compensation for areas lost by port expansion and the dredging of the Scheldt in the plan’s overall objectives, strengthening its profile in negotiations with local governments and stakeholders. The availability of areas for the compensation of natural habitats lost due to infrastructure works in the Scheldt Estuary. The ability to expropriate the land necessary for the controlled flood areas. Landholders are compensated for the existing price of the land plus 20%. Where feasible, expropriation can be delayed to the time when a farmer retires or is near to retirement. The ongoing engagement of plan managers with stakeholders during the phases of each project and in the overall decision-making process – this has addressed initial opposition (see limiting factors). Application of cost-benefit analysis (CBA) and environmental impact assessment (EIA) to strengthen plan and project design. Limiting factors include: Stakeholder opposition has been an issue for the construction of the Kruibeke CFA and also in the Netherlands for the Hedwige Polder project. Budget restrictions have slowing the implementation of the plan, which could push its completion beyond the intended date of 2030.",
+    "cost_benefit": "In 2005, the total costs for realising the updated Sigma Plan were estimated at 882 million Euros: 830 million for construction works and 52 million Euros for accompanying measures. In 2010, an update of the estimates resulted in a cost estimate of 994 million Euros for the works and 62 million Euros for the accompanying measures, due to mainly to overall price increases. The 2005 Sigma Plan included a detailed cost benefit (CBA) analysis to assist in determining the optimal plan. In total, 180 potential areas were considered for use as controlled flood areas, with a total surface area of 15,000 ha. The CBA took the average annual flood risk during the 100 year project life into account, allowing for a sea level rise of 60 cm and taking into account climate change. The economic risk with only the works of the original (1997) Sigma Plan without the storm surge barrier completed was estimated to be 942 million Euros. From the cost benefit analysis, it was found that the optimal scenario included the raising of dikes and the use of CFAs. The safety benefits of the optimal scenario were estimated to be 736 million Euros. A cost benefit analysis of the ecosystem benefits was also undertaken. This analysis used various available market prices for goods such as for timber production, reed production, carbon dioxide capture, fish production (shrimp), and the prevention of riverbed erosion leading to a reduction in dredging activities. It also used studies to price goods and services with no available market values. Goods and services with no available price information were studied using contingent valuation methods and hedonistic pricing, for example by seeing how housing prices near the project areas could change. The hedonistic price change was estimated using data from other studies while for the contingent valuation study a total of 1,704 questionnaires were collected. The conclusion of the extensive CBA to determine ecosystem benefits found that the benefits range between 143 and 984 million Euros, with the highest level of benefits realised by the maximisation of the use of controlled tidal areas. The non-use value that people attributed by people was the largest benefit measured but also the most contentious. From the cost benefit analysis it was concluded that the benefits outweigh the costs. From an environmental perspective, several benefits and losses can be identified. Benefits include: Restoration of estuarine processes with accompanying water quality gains; Development of more robust nature areas of high quality that are protected at European level; Desirable changes to the sedimentation regime, with increased sedimentation in the inundation zones leading to a lower turbidity in the river; Reduction in tidal energy. Losses include: Loss of former cultural landscapes (mainly agricultural landscapes); Impacts on agriculture and other land use functions in flood zones (monetary compensation and in some cases compensation in the form of alternative agricultural land was provided to farmers) Impacts on valuable groundwater upwelling nature zones and valley ecotypes; Sedimentation impacts on the soil quality in the flood zones. Some benefits of the implementation of the Sigma Plan have been already experienced, with an overall increase of protection of the area during storm surges, as reported in the section about solutions.",
+    "timeline": "The Sigma Plan was initiated in 1977 and was updated in 2005. Sigma Plans comprises different projects that are launched every five years. The works under the 2005 plan will be completed in 2030. Additional works are planned for the period after 2030 depending on the extent of sea-level rise and/or climate change.",
+    "lifetime": "The plan should provide protection at least until 2100.",
+    "stakeholders": "The Flanders Region has followed a strategy of open communication in order to implement the Sigma Plan in a way that maximizes public acceptance and support. The communication strategy is coordinated by Waterwegen en Zeekanaal NV (W&Z) (Waterways and Sea Channels), a department of the regional government, with consultation at ministerial level and under the oversight of a steering group. The steering group includes representatives of various public institutions, including the Department of Waterways and Sea Channels, the Agency for Nature and Forests, the Department for Land Use Planning, the Department for Housing Policy and Heritage Buildings, the Department of Environment, Nature and Energy, the Department for Agriculture and Fisheries, the Flemish Land Agency, the Executive Secretariat of the Flemish-Dutch Scheldt Commission and the OS2010 working group. Communication is carried out using various tools including brochures, newsletters and educational materials for children as well as meetings to disseminate information and discuss key issues with stakeholders. Specific types of stakeholders have been actively involved in the planning, including agricultural organisations, environmental NGOs, hunters, fishers and the tourism and hospitality industry. Important stakeholders for Sigma Plans are farmers, because several projects have been planned in areas used for agriculture. The effects of Sigma Plan on farms have been analysed with the Flemish Land Agency and discussed with farmers, leading to an agriculture impact study and to the definition of measures to mitigate or compensate the loss of land. The communication strategy focuses on three outcomes from the Sigma Plan. The first and primary pillar is the increase in flood safety; the other two pillars are recreation, and nature protection. Each project part of the plan is extensively communicated to the public and focus groups are organised at both regional and local levels. In Belgium, the Kruibeke project was the only one that saw significant opposition, delaying the final completion of the project. A trans-boundary project involving the depoldering of the Hedwige Polder , located in the Netherlands, has also resulted in stakeholder and public opposition.",
+    "legal_context": "The Sigma Plan is part of the Scheldt Estuary Development Outline 2010 . This is a combined package of measures and projects in Flanders and the Netherlands aimed to create a safer, more accessible and natural river Scheldt, with a view to all its functions. Key EU legislation relevant to the plan has included: the Birds and Habitats Directives, the EIA and SEA Directives, and the Water Framework Directive and Floods Directive. The nature protection aspect was added to the Sigma Plan in large part due to obligations under the EU Birds and Habitats Directives. The expansion of Port of Antwerp, in particular the construction of the Deurganck Dock, led to the need for compensation of lost natural areas. In 2001, construction of the dock area was halted by court order due to its impacts on special protection areas (SPAs) under the Birds Directive. To continue the project, the Flemish Government approved an emergency decree that unblocked construction of the Deurganck Dock and called for nature compensation within the Kruibeke controlled flood area. This event, together with the ongoing need to comply with EU environmental obligations, contributed to the Flemish government’s decision to make nature protection the second pillar of the updated Sigma Plan. The plan was adopted in 2005. Individual Sigma Plan projects follow a stepwise plan that follows the legal procedures to obtain the relevant permits. The first step is to design a development plan outlining the zone uses, the exact contours of the controlled flood area, the nature types to be developed and how agricultural land will remain accessible. Next, an environmental impact assessment study (EIA) needs to be undertaken detailing the impacts on surrounding people, effects on the soil and waterways and other impacts. Following the EIA process, and any changes it requires, the regional land use plan needs to be adapted. Finally, planning permits are needed. Once all permits have been obtained, the construction can be initiated."
+  },
   "point": {
     "lat": 51.3331857661,
     "lon": 4.26750183088,
@@ -77,7 +209,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/an-integrated-plan-incorporating-flood-protection-the-sigma-plan-scheldt-estuary-belgium",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:01+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

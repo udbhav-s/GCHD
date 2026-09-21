@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-amphibious-housing-in-maasbommel-the-netherlands",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/amphibious-housing-in-maasbommel-the-netherlands",
   "title": "Amphibious housing in Maasbommel, the Netherlands",
@@ -38,6 +38,94 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "building permit",
+      "label": "building permit"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood zones",
+      "label": "flood zones"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Amphibious houses",
+      "label": "Amphibious houses"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "safety",
+      "label": "safety"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "room for the river",
+      "label": "room for the river"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "floating",
+      "label": "floating"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the Maasbommel project was to test and demonstrate the amphibious house concept in a real environment, as a concrete (current and future) adaptation solution to allow urban settlement and development in flood zones, thus preserving at the same time both the water storage capacity and the economic value of the area. This project demonstrates a transformative approach to adaptation in comparison with the conventional flood resilient infrastructure.",
+    "measures": "To obtain the permit for the development of the amphibious houses, a design meeting several requirements was elaborated. The houses needed to be able to float up vertically to 5,5 meters. With regard to safety, a house should have an escape route. This means in the case of the amphibious houses that the bridge providing access to the house is not sufficient itself. An escape route also needs to be provided when the house is in floating position. In addition, it needs to meet the standard requirements for load combinations of the main construction and fire safety. Houses built in the floodplains also need to comply with the National Water Act. To meet the safety requirements, a weir needs to be integrated in any construction within the floodplains. The way in which these requirements are met affects the category in which the house is defined. This in turn affects the rights of the future residents and the market price of the house. Taking into account the demands of the government, design consisting of a concrete base with a wooden skeleton construction on top was developed. Wood is used to support the floating capacity of the construction as it ensures that the total construction remains as lightweight as possible. The foundation of the house consists of a large, hollow concrete cube, which is “moored” on huge steel pipes to keep the house in place while enabling it to move vertically in case of rising water levels. Residents can feel a very small up and down movement while being in the house, even when it is not in a floating position. This construction method means that amphibious houses have a fixed location as they are constantly connected to the soil through their foundation. The houses differ in this respect from the traditional houseboats, which are based on a fully floating construction that is similar to a boat. To prevent the houses from dislodging in the mud, there is a need for some room between the foundation and the soil. Connections to water, gas, electricity and other supplies also need to be flexible as the complete house needs to be able to float. Therefore, these connections are brought into the house through flexible piping that is able to move depending on the water level. This ensures that utilities can keep functioning in case of high water. An escape route is ensured through a boat to enable residents to reach the shore in case the house is in its elevated position.",
+    "outcomes": "Main identified success factors are: The first genuine test of the concept came in 2011, when the water of the river Maas increased to a level that caused the amphibious houses to float for the first time. Also, in floating condition there were no problems detected. The residents have stated that they are very satisfied with their houses. Since their realization, the amphibious houses in Maasbommel have received a lot of attention in the international press. In September 2010, the Maasbommel project was awarded with the Water Wonen & Ruimte Award (Water Living & Space Award) for its iconic contribution to architecture that set an example for future developments. Maasbommel also served as an example in a Dutch government campaign on building experiments adapting to flood risk. Dura Vermeer, Factor Architecten and Boiten have been involved in spin-off projects. Together they launched a project in the village Ohé en Laak on the Maas in the Limburg region in the Netherlands, consisting of 32 buildings (4x6 floating and 4x2 amphibious home), the “Maasvilla” project. Only 2x6 floating homes were built so far. Factor Architecten also developed a design for the construction of amphibious houses in the flood zones of Lac de Raby in France. A floating exhibition pavilion in Rotterdam was designed by Public Domain Architecten and Deltasync, and built by Dura Vermeer Bouw Rotterdam in 2010. The concept also offers potential for the integration of mitigation measures. An example is the development of six emission-free amphibious houses in IJburg, which were designed by architecture agency Art Zaaijer. These houses have the ability to turn direction, which makes them especially suitable for solar energy generation. Although the pilot in Maasbommel has been successful, the further expansion of the concept has been limited to a few locations. This slow uptake contrasts with the prediction made that floating houses will play an important role in compensating the shortfall of land of 40% in the next 40 years. More confidence in the floating housing market can stimulate further developments, which could be supported through appropriate regulation. The confidence of potential future residents also depends on the costs of floating or amphibious housing in comparison to traditional housing, the insurance possibilities, and the housing typology for which a permit can be obtained. In the case of Maasbommel, the houses were assigned a recreational status due to the designation of the area as a recreational zone in the local zoning plan. This poses restrictions on the usage of the houses, for example residents are only allowed to live in the house part of the year. Another limitation is the willingness of future residents to live in an amphibious house. A study by the Technical University of Delft in the Netherlands showed that mostly highly educated people already living in a detached house were interested in amphibious living. The crisis on the Dutch housing market in 2008 potentially even further reduced this group of potential buyers and decreased the confidence among investors in the floating housing market. This has limited the further development of the concept. However, there are signals of increased confidence in more recent year, as described in the next sections.",
+    "cost_benefit": "The amphibious houses in Maasbommel are considered expensive for Dutch standards. They were the first realized amphibious houses in the Netherlands and therefore all the (pre-fab) construction elements needed to be specifically made for the project. This led to higher construction costs. The houses were sold for around 320.000 euros at the time. Although the houses are quite large with an average floor area of 120 square meters, this is considered a high price for a recreational house (i.e. families cannot live there all year). Especially since the price of the average residential house in 2005 was around 222.000 euros in the Netherlands. In addition, there was a higher risk involved due to new technology being applied. This concern was mitigated by Dura Vermeer by offering a 15-year guarantee for the floating ability of each house. A larger adoption of the technique would allow construction for this type of house to become cheaper and increase commercial interest. Despite the high construction cost, the concept is still of interest to developers as it enables them to use water as a “building ground” which then reduces the site preparation costs. Building ground is very valuable in densely populated areas such as the Netherlands. In the Netherlands, site preparation costs are usually quite high because the soil is not suitable to be built on directly as it does not have any carrying capacity. Direct construction will cause the houses to sink into the ground over the course of time, which will ultimately cause damages to the house. Therefore, it is a standard procedure to prepare the site through reinforcements, which are quite expensive and drive-up the price of the house. In case water is used as building ground, the construction floats and is therefore less dependent on the carrying capacity of the soil. Additionally, the pre-fab elements of the house can be constructed off-site, which means that the houses can be realized with less nuisance for nearby residents. Building on water could have the potential to provide an interesting alternative for the construction industry, but until now the costs of floating and amphibious houses have proved to be higher compared to the construction of a traditional house. Standardization of building elements and design tools has the potential to reduce the costs in case of a larger adoption of the concept. Also, the type of costs taken into account affect the final amount. For example, the costs for making the construction of floating or amphibious houses flood resilient are included in the construction. In case of traditional housing, the costs of flood resilient infrastructure are paid by the community through the taxes raised by the Water Boards. The impact and quantity of these costs are hard to assess at this moment as only around 10 projects have been realized in the Netherlands. Another issue which emerged is the unavailability of affordable financing and the overall lack of confidence of the real estate market in these unconventional houses. Since they cannot be used as permanent place of residence, and they have a somewhat hybrid nature between real estate and vessels, there are hardly any financial institutions in the Netherlands willing to provide traditional mortgage loans at affordable interest rates. All what is generally available are the more expensive ones usually issued to finance the purchase of boathouses. However, there are some recent positive signals. For instance, it appears these houses have kept their value, recovering from the crisis of the real estate market of 2008. They still sell for a price close to their original selling price as new units, according to the architect in charge of this project at Factor Architecten. He also pointed out that the main non-monetary benefit that this project may have brought about, is “the proof this project delivers that a floating and amphibious concept can be an attractive typology over time. We see that in still ongoing projects elsewhere as well: because of the success of Maasbommel, international investors are still very much interested in the typology, even though it’s of course very hard to realize a project within regulations abroad.”",
+    "timeline": "Amphibious and floating houses in Maasbommel were designed between 1998 and 2004 and constructed between 2004 and 2005.",
+    "lifetime": "Amphibious and floating houses can be considered “permanent building”. There is no reason to expect any limitations to their lifetime, as long as they are regularly maintained.",
+    "stakeholders": "Besides the developer and the designers, other stakeholders involved in the project are: Rijkswaterstaat, the agency of the Dutch Ministry of Environment charged with the practical execution of public and waterworks. They are responsible for the management of the flood zones. They were among the promoter of the intervention and were specifically included in the process to ensure that safety requirements for construction in a flood zone are met. Despite some initial hesitation of the national authority Rijkswaterstaat, the rules were eventually adapted so that building permissions could be obtained. In 2005, the Ministry of Housing, Spatial Planning and the Environment announced they would accept proposals for amphibious and other flood-resilient structures in 15 flood-prone areas (the so called EMAB locations). Municipality of West Maas and Waal, which is the local governmental body authorized to draft zoning plans, supply building permits and building codes and grant permission for land allocation. They assess compliance to all applicable legislation for which means they are charged with making interpretations of how the national requirements translate to the local situation. This compliance determines the approval of the building permit. The residents of the amphibious houses, who responded very positively to their new residences. The first residents indicated that living in an amphibious house is a conscious choice for more adventurous living in the middle of nature. They specifically chose the houses for their ability to resist floods.",
+    "legal_context": "Although the stakeholders who are involved in the floating houses development process are enthusiastic about the concept, the planning process for the development of new initiatives is still difficult. Three main aspects that hinder the development process can be identified. The first is the continuous insecurity on the interpretation of regulations by the municipality and Rijkswaterstaat, which can cause serious delays in the building process. This could be mitigated through the development of guidelines for the local government on the interpretation and implementation of the national legislation in relation to the local situation. Another reason for the slow adoption of the concept is the lack of faith in the floating housing market by developers. In the case of Maasbommel, the project obtained permission for realization through an experimental policy program of the Dutch Ministry. This program has currently ended. Therefore, a new project would need to meet the requirements of Rijkswaterstaat. This means that the developer is financially responsible for the realization of additional measures to compensate for any hindrance of the water flow that the houses might cause. Clear and consistent legislation could help to create a stable market for these types of developments. Finally, existing land use plans can also pose a barrier to the more frequent adoption of the floating housing concept and should therefore include floating housing concepts more frequently. The development of the floating and amphibious housing flared up a debate on their legal status as either a house or a boat. The status of a house is defined by the typology assigned to a location in the local zoning plan. In the case of Maasbommel, the amphibious houses have therefore officially received the status of a recreational home. The duties and rights of the residents depend on the legal definition of the house and whether it complies with the Dutch Housing Act. The definition can for example affect the possibilities for future residents to apply for housing related subsidies. In 2014, the Dutch Council of State ruled that the definition of a floating or amphibious house as a construction should be dependent on their future use rather than their manner of construction. This means that the houses have to apply for a building permit and comply with regulation in the Dutch Housing Act and the National Building Code. This leads to further complications as current regulation and building codes are not supportive of floating housing requirements. To address these issues, the Ministry of Housing and Civil Service issued a new proposal for legislation in 2015. However, to date the regulation of floating and amphibious houses has not changed as the NTA 8111 standard, dating back to 2011 and converting standard building regulations to the specificities of floating homes, has not yet been updated. Recently, the Maasbommel municipality denounced the unlawful permanent occupancy of the majority of the floating houses. The houses have been officially designated as holiday houses, which implies that they cannot be used as permanent residence by their dwellers. This is of course a very minor legal issue not related to the adaptation value of the project and does not affect their overall social acceptability. Indirectly, it might even be signalling an increase in the popularity of floating houses."
+  },
   "point": {
     "lat": 51.8200760406,
     "lon": 5.5391693113,
@@ -67,7 +155,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/amphibious-housing-in-maasbommel-the-netherlands",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:59+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

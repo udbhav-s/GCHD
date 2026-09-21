@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-the-economics-of-managing-heavy-rains-and-stormwater-in-copenhagen-2013-the-cloudburst-management-plan",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-economics-of-managing-heavy-rains-and-stormwater-in-copenhagen-2013-the-cloudburst-management-plan",
   "title": "The economics of managing heavy rains and stormwater in Copenhagen – The Cloudburst Management Plan",
@@ -44,6 +44,104 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heavy rainfall",
+      "label": "heavy rainfall"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stormwater management",
+      "label": "stormwater management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "economics",
+      "label": "economics"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Cost benefit assessment",
+      "label": "Cost benefit assessment"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the Cloudburst Management Plan is to reduce the impacts of pluvial flooding due to heavy rains, which are expected to increase in frequency as a result of climate change. The plan builds on a detailed socio-economic assessment to ascertain whether cloudburst and stormwater management can pay off for society as a whole. Previously, sewer discharge was allowed to ground level once every 10 years. With the new management plan, sewer discharge will still be only allowed to reach ground level once every 10 years, but average water levels will lonely be allowed to exceed ground level by 10 cm once every 100 years (except areas designated for flood control).",
+    "measures": "The City of Copenhagen has neither the capacity nor the economy resources to implement all measures at once. The Cloudburst Management Plan operates with a minimum time frame of 20 years, requiring a prioritisation of individual projects in line with the Copenhagen Climate Adaptation Plan. Pluvial flood risk will be addressed through adaptive measures to store or drain excess water at ground level, such as reopening streams, constructing new canals or establishing lakes and more green spaces, and using roads with high kerbstones to lead the pluvial flood water into these. In addition, in the most densely built-up area of central Copenhagen, the water can be diverted to the harbour through large pipes. In particular, the Cloudburst Management Plan consists of four surface solutions as well as pipe-based solutions, including: Stormwater roads and pipes that transport water towards lakes and the harbour; Detention roads for storing waters; Detention areas to store very large volume of waters, e.g. parks that could turn into lakes during flood events; Green roads to detain and hold back water in smaller side streets. 300 projects are planned and the City will decide once a year which projects will be undertaken through a prioritisation selection, considering: High risk areas: In connection with the Copenhagen Climate Adaptation Plan, a risk analysis was prepared. The results were presented as a risk map pinpointing the city areas with the highest risk of flooding (expressed in DKK) and, consequently, where adaptive measures would have the biggest effect. Areas where measures are easy to implement: Areas where, by applying relatively simple measures, pluvial flood water can be drained to localities where it will not impact. These would be areas close to the harbour such as Ny Kongensgade and Ved Stranden where pluvial flood projects were carried out in 2012 to protect the areas against flooding by making openings in the quay thereby allowing the rainwater to drain into the harbour. Areas with ongoing urban development projects: The costs of pluvial flood projects can often be reduced considerably if they are implemented in conjunction with renovation projects and new urban development projects (e.g. road renovation). Areas where synergistic effects can be gained, e.g. by combining flood risk initiatives with those of other urban schemes such as local authority water directives. It is estimated that around 15 projects a year will be carried out in the next 20-30 years. In addition to the prioritisation of projects in terms of importance for flood prevention, a socio-economic assessment was undertaken. The assessment consists of: An assessment of the risk of flooding in the event of more rain and torrential downpours as well as the costs of damage it can cause over the next 100 years if we do nothing (“business as usual”). A calculation of construction and operating costs in the traditional solution (sewers) and the combined alternative solution. A comparison of the costs in the two solutions and the gains in reducing damage in the city in relation to “business as usual” (cost-benefit analysis). This calculation provides an answer to the question as to whether the solutions are advantageous in relation to doing nothing (“business as usual”). A comparison of the traditional solution and the alternative solution in relation to the specified service objectives (cost-effectiveness analysis), which provides an answer to the question as to what solution is most advantageous if there is a wish to meet the municipality’s service objectives. The assessment took into account a net charge factor of 17% and a tax distortion loss of 20% within the estimated construction costs. Since the solutions are implemented gradually over 20 years, 1% is added per year in operating costs for the surface solutions and .5% per year for other solutions. The assessment found that while both the traditional sewer solution and the alternative solution meet the municipality’s objectives concerning stormwater and cloudbursts, the alternative solution results in higher net benefits. The traditional sewer solution has been estimated to cost DKK 20 billion compared to the DKK 13 billion of the alternative solution. Both solutions would reduce the costs of damage by DKK 16 billion; thus, the net gain of the alternative solution is DKK 3 billion compared to the net loss of the traditional solution of DKK 4 billion. To illustrate the uncertainties in the economic assessment, a supplementary calculation was made of the alternative based on the Finance Ministry’s guidelines from 2013 concerning socio-economic discounting. The calculation shows that the total damage rises from DKK 16 billion to DKK 18 billion over 100 years and that the net gain also rises from DKK 3 billion to DKK 5 billion. This result is due in particular to the Ministry of Finance’s discounting attributing greater weight to reductions in damage further in the future.",
+    "outcomes": "A number of challenges to implementing the projects in the Cloudburst Management Plan have been identified: Projects will need to be carried out on private roads. 132 km of private roads (around 30%) have been included in the plan, and road-owners can decide whether projects will be implemented. It may be necessary to purchase roads considered crucial to the management (currently 9km of roads have been identified). The plan may impact conservation goals. An initial analysis of the environmental impact of the plan has taken place and there is a possibility to get exemptions from the Conservation Board in a couple areas. The prioritisation of the projects emphasizes large-scale projects, which will require cooperation between municipalities and also private land owners. Stormwater will need to be treated to ensure a proper water quality; solutions are being tested.",
+    "cost_benefit": "Costs Construction economics is calculated in relation to what it would cost to establish a system for cloudburst and stormwater management in Copenhagen if it was built tomorrow. The total estimate of construction costs consequently differs from socio-economic costs by measures where the costs are calculated in terms of present-day value over a longer timeframe with a supplement of 37% in charges and tax distortion. The construction estimate contains 20% for project planning and 20% for unforeseen expenses. The estimate does not contain depreciation and operating costs. It will cost DKK 11bn at 2015 prices to construct the combined solution: Surface solutions will cost an estimated DKK 4.975 billion. The costs of municipal and the private co-financing projects will be reimbursed through water charges. Cloudburst pipes will cost an estimated DKK 2.66 billion, covered through water charges (HOFOR). Disconnection and connection outside property boundary will cost around DKK 1 billion, covered through water charges (HOFOR). Protection of homes with anti-flood backwater valves and disconnection within property boundary is estimated at around DKK 2.4 billion, financed by landowners. The option of urban space improvements will cost around DKK 1 billion and will be financed by the City of Copenhagen. The estimate covers the total costs incurred by the City of Copenhagen, Capital Area Supply Company (HOFOR) and private landowners. The utility companies Frederiksberg Forsyning and Nordvand are part of the solution in Copenhagen because cloudburst management in these municipalities are dependent on the Copenhagen solution and vice versa. If these utilities contribute DKK 900 million, the construction estimate of the combined solution amounts to DKK 12 billion. The part of the combined solution concerned solely with managing water (hydraulic function) can be financed through the water charges. Water charges will increase to cover these costs. It has been estimated that the water charge of a household consuming 110 cubic meters water annually would increase by an average of DKK 890 per year. The combined solution additionally necessitates private individuals to invest in anti-flood backflow valves etc. and local drainage of stormwater. If the implementation of the cloudburst and stormwater management is coordinated with other construction projects in the city, up to DKK 1 billion can be saved over the whole implementation period. Benefits The cloudburst management plan will contribute to rises in property values and increased employment. It is estimated that the urban space improvements with recreational value will increase property prices in Copenhagen of just under DKK 1.4 billion. The upgrading of urban spaces can also increase revenue from property tax due to a significant increase in the value of those properties that are adjacent to the parks. Over 100 years, this extra revenue will amount to a value in present-day prices of DKK 1 billion. However, the equalisation system at present is structured in such a way that 66% of property tax revenue in Copenhagen is included in the equalisation and consequently goes to other municipalities. Total employment of more than 13,000 full-time equivalents with DKK 1.6bn in tax revenues can be created in the construction phase. The tax revenue created as a result of additional employment in the building and construction industry always accrues to the municipality in which the employee is resident. It has therefore not been possible to calculate the effect in the City of Copenhagen alone. If the construction of facilities for urban space improvements is additionally included, the number of new full-time equivalents will rise to more than 15,000 and tax revenues to around DKK 2bn. The assessment shows that under present-day circumstances we can expect an overall benefit of DKK 5bn from the combined solution in Copenhagen in comparison to a situation in which the City does nothing. The socio-economic benefit by choosing the combined solution compared to the traditional sewer solution is around DKK 9bn. The socio-economic assessment makes a comparison of the costs of the two solutions and benefits to be made from reducing damage in the city in comparison with the business as usual approach, as well as analyses the cost-effectiveness for addressing stormwater concerns.",
+    "timeline": "From 2013-2014 the management plan was detailed, including proposal for solutions in each of the 7 water catchments. The proposed solutions have been broken down into 300 projects, which are only starting to be implemented now on a yearly basis.",
+    "lifetime": "Around 100 years for the sewage system; indefinitely for the parks created.",
+    "stakeholders": "The Cloudburst Management Plan developed by the City of Copenhagen was coordinated with Køben-havns Energi (Copenhagen Energy), the City of Frederiksberg, and Frederiksberg Forsyning (Frederiksberg utility company), since all rainwater falling in Frederiksberg during an extreme rainfall event leads to either a sewage treatment plant or into the sea via the City of Copenhagen. Furthermore, collaboration was initiated with neighbouring local authorities who lead surface water and waste water through the city to the common sewage treatment plants or to common water courses and lakes.",
+    "legal_context": "Present legislation on the environment and waste water does not provide sufficiently for the optimal handling of increasing quantities of pluvial flood water seen from an environmental and financial perspective. The City of Copenhagen has, therefore, tabled a number of proposals for amendments to be considered by the Danish Ministry of the Environment. City of Copenhagen proposals for amendments primarily concern amendments regarding payment rules relating to waste water and the Planning Act in Denmark. Existing legislation obstructs the implementation of measures where existing roads will be used as flood ways for pluvial flood water. This is because the utility companies are only allowed to finance projects relating directly to waste water handling. A flood risk solution where roads, for example, were to be used to drain pluvial flood water cannot, with the present legislation, be financed by revenues from charges. If Københavns Energi (Copenhagen Energy) and Frederiksberg Forsyning (utility company) are to implement these measures, it will be necessary to designate the roads, in part, as waste water plants. This, however, is not feasible with the present Payments Act, Roads Act, and Environmental Protection Act."
+  },
   "point": {
     "lat": 55.6555098064,
     "lon": 12.5443267817,
@@ -78,7 +176,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-economics-of-managing-heavy-rains-and-stormwater-in-copenhagen-2013-the-cloudburst-management-plan",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:32+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-subsidised-drought-insurance-for-farmers-in-austria",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/Subsidised-drought-insurance-for-farmers-in-Austria",
   "title": "Subsidised drought insurance for farmers in Austria",
@@ -44,6 +44,89 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "drought risk",
+      "label": "drought risk"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crop production",
+      "label": "crop production"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "index-based insurance",
+      "label": "index-based insurance"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The aim of introducing a public-private insurance system combining indemnity- and index-based products for drought-related agricultural damage is: to provide a fairer and faster coverage for damages to farmers, which should lead to farmers being less dependent on public subsidies, less prone to economic concerns and the mental health impact thereof, and better prepared to overcome extreme events; to create a risk management financial instrument that allows the government to work with an annually programmable budget (as compared to unforeseen, ad-hoc costs) and is based on a combination of public funds, private sector contributions and payments of individual farmers.",
+    "measures": "The insurance system for drought-related losses has two prominent features: It consists of novel index-based products, which complement the classic indemnity-based products (that consider a proven loss of turnover or production). The index-based products consider variations in a weather indicator such as the number of (consecutive) days without rain or the amount of rainfall. Compensation is paid if the number of wet days or the total rainfall in a predetermined period remains below a percentage of the 10-year average for that period, irrespective of damage. These index-based products generally facilitate faster compensation pay-out, thereby releasing economic pressure from farmers earlier and reducing mental health impacts. It is a public-private financed insurance system in which the government shares risk costs with farmers as opposed to drought risk compensation funded exclusively by public authorities. The state finances 55% of the cost of insurance premiums, aiming at reducing the overall cost to the taxpayer and at the same time supporting farmers. The premium subsidy system enables better budget management, both for the government and for the farming professionals subscribing to the insurance, who are less dependent on subsidies and better prepared to overcome extreme events. This new scheme evolved by extending the existing hail and frost insurance system to cover drought (and storm) risks, thereby replacing the old ad-hoc payment system from the National Agricultural Disaster Fund for drought-related losses. In Austria, most agriculture-related insurance products are attached to the Austrian Hail Insurance Association (Österreichische Hagelversicherung VVaG (ÖHV)), which is an association of several Austrian insurance companies based on mutuality, i.e., an insurance business format in a non-profit organisation. The ÖHV manages the insurance fund, while the sale of policies is the responsibility of individual insurance companies. Since 1995, new risks besides hail were introduced in a multi-risk insurance; in 2000, drought risks were first included for a selection of crops. Historically, ÖHV offered only indemnity-based products, like its main product, AGRAR Universal (Agricultural Universal), which still exists today. Nowadays, agricultural drought risks in Austria are covered by the classic yield- or indemnity-based insurance, AGRAR Universal, complemented by an index-based product for additional compensation. The indemnity-based AGRAR Universal insures many different crops [1] against a long list of risks, such as hail, frost, drought, snow pressure, storm and torrential rain. For drought specifically, the insurance covers actual losses caused by drought if yields per hectare remain below the defined threshold value for yield (“Ertragsgrenze”). Due to the complexity of assessing reference yields for benchmarking losses for grassland, sugar beet, vineyards and orchards, classic AGRAR drought insurances are not available for these crops. The first index-based insurance, the ‘drought index’, was introduced for grassland in 2015. In 2016 and 2017, this insurance was extended to maize, winter wheat and sugar beet. Other crops may be added in the future. The drought index takes into account the two most important parameters for drought damage: lack of rainfall and heat. Compensation is paid if rainfall in a period relevant to the concerned cropping system falls below a set percentage of the 10-year average rainfall; for heat, an extra compensation is added for each day exceeding 30°C during the same period. The percentage, chosen by the insurance subscriber, determines both the premium and the compensation paid. All insured persons benefit from a 55% government subsidy on their insurance against the risks of hail, frost, drought, storms and heavy or persistent rain in the plant sector [2] . [1] cereals, potatoes, pumpkins for seed oil production, soybean, sunflower, peas [2] see Österreichische Hagelversicherung",
+    "outcomes": "Success factors include for: The index-based insurance component: The Austrian drought insurance system is innovative as it involves two systems, i.e., an indemnity-based insurance considering yield losses and a complementary index-based insurance considering physical weather factors for additional compensation. The second compound offers a relatively hassle-free and fast means for farmers to get compensation for yield losses, compared to an indemnity-based product. Index-based insurance compensations can be paid out automatically as the calculation of the payment is based on standard recorded weather data instead of complex yield loss estimations. Next to simple, transparent estimation of compensation and speed of payment, lower administrative costs, reduced moral hazard and a better mental health status for farmers are other advantages of index-based over indemnity-based insurance products ( Linnerooth-Bayer and Hochrainer-Stigler, 2015 ). The subsidised insurance: The fact that the state covers about half of the insurance premium cost incentivises farmers to opt in for drought insurance. Covering drought risk by subsidising insurance means that governmental spending is consistent throughout the year – as opposed to substantive, ad-hoc sums allocated as part of crisis management during unpredictable drought episodes. In addition, the drought risk, previously borne solely by the government via pay-out of compensation, is with the subsidised insurance scheme shared with farming professionals, which reduces the pressure on public finances and taxpayers. Limiting factors include the growing costs of premiums – for farmers – and premium subsidies – for the state – of multi-risk and multi-crop portfolios in a context of climate change and increasing risk. Farmers face a complex set of risks caused not only by weather and climate, but also by policy changes and markets. Small farmers in particular can find it difficult to finance insurance despite (generous) subsidies. Price volatility, the need to supplement farm income with input from other sources to meet financing requirements, or ensuring succession (i.e. who will continue to run the business) are examples of aspects that increase mental health pressure for farmers. Further, many small farmers would prefer production-based solutions for risk management (e.g., irrigation infrastructure to manage drought risk) over other options such as insurance ( Palka and Hanger-Kopp, 2020 ). Nevertheless, most farmers combine production-based measures with insurance products, including both the multi-peril, indemnity-based insurance product (like “AGRAR Universal”) and a drought-specific index product – in addition to off-farm income diversification or negotiating forward contracts and sales price ( Palka and Hanger-Kopp, 2020 ). To respond to the challenges of climate change, farmers’ risk management skills need to be further improved, e.g., via public support beyond risk financing.",
+    "cost_benefit": "Potentials costs of droughts for agriculture Assessing the cost and benefits of the subsidized drought insurance system is complex because it is difficult (i) to predict the occurrence of extreme events, and (ii) to measure the impact of these events. Still, Hochrainer-Stigler and Hanger-Kopp ( 2017 ) propose an evaluation of the cost of the risk (for maize in Austria) and therefore of the economic weight of drought insurance subsidy in the medium term. When comparing current and future probabilities of drought events and associated costs, they calculated that the annual cost to the Austrian state for financing 50% of drought-index premiums for maize (EUR 18 million in 2050, compared to EUR 13 million today) would be about half of the cost for compensating annually varying drought-induced yield losses, i.e. the fiscal risk for the state (under RCP 4.5). Benefits for government The advantages of an insurance-based system for the state include the ability to work with an annually programmable budget that can be smoothed out over a fiscal year (as opposed to unforeseen, ad-hoc compensations). The agricultural risk management system based on anticipating and sharing risks, also makes it possible to share risks with private players. Benefits for farmers The consequences of agricultural losses affect farmers and farming communities economically, but can also have a strong impact on their mental health, increasing stress, anxiety, emotional and psychological distress, which can lead to depression, post-traumatic stress disorder and suicidal thoughts. The introduction of a supplementary, insurance system, based on indexation of compensation to meteorological factors, simplifies the compensation and reduces potential mental health effects of economic uncertainty. Subsidies make the risk insurance more affordable for farmers, and can as such lead to a higher percentage of protected farmers. Being created by a non-profit organisation (ÖHV), the insurance premium is not designed to be profitable and should therefore be more affordable to farmers than a private-market insurance product. Market penetration rates of the insurance products in Austria are high, with almost 100% insurance coverage in horticulture, between 70-75% for fruit and arable land, and around 30% for grassland and livestock ( Sinabell et al., 2016 ). More than three quarters of 500 surveyed Austrian farmers expressed their support for the publicly subsidized drought insurance system, whether or not in combination with indemnity-based compensations for large disasters ( Palka and Hanger-Kopp, 2020 ).",
+    "timeline": "In 2016 and 2017, there were discussions in the parliament to approve the amendment to the Natural Disaster Fund Act and the extension of hail insurance coverage to other extreme events such as drought, in order to replace an ad-hoc compensations by a subsidised public-private drought insurance system.",
+    "lifetime": "The insurance system remains to exist, with continuous development, including the development of drought index insurances for new crops e.g., for grassland in 2023, for vineyards in 2024.",
+    "stakeholders": "National and regional authorities According to Austria’s Hail Insurance Subsidy Act ( Hagelversicherungsförderungsgesetz ) [1] , when extreme weather occurs, the federal government must offer compensation and insurance premiums to the agricultural sector. In 2016, the Austrian government replaced its ad-hoc payment system for drought related damages by extending the existing public-private hail and frost damages insurance scheme that combines indemnity- and index-based products to include drought-related risks. This approach is financed by the Natural Disaster Fund ( Katastrophenfonds ), which is fed by annual taxes on income and returns on capital and corporate profits. Spendings by the federal government on insurance subsidies (i.e., 27.5% of insurance premiums) are topped up by provincial government subsidies. Austrian Hail Insurance (Österreichische Hagelversicherung VVaG - ÖHV ). The ÖHV is a mutual insurance association, which is owned by its policy holders and has a non-profit business format (‘Versicherungsverein auf Gegenseitigkeit’). The association offers and manages insurance, while associated individual insurance companies sell the policies. Over time, the ÖHV’s indemnity-based insurance system evolved to a mixed system including both indemnity- and index-based products. Farmers There are approximately 155,000 farming holdings in Austria ( Statistics Austria, 2022 ). These farmers buy the (subsidized) insurance premiums, with in 2016 around 65,000 active insurance policies [2] . Insurance coverage is almost 100% in horticulture; 70-75% for fruit and arable crops; and around 30% for grassland and livestock ( Sinabell et al., 2016 ). [1] in place since 1955 , but gradually extended to include several risks besides hail [2] According to the Österreichische Hagelversicherung",
+    "legal_context": "The Austrian state's involvement in financing drought insurance was achieved through an amendment to the Hail Insurance Subsidy Act ( Hagelversicherungsförderungsgesetz ) and the Natural Disaster Fund Act ( Katastrophenfonds ) in 2016 in order to substitute ad-hoc catastrophe fund payments by insurable risks for drought damage ( BMNT, 2017 ). The fund itself is based on the Hail Insurance Subsidy Act ( Hagelversicherungsförderungsgesetz ) dating from 1955 , which has been gradually extended to include several risks besides hail, including in 2016 to drought. The system is supported by the EU’s Common Agricultural Policy (CAP) , which encourages governments to subsidise agricultural risk management."
+  },
   "point": {
     "lat": 48.208354,
     "lon": 16.372504,
@@ -73,7 +156,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/Subsidised-drought-insurance-for-farmers-in-Austria",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:48+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

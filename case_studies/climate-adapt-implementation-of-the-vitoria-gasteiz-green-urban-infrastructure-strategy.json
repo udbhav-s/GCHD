@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-implementation-of-the-vitoria-gasteiz-green-urban-infrastructure-strategy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-vitoria-gasteiz-green-urban-infrastructure-strategy",
   "title": "Implementation of the Vitoria-Gasteiz Green Urban Infrastructure Strategy",
@@ -47,6 +47,105 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecosystem services",
+      "label": "ecosystem services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban plantation",
+      "label": "urban plantation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecosystem connectivity",
+      "label": "Ecosystem connectivity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green belt",
+      "label": "green belt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban regeneration",
+      "label": "urban regeneration"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The Green Urban Infrastructure Strategy was launched by the City Council of Vitoria-Gasteiz in 2012 and has also implied the “Roots of Tomorrow” project, which is still on-going. The strategy aims to explore the usefulness of different green urban infrastructure solutions to address diverse urban challenges such as improving biodiversity, mitigating climate change and promoting climate change adaptation in the city. It also involves the study of urban ecosystem services, the concept of multi-functionality of green urban infrastructure and its associated benefits. Based on this general aim, the Vitoria-Gasteiz Green Urban Infrastructure Strategy pursues the following specific objectives: Improve the biodiversity in the city, increasing the spatial and functional connectivity between the urban and periurban green areas. Increase the services provided by the urban ecosystems, strengthening natural processes. Integrate ecological and hydrological processes and flows in urban planning. Reduce the urban heat island effect, reducing climate change impact and improving adaptation in the city. Promote the public use of green spaces, increase leisure and recreational opportunities, increase accessibility and field-city connections, preserve cultural heritage and traditional landscapes and extend the sense of identity and belonging. Create an urban environment that favors the health, well-being and the general habitability of the city. Raise awareness on the relationship between nature-biodiversity and society and, in particular, on goods and services provided by ecosystems, including their economic valuation. Contribute to economic development through job creation.",
+    "measures": "Being aware that it is necessary to develop new strategies and intervention projects that transform the city into a space that reconnects with nature and becomes more resilient, the City Council of Vitoria-Gasteiz proposed in 2012 a new line of action based on the application of the green urban infrastructure concept. For this purpose, the City Council developed the Vitoria-Gasteiz Green Urban Infrastructure Strategy. This strategy relates to other municipal plans such as the Biodiversity Conservation Strategy and the Plan to combat and adapt to climate change, which highlights the necessity of creating green spaces to mitigate city’s contribution to climate change, as well as creating green infrastructures to increase city’s resilience and adaptation capacity to climate change. The Green Urban Infrastructure Strategy is being implemented through various interventions in different parts of the city: the Green Ring (a series of parks and semi-rural areas surrounding the city), the urban parks and the ecological corridors connecting different elements (such as trees along water streams or tree lined streets), vacant plots and even buildings. Interventions are very diverse and in many cases multi-objective, including: Transformation of vacant plots into new green spaces; Increase of biomass and number of trees and shrubs in parks and gardens. Enhancement of habitat functions in existing green areas through interventions that increase urban biodiversity, improve the conservation of native species and improve water management. Promotion of ecological agriculture in free and periurban spaces. Promotion of green in facades and covers, etc. Some of the most emblematic interventions that have been already carried out in the framework of the Green Urban Infrastructure Strategy include the urban renovation of the Gasteiz Avenue with eco-design techniques and, related to it, the creation of a green facade in the Congress Palace Europa, located on the same road axis. Refurbishment of the Gasteiz Avenue consisted basically in the construction of a restored river corridor, the plantation of aligned trees along the new channel and the construction of car-free streets. The installation of a vertical garden on the Congress Palace Europa facade made up of native species has contributed to the improvement of the thermal and acoustic insulation of the building, the reduction of air pollution and the enhancement of the aesthetic quality of the environment. At the same time, interventions have begun in different neighborhoods with the aim of addressing and responding jointly to a series of problems related to urban management. These interventions take place in current vacant and green areas, such as empty plots and parks. A first initiative of naturalization of green spaces and vacant plots has been implemented in Lakuabizkarra neighborhood through the Lakua neighborhood project. This area has been selected as a pilot space to test different interventions in terms of performances in order to be able to replicate them in other areas of the city, such as Zabalgana and Salburua, which have very similar characteristics to Lakua area. With the aim of improving the ecological and environmental functionality of existing green spaces and vacant plots, as well as reducing the costs currently incurred in their management and maintenance, up to now the project has intervened in 50 different spaces through various kinds of naturalization actions. The benefits of these actions are an improved water management system that reduce flood risk, reduction of air pollution, improvement of temperature regulation that reduce heat-island effect, etc. The “Roots of Tomorrow” project will continue until 2020. Besides, the municipality of Vitoria-Gasteiz has signed an agreement with the Basque Water Agency (URA) to develop various kinds of interventions with the aim of reducing the impacts of flooding events in the city. These projects will be carried out until 2020 and will be funded by the Basque Government.",
+    "outcomes": "The involvement of citizens and local private sector stakeholders have been considered to be a success factor, as they have helped to create a consensus on the needs as well as the benefits of the implementation of the Green Urban Infrastructure Strategy. The overall strategy provides an overarching frame for the design and implementation of other specific interventions, that therefore can contribute to the same goals. As planned interventions have multi-objectives, they produce co-benefits beyond climate change adaptation . Interventions tested in Lakuabizkarra neighborhood has enabled assessing the performance of different modalities of actions and exporting most suitable approaches to other neighborhoods.",
+    "cost_benefit": "The budget allocated for the refurbishment of Gasteiz Avenue and the construction of the green facade in the Congress Palace Europa amounted to 10 million Euros. The investment made for Green Ring project reached 2 million Euros over the four years of implementation. The investment made for Lakuabizkarra area reached 415.000 Euros. The whole Green Urban Infrastructure Strategy has been developed to enhance urban biodiversity, as well as improve the connectivity and functionality of the different urban and peri-urban green spaces. Concerning climate change adaptation, such interventions contribute reducing the heat island effect and help regulating the local climate. Moreover, an increase in the public use of green spaces and the opportunities of leisure and recreation can be expected. Finally, it is expected that some concrete measures such as the green facade of the Congress Palacio Europa will result in lower energy consumption in the building, as well as better regulation of the temperature in its interior and nearer surroundings.",
+    "timeline": "The Green Urban Infrastructure Strategy was launched in 2012 and its implementation started shortly after. In the following years it focused on the renovation of the Gasteiz Avenue through eco-design techniques, that was completed in 2014, as well as on the green facade of the Congress Palace Europa that was constructed between 2014 and 1015. Interventions on the neighborhoods, as part of the same Green Urban Infrastructure Strategy, are currently being implemented. The intervention in Lakuabizara neighborhood were initiated in 2015 and finalized in 2016 through the project for the naturalization of green spaces and vacant plots. This enabled testing performances of different interventions to be exported in other neighborhoods and spaces of the city, such as the new neighborhoods of Zabalgana and Salburua.",
+    "lifetime": "The strategy does not identify a specific final date; new projects and interventions will be designed and implemented as long as the Council will allocate budget to accomplish them.",
+    "stakeholders": "A participation process was carried out during the design phase of the strategy, as well as during its implementation. Moreover, citizens and other private stakeholders were highly involved in the “Roots of Tomorrow” project with the aim of promoting their commitment towards the project goals. They were engaged during the design of the project, as well as through specific project actions, such as tree-planting days, involving more than 2,500 people, and awareness campaigns, including participation of more than 3,000 students. Besides collaborating through the above mentioned actions, private stakeholders could also participate by financing part of the interventions included in the “Roots of Tomorrow” project.",
+    "legal_context": "The normative and legal framework in which the Green Urban Infrastructure Strategy lays upon, is the General Plan of Urban Planning, currently under review. Moreover, this strategy shares objectives with other municipal strategies and plans, as in particular the Biodiversity Conservation Strategy of the municipality of Vitoria-Gasteiz elaborated in May 2011. The main objective of the Biodiversity Conservation Strategy is to stop the loss of biodiversity and to achieve a favorable state of conservation of habitats and species within the municipality, promoting the recognition of its values and functions for society. The Action Plan of the biodiversity strategy refers to the importance of drafting a Green Infrastructure Plan specifically for the urban area, establishing the necessary actions to conserve or promote its biodiversity and ensure its multi-functionality. Other plans directly related to the Green Urban Infrastructure Strategy are the Plan to combat and adapt to climate change, including a number of measures that can be developed through the implementation of the strategy on green urban infrastructure. In addition, the Green Urban Infrastructure Strategy show synergies also with the Plan for Sustainable Mobility and Public Space and the Municipal Health Plan."
+  },
   "point": {
     "lat": 42.8598598151,
     "lon": -2.66967773438,
@@ -76,7 +175,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementation-of-the-vitoria-gasteiz-green-urban-infrastructure-strategy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:58+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-berlin-biotope-area-factor-2013-implementation-of-guidelines-helping-to-control-temperature-and-runoff",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/berlin-biotope-area-factor-2013-implementation-of-guidelines-helping-to-control-temperature-and-runoff",
   "title": "Berlin Biotope Area Factor – Implementation of guidelines helping to control temperature and runoff",
@@ -53,6 +53,104 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Air quality",
+      "label": "Air quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green space measures",
+      "label": "green space measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "landscape planning",
+      "label": "landscape planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "landscape design",
+      "label": "landscape design"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat island effect",
+      "label": "heat island effect"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green walls",
+      "label": "green walls"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "biodiversity conservation",
+      "label": "biodiversity conservation"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The BAF contributes to the following adaptation and environmental quality goals: Safeguarding and improving the microclimate and air quality, reducing the urban heat island effect and therefore reducing vulnerability to heatwaves; Preserving and enhancing soil functions and the water balance, reducing vulnerability to extreme precipitation events and related run-off. Creating and enhancing the quality of habitats for plant and animals; Improving the residential environment.",
+    "measures": "The Biotope Area Factor establishes that the development of new buildings requires a proportion of the area to be left as a green space. The BAF provides developers, architects and designers with clear but flexible guidelines on the portion of the plot of land that must be planted or provide other green space functions in terms of: improvement of the microclimate, urban cooling, sustainable drainage, improvement of natural habitats and enhancement of the quality of the residential environment. Specific solutions implemented in the BAF include: (i) greening of functional spaces (e.g. bike or bin sheds); (ii) planting trees and shrubs or, in smaller areas, climbing plants to create green walls; (iii) introducing green roofs; (iv) paving restricted to main routes and use of permeable surfaces elsewhere. These measures reduce radiation fluxes, provide shade, provide a cooling effect inside buildings and outside, improve air and water quality, and improve the proper management of storm-water run-off. The strength of the BAF concept is that it allows flexibility of the site design: the developer may decide what green space measures are applied, and where, as long as the required green space ratio is achieved. The BAF formula calculates the proportion of an area that needs to be green space: BAF = Ecologically Effective Surface Areas/Total Land Area. BAF targets depend on the specific uses of an area. The Ecologically Effective Surface Areas is a weighted sum of the areas belonging to the different categories foreseen in the measure, where weighting factors capture the different “ecological values” of these categories. Different types of green spaces are weighted differently according to these “ecological value”, which are based on evapotranspiration capacity, permeability, possibility to store rainwater, relationship to soil functioning and provision of habitat for plants and animals. For example, the weighting factor of a sealed asphalt surface is 0; that of extensive green roofs is 0.5; that of surfaces with vegetation connected to soil below is 1. Residential and public areas need to achieve a BAF target of 0.6 while commercial, business and administrative areas are requested to achieve a lower target of 0.3. Since December 2019, the prescribed weighting factors for vertical greenery and roof greening has undergone the following refinements: vertical greenery without connection to the ground: 0.7 per m 2 ; extensive roof greening: 0.5 per m 2 ; semi-intensive roof greening: 0.7 per m 2 ; intensive roof greening: 0.8 per m 2 . The developers can thus use a wide range of options combining different areas with different types of surfaces for achieving the required standard.",
+    "outcomes": "Use of regulations has proven to be an effective mean of increasing green cover in the Berlin city centre as every new development needs to comply with BAF targets. The flexibility of the approach provides significant advantages. Developers can choose between a number of different options for greening or creating permeable surfaces and pick those that are the most beneficial and effective for themselves and the users of the development. Collaboration between the Berlin departments of landscape planning and land use planning has ensured that the two planning instruments central to the implementation of the BAF are working in a coordinated way. Another factor that clearly contributes to its success is that the measures visibly contribute to the development of a better environment in the inner city. BAF is compulsory only in areas where legally binding Landscape Plans are present (16% of Berlin in 21 distinct areas). Outside these areas, the BAF is voluntary and can be used as a guideline for encouraging environmental measures to be incorporated when changes to the existing building structures are proposed. Due to its simplicity and the rising awareness of environmental issues, architects, builders and property owners tend to use the BAF, which is a sign of its success. However, the fact that BAF is voluntary outside areas covered by Landscape plans makes it difficult to speculate on its actual potential for implementation. The discussion with one of the local contact persons highlighted that in “some districts the nature conservation has a higher value than in others, and so some local administrators are more successful in convincing the builders to apply it. Sometimes builders themselves have interest to make their project “greener” and more sustainable. In some districts, builders need to gain the acceptance of the residents, and BAF can help. Thus, the realization of the BAF depends on many factors, mainly the active communication of the agencies in the districts and the environmental consciousness of the residents.",
+    "cost_benefit": "The costs of the measures selected on the basis of the BAF are absorbed into construction costs. If building owners are confronted with disproportionately high expenses, they normally ask for an alleviation of the BAF which is generally approved. An overall evaluation of costs has not been carried out due to a shortage of staff. Benefits observed so far include an improved residential environment and quality of life and an increase of the effective area for maintaining biodiversity through restoring greened inner courtyards and front gardens. Other benefits such as reduced vulnerability to heatwaves and to water-related extremes are expected but have not been quantified, yet.",
+    "timeline": "The BAF implementation begun in 1994 and is still on-going.",
+    "lifetime": "More than 50 years, depending on the specific actions and the management activities.",
+    "stakeholders": "The Biotope Area Factor was formulated for inner-city districts of Berlin by a large number of experts who agreed on the necessary proportion of green space areas for different development types, based on the layout of the buildings. Public consultation has always been considered highly important for landscape planning in Germany. The Landscape Programme was subject to an extensive public consultation process in 1986 in a targeted consultation exercise “Berlin hat Pläne (Berlin has plans)”. The second public consultation for the Programme was held in 1993, several years after the fall of the Berlin Wall, with the Plan finally approved in 1994. The BAF was established in landscape plans as an ordinance. As part of the above procedures, public agencies and environmental agencies could participate in its development. In addition, it was mandatory that the proceedings would be publicly displayed not only for residents of the particular area but Berlin-wide. Although there was a possibility for stakeholders to participate, they were not directly approached and therefore, stakeholder involvement varied depending on the case. Participating stakeholders included the local community, the public administration, and environmental NGOs.",
+    "legal_context": "In Berlin the BAF can be established primarily in Landscape Plans as an environmental planning parameter. The BAF is applied to areas where legally binding Landscape Plans are present. The inherent legally binding arrangements can be found in Berlin's \"Handbuch der Berliner Landschaftspläne\" (Manual of Berlin Landscape plans). Outside these areas the BAF is voluntary; it can be used as a guideline for encouraging environmental measures to be incorporated when changes to the existing building structures are proposed. The extension of the compulsory BAF, although discussed at the political level, may not be feasible for the moment, due to legal and technical barriers. In practice, there is no legal basis for the legal imposition of BAF. More precisely, imposition of the BAF must be incorporated within a zoning plan and in that framework, the imposition is subject to the requirement of causing no commercial harm, implying that economic considerations prevail. Moreover, the BAF cannot be set for the whole inner-city area, because every district in Berlin has its own planning authority. Thus, the actual implementation of BAF varies across districts, depending on the susceptibility to environmental issues of the relevant actors and the active communication of the agencies in the districts."
+  },
   "point": {
     "lat": 52.5195635278,
     "lon": 13.3717346186,
@@ -77,7 +175,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/berlin-biotope-area-factor-2013-implementation-of-guidelines-helping-to-control-temperature-and-runoff",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:11+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

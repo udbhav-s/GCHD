@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
   "title": "Bosco Limite - A participatory strategy of water saving and aquifer artificial recharge in Northern Italy",
@@ -44,6 +44,105 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forested infiltration area",
+      "label": "forested infiltration area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multifunctional forest",
+      "label": "multifunctional forest"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Aquifer recharge",
+      "label": "Aquifer recharge"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecosystem services",
+      "label": "ecosystem services"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "Environmental and social objectives of the Forested Infiltration Area of Bosco Limite are: Promote water conservation by saving, approximately, 12,000 m 3 of water per year, also improving adaptation to droughts and water scarcity impacts of climate change; Increase the biodiversity by encouraging the settlement of autochthonous plants and animals of the region; Protect the landscape by introducing a new oak-hornbeam forest, which is typical of the Po Valley, re-establishing an historic landscape that has almost disappeared; Capture 50 t of carbon dioxide per year in 30 years; Introduce a new source of renewable energy provided by wood biomass for domestic use; Improve the area by restoring its natural value and offering environmental education initiatives to schools and local associations; and Improve the quality of life for the local population through the creation of new green areas.",
+    "measures": "The Forested Infiltration Area system was conceived and developed for the first time in 2007 by Veneto Agricoltura, the Veneto region Authority responsible for aspects related to agricultural, forestry and agri-food development. The design of the FIA aims at maximizing environmental and economic-productive functions. In doing so, the land surface has to be organized in a way that allow the cultivation of specific crop and exploit as much as possible the high infiltration rate that distinguishes the soils of Bosco Limite area, in order to provide for the groundwater recharge. The infrastructures and the subsequent management of the FIA must follow and respect a series of hydraulic, environmental, agronomic and forestry principles, which are strictly interconnected. The innovative method consists in exploiting in a positive way the high infiltration rate of the soils above the resurgence belt, allocating their surface to the cultivation of a forest that allows to maximize the infiltration rate. The solutions consist in infiltration areas that feature a total of 10 longitudinal infiltration channels having a sinusoidal shape with wide curves. Each channel has a length of approximately 93 meters and are spaced about 14 meters apart (inter-axial). Four of these channels run East-West (first area) and six run North-South (second area). Water is evenly distributed in the recharge area by means of a water level regulation system, which divides the available flow equally among the individual infiltration channels. Each infiltration channel has water level control structures that are spaced 30 meters apart. These structures enable the system to form a ‘reservoir’, which improves the efficacy of the infiltration. The FIA has to be supervised upstream by an input sediment control system and a system for monitoring infiltration waters. The sediment trap, or rather a small pool with a surface area of approximately 50 m 2 , collects suspended solids present in the intake water. This reduces blockages of the channels and ensures a longer useful lifespan for the system. The excess excavated material is used to create a rise on the North-western side of the infiltration area, providing a visual and acoustic barrier between the forested area and the adjacent public road. The forested area is a naturalistic woodland that consists of sections of four parallel rows of vegetation alternating with channels. One of the four rows of each section is destined for periodic cutting (to permit maintenance of the channels by the Land Reclamation Board), while the other three contain tall trees. The rows parallel to the channels, which are also sinusoidal, are planted in two different ways. The rows that are to be periodically cut (located to the South or the East: about 1,400 plants/ha dedicated to Five-year Short Rotation Forestry) contain alternating secondary tree species (narrow-leafed ash and common hornbeam) that can be cut as required for maintenance. In the three central rows of tall trees, primary tree species (common oak, durmast oak, common ash, field elm, poplar and linden) alternate with secondary species (from a minimum of 1,200 plants/ha to a maximum of 2,400 plants/ha which are narrow-leafed ash and common hornbeam). Hazelnut, alder buckthorn, common buckthorn, blackthorn, wild privet and cornel trees are planted along the exterior borders of the woodland. The use of the FIA hydraulic system works by loading the drains for a duration of up to 200 days (from September to April) if water can be derived from the rivers without adversely affecting its hydrological regime. The possible use of the FIA system periodically occurs during the irrigation season (from April to September).",
+    "outcomes": "Forested Infiltration Area, as all the other type of Managed Aquifer Recharge (MAR), is a promising adaptation measure for climate change vulnerability related to water management. The case of Bosco Limite proves that FIA is crucial to control over-abstraction and for the restoration of the groundwater balance, improving at the same time the quality of groundwater and part of ecosystems functions. Furthermore, forests contribute to reduce heatwaves and mitigate CO 2 emissions. The measured data in the implemented FIA lead to very encouraging values in terms of infiltration capacity per hectare which is in the range of 20 - 50 l/s/ha, depending on soil permeability. Infiltration values tend to increase over time thanks to the root effect of plants adjacent to the trenches. The same benefit is difficult to find in other type of MAR systems, which instead show a significant decline in the infiltration capacity over time due to progressive clogging, calling for extra and expensive maintenance, necessary to recover the initial values. Moreover, the stakeholders’ network and new local partnerships are keys for the success of FIA. It has been proven that the income from FIA is higher than other typical crops such as maize or soy. Limiting factors depends on specific characteristics of the area used for FIA which include: i) the characteristics of the subsoil and soil, i.e. their pedological and hydrogeological aspects which determine the infiltration capacity of the area; ii) land use, i.e. what stands on top of the soil, which again affects the water infiltration processes; iii) the availability of the land for the installation of recharge systems, and others. In 1999 the council of the Veneto region adopted a project called “MO.S.A.V. - Structural Model of Aqueducts” ( Modello Strutturale degli Aquedotti del Veneto) which aims to reduce the fragmentation of aqueduct structures and increase no less than 15 % the efficiency and safety related to water drinking supply and water treatment systems. The MO.S.A.V. is structured in three interconnected water sources where the Central Veneto Aqueduct (SAVEC), which include the territory suitable for managed aquifer recharge, is the larger. A new project related to SAVEC aims to provide approximately 30% of Veneto’s drinking water supply especially to Polesine area, becoming a strategic and essential resource for the region. This poses some other related risks that need to be addressed such as groundwater depletion, the decrease of river’s vital outflow and the increase of pollutants from agricultural activities and drainage from urban areas. As a matter of fact, FIA are not a remedy for water scarcity in all areas. Aquifer conditions must be suitable and (excess) source water must be present. It is therefore important to assess in advance the potential of FIA applications before field activities initiate.",
+    "cost_benefit": "The infrastructural part of the infiltration system (infiltration channels, a sediment control system and a system for monitoring infiltration waters) has been financed by the Life+ project AQUOR (LIFE 2010 ENV/IT/380) \"Implementation of a water saving and artificial recharging participated strategy for the quantitative groundwater layer rebalance of the upper Vicenza's plain” (2011-2015, overall budget € 1,814,548). Costs of the forested part of the FIA were covered by funds provided by Veneto Agricoltura (through the Rural Development Program - 2007-2013) as part of an already existing project for foresting cultivated lands and for the creation of permanent forests. The creation of Bosco Limite also involved funds provided by local authorities and private businesses, which invested in this project in order to compensate the emissions and environmental impacts derived by their activities. According to information collected through interviews, the owner of Bosco Limite signed two 10 years long agreements in 2011. From the Municipality of Carmignano di Brenta, the owner receives 1.500 euro per years for opening Bosco Limite to the local community every day and enable the holding of recreational and educational activities. With the other agreement with the Brenta Land Reclamation Board, the owner gets an equivalent of 1,200 euro/ha per year for providing the infiltration water service. Moreover, Bosco Limite produces firewood obtained by the ordinary maintenance activities of the forest that is sufficient to satisfy the annual need for the owner’s family. The remuneration from timber will be quantified at the 30th year. At the end of 2018 there will be probably the first income from the presence of truffle-production trees.",
+    "timeline": "2 years (from 2011 to 2013) including the design and the implementation of the aquifer recharge mechanism.",
+    "lifetime": "Actual lifetime of the FIA is 30 years. After that period, new conditions will be considered in order to evaluate the future of the area: if maintain it as a FIA or if dedicate it to other uses.",
+    "stakeholders": "The aquifer is managed by the Brenta Land Reclamation Board, together with Veneto Agricoltura and local authorities. The Bosco Limite project has been supported by various sponsors which have been actively involved in the project to mitigate part of their CO 2 emissions. With the support of Etifor Srl (a spin-off of the University of Padua that provides international consulting services to help organizations grasp the full value of the products and services provided by nature) there is the plan to implement a new Forested Infiltration Area of 7ha at the level of Medio-Brenta, the biggest ever realized in the Veneto region. In this context, Etra SpA (a water utilities company), Coldiretti Veneto (trade union agriculture organization), Etifor Srl (Padua University spin-off for ecosystem evaluation) and interested farmers are working within the operational group “ Gruppo Operativo Brenta 2020 (GO Brenta 2020) ” which has been financed by Misura 16.1 of the Rural Development Program 2014-2020 (RDP). The GO Brenta 2020 is planning to identify areas and owners that could host the new FIA and explore innovative funding mechanisms. Etifor Srl is currently focusing on the governance among the local authorities, the development of payments for ecosystem services and the screening of European and regional funding. Etifor Srl will support Etra Spa and Consiglio di Bacino Brenta (in charge of local water management) in the economic, legal and fundraising activities for the potential creation of a dedicated fund. By applying a “green fee” on the water bill, the fund would be able to collect the capital for environmental projects in the catchment and recharge areas. The Facebook website of Bosco Limite is constantly updated with all activities organized in the area.",
+    "legal_context": "In Italy, there is no ad hoc legislation on managed aquifer recharge schemes. Presently, relevant provisions on water management may be found in the so-called ‘Environmental Code’ 152/2006 (EnC). Articles 104 and 105 aims at protecting the quality level of water sources and establishing specific measures to manage the discharge to superficial water and groundwater. Other relevant provisions can be found in the Regional Water Protection Plans adopted by Italian Regions, including Veneto, in compliance with the EnC. These Plans provide for measures to protect the quality and the quantity of the water resources. At the national level the recent amendment of Article 104 of the EnC has led to the adoption of paragraph 4-bis according to which the competent authority can authorize the augmentation under controlled conditions of groundwater bodies in accordance with the criteria set by the Ministry of the Environment."
+  },
   "point": {
     "lat": 45.6236425983,
     "lon": 11.7042160034,
@@ -83,7 +182,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/bosco-limite-a-participatory-strategy-of-water-saving-and-aquifer-artificial-recharge-in-northern-italy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:17+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

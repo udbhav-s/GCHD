@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-barcelona-trees-tempering-the-mediterranean-city-climate",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/barcelona-trees-tempering-the-mediterranean-city-climate",
   "title": "Enhancing social justice in actions to adapt to climate change in the city of Barcelona",
@@ -38,6 +38,134 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "gentrification",
+      "label": "gentrification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Superblocks",
+      "label": "Superblocks"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "fair transition",
+      "label": "fair transition"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vulnerable groups",
+      "label": "vulnerable groups"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green urban areas",
+      "label": "green urban areas"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "women",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "schools",
+      "women"
+    ],
+    "group_mentions": {
+      "children_youth": 3,
+      "schools": 1,
+      "women": 4,
+      "older_people": 4
+    }
+  },
+  "intervention": {
+    "objectives": "The Superblock programme aims to reduce greenhouse gas emissions and adapt the neighbourhoods to climate change, while improving environmental conditions to increase well-being in Barcelona. The three main objectives of the programme include the expansion of the green infrastructure, the restriction of private motorised mobility and the embedding of equity considerations into all processes and actions, creating accessible spaces which satisfy specific needs of vulnerable groups within the local communities. With these three main objectives, the programme aims to mitigate the impact of heat stress by increasing the tree canopy cover and consequently expanding the green infrastructure. The expansion of green space aims to increase shadows in the city, to increase the reflectivity of street surfaces, and to bring improvements in the water runoff management. The Superblock programme addresses these environmental objectives while accounting for the needs of vulnerable stakeholders. This is done by integrating issues such as gender, age and disability into the design principles and identifying and tackling sources of vulnerability associated with individual characteristics in the use of urban space, related to specific needs of women, elderly and persons with disabilities. Superblocks are also critical to support the future ambitions of the city council. For instance, in its climate plan, the city of Barcelona aimed to increase green space per inhabitant by 1 m 2 from 2016 to 2030. To this end, the city council published the Nature Plan 2021-2030 to regulate the increase of green space with public participation. Expanded green space under the Superblock programme contributes to the achievement of this plan.",
+    "measures": "Within the city’s climate plan, the Superblock programme represents a critical measure to deliver on the city’s objectives and to effectively increase the green infrastructure in the most densely populated areas. Solutions embraced the (1) expansion of grey infrastructure, (2) the restriction of motorised mobility and (3) various actions to consider the needs of vulnerable groups. 1. Expansion of green infrastructure The Superblock programme increased the amount of available green space per inhabitant. This enhanced shadows, leisure spaces, and reduced the temperature of the streets, especially during periods of heat-stress. In fact, the Barcelona City Council conducted a set of simulations which calculated that the Superblock programme could lead to a 1.2°C drop in ambient temperature on hot days. The programme also established a network of 360 easy to access climate shelters ( refugis climàtics ). These climate shelters are spaces which offer shadow, seats, and water fountains specifically designed to be comfortable and safe for vulnerable groups in the event of heatwaves (such as young children, the elderly, and people with health conditions). By way of example, the city council calculated that with the expansion of the superblock projects to the entire Eixample district, shadow cover would increase from 60% to 80% of the urban surface, and that shadow cover would increase from 25% to 70% in squares and intersections (such as the Enric Granados and Consell de Cent streets). Reflectivity is also expected to increase, as most streets are expected to substitute asphalt (with a solar reflectance index (SRI) below 10) with materials such as street tiles and granite (with an SRI above 70). Finally, the plan to upscale the superblock projects foresees the creation of green corridors through the city centre where streets are organised in a hierarchy to segregate road traffic from green streets. This action is expected to increase the permeable surface in the superblock areas from the current 1% to up to 12% of the overall surface, allowing the absorption of water runoff and mitigating the flooding hazard derived from heavy precipitation events 2. Restriction of motorised mobility The Superblock programme contributed to the ambitions of the Urban Mobility Plan for 2024 by improving accessibility and safety of pedestrian spaces, and by expanding the bicycle networks. The city council reported a decrease of 20% in the use of cars in the neighbourhood of Sant Antoni over the period 2020-2021 after the implementation of the superblock programme, resulting in a 25% reduction of NO2 and 17% reduction in PM10 in the neighbourhood. To achieve this, the programme significantly restricted space dedicated to car mobility in the city and created single-platform streets (eliminating the segregation between the zones devoted to car mobility and pedestrian use) where pedestrians are prioritised and the right of all street users is respected, reducing car dominance of previous street designs. 3. Actions to consider the needs of vulnerable groups Finally, the Superblock programme also builds fairness and equality among citizens by supporting the implementation of Barcelona’s Gender Justice Plan ( II Pla per la justícia de gènere 2021-2025 ). Just adaptation requires that basic equality measures are considered, such as gender-sensitive criteria in urban planning, which translated into the ambition to create street safety specifically for women, laid down in specific urban planning principles to promote a diversity of uses in public spaces connected to the daily life of all inhabitants, including care-giving activities that are often not given sufficient consideration in traditional planning approaches. These measures on street safety also benefit a broad spectrum of vulnerable societal groups, such as children, elderly, or people with disabilities, as they are enabled to safely commute and enjoy public spaces. A specific example is the programme’s gender-inclusive design that recognises that women tend to use public spaces differently, especially due to caregiving responsibilities. It also focuses on making streets more walkable, safer, and accessible for children, caregivers, and women who typically rely more on public spaces​ The programme also pays attention to its effects on the local economy to prevent displacing residents and local commercial activities because of gentrification. Monitoring The city council also developed a monitoring plan as part of the Superblock programme, aiming at gathering empirical evidence on relevant vulnerability factors in project areas and assessing the benefits over time. The monitoring plan included a set of 36 indicators for which data is collected regularly by the city council, in collaboration with the health authorities i.e. Institut Català de la Salut. The monitoring plan assesses benefits across four areas: (i) public spaces; (ii) mobility; (iii) environmental quality; and (iv) socio-economic dynamics. With regards to socio-economic dynamics, the plan monitors the following indicators: Number of people and organisations that participated in the project Ageing index (ratio of population older than 65 and younger than 14) Percentage of foreign population Family disposable income Density of street-level shops (number of shops/ 100 m) Average purchase housing prices (€/m 2 ) Average rental housing prices (€/m 2 ) Quantitative information on the different indicators is collected regularly, and annual monitoring reports will be published. Qualitative information will also be collected every two years through fieldwork and interviews. Future prospects The ambition of the city of Barcelona during the previous political mandate was to scale up the Superblock programme to the whole city in the future. These ambitions were reflected in the city’s urban regeneration strategy Superilla Barcelona. It aimed at promoting more equitable urban development while mitigating and adapting the city to climate change. Under the current political mandate a complementary strategy called the Local and Interior Spaces Programme (PEPI) is now guiding implementation efforts, with the goal of renewing unused spaces in all city neighbourhoods to add greenery and benefit local people’s health.",
+    "outcomes": "Participation has improved the acceptability of the project The successful implementation of the Superblocks programme is the result of a long-standing planning tradition in the city of Barcelona to enhance the quality of public space for its citizens and enhance their access to green spaces.. The first implementation projects were strategically located in city districts where these proposals could maximise their feasibility and acceptability. For instance, the Poblenou neighbourhood, the first area where the Superblock programme was implemented, already had a relatively low level of car traffic, which was expected to make motorised mobility restrictions more acceptable to residents. Also, the Poblenou neighbourhood was already the centre of a broader transformation with the development of the 22@ Innovation District, an urban renewal project that aimed to transform the district from an old industrial area to a research and innovation hub. Nevertheless, in this neighbourhood , residents initially showed resistance, mainly because they were not familiar with the underlying concept of superblocks. In line with the participatory planning process of the programme, staff from the municipality took time to reply to the concerns and to clarify questions and doubts related to the Superblock concept and the project for Poblenu. This citizen engagement led to significant changes in the project, such as the decision to ease motorised transport restrictions in the neighbourhood. Integrative governance and diversified funding The governance approach used of the Superblock programme was a major enabler of its success. One aspect of this was the creation of a Superblock office in 2020, a new transversal department hosted within the municipality made up of representatives of different city departments working on the areas of urban strategy, communication, participation, international tasks, architecture and design, mobility, green areas and others, transport, and the environment. The office was formally in charge of enabling the active collaboration between the different city departments to develop the Superblock programme and implement the single projects. Another important success factor was that the programme diversified its resources by combining funds from the city public budget, the Council of Europe Development Bank (CEB) and the European Investment Bank (EIB). In contrast, the transformations of large parts of the city raised political pressure and contestation from different interest groups who were challenging, for instance, the limitations to individual transport foreseen in the Superblock programme. Pressure groups were legally challenging the project , and competing political coalitions were trying to oblige the city authority to reverse the transformations already made. Collaboration with scientific organisations The collaboration with researchers was another success factor, as their expertise provided important contributions to the project and ensure an evidence-based approach. The city of Barcelona is and has been an active collaborator in many EU-funded projects including OpenNESS (2013-2017) Naturvation (2017-2021) or GreenLULUs (2016-2022). The extensive collaborations with researchers helped to pilot and test different adaptation and greening measures but also to create knowledge on social issues, such as racial and social impact of urban greening. Specialised research organisations, such as the Barcelona Laboratory for Urban Environmental Justice and Sustainability supported the city’s efforts to mitigate gentrification by providing evidence on gentrification trends as well as potential solutions to deal with these developments.",
+    "cost_benefit": "Costs As the areas affected by the single Superblock projects are different, costs vary according to the type of elements included in each project. The single Superblock interventions consist of a set of structural, tactical and governance elements. Structural elements require more resources to implement than tactical (e.g. the painting of car lanes to expand the pedestrian area) and governance interventions (e.g. regulations to make social housing obligatory). For the Sant Antoni neighbourhood, the second district where the programme was implemented, the transformations required a total investment budget of 7.5 million EUR, equivalent to a cost of about 197 EUR per resident over the period 2017-2019. These costs consisted of a first phase of structural interventions, which required an investment of 3.6 million EUR, and a second phase that comprised a combination of tactical and structural interventions, with a cost 3.9 million EUR. Other complementary programmes and projects had also a limited cost. For instance, Climate Shelter in 11 schools had a total budget of 5 million EUR, funded jointly by the Barcelona City Council ( 1 million EUR) and the EU programme Urban Innovation Action (UIA) ( 4 million EUR). Maintenance costs of the green infrastructure are also an important consideration. Green infrastructure requires a certain maintenance and management costs over time, to avoid possible risks of falling trees or branches, tree pests or diseases, defoliation, and water stress. An estimation of these costs was not available. The implementation of measures to mitigate gentrification were not very costly because they were mostly related to regulations. Most of the associated costs were related to the establishment of subsidy programmes, the expropriation of a small number of buildings by the City Council and the small loss of public income due to the reduction of property taxes of some households. The monitoring budget for the Superblock programme over a period of ten years was estimated at about 750,000 EUR, and it included the cost of the equipment (such as cameras, air quality and noise sensors) for monitoring mobility flows and air and noise contamination levels in project areas. Significant time and resources were also allocated to the participatory process, but an estimation of these costs was not available. Benefits By reducing motorised traffic and accompanying emissions and by enhancing walkability of streets, the Superblock programme contributes furthermore to climate change mitigation. The improved liveability of the streets resulting from this increased walkability was particularly beneficial during the early stages of the COVID-19 pandemic in 2020, when the Spanish government introduced movement restrictions and lockdowns. Public health The programme contributes to the reduction in air and noise pollution and fosters more active lifestyles, which is expected to improve the health of the district residents. Increasing urban green areas and creating a network of cooling places is furthermore expected to contribute to reducing the negative health impacts and mortality related to heat waves, in particular for vulnerable groups such as the elderly. Additionally, the programme improved the safety for urban commuters, as the risks of car accidents dramatically decreased in the areas where the Superblock was implemented. Other Social benefits The transformation of public spaces and reduction of car traffic created more safe space for walking, cycling and for social interaction. For the first year after the implementation of the Superblock programme in the Sant Antoni district, the City Council reported the emergence of multiple uses of public spaces, including activities such as resting, talking, shopping, walking, playing and exercising. As a result, residents experienced the area as more welcoming, which potentially contributes to improving their psychosocial wellbeing. Additionally, the increased walkability further improved the attractiveness of the areas with positive impacts on the quality of life for residents. Economic benefits Following the implementation of the Superblock programme in the district and the inauguration of the restored district market, the Sant Antoni Commerce Association registered an increased number of visitors. Such increase in the number of visitors has benefited local businesses, as a local survey found that 83% of the merchants noted an improvement in comfort in walking in the neighbourhood, and 69% noted an increase in the passage of people. The data on private expenditure collected by Barcelona’s Municipal Data Office (Oficina Municipal de Dades, OMD) also confirm the increased benefits within the district businesses after the enactment of the superblock, which also contributed to a faster economic recovery after the COVID-19 lockdown.",
+    "timeline": "The first pilots of the Barcelona Superblock programme started in 2016 in the Poblenou neighbourhood. As a result of this positive experience, the City Council decided to promote a Superblock in the Sant Antoni district in February 2017, where the project run over the period 2017-2019. The first phase of the Sant Antoni’s Superblock started in November 2017 and was completed in May 2018. In 2023, the city was planning scaling up the Superblock concept to the whole Eixample district. The implementation time of interventions depends on their typology. Structural interventions take more time to implement than tactical interventions. The latter can be implemented quickly to test new ideas and can easily be scaled or reversed.",
+    "lifetime": "The first pilots of the Barcelona Superblock programme started in 2016 in the Poblenou neighbourhood. As a result of this positive experience, the City Council decided to promote a Superblock in the Sant Antoni district in February 2017, where the project run over the period 2017-2019. The first phase of the Sant Antoni’s Superblock started in November 2017 and was completed in May 2018. In 2023, the city was planning scaling up the Superblock concept to the whole Eixample district. The implementation time of interventions depends on their typology. Structural interventions take more time to implement than tactical interventions. The latter can be implemented quickly to test new ideas and can easily be scaled or reversed.",
+    "stakeholders": "Vulnerable or hard-to-reach stakeholder groups were identified by the municipality and included in the established participation mechanisms. Associations representing different groups were proactively invited to participate in the leading local stakeholder group, including the Spanish organisation promoting the integration of people with visual impairments in society (ONCE), the Sant Antoni Neighbourhood Association, the Sant Antonì Commerce Association, Barcelona’s LGBTI Centre, and parents’ associations. The development of the Superblock programme is based on a highly inclusive participatory planning process that builds on previous experiences in the Poblenou and Sant Antoni neighbourhoods. This approach builds trust and secures the support from community members, creating a safe space where community groups discuss and reconcile different interests for the use of public spaces. For this purpose, the city also developed an online citizen participation portal to ensure the engagement of stakeholders. The public participation process was structured in three phases: (i) the participatory planning process, which led to the approval of the Neighbourhood Action Plan in December 2017; (ii) the participatory implementation of projects carried out under each specific Superblock programme; and (iii) the participatory monitoring after projects were implemented. This organisation of public participation ensured that citizens were able to influence public policies throughout the whole decision-making process. In some cases, the citizen engagement led to significant changes in the initial projects, making plans more tailored to local needs. Besides group meetings, the participatory program includes other activities such as the re-design of street spaces and squares, diagnostic actions in public space, street events, exploratory walks, surveys, proposal sessions, etc.",
+    "legal_context": null
+  },
   "point": {
     "lat": 41.375,
     "lon": 2.15758991241,
@@ -72,7 +200,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/barcelona-trees-tempering-the-mediterranean-city-climate",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:10+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

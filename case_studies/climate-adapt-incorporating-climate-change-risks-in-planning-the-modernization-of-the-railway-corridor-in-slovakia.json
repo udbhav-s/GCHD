@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
   "title": "Incorporating climate change risks in planning the modernization of the railway corridor in Slovakia",
@@ -53,6 +53,99 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rail resilience",
+      "label": "rail resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rail alignment",
+      "label": "rail alignment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "operation continuity",
+      "label": "operation continuity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "technical measures",
+      "label": "technical measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "retaining walls",
+      "label": "retaining walls"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "management measures",
+      "label": "management measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Feasibility study",
+      "label": "Feasibility study"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "infrastructure modernization",
+      "label": "infrastructure modernization"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The overall objectives of the Slovakia railway modernization project are to: (i) increase the quality and competitiveness of rail transport, (ii) enhance the benefits of this transport modality for the economy and the integration of Slovakia into international transport networks, and (iii) contribute to environmental protection by developing an environmentally friendly transport solution, substituting other transport modes (especially road transport). One of the fundamental prerequisites for achieving the project objectives and thereby its functions for economy and environment protection is to ensure climate resilience of rail infrastructure and operation. Providing the wide scope of climate change challenges the rail transport is expected to cope with in future and due to the very long lifetime of rail infrastructure, the process of making infrastructure climate-proof needs to be properly planned and prepared. This implies that the identification of climate change risks and vulnerabilities for rail transport assets and operation must be an integral part of the modernization project. Recommended adaptation responses aim to ensure undisturbed railway operation even in case of extreme weather conditions and to avoid disturbance of rail transport due to long-term climate trends, such as temperature increase.",
+    "measures": "Climate change risks and vulnerabilities for rail transport assets and operation were identified and consequent adaptation measures proposed as part of the feasibility study of the railway modernization project. Such analysis was elaborated according to the guideline “ Methodological Handbook on Assessing Climate Change Impacts on Major Transport Projects ” (in Slovakian), which was developed in 2018 by the Transport Research Centre of Slovakia and consultants for the Ministry of Transport and Construction. Specifically, risk and vulnerability assessment was elaborated for individual sections of the railway under consideration, integrating the aspect of exposition (expected climate change phenomena affecting rail transport) and sensitivity (extent of which the system is susceptible to be influenced by climate change impacts). Risks were attributed to the railway sections and railway components (e.g. bridges, tunnels) according to the following categorization: Insignificant (blue); risk can be addressed through standard technical design of railway assets or within normal operation. Small (green); risk requires partial change of technical design or operation. Medium (yellow); risk requires significant change of technical design or risk operation management. Significant (red); risk requires fundamental change of technical design or emergency management; Catastrophic (black); risk can lead to long-term closure of operation or damage of railway assets. Alternative routing is highly recommended. Based on the type and magnitude of risks identified, adaptation responses have been proposed for the relevant sections of the corridor and incorporated in project documentation part of the preparatory and design phase. Proposed adaptation measures can be grouped in three categories: Technical options , increasing resilience of essential railway infrastructure to extreme weather events and climate change trends. These measures, which are aimed at preventing disruption of infrastructure availability, include: (i) wind-proofing of the catenary system (e.g. able to withstand the wind speed exceeding 30 m/s); (ii) increased capacity of the drainage system, such as culverts able to cope with higher quantity of water and improved drainage of railway subgrade, tunnels and bridge structures; (iii) increased railway alignment above the limit of potential flood (betweenQ 100 to Q 1000 depending on the on-site situation); reducing slope incline as prevention against landslides; (iv) resistant bridge structures and deep bridge pillars; (v) use of highly water resistant building materials for railway subgrade and other components; (vi) flexible way of mounting rails, which significantly reduces the deformation of rails due to extreme temperatures; (vii) installation of structural protection systems (e.g. windbreaks, retaining walls, embankments). Management options , providing solutions when extreme weather events occur and infrastructure disruption takes place. These options help minimize negative impacts of extreme events and include: (i) increased maintenance and control of sections at risks, e.g. equipping switches, rails and catenaries with detectors monitoring temperature (for overheating and freezing), icing, snow precipitation or wind speed; (ii) provision of substitute bus service in the event of temporary interruption of rail transport; (iii) ensuring alternative railway routes and efficient emergency transport management; (iv) measures pertaining to environmental management (e.g. river basin reforestation). Early warning system, monitoring and forecasting , aiming to increase preparedness and enable traffic management measures to be taken in advance. This typology of measures relies on the implemented and operative monitoring, forecasting and alerting system of Slovak Hydrometeorological Institute (SHMI); it deals with a “railway tailored” monitoring and forecasting system which focuses on the events particularly harmful for railway, such as strong wind, icing, flooding or heavy snowfall. By means of providing early warning system, the negative impact of extreme weather events on rail transport system and the whole economy will be minimized. Part of the proposed measures has been implemented in those sections of the railway corridor that have already been modernized. For example, construction works are currently underway in the corridor section between the towns of Puchov and Povazka Tepla (15.9 km long), including two tunnels (respectively 1.1 and 1.8 km long) and three major bridges over the Váh River and the water reservoir Nosice. The whole corridor section Puchov-Zilina (44 km long) is expected to be completed by the end of 2021. This is the remaining corridor section to be modernized between Bratislava and Zilina (approximately 200 km long), part of which has been modernized during the previous programming period (2007–2013). Adaptation measures in these sections include: measures to ensure flood protection up to Q 500 flood level, drainage of the railway subgrade, and retaining walls reinforcing slopes with high risk of instability. All bridges and tunnels are designed to withstand floods and torrential rainfall (e.g. through isolated bridge decks, resistant bridge pillars) and must be tested for static and dynamic load before they are put in regular operation.",
+    "outcomes": "One of the main drivers of the railway modernization project is the support it can provide to economic development and prosperity, especially of more remote regions of Slovakia. Sufficient funding availability provided by both European and national resources, incorporation of railway modernization in national and regional transport strategies and municipalities support in planning and implementing the project have played also a relevant driving role for the railway modernization project. There might be also some limiting factors identified which can hinder the process, namely conflicts with environmental protection goals mainly related to landscape fragmentation or conflicts with local communities concerned about increased noise pollution and land consumption that can limit the urban development. As the railway construction proceeds, these problems are approached by consultation of municipality representatives and discussion with transport experts involved in the project aiming to find mutually beneficial solutions.",
+    "cost_benefit": "The main funding instrument of all phases of the railway modernization project (preparatory, design and implementation) is the Operation Programme Integrated Infrastructure 2014-2020 (OPII), preceded by the OPII for the period 2007–2013. The total allocation of OPII 2014–2020 Priority axis 1 - focused on railway infrastructure within TEN-T core network - is € 853,9 million, out of which € 725,8 million provided by the European Commission through the Cohesion Fund and the remaining € 128,1 represented by national co-financing from the State budget. Further economic resources shall be also ensured by the OPII foreseen of the next 2021–2027 programming period. Given this overall figure, the total financial costs for the modernization of the entire corridor cannot be quantified yet, as the majority of its total length is still in the preparatory phase. The financial figures are available only for the corridor sections which have been already modernized or are under construction. For instance, the total budget of the construction work carried out in the section Půchov - Považská Teplá currently under construction is € 365 million. In this case, the contribution from OPII 2014–2020 is € 361 million. However, the cost of technical measures increasing climate change resilience of railway is not available separately, as they represent an integral part of the overall construction works. Main overall expected benefits of the railway modernization project include: attractive, faster and more comfortable railway transport; less transport emissions compared to road transport; better competitiveness of SME; health benefits due to lower air pollution and lower noise pollution still compared to road transport. As far as adaptation to climate change is concerned, the project is expected to increase the resilience of the railway transport system and ensure operation also during extreme meteorological events.",
+    "timeline": "The studies carried out within the preparatory phase of the modernization project (feasibility study, impact analysis, vulnerability analysis, proposal of adaptation measures) are currently ready almost for the entire length of the railway corridor. Their preparation took between several months to approximately two years according to the extent and complexity of the specific railway section considered. Implementation started and is on-going on some section of the corridor. Modernization work of the Bratislava - Žilina section of approximately 200 km length is almost completed; climate-proofing of the railway is an integral part of constructions works. Due to a large number of influencing factors, the date of completion of the entire corridor cannot be defined yet.",
+    "lifetime": "The technical measures increasing climate resilience of railway have a lifetime of several decades, depending on the level of maintenance. Railway infrastructure lifetime is also very long in the order of tens of years up to 100 years or even more, if well maintained and continuously monitored.",
+    "stakeholders": "The main actors involved in the modernization of the railway corridor in Slovakia, which are also responsible for acquisition and allocation of financial resources and project management, are the Ministry of Transport and Construction of the Slovak Republic and the Railways of the Slovak Republic (ŽSR). A wide range of other actors were involved in the preparatory phase of the project, including companies in charge of feasibility studies, environmental impact assessment process and companies providing vulnerability assessment and climate change proofing of the project. The implementation of the measures in the individual sections of the corridor is provided by design construction companies, which have been selected by a public tendering process. The Transport Research Centre of the Slovak Republic and the European Association of Consultants have been involved as main actors ensuring climate proofing or the entire project. They carried out assessments and recommendations according to the “Methodological Handbook on Assessing Climate Change Impacts on Major Transport Projects” prepared by Integra Consulting (consultancy company).",
+    "legal_context": "The development of transport infrastructure in Slovakia is steered by the Strategic Transport Development Plan of the Slovak Republic up to 2030 which also addresses railway infrastructure. The Climate Change Adaptation Strategy of the Slovak Republic, adopted in 2014 and updated in the year 2018, provides references for adaptation measures to be implemented for various sectors, including transport."
+  },
   "point": {
     "lat": 48.6909603909,
     "lon": 19.16015625,
@@ -82,7 +175,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/incorporating-climate-change-risks-in-planning-the-modernization-of-the-railway-corridor-in-slovakia",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:05+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
   "title": "Slope stabilisation and modernisation of road infrastructure at Gródek nad Dunajcem, Poland",
@@ -34,6 +34,115 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mass movements",
+      "label": "mass movements"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "landslides",
+      "label": "landslides"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "road infrastructure",
+      "label": "road infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "provincial road",
+      "label": "provincial road"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "EU funds",
+      "label": "EU funds"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Małopolska Region",
+      "label": "Małopolska Region"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children"
+    ],
+    "group_mentions": {
+      "children_youth": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the adaptation measure was to make key transport infrastructure more resilient to the impacts of climate change. Specific objectives: Environmental objective: permanent protection and stabilisation of landslides on the key section of provincial road No. 975 to prevent further erosion, uncontrolled run-off of earth masses and environmental impacts on Lake Rożnowskie. Social and economic objective: restoring full safety and continuity of communication on the provincial road. This objective directly contributes to minimising the risk to the life and health of road users and supports the territorial and economic cohesion of the region by providing reliable access to tourist resorts located around Lake Rożnowskie and local production zones of the municipality of Gródek nad Dunajcem, as well as connections to the A4 motorway.",
+    "measures": "A comprehensive engineering and geotechnical intervention was implemented to ensure the permanent protection of slopes against displacement. The following adaptation measures were implemented: Geotechnical stabilization: advanced techniques were applied by constructing a reinforced concrete grillage foundation placed on bored piles in order to permanently stabilise the earth masses. These actions were designed to take over the loads, preventing further gravitational movements caused by water seepage. The analysis of alternatives considered various methods of securing landslides, including nature-based solutions. However, due to the rock-debris nature and scale of the threat, it was concluded that nature-based methods alone would be insufficient. In the face of a critical threat to strategic road infrastructure, the only solution that could guarantee lasting safety and take over massive geological loads was an advanced engineering solution. The chosen option was therefore optimal and economically rational, as it prevented much higher costs related to the disaster and the disruption of the transport route. Reconstruction and modernisation: the road structure in the endangered sections was rebuilt and reinforced. In addition to securing the landslide, the scope of works carried out under the Project also included additional elements, such as the demolition of the old bridge replaced by a new one over the Szczecinówka stream. It was necessary for the proper functioning of the implemented project, as there was no other possibility to adapt the level of the newly designed road section (including securing the landslide) to the existing bridge structure. Geotechnical solutions were designed to withstand the worst hydrological scenarios (increase in rainfall intensity) without losing functionality. It is a long-life passive infrastructure, requiring no continuous adjustment in response to climate change, but providing constant protection. Geotechnical stabilization of the slope is an inherently durable and rigid solution, adapted to the possible deterioration of climatic conditions. It also provides a safe foundation for possible future road infrastructure upgrades. The most important result of the action is the permanent restoration of the full trafficability of provincial road No. 975 and maintaining the stability of slopes during the following seasons of heavy rainfall. Thanks to the investment, the main problem has been solved. A standard long-term maintenance of road infrastructure (drainage, road surface) is required. After the completion of the security and construction works, the landslide monitoring was also commissioned to a specialized geological company. The selection of the measurement method and duration has been agreed with the Polish Geological Institute – National Research Institute.",
+    "outcomes": "The project was formally approved and financed under Measure 5.1 Adaptation to Climate Change of the Regional Operational Programme of the Małopolska Region for 2014-2020. At the same time, the project achieved many policy objectives, combining environmental protection (minimised erosion through slope stabilisation) with infrastructure development (road/bridge). Due to its strategic but also sensitive location, the project required numerous and complicated arrangements with many entities. It was crucial to obtain decisions on environmental conditions and water permits (due to the immediate vicinity and works on the shore of Lake Rożnowskie). Efficient coordination between the Regional Roads Authority in Krakow, the Polish Geological Institute – National Research Institute and the authorities issuing permits allowed to avoid delays in the preparatory stage and smooth implementation of the project. The use of scientific data from the Polish Geological Institute – National Research Institute and its involvement in reviewing the documentation ensured the highest level of expertise and reliability of the designed solutions. The damage to the road in 2010, documented threat of further landslides and the risk of communication exclusion strengthened public support for the project. The local community perceived the intervention as an urgent need to increase transport safety. A key success factor of the project was the high co-financing rate (85%) from the European Regional Development Fund (ERDF). Without this contribution, it would have been difficult to implement a costly and complex geotechnical investment, which did not generate any direct financial return. The main limiting factor identified for the project was the high cost of the investment, combined with the lack of a direct return. Such adaptation investments protecting infrastructure are very costly and difficult to finance only from national or regional budgets. A limiting factor was also carrying out construction and geotechnical works on active landslides, which increases the risks during their execution. The need to minimise the impact on the environment in the vicinity of Lake Rożnowskie during the implementation of the project, can also be considered a limiting factor. A rainwater sewage system was built to avoid environmental contamination. The system is equipped with sand traps and separators that purify rainwater from the road before it is released into the environment. In addition, after completion of the works, the construction sites were renaturalised by restoring the soil cover and sowing it with plant species characteristic for the region.",
+    "cost_benefit": "The total cost of the project was PLN 19,031,872.33 (approximately EUR 4.47 million). European Union co-financing from the European Regional Development Fund (ERDF) covered 85% of eligible costs and amounted to PLN 16,026,409.28 (approximately EUR 3.77 million). Funding was retrieved from the Regional Operational Programme of Małopolska Region 2014-2020, Measure 5.1 Adaptation to Climate Change, Budget of Małopolska Region. Despite the need to carry out works additional to those originally planned, it was possible to maintain the implementation under the original financial plan. Ultimately, thanks to flexible management and the use of savings to cover unforeseen work, the initiative remained in line with the financial plan and did not require an increase in the originally allocated level of co-financing from the European Union. Maintenance costs relate mainly to the long-term maintenance of drainage and monitoring systems. These are regular expenses incurred by the Regional Roads Authority in Krakow, but they are significantly lower than the costs of a potential disaster, which is a key saving in the long term. The permanent securing of the road prevented the potential loss of valuable infrastructure. Moreover, the costs of crisis intervention, long-term management of detours and the costs of road restoration were avoided. Maintaining the full practicability of provincial road No. 975 (connecting to the national road No. 75 and the A4 motorway) strengthens the resilience of regional supply chains and enables continuous economic activity, including commuting residents to work and conducting tourism activities, which are crucial for the region. The investment prevents the transport exclusion of residents and businesses in the Gródek nad Dunajcem area. It provides a safe, stable and accessible road for residents of rural and sub-mountain areas, who are often highly dependent on road infrastructure in their daily lives and access to work and services (health care, education, government offices), and are also especially affected by traffic disruptions and access to public transport. Reliable and safe public transport is particularly important for vulnerable groups (senior citizens, children, people with lower incomes) and those who do not have alternative means of transport, as it ensures continuous access to essential services. The permanent stabilisation of landslides prevents further uncontrolled erosion and degradation of the slope. This in turn protects Lake Rożnowskie from physical pollution in the form of earth masses, preventing its silting up and water turbidity. On the other hand, the modernised road drainage system, equipped with sand traps and separators that capture and purify rainwater from the road, prevents traffic pollution (e.g. petroleum-derived, heavy metals) from flowing into Lake Rożnowskie, which additionally has a positive impact on the protection of water quality.",
+    "timeline": "The project started in August 2017 and ended in March 2022. The project implementation period was extended by law by 90 days in connection with the provisions of the Act of 3 April 2020 on special solutions supporting the implementation of operational programmes in connection with the COVID-19 outbreak in 2020 (Journal of Laws 2020, item 694).",
+    "lifetime": "The stabilisation of landslides on provincial road No. 975 is a hard-type engineering investment aimed at long-term resilience to climate hazards (extreme rainfall). The expected lifespan of the geotechnical and structural solutions (palisades, new bridge) is at least 50 years. This is a permanent and continuous task. The durability of the infrastructure will be ensured by regular maintenance, mainly focused on maintaining drainage systems and geodetic/geotechnical monitoring after extreme phenomena, in order to quickly detect possible damage.",
+    "stakeholders": "The project required the involvement of the public and private sectors. The Regional Roads Authority in Krakow led the application process for co-financing from European funds for these activities. The co-financing was granted under Measure 5.1 Adaptation to Climate Change from the Regional Operational Programme of the Malopolska Region for 2014-2020. The Board of the Małopolska Region and the Regional Roads Authority in Krakow were involved in the preparation, technical supervision and implementation of the project. The project was based on scientific data from the Polish Geological Institute – National Research Institute, the so-called landslide cards. A landslide card is an official, standardised document that records and describes in details an identified landslide, assigning it a unique number in the national SOPO database (System Osłony Przeciwosuwiskowej; Landslide Protection System). It contains key data on its location, size, type (e.g. rock-debris), causes and degree of activity, forming the basis for risk assessment and planning of security measures. The Polish Geological Institute – National Research Institute also provided expert opinion and verification of geological and engineering documentation of landslides. The private sector was involved in the execution of the works. Public consultations were also held for the residents of the region and users of provincial road No. 975; meetings were organised and information on traffic problems was provided.",
+    "legal_context": null
+  },
   "point": {
     "lat": 49.7486434,
     "lon": 20.7323128,
@@ -58,7 +167,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/slope-stabilization-and-modernisation-of-road-infrastructure-at-grodek-nad-dunajcem-poland",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:33+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

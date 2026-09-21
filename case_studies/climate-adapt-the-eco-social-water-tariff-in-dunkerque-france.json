@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-the-eco-social-water-tariff-in-dunkerque-france",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-eco-social-water-tariff-in-dunkerque-france",
   "title": "The Eco-social water tariff in Dunkerque, France",
@@ -44,6 +44,111 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Drinking water",
+      "label": "Drinking water"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Social justice",
+      "label": "Social justice"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Eco-social water tariff",
+      "label": "Eco-social water tariff"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Governance",
+      "label": "Governance"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people",
+      "low_income"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "disadvantaged",
+      "elderly",
+      "low-income",
+      "poverty",
+      "school"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 1,
+      "older_people": 1,
+      "low_income": 9
+    }
+  },
+  "intervention": {
+    "objectives": "Dunkerque was one of the 50 local authorities to participate in the experimentation, implementing an Eco-social tariff which introduced a new water pricing system with the aim of building a sustainable socially “just” tariff system based on metered water consumption. The introduction of the new pricing system is part of a broader strategy to incentivise the reduction of non-essential water consumption. Furthermore, the tariff is a way to guarantee distributive justice as the social discount aim is to help economically vulnerable population. Procedural justice it is also concerned because bureaucratic barriers for the access to discounts have been cancelled, as the discount is applied automatically based on data on economically vulnerable households provided by the Caisse primaire d’assurance maladie (CSS). Summing up, the objectives of the eco-social tariff are: ● Decrease water consumption and thus resource use ● Increase the environmental awareness of the population through financial incentives for reducing water consumption ● Introduce a social tariff for low incomes groups and introduce additional discounts for low-income groups",
+    "measures": "The Eco-social three-tiered tariff system distinguishes between what is considered water consumption to meet basic human needs rather than non-essential water needs. The pricing level associated with each tier increases in a non-linear manner, ensuring that all residents can afford water to cover all their basic needs. The threshold for vital consumption is fixed at 80 m³/year per household at a price of 1,29 €/m³. For the first tier, prices are kept as low as possible, subsidising production costs through the higher prices charged for water consumption at the second (2.40 €/ m³ for up to 200 m³) and third tier levels 3.18 €/ m³ for water consumption exceeding this level. An additional mechanism was also introduced to further support highly vulnerable groups: the CSS beneficiaries automatically receive a 70% discount on their water bills paying 0,50 €/m³ (all prices refer to 1 st of January 2023). In 2023, 72.1% of households kept their water consumption within the limits of the first tier, while consumptions of 25.4 % of households are situated in the second, and 2.6% of households’ consumptions belong to the third tier. The tariff based on water quantities consumed per household does not take into account the effective water needs related to the size of households. For this reason, some low-income households cannot benefit from the automatic system, either because their dwelling is situated in a collective building without individual meters, or because their water needs exceed the lowest tier level because of the size of the household. In the Dunkerque area, this regards approx. 1,600 households in blocks of flats without individual meters alone (out of the region's 36,000 multi-family dwellings), further to a number of large size households. For both categories, a “Cheque eau” system has been established, for which households had to apply actively. This cheque corresponded to 12 €/year assigned for each person starting from the 6 th person in a household, and 40 €/year per household for those living in buildings without individual water meters. Yet, the cheque system revealed being unsuccessful, as entitled households did not apply for these discounts: in Dunkerque, only 40 households out of the expected more than 1,800 had applied and received the cheque. Given the inefficiency of the cheque system, the SED is trying to obtain data from the local Caisse d’ Allocation Familiales (CAF), which would allow to take household size in the tariff system in an automated way as it is already done for CSS beneficiaries. As a result of the shift from the previous flat price model with equal tariffs for all households to this new scheme, 80% of water users have made savings on their bills. The remaining 20% saw an increase, and the users belonging to the third tier (high consumers, 2.62 % of the households) have been most impacted by the prices increase. The SED has saved 10 % of the cost compared with previous tariff. One household out of two is below the financial break threshold compared with the previous tariff system and average annual consumption is stabilized. The average consumption per household decreased significantly going from 83-85 m³/year in 2010 to 67 m³/year in 2023. Even second tier consumers reduced their consumption significantly (from almost 90 m³/year in 2010 to less than 80 m³/year in 2013 after the introduction of the tariff). In this way in Dunkerque significant amounts of groundwater have been saved, with a decrease of groundwater abstraction by 10% in 2023. Yet average consumption among households in the first tier saw a slight increase (from below 70 m³/year to more than 75 m³/year) demonstrating that, prior to the introduction of this new tariff they were likely under-consuming to limit expenditure on water. The monitoring of the measure has been undertaken predominantly through the data retrieved from water meters installed in the years before the introduction of the new tariff system and is continued since then. The availability of these data has been a key factor in understanding the effectiveness of the measure. Finally, optimization studies are expected to include, besides economic criteria, social criteria in the Dunkerque water tariff system, embracing beneficiaries of complementary allowance and disabled adult allowance, given that data on eligibility of households can be obtained so to apply these allowances automatically, as actually the case for the CSS beneficiaries.",
+    "outcomes": "The development and implementation of the new progressive Eco-social tariff is considered as an effective adaptation solution from both an environmental and social perspective. The introduction of this tariff was a solution for reducing the consumption levels of larger water consumers, while at the same time ensuring affordable access to a quantity of water able to meet the basic water needs of low-income households. The tariff has redistributed the costs of drinking water, as 80% of consumers are paying less or the same as before the tariff was introduced, with an associated overall reduction of the water consumption level, while first-tier consumers who were likely to have been under consuming in the past were able to slightly increase their consumption. The success of this operation, both in terms of water savings and social acceptability, was strongly and positively impacted by the launching of a major awareness raising campaign just prior to the introduction of the eco-solidarity pricing system. This campaign continues today (year 2024) with cultural, sporting, leisure and other events organized in the Dunkerque area, as well as with school children. The aim of this awareness-raising campaign is threefold: To explain to users where the water that flows from their taps comes from and to make them aware of its precious nature. The aim was to make citizens willing to save water by becoming involved in its preservation. To explain to users the eco-social tariff system and its economic, social and ecological benefits. Programme implementers had to especially convince the biggest consumers that their increased bills would have been benefiting of the most vulnerable members of their community. To give users the tools for more aware consumption, i.e. both controlling and reducing their consumption through simple routine actions and the acquisition of new habits. Some limitations of the tariff system based on metering are related to the need of: a) effectively connect payments to water consumption using metering, yet still 16,000 households live in collective without individual water meters. b) to ensure justice in the estimation of water needs front of larger households. Actually, SED has difficulties in identifying larger households who would need to benefit from a discounted rate but consume more water than foreseen by the tier system, due to the household size. While data on socially disadvantaged households is provided to SED by the institution distributing subsidies to these groups ( Caisse primaire d’assurance maladie , CSS), the local institution in charge of specific public subsidies to this group of households refused to share data with the SED, so these households cannot benefit from the automatic application of a special tariff. The issue of the lack of proper data to reach out to all vulnerable people (for economic or social causes) is expected to be solved in the very near future, through a national regulatory decree that will oblige all social organizations to share data with local authorities that operate a social water tariff, to increase equity of these measures. The initial attempt to cover such cases in the impossibility to apply automated application of discounts, with a cheque system, required active application by households. Yet, this system has failed as, the majority of entitled households did not apply for this subsidy, and the cheque system has been abandoned. To cover more households with the tiered tariff system, in 2018 SED has revised the threshold value for the first “essential water” tariff band from of 75 m 3 to 80 m 3 of water consumed per year per household. According to the SED, unpaid bills increased after the Covid pandemic, probably connected to the introduction of a digitalised payment system. Vulnerable groups, such as elderly, might be defaulting on bill payments as they are less familiar with digital payments (i.e. due to IT illiteracy or face more difficulties in accessing IT payment platforms).",
+    "cost_benefit": "In a report published in 2017 (last specific data available), the programme establishment costs were around EUR 180,000. These included initial costs related to the development of a tailored pricing system to meet programme objectives, which was supported by a consultancy company, further to the costs of installation of individual meters, as well as development of the programme implementation plan. On top of this, management of the new billing system results in an additional cost of 1.5 cents per m³. The benefits of the implementation were mainly received by the first tier of consumers and the CCS beneficiaries that are generally considered the most vulnerable population groups; A large proportion of higher-level consumers (around 80%) also reduced their water consumption, avoiding a large incrementation of the water bills. Only 20% of customers increased their consumption and therefore their water bills. A small increase effect has been observed among some CSS beneficiaries since the introduction of the 0.34€/ m³ solidarity rate for the first-tier consumption level. As they did not have the financial means to pay the price of a sufficient quantity of water before the introduction of this pricing system, they reduced their consumption as much as possible, even beneath what is considered the most basic level to meet their own sanitary needs. The new pricing structure has allowed them to modestly increase consumption to now fully meet their basic needs.",
+    "timeline": "The pricing system was introduced in 2012 and is ongoing, the preparatory phase started three years before its introduction with monitoring of households and concertation with the eco-solidarity observatory assessing and steering the project.",
+    "lifetime": "The eco-social water tariff is a permanent measure, with adjustments undertaken over the time for optimising its functioning. For example, in the near future SED aims to obtain data about the household size (not considered so far due to the lack of usable data) to be able to provide further discounts in relation to family size. The same holds for the inclusion of social criteria (e.g. discounted rates for more vulnerable people).",
+    "stakeholders": "The Syndicat de l'Eau of Dunkerque brings together 29 municipalities. It defines water policy for the region and determines the challenges and orientations of the drinking water and industrial water services. The Syndicat de l'Eau of Dunkerque has entrusted the operation of drinking water distribution service to a delegate, SUEZ Eau , a company specialized in the operation of facilities serving the environment. The eco-solidarity pricing system is based on continuous evaluation, and an eco-solidarity observatory has been set up as a steering committee. This observatory meets regularly, and brings together actors in the water sector and representatives of associations and institutions, including landlords, social and environmental associations, the General Council, and the local authorities and environmental associations, the Caisse Primaire d’Assurance Maladie du Nord (CPAM), Le portal des Allocation Familiales (CAF), the Water Agency, the National Water Committee, representatives of the Syndicat, Centre Communal d'Action Sociale (CCAS) and the water service delegate. The purpose of the eco-solidarity observatory is to assess the impact of the water pricing system on consumption and suggest ways of improving it. To do this, it relies on four tools: (i) a survey of 800 users carried out over three years (so far carried out every year); (ii) a qualitative panel of 1,500 users monitored over six years (including the three years prior to the launch of the pricing system); (iv) Residents' working groups for qualitative assessment of the system and deployment of eco-actions. Analyses of the bills of the 98,244 subscribers (private and professional users), and the tools recommended to ensure direct consultation with users. The presence of associations in the observatory also contributes to this.",
+    "legal_context": null
+  },
   "point": {
     "lat": 51.0347708,
     "lon": 2.3772525,
@@ -68,7 +173,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-eco-social-water-tariff-in-dunkerque-france",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:30+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

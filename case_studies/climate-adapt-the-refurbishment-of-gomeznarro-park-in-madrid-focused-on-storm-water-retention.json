@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
   "title": "The refurbishment of Gomeznarro park in Madrid focused on storm water retention",
@@ -56,6 +56,110 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "groundwater recharge",
+      "label": "groundwater recharge"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "revegetation",
+      "label": "revegetation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green space",
+      "label": "green space"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Madrid",
+      "label": "Madrid"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "permeable surface",
+      "label": "permeable surface"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban park",
+      "label": "urban park"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green infrastructure",
+      "label": "Green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable urban drainage systems",
+      "label": "sustainable urban drainage systems"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly"
+    ],
+    "group_mentions": {
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The aim of this initiative was to restore the natural water cycle in the urbanised area of Gomeznarro Park. The specific objectives were: Regeneration of the park landscape; Elimination or significant reduction of runoff processes; Reduction of the volume of water with high levels of suspended matter, of which the quantity and quality affected the urban drainage system during heavy rain events; Demonstration of the efficiency of new water sensitive materials and rainwater management techniques.",
+    "measures": "The 10,000 m 2 area of the Gomeznarro Park located in the southern part of Madrid, in Hortaleza District, underwent a transformation through the application of a combination of grey and green infrastructure. The interventions implemented in the park included: Restructuring and/or replacement of the eroded and compacted soil; Removal of impervious pavements and their replacement with permeable surfaces, thereby facilitating water drainage and collection; Installation of underground storage tanks under the pavements and the associated water collection and distribution system; Re-vegetation of the eroded areas. In 2004, the project received a ‘good practice’ qualification as part of the best practice award scheme by UN Habitat ( UN Habitat Best practices database ). The water infiltration and collection technology has been subsequently replicated in several projects in Madrid and elsewhere in Spain and similar solutions are also currently widely used internationally. The sustainable drainage systems have later been used for a variety of urban development projects in Spain such as: Creation of urban parks (e.g. Barrio les Roquetes in Barcelona in 2017); Greening of streetscapes (e.g. Barrio Bon Pastor in Barcelona in 2016); Permeable transport infrastructure (e.g. Green cover of the Logroño train station in 2012-2013, permeable shoulder of highway A-6 in Valladolid in 2008, urban street improvement in Torre Baró, Barcelona, in 2008): Recycling of rainwater to irrigation (e.g. a sports field in Las Palmas in 2016-2017, the plot and the vegetated facade of a centre for the elderly in Madrid in 2017-2018).",
+    "outcomes": "The complaints by inhabitants of the neighbourhood were a key driver for including the improvement of the park’s drainage system in a programme of urban rehabilitation. The state of the park area had already caused problems for residents in terms of flooded buildings as a result of cloud bursts. The technology and materials applied were novel to Spain, at that time. This caused delays in implementation, as the design had to be carefully planned; approval criteria for the solutions proposed by the private consultant and provider of the technology had to be defined; and the contractors had to be thoroughly briefed. A particular difficulty arose as a result of the need to engage different municipal departments (water management, construction, planning, environment and others) in the planning and delivery. The drainage of urban green spaces approach adopted in this case study has been replicated in other locations in Madrid and elsewhere in Spain.",
+    "cost_benefit": "The municipality of Madrid financed the project. The construction cost was €343,600 (approximately € 34/m 2 ). Whilst the benefits have not been assessed in monetary terms, there are no additional maintenance costs compared to traditional landscaping solutions used in parks. The project resulted in reduced erosion, risk of flooding and pressure on the drainage systems. The park receives about 5 million litres of rainwater annually, which now does not enter the drainage system but instead recharges the groundwater levels and results in a lower need for additional watering by park maintenance. Further benefits include improved air quality and reduced air temperatures in and around the park.",
+    "timeline": "The planning phase lasted 3 months. Implementation also took 3 months, from January to March 2003.",
+    "lifetime": "The infrastructure is still in place and functioning. Provided that there is no damage to the underground water distribution and collection system, there is no lifespan limit for the solution.",
+    "stakeholders": "The project was driven and funded by the Madrid municipality. The technology and consultancy for the intervention was provided by a private consultancy company. The park is surrounded by social housing built in the 1960s. Tenants’ complaints about the dampness in their houses caused by flash flooding provided an impulse for the housing association to refurbish the residential buildings. This process was integrated with the municipality’s plan and the revitalisation of the Gomeznarro park.",
+    "legal_context": "In 2002, the Municipality of Madrid introduced compulsory environmental impacts assessment for any urban transformation undertaken in the city (Ley 2/2002, De 19 de Junio, de Evaluación Ambiental de la Comunidad De Madrid), including the reduction of water consumption as one of the assessment criteria. Following the completion of the project, a municipal by-law for efficient use of water was introduced (Ordenanza de Gestión y Uso Eficiente del Agua en la Ciudad de Madrid ANM 2006\\50) which explicitly requires measures for reduction of water consumption and creation of water reserves in Madrid."
+  },
   "point": {
     "lat": 40.4218603607,
     "lon": -3.7133789061,
@@ -80,7 +184,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-refurbishment-of-gomeznarro-park-in-madrid-focused-on-storm-water-retention",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:40+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

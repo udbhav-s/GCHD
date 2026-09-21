@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
   "title": "Large-Scale Oyster reef restoration for coastal protection in Brittany, France",
@@ -53,6 +53,122 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MARINE",
+      "label": "Marine and Fisheries"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "oyster reef restoration",
+      "label": "oyster reef restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "marine biodiversity",
+      "label": "marine biodiversity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal ecosystem",
+      "label": "coastal ecosystem"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "community-based approach",
+      "label": "community-based approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable fishery",
+      "label": "sustainable fishery"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal erosion",
+      "label": "coastal erosion"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly",
+      "nursery",
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 2,
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The oyster restoration measures, undertaken by the CLIMAREST project, address environmental, economic and social goals. The project's environmental goal is to restore native oyster reefs, which improve biodiversity, reduce coastal erosion, and aid in carbon sequestration. These oyster reefs are essential for adapting to climate change because they serve as natural buffers, absorbing wave energy and lessening the effects of storm surges. The economic goal is to support local fisheries and aquaculture whose production is dependent on oyster habitat, improving the living standard of coastal communities. The social goal is to involve local communities and stakeholders in the restoration process, guaranteeing that the solutions are widely accepted and co-developed, thereby supporting the long-term effectiveness and durability of the measures.",
+    "measures": "The CLIMAREST project tested the use of innovative reef system design to repair large biogenic oyster reefs. These systems are constructed to enhance larval settlement, dealing with nearby predation and withstanding adverse weather conditions like storms or heatwaves. The technique consists of deploying particular substrates that facilitate the formation of large-scale, cohesive oyster aggregates. These systems not only protect coastlines through dissipating wave energy but also offer vital ecosystems that may improve water filtration, enhance biodiversity, and sequestering carbon. The oyster reef restoration solutions are designed to be robust and adaptable. The cohesive aggregates shaped through oysters are predicted to withstand various weather conditions, together with increased storm frequency and growing sea levels. By strengthening the natural defences of coastal ecosystems, the reefs act as flexible, living infrastructures which could adapt to changing environmental situations over time. Monitoring and feedback mechanisms enable the continuous adjustment of restoration methodologies. As oyster populations recover, those reefs can develop and evolve, improving their resilience to future climate change impacts. Maintenance efforts focus on ongoing monitoring of oyster recruitment (i.e. the settlement and survival of juvenile oysters), growth, and ecosystem impacts. Substrate deployment is designed for durability, but regular monitoring and functionality re-deployment are essential to preserve the action's success. The conditions of the structures are monitored using underwater monitoring, virtual digital camera recordings and sample collection. Moreover, the project has established complete monitoring, reporting, and evaluation (MRE) schemes to measure the effectiveness of reefs. These consist of biodiversity observations at each the oyster and reef scales, focusing on the presence of epibionts (organisms living on oyster substratum) and species that make use of the reefs as habitat. Ecosystem services such as water filtration and carbon sequestration also are measured, with particular metrics tailor-made to the goals of each restoration site. Evaluation is continuous, and the challenge is to adjust methodologies based on real-time feedback from the monitoring process. For instance, the substrate designs and deployment techniques have been adjusted considering initial outcomes to optimize larval and oyster growth.Initial trials showed interesting outcomes, with increases in oyster abundance ￼and in the diversity of of reef-associated species o the months following substrate deployment. Although long-term ￼effects might require further evaluation, the early evidence suggests that the restored oyster reefs act as self-retaining ecosystems, offering both ecological and monetary benefits. The project's adaptability has also been tested under adverse conditions, such as fluctuating water temperatures and high predator activity. The resilience of the oyster aggregates to these pressures indicates that the solutions can adapt to a range of environmental stressors. In addition to onsite restoration actions, CLIMAREST is developing a modular digital toolbox for marine restoration. It is designed to supports decision-making, sharing best practices and enables upscaling of restoration methodologies across contexts. This digital toolkit is available as an online decision-support resource tested across all demonstration sites of CLIMAREST project, including oyster reef restoration.",
+    "outcomes": "The oyster reef restoration efforts in Brittany identified several critical factors that contributed to its success but also presented challenges. Economic and financial factors From an economic perspective, the project benefitted from European funding through the Horizon Europe Programme and additional resources that enabled its implementation. However, long-term funding is not guaranteed, raising concerns regarding future upscaling and maintenance. Demonstrating the economic feasibility of oyster reef restoration will be essential to attract additional funding and private sector interest. Governance and institutional factors Governance dynamics have played a crucial role in the project’s success. A collaborative working environment was established through cooperation among local communities, NGOs, research institutions and governmental agencies, supporting the implementation of restoration activities. While this framework helped build a shared vision, maintaining long-term stakeholder alignment remains challenging due to differing interests and priorities. Environmental and physical factors Brittany’s biological and physical context presents both opportunities and constraints. The presence of degraded oyster reefs makes the area well suited for targeted restoration, and sufficient space is available for project activities. However, environmental pressures such as declining water quality and climate change-related impacts—including rising sea temperatures, ocean acidification and increasing storm intensity—may hinder restoration success and require careful adaptive management. Social factors and equity considerations The project has received strong community support, as many local stakeholders recognize the ecological and economic benefits of healthy oyster reefs. Social equity is a key consideration, with coastal communities—particularly those dependent on fisheries and aquaculture—actively involved in the restoration process. This engagement helps ensure that the benefits of oyster reef restoration, such as improved fisheries, are equitably distributed among socially vulnerable groups. The CLIMAREST initiative is made to be scalable. With possible use options ranging from the Arctic to the Atlantic, the restoration techniques and stakeholder engagement strategies are meant to be replicated in other areas dealing with comparable challenges. Replication activities started already in Germany, in the North Sea (Borkum Reef Ground), wthin a Natura 2000 marine protected area. A collaboration between the Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung (AWI) and the Bundesamt für Naturschutz (BfN), Germany’s federal authority for nature conservation leads the implementation. Positive results include increased local biodiversity, greater habitat complexity from hard substrates, successful oyster survival at ~30 m depth, presence of key species (brown crab and European lobster), and detection of oyster larvae, indicating potential natural recruitment. At the same time some critical issues emerged, including high predation pressure—especially from brown crabs. This leads to elevated oyster mortality, trophic imbalances due to the absence of higher-level predators, limited oyster seed availability, challenging offshore conditions for deployment and monitoring, and lengthy regulatory and safety procedures causing delays and higher costs. Overall, the project shows a robust and flexible approach to marine ecosystem restoration. While maintenance and long-term monitoring are necessary to ensure the continued success of these efforts, early evidence indicates that the restored oyster reefs will provide lasting ecological, economic, and societal benefits.",
+    "cost_benefit": "Costs The whole CLIMAREST project operates with a substantial budget totalling approximately €8.7 million, largely funded by the European Union’s Horizon Europe Research and Innovation program. Specific budget allocations for the Brittany demonstration site within the project is not available. Benefits Within the toolbox above mentioned, users will find practical material to support the economic evaluation of restoration actions. The material includes roadmaps for cost-benefit analysis, standardized guides and protocols that help estimate the costs and benefits associated with different marine restoration measures. These resources help practitioners, project designers and decision-makers assess the economic feasibility and value of restoration options (e.g., estimating implementation costs, expected ecosystem service gains, maintenance and monitoring expenditures). From the environmental point of view, the restoration of oyster reefs promotes increased biodiversity, as the complex habitat structures created by oysters support a wide variety of marine life. In addition, oyster reefs play a crucial role in water quality improvement; as filter feeders, oysters remove particulates from the water, resulting in clearer and healthier aquatic environments. This natural filtration process contributes to ecosystem services that extend beyond biodiversity. Such services are shoreline stabilization and carbon sequestration, which are valuable for both ecological resilience and climate mitigation. The social benefits of the project are also notable. Improved water quality and enhanced marine biodiversity contribute positively to public health and well-being, providing at the same time recreational opportunities for the surrounding communities. Restoration activities, together with the recovery of oyster populations, have the potential to create jobs, particularly within aquaculture and related sectors, offering new economic opportunities and income sources for local residents. The CLIMAREST project has made it a priority to engage local communities in its initiatives, with special attention to socially vulnerable groups to ensure that the project’s benefits are distributed equitably and inclusively. Economically, the restoration of oyster reefs is expected to strengthen the local economy, particularly through the revitalization of local fisheries. By restoring reefs that act as natural barriers, the project also helps mitigate the impacts of coastal erosion and reduces the damage from storm surges, which can translate into significant long-term cost savings.",
+    "timeline": "The implementation of the oyster reef restoration measures in Brittany requires approximately 2-3 years. This timeframe includes the initial planning, securing funding, stakeholder engagement, site preparation, and the physical restoration activities. Governance measures, such as establishing collaboration protocols among local authorities, researchers, NGOs, and communities, required an additional 6-12 months for setup. The project run from 2022 to 2025. Certain delays have occurred due to weather-related challenges and adjustments in response to monitoring environmental indicators and collecting data. This allowed an adaptive management to enhance long-term project outcomes, ensuring a resilient restoration strategy.",
+    "lifetime": "The oyster reef restoration is designed as a long-term, potentially indefinite measure, given its basis in ecosystem restoration rather than fixed infrastructure. Once established, oyster reefs are expected to be self-sustaining. Periodic monitoring and minor maintenance every 3-5 years will be needed to ensure ecosystem health and to adapt to any environmental changes. Governance and community engagement, integral to the project, are continuous tasks aimed at fostering ongoing stewardship and adaptation.",
+    "stakeholders": "A comprehensive stakeholder engagement strategy has been implemented in the project to ensure success and inclusivity. Different stakeholder types have been involved: Public Authorities: Local and regional governmental bodies are actively participating to align restoration efforts with environmental policies and regulations; Research Institutions: Organizations such as Ifremer (French Research Institute for Exploitation of the Sea) and LEMAR (Laboratoire des Sciences de l'Environnement Marin) are leading scientific research and providing technical expertise; Non-Governmental Organizations (NGOs): Environmental NGOs are involved in public awareness campaigns and community engagement activities; Economic Actors: Local shellfish farmers and fishing industry representatives are engaged to integrate restoration efforts with sustainable economic practices; Citizens and Local Communities: Residents, including socially vulnerable groups, are encouraged to participate in restoration activities and decision-making processes. Participation in the CLIMAREST project is encouraged through various stakeholders' engagement approaches. One of the methods is the co-development of restoration plans , where stakeholders collaborate in designing restoration methodologies. This approach ensures that several perspectives are included, creating a more community-centred strategy. Frequent workshops and public meetings were held to share information, gather feedback, and facilitate the dialogue among participants. The project also emphasizes citizen science initiatives , inviting local communities to participate in monitoring and data collection. This involvement not only enhances public engagement but also helps build a sense of ownership and responsibility for the project's success. Additionally, educational outreach programs are offered at schools, aiming to raise awareness in the younger generations on the broader goals of marine conservation and biodiversity protection. Vulnerable groups, within the community are one of the targeted stakeholders. Local fishing communities , including small-scale fishers and aquaculture workers, are actively involved to help them adapt to the changes and promote sustainable practices that support their livelihoods. Youth and educational institutions play a vital role, in education and empowerment of the younger generation on marine biodiversity conservation and restoration efforts. Furthermore, the elderly population , who may hold valuable historical knowledge of the local marine environment, is encouraged to contribute with their experience and know-how. To facilitate the engagement, the project uses communication platforms , including digital tools and social media, allowing those who cannot attend in person to still participate. Inclusive meetings are proposed, with events scheduled at convenient times and accessible locations. Additionally, services for transportation and childcare are proposed to promote the participation. Information materials are created in clear, non-technical language and distributed through multiple channels. The collaborative governance approach will increase both the social acceptability and the long-time period viability of the solutions.",
+    "legal_context": null
+  },
   "point": {
     "lat": 47.5339789,
     "lon": -3.00336,
@@ -102,7 +218,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/large-scale-oyster-reef-restoration-for-coastal-protection-and-climate-change-adaptation-in-brittany-france",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:37+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

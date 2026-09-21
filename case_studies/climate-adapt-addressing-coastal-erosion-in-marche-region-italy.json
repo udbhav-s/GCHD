@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-addressing-coastal-erosion-in-marche-region-italy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/addressing-coastal-erosion-in-marche-region-italy",
   "title": "Addressing coastal erosion in Marche region, Italy",
@@ -53,6 +53,104 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stakeholder consultation",
+      "label": "stakeholder consultation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature restoration",
+      "label": "nature restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sirolo",
+      "label": "Sirolo"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Numana",
+      "label": "Numana"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "beach nourishment",
+      "label": "beach nourishment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tourism",
+      "label": "tourism"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the implemented intervention is the protection of the beach areas (in particular, lower sections of the beach) and cliffs against erosion. At the same time, the implemented actions seek to protect settlements and the tourism-based economy of the coastal area. Moreover, the overall strategic approach set out in the region’s ICZM Plan focuses on actions aiming at addressing the imbalance between sediment erosion and accretion along the coast and reducing the environmental and landscape impacts of coastal defences. In addition to these objectives focused on protection, the interventions also seek to strengthen the recreational opportunities provided by the shoreline (and hence tourism) and improve nature protection.",
+    "measures": "Under the first ICZM Plan (2005-2016), 277 coastal protection measures were implemented over the 176km of the Marche coast. These included both maintenance and realisation of new structural measures (i.e. breakwaters and seawalls) and implementation of soft measures (i.e. beach nourishment, mainly through materials taken from inland quarries and river deposits). In the municipality of Sirolo, about 156,000 m 3 of sand and gravel were used for beach nourishment along a 1,200 m shoreline in the San Michele Bay. In the municipality of Numana, a breakwater located to the north of the village was removed and about 172,000 m 3 of sand and gravel were used along 1,500 m of beach front. Sand and gravel used for the beach nourishment were excavated from inland sources and were transported to the beach areas where erosion was occurring. The materials fulfilled local precise requirements: they were of alluvial origin and had a similar mineralogical composition, colour and particle dimensions compared to the original beach materials. Within the same intervention, two groynes were realised and one was restored. Moreover, the work included actions to stabilise a cliff base for Mount Conero, close to Sirolo. This mountain is designated as a Natura 2000 site, and the works incorporated the need to maintain site conditions. The second ICZM Plan became effective in 2019 and, as the first plan, it envisages both periodic maintenance of previously implemented hard and soft measures and new interventions. The plan also foresees re-naturalisation interventions along the beaches. These include the removal or realignment of fixed coastal defences such as groynes and the substitution of existing structural measures with other structural or soft measures. The aim of the re-naturalisation is, on the one hand, to make the coast more accessible for recreational uses by increasing the available beach space and, on the other hand, to restore aquatic ecosystems and coastal dunes. In particular, 37 new structural interventions are planned along the entire regional coastline. Given the high naturalistic value of the areas, in Sirolo and Numana, the new ICZM Plan does not foresee the implementation of structural measures; however, maintenance and periodic beach nourishment activities are planned to keep the beaches accessible for locals and tourists. The ICZM plan encourages beach nourishment with recourse to materials which are external to the coastal system, mainly recurring to quarries and river deposits. Only for a few interventions the use of internal sources (coastal deposits) is foreseen. The selection of sources for gravel and sand is based on legal and scientific criteria aiming at minimising environmental impacts. Moreover, an integrated approach is preferred; municipalities are invited to achieve a virtuous circle between ecologically sustainable dredging interventions and beach nourishing, connecting demand and supply. In this context, Marche region aims to take the lead in the creation of a \"Sand Bank\", a project which aims to define in advance the need and destination of dredged sediments, minimizing those solutions that foresee their disposal in landfills or at sea. In this way, it is expected the availability of sedimentary materials can be optimised.",
+    "outcomes": "Main success factors include: Use of cost/benefit analysis to strengthen project planning; Strong public information, stakeholder consultation and cooperation with local communities. Main limiting factors are: Beach nourishment will have to be repeated due to ongoing erosion (proposed works to re-establish river sediment transport could reduce future erosion, in the long term). The availability of materials for beach nourishment needs to be closely evaluated. The choices of the source, the composition and granulometry of sand and gravel must respond to strict legislation requirements. Budget uncertainties for follow-up work due to economic crisis.",
+    "cost_benefit": "The overall costs of the interventions realised in the Marche coastal area under the first ICZM plan were of 93.81 million Euros. These costs were co-financed by the Marche Region (56%), the Italian State (24%), local authorities (12%), private actors (4%) and the Italian Railways (4%). The cost of the works carried out in Sirolo and Numana accounted respectively to 5.69 million Euros and 5.28 million Euros. The 2019 plan foresees 37 structural interventions distributed among 23 coastal municipalities along the Marche region for an estimated cost of 290 million Euros. The benefits include strengthened protection against storm surge and other risks, as well as co-benefits for local tourism and thus the local economy. Satellite monitoring showed an overall trend of shoreline advancement following the activation of the planned interventions. The coast was divided in transects. Advancement and retreat were recorded for each transect and summed to obtain the overall number of meters of coastline gained or lost. In 2008, the Marche shoreline had retreated of 2,257 m overall compared to 1999. In 2012, a positive trend was analysed, with an advancement of 2,445 m compared to 1999. In 2015, shoreline retreat was again visible compared to 2012, but an overall positive trend remains compared to 1999. In 2013, following the implementation of the measures in Sirolo and Numana, a cost-benefit analysis was prepared under the EU funded Shape “Shaping an Holistic Approach to Protect the Adriatic Environment between coast and sea” project. The analysis focused mainly on tourism revenue as a co-benefit. In particular, the analysis compared the financial effort needed to put the coastal protection measures in place to protect the beach with the loss that the local tourist system would have suffered with a reduction of the available beach. The study questioned the criteria to be introduced in order to establish who should support the costs of protection. It concluded that privates such as local tourism businesses that benefit from the investments in coastal defence could be called upon to contribute directly to the mobilisation of the resources needed for the implementation of such measures.",
+    "timeline": "The measures foreseen in the first ICZM Plan started being implemented in Marche in 2004. The interventions along the entire Marche coastline were implemented during a 10-year period. The actual work in the municipalities of Sirolo and Numana took two years, from April 2009 to April 2011. The second generation Plan also envisages a 10-year realisation period.",
+    "lifetime": "Soft measures such as beach nourishments and sand movements need to be carried out regularly. Structural measures need to be maintained. Measures implemented under the first generation plan (2005-2016) are indeed undergoing maintenance under the second generation plan.",
+    "stakeholders": "The activities carried out within the 2005 ICZM plan already envisaged the involvement of stakeholders. The Marche regional administration provided information to local citizens via flyers and newsletters. Moreover, interviews were held with tourism operators in the two municipalities of Sirolo and Numana, along with meetings with key stakeholders including the fishing and tourism sectors. The 2019 ICZM Plan was built together with public and private stakeholders, constantly informed and consulted about the planned activities. The proposal of the plan was presented and discussed in public meetings, organised in 2017. These meetings were attended by representatives of trade associations, regional councillors, municipal administrators, environmental organisations, technicians, citizens and interested parties. Comments on the proposed measures were received from 52 parties, 24 of which were public and 28 private. 65% of the proposed modifications were accepted. The results of the consultations were also published online. Currently, the maintenance of existing structures is possible upon request from privates, after an evaluation by the municipalities.",
+    "legal_context": "The works are based on the objectives and approaches set out in the Marche Integrated Coastal Zone Management Plan, approved in 2005 and updated in 2019. The Plan approval procedure went through a Strategic Environmental Assessment (SEA) incorporating public consultation. Moreover, the 2019 plan is updated also with respect to the 2007 Directive provisions on the assessment and management of flood risks (Directive 2007/60/EC)."
+  },
   "point": {
     "lat": 43.5186802502,
     "lon": 13.6206436152,
@@ -82,7 +180,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/addressing-coastal-erosion-in-marche-region-italy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:55+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

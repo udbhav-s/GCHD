@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
   "title": "Nature-based measures against rockfalls over forests in the Engadin Region, Switzerland",
@@ -44,6 +44,99 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature-based solutions",
+      "label": "nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rockfall",
+      "label": "rockfall"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biological protective measures",
+      "label": "Biological protective measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest management",
+      "label": "forest management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest conservation",
+      "label": "forest conservation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "risk map",
+      "label": "risk map"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Forests provide more effective protection against natural hazards than even experts in the field believed up to now. Maintaining forests is considerably cheaper than building costly technical structures. But can the forest guarantee a similar level of safety to structural measures? The Protect Bio method enables the evaluation of this nature-based protection service. As part of this project, a method was developed which makes it possible to determine the effect of the forest and other biological protection measures and to take them into account accurately in hazard protection projects. This method aims to evaluate the forest protection functions against natural hazards or the need for implementing technical protective measures (i.e. barriers or nets) to prevent from rockfalls damages. The method was used in practice for the first time on Fuorn Pass road, which connects Zernez in the Engadin valley with Val Müstair.",
+    "measures": "Fuorn Pass road, near Zernez in the Engadin region (Switzerland), is an approximately 800-metre-long stretch of road. Rockfall risk in this area was analysed with the help of the Protect Bio method. Rockfalls events registered in the past, maps of past events and scenarios derived from the structural geological observations allow describing the rockfall risk: the analysis shows the areas in which rockfall may be expected and how frequently such events may arise. A mathematical model was also used to simulate the consequences of the rockfall events. Based on a three-dimensional terrain model the computer calculates the rockfall track and the forces released by different rock and boulder sizes. The Protect Bio method also enables to take in consideration in the risk assessment the role of biological protective measures provided by forests against natural hazards (rockfalls, landslides, avalanches, etc.). The site gradient, stem density and other factors are incorporated into the simulation for the determination of the forest’s protection capacity. In the case of Fuorn Pass road near Zernez, results showed that no rockfall nets are needed on around half of the affected stretch of road. In this portion, the protection function provided by existing forests is enough to ensure protection against events with less than 1 to 30 years return period. As a low-cost complementary measure, felled trees can be arranged crossways to the slope. Technical and more expensive measures (such as nets) are only needed in stretches of the road where the forest is thin. Based on previous assessments – in which the insufficiently quantifiable effect of the protection forest as a natural impediment was often ignored – rockfall nets or other protective barriers would have had to be built along most of the stretch of road in question. With the Protect Bio method, the forest protection function has been evaluated and promoted as adaptation measure based on accurate risk assessment and cost-benefit analysis. The application of this method, thus, allowed saving millions of euros on technical protective structures that have been evaluated as not necessary.",
+    "outcomes": "The developed method includes different tools and analytical approach which make it possible to determine the effect of the forest and other biological protection measures and to take them into account accurately in hazard protection projects, saving costs associated to the implementation of not necessary technical protective structures. However, the role of protection forest services against natural hazards such as avalanches, landslides and debris flows, are rather difficult to assess and quantify; data are not available in every locations.",
+    "cost_benefit": "Around half of Switzerland's forest area is classified as protection forest. Protection forests were neglected for decades until an approach based on the revised forestry legislation introduced in 1991 obliged the cantons to provide for the maintenance of the protection forests. Protection forest was defined as “a forest that can prevent a recognized potential damage due to an existing natural hazard or reduce the associated risks”. Since then the federal authorities, cantons and communes have provided annual funding of around EUR 145 million for the maintenance of protection forests. This represents a good investment, since the economic value of the protection forest, which is related to the risk reduction for settlements and traffic routes, is estimated at EUR 3.8 billion per year. The consistent use of Protect Bio throughout Switzerland could enable savings millions of euros of technical protective structures; this increases the value of the protection forest still further.",
+    "timeline": "Protect Bio is a pioneering approach developed in Switzerland. Besides the Fuorn Pass road, the method has been implemented for example at Gruobenwald, Klosters and Orvin, Täsch, Schmitten. It is planned to use Protect Bio in other locations and, in particular, in the context of avalanches, rockfall and mudflows in the years to come and to improve its validation.",
+    "lifetime": "Protection forests have not a fixed lifetime. Protective structures and protective forests must be well maintained at all times so that they can fulfil their protective function and keep forest services as well.",
+    "stakeholders": "The project “Effectiveness of biological protection measures” (also known as Protect Bio) involved the following partners: FOEN - Federal Office for the Environment: Landslides, avalanches and protection forest section; Canton of Grisons: Office for forests an natural hazards; Office for civil engineering; Municipality of Zernez: Forest service.",
+    "legal_context": "A milestone in the use of natural resources was reached in the 19 th century with the decision to introduce sustainable management practices to protect forests. Today, Swiss forest legislation is internationally recognised and regulates in a comprehensive manner the various functions of the forest both for people and as a habitat for animals and plants. By encouraging natural and sustainable forest management, it also ensures that wood, a local natural resource, can be used on a permanent basis. Furthermore, the Forest Act (ForA) addresses the key role of forests in protecting against natural hazards. The ForA accords forest a unique position in land use: it protects it both in terms of its spread and its spatial distribution. The main instrument is the general prohibition of deforestation. Besides protecting the forest and the various functions they provide, the ForA also has the goal of managing the forest with respect to nature and of encouraging the sustainable use of wood as a natural resource. Floods, avalanches, landslides and rockfalls frequently occur in Switzerland, and they are often of considerable magnitude. The Hydraulic Engineering Act (HEA) and the ForA regulate how to organise protection against these natural hazards, which is demanded to the cantons. In constructing protective structures and drawing up natural hazard maps, they can call on expert and financial support from the Confederation. The various measures are designed to protect people and valuable property. The best way to do this is to use space appropriately. Spatial planning has to ensure that no buildings or infrastructure are constructed in areas which are prone to natural hazards. Protective forests are also considered a mean to improve protection against avalanches, rockfalls and landslides."
+  },
   "point": {
     "lat": 46.6404796785,
     "lon": 10.2931594849,
@@ -68,7 +161,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/nature-based-measures-against-rockfalls-over-forests-in-the-engadin-region-switzerland",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:22:56+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

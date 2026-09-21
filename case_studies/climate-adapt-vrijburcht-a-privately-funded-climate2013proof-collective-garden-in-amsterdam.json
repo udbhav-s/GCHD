@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-vrijburcht-a-privately-funded-climate2013proof-collective-garden-in-amsterdam",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/vrijburcht-a-privately-funded-climate2013proof-collective-garden-in-amsterdam",
   "title": "Vrijburcht: a privately funded climate–proof collective garden in Amsterdam",
@@ -53,6 +53,115 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "private commissioning",
+      "label": "private commissioning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainwater tank",
+      "label": "rainwater tank"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Collective garden",
+      "label": "Collective garden"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "surface permeability",
+      "label": "surface permeability"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "affordable housing",
+      "label": "affordable housing"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "nursery",
+      "playground",
+      "young people"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The primary objective of the Vrijburcht building block project was to offer an attractive and sustainable building for people to live, work and meet by creating a mix of affordable housing, ateliers/offices and public space. The complex was primarily financed by the residents-to-be. All houses are reached via the courtyard that functions as a central and informal area for residents to meet. At the same time it should reduce the risk of pluvial flooding, store rainwater for irrigation and decrease heat stress by providing a good micro-climate to the users of the building.",
+    "measures": "Vrijburcht is a mixed-use cohousing complex located on Steigereiland, an artificial island in Amsterdam in the IJmeer lake. The complex comprises 52 apartments, two guest rooms, a care home for six youths with slight mental impairments, a shared hobby space, a cycle shed and a parking garage, a day-care centre, a café with a water-side terrace, a theatre, a floating platform for swimming, and a landing pier for a sailing club. The courtyard garden provides solutions to prevent or reduce flooding from extreme rainfall, minimize water scarcity during dry periods and heat stress during hot summer days: Rain water from the roof tops is collected in two tanks that are buried in the garden and can in total contain 6000 l of water. This water is used for irrigation of the garden and the plants on the surrounding terraces/balconies and covers the total irrigation needs in most of the years. The car parking garage is constructed under the building and the garden is paved minimally to create maximum permeability for rain water in the garden. Relief is created so that water flows from higher parts to a marsh-like environment. This prevents flooding of the garden and enhances vegetation diversity by creating dryer and wetter environments across the courtyard garden. Drainpipes are detached from the facades at ground-floor level and together form a pergola construction for creeping plants. This minimizes the impact of eventual leakages on the facade. Creeping plants are also used at the exterior of the building were they cover wind screens to form green facades. Green roofs were also create The many trees in the garden provide shade and thus contribute to an agreeable microclimate on hot summer days. Solar panels (without sedum vegetation) in different parts of the roof have been installed. In 2022 solar panels with herbaceous vegetation roof on a few extra parts of the project have been installed as well. To realise the building complex and courtyard garden, a collective private commissioning (CPC) initiative was started allowing residents to organise themselves and realise their wishes (see also ‘Stakeholder participation’). Although the climate change adaptation outcomes of the project are not actually monitored, residents are currently enjoying the space that is creating well-being of the residents and a good micro-climate (see Costs and Benefits).",
+    "outcomes": "Main success factors of the initiative are: The building construction/development process was a collective process with the common wish for a building that was sustainable in both social and climate context. The concept of the green and sustainable courtyard was broadly supported by all stakeholders. Early involvement of landscape architects in the collective process was a key element to integrate the green space with the building and to reserve enough money from the total project budget to realize it. The Vrijburcht Foundation consisted of people that invested a lot of time and effort in the process, which is a prerequisite in a collective and private commissioning. The landscape architects brought in their professional experience into the process management as members of the Vrijburcht Foundation. The (social) housing foundation ‘De Key’ provided financial warranty by financing the houses that were not yet sold and other social and commercial services (e.g. day-care centre and housing for slightly disabled people, the day nursery, the cafè). ‘De Key’ also provided experience in overseeing the construction phase. This enabled the start of the building at the stage in which there were not yet enough private participants. ‘De Key’ took part in the Vrijburcht Foundation but gave the private participants space to develop their own concept. Low-tech measures were taken which made the garden affordable and sustainable (e.g. use of common creeping plants instead of technical solutions for green facades). Although many positive factors created the conditions for a successful intervention, the real challenges were financing to cover the high cost of the project. The involvement of the ‘De Key’ housing foundation was one of the winning strategies to address this issue. Another big task was to ensure enough residents’ participation. Participation was a core element of the project but, despite a general willingness to collaborate in the decision making by residents, the real engagement of residents was not simple to achieve.",
+    "cost_benefit": "The costs to set up the garden itself were € 55.000, excluding the costs of the rainwater storage facility (€ 17.500) and a greenhouse (€ 30.000). The total costs of the building complex were € 16 million. The costs of the garden were carried by all residents/users as part of the total costs through the Vrijburcht Foundation (see also ‘Stakeholder participation’). The garden was a collective wish of the stakeholders. It was financed by them by making compromises in the overall design of the complex: the overall budget was fixed but the garden could be financed by optimising other aspects of the building design. On annual basis the costs for maintenance of the garden amount to € 3.000, including the contribution of a gardener next to the voluntary work of the residents. Also costs of the maintenance are carried by the inhabitants and ‘De Key’ as part of the regular service fees of the building, managed through the homeowner association. A garden commission takes care of the overall aspects of the maintenance of the collective garden. Benefits are difficult to express in monetary terms. The garden contributes to the well-being of the residents through a good micro-climate. Inhabitants for example do not feel the need for air conditioning in their houses. Water for irrigation of the many plants on terraces besides the courtyard garden comes from the rainwater storage facility which meets the water needs in most years. Flooding of the garden during intense showers is prevented. The garden is also a recreational place where residents meet, thus underlining the collective aspect of the complex. It also provides fruit/vegetables and serves as a green playground for children.",
+    "timeline": "Planning phase started in 2000, construction phase started in 2005. Vrijburcht, including the courtyard garden, was completed in 2007. New interventions were realised in 2022 with the installation of solar panels on the herbaceous roof.",
+    "lifetime": "For the building itself the time horizon is about 40 years but there are no fundamental limitations for a longer use. For the garden there is also no restriction, although yearly maintenance is necessary.",
+    "stakeholders": "The project is a collective private commissioning (CPC) initiative. This means that future residents jointly developed the project, including carrying the risks involved in the pre-financing. Future residents organized themselves in a foundation (Vrijburcht Foundation). This organisational set-up has the benefit that it gives much freedom to the future residents to realize their wishes, but also asks for strong commitment to the process. All costs were carried by the Vrijburcht Foundation on behalf of the (future) residents. Vrijburcht Foundation arranged with Rabobank the option of a personal loan at favourable interest rate and arranged procedures for a special mortgage construction of Amsterdam for people with an average regular income (the so-called ‘Amsterdamse Midden Hypotheek’). Also the (social) housing corporation ‘De Key’ provided financial warranty and know-how. Vrijburcht was initiated in 2000 by a group of people around the leading architect, all living in the centre of Amsterdam. Their aim was to create innovative, attractive and affordable homes surrounded by several cultural and social services. They saw the possibility to create their own new housing in a CPC project. It was their vision that the building should include working spaces and a theatre function. This small group of people started to involve more people. They presented their plan to the municipality within a building competition for collective self-build projects on Steigereiland launched by the municipality of Amsterdam. Steigereiland is part of the expansion district of IJburg that consists of a series of artificially constructed islands in the IJmeer lake In 2002, a parcel was definitively allocated to Vrijburcht. In the course of 2002, it became clear that there were not enough participants yet. At this stage the (social) housing corporation ‘De Key’ got involved. In 2003 De Key signed an agreement with Vrijburcht Foundation, which was legally established in the same year. The agreement concerned back-up and support in the realization of the programme. The financing of 21 homes, subsidised rental of housing for assisted living for six young people with a light impairment and their attendants (De Roef), and the purchase and lease of the day-care and café building. ‘De Key’ has been granted a passive general board membership in the Vrijburcht Foundation. The courtyard garden commission became active in 2004 and presented its plans in a workshop in June 2004, around the time of the completion of the preliminary design. The courtyard garden was designed by landscape architects who were also involved in Vrijburcht Foundation as residents-to-be. Their involvement in an early stage of the process made it possible to come to a real integration of garden and building (e.g. parking garage fully under the building and not under the garden, pergola construction of rainwater pipes) and a serious budget for the garden. Via presentations, excursions, an opinion poll and several workshops with other future residents, a common idea about program, atmosphere and design style was formed. A separate ‘garden commission’, responsible for the maintenance of the garden, still exists.",
+    "legal_context": "The development of the project was done through private collective commissioning, supported by appropriate loan conditions. Private persons jointly acquired a piece of land and united themselves in a Foundation that acts as a commissioner for the whole project. This means that residents have influence on the project through the ad-hoc created Vrijburcht Foundation. Once the project was realized, all owners of the apartments and other spaces in the building have been united in the Homeowner Association (Vereniging van Eigenaars). It is a legal entity that takes care of the maintenance of the building and other shared interests, among which the garden. The association has an executive committee, a general assembly, a chair and a financial committee and is a common structure in all cases in the Netherlands when more owners are involved within a building."
+  },
   "point": {
     "lat": 52.3646990196,
     "lon": 4.89852905273,
@@ -92,7 +201,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/vrijburcht-a-privately-funded-climate2013proof-collective-garden-in-amsterdam",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-09-01T10:18:21+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

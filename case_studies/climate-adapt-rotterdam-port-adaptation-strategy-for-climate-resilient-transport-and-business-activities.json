@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
   "title": "Rotterdam port adaptation strategy for climate resilient transport and business activities",
@@ -47,6 +47,99 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MARINE",
+      "label": "Marine and Fisheries"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "River delta",
+      "label": "River delta"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Waterproofing",
+      "label": "Waterproofing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crisis management",
+      "label": "crisis management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "port logistics",
+      "label": "port logistics"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "spatial adaptation",
+      "label": "spatial adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "port infrastructure",
+      "label": "port infrastructure"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the Rotterdam Port adaptation strategy is to provide a menu of measures to be implemented in the Rotterdam port, in a way that takes into account the specific features of the various areas and actors involved. It mainly aims at reducing the economic damages resulting from the flooding of port areas, which are projected to be the bulk of the negative impacts likely to take place. Moreover, the adaptation strategy also supports the reduction of damages resulting from less likely events, such as environmental damages following the dispersion of pollutants and human casualties.",
+    "measures": "The Port Adaptation Strategy foresees a wide range of measures , mostly covering infrastructure, but also preparedness plans and behavioural changes. These measures are fine-tuned to the characteristics of the areas, and to the degree of risk deemed acceptable by the stakeholders operating in that areas. They are based on the measures adopted in the areas inside the Dutch dykes system, and adapted to the needs and features of an area that lies outside that system. The measures are sorted into those aimed at prevention, those aimed at spatial adaptation and those dealing with crisis management. Prevention (\"keep water outside\") measures includes: Raising of Embankments and/or slopes: this measure ensures that low-lying areas cannot be flooded if water remains below a water level specified by design. This implies adjusting the height of the quays (including the underlaying loading and unloading areas) to the correct height. The use of compartments to seal off the sections of the port ensures that floods do not spill over to other subareas. This measure can protect areas with high economic values at risk of flooding, which can thus be separated from areas with low economic values that cannot be protected cost-effectively. Raising roads to act as barriers: this requires raising up the height of low-laying road sections and installing gates to seal off underground road sections, such as tunnels and subways, in case of flooding. Lockable open barrier: this measure can be implemented by installing a small version of the Maeslant Barrier concept, or another small-scale lockable barrier, in order to reduce the regulated water level in areas outside the dyke system the port. This measure can also reduce flooding risks also in adjacent areas. Removable dike/ (flexible) barrier can work in a similar way, with the advantage of being removable, and hence only in place when needed. It can be complemented by a vertical barrier such as a wall. Spatial adaptation (\"live with water\") measures include: Waterproof site design involves physically (re)relocating activities and facilities to areas with a lower probability of flooding. For instance, business-critical or capital-intensive activities and vital facilities such as electricity, telecoms and IT should be relocated to safer, higher-ground areas. Logistics companies should make sure that highest-value products are stored on the highest grounds of the site. They could also start from the highest grounds to store goods to ensure that as few products as possible are stored in the lowest portions of the site. This only applies where safe ground levels are available and the removal is feasible, as some key facilities may be needed on-site. Elevation of sub-areas / sites/ critical facilities is the obvious action to implement if at all feasible, as in general, the higher the ground, the more protected it is against flooding – particularly exceptionally high ones. Raising sites contains the consequences of flooding. However, raising existing sites is usually not feasible because of the capital destruction and/or costs of rebuilding costly infrastructures. However, raising embankments (among prevention measures) can prove cost-effective for large open port sites and/or for plots under or scheduled for development. Spouting entails the discharge of water through a sluice, wherever water can be discharged into an external water body. This happens for instance at the Haringvliet locks, where excess river water is discharged into the sea when water levels are too high. Wet proofing involves making sure that water can flood an asset up to a pre-identified design height, without causing any damage that cannot be remediated through a major clean-up operation, and being allowed to flow in and out efficiently. This requires installing all utilities’ connections (electrical wiring, gas pipelines, etc.) above the design water level, while all that lies below this level must be waterproof. The fact that water can, by design, enter the facility implies that this option is not viable when the nature of the activity is such that it is not desirable to allow water in. Dry proofing involves completely waterproofing a facility and reinforcing it to withstand the pressure of water on its exterior surface. This involves installing watertight walls, windows and doors and sealing off sewers and other water pipes to avoid water inflows. For the infrastructures in the Rotterdam port, dry proofing is deemed applicable up to one meter of height, and requires the timely execution of additional actions such as closing doors, windows and sewers in case of flooding. A preliminary thorough feasibility analysis is also recommended. Crisis management (\"being prepared for the crisis\") measures entail all that can be foreseen and implemented in terms of preparing for a flood and containing and remediating its impacts. This includes all actions taken just before or during a flood. This set of measures includes: the preparation and implementation of facility-specific emergency and recovery plans (beyond those mandatory for installations and operations dealing with hazardous substances) and an overall plan for the Rotterdam-Rijnmond Safety Region; preparing and implementing emergency arrangements (such as stockpiling critical supplies, moving to higher grounds or otherwise protecting critical or expensive goods and equipment, installing emergency electricity backups, etc.); installing emergency dykes and embankments. The distinctive feature of this adaptation strategy is the fine-tuning of the menu of measures to be implemented to the specific features of each area within the port. This is based on the geographic, technical and economic activities of each area, the detailed modelling of the possible impact of a major flooding event, and the embedding in the strategy design the priorities specified by the companies operating in the various sections of the port. The strategy thus consists in area-specific menus of measures that are expected to address the vulnerabilities of each area in the most cost-efficient way. These menus have been labelled according to the “theme” of the prevailing type of measures to be adopted in an area. The labels also roughly correspond to the three classes of measures above listed (Prevention, Spatial adaptation and Crisis management). For example, for the Botlek area, in the middle section of the port, the strategy recommends a 'keep water outside' strategy which focuses on prevention measures. For the Maasvlakte area (the one directly on the North Sea shore) and Merwe-Vierhavens area (the innermost one), it suggests a 'living with water' strategy that focuses on spatial adaptation measures. The adaptation strategy for the Europoort and Waal-Eemhaven combines both themes. In areas where the flood risk only passes the acceptable threshold if sea levels rise by more than 85 cm (as it is the case for the Vondelingenplaat area), a strategy, based on being prepared for the crisis, is most promising.",
+    "outcomes": "There are four main factors that are likely to enhance the chances of success of the adaptation strategy. First, it is based on robust knowledge of dike functioning and on scientific modelling of the possible climate scenarios for the port area. This science base is subject to regular revision and updating. Secondly, it has a very detailed approach to the specific features of the individual port sections. It makes sure that only the measures that best fit to each area are implemented. Thirdly, it is co-designed with the stakeholders of each area. Thus, it can rely on the support and cooperation of the economic activities directly affected. Fourthly, it is underpinned by a strong cost/benefit analysis (see next section for details), which ensures that only the most cost-effective measures are recommended. The main limiting factors are linked to the extreme complexity of the many interconnected activities taking place within the port, its economic and infrastructural links with the Dutch, European and global economic systems, and the intrinsic uncertainties connected to the future evolution of such systems. The complexity of the port had a clear impact on the development of the strategy. It needed to be repeatedly adjusted to cover the different sections of the port. This resulted in different timings of the strategy's development or in the consideration of alternative evolution paths for the various areas. For instance, the possibility that residential housing projects may be developed in the Merwe-Vierhavens area, prompted the consideration of two alternative scenarios for this area's future. One was more focused on economic activities. The other scenario considered a mixed use in which also the adaption needs of future residents needed to be taken into consideration. Coping with the uncertainty of the future is part of the overall strategy of any firm, and the Port of Rotterdam has incorporated the climate-related uncertainty in its main strategic documents, such as the Port Vision Rotterdam .",
+    "cost_benefit": "The strategy contains a comprehensive cost-benefit analysis of the measures selected for the different port areas. This document includes a detailed breakdown of costs and benefits, and a table that summarises them by main measures and port sections affected. Overall, the present value of the costs of the recommended measures is estimated in almost 90 million EUR. The estimated benefits, in terms of expected reduction in economic damages as a result of these measures is about 611 million EUR. This yields a positive benefit-cost ratio of 6.8. The strategy also considers the need for possible extraordinary maintenance interventions: maintenance costs are determined for each measure and included in the cost-benefit analysis. The document also discusses alternative measure packages and provides a comparison with the recommended ones. From this information, it concludes that a package yielding much higher benefits in case of a very extreme flooding event would be feasible, but it would be much more costly to put in place than the recommended package. This alternative solution would be a full size 'lockable open' barrier similar to the Maeslant Barrier concept. It would cost much more than all measures per area added together (820 million EUR versus €90 million EUR) and yield an overall economic benefit of 1.608 million Euros. Thus, although the absolute total amount of the benefits would be more than double than those of the recommended package, the benefit cost ratio would only be 2 instead of 6.8. This points to an overall less appropriate solution. It should also be counted that the Maeslant Barrier has already a protective impact on the innermost sections of the port (Vondelingenplaat in particular), as it is located on the stretch of the river leading to them.",
+    "timeline": "The strategy was finalised in 2021/2022 and notified to all companies operating within the port area in September 2022. The implementation times of the various measures, recommended in the Port adaptation strategy, is highly variable. Implementation time depends on the time scale of measures need to be implemented, depending on their specific features. They may vary from hours and days for crisis management measures to several months to years to build bespoke flood protection infrastructure. Moreover, some measures will make sense only in the distant future, that is, when the sea level rise projections will materialise. In the Port of Rotterdam strategy, each measure has been assigned conventionally to one of four possible time horizons: immediate implementation; before 2050, before 2100, after 2100. The latter is covered by the caveat that actual implementation may depend on the actions of other entities besides the port authority (typically, the responsibility is shared with the companies operating within the port area).",
+    "lifetime": "The lifetime of the various measures recommended in the Port adaptation strategy is highly variable. The strategy itself is subject to constant revision as new information is made available. The Strategy is envisioned to guide the Port of Rotterdam’s adaptation efforts at least until 2100, but this does not exclude a longer lifetime. The strategy is a living protocol. the Port of Rotterdam will evaluate and adjust the strategies for the various port areas approximately every 10 years. This update will take into consideration the actual and projected sea level rise in the future. A major revision is already expected in view of the new climate projections expected in 2024.",
+    "stakeholders": "The users of the Rotterdam port (mainly transport and logistics firms, developers, real estate owners) have been consulted to apply the “private lens” through which risks are assessed. Risks have been evaluated with a scientific basis (modelling exercise based on climate projections). However, relevant stakeholders in each sub-area of the port were asked to sort them into “acceptable” or “not acceptable” categories. The results of this consulting exercise were merged with an analogous evaluation performed by public authorities to consider the point of view of the local community. This co-design approach led to a comprehensive and shared identification of the risk levels deemed acceptable for the different impacts expected in the various areas of the port. At the institutional level, the consideration of public interest is the cornerstone of the mandate of the two shareholders of the Port of Rotterdam N.V. as discussed in the legal aspect section.",
+    "legal_context": null
+  },
   "point": {
     "lat": 51.94248156159583,
     "lon": 4.02050612293039,
@@ -86,7 +179,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/rotterdam-port-adaptation-strategy-for-climate-resilient-transport-and-business-activities",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:39+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

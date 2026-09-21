@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-landscape-and-watershed-recovery-programme-for-the-kosice-region-of-slovakia",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/landscape-and-watershed-recovery-programme-for-the-kosice-region-of-slovakia",
   "title": "Landscape and watershed Recovery Programme for the Košice Region of Slovakia",
@@ -68,6 +68,139 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "natural water retention measures",
+      "label": "natural water retention measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "watershed restoration",
+      "label": "watershed restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river runoff",
+      "label": "river runoff"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Regional governance",
+      "label": "Regional governance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention measures,",
+      "label": "water retention measures,"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "carbon sequestration",
+      "label": "carbon sequestration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat waves",
+      "label": "heat waves"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stormwater management",
+      "label": "stormwater management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the Košice Restoration Programme ( Plán obnovy krajiny ) is to increase water retention capacity of the landscape focusing on degraded land, to maximise groundwater recharge, and to reduce soil and nutrient loss. Increased water retention will provide flood mitigation, will increase water availability during drought periods, will increase soil productivity, enhances carbon sequestration and cool the environment.. The “ new water paradigm shift” endorsed by the Restoration Programme recognises the high potential of rainwater for mitigating climate impacts in the region, enhancing the urban drainage efficiency and pollutant-load-reduction focus to heat index abatement. Horizontal precipitation and ensuring rainwater harvesting rewet land and renew small water cycles, which benefits all ecosystems. This Restoration Programme supports all ecosystem functions. An efficient precipitation capturing system promotes water infiltration into the ground. In mimicking nature, each time it rains, the groundwater levels rise and this translates into an increase in spring yield during droughts and abated flows of water courses during floods. The Programme plans to harvest half of the annual precipitation, assessed for extreme rainfall with a recurrence interval of 50 or 100 years, naturally recharging the groundwater storage. If the Programme scales up and succeeds in installing all the proposed water retention measures, regular precipitation will refill the aquifers each year.",
+    "measures": "The Košice Restoration Programme plans to implement 60 million cubic meters of water-retaining structures and groundwater recharge structures on almost 700,000 ha of forests, agricultural land and cities. These structures collect precipitation and make it available in small water cycles and through groundwater reserves, feed the springs, and reduce soil erosion. The Program proposes integrated land and water management actions for each municipality, involving local stakeholders (e.g., foresters, farmers, land and property owners) in their respective properties. The land and water measures will implement the latest technologies and practices, respecting the existing human-made landscapes. To estimate the total volume of the bioretention measures needed, the region's geographic, hydrologic, and geomorphic characteristics were evaluated, and the runoff rate for a 60 mm extreme precipitation event was estimated. The Restoration Programme analyzed each district area, applied the GIS remote sensing, mapping, and land-use data from the State Land Registry and Cadastral Survey Maps, and calculated the amount of the available runoff volume, which can safely be stored and harvested by natural water retention measures. The proposal is to construct water retention measures that can capture at least half of the runoff. Thus, when extreme events occur in the territory, the result of the extreme flood risk estimation will be at least one order lower than the original flood hazard assessment. A well-implemented water-retaining plan will mitigate the flood risk. In the calculations made, if a high-intensity precipitation of 60 mm per day falls on the land, all precipitation will remain in the territory causing no flooding risk. Considering a recurrence interval of 50 to 100 years, the Programme assumes that 50% of stormwater runoff volume burdens existing drainage systems and needlessly drains to waterways without sustaining the ecosystems. Rainwater retention measures can safely manage this volume. The Restoration Programme proposes measures in the forestry, agricultural and urban landscape based on the implementation of green infrastructure that limits precipitation runoff and mitigates flood risk. Green infrastructure envisaged by the Restoration Programme may include various precipitation retention measures, such as infiltration structures, trenches, basins, bioretention basins, rain and bio-climatic gardens, vegetated swales, leaky dams and wells, check dams, log dams, dry wells, cisterns, permeable paving, soil amendments to increase soil permeability, natural sequence farming, hedges, rainwater harvesting at no-till agriculture with fields over 2 degree gradient, riparian buffers, biocorridors, and green roofs and green walls. In urban areas, the Restoration Programme envisages greening measures to address the urban heat island effect: all towns and villages inside the region need to be cooled, not just Košice, the capital of the region. Identified strategies are aimed at rewetting land and building urban bioretention projects, thus improving the soil capacity to sustain the tree and vegetative cover. Strategies also include installing permeable pavements, green walls and green roofs to cool the cities. The overall implementation process of the Programme is based on four steps: 1) building technical, institutional and financial capacity to prepare the programme’s implementation; 2) carry out actions in six districts located in the different geographic districts; 3) implement full-scale projects in forestry, agricultural and urban landscape of all districts, 4) monitoring and research. Key components of the Restoration Programme are research, monitoring and evaluation: the impact of water-retaining measures on groundwater recharge will be measured, by mapping the increase of the agricultural crop yield and evaluating the forest biomass production potential. Results will be used by the regional government to periodically reassess the Restoration Programme and develop the guidelines for adaptation strategies. The Restoration Programme used the results of the EU funded project on transnational system dynamic modeling SIM4Nexus and its twelve case studies to quantify the ecosystem benefits. Sim4Nexus increased the understanding of how water management, food, energy, biodiversity, and land-use policies correlate, and how they affect the climate and sustainability goals. The Košice stormwater modeling considers the soil structure, porosity, topography, geomorphic processes of watersheds which are subject to different land use and land cover in the regionals districts. Governance The adoption of the Restoration Programme boosted deep changes in the governance system for the region, with the creation of six independent Water and Land Restoration Advisory Boards for six districts of the region. They form together an Umbrella Regional Water Board, strongly committed to the implementation of the Restoration Programme (more details on the composition of these boards in the section ‘Stakeholders participation’). Water and Land Restoration Advisory Boards are expected to coordinate the water retaining projects established by the Restoration Programme. They are supposed to supervise the project completion, with the possible support of the scientific institutions in Slovakia and the active involvement of the municipalities. The Agency for the Support of Regional Development Košice was also established to assist and advise the Slovak government and the Košice Region. Municipalities and city governments support the programme and appoint their “Water Ambassador” to coordinate the projects at the municipal level. Municipal plans will be subject to the Umbrella Regional Water Board's coordination. The Water and Land Restoration Advisory Boards currently fulfil the advisory function through a holistic cross-sectoral approach that favors community engagement. Nature-based solutions, such as rewetting landscapes and river basin revitalization, will increase the resiliency of the catchments and will address the needs of the local communities. Six action plans for the six districts were adopted to implement the Restoration Programme at the district level. The Restoration Programme has been elaborated since 2018 and approved by the Council of the Košice Self-Governing Region on 19 February 2021.",
+    "outcomes": "The Restoration Programme can rely on previous successful experiences completed in the Košice region, especially within the previous “Landscape Revitalization and Integrated River Basin Management Revitalization Program” of 2010-2012 and the 2005 “ Košice Water Protocol for water in the 21 st century”. In 2010-2012, as part of the Revitalisation Programme, many water retention structures were installed in the Košice region and throughout the Slovak territory, showing their success, even after several years, in reducing soil erosion, infiltrating water, and revitalising the landscape. In towns, villages, farmland and woodland the completed retention structures regularly harvest rainwater and snowfall making the towns resilient to intense precipitation while storing it for the drought periods. The ongoing impact of these existing rainwater harvesting structures, completed in 2012, increases the water retention capacity of the landscape annually by 10 million m3 within Slovakia's territory for repeated ecosystem and biodiversity benefits each year. As part of the Košice Water Protocol, the pilot sponge city project , covering only 3 hectares, retained precipitation over a period of 18 years, avoiding intense runoff and soil erosion. According to the estimates of the NGO People and Water , the still functioning structures add an estimated rainwater retention capacity of 6,000 m 3 every year. Therefore, between 2005 and 2023, at least 108,000 m 3 of water were made available for infiltration and evapotranspiration, while preventing flooding and protecting properties. Another recognised element of success of the previous programmes, that is expected to be replicated in the current one, was the great effort in empowering communities to create positive environmental solutions in their own interests. Green jobs were created to restore local water and carbon cycles through catchment rehabilitation programmes. They provide training and employment, eco-sufficient community development, cultural identity, and self-worth to unemployed and marginalized communities. Public and expert awareness about the need and importance of water retention measures and rainwater harvesting was significantly increased at the regional and national levels. The Revitalization Programme ended prematurely due to political changes in the national government coalition and the ensuing financial priorities: only 4 % of the allocated funds were used before the programme was ended. The funding was suspended before any monitoring was put in place. However, most of the former restoration projects were completed in the Slovak regions of Kysuce, Turiec, Prešov, Horehronie, and some Košice region municipalities. In Košice region alone, the national Slovak Revitalization program completed 250,000 m 3 of green infrastructure and rainwater harvesting projects between 2010-2012. Given the average annual precipitation of the region, the People and Water NGO assessment indicates that 12 million m 3 of rainwater retention benefited people and nature in the participating municipalities of Košice region since 2010. Another limitation was the fact that land ownership was not settled between the State and the former landowners: private lands were nationalized in the 1950’s, when large swaths of private land were included in the cooperative farms and in the national parks. This is reflected in the Eurostat statistics, reporting the total average area of the Slovak farm holding is 77 hectares per farm, the third highest in Europe. Large farms are designed for excessive drainage to facilitate intensive industrial agriculture practices, eliminating hedges and natural rainwater retention. The Restoration Programme’s success depends on the interest and funding opportunities coming from the national government. It currently lacks sufficient funding for monitoring and gauging stations to evaluate the success of the catchment restorations. Therefore, the Slovak Ministry of Agriculture and Rural Development is preparing a new financial instrument – ‘A Climate Fund for Soil’ that will support these types of adaptation and management measures on a systematic and large scale base. This will be done within the Carbon and Water Bank Certification system , that is in preparation. Moreover, the Ministry supports the integrated land, soil, and water management approach. The Ministry presented the NEXUS approach in the form of the expert document \" Water for Climate Healing – A New Water Paradigm White Paper \" at the UN 2023 Water Conference (March 22-24, 2023) and during co-ordination meeting of the EU member states, as well as during multiple discussions at the FAO . Moreover, the new EU project DALIA - Danube Lighthouse is developing a methodology for monitoring, providing an integrated tool for better decision-making and improved restoration of fresh and transitional water ecosystems in the Danube River Basin. Another funding barrier is the limited access to funds of the Common Agricultural Policy (CAP), which needs to recognize soil water retention and infiltration as a measure. The current national policies make it very difficult for farmers to submit the request for subsidies for precipitation harvesting. The new CAP Strategic Plan 2023-27 for Slovakia enclosed the opportunity to increase the water retention capacity of soil and landscape structures for the first time. The reporting requirements for small farmers with several field boundaries need yet to be simplified. Finally, there is a strong need for coordination, i.e., a systemic perspective. Water management is shared by multiple stakeholders and governed by different policies. The public stewards, the Ministry of Agriculture, the Ministry of Economy, and the Ministry of the Environment must address river basin management within the systemic approach that supports all economic activities and ecosystem functions. I n the Ko šice region, the organization of working meetings with stakeholders was further complicated by the COVID-19 pandemics and the organization of on-site working meetings were put on hold in 2021.",
+    "cost_benefit": "The water retention measures proposed by the Restoration Programme have measurable benefits on flood mitigation, and are expected to prevent infrastructure damages, crop devastation, property destruction, and ecosystems disruption. They also enhance groundwater recharge, raising the water table, with benefits for water supply. In particular, the Restoration Programme considers groundwater saturation as a cheaper and more sustainable alternative to surface water storage. The expected benefits (following the complete implementation of the programme of the Ko šice region ) include: 12000 l/s of aquifer recharge, average temperature reduction of 0.7°C ( in the entire region, but 1.3 °C in the cities), 1.8 million ton of soil and biomass carbon sequestration, 3200 new jobs, and 32 million euros of annual crop yield increase due to the enhancement of soil fertility ( Restoration Programme ). The improved soil sponge function (able to retain and filter water) and improved evapotranspiration facilitated by plants are important ecosystem benefits that have been quantified in the SIM4Nexus modelling. Upon completion of all proposed water retention measures, the cooling effect of evaporation will alleviate heat islands and send almost 40 TWh of heat to the upper layers of atmosphere. The Restoration Programme is also expected to make a significant contribution to enhancing biodiversity, reducing health risks, reduce air pollution and dust and provide social benefits. The region will become more attractive, improving the quality of life, developing higher estate property values, and encouraging local tourism, supporting the local economy. The total cost of the national revitalisation program in 2012 was 42 million Euro, employing 8.000 people in 488 towns. Based on the previous experience with the completed water-retention projects (100,000 thousand retention structures installed in Slovakia between 2010-2012 ), the planners estimate that the construction of one cubic meter of bioretention volume in a developed urbanized area will cost 28 €/m 3 . In the countryside (different land types, such as forest, farming land, pastures, orchards, gardens, vineyards), water retaining projects will cost 5 €/m 3 . The entire Košice region will, thus, require € 408 million investment over ten years. The most significant investment will go into urban areas. The water-retention projects on the agricultural land will require the second-highest investment, and the forest ecosystem will claim the third-highest investment. (Estimates are based on 2019 cost and need to be readjusted to reflect the current prices.) All Slovak municipalities and regions own data, statistics and maps on land properties and land use. These data, stored in Land Registries, can be used to assess the needs and resources to implement water-retaining management projects per geographical area and land use type.",
+    "timeline": "The Restoration Programme was proposed in 2018 and adopted in 202 1 by the Košice region . Its implementation has a ten -year horizon time, from 2021 to 2030. During this period, all projects are scheduled to be implemented and monitored .",
+    "lifetime": "The lifetime of the Restoration Programme is ten years. However , the changes in the governance systems and the water retention measures implemented, with proper maintenance, are expected to have a life beyond the Restoration Programme duration .",
+    "stakeholders": "The Restoration Program places smallholders, townships, and villages of the region at the core of the initiatives. The community-based approach addresses environmental concerns and also pays attention to the social aspect as it considers local employment, which is vital for the success of the Restoration Programme. Empowering local communities and providing work for the unemployed related to restoration will enable equal access to opportunities, knowledge, and local resources. Several meetings took place in 2019, after the preparation of the first proposal of the Restoration Programme. Several state representatives, together with regional and local authorities, e.g. mayors, participated in the meetings with farmers, forest managers, entrepreneurs, volunteers and activists. From November 2019 to December 2020, twenty-six water advisory board meetings took place to draft action plans for the integrated land and water management. The know -how of about 120 people was shared. The main objective of the meetings was to establish water boards to shape the vision of integrated water protection in individual districts of the region. Six Water and land Restoration Advisory Boards were finally established for the six districts of the region. Each of the six boards is being committed to sound management of the landscape and watershed of its area, by taking care of natural land, urban and rural forests, agricultural land and pastures, and urban areas including municipal and private real estate property. The board members are representatives of municipal, city, and regional governments, state administration bodies, entrepreneurs, activists, volunteers, and the public. Members of water boards created plans for integrated water protection in their territory, which became part of the development strategy of the region.",
+    "legal_context": "On 24 February 2005, the Košice Parliament approved by its resolution the “ Košice Water Protocol in the 21st century” as a strategic document for water protection in the Košice agglomeration, to prevent floods, drought and other impacts of climate change. The aim of the Protocol was to strengthen the retention of rainwater directly in the urban landscape, thereby restoring damaged ecosystems to be part of a healthy climate. In 2010, the “Landscape Revitalization and Integrated River Basin Management Program” was adopted by the Slovakian Government allowing the implementation of many restoration measures in the region. In 2019, by signing the United Nations Resolution 73/284 (2021-2030 decade of Ecosystem restoration), the Slovakian government strengthened its commitment to prevent, halt and reverse the degradation of ecosystems. The state departments, municipalities, NGOs, and businesses are called to collaborate in their restoration efforts as one of the strategic pathways for achieving the resolution objectives. The 2022 Košice Restoration Programme is the continuation of this path and sets the strategic direction of the region until 2030. In 2018, the Regional Government of Košice approved a first proposal of the Restoration Programme, then finally adopted it in February 2021. Six independent “Water and Land Restoration Advisory Boards” for six geographic districts of the Košice region were established in 2019, forming together an Umbrella Regional Water Board."
+  },
   "point": {
     "lat": 48.723991572,
     "lon": 21.260430432,
@@ -112,7 +245,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/landscape-and-watershed-recovery-programme-for-the-kosice-region-of-slovakia",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:33+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

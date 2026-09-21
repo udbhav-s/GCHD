@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-mental-health-support-for-people-affected-by-floods-in-emilia-romagna",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mental-health-support-for-people-affected-by-floods-in-emilia-romagna",
   "title": "Mental health support for flooded populations in Emilia-Romagna, Italy",
@@ -38,6 +38,73 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "emergency management",
+      "label": "emergency management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "first response",
+      "label": "first response"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mental health",
+      "label": "mental health"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "emergency psychology",
+      "label": "emergency psychology"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "displaced"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "displaced",
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1,
+      "displaced": 3
+    }
+  },
+  "intervention": {
+    "objectives": "Support was offered to people affected during and after the floods in Emilia-Romagna with the intent to minimise the mental health effects caused by the flooding. Mental health and psychological support aim to address psychological distress, manage symptoms of mental health problems, avoid re-elaborating the trauma, and prevent the onset of psychopathological stress disorders. Following the guidelines of the national directive on psycho-social interventions in catastrophes (DPCM of 2006), psychologists aimed at reducing the state of crisis, encouraging spontaneous remission, and enabling use of individual and collective resources. From an organizational point of view, there were two main phases: the reception and triage, which aimed at identifying people to be treated, and a transition phase, where specific mental health and psychological treatment and/or referral to local services were offered.",
+    "measures": "The Società Italiana Psicologia dell'Emergenza Emilia-Romagna, the Psicologi per i popoli Emilia-Romagna and the Red Cross are registered voluntary associations of the Civil Protection agency. Their volunteer members are specifically trained for emergency intervention, provided with personal protective equipment (PPE) and authorized to intervene in the field. These associations mainly carried out proximity activities: psychologists operated in the affected neighbourhoods and supported the police in the evacuations of citizens. They proposed interventions in shelters, neighbourhoods, parishes, canteens and schools using tools specific to emergency psychology such as psychological first aid, Critical Incident Stress Management (CISM) with homogeneous groups, and proactive psychoeducational meetings. According to the PIES model (Proximity, Immediacy, Expectancy, Simplicity) it is the psychologist/operator who must leave the studio/tent and operate near the location of the event or where the victims are hosted, and reach them as soon as possible, using a few basic techniques. Psychologists also responded to Regional Health Centre requests by providing professional services when needed. Support was provided during the flood events and follow-up was provided for the following six months. Emergency psychologists provide immediate relief to affected people helping them to cope with stress and emotions during crisis and emergencies such as floodings, earthquakes, car accidents, forced migrations, and wars. The psychological care deployed is based on guidelines provided in 2007 by the Comitato permanente interagenzia (Inter Agency Standing Committee), the IASC Guidelines for mental health and psychosocial support in emergency settings by WHO and the Italian Directive DPCM/2006 . The core idea behind these guidelines is that, in the early phase of an emergency, psychological and social supports are essential to protect and support mental health and psychosocial well-being. Most of the activities were carried out at the disaster site engaging with victims, groups and organizations, focusing on listening and emotional stabilisation. The support was provided at community level: the psychologist explained in group settings what the normal reactions after a catastrophic event are, discussing typical symptom of the immediate post-event. The emergency psychologist's tools are interviews with victims and psychoeducational meetings with groups of citizens belonging to the community involved. Individual support was also provided in proximity services and with anyone who needed it, also in consideration that these catastrophic events can bring back past trauma. The action of the emergency psychologist also extended to institutions, such as the mayors of the affected municipalities. As the head of the municipal Civil Protection, the mayor manages the rescue effort during an emergency, and is the primary source of information for every citizen-victim. It is therefore important for the emergency psychologist to support the mayors' action, to enable effective and adequate communication reaches all citizens. This communication also has the purpose of reducing anxiety and perception of abandonment. Daily board meetings were held online to improve the coordination among institutions, discuss the legal framework, plan activities, and learn from the experience. Besides the associations present in the field, psychologists from the Emergency Psychology Working Group of the Emilia-Romagna Order of Psychologists participated in these meetings. (See also sections below). Each case was included in a daily report and sent to the relevant local health authorities and the Region, as well as to the associations, which guaranteed the continuity of psychologists in the field.",
+    "outcomes": "The actions deployed responded to the psychosocial needs of professionals, survivors and civil society as a whole. The training and skills of the emergency psychologists who travelled to the site of the disaster are aimed at limiting the consequences of post-traumatic stress disorders in the affected population, and allow the local health authorities to continue their work within the local services, which, in the post-event, may record a physiological increase in users. In 2021, the Emergency Psychology Working Group of the Emilia-Romagna Order of Psychologists was established to spread the culture of emergency psychology as a contribution to improve assistance to individuals and populations affected by critical events. Another purpose of the Working Group is to outline the terms of the psychologist’s intervention in emergency scenarios. In May 2023, for the first time in Italy, a structured regional system was launched to coordinate psychosocial assistance to the population during a disaster. Coordination and voluntary efforts were key in the success of the mental health support. Psychologists were immediately available to leave their homes and were deployed in the flooded areas in the days after the flooding. At first they came from nearby areas, but later came from all over Italy to enable continuous support (7 volunteers per day were sent by Società Italiana Psicologia dell'Emergenza Emilia-Romagna from 17 May to 22 June 2023). Psychologists provided support not only to the affected population, but also to emergency workers and volunteers. Daily briefings were held to organize the effort, debriefings were held for groups of people and aid workers. A limiting factor was the scale of the flooding and its effect on the population, the environment and the economy, which triggered the response. Several factors hindered the intervention: The national legislation dates back to the 2006 Directive Criteri di massima sugli interventi psicosociali da attuare nelle catastrofi (General criteria on psychosocial interventions to be implemented in disasters), which has never been fully adopted by the Regions. Some phases are still not developed: no chain of command and composition of the teams are identified, no skills and the minimum preparation that the psychologists that intervene must possess are listed, and no methodologies and objectives that the regional health system need to adopt are developed. The absence of a structured emergency system for psychological support, which should be made available parallel to the medical support, makes it difficult to integrate and enhance the skills brought by emergency psychologists with those brought by Regional Health Centre The skills brought by the civil protection emergency psychology associations, which now have consolidated experience, have not been fully exploited. The absence of the psychological support team in the regional volunteer convoys of the Civil Protection of Emilia-Romagna.",
+    "cost_benefit": "The psychological support was provided on volunteer basis, thus generating little costs. The benefit of mental health support was not quantified economically. The emergency psychologist intervened for free, only travel expenses were covered if requested. Work secondment is available for employees, and a small symbolic refund for freelance professionals that work in the field was available, but seldom requested. The Regional Health Centre psychologists were in service when they intervened in Emilia-Romagna. The call centres of volunteer associations that provided support do not have a cost, because volunteers work for free.",
+    "timeline": "The mental health support was provided soon after the flooding hit Emilia-Romagna. The support was made available for six months after the situation returned to the previous conditions. Activities were diversified according to the timeline to reach the objective: overcome of the collective trauma.",
+    "lifetime": "The mental health support provided was a temporary service. Nevertheless, having held discussions after this experience, the mental support will be organized again should there be the need, considering also other type of emergencies: the region, in fact, is earthquake prone.",
+    "stakeholders": "The mental health support service was organized by creating a network of institutions: the Civil Protection agency and its associations of emergency psychologists (such as Società Italiana Psicologia dell'Emergenza Emilia-Romagna, Italian Red Cross, and Psicologi per i popoli Emilia-Romagna ) together with the Regional Health Centre (AUSL) and other organizations not part of the Civil Protection (such as EMDR Italia). All the actors listed above participated in online board meetings organized every day, and, through information from their members in the field, were informed in real time about the needs, the state of mental health of the population, the critical issues and the cases to pay attention to. The proximity approach followed by emergency psychologists allows the needs of citizens to be identified, because the outreaching is carried out proactively through unstructured and structured activities, and happens within psychoeducational and group meetings. Emergency psychologists are trained to intervene in disasters both in the vicinity and in the places where the displaced people have been welcomed and sheltered.",
+    "legal_context": "A specific reference to the need for psychological support during and after flooding events is identified in the Regional Mitigation and Adaptation Strategy of Emilia-Romagna adopted in 2018. In the Strategy emergency management measures to enable the return to previous conditions foresee medical and psychological support aimed at increasing the resilience of the population. The Civil Protection coordinating the emergency response always needs to grant authorization to associations and volunteers who provide their availability, to ensure the most efficient effort is deployed. The 2006 Italian Directive General criteria on psychosocial interventions to be implemented in disasters identifies the organizational network, reference structures and dedicated human resources, recipients of the interventions and actionable scenarios. The Regions ensure that, in relation to the geosocial characteristics and the extent of the risks present in their territory, teams are set up to provide psychosocial support to the population affected by disasters. These teams are usually identified using existing resources in the services dependent on the Regional Health Centre. The previously trained teams operate within the emergency system, guaranteeing their intervention both in catastrophic events with limited effect, and in catastrophic events that go beyond the response potential of local structures. The Region, through its organisation, identifies the members of the team among the staff within its service. The selected staff, who can be integrated with additional resources identified within, e.g., volunteer associations, local authorities, and professional associations must be adequately trained on the tasks to be carried out in situations of collective catastrophe and trained through specific exercises. In order to be able to respond immediately in emergency situations, the teams must be part of the healthcare organization for maxi-emergencies, and be able to take advantage of logistical support and radio communications. Each team leader in the disaster area will operate in compliance with the hierarchical structure, according to the chain of command and control established by the competent authorities. The psychologists of civil protection associations are trained both in emergency psychology and in civil protection procedures. For the latter they must pass a basic course taught by the Civil Protection, which includes many topics (from logistics, to radiocommunication in emergency, cartography, etc.). Every volunteer that passes the exam is added to the Regional Civil Protection register and only then can help intervene with the Civil Protection. Every Civil Protection volunteer must wear personal protective equipment (PPE) and special uniforms that identify him/her, and must be insured for damage to him/herself and others by the association to which s/he belongs. Associations also provide continuous training and capacity building."
+  },
   "point": {
     "lat": 44.13876,
     "lon": 12.2391244,
@@ -72,7 +139,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/mental-health-support-for-people-affected-by-floods-in-emilia-romagna",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-26T09:15:28+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

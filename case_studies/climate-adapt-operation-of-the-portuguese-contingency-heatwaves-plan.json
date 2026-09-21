@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-operation-of-the-portuguese-contingency-heatwaves-plan",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/operation-of-the-portuguese-contingency-heatwaves-plan",
   "title": "Operation of the Portuguese Contingency Heatwaves Plan",
@@ -32,6 +32,118 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "elderly people",
+      "label": "elderly people"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Contingency plan",
+      "label": "Contingency plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Lisbon",
+      "label": "Lisbon"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "morbidity",
+      "label": "morbidity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mortality",
+      "label": "mortality"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly",
+      "hospitals"
+    ],
+    "group_mentions": {
+      "older_people": 5,
+      "health_patients": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the Portuguese Heatwave Contingency Plan is to prevent the adverse health impacts from elevated temperatures, also considering the possible impacts of climate change. This is achieved by providing timely relevant information to local authorities to enable them to conduct risk assessments and suitable corrective measures. Special attention is placed on the elderly population. This Plan establishes roles and functions for governmental institutions at national, regional and local level. Although it is coordinated centrally by the Directorate-General of Health, it has a de-centralized operational structure.",
+    "measures": "Main elements and actions foreseen by the Plan include: Definition of roles and responsibilities for each authority involved in the Plan operation. Within the Health Sector, roles and responsibilities involve national, regional and municipal levels. The Plan also establishes protocols of operations with other sectors such as Protection Services (including Metrological services) and Social Services. Daily alerts to the general public regarding the state of hazard related to extreme temperature and heat waves. Three possible alert levels are considered: (i) Green, indicating normal temperatures for that time of year; (ii) Yellow, indicating that temperatures are high and likely to cause adverse health effects in the most sensitive population; (iii) Red, indicating extremely high temperatures likely to cause significant adverse health effects. For each alert level specific protection measures are established to reduce possible adverse health impacts; for example, during a red alert level: (a) Inform the general population, health establishments, social services, and relevant media channels of the alert level and recommend what protective measures (i.e. drinking of water) that can be applied to reduce heat-stress; (b) Enhance communication channels between the health sector and other sectors; (c) Articulate with emergency response services to promote transportation to emergency units in hospitals and temporary locations with access to air conditioners; (d) Ensure vulnerable population groups are not alone during this period; (e) Ensure that health establishment emergency response units have additional capacity. Special focus on vulnerable population groups. Various training and communication activities aimed at vulnerable populations are defined by the Plan. Monitoring of mortality and morbidity associated with periods of heat stress. Report to the Health Minister and the general public on the activities developed during the year within the Heatwave Contingency Plan.",
+    "outcomes": "The alert warning system is well known nationally, and has been able to identify the major heatwave episodes in Portugal. How this has reduced adverse health effects is more difficult to assess, and there is currently no information available. The Plan has been operational nationally since 2004; during this period there have been various adjustments to allow for better implementation. One of the biggest changes included shifting the implementation tasks from central government to regional and local governments, thus allowing for more realistic risk assessments and faster responses within the health system. Another important change was introducing different temperature cut off values used to trigger alters in each region. However, this is a part of the Plan that could still benefit of more refined information. The current definition of a heatwave (or period with extreme heat) is based on the statistical comparison of predicted climate with climate data expected for that period in that region. Conducting assessments in each region to determine the threshold based on local population sensitivity and climate would likely be more efficient.",
+    "cost_benefit": "The Plan is fully funded by the Health Ministry. Staff working on this Plan also works in other areas of primary health care thus making it very difficult to estimate the costs and resources associated with the Plan. By definition the benefits of this Plan is prevention of adverse health effects. Measuring these benefits is very difficult and has not yet been calculated.",
+    "timeline": "Following the 2003 heatwave, the Portuguese Heatwave Contingency Plan was established and has been in operation every year, since 2004, from May to September.",
+    "lifetime": "Actions foreseen by the Plan are assumed to continue for the long-term. A revision of the Plan is planned for 2016-2017.",
+    "stakeholders": "Governmental institutions at national, regional and local level were involved in the elaboration of the Plan and work together taking on different roles during various stages of the Plan operation. This also includes health professionals, hospitals and other emergency staff. Communications regarding alert levels and corresponding risk reduction actions required are issued to the media. Printed material on how to reduce risks are widely available in clinics and other locations targeting vulnerable groups such as the homes of the elderly. Information is also available online on Health Directorate website as well as on the website of the regional health authorities.",
+    "legal_context": "The Heatwave Contingency Plan is a national Plan developed, funded and implemented by the Health Ministry."
+  },
   "point": {
     "lat": 38.7883453538,
     "lon": -9.3054199215,
@@ -56,7 +168,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/operation-of-the-portuguese-contingency-heatwaves-plan",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:23:26+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

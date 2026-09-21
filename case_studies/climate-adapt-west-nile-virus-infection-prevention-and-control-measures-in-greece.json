@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-west-nile-virus-infection-prevention-and-control-measures-in-greece",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/west-nile-virus-infection-prevention-and-control-measures-in-greece",
   "title": "West Nile virus infection prevention and control measures in Greece",
@@ -28,6 +28,79 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning",
+      "label": "early warning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "West Nile Virus",
+      "label": "West Nile Virus"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Infection",
+      "label": "Infection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vector-borne disease",
+      "label": "vector-borne disease"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Surveillance",
+      "label": "Surveillance"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "patient",
+      "patients",
+      "school"
+    ],
+    "group_mentions": {
+      "schools": 1,
+      "health_patients": 3
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the enhanced surveillance initiative is the timely implementation of targeted response and preventive measures to address and manage WNV infections in humans in Greece. In addition, considering the expected seasonal occurrence of cases of infection, the aim is to strengthen the surveillance and response capacity also in the medium and long term.",
+    "measures": "The epidemiological surveillance of the WNV infection, the timely implementation of appropriate integrated mosquito control programmes and the implementation of personal protection measures against mosquito bites are considered globally the most important measures for the prevention of this disease. In this context, the vigilance of the health professionals and the continuing awareness of the local and national authorities are considered crucial. Since 2010, in every mosquito circulation season (generally from May to November), the Greek National Public Health Office (NPHO), in collaboration with other national stakeholders and regional and local public health authorities, implements a series of preventive and reactive public health measures for the management of WNV infection, including in particular an enhanced surveillance system for WNV disease in humans. As part of routine procedures implemented before the beginning of each WNV season, informative material is sent by the NPHO to all healthcare facilities and medical associations around the country to raise awareness of laboratory experts and clinicians concerning the diagnosis of WNV infection. The NPHO prompts clinicians to conduct laboratory testing of all suspected WNV infection cases, which are defined as any person with acute onset of neurological syndromes (encephalitis, meningitis, or myelitis), as well as any person with non-neurological illness but unexplained fever. NPHO recommends referral of samples to specific specialised laboratories for testing. The Vector-borne Diseases (VBD) Department of the NPHO implements active laboratory-based surveillance (i.e. collection of data from the laboratories is initiated by the NPHO), throughout the transmission season, with daily communication with specialised laboratories and daily reporting of diagnosed cases to NPHO. Laboratory diagnosis is free of charge for patients in these laboratories, reimbursed by NPHO. Blood safety authorities (the Hellenic National Blood Transfusion Center-EKEA) and the Coordinating Centre for Hemovigilance and Surveillance of Transfusion inform NPHO about infections diagnosed among blood donors tested in affected areas. National, regional, and municipal authorities, and local health units are urgently informed following the recording of cases in an area, and weekly surveillance reports are published by the NPHO. Other implemented preventing and response measures include: Communication and health promotion activities for the public. At the national level, informative material (e.g., leaflets, brochures) for the public on WNV infection and recommended protective measures against mosquito bites is disseminated through the NPHO website and distributed to the regional public health authorities. Moreover, informative leaflets are provided in affected municipalities. Announcements, press releases and published weekly surveillance reports inform the public about the WNV circulation. TV spot on mosquito protection is broadcasted during the mosquito circulation period. Some regional and municipal authorities also implement other communication campaigns for the public (leaflets distribution, events, and seminars). Blood donation safety measures implemented nationwide for blood donors residing in or having visited affected municipalities (i.e. municipalities with at least one human case of WNV infection). These measures include blood donor deferral or screening of donated blood for WNV RNA and haemovigilance (i.e. surveillance of serious adverse or unexpected events or reactions in donors or recipients, epidemiological follow-up of donors). Vector surveillance activities, implemented by national and regional authorities. Integrated mosquito control programmes including mosquito surveillance are under the responsibility of regional and municipal authorities. The NPHO also performs an active vector surveillance programme in various areas of the country in each mosquito circulation season, including testing of mosquito pools for the presence of WNV (early alert system), in collaboration with the University of West Attica, Ministry of Rural Development and Food, regional authorities and sub-contractors Vector control activities, implemented by regional and municipal authorities (intensified mosquito control is implemented in affected areas). WNF (West Nile Fever) surveillance in horses and birds Since 2010, a WNF-specific surveillance programme has been implemented for animal health purposes, under the coordination of the Ministry of Rural Development and Food in cooperation with the regional and local veterinary authorities and relevant state laboratories. The WNF animal surveillance programme includes: active periodic serological examination of horses from May to September; active clinical surveillance of horses in proximity of confirmed human and animal cases; active surveillance in wild bird populations through capture and sampling in selected areas; and passive surveillance (where the laboratories initiate forwarding of the data to the health department) of WNF in horses (all year round), in wild and domestic birds (by sampling dead or sick birds), and in other domestic animals (e.g. domestic carnivores) sensitive to West Nile virus.",
+    "outcomes": "The main success of the measures implemented in Greece is related to the enhancement of the epidemiological WNV surveillance systems which has improved prompt response and related public health measures. Important success factors for the establishment and function of proper surveillance systems and control programs in Greece are: the strong commitment of all involved stakeholders, established mechanisms of a structured inter-sectoral collaboration and communication (based on working groups, committees, networking, direct interpersonal communication), laboratory expertise and high diagnostic capacity, free-of-charge diagnosis for the patient in specialized laboratories, and the operation of established integrated mosquito surveillance and control programmes in most Greek regions. Major constraints relate to the complex epidemiology of the WNV, which makes its spread and geographical distribution difficult to predict. To date, researchers are working at a global and European level on the improvement of risk assessment tools and control measures effectiveness evaluation, but uncertainties are still high. In addition, mosquito surveillance and control strategies need further guidance, standardization and coordination nationwide, as well as a more flexible legal framework to overcome some organizational barriers (procurement delays), whereas challenges also exist on the use of biocides (availability, access, restrictions of use) at the EU level.",
+    "cost_benefit": "A quantitative estimation of the budget devoted to the surveillance system is not available. Main costs of the epidemiological WNV surveillance systems relate to: (i) human resources for implementing surveillance in humans, animals and mosquito vectors, (ii) WNV testing in humans, animals and mosquitoes, (iii) blood safety measures (e.g., screening of blood donations). The benefits are the minimization of the WNV circulation and spread, and thus to the reduction of the number of human and animal cases in each transmission season (reduced WNV burden), through the timely identification of human and animal WNV infection cases, the prompt recording of cases at the local, regional, national, and European level, as well as the prompt implementation of targeted response measures. Increased effectiveness of surveillance actions for WNV could also lead to the adoption of trialled best practices by surveillance systems of other vector-borne diseases.",
+    "timeline": "Prevention and response activities, including the surveillance of human WNV infection, are annually implemented, since 2010, during the transmission seasons (spring to autumn).",
+    "lifetime": "Surveillance plan and other prevention and control measures are in place since 2010, and currently in force during transmission seasons. For the moment there is not a defined lifetime of the surveillance and prevention measures; they will be implemented in the long term, as WNV seasonally circulates in the country.",
+    "stakeholders": "Several administrations and institutions are involved in the prevention and control of WNV in Greece at the national level. Main national stakeholders include: (i) the Ministry of Health (MoH), with its intersectoral National Committee for the Prevention and Management of Tropical Diseases, (ii) the Hellenic National Public Health Organization (NPHO), (iii) the National blood safety authorities, and, (iv) the Ministry of Rural Development and Food. In this context, the MoH and its National Committee for the Prevention and Management of Tropical Diseases is responsible for the health policy development also related to WNV, through legislation, circulars on vector control and consultation on emergency response mosquito control treatments. The NPHO performs enhanced surveillance for WNV disease in humans through awareness raising of clinicians and doctors concerning the diagnosis of WNV infection, active laboratory-based surveillance throughout the transmission season (daily communication pattern with reference/specialised laboratories), case investigation, immediate update of national and regional and local stakeholders on the diagnosed cases, support of the laboratory diagnosis capacity (funding the National Reference Laboratory and other specialised diagnostic laboratories for free-of-charge diagnosis for the patient), as well as communication and health promotion activities for the public, risk assessment, and mosquito surveillance. The National blood safety authorities implement blood safety measures for the protection of blood donations against WNV infection. The Hellenic National Blood Transfusion Center-EKEA implements nationwide blood safety measures for blood donors residing or having visited affected municipalities. The Coordinating Centre for Haemovigilance and Surveillance of Transfusion of the NPHO issues guidance on haemovigilance. At the same time, an Intersectional Working Group for the designation of affected areas by vector-borne diseases (under the MoH National Committee for the Prevention and Management of Tropical Diseases) consulted on the characterization and designation of WNV affected areas (where blood safety measures are implemented). The Ministry of Rural Development and Food is the central competent authority for the implementation of the national WNV surveillance in the context of national animal health authorities (animal health policy, horses and birds’ WNV surveillance). Its Benaki Phytopathological Institute performs mosquito surveillance programmes. Other organizations or entities that contribute to the functioning of the surveillance system are: Doctors, clinicians and laboratory experts, involved in case diagnosis and case management. The NPHO prompts them to conduct laboratory testing of all WNV infection suspected cases. Official veterinarians, private vet practitioners, horse owners, hunting or environmental associations involved in reporting every suspect case to the competent veterinary authorities. National Reference Laboratory for Arboviruses and other specialised laboratories, involved in the diagnosis of WNV infection. NPHO recommends referral of samples to specific specialised laboratories for testing. Medical Entomology Unit of the School of Public Health, University of West Attica: which is involved in the mosquito surveillance funded by the NPHO. Hellenic Transplant Organisation, responsible for transplant safety measures. Regions (regional public health and animal health authorities) and municipalities, working on integrated mosquito surveillance and control activities, communication, and health promotion activities for the public, and on equids and birds’ surveillance at the regional level.",
+    "legal_context": "The NPHO is responsible for the surveillance of infectious diseases and implements enhanced WNV surveillance in humans since 2010. The operational WNV surveillance plan of the NPHO has not been included in a formal disease-specific legal framework to date. Development of a formal legislation framework regarding a more coordinating structure and planning of public health, animal health and mosquito management strategies, at national, regional, and local level, would have an added value and is under consideration."
+  },
   "point": {
     "lat": 39.0,
     "lon": 22.0,
@@ -52,7 +125,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/west-nile-virus-infection-prevention-and-control-measures-in-greece",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:22+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

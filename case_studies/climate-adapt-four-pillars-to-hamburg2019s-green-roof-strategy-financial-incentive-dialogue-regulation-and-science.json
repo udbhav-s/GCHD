@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-four-pillars-to-hamburg2019s-green-roof-strategy-financial-incentive-dialogue-regulation-and-science",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/four-pillars-to-hamburg2019s-green-roof-strategy-financial-incentive-dialogue-regulation-and-science",
   "title": "Four pillars to Hamburg’s Green Roof Strategy: financial incentive, dialogue, regulation, and science",
@@ -53,6 +53,104 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green roof",
+      "label": "Green roof"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "financial incentives",
+      "label": "financial incentives"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "open space",
+      "label": "open space"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainwater retention",
+      "label": "rainwater retention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multifunctional measure",
+      "label": "multifunctional measure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat island",
+      "label": "heat island"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hamburg has a growing number of residents leading to an urban expansion policy requiring a great number of additional housing s . To maintain Hamburg’s compact urban structure , the objective is to improve the quality (rather than the quantity) of open green city spaces. In this context, Hamburg’s objective is to be greener – on top. The Green Roof Strategy for Hamburg aims to green at least 70% of both new buildings and suitable flat or gently pitched roofs that are being renovated. This equals to plant a total of 100 hectares of green roof surface with plants and flowers in the metropolitan area, the equivalent of double the surface of ‘Planten un Blomen’ city park (45 hectares). About 20% of these newly greened open space areas should be made available for recreational uses (sports fields and parks, or as gardens in shared use by the housing community) to residents and workers. By promoting green roofs, the city aims to encourage space efficient leisure areas, improve the city’s rainwater retention capacity, increase biodiversity and reduce extreme temperature effects.",
+    "measures": "Hamburg is a constantly growing city, demonstrating that the creation of new living space and green awareness can be compatible. The city’s environment strategy as stated in the Climate Plan of 2016 addresses the effects of climate change such as increase in heavy rains, flooding, and heat waves. Green roofs in this context improve both the city climate and water management. With respect to the city’s climate, green roofs cool the surrounding and increase humidity, which reduces the urban heat island effect. Also, green roofs provide improved insolation to buildings and therefore better adaptation to more extreme temperatures. Further, greened roofs improve water management through rainwater retention and natural evaporation. They retain between 50 and 90% of the annual precipitation and up to 30-40% of a heavy rainfall ( Hamburg city, Green roofs guidelines for planning ). The Green Roof Strategy (2014) complements the city’s RISA ( Rain Infrastructure Adaptation 2030 ), the city’s strategy for the sustainable management of rainwater. Less water can be drained away in the increasingly dense city while heavier rainfalls because of climate change are becoming more frequent. As a consequence, the sewage system is overloaded and rivers are bursting their banks. This has made ‘Hamburg Wasser’, the city’s water utility, to impose strict restrictions on water discharge per house and time. This strict allowance implies that excess rainwater should be temporarily retained to avoid an overload of the sewage system. Calculations show that on average 60% of rainwater must be retained to avoid a sewage overload. Dealing with stormwater in Hamburg is a cross-disciplinary and cross-administrative objective and recommendations are contained in the document ‘RISA Structural Plan Rainwater 2030’ (Strukturplan Regenwasser 2030), which was released in 2016. Hamburg’s green roofs can contribute to relieving the drainage infrastructure by reducing the total amount of rainwater run-off and slowing down the speed of the remaining run-off. Green roofs also clear the air by absorbing dust and harmful substances. Further, green roofs offer new space for recreation in the densely populated city centre. Companies and landlords will have a clear competitive advantage with a green roof. These new green spaces right in the middle of the city are particularly attractive to residents and workers. They can relax, do sports, or plant vegetables and flowers. In order to succeed with the Green Roof Strategy, the city combines promotion, dialogue, policy and research: Promotion: with an incentive programme the city is providing subsidies until 2024 for each owner (private or public) voluntarily deciding for a green roof. The subsidy is paid both for refurbishing the roof as well as green roofs in new buildings. Communication and dialogue: The incentive programme is communicated strongly with a city-wide awareness campaign “On Your Roofs, Get Set, Green!”. Using posters, brochures, press articles and internet promotion, the green roof benefits are shared with Hamburg inhabitants and visitors. The greening of public roofs is an excellent promotional example. A dialogue is necessary with local politicians, authorities, architects, engineers, and economists. A full-time communication officer in the Hamburg Ministry of Environment and Energy is in charge of all communication actions. Policy and regulation: embed the Green Roof Strategy in urban landscape planning. The Strategy aims to incorporate or enhance green roofs into legally binding instruments such as the Hamburg Building law, the wastewater law, planting regulations on structural systems and land-use plans. Scientific support: the HafenCity University is providing scientific support ( RISA Pilot Project , see the section on costs and benefits) to the Green Roof Strategy. Scientists at the university are evaluating international findings on green roofs to develop their own recommendations for Hamburg’s green roof construction, and collecting data on water retention and the water management effectiveness of green roofs especially with severe cloudbursts (the latter to convince sceptics that question the green roof’s water retention capacities of large roofs). In fact, the city of Hamburg and the HafenCity University want to develop guidance for the promotion of green roofs which other cities can then use to create their own measures for climate change adaptation. The scientific work is partly funded by the Federal government of Germany as a part of the “Measures to Adapt to Climate Change” project. Since 2014, when the Green Roof Strategy was lunched, about 44 ha of green roofs have been implemented reaching a total of 168 ha (adding to pre-existing ones) in the metropolitan area, of which 40% is on housing, 35% on industry and businesses and 25% on other surfaces (2020 estimates). Predominantly green roofs have been installed on new buildings (75%). The large area of underground parking lots with intensive green roofs are not included in the 168 ha. In addition, 20 ha vegetation are planned on the lid of the A7 motorway passing through Hamburg, and further 1.85 ha are planned on the Schnelsen motorway lid, which is under construction. Currently, there are 10,000 planning and building permissions for housing units per year and most of them with green roofs are underway. Green roofs promoted by the Green Roof Strategy include extensive, simply intensive and intensive green roofs. Extensive green roofs are the simplest and inexpensive solution, requiring a low layer thickness (5-15 cm) and very little maintenance. The simple intensive greening is a transition form between intensive and extensive greening. A substrate structure of at least 12 centimetres is required for the variation of grasses, shrubs and small trees. Simply intensive green roofs can be developed as usable roof gardens or as natural garden areas with a biotope character. Intensive green roof includes usable and accessible garden landscapes with grasses, shrubs, woody plants, or ponds on the roof. Intensive green roofs offer the city new open spaces that can be used as gardens, play areas or recreational areas. The intensive greening requires a substrate thickness of at least 25 centimetres.",
+    "outcomes": "The Green Roof Strategy fits within Hamburg’s aim to be a growing, yet climate-friendly and resilient, compact city. For this purpose, green rooftops provide a multifunctional solution, favouring the success of the overall initiative. In addition to reducing climate change threats, they highly improve green quality space in the city. Investing in green roofs for adaptation to increased stormwater management and flooding risk is financially beneficial and minimizes the cost of upgrading the current sewage system. The German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports Hamburg’s Green Roof Strategy as a pilot project within the programme “ Measures for adaptation to climate change ”, providing financial support, networking and transfer of knowledge. A key success factor relies in the subsidy system implemented to support voluntary (intensive or extensive) green roofing measures in residential and non-residential buildings (see section on “Costs and benefits” for further details). Moreover, installation of green roofs on site can also contribute towards nature compensation, as required by the German building law code and the Federal Nature Conservation Act in case of the construction of new buildings and garages that impact on nature. The success of the initiative has been strengthened through the participation in European initiatives as The European Green capital Network , aimed to put sustainability at the heart of local policies. As part of this initiative, the Hamburg’s Green Roof Strategy was included in the Future-proof Toolkit . Moreover, it was part of the Horizon 2020 project CLEVER Cities , contributing to enhance Nature-Based-Solutions in cities. The promotion and communication of the Green Roof Strategy is a top priority, and several hurdles still must be taken. For example, it has been questioned whether green roofs indeed provide the needed water retention capacities especially with a heavy storm water event. The concern is that support for this approach only stems from small scale experimental settings and that real and large roofs would not provide adequate retention service. To solve the matter, HafenCity University has been researching this question within the RISA Pilot Project (2017-2021; see the section on costs and benefits for more details). Further, when initiating the Green Roof Strategy it was challenged whether Hamburg was having sufficient flat roofs to be able to succeed with the strategy. GIS-based research solved this question, showing that over 40% of the cities’ roofs are flat and suitable for greening. Another particular challenge requiring strong communication efforts on the positive benefits of green roofs has been the appearance of specific animals on the green roofs. On one of the industry flat roofs a sea gull colony of >5000 individuals has found a new home, putting off other businesses to also install green roofs. Similarly, green roofs attract insects which may result in people deciding to not choose for a green roof. Communication and research therefore have shown to be a crucial component for succeeding with the Green Roof Strategy. Moreover, objectives to create affordable housing is still perceived by the housing sector to be at odds with green roofs, despite science showing no life cycle increases in costs. The intention to make green roofs compulsory by law in combination with solar panels, is also perceived as a limitation by the industry sector that is reluctant to accept further regulation systems.",
+    "cost_benefit": "According to the Hamburg’s Green Roof Strategy, green roofs are an investment with clear future returns. A green roof can create a more pleasant building climate and help to reduce heating or cooling costs. It insulates in winter and cools in summer resulting in energy savings varying from 3-10% for extensive green roofs ( Green roofs guidelines for planning ) and up to 44% for intensive green roofs, depending on roof insulation measures. Thus, the measure shows clear synergies with mitigation measures. It also protects the roof water proofing from weathering effects so that green roofs last up to twice as long as conventional flat roofs. Plants and substrate on green roofs retain a large amount of rainwater, which results in additional savings of about 50% on rainwater fees on average for the house owners in Hamburg. In those instances where the water discharge does not require connection to the sewage system, fees can be completely eliminated. Tests of retention capacity of four different types of green roofs were carried out on 220 m 2 and compared with a traditional gravel roof on three neighbouring apartment blocks in “Am Weißenberge\" residential area of Hamburg ( RISA Pilot Project ). The green roofs were fitted with rainwater storage below the substrate level combined with a throttle to allow increased retention and delayed release of water from the roofs, particularly useful during extreme precipitation events. Over 12 months, the green roofs reduced run off between 100% and 76% compared to 13% of the gravel roof. An 8-year return event that occurred over two hours led to practically no run off during the event and the green roofs were able to retain the water during the following 24 hours. Green roofs can be than a conventional roof on a hot summer day. Hamburg is looking into quantifying the impacts of other benefits of green roofs, notably Urban Heat Island (UHI) reduction. Costs for most extensive green roofs are in the range of 40-45 € /m 2 , while intensive green roofs can cost about 58 € /m 2 . Comparative studies of the life cycle costs of green roofs and black tar roofs in Hamburg have shown that costs equal out after 40 years ( Hamburg’s green roof economic evaluation ). However, the study only included costs and not welfare benefits such as water retention impacts on the wider urban area, UHI reduction and aesthetics. The Hamburg’s Ministry for Environment, Climate, Energy and Agriculture invests about € 500,000 of its own resources for the implementation of the overall Green Roof Strategy, including efforts in all four areas of activity: promotion/support, dialogue and communication, scientific support, and policy/regulation. It also includes a full-time employee based at the Ministry. In addition, the Ministry and the Harbour City University receive € 300,000 in federal grants on expenditure basis from the German Ministry of the Environment under a funding programme supporting local activities for the adaptation to climate change. This federal grant on an expenditure basis is used to pay a full- time communications officer and a part-time HafenCity researcher for 2-3 years. The Green Roof Strategy’s incentive programme has € 3 million at its disposal until the end of 2024. This amount includes the total remuneration to be provided under the financial incentive programme implemented via the Hamburg’s Investment and Development bank (IFB), which handles all applications and transactions for the Green Roof incentives programme. Of the total € 3 million, € 2 million are sourced from the ‘implementation and service’ budget line of the Ministry responsible for city development and environment; the other € 1 million stems from the innovation fund of the Senate Office (the Federal state’s government of Hamburg). Since 1 st June 2020 the subsidy system also includes financial and practical support for green facades, with an overall funding of € 0.5 million. At least € 13.5 million have been invested in green roofs in Hamburg over the past six years, of which 1.5 million € is public funding coming from the Green Roof Strategy’s incentive programme. The multi-functionality of green roofs is reflected in the subsidy system supporting the Green Roof Strategy. The city subsidises 30-60% of the costs of voluntary greening measures and up to €50,000. Additional subsidies are provided if the roof is located in the inner city, used for generating solar energy or available to multiple users for recreation and enjoying urban nature.",
+    "timeline": "The Green Roof Strategy started in 2014 when Hamburg already had about 124 ha of green roofs. The Hamburg’s Ministry for Environment, Climate, Energy and Agriculture is supporting the incentive programme until the end of 2024.",
+    "lifetime": "A green roof lasts about twice as long as a conventional flat roof. The Fraunhofer Institute for building physics (Fraunhofer-Institut für Bauphysik) estimated the lifespan of a green roof to be 40 years. There are also examples of green roofs in Germany that are already 100 years old. The vegetation layer protects the roof waterproofing from UV radiation and the direct influence of the weather. In addition, it prevents harmful temperature fluctuations in the roof cladding, which on conventional flat roofs can lead to cracking in the roof waterproofing.",
+    "stakeholders": "Hamburg is using a wide range of networks and cooperation with other cities to present itself as a climate action centre at regional, national, European, and international level. The experience gained in this process is used in its own response to climate change. When developing the incentive programme for green roofs, Hamburg involved other cities in a search for good practice and soliciting for feedback on draft versions of the incentive programme. Based on this interaction with other cities, Hamburg decided to have its financial incentive program based on surface and thickness of the green roofs instead of water retention capacity as is the case in most programs in other cities. This decision led to constructors not only focusing on water retention but also considering other benefits that green roofs may have such as in the context of biodiversity and space utilization. Within the city, a stakeholder group was established including housing estate companies, constructors, landscape architects and urban planners, setting together the common goal of “100 hectares in 10 years”. Parallel to the dialogue with other cities this group was involved in defining the incentive programme. Additional stakeholder groups have been set up to work on specific themes, such as fire protection of green facades in the long term and cost assessment of green roofs (construction costs, life cycle costs, saving costs opportunities).",
+    "legal_context": "The current Green Roof Strategy combines the urban development policy objectives of sustainable area development with the objectives of adaptation to global warming and climate change. Also, in accordance with the Nature Conservation Act green roofs are considered a possible measure in the context of compensating building impact on nature. Hamburg is working across departments and with the housing industry to make green roofs and green facades compulsory by law for all suitable buildings but is facing trade-offs with a political objective to increase affordable housing and an industry reluctant to accept further regulation. The city of Hamburg also regularly reviews its green roof legislation in particular with regards to the ecological quality standards for the roofs. Specifically, since 2018, the standard green roof has been regulated at 12 cm substrate thickness for housing and offices while green roofs on large industrial buildings as a minimum need to be 8 mm substrate thickness."
+  },
   "point": {
     "lat": 53.5337781843,
     "lon": 9.98107910156,
@@ -82,7 +180,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/four-pillars-to-hamburg2019s-green-roof-strategy-financial-incentive-dialogue-regulation-and-science",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:34+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

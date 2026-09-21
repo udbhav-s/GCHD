@@ -46,6 +46,49 @@ CLIMATE_IMPACT_MAP = {
     "NONSPECIFIC": [],
 }
 
+# Other Climate-ADAPT vocabularies worth keeping. The record field name maps to
+# the vocabulary name written into source_tags.
+SOURCE_TAG_FIELDS = {
+    "sectors": "climate_adapt_sectors",
+    "governance_level": "climate_adapt_governance_level",
+    "elements": "climate_adapt_adaptation_elements",
+}
+
+# Climate-ADAPT rich-text fields that describe what was done and what came of it.
+INTERVENTION_FIELDS = {
+    "objectives": "objectives",
+    "measures": "solutions",
+    "outcomes": "success_limitations",
+    "cost_benefit": "cost_benefit",
+    "timeline": "implementation_time",
+    "lifetime": "lifetime",
+    "stakeholders": "stakeholder_participation",
+    "legal_context": "legal_aspects",
+}
+
+# Terms that suggest a study is aimed at a particular group. These are hints read
+# out of free text, so population_focus records that a scan produced them.
+POPULATION_TERMS = {
+    "children_youth": [
+        "child", "children", "kids", "youth", "young people", "adolescent",
+        "adolescents", "infant", "infants", "toddler", "pupil", "pupils",
+        "paediatric", "pediatric", "minors",
+    ],
+    "schools": [
+        "school", "schools", "schoolyard", "schoolyards", "kindergarten",
+        "kindergartens", "nursery", "nurseries", "playground", "playgrounds",
+        "classroom", "classrooms", "student", "students",
+    ],
+    "women": ["women", "girls", "maternal", "mothers"],
+    "older_people": ["elderly", "older people", "older adults", "seniors", "pensioners"],
+    "low_income": [
+        "low-income", "low income", "poverty", "deprived", "disadvantaged",
+        "informal settlement", "informal settlements",
+    ],
+    "displaced": ["refugee", "refugees", "migrant", "migrants", "displaced"],
+    "health_patients": ["patient", "patients", "hospital", "hospitals"],
+}
+
 ISO2_TO_ISO3 = {
     "AT": "AUT", "BA": "BIH", "BE": "BEL", "BG": "BGR", "CH": "CHE",
     "CY": "CYP", "CZ": "CZE", "DE": "DEU", "DK": "DNK", "ES": "ESP",
@@ -78,6 +121,35 @@ def load_country_ucodes(path=COUNTRIES_INFO_CSV):
                 ucodes[iso3] = ucode
                 names[iso3] = row["name"]
     return ucodes, names
+
+
+POPULATION_PATTERNS = {
+    group: re.compile(
+        r"\b(" + "|".join(re.escape(term) for term in sorted(terms, key=len, reverse=True)) + r")\b",
+        re.IGNORECASE,
+    )
+    for group, terms in POPULATION_TERMS.items()
+}
+
+
+def detect_population_groups(text):
+    """Find population groups named in a study's text.
+
+    Returns the groups, the terms that triggered them, and how often each group
+    was mentioned, so a reader can judge the match instead of trusting it. One
+    passing mention is usually incidental.
+    """
+    groups = []
+    evidence = []
+    mentions = {}
+    for group, pattern in POPULATION_PATTERNS.items():
+        matches = pattern.findall(text)
+        if not matches:
+            continue
+        groups.append(group)
+        mentions[group] = len(matches)
+        evidence.extend(sorted({match.lower() for match in matches}))
+    return groups, sorted(set(evidence)), mentions
 
 
 _SUFFIX = re.compile(r"\s*\(([A-Z]{2})\)\s*$")

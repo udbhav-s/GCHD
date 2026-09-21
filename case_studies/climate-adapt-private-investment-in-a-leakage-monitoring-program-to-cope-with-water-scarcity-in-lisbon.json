@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-private-investment-in-a-leakage-monitoring-program-to-cope-with-water-scarcity-in-lisbon",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/private-investment-in-a-leakage-monitoring-program-to-cope-with-water-scarcity-in-lisbon",
   "title": "Private investment in a leakage monitoring program to cope with water scarcity in Lisbon, Portugal",
@@ -44,6 +44,94 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water efficiency",
+      "label": "water efficiency"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "distribution network",
+      "label": "distribution network"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "non-revenue water",
+      "label": "non-revenue water"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "leakage monitoring",
+      "label": "leakage monitoring"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Big data",
+      "label": "Big data"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The city of Lisbon set out to find a way to reduce the volume of water lost due to leakages, also known as non-revenue water. The main source of this problem is linked to faults in the pipelines due to the aging of the infrastructure. EPAL has specialised technicians in-house to carry out any necessary repairs. The difficulty, however, lies in identifying and locating the faults as the network is widespread and mostly underground. Whether a technician needs to search for the leakage within an area of 1 square meters or 1.000 square meters can make an enormous difference. EPAL therefore decided to develop the monitoring program WONE through which water leakages could be identified more quickly and located more precisely. Its initial aim was to realise a reduction of non-revenue water from 25% to a level below 15%, to provide a long term sustainable water supply by improving day-by-day efficiency and effectiveness. The results achieved have been even better, reaching a reduction of non-revenue water to around 8.5% in 2015. The objectives of this Project are compliant with the National Program for the Efficient Use of Water (PNUEA) approved with national Resolution 113/2005, which is coordinated by the National Laboratory Civil Engineering. This program aims to contribute to a new approach for tackling water issues in Portugal under a framework of sustainable development. The initiative strengthens the achievement of two important Sustainable Development Goals: the SDG 11 “Sustainable cities and communities” enhancing the sustainability of the city and of its communities and the SDG 13 “Climate action” through energy use reduction (minor greenhouse gases emissions).",
+    "measures": "To address the water leakages, EPAL set out to develop the water leakage detection program WONE. The program is based on a monitoring system that is able to identify and locate any water leakages in the distribution network. The monitoring system allows the comparison of expected water usage data to real-time water usage. This comparison is carried out by a software that was especially developed for the program. When a discrepancy is found between the two datasets, it alerts the monitoring team that there is a potential leak in the system. The location of the leakage is identified by tracing back the water meter that provided the data that showed a deviation. After the location of the leak is identified, specialized technicians, known as leak detection mechanics, are sent out to carry out a field-based leak detection and repair the problem. The program has resulted in a reduction of non-revenue water from 23.5% in 2005 to around 8.5% in 2015 ( EPAL website ), with a cumulative savings of around 135 million m 3 since 2005. The WONE monitoring system is based on a partitioning of Lisbon in water zones defined considering the number of inhabitants, also known as District Metered Areas (DMA’s). Each zone consists of 3,000 to 5,000 clients and functions as a strategic metering area. In each zone water pressure is continuous monitored through a passive system with active alarms. WONE software conducts a continuous performance evaluation of the DMAs by combining data of several databases and calculates performance indicators to control non-revenue water. The project was developed as an in-house R&D project. It started initially as a pilot in a selected number of ‘simple’ zones. Based on the results of this pilot, the program was further refined and expanded to a larger number of zones. In the first year of development 20 zones were included in the program. In the subsequent years the program was expanded with 30 to 40 zones annually. By 2016, the system is operating in all 158 zones. Next to the water meter in these zones, customers can be provided with additional water meters through the program on request. These ‘private’ water meters have allowed EPAL to gain further insight into the water usage of its customers, based on which the company can now provide additional consultancy services. These services can include on-site detection of leaks or client advisory to improve water supply efficiency. Beside the WONE program monitoring , EPAL has implemented a set of measures to prepare the system to cope with reductions in water quality associated with more intense drought periods and contaminants’ run-off, higher temperatures and reduction in average annual flow, projected by climate change scenarios. For example, actions included the refurbishment of Vale da Pedra water treatment plant, to adapt treatment processes, in order to respond to a wider range of water quality variations. The WONE program has been developed and continues to be managed by Empresa Portuguesa das Águas Livres (EPAL), which is the oldest water utility company in Portugal. EPAL is the main operator of the water distribution network in the country and is a state company that is fully owned by the national public holding company Áquas de Portugal (AdP) since 1993. EPAL is responsible for the management of the water distribution activities as well as the maintenance of the distribution networks. The team monitoring the WONE software plays a key role in its successful application. This team was created by recruiting 4 University graduates. Each leak detection technician received specialized in-house and on the field training (that included 2 weeks of on-job training with foreigner companies). All subsequent knowledge was developed on the job. The consistency of the team has contributed to the successful build-up of a large in-house knowledge base of water efficiency monitoring over the 10 years the program has been running. In this regard, EPAL’s strengthened in-house processes and competences have made possible for the company to establish a set of critical climate changes indicators and to monitor them periodically on a perspective of system’s vulnerabilities. Since consumer behaviour is a main driver for water usage reduction, alongside with the WONE software, EPAL provides consultancy services to customers who would like to improve their water efficiency. For example it created apps and tools for consumers’ self-control, to increase household water efficiency (e.g. the Waterbeep app) . Additional consultancy services included the provision of a monitoring system, the identification of leaks on site or water efficiency advisory. Improved water efficiency through changes in consumer behaviour has a limited impact on the annual income of EPAL that depends more on the fixed service cost that is included in each water bill. Each sold cubic meter of water needs to cover the costs to prepare and distribute it, which means that its profitability is limited. A reduction in water consumption by customers is therefore of interest to both the customer and EPAL. Finally, EPAL promoted the project ADAPTACLIMA-EPAL , which has been scientifically supported by the CCIAM Research Group (Climate Change Impacts, Adaptation and Mitigation Research Group) of Lisbon University. This study, funded entirely by EPAL, provided the company with an adaptation strategy to reduce the vulnerabilities of its activities to climate change. The project focused on adaptation options to increase the resilience of EPAL’s systems against risks associated with climate change. One of the options presented was the promotion of actions for the efficient use of water, which supports the objectives of the WONE program. The ownership of the data and documents from the research project was transferred to EPAL at the end of the project.",
+    "outcomes": "The WONE program has proven to be successful in improving the resiliency of the water distribution network, while also realising a profitable business due to considerable savings in costs. The WONE program should therefore not be considered as just an investment in climate adaptation. It also offers a very interesting opportunity as a business investment (economic co-benefit) that has provided EPAL with a strong economic incentive to ensure the long term resilience of its distribution network. The support of the management board of the company has been proven to be an important success factor, as well as the involvement of other key parts of the company, namely network operations, maintenance and customer relations. These operations aim to promote a change of mentality within the company. The development of the WONE program received a lot of support within the company from the start. During the major drought event, occurred in 2005, Lisbon consumers did not experience major consequences due the resilience of water source availability. The extreme drought in 2005 led to a higher awareness of the risks involved in droughts. This is illustrated by the creation of a Drought Commission within the Minister of Environment and Climate Action directly after the 2005 event, which emphasized the importance of cooperation among national entities and between Portugal and Spain. The WONE program focuses on the detection of leakages only. Therefore the results of the data analysis need to be well attuned to the practices of the technicians, who need to find tailored solutions to repair the actual leak. This translation from data to action still requires a human act, which means that its success is very much dependent on the knowledge of the team operating it. Within the WONE program a pleasant working environment has been realised and that has so far resulted in a steady operational team. The water distribution network needs to be continuously monitored and improved. Usage of the water distribution system means that its pipes will ware and eventually need to be replaced. The average lifespan of the network amounts to 50 to 60 years. The advantage of the WONE system is that problems can be identified more efficiently, which means that the replacement of the network can actually take place in phases. The renewal and repair of water pipes is therefore a continuing process. The WONE program makes it manageable by focusing on continuously fixing smaller parts of the network, rather than replacing it all at once. First evidences of success were gathered in the first pilot area where the system was tested. Positive results allowed to scale up the monitoring programme to the whole city of Lisbon . Besides the WONE system, similar products were sold to other water management bodies in Portugal and abroad, showcasing the easy application of this product to similar cases. Examples of this are: AQUAmatrix® , the customer management system for the water sector and waterbeep® , a service to control water consumption for domestic and corporate customers, helping them to become more efficient. It can be difficult for cities to take the initiative in realizing a water efficiency program as the role of cities is limited to being a facilitator and customer of the water company. To carry out a water efficiency program is in the first place an investment decision that needs to be taken by the water company itself. Other cities could stimulate this type of development through a ‘lead by example’ approach by improving their own water efficiency. They can also support in the communication between a water company and citizens by promoting awareness of the project among citizens and providing practical contact options.",
+    "cost_benefit": "The initial development of the program was financed through in-house financial resources of EPAL. The return on investment for leakage repairs has been highly profitable for the company and could therefore be considered an R&D investment. The total investment for the software development was around €1,000,000, as well as a similar amount that was invested in network monitoring systems within the city. The operational costs of the program account to about €500,000 per year. Through the program the amount of non-revenue water has decreased from 23.5% in 2005 to around 8.5% in 2015. This has resulted in around 68million € in accumulated savings in the last 10 years. The water efficiency program is thus highly beneficial in terms of its cost-benefit ratio. EPAL decided to then reinvest the achieved savings into further reducing the company’s environmental impact. The leakages can affect both the ‘public’ pipelines as well as the ‘private’ pipelines owned by the customers. In the first case it means that the water loss is accountable to EPAL. The company therefore directly saves costs by fixing the leakage. In case of private pipelines, the costs saved by fixing the leak are at the benefit of the customer only, with no profit increase for EPAL. However, water bill reduction for costumers due to minor consumption is limited, because the fixed service charge remains unchanged. The cost of the WONE program does not include the costs for the renewal of the water distribution network, which is considered a ‘regular maintenance’ costs. To finance these costs, the AdP and EPAL have received financial support through favourable interest rate loans from the European Investment Bank (EIB) since 1993. Their support was used to finance water supply extensions and upgrades, waste management measures, sanitation networks and efficiency improvements. The EIB has supported loans of almost €2,500,000,000 in Portuguese water networks. The EIB has built a long trusted relationship with EPAL since it started financing its projects. This relationship is maintained through the provision of annual progress reports about new concepts and methodologies by EPAL to the EIB, as well as updates on the related international and national programmes. Environmental co-benefits are achieved due to reduced emissions associated with lower energy consumption and water resources’ preservation. Indeed, the project shows important synergies with climate change mitigation. Both the operation of the water pumps and the purification of water require electricity, thus using a resource that in its production phases emit greenhouse gasses. The water pumps ensure a continuous flow of clean water through the system. When a smaller volume of clean water is needed due to the reduction of leakages, less water needs to be circulated and therefore the total amount of energy needed to keep the water distribution system in operation is reduced.",
+    "timeline": "The WONE program started in 2005 and is still running.",
+    "lifetime": "The need to detect leaks within the water network is continuous as long as the network is in use. The program therefore does not have an end, but rather cycles that represent the pipes’ lifetime and allow for adaptation to the network’s dynamics.",
+    "stakeholders": "EPAL carried out relevant actions for awareness raising of citizens, about the issues of water efficiency and demand management. For example it launched several campaigns promoting the correct and responsible use of water. Key stakeholders for the WONE programme are citizens and private companies that are the customers of EPAL and thus benefit from possible reductions in water bills. Indeed, next to maintenance of the water distribution network, consumer behaviour is a main driver of water usage reduction. Therefore EPAL provides several services to customers who would like to improve their water efficiency (see Solutions). Though the municipality of Lisbon was not directly involved in the operation of the WONE programme, the city has received advice from EPAL on how to improve water efficiency and has made large investments to realise these improvements. As the activities of the WONE program do take place within the city area, the city also acts as a facilitator for the construction works that need to be executed on site. In addition, the municipality of Lisbon facilitates any necessary communication about the WONE program between EPAL, the citizens and the companies of Lisbon.",
+    "legal_context": "The WONE project is compliant with the National Program for the Efficient Use of Water (PNUEA, 2012) , which is coordinated by the National Laboratory Civil Engineering. This program aims to contribute to a new approach for tackling water issues in Portugal under a framework of sustainable development. Under this program it was identified that water waste associated with water distribution systems was still very high in 2009. At this time EPAL had already obtained considerable experience with the reduction of non-revenue water and therefore served as a leader in water efficiency efforts through its WONE program. In its last version (2012), PNUEA has reinforced the 2020 reduction target for non-revenue water from 20% to 25%. This reduction has already been realised in Lisbon with non-revenue water levels consistently under 10%. The alignment of the National Water Law ( Decree No.58/2005 updated with DL No.130/2012) with the Water Framework Directive, provided EPAL with the right to collect a Water Resources Tax. This tax is designed to cover the costs ass ociated with planning, protection and management activities of water resources."
+  },
   "point": {
     "lat": 38.7198047426,
     "lon": -9.140625,
@@ -68,7 +156,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/private-investment-in-a-leakage-monitoring-program-to-cope-with-water-scarcity-in-lisbon",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:23:50+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

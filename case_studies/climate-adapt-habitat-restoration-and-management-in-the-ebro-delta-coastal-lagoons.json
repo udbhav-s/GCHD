@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
   "title": "Habitat restoration and integrated management in the Ebro delta to improve biodiversity protection and climate resilience",
@@ -44,6 +44,99 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sediment management",
+      "label": "sediment management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "habitat restoration",
+      "label": "habitat restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mitigation",
+      "label": "mitigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal lagoons",
+      "label": "coastal lagoons"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biodiversity conservation",
+      "label": "Biodiversity conservation"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Between 2009 and 2018, two LIFE projects were implemented in the Ebro Delta to address the challenges of wetland deterioration due to human activities (i.e. agriculture and aquaculture), sea level rise and subsidence. The main objective of the first project ( DELTA-LAGOON ) was to improve the ecological status of the Alfacada and Tancada lagoons through habitat restoration and management measures, such as the removal of infrastructures that interfere with ecological connectivity, creating new lagoon habitats in existing rice fields and restoring marsh habitats in abandoned aquaculture facilities. The main specific objectives of the project were to: Improve the ecological and hydrological connectivity of the Alfacada lagoon with the implementation of restoration measures designed to reduce the effects of the increasing coastal erosion and improve the status of priority habitats and species; Increase the extension of Alfacada coastal lagoon habitats, restoring part of the original lagoon areas that have been converted into rice fields; Improve the ecological status and the hydrological connectivity of the old salt pans of Sant Antoni (Tancada lagoon area), through the restoration of areas affected by abandoned aquaculture facilities; Develop procedures to monitor and disseminate ecological values of the restored areas, so as to increase public awareness and knowledge among users and managers of the spaces, as well as society in general. The successive EBRO-ADMICLIM project aimed to implement a combination of mitigation and adaptation measures to climate change through an integrated approach for managing water, sediment and habitats (rice fields and wetlands). It focused on the following multiple objectives: Increasing land elevation through river sediment supply to the delta by sediment transport and water management; Reducing coastal erosion; Increasing carbon sequestration in the soil; Reducing greenhouse gas (GHG) emissions from rice paddies; Improving water quality; Preserving and improving valuable (natural) habitats.",
+    "measures": "The main adaptation measure to increase resilience against sea level rise considered in the Ebro delta is the re-establishment of the hydrological connectivity between the lagoons and the sea, such that the sediment inputs to the lagoons are increased during marine storms. Furthermore, innovative approaches for the reuse of sediments of different origins and their injection in the Ebro delta have been tested. Within this overall scope, several specific actions have been implemented within the two projects to deal with the consequence of habitat degradation and the effects of sea level rise. Main measures implemented by the DELTA-LAGOON project include: Improvement of the hydrological network of the Alfacada lagoon, by cleaning the canals that bypass the lagoon and building a new canal that connects directly the lagoon and the river, thus supporting the river sediment supply to the delta. Improvement of the hydrological connection of the salt marshes that were divided by dikes and isolated one from another. Naturalization of rice fields back to coastal lagoon and of an old aquaculture facility back to salt marsh habitat. Creation of small islands as nesting areas for sea birds. Limitation of access to some areas in order to mitigate the impacts of predators and human frequentation. Reintroduction of the European pond turtle. The EBRO-ADMICLIM project implemented the following main measures: Testing of the injection of sediments from the Tarragona water purification plant into the Ebro Delta irrigation network aiming to assess the reuse of these sediments as a resource contributing to costal resilience. Testing the reuse of sediment taken from dammed reservoirs located along the Ebro river. These sediments were injected into the final stretch of the Ebro river. The testing evaluated the potential for sediment transport under current hydrologic conditions of the river, to determine the feasibility of transferring sediments from the reservoirs to the delta. Optimization of two existing constructed wetlands by opening the irrigation canals and replacing stagnant water with new water. These interventions enabled to maximize soil elevation and carbon sequestration, as well as to improve nutrients and pollutants assimilation with positive effects on the water quality. Reduction of GHG emissions and improvement of carbon sequestration in the rice fields of the Ebro Delta by novel agronomic practices, such as the alternate wetting and drying water management method for rice cultivation. Updated assessment of areas more vulnerable to subsidence and sea-level rise. Finally, the EBRO-ADCLIM project developed a Climate Action Plan for the Ebro Delta, including other concrete and effective measures for climate change adaptation and mitigation, establishing the directives and actions to be carried out following the finalization of the project. This was supported by a participative process with local stakeholders, including the rice sector, irrigation communities and nature conservation NGOs. The Climate Action Plan for the Ebro Delta was approved and is part of the current planning of the Catalan Office on Climate Change. However, many of the competences needed to implement the Plan’s actions do not fall within the jurisdiction of the Government of Catalonia; they are essentially an issue of the Government of Spain. The Government of Spain is currently releasing a new restoration plan of the Ebro Delta coasts, also to respond to the damages caused by the devastating “Gloria” 2020 storm. The Government of Catalonia is promoting other actions to increase the resilience of the delta, such as a pilot trial for the by-pass of sediment in the reservoir of Riba-roja.",
+    "outcomes": "The DELTA-LAGOON project achieved all the planned goals, though some actions were delayed, due to administrative problems between the Government of Spain and the Government of Catalonia. The main delay affected the restoration of rice fields back to coastal lagoon in Alfacada. Demonstration and innovation goals under a sound scientific paradigm have been successfully implemented in the EBRO-ADMICLIM project. Relevant outcomes in terms of innovation have been developed, and the participation of stakeholders has been successful. The main limitation was the lack of support on sediment reuse from the River Basin Authority.",
+    "cost_benefit": "The total cost for the implementation of the DELTA-LAGOON project was 3.054.703 € (EU LIFE funding was 1.490.084 €). The main benefits brought by the project intervention are the restoration of wildlife habitats (62 ha of new habitats), the recovery of some protected species and the increased resilience of the lagoons and marshes against sea level rise. Economic benefits included the creation of jobs for the execution of the project and for the new visitor centre built in the Tancada lagoon. No monetary valuation of the benefits was carried out. The total cost for the implementation of the EBRO-ADMICLIM project was 2,260,960.00 € (EU LIFE funding was 1,124,341.00 €). The main benefits of the project include: the testing of reuse of sediment of different origin, the implementation of agronomic practices reducing GHG emissions in the rice sector, the elaboration of sediment transport guidelines and the development of a sediment transport model (developed by the Universidad de Córdoba). The injection of sediments in the Ebro River and canals of the delta served as example for follow-up activities aiming to improve sediment input: a sediment by-pass at Riba-roja reservoir is currently planned.",
+    "timeline": "The DELTA-LAGOON project run from 2011 to 2014 and was followed up by the EBRO-ADMICLIM project from 2014 and 2018. As part of the second LIFE funded project, a Climate Action Plan was developed. This plan was approved and is now part of the planning practice of the Catalan Office on Climate Change.",
+    "lifetime": "Lifetime of developed interventions is not pre-defined. They can be kept for a long-time if properly managed and maintained.",
+    "stakeholders": "The main institutional stakeholders (Government of Spain and Government of Catalonia) were partners of the DELTA-LAGOON project, which was formally supported by the city councils of the two towns where the lagoons are located (Amposta and Sant Jaume d’Enveja). Other stakeholders were informed and consulted during several meetings. Stakeholder participation was a key component of the following EBRO-ADMICLIM project. It involved different stakeholder groups, including representatives of the rice sector, irrigation communities (these communities are among the main stakeholders of the delta and were involved as project partners) and NGO’s. Thus, the development of the Climate Action Plan for the Ebro Delta was a participative process supporting the establishment of guidelines and identification of measures with a high consensus.",
+    "legal_context": "The Ebro delta’s ecosystems provide a habitat for a large diversity of species. It is of great significance at the European level because it is a vital staging point on bird migration routes and is home to a considerable number of birds listed on Annex I of the Birds Directive. More than 180,000 waterfowl winter and about 40.000 pairs nest in the delta. The area is a designated Natural Park in Spain and protected under the European Birds and Habitats Directives, the Ramsar Convention and UNESCO. All measures supporting the restoration of the river system and protecting its habitats of common interest contribute to achieving the objectives of the EU Water Framework Directive (2000/60/EC), Floods Directive (2007/60/EC), and Birds and Habitats Directives (2009/147/EC and 92/43/CEE)."
+  },
   "point": {
     "lat": 40.7035458021,
     "lon": 0.836334228484,
@@ -73,7 +166,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/habitat-restoration-and-management-in-the-ebro-delta-coastal-lagoons",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:43+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

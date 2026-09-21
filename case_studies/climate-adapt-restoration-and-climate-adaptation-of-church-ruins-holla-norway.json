@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-restoration-and-climate-adaptation-of-church-ruins-holla-norway",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/restoration-and-climate-adaptation-of-church-ruins-holla-norway",
   "title": "Restoration and climate adaptation of church ruins, Holla, Norway",
@@ -40,6 +40,89 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "CULTURALHERITAGE",
+      "label": "Cultural heritage"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Holla church",
+      "label": "Holla church"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "frost-twaw cycles",
+      "label": "frost-twaw cycles"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "building materials",
+      "label": "building materials"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ruins",
+      "label": "ruins"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objectives of the restoration were to: Preserve the ruins in the long term, also under a changing climate: the ruins of Holla Church are a valuable part of Norwegian history and culture, and therefore they are considered an important asset to preserve for future generations. Make the ruins accessible: The ruins were not easily accessible to the public before the restoration. The restoration project included the construction of a new path to the ruins and the installation of interpretive signage. The public accessibility was an important objective also to unfold tourism opportunities. Improve the ruins' appearance: The ruins were in a state of disrepair before the restoration. The restoration project included the removal of vegetation, the stabilization of the walls, and the replacement of missing stones. Interpret the ruins: The ruins are a reminder of Holla Church's rich history. The restoration project included the installation of information panels that explain the history of the church and the restoration process.",
+    "measures": "The project team took a holistic approach to climate change adaptation. This involved considering the long-term impacts of climate change on the Holla Church ruins and the surrounding area. More specifically, climate change was taken into account in the restoration of Holla Church ruins in Ulefoss in several ways. Concrete joints from the 1920’s have been removed and replaced with hydraulic lime joints. Though this material is not the original mortar (‘pure lime mortar' or 'hydrate lime mortar'), it is less susceptible to damage from moisture and weathering. The original mortar would not resist outdoor climate conditions, since the Holla ruin is not a roofed building. The wall capping (previously made of slate with some silicone-based repair substance, since 1920s) was replaced. This new wall capping used cast fiber armed concrete slabs, sliding at the wall top. This solution was adopted to prevent cracking on the underlying walls, as temperature and ground conditions (geology, hydrology, hydrogeology, and soil conditions of a site) change. Soil at the closest 25 cm from the walls was replaced with gravel. This was done to prevent rainwater soaking the walls in wet periods and fire to reach the walls in dry and hot periods. Native species vegetation were planted in the landscape around the ruins. This helps to promote biodiversity and reduce the risk of erosion. The 18th century brick entrance to the West was not possible to save. Therefore, it was dismantled and replaced with modern historic style brickwork. The restoration project was monitored since it was started and will be for several years after its completion to ensure that it is functioning as intended. This monitoring helped to identify any areas that needed to be treated to further reduce the impact of climate change. It is important that the monitoring continues also in case no changes are detected. The masonry is being monitored every second year and minor flaws are being repaired immediately before they cause more fundamental damages. The ruin is regarded as stable concerning building subsidence damages. So, no special additional monitoring is done except thoroughly visual inspections of the joints. Since the ruin is recently repointed, any possible damages will show oneself as cracks between stone and joints.",
+    "outcomes": "Three main success factors can be identified: The project was designed to be long lasting, and the restoration team took the long-term impacts of climate change into account. This approach will help to ensure that the ruins are preserved for future generations. There is no guarantee that last restauration's masonry will stand 'forever'. However, the methods and materials chosen allow for focused repairs on specific parts/sections (point-to-point) of the ruin The stakeholder participation in the restoration of the Holla Church ruins was essential to the success of the project. By involving a variety of stakeholders, the project was able to meet the needs of the community and ensure that the ruins were restored in a way that was sensitive to their historical and cultural significance. As such the project was open to the public throughout the restoration process, and the ruins were even open to visitors during the restoration work. This helped to foster a sense of community ownership of the ruins and has made them a more valued part of the community. The restoration project used traditional while climate resistant materials and methods, such as ashlar and mortar, to ensure that the ruins would be preserved for future generations. This approach was also respectful of the historical character of the site. Main limiting factors were: The restoration project had to balance the need to preserve the ruins with the need to make them more accessible to the public. This required careful planning and design. The restoration project was expensive, and it was necessary to secure funding from a variety of sources. This involved a significant amount of fundraising and grant applications. There was some opposition to the restoration project from people who were concerned about the impact on the environment and the historical integrity of the site. This required careful communication and outreach to address the concerns of the community. The ruins will require ongoing maintenance to ensure that they remain in good condition. This will require a commitment from the local community and from the authorities.",
+    "cost_benefit": "The restoration of the Holla Church ruins was a collaborative effort between the Norwegian Directorate for Cultural Heritage (Riksantikvaren) , the Norwegian Society for Protection of Ancient Monuments , and the Holla municipality. The project was funded by the Norwegian government, the Holla municipality, and private donations. According to the Riksantikvaren, the total cost of the project was NOK 14.5 million (approximately 1.4 million EUR). Private donations provided NOK 2.8 million (approximately 0.3 million EUR). Beside preserving a valuable part of Norwegian history and culture, the Holla Church ruins are a reminder of the history of the Holla parish and the surrounding area. The restoration has attracted more visitors to the area. This has benefited businesses in the local community and has helped to revitalize the local economy.",
+    "timeline": "The restoration of the Holla Church ruins in Ulefoss was a project that began in 2002 and was completed in 2020.",
+    "lifetime": "Provided that regular monitoring and maintenance is performed as planned, the works are expected to be standing for the next 100 years.",
+    "stakeholders": "The Norwegian Directorate for Cultural Heritage ( Riksantikvaren ) was the lead agency for the project. It was responsible for overseeing the project and ensuring that it was done in accordance with the Cultural Heritage Act ( Kulturminneloven ). The Directorate also consulted a variety of stakeholders, including local historians, archaeologists, and members of the local community. The restoration project was also subject to scrutiny from the public and was disseminated through media. Some people were concerned that the project would damage the ruins or that it would not be done in a way that was respectful of the history of the site. The Holla municipality was responsible for co-funding the project. They also worked with the other stakeholders to ensure that the project was compatible with the municipality's plans for the area. The municipality also helped to promote the project to visitors and residents of the area. In addition to formal ways of stakeholder involvement, there was also a great deal of informal participation from the community. Local residents were involved in the project in a number of ways, such as providing information about the history of the ruins and volunteering their time to help with the restoration work.",
+    "legal_context": "The restoration of the Holla Church ruins was subject to a number of legal requirements, including: The Cultural Heritage Act (Kulturminneloven): This act governs the protection and preservation of cultural heritage in Norway. It requires that all projects that may affect cultural heritage sites must be approved by the Riksantikvaren. The Planning and Building Act (Plan- og bygningsloven): This act governs the planning and development of land in Norway. It requires that all projects that involve changes to the built environment must be approved by the municipality. The Environmental Protection Act (Forurensningsloven): This act governs the protection of the environment in Norway. It requires that all projects that may have an impact on the environment must be assessed for their environmental impact. The restoration project was subject to an environmental impact assessment (EIA) to ensure that it would not have a significant negative impact on the environment. The EIA found that the project would have some minor negative impacts, such as the loss of vegetation and the disruption of animal habitats. However, the project was deemed to be acceptable in light of the benefits it would provide for the cultural heritage of the area."
+  },
   "point": {
     "lat": 59.2839949,
     "lon": 9.264519,
@@ -64,7 +147,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/restoration-and-climate-adaptation-of-church-ruins-holla-norway",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:18+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

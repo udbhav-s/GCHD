@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
   "title": "Managing mosquito borne disease through EYWA: a European tool to support public health authorities in preventing epidemics",
@@ -23,6 +23,104 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Vector-borne diseases",
+      "label": "Vector-borne diseases"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Aedes",
+      "label": "Aedes"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Malaria",
+      "label": "Malaria"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "West Nile Virus",
+      "label": "West Nile Virus"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Early Warning System",
+      "label": "Early Warning System"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "epidemiological surveillance",
+      "label": "epidemiological surveillance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Dengue",
+      "label": "Dengue"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Mosquito-borne disease",
+      "label": "Mosquito-borne disease"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The EYWA Early Warning System is based on a plethora of satellite and in-situ data and state-of-the-art technological tools. The primary role of the system is to inform the activities of the National Public Health Organisations, Vector Counter Actors and citizens. The specific goals are: (i) enhanced health and healthcare systems' preparedness and their ability to detect, monitor and control current and future public health threats; (ii) optimised mosquito control, by supporting intensive entomological and epidemiological surveillance and taking preventive measures to curtail the spread of MBDs in Europe; (iii) improved information for the European citizens about the complex health problem of MBDs. In more detail the overall EYWA objectives are: On the strategic vision front, EYWA aims to handle MBD outbreaks; reliably support the enhanced decision making and anticipation of vector control measures by providing assessments on vector abundance and MBD risk; create a list of EU standards in MBD control; as well as continuously engage key stakeholders in Europe and globally. On the technology front, EYWA strives to prove the effective management of big satellite data and their fusion with non-EO data from multiple sources (in-situ, citizen); forecast MBD outbreaks and improve health risk assessment by developing effective data-driven entomological and epidemiological predictive models that work across difference scales and forecasting horizons; as well as deliver databases handling vast amount of data, APIs providing open access, as well as a platform making the data available freely and widely. On the science front, EYWA aims to disseminate the generated data, results and IP to be exploited by scientists and innovators in national and international research projects, and also support the transnational scientific collaboration that fosters the development of novel tools and models on the field of epidemics. Finally, on the socio-economical front, the expected outcome of EYWA is to contribute to the prevention and reduction of MBD cases; reduce the impact of MBD in the communities; perform optimal management of the resources of mosquito and vector control (that are usually limited); and identify the critical areas to reach out to in order to inform the population on expected disease outbreaks.",
+    "measures": "EYWA communicates and disseminates scientific expertise supporting open data and open science through a robust and reliable tool in the hands of the national and international Public Health Authorities and organizations: the EYWA web platform . Data from the five European countries that are members of the consortium (France, Germany, Greece, Italy and Serbia) have been integrated so far, including: entomological; epidemiological; land cover (e.g. the Normalized Difference Vegetation Index); climatic and meteorological (temperature, precipitation), and ecological datasets. Sources including Copernicus, GEOSS, EEA were used to develop EYWA’s models based on data driven and dynamic modelling. Through the EYWA web platform a number of services are provided for two different stakeholder groups: For the public users: Overview of the re-emerging problem of MBD in Europe including total reported cases of West Nile Virus, malaria, dengue, zika and chikungunya from 2008 in the EU countries and neighbouring countries from the European Centre for Disease Prevention and Control (ECDC). Graphs providing data on the total reported cases per year per country where EYWA is currently operational. Visualisation of the entomological trapping network around Europe for the mosquitos involved in the transmission of these diseases ( Culex, Aedes albopictus and Anopheles species, along with a legend explaining the permanent and temporary trap sites). In order for someone to access the user-authorized parts of the platform (i.e. epidemiological data and predictions of risk) they have to hold an institutional role in the context of disease control. They can contact the coordinator of the platform with the intention to gain access and the General Assembly of the EYWA consortium decides whether they should be provided with the access. The authorised users can access: Entomological data: time series of entomological, environmental and meteorological data for each trapping site Epidemiological data: West Nile virus reported cases from 2008 until now Mosquito abundance prediction for Culex (transmitter of West Nile Virus) for Greece, Serbia, Italy, France and Germany, Aedes albopictus for France and Anopheles for Italy. The data driven model predicts a size of mosquito population at each trapping site (every 15 of 30 days) and at each settlement (every week). Human cases risk prediction: Generic dynamic model applied at municipality/ province level in Greece and Italy providing the risk of WNV human cases as well as the median of the excepted weeks of WNV transmission. Data-driven model at higher spatial resolution and site-specific model predicting villages/ settlements with increasing risk of WNV (Greece only) EYWA provides monthly reports to decision makers, indicating the latest available epidemiological data, the mosquito abundance on a monthly and weekly scale via different models, and the estimated risk for West Nile Virus presence in mosquitoes and in humans. Based on these data collected, controllers and public health authorities leverage the risk maps to rearrange the deployment of monitoring networks and process to target mitigation measure at local level. The EYWA models and tools have supported public health authorities of four prefectures in Greece (Central Macedonia, Thessaly, Western Greece, and Crete) and Veneto, Italy in the monitoring of pathogen circulation through targeted sample checks and the identification of villages at high risk in order to apply control operations, effectively reducing the WNV human cases. The model predictions are disseminated continuously throughout the operational period between May and October via the web platform and dedicated reports sent directly to the authorities to aid their mosquito control actions. Moreover, MIMESIS and BAR forecasts supported supplementary preventive actions, such as more intensive larviciding around and inside villages at risk, and complementary awareness campaigns for personal protection measures. In 2021, the awareness campaigns guided by EYWA in the Central Macedonia region in Greece reached out more than 31 000 households through door-to-door visits and leaflets. In addition to the measures directly implemented by EYWA, the Mosquito Vision mobile application , which is based on EYWA data, was developed and launched to provide citizens with easy and immediate information, especially for vulnerable populations. The application includes: annoyance forecasts, preventative and control instructions for personal protection, and forms for citizens to inform about infestations and suggest potential hotspots. It can also be used by citizens to contact the involved scientific bodies. The app was initially used in the four regions of Greece, where it informed thousands of citizens in over 2400 villages about sanitation and personal protection measures. Plans exist to expand the service area for the application.",
+    "outcomes": "Openness guides all EYWA activities, being a strategic decision of the consortium, towards achieving the highest possible impact and linkages with EU/Global initiatives. The data are open and available through the European NextGEOSS Data Hub and potentially could be offered through other portals and EU infrastructures using open data standards, such as GEOSS portal, Open Health Data, Data Europa and Climate ADAPT. In early 2022, the European Innovation Council awarded EYWA and its coordination-partner, the BEYOND Centre of EO Research and Satellite Remote Sensing of NOA, with the EIC Horizon Prize on Early Warning for Epidemics . The prize rewarded the project with €5 million as it recognises EYWA’s success in turning scientific knowledge into a decision-making tool that supports the controlling of mosquito-borne diseases. The MAMOTH mosquito abundance prediction model displayed high efficiency, flexibility and adaptability by being transferred and applied to 5 European Regions for two more mosquito species except for Culex. The model returned high levels of confidence in the prediction of mosquito populations for the various combinations of regions/landscapes and mosquitoes: e.g. for WNV transmission from Culex in Veneto (Italy), Vojvodina (Serbia) and Baden-Württemberg (Germany); Malaria transmission from Anopheles in Veneto (Italy); CHIK, Dengue and Zika transmission from Aedes albopictus in Corsica and Grand Est (France). However, it is important to also note some limitations of the EYWA project. Firstly, the system sensitivity and accuracy vary in different geographic contexts and scales. The specific local and regional priorities and vulnerability issues may not be identified thoroughly and precisely. Secondly, the uptake of the tools may be limited by bureaucracy, reluctance to integrate new tools in decision making and daily practices, as well as by other economic and health system priorities affecting availability of funds research and innovation on VBD.",
+    "cost_benefit": "The financial sustainability of EYWA is secured by funding from on-going projects; direct institutional funding; and framework service contracts run by the partners as part of their constitutional and/or business role in the field of MBD authorities. According to the EYWA financial plan, the secured funding covers 67% of total expenses in the period 2020-2025 to continue operating in the five countries involved. Additional funding is expected to come through other competitive frameworks and third-party funding (e.g., Trust Funds, Horizon Europe, Cohesion Funds). The benefits of the project lie in the following: Developing and publishing knowledge derived from collected data and models in regard to the mosquito population and forecasted risks for Mosquito Borne Disease outbreaks. Facilitating the optimal management of the seasonally deployed resources and capacities (field inspectors, analysts and vehicles, spraying helicopters and drones, thousands of mosquito breeding sites), by indicating targeted actions for implementation at local, regional and national scale , thus potentially saving hundreds of millions of Euros for the operations.",
+    "timeline": "EYWA started in 2018 with an initial investigation around the available projects and research in the field of Vector Borne Diseases. Moving forward and building upon this initial research, the platform and the predictive models were developed, and the project achieved operational status in April 2020 in Greece and Italy. From 2021 onwards, regions in France, Germany and Serbia have been supported in data collection and model predictions. From 2022, new non-European sites in Côte d'Ivoire and Thailand will be added to the platform.",
+    "lifetime": "The development of EYWA is a continuous action and its estimated activity duration will carry on for at least until 2025, as foreseen in the Partnership Agreement signed by the EYWA Consortium. More countries and diseases are being progressively included in the integrated EYWA system with the vision to develop a European/Global Early Warning System.",
+    "stakeholders": "Stakeholder participation is a key element of EYWA project. The EYWA platform is hosted by the National Observatory of Athens (NOA) and its operation lies on all contributing partners. EYWA is a resultative action of volunteering across Europe, engaging 37 stakeholders at a global scale that are contributing to its co-design development. Between 2019 and 2021, the network has expanded to include many stakeholders interested in the project, including scientific community, governments, WHO, Robert Koch Institute, AIR catastrophe modelling company, Vector Control Research Centre (VCRC) of India and the European Commission, i.e. DG ECHO and Joint Research Centre, which runs the Epidemics: Dynamics and Control (EPICO) project and also addresses emerging vector-borne diseases. The stakeholders are involved in most operations through: (i) the collection and analysis process of entomological and pathogen data; (ii) the analysis of the results by providing feedback that can help improve both the platform and the predictive models; and (iii) providing critical directions to the project.",
+    "legal_context": "EYWA has been developed in the framework of EuroGEO Action Group “Earth Observation for Epidemics of Vector-borne Diseases” linked to the GEO 2017-2019 Work Programme, especially with the Community Activities: Earth Observations for Health (EO4HEALTH) which includes vector borne infectious diseases, Copernicus Atmospheric Monitoring Service (CAMS) and Copernicus Climate Change Service (C3S)."
+  },
   "point": {
     "lat": 50.84439,
     "lon": 4.35609,
@@ -47,7 +145,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/managing-mosquito-borne-disease-through-eywa-a-european-tool-to-support-national-authorities-in-preventing-epidemics",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:47+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

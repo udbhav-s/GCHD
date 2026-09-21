@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-urban-storm-water-management-in-augustenborg-malmo",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-storm-water-management-in-augustenborg-malmo",
   "title": "Urban stormwater management in Augustenborg, Malmö",
@@ -38,6 +38,114 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "open stormwater system",
+      "label": "open stormwater system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green infrastructure",
+      "label": "Green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable drainage",
+      "label": "sustainable drainage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "regeneration",
+      "label": "regeneration"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "pupils",
+      "school",
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 4,
+      "schools": 4,
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The regeneration efforts in Augustenborg started in the 1990s, and developed into the Ekostaden (Eco-city) Augustenborg project. The key aim of the initiative was to create a more socially, economically, and environmentally sustainable neighbourhood. Whilst adaptation to climate change was initially not an explicit driver, the project aimed to address the issue of urban flooding in combination with measures aiming at reductions in CO 2 emissions, and at improved waste management. Due to recurring flooding problems it was proposed that stormwater from Augustenborg should be disconnected from the existing combined sewer, and drained by means of an open system. The main intention was that 70% of the stormwater from roofs and sealed areas should be handled in the open system, eliminating combined sewer overflow completely, by both lowering the total volume of stormwater reaching pipes and reducing the peak flow rates.",
+    "measures": "While no climate change analysis was carried out on the open stormwater system, it was designed to accommodate a 15 year rainfall event as the baseline, which also serves the purpose of adaptation to increased precipitation in the future. The project involved retrofitting SUDS within existing development and infrastructure, and with residents in situ. The completed stormwater management system includes a total of 6 km of canals and water channels and ten retention ponds. Rainwater is collected in natural ditches and reservoirs and then the surplus is directed to a conventional sewer system and a nearby watercourse. The rainwater from roofs, roads and car parks is channeled through visible trenches, ditches, ponds and wetlands. These landscape features are integrated into the townscape within 30 courtyard areas, which also provide recreational green spaces for the area’s residents. Whilst green spaces were increased in size and number, the specific style of the 1950’s was maintained so as not to compromise the aesthetics of the area. Some of the green spaces can be temporarily flooded, which helps to manage water by slowing its entry into the conventional stormwater system. Supplementing the sustainable drainage system, there are more than 11,000 m 2 of green roofs in the area, including 2,100 m 2 on the buildings of the public housing company MKB and the 9,000 m 2 of the Botanical Roof Garden that has been built on an old industrial building. In the regeneration project, launched in 1998, green roofs were installed on all new developments (built post 1998) and retrofitted on some older buildings, such as garages that have been turned into offices. Some newer green roofs have been installed also after the regeneration project. As a result of the implementation of the open stormwater management system, many floods have been avoided in the area. It suggests that the design of the open stormwater system is performing better than a conventional system and that Augustenborg is well prepared for more intense rainfall events also in the future. In the summer of 2007, a 50-year rainfall event caused severe problems in most of Malmö by flooding access roads, but Augustenborg was unaffected. Again in 2014, severe flood-damages and repair cost were avoided in Augustenborg during a heavy rainfall event with over 100 mm of rain in 6 hours. Additionally, many smaller heavy precipitation events have been handled well by the open stormwater system. It is estimated that 90% of the stormwater from the rooftops and other impervious surfaces is led into the open stormwater system. In addition, the total annual runoff volume is reduced by about 20% compared to the conventional system. This is due to evapotranspiration from channels and retention ponds between the rain events. Also, the runoff peak flows are delayed and attenuated. The implementation of an open stormwater system at Augustenborg has improved not only stormwater management in the area, but also the performance of the combined sewer system that serves the surrounding area. The volume of stormwater draining into the combined system is now negligible, and this system now drains almost only wastewater. The alternative option of reducing flooding via a conventional separated stormwater system for Augustenborg would have meant major earthworks. This approach could also have caused problems further along the stormwater drainage network, such as bottlenecks where the system joins with older pipes. Moreover, the receiving areas could have suffered increased flood risk, erosion or water quality degradation. Therefore, the implementation of the open stormwater system was considered to be the most sustainable option aligning with the vision of the regeneration initiative Ekostaden Augustenborg.",
+    "outcomes": "Challenges to implementation of SUDS in Augustenborg include: Finding physical space to incorporate the SUDS into the already existing development: (i) the SUDS had to be fitted around existing electricity, water, heating and telephone infrastructure; (ii) access for emergency vehicles had to be maintained; (iii) many residents were concerned that large percentage of the accessible green space was not suitable for recreation, and that some trees were removed. Buildings could not be damaged by water. Thus, all SUDS were underlined with geotextile, removing the possibility for increased deep percolation and limiting the system’s function to water retention rather than infiltration. Health and safety issues had to be solved. The SUDS were located within and in close proximity to school grounds posing potential risks of drowning. Concerns were also raised about the drainage channels posing obstacles to elderly and disabled. Other problems associated with the project were the unavoidable noise and dust during construction, which caused complaints from local residents. In addition, the retention ponds were prone to algae growth, and a technical solution was designed to solve this problem. Success factors include: The initiative and enthusiasm of the Service Department in Malmö and housing company MKB; strong leadership by individuals from these organisations and their professional networks allowed the development of the comprehensive project. In turn, this leadership was only possible due to decentralisation of power from the city to the district level. The collaborative character of the project enabled joint management of the project. Involvement of the residents in the design phase meant that there was little opposition to the project, and resulted in sense of ownership, empowerment and raised awareness among the residents. Extensive funding provided by the local authorities and the housing company was another success factor.",
+    "cost_benefit": "The total sum invested in the physical improvements in Augustenborg and related projects was around SEK 200M (~€24M). Around half of the sum was invested by the housing company MKB. SEK 24M came from the Swedish national government within the LIP programme, and SEK 6M for building the Botanical Roof Garden came from the EU LIFE fund. Remaining funding was mainly provided by the local authorities, principally by the City of Malmö. Management work is jointly funded through the housing company, which incorporates costs into rents, the water board through the water rates, and the city council’s standard maintenance budgets. The maintenance costs of the sustainable drainage system are roughly double the amount of regular sewage system. The open stormwater system collects a lot of rubbish and weeds, and the canals are somewhat difficult to clean up and mow around. Occasionally, there can also be repair costs as the granite blocks sometimes break. However, due to the effective drainage system, some potential costs of flood-damages have been avoided in the area (see section about Solutions). The open drainage system in Augustenborg has been evaluated to be more sustainable than a traditional sewage system in technical, environmental, economic and social aspects. In addition to adaptation to more extreme rainfall events, a range of other benefits stemmed from the comprehensive regeneration project of the Augustenborg area: Reconfiguration of public spaces between housing blocks has given residents opportunities to grow their own food in small allotments, and has created places for leisure and attractive areas for children to play. Biodiversity in the area increased. The green roofs, predominantly the Botanical Roof Garden, have attracted birds and insects, and the open stormwater system provides better environment for the local plants and wildlife. In addition, flowering perennials, native trees and fruit trees were planted, and bat and bird boxes were installed. The participatory character of the project sparked interest in renewable energy and in sustainable transport among residents. The turnover of tenancies has decreased by 20%. During the project implementation in 1998-2002 unemployment decreased from 30% to 6% (to Malmö’s average) and participation in elections increased from 54% to 79%. As a direct result of the project, three new local companies have started in the area: Watreco AB (set up by local resident and amateur water enthusiast), the Green Roof Institute, and a carpool company which uses ethanol hybrid cars to further reduce CO 2 emissions and other environmental impacts. Later on, the carpool company of Augustenborg has become a part of the citywide Sunfleet car sharing system.",
+    "timeline": "The project was started in 1997, and implemented between 1998 and 2002. The work on the SUDS infrastructure began in December 1999, and finished in the summer of 2000. The system has been operational since May 2001. Maintenance of the drainage system continues as usual in residential areas.",
+    "lifetime": "The system in still operational. Its lifetime corresponds to that of traditional urban greening and drainage projects.",
+    "stakeholders": "The key actors involved in the regeneration of Augustenborg were the MKB housing company and the City of Malmö, represented by the Fosie district and the Service Department. However, several individuals were particularly important to the success of the project. The process of creation of Ekostaden Augustenborg began in 1997, and was started by discussions about closing down a nearby industrial area. The regeneration project sparked from the ideas of three active professionals from the Service department of the City of Malmö, a school in Augustenborg and the public housing company MKB. They gathered a group of senior officers, colleagues and active residents in the area who all wanted to turn the area into a sustainable district of Malmö. A project leader was hired in 1998. As the project progressed, local businesses, schools and the industrial estate became involved. The Botanical Roof Garden was developed in a partnership with several universities and private companies. One of the main objectives of Ekostaden Augustenborg was to enable residents to play a significant role in the planning and implementation of the initiative. The Augustenborg project incorporated extensive public consultation. This included regular meetings, community workshops, and informal gatherings at sports and cultural events. The approach became increasingly open and consultative. Approximately one fifth of the tenants in the area have participated in dialogue meetings about the project, and some have become very active in the development of the area. Augustenborg school pupils were involved in a number of local developments, for example with the planning of a rainwater collection pond which is adaptable to an ice rink. Constant communication and in-depth community involvement enabled the project to accommodate residents’ concerns and preferences regarding the design of the stormwater system. Consequently, the project encountered little opposition. Still, more than 20 years from launching the regeneration project, the residents have an active role in the development of the area. Local groups of people organize activities in the area, such as urban farming, outdoor education for children and youth, and an annual celebration of the Eco-city Augustenborg (Ekostadens dag).",
+    "legal_context": null
+  },
   "point": {
     "lat": 55.6102981567,
     "lon": 13.0748996735,
@@ -72,7 +180,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/urban-storm-water-management-in-augustenborg-malmo",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:00+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

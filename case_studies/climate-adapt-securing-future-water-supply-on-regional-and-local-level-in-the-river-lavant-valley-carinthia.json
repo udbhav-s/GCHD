@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
   "title": "Securing future water supply on regional and local level in the River Lavant Valley, Carinthia",
@@ -44,6 +44,89 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Drinking water",
+      "label": "Drinking water"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water supply",
+      "label": "water supply"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water demand",
+      "label": "water demand"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water storage",
+      "label": "water storage"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the adaptation measures was to secure water resources and the public water supply over the long term. The strategies pursued target both the supply and demand side of drinking water management. On the supply side, re-organising the water supply system on regional level, building new water supply infrastructure, and developing new water resources aim at safeguarding the continuity of quantitative public water supply even in periods of reduced natural water availability and peak consumption. A further objective is to guarantee the water supply, even if one of the local facilities should fail for any reason. On the demand side, an early warning system, information and awareness-raising measures aim at encouraging water-saving behaviour of citizens and households. These adaptation measures have mostly been taken in response to observed climate impacts and experienced water shortages, but they have also been motivated by unfavourable climate projections and reflect a preventive approach to the considerable uncertainties as regards future precipitation. The objective of further measures taken by the forest management sector is to reduce vulnerability of regional forests to climate change, such as water stress, heat intolerance, bark beetle infestations, and susceptibility to storm damage, and to maintain or improve the protective functions (flood retention, slope stabilisation) and water storage capacities of forest ecosystems.",
+    "measures": "The main adaptation activities in the River Lavant valley focus on securing the public water supply. They are complemented by further measures to reduce water demand by influencing behavior of water users. Adaptation measures have been taken both on the inter-municipal, i.e. regional level, and on the local level of the individual municipalities. Implementation of the measures started as early as 1994; since then it has gradually extended and is an ongoing process. The following adaptation activities have so far proved successful to meet the challenges of climate-induced water shortages in the River Lavant valley region: Establishment of the “regional water association network Lavant valley”, an organisational arrangement for regional water supply, starting in 1994. By interconnecting the water supply networks of the four municipalities of Wolfsberg, St. Andrä, St. Paul and St. Georgen, water shortages in each municipality can be compensated, peak consumption can be intercepted, and water supply risks are shared between municipalities and altogether reduced, including by providing infrastructural redundancies in case of system failures. Today, the water association network owns a transport system that can provide an annual discharge flow of 260,000 m³. The water comes from 12 springs on privately owned land; water withdrawal is secured by the water association network through long-term contracts. This strategy of risk management has proved successful for approximately 42,000 consumers connected to the public water supply system. Establishing the water supply infrastructure of the network involved the development of new water resources within the region and installation of new transmission pipelines. Water is extracted from natural springs only, without using any pumping facilities. A central remote control system assures that only those amounts of water are extracted that are actually needed to sustain supply. Only in situations of peak demand, additional water is diverted into the supply system. Water from developed springs that is not needed to cover the demand is allowed to remain within the hydrological system and to flow into natural surface streams. These measures shall assure that impacts on the water balance of the natural environment are as low as possible. Comprehensive infrastructural, organisational and planning measures have been taken also at the local level. In the town of Wolfsberg, new water sources, including deep groundwater wells, have been developed and connected to the public supply system. To limit water extraction from deep groundwater bodies, the respective wells are switched in only in extraordinary situations of demand-supply bottlenecks. The municipal supply infrastructure has been upgraded and currently encompasses 400 kilometers of supply lines, 83 springs, 29 high-level water tanks and 7 UV water treatment plants. To be prepared for situations of water shortage, a municipal crisis management plan has been prepared providing for measures such as continuous monitoring of water supply, connection to the regional water association network and on-demand connection of additional deep groundwater wells. A cooperation agreement with an extra-municipal water supplier allows to import additional drinking water, if this should be required. In parallel to adapting water supply management, the municipal water works of the region seek to manage the water demand by providing information about the drinking water supply situation and water-saving measures to their customers. The town of Wolfsberg has an early warning system in place and provides daily updated data about the drinking water situation on its website. Depending on the level of the early warning status, different water-saving measures are recommended. In situations of high water stress, regulatory measures enter into force, such as prohibitions of filling swimming pools, irrigating gardens and washing cars. Awareness raising about water management issues is also a regular focus of the municipal newspaper and other local media. Adaptation measures have also been put in place for forest management, which has already been negatively affected by climate change impacts. Silvicultural management aims to reduce the climate vulnerability of the region’s forests by promoting use of more drought-tolerant tree species and establishing more climate-resilient mixed forest stands. To maintain and restore both the productive and non-productive functions of forests, adaptation measures focus on adjusting the tree species composition by replacing highly vulnerable Norway spruce trees with other autochthonous tree species that are better adapted to the changes in local climatic site conditions. Consulting services under the regional forest authority and a financial support programme have been established to encourage and promote adaptive forest management by forest owners. An intended co-benefit of re-establishing healthy and stable forests that are well adapted to current and future climatic conditions is maintenance and improvement of the delivery of their ecosystem services, in particular those related to the water retention and storage capacities of forest ecosystems. Forest cover on hillsides and mountain slopes has strong effects on reduction of surface water run-off, thus contributing significantly to groundwater renewal and to decreasing the build-up of floods. The adaptation measures taken in forest management are thus synergistic to the adaptation goals pursued by the water management sector.",
+    "outcomes": "Activities of the provincial government of Carinthia in terms of providing strategic state-wide policies for water supply were a success factor, because they provided an agenda and trend-setting framework. Since 1984, governmental agencies in Carinthia have been working on a state-wide water-supply strategy, presenting data on water availability and water demand at regional scale. Based on this information, suggestions for a sustainable water supply were prepared for municipalities. One of the priority objectives was to connect the water supply networks of the municipalities. Furthermore, a monitoring network with 200 hydrographic stations has been set up in the entire province to detect the actual trends in hydrological parameters like groundwater stocks or run-off patterns. The foundation of the “regional water association network Lavant valley” initially evolved from the initiative of one person, who was aware of the local situation regarding water supply. The person was a renowned water expert with good connections to relevant decision makers at governmental and political level. This strong personal commitment was a crucial success factor that pushed the project forward and enabled the region to face these challenges at an early stage. In a first stage, foundation of the network was controversial and opposed by a part of the local population for economic reasons. But water shortages in recent years underlined the importance of the project and helped increase its acceptance. Long term awareness-raising activities of the municipalities on water issues and water-saving measures have contributed significantly to the success in the region. A main goal of the adaptation measures taken has been to create strategic water reserve capacities for times of pronounced water scarcity. While this involved developing new water resources, measures are in place to avoid unsustainable over-exploitation, such as temporary demand-driven use of additional water sources only as well as permanent monitoring of the water balance situation. At the core of the regional water association network is the rationale to manage local water supply problems through regional distribution rather than through increasing the overall quantity of water extraction. Through sharing common water resources, uncoordinated and individual local reactions, like exploiting every small spring within a municipality, shall be avoided. Despite all the activities done by the water association network, extremely hot and dry summers in the past (e.g. 2003) showed clearly that there is only a limited amount of water available, which does not continuously cover the needs of the municipalities. The network (together with the municipalities) is now seeking new alternatives to improve the security of the water supply in the region. One option currently being considered is the interregional extension of the water association network. Connecting the water supply network of more regions with different climatic and geological characteristics could lead to greater security of supply during risk periods. The adaptation measures described in this case study are only effective for households that are hooked up to the public water supply system. However, varying percentages of households in unfavorable locations in the municipality areas depend on individual water supply by private wells. Due to highly dispersed settlement patterns in peripheral areas and high costs for the public sector, connecting these households to the public water network is not feasible. Vulnerability of this population group to water shortages continues to be high and is expected to increase in the future.",
+    "cost_benefit": "The adaptation measures taken on regional level have so far been successful in safeguarding water supply to approximately 42,000 consumers connected to the public water supply system. The measures taken by the municipal bodies responsible for local water management in the district capital of Wolfsberg have secured water supply for more than 7,000 households over the long term. Continuous access to drinking water under conditions of climate change is an indispensable prerequisite for maintaining regional population levels, social well-being and sustainable regional development potentials.",
+    "timeline": "The “water association network Lavant valley” was founded in in 1994. In the following years, several construction works were completed (e.g. water towers, water tanks, pipelines, impoundment of springs). Implementation of further measures has gradually extended and is still an ongoing process.",
+    "lifetime": "The “regional water association network Lavant valley” has been institutionalized as a permanent water management body under federal water legislation. All constructions and infrastructural measures are long-term investments. Since regular maintenance and renewal are part of the regular duties of the responsible institutions (regional association network and water works of the City of Wolfsberg), this implies may imply a life-cycle of 100 years and more.",
+    "stakeholders": "The establishment of the “regional water association network” can be classified as a water governance measure that builds on inter-municipal cooperation. The crucial cooperation actors here are the municipalities, and their municipal water managers, respectively. The provincial government of Carinthia took a facilitating role by setting the policy framework for regional water governance, providing financial support and installing a hydrological monitoring network. Before founding the “regional water association network Lavant valley”, the government organised an information event for the local population. Further public participation processes did not take place, but continuous information activities of the municipalities contributed to raising awareness for water issues and building public acceptance for the measures.",
+    "legal_context": "The “regional water association network Lavant valley” was established under the Austrian Federal Water Act 1959. In situations of high water stress, regulatory measures of the municipalities prohibiting certain forms of water consumption by citizens (filling of swimming pools, car washing, irrigation of gardens) are entering into force."
+  },
   "point": {
     "lat": 46.813218976,
     "lon": 14.8095703125,
@@ -83,7 +166,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/securing-future-water-supply-on-regional-and-local-level-in-the-river-lavant-valley-carinthia",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:24:49+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

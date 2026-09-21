@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-new-forde-hospital-measures-for-flood-protection",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-forde-hospital-measures-for-flood-protection",
   "title": "New Førde Hospital: Measures for flood protection",
@@ -32,6 +32,72 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood protection infrastructure",
+      "label": "flood protection infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hospital resilience",
+      "label": "hospital resilience"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "hospital",
+      "patient",
+      "patients"
+    ],
+    "group_mentions": {
+      "health_patients": 31
+    }
+  },
+  "intervention": {
+    "objectives": "The purpose of the adaptation measure was to protect both old buildings (approx. 50,000 m2) and newly constructed buildings (approx. 20,000 m2) from floods. The goal of this is to ensure service continuity, bolster emergency preparedness, and safeguard critical infrastructure.",
+    "measures": "In December 2020, the new flood protection system was completed at Førde Central Hospital. The new system is designed to protect the hospital from a 1000-year flood. The flood protection system extends around the hospital site and in total is approximately 750 meters long. It is a combination of sheet piling, concrete walls, and embankments. In addition, a pumping station with four pumps was established inside the flood protection area. The pumping station has a capacity of 2 cubic meters per second. An emergency power supply for the pumping station was also established to ensure operational continuity. The emergency generator and pumps are tested regularly and the entire plant is subject to regular maintenance. After the completion of the flood protection area in 2020, two major flood events occurred (most recently in March 2025). In both cases, the pumps started automatically, avoiding damages from flood waters.",
+    "outcomes": "Challenges Issues around the hospital’s criticality and function posed a barrier to implementing the flood protection measures. Among stakeholders, there was extensive discussion as to whether the hospital should be defined as a regional hospital or not (according to the Norwegian Water Resources and Energy Directorate’s definition of regional hospital). As a result of this discussion, Førde Central Hospital was not designated as a regional hospital by the municipality’s zoning plan, which was a positive outcome for the development of the flood protection measures. This decision helped to justify investment in flood protection measures for the existing site and the new buildings. Success Without investing in flood protection measures, the existing buildings would have remained exposed and no further development on the hospital site would have been permitted. With the flood protection measures in place, new facilities could be developed, improving services for the community while protecting existing infrastructure. Regulatory measures, including requiring a flood risk assessment, were critical for defining the problem and designing a solution.",
+    "cost_benefit": "The flood protection measures implemented at Førde Central Hospital amounted to a total investment of approximately NOK 50 million. This investment was weighed against the costs of relocating the hospital (estimated at NOK 5 billion), costs associated with the loss of emergency services, and cost of future damages. By implementing flood protection measures, the hospital was able to expand its services and patient capacity, thereby improving services in the local community. Moreover, hospital infrastructure is protected from future floods, ensuring continuity of services during disasters. Estimated maintenance costs amount to NOK 1 – 2 million per year.",
+    "timeline": "Planning for the hospital expansion and related flood protection measures started in 2014. All work was completed by December 2020.",
+    "lifetime": "With regular service and maintenance, the lifespan of the flood protection measures can be extended in line with the need to keep it operational.",
+    "stakeholders": "The implementation of flood protection measures at Førde Central Hospital was supported by the hospital manager, emergency manager, and technical department. Hospital staff coordinated with technical staff from the city to prepare the flood risk assessment and conceptual designs for the new site, including the flood protection measures. The impact of the flood measures on the surrounding area was also assessed for a 200-year and 1000-year flood event. This process was also supported by the Norwegian Water Resources and Energy Directorate and Sunnfjord Municipality. Both authorities provided support in interpreting legislation and gave feedback and guidance when developing the solution. The final design was implemented as part of the New Førde Hospital, protecting both the existing and new facilities from flood exposure.",
+    "legal_context": null
+  },
   "point": {
     "lat": 61.4521759,
     "lon": 5.8571725,
@@ -56,7 +122,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/new-forde-hospital-measures-for-flood-protection",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:29+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

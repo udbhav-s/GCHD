@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
   "title": "Implementing climate change allowances in drainage standards across the UK railway network",
@@ -38,6 +38,59 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Asset management",
+      "label": "Asset management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "railway",
+      "label": "railway"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water drainage",
+      "label": "water drainage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "standards",
+      "label": "standards"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Climate change resilience within Network Rail is driven by the following corporate strategic objectives: Understand the current weather resilience, and seek to optimise resilience and enhance adaptation capability; Develop a thorough understanding of the potential impacts of climate change in terms of infrastructure performance, safety risks and costs; Embed climate change adaptation within asset policies and investment decisions; Communicate the role the rail network plays in supporting weather and climate resilience across Great Britain, and support efforts to increase national resilience.",
+    "measures": "To be effective, railway drainage systems need to be designed and built to appropriate standards, maintained regularly and, when required, improved. The revision and implementation of the drainage standards is a key asset management instrument within Network Rail's drainage policy. The drainage standards adopt a precautionary approach, by increasing the design flow and providing further capacity in new and refurbished drainage systems. The implementation of climate change allowances is a part of the solution for Network Rail to increase weather and climate change resilience. Network Rail drainage standards have been updated to include allowances for impacts from future climate, according to the recent UKCP18 projections, in the design of railway assets. Climate change allowance is an increase in the capacity of the drainage system to enable it to be effective in future as the weather changes due to global warming. These allowances have been developed and drainage standards updated in line with recommendations for flood and coastal risk management provided by the UK Government, and more specifically by England’s Environment Agency. The drainage standards are applied across the network; however the location-specific nature of weather impacts requires analysis and response at route level to ensure investment in drainage is cost effective. For example, the Scotland Route Weather Resilience and Climate Change Adaptation Plan for the CP5 (Network Rail, 2014) reports on some concrete actions already undertaken: The flood site at Dalmarnock Station was remediated through major works by providing an attenuation system. The flood site at Drem station was remediated under a Business Plan with a new pipe work and an attenuation pond. Remediation of the flood site at Penmanshiel siphon was completed. Initial remediation was provided through enhanced inspection and cleaning. A major works scheme to raise the wall heads of siphon chamber and install new screens was successively completed. Further enhancement to provide an attenuation pond was implemented afterwards within the CP5 (Control Period 2014-2019) and has already been completed. The updated plans for CP6 (2019–2024), currently available for 3 out of 8 Routes, report the CP5 progress, set out the plan for the CP6 and beyond. They also update vulnerability and impact assessment taking into account the changes in the Network Rail WRCCA Strategy. For instance, in the South-East route (Sussex and Kent routes) an additional 20% capacity in drainage designs will be incorporated to allow for expected climate change. Route Drainage Management Plans will be reviewed on annual basis from 2019. A programme of inspection of the Route’s drainage is currently underway. The Route plans to spend £40 million on drainage improvements throughout CP6.",
+    "outcomes": "Success factors include: (i) Long-term vision and strategy; (ii) Collaborative relationships with stakeholders across governance levels and within the national government; (iii) Robust asset management policies and compliance processes. The main limiting factors are related to the complexity and extension of the British rail system. Upgrading of current drainage conditions to the new standards will need to be accommodated to the availability of resources, and action will have to be prioritised accordingly. Furthermore, the decisions taken may have system wide implications, as activity on one asset group (such as track, for drainage), may impact on another part of the overall railway system (e.g. signalling).",
+    "cost_benefit": "Recognizing additional pressures to the railway induced by climate change, a specific WRCCA Fund will be used for CP6 (2019–2024) to support implementation of this strategy. The activities and projects eligible to receive a subvention from the fund include: Projects that fall outside the day to day functioning of the railway in order to provide additional resilience, including the enhancement of the drainage system on existing infrastructure; Detailed analysis of climate change risk and vulnerability; Identification and development of innovative resilience technologies and approaches, and testing them through pilot projects New decision support tools. This fund is not intended for any work that should be driven by normal policy or standards, e.g. vegetation maintenance, asset inventories or emergency response/repairs after an event. It is anticipated that investments through the fund are expected lead to the following direct benefits associated with additional savings: Improving passenger transport performance as emergency situations and associated traffic disruptions will be minimized; Reducing costs due to cancellation and delays; Maintaining weather-related safety risk, reducing maintenance costs, including cleaning up of railway and structural repairs after extreme weather events; Implementing decision support and pilot projects (allocation 10-15 % of the total fund).",
+    "timeline": "Implementation started in 2011. It is continuing in the current Control Period 2014-2019 and will progress in the upcoming Control Period CP6 (2019–2024).",
+    "lifetime": "60 years, in accordance with the drainage standard.",
+    "stakeholders": "There are three main stakeholder groups involved in the implementation of the Network Rail´s Weather Resilience and Climate Change Adaptation Strategy: Government and regulators: Department of Transport (DfT), Department for Environment, Food and Rural Affairs (Defra), Environment agency (EA), Scottish Environmental Protection Agency (SEPA). Internal Network Rail Stakeholders: Routes representatives in charge of routes asset management including delivery and monitoring of drainage plans, project developers, Weather Resilience Group, Safety Technical and Engineering group etc. External stakeholder groups: National Weather Forecast Service, Infrastructure Operators, RSSB – Rail Safety Standards Board, NERC – National Environment Research Council, National Flood Resilience Forum, CIRIA – Construction Industry Research and Information Association. Key elements of communications and engagement with internal and external stakeholders include: Developing a shared understanding of current and future risk, vulnerability and costs associated with weather impacts on the railway Facilitating sharing of knowledge, lessons learned and best practice between Routes; Reporting to Defra on Adaptation under Climate Change Act (2008) Collaborating with Environment Agency/ SEPA and Natural Resources Wales on designing and implementing resilience measures Participating in the National Infrastructure Resilience Council, National Flood Resilience Forum, Infrastructure Operators Adaptation Forum; TRaCCA Implementation Group and other discussions.",
+    "legal_context": "Network Rail operates under a Network Licence which sets out the conditions under which it must operate. In particular, Licence Condition 1 sets out Network Rail's core obligations to secure the operation, maintenance, renewal and enhancement of the network in order to satisfy the reasonable requirements of persons providing services to railways and funders. This condition also includes some specific obligations for Network Rail to produce a delivery plan, establish and maintain route utilisation strategies (RUSs), and develop asset management policies and criteria to maintain, renew, replace, enhance and develop the assets. There are no specific provisions within the Network License on climate variability and climate change. However, it can be understood that its purpose to secure the operation and the improvement of the network in accordance with best practice includes the need to adapt to changes in climate."
+  },
   "point": {
     "lat": 53.9560855295,
     "lon": -2.06542968742,
@@ -62,7 +115,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementing-climate-change-allowances-in-drainage-standards-across-the-uk-railway-network",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:59+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

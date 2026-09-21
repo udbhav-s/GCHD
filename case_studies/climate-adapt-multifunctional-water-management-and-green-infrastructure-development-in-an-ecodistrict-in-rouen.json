@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
   "title": "Multifunctional water management and green infrastructure development in an eco-district in Rouen",
@@ -53,6 +53,139 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mitigation measures",
+      "label": "mitigation measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mobility",
+      "label": "mobility"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecodistrict",
+      "label": "Ecodistrict"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "revegetation",
+      "label": "revegetation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban sprawl",
+      "label": "urban sprawl"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban planning",
+      "label": "urban planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat island effect",
+      "label": "heat island effect"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "energy saving",
+      "label": "energy saving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water drainage",
+      "label": "water drainage"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the project is re-designing and re-developing a former industrial area into a sustainable new neighbourhood, providing residential, office and commercial functions. Sustainability has been considered the core principle of the whole project, expressed in terms of sustainable living, climate change adaptation, integrated water management, renewable energy production, climate change mitigation, sustainable mobility, limitation of urban sprawl, increase of green spaces. As a specific objective, the project aimed at minimising power consumption throughout the process (from construction to management) and giving priority to solutions that minimise maintenance requirements. The project aimed to achieve an official French “Ecodistrict” qualification and to become a “Ville de Demain – Ecocité”.",
+    "measures": "The former industrial area, Luciline in Rouen, located along the Seine River, has been re-designed profoundly into an eco-district, including both climate change adaptation and mitigation solutions. The area covers 9 hectares and will include 1,000 new residential units, 30,000 square meters of office space and almost 20,000 square meters for commercial activities. Sustainable living is the core principle of the neighbourhood re-design. Sustainability aspects are implemented by means of energy, water, biodiversity, transport and planning solutions. Several measures implemented in Luciline eco-district support adaptation to climate change and climate variability. One of the main functions of the implemented water management system, formed by small water canals, is to improve drainage of water after heavy rainfall events. Rainwater flows through the small water canals connected to wide vegetation-covered ditches, then to a greater canal and finally to the Seine river. The water areas are combined with several green infrastructure elements. Three hectares of green public space have been created around water courses, corresponding to about 30% of the total ecodistrict area of 9 hectares. At the same time, water courses that were previously channelled under the ground have been uncovered to improve connection with green areas and the biodiversity of their banks. Many buildings have green roofs and the city administration is working to improve citizens’ access to them. Increased greenery, such as tree corridors, revegetated canals and green roofs will help reduce the urban heat island effect and improve rainwater drainage. Moreover, the total area covered by buildings is limited to 135,000 square meters, in order to create as much open space as possible, thus contributing to the decrease of the urban heat island effect and preventing urban sprawl. Mitigation solutions focus on renewable energy production and energy saving. An urban network is used for distributing water for heating in winter and cooling in summer. Relatively warm and cold water is provided by 6 sources from the deeper water layers (4-5 meters depth) of the Seine River (aiming to cover 60% of the heat supply). Three boilers powered by gas provide additional heating capacity, when needed. Energy saving is achieved by efficient building performance. The first passive building in the area was delivered in 2014. The rest of the buildings meet or exceed the standards set in legislation. Moreover, low-carbon transport and mobility is encouraged in several ways. 25 kilometres of quays and pedestrian and slow traffic pathways have been constructed. Additionally, three lines of fast public transport (including dedicated lanes for public transport) connect the neighbourhood with the transport system of the nearby city of Rouen (1.3 km).",
+    "outcomes": "Explicit and strong political commitment is named as one of the major success factors of the re-design of the former industrial area of “Luciline” into an ecodistrict. The political commitment was essential for the development and achievements of a project of this magnitude. The commitment of the city was not only strong in political terms, but also financially: they supported the project with about 28 million euros, which forms a substantial part of the total budget and thus helped the project in its success. The initiators (the city of Rouen and “Metropole Rouen Normandie”) of the project managed to obtain several different subsidies (e.g. INTERREG, Ville de Demain), which helped in achieving goals. Compared to the total budget spent, these subsidies are not the largest part of the budget, but they have been supportive for specific activities (further explained in the section “Costs and Benefits”). The EU funded project Future Cities (INTERREG) further contributed to Rouen achievement, promoting an exchange of relevant experience with other cities, particularly Nijmegen (on planted roofs) and Arnhem (on urban heat island modelling). The project planning and organisation followed the Environmental Approach to Urban Planning methodology (Approche Environnementale de l'Urbanisme, AEU) of the advising company ADEME. This approach started with an exploration of the areas and the identification of strengths, weaknesses, risks and priorities with respect to climate change. This phase was followed by the development of a general master plan and four focus areas: (i) contractual provisions for property concession, (ii) construction of a geothermal heat network, (iii) improvement of certain sections such as water management, climate change and urban heat effect, and (iv) raising public awareness. The involvement and consultation of many different stakeholders has contributed to the project’s success, although it was also a major challenge to organise a project with so many parties involved. The coordination of different parties and discussions about their capacities and limitations has improved the working process. The users have been involved in the development process in order to create public awareness and commitment. Finally, the project is supported by a monitoring and evaluation programme, in order to enable adaptive, flexible management, which is a key factor in effective adaptation strategies. This is most relevant for the urban heating system, because the optimal functioning of the system can only be investigated during its operation. One of the limiting factors in the project was time management, due to the fact that before the start of the project there were still a few companies and private land owners in the area to be re-planned and re-designed. It cost more time than initially planned to organise the agreements with these land owners.",
+    "cost_benefit": "The total project cost of the Quartier Luciline is about 50 million euros, which is mainly composed of the acquisition, research and building costs. The cost of the heating and cooling system is estimated at 5 million euros. Taking into account the received subsidies and prepayments of the future customers, the net investment by the heat supplier (EDF) was 2.5 million Euros. The major investor in the project was the city of Rouen; it invested 28 million euros in the quartier Luciline. Additionally, several European and national funding programs have contributed. In total, the project received about 2 million euros from European and national subsidies. The third important financer was the EPF Normandie (institution for public space development). The water management plan was partly funded by “Ville de Demain – EcoCité”; 0.7 million euros were funded by the state. The Luciline project participated in the Future Cities project, which is part of European programme INTERREG, which is funded by the European FEDER. Rouen received 0.6 million euros from this project. The European Investment Bank (EIB) has provided a loan of about 25 million Euros. The investment costs of the ecodistrict result in long-term benefits for the area. The main benefit of the project is that an abandoned area is transformed into an attractive area for citizens and companies, thereby making the area and the whole city more (economically and personally) appealing. Additionally, the new built apartments and offices are financially attractive for new users due to the lower energy costs.",
+    "timeline": "Key milestones of the re-design project are summarised as follows: (i) 2006 - concession agreement; (ii) 2008 to 2011 - regulatory studies for the creation and development of an eco-district; (iii) 2012 - beginning of sale launches and land acquisitions; (iv) 2012 to 2016: work on the public areas; (v) 2014 - Luciline development area is officially labelled as “eco-quartier”, (vi) 2020 - 50% of the buildings are completed; (vii) 2030 – the development of the eco-district is expected to be completed.",
+    "lifetime": "With regular maintenance the urban greenery and water elements are long lasting improvements in the cityscape. “Ville de Rouen” and “Metropole Rouen Normandie” will maintain the public spaces and infrastructure such as roads, sidewalks, vegetation, small canals, ditches, the canal, hydraulic pumps, water courses (under the ground and uncovered). The maintenance of the geothermal heat network will be controlled during 25 years by the company which has built it. After that, “Metropole Rouen Normandie” will maintain the network.",
+    "stakeholders": "The dialogue with the city residents is explicitly obliged by the framework of the “urban development zone” (ZAC) procedure. Therefore, public consultations have been organised in order to involve the civil society, i.e. citizens and their associations. A wide number of actors have been involved in the realisation of the project. This was an initiative launched and co-organised by “Métropole Rouen Normandie” and the City of Rouen. The project is coordinated by the project development agency “Rouen Normandie Aménagement”. The Haute Normandie region also supported the project. European support has been received by means of the Future Cities project, which is part of the INTERREG IBV program and which received funding from the Fonds Européen de Développement Economique et Régional (FEDER). Substantial funding has been provided by the European Investment Bank. The neighbourhood is subdivided in 13 building blocks (“ilots” – small islands), which are developed by different developers and architects. ADEME (the Environment and energy management agency) has advised the project on environmental and energy matters, for example in the development of a “heat fund” (Fonds Chaleur) to save money for future investments on the heat network. Advice has been given by EPF Normandie (Institution for public space development), CAUE (Architectural, urbanism and environmental consulting), OGI (Research & development of public space) and H. Pénicaud (Environmental research). The heat distribution service is, after a public procurement procedure, awarded to the company GDF Suez Energie Services – Cofely for a period of maximally 25 years. GDF has to develop, build, finance and exploit the heat network.",
+    "legal_context": "Two French environmental laws (Loi Grenelle I & II), which cover the national multiparty agreements on environmental measures are particularly relevant to the project. The project was connected to several major climate change adaptation policies in which the city of Rouen is involved: Agenda 21, \"My city is my planet\", adopted on 27 May 2011 and granted Agenda 21 Local France status in January 2012; Territorial Energy & Climate Plan adopted on 11 October 2013; Covenant of Mayors, \"For sustainable local energy\", signed on October 2013; The European label CAP CIT'ERGIE was attributed for these commitments on 30 January 2014. Contractual provisions for property sales have been documented in a so called CPAUPE, stipulating architectural, urban planning, landscaping and environmental requirements for public spaces and private properties in the eco-neighbourhood. The partners who are building on the site have to comply with these stipulations."
+  },
   "point": {
     "lat": 49.4341987725,
     "lon": 1.09245300293,
@@ -87,7 +220,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/multifunctional-water-management-and-green-infrastructure-development-in-an-ecodistrict-in-rouen",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:22:50+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

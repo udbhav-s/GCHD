@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adapting-overhead-lines-in-response-to-increasing-temperatures-in-uk",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-overhead-lines-in-response-to-increasing-temperatures-in-uk",
   "title": "Adapting overhead lines in response to increasing temperatures in UKf",
@@ -32,6 +32,59 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "De-rating",
+      "label": "De-rating"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "power lines",
+      "label": "power lines"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "line sagging",
+      "label": "line sagging"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "electricity distribution",
+      "label": "electricity distribution"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "UK transmission and distribution networks have set out to review and update overhead line ratings throughout their whole network. This entails establishing the operational maximum temperature which overhead lines may be subjected under climate change scenarios, and determining a design standard to accommodate the projected increases in line sagging. These adaptation measures increase energy security and reduce risks of electrocution and fire.",
+    "measures": "Western Power Distribution (WPD) are delivering electricity to 8 million customers throughout a 55,500 km 2 service area in the UK. WPD have benefited from a study led by the UK Met Office (the national weather service). The study ‘Energy Project 2 Climate Change Impacts on the U.K. Energy Industry Project’ utilised energy-sector expertise to identify climate change impacts on energy generation, distribution, transmission and demand. WPD cooperated with the Energy Network Association (ENA) (a trade body organisation funded by transmission and distribution licence holders) in order to operationalise adaptation measures based on the study and to make plans to combat power line de-rating. Adaptation measures identified included increasing the height of poles supporting power lines, installing conductors with hotter operating limits or implementing the use of ‘low-sag’ conductors. WPD assessed that the increased exposure to higher temperatures under projected climate changes would result in a reduced allowable current with their current design standards of wood poles. This would result in efficiency losses, and potentially economic losses, for the operator. The most cost-effective measure identified was to increase the minimum design temperature of new overhead line routes, the achievement of which would typically increase the design height of wood poles by 0.5 metres. This increased height could accommodate the projected increases in sagging without exceeding legal limits on the height of overhead lines. Furthermore, WPD have, in partnership with other UK DNOs, recently completed a project to update the UK Distribution Industry’s understanding of conductor ratings for overhead lines. Through their cooperation with ENA, WPD will be implementing the findings as an update to national standards. As part of this ongoing process, WPD and various other UK energy companies are also developing a software tool that will allow UK energy companies to optimise their overhead line ratings.",
+    "outcomes": "Detailed climate change impacts on the energy system were identified through a collaboration with multiple stakeholders in the context of the ‘EP2 Climate Change Impacts on the U.K. Energy Industry’ project (lead by the Met Office). Such collaborations with weather information services can enable rapid provision of data sets that are directly relevant for decision-makers in the energy sector. The identification of likely climate change impacts on the energy system in advance allows time to implement measures to increase the resilience of the system. In addition, through engaging with the ENA, members of electricity network operators are brought together on the ENA-led Climate Change Adaptation Task Group with government and regulating agencies. The Task Group produces approaches to identify impacts of climate change on electricity TSO and DSO networks, and develop measures to adapt to the impacts of climate change. Such exchanges of information can form an integral component of selecting cost-effective and efficient adaptation measures that can benefit both private actors and the public realms.",
+    "cost_benefit": "The costs of procuring wooden overhead poles 0.5 meters taller depend on the height of the original pole, but they can be as little as around £10 (€11) per pole.",
+    "timeline": "The implementation of new design standards is an ongoing, proactive process.",
+    "lifetime": "The expected lifetime of wooden poles that support overhead lines is approximately 40-60 years. At the end of this asset lifespan, the poles could be replaced to comply with new design standards.",
+    "stakeholders": "The process of identifying adaptation measures was coordinated through work with The Energy Network Association (ENA), with the designated Climate Change Adaptation Task Group facilitating discussions amongst government, regulating agencies and members of network operators. Through such stakeholder engagement, Western Power Distribution is pro-actively reviewing adaptation plans and subsequent measures.",
+    "legal_context": "Under The Electricity Safety, Quality and Continuity Regulations 2002, overhead lines up to 33kV must not be at a height lower than 5.8 meters above the ground at the maximum likely temperature of the line."
+  },
   "point": {
     "lat": 53.4357192067,
     "lon": -1.669921875,
@@ -61,7 +114,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-overhead-lines-in-response-to-increasing-temperatures-in-uk",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:41+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

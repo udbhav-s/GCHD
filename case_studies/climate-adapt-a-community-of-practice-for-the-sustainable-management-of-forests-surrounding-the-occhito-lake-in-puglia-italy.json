@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-a-community-of-practice-for-the-sustainable-management-of-forests-surrounding-the-occhito-lake-in-puglia-italy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-community-of-practice-for-the-sustainable-management-of-forests-surrounding-the-occhito-lake-in-puglia-italy",
   "title": "A community of practice for the sustainable management of forests surrounding the Occhito Lake in Puglia, Italy",
@@ -56,6 +56,144 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable forest management",
+      "label": "sustainable forest management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "prescribed burn",
+      "label": "prescribed burn"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "LiDAR",
+      "label": "LiDAR"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "remote sensing",
+      "label": "remote sensing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest planning",
+      "label": "forest planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest Agreement",
+      "label": "Forest Agreement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest fire risk",
+      "label": "forest fire risk"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "public-private partnership",
+      "label": "public-private partnership"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "community of practice",
+      "label": "community of practice"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "artificial lake",
+      "label": "artificial lake"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The PABLO project (Environmental and forest planning of Occhito Lake) aims to promote an innovation and participated process in the forestry sector by bringing scientific, technical, political and private business partners (community of practice) together. Through a combined approach that both considers the environmental aspects and economic production, the project aims to improve forest resilience and the protective and environmental functions of forest stands of the surrounding landscape of the Occhito lake The project is expected to preserve forest from natural disturbances and multiple challenges, including increasing drought and fire risk due to climate change. Specific objectives are : Promote synergies between private and public entities to favour the sustainable management of forests Introduce innovative and replicable forestry techniques Implement silvicultural interventions of fire prevention and management Train operators for fire prevention also beyond the project life.",
+    "measures": "Within the PABLO Project, three types of solutions are being implemented: (i) preparation of forest management plan for the area surrounding the Occhito lake; (ii) development of a public-private partnership for implementing the management plan; (ii) implementation of a pilot project for applying the technique of prescribed burn to prevent uncontrolled wildfire. To ensure long-term sustainability of forest management, a forestry management plan was developed, focusing on the forest landscape surrounding to the Occhito Lake. The management plan includes the objectives, strategies and silvicultural and non-silvicultural interventions to be implemented in the next 10 years to enhance forest fire prevention and to mitigate the hydrogeological instability of the forested area, exacerbated by climate change. The preparation of the plan was preceded by a detailed forest inventory phase to better characterize forest structure and assess health, vitality and the current management trend. The inventory was prepared by integrating traditional monitoring techniques with remote sensing techniques, in particular, Airborne Lidar Sensor. Field data, using the one-per-stratum stratified sampling scheme, were collected within a total of 85 homogenous areas (according to morphology and forest type), further subdivided in square cells (23mx23m). Among others tree density, species composition, biomass, diameter at the breast hight, carbon stored in the trees were measured in one random cell per each homogenous area. Qualitative data were also collected to gather information about at the environmental conditions (e.g., slope, aspect, altitude, hydrogeological instability, damage to vegetation), and the governance setting in each area. Several LiDAR drone flights were carried out over the forested area which were used to provide a DTM (digital terrain model), a DSM (digital surface model) and a CHM (digital canopy height model). All data were used to identify vulnerable areas to climate change and other impacts and to inform the planning task. To facilitate the implementation of the plan, a public-private forest management model was proposed: a voluntary “Forest Agreement” to which various entities operating and managing the area can sign up. They include for example municipalities, environmental associations, local action groups and cooperative enterprises or private citizens that own or manage some land parcels . Several stakeholders expressed interest, both from Puglia and from Molise region, as well as from PEFC Italy (forest certification management body). The strategic objectives of the Agreement are to increase the territorial governance capability to sustainably manage the territory and to promote the development of sustainable supply chains. This will be done through the conservation and provision of ecosystem services, respecting biodiversity, local economy, local culture and landscapes. In the draft Forest Agreement, strategic objectives are translated into 13 concrete actions. They include projects to preserve and enhance the resilience of the forest ecosystems through nature-based solutions aimed at consolidating slopes and at preventing fire risks and pest outbreaks that are worsening due to climate change. Finally, the applicability of prescribed burn to prevent fire risks was tested in a pilot prioject in an area of 4.84 ha. Prescribed burn is the conscious and expert application of fire on planned surfaces, through applying precise prescriptions and operational procedures. The use of fire is a nature-based solution that makes it more difficult for forest fires to spread through the canopy and reduces fuel availability. Through prescribed burn, fine and dead plant material, particularly susceptible to ignition, is removed or reduced, the vertical continuity of the fuel is interrupted and small open spaces located inside and at the edges of the forest are maintained or restored. It is also a silvicultural technique, as it can favour the selection of most desirable species and change the structure of tree populations, favoring the diametric growth and ensuring greater stability of the forest ecosystem. After identifying suitable areas and training the operators, the pilot project was implemented. Moreover, local administrations started a shared pathway to explore possibilities to fill in the current regional legislation gap (see also the sections “Policy and legal framework” and “Success and limiting factors”), since the prescribed burn technique is not still regulated by specific regional operational guidelines. The partnership of Forest Agreement partnership will periodically monitor the interventions scheduled within the Forest Management Plan, and more generally the activities envisaged by the Forest Agreement, in terms of effectiveness: the task of coordinating this activity falls into the Managing Body of the Forest Agreement.",
+    "outcomes": "One of the main success factors of the project is the cooperation among different private and public entities to work with a common objective. Several municiplalities became interested in the project and participated in the project events. Together they identified opportunities to contrast land abandonment and depopulation as well as to valorise the territory, opening the opportunity for new and diversified economic activities, like eco-tourism. Since the project received funding from the Puglia regional development programme, the project activities focussed on the Puglia side of the lake (eastern side). However, the forested area surrounding the Occhito lake also extends over the Molise region (western side of the lake). It faces problems that are very similar to those experienced in Puglia. Thus, the PABLO project made efforts to export its results to Molise. Several exchange activities, such as various meetings were organised where stakeholders from both Puglia and Molise could participate Some municipalities located in Molise region will take further part in the Forest Agreement, so that they will contribute to and benefit from the activities envisaged by the forestry plan. Through a bottom-up approach for vertical scaling, from subregional to regional level, the project has the potential of reaching higher levels of governance creating the conditions for similar projects in other areas and increasing knowledge transfer. The technique of prescribed burn that was tested in the PABLO project lacks proper regulation in Puglia region, although it is envisaged by the regional legislation, has been tested and is receiving increasing attention. Therefore, its operational and full-scale application is currently limited by a current regional legislation gap. Bringing the attention of various administrations on this issue was a first step to address this gap. A long preparatory work was needed to prepare the forest management plan where all information about land use constrains was collected together with data coming from previous botanical, forestry, agronomic and faunal studies. The collection and analysis of LiDAR data also required several resources and was hindered by prolonged adverse meteorological conditions between January and June 2021. Moreover, the Covid-19 pandemics, that prompted the national and regional government to establish several restrictions to field and social activities, further delayed the planned work.",
+    "cost_benefit": "The total cost of the project is 498.550,00 Euro, coming from Puglia PSR. The project includes 4 work packages (i. project management and coordination, ii. Monitoring, iii. Implementation, iv. Dissemination). The total costs are split as follow: WP1 (192500 €) 4% of the total, WP2 (10000 €) 2% of the total, WP3 (373000 €) 75% of the total and WP4 (96300 €) 19% of the total costs. Several benefits are expected from the implementation of the project. Whenever well managed, forests represent an important source of income by provisioning several ecosystem services that can generate economic, ecologic and societal benefits. A coordinated management of forests is expected to: (i) enhance the protective function of the forest (slope consolidation and water preservation); (ii) increasing growing forest stock; (iii) promoting biodiversity conservation while maintaining wood and non-wood production; (iii) improve forest resilience; (iv) support natural regeneration and natural processes to rewilding the forest; and; (iv) reduce the number and the severity of fire events and plant diseases originated by pests. The project is also expected to generate social benefits, by overcoming general scepticism about the possibility to reconcile environmental protection with economic and social aspects. The project seeks to maximise the use of short supply chains for wood products, connecting local suppliers with local consumers. This includes wood products from routine operations, such as the marketing of wood residues, with positive impact on local economies and rural development. This will also contribute to the valorisation of abandoned or marginal rural areas counteracting the rural abandonment and depopulation. Using the forest for recreational activities and eco-tourism through interventions to improve the agricultural-forestry pastoral roads and paths of the area is also promoted.",
+    "timeline": "The PABLO project started in August 2020 and ended in August 2024. The field phase, including forest survey using LiDAR drones, was completed in autumn 2021. The prescribed burn activities were done in spring 2021. The environmental and forest management plan was completed in 2023, and it is pending for final release and implementation. The Forest Agreement is currently open for subscriptions.",
+    "lifetime": "The environmental and forest management plan for the area surrounding the Occhito Lake is designed to last for 10 years. A first revision of the plan is foreseen after five years. The first Forest Agreement, once it will be finalised, will be in place for 5 years. All actions envisaged by these management tools will have an indefinite life-time and will be effective in the long-term.",
+    "stakeholders": "Stakeholder participation is at the foundation of PABLO Project that makes the concept of “community of practice” its essential pillar. Communities of practices are groups of people who share common concerns, interests and goals. The PABLO community of practice is composed of public and private entities, that participate in the project with different roles and responsibilities. It includes the Capitanata Consortium (who manages the hydraulic network and reforestation interventions), the ARIA research center of Molise University, three small private agro-forestry enterprises ( ATS Montemaggiore , Tecno Forest, D.R.E.Am . Italia), and the regional entity for promoting regional level cooperation ( Lega Coop Puglia ). Moreover the Agriplan Innovation broker supports the project. Many other entities other entities, like municipalities and private owners with economic interests on the forested area are involved. Several events were organised to inform and share project results and to collect potential interested people to sign the Forest Agreement. With the community of practice approach and the Forest Agreement, people living and working in the Occhito lake territory should become the leading actors for the transition to the environmental, societal and economic sustainability of forest management.",
+    "legal_context": "The PABLO project originated the 2014-2020 Rural Development Programme ( PSR Puglia ) framework, within the measure 16.2. it supports the realisation of pilot projects and innovation products, practices and processes in the agricultural and forestry sector, through cooperation of multiple partners. Puglia region, having recognised the role of forests and forest management in the provision of ecosystem services, started to reorganise and renovate the regional legislation and planning for the sector, following the requirements of the national forest framework legislation (Legislative decree 3 rd April 2018 n. 34). Forest management is currently regulated by the regional law on forests and forestry supply chains (Law 01/2023). Among several objectives, it aims at improving the resilience and functioning of regional forest ecosystems to support disaster risk reduction, mitigation and adaptation to climate change, biodiversity and landscape preservation. It establishes the need of preparing and adopting a regional forest program (programma forestale regionale, PFR, under development) to identify regional strategies for preserving, valorising and actively managing forest heritage and related supply chains. The Forest inventory of Puglia region and the adoption of the map of regional forest types (Puglia region website ) as fundamental knowledge tool for planning were the first steps towards the PFR. The Regional Law 6th August 2021, n. 24 envisages prescribed burn. Prescribed burn can be used in strategic and limited areas and in specific environmental conditions that ensure the confinement of fire within a predefined area. Prescribed burn is allowed for fire prevention, landscape and natural habitat conservation, agricultural and forest management (improve fodder production and eliminate pathogens), research activities, training of fire fighters, and development of communication activities. However, regional guidelines needed to regulate the use of prescribed burn are still lacking, thus limiting its actual use at the regional level. In June 2023, the Regional Plan for forecasting, prevention and active management of forest fire (2023-2025) was adopted. The plan is expected to accelerate the process of developing normative guidelines for prescribed burns in Puglia."
+  },
   "point": {
     "lat": 41.6048589751461,
     "lon": 14.96167032326446,
@@ -80,7 +218,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/a-community-of-practice-for-the-sustainable-management-of-forests-surrounding-the-occhito-lake-in-puglia-italy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:52+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

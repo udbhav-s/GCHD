@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-natural-water-retention-measures-in-the-altovicentino-area-italy",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/natural-water-retention-measures-in-the-altovicentino-area-italy",
   "title": "Natural Water Retention Measures in the Altovicentino area (Italy)",
@@ -53,6 +53,159 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "upscaling of NbS",
+      "label": "upscaling of NbS"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "detention basin",
+      "label": "detention basin"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "NWRM",
+      "label": "NWRM"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "surface runoff",
+      "label": "surface runoff"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "porous paving",
+      "label": "porous paving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainwater drainage",
+      "label": "rainwater drainage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "biodiversity monitoring",
+      "label": "biodiversity monitoring"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rain garden",
+      "label": "rain garden"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hydrological monitoring",
+      "label": "hydrological monitoring"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bioretention",
+      "label": "bioretention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cost-benefit analysis",
+      "label": "cost-benefit analysis"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "school",
+      "schools",
+      "schoolyard",
+      "schoolyards",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 9
+    }
+  },
+  "intervention": {
+    "objectives": "The BEWARE project aims at developing adaptation capacity to urban and rural flooding, through the involvement of local communities. The project is built on the conviction that the widespread use of small and affordable nature-based hydraulic measures to infiltrate and store rainwater can generate even more significant hydrologic results than large engineering projects. Based on this premise, BEWARE adopts a multilevel approach to enhance hydraulic safety and spread good practices on rainwater management by promoting and facilitating the adoption of NWRM. This main goal is pursued through: Implementing NWRM to increase water infiltration and water storage capacity and to reduce flood risk in urban areas (municipalities of Santorso and Marano Vicentino) as well as to mitigate flood and drought problems of some agricultural areas (Marano Vicentino). These measures have both technical and demonstrative purposes. Activating a participatory process involving all main stakeholders to identify shared actions and foster citizens’ commitment to reduce the flooding risk in the Altovicentino area. Promoting a regulatory framework and specific technical skills facilitating the widespread use of NWRM.",
+    "measures": "NWRM were implemented in five specific areas of Santorso municipality: The first intervention was implemented to improve rainwater drainage and mitigate the surface water flooding episodes that take place in the southern part of a parking lot of Piazzale della Libertà. The intervention included: (1) a rain garden in the green area, located in the southern part of the parking lot, and (2) an underdrain bioretention in the green area, located in the eastern side of the parking lot. The second intervention is located along the Collina Del Grumo, a hill in Santorso. Surface water runoff, flowing down along the northern side of the hill, accumulates in the residential area located at the hill foot. During high intensity rainfall events, episodes of flooding have been documented in some of the houses located in this area. To reduce vulnerability to those events, three NWRM were constructed: (1) a swale, intercepting the surface water runoff flowing along the northern side of the hill; (2) a live fascine (about 15 m long) with a hidden pipe to transport the intercepted water along the steepest part of the hill side (due to the nature of the soil in this location, another solution to transport water based on infiltration could not be implemented); (3) a bioretention area, enabling water accumulation and infiltration. The third intervention aims to improve management of surface water runoff during intense rainfall and avoiding flooding events in a new residential area of Via Volti. The measure consists of a detention basin where surface water flowing along Via Volti is delivered through a sewer equipped with pumps. A portion of the detention basin is always left inundated to create a wetland, a new habitat for plants and animals. A green recreational area was created around the basin. The fourth intervention was implemented in the private residential area of Corte Acquasaliente. It consists of two elements: firstly, a rainwater harvesting systems, accumulating 2000 l of water discharged by the roofs of two houses, and secondly, two dry wells enabling the infiltration of water runoff coming from a private street. The NWRM were constructed to reduce flooding risk of the ground-floor of some houses during intense rainfall events. Finally, the fifth intervention takes place in the parking lot of the new graveyard of Santorso municipality. As the others, it aims at mitigating surface water flooding events documented in recent years. Specifically, three NWRMs were constructed: (1) two rain gardens, one in each of the two green areas located in the southwestern part of the parking lot, (2) an infiltration trench in the northern part of the parking lot, and (3) a porous paving in the northern part of the parking lot, near the infiltration trench. Two other interventions take place in the territory of Marano Vicentino. The first one has been built in a school complex. The intervention aims at improving the management of rainfall runoff affecting the northern part of the elementary school’s recreational area and the western part of the nearby secondary school. In this context, the following NWRM have been constructed: (1) two rain gardens, respectively in the schoolyards of the secondary and elementary schools, (2) a highly porous paving in the schoolyard of the elementary school, (3) a tree-lined swale near the porous paving, and (4) a stormwater planter under a gutter of the secondary school. The second intervention is a detention basin able to store 2,500 m 3 of water. It was implemented in the agricultural area of Giavenale with a double purpose: retain water in order to mitigate the hydraulic risk of a portion of the territory of Marano Vicentino, and ensure, the availability of water resource for agriculture, even in dry periods. The basin is surrounded by vegetation in order to increase the biodiversity of the area and create a habitat for different animal species. In order to provide data about the hydrological impact of the NWR structures, four interventions (two rain gardens, one water retention basin and one grassed swale) were continuously monitored, based on the installation of devices measuring inlet and outlet runoff and rainfall patterns (quantitative monitoring). In addition, water quality measurements and biodiversity surveys to assess the environmental effects of the interventions have been carried out. The hydrological monitoring indicated that the interventions showed good performance of water retention. The volume of water flowing out of the structures (not retained) was really low, even if precipitation events were of medium-high magnitude. For water quality measurements, the water samples generally showed rather good water quality (with some exceptions related to intense precipitation that followed long dry periods) though the runoff is generated by the parking lots in some cases. An important decrease in the concentration of some pollutants has been observed by analyzing the outlet water flows with respect to the entering ones. It highlights the positive effect of the intervention in improving the water quality. Positive effects of the interventions on the biodiversity were also observed. Additional surveys have been conducted in order to monitor the state of fauna and flora in the two water storage basins of Santorso (in the upper part of a hill overlooking a residential area), and Giavenale, on a flat area on agricultural land. In particular, for the basin of Giavenale the planted species have formed a compact and well-structured riparian strip, qualitatively and quantitatively representing the success of planting and the start of the natural dynamics of the vegetation. Also with regard to fauna, in the Giavenale area, a net increase in the abundance of species of the agricultural and aquatic environments was observed. The hydrological monitoring performed during the BEWARE project is planned to continue beyond the project duration, through the active involvement of the Department of Land, Environment, Agriculture and Forestry of the University of Padua (TESAF). TESAF is also working on finding new funding opportunities to continue the research activities about the economic benefit of NWRM when upscaled in wider contexts than those explored during the BEWARE project.",
+    "outcomes": "The availability of EU funds, granted in the framework of the LIFE Programme, proved to be essential for the implementation of the NWRMs. It allowed the whole initiative to be developed on a larger scale than initially planned, proving its high potential for replication and upscaling. Another driver of success was that the municipalities of Santorso and Marano Vicentino have long been committed to the adoption of sustainable solutions for rainwater retention and infiltration. This also led them to start a process of public participation to support the identification of areas at hydraulic risk. Some of these areas were later actually selected for the implementation of NWRMs. Moreover, the cost-benefit analysis performed within the BEWARE project represents another important driver for the success of the initiative and its further replication beyond the project. Indeed, this analysis revealed that the interventions implemented in the Altovicentiono area provided many benefits compared to their overall cost (see the section Costs and Benefits) Nonetheless, expanding the implementation of NWRMs, involving the local population, represented a crucial issue for the success of this case study. Unfortunately, the poor knowledge of the NWRMs among private citizens – but also among local practitioners (technicians and operators) – often dramatically limits their implementation, replicability and scalability. To this respect, the role of a dissemination project, such as the LIFE BEWARE Project, is pivotal in enhancing local citizens’ awareness of the NWRMs, hence their willingness to adopt them.",
+    "cost_benefit": "The total cost of the 7 NWRMs amounts to €362.276. The BEWARE project total budget is €2.103.964, (EU co-funds €1.188.160). The cost for the implementation of the NWRMs represents 17,2% of the total budget. The project included a financial benefit-cost analysis, carried out to evaluate the effects (in terms of net present value) of the interventions. Seven pilot NWRMs implemented by the project were included in this analysis, together with a set of additional NWRMs which were expected to be implemented by private and public actors in the territory of the Municipalities of Santorso and Marano Vicentino. As a preliminary step for the benefit-cost analysis, a hydrological-hydraulic simulation model was performed to assess the flooded areas in the two municipalities of the project. It considered both the baseline situation (without NWRMs) and the situation for which the NWRMs are implemented. Three different return periods (RPs) were considered for the analysis: 2-, 5-, and 30-years. Grounded on this hydrological-hydraulic simulation model, benefits and costs of the interventions have been assessed. Benefits assessed in this analysis included: i ) pluvial flood-related avoided costs (as proxied by the avoided damage); ii ) benefits to agricultural production in case of severe droughts; and iii) drinkable water saving, to be used for private uses (e.g., garden irrigation). A net present value of € 3,628,178 was computed by comparing all the aforementioned benefits (considering the annual benefits, on a 30-year timeframe) and the total costs of the NWRMs. Costs include both implementation costs as well as maintenance and operational costs, incurred annually for the entire economic lifetime of the interventions. Moreover, the benefit-cost ratio resulted 2.30, showing that the overall benefits are more than two times higher than the overall costs. Finally, the internal rate of return of the considered interventions (net gain as a percentage of the investment's initial cost) was estimated equal to 14,1%. This suggests that the solutions implemented proved to be economically advantageous. Other environmental benefits of the solutions implemented in this case study have been demonstrated through specific monitoring activities, though not included in the quantitative cost/benefit analysis. Indeed, the interventions led to the increase of the state of biodiversity (flora and fauna) and to positive effects on the water quality for several. parameters. In more general terms, the overall analysis points out that adopting diffuse small-scale interventions implemented by private citizens and local administrations may have important spillover benefits to cope with the effects of pluvial floods. Taken individually, each NWRM may have negligible impacts; however, the combined effect of multiple interventions in the same basin is actually able to counteract water runoff impacts.",
+    "timeline": "The design of NWRMs started in September 2018 within the LIFE BEWARE project. The seven NWRM interventions were implemented in the years 2019-2020. In the following years, this kind of measures has been promoted in other EU and Italian municipalities. This was due to demonstrative interventions, dissemination initiatives, broad communication and education, with the final goal of favoring the capitalization of the proposed actions. New interventions in the Altovicentino area and the continuation of some monitoring activities are expected to be realized beyond the project duration, thanks to the actions fielded during the project.",
+    "lifetime": "The NWRM implemented in Santorso and Marano Vicentino municipalities are planned to last indefinitely with a proper maintenance programme that was included in the cost/benefit analysis.",
+    "stakeholders": "BEWARE and related NWRMs are implemented through a participatory approach that actively involves local stakeholders; to this purpose, following stakeholders have been involved: Citizens are considered important actors to proactively spread the adoption of small-scale actions aiming to collectively improve the hydraulic resilience of a territory. Local municipal administrators and technicians play a key role in driving the design and implementation of concrete adaptation measures. In this perspective, the project foresees a series of actions aiming at the improvement of the local governance dealing with hydraulic resilience and safety. Implemented actions include ad hoc trainings and the activation of a participatory process involving local administrators for the update of local building codes and the elaboration of an inter-municipality action plan on hydraulic safety. Engineers, surveyors, architects, agronomists and foresters are involved though targets training, as they contribute in disseminating knowledge on NMRM and encouraging their adoption. Farmers are encouraged to adopt measures and practices for the good management of water resources in the agricultural sector; Students represent another key target group of the project. The creation of an adaptation culture is a gradual process requiting a bottom-up approach, considering education, training and awareness raising key actions for the development of new skills. The project organized study visits and on-site training to favor replicability of the proposed solutions in other Italian and European municipalities. Moreover, the BEWARE Project published an interactive utility aimed at visualizing results obtained from the cost and benefit analysis of the implemented NWRMs. The tool is accompanied by two other applications to support the NWRMs sizing. These two additional tools have been presented during the training activities and represent a valuable instrument to encourage the spread of this approach and interventions.",
+    "legal_context": "The initiative operates also at the legal level to facilitate the adoption of NWRMs. In particular, BEWARE involves a large number of municipalities in a common path for the inclusion of provisions on and incentives for NWRMs in the local building codes. The solutions adopted in this case have not been included yet in the flood risk management plans (prepared according to the EU Floods Directive) and in other sectoral plans (for the hydrogeological risk management). However, the project engaged stakeholders for the elaboration of an Action Plan aiming to improve hydraulic safety and resilience in the area. The outcomes of this process has been brought to the attention of and promoted at the national and European level, in particular through the preparation of the AltoVicentino Mayors Adapt Strategy . In this regard, the BEWARE outcomes are expected to be included in the Sustainable Energy and Climate Action Plans (SECAPs) of the Altovicentino. These plans are being drafted by the municipalities of that area, according to the Covenant of Mayors Initiative."
+  },
   "point": {
     "lat": 45.6937106165,
     "lon": 11.4295578003,
@@ -77,7 +230,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/natural-water-retention-measures-in-the-altovicentino-area-italy",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:22:53+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

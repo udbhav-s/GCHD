@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adapting-to-the-impacts-of-heatwaves-in-a-changing-climate-in-botkyrka-sweden",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-the-impacts-of-heatwaves-in-a-changing-climate-in-botkyrka-sweden",
   "title": "Adapting to the impacts of heatwaves in a changing climate in Botkyrka, Sweden",
@@ -38,6 +38,111 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vulnerable social groups",
+      "label": "vulnerable social groups"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Checklist",
+      "label": "Checklist"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "guidance",
+      "label": "guidance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "emergency response",
+      "label": "emergency response"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "kindergartens",
+      "patient",
+      "playgrounds",
+      "schools"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 6,
+      "older_people": 10,
+      "health_patients": 1
+    }
+  },
+  "intervention": {
+    "objectives": "Based on the occurrence of past heatwaves, it was determined that the readiness to handle these extreme events was not enough integrated into the overall planning. Botkyrka aimed at improving its preparedness to heatwaves, considering both the current occurrence of these events and their future increase in magnitude and intensity due to climate change.",
+    "measures": "Botkyrka began working on heatwaves risk in 2009 by participating in the Climatools research program of the Swedish Defence Research Agency (FOI). Within this program, Botkyrka held a project that evaluated its vulnerability to heatwaves, including mapping of most vulnerable areas and groups. In particular, the project produced maps showing where thermally sensitive areas are located and provided data on heat sensitivity of people living in these areas. These maps were based on information retrieved from the population registry, the drug registry, the patient registry and the health and care administration user registry. The results emerging from the analysis of these registries showed that a quarter of the population of the municipality of Botkyrka had a high vulnerability to heatwaves. Of the most sensitive and vulnerable individuals, only 7% were properly supported by the health and care administration. Individuals over the age of 80, who took certain medicines or had diseases that increased their sensitivity to heatwave, were considered to be particularly vulnerable to heat. Results of the project were used to develop a guide containing advice for municipalities aiming at reducing mortality during heatwaves. Based on the sensitivity and vulnerability assessment, the project initiated actions aiming at implementing new measures to increase the awareness and preparedness of the city to better cope with heatwaves in some of the most vulnerable sites, i.e.: elderly homes, retirement homes, nursing homes and preschools. Also kindergartens were included, as high indoor temperatures were detected and playgrounds without the possibility of shadows caused problems during the 2010 heatwave. A heatwave warning system was already in place at the time of the Climatools programme and has been further improved, with the support of the Swedish Meteorological and Hydrological Institute (SMHI), based on the vulnerability mapping and assessment. Moreover, the new heatwave warning system has been provided with a clear definition of a heatwave: an event with average temperature of at least 25 degrees Celsius during at least 5 days. In case one of these events occur, the Botkyrka municipality releases information on its website about the heatwave and the measures that must be activated to protect the population. Thanks to the early warning system, information is also directly provided to the staff of the municipality organisations that are more affected by the heatwave, like elderly, retirement and nursing homes, schools and preschools. This information is highly relevant as the staff has direct contact with children, parents, elderly and disabled, some of the groups most vulnerable to climate change. The information is mainly aimed at heat-sensitive people who do not receive any other help from the community. Persons who are in municipal care structures can be directly reached, but reaching other vulnerable, more isolated persons is a greater challenge, also due to restrictions arising from the Personal Data Protection Act. Sending targeted information to vulnerable people identified by the Climatools project can violate the provision of this act, due to the fact that some of the information about heatwaves vulnerability comes from privacy protected registers. Botkyrka municipality is working to reduce this barrier, also considering to inform people through other means (e.g. local newspaper). The project part of the Climatools programme also enabled to develop checklists to be followed by the staff of elderly, retirement and nursing homes in case of heatwave warnings. These include ensuring that residents drink more and take extra showers as well as that the blinds are pulled down during the day. Moreover, if necessary, it is possible to provide the residents with additional staff during the heatwave. To ensure long-term efficiency of the set procedures, control of heatwave readiness is part of the regular inspections of elderly, retirement and nursing homes as well as of pre-schools. If new homes or preschools are built in the future, the space needs to be adjusted to better cope with heatwaves. Moreover, future work could explore where cool places are available and how information about these places can best be disseminated in case of heatwaves. Additional, in order to support cooling efforts and thus increase the indoor thermal comfort, the Department of Local Supply and Real Estate has supported the provision of more air-conditioning each year, providing that it does not increase energy costs. For example, Botkyrka has compensated for the additional energy consumption by installing solar cells on the roofs. In 2019, comfort cooling was installed on the communal properties where offices responsible for health care and support are located. Still in 2019, the housing company Botkyrkabyggen AB, which manages around 11,000 apartments, has installed “cool spots” in every area where its apartments are located. They are venues that are kept cool and open to the residents. They are manned with staff from Botkyrkabyggen AB and open at special hours.",
+    "outcomes": "The 2010 heatwave acted as an important driver for policy decision on actions to improve preparedness to heatwaves. One of the key lessons learned from the Climatools program is that a large proportion of the population is vulnerable to heatwaves and only a small proportion has access to health care assistance. To improve readiness to heatwaves, it is important to identify who is responsible for informing and contacting heat-sensitive people. During heatwaves, the information on the community website reaches only a small proportion of the population. In order to reach more people, the community is considering the possibility of advertising in the local newspaper or arranging information in cooperation with the landlords. Additional, in order to ensure a long-term efficiency of the set procedures, the control of heatwave readiness is an integral part of the regular inspections of elderly, retirement and nursing homes as well as of pre-schools.",
+    "cost_benefit": "The increased preparation for heatwaves was a natural part of the municipality risk management work and was treated in the normal mode without additional money being added. Costs were mainly limited to working hours for the three people of the municipality who were involved in the Climatools program. It took 1.5 years, and each person spent about 3 months full-time work over the period. In total, the costs can be estimated at around € 100.000. The costs for developing and managing the early warning system cannot be specified in economic terms. In general, the municipality of Botkyrka believes that it was better prepared for the 2018 heatwave, as the problem was already experienced and addressed in the previous 2010 event. Based on the 2010 experience, further improvements regarding the checklists, staff training and buildings were made. One of the measures that can be activated in case of heatwave is the recruitment of additional staff. During the hot summer of 2018, employees frequently made home-visit and more frequently took care of the residents of elderly, retirement and nursing houses. The experience is that no extra costs for staff occurred due to more frequent, but shorter visits, focusing more on keeping the residents cool than on cleaning. Thus, the costs for additional staff are limited. Moreover, the Climatools program and related initiatives improved the awareness of members of more vulnerable groups and their relatives to the heatwaves risk.",
+    "timeline": "The vulnerability assessment and the upgrade of the heatwave early warning system in the Botkyrka municipality started in 2010 and took around 1.5 years. Newly implemented measures are continuously maintained and put in practice, and regularly checked.",
+    "lifetime": "The heatwave warning system is regularly operated between June and August every year. Other measures are activated when needed, based on the heatwave warnings.",
+    "stakeholders": "The group “Health and care administration” was set up within the project part of the Climatools program. It consisted of the Environmental Manager, Climatools Program Manager, Health & Nursing Manager and the Map and Measurement Unit Manager from the Botkyrka municipality. Later, the Statistics and Real Estate departments were also involved. Its activity on awareness raising and the importance of preparedness laid the foundation of successive work done by the Botkyrka municipality. In the summer of 2018, a heatwave management group was formed to better cope with heatwave events. The management group meets twice a week from July to August. The group involves representatives of all departments of the Botkyrka municipality and the housing company Botkyrkabyggen AB. Among other things, the group actions aim at improving the frequency of visits to more vulnerable groups and people.",
+    "legal_context": "Botkyrka has a climate strategy and adaptation plan which also deals with heatwaves. Even though there is no legal obligation, the plan provides a strong recommendation to act on heatwaves risk for health."
+  },
   "point": {
     "lat": 59.1287492118,
     "lon": 17.7964782715,
@@ -62,7 +167,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-to-the-impacts-of-heatwaves-in-a-changing-climate-in-botkyrka-sweden",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:51+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

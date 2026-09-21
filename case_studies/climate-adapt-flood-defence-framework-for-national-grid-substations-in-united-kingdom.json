@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-flood-defence-framework-for-national-grid-substations-in-united-kingdom",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/flood-defence-framework-for-national-grid-substations-in-united-kingdom",
   "title": "Flood defence framework for National Grid substations in United Kingdom",
@@ -38,6 +38,69 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "substation",
+      "label": "substation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Risk management",
+      "label": "Risk management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cascade effect",
+      "label": "cascade effect"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "grid",
+      "label": "grid"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "critical infrastructure",
+      "label": "critical infrastructure"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The National Grid Substation Flood Defence Framework is a nationwide programme aimed at improving resilience of the electricity transmission power network to any type of floods (fluvial, tidal, pluvial and groundwater flooding as well as potential flooding from sewers and drains and flooding from reservoir failure). The specific objective of the adaptation measures implemented through this programme is the protection of National Grid’s substations from flooding by preventing water entering these infrastructures, thus decreasing the risk to the security of supply and ensuring the transmission network maintains electricity supply. Measures have been identified and designed to ensure protection from a 1:1,000 year flood event, considering climate change effects expected under a high emission scenario (UKCP09, corresponding to the IPCC SRES A1FI scenario) by 2080. In cases where this target is not achievable, National Grid will reduce this protection to protect for a 1:200 year flood event, while still considering the effects of climate change at 2050 per a high emission scenario or a 1:1000 flood event at today’s levels.",
+    "measures": "The approach applied to improve the resilience of the grid substations to flood consisted of two steps. The first step focused on the assessment of vulnerability and flooding risk. Substations impacted by a 1:100 year, 1:200 year, 1:1,000 year and 1:1,000 year+ climate change flood event were identified, taking into account the expected effects of climate change as per the high UKCP09 emission scenario. The second step deals with the identification, design and implementation of flood defence solutions for each of the critical substations. This step has been implemented through two stages. In the first stage, 11 high risk substations were identified and protected; these are substations that could experience impact during a 1:100 year flood event. The second stage focuses on the protection of further 38 medium risk substations; these are substations that could experience impact in case of a 1:200 year or 1:1,000 year flood event. The programme started in 2008 and by 2021, all of National Grid’s 49 critical (high and medium risk) substations will be flood-proofed. A further estimated 100 surface water risk sites will be protected by 2026. Applied flood resilience solutions consist of combinations of following practices: flood barriers; portable flood defence measures; earth bunds; flood doors and gates; drainage systems and pumping stations; flood storage reservoirs; land management-based measures; and coordinated local solutions with the Environment Agency. For larger sites with multiple at risk points, whole site protection combining the above measures is often the preferred and efficient approach in order to ensure that the entire operational area remains protected against flooding hazards. This typically involves the construction of a hard flood wall around the perimeter of the site. This was, for example, applied at Walham substation, located just outside of Gloucester in South West England, where steel piles were tucked into the ground around the 1 km perimeter of the site to form a base for the defence wall. Next, a cast concrete flood wall between 1.6 and 1.9 m high was built to protect the site from a 1:1,000 year flooding event. Five pumping stations were also installed to deal with potential seepage or any residual ingress of flood water. Another example is the Stella South substation, located near the River Tyne in Newburn, and with an operation of 132 kV. This substation has been protected through a hard flood barrier and a soft defence earth bund built with local materials in order to reduce the ecological impact of the construction. Aberthaw substation West of Cardiff in South Wales represents a third example; this 132 kV substation is now protected by a 2.4 m high piled concrete flood wall. However, whole site protection is not always the best approach as it may reduce floodplain area for water storage and may redirect flood waters to grounds of neighbouring houses. Provided that critical equipment remains unaffected by floodwaters, the site can remain operational even if the part of the site is subject to flooding. Recognising that flooding risks would not be mitigated immediately, National Grid purchased an initial 1.7 km of demountable barrier system and expanded this to 2.3 km following the flooding events during 2014 to 2015. This 2.3 km mobile defence equipment brings capability to protect multiple sites at the same time: one very large site; or two large sites; or three normal size sites. Currently there are seven trailers arranged as three pairs (with the seventh trailer carrying extra corners and equipment) which can operate independently with its own forklift and diesel supply for pumps. The barrier is also available for gas sites and, given enough mobilisation and installation time, could be used on any site. 12 x 3,000 litres pumps which can pump 3 tons per min are part of the barrier equipment and supplemented by a further 10 smaller pumps for use in smaller areas such as buildings etc. Typically, from arriving on an average site, it would take 8 to 12 hours to deploy the barrier depending on the complexity of the site. Barrier exercises are regularly carried out. National Grid maintains round-the-clock vigilance monitoring weather-related risks through its control room. Its sites are registered with the Environment Agency’s flood alert system and receive the daily Flood Forecasting Centre and Natural Hazards Partnership alerts. National Grid is a participating member of the Flood Forecasting Centre and the Natural Hazards Partnership working groups, and data from the MET office and other weather forecasts are monitored for potential risks.",
+    "outcomes": "Success factors for the implementation of the adaptation measures part of the National Grid Substation Flood Defence Framework include a clear vision, clear target resilience levels, strong leadership and a good collaboration and partnership with local and national authorities. As BEIS and Ofgem are signatories and are involved in producing and updating ETR 138, this has streamlined the process for funding and justifying the investments in flood resilience. Locally relevant limiting factors can include other sectors not working to as high a resilience level. As flooding data, modelling and experience from actual flooding events constantly matures and is refined this creates a challenging situation to maintain a target 1:1,000 resilience level. There are several example sites where flood levels have either increased or decreased which has then influenced the flood resilience solution.",
+    "cost_benefit": "The total cost for the implementation of the first phase of National Grid Substation Flood Defence Framework is circa £117 million, with an expected additional £59m for further resilience investment for surface water risks. Spend on demountable defences is estimated at between £ 2.5 – £3m and includes deployment for both exercises and real events. Expected benefits are the protection from flooding of National Grid substations and the maintenance of energy supply, thus preventing cascade effects on other sectors and services.",
+    "timeline": "The National Grid Substation Flood Defence Framework started in 2008. Implementation of flood protection from tidal and fluvial risk is expected to be completed by 2021. However, where efficiencies have been identified in coordinating works with major site development and Environment Agencies schemes a small number of sites will go beyond this date. Further investment in surface water risks will be made within regulatory reporting period 2021 to 2026.",
+    "lifetime": "The National Grid Substation Flood Defence Framework includes a wide variety of specific measures, each of which has a specific lifetime. Generally, lifetime ranges between 30 to 80 years. National Grid views flooding risks as a long-term adaptation issue and will require frequent review and vigilance.",
+    "stakeholders": "The National Grid Flood Defence Framework is applied to electricity transmission only and developed to implement ETR 138. The risk assessments were carried out by a number of professional consultancies. During the phases of vulnerability assessment and design of flood measures, National Grid closely collaborated with the UK Environment Agency, Natural Resources of Wales, local authorities, Internal Drainage Boards and its energy partners within the ETR 138 framework. Furthermore, in the development of the framework based on ETR 138, National Grid has sought approval for the defence plans from the Department for Business, Energy and Industrial Strategy (BEIS) and our regulator, Office of Gas and Electricity Markets (Ofgem).",
+    "legal_context": "The main legal drivers for the adaptation measures part of the National Grid Substation Flood Defence Framework are the Flood Risk Regulation (2009), which is part of the implementation process of the EU Floods Directive, and the UK Climate Change Act (2008), including the periodic reporting requirements by sectors. The Flood Risk Regulation 2009 requires Lead Local Flood Authorities (LLFAs), the Environment Agency and Natural Resources Wales, to prepare and publish Flood Risk Management Plans (FRMPs) on a six-year cycle. The UK Climate Change Act requests that National Grid reports on a regular basis on adaptation response activities. This assessment and reporting have also encouraged National Grid to proceed with flood defence activities."
+  },
   "point": {
     "lat": 53.9560855309879,
     "lon": -1.7578125,
@@ -67,7 +130,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/flood-defence-framework-for-national-grid-substations-in-united-kingdom",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:29+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
   "title": "Adapting to climate change by improving irrigation practice in Vipava Valley, Slovenia",
@@ -53,6 +53,79 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "decision support systems",
+      "label": "decision support systems"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "irrigation",
+      "label": "irrigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Vipava Valley",
+      "label": "Vipava Valley"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective is to improve the preparedness for drought together with farmers by introducing a Decision Support System for Irrigation (DSSI) to deliver water to plants both timely and in optimal quantity. The objective was to optimise water and energy use also reducing CO 2 emissions. The final goal is to increase both climate change resilience of agriculture in the valley and to contribute to climate change mitigation.",
+    "measures": "The LIFE VIVaCCAdapt project applied a newly developed Decision Support System for Irrigation (DSSI) to deliver climate change adaptation measures comprising timely and efficient irrigation to crops. The system ( Cvejić et al., 2020 ) delivers a recommendation for irrigation based on weather forecast, water retention properties of the soil, real-time soil water content measurement (monitoring data), plant water requirements in given phenological phases, type of plant and of irrigation system. Data are collected on parcels, via a soil-water content sensor, which sends the collected data to the central server via the communication unit. Based on the data collected on the farmer's plot, the system calculates the recommended time and amount of water for irrigation. Calculations were started for every day during the growing season. Results have been provided to the 35 farmers (covering an area of approximately 40 ha) that were involved in the project, after signing a specific agreement. Farmers are provided with the recommended amount of irrigation water for five days in advance. Farmers also get a graph showing the measured amount of water in the soil for the past five days and the changes in the phenological phases of the plants. Farmers can access this data via email or a web-based interface and view the data on various devices. All recommendations were delivered for free during the LIFE ViVaCCAdapt project. After the project ended, the DSSI was transferred to the national level where it is managed by the Slovenian Environment Agency. The agency is a part of the Ministry for environment and spatial planning of the Republic of Slovenia. DSSI is now a public system available for use by every farmer in Slovenia, free of charge.",
+    "outcomes": "Over the six-year process, the farmers started using DSSI gradually. Before entering the project, farmers based their irrigation decisions on their experience and general assumptions. Then, farmers began integrating data from the real-time soil-water monitoring into their decisions. When the DSSI was introduced, farmers slowly started using daily irrigation recommendations. The mid-term evaluation, based on field data and simulations in 2019, showed that if farmers continue to use DSSI, they will achieve a 25% reduction in total irrigation-volume consumption, a 24% reduction in energy requirements, and a 24% reduction in CO 2 emissions (Cvejić et al., 2020). Although the final evaluation from the period 2020-2021 is still underway, the preliminary results indicate some of the farmers exceeded good results from 2019. Some of the limiting factors that challenge the DSSI implementation and future development include: functioning of on-field equipment; their regular maintenance is necessary for a good functioning of the DSSI; actual possibility of using water for irrigation: sometimes, the needed water was not available for irrigation due to maintenance of the irrigation systems and related water infrastructure; future financing of maintenance, and development of public DSSI.",
+    "cost_benefit": "The total budget of the ViVaCCAdapt project, is EUR 869028. The European Commission contributed 60%, the Ministry of the Environment and Spatial Planning of the Republic of Slovenia 20% of the project's eligible costs. The project partners provided the rest. Of the total value of the project, 147,200 euros are intended for the establishment of DSSI. The DSSI allows saving water resource in a future looking perspective of increasing temperature and decreasing of precipitation. Other co-benefits of a more efficient irrigation include energy savings, with related benefits in terms of costs and greenhouse gas emissions. The initiative also led to increased awareness of farmers on the topic of climate change. Co-designing and ranking of adaptation measures by involving farmers of Vipava Valley is expected to lead to an increased sense of ownership of the adaptation strategy developed in the project and an increased attention on the use of water resources.",
+    "timeline": "The development and implementation of the DSSI in the Vipava Valley was a six-year process beginning in the second half of 2016 and ended in June 2021. Nevertheless, the use of DSSI developed during the project is expected to continue and grow. This may happen with new users joining in with the help of a public DSSI programme at the government level operational from 2022 onwards.",
+    "lifetime": "A detailed maintenance plan for the DSSI system is being developed, and will be operational from 2022 at the National Meteorological Service of Slovenia (ARSO) .",
+    "stakeholders": "The DSSI implementation team was set up within the LIFE ViVaCCAdapt project, and is composed of the staff of the University of Ljubljana, the Municipality of Ajdovščina, the Regional development agency ROD Ajdovščina, and the enterprise BO-MO Ltd. The team helped implementing the DSSI together with 35 local farmers, who were, from the very beginning, at the heart of the innovation process. To increase climate change resilience, the farmers in the Vipava Valley began participating in the LIFE ViVa CCAdapt project in 2016, contributing to the design of the climate change adaptation strategy and to the ranking of over 40 adaptation measures by assigning priorities. Over the project lifetime, 35 farmers signed an agreement to participate in the DSSI development process. On-farm soil properties (soil texture, soil-water retention characteristics), and plant phenophases were defined. Next, soil moisture sensors were installed on each farm to measure soil-water content at various depths. Apart from the individual on-field and phone consultations, tailored to the on-farm practice, each farmer was encouraged to ask any question related to DSSI functioning, to freely use the tool and provide continuous feedback on how the DSSI was used in and was changing the everyday irrigation practice. All suggestions were instantly directed into DSSI development and improvement.",
+    "legal_context": "The LIFE ViVaCCAdapt project developed a climate strategy and adaptation plan for the Vipava Valley (2017-2021), which provided a framework for the DSSI. The strategy deals with drought, heatwaves, strong winds, extreme precipitation events, and floods. It is not legally binding but it may help further developing the national agricultural policies in the future and getting support from European initiatives."
+  },
   "point": {
     "lat": 45.8598305466,
     "lon": 13.9286899567,
@@ -71,7 +144,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-to-climate-change-by-improving-irrigation-practice-in-vipava-valley-slovenia",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:44+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

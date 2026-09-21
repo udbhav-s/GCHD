@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
   "title": "Zaragoza: combining awareness raising and financial measures to enhance water efficiency",
@@ -44,6 +44,116 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water consumption",
+      "label": "water consumption"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Behaviour change",
+      "label": "Behaviour change"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "incentives",
+      "label": "incentives"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mixed solutions",
+      "label": "mixed solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable consumption",
+      "label": "sustainable consumption"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water saving",
+      "label": "water saving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tariffs",
+      "label": "tariffs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "leakages",
+      "label": "leakages"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "older_people",
+      "low_income"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "low-income",
+      "pensioners",
+      "school"
+    ],
+    "group_mentions": {
+      "schools": 1,
+      "older_people": 1,
+      "low_income": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The city of Zaragoza decided to act addressing the water management to satisfy the needs of the developing economy and the future demands of a growing population. The city moved away from continued exploitation of limited resources to curbing water demand and limiting the leakage from the distribution networks. Water scarcity has been an important driver, but financial and economic considerations have been important factors as well.",
+    "measures": "Following water shortages in the mid-1990s, the municipality of Zaragoza increased its water supply and improved the management of the water demand by developing a “water saving culture”. The Municipal Strategic Plan 1996-2010 set out an ambition objective to reduce total city water consumption from 84.7 Mm 3 in 1995 to 65 Mm 3 by 2010. In 2010, the execution of a second Water Management and Quality Improvement Plan in Zaragoza was launched, setting a variety of objectives about efficient use of collected and purified water, security in water supply, and satisfaction of the users. A municipal Water Commission was established by the City Council in 1996 to oversee the implementation of a range of ambitious long-term water saving initiatives, in line with the set objectives. The Commission is still active, even if only a few meetings took place. Initiatives promoted by the Commission include: (i) the multi-stakeholder Zaragoza Water Saving City programme, (ii) a complete reform of the water billing system and (iii) investments to reduce high rates of unaccounted-for water from the city’s distribution network. The Zaragoza Water Saving City programme was initiated in 1996 by the NGO Fundación Ecologica y Desarollo (FED) with the municipality support. The programme was implemented through the following phases: Phase 1: “Small steps, big solutions”; a widespread awareness-raising campaign to reduce water consumption within homes, public buildings and commercial activity through behavioural change and water saving technology. Phase 2: “50 good practices”; the implementation of 50 examples of water efficient technologies and practices in parks, gardens, public buildings, and industry to demonstrate performance and encourage uptake on a wider scale throughout the city. Phase 3: “School for efficient water use”; the dissemination of pocket guides among the city’s major water consuming sectors describing the good water saving practices identified in Phase 2. Phase 4: ‘100,000 commitments’ – The invitation of citizens and businesses to make online public commitments to save water in time for the International Expo \"Water and Sustainable Development\" which opened in Zaragoza in June 2008. Another initiative to reduce water consumption in the city aimed at reviewing the water tariffs structure to make it more equitable and demand-responsive, with the aim of achieving full cost recovery through revenues, including the direct costs of service provision as well as indirect costs within the water cycle more generally. This was done through: equitable charging, ensuring that the cost of water is related to the benefits it delivers to the user; affordable access to basic water services for all, including the availability of subsidies for vulnerable households (pensioners, unemployed, large families); an incentive for the consumer to use water efficiently, in the form of water bill discounts rewarding households that were able to reduce their annual water consumption by 10% or more; penalising excessive consumption with higher prices. The system has been kept and prices are adjusted on a regular basis. The third promoted initiative aimed at dealing with leakages from the city’s aging water supply pipelines. Considerable investments were made in controlling water losses, including rehabilitation of the pipeline network (e.g., between 2010 and 2019, 65 km of the pipeline network have been renovated), pressure management controls and much needed maintenance to leaking storage tanks in the basements of apartment buildings. Although relevant, yearly average length of renewed pipeline in the last 10 years (6.5 km/year) was clearly lower than that which took place during the previous period, also due to the economic crisis. Similarly, the growth rate of the water distribution network decreased: on average it was 6.6 km/year between 2010 and 2019, which is lower than that which took place before the economic crisis (22.9 km/year). In 2019, the Zaragoza Climate Change, Air Quality and Health Strategy (ECAZ 3.0) was approved, including actions specifically dealing with water: Action 28 - Sustainable water management from the drinking water supply, including: replacement of fibre cement pipes with ductile iron, zoning the city into up to 90 supply zones, awareness campaigns, replacement of the old supply network in urban renewal projects, change of water meters with the Best Available Technologies, alternative systems to drinking water for irrigation Action 29: Sustainable water management from wastewater sanitation, including: increasing the percentage of replacement of pipes, purifying 100% of the water, consolidating the operation of the treatment plants and renovating their facilities, adapting the treatment plants to new contaminants, increasing controls in collectors (industries), improving awareness about domestic spills, improving rainwater treatment, evaluating unregulated contributions from ditches. The results of this comprehensive campaigns and measures reduced the water consumption in Zaragoza from 180 litres per capita per day (lpcd) in 1980, through 136 lpcd in 2000, to just 105 lpcd in 2010. In terms of the overall water savings, the city exceeded its own target: in 2009 total water consumption was 59.9 Mm 3 . Thus, 15 years after the start of the initiatives, the city achieved a reduction of water consumption by almost 30%, despite a 12% population increase at the same time. After several years of significant decline, water consumption continues to slightly decrease in the successive years, although with a slower rate. In 2010, the total water consumption was 60.95 Mm 3 , while in 2019 it was 58.65 Mm 3 . Per capita daily consumption decreased from 100 lpcd in 2011 and 2012 to about 94 lpcd in 2018 (data provided by the City of Zaragoza). Between March 2009 and January 2010, potable water started being supplied to other 4 municipalities (Fuentes de Ebro, Burgo de Ebro, Puebla de Alfindén and Pastriz) together with Zaragoza. Moreover, in December 2016, a fifth additional municipality (Villanueva de Gállego) was supplied together with the others. Results of water saving initiatives held in Zaragoza are evident also by the evaluation of the total daily water supplied volumes: these were 228 litres in both 2009 and 2010 and 212 litres in 2019, representing a 7% reduction. Zaragoza has become a model in the efficient use and management of water, facing current and future drought risks. The bulk of the achievements were due to changes in water use behaviour, largely brought about through the awareness-raising and promotional activities. As early as the first phase of the Water Saving City programme, the percentage of citizens aware of potential water saving measures had risen from 40% to 72%. The latest Campaign \"We Take Care of Every Drop\" links domestic water savings and climate change and it is expected to further support citizen’s awareness and sustainable consumption patterns. Other initiatives such as the control of leakage from the water supply distribution network also played a part. Between 2000 and 2010, the number of pipe bursts reduced from 750 to 350 in 2010, and losses from the system as a whole were reduced by over 40%, meaning that almost 20 Mm 3 of water were saved each year. In 2009, the volume of leaked water was 20.37 Mm 3 and in 2010 it was 20.75 Mm 3 , while in 2018 this volume was 19.45 Mm 3 . Comparing the 2018 value with the average for the years 2009-2010, the reduction in the volume of leaks is of the order of 1.1 Mm 3 /year. The review of tariffs was less influential in reducing the water consumption but nonetheless had a large economic impact on water services. Whereas in 1997 income from water consumers covered around 70% of the cost of supply and wastewater disposal, the equivalent figure in 2006 was closer to 90%; well on the way to achieving the goal of full cost recovery. This has allowed much-needed investment to be made in water services infrastructure, particularly wastewater treatment. More recent evaluation on this component seems to be not publicly available. The results allow concluding that combining changes in water use behaviour, water efficiency technology and reduced leakage can generate sufficient savings to make new and costly water supply infrastructure unnecessary. The city is also a promoter of projects for efficient use, quality supply, promotion of tap water, purification of wastewater. It also promotes the conservation and protection of its ecosystems linked to water and the ecosystem services they provide. In addition to reducing water consumption, the “We Take Care of Every Drop” campaign seeks to sensitize the population on the relationship between water consumption and climate change mitigation. The water used day-to-day goes through a series of energy intensive processes (storage, transport, purification, purification ...) that generates CO 2 emissions. Introducing water saving technologies and changing the consumption habits can reduce these emissions and contribute to improving the climate.",
+    "outcomes": "The success of the Zaragoza approach appears to have largely depended on the implementation of the following actions: Working directly with stakeholder representatives. The establishment of a central coordination unit: rather than being a collection of fragmented, individual initiatives, the setting up of the Zaragoza Water Commission provided effective coordination of consultation, implementation, and evaluation of the different activities, with the aim of achieving a common goal. Encouraging public participation: domestic water consumption was identified as a key area where significant water savings could be made and this drove the involvement of the local residents in the work of the Water Commission. Targeting specific sectors: instead of promoting generic water saving messages, awareness-raising activities targeted specific user groups with information that was directly relevant for their business or lifestyle. The production of dissemination guides for different consumer types also resulted in explicit benefits and incentives of reduced water use to be clearly outlined and promoted. Leading by example: high-use groups and the general public were likely to ignore awareness-raising campaigns if they felt that the authorities responsible for water were not equally committed to improving their own performance. By providing an efficient and reliable water and wastewater service, businesses and residents were more inclined to contribute themselves. Gaining political commitment: key stakeholder consultation and public participation to reduce water consumption in Zaragoza was specifically mentioned in the municipal strategic plan, with the implementation of many activities taking place through Local Agenda 21 commissions. A supportive city council allowed policy commitments to be made, increased the availability of funding and provided the means to generate public pride in the city’s achievement through events such as Expo ‘08. Participation of the city in the following projects was also relevant: \"SWITCH - Sustainable Water Management Improves Tomorrow’s Cities’ Health\", undertaking innovation in the area of integrated urban water management in 12 cities across the globe to further reinforce the commitment of the city to manage its water resources sustainably. Optimizagua - a Reference Model for the Efficient Management of Water (LIFE 2003 ENV/E/000164) shortlisted as best environment project by the EC. Aquanet (ES/07/LLP-LdV/TOI/149053), which resulted in a guidebook for an efficient water management. In the last 10 years since the execution of the second Water Management and Quality Improvement Plan in Zaragoza, there has been a very important economic crisis that has led to a significant reduction in the income of local entities. This has resulted in an appreciable decrease in investments of all kinds, and in particular those related with the water cycle. This has translated into a stabilization of the situation, but the further improvement has been largely slowed down.",
+    "cost_benefit": "A comprehensive evaluation of costs is not publicly available. Some data are available for specific measures. The main benefits of the implemented measures are reduced water consumption and the related reduction in energy consumption. It should also be noted that the improvements, derived from the execution of the Water Management and Quality Improvement Plan and the volume of investment it entailed, led to consider that Zaragoza's water supply was in an adequate state. I t did not require urgent improvements, which in some way contributed to that the scarce economic resources available for investment should be directed preferentially towards other sectors that objectively presented a significantly worse situation.",
+    "timeline": "The Zaragoza Water Saving City programme was initiated in 1996 and is still on going.",
+    "lifetime": "Water saving is a continuous process: it is important to provide continuity to planned actions and ensure maintenance (e.g., to limit leakages) to keep low levels of water consumption.",
+    "stakeholders": "The goal of reducing water used by all types of consumers required the cooperation of a wide range of stakeholders. The stakeholders participating in the initiative included the City of Zaragoza, the Zaragoza Water Commission (which itself is made up of representatives of different municipal departments, citizen groups, organised civil society and other stakeholders), non-governmental organisations (Ecology and Development Foundation, the Foundation for a New Water Culture (FNCA) and the San Valero Foundation), businesses and local residents. Working closely with stakeholder representatives allowed the identification of realistic and acceptable water conservation measures and took advantage of existing channels of communication to reach out to members of the different target groups. Providing citizens with the information, means and incentives to actively commit themselves to saving water raised awareness about the benefits of contributing to the overall conservation goals of the city. Moreover, the Zaragoza City Council is collaborating with the NGO ECODES on various initiatives aiming at further increasing citizens’ awareness on the importance of reducing water consumption level and CO 2 emissions at the same time. The objective is to create a network of collaborating entities that support awareness-raising actions and provide a multiplying effect among their partners, sympathizers and interest groups.",
+    "legal_context": "The Municipal Ordinance for Ecoefficiency and Quality of Integrated Water Management (February 2011) guides the future plans for water savings. It is currently being revised. The aim is to adjust some aspects that are considered to be improvable with the experience gained since its entry into force. This revision does not represent a change in the general principles that inspire said ordinance. In agreement with the Municipal Society Ecociudad Zaragoza, which is entrusted with the management of sanitation, it has been decided to elaborate a strategic plan that defines the criteria and priority actions of the entire water cycle in Zaragoza."
+  },
   "point": {
     "lat": 41.644183478,
     "lon": -0.889892578089,
@@ -73,7 +183,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/zaragoza-combining-awareness-raising-and-financial-measures-to-enhance-water-efficiency",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:32+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

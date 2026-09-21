@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
   "title": "Integrating adaptation in the design of the metro of Copenhagen",
@@ -53,6 +53,84 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "design standard",
+      "label": "design standard"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Copenhagen",
+      "label": "Copenhagen"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban transport",
+      "label": "urban transport"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "metro",
+      "label": "metro"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "storm surge",
+      "label": "storm surge"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The designed and implemented measures aim at improving the protection of the Copenhagen metro system against climate change hazards, mainly flooding due to heavy rainfall events and storm surges. The measures are meant to protect metro infrastructure and operation, as well as passenger safety.",
+    "measures": "Metroselskabet's climate change adaptation strategy supports the integration of climate change adaptation early in the planning and dimensioning phase of metro lines, so that only minor ongoing adjustments are needed afterwards. To improve the protection of the Copenhagen metro system against flooding, the expected highest water level due to heavy rainfall and storm surges has been estimated separately for each station. This enabled to identify the exact elevation level for each entrance, stairs, tunnel ventilation, ramp, technique room, shaft, elevator, and control and maintenance centre. Apart from the track, the areas and installations mentioned above are the most vulnerable and in case of failure may affect metro operation and its safety. To identify the highest water level in each station caused by cloudburst events, a 1:2,000 year flooding event has been considered, an event which has 5% chance of happening in the metro life (100 years). So far, Metroselskabet's climate adjustment work has focused on the M1 and M2 lines. As a consequence of climate changes, the level of safety on these lines no longer corresponds to the original designed level. These lines are now fully protected against flooding caused by cloudbursts. For newly built (M3 City Ring, M4 Nordhavn) and metro stretches under construction (M4 Sydhavn) updated climate projections of future occurrence and intensity of cloudburst and storm-surge events were taken into account. Based on these assumptions, it was found out that metro stations should be placed at different levels, between three and five metres, in order to safeguard the fixed installations against a 10,000-year flooding event. In addition to increased elevation levels of critical metro elements, a wide variety of measures have been identified and incorporated in the design of the metro to improve its resilience to flooding, including: The area around the entrances to the underground stations is designed to ensure the runoff of rainwater away from the openings. Furthermore, at some underground stations, a step has been incorporated, which requires a step up before you go down to the station. Where the metro runs from the sections above the ground down into the tunnels a strong drainage grate has been established across the tracks where rainwater accumulates and is pumped out so it does not get into the tunnels. In the above-ground metro system, drains are installed along the tracks leading the water out into the local sewer system. All underground stations have pumping capacity, so in the event that the tunnel is flooded, the water will be automatically pumped away. Floodgates are established in some underground stations where the metro system is directly linked to other infrastructure, to secure the metro from flooding from other parts of the public transport train system. The underground stations are protected against backflow from the city's sewerage system. Installations of waterproof outer doors in the technique rooms at several stations as well as in electrical and mechanical installations have made them waterproof. Technique rooms are installed with a 0.3 m raised doorstep. Gabion walls have been built along some exposed above-ground metro sections, such as on Eastern Amager. A gabion wall is a wall made of a cage filled with rocks; a technique that is used in coastal defences and breakwaters. They are structural elements used in the aboveground stretches, which however are not alone enough to protect from flooding. Waterproof walls (combination of concrete and gabion walls) up to 2.3 m high have been installed in M1 and M2 lines providing protection against sea waves along the exposed above-ground metro sections. In the new and planned lines height of the walls might be higher, reflecting the considered increased climate proof requirements. Protection from cloudbursts and storms was ensured also during the construction period, to safeguard workers and machineries Despite being climate adjusted, the design of existing and planned metro lines may not be sufficient for full protection against extreme whether events, sea level rise and storm surges in future, considering the evolving nature of climate change and related projections. The preliminary analyses carried out by Metroselskabet show that full protection of a metro in operation entails high costs. Metroselskabet has assessed that external protection of the whole capitol region, Greater Copenhagen, is more appropriate in socioeconomic terms than protecting the metro installations alone. The level of the measures necessary to protect the metro is highly dependent on how it is decided to protect Greater Copenhagen in general. The Municipality of Copenhagen is working on the progressive protection of the urban elements which will require decades.",
+    "outcomes": "Main success factors include: (i) the adoption of an integrated approach, including flooding issues within the whole metro design concept since the feasibility stage; (ii) in case of the city ring, building upon the experience gained during the design and operation of the previous metro lines (M1 and M2), respectively opened in 2002 and 2007; (iii) consistency and coherence with the city-wide adaptation plan to climate changes. The main limiting factor is related to the technical and operational requirements originally established for the metro system, which are primarily set to ensure optimal public transport services under sustainable economic conditions. Such requirements regard station locations, placement of technical components, layout of metro stations, routing of metro lines and others. In some cases they have made integration of adaptation measures more challenging.",
+    "cost_benefit": "The implementation of climate-proofing measures in the Copenhagen metro system was financed by Metroselskabet. Funding of climate change adaptation solutions was included both in the construction and operating budgets. The total cost of the city ring was 22.4 billion DK, which is approximately 3 billion EUR, slightly surpassing the initial projected cost of 21.3 billion DKK. The cost of climate-proofing measures is included in this amount and there is no separate information available. The main benefit of climate-proofing measures is the prevention of damages to metro infrastructure and equipment, operation breakdowns and related financial losses associated with climate change induced events, in particular flooding.",
+    "timeline": "Integrating climate change aspects into metro design is a continuous an adaptive process, which has been under way since the first metro line was planned and built (2002) and continues until now. In 2010, preliminary construction works begun on the new metro line city ring (M3). This line was opened in 2019, equipped with higher level of protection against current and future climate-related risks. The construction works continue with M4 line extensions: (i) (Nordhavn) with two new stations opened in 2020 (Nordhavn and Orientkaj), and (ii) Sydhavn which is due to be put into operation in 2024. Due to the location of these sections near the sea, incorporating of climate change aspects into their design is particularly important.",
+    "lifetime": "The design lifetime of the metro system is approximately 100 years, but can be even longer based on experience of other cities worldwide. If well maintained, the lifetime of structural adaptation measures should cover the lifespan of the whole metro system.",
+    "stakeholders": "The main institutional stakeholder involved in Copenhagen metro construction, operation and climate-proofing is Metroselskabet, a company funded by the City of Copenhagen (50%), the Danish Government (41.7%) and the City of Frederiksberg (8.3%). The preparation of the city ring project involved public consultation, based on the Environmental Impact Assessment of the project, conducted in 2008; 200 citizens voiced concerns about the project. The approval of the final project was made by the two cities concerned in January 2009 and by the Ministry of transport in March 2009. The project was finished and put into operation in 2019. The company consortium CASJV (Cowi, Arup and Systra), in charge of designing the City Ring (M3), used an updated model to take in consideration extreme flooding events due to heavy rainfall (as the one occurred in 2016) and adapt the metro design to the model findings accordingly. Climate-proofing of the M4 line and its extensions (Norhavn and Sydhavn) has incorporated recommendations on adaptation measures additional to already planned ones, which have been elaborated by the Rambøll consulting company.",
+    "legal_context": "The construction of the M3 City Ring metro line is based on an act passed by the national parliament in June 2007. The project description that served as a basis for that act is provided in the Report on the City Circle Line, prepared in 2005. Climate change adaptation requirements were incorporated in the project proposal."
+  },
   "point": {
     "lat": 55.7085453105,
     "lon": 12.5024414058,
@@ -82,7 +160,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/integrating-adaptation-in-the-design-of-the-metro-of-copenhagen",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:21:20+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

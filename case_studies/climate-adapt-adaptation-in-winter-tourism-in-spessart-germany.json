@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adaptation-in-winter-tourism-in-spessart-germany",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptation-in-winter-tourism-in-spessart-germany",
   "title": "Adaptation in winter tourism in Spessart (Germany)",
@@ -34,6 +34,84 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "highlands",
+      "label": "highlands"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hiking",
+      "label": "hiking"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "business diversification",
+      "label": "business diversification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Tourism",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "biking",
+      "label": "biking"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "winter sport",
+      "label": "winter sport"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the tourism region of Spessart is to develop touristic offers towards all year activities, compensating the losses in the sector related to skiing that occurred due to reduced snow and snowfall security resulting from change in climatic conditions.",
+    "measures": "Strategic tourism development requires visibly defined, binding and verifiable goals that are shared and supported by all involved stakeholders. Against this background, the targets for the tourism development of Spessart were jointly defined by stakeholders, operationalized and written down in the Strategic Development Plan. According to the plan, the differentiating characteristics of the \"Spessart\" touristic brand focus on a close relationship with the natural space and nature experiences as well as the historically rooted customs and the regional identity of the people and businesses. Based on the results of a market research study and taking into account the destination specific features, several workshops of four key target tourist groups and two ‘special interest target groups’ were organised for the preparation of the Strategic Development Plan of touristic activities. Among the target groups are: \"active nature lovers\", \"hikers\", \"sophisticated culture-oriented city breakers\", \"tourist interested in quality-oriented deceleration\", \"mountain bikers\" and \"family\". Based on the above mentioned process four profile themes were defined for Spessart in close cooperation with tourism experts: “hiking\", \"mountain biking\", \"well-being\" and \"culture\" formed the pillars for the thematic orientation of tourism development, tourism diversification and effective marketing in the Spessart region. This than triggered the detailed development of touristic offers, leading to changes in infrastructure, services and communication. Some of the measures implemented in this context assume relevance in terms of increased adaption to the experienced and further expected decrease in the number of snow days and in the reduced suitable conditions for skiing: Change of the touristic sector towards all year offers, in particular focusing on hiking and biking and the increase of cultural and wellness offers. Removal of one of the three ski lifts because of no further use in the winter. Use of other ski lifts during summer for mountain biking and hiking as well as in winter if there is snow. Building of new trails for biking and hiking. New communication concept focusing on all year tourist activities. This is embedded in positioning the region as a region for “innovative or inspiring forest and nature experience”.",
+    "outcomes": "Success factors of the new strategy of touristic activities in Spessart region include a good communication with stakeholders and a specific funding program for diversification that supports cooperation partners when taking activities to develop new touristic offers, up to 50% of the costs in an non-bureaucratic way (easy to apply). The subsidy fund has a value of 500,000 euros. With this funding, the district supports initiatives that make Spessart more exciting and eventful for tourists. The range of funded projects is therefore large. The funding is intended both for structural measures and for cooperation initiatives with a clear tourist focus. Also the new communication concept towards potential guests presenting the region as an all year destination is an important success factor. Limiting factors hindering the diversification and marketing process are: low quality of certain hotels and restaurants, limited opening hours of certain touristic offers (not guest friendly) and insufficient web presence. Also the spatially concentrated tourist offers (e.g. mountain biking primarily in the southern Main-Kinzig district, city tourism primarily in Hanau) make joint marketing of the destination difficult.",
+    "cost_benefit": "The costs of the transformation of the Spessart touristic sector are shared between Spessart Tourismus und Marketing GmbH and private and public service providers. EU and regional funds cover parts of the costs and play an essential role in reducing the burden, in particular for investment costs. According to the Spessart Tourismus und Marketing GmbH the benefits of the new tourism strategy, also in terms of climate adaptation, are a successful shift in guests visits from the winter season to the full year and an overall increase of tourists in the long run. According to a study of the trade chamber about 500 million Euros a year remain in the tourism sector, securing about 9.000 jobs. Most of this comes from day tourists.",
+    "timeline": "The process of adaptation was part of the development of the tourism activities in the region. Overall the measures have been implemented since 2000. However since the Spessart Tourismus und Marketing GmbH was founded in 2016 they are continuously developed further as part of the overall touristic development in the region.",
+    "lifetime": "Implemented measures are progressively adapted not only considering evolving changes in the climatic system but also tourists’ needs, which act as a major driver for the diversification process.",
+    "stakeholders": "Besides the workshops focused on the target tourist groups described in the aforementioned section on “Solutions”, other engagement activities were performed. Specifically, individual needs and interests of potential cooperation partners (such as hosts, providers of leisure facilities, municipalities and business enterprises) in the marketing plan of Spessart destination have be taken into account by intensive consultation. To ensure the highest possible participation, Spessart Tourismus und Marketing GmbH has set up a centre of excellence, including a competent contact person, for all questions of local touristic service providers as well as service providers for marketing and sales. In the implementation of destination marketing by Spessart Tourismus und Marketing GmbH , the close coordination and transfer of responsibilities for certain activities to service providers (e.g. due to common presentations of new tourism offers) is required. As a basis for the marketing and sales plan of the respective following year, an efficiency measurement and evaluation of the implemented measures is carried out.",
+    "legal_context": "The most relevant document (even if not legally binding) is the Strategic Development Plan for tourism activities. It sets the overall framework for the tourism activities and its strategic development, having relevance also in terms of climate change adaptation."
+  },
   "point": {
     "lat": 49.9441503516,
     "lon": 9.37408447266,
@@ -58,7 +136,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adaptation-in-winter-tourism-in-spessart-germany",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:27:00+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-new-locks-in-albertkanaal-in-flanders-belgium",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-locks-in-albertkanaal-in-flanders-belgium",
   "title": "New locks in the Albert canal in Flanders, Belgium",
@@ -62,6 +62,119 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Canal",
+      "label": "Canal"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "inland waterways",
+      "label": "inland waterways"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Archimede screws",
+      "label": "Archimede screws"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "lock system",
+      "label": "lock system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "navigability",
+      "label": "navigability"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "inland shipping",
+      "label": "inland shipping"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "low discharges",
+      "label": "low discharges"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water ecosystem",
+      "label": "water ecosystem"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "biodiversity protection",
+      "label": "biodiversity protection"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the measures described in this case study was to avoid economic losses due to reduced traffic possibilities on the canal (due to very low water discharge from the Meuse river), which are expected to be aggravated in the future because of climate change. Protecting the Meuse river ecosystem and biodiversity was another secondary objective.",
+    "measures": "Big Archimedes screws were built at the locks in the canal in Ham, the first of six lock systems. In case of drought these enormous screw pumps, the biggest in Europe, are pumping up water lost by the passing from the ship through the lock. In case of an excess of water, mainly in winter, the screws are used as a bypass to get rid of the excessive amount of water. In that case, the pumps work as an electricity generator, with hydropower as renewable energy reducing GHG emissions. The net effect on GHG emissions over time depends on the balance between low and high water levels, but since until now low water levels have been occurring only rarely, the net effect is generally positive. The canal is also a possible waterway for migrating fish. Therefore the screws are designed to allow fish migration, protecting biodiversity. The installation in Ham (2012) consists of four enormous screw pumps with 4.3 m diameter and weighing 85 tons. The screws can pump up to 5 m 3 per second. One lock operation moves 48,000 m 3 of water. The four screws need 50 minutes on full power to pump the water back. In 2013, three similar screws were installed in Olen. Having proved their functionality and effectiveness, installation of screw pumps on the Albert canal’s locks continued in 2018, when three Archimedes’ screws were built in Hasselt. The colossal screws – 22 metre long, 4.30 metre diameter, weighing 100 tons - can pump 5 m 3 water per second to the top of the lock, and with enough water they can produce green electricity for 1,500 households. The pumping installations in combination with hydropower plants are being built also on the other locks of the Albert canal of Genk, Diepenbeek and Wijnegem. These are expected to be put in operation after 2021.",
+    "outcomes": "Important success factors included the acknowledgement of ecological values to be maintained and the attention to the development of a collaborative process in which all stakeholders were seriously engaged. As to the former, two ecological factors played a key role: the structural possibility to protect some ecosystem services in the Meuse valley by limiting extraction of Meuse water and maintain a sufficiently high run-off level, and the consideration of the fish stocks in the Albert canal. As to the latter, the process highlighted the importance of allowing sufficient time and resources for stakeholders to cooperate, share knowledge, understand each other and get to know and respect each other’s culture. Imposing solutions or taking insufficient time would have limited success. One of the main factors of success to collaborate was the awareness of the inadequacy of current solutions and projected worsening of the situation in terms of frequency and length of low water levels.",
+    "cost_benefit": "The cost of the installation of the screws is about 7M€ for each lock system. The benefits include the navigability of the canal under changed climatic conditions, the reliability of the canal for shipping and the generation of electricity. Green electricity (hydropower) for an equivalent of 1,000 families can be produced by each set of screw pumps. In the past years it was observed that the installation functions as power generator for about 10 months per year and pump up water for about one month. Another month usually stands in a situation of just sufficient run-off for shipping but insufficient flow for power generation. On an annual basis much more energy is generated than used. The precise annually generated power depends on the amount and distribution of precipitation over the year, the shipping intensity and the withdrawals from other water users. There are also biodiversity benefits. Because of the relatively high water quality, rich fish stocks occur in the canal. Advanced technologies used for the pumping installations and power generation minimize the impacts of the installations on the fish stocks.",
+    "timeline": "The first set of screws was installed in 2012 in Ham and is fully operational. The second set of screws is implemented in Olen and is operational since 2013. The installation in Hasselt is operational since 2018, while three more sets of screws are being installed in different lock systems.",
+    "lifetime": "A lifetime of at least 40 years was considered in the costs-benefits analysis.",
+    "stakeholders": "The organization “De Vlaamse Waterweg” is responsible for managing and developing inland waterways as a network contributing to the economy and prosperity of Flanders. This company acts as the key coordinating stakeholder for the development of the Archimedes screws at the Albert canal’s locks. Two major preparatory projects preceding the installation of screws at the locks led to the eventual design of the measures, in which relevant stakeholders were involved. The first was the development of a low water strategy for the canal. In a first problem analysis phase, an inventory of different water uses was made, consulting users about their ideas to reduce water use. In a second phase, possible solutions were proposed, inviting feedback from all relevant stakeholders. In a third phase, the effects of the solutions in terms of effectiveness and costs were analysed quantitatively with a suite of models and other analytical tools. In a fourth and final phase, preferred strategies were discussed with a broad range of stakeholders including: industries, shipping representatives, drinking water supply companies, power companies, nature protection organizations, municipalities and others. The second project dealt with the environmental impact assessment of different alternatives. The preferred option was chosen taking into account various environmental considerations, in particular related to the preservation of fish migration and the mitigation of noise.",
+    "legal_context": "A legal agreement was established between Flanders and The Netherlands about the water availability in the river Meuse. In particular, this agreement addressed the water extractions from the Meuse by the Zuid-Willemsvaart in Maastricht It also covers the reduction of water losses in the Meuse in case of low run-off, collaboration on research and development of the common Meuse, and compensation of fresh water losses of the Kreekraksluizen."
+  },
   "point": {
     "lat": 51.0275763363,
     "lon": 5.03173828105,
@@ -86,7 +199,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/new-locks-in-albertkanaal-in-flanders-belgium",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:23:08+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

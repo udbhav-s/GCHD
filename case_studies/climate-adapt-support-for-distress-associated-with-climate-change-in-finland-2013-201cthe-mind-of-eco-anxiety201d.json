@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
   "title": "Support for distress associated with climate change in Finland – “The mind of eco-anxiety”",
@@ -28,6 +28,78 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Mental health",
+      "label": "Mental health"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "eco-anxiety",
+      "label": "eco-anxiety"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological emotions",
+      "label": "ecological emotions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Climate anxiety",
+      "label": "Climate anxiety"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "women"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "students",
+      "women",
+      "young people",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 7,
+      "schools": 2,
+      "women": 1
+    }
+  },
+  "intervention": {
+    "objectives": "Founders of the “mind of eco-anxiety” project noted increasing mental health challenges linked to climate change in Finland and set out to address them by making use of their expertise in offering mental health support. Therefore, the project aims at: Providing people across all ages with the tools to deal with and regulate emotions experienced in the form of eco- or climate anxiety, thus building participants’ resilience. While the project is open for a general audience, it is mainly targeted at people who are vulnerable to emerging eco-anxiety, including those working with, or studying, environmental sciences; people with a strong environmental identity; young people; and individuals with other burdening life experiences. Raising awareness to initiate public conversations, among other things, to foster recognition among those who experience symptoms but might be unaware of its cause or ways to deal with them. Advocating for the recognition of eco-anxiety and eco-emotions (emotions related to the environment) as a larger societal phenomenon instead of a psychiatric diagnosis or individual problem. Initiating action among different organisations and other societal actors to incorporate knowledge on eco-emotions in their work with different groups of people throughout society. In addition, the project seeks to promote the importance of overall mental well-being.",
+    "measures": "To achieve its goals, the project makes use of the existing skills and expertise of the social and mental health workers in dealing with other mental health issues. Their know-how of solutions already widely used in social and mental health care are transferred to a new area of work, i.e. dealing with environmental emotions, mainly climate change. The activities of the project include three pillars (all free of charge to the participants): Awareness: campaigns to raise awareness about eco-anxiety. Support : direct mental health support to a broad audience. Education: for professionals who work with those who already experience or are likely to experience difficult emotions in relation to environmental changes. Awareness: The campaign “Let’s talk about eco-emotions” was launched in March 2021, including a call for environmental emergency endorsed by all national organisations working on mental health. Furthermore, the “mind of eco-anxiety” organised a number of webinars on the topic in 2021 targeting the social and health care sector, NGOs, as well as public and private actors. The Ympäristöahdistus.fi website was launched in February 2021 to collect and provide up-to-date information and resources on the topic, as well as provide new materials and information packages. These included references to scientific articles; an overview of different psychotherapy approaches to dealing with the issue; and short informational articles published in collaboration with experts. In addition, several public engagement activities were conducted, including: Production of several podcast episodes , one of them being directed at young people hesitant to have children due to global environmental changes. Organisation of group conversation chats to specifically reach out to farmers and rural populations. These communities’ livelihoods are directly impacted by climate change but their voices are not heard in the public debates. The awareness-raising campaigns reached about 3,570,000 views via various channels. In 2022, the project plans to focus more on youth organisations and the educational sector. Support: For direct mental health support for those affected by eco-anxiety, the project has developed a group-based model for dealing with environmental feelings, which focused on: Recognising eco-emotions and dealing with them. Learning coping skills. Building supportive community. Strengthening future perspectives. Support groups were planned, mainly targeting young people, although people of all ages can participate. The concept envisioned 3-5 support sessions, which ideally included 10-15 participants and one facilitator from the project team, usually with a background in social work and/or mental health care. While sessions initially included general information on climate anxiety, they later focused on the tools and skills available to deal with ‘environmental emotions’ to give more room to participants’ own experiences and perceptions. The focus was on group formation and group dynamics to facilitate the sharing of feelings and peer support. The project has trained a number of volunteers in Autumn 2021, who will later on be able to lead group sessions themselves and thereby extend the activities all over the country. Another training session is planned for April 2022. However, volunteer-led groups have yet to be implemented in practice. The project additionally offered workshops on how to address eco-/climate anxiety, by conveying tools and activities that can enhance mental well-being and help in expressing the emotions experienced. Mindfulness exercises were also integrated and the importance of empathy, both towards others and themselves, was emphasised. Participants were supported in helping to find and follow meaningfulness and their most important values, and how this can promote mental well-being and the ability to become active in appropriate ways. By early 2022, about 360 participants (mainly within the age group of 20 to 30 years old) took part in 30 eco-emotions workshops and support groups. Education: Lastly, the “mind of eco-anxiety” organised activities geared towards professionals working in education, health and social work, to train them on how to deal with people suffering anxiety related to environmental changes. The three-hour trainings conveyed tools to facilitate discussions and discover pre-existing emotional and psychosocial skills, and to recognise and process eco-emotions and eco-anxiety within their target groups (and themselves) more specifically. Some additional two-hour webinars with similar content and guest speakers were held to address a more general audience as well. To support the activity, a “Small Guide to Environmental Anxiety - Information Pack for Teachers and Educators” was completed. The material has also been translated into Swedish to extend its reach. To attract participants, the initiative reached out to nature conservation organisations, activist groups as well as universities. As the latter presented a particular target group, the project held participatory lectures for staff and workshops for students at the University of Helsinki to discuss which model of mental health support they would like to adopt and what kind of emotional support would be of use. About 1160 professionals (mainly women) attended around 30 training and other informational events.",
+    "outcomes": "The funding available for three years contributed to the success of the project implementation as it enabled the free of charge access for the participants. The project received positive feedback from participants (high interest in gaining knowledge about eco-anxiety and eco-emotions, improved wellbeing and sense of common understanding), encouraging continuation of the project. Large media interest resulted in several invitations to various events. The involvement of a public personas (the Shouting Man ) contributed to the success of the initiative, extending its reach. One of the main challenges faced by the project arose from the fact that all activities had to be transferred online due to the Covid-19 pandemic. This affected the project’s ability to reach out to people and connect with them more meaningfully. Shorter, less in-depth online workshop formats were prepared to support the interest of the participants and to encourage their active participation. Another challenge was the limited participation in the chats organised specifically for rural communities and farmers and the limited participation of people already having strong environmental identities (e.g. activist groups) in the project activities. Therefore, better integration of emotional support within the climate activity communities should be encouraged, instead of external mental health organisations becoming involved.",
+    "cost_benefit": "STEA , the Funding Centre for Social Welfare and Health Organisations in Finland, provided the project with 640,000 € for a period of three years (2020-2022). This enabled four employees (two full-time, two part-time) to dedicate their full attention to the project and the provision of mental health support free of charge to the participants. In turn, this has benefitted the numerous participants, and will likely benefit many more in an indirect manner due to trainings for professionals, the provision of resources on the project-website, newly developed practical concepts, and raised awareness around the topic. Furthermore, the promotion of mental health in the context of climate change can be an important driver for fostering effective climate actions.",
+    "timeline": "The idea to address mental health issues related to environmental and climate change materialised in Tunne ry’s foundation in 2018, with a project proposal by all involved actors submitted in mid-2019. Project implementation started in early 2020 to continue until the end of 2022, under the current funding period. Plans exist to continue the activities beyond this timeframe if additional resources become available, potentially adjusting the scope and format based on lessons learned from the current project, and possibly engaging new partners.",
+    "lifetime": "Due to the project features, the lifetime of “mind of eco-anxiety” corresponds to its implementation time (3 years). However, the positive effects of improving knowledge, awareness and coping skills are expected to last longer than the project duration itself, creating the conditions for actual climate actions.",
+    "stakeholders": "The idea for the project was initiated by Tunne ry - an NGO that was specifically founded in 2018 to address issues of mental health relating to climate and environmental change - together with the internationally recognised researcher of ecological emotions, Associate Professor Panu Pihkala from Helsinki University. It was then developed and jointly implemented with two other Finnish organisations: Nyyti ry , an organisation that promotes mental health among students specifically, and MIELI Mental Health Finland , which seeks to provide crisis support and prevent mental health issues in Finnish society and is the world’s oldest NGO dedicated to mental health. The project is funded by STEA , the Funding Centre for Social Welfare and Health Organisations in Finland. Additional collaboration exists with the: Faculty of Biological and Environmental Sciences at the University of Helsinki Maaseudun tukihenkilöverkko , a supportive network of rural people and farmers FEE , the Foundation for Environmental Education in Finland Väestöliitto , a non-governmental organisation that improves people’s well-being and the connection between people During the project planning process, a needs assessment was conducted through a survey with around 500 participants from the general public. Pilot groups and workshops were additionally set up to test the project’s approach. In-person meetings were foreseen, but due to the Covid-19 pandemic activities were moved online.",
+    "legal_context": "The project was a bottom-up initiative that did not act upon any specific legislation. However, Finland has acknowledged potential mental health impacts of climate change in its climate change adaptation plan of the Ministry of Social Affairs and Health (2021), including environmental or climate anxiety."
+  },
   "point": {
     "lat": 60.17116,
     "lon": 24.93265,
@@ -62,7 +134,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/support-for-distress-associated-with-climate-change-in-finland-2013-201cthe-mind-of-eco-anxiety201d",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:06+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

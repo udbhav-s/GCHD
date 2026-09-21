@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-crop-diversification-and-improved-soil-management-for-adaptation-to-climate-change-in-segovia-spain",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/crop-diversification-and-improved-soil-management-for-adaptation-to-climate-change-in-segovia-spain",
   "title": "Crop diversification and improved soil management for adaptation to climate change in Segovia (Spain)",
@@ -53,6 +53,89 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "AgriAdapt",
+      "label": "AgriAdapt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crop rotation",
+      "label": "crop rotation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "local varieties",
+      "label": "local varieties"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crop diversification",
+      "label": "crop diversification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soil management",
+      "label": "soil management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "organic farming",
+      "label": "organic farming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Segovia",
+      "label": "Segovia"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the implemented measures and practices is to improve resilience and adaptation of rainfed arable crops to climate change, ensuring at the same time cross-cutting environmental benefits. Measures such us low tillage, more frequent organic matter applications, improved crop rotations, crop diversification, use of traditional and more climatic resistant varieties and the implementation of multifunctional field margins are the adaptation measures that are being implemented to achieve this objective.",
+    "measures": "Within the frame of the LIFE AgriAdapt project, a climate risk assessment at farm level was performed. Resulting from this assessment, a set of adaptation measures was proposed and some of them are being implemented in the pilot farm located in Melque de Cercos. One of the first adopted measures was the improvement of crop rotations. The farmer currently performs rotations with five different crops (durum wheat, carob, barley/oats, sunflower). The crop rotation with legumes (e.g. carob) compared with monoculture cultivation, ensures higher yield and a better resistance to climate change, by increasing the nutrient content of the soil and improving the soil biology. In addition, crop rotation allows reducing GHGs emissions from the farming activity. The cultivation of association of legumes and cereals (e.g. barley and carob or oats and alfalfa) as forage crops to improve yields is another implemented measure, which has relevance in terms of adaptation. These species have different nutrient requirements; legumes grow better by climbing along the stalks of the cereal. Moreover, the association of these species enables to improve the nutrient balance and biology of the soil. Other measures such as early sowing to reduce hydric and thermal stress at the end of the growth cycle, use of traditional varieties well adapted to the local climate, and sowing of shorter cycle crops (such as oats) in January-February if the fall has being too dry and the emergence of the first crop sown has been compromised, were implemented. Soil management measures are being implemented as well: avoiding bare soil by leaving the stubble standing, applying organic fertilizer (manure) at least every two years, and feeding of livestock (80 sheep, native breed) on fallow lands to further fertilize the soils, are being applied to increase the soil quality and resilience. Finally, multifunctional field margins were created or requalified to reduce soil erosion and enhance local biodiversity, with particular benefits for pollinators and other beneficial insects. Vegetation in these margins includes mostly local ruderal species (such as Matricaria chamomila , Papaver rhoeas , Foeniculum vulgare or Malva sylvestris ), irregularly distributed shrubs (such as Crataegus monogyna , Sambucus nigra , Retama sphaerocarpa or Rosa canina ) and isolated trees (such as Populus alba or Salix alba ). Multifunctional margins often also include stone piles, which provide nesting and shelter sites for reptiles and arthropods. Farmers reported that during the first two years the establishment of the ruderal vegetation in the margin was rather difficult, due mainly to weeds competition. However, after the initial period of two years, the margins’ vegetation evolved into a more stable mix of species of more interest for pollinators and in general more beneficial for the local fauna. Within the project, a new climate risk assessment will be performed to monitor the performance and efficiency of the implemented adaptation measures. Moreover, yields and feedback from the farmers are regularly checked to verify the expected benefits of these measures.",
+    "outcomes": "The owner of the pilot farm in Melque de Cercos was very much aware already of the risks entailed by climate change and therefore willing to adopt measures to deal with their expected impacts. Moreover, the presence of livestock in the same farm allowed implementing specific soil management measures. One of the major constrains which affected the implementation of the adaptation measures was the lack of local data and information and the consequent necessity of testing the effects of the proposed measures before applying them to the whole farm. Indeed, some measures (e.g. the change in sowing dates and the use of traditional varieties and new legume crops as carob) were firstly tested in a small plot of the farm, as the farmer found too risky to apply these extensively before a proper testing.",
+    "cost_benefit": "The vulnerability assessment and the elaboration of the action plan to implement sustainable adaptation measures was financed by the AgriAdapt project, funded by the European Commission through the LIFE Program and co-financed by Fundación Biodiversidad from the Spanish Ministry of Ecological Transition. The total cost for producing the assessment and the action plan of the Melque de Cercos farm amounted to 5,000 €. Adaptation measures are being implemented between 2017 and 2019, so there is not still a proper estimation of costs. However, most of them are not supposed to have extra costs for the farmer, and in some cases, savings are expected. The implemented adaptation measures are expected to: increase the production efficiency of the farm, reduce farming costs, improve soil conservation, increase soil carbon sequestration and nitrogen content, allow the perimeter of the field to develop native vegetation thus providing habitats for beneficial insects and pollinators, and overall enhance local biodiversity. The monitoring process of the expected benefits of the implemented measures entails permanent contacts with the farmers, enabling to check feedback and assess yields during the lifetime of the project.",
+    "timeline": "The implementation of the designed adaptation measures is a continuous process. It started in 2017 with the improvement of crop rotations, cultivation of crop associations and testing of early sowing practices and cultivation of traditional varieties. Multifunctional margins were implemented at the beginning of 2017 and the livestock involvement in the management of the farm began in the fall of the same year. In 2018, stubble was left standing for the first year. All these measures are still being implemented.",
+    "lifetime": "If continuously implemented and maintained, the adopted adaptation measures can last forever.",
+    "stakeholders": "The key actors involved within the frame of the LIFE AgriAdapt project in the vulnerability assessment and implementation of proposed adaptation measures are the owner of the farm, the farm staff and Fundación Global Nature (partner of the AgriAdapt project) . Furthermore, project objectives and results are communicated to other farmers, cooperatives, agronomists and other technicians (at both local and national levels) through workshops, seminars and conferences.",
+    "legal_context": "The implemented measures are coherent with the objectives and the provisions of the Spain`s National Plan for Adaptation to Climate Change (Law 45/2007 of the 13 th of December 2017 for the Sustainable Development of Rural Areas), the National Strategic Plan of Natural Heritage and Biodiversity (Royal Decree 1274/2011, 16 th of September 2011) and the ORDER ARM/2444/2008 (12 th of August 2008) which approved the National Action Program to Fight Against Desertification complying with the United Nations Convention to Fight Against Desertification."
+  },
   "point": {
     "lat": 40.9716035328,
     "lon": -4.39453125,
@@ -77,7 +160,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/crop-diversification-and-improved-soil-management-for-adaptation-to-climate-change-in-segovia-spain",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:10+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

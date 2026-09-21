@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-climate-bond-financing-adaptation-actions-in-paris",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-bond-financing-adaptation-actions-in-paris",
   "title": "Climate bond financing urban adaptation actions to reduce heat stress in Paris, France",
@@ -38,6 +38,111 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "credit rating",
+      "label": "credit rating"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tree planting",
+      "label": "tree planting"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "parks",
+      "label": "parks"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green areas",
+      "label": "green areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "private investors",
+      "label": "private investors"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Bond",
+      "label": "Bond"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "playgrounds",
+      "school"
+    ],
+    "group_mentions": {
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The aim of Paris Climate Bond is to finance energy-climate projects, covering the four main goals of the Paris Climate Energy Action Plan : reduction of GHG emissions, improvement of energy efficiency, production of renewable and/or recovered energy, and adaptation to climate change. The purpose of the Paris Adaptation Strategy , one of the operational documents of the Paris Climate & Energy Action Plan, is to prepare the city for both future climate change as well as for future scarcity of certain resources such as water, energy, food and biodiversity. This is translated into four main objectives: protect Parisians from extreme climate events; ensure the supply of water, food and energy; live with climate change: more sustainable city planning; foster new lifestyles and boost solidarity. The objective of both adaptation projects under implementation within the Climate Bond is to reduce the urban heat island effect and increase thermal comfort within the city, which mainly relates to the objectives of the Paris Adaptation Strategy . A new Territorial Climate Air Energy Plan was launched in 2018, with the aim of making Paris a carbon neutral and resilient capital by 2050. The actions financed through the Climate Bond are consistent with the plan, which devotes a whole section to actions aimed at “greening Paris\". It is also consistent with the broader 2017 Paris’ Resilience Strategy . This strategy takes a broader stance to resilience (which looks at all sorts of future threats and vulnerabilities , including the climatic ones).",
+    "measures": "Climate bond A Green (Climate) Bond is a bond issued by a government (local, regional or national) or corporate entity in order to raise finance for climate change mitigation or adaptation-related projects or programmes. A bond is, ultimately, a loan: the holder of the bond is the lender (creditor), the issuer of the bond is the borrower (debtor), in this case the City of Paris. Bonds provide the borrower with external funds to finance long term investments. The issuer owes the holders a debt and, depending on the terms of the bond, is obliged to pay them interest (the coupon) and to repay the principal at a later date. Bonds are risk-weighted and credit rated in the usual way, based on the creditworthiness of the issuer. They are tradable, market conditions permitting, on international secondary bond markets. In 2015, as part of the commitment undertaken within the Paris Climate and Energy Action Plan, the City of Paris developed a Climate Bond concept. A €300 million transaction was completed in November 2015. A Climate Bond was perceived by the City of Paris as an interesting and profitable mechanism to finance public projects, because it targets a wide variety of investor profiles. Typically, few investors are likely to be interested in bonds which are only climate-related and do not give a clear prospect in terms of return on investment. The fact that the bond abides to Sustainable Finance Disclosures Regulation guarantees that it satisfies the criteria sought by those interested in sustainable investments: in particular, it requires transparency. Transparency is ensured by means of annual reporting, whereby the issuer has to justify the allocation of money to projects complying with the set criteria. The process and reporting is reviewed by the non-financial rating agency Vigeo, thereby reassuring investors about the proper use of their funds. In the case of the Climate bond issued by the City of Paris, transparency is an opportunity for the city to question internal practices and improve them if needed. Also, the Climate Bond helps to highlight political priorities by ranking investments. The selection of projects to be included in the bond was managed by the Finance Management Support Service (SGF) of the city in full collaboration with the Urban Ecology Agency of Paris (AEU) and overseen by Vigeo. The list of projects to choose from was defined at the start of each election term. After each election, the new Mayor presents his/her political direction to the Council of Paris for approval. This direction is financially translated in an investment programme (defining political priorities and pushes) and corresponding projects. The selection process among these projects combines criteria brought forward by SGF and criteria which are usually used for Socially Responsible Investments (SRI). Municipal internal criteria: To be eligible for Climate Bond funding, a project must first and foremost contribute to (one of) the four goals of the Climate and Energy Action Plan. ‘Green Bond Principles’ and operational criteria: As any other green bond, the Climate Bond is subject to the ‘ Green Bond Principles’ of the Paris Representative Office (ICMA) . In addition, after the projects’ pre-selection according to criteria described above, the SGF and the AEU make a further selection and organize meetings with project managers, representatives of the AEU and Vigeo to refine this selection. The aims of this step in the process are: Get precise information on each project (e.g. what will be done exactly, refined budgetary allocation, planning of the project, monitoring methods). Check that each aspect (environmental, social, governance) of the project matches with the ‘use of proceeds’, which defines eligible categories of projects (according to the ‘Green Bond Principles (GBP))’. Check that all aspects of the project are compatible with rules of liquidity and project management. Check that each selected project contains real and mainly measurable environmental benefits and that measuring procedures and instruments are or can be implemented by various departments and/or the AEU (accredited for Carbon Evaluation). Build the framework reflecting indicators and climate benefits to which City of Paris is committed. A project under the Climate Bond should not necessarily be implemented within Paris, as long as the City of Paris is directly paying the projects' costs and the prime contractor. In 2017, based on the Climate Bond, the City of Paris, has elected to develop a new “Sustainability Bond Framework” in order to have a flexible platform from which to issue Climate, Social or Sustainability Bonds. This bond was reissued in the period 2020-2023 on a yearly basis to support a wide range of projects dealing with sustainability. On an annual basis, at least until full allocation, the City of Paris provides a dedicated reporting on any bonds issued under the Climate Bond and the Sustainability Bonds. The progress of any action supported by the bonds is tracked using specific indicators. For the adaptation projects funded by the bonds (see below), the selected indicators are the number of trees planted and the surface extension (hectares) of new green areas created. Adaptation projects Two adaptation projects were supported by the Climate Bond: planting 20,000 trees and creating 30 hectares of new parks. The time limit for finalizing the adaptation projects was 2020. The new trees were planted in the inner City of Paris (in addition to the already existing two woods outside of Paris), in the streets and at public facilities such as school playgrounds, gymnasiums, etc.. The new parks were created both in the urban renewal zones of Paris, where there is the biggest potential for large areas of parks, as well as in some already existing neighbourhoods of Paris where local places can be transformed into little local parks for the residents. For example, the Martin Luther King Park in the Clichy Batignolles Urban Renewal Zone (North West of Paris, 17th arrondissement), first opened in 2008, was extended in 2014 and in 2018, bringing its total area to 10 ha. However, only the extensions of 2014 (2.2 ha) and 2018 (3.5 ha) qualified for the 30 ha target of the Climate Bond. By the end of 2018, the implementation of both projects turned out to be still incomplete. According to the 2018 Climate Bond Reporting , of the 30 new hectares of green areas, 10.93 hectares were delivered and € 15.5 m of the planned € 45 million were actually invested. Of the 20,000 trees to be planted, 11690 were actually planted. Of the 15 million Euro planned, € 4.7 million were actually invested. However, tree planting continued under other funding sources. In 2020, under the Sustainability Bond of the City of Paris , (a new bond launched in 2017 and reissued yearly in the period 2020-2023 to support a wide range of sustainability projects, € 14.14 million were allocated to the 30 hectares project and 1.32 M€ to the 20,000 trees project with almost 8 new ha of green areas and 3080 new trees planted. Finally, the target was reached at the beginning of 2021, with the delay mostly due to the restrictions and lock-down caused by the COVID-19 pandemics. The maintenance of the parks and trees is covered by the city itself and not by the Climate Bond investments, as this is not allowed.",
+    "outcomes": "Part of the plans for the new parks and trees were existing for a long time already, waiting for the financing to become available for their implementation. The idea of a Climate Bond has been already around at the Environment Department of the City of Paris for many years. The timing was right when the COP21 was held in Paris allowing the Climate Bond to become reality. The following are important points to consider about any Green or Climate Bond initiative: Issuing Green or Climate Bond is a long process. Selecting projects that match with numerous criteria requires significant human resources and time. This might be more difficult to organize within smaller administrations. The advantage is that it creates a real internal synergy between investors and the project technical leaders. Transparency and accountability are key to this process, which may imply a different working organization or may require new procedures or tools (for instance, for budget monitoring). It also costs money; to acquire extra-financial rating, to hire support for setting up and managing the bond, to engage a dedicated team, etc. In addition, the issuer of the green or Climate Bond has to report on the climate benefits. Paris has internal expertise within the Urban Ecology Agency (AEU) which is accredited for carbon evaluation, but if this expertise is not available internally, it will have to be procured externally. Involving independent advisors, sectoral experts and bankers is a key factor for the development of an attractive green bond. Furthermore, it is essential that the local authorities develop significant experience on the green financial markets and understand what is expected or valued by investors. For Paris, this worked out well with regard to the applied methodology (clear financial framework, expert project managers attached to the various investment lines, well-structured use of proceeds, frequent reporting), collaboration (involvement in the process of all relevant actors, including external ones, with clear responsibilities) and coordination by the Financial Office. The city did not have all the required knowledge and resources in-house, but they knew where to get them, and this input proved very valuable. Paris has, for example, an efficient network with bankers, based on consolidated business relations. It is then crucial to create connections among different actors with different skills. In absence of such connections, the launch of the green bond could have been more challenging. Finally, another important factor of success was the rating by Vigeo. It rated Paris as the leader of the sector in climate bonds (1st among local authorities) and thus made Paris attractive for investors. The success of the first bond (issued in 2015) led the City of Paris to replicate and upscale the initiative, by issuing the Sustainability Bond of the City of Paris (see Solutions).",
+    "cost_benefit": "The total size of the Climate Bond of Paris is €300 million (this means that over one third of the initial investor applications could not be accepted) and yields a 1.75% annual interest rate. The bond is broken down as follows: €120 million for reduction of greenhouse gas emissions, €115 million for energy efficiency, €5 million for production of renewable and/or recovered energy and €60 million for adaptation to climate change. The Climate Bond can be renewed every year, allowing new money to come in for more projects. The expected cost of the 20,000 trees that were planted was €18 million in total, while the estimated cost for creating new parks was €67 million. Both interventions were partly financed by the Climate Bond and partly directly from the city’s greening budget . This greening budget is set independently from the adaptation strategy. Under the current bond (2023), there is no specific budget on adaptation, other than a research budget. However, a new budget for climate policy including adaptation will be adopted in spring 2024 within the revision of the Paris ‘Climate & Energy Action Plan . The maintenance of the parks and trees are paid by the City of Paris. The adaptation projects will not lead to direct financial benefits that will help reimbursing the investors. However, through the mitigation projects covered by the bond and under the Paris Climate and Energy Action Plan, the City of Paris expects to reduce its energy consumption and thus to generate extra revenue for the City. As it is not allowed to earmark revenues for specific expenditures (rule of non-assignment), this revenue will not be used directly to pay interest to the investors of the bond and repay them the full amount borrowed at the end of the bond term. This this will be paid out of the general City budget. In a broader perspective, increasing green areas in the city by this bond brings about many co-benefits for the well-being of its inhabitants. As noted in the new Paris ‘Climate & Energy Action Plan , (p. 64), “The greening of Paris is vital to increase biodiversity, while also providing a number of co-benefits for the Paris ecosystem: cooler temperatures, shade, water absorption, slowing of floods and the trapping of dust, as well as beautifying the city and creating spaces for relaxation and even food production”. According to the Sustainability bond reporting , planting 20,000 trees corresponds to 14,600 tons of CO 2 during the lifespan of newly planted trees.",
+    "timeline": "The running time of the Paris Climate Bond is from 18 November 2015 to 25 May 2031. Both adaptation projects that have currently been included in the bond have been implemented by 2021. The maturity date of the bond is in no way related to the end of the actions linked to the climate plan. The sustainability Bond of the City of Paris was launched in 2017 and reissued yearly in the period 2020-2023 to support a wide range of sustainability projects .",
+    "lifetime": "Lifetime for trees in Paris is generally around 70 years. Regarding the parks, the intention is that they will last forever.",
+    "stakeholders": "Climate bond The Paris Climate Bond was issued by the City of Paris, as a joint initiative of the Finance and Procurement Department (DFA) and the Parks and Environment Department of Paris, although all departments were involved. The Climate Bond was the first issuance of the city complying with the Green Bond Principles (GBPs). Therefore, the Bond issuance was overseen by Vigeo who provided a second party opinion (SPO), as required to give investors assurance that they were investing in a bond that was complying with their own targets, mainly the GBPs. Credit Agricole CIB, HSBC and Societé Generale CIB acted as joint lead managers of such operation. These banks have been selected through competitive tendering to guide the City of Paris in the process. In this way, the City of Paris can rely on their expertise on investor expectations (e.g. to validate the use of proceeds, the framework and the selection of the projects of this bond), their network and marketing services (media relations, help in the organisation of the information campaigns, etc.). In terms of funding, the Paris Climate Bond has been very successful : it was able to attract a large number of investors, more than expected, with enough applications during the launch phase to cover €475 million to fund the bond, involving 30 investors. The bond is mainly supported by domestic investors (83%), but the City of Paris managed to diversify its investor base to international institutional accounts, in particular to Benelux (9%), Switzerland (3%) and Nordic countries (3%). Insurers and pension funds bought the lion’s share of the trade (51%), followed by asset managers (49%). Teams have been formed within the city administration to execute the projects under the bond, with the Greenery Department of the city being responsible for the realization of the adaptation measures. The Greenery Department was divided into four working units for different parts of Paris, ensuring a roughly equal distribution of the trees and parks over the Paris area. The adaptation projects supported by the bond were already approved by the time the Bond was issued, and would have been financed and implemented in any case. The bond however helped significantly with the financial burden of these projects. Adaptation Strategy The two adaptation interventions funded by the Green Climate Bond are framed within the Paris Adaptation Strategy and the Paris Climate Action Plan that followed a participated process. The preparation of the strategy was based on extensive research (in cooperation with Météo-France) about Paris’ strengths and weaknesses in dealing with climate change impacts, taking into account the scarcity of resources; the strategy has been developed in collaboration with over one hundred Parisian stakeholders. The development of the strategy also benefitted from proposals for action submitted by all departments of the City of Paris and from a public consultation on adaptation to climate change that was held in 2015. Greening the city is a very well-known priority for of Parisians, as it consistently ranks in the top-most priorities for projects suggested within the city’s participatory budgets (i.e. the share of the overall annual budget that is earmarked for implementing actions suggested by Parisians). For instance, the campaign “ Du vert près de chez moi ” (“green next to where I live”), whereby Parisians could suggest places to green (e.g. plant a tree, create a green wall) was very popular. More than 4,000 suggestions for places were received and 209 sites were chosen for greening by 2020.",
+    "legal_context": "The Climate Bond is in line with the Paris ‘Climate & Energy Action Plan and the Paris Adaptation Strategy which form the policy and legal basis for the bond, and with the 2017 Paris’ Resilience Strategy . The Paris ‘Climate & Energy Action Plan, adopted in 2007, was first updated in 2012 (with the adoption of the Main Guidelines of the Paris Climate and Energy Action Plan, unanimously approved by the Council of Paris) and then in 2018. The development of such a plan is imposed by Article 75 of the Law of 12 July 2009 on France’s Commitment to the Environment, which states that by 31 December 2012, all authorities of more than 50,000 inhabitants must adopt a Local Climate and Energy Plan (PCET) compatible with the Regional Climate-Air-Energy Strategy (SRCAE) adopted at regional level. The Paris Climate & Energy Action Plan sets the general guidelines for climate and energy for Paris and it is broken down into different operational documents, including the Paris Adaptation Strategy. The Adaptation Strategy is a roadmap for adaptation and consists of 30 objectives applied in 35 actions. Among other objectives, it pursues the goal of facilitating access to refreshing areas in summer, to cool off the city during peaks in temperature so that no Parisian should be more than a 7-minute walk from a place to relax with water and greenery. The Climate Bond is compliant with the ‘ Green Bond Principles’ , stating that: ‘Green projects are defined as projects and activities that will promote progress on environmentally sustainable activities as defined by the issuer and in line with the issuer’s project process for evaluation and selection. The management of green bond proceeds should be traceable within the issuing organization and issuers should report at least annually on the use of proceeds. The Mayor of Paris has instructed the responsible deputy mayors by letter to implement the actions connected to the climate bond. The City of Paris is responsible for the interest payments and full repayment at the end of the bond term. The Climate Bond is part of Paris' Euro Medium Term Note (ETMN) and is therefore considered as a classic bond issue. In case interest or full reimbursement cannot be paid or is delayed, rules of the Base Prospectus (the document that includes all information for investors to make an informed assessment of their investment) will apply. In addition, the bondholders' group has chosen a representative who has authority to act on behalf of all bondholders to put their rights into effect. According to article L. 1612-4 of the General Code for Local Authorities (CGCT), borrowing should not under any circumstances be used to plug a financial hole in operating and investment finances or for debt amortization. Like any other loan, interests are paid with the operating resources (which in this case mean resources collected by the local authority, such as local taxation and financial transfers from the State to local authorities). According to article L. 2331-8 of the same CGCT code, the maintenance of the Climate Bond projects cannot be paid from the bond, as the finances for operational purposes must be separated from investment. The proceeds from a loan (bond) are a form of non-tax revenues from an investment."
+  },
   "point": {
     "lat": 48.8647147618,
     "lon": 2.373046875,
@@ -77,7 +182,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-bond-financing-adaptation-actions-in-paris",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:19:38+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

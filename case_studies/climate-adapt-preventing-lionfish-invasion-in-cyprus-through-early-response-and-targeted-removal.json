@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
   "title": "Preventing lionfish invasion in Cyprus through early response and targeted removal",
@@ -38,6 +38,109 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MARINE",
+      "label": "Marine and Fisheries"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "information portals",
+      "label": "information portals"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stakeholders' involvement",
+      "label": "stakeholders' involvement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Natura 2000 network",
+      "label": "Natura 2000 network"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Lionfish",
+      "label": "Lionfish"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "smart-phone applications",
+      "label": "smart-phone applications"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "invasive species",
+      "label": "invasive species"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "diving",
+      "label": "diving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Tourism",
+      "label": "Tourism"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The RELIONMED-LIFE project (Preventing a LIONfish invasion in the MEDiterranean through early response and targeted REmoval) aims to make Cyprus the ‘first line of defence’ against the invasion of the lionfish in the Mediterranean. Its specific objectives are to:",
+    "measures": "Actions implemented to counteract lionfish expansion in Cyprus seawaters cover a wide range of measures, starting from the development of an improved knowledge basis and the formulation of a risk assessment analysis to the development of an early detection system for lionfish and to sustainable removal actions, with the active involvement of citizens and stakeholders. After gaining a preliminary knowledge basis about lionfish biology, ecology and distribution ( Savva et al ., 2020 ), a first risk assessment (2016) was developed in line with the EU Regulation 1143/2014 (art. 5) on IAS. The risk assessment was then refined (2020) to include new insights from project results. In 2020, the updated risk assessment was finally submitted to the European Commission for the inclusion of lionfish in the list of invasive alien species considered to be of concern to the European Union (the “Union list” of IAS, according to the EU Regulation 1143/2014). The risk assessment concluded with high confidence that there is a high degree of risk (social, ecological, and economic) associated with the future spread of lionfish in the Mediterranean and the European Union, being one of the fastest fish invasions ever reported in the eastern Mediterranean Sea. The species received a positive review for inclusion on the Union List by the EU Scientific Forum and IAS Committee and the final decision is expected by December 2021. A surveillance and early detection system for lionfish has been set up, which includes a web GIS tracking interactive platform ( Lionfish portal ) and a mobile smart-phone application to enable reports and recording of lionfish sightings in the Mediterranean region. The Lionfish portal is included in the IUCN-MedMIS platform, an online information system for monitoring invasive species in MPAs. This tool allows continuously updating the knowledge of the distribution of lionfish across the Mediterranean Sea, roughly estimate their abundance and ultimately give information to managers and other stakeholders to take the appropriate actions. The reported lionfish sightings by citizen scientists (sea users, divers, fishers, etc.) have increased substantially over the project duration, up to over 50 individuals observed in a single day (2020). Volunteers (fishermen and divers) after proper training, have joined the Removal Action Teams (RATs) set up during the project to participate in lionfish coordinated removals near and within Natura 2000 sites and Marine Protected Areas. RATs have been activated to remove lionfish from new colonised areas or where the lionfish are most concentrated (hotspots). Indicatively, over 300 lionfish were removed from three single-day removal events in 2019–2020 from small areas (about two hectares) of Cyprus marine waters. Prior to every removal, RAT teams are equipped with removal gear (slingshot, lionfish container and puncture-resistant gloves) and heat packs, in order to use it as a first-aid response. The RATs demonstrated rapid response removals in lionfish hotspots. A special permit, under strict supervision, for scuba spearing was granted by the Department of Fisheries and Marine Research for this purpose, since this kind of fishery is forbidden by law across the EU. Removal of lionfish concentrates in two Natura 2000 sites of Cyprus (Cape Greco, which became a marine protected area in 2018, and Nisia). These areas are of particular ecological importance hosting seagrass meadows ( Posidonia oceanica ) and offering discontinuous areas of rocky reefs with submerged or semi-submerged caves that form an ideal habitat for many species. Lionfish aggregate at rocky habitats with caves. Removal actions also include areas with wrecks and artificial reefs, most of them sunk as part of a scheme aiming to promote diving tourism, protect the biodiversity and aid the replenishment of overfished fish stocks co-funded by the EU Fisheries Fund 2007-2013 and the Cyprus Government. In order to make removal actions more attractive for divers, eight lionfish removal competitions have been implemented, including awards for the participants. Competitions events can demonstrate the ability of Removal Action Teams (RATs) to reduce lionfish population densities in priority areas and allow scientists to collect new data on the colonization rate and the effectiveness of removals. Local commercial uses of removed lionfish and new niche markets (specifically targeted to environmentally conscious consumers) have been tested, as incentive to remove lionfish and to ensure a financially sustainable long-term approach to lionfish control. RELIONMED is working with local restaurants to promote the incorporation of lionfish in their menus and with jewellery makers and dive shops to explore the potential of creating new income sources by making use of both the edible and discarded parts of the lionfish. The viability and benefits of a business model that incorporates lionfish products will be explored. Finally, a monitoring system has been set up to assess: (1) the socio-economic impact of the project actions on the local economy and population through pre-defined questionnaires and interviews targeting local stakeholders and the general public; (2) the ecological impact of the removal actions, through visual census of lionfish and other species in selected monitoring stations. Available data suggest that public awareness about lionfish presence in Cyprus seawater and its potential danger for the ecosystem significantly increased during the project duration. The lionfish were found to proliferate in Marine Protected Areas (MPAs) where fishing is not allowed. In these areas higher densities and sizes of lionfish were recorded compared to adjacent unprotected areas, threatening the value and benefits of these conservation sites. The numbers of lionfish were suppressed when coordinated removals took place. Community-led management with the participation of SCUBA divers in removal (spearfishing) events of lionfish was found as the most promising, effective, and beneficial (both socially and ecologically) mechanism in controlling these invaders at conservation sites (e.g. see Kleitou et al. 2021 ).",
+    "outcomes": "Citizen engagement revealed its great potential in monitoring lionfish distribution, thus supporting awareness raising and the control of lionfish expansion. Market promotion of the lionfish through the engagement of local restaurants and local craft has the potential to transform the threat of lionfish into an opportunity to develop local businesses, fostering the success of the removal initiatives. Despite some minor opposition in the beginning of the project, especially by SCUBA instructors, stakeholders provided unanimous support to the project, following training and educational seminars. The socioeconomic surveys showed that there was a significant increase of the general public that was aware of lionfish from about 4% to 26% indicating the success of the project in raising awareness, since the majority now supports management measures against lionfish. During the project, lionfish entered the market and its price is steadily increasing with variations among areas (ranging from 6 – 15 EU / kg); more promotion is needed to increase its market value, thus relieving other local species from fishing pressure. RATs demonstrated being effective in removing lionfish individuals: large removal campaigns (including more than 10 divers) led lionfish populations to strongly decline. Given the distinctive features of lionfish, divers can easily identify the species, with very low possibility of fail. Health and safety issues due to the venomous spines of lionfish (that can limit diver engagement in removal actions) have been successfully faced through proper training activities about safe lionfish handling, first aid equipment for divers involved in removal actions and competitions. The effective success of the implemented actions against the lionfish diffusion in the coastal waters of Cyprus and in other Mediterranean areas, strictly depends on the continuation of lionfish management actions beyond the duration of the RELIONMED Project. A potential driver for effective long-term management actions relies in the inclusion of lionfish in the Union List of Alien Invasive Species, according to the EU Regulation 1143/2014. The lionfish inclusion could in fact lead to the establishment of more stringent and long-term provisions for prevention, early detection, rapid eradication and management as well as overcoming of legislative restrictions about lionfish fishing techniques. Legislation reforms are needed to allow for more consistent and larger removal events with the involvement of more divers. In this effort, regional collaboration between Mediterranean countries is pivotal in developing and implementing a strategic response. Some suggested reforms are given in Kleitou et al. (2021 ).",
+    "cost_benefit": "Awareness and educational campaigns (events, workshops, training courses) required low investment cost (few thousands Euros) and enabled reaching high number of people. The approximate cost for organising a removal event with divers, under the scientific supervision of RELIONMED team, ranged between 500 and 1000 Euro. A competition event (“derby”) cost about 2 to 3 thousand Euro that covers personnel salaries, boat costs, prizes, first aid equipment and services, etc. Benefits are related both to the improvement of the ecological conditions of marine ecosystems affected by the invasion of lionfish and to the socio-economic benefits associated with the awareness raising initiatives and with the involvement of local business to develop new niche markets, able to sell new products particularly targeted to environmentally aware consumers. An assessment of cost-effectiveness of a wide range of measures that can be implemented to mitigate the invasion of lionfish in the Mediterranean waters ( Kleitou et al., 2021 ) revealed that diver-led culling of lionfish is successful in controlling this species in pre-selected areas, even if changes in the legislative framework need to be implemented. Citizen based- monitoring, awareness measures, and market promotion were assessed as very useful tools for the management of lionfish. Such measures can be also easily transferable to other Mediterranean areas and other invasive species.",
+    "timeline": "The RELIONMED project duration is from 2017 to 2022. The lionfish portal will remain active also after the project end. The continuation of the implemented measures for a project follow up is currently under discussion with the local authorities.",
+    "lifetime": "Removal actions are effective in controlling lionfish spread but they have a short life time, due to the high rate of recolonization (where lionfish move back to the removal area from near marine areas) and reproduction of the species, requiring frequent and repeated actions. The initiatives aimed at awareness raising and at opening new possibilities for local markets are preparing the ground for a long-term sustainable management of lionfish with long lasting positive impacts towards the adaptation of local socio-economies to new invasive species favoured by climate change.",
+    "stakeholders": "Since the early stages of the project, the public and key stakeholders were involved in a wide consultation initiative to understand general knowledge and awareness about lionfish presence and associated threats. In particular, a telephone survey of 300 Cypriot permanent residents was conducted, while about 100 stakeholders were interviewed during meetings carried out across different districts of Cyprus. Additional stakeholder-focused questionnaire surveys were carried out with 20 commercial fishers, 6 dive business owners, 20 recreational fishers, 10 restaurant owners, 100 beach visitors, and 5 aquarium/pet shop owners. The same survey was repeated for three consecutive years. More in general, several activities performed during the RELIONMED project are highly dependent on citizens and stakeholders’ support: Citizens and tourists in Cyprus are called to contribute to the IUCN-MedMIS Lionfish portal , reporting their sightings of lionfish (with photograph and location information), after registering to the MedMis portal. Reports are contributing to the overall knowledge of lionfish distribution, guiding targeted removal actions. The portal will remain active after the project ends. About 200 fishers and expert divers requested to join the Removal Action Teams (RATs) coordinated by RELIONMED researchers. The RAT permit allowed for the registration of 100 SCUBA divers in the list. All have been trained, equipped and participated in coordinated removals targeting lionfish hotspots, Natura 2000 sites and Marine Protected Areas. The active involvement of local restaurants and local jewel makers is offering new opportunities for local economies as a new source of income and acts as incentive to continue with lionfish removal actions. Now about 20% of seafood restaurants across Cyprus offer lionfish in their menu and lionfish are becoming more frequent in fish markets. Recipes with lionfish are also disseminated through the RELIONMED project results, inviting the public to consume and appreciate new species. Finally, in order to stimulate public interest and stakeholder support, several dissemination campaigns were organised, using posts in social media and participation in TV and radio shows, and utilising produced posters, leaflets, banners, notice boards, videos, aquarium displays, photo exhibitions, scientific publications.",
+    "legal_context": "Regulation (EU) 1143/2014 on invasive alien species (the IAS Regulation) entered into force on 1 January 2015, fulfilling Action 16 of Target 5 of the EU 2020 Biodiversity Strategy, as well as Aichi Target 9 of the Strategic Plan for Biodiversity 2011-2020 under the Convention of Biological Diversity. The core of the IAS Regulation is the list of Invasive Alien Species of Union concern (the Union list). For species included in the Union List, the Regulation identifies three distinct types of measures to combatting IAS: prevention, early detection and rapid eradication, and management. The current legal framework in Cyprus as well as in other European countries poses strict restrictions to scuba spearfishing (for possible damages to the ecosystems) that is indeed the most successful and low-cost way to remove lionfish. A special temporary permit was specifically released for the project duration, under the strict supervision of the scientific RELIONMED team."
+  },
   "point": {
     "lat": 35.0503911521,
     "lon": 33.2262638211,
@@ -62,7 +165,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/preventing-lionfish-invasion-in-cyprus-through-early-response-and-targeted-removal",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:23:46+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

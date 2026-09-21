@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-adapting-agriculture-to-wetter-and-drier-climates-the-tullstorp-stream-project-sweden",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-agriculture-to-wetter-and-drier-climates-the-tullstorp-stream-project-sweden",
   "title": "Adapting agriculture to wetter and drier climates: the Tullstorp stream Project (Sweden)",
@@ -53,6 +53,124 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "eutrophication",
+      "label": "eutrophication"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Nature-based solutions",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetlands",
+      "label": "wetlands"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bottom-up approach",
+      "label": "bottom-up approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "monitoring reporting and evaluation (MRE)",
+      "label": "monitoring reporting and evaluation (MRE)"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "irrigation",
+      "label": "irrigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "climate change mitigation",
+      "label": "climate change mitigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water storage",
+      "label": "water storage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "drainage system",
+      "label": "drainage system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ecological status",
+      "label": "ecological status"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main aim of the first Tullstorp restoration project (started in 2009) was to reduce nutrient loads to the Baltic Sea, improve the ecological status of the stream, solve flooding problems, and facilitate the overall management of the stream by landowners. Secondary objectives were the increase in biodiversity and enhanced opportunities for recreation. In response to the adverse weather events occurred in 2017-2019, the Tullstorp stream 2.0 project (started in 2019) enlarged the initial scope of the first project to take into account the effects of climate change on the agricultural area more specifically, counteracting the problems of an increasingly vulnerable water resource, with floods alternating to severe drought periods. The main aim of Tullstorp stream 2.0 project is therefore to create multifunctional wetlands to store excess water and to “harvest” it from the storage in a recirculating irrigation system during periods of water scarcity. The overall goal of the entire project (Tullstorp stream project and Tullstorp stream project 2.0) is to achieve both ecological and economic benefits for the landowners increasing the overall resilience of the territory to the impacts of climate change.",
+    "measures": "The first Tullstorp stream project included measures as re-meandering, re-naturalising the riverbed, creating flood storage areas, creating and restoring buffer strips and wetlands. The project goal to achieve a 200 ha surface of wetlands was met in 2021: over 50 wetlands were created or restored and 25 km of the stream was restored as well. To date, the project has reduced the nitrogen content of the river by 30 % and the phosphorus content by 50 %. The second Tullstorp stream project (Tullstorp stream project 2.0) focusses on a system that combines: (i) multifunctional water reservoirs, (ii) recirculating irrigation and (iii) customized drainage system to adapt agricultural production to extreme weather. Multifunctional water reservoirs in this project are defined as wetland systems that are primarily created to store surface water and nutrients so that the stored water can be used as a new water source for irrigation. Wetlands are typically multifunctional since they provide a variety of ecosystem services including regulation of water flow, biodiversity preservation, eutrophication control and carbon sequestration. Recirculating irrigation is a system that returns the most possible volume of surface water and nutrients stored in a multifunctional reservoir to grow crops by minimizing energy consumption and water consumption. Customized drainage is a system that, based on the physical conditions and drainage requirement, utilizes as much as possible the surface water and nutrients that the recirculating irrigation and the natural rainfall provide to the field. Within the Tullstorp stream project 2.0, a pilot intervention is underway to restore existing former sugar mill ponds that are fed with water from the drainage system, from storm water and from the Tullstorp stream. A monitoring programme is ongoing to assess the effects of the first Tullstorp stream project. A sampling site, located in the lower part of the project area is used to assess the overall impacts of the interventions. Monitoring includes river flow, water quality, and zoo-benthos communities. Fish surveys are also conducted annually in five to seven river stations. The complete evaluation of the effectiveness of the pilots ongoing within the Tullstorp stream project 2.0 will be crucial to support future full-scale implementation.",
+    "outcomes": "The opportunity to achieve multiple goals (ecological, economic, and social benefits) through a holistic approach is the key success factor of the project that motivated landowners to actively participate in the project. The bottom-up approach undertaken in this initiative, strongly supported and encouraged by stakeholders, gave a strong sense of ownership and facilitated project approval and implementation. Landowners were also encouraged to participate in the project since they received financial compensation for the areas included in the restoration of the stream and subsidies for the areas included in wetland restoration. The Economic Association that led the project is currently assisting the landowners in another catchment area ( Ståstorp Stream ), to use the Tullstorp method for the restoration of their stream, thus demonstrating the transferability potential of the project to other areas suffering from similar challenges. The main challenge is the funding. These measures are in fact quite costly and the current funding system in Sweden (through Landsbygdsprogrammet - Rural District Programme) can support only actions like river and wetland restoration but not yet the construction of water retention basins and irrigation systems. After the completion of the pilot ongoing within the Tullstorp stream project 2.0, the identification of public funding will be crucial to support the full-scale implementation of the project. Other challenges are related to the long time needed to complete all interventions that is hard to be accepted by participants and is dampening the initial enthusiasm.",
+    "cost_benefit": "Storing excess water during wet periods for use during dry periods is expected to be a highly effective and sustainable way of climate proofing Swedish agriculture. The choice to use multi-functional wetlands to achieve this climate-related goal offers multiple benefits such as eutrophication reduction, biodiversity improvement, more space for nature and increased opportunities for recreation. Synergies with climate change mitigation are also achieved, due to an expected reduced energy consumption for irrigation and due to the carbon sequestration potential offered by wetlands. Economic and societal benefits are finally derived, since crops can better resist to drought and intense rainfall periods and landowners can rely on a better managed water resource. More in general, the holistic approach at the basis of the project helps to achieve the environmental quality goals of the EU Water Framework Directive as well as of the EU Farm to Fork strategy allowing the production of more food sustainably managing water resources. The first Tullstorp project cost about 60 million SEK (about 6 million euros). The project is mainly funded by the County Administrative Board of Skåne. Funding for the pre-study and pilots of the Tullstorp stream project 2.0 were granted by LOVA grant (local water management projects) of the County Administrative Board of Skåne, WWF and Region Skåne. The cost of the pre-study is 0,5 million SEK and the cost of the pilot-project (including management, method development and pilot implementation) is about 10 million SEK (about 1 million euros).",
+    "timeline": "The first Tullstorp stream project started in 2009; the stream restoration was divided in three stages, two of them have been completed. The project is planned to be completed by 2021. The Tullstorp stream project 2.0 started in 2019 with an initial pre-study; the implementation of pilots is underway.",
+    "lifetime": "All solutions implemented in this case are indefinitely lasting, especially if they are regularly maintained",
+    "stakeholders": "The overall Tullstorp stream project was entirely driven by the Tullstorp Stream Economic Association. The Association was formed in 2009, joining landowners and other stakeholders of the river catchment area to promote a more integrated and holistic approach to solve the challenges of the area and to coordinate the previously small scale and isolated interventions performed on single small wetlands. The Association (currently 60 members) through its Board of representatives of stakeholders (7 members) became responsible for the project running. A consulting company (Naturvårdsingenjörerna AB, Hässleholm) has a key role in the implementation of the project. The association has developed a unique concept for the restoration process, now known as the ‘Tullstorp method’. The method is based on the strong commitment of landowners, bottom-up approach, voluntary participation, and learning by doing through demonstrative success cases. Extensive information campaigns were carried out by the Association involving mass media and organising conferences and meetings. This led to an early approval of the project by the Administrative County Board, after few months from the project conception.",
+    "legal_context": "All river restoration measures performed during the first Tullstorp stream project and the construction of multifunctional wetlands within the Tullstorp stream project 2.0 need formal approval by the Swedish Environmental Court. Measures implemented within the project are contributing to the achievement of the Good Ecological State that is a primary goal of the Water Framework Directive (2000/60/CE)."
+  },
   "point": {
     "lat": 55.38333,
     "lon": 13.48333,
@@ -77,7 +195,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-agriculture-to-wetter-and-drier-climates-the-tullstorp-stream-project-sweden",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:39+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

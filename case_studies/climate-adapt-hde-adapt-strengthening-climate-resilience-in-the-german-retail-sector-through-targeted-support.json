@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-hde-adapt-strengthening-climate-resilience-in-the-german-retail-sector-through-targeted-support",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/hde-adapt-strengthening-climate-resilience-in-the-german-retail-sector-through-targeted-support",
   "title": "HDE-Adapt - Strengthening climate resilience in the German retail sector through targeted support",
@@ -28,6 +28,89 @@
       "mapped_to": []
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Retail companies",
+      "label": "Retail companies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "supply chain",
+      "label": "supply chain"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "climate adaptation tools",
+      "label": "climate adaptation tools"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Training",
+      "label": "Training"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Adaptation Options",
+      "label": "Adaptation Options"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The HDE-Adapt project equips retail companies with the knowledge, tools, and support needed to adapt effectively to climate-related risks. It enables businesses to assess vulnerabilities and opportunities across their operations and supply chains, identify suitable adaptation measures, and embed climate resilience into their strategic and operational decision-making. The overarching objective of HDE-Adapt is to strengthen the adaptive capacity of the retail sector. Depending on where each company starts, the tools aim either to raise initial awareness of physical climate risks and associated business opportunities or to guide users through the entire adaptation journey – including more advanced topics such as supply chain resilience and cross-departmental coordination. All tools developed within the HDE-project are structured within a systematic process aligned with key regulatory and standardisation frameworks, including the EU Corporate Sustainability Reporting Directive (CSRD), the EU Taxonomy for sustainable activities, and international standards such as DIN EN ISO 14090 and 14091. This ensures that retailers not only build resilience but also prepare for current and emerging legal requirements.",
+    "measures": "HDE provides a wide range of resources (available in German) to support retail companies on their path towards greater climate resilience. These tools are designed to be practical, low-threshold, and adaptable to businesses of different sizes and stages of awareness. Key components include: Step-by-step guidebook : This core resource offers a structured overview of the entire adaptation process. It begins with stocktaking of climate risks and existing adaptation activities, involves all relevant company departments, and includes climate risk analysis, the identification and selection of adaptation options, and the development of a climate action plan – followed by implementation monitoring. The guidebook is linked to all other available tools, creating an integrated support system. Self-assessment tool for retailers : Designed to help companies identify their starting point, this tool prompts reflection on known climate related risks, existing knowledge, untapped opportunities, and on the current internal organisation of adaptation efforts. In doing so, it helps raise awareness of risks and opportunities that may not have been previously considered. Excel-based checklist collection : These checklists guide companies through a detailed examination of climate impacts, business-specific risks, relevant departments, and possible adaptation measures. They support the prioritisation of risks and help retailers navigate the adaptation process step by step. Video tutorials are available to facilitate use. Adaptation options database : Retailers can filter potential adaptation measures by climate risk and type and refine the results by considering factors such as co-benefits, costs, and tenant suitability. The options range from low-effort actions (such as providing drinking water to customers during heatwaves), to more complex investments (like installing green roofs or walls). Interactive handbooks: These offer focused guidance on specific climate risks, such as extreme heat , flooding , or supply chain vulnerabilities , and include links to best practices, tools, and external resources. Webinar series: These sessions cover a broad range of topics, from assessing specific climate risks to selecting adaptation options and managing the overall adaptation process within a retail company. Seminars and workshops: Held for companies seeking tailored support, these interactive formats allowed for deeper discussion, peer learning, and capacity building. Thematic webpages: Dedicated pages provide overviews and practical advice on specific topics like insurance, green infrastructure (roofs and façades), and coping with heatwaves. Podcasts: Expert discussions were recorded and shared to make knowledge accessible in a flexible and engaging format. The materials were widely promoted via the HDE website, newsletters, and social media – reaching an estimated number of 200,000 people. Retailers were also invited to provide feedback on the usefulness and usability of the tools. Following the end of the project, feedback from retailers was overwhelmingly positive. The structured step-by-step approach and practical tools proved especially helpful in initiating or systematising climate adaptation processes. Many companies also noted that the resources supported their compliance with CSRD reporting requirements on climate adaptation. Climate resilience helps companies remain stable over time. Thus, beyond the companies, municipalities can benefit from climate resilient companies in terms of employment and commercial tax income. Several regional chambers of commerce and city-level business development departments actively recommended the methodology to companies in their jurisdictions, demonstrating its relevance beyond the initial target group and its potential for broader replication. Use case: Tchibo Tchibo is a well-known retail company with around 900 stores and 24,300 retail depots. It is the market leader in roasted coffee in Germany, Austria, the Czech Republic, and Hungary. Beyond coffee, its product range also includes textiles and a variety of non-food items. Through a comprehensive climate risk analysis, Tchibo identified a wide array of vulnerabilities within its global supply chains. Key agricultural commodities, such as coffee and cotton, are increasingly affected by rising temperatures and extreme weather events, which threaten productivity and, in some cases, lead to complete crop failures. These risks are already materialising in major production regions across Latin America, contributing to significant price increases. Extreme heat and climate variability are also worsening working conditions and health risks for labourers in coffee-growing regions such as Brazil, Ethiopia or Vietnam. These effects are compounded by risks to transport and logistics: heatwaves can compromise product quality during transit, and extreme weather can cause severe disruptions to delivery routes and schedules. To strengthen the resilience of its supply chains, Tchibo is working closely with climate adaptation experts to explore targeted response strategies. During a workshop facilitated by HDE-Adapt, Tchibo representatives highlighted the importance of intensifying collaboration across supplier networks to foster shared learning and build on existing efforts related to climate-resilient crop cultivation. Rather than simply shifting procurement to alternative suppliers, a short-term solution that becomes less effective as climate impacts spread globally, Tchibo is focused on systemic change. This includes investing in more robust growing practices, identifying less climate-sensitive production zones or techniques, and supporting long-term adaptation throughout the supply chain. The case underscores the value of strategic, inclusive approaches to resilience in retail supply chains.",
+    "outcomes": "The HDE-Adapt project has provided valuable insights into the challenges and opportunities associated with climate change adaptation in the retail sector, and it has highlighted the need for sector-specific tools. Several success and limiting factors can be identified. Success factors: Understanding business needs as a foundation At the outset of the project, a sector-wide survey was conducted to assess the vulnerability of retail businesses, their level of awareness regarding climate-related risks, and the main barriers to adaptation. This needs-based approach laid the foundation for the development of tailored tools and training materials under HDE-Adapt, ensuring they directly addressed the specific concerns of the retail sector. Balancing adaptation with mitigation goals Many adaptation measures can also offer benefits for climate change mitigation, but some come with trade-offs. For example, installing technical cooling systems to manage indoor temperatures during heatwaves can increase energy consumption and, if based on fossil fuels, lead to higher greenhouse gas emissions. These trade-offs also have financial implications for businesses. To address this, HDE-Adapt included tools such as Checklist 6, which enables companies to compare adaptation options by evaluating effectiveness, costs, co-benefits, and potential conflicts or synergies with mitigation goals. This supports more informed and sustainable decision-making. Adaptation must fit individual company contexts Each retail company faces unique climate risks depending on its location, product range, infrastructure, and customer base. Recognising this, HDE-Adapt does not offer a one-size-fits-all solution. Instead, the project focused on providing a flexible methodology and modular tools, especially checklists and step-by-step guidance, that can be adapted to the individual circumstances of each business. Building on existing structures and momentum HDE has supported climate mitigation efforts in the retail sector since 2017. This experience, network, and credibility provided a strong foundation for extending its activities to climate adaptation. Integrating adaptation into an existing framework helped streamline efforts, avoid duplication, and capitalise on previous successes. Alignment with EU policy frameworks From the outset, the project was designed to align with emerging regulatory requirements at the EU level. This includes the EU Corporate Sustainability Reporting Directive (CSRD), the EU Taxonomy, and internationally recognised standards such as DIN EN ISO 14090 and 14091. Ensuring compatibility with these frameworks enhanced the relevance and long-term utility of the tools for retailers preparing for future compliance. Effective communication through trusted networks HDE’s longstanding relationship with the retail sector played a crucial role in the project's success. Using trusted communication channels, including regional associations, direct outreach, newsletters, and events, HDE was able to actively engage businesses and maintain participation throughout the process. Limiting factors: resource constraints Despite the relevance of the tools, many small and medium-sized retailers face significant limitations in terms of financial and human resources. Even when aware of the risks, these companies may struggle to allocate capacity for adaptation planning and implementation. Ongoing support, accessible guidance, and financial incentives remain essential to enable broad and sustained engagement in climate adaptation within the sector.",
+    "cost_benefit": "Funding of 195,494.00 € for the development of the training material was provided by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety, and Consumer Protection. After the project ended, all resources supporting retail companies in becoming more resilient to climate change were made freely available on the HDE website. Assessing the costs of adaptation in the retail sector is challenging, as these depend on various factors such as the size and type of business, the number of locations, and the company’s specific vulnerabilities and adaptive capacities. Furthermore, adaptation options vary widely, from low-cost measures to more expensive solutions. Depending on the chosen approach, retail companies may also be eligible for public funding. . Climate change adaptation requires both financial and personnel resources, and its benefits may not be immediately visible since the primary goal is to avoid future negative impacts. However, timely adaptation is crucial to prevent financial losses, and in the long term, the benefits far outweigh the costs. Implementing adaptation measures not only reduces climate risks but can also provide additional co-benefits such as lower operating costs (e.g., reduced cooling expenses), improved customer experience, enhanced employee well-being, and increased resilience of supply chains. Ultimately, this leads to greater customer satisfaction and improved competitiveness for retail companies. Although adaptation planning is still at an early stage among German retailers, the systematic approach and tools provided by HDE-Adapt have helped companies save money by identifying their real adaptation hotspots and recommending more effective and cost-efficient measures. For example, instead of simply installing air conditioning with ongoing energy costs, HDE-Adapt encouraged companies to explore passive cooling strategies such as building design, shading, and ventilation, either as alternatives or supplements to reduce reliance on air conditioning. One nationwide operating furniture retailer with large warehouses and storage facilities reported already damages from heavy precipitation and sought for support. Using the insights and tools provided, the company was able to assess its location-specific risks, identify hotspots, and develop proactive measures well in advance to prevent further damage. For municipalities, climate resilient and flourishing companies ensure business tax flows and contribute to stable municipal budgets and employment rates.",
+    "timeline": "The development and provision of tools, guidance, and training were part of the HDE-Adapt project , which ran from January 1, 2023, to December 31, 2024, and was funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety, and Consumer Protection. This initiative built upon earlier efforts to mitigate climate change impacts in the retail sector, which began in 2017. The effort and time required to implement specific adaptation measures depend on the vulnerability of the business, including its supply chains.",
+    "lifetime": "Building climate change resilience is an ongoing process that requires a systematic approach. The training materials designed to support retail businesses are available online, and the HDE aims to further assist retail companies by facilitating the exchange of best practices and integrating climate resilience across its various areas of work.",
+    "stakeholders": "HDE leveraged its extensive network of branch and regional sub-associations to support the distribution of information and collect practical feedback on the usability of the tools developed under HDE-Adapt. The process began with an initial survey to assess retailers' awareness, knowledge, and specific needs related to climate adaptation. Based on these insights, HDE-Adapt organised a series of engagement activities, including webinars, seminars, bilateral exchanges, and presentations at national industry events such as the Retail Congress and the Retail Real Estate Congress. These formats were used not only to disseminate information but to actively involve retailers in shaping the tools. Particularly valuable were the on-site training seminars (, which enabled direct feedback and real-time testing of materials. This iterative approach allowed for continuous refinement of the tools and ensured that they remained closely aligned with the evolving needs and realities of retail businesses.",
+    "legal_context": null
+  },
   "point": {
     "lat": 52.510885,
     "lon": 13.3989367,
@@ -52,7 +135,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/hde-adapt-strengthening-climate-resilience-in-the-german-retail-sector-through-targeted-support",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:35+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

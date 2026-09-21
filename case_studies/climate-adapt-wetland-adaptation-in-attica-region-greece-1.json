@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-wetland-adaptation-in-attica-region-greece-1",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/wetland-adaptation-in-attica-region-greece-1",
   "title": "Adaptation to droughts in wetlands of Attica Region, Greece",
@@ -47,6 +47,94 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protected areas",
+      "label": "protected areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructures",
+      "label": "green infrastructures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetland action plan",
+      "label": "wetland action plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Connectivity",
+      "label": "Connectivity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetland",
+      "label": "wetland"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetland adaptation strategy",
+      "label": "wetland adaptation strategy"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Attica, more than 100 wetlands have been recorded, which include streams and estuaries, coastal marshes and lagoons, lakes and artificial wetlands. Their importance lies in their ecological and conservation values, as well as ecosystem services for human well-being. Strategic priorities for improving the natural environment and the life quality of citizens, are: to preserve and/or restore wetlands, to improve their ecological connectivity through a “green belt” and to support their use for recreation. The goal of the OrientGate project was to produce a climate change adaptation strategy and an action plan, which: (i) involve monitoring and assessing of the environmental quality of wetland areas in Attica Region, (ii) study drought deterioration in the future and (iii) put in force the implementation of a series of measures that reduce regional vulnerability of wetlands to climate change.",
+    "measures": "The climate change adaptation Strategy prepared within the Orientgate project, is built on seven axes. For each of them, several measures with different priorities have been established in the “ Attica Wetland Action Plan ”. The central concept of these actions is the preservation and restoration of wetlands from the impacts of climate change. Healthy wetlands can in turn help protect against drought and extreme events, providing an important resource for adaptation. AXIS I - Improvement of knowledge for Attica wetlands and the effects of climate change: Measure Ι-1: Continuous enrichment of knowledge about the wetlands of Attica, as “high biodiversity islands” and as integral elements (green and blue infrastructure) of urban and extra-urban space; Measure Ι-2: Assessment and periodic updating of climate indicators for drought/water scarcity and floods, with climate prediction models, for the territory of the Attica region, and investigation of the impacts on biodiversity; Measure I-3: Ensure access to data and information on wetlands in Attica and climate indicators, and monitor the implementation of the Strategy. AXIS II - Conservation and restoration of Attica wetland ecosystems and their services and adaptation to climate change: Measure ΙΙ-1: Delineate wetlands and designate protected areas; Measure ΙΙ-2: Protect, guard, conserve and restore; Measure ΙΙ-3: Conserve and manage sustainably wetlands of the Natura 2000 network. AXIS III - Sustainable use of water resources: Measure ΙΙΙ-1: Prevent and abate industrial pollution. AXIS IV - Land use regulations: Measure ΙV-1: Promote the concept of compact and non-polluting city. AXIS V - Information, awareness, and ecotourism: Measure V-1: Strengthen public information and awareness programs for wetlands in Attica and climate change adaptation; Measure V-2: Education for wetlands and climate change adaptation; Measure V-3: Highlight the wealth of wetlands in Attica, improve recreation and ecotourism opportunities. AXIS VI - Improvement of adaptive capacity in regard to wetland conservation and management: Measure VI-1: Strengthening public administration and local government in the decision-making process and the implementation of policies, measures and legislation on wetlands. AXIS VII - Integration of wetland conservation in enterprises: Measure VIΙ-1: Promote innovation and entrepreneurship in wetland conservation, encourage businesses to adopt practices and activities that benefit wetland conservation and avoid practices and activities that have a negative impact on wetlands. From September 2015 to April 2017, some progress towards the implementation of the action plan (Measure I-I of the Attica Wetland Action Plan) was achieved within the project “ Improving knowledge and increasing awareness for wetland restoration in Attica Region ”, funded by the EEA and Norway Grants program for integrated management of marine and inland water resources. The project is expected to increase knowledge and awareness on Attica wetlands as water related ecosystems that face serious environmental problems and biodiversity loss. Main project results were an improved access to environmental information necessary to protect and restore wetlands, with increased knowledge and awareness on the value of wetlands for climate change adaptation. In particular, the scientific documentation for the identification and delineation of 50 wetlands was prepared, accompanied by the analysis of biodiversity, major threats and proposals for rehabilitation. Wetland information was stored in a freely accessible web database . A web-GIS platform was developed to show various spatial data, while an online atlas displays images and stories of Attica wetlands, describing their environmental value and the conservation measures in place. For four water bodies, a detailed assessment of water quality, wetland conservation status and water management needs was prepared: Vourkari (coastal wetland in Megara municipality) and Koumoundourou Lake (in Aspropyrgos municipality) in west Attica region, the mouth of Pikrodafni Stream (in south Athens) and National Park Schinias (coastal wetland part of the EU Natura 2000 network) in east Attica region. Moreover, a research study was elaborated in the frame of Horizon 2020 SWOS Project ( Hatziiordanou et al. 2019 ). It revealed the potential of wetlands to act as key landscape features (i.e. stepping stones) that can improve the connectivity and climate resilience of the Natura 2000 network of Attica Region. Research results could be helpful to prioritise conservation and restoration in the context of the EU biodiversity policy demand for a coherent Natura 2000 network and for achieving no net loss. As part of the activities to implement the Measure II-1 of the Attica Wetland Action Plan, following the environmental characterisation, the Vourkari wetland was designed as “Regional Park” by a Presidential Decree, in March 2017. Moreover, the official delineation of boundaries of 15 wetlands was completed and incorporated in the national legislation (law 4559, August 2018), covering a total area of more than 460 ha. The law bans any building permits and any activity that degrades the ecological status of wetlands, including water draining. This support wetland preservation from the combined impacts of climate change and human activities. In addition, environmental awareness raising initiatives and training events were organised to create a collaborative space where different stakeholders contribute to an improved management of wetlands in a future looking perspective dominated by climate change (see the section on stakeholders involvement).",
+    "outcomes": "The factors that were decisive for a successful design of the adaptation strategy and plan mainly relied on the high commitment of the regional governance actors. The coordinator of the strategy and plan was the Environment Directorate of the Region of Attica. This regional authority has direct responsibility in preparing environmental policy guidelines at the regional level, focused on the conservation and protection of wetland ecosystems, also in view of climate change The formulation of the wetland adaptation strategy and action plan followed a participative process. There was early engagement and strong collaboration with various stakeholders: central, regional and local services, other authorities, research agencies, environmental organisations and interested citizens. They were encouraged to take action through interviews, information meetings, workshops and training seminars. Experiences were exchanged; weaknesses and good/bad practices in the management and protection of Attica’s wetland biodiversity wealth were recorded; and the value of conserving wetlands and the need to adapt to climate change were promoted. EU funding (coming from the transnational cooperation programme 2007 - 2013 South East Europe for the Orientgate project and from the EEA and Norway grants) were decisive in prompting the preparation of the adaptation strategy and action plan for the Attica region as well as for its gradual implementation in the following years. The success of the Attica Wetland Action Plan was proven by the fact that it has been used as a baseline document for the new regional programming period of the Attica Region. As a result, specific measures have been integrated in the Attica RePACC and in the regional operational Program of Attica Region 2021-2027. All regions in Greece have been called to prepare their RePACC, some of them include measures for the protection of wetlands. Therefore, the Attica experiences have a high potential to be replicated. Another success factor is related to the evolution of the national legislation, with the law 4559 (August 2018), covering a total area of more than 460 ha. This law bans any building permits, drainage or other activities that might degrade the ecological status of wetlands. There were no significant hindering factors during the elaboration of the adaptation strategy and plan. However, the implementation of the wetland adaptation action plan is expected to encounter several barriers. These relate to the availability of funds, operational capacity of involved services and bodies to undertake the proposed adaptation measures, regulation of land use in view of wetland protection and restoration. Measures that require institutional changes or regulatory legislation might be implemented with further delays.",
+    "cost_benefit": "The implementation of the adaptation action plan is expected to mitigate the impacts of the combined effects of anthropogenic interventions and climate change on Attica wetlands. Improved protection of wetlands is also expected to improve their ecosystem functions, such as: (i) protection of the coasts by reducing the effect of waves and currents; (ii) improvement of water quality by trapping sediments, nutrients and toxic substances; (iii) support to economic activities depending on wetland resources. Other positive outcomes that derive from the implementation of the action plan include : the improvement of knowledge about climate change and its influence on wetland species, habitats and ecosystem functions; the enhancement of environmental awareness and development of information centres. The development and implementation of the adaptation strategy and action plan for the Attica region also contributes to the inter-agency and regional coordination, inter-sectoral collaboration and institutional capacity to address climate change. The development of the adaptation strategy and the action plan for Attica’s wetlands was co-funded by the OrientGate project and national funds with a total of 150.000 Euros. This sum included travel and dissemination expenses. The following project “Improving knowledge and increasing awareness for wetland restoration in the Attica Region” was co-funded with 85% coming from the EEA and Norway grants and with 15% from national funds (Greek Public Investment Programme), with a total budget of about 398.887 Euros. Amongst others, a Road Map (2017) for the implementation of horizontal actions for Attica’s Wetlands as well as measures on 4 water bodies was elaborated within the framework of the above mentioned project. Those water bodies are Vourkari wetland (it has been characterized as Regional Park since 2017), Koumoundourou Lake, the mouth of Pikrodafni stream and the National Park of Scinias According to pre-estimates in this Road Map, the cost of the implementation for these actions/measures was almost 10 million €.",
+    "timeline": "The Strategy and Action Plan were formulated during the OrientGate project: 2012-2014. The first stage of the Attica Wetland Action Plan implementation took five years (2015-2020). The ongoing implementation stage of the Plan is taking place under the new policy framework of the Attica region, within the RePACC and the Operational Program of Attica Region 2021-2027. The new RePACC is considered as the next stage of the Action Plan. It integrated three measures directly linked to Attica Wetlands with implementation horizon up to 2018.",
+    "lifetime": "The original strategy and action plan, formulated within the Orientgate Project, had a lifetime of about six years (2014-2020). The RePACC has a lifetime of 5 years (2022-2027), after that it is expected to be revised. The measures implemented to protect wetlands have an indefinite lifetime.",
+    "stakeholders": "From the beginning of the OrientGate project, Attica Region engaged a wide range of stakeholders and implemented several actions to enhance the awareness on the value of wetlands, also in a climate change context, through media, workshops, training seminars, and information meetings. Thus, the wetland adaptation strategy and plan followed a wide participative process. The Attica Regional Authority drove the entire process and drafted a road map to promote the implementation of the actions of the plan, while the Greek Biotope Wetland Centre provided the scientific support. The collaboration expanded to central, regional and local services and authorities, research agencies, environmental organizations and citizens. Although they participated to a minor extent, they provided their knowledge, experience and practices within the adaptation process. Concerning the actual implementation of the Action Plan, the relevant authorities are the central government for the legislation-related issues and the local administrations (Attica Region and its municipalities) for the implementation of the interventions. For some of the Attica wetlands, which are characterised as Natura 2000 sites, the Management Body of Schinias Marathon National Park, Hymettus and South-East Attica is also a relevant authority for the implementation of the Action Plan At the end of 2014, a training seminar “Adaptation strategy for Attica Wetlands: The assessment of wetland vulnerability index” and an open dissemination event were held. During the seminar, around 30 participants from public services of Attica Region, NGOs, research institutes, and participants from other countries (Serbia and Romania), received hands-on training on the Wetland Vulnerability Indicator assessment methodology. During the dissemination event, around 80 participants received information on the expected increase of Attica wetland vulnerability to drought and on the adaptation action plan. Participants came from local and national authorities, NGOs, research institutions, and stakeholders from other sectors, such as archaeologists. In 2015, Attica Region carried out a satellite event of the Green Week 2015 “Raising support to restore the wetland of Brexiza, in the Region of Attica, Greece”. During this event, almost 90 visitors experienced the biodiversity of Brexiza wetland and the important archaeological site of the Roman great temple of the Egyptian gods. This event opened the dialogue on Brexiza wetland restoration and biodiversity protection and on the implementation of the adaptation action plan for the Attica region. All these events were organized by Attica Region and scientifically supported by the Greek Biotope Wetland Centre. Participants were very much motivated and showed strong interest to increase their knowledge and capacity in order to become capable to take action towards climate change adaptation and wetland conservation. The Attica Region was also one of the main promoter of the project funded under the EEA and Norway grants ( Improving knowledge and increasing awareness for wetland restoration in Attica Region ). The regional government collaborated with other partners such as the Goulandris Natural History Museum - Greek Biotope / Wetland Centre, the Management Body of National Park of Schinias Marathon as well as the donor partner (the Norwegian Institute of Bioeconomy Research -NIBIO). Several public events were organized to demonstrate project findings and results. Other activities of stakeholders participation were done for the preparation of the Regional Plan for the Adaptation to Climate Change ( RePACC ) of Attica which assesses the vulnerability and analyses climate change in several sectors (agriculture, fisheries, forestry, water resources, etc). A video conference in July 2020, specifically focused on the biodiversity sector, including Attica’s wetlands, involving the major public administration stakeholders and the scientists who worked in that area. Attica’s RePACC and its Strategic Environmental Impacts Assessment underwent public consultations and were approved by the authorities. RePACC received final approval by the Regional Council of Attica in December 2022.",
+    "legal_context": "The Attica Wetland Action Plan integrated measures and priority actions which were foreseen by the existing legislation and fall under existing national strategic, policy and programming frameworks, including: The National Operational Plan for the environment (2014-2020), which covers objectives and priority actions for: the water management sector and the implementation of the Water Management Plans; the conservation of nature and biodiversity through better management of the EU Natura 2000 network’s sites; the promotion of ecosystem services and green infrastructures for climate change adaptation based on natural solutions and for the management of flood risk. The national strategy and action programme on biodiversity, which highlights the need for wetland conservation and adaptation to climate change and includes priorities such as delineation, restoration, research on climate change effects on biodiversity and ecosystems, and promotion of “high biodiversity islands” in urban environments as green infrastructures. The national law on biodiversity and in particular the articles that cover the designation of wetlands as protected areas. The Master Plan of Athens/Attica 2021, which lists Attica wetlands (including lakes, rivers, streams and their estuaries, springs, lagoons, and coastal marshes) and covers actions for their legal protection and their promotion as green infrastructures. The River Basin Management Plan-Attica Water District (in the context of the Water Framework Directive implementation), which includes a specific measure for the restoration and promotion of Attica Wetlands. Recently, two concrete measures of the Attica Wetland Action Plan have been integrated in the Regional Plan for Adaptation to Climate Change of Attica ( RePACC, approved on 14 December 2022) and in the Operational Program of Attica Region 2021-2027 (policy target 2 “a greener low carbon transitioning towards zero net carbon economy”). The RePACC is to be revised every 5 years. Municipalities of Attica Region are mobilized to take adaptation actions in the context of their local operational plans."
+  },
   "point": {
     "lat": 38.0221314722,
     "lon": 23.8732910147,
@@ -91,7 +179,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/wetland-adaptation-in-attica-region-greece-1",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:26:27+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

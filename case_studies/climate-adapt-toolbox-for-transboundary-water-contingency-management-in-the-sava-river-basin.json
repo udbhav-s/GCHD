@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
   "title": "Toolbox for transboundary water contingency management in the Sava River Basin",
@@ -68,6 +68,79 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "River Basins Management Plans",
+      "label": "River Basins Management Plans"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Fluvial flooding",
+      "label": "Fluvial flooding"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "transnational coordination",
+      "label": "transnational coordination"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "transnational water managment",
+      "label": "transnational water managment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sava River Basin",
+      "label": "Sava River Basin"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "International waterways",
+      "label": "International waterways"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the implementation of the water contingency management (WACOM) tools, within the Framework Agreement on the Sava River Basin (FASBR), is the improvement of transboundary collaboration across the Sava River Basin and its governance systems, in order to reduce the risks to the environment and public health associated with flooding and accidental pollution. Specific objectives include: To cope with floodings and accidental pollution at the source of the issues rather than further downstream in another jurisdiction; To improve information exchange and coordination of upstream and downstream flood and pollution response mechanisms and as such improve their efficiency and effectiveness; To connect countries and sectors involved in water-related disaster management, water management, and navigation; To identify and involve key target actors to increase awareness and improve the protection of waterways, flood prone zones, infrastructure, livelihoods and human health.",
+    "measures": "The International Sava River Basin Commission ( ISRBC ) facilitated, as part of its Framework Agreement on the Sava River Basin ( FASRB ), the development and implementation of a solution toolbox to support transboundary cooperation on water resource management. The toolbox of solutions addresses three components key to water contingency management, i.e., situational awareness, communication, and forecasting. The toolbox acknowledges the diversity in potential responses to water disasters and in the actors involved, and includes (i) a real-time knowledge sharing platform to coordinate the response to transboundary accidents, (ii) a GIS-based model of the entire river basin showing real-time and hypothetical flooding and pollution, and (iii) a best practices catalogue for use of the developed set of tools in disaster management: The transnational incident coordination tool [1] is an online, centralised reporting system, enabling real-time, efficient and effective communication and knowledge sharing between stakeholders. The system enables stakeholders involved in mitigating a transboundary flood or pollution incident to document all personnel assignments and actions in a single database. The tool follows the Incident Command System standards for crisis management developed as part of the USA’s National Incident Management System ( ICS/NIMS ). In case of an event, stakeholders submit activity reports to a database that integrates all information on the incident, i.e., all ‘ activated headquarters ’ and people involved in the disaster response, contact numbers, and which actions they take. The transnational situational awareness tool integrates dynamic information from different government levels and authorities that are responsible for managing a flood or pollution event. This tool supplements the transnational incident coordination tool with additional background information and a snapshot of significant incidents. Authorities supply information about an event via a common reporting template to inform on different measures taken and to identify actions that require transnational coordination. The transnational modelling tool is a GIS-based mapping tool [2] designed to assist emergency management in the area of the Sava River and many of its major tributaries. The tool can predict, for example, pollution distribution based on actual discharges in the Sava River. The prediction model can display how long an oil spill will take to reach downstream areas until up to over a month in advance, depending on the location and water flow. This facilitates planning by civil protection authorities and enables them to plan and intervene at the earliest stage possible. The best practices catalogue contains almost 100 guidelines on the use of the tools (i and ii). Two strategies, one for flood responses and one for accidental pollution responses, accompany the guidelines. They outline the rationale for implementing the proposed toolbox and the different procedures related to coordination, modelling, and situational awareness. The catalogue was compiled and verified by experts in water management and civil protection as well as stakeholders involved in risk management in the Sava River Basin. The large cooperation framework of the ISRBC, which’ foundations were already laid in 2002, facilitated international collaboration to design, deliver and implement the toolbox. The WACOM Interreg project within the Danube area Transnational cooperation Programme 2021-2027 enabled the development of the tools. [1] Early 2024, the procedural framework for the use of the incident coordination tool was still under adoption by the working bodies of the ISRBC. [2] The model is partially based on the pre-existing SAVA GIS tool from the International Sava River Basin Commission (ISRBC) and the Sava Flood Forecasting Warning System (FFWS)",
+    "outcomes": "The success of the toolbox in preventing societal and environmental impacts from flooding and pollution events is driven by the international collaboration between many stakeholders committed to a common risk management approach. Strong stakeholder involvement, facilitated by the existence of an established, large collaboration framework, i.e., the International Save River Basin Commission ( ISRBC ), ensured a shared, clear vision for the tool, its inputs and its implementation steps, which contributed to its success. Since 2023, successful implementation of the tools and strategies is being monitored annually via indicators that describe the status and progress in flood and pollution risk reduction in 14 key areas of intervention [1] . Barriers include the transboundary usage of the toolbox, which involves stakeholders from several Sava River Basin countries, who speak different languages and have different national backgrounds. The final products and tools are developed in English, which may create a barrier for uptake in a national context where stakeholders speak a different language. Further, the shift from existing national procedures for incident management to a common, transnational framework posed challenges to some national stakeholders. For example, during the severe flood event in Slovenia in August 2023, an estimated 300 headquarters were activated in the country. However, not all stakeholders were well acquainted with the toolbox to allow for a general implementation of the tools and strategies, which could have supported more efficient communication and implementation of uniform responses. [1] The key areas of intervention include education, finance, governance, human resources, ICT, supervision, information, infrastructure, knowledge, logistics, organisational, planning, navigation, and miscellaneuous.",
+    "cost_benefit": "The role of the toolbox and its implementation strategy in improving resilience and protecting people and the environment from flooding and pollution was tested during the 2023 floods in Slovenia. Agencies and stakeholders who had been involved in the evaluation of the toolbox and knew how to apply it, successfully used the tools for flood preparedness response activities, and confirmed their functionality and value. Still, a wider implementation could further improve communication between several headquarters and the efficiency and effectiveness of actions. The toolbox development cost was just over EUR 2.9 million. The costs were funded by the Interreg Danube Transnational Programme , co-financed by other EU funds, as part of the WACOM project . Further spending is needed for maintenance of the prediction model (2 person-months per year with every 5 years an additional 6 months for substantial ICT upgrades); day-to-day management and maintenance of the coordination tool by an administrator; and training of the authorities who will use the tools (half a day per (online) training session).",
+    "timeline": "The toolbox was developed over the course of 1.5 years, between July 2020 and December 2022. After development, in 2023, the ISRBC implemented the transnational modelling tool. The full implementation of the coordination and situational awareness tool, which is connected to the adoption of the ISRBC Emergency Situation Protocol for the Sava River Basin, is ongoing in 2024. The adoption of best practices in the different countries is continuously expanding.",
+    "lifetime": "The toolbox is currently partially operational, with the modeling tool for accidental oil spills and dispersion prediction actively used by the Slovenian Civil Protection (URSZR), while discussions are underway regarding the implementation of the remaining component. The toolbox is foreseen to be kept active and maintained for at least 10 years. The tools are expected to remain relevant for authorities and other stakeholders managing disaster risks as climate change projections show an increased likelihood of flooding in the Sava River Basin. Given the climate sensitive nature of this landscape, transboundary collaboration is increasingly necessary for adequate disaster management so to reduce the risks to human and environmental health, livelihoods, and infrastructure.",
+    "stakeholders": "The development of the toolbox and associated strategy of use involved stakeholders from the countries that are part of the International Sava River Basin Commission (ISRBC), including Bosnia and Herzegovina, Croatia, Serbia, and Slovenia. Stakeholders included public authorities, researchers and private sector stakeholders, and represented different fields of expertise including disaster risk and water management, civil protection, and navigation. All institutions responsible for civil protection, water management and navigation, and involved in the management of flooding and accidental pollution emergencies in the Sava River are also mapped in an extensive database. Stakeholders collaborated in discussions at national, in-person and online workshops to define, structure, develop, evaluate and validate the tools. Transboundary ‘tabletop exercises’, including a disaster scenario, were organized to test and validate the usability of the toolbox, train stakeholders and build collaborative relations. Finally, stakeholder communication workshops aimed at disseminating the toolbox and increasing awareness on the need for transboundary collaboration were held. The existing International Sava River Basin Commission ( ISRBC ) formed a strong basis for facilitating stakeholder engagement and collaboration.",
+    "legal_context": "The Framework Agreement on the Sava River basin ( FASRB ) was established for the sustainable development of the region through transboundary water cooperation. The Parties to the FASRB [1] (Bosnia and Herzegovina, Croatia, Serbia, Slovenia) were obliged to establish a coordinated system of measures, activities, warnings, and alarms to manage the transboundary landscape and adverse consequences of flooding. The International Sava River Basin Commission ( ISRBC ) was established to implement the FASRB, and to facilitate cooperation between the Parties to the FASRB on matters relating to the Sava River Basin. The ISRBC facilitates maintenance of components of the toolbox. In implementing the FASRB, the Parties have already agreed upon four protocols [2] , among which of direct relevance for transboundary water contingency management are the Protocol on Prevention of Water Pollution Caused by Navigation and the Protocol on Flood Protection . The Protocol on Emergency Situations is subject to national procedures in 2024 prior to its finalization and adoption. The Protocols formulate the basis for the implementation of the toolbox. The developed tools and strategy contributed to the Sava Floods and Accidental Pollution Declaration (Sava FAP Declaration) and the Strategies for Emergency Response in the Sava River Basin ( Sava STEER ), governed by the ISRBC. [1] Albania and Montenegro are no parties to the Framework Agreement on the Sava River Basin (FASRB) because Albania covers only a few square kilometres of the Sava River Basin; whereas Montenegro has not completed the procedure for full membership in the International Sava River Basin Commission (ISRBC) after it became independent in 2006, but the country’s representatives actively participate in all technical bodies of the ISRBC. [2] The four Protocols also include the Protocol on Navigation regime and the Protocol on Sediment Management."
+  },
   "point": {
     "lat": 46.0500268,
     "lon": 14.5069289,
@@ -102,7 +175,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/toolbox-for-transboundary-water-contingency-management-in-the-sava-river-basin",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:25:49+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

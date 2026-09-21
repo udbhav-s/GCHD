@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
   "title": "Flood protection in the Upper Vistula river basin: grey and green measures implemented in the Sandomierz area",
@@ -38,6 +38,99 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green measure",
+      "label": "Green measure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sandomierz",
+      "label": "Sandomierz"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "reservoir",
+      "label": "reservoir"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water pump",
+      "label": "water pump"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "renaturalisation",
+      "label": "renaturalisation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "embankment",
+      "label": "embankment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Vistula",
+      "label": "Vistula"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the adaptation measures implemented in the Sandomierz area is to increase the retention capacity and to reduce flood risk in and around this town, also in light of future climate change. Other objectives that were considered in the design of the solutions are: protection of public health and safety, biodiversity conservation, environmental objectives with regard to water quality, protection of soil, landscape and cultural heritage protection, and economic prosperity.",
+    "measures": "The adopted solution to reduce flood risk and to improve flood protection in the area of Sandomierz is a hybrid and integrated approach of green and grey infrastructure measures, including some institutional measures as well. These solutions were designed within the scope of the Vistula River Management Basin Plans, which are part of the implementation of the European Water Framework Directive and the European Flood Directive. Renaturalization of reservoirs and wetland restauration are considered green measures to reduce exposure of people to flooding. These adaptation measures are implemented in 15 locations along the Upper Vistula River and aim to increase the controlled water retention capacity of the area. Indeed, naturalized reservoirs and restored wetlands are used to capture the surplus of river water and therefore to reduce the risk of flooding. These green measures are combined with grey ones: expansion, reconstruction and modernization of river embankments, specifically aimed to further protect urbanized areas from flooding reducing the risk of water overflow. The existing embanked area is enlarged to include the entire area that can be flooded during high water levels. Moreover embankments are raised up to a maximum elevation of 1.4 m, ensuring that embankment crowns along both river banks are adapted to the same safety level. Modernization intervention includes also the (re)construction of water pump stations and water discharge channels, that help to discharge the water in excess.",
+    "outcomes": "One of the major drivers for the implementation of the flood protection measures was the direct experience of local communities being affected by recent floods (2010 and 2011). This has contributed to increase the sense of urgency for the implementation of measures contributing to cope with the flooding challenges. The EU Water Framework and the Flood Directives also played an important role in initiating the integrated process aiming to reduce the flood risk. As alternative to traditional measures, these Directives have been also relevant in promoting green measures aiming to increase the retention capacity of the area while respecting their natural values. During construction the natural value of the area had to be maintained. Therefore, the impact on natural habitats and habitats of species for community interest, according to Natura 2000 policies, had to be monitored. Another factor affecting the measure implementation is changes in land entitlement that had to be organised in order to expand the embankments.",
+    "cost_benefit": "The total cost of the adaptation measures implemented in the Sandomierz area is about EUR 217 million. This includes costs incurred to implement the expansion, reconstruction and modernisation of the river embankments (grey measures) as well as the renaturalisation of reservoirs and wetland restauration (green measures), including the needed land purchases. Funds for implementing these measures were requested and received from the World Bank. The avoided flood damage to buildings (5,632 buildings in total) was estimated to be about EUR 445 million in constant values. Taking into account only this estimate, and therefore not considering impacts on people, the benefit-cost ratio is 2.05, implying that expected benefits are at least approximately twice larger than costs (DHI Polska, 2013, Raport z opracowania programu działań dla Regionu Wodnego Górnej Wisły, Report KZGW/ DpiZE-op/POPT/1/2013, DHI Polska, Warsaw, Poland; EEA, 2017 ).",
+    "timeline": "The design of the plan originates from 2011, during the process of elaboration of the 1 st River Basin Management Plan. The plan, including the measures was finalized in 2015. Implementation of the described measures is currently taking place and is expected to be completed by 2019.",
+    "lifetime": "The green and grey infrastructures are expected to be permanent if proper maintenance is provided.",
+    "stakeholders": "The design of the adaptation measures is under the competence of the core organisations acting within the river basin of the Upper Vistula: the Regional Water Management authorities of Krakow, Kielce and Rzeszow. These authorities worked closely together with local ones. The green and grey adaptation measures were designed within the scope of the River Basin Management Plans (RBMP) elaborated according to the WFD and the Flood Directive and therefore have been part of the related stakeholder consultation process. Stakeholders have been involved via the informal Public Participation Committee of the Water Management Council. The 20 members of this Committee are elected representatives of various interest groups, like local government authorities, agriculture, fisheries, other economic sectors and ecological organizations as well as water users and water managers. This informal Committee disseminated information about the RBMP to the participating organisations and other interested parties, which had the opportunity to express opinions on draft plans. Stakeholders and citizens could provide input via a first questionnaire to identify the main issues related to flooding characterizing the area. A second questionnaire was aimed to gather input on potential solutions. In addition, seminars and public meetings were organised in the period 2008 – 2009.",
+    "legal_context": "The adaptation measures have been implemented within the scope of the EU Water Framework and Flood Directives that are both transposed into the national Water Law. The implementation of the adaptation measures required the application of the due procedures of environmental impact assessment. The formulation of mitigating measures to prevent environmental and social impacts is in particular important within the scope of the received World Bank funding for construction."
+  },
   "point": {
     "lat": 50.6773163267,
     "lon": 21.7886352539,
@@ -67,7 +160,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/flood-protection-in-the-upper-vistula-river-basin-grey-and-green-measures-implemented-in-the-sandomierz-area",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:20:31+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],

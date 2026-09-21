@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "id": "climate-adapt-agroforestry-agriculture-of-the-future-the-case-of-montpellier",
   "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/agroforestry-agriculture-of-the-future-the-case-of-montpellier",
   "title": "Agroforestry: agriculture of the future? The case of Montpellier",
@@ -47,6 +47,89 @@
       ]
     }
   ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "food production",
+      "label": "food production"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wheat",
+      "label": "wheat"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Montpellier",
+      "label": "Montpellier"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "walnut trees",
+      "label": "walnut trees"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective is to make the Montpellier agricultural systems more resilient to the effects of climate change, such as increasing temperatures, droughts, water and biotic stresses, and more extreme events.",
+    "measures": "Agroforestry is the combination of trees and crops cultivation. The agroforestry scheme adopted in Montpellier, within the SAFE project, is a combination of walnut trees and wheat cultivation. Agroforestry provides a different land use option, compared with separated traditional arable and forestry systems and optimizes the benefits from the biological interactions created when trees and crops are combined. The complementarity between trees and crops allows a more effective exploitation of the available resources. Agroforestry helps to better control soil erosion and increases the sustainability and resilience of agriculture. It is a practice that respects the environment and has an obvious landscape benefit. The agroforestry plot remains productive for the farmer and generates continuous revenue, which is not the case when arable land is exclusively reforested. Agroforestry then allows for the diversification of farm activity and makes better use of environmental resources. In addition, over time, agroforestry farms can become less dependent on crop subsidies, and less susceptible to crop price variations, as timber generates a significant part of their income. The amenity value of silvoarable parklands in the near future may also be a valuable asset to farm enterprises.",
+    "outcomes": "SAFE project provided models and databases for assessing the profitability of silvoarable systems, and suggested policy guidelines for implementing agroforestry. In particular SAFE developed biophysical and socio-economic tools to inform farmers and policy-makers of the potential for silvoarable agroforestry to contribute to the integrated and sustainable development of European rural areas. The knowledge developed during the SAFE Project, provided opportunities for farmers to improve their competitiveness.",
+    "cost_benefit": "The agroforestry systems are usually profitable systems. What is costly is the agroforestry transition, which takes time and which must be supported. Agroforestry schemes are a long term investment. It takes some time until trees mature and provide the expected functions and benefits. Main benefits can be summarized as follow: INRA showed that the production from one hectare of a walnut/wheat mix is the same as for 1.4 hectares with trees and crops separated (corresponding to a 40% increase in productivity). Agroforestry is less vulnerable to climate change. Trees provide shelter to crops and reduce damages due to high spring temperature. Biodiversity is increased since it creates a diverse habitat where wildlife species can live. It also acts in controlling pests and enhancing pollination. Farmers can diversify their products, increase their income and improve soil and water quality, reduce (wind) erosion and prevent damage due to flooding. Soil and water quality is improved, so preventing from erosion. Agroforestry plays a role in maintaining land for future generation. Properly designed and managed agroforestry systems may help to increase the sequestration of atmospheric carbon, improve soil quality and soil conservation.",
+    "timeline": "In Montpellier, the agroforestry scheme has been implemented for 20 years.",
+    "lifetime": "Agroforestry is a long-term adaptation measure.",
+    "stakeholders": "Several stakeholder organisations from France, The Netherlands, and Greece were involved in the SAFE project. In France, APCA (the national chamber of Agriculture in France) was responsible for the establishment of a network of agroforestry system demonstration plots that is now a very efficient tool for agroforestry extension. Most stakeholders organisations involved in the SAFE project were involved in coordinating other R&D agroforestry projects in Spain, Germany, England, Belgium, and the Netherlands.",
+    "legal_context": "Agroforestry is defined in Article 23 of Regulation 1305/2013 of the CAP (2014-2020). There are 23 Rural Development Programme (RDP) measures that can support agroforestry on either agricultural on forest land."
+  },
   "point": {
     "lat": 43.6122167668,
     "lon": 3.88366699203,
@@ -71,7 +154,7 @@
     "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/agroforestry-agriculture-of-the-future-the-case-of-montpellier",
     "source_content_type": "eea.climateadapt.casestudy",
     "source_modified": "2026-08-25T08:18:57+00:00",
-    "extracted_by": "scrape_climate_adapt.py@1.0"
+    "extracted_by": "scrape_climate_adapt.py@1.1"
   },
   "sdgs": [],
   "indicators_measured": [],
