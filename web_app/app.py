@@ -86,6 +86,7 @@ HAZARD_LABELS = {
     "armed_conflict": "Armed conflict",
 }
 CASE_STUDY_PAGE_SIZE = 20
+CONTEXT_CASE_STUDY_LIMIT = 12
 EMPTY_FEATURE_COLLECTION = {"type": "FeatureCollection", "features": []}
 CASE_STUDY_JS = Namespace("gchd", "caseStudies")
 
@@ -643,6 +644,35 @@ def _case_study_card(study):
     )
 
 
+def _context_case_study_card(study):
+    """Compact card used beside the map while a hazard/exposure layer is open."""
+    sdgs = list(study.get("sdgs", []))
+    tags = [_case_study_sdg_tag(sdg) for sdg in sdgs[:5]]
+    if len(sdgs) > 5:
+        tags.append(_case_study_tag(f"+{len(sdgs) - 5}", "region"))
+    tags.extend(
+        _case_study_tag(HAZARD_LABELS.get(hazard, _layer_label(hazard)), "hazard")
+        for hazard in study.get("hazards", [])[:3]
+    )
+    locations = list(study.get("location_labels", []))
+    tags.extend(_case_study_tag(label, "region") for label in locations[:2])
+    if len(locations) > 2:
+        tags.append(_case_study_tag(f"+{len(locations) - 2} regions", "region"))
+    return html.Div(
+        [
+            html.Div(study["title"], className="context-case-study-title"),
+            html.Div(study["summary"], className="context-case-study-summary"),
+            html.Div(tags, className="case-study-tags"),
+        ],
+        id={"type": "context-case-study-card", "index": study["id"]},
+        className="context-case-study-card",
+        n_clicks=0,
+        title="Zoom to this case study",
+        role="button",
+        tabIndex=0,
+    )
+
+
 def tab_case_studies():
     return html.Div(id="tab-case-studies", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
@@ -814,6 +844,20 @@ def map_component():
                 ),
             ],
             style={"height": "100vh", "width": "100%"},
+            trackViewport=True,
+        ),
+        html.Div(
+            id="context-case-study-panel",
+            className="context-case-study-panel",
+            style={"display": "none"},
+            children=[
+                html.Div(className="context-case-study-header", children=[
+                    html.Div(id="context-case-study-title", className="context-case-study-heading"),
+                    html.Div(id="context-case-study-subtitle", className="context-case-study-subtitle"),
+                ]),
+                html.Div(id="context-case-study-count", className="context-case-study-count"),
+                html.Div(id="context-case-study-list", className="context-case-study-list"),
+            ],
         ),
     ])
 
@@ -1188,6 +1232,121 @@ def _case_study_feature_collection(studies):
     }
 
 
+def _bounds_from_viewport(viewport):
+    """Read Leaflet's [[south, west], [north, east]] bounds safely."""
+    if isinstance(viewport, dict):
+        viewport = viewport.get("bounds")
+    if not isinstance(viewport, (list, tuple)) or len(viewport) < 2:
+        return None
+    try:
+        south, west = float(viewport[0][0]), float(viewport[0][1])
+        north, east = float(viewport[1][0]), float(viewport[1][1])
+    except (TypeError, ValueError, IndexError):
+        return None
+    return (min(south, north), max(south, north), west, east)
+
+
+def _longitude_intervals(west, east):
+    if west <= east:
+        return [(west, east)]
+    return [(west, 180.0), (-180.0, east)]
+
+
+def _study_in_viewport(study, viewport):
+    """Return true when a mapped study region intersects the visible map."""
+    bounds = _bounds_from_viewport(viewport)
+    if not bounds:
+        return bool(study.get("map_point"))
+    south, north, west, east = bounds
+    study_bounds = study.get("map_bounds")
+    if study_bounds and len(study_bounds) >= 2:
+        try:
+            ssouth, swest = float(study_bounds[0][0]), float(study_bounds[0][1])
+            snorth, seast = float(study_bounds[1][0]), float(study_bounds[1][1])
+            if snorth < south or ssouth > north:
+                return False
+            viewport_intervals = _longitude_intervals(west, east)
+            study_intervals = _longitude_intervals(swest, seast)
+            return any(
+                max(left, swest) <= min(right, seast)
+                for left, right in viewport_intervals
+                for swest, seast in study_intervals
+            )
+        except (TypeError, ValueError, IndexError):
+            pass
+    point = study.get("map_point")
+    if not point or len(point) < 2:
+        return False
+    try:
+        lat, lon = float(point[0]), float(point[1])
+    except (TypeError, ValueError):
+        return False
+    return south <= lat <= north and any(left <= lon <= right for left, right in _longitude_intervals(west, east))
+
+
+def _context_hazards(active_tab, selected_layer, exposure_topic):
+    if active_tab == "hazard":
+        if not selected_layer:
+            return None, None
+        if selected_layer in ("Multi Hazard Count", "Multi Hazard Intensity"):
+            return set(hazard_taxonomy.HAZARDS), "All linked hazards"
+        hazards = hazard_taxonomy.hazards_for_layers([selected_layer])
+        # Reference layers (for example population) are not tied to a hazard;
+        # keep the contextual panel hidden for those selections.
+        return (hazards or None), _layer_label(selected_layer)
+    if active_tab == "exposure" and exposure_topic:
+        hazards = hazard_taxonomy.TOPIC_TO_HAZARDS.get(exposure_topic, set())
+        return (hazards or None), exposure_topic
+    return None, None
+
+
+def _matching_context_case_studies(active_tab, selected_layer, exposure_topic, viewport=None):
+    """Return mapped studies relevant to the active hazard/exposure view."""
+    hazards, label = _context_hazards(active_tab, selected_layer, exposure_topic)
+    if hazards is None:
+        return [], label
+    return [
+        study for study in CASE_STUDIES
+        if study.get("map_point")
+        and bool(set(study.get("hazards", [])).intersection(hazards))
+        and _study_in_viewport(study, viewport)
+    ], label
+
+
+@app.callback(
+    Output("context-case-study-panel", "style"),
+    Output("context-case-study-title", "children"),
+    Output("context-case-study-subtitle", "children"),
+    Output("context-case-study-count", "children"),
+    Output("context-case-study-list", "children"),
+    Input("store-tab", "data"),
+    Input("store-hazard-layer", "data"),
+    Input("store-exposure-topic", "data"),
+    Input("main-map", "viewport"),
+    Input("store-bounds", "data"),
+)
+def update_context_case_studies(active_tab, selected_layer, exposure_topic, viewport, selected_bounds):
+    hazards, label = _context_hazards(active_tab, selected_layer, exposure_topic)
+    hidden = {"display": "none"}
+    if hazards is None:
+        return hidden, "", "", "", []
+
+    view = viewport or selected_bounds
+    matching, _ = _matching_context_case_studies(
+        active_tab, selected_layer, exposure_topic, view
+    )
+    matching.sort(key=lambda study: study.get("title", "").casefold())
+    cards = [_context_case_study_card(study) for study in matching[:CONTEXT_CASE_STUDY_LIMIT]]
+    if not cards:
+        cards = [html.Div(
+            "No mapped case studies match this hazard in the visible map area.",
+            className="context-case-study-empty",
+        )]
+    shown = min(len(matching), CONTEXT_CASE_STUDY_LIMIT)
+    count = f"Showing {shown} of {len(matching)} mapped studies in view"
+    return {"display": "flex"}, "Related case studies", f"{label} · current map view", count, cards
+
+
 @app.callback(
     Output("case-study-page", "data"),
     Input("case-study-prev-page", "n_clicks"),
@@ -1280,9 +1439,18 @@ def describe_region_lock(region_lock, clicked_ucode, clicked_name, country_name)
     Input("store-clicked-ucode", "data"),
     Input("store-ucode", "data"),
     Input("store-tab", "data"),
+    Input("store-hazard-layer", "data"),
+    Input("store-exposure-topic", "data"),
+    Input("main-map", "viewport"),
 )
 def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode,
-                              region_lock, clicked_ucode, map_country_ucode, active_tab):
+                              region_lock, clicked_ucode, map_country_ucode, active_tab,
+                              selected_layer, exposure_topic, viewport):
+    if active_tab in ("hazard", "exposure"):
+        studies, _ = _matching_context_case_studies(
+            active_tab, selected_layer, exposure_topic, viewport
+        )
+        return _case_study_feature_collection(studies)
     if active_tab != "case-studies":
         return EMPTY_FEATURE_COLLECTION
     region = _selected_map_region(region_lock, clicked_ucode, map_country_ucode)
@@ -1296,6 +1464,21 @@ def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode,
     prevent_initial_call=True,
 )
 def zoom_to_case_study(card_clicks):
+    triggered = ctx.triggered_id
+    if not triggered or not any(card_clicks or []):
+        return no_update
+    study = CASE_STUDY_BY_ID.get(triggered.get("index"))
+    if not study or not study.get("map_bounds"):
+        return no_update
+    return {"bounds": study["map_bounds"], "transition": "fitBounds"}
+
+
+@app.callback(
+    Output("main-map", "viewport", allow_duplicate=True),
+    Input({"type": "context-case-study-card", "index": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def zoom_to_context_case_study(card_clicks):
     triggered = ctx.triggered_id
     if not triggered or not any(card_clicks or []):
         return no_update
