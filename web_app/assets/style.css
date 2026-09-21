@@ -305,6 +305,25 @@ body {
   text-transform: uppercase; letter-spacing: 0.08em;
 }
 .selected-badge-name { font-size: 0.82rem; font-weight: 600; color: var(--hi); margin-top: 2px; }
+.selected-badge-code { font-size: 0.67rem; color: var(--mid); margin-top: 2px; font-family: monospace; }
+
+.code-lookup-row { display: flex; gap: 6px; }
+.code-lookup-input {
+  min-width: 0; flex: 1; padding: 8px 9px;
+  background: var(--panel-h); color: var(--hi);
+  border: 1px solid var(--border2); border-radius: 6px;
+  font-family: monospace; font-size: 0.72rem; outline: none;
+}
+.code-lookup-input:focus { border-color: var(--cyan); }
+.code-lookup-btn {
+  padding: 8px 12px; background: var(--cyan); color: white;
+  border: none; border-radius: 6px; cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif; font-size: 0.75rem; font-weight: 600;
+}
+.code-lookup-btn:hover { opacity: 0.85; }
+.code-lookup-status { min-height: 1em; margin-top: 6px; font-size: 0.68rem; color: var(--mid); }
+.code-lookup-status.error { color: var(--red); }
+.code-lookup-status.success { color: #16835d; }
 
 /* ── Embargo strip ── */
 .embargo-strip {

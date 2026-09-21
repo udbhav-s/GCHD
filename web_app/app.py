@@ -5,20 +5,21 @@
 import os
 import re
 import json as _json
+from urllib.parse import urlencode
 
 import dash
 from dash import dcc, html, Input, Output, State, ctx, no_update, ALL
 import dash_leaflet as dl
 import plotly.graph_objects as go
+from dotenv import load_dotenv
 
 import json as _json_mod
 
 from config import (
     HAZARD_TOPICS, TOPIC_COLORS, ADMIN_DATA,
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
-    MHC_OPTIONS, MHI_OPTIONS, HAZARD_INFO,
+    MHC_OPTIONS, MHI_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
 )
-from ai_core import initialize_ai, ask_gemini
 from auth import request_otp, verify_otp, SESSION_HOURS
 from gee_core import (
     initialize_gee, build_core_images,
@@ -26,15 +27,22 @@ from gee_core import (
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
     get_pixel_score_tile_url, get_pixel_score_percentile_tile_url,
-    get_hazard_tile_url, get_admin_boundary_tile_url, get_selected_feature_tile_url,
+    get_hazard_tile_url,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
-    get_feature_at_point, compute_exposure, compute_topic_overlap,
+    get_feature_at_point, get_feature_by_ucode,
+    compute_exposure, compute_topic_overlap,
+)
+from georepo_core import (
+    ATTRIBUTION as GEOREPO_ATTR,
+    get_boundary_collection,
+    get_feature_by_ucode as get_local_feature_by_ucode,
 )
 
 # ---------------------------------------------------------------------------
 # GEE init (once at server start)
 # ---------------------------------------------------------------------------
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 initialize_gee()
 build_core_images()
 
@@ -42,17 +50,28 @@ build_core_images()
 # Static data
 # ---------------------------------------------------------------------------
 COUNTRY_NAMES  = get_country_names()
-initialize_ai(COUNTRY_NAMES)
 UN_CLEARMAP    = "https://geoservices.un.org/arcgis/rest/services/ClearMap_WebTopo/MapServer/tile/{z}/{y}/{x}"
-CARTO_FALLBACK = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-GEE_ATTR       = "Google Earth Engine / UNICEF"
+CARTO_API_KEY  = os.environ.get("CARTO_API_KEY", "").strip()
+CARTO_BASE_URL = "https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}{r}.png"
+CARTO_FALLBACK = (
+    f"{CARTO_BASE_URL}?{urlencode({'key': CARTO_API_KEY})}"
+    if CARTO_API_KEY else CARTO_BASE_URL
+)
+GEE_ATTR       = "Google Earth Engine public data catalog"
 UN_ATTR        = "© United Nations Geospatial"
 CARTO_ATTR     = "© OpenStreetMap contributors © CARTO"
 TOPIC_LIST     = list(HAZARD_TOPICS.keys())
 
+
+def ask_gemini(_query):
+    raise RuntimeError("AI functionality is disabled in public-data mode.")
+
 # Ordered layers for the hazard list
-MH_LAYERS  = ["Multi Hazard Count", "Multi Hazard Intensity"]
-HAZ_LAYERS = [h["name"] for h in HAZARDS if h["name"] != "Pixel Based Hazard Score"]
+MH_LAYERS  = ["Multi Hazard Count"]
+HAZ_LAYERS = list(dict.fromkeys(
+    [name for names in HAZARD_TOPICS.values() for name in names]
+    + REFERENCE_LAYERS
+))
 ALL_LAYERS = MH_LAYERS + HAZ_LAYERS   # order matches pattern-match order in layout
 
 
@@ -106,12 +125,13 @@ def _fmt(v):
 # Layout helpers
 # ---------------------------------------------------------------------------
 
-def nav_btn(icon_cls, label, btn_id, active=False):
+def nav_btn(icon_cls, label, btn_id, active=False, hidden=False):
     return html.Button(
         [html.I(className=icon_cls), html.Span(label, className="nav-label")],
         id=btn_id,
         className="nav-btn active" if active else "nav-btn",
         n_clicks=0,
+        style={"display": "none"} if hidden else None,
     )
 
 
@@ -153,9 +173,9 @@ def sidebar():
         html.Div(className="sb-nav", children=[
             nav_btn("bi bi-layers",        "Layers",   "btn-hazard",   active=True),
             nav_btn("bi bi-people",        "Exposure", "btn-exposure"),
-            nav_btn("bi bi-stack",         "Multi HZ", "btn-mh"),
+            nav_btn("bi bi-stack",         "Multi HZ", "btn-mh", hidden=True),
             nav_btn("bi bi-bar-chart-line","Analysis", "btn-analysis"),
-            nav_btn("bi bi-robot",         "AI",       "btn-ai"),
+            nav_btn("bi bi-robot",         "AI",       "btn-ai", hidden=True),
         ]),
     ])
 
@@ -234,6 +254,9 @@ def tab_hazard_layers():
         else:
             items.extend(layer_divs)
 
+    items.append(html.Div("Reference data", className="layer-section-header"))
+    items.extend(_layer_item(name) for name in REFERENCE_LAYERS)
+
     return html.Div(id="tab-hazard", children=[
         html.Div(className="ph", children=[
             html.Div("Hazard Layers", className="ph-title"),
@@ -260,15 +283,15 @@ def tab_exposure():
     ]
     return html.Div(id="tab-exposure", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
-            html.Div("Children's Exposure", className="ph-title"),
-            html.Div("Population exposed to each hazard topic", className="ph-sub"),
+            html.Div("Population Exposure", className="ph-title"),
+            html.Div("2020 population exposed to each public hazard layer", className="ph-sub"),
         ]),
         html.Div(topics),
         html.Div(className="exposure-method-note", children=[
             html.Div("Methodology", className="hi-label", style={"marginBottom": "6px"}),
             html.P(
-                "All exposure estimates use WorldPop's global gridded children population "
-                "estimate (under 18) for 2025 at 100 m spatial resolution.",
+                "Exposure estimates use WorldPop's 2020 UN-adjusted global population "
+                "grid at approximately 100 m spatial resolution.",
                 className="exposure-method-p",
             ),
             html.P(
@@ -276,8 +299,7 @@ def tab_exposure():
                 "and meteorological drought), hazard coverage is first computed independently "
                 "for each layer at its own threshold. An OR union is then applied across "
                 "layers to derive the combined topic footprint, which is subsequently "
-                "overlaid with the WorldPop under-18 grid to estimate the number of "
-                "children exposed.",
+                "overlaid with the WorldPop grid to estimate the population exposed.",
                 className="exposure-method-p",
             ),
         ]),
@@ -353,7 +375,7 @@ def tab_analysis():
     return html.Div(id="tab-analysis", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
             html.Div("Exposure Analysis", className="ph-title"),
-            html.Div("Compute children exposed by admin region", className="ph-sub"),
+            html.Div("Compute population exposed by admin region", className="ph-sub"),
         ]),
         # ── Sub-tab switcher ──
         html.Div(className="analysis-sub-tabs", children=[
@@ -385,6 +407,21 @@ def tab_analysis():
                 ]),
             ]),
             html.Div(id="compute-section", style={"display": "none"}),
+            html.Div(id="adm2-code-lookup", className="ps",
+                     style={"display": "none"}, children=[
+                html.Div("Find district by ADM2 region code", className="ps-label"),
+                html.Div(className="code-lookup-row", children=[
+                    dcc.Input(
+                        id="adm2-code-input", className="code-lookup-input",
+                        type="text", debounce=False,
+                        placeholder="e.g. THA_0056_0005_V1",
+                        autoComplete="off",
+                    ),
+                    html.Button("Find", id="adm2-code-find-btn",
+                                className="code-lookup-btn", n_clicks=0),
+                ]),
+                html.Div(id="adm2-code-status", className="code-lookup-status"),
+            ]),
             html.Div(id="selected-badge-wrap"),
             dcc.Loading(
                 id="results-loading", type="circle", color="#1CABE2",
@@ -567,8 +604,8 @@ def map_component():
         dl.Map(
             id="main-map",
             center=[10, 20], zoom=1, zoomControl=False,
-            minZoom=3,
-            maxBounds=[[-50, -180], [60, 180]],
+            minZoom=2,
+            maxBounds=[[-90, -180], [90, 180]],
             maxBoundsViscosity=1.0,
             children=[
                 dl.TileLayer(
@@ -730,7 +767,7 @@ def _login_page():
 # ---------------------------------------------------------------------------
 app.layout = html.Div(id="app-root", children=[
     # ── Stores ──
-    dcc.Store(id="store-embargo",       storage_type="session", data=False),
+    dcc.Store(id="store-embargo",       storage_type="session", data=True),
     dcc.Store(id="store-tab",           data="hazard"),
     dcc.Store(id="store-hazard-layer",  data=None),
     dcc.Store(id="store-exposure-topic",data=None),
@@ -744,7 +781,7 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-last-click",    data=None),
 
     # ── Embargo gate ──
-    html.Div(id="embargo-gate", children=[
+    html.Div(id="embargo-gate", style={"display": "none"}, children=[
         html.Div(className="embargo-card", children=[
             html.Div("UNICEF CCRR — Data Access", className="embargo-tag"),
             html.Div("Official Data Release Policy", className="embargo-title"),
@@ -1102,6 +1139,16 @@ def update_map_cursor(level):
     return "map-clickable" if level and level != "adm0 (Country)" else ""
 
 
+@app.callback(
+    Output("adm2-code-lookup", "style"),
+    Input("store-level", "data"),
+)
+def update_adm2_code_lookup_visibility(level):
+    if level == "adm2 (Districts/Counties)":
+        return {"display": "block"}
+    return {"display": "none"}
+
+
 # ── Map viewport & boundary layers ───────────────────────────────────────────
 
 @app.callback(
@@ -1115,8 +1162,13 @@ def update_map_view(bounds, ucode, level):
     boundary_layers = []
     if ucode and level:
         try:
-            url = get_admin_boundary_tile_url(level, ucode)
-            boundary_layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=1.0))
+            geojson = get_boundary_collection(ADMIN_DATA[level]["level"], ucode)
+            boundary_layers.append(dl.GeoJSON(
+                data=geojson,
+                options={"style": {"color": "#2255CC", "weight": 1,
+                                   "fillColor": "transparent", "fillOpacity": 0}},
+                attribution=GEOREPO_ATTR,
+            ))
         except Exception:
             pass
     viewport = {"bounds": bounds, "transition": "fitBounds"} if bounds else no_update
@@ -1134,8 +1186,15 @@ def update_selection_layer(ucode, level):
     if not ucode or not level:
         return []
     try:
-        url = get_selected_feature_tile_url(level, ucode)
-        return [dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75)]
+        result = get_local_feature_by_ucode(ucode, ADMIN_DATA[level]["level"])
+        if not result:
+            return []
+        return [dl.GeoJSON(
+            data=result["feature"],
+            options={"style": {"color": "#FFD700", "weight": 2,
+                               "fillColor": "#FFD700", "fillOpacity": 0.18}},
+            attribution=GEOREPO_ATTR,
+        )]
     except Exception:
         return []
 
@@ -1177,6 +1236,52 @@ def on_map_click(click_data, level, country_ucode, last_click, tab):
     return ucode, fname, None, click_key
 
 
+# ── ADM2 code lookup → feature selection ──────────────────────────────────────────────
+
+@app.callback(
+    Output("store-clicked-ucode", "data", allow_duplicate=True),
+    Output("store-clicked-name",  "data", allow_duplicate=True),
+    Output("store-exposure",      "data", allow_duplicate=True),
+    Output("main-map",            "viewport", allow_duplicate=True),
+    Output("adm2-code-status",    "children"),
+    Output("adm2-code-status",    "className"),
+    Input("adm2-code-find-btn",   "n_clicks"),
+    State("adm2-code-input",      "value"),
+    State("store-ucode",          "data"),
+    prevent_initial_call=True,
+)
+def find_adm2_by_code(n_clicks, raw_code, country_ucode):
+    if not n_clicks:
+        return (no_update,) * 6
+
+    code = (raw_code or "").strip().upper()
+    if not code:
+        return (no_update, no_update, no_update, no_update,
+                "Enter an ADM2 region code.", "code-lookup-status error")
+    if not country_ucode:
+        return (no_update, no_update, no_update, no_update,
+                "Select a country before searching.", "code-lookup-status error")
+
+    try:
+        feature = get_feature_by_ucode(
+            code, "adm2 (Districts/Counties)", country_ucode
+        )
+    except Exception:
+        return (no_update, no_update, no_update, no_update,
+                "The region lookup could not be completed. Please try again.",
+                "code-lookup-status error")
+
+    if not feature:
+        return (no_update, no_update, no_update, no_update,
+                f"No ADM2 region with code {code} was found in the selected country.",
+                "code-lookup-status error")
+
+    viewport = {"bounds": feature["bounds"], "transition": "fitBounds"}
+    status = f"Found {feature['name']} ({feature['ucode']})"
+    return (feature["ucode"], feature["name"], None, viewport,
+            status, "code-lookup-status success")
+
+
 # ── adm0 compute button ───────────────────────────────────────────────────────
 
 @app.callback(
@@ -1199,13 +1304,15 @@ def on_compute_click(n, ucode, country):
 @app.callback(
     Output("selected-badge-wrap", "children"),
     Input("store-clicked-name",   "data"),
+    Input("store-clicked-ucode",  "data"),
 )
-def update_badge(name):
+def update_badge(name, ucode):
     if not name:
         return None
     return html.Div(className="selected-badge", children=[
         html.Div("Selected region", className="selected-badge-tag"),
         html.Div(name, className="selected-badge-name"),
+        html.Div(ucode, className="selected-badge-code") if ucode else None,
     ])
 
 
@@ -1313,7 +1420,7 @@ def render_results(result, region_name, mhc_val, mhi_val):
             exposure_items.append(html.Div(header))
 
     export_data = {
-        "region": region_name, "total_children": total,
+        "region": region_name, "total_population": total,
         "male": male, "female": fema,
         "exposure_by_topic": {
             td["topic"]: {"count": td["count"], "pct": round(td["pct"], 2)}
@@ -1358,7 +1465,7 @@ def render_results(result, region_name, mhc_val, mhi_val):
         html.Div(className="metrics", children=[
             html.Div(className="metric", children=[
                 html.Div(_fmt(total), className="metric-val"),
-                html.Div("Total children", className="metric-lbl"),
+                html.Div("Total population", className="metric-lbl"),
             ]),
             html.Div(className="metric", children=[
                 html.Div(_fmt(male), className="metric-val", style={"color": "#3b82f6"}),
@@ -1530,7 +1637,7 @@ def compute_custom_exposure(n_clicks, geojson, name_field):
                         style={"color": "var(--red)", "fontSize": "0.75rem",
                                "padding": "12px 16px"})
 
-    hazard_cols = [h["name"] for h in HAZARDS if h["name"] != "Pixel Based Hazard Score"]
+    hazard_cols = [h["name"] for h in HAZARDS if h.get("threshold") is not None]
     extra_cols  = ["total_population", "total_population_male", "total_population_female"]
     all_cols    = extra_cols + hazard_cols
 
@@ -1575,7 +1682,7 @@ def compute_custom_exposure(n_clicks, geojson, name_field):
 # ── GEE Asset load + compute ──────────────────────────────────────────────────
 
 def _exposure_results_div(features, name_field, filename):
-    hazard_cols = [h["name"] for h in HAZARDS if h["name"] != "Pixel Based Hazard Score"]
+    hazard_cols = [h["name"] for h in HAZARDS if h.get("threshold") is not None]
     extra_cols  = ["total_population", "total_population_male", "total_population_female"]
     all_cols    = extra_cols + hazard_cols
     rows = []

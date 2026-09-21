@@ -4,44 +4,70 @@
 # =============================================================================
 
 HAZARDS = [
-    {"id": "projects/unicef-ccri/assets/hazards/river_flood_r100",               "threshold": 0.01,       "name": "river_flood_100yr_jrc_2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/coastal_flood_r100",             "threshold": 0,          "name": "coastal_flood_100yr_jrc_2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/storm_giri_rp100",               "threshold": 17.5,       "name": "tropical_storm_100yr_giri_2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/ASI_return_level_100yr",         "threshold": 30,         "name": "agricultural_drought_fao_1984-2023"},
-    {"id": "projects/unicef-ccri/assets/droughts/spei12_TerraClimate_1958-2025", "band": "b2", "threshold": 0.0650162152126539, "name": "drought_spei_terraclimate_1958-2025"},
-    {"id": "projects/unicef-ccri/assets/droughts/spi12_TerraClimate_1958-2025",  "band": "b2", "threshold": 0.0912838950900999, "name": "drought_spi_terraclimate_1958-2025"},
-    {"id": "projects/unicef-ccri/assets/hazards/heatwave_frequency_return_level_100yr", "threshold": 16.02, "name": "heatwave_frequency_ecmwf_2014-2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/heatwave_duration_return_level_100yr",  "threshold": 94.01, "name": "heatwave_duration_ecmwf_2014-2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/heatwave_severity_return_level_100yr",  "threshold": 3.66,  "name": "heatwave_severity_ecmwf_2014-2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/high_temp_degree_days_return_level_100yr", "threshold": 35, "name": "extreme_heat_ecmwf_2014-2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/FIRMS_FRP_90th_percentile",      "threshold": 37.89,      "name": "fire_FRP_nasa_2001-2024"},
-    {"id": "projects/unicef-ccri/assets/hazards/FIRMS_count_90th_percentile",    "threshold": 4.91,       "name": "fire_frequency_nasa_2001-2023"},
-    {"id": "projects/unicef-ccri/assets/hazards/sand_dust_storm_annual",         "threshold": 0,          "name": "sand_dust_storm_unccd_2024",          "isImage": True},
-    {"id": "projects/unicef-ccri/assets/hazards/pm25_p90_1998_2023",             "threshold": 5,          "name": "air_pollution_pm25_1998-2023"},
-    {"id": "projects/unicef-ccri/assets/hazards/Pv_average_2013_2022",           "threshold": 0.001,      "name": "vectorborne_malariapv_2012-2022"},
-    {"id": "projects/unicef-ccri/assets/hazards/Pf_average_2013_2022",           "threshold": 0.001,      "name": "vectorborne_malariapf_2012-2022"},
-    {"id": "projects/unicef-ccri/assets/hazards/MHI_climate",                    "threshold": 6.516479,   "name": "Pixel Based Hazard Score"},
+    {
+        "id": "WorldPop/GP/100m/pop_age_sex_cons_unadj",
+        "name": "population_worldpop_2020",
+        "kind": "population",
+        "year": 2020,
+        "vis_min": 0,
+        "vis_max": 100,
+    },
+    {
+        "id": "ECMWF/ERA5_LAND/DAILY_AGGR",
+        "name": "maximum_temperature_era5_land_2024",
+        "kind": "collection",
+        "band": "temperature_2m_max",
+        "start": "2024-01-01",
+        "end": "2025-01-01",
+        "reducer": "max",
+        "threshold": 308.15,
+        "direction": "gt",
+        "vis_min": 273.15,
+        "vis_max": 323.15,
+    },
+    {
+        "id": "IDAHO_EPSCOR/TERRACLIMATE",
+        "name": "drought_pdsi_terraclimate_2024",
+        "kind": "collection",
+        "band": "pdsi",
+        "start": "2024-01-01",
+        "end": "2025-01-01",
+        "reducer": "min",
+        "scale_factor": 0.01,
+        "threshold": -2,
+        "direction": "lt",
+        "vis_min": -6,
+        "vis_max": 6,
+    },
+    {
+        "id": "FIRMS",
+        "name": "active_fire_frequency_firms_2024",
+        "kind": "collection",
+        "band": "T21",
+        "start": "2024-01-01",
+        "end": "2025-01-01",
+        "reducer": "count_mask",
+        "threshold": 1,
+        "direction": "gte",
+        "vis_min": 1,
+        "vis_max": 10,
+    },
 ]
 
 HAZARD_MAP = {h["name"]: h for h in HAZARDS}
 
 HAZARD_TOPICS = {
-    "River Flood":        ["river_flood_100yr_jrc_2024"],
-    "Coastal Flood":      ["coastal_flood_100yr_jrc_2024"],
-    "Tropical Storm":     ["tropical_storm_100yr_giri_2024"],
-    "Drought":            ["agricultural_drought_fao_1984-2023", "drought_spei_terraclimate_1958-2025", "drought_spi_terraclimate_1958-2025"],
-    "Heatwave":           ["heatwave_frequency_ecmwf_2014-2024", "heatwave_duration_ecmwf_2014-2024", "heatwave_severity_ecmwf_2014-2024"],
-    "Extreme Heat":       ["extreme_heat_ecmwf_2014-2024"],
-    "Fire":               ["fire_FRP_nasa_2001-2024", "fire_frequency_nasa_2001-2023"],
-    "Sand and Dust Storm":["sand_dust_storm_unccd_2024"],
-    "Air Pollution":      ["air_pollution_pm25_1998-2023"],
-    "Malaria":            ["vectorborne_malariapv_2012-2022", "vectorborne_malariapf_2012-2022"],
+    "Extreme Heat": ["maximum_temperature_era5_land_2024"],
+    "Drought":      ["drought_pdsi_terraclimate_2024"],
+    "Fire":         ["active_fire_frequency_firms_2024"],
 }
 
-# Topics that show sub-hazard breakdown in the results panel
-SUB_TOPIC_DETAIL = ["Malaria", "Heatwave", "Fire", "Drought"]
+REFERENCE_LAYERS = ["population_worldpop_2020"]
 
-ALLOW_NEGATIVE = []  # TerraClimate droughts now use positive probability thresholds
+# Topics that show sub-hazard breakdown in the results panel
+SUB_TOPIC_DETAIL = []
+
+ALLOW_NEGATIVE = []  # Public layers use explicit visualization ranges.
 
 TOPIC_COLORS = {
     "River Flood":         "#1f78b4",
@@ -60,6 +86,10 @@ TOPIC_COLORS = {
 
 # Vis palettes per individual hazard (for map display)
 HAZARD_VIS_PALETTES = {
+    "population_worldpop_2020": ["#24126c", "#1fff4f", "#d4ff50"],
+    "maximum_temperature_era5_land_2024": ["#313695", "#74add1", "#fdae61", "#d73027", "#7f0000"],
+    "drought_pdsi_terraclimate_2024": ["#8c510a", "#d8b365", "#f6e8c3", "#c7eae5", "#01665e"],
+    "active_fire_frequency_firms_2024": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"],
     "river_flood_100yr_jrc_2024":       ["#cfe8ff", "#8fcbff", "#1d7bff", "#0654be", "#00357d"],
     "coastal_flood_100yr_jrc_2024":     ["#ffffff", "#084081"],
     "tropical_storm_100yr_giri_2024":   ["#e4eff2", "#c3dce7", "#9ebdd2", "#7e8ab0", "#6d6c91"],
@@ -89,19 +119,16 @@ SELF_MASK_HAZARDS = [
 
 ADMIN_DATA = {
     "adm0 (Country)": {
-        "asset":       "projects/unicef-ccri/assets/global_boundary/admin0_regions_merged",
         "name_prop":   "name",
-        "chunk_asset": "projects/unicef-ccri/assets/global_boundary/adm0_chunked_500km_shp",
+        "level": 0,
     },
     "adm1 (Provinces/States)": {
-        "asset":       "projects/unicef-ccri/assets/global_boundary/adm1",
         "name_prop":   "name",
-        "chunk_asset": "projects/unicef-ccri/assets/global_boundary/adm1_chunked_500km_shp",
+        "level": 1,
     },
     "adm2 (Districts/Counties)": {
-        "asset":       "projects/unicef-ccri/assets/global_boundary/adm2",
         "name_prop":   "name",
-        "chunk_asset": "projects/unicef-ccri/assets/global_boundary/adm2_chunked_500km_shp",
+        "level": 2,
     },
 }
 
@@ -113,6 +140,34 @@ MHI_OPTIONS  = ["75", "80", "85", "90", "95"]
 # Informational text shown in the hazard info popup
 # Each entry: description, units, source (from CCRR Internal Data Catalog - Indicators tab)
 HAZARD_INFO = {
+    "population_worldpop_2020": {
+        "description": "Estimated residential population per 100 m grid cell, with totals constrained to UN population estimates.",
+        "units": "People per grid cell",
+        "availability": "2020",
+        "source": "WorldPop",
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex_cons_unadj",
+    },
+    "maximum_temperature_era5_land_2024": {
+        "description": "Maximum daily 2 m air temperature observed during 2024 in the ERA5-Land reanalysis.",
+        "units": "Kelvin",
+        "availability": "2024",
+        "source": "ECMWF ERA5-Land",
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR",
+    },
+    "drought_pdsi_terraclimate_2024": {
+        "description": "Lowest monthly Palmer Drought Severity Index value during 2024. Values below -2 indicate drought conditions.",
+        "units": "PDSI",
+        "availability": "2024",
+        "source": "TerraClimate",
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE",
+    },
+    "active_fire_frequency_firms_2024": {
+        "description": "Count of 2024 daily FIRMS active-fire detections per raster cell.",
+        "units": "Detection days",
+        "availability": "2024",
+        "source": "NASA FIRMS",
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/FIRMS",
+    },
     "river_flood_100yr_jrc_2024": {
         "description": "A fluvial or riverine flood is a rise, usually brief, in the water level of a stream or water body to a peak from which the water level recedes at a slower rate.",
         "units": "Depth in m",

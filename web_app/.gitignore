@@ -7,10 +7,12 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+.env
 
 # Logs and runtime data
 *.log
 otp_store.db
+data/georepo/*.sqlite*
 
 # OS / IDE
 .DS_Store

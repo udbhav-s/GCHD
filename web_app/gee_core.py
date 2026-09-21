@@ -14,6 +14,14 @@ from config import (
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS, GLOBAL_GEOMETRY,
     ADMIN_DATA,
 )
+from georepo_core import (
+    get_country_names as get_local_country_names,
+    get_country_ucode as get_local_country_ucode,
+    get_country_bounds as get_local_country_bounds,
+    get_feature_at_point as get_local_feature_at_point,
+    get_feature_by_ucode as get_local_feature_by_ucode,
+    get_feature_geojson,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -25,7 +33,37 @@ def initialize_gee():
     with open(key_path) as f:
         info = json.load(f)
     credentials = ee.ServiceAccountCredentials(email=info["client_email"], key_file=key_path)
-    ee.Initialize(credentials=credentials, project="unicef-ccri")
+    project = os.environ.get("EARTH_ENGINE_PROJECT", info["project_id"])
+    ee.Initialize(credentials=credentials, project=project)
+
+
+def _hazard_image(hazard):
+    if hazard.get("kind") == "population":
+        return (
+            ee.ImageCollection(hazard["id"])
+            .filter(ee.Filter.eq("year", hazard.get("year", 2020)))
+            .mosaic()
+            .select("population")
+            .rename(hazard["name"])
+        )
+
+    collection = (
+        ee.ImageCollection(hazard["id"])
+        .filterDate(hazard["start"], hazard["end"])
+        .select(hazard["band"])
+    )
+    reducer = hazard.get("reducer", "max")
+    if reducer == "min":
+        image = collection.min()
+    elif reducer == "mean":
+        image = collection.mean()
+    elif reducer == "sum":
+        image = collection.sum()
+    elif reducer == "count_mask":
+        image = collection.map(lambda item: item.gt(0)).sum()
+    else:
+        image = collection.max()
+    return image.multiply(hazard.get("scale_factor", 1)).rename(hazard["name"])
 
 
 # ---------------------------------------------------------------------------
@@ -34,46 +72,41 @@ def initialize_gee():
 
 @lru_cache(maxsize=1)
 def build_core_images():
-    org_childpop   = ee.ImageCollection("projects/unicef-ccri/assets/population/worldpop_T_U18_2025_CN_100m")
-    org_childpop_m = ee.ImageCollection("projects/unicef-ccri/assets/population/worldpop_T_M_U18_2025_CN_100m")
-    org_childpop_f = ee.ImageCollection("projects/unicef-ccri/assets/population/worldpop_T_F_U18_2025_CN_100m")
+    population_collection = (
+        ee.ImageCollection("WorldPop/GP/100m/pop_age_sex_cons_unadj")
+        .filter(ee.Filter.eq("year", 2020))
+    )
+    population = population_collection.mosaic()
+    childpop = population.select("population").rename("population")
+    childpop_m = population.select("M_.*").reduce(ee.Reducer.sum()).rename("population_m")
+    childpop_f = population.select("F_.*").reduce(ee.Reducer.sum()).rename("population_f")
 
-    childpop   = org_childpop.mosaic().select(0).rename("population")
-    childpop_m = org_childpop_m.mosaic().select(0).rename("population_m")
-    childpop_f = org_childpop_f.mosaic().select(0).rename("population_f")
+    pop_target_res = population_collection.first().select("population").projection().nominalScale()
+    target_crs = population_collection.first().select("population").projection()
+    target_scale = pop_target_res
 
-    pop_target_res  = org_childpop.first().projection().nominalScale()
-    reference_image = ee.Image("projects/unicef-ccri/assets/hazards/heatwave_frequency_return_level_100yr")
-    target_crs      = reference_image.projection()
-    target_scale    = reference_image.projection().nominalScale()
-
-    country_boundaries = ee.FeatureCollection("projects/unicef-ccri/assets/misc_boundaries/adm0_simple")
+    country_boundaries = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level0")
     country_boundaries_reproj = country_boundaries.map(lambda f: f.transform(target_crs))
     global_geom = ee.Geometry.Polygon([GLOBAL_GEOMETRY], None, False)
 
     def summarize_population(hazard):
-        if hazard.get("isImage"):
-            layer = ee.Image(hazard["id"])
-        elif re.search(r"flood|storm", hazard["name"]):
-            layer = ee.ImageCollection(hazard["id"]).mosaic()
+        layer = _hazard_image(hazard)
+        threshold = hazard["threshold"]
+        direction = hazard.get("direction", "gt")
+        if direction == "lt":
+            mask = layer.lt(threshold)
+        elif direction == "lte":
+            mask = layer.lte(threshold)
+        elif direction == "gte":
+            mask = layer.gte(threshold)
         else:
-            layer = ee.Image(hazard["id"])
-        if hazard.get("band"):
-            layer = layer.select(hazard["band"])
+            mask = layer.gt(threshold)
+        return childpop.updateMask(mask).rename(hazard["name"])
 
-        th = hazard["threshold"]
-        if hazard["name"] == "agricultural_drought_fao_1984-2023":
-            layer = layer.updateMask(layer.lte(100))
-            exposed = childpop.updateMask(layer.gt(th))
-        elif "malaria" in hazard["name"]:
-            layer = layer.updateMask(layer.gt(0))
-            exposed = childpop.updateMask(layer.gt(th))
-        else:
-            layer = layer.updateMask(layer.gt(-1000))
-            exposed = childpop.updateMask(layer.lt(th) if th < 0 else layer.gt(th))
-        return exposed.rename(hazard["name"])
-
-    exposure_by_hazard = {h["name"]: summarize_population(h) for h in HAZARDS}
+    exposure_by_hazard = {
+        h["name"]: summarize_population(h)
+        for h in HAZARDS if h.get("threshold") is not None
+    }
 
     def build_topic_mask(topic_name):
         masks = [exposure_by_hazard[n].mask() for n in HAZARD_TOPICS[topic_name]]
@@ -87,15 +120,7 @@ def build_core_images():
     topic_count_image = stacked.reduce(ee.Reducer.count()).rename("topic_count")
 
     def get_raw_mask(hazard):
-        if hazard.get("isImage"):
-            layer = ee.Image(hazard["id"])
-        elif re.search(r"flood|storm", hazard["name"]):
-            layer = ee.ImageCollection(hazard["id"]).mosaic()
-        else:
-            layer = ee.Image(hazard["id"])
-        if hazard.get("band"):
-            layer = layer.select(hazard["band"])
-        return layer.mask()
+        return _hazard_image(hazard).mask()
 
     def build_coverage_image(topic_name):
         coverages = [get_raw_mask(HAZARD_MAP[n]) for n in HAZARD_TOPICS[topic_name] if n in HAZARD_MAP]
@@ -106,7 +131,7 @@ def build_core_images():
         return ee.Image.constant(1).updateMask(union).rename(f"cov_{safe_key}")
 
     topic_coverage = {t: build_coverage_image(t) for t in HAZARD_TOPICS}
-    hazard_score   = ee.Image("projects/unicef-ccri/assets/hazards/MHI_climate")
+    hazard_score = topic_count_image.toFloat()
 
     return {
         "childpop":                  childpop,
@@ -131,28 +156,17 @@ def build_core_images():
 
 @lru_cache(maxsize=1)
 def get_country_names():
-    return (
-        ee.FeatureCollection(ADMIN_DATA["adm0 (Country)"]["asset"])
-        .aggregate_array("name").sort().getInfo()
-    )
+    return get_local_country_names()
 
 
 @lru_cache(maxsize=512)
 def get_country_ucode(country_name):
-    fc = ee.FeatureCollection(ADMIN_DATA["adm0 (Country)"]["asset"])
-    return fc.filter(ee.Filter.eq("name", country_name)).first().get("ucode").getInfo()
+    return get_local_country_ucode(country_name)
 
 
 @lru_cache(maxsize=512)
 def get_country_bounds(country_ucode):
-    fc = ee.FeatureCollection(ADMIN_DATA["adm0 (Country)"]["asset"])
-    coords = (
-        fc.filter(ee.Filter.eq("ucode", country_ucode))
-        .first().geometry().bounds(1).coordinates().getInfo()[0]
-    )
-    lons = [c[0] for c in coords]
-    lats = [c[1] for c in coords]
-    return [[min(lats), min(lons)], [max(lats), max(lons)]]
+    return get_local_country_bounds(country_ucode)
 
 
 # ---------------------------------------------------------------------------
@@ -178,8 +192,9 @@ def get_topic_count_tile_url():
 
 @lru_cache(maxsize=1)
 def get_pixel_score_tile_url():
-    vis = {"min": 0, "max": 10, "palette": ["#000004", "#3b0f70", "#8c2981", "#de4968", "#fe9f6d"]}
-    mid = ee.Image("projects/unicef-ccri/assets/hazards/MHI_climate").getMapId(vis)
+    core = build_core_images()
+    vis = {"min": 1, "max": len(HAZARD_TOPICS), "palette": ["#ffffd4", "#fe9929", "#993404"]}
+    mid = core["topic_count_image"].getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
@@ -217,59 +232,18 @@ def get_hazard_tile_url(hazard_name):
     if not hazard:
         return None, None
 
-    if hazard.get("isImage"):
-        image = ee.Image(hazard["id"])
-    elif re.search(r"flood|storm", hazard["name"]):
-        image = ee.ImageCollection(hazard["id"]).mosaic()
-    else:
-        image = ee.Image(hazard["id"])
-    if hazard.get("band"):
-        image = image.select(hazard["band"])
-
-    image = image.updateMask(image.gt(0) if "malaria" in hazard["name"] else image.gt(-1000))
+    image = _hazard_image(hazard)
     palette = HAZARD_VIS_PALETTES.get(hazard_name, ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"])
-
-    if hazard_name == "coastal_flood_100yr_jrc_2024":
-        vis = {"min": 0, "max": 1, "palette": palette}
-    else:
-        band_name = image.bandNames().get(0).getInfo()
-        stats = image.reduceRegion(
-            reducer=ee.Reducer.percentile([2, 98]),
-            geometry=ee.Geometry.Polygon([GLOBAL_GEOMETRY], None, False),
-            scale=image.projection().nominalScale(),
-            bestEffort=True, maxPixels=1e13,
-        ).getInfo()
-        p2  = stats.get(f"{band_name}_p2", 0)
-        p98 = stats.get(f"{band_name}_p98", 1)
-        mn  = p2 if hazard_name in ALLOW_NEGATIVE else max(0, p2 or 0)
-        vis = {"min": mn, "max": p98, "palette": palette}
-
-    if hazard_name in SELF_MASK_HAZARDS:
+    vis = {
+        "min": hazard.get("vis_min", 0),
+        "max": hazard.get("vis_max", 1),
+        "palette": palette,
+    }
+    if hazard.get("reducer") == "count_mask" or hazard.get("kind") == "population":
         image = image.selfMask()
 
     mid = image.getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
-
-
-@lru_cache(maxsize=256)
-def get_admin_boundary_tile_url(admin_level, country_ucode):
-    cfg = ADMIN_DATA[admin_level]
-    if admin_level == "adm0 (Country)":
-        fc = ee.FeatureCollection(cfg["asset"]).filter(ee.Filter.eq("ucode", country_ucode))
-    else:
-        fc = ee.FeatureCollection(cfg["asset"]).filter(ee.Filter.eq("adm0_ucode", country_ucode))
-    styled = fc.style(color="2255CC", width=1, fillColor="00000000")
-    mid = styled.getMapId({})
-    return mid["tile_fetcher"].url_format
-
-
-@lru_cache(maxsize=256)
-def get_selected_feature_tile_url(admin_level, feature_ucode):
-    cfg    = ADMIN_DATA[admin_level]
-    fc     = ee.FeatureCollection(cfg["asset"]).filter(ee.Filter.eq("ucode", feature_ucode))
-    styled = fc.style(color="FFD700", width=2, fillColor="FFD70030")
-    mid    = styled.getMapId({})
-    return mid["tile_fetcher"].url_format
 
 
 # ---------------------------------------------------------------------------
@@ -277,16 +251,14 @@ def get_selected_feature_tile_url(admin_level, feature_ucode):
 # ---------------------------------------------------------------------------
 
 def get_feature_at_point(lon, lat, admin_level, country_ucode):
-    cfg   = ADMIN_DATA[admin_level]
-    point = ee.Geometry.Point([lon, lat])
-    if admin_level == "adm0 (Country)":
-        fc = ee.FeatureCollection(cfg["asset"]).filter(ee.Filter.eq("ucode", country_ucode))
-    else:
-        fc = ee.FeatureCollection(cfg["asset"]).filter(ee.Filter.eq("adm0_ucode", country_ucode))
-    props = fc.filterBounds(point).first().toDictionary(["ucode", cfg["name_prop"]]).getInfo()
-    if not props:
-        return None, None
-    return props.get("ucode"), props.get(cfg["name_prop"])
+    level = ADMIN_DATA[admin_level]["level"]
+    return get_local_feature_at_point(lon, lat, level, country_ucode)
+
+
+@lru_cache(maxsize=512)
+def get_feature_by_ucode(feature_ucode, admin_level, country_ucode=None):
+    level = ADMIN_DATA[admin_level]["level"]
+    return get_local_feature_by_ucode(feature_ucode, level, country_ucode)
 
 
 # ---------------------------------------------------------------------------
@@ -314,9 +286,10 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
         bands.append(childpop.updateMask(topic_masks[topic_name]).rename(topic_name))
         bands.append(topic_cov[topic_name])
 
-    for topic_name in ["Malaria", "Heatwave", "Fire", "Drought"]:
-        for h_name in HAZARD_TOPICS[topic_name]:
-            bands.append(exposure_by[h_name].rename(h_name))
+    for topic_name, hazard_names in HAZARD_TOPICS.items():
+        if len(hazard_names) > 1:
+            for h_name in hazard_names:
+                bands.append(exposure_by[h_name].rename(h_name))
 
     combined = (
         ee.Image.cat(bands)
@@ -346,17 +319,16 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
         intensity_mask = hazard_score.gt(ee.Number(mhi_threshold))
         combined = combined.addBands(childpop.updateMask(intensity_mask).rename("active_intensity_filter"))
 
-    chunk_asset = ADMIN_DATA[admin_level]["chunk_asset"]
-    chunks      = ee.FeatureCollection(chunk_asset).filter(ee.Filter.eq("ucode", feature_ucode))
-    band_names  = combined.bandNames()
-    num_bands   = band_names.size()
-
-    tile_results = combined.reduceRegions(
-        collection=chunks, reducer=ee.Reducer.sum(),
-        scale=pop_res, tileScale=1,
+    feature = get_feature_geojson(feature_ucode)
+    if not feature:
+        return None
+    stats = combined.reduceRegion(
+        reducer=ee.Reducer.sum(),
+        geometry=ee.Geometry(feature["geometry"]),
+        scale=pop_res,
+        maxPixels=1e13,
+        tileScale=4,
     )
-    sums  = tile_results.reduceColumns(ee.Reducer.sum().repeat(num_bands), band_names)
-    stats = ee.Dictionary.fromLists(band_names, sums.get("sum"))
     return stats.getInfo()
 
 
@@ -375,15 +347,16 @@ def compute_topic_overlap(feature_ucode, admin_level, topic_names):
         childpop.updateMask(combined_mask).rename("overlap")
         .addBands(childpop.rename("total_population"))
     )
-    chunk_asset = ADMIN_DATA[admin_level]["chunk_asset"]
-    chunks      = ee.FeatureCollection(chunk_asset).filter(ee.Filter.eq("ucode", feature_ucode))
-    band_names  = combined.bandNames()
-    tile_results = combined.reduceRegions(
-        collection=chunks, reducer=ee.Reducer.sum(),
-        scale=pop_res, tileScale=1,
+    feature = get_feature_geojson(feature_ucode)
+    if not feature:
+        return None
+    stats = combined.reduceRegion(
+        reducer=ee.Reducer.sum(),
+        geometry=ee.Geometry(feature["geometry"]),
+        scale=pop_res,
+        maxPixels=1e13,
+        tileScale=4,
     )
-    sums  = tile_results.reduceColumns(ee.Reducer.sum().repeat(band_names.size()), band_names)
-    stats = ee.Dictionary.fromLists(band_names, sums.get("sum"))
     return stats.getInfo()
 
 
@@ -426,7 +399,7 @@ def compute_exposure_asset(asset_id):
     pop_res     = core["pop_target_res"]
     exposure_by = core["exposure_by_hazard"]
 
-    hazard_names = [h["name"] for h in HAZARDS if h["name"] != "Pixel Based Hazard Score"]
+    hazard_names = [h["name"] for h in HAZARDS if h.get("threshold") is not None]
     bands = [exposure_by[n].rename(n) for n in hazard_names if n in exposure_by]
     combined = (
         ee.Image.cat(bands)
@@ -454,7 +427,7 @@ def compute_exposure_custom(geojson_dict):
     pop_res     = core["pop_target_res"]
     exposure_by = core["exposure_by_hazard"]
 
-    hazard_names = [h["name"] for h in HAZARDS if h["name"] != "Pixel Based Hazard Score"]
+    hazard_names = [h["name"] for h in HAZARDS if h.get("threshold") is not None]
 
     bands = [exposure_by[n].rename(n) for n in hazard_names if n in exposure_by]
     combined = (
