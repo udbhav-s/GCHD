@@ -1,0 +1,124 @@
+{
+  "schema_version": "2.2",
+  "id": "philippines-poverty-ai",
+  "url": "https://stories.thinkingmachin.es/poverty-mapping-artificial-intelligence/",
+  "title": "Understanding poverty in the Philippines with artificial intelligence",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Philippines",
+        "iso3": "PHL",
+        "ucode": "PHL_V1",
+        "dcid": "country/PHL"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "low_income"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "poverty"
+    ],
+    "group_mentions": {
+      "low_income": 2
+    }
+  },
+  "intervention": null,
+  "point": null,
+  "data_sources": [
+    {
+      "name": "2017 Philippines Demographic and Health Survey",
+      "url": "https://dhsprogram.com/",
+      "role": "survey_input"
+    },
+    {
+      "name": "VIIRS nighttime lights",
+      "url": "https://eogdata.mines.edu/products/vnl/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "Land surface temperature and NDVI satellite products",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "OpenStreetMap points of interest",
+      "url": "https://www.openstreetmap.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "Facebook Marketing API",
+      "url": null,
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Thinking Machines Stories",
+    "collection_url": "https://stories.thinkingmachin.es/",
+    "publisher": "Thinking Machines Data Science",
+    "document_url": "https://stories.thinkingmachin.es/poverty-mapping-artificial-intelligence/",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/sdg/SI_POV_DAY1.AGE--_T__SEX--_T__URBANIZATION--_T",
+      "name": "Proportion of population below international poverty line (USD 2.15/day)",
+      "sdg_indicator": "1.1.1"
+    },
+    {
+      "dcid": "undata/unicef/SPP_HSLD_INCOME_SHARE.WEALTH_QUANTILE--WEALTH_QUANTILE-BOTTOM40",
+      "name": "Household income share held by bottom 40% wealth quintile",
+      "sdg_indicator": "10.1.1"
+    },
+    {
+      "dcid": "undata/unicef/SPP_GINI",
+      "name": "Gini coefficient (income inequality)",
+      "sdg_indicator": "10.1.1"
+    },
+    {
+      "dcid": "undata/sdg/IT_USE_II_99.SEX--_T",
+      "name": "Proportion of individuals using the Internet",
+      "sdg_indicator": "17.8.1"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/sdg/SI_POV_DAY1.AGE--_T__SEX--_T__URBANIZATION--_T",
+      "name": "Population below international poverty line",
+      "rationale": "UNDP and Zero Extreme Poverty PH 2030 need to locate poorest areas for poverty-alleviation interventions (20.8% below poverty line in 2019)"
+    },
+    {
+      "dcid": "undata/unicef/SPP_HSLD_INCOME_SHARE.WEALTH_QUANTILE--WEALTH_QUANTILE-BOTTOM40",
+      "name": "Bottom 40% income share (wealth proxy)",
+      "rationale": "AI model predicts DHS wealth index nationwide to rank most vulnerable areas (e.g., rural Palawan vs. wealthy Metro Manila)"
+    }
+  ],
+  "summary": "Thinking Machines partnered with UNDP and Zero Extreme Poverty PH 2030 to generate nationwide granular wealth estimates across the Philippines using machine learning, addressing limitations of expensive, infrequent Demographic and Health Surveys (DHS). The model was trained on 2017 DHS wealth index ground truth combined with open geospatial features: VIIRS nighttime lights, land surface temperature, NDVI vegetation index, OpenStreetMap points of interest, and Facebook Marketing API data (internet access tiers, device types, consumer preferences). Rolled out on 18 km² grids nationwide, the interpretable model achieved R²=0.66 (vs. 0.63 for a deep learning nighttime-lights-only model) at a fraction of prior cost. Methods include feature-engineered ML regression, Google Earth Engine satellite processing, GeoPandas spatial analysis, and wealth vulnerability mapping overlaid with partner NGO locations for intervention planning."
+}

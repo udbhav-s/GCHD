@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-nyc-coolroofs",
+  "url": "https://www.c40.org/case-studies/nyc-coolroofs/",
+  "title": "NYC CoolRoofs",
+  "summary": "This C40 case study describes “NYC CoolRoofs,” an urban initiative documented for New York. It is included because it addresses extreme heat hazards. C40 describes the action this way: The NYC °CoolRoofs program, launched in 2009, has coated over 5.7 million square feet (529,547 square meters) of rooftop (626 buildings) with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The NYC °CoolRoofs program, launched in 2009, has coated over 5.7 million square feet (529,547 square meters) of rooftop (626 buildings) with a white, reflective coating, offsetting the warming effect of greenhouse gases (GHG) and also directly cooling the city. The program provides benefits and savings directly to the building owner by reducing cooling costs by 10-30%, and has proved to be an effective way to help tackle the Urban Heat Island effect and reduce GHG emissions.",
+    "measures": "Cool roofs reflect the sun’s thermal energy, creating a cooling effect. In order to be a cool roof, the specialized coating must have high solar reflectivity and high infrared emissivity. Solar reflectivity expresses the degree to which a roof reflects the visible, infrared and ultraviolet rays that comprise solar energy, according to the NYC CoolRoofs website . Infrared emissivity refers to the roof's ability to shed and release its absorbed heat. The coatings used by the NYC °CoolRoofs program all have reflectivity and emissivity ratings well above 0.8. Every 2,500 square feet (232 square meters) of roof that is coated can reduce the city's carbon footprint by 1 ton of CO 2 per year.\n In 2011, New York City updated 2007 legislation to require that 75% of the roof area or setback surface on all new or substantially renovated low-slope roofs permitted on or after July 1, 2009, have minimum initial solar reflectance of 0.7 and minimum thermal emittance of 0.75. Because a roof’s lifespan is generally 20 years, NYC will see an increasing number of rooftops being converted to highly reflective standards by 2030. NYC °CoolRoofs will help to accelerate this conversion by providing resources and technical assistance for private properties through Cool It Yourself while also providing white roof installations for low-income, non-profit, and public establishments citywide (through private sponsorship, a volunteer engagement program, and green workforce training).\n\nThe Mayor’s Office of New York City supports the City’s cool roofs program by coordinating volunteers through NYC Service and coordinating policy and research through the Mayor’s Office of Recovery and Resiliency. To date, more than 5,600 volunteers, including corporate groups, in addition to more than 60 green job trainees, have participated in volunteer coating days. A significant number of coating vendors, community groups, and corporations support the program with funding or in-kind assistance.\n Volunteer coating days and in-kind support are dedicated to providing assistance for public, non-profit, and low-income buildings while the Cool It Yourself program provides resources and some technical assistance for building owners looking to install their own cool roofs.",
+    "outcomes": "The successful uptake of the NYC °CoolRoofs program has resulted, in part, from low-income, non-profit, and public building owners baring no costs or overheads during the installation process. Furthermore, the unique civic/volunteer set-up of the NYC Service has led to the program’s success. NYC Service provides both structure and implementation staff to coordinate volunteers to deliver the cool roofs initiative on the ground. This civic/volunteer set up can be effective even when there is limited regulatory authority over the building sector (which is not the case in New York).\n The success of NYC °CoolRoofs has brought both environmental and social benefits to New York. Each year, the City has contracted a non-profit to administer the program and also partnered with a green jobs training program to provide supplemental labor.\n\nThe expansion of NYC °CoolRoofs was included as a component of Mayor de Blasio’s recent One City: Built to Last , released on September 21, 2014. The plan outlines the goal of coating 1 million square feet (92,900 square meters) annually, towards the goal of having cooled up to 10 million square feet (929,000 square meter). By 2025, this is expected to reduce citywide GHG emissions by 3,500 metric tons of carbon dioxide equivalent, generate US$1 million in annual energy cost savings, and help train 500 New Yorkers who will be prepared for jobs promoting energy efficiency in buildings. The City of New York will continue this program, further developing the workforce training partnership that includes on-the-job training in building efficiency practices and project management, as well as additional certifications and competencies needed to enter the green jobs market. The City will also continue to use a data-driven target strategy to focus on small and mid-sized buildings that would otherwise not have the resources to take advantage of the energy-saving benefits of a cool roof.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/nyc-coolroofs/",
+    "publication_date": "2015-01-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26938",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=nyc-coolroofs&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

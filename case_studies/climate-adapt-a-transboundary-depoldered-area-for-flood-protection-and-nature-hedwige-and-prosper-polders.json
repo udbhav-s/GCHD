@@ -1,0 +1,222 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+  "title": "A transboundary depoldered area for flood protection and nature: Hedwige and Prosper Polders",
+  "summary": "The Hedwige-Prosper polders project, under the Belgian Sigma Plan, improves flood protection by creating estuarine natural areas through depoldering. The approach involves building an inland dike, promoting natural processes, and addressing EU Habitat Directive commitments. The area serves as a living lab and offers educational opportunities. The Hedwige-Prosper polders project is part of the Belgian Sigma Plan : this integrated plan is reinforcing dikes and quay walls and opening flood areas to protect land along the Scheldt Estuary and the upstream basin against floods.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Prov. Antwerpen",
+        "ucode": "BEL_0003_0001_V1",
+        "dcid": null,
+        "source_code": "SUBN_Prov__Antwerpen__BE_",
+        "source_name": "Prov. Antwerpen (BE)"
+      }
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zeeland",
+        "ucode": "NLD_0011_V1",
+        "dcid": null,
+        "source_code": "SUBN_Zeeland__NL_",
+        "source_name": "Zeeland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetlands",
+      "label": "wetlands"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Depoldering",
+      "label": "Depoldering"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stakeholder opposition",
+      "label": "stakeholder opposition"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature restoration",
+      "label": "nature restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood area",
+      "label": "flood area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Scheldt",
+      "label": "Scheldt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Habitats Directive",
+      "label": "Habitats Directive"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sigma Plan",
+      "label": "Sigma Plan"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the Hedwige-Prosper polders project is to improve flood protection as part of the overall Sigma Plan, providing the Scheldt river with extra space for flooding. New estuarine intertidal area are also created, providing space for tidal nature.",
+    "measures": "The Hedwige-Prosper polders project is one of a series of projects being undertaken along the Scheldt and its tributaries as part of the Sigma Plan. It creates a new estuarine nature area and contributes to flood protection. The new natural habitats and increased flood protection is achieved by moving dike protection inland, thereby exposing the currently protected polders to the tidal influence of the Scheldt River. The new dike constructed inland (a ring levee) protects the low-lying residential area in the hinterland, together with the ring canal collecting the water from small watercourses and a fish-friendly pumping station activated in case of heavy rainfall to discharge the excess water to the Scheldt. The new dike has a height at 10.2 meters above sea level (measured by Normaal Amsterdams Peil, Standard Amsterdam Level, NAP) across most of its length. This type of project is called ‘depoldering’ and can be considered as part of the ‘managed realignment’ approach. In total, a natural area of 465 hectares is being developed in the two former polders, of which 295 hectares are on Dutch territory and 170 hectares in Belgian territory. These 465 hectares will combine with the adjacent Saeftinghe wetlands area to create a brackish intertidal area of approximately 4,100 hectares in total. The Hedwige-Prosper polders will not be directly connected with Saeftinghe, however, as a dike containing pipelines separates the two areas and will remain in place. The creation of new estuarine nature areas is part of the Scheldt Agreements between the Netherlands and Flanders: the work at Hedwige polder is contributing to fulfilling the Dutch commitment to create 600 hectares of such areas. The resulting intertidal nature areas will be part of the work that the Netherlands and Belgium will undertake to meet obligations under the EU Habitats Directive. It is a compensation for natural areas taken over the Port of Antwerp as well as dredging of the Scheldt. To promote the creation of the desired natural area, a system of creeks will be dug in the polders. Accompanying works include filling in the existing drainage system and removing other drainage related infrastructure, removing hard infrastructure such as roads, and removing existing vegetation and where necessary some existing marshland. Following these modifications, natural processes will be allowed to shape the area into increasingly natural conditions. These marshlands will contribute to the self-cleaning capacity of the estuary; moreover, the wetlands are an important source of silica for diatom algae which are at the basis of the food web. The creation of the new intertidal nature area is expected to result in new recreational opportunities. The proposed design includes the construction of a nature pavilion and eco-lodges, as well as a number of walking and biking paths, viewpoints, information signs, benches and parking places for visitors. A number of breeding islands are also envisaged by the project, since the area is of great ecological value and one of the few suitable breeding habitats for the very vulnerable avocet and other bird species. Temporary breeding islands built so far in the polder have already proved their value, hosting no fewer than 75 couples of avocets, as detected in summer 2020. As of late 2014, the outer dikes had been removed at the Belgian Prosper polder, opening this area to the tide. The new inland dike was completed in 2015. The building permit for the new inland dike on the Dutch part – Hedwige polder - has been granted. Construction is underway and is expected to be completed in 2021.",
+    "outcomes": "For the Sigma plan overall, economic analysis showed that a combination of projects, including the Hedwige-Prosper polder project, would be more cost-effective in protecting urban areas and economic activities than building a large storm surge barrier. Hedwige and Prosper polder is working as a living lab within the Interreg Polder2C’s Project, offering a space where different partners and organisations come together to design, execute and evaluate a series of experiments on levee performance and emergency response. It also offers a space for knowledge exchange and education, hosting events dedicated to students and young professionals. The estuarine natural areas that will be created by the depoldering project will need to be maintained over time. Concerns have been expressed that the sedimentation rates in the project area could be too high, resulting in areas not compatible with the natural or flood protection objectives of the project. Opposition, especially in the Netherlands, was a delaying factor.",
+    "cost_benefit": "A cost-benefit analysis for the Dutch government studied several project alternatives and indicated that the selected project option for depoldering the Hedwige polder in the Netherlands would cost between 40.0 to 49.3 million Euros (The costs for depoldering the Prosper polder in Belgium was estimated at 25.8 million Euros). The project costs for both the Hedwige and Prosper polders are covered mainly by the Belgian Sigma Plan. This is due to the importance of the project for Belgian integrated water management objectives, including maintaining shipping accessibility within the Scheldt and flood protection. Thus, a large portion of the costs for Hedwige polder in the Netherlands are paid for by the Flemish government. The Flemish government covers the preparation and development costs related to the development of the estuarine natural area, including the costs of moving dike protection land inwards. Flanders will also reimburse the Netherlands for the costs of expropriating the land. The Netherlands is responsible for other costs, such as support for agriculture following the project, the improvement of an internal dam and costs related to the analysis of alternatives to the project. Benefits from the project taken into account in the cost-benefit analysis include: improvement of water quality, increase in natural area, provision of new recreational opportunities, improvement of air quality due to a reduction in fine dust originating from ploughed fields (reduction of 30 tonnes per year PM10), reduction in pesticide use and reduction in water level during storm surges. The flood protection benefit will be experienced mainly on Belgian territory, though other benefits will be experienced on both Belgian and Dutch sides of the border. Losses that were identified include the reduction of part of the cultural (farming) landscape and removal of current recreational opportunities, living space and agricultural land.",
+    "timeline": "Final completion of the works, after the optimization of the channel system within the polder to allow Scheldt to properly flow inside, is expected to be completed in 2023.",
+    "lifetime": "The lifetime of the project has not been indicated; with regular upkeep and maintenance, it is expected to remain in place for many decades. As noted above, sedimentation could affect its nature and flood protection functions.",
+    "stakeholders": "The project encountered opposition both in Belgium (Prosper polder) and in the Netherlands (Hedwige polder), especially in the province of Zeeland where it is located. Opposition was led by Belgian owners of agricultural land in both polders. In Belgium, legal opposition to the depoldering of the Prosper polder ended in 2011. A stronger opposition occurred in the Hedwige polder in the Netherlands, where farmers and residents joined the protests. Their concerns included the loss of agricultural land, resistance to depoldering in general and a fear that more depoldering projects might be undertaken in Zeeland. This opposition led the project to be postponed by the Dutch national government, which requested studies of alternatives, including different sites and alternative work in the project area. The analysis did not identify an acceptable alternative and the Dutch government in 2012 decided to go ahead with the works at Hedwige polder. Planning documents were then drawn up and made available to the public in September 2013 for a six-week comment period. Approximately 2,000 individuals and organizations submitted comments regarding the plan. There was also a meeting at the local town hall on September 2013. The Dutch Council of State on 12 November 2014 ruled all legal opposition to the project unfounded.",
+    "legal_context": "The depoldering of the Hedwige polder was agreed in 2005 in the treaty between the region of Flanders and the Dutch national government regarding the development of the Scheldt Estuary Outline 2010. In this agreement, the Netherlands agreed to develop at least 600 hectares of estuarine natural areas on Dutch territory. Flanders agreed to develop 1,100 hectares of wetlands on Belgian territory. The Netherlands also committed to starting the depoldering of the Hedwige polder at the latest by 2007 and to create at least 440 hectares of intertidal natural areas in this location. Following this agreement, however, opposition in the Netherlands led to delays. The European Commission started a legal procedure against the Netherlands with regard to its nature protection obligations. Following a review of alternatives, in 2012 the Dutch Government decided that Hedwige polder would be depoldered as planned. The project itself contributes to the international obligations of the Netherlands and Belgium to conserve estuarine habitats (H1130, H1330) under the Habitats Directive. The site will become a Natura 2000 site that borders the already existing Natura 2000 site Westerschelde & Saeftinghe. In the future, the Hedwige Prosper Project together to the Doel polder will become part of the Groot-Saeftinghe Border Park (partly funded by the Grenspark Groot Saeftinghe Interreg project ), the largest tidal area in Western Europe, covering a surface area of 4,500 hectares."
+  },
+  "point": {
+    "lat": 51.3190262632,
+    "lon": 4.26475524885,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/publicaties",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "364d5a68827a4de8810568bd6ff361bb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/a-transboundary-depoldered-area-for-flood-protection-and-nature-hedwige-and-prosper-polders",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

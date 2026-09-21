@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+  "title": "Reduction of heat stress through innovative ventilated and air-permeable roof retrofit, enabling passive cooling in buildings, Emilia-Romagna (Italy)",
+  "summary": "A ventilated roof retrofit with enhanced air permeability was implemented in Reggio Emilia as building-scale adaptation measure to address overheating during summer. Innovative highly permeable clay tiles (HEROTILE) were used and their performance was evaluated under real operating conditions. Within the EU LIFE SUPERHERO project, two multi-storey social housing buildings with flat roofs in Via Maramotti 23 and 25 in Reggio Emilia (Northern Italy) were selected as pilot sites to demonstrate a replicable retrofit solution for obsolescent residential stock.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Reggio Emilia",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": "ITA_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "LIFE SUPERHERO",
+      "label": "LIFE SUPERHERO"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Climate resilient buildings",
+      "label": "Climate resilient buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "passive cooling",
+      "label": "passive cooling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ventilated roofs",
+      "label": "ventilated roofs"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The adaptation measure was designed to address summer overheating in existing residential buildings and to provide robust, real-world evidence on passive roof solutions. In the Reggio Emilia pilots, the case study aimed to demonstrate the implementation of a HEROTILE-based roof retrofit on real buildings, while monitoring roof performance and indoor conditions across renovation phases and making results accessible for different audiences. More specifically, the objectives were to: Improve summer thermal performance in the pilot buildings by reducing roof covering temperatures and limiting undesirable heat gains, with associated benefits such as lower cooling energy use and improved indoor comfort perception. Demonstrate the feasibility of implementing HBR (HEROTILE-based roof) in real buildings as an easily applicable and cost-effective solution, supporting replication and transferability beyond the pilots. Generate measurable evidence through monitoring before and after the retrofit, focusing on roof thermal performance and on occupants’ energy use, comfort and behaviour. Increase transparency and learning by translating monitored data into accessible information through HU-BES, the project’s web-based data-sharing platform. Support wider uptake by improving the recognition and assessment of VPR/HBR cooling benefits in established technical and policy instruments, including building energy calculation methods, Italian Green Public Procurement criteria for buildings and GBC Italia environmental rating systems, thereby strengthening the basis for informed adoption and replication of passive roof-cooling measures.",
+    "measures": "The pilot buildings in Reggio Emilia The LIFE SUPERHERO demonstration project, implemented in cooperation with the Municipality of Reggio Emilia and ACER (the public social housing agency), was carried out in two multi-storey residential buildings located in a suburb of Reggio Emilia (Via G. Maramotti 23 and 25). The buildings were constructed between 1981 (No. 25) and 1984 (No. 23) using prefabricated reinforced-concrete panels. At the start of the project, they were in a poor state and characterised by very low energy performance. The purpose of the intervention was to install a pitched roof over the existing flat roofs. The intervention followed a stepwise renovation pathway. Energy-efficiency works (façade insulation and window-frame replacement) were completed in 2023, while the roof retrofit started in a later stage. It consisted of installing a pitched roof system incorporating a HEROTILE-based roof (HBR). The HBR is a ventilated and air-permeable roof: it applies the passive principle of a ventilated roof, while enhancing air exchange within the ventilation layer through purpose-designed interlocking clay tiles. Their geometry is conceived to increase airflow across the roof covering. It allows additional air path through the tile-to-tile joints, thereby improving the effectiveness of natural ventilation compared to conventional tiled roofs. While increasing under-tile air exchange, the HEROTILE interlocking design preserves the primary function of standard roof tiles: rainwater tightness is ensured without necessarily requiring additional devices to manage rain penetration. Potential interactions with other roof and building requirements were also considered in the project risk assessment. For the Reggio Emilia demonstrators, the main aspects identified concerned structural and seismic checks, energy-performance calculations, administrative and urban-planning constraints, and the technological and geometrical condition of the existing flat roofs. No specific conflict with fire-safety requirements was identified for the pilot retrofit. Nevertheless, replication in other buildings should always be verified against the applicable fire-safety, structural, energy and planning regulations. Two HEROTILE-based roof configurations were demonstrated, corresponding to the two air-permeable clay tile typologies originally developed within the EU LIFE HEROTILE project: a curved-profile Portuguese tile on Building 1 (No. 23) and a flat-profile Marseillaise tile on Building 2 (No. 25). This allowed the project to assess the applicability of the HBR concept to both tile types and to show that improved and comparable thermal and energy-related performance could be achieved with the two configurations under real operating conditions. From a design and implementation perspective, the retrofit accounted for typical conditions of existing flat roofs. Those include raised roof elements and low-slope metal sheet roofing layers installed over time to improve rainwater management. The retrofit pathway included design considerations, structural design, project drawings and cost analysis to support implementation planning. Monitoring of the implemented solutions HEROTILE-based roofs (HBR) represent a more recent, optimised evolution of Ventilated and Permeable Roofs (VPR). They are developed to enhance air permeability at tile level. However, evidence on the urban-scale effects of these solutions is still limited and their behaviour is not explicitly modelled in common climate assessment tools. To address this point, the demonstration project combined the physical roof retrofit with a structured monitoring activity aimed at detecting indoor and outdoor environmental conditions, occupants’ behaviour and roof thermal performance. This provided comparable evidence across different building states, separating the effects of envelope upgrades (façade insulation and window-frame replacement) from the specific contribution of the roof intervention. Monitoring data were organised across three distinct renovation phases, corresponding to dedicated summer monitoring periods: original buildings with unventilated flat roofs, buildings renovated with external insulation and new windows, and buildings retrofitted with the HBR installation. The monitored dataset covered on-site outdoor weather parameters, which provided the climatic drivers of summer overheating, including air temperature and humidity, solar radiation, wind and rainfall. Indoor Environmental Quality parameters cover indoor air temperature, relative humidity, CO₂ concentration and light levelsBuilding operation indicators capture cooling-energy consumption and window-opening events. Monitoring results indicate clear benefits after installation of the HEROTILE-based roof. In a selected summer comparison period (late June; 2022 vs 2025), considering both occupied and unoccupied apartments, the retrofit reduced the external roof surface temperature by 18–23% (average 20%) and lowered ceiling temperatures by 2–8% (with one exception reported for an unoccupied apartment in Building 2). In the same comparison, cooling energy use and related CO₂ emissions decreased by 44–91% (average 67%). These results refer to summer operating conditions, where the HBR acts as a passive cooling measure. In winter, the ventilation function does not replace the role of the thermal insulation layer: when the HBR is coupled with a proper insulated roof build-up, winter thermal performance is not expected to be compromised, while the ventilation layer can also help remove humidity and reduce condensation risks. Behavioural evidence further supports improved thermal resilience using the Thom’s Discomfort Index , which combines air temperature and humidity to describe summer bioclimatic discomfort. Heatwave conditions were identified as periods with TDI ≥ 25 for at least three consecutive days. Air-conditioning activation in 2022 was already high before heatwaves (20–30%) and rose to nearly 100% during extreme events. In 2025 (after the HBR retrofit), baseline air-conditioning use was negligible and remained low even during heatwaves. The HU-BES platform for monitoring and decision support To support learning and replication, LIFE SUPERHERO developed HU-BES (HUman-BEhaviors monitoring data Sharing), a web-based data-sharing platform integrated into the project website. HU-BES provides access to monitored data on Indoor Environmental Quality, building operation and roof performance. It allows users to compare results across the three renovation phases through filters such as building, apartment and time range. The platform is organised into two main areas (“Data” and “Roof Performance”) and includes dedicated subsections to explore trends and synthetic indicators. In particular, HU-BES includes “Benefits HBR” indicators (e.g., percentage reduction in maximum roof surface temperature, maximum ceiling temperature, and cooling energy use and related CO₂ emissions) to support an evidence-based interpretation of the monitored outcomes.",
+    "outcomes": "Success factors Several factors supported the successful implementation of the pilot retrofit project and strengthened its value for replication. First, the availability of technical documentation and on-site access enabled surveys and inspections to verify the actual roof build-up before design finalisation. This proved important because existing flat roofs can include raised elements and additional layers introduced over time (e.g., low-slope metal sheet roofing). Those elements influence detailing and feasibility when installing a new pitched roof over the existing configuration. A second enabling factor was the stepwise renovation pathway adopted on the demonstrator sites, where envelope efficiency measures (façade insulation and window-frame replacement) preceded the roof retrofit. In parallel, the monitoring strategy and associated project activities were structured to provide comparable evidence across different building states (before and after interventions). This early-on monitoring approach supported interpretation of outcomes and facilitated the overall learning value of the pilots. ACER (a public entity for social housing in Reggio Emilia) and the Municipality of Reggio Emilia will support the dissemination of the HBR best practice beyond the pilot case. Although HU-BES focuses on monitored physical and energy indicators rather than tenant-level billing data, its cooling-energy reduction indicators can support subsequent estimates of potential energy cost savings. For example, the complementary SUPERHERO software tool shows energy tariffs and economic assumptions. Replication potential is supported by both market availability and industrial feasibility. Among the two configurations demonstrated in Reggio Emilia, the Portuguese HEROTILE is already commercially available, while the Marseillaise typology remains at pilot/demonstration stage. More broadly, project guidance indicates that the HBR concept can be transferred to interlocking clay roof tiles through geometrical adaptations of moulds and tooling, without changing raw materials, firing cycles or production lines. By combining real-building demonstration, monitored evidence and structured communication through HU-BES, the pilots provide a reusable knowledge base that supports replication and reduces uncertainty for future adopters. In this case, costs were covered by the project. However, under commercial application, costs could be transferred to tenants if not supported by public subsidies. Limiting factors Some limiting factors and lessons learned are relevant for replication. Existing buildings can present high variability in roof configurations and added layers. This may affect design time and construction planning and makes early surveys and adaptive detailing critical. Moreover, replication in other housing contexts may face constraints not observed or not dominant in these demonstrators, such as administrative and permitting requirements, heritage-related restrictions, and additional structural and regulatory checks (including seismic considerations). The latter may require a case-by-case assessment and contingency planning.",
+    "cost_benefit": "Costs The pilot retrofit was financed within the EU co-funded LIFE SUPERHERO project and was implemented through a typical roof-renovation work package. The project budget reported total infrastructure costs of EUR 157,005 for the two Reggio Emilia demonstrators. The cumulative value for the construction of the new roofs was EUR 143,260, divided into EUR 61,923 for Building 1 and EUR 81,337 for Building 2. A more detailed cost analysis carried out for the demonstrators estimated the intervention at EUR 320.38 /m² excluding the materials supplied by project partners, and EUR 356.33 /m² including those materials, namely waterproofing sheets, tapes, ventilation grids and HEROTILE components. Main cost components were linked to site preparation and safety measures, construction works, the lightweight timber structure, tile laying, guttering, skylights and lifeline systems. Additional complementary costs for permits, tax charges and miscellaneous charges were estimated at approximately EUR 50 /m², while technical costs, not incurred for the demonstration buildings, were estimated at approximately EUR 40 /m² for ordinary replication cases. In the pilot implementation, the retrofit costs were covered within the project framework and were not charged directly to tenants. Benefits The expected benefits relate primarily to summer performance: the HBR solution is designed to reduce roof-covering temperatures and limit undesired heat gains. Those results improve indoor conditions and reduce cooling energy consumption where air-conditioning is being used. These effects were documented through the monitoring activities implemented under the dedicated monitoring strategy in the pilots. The reported effects became accessible through HU-BES, which provides data for indicators such as percentage reductions in maximum roof surface temperature, maximum ceiling temperature, and cooling energy use and related CO₂ emissions. A further design-related benefit concerns roof colour selection in summer-performance-oriented projects. Where SRI (Solar Reflectance Index) requirements are assessed using the Equivalent Reflectance calculation, HBR roofing can support compliance even with dark-coloured tiles. In this case, the high air permeability of the roof cover improves ventilation and helps reduce roof surface temperatures. Those effects compensate for the lower intrinsic reflectance of darker colours. This approach enhances the dynamic summer thermal behaviour of the ventilated roof, offering greater freedom in roof colour choice. This allows compliance with possible specific requirements necessary for the conservation of historic architecture. An additional benefit concerns durability and stable performance over time. In the project context, VPR/HBR solutions are presented as durable and easily applicable roof-based passive-cooling measures. By contrast, other urban heat mitigation options, such as cool roofs and green roofs, may require periodic cleaning or maintenance to preserve their functionality: for example, cool roofs can lose effectiveness when dirt reduces reflectance, while green roofs require vegetation maintenance and may be limited by local climate, architectural, aesthetic or landscape constraints.",
+    "timeline": "The LIFE SUPERHERO project started on 1 July 2020. The pilot implementation followed a phased pathway, combining renovation works and summer monitoring periods. Envelope energy-efficiency works, including external insulation and window replacement, were carried out before the roof retrofit: began in 2022 and were completed in 2023. The HBR installation was completed in 2024, allowing post-retrofit monitoring to be carried out during summer 2025. To document performance under real operating conditions, monitoring was aligned with three key building states: original buildings with unventilated flat roofs (summer 2022), buildings renovated with external insulation and new windows (summer 2023), and buildings renovated with HBR installation (summer 2025). In parallel, HU-BES was developed to support dissemination and learning from the pilots. The platform has been fully operational since 1 June 2025 and will remain active beyond project closure, ensuring continued access to the monitored dataset and indicators from the demonstrator buildings. The planned monitoring campaigns have been completed. Therefore, post-project continuity concerns data sharing, communication of results and possible future upload of data from further buildings using the HBR concept.. . Replication is further supported through dissemination and training activities addressed to building stakeholders, designers, public administrations and, at industrial level, the TBE and CERAME-UNIE networks representing European tile and brick producers. At this stage, no specific timetable for additional HBR retrofits has been set, although future applications may be planned as replication opportunities emerge.",
+    "lifetime": "The roof retrofit implemented in the pilot buildings is conceived as a long-term adaptation measure. Indeed, the HEROTILE-based roof solution is based on passive cooling through roof ventilation/permeability. It relies on clay roof tiles, which are characterised by high durability and stable performance over time. In the project’s durability assessment, the design service life of the HBR roof assembly was set to 50 years. Clay roof tiles under standard conditions can have a reference service life of around 100 years. They can be dismantled and reused if underlying layers require replacement which makes this solution potentially circular. In the project framing, this long lifetime with low maintenance is a key advantage compared to other roof-based heat mitigation options, such as cool and green roofs. Their effectiveness depends on maintaining functionality through periodic maintenance or cleaning interventions. The project continuation strategy foresees that the monitoring platform HU-BES will remain active after project closure, with the possibility of uploading additional data from buildings using the HBR concept.",
+    "stakeholders": "Stakeholder participation was embedded in the LIFE SUPERHERO pilots through the complementary roles of the project partners and the real-building demonstration setting. The retrofit of the two pilot buildings in Reggio Emilia was coordinated by ACER, the local public housing body, ensuring access to the buildings and the practical implementation pathway. Research partners (Università Politecnica delle Marche, Centro Ceramico, Italy) contributed to the definition of the monitoring approach and the technical interpretation of building performance. Technical and industrial partners supported the feasibility of the roofing solution demonstrated in the buildings. Project outputs were also shared with professional and sectoral audiences to support knowledge transfer beyond the pilot case. Dissemination activities targeted designers, architects, engineers, contractors, construction-sector companies, professional associations and public stakeholders. Examples include the public workshop at SAIE in Bologna, the workshop organised by HISPALYT in Madrid, and the presentation of LIFE SUPERHERO at the Tiles & Bricks Europe Congress, where results were shared with European ceramic associations and technical working groups. HU-BES complemented these activities by translating monitored data into accessible information for different user groups. Expert users, such as engineers, facility managers, policy-makers, companies and researchers, can access detailed trends and aggregated data visualisations, while non-expert users, including tenants and external stakeholders, are provided with simplified information. This supports transparency, learning and replication for actors involved in building renovation and climate adaptation planning.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 44.709414524005524,
+    "lon": 10.689682907581513,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu/hu-bes-data-sharing-platform",
+      "role": "contextual_input"
+    },
+    {
+      "name": "lifesuperhero.eu",
+      "url": "https://www.lifesuperhero.eu/demo-buildings",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+    "publication_date": "2026-07-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "12b1be9bf8e24f368c257c51b02b640c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/reduction-of-heat-stress-through-innovative-ventilated-and-air-permeable-roof-retrofit-enabling-passive-cooling-in-buildings-emilia-romagna-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-11T07:38:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

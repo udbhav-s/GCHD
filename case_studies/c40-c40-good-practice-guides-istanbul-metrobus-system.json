@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-istanbul-metrobus-system",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-istanbul-metrobus-system/",
+  "title": "C40 Good Practice Guides: Istanbul – Metrobüs system",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Istanbul – Metrobüs system,” an urban initiative documented for Istanbul. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Summary Istanbul’s Metrobüs system was designed to provide low cost, rapid service to the city’s inhabitants traveling east to west…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Istanbul",
+      "adm0": {
+        "name": "Republic of Türkiye",
+        "ucode": "TUR_V1",
+        "dcid": null,
+        "iso3": "TUR"
+      },
+      "adm1": {
+        "name": "İstanbul",
+        "ucode": "TUR_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "istanbul",
+      "label": "Istanbul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Istanbul’s Metrobüs system was designed to provide low cost, rapid service to the city’s inhabitants traveling east to west…",
+    "measures": "Summary \n Istanbul’s Metrobüs system was designed to provide low cost, rapid service to the city’s inhabitants traveling east to west and vice versa. It is the first bus rapid transit system in Turkey and has the distinction of being the first transcontinental BRT in the world. Metrobüs was designed to operate at near highway speeds and as a result, provides substantial travel time saving benefits to its users compared to alternative modes of transport. EMBARQ has completed a detailed analysis of social, environmental and economic benefits from the Metrobüs system in Istanbul. xxiv The analysis highlights various elements of BRT performance in Istanbul, including passengers carried, capital cost per km, reduction in travel time, reduction in GHG emissions and local air pollutants, as well as improved road safety and physical activity. It also identifies the socio-economic groups benefiting the most from the Metrobüs system. This analysis forms a good model for other cities to benchmark their systems and assess which groups are benefiting the most and why, as well as to undertake a comprehensive cost-benefit analysis to guide future improvements or expansions of their BRT systems.\n Results \n The Metrobüs system serves an estimated 600,000 passenger trips every day over a length of 51.3 km, with a maximum load of 30,000 trips per hour per direction. By reorganizing and consolidating informal transit and conventional buses, Istanbul’s Metrobüs BRT system is estimated to reduce CO 2 emissions by 167 tons/day and cut daily fuel consumption by more than 240 ton-litres – this equates to 60,955 tonnes per year.\n Reasons for success \n The city undertakes comprehensive surveys through the IETT (the Istanbul Electricity, Tramway and Tunnel Survey) annual rider assessments. This enables the city to continuously assess the quality of service being provided and improve it, which in turn ensures the BRT remains an attractive mode of transport for people to use.\n When/why a city might adopt an approach like this \n High-quality bus rapid transit systems can impact the quality of life, productivity, health, and safety of people living in cities. Examining these impacts in depth can help a city assess the net positive benefits to society of a BRT project, an important criteria when deciding to build or expand a BRT system. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The Metrobüs system serves an estimated 600,000 passenger trips every day over a length of 51.3 km, with a maximum load of 30,000 trips per hour per direction. By reorganizing and consolidating informal transit and conventional buses, Istanbul’s Metrobüs BRT system is estimated to reduce CO 2 emissions by 167 tons/day and cut daily fuel consumption by more than 240 ton-litres – this equates to 60,955 tonnes per year.\n\nThe city undertakes comprehensive surveys through the IETT (the Istanbul Electricity, Tramway and Tunnel Survey) annual rider assessments. This enables the city to continuously assess the quality of service being provided and improve it, which in turn ensures the BRT remains an attractive mode of transport for people to use.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-istanbul-metrobus-system/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27094",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-istanbul-metrobus-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

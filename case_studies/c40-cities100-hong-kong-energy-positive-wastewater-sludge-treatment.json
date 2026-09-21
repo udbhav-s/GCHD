@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-hong-kong-energy-positive-wastewater-sludge-treatment",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-energy-positive-wastewater-sludge-treatment/",
+  "title": "Cities100: Hong Kong – Energy-Positive Wastewater Sludge Treatment",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Energy-Positive Wastewater Sludge Treatment,” an urban initiative documented for Hong Kong, China. It is included because it is located in the Global South. C40 describes the action this way: T.PARK is the world's largest wastewater sludge incineration plant, self-sufficient and designed to convert all of Hong Kong's sludge into…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong's sewage production is expected to grow significantly due to a growing population. A further challenge is that the city's buildings account for 90% of electricity consumption and 60% of the carbon emissions.",
+    "measures": "As the first large-scale waste-to-energy facility in Hong Kong, T.PARK is a key environmental infrastructure project in the city's “Climate Action Plan 2030+”. The plant uses fluidized bed incineration to process wastewater sludge from the large sewage treatment works in the city. With a total capacity of 2,000 tons of sludge per day, it will meet the needs of the city beyond 2030. Previously, the wet and energy-rich sludge was dumped in landfills. With incineration at T.PARK, the residual ash uses 90% less landfill volume, and CO2 emissions from landfilling are significantly reduced. The process also generates renewable energy to power the plant and export to the city's grid.The entire facility has been built as a model for sustainability. Drinking water is provided by a desalination plant and rainwater is collected for non-potable uses. All wastewater generated within the facility is treated on site for reuse, resulting in zero effluent discharge to the sea. There is also an Environmental Education Centre equipped with leisure, educational, and landscaped facilities, including a spa, exhibition halls, upcycling showrooms, wetland garden, and bird sanctuary.\n Environmental Benefits – The facility has been designed to the highest green building standards as a model for other buildings in the city.\n Social Benefits – The Environmental Education Centre at T.PARK aims to encourage sustainable living via educational and recreational initiatives. There is also an eco-cafe that employs socially disadvantaged members of the Tuen Mun District.\n Economic Benefits – The plant will generate 80 million kWh of electricity annually to power the plant and for export to the grid, generating cost savings and powering 4,000 households.\n Health Benefits – At the facility, double-door design and negative air pressure inside the sludge delivery bays help to prevent bad odors and dust pollution.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-energy-positive-wastewater-sludge-treatment/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27360",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-energy-positive-wastewater-sludge-treatment&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

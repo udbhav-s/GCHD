@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-new-waste-collection-system-in-venice",
+  "url": "https://www.c40.org/case-studies/new-waste-collection-system-in-venice/",
+  "title": "New waste collection system in Venice",
+  "summary": "This C40 case study describes “New waste collection system in Venice,” an urban initiative documented for Venice. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: Venice (historical centre) has developed a new strategy to increase and improve the collection of separated waste: the historical centre of Venice…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Venice",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": "ITA_0020_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Venezia",
+        "ucode": "ITA_0020_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "venice",
+      "label": "Venice"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Venice (historical centre) has developed a new strategy to increase and improve the collection of separated waste: the historical centre of Venice receives a hybrid collection (door-to-door collection and self-delivery to a special separate waste collection boat). In contrast, the mainland uses bins which are locked for general waste.",
+    "measures": "The boats are fitted with special compactors for plastic, glass, cans, paper and general waste. On Mondays, Wednesdays and Fridays they collect paper; on Tuesdays, Thursdays and Saturdays they collect glass, plastic and cans. General waste is collected every day. An important aspect of this new system is that boats are supervised by employees of Veritas and therefore separated collection for recycling is improving.\n Collection and sorting of bulky waste is free for citizens by scheduling an appointment. Eight used oil collection bins are also available in the city.\n Veritas operatives also a manual sweeping service which takes place early each morning throughout the city.",
+    "outcomes": "Separated collection is now increasing so that a smaller amount of garbage is now sent to the waste incineration plant. CO2 emissions should therefore decrease. Unfortunately, we do not yet have updated data available on this decrease.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The boats are fitted with special compactors for plastic, glass, cans, paper and general waste. On Mondays, Wednesdays and Fridays they collect paper; on Tuesdays, Thursdays and Saturdays they collect glass, plastic and cans. General waste is collected every day. An important aspect of this new system is that boats are supervised by employees of Veritas and therefore separated collection for recycling is improving.\n Collection and sorting of bulky waste is free for citizens by scheduling an appointment. Eight used oil collection bins are also available in the city.\n Veritas operatives also a manual sweeping service which takes place early each morning throughout the city."
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/new-waste-collection-system-in-venice/",
+    "publication_date": "2018-03-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27381",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=new-waste-collection-system-in-venice&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

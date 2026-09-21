@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-wuhan",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-wuhan/",
+  "title": "C40-Bloomberg Philanthropies Awards: Wuhan’s one-hundred-mile Yangtze river ecological corridor",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Wuhan’s one-hundred-mile Yangtze river ecological corridor,” an urban initiative documented for Wuhan. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Wuhan is taking action to upgrade 396 kilometres of shorelines of the Yangtze River Economic Belt to improve flood control capacity and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Wuhan is taking action to upgrade 396 kilometres of shorelines of the Yangtze River Economic Belt to improve flood control capacity and the area’s ecological, cultural, and landscape functions, as it is a vital region for trade along China’s rivers.",
+    "measures": "Wuhan lies on the banks of the Yangtze River and has large bodies of water covering around 25% of the city’s area. Due to this, Wuhan is particularly vulnerable to flooding and rainstorms, posing a serious threat to urban security. The city is taking action to upgrade 396 kilometres of shorelines of the Yangtze River Economic Belt to improve flood control capacity and the area’s ecological, cultural, and landscape functions, as it is a vital region for trade along China’s rivers.\n The city is also implementing a flood control system, strengthening disaster prevention by improving flood-control measures, drainage facilities and expanding rainwater-pumping stations. Wuhan will build an ecological corridor that connects the river and city to enhance urban greening and water quality, and a cultural corridor to showcase historical features.\n By the end of 2021, Wuhan created 638 hectares of wetlands, with an estimated 196.4 hectares of existing green areas renovated, resulting in increased biodiversity and carbon sinks. Around 103,000 m 2 of highly polluting buildings have been demolished to reduce the city’s overall emissions. Additionally, Wuhan’s flood resilience project effectively returns the rivers, riverbanks and riverside landscape to residents, thus making the city more livable, business-friendly and attractive for tourists.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Building Climate Resilience",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-wuhan/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31497",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-wuhan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:43:28",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-mexico-city-hospitals-lead-the-way-in-energy-transition",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-hospitals-lead-the-way-in-energy-transition/",
+  "title": "Cities100: Mexico City – Hospitals Lead the Way in Energy Transition",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Hospitals Lead the Way in Energy Transition,” an urban initiative documented for Mexico City. It is included because it is located in the Global South. C40 describes the action this way: Hospitals and other public buildings in Mexico City are being outfitted with energy efficiency upgrades and renewable energy systems to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Providence's building stock accounts for more than two-thirds of their carbon emissions. Leading by example and installing energy efficiency upgrades in municipal buildings will pave the way for broader policy change and help achieve the goal of becoming a carbon neutral city by 2050.",
+    "measures": "Mexico City is pursuing a dual-action strategy as part of their low-carbon energy transition, using energy efficiency improvements in combination with investment in renewable energy systems for public buildings. Building on the UN's Energy Efficiency Accelerator Platform, the city is performing energy diagnostics on public buildings in order to plan strategic upgrades and reduce energy consumption. As well as these 'invisible' actions, the city is also investing in solar thermal heating systems to provide hot water in all public hospitals. Mexico City already has an ambitious Climate Action Program calling for a 30% reduction in CO2 by 2020, but reducing emissions from existing, inefficient buildings is notoriously difficult. When done right, however, efficiency upgrades can be one of the cheapest ways to reduce emissions, as the pilot project at La Villa Pediatric Hospital demonstrates. After the installation of 32 rooftop solar thermal collectors, the hospital now saves around $8,800 per year in heating costs and 52 tons of CO2 equivalent.\n Environmental Benefits – With the installation of solar water heating systems and energy retrofits in 12 hospitals, Mexico City expects to save around 750 tons of CO2 equivalent.\n Economic Benefits – Each hospital under the project's scope could save around $8,500 annually after efficiency upgrades and installation of renewable energy systems.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-hospitals-lead-the-way-in-energy-transition/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27311",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-hospitals-lead-the-way-in-energy-transition&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

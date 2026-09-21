@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-jakarta-coastal-defence-strategy-and-flood-mapping",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-jakarta-coastal-defence-strategy-and-flood-mapping/",
+  "title": "C40 Good Practice Guides: Jakarta – Coastal Defence Strategy and Flood Mapping",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Jakarta – Coastal Defence Strategy and Flood Mapping,” an urban initiative documented for Jakarta. It is included because it addresses river flood, coastal flood hazards, and it is located in the Global South. C40 describes the action this way: Summary Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jakarta",
+      "label": "Jakarta"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal…",
+    "measures": "Summary \n Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal and river flooding due to monsoons, sea-level rise and insufficient and faulty drainage infrastructure xxxiv . The rapid rates of land subsidence play a key role in relative sea- level rise: estimates suggest an average subsidence rate of 40 mm/year, in some places up to 20 cm/year. An estimated 90% of North Jakarta is expected to lie below sea level in 2030 and the 13 rivers and canals of Jakarta are projected to stop flowing freely to the sea around 2025 if no measures are taken. As the sea-level rises, saltwater intrusion of groundwater tables also becomes a problem. This is related to the high volume of groundwater extraction, with additional pressure from construction and natural consolidation of sedimentary layers. Greater Jakarta has prepared a policy for disaster management as well as the Jakarta Coastal Defence Strategy and Flood Mapping xxxv . Jakarta is also preparing a Sea Defence Wall Master Plan to protect the Northern Jakarta from inundation caused by increase in sea level and land subsidence and is now pursuing the development of a larger adaptation strategy.\n Results \n A set of measures are planned to minimize land subsidence, including limiting groundwater extraction, providing sufficient supply of raw water from surface water, developing water retention basins, and building absorption wells called biopores (1 million planned). The restriction on groundwater extraction, decreed by regional regulation, is a key measure for slowing down land subsidence. The Northern Jakarta area is mandated to have 100% water-supply coverage and 0% groundwater abstraction by 2015. The rest of the city will also see groundwater extraction phased out in geographic bands moving southward by 2020, 2025 and 2030, with the similar assumption that piped water will be provided in all districts by 2030. This initiative is co-financed by taxing groundwater consumption and is supported by development of alternate water supply piping for large industrial users or relocation of large groundwater users outside the ‘critical zones’, but it admittedly still faces some challenges of proper enforcement. Other initiatives include construction of East Flood Canal and interconnection canals; Jakarta Emergency Dredging Initiative xxxvi of vital waterways (currently at 30% capacity partly due to clogging by high volume of improperly disposed solid waste); reconstruction of pumps; protection of natural coastal defences (mangroves); construction of sea embankments; and resettlement of illegal housing along rivers and lakes.\n Reasons for success \n Jakarta’s mitigation of land subsidence is driven by international assistance and sharing of lessons learned with other delta cities, as well as acknowledgment of the need for an integral water management approach, in which sanitation, wastewater treatment, surface water quality, alternate access to clean drinking water and flood protection are being improved in an interconnected way.\n When/why a city might apply an approach like this \n This approach is particularly relevant if a city has a significant portion of land at, or already below, sea level, is highly canalized, or has high rate of groundwater extraction and the delta is no longer naturally being reinforced with sediment. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "A set of measures are planned to minimize land subsidence, including limiting groundwater extraction, providing sufficient supply of raw water from surface water, developing water retention basins, and building absorption wells called biopores (1 million planned). The restriction on groundwater extraction, decreed by regional regulation, is a key measure for slowing down land subsidence. The Northern Jakarta area is mandated to have 100% water-supply coverage and 0% groundwater abstraction by 2015. The rest of the city will also see groundwater extraction phased out in geographic bands moving southward by 2020, 2025 and 2030, with the similar assumption that piped water will be provided in all districts by 2030. This initiative is co-financed by taxing groundwater consumption and is supported by development of alternate water supply piping for large industrial users or relocation of large groundwater users outside the ‘critical zones’, but it admittedly still faces some challenges of proper enforcement. Other initiatives include construction of East Flood Canal and interconnection canals; Jakarta Emergency Dredging Initiative xxxvi of vital waterways (currently at 30% capacity partly due to clogging by high volume of improperly disposed solid waste); reconstruction of pumps; protection of natural coastal defences (mangroves); construction of sea embankments; and resettlement of illegal housing along rivers and lakes.\n\nJakarta’s mitigation of land subsidence is driven by international assistance and sharing of lessons learned with other delta cities, as well as acknowledgment of the need for an integral water management approach, in which sanitation, wastewater treatment, surface water quality, alternate access to clean drinking water and flood protection are being improved in an interconnected way.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-jakarta-coastal-defence-strategy-and-flood-mapping/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27154",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-jakarta-coastal-defence-strategy-and-flood-mapping&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+  "title": "Prescribed fire and grazing as integrated approach to make forests climate resilient in Viseu Dão Lafões, Portugal",
+  "summary": "An integrated approach that combines planned grazing with prescribed fire to prevent large and destructive fire events is being implemented in Portugal. The solutions also help to preserve extensive livestock farming as a sustainable economic activity in the region. The Viseu Dão Lafões Intermunicipal Community ( CIM ) is an association of 14 municipalities part of Viseu and Guarda districts, in central Portugal. It includes a mountain landscape with forested areas and various pasture areas and extensive livestock farms. The area suffers from recurrent fires that are a severe threat for the population and for the ecosystems.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": "country/PRT",
+        "iso3": "PRT"
+      },
+      "adm1": {
+        "name": "Centro (PT)",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Centro__PT___PT_",
+        "source_name": "Centro (PT) (PT)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Extremadura",
+        "ucode": "ESP_0011_V1",
+        "dcid": null,
+        "source_code": "SUBN_Extremadura__ES_",
+        "source_name": "Extremadura (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "smoke exposure",
+      "label": "smoke exposure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extensive livestock farming",
+      "label": "extensive livestock farming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "prescribed fire",
+      "label": "prescribed fire"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "pasture",
+      "label": "pasture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest fires",
+      "label": "Forest fires"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest fire prevention",
+      "label": "Forest fire prevention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "firefighters",
+      "label": "firefighters"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "occupational health",
+      "label": "occupational health"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Viseu Dão Lafões CIM led the LIFE Landscape Fire project, that aims to: · develop large-scale measures to prevent forest fires; · preserve biodiversity, · increase forest resilience, · empower decision-makers regarding the benefits of fire prevention and · identify a set of options and measures for local adaptation. This initiative is part of a broader adaptation pathway undertaken by Viseu Dão Lafões CIM to prevent forest fire and make forests more resilient to climate change. With the creation of the Forest Sappers Brigades, CIM Viseu Dão Lafões intends to create an inter-municipal perspective for fuel management in the forests. Through analysing the history of fires, their recurrence, the axes of fire propagation that have historically shifted and considering the strategic fuel management points, intervention zones can be prioritised to mitigate the potential for fire occurrence.",
+    "measures": "Within the scope of the LIFE Landscape fire project , Viseu Dão Lafões CIM investigated and started implementing the integrated use of grazing and prescribed fire to prevent the occurrence of large and destructing fire events in the area. Activities tested the grazing technique as solution to help preventing fire risk in the region, while also preserving biodiversity through seed dispersal and increasing soil fertility. A total of 48 farms (2.931 sheep, 1.230 goats and 225 cows) were identified in the region, with a total grazing area of of 2900 ha. Based on a financial and technical study about the need for infrastructure for the whole grazing area and on field visits to some of the farms, drinking fountains were installed in the Serra de São Macário, in São Pedro do Sul, and in Aguiar da Beira in summer 2023. These infrastructures were installed to favour the maintenance of extensive grazing in the region, as means to reduce fire fuels more effectively than most mechanical methods. Face-to-face and online sessions took place to introduce advanced grazing planning, grazing techniques and pastoral planning and actions. Information panels about the project were placed next to the built infrastructures. 15 technicians from the municipalities in the CIM Viseu Dão Lafões territory participated in trainings. Grazing plans were developed for some of the livestock farms that took part in the project to manage grazing in space and time for each of the farms. Thus, materials and equipment needs were identified (\"drinking stations\") to be installed in strategic fuel management zones, so that the animals could feed in these areas. In combination with grazing, several controlled fire pilot actions were carried out in the municipalities of São Pedro do Sul, Vila Nova de Paiva, Vouzela and Castro Daire, covering a total area of around 250 hectares. Controlled fire consists of the use of fire in the management of forested areas spaces, under controlled conditions and specific procedures according to controlled fire plans. Controlled fire is always carried out under the responsibility of an accredited technician, with technical training in use of controlled fire, a factor of primary importance for its operational use. The pilot areas for implementing controlled fire were selected based on identifying strategic fuel management points in the region and fire behaviour during events from 1990 to 2017. Controlled fire (also referred as prescribed fire/burn) is highly important to prevent fires, by maintaining forest fuel loads below critical levels. Controlled fire was applied in small patches of forest and scrublands, in compatible weather conditions. For this reason, an important component of the project was training. In total, 100 people, of which 25 controlled fire technicians that coordinate and plan the actions and 75 burn operators, were trained. Training actions for prescribed fire lasted 2 years (2021 to 2023) through several events where participants had the opportunity to carry out practical controlled fire actions and analyze methods and results of the use of fire. Controlled fire action took place in several municipalities of the region. These actions had the support of operators from the Volunteer Fire Brigades working in the municipalities of Viseu Dão Lafões territory, from various technicians working with controlled fire and from the Forest Sappers Brigades of the Intermunicipal Community. In particular, two Forestry Sappers Brigades (see Policy and legal background) are operational in the CIM Viseu Dão Lafões territory. Each Forestry Sappers Brigade is made up of three teams of five members each, totalling fourteen forestry sappers and a Senior Technician with a degree in Forestry Sciences, who assumes the role of Brigade Leader. Forest sappers continuously implement various traditional actions for fuel reduction, that complement prescribed fire, with an overall view to increasing the territory's resilience to forest fires ( CIM website ). Prescribed fire was traditionally used in the region, especially in mountainous areas by shepherds to renew pastures. Burning was usually carried out periodically, alternating between different sites and with a cycle that usually varied between 3 and 5 years, depending on the local characteristics. During seven controlled fire actions carried out in the Viseu Dão Lafões territory, data were collected to support a study about the occupational firefighters’ exposure to smoke, as part of the ArRiscO project. Particulate matter and atmospheric pollutants (carbon monoxide, nitrogen oxides, sulphur oxides and total volatile organic compounds) were measured to investigate their role in chronic obstructive pulmonary disease (COPD) and asthma. Questionnaires were prepared to ascertain respiratory symptoms. This study helped to improve knowledge on the effects of exposure to air pollution from fighting forest fires on firefighters and generated a series of practical recommendations for reducing exposure and mitigate health problems (e.g. use of protective equipment, turnover of personnel, ensure adequate training, regularly monitor health conditions). By participating in LIFE NIEBLAS project, CIM Viseu Dão Lafões is involved in reforestation of some areas affected by fires with native species (Quercus robur , Quercus pyrenaica e Quercus suber ). CIM applies innovative forms of irrigation, namely using water from the fog, captured through fog collectors and individual reservoirs to increase the survival rate of the planted trees. The aim is to allow the sustainable recovery of forests and aquifers, thus reinforcing the resilience of the ecosystems of Viseu Dão Lafões. Several monitoring activities were performed during the project to control soil conditions (chemical and microbiological analysis) and vegetation (sampling and remote sensing activities). Results from the project indicated that prescribed burn does not negatively affect soil conditions, nor does it affect the roots of the plants, nor pollinators. Regeneration naturally occurred after some months from the application of fire. Collars with GPS were used to track animal movement and behaviour (mainly sheep and goats). Results indicate that they generally prefer to graze areas where prescribed burn was applied and regeneration started.",
+    "outcomes": "The requirement to protect and assist people and resources (natural and material) in the Viseu Dão Lafões territory motivates the intermunicipal community (CIM) to support the Civil Protection mission of the region. CIM structures several projects to optimize the operational response in the phases of disaster prevention/planning such as to identify and analyse risks, to define standards and procedures, mitigate effects and carry out awareness-raising actions. as well as to plan relief/assistance and recovering. The Intermunicipal Emergency and Civil Protection Platform ( VIGIA ) was developed by CIM Viseu Dão Lafões for civil protection teams and security forces to support operations in times of response to emergency events. The platform allows to plan interventions in the territory in the context of fuel management, but also to monitor and manage civil protection incidents in real time. The role of CIM was reinforced by the legislative package for forestry reform, approved in Portugal in 2017, and by the Intermunicipal Forestry Technical Offices and two Forest Sappers Brigades, subsequently established to operate in the region. Besides Life Landscape Fire Project, the CIM Viseu Dão Lafões participated in other EU funded projects, such as Life NIEBLAS and Interreg Sudoe Climalert . Thus, it gradually builds a comprehensive knowhow for fire management. The collaboration with other LIFE projects, focussed on agroforestry and extensive farming, is expected to create a network of farms, bringing together various land owners. This network could potentially boost and further scale up the results of individual projects. Further replication potential of the project depends on the capacity to transform pilot actions into ordinary and operational activities with a long-term view. A replicability and transferability plan is expected to be completed within the Landscape fire LIFE project. The project could count on the knowledge linked to local tradition and culture of the Viseu Dão Lafões which has always used prescribed fire and grazing techniques in the mountain management of forest heritage. Other success elements stem from the multiple benefits expected from combining prescribed fire with grazing, that makes adaptation to climate change more attractive and desirable for local farmers (see also ‘Costs and benefits’ section). The Life Landscape Fire Project also includes actions in Extremadura (Spain) and applies a methodology successfully implemented in other Spanish regions (Andalusia and Catalonia). This allowed to exchange experiences in the use of prescribed fire combined with controlled grazing between the two countries. In Extremadura, in addition to drinking fountains, shelters for animals were considered as an adaptation solution to increasing temperatures, while also favouring grazing in specific areas. Experiences with grazing adapted to fire prevention achieved from the Mosaic Project in Extremadura were shared with partners of Life Landscape Fire Project and opened new perspectives for replication in the Portuguese area. Successful results obtained in Extremadura were key to encourage solutions in Viseu Dão Lafões. Results indicate that pilot vegetated areas where grazing was applied or where low intensity natural fire occurred (with similar characteristic to controlled fire) were spared from a vast fire event that hit the whole region of Extremadura in May 2023. Limiting factors are concerns among the population about possible risks to apply prescribed fire, due to the general negative connotation associated with fire. However, first positive results demonstrated by the project allowed people to understand the value of the technique that has been then commonly accepted in the Viseu Dão Lafões territory. Other limiting factors are the dependence on meteorological conditions and terrain conditions (vegetation type) that are compatible with the controlled fire technique, as well the need to have people qualified to implement it.",
+    "cost_benefit": "The total cost of Landscape Fire project is 2,377,698€ (EU Contribution: 1,307,328 €), covering activities both in the Portuguese and Spanish areas. An initial assessment of the cost for alternative fire prevention solutions per hectare show about: 900-1000 euros for simple work done in the traditional way with motorised hand tools; 160-180€ using controlled fire, and 60-80€ to remunerate shepherds for animal grazing as fuel management service. This compensation is paid for providing environmental services and it is calculated – among other factors - taking the difficulty and steepness of the terrain and the amount of fuel available into account. Based on updates from the project implementation (specifically in the Extremadura region), the amount of compensation for shepherds was recalculated as follows: 102€/hectare in extensive grazing and 126€/hectare in linear structure grazing. Benefits are manifold. Through encouraging grazing for fire prevention, extensive livestock farming can be preserved as important form of sustainable food production with low carbon footprint. It is also an instrument for landscape management and conservation, with the capacity to transform abandoned areas or areas with low agricultural productivity into ones capable of generating high-quality products and services. A project report on the socioeconomic impact of the project will show that this method of fire prevention is important for local economy and for preserving local culture and traditions. Well-managed grazing shows several environmental co-benefits such as improving soil fertility, preventing erosion and supporting tree regeneration. Grazing animals help seed dispersal, promote landscape-scale nutrient cycling and reduce the accumulation of plant biomass, thus minimizing the impact of rural and forest fires. Besides the reduction of large fire events, prescribed fire can help control invasive plant species and pests, support natural regeneration and provide ground space for new plant species to grow, which can be appetizing for many different types of animals.",
+    "timeline": "The Landscape Fire project started in 2019 and closed in June 2024. Its lifetime was extended from 2022 to 2024 due to Covid 19 pandemics that delayed some actions.",
+    "lifetime": "To be effective, prescribed fire should be periodically and regularly done in alternating small patches to control fire risk in a large forested area. A few months after the application of fire, vegetation starts to regenerate. A typical implementation cycle usually varies between 3 and 5 years. The role of Viseu Dão Lafões CIM and results from the replicability and transferability plan of the LIFE landscape fire project are key to transform pilot interventions into full scale and ordinary implementation.",
+    "stakeholders": "Stakeholders from public administrations, business, civil society and Academia were involved in the Landscape Fire project. Training activities for prescribed fire involved several technicians from Forestry Technical Offices, Municipal Civil Protection Services, Municipal Firemen Sappers, Volunteer Firemen, Forest Sappers, Emergency Protection and Rescue Unit (UEPS) of the National Republican Guard, Institute for Nature Conservation and Forests (ICNF), and National Emergency and Civil Protection Authority (ANEPC). Local farmers were involved in the selection of plots where to implement controlled fire, and prioritising sites where intervention with fire could have been combined with existing grazing or with the possibility of creating the conditions for grazing to take place. A networking initiative was organised with other LIFE projects (Life Maronesa, Life LiveAdapt, Life Montado-Adapt, Life Scrubsnet, Life Desert Adapt, Life Regenerate) to explore possible synergies. Since all projects have different types of collaboration with private and public farms, the development of a network of farms emerged as an opportunity to bring together different owners.",
+    "legal_context": "After the 2017 fires, a legislative forestry reform package with the aim of overcoming structural problems in territorial planning was approved in Portugal. These problems started to become more evident due to the increasing effects of climate change, with serious threats to the safety of populations and to the economic and social development of the region. As part of this new legal framework, a resolution of the Council of Ministers ( no. 157A/2017) established the Forest Sappers Brigades that have to intervene in the installation and maintenance of primary forest defence network against fires, in post-fire actions, as well as in emergency control actions. They promote action in line with the objectives defined in the National Strategy for Forests and the National Forest Defense Plan against Fires. Framed within this legislative package, the Intermunicipal Forestry Technical Offices were also established. Intermunicipal Communities (including the Viseu Dão Lafões CIM) started to assume an important role in defending the forest against fires, as well as promoting regional policies, resulting in local synergies for adaptation. In 2017, the Viseu Dão Lafões CIM launched the Intermunicipal Climate Change Adaptation Plan , aimed to promote the integration of climate change adaptation into intermunicipal and municipal planning. Through this plan, it created a culture of adaptation across various sectors and actors, reinforcing territorial resilience and preparing the community for climate change challenges."
+  },
+  "point": {
+    "lat": 40.6796012,
+    "lon": -7.92396109015,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "life.cimvdl.pt",
+      "url": "https://life.cimvdl.pt/?lang=en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cimvdl.pt",
+      "url": "https://www.cimvdl.pt/viver/ambiente-seguranca-e-protecao-civil/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+    "publication_date": "2024-08-06",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "59812f46a29c4635b7c63ade0a9553b0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/prescribed-fire-and-grazing-as-integrated-approach-to-make-forests-climate-resilient-in-viseu-dao-lafoes-portugal",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:43+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

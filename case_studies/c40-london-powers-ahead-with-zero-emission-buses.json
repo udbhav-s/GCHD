@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-london-powers-ahead-with-zero-emission-buses",
+  "url": "https://www.c40.org/case-studies/london-powers-ahead-with-zero-emission-buses/",
+  "title": "London powers ahead with zero-emission buses",
+  "summary": "This C40 case study describes “London powers ahead with zero-emission buses,” an urban initiative documented for London. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: London has been on a journey to electrify its bus fleet, helping the city to tackle the twin crises of toxic air…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "London has been on a journey to electrify its bus fleet, helping the city to tackle the twin crises of toxic air pollution and climate breakdown.",
+    "measures": "London has been on a journey to electrify its bus fleet, helping the city to tackle the twin crises of toxic air pollution and climate breakdown. \n London recently passed a major milestone when it announced more than 1,000 zero-emission buses now operate in its fleet 1 . This means that one in seven buses in London now produces no emissions 2 —and that London’s zero-emission bus fleet is the largest in Western Europe. To put this in perspective, C40 data shows that the next three largest zero-emission bus fleets in other Western European cities have 282, 207, and 190 zero-emission vehicles, respectively 3 .\n This article explores how London is achieving a cleaner, greener, and fairer future by investing in a record number of zero-emission buses, creating thousands of good, green jobs, and working with bus manufacturers to improve working conditions in the supply chain.\n How did London do it? \n London’s progress in electrifying its bus fleet has been driven by the ambitious policies of its mayor and C40 Chair, Sadiq Khan. Since 2021, the mayor has required that all new buses entering the fleet in London be zero emission. He also set a clear target: by 2034, London aims to have a fully zero-emission bus fleet. This goal could potentially be accelerated to 2030 with more support and funding from the UK’s central government.\n These policies provided clear direction for Transport for London (TfL), the city’s transport authority. They also signalled to bus operators and manufacturers that London is committed to zero-emission buses. This has encouraged manufacturers, alongside TfL and London bus operators, to develop and roll out zero-emission buses and to invest in the necessary infrastructure to support the vehicles.\n These targets align with London’s broader ambition to become a net-zero carbon city by 2030. Converting the bus fleet to be entirely zero emission by 2034 will save an estimated 4.8 million tonnes of carbon – this number could rise to 5.5 million tonnes if the goal is achieved by 2030. \n Creating good, green jobs and ethical supply chains \n London’s investment in zero-emission buses is not only making the city greener but also boosting the national green economy. TfL’s investment in zero-emission buses supports around 3,000 green jobs across the UK. By fostering a growing market for zero-emission vehicles, this investment is paving the way for green economic growth and lowering costs for other local authorities through economies of scale.\n Importantly, London is also taking steps to understand how the raw materials needed for its zero-emission buses, such as cobalt, lithium, tin, and nickel, are sourced. TfL has partnered with the independent monitoring organisation Electronics Watch and ten other European public buying authorities to improve working conditions in its supply chain.\n By collaborating with vehicle manufacturers, TfL aims to better understand where the batteries for its zero-emission buses are coming from, including information about where raw materials are being sourced and where key components are being manufactured. Electronic Watch’s network will monitor working conditions at certain sites, putting workers’ voices at the centre of monitoring and establishing greater supply chain transparency.\n A cleaner, greener, and fairer future \n London’s journey toward electrifying its bus fleet is a beacon of hope for greener urban transport. The city is reducing carbon emissions while supporting the green economy with ambitious policies, clear targets, and a commitment to ethical supply chains. London’s leadership in investing in zero-emission buses is a prime example of a cleaner, greener, and fairer future for all.\n 1. As of October 2023, TfL’s bus fleet size was around 8,700 vehicles, of which 1,180 were zero emission.\n 2. No emissions produced at the tailpipe.\n 3. C40 cities report annually on the number of zero emission buses in the city fleet. Our data is collected confidentially from cities, hence we are unable to make this public. There are currently 18 European cities in the C40 network, including the largest cities in the region.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/london-powers-ahead-with-zero-emission-buses/",
+    "publication_date": "2023-10-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36711",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=london-powers-ahead-with-zero-emission-buses&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-17T15:44:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-buenos-aires-four-waste-streams-processed-at-one-facility",
+  "url": "https://www.c40.org/case-studies/cities100-buenos-aires-four-waste-streams-processed-at-one-facility/",
+  "title": "Cities100: Buenos Aires – Four Waste Streams Processed at One Facility",
+  "summary": "This C40 case study describes “Cities100: Buenos Aires – Four Waste Streams Processed at One Facility,” an urban initiative documented for Buenos Aires. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The recently constructed Environmental Park in Buenos Aires has the ability to process construction and demolition, pruning, organic, and plastic…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2012, Buenos Aires sent more than 2 million metric tons of waste to landfill, generating a huge amount of greenhouse gas emissions and costing the city $18 per metric ton. In constructing the Environmental Park, with the ability to treat construction, pruning, organic and plastic waste, the city has reduced the amount of waste sent to landfill and, by doing so, reduced associated costs and greenhouse gases.",
+    "measures": "The Environmental Park, constructed in 2012, processes almost 35% of waste generated in Buenos Aires, reducing waste sent to landfill and preventing greenhouse gas emissions. The Environmental Park processes four waste streams: construction and demolition, pruning waste, organic, and plastic, and includes an education center, making Buenos Aires one of the first cities in South America to process different waste streams at a single facility. Covering 85 hectares, the treatment plants and education center are connected by footbridges, allowing visitors to walk safely through the facility and learn the importance of recycling, reducing, and reusing waste as well as composting. In addition to reducing waste sent to landfill and educating the public, the Environmental Park was created using principles of sustainable design, with rainwater collected for irrigation, a solar thermotank, floors made from recycled materials, a green amphitheater, and native and non-native plants that create a forest curtain between the facility and the surrounding suburb. With the help of the Environmental Park, Buenos Aires aims to treat 100% of waste generated in the city by 2020.\n Environmental Benefits – 18,000 metric tons of pruning waste was treated at the Environmental Park and reused for mulch or soil stabilizer from June 2015 to April 2016.\n Social Benefits – The Ministry of Environment works with the Ministry of Education to encourage primary schools, secondary schools, and universities to visit and tour the Environmental Park to instill in youth the importance of waste management and other environmental issues.\n Economic Benefits – The Construction and Demolition Facility in the Environmental Park can process 2,400 metric tons of waste daily, saving the city about $20,600 per day.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-four-waste-streams-processed-at-one-facility/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27213",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-four-waste-streams-processed-at-one-facility&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

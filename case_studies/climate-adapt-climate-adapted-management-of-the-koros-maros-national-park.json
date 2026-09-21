@@ -1,0 +1,188 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-climate-adapted-management-of-the-koros-maros-national-park",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-adapted-management-of-the-koros-maros-national-park",
+  "title": "Climate adapted management of the Kis-Sárrét area in the Körös-Maros National Park",
+  "summary": "In Hungary's Kis-Sárrét area, a Climate-Adapted Management Plan (CAMP) developed in 2013 addresses climate-related risks affecting the habitats and biodiversity loss in the Körös-Maros National Park. Measures include maintaining water regimes, preventing invasive species, and preserving river habitats. The Kis-Sárrét area is located in south-eastern Hungary close to the Romanian border. The area is part of the Körös-Maros National Park and is included in the Natura 2000 network. It hosts numerous plants, animals, and habitat types of EU community importance. Its landscape has undergone dramatic changes during the past 200 years.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Hungary",
+        "ucode": "HUN_V1",
+        "dcid": "country/HUN",
+        "iso3": "HUN"
+      },
+      "adm1": {
+        "name": "Dél-Alföld",
+        "ucode": "HUN_0001_V1",
+        "dcid": null,
+        "source_code": "SUBN_Dél_Alföld__HU_",
+        "source_name": "Dél-Alföld (HU)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "management plan",
+      "label": "management plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature conservation",
+      "label": "nature conservation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetland",
+      "label": "wetland"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "marshes",
+      "label": "marshes"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Invasive species",
+      "label": "Invasive species"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water regime",
+      "label": "water regime"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children"
+    ],
+    "group_mentions": {
+      "children_youth": 1
+    }
+  },
+  "intervention": {
+    "objectives": "To address the main climate-related risks affecting the habitats and biodiversity of the Körös-Maros National Park, where the Kis-Sárrét area is located, a Climate-Adapted Management Plan (CAMP) was elaborated with the involvement of experts and local stakeholders. Main objectives of the CAMP are: Improvement of the resilience of protected and valuable habitats in the CAMP area; Intensification and improvement of stakeholder dialogues within the park; Deepening studies to deal with uncertainties in climate-change projections; Integration of climate change scenarios in the management of habitats; Improvement and specification of monitoring activities; Implementation of an “active adaptive management” approach for the CAMP area; Development of exemplary management plans for Natura 2000 Habitats that integrate the latest knowledge about climate change and its impacts; Integration of the results of climate modelling and hydrological modelling in the management of protected habitats.",
+    "measures": "Since 2013, several measures were implemented in line with the CAMP to deal with the consequences of climate change: Maintenance of water regime, solving the problem of water supply and water excess due to neglected waterworks, avoiding too high water level during spring (not to threaten nesting birds and private-owned areas) or summer (enabling mowing and cutback of Typha stands) by directing water into canals towards fishponds Prevention against invasive species. This includes shredding, cutting or harvesting exotic species, banning burning, introducing sheep and /or cattle grazing in some areas (includes selection of proper cattle breeds and times of grazing for optimizing the benefits), avoiding overgrazing in wet areas, mowing, prohibiting the introduction of exotic fish species into the waters Preservation and restoration of river habitats and their connectivity with adjoining terrestrial habitats (lateral connectivity) More recently (2019), in addition to CAMP measures, the National Park directorate (NP) implemented several small interventions in the Kis Sárrét area of the Körös-Maros National Park to retain water in the wetlands, as part of the Natura 2000 management plan, adopted in 2018. Although these measures are officially not labelled as climate adaptation measures (but as habitat conservation, management and reconstruction project), they definitely help the natural areas to cope with water scarcity, drought, and flooding as well and adapt to climate extremes. Implemented measures include: Demolition of some dykes in order to retain water in the wetlands Re-naturalization of some canals (or conservation of some canal making them to be less deep) in order to restore river habitats and their connectivity with terrestrial habitats Building of a new canal in order to lead water to a valuable wetland from a greater existing canal Reconstruction of sluice gates enabling the park rangers to control the level of inundation and inland water level in the marshes.",
+    "outcomes": "One of the main success factors in the implementation of the adaptation measures was the profound knowledge of national park officers and park rangers, and their direct connection to the land owners and users (farmers). On the other hand, the measures implemented to retain water regime affect directly mainly state-owned areas that are managed by the NP. In fact, the farmers who rent the land from the state have to strictly follow specific nature conservation restrictions imposed by the NP (e.g. late mowing, no night works, no irrigation of grasslands, leave unmoved stripes, etc.), but they are compensated for these limitations with a low renting fee).",
+    "cost_benefit": "Cost for the whole basic study and CAMP planning process was about 50,000 EUR; funding sources were 85% EU ERDF and 15% national. Data on costs for the implementation of measures are not publicly available. Benefits include: maintenance of the water regime (which helped addressing the problem of water supply and excess), increase in the resilience of agricultural systems, maintenance or recovery of several protected habitats and endangered species, and strengthening local stakeholders’ consciousness and willingness to decrease carbon footprint as well as to adapt to climate change. Benefits are hard to quantify. However, according to the Department of Nature Conservation and Landscape Management (Szent István University, Gödöllő, Hungary), marshes look better than in the previous decades, and are probably more similar to their original appearance 200 years ago. Also weed infestation and penetration of invasive species was prevented thanks to the implementation of the measure aiming to ensure sufficient water quantity.",
+    "timeline": "The CAMP plan was developed between March 2010 and February 2013. CAMP measures were implemented between 2013 and 2019. Last measures promoted by the National Park Directorate were implemented in 2019.",
+    "lifetime": "Adaptive management of the natural habitats of the Körös-Maros National Park is a continuous activity, requiring monitoring, evaluation and adjustment. New measures are implemented when needed and according to the available funds.",
+    "stakeholders": "Key stakeholders for the CAMP elaboration and implementation were nature conservation administrations acting at the local, regional and national levels, water management administrations on regional level, regional tourism associations and research institutions. The National Park administration along with national nature conservation and water management authorities were part of the key stakeholders, too. Media communication, such as press releases and newspaper articles were produced to increase awareness on climate change and to bring to the attention of the public the need for identifying measures to manage the Park under climate change conditions. Currently, local stakeholders are not directly involved in the decision about the adaptive management of the Körös-Maros National Park. However, the park promotes awareness raising initiatives, for example through environmental education programmes for children and fair and exhibition events involving the local and regional stakeholders.",
+    "legal_context": "Recommendations for the management of climate-induced changes for regional partners were developed in the form of a best practice report and management strategy guidelines. From the lessons learned, policy recommendations were produced which can be useful to inform national and European law with a special focus on the Water Framework Directive and the Natura 2000 framework (Habitats-Directive, Birds Directive)."
+  },
+  "point": {
+    "lat": 46.5914579251,
+    "lon": 21.0872912398,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "habit-change.eu",
+      "url": "http://www.habit-change.eu",
+      "role": "contextual_input"
+    },
+    {
+      "name": "kmnpi.hu",
+      "url": "http://www.kmnpi.hu",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-adapted-management-of-the-koros-maros-national-park",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5d6cd40a380946bf96d3ba0fa978dce3",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-adapted-management-of-the-koros-maros-national-park",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:36+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

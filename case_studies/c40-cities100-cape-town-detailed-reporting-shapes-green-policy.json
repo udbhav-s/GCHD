@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-cape-town-detailed-reporting-shapes-green-policy",
+  "url": "https://www.c40.org/case-studies/cities100-cape-town-detailed-reporting-shapes-green-policy/",
+  "title": "Cities100: Cape Town – Detailed Reporting Shapes Green Policy",
+  "summary": "This C40 case study describes “Cities100: Cape Town – Detailed Reporting Shapes Green Policy,” an urban initiative documented for Cape Town. It is included because it addresses river flood, coastal flood, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Cape Town’s detailed and comprehensive energy report enables the city to understand its current and future environmental impacts and sets…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Cape Town",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Western Cape",
+        "ucode": "ZAF_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Cape Town",
+        "ucode": "ZAF_0009_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Cape Town faces numerous threats from climate change, including flooding, rising sea levels, and water shortages. In order to better prepare for such conditions, and to develop a plan to efficiently and effectively reduce energy use, the city has employed comprehensive reporting and detailed planning based on the report’s findings.",
+    "measures": "Cape Town faces numerous threats from climate change, including flooding, rising sea levels, and water shortages. In order to better prepare for such conditions, and to develop a plan to efficiently and effectively reduce energy use, the city has employed comprehensive reporting and detailed planning based on the report’s findings.\n The city’s most recent State of Energy Report was the foundation for the development of the Cape Town Energy 2040 vision, which serves as a strategic tool for future decision-making and action planning. The Energy 2040 vision and action plan contributes to Cape Town’s overall climate change goals by increasing the city’s resource efficiency; achieving greater energy security, diversity, and price stabilization; and reducing carbon emissions.\n Social Benefits – Data provided in the State of Energy Report indicate that 35% of Cape Town commuters spend 30 minutes to an hour traveling to work, and black residents bear the greatest burden in terms of travel time.\n Economic Benefits – The State of Energy Report enables the city to understand the cost-benefit of renewable energy upgrades. For instance, between 2010 and 2014 upgrading all street lights to LEDs cost $2.1 million in investment, but has already yielded savings of $4 million.\n Health Benefits – Understanding how households are heated enables the city to promote the use of electricity and reduce the use of paraffin, particularly in low-income households. Inefficient paraffin heaters cause indoor air pollution and condensation, leading to damp and polluted conditions and poor respiratory health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-cape-town-detailed-reporting-shapes-green-policy/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27007",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cape-town-detailed-reporting-shapes-green-policy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

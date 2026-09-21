@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-the-patuli-floating-market-a-case-study-of-relocation-and-rehabilitation-project-in-kolkata-west-bengal",
+  "url": "https://www.c40.org/case-studies/the-patuli-floating-market-a-case-study-of-relocation-and-rehabilitation-project-in-kolkata-west-bengal/",
+  "title": "The Patuli Floating Market: A Case Study of Relocation and Rehabilitation Project in Kolkata, West Bengal",
+  "summary": "This C40 case study describes “The Patuli Floating Market: A Case Study of Relocation and Rehabilitation Project in Kolkata, West Bengal,” an urban initiative documented for Kolkata. It is included because it is located in the Global South. C40 describes the action this way: To ensure capacity enhancement of one of Kolkata’s vehicular traffic corridors, in 2012 the Kolkata Metropolitan Development Authority (KMDA) widened the Eastern…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "To ensure capacity enhancement of one of Kolkata’s vehicular traffic corridors, in 2012 the Kolkata Metropolitan Development Authority (KMDA) widened the Eastern Metropolitan bypass. However, the project required 228 shopkeepers to move as far as 3 km away, causing major challenge also to the local residents reliant on the local market, exacerbated by the lack of local transport. Hence, the KMDA came up with an innovative solution, deciding to turn the nearby Lake Patuli which was fighting for its ecological survival, into the new home of a new floating market, while turning the lake again into a healthy water body and a flourishing ecosystem.",
+    "measures": "In 2012, the Government of West Bengal entrusted the Kolkata Metropolitan Development Authority (KMDA) to take up the project of widening the Eastern Metropolitan bypass road in Kolkata in order to ensure capacity enhancement of one of its main vehicular traffic corridors. However, during the widening process, 228 shopkeepers were uprooted and relocated about 3 KM from where they historically used to be established.\n Due to this long distance and the lack of local transport, residents living nearby the Eastern Metropolitan bypass were finding it difficult to get daily consumption items, while in turn, storekeepers saw their daily income affected because of the resulting drop in demand. Furthermore, due to the high-speed movement of vehicles following this road widening, there was the additional risk of fatal road accidents when approaching this new relocated market.\n After 2 years, it was observed that this relocation project was not successful, causing challenges to both consumers and shopkeepers. On one hand, vendors were asking to be relocated closer to the residential areas so that they could sustain their livelihoods through regular income, while on the other hand, local residents were complaining because of the inconvenience in getting day-to-day items like vegetables and groceries.\n There was a 600 Mtr. long and 50 Mtr. wide water body adjacent to these residential areas – the Lake Patuli – which was fighting for its ecological survival due to a continuous flow of solid and liquid waste into it. Local residents found it convenient to dispose of their kitchen and other solid waste in the lake, and sewage discharged from the housing around its shores also ended up in the lake.\n Credits: The Telegraph India (left); Scroll.it (right)\n What does this project consist of? \n To overcome all these problems, Shri Firhad Hakim, Chairman of the KMDA & Minister of the Urban Development and Municipal Affairs Department, came up with a very innovative solution. A restoration project was undertaken under his able guidance by the KMDA, aiming to take up remedial measures for the lake revival, such as diverting the drainage of sewage waste while continuously monitoring water health parameters like BOD, Dissolved Oxygen, TDS etc.\n In addition, the project consisted of connecting 114 boats across the Lake, making it home of a new floating market. All these boats were fitted with LED lighting, while other necessary arrangements like drinking water, toilets, and fire safety were made to take care of consumers and sellers needs. To maintain an optimal water level, submersible pumps and lock gate mechanisms were implanted. Furthermore, various species of fish were released to restore the lake’s ecological balance, while floating aerators were provided to maintain a healthy biological oxygen balance. Moreover, solar panels were installed on each boat’s roof, producing up to 90% of the total market electricity demand.\n Contact Details: \n Please contact contact@c40.org with any questions about this project.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-patuli-floating-market-a-case-study-of-relocation-and-rehabilitation-project-in-kolkata-west-bengal/",
+    "publication_date": "2018-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27402",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-patuli-floating-market-a-case-study-of-relocation-and-rehabilitation-project-in-kolkata-west-bengal&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

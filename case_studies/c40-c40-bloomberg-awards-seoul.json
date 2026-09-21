@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-seoul",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-seoul/",
+  "title": "C40-Bloomberg Philanthropies Awards: Seoul’s transformative electric vehicle programme",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Seoul’s transformative electric vehicle programme,” an urban initiative documented for Seoul. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Seoul is tackling the twin challenges of air pollution and the climate crisis by slashing transport emissions, replacing 400,000 polluting combustion engine…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seoul",
+      "label": "Seoul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Seoul is tackling the twin challenges of air pollution and the climate crisis by slashing transport emissions, replacing 400,000 polluting combustion engine vehicles with battery electric vehicles by 2026.",
+    "measures": "Seoul is tackling the twin challenges of air pollution and the climate crisis by slashing transport emissions, replacing 400,000 polluting combustion engine vehicles with battery electric vehicles by 2026. Seoul already has a Green Transport Zone , restricting access for the most polluting vehicles, and the city has made it mandatory for all new vehicles to be electric from 2025. \n To support this transition, the city is rapidly rolling out electric vehicle charging infrastructure powered by solar panels, which are to be accessible within a five-minute walk of every resident. New charging sites have been created by repurposing lamp posts, bollards and petrol stations. Innovative “smart poles” have also been erected, which combine a fast-charging function, public wi-fi and the internet of things.\n Seoul’s actions have already had a considerable impact, reducing transport emissions by nearly a quarter and doubling the number of clean, electric vehicles on the road. The city is providing subsidies for electric vehicles of up to 20%, with additional support available for vulnerable people and low-income households to ensure all residents have access to clean transport. By 2026, 10% of the city’s vehicles will be electric, which is expected to save drivers up to 72% in costs. The initiative will create almost 15,000 jobs and reduce emissions by approximately 43% compared with 2005 levels, improving air quality and protecting the public health of Seoul’s residents.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Accelerating Immediate Action in Critical Sectors",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-seoul/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31492",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-seoul&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:35:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

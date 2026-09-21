@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-rio-de-janeiro",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-rio-de-janeiro/",
+  "title": "C40-Bloomberg Philanthropies Awards: Reviver Centro: reviving Rio’s city centre",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Reviver Centro: reviving Rio’s city centre,” an urban initiative documented for Rio de Janeiro. It is included because it is located in the Global South. C40 describes the action this way: The project aims to address the emptiness of Rio’s Central Business District, which was seriously impacted by business closures, resident flight and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The project aims to address the emptiness of Rio’s Central Business District, which was seriously impacted by business closures, resident flight and the absence of daily workers.",
+    "measures": "The pandemic turned many of the world’s cities into virtual ghost towns, provoking global discussions about planning, using and maintaining urban centres. Rio opted to change the very fabric of its metropolitan landscape in the wake of COVID-19 through the Reviver Centro project. The project aims to address the emptiness of Rio’s Central Business District, which was seriously impacted by business closures, resident flight and the absence of daily workers.\n To attract people and businesses back to its historic heart, Rio is utilising a unique mechanism of land-value capture through the transfer of development rights. For every 100 m 2 of residential units built and/or retrofitted, entrepreneurs can earn the right to buy 40 m 2 in prime areas of Rio. The initiative is raising funds to finance active transport infrastructure, the city’s first affordable housing programme with subsidised rental for low-income residents, and green infrastructure. In just ten months, 1,317 residential units have been licensed in 18 buildings, raising around R $2.2 million.\n Reviver Centro embodies the 15-minute city philosophy by transforming the degraded business district into a mixed-use and inclusive area. The project is developing 9.34 kilometres of bike lanes, a chain of pocket parks, and creating an African Heritage quarter to celebrate Afro-Brazilian culture and history. Over the next decade, Rio expects to reduce transport emissions by 35.4% and stationary energy emissions by 34.1%, with Reviver Centro promising to develop into a green and thriving neighbourhood.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Innovative Climate Solutions",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-rio-de-janeiro/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31501",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-rio-de-janeiro&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-06T11:19:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

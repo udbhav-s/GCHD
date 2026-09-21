@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-shanghai-park-roof-solar",
+  "url": "https://www.c40.org/case-studies/shanghai-park-roof-solar/",
+  "title": "Shanghai Chengyang New Energy Co., Ltd Fengxian Park Roof Solar Photovoltaic Power Station",
+  "summary": "This C40 case study describes “Shanghai Chengyang New Energy Co., Ltd Fengxian Park Roof Solar Photovoltaic Power Station,” an urban initiative documented for Shanghai. It is included because it is located in the Global South. C40 describes the action this way: This project aims to construct a rooftop photovoltaic power station of 4.86MW installed capacity by renting the roof of plant, Building 6,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shanghai",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shanghai Shi",
+        "ucode": "CHN_0024_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shanghai",
+        "ucode": "CHN_0024_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shanghai",
+      "label": "Shanghai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "This project aims to construct a rooftop photovoltaic power station of 4.86MW installed capacity by renting the roof of plant, Building 6, No.19, Zhenglang Road, Shanghai Lingang Fengxian Economic Development Co., Ltd. and the roof of plant, Building 6, No.1881, Zhengbo Road, Shanghai Lingang Wusi Economic Development Co., Ltd. The project involves solar photovoltaic components, a grid-connected inverter, metering installation and power distribution system. All electricity generated will be connected to the grid.",
+    "measures": "Shanghai Chengyang New Energy Co., Ltd Fengxian Park 4.8MW Distributed Roof Solar Photovoltaic Power Station is the first distributed solar photovoltaic power station to be fully connected to the grid in Shanghai with the investment of Complete Group, a subsidiary of SFECO under SCG. Under the construction and operation of Complete Plant Import and Export Corporation it has produced 4.85 million kWh of power after a year-long operation, producing power 5% higher than expected, saving standard coal 1600t per year and reducing CO2 by 4100t. \n China, the second largest country when it comes to energy import and consumption has become a global manufacturer of solar photovoltaic technology and products thanks to decisions made to develop these areas. The problem of photovoltaic lighting in remote areas such as Tibet and Inner Mongolia have been worked on since 2008, and resolved. The Complete Plant Import and Export Corporation has won recognition for successfully promoting solar photovoltaic technologies and products locally. The corporation, working with Shanghai Solar Photovoltaic Technology Center, also successfully provided a complete solar photovoltaic technology production line for a Finnish photovoltaic manufacturer.\n The first distributed solar photovoltaic power station to be fully connected to the power grid as part of the “12th Five-year Plan” in Shanghai, this is also the first project of the Shanghai Complete Plant Import and Export Corporation to reflect the current changing times, accelerating change in the new energy trade and developing real business in solar photovoltaic power stations. In order to ensure complete safety in the process of construction, the whole development, construction and operations team started from scratch by undergoing systematic learning and special training in construction, construction process and quality, as well as in project risk control for solar photovoltaic power stations. Based on this, and with improved management systems and refined supervision techniques, we conducted a field investigation into suppliers of solar transformer components, strengthened supervision of the equipment production process, and focused on the quality of the project, equipment and installation. It took only three months to complete the laying of rooftop solar panels over more than 70,000 square metres. As the solar photovoltaic power station goes into operation, with the project team still involved, a comprehensive set of solar photovoltaic power station management rules and regulations has been developed. \n Currently, Shanghai Complete Plant Import and Export Corporation, which is active in ‘cooperation expansion’, has agreed to cooperate with Bright Group on a new quality distributed solar photovoltaic power station. It has reached agreement on implementing PV transit trade and domestic trade through Shanghai Complete Group and Complete Singapore Company by cooperating with GCL Group, which is ranked second in the Global Top 500 new energy enterprises. This has opened up a good opportunity for speeding up expansion of energy saving and environmental protection sectors in Shanghai during the “13th Five-year Plan”.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shanghai-park-roof-solar/",
+    "publication_date": "2017-05-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27293",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=shanghai-park-roof-solar&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

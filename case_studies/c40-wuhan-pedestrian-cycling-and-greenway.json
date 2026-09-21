@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-wuhan-pedestrian-cycling-and-greenway",
+  "url": "https://www.c40.org/case-studies/wuhan-pedestrian-cycling-and-greenway/",
+  "title": "Overview of Wuhan pedestrian & cycling and greenway systems planning",
+  "summary": "This C40 case study describes “Overview of Wuhan pedestrian & cycling and greenway systems planning,” an urban initiative documented for Wuhan. It is included because it is located in the Global South. C40 describes the action this way: The objectives of the plan are to build a regulated “safe, seamless, convenient, comfortable, ecological and charming” pedestrian & cycling system to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objectives of the plan are to build a regulated “safe, seamless, convenient, comfortable, ecological and charming” pedestrian & cycling system to meet Wuhan’s urban development needs, coordinate with vehicle transport improvements, and connect with public transport.",
+    "measures": "In terms of scale, the network density of the pedestrian & cycling system and right of way are to be fully guaranteed in order to prevent any decrease in existing scale and space given over to the pedestrian & cycling system. Both space for the pedestrian & cycling system, and for vehicles will expand simultaneously on new roads.\n Travel mode objectives: In the travel mode mix, green transport such as walking, cycling, and public transport shall reach 80%, in which cycling shall not be less than 20% (16% of all traffic modes). At terminal of rail transport, cycling shall take up 15~20% of all traffic modes.\n The main contents of the plan include: “Metro public transport + pedestrian & cycling”, “vehicle use reduction” and “holistic street” strategies, along with district-specific and traffic network-specific measures, together with an increase in density of the pedestrian & cycling network. In the main city zones, 2,455km of non-vehicle lane network has been built with four different levels. For each level, the modality of separation and the width requirements have been specified.\n Vehicle/non-vehicle physical segregation was recommended so that cyclists can enjoy a guaranteed safe section of 1,141 km, an increase of nearly 300% on the present.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/wuhan-pedestrian-cycling-and-greenway/",
+    "publication_date": "2016-10-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27174",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-pedestrian-cycling-and-greenway&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-masterplan-100-klimaschutz",
+  "url": "https://www.c40.org/case-studies/masterplan-100-klimaschutz/",
+  "title": "Masterplan 100% Klimaschutz",
+  "summary": "This C40 case study describes “Masterplan 100% Klimaschutz,” an urban initiative documented for Heidelberg. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: In 1992, the City of Heidelberg developed a municipal climate protection concept. Emissions from stationary energy appliances and transport were…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Heidelberg",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": null,
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Baden-Württemberg",
+        "ucode": "DEU_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Heidelberg",
+        "ucode": "DEU_0001_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "heidelberg",
+      "label": "Heidelberg"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 1992, the City of Heidelberg developed a municipal climate protection concept. Emissions from stationary energy appliances and transport were…",
+    "measures": "In 1992, the City of Heidelberg developed a municipal climate protection concept. Emissions from stationary energy appliances and transport were surveyed. Administration, researchers, citizens and other stakeholders worked out a catalogue of climate protection measures. The City Administration started to improve the energy efficiency of multiple municipal buildings and participated in national and international networks. This long-lasting commitment has been reinforced by a decision of the City Council to apply for the project “Masterplan 100% Klimaschutz”, funded by the Federal Ministry for the Environment. This project aims at reducing the citywide CO 2 emissions by 95% and the final energy consumption by 50% by 2050. The central instrument of the “Masterplan 100% Klimaschutz” is a strategy paper, individually designed by and for each city, which collects ideas and concepts to reach this ambitious goal with the active cooperation of various stakeholders of urban society. These are, amongst others, the municipal administration with its elected leaders and representatives, industry and businesses, the university and other research institutions, NGOs, the energy utility, craftsmen and especially the citizens themselves.\n The application for the “Masterplan 100 % Klimaschutz” was successful and in 2012 the Institute for Energy and Environmental Research (IFEU) Heidelberg analysed the energy consumption and conducted an extensive CO 2 balance to determine the current emissions. Following the territorial principle (municipal borders are the borders of analysis, emission factors of energy sources take the production chain outside the city into account), all relevant emission sources and consumers were evaluated: Transport, stationary energy production, heat and electricity consumption of buildings, waste management and others. Based on this analysis, the IFEU institute developed strategies and made specific suggestions on how to reach the postulated goals.\n Parallel to this scientific analysis and consultation, several events gave the citizens the possibility of bringing forward their own ideas for the energy transition in Heidelberg. Two youth climate summits opened the discussion for those who will be most affected by climate change. This whole process highlighted in the adoption of the “Masterplan 100% Klimaschutz” by the Local Council in 2014.\n There are seven packages of measures that form the framework of the overall process:\n Construction and modernization: The construction of energy-efficient buildings and extensive retrofitting of existing buildings can save the biggest share of CO 2 emissions. Since 2010, a new city district, the Bahnstadt, is under construction. All buildings in this district comply with the passive house standard. Dense insulations and a well-elaborated building technology help to reduce the heat demand of buildings. Bahnstadt is the biggest city district worldwide where all buildings comply with this standard.\n Parallel to this project, former areas of the US Army will be transformed into new living and business districts. The retrofit follows ambitious energy standards. All buildings will be connected to the district heat system and, as far as possible, equipped with photovoltaic systems.\n Energy supply: Standard fossil-based energy supply will be more and more substituted by co‑generation technologies and the expansion of renewable energies. The district heat system forms the backbone of future energy supply. A power-to-heat system is under construction and will help to use surplus renewable power for heating. In addition, large solar thermal applications will supply energy to the district heating system.\n Traffic and mobility: Changes of the traffic system will drastically reduce greenhouse gas emissions. This means a reduction of individual motorised transport and an improvement of the public transportation and bicycle infrastructure. The City Administration started a funding programme to foster this development. Citizens are financially supported when they sell their fossil-fuel driven car and buy a hybrid or fully electric car. Alternatively, instead of buying a new car, they can make free use of the public transportation system for one year.\n Energy-efficient production: Improvement of production processes can help the industry to save energy costs and protect our climate.\n Climate-neutral University: The University is one of the biggest employers in Heidelberg. Like the City Administration, the University has to retrofit its buildings and construct new buildings following high efficiency standards.\n Consumption and nutrition: By small changes in daily life, especially regarding nutrition and fair consumption, every citizen can contribute to the protection of resources and climate.\n Education for climate protection: The education of children with a high awareness for all aspects of sustainability can facilitate or accelerate the change towards a carbon-neutral society in the future.\n The Masterplan started in 2014, multiple projects have already been completed and the City of Heidelberg is on the right track, as confirmed by the updated CO 2 balance for the year 2015. It shows that CO 2 emissions are slightly decreasing. In addition, the population of Heidelberg is strongly increasing and this leads to a substantial decrease in per capita emissions.\n Still it is important that the “Masterplan 100% Klimaschutz” remains a living project until 2050. It will always have to adapt to external developments, which the administration and citizens of Heidelberg cannot influence. Experience may show that some actions are more efficient than others. The year 2050 may look far away but the urban society has to take the right decisions now. It will always be important to promote the project and its goals to push it forward. The municipal administration has to form the right set-up and lead by example. However, the efforts of the citizens of Heidelberg in their personal lives and in their jobs will have the biggest effect on reaching the established goals.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/masterplan-100-klimaschutz/",
+    "publication_date": "2017-05-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27294",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=masterplan-100-klimaschutz&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-melbourne-first-holistic-city-climate-adaptation-tool",
+  "url": "https://www.c40.org/case-studies/cities100-melbourne-first-holistic-city-climate-adaptation-tool/",
+  "title": "Cities100: Melbourne – First Holistic City Climate Adaptation Tool",
+  "summary": "This C40 case study describes “Cities100: Melbourne – First Holistic City Climate Adaptation Tool,” an urban initiative documented for Melbourne. It is included because it addresses river flood, coastal flood, meteorological drought, extreme heat hazards. C40 describes the action this way: Melbourne developed the first-ever interactive climate adaptation tool to manage the city’s multiple climate risks simultaneously and to inform optimal…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "No longer undertaking adaptation activities in isolation without understanding how each intervention impacts the other or the full spectrum of climate risks, Melbourne is moving towards a holistic adaptation approach with its new ICAM tool, enabling the city to manage a range of climate risks simultaneously and deliver multiple benefits for the city and residents.",
+    "measures": "Although Melbourne was the first Australian city to develop an adaptation strategy to alleviate climate change risks, that plan had only focused on extreme heat and drought. In 2014, the city therefore decided to develop the Integrated Climate Adaptation Model (ICAM). Capable of running multiple climate scenarios, spatially identifying vulnerability, and assessing multiple intervention options, the ICAM enables the city to develop adaptation interventions that deliver multiple benefits. The holistic approach to adaptation enables a better understanding of climate vulnerability to inform investment and action for adaptation to all relevant climate risks, including sea level rise, flood, extreme heat, and drought.\n Developing the ICAM tool involved Australia’s leading climate scientists, hydrologists, IT and adaptation specialists, spatial scientists, and engineers, and is the first of its kind: an interactive decision support tool combining geographical information systems and hydrological and climate modeling to inform the most beneficial adaptation planning.\n Environmental Benefits – Having already experienced two “1 in 500 year” rainfall events in 40 years, the ICAM enables better adaptation planning for future events.\n Social Benefits – ICAM’s ability to model interventions enables the city to select the interventions that will provide multiple returns, and therefore a broader range of community benefits can result from city investment.\n Economic Benefits – As the ICAM tool enables early adaptation intervention, it will ultimately lower the cost of intervention.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-melbourne-first-holistic-city-climate-adaptation-tool/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26981",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-melbourne-first-holistic-city-climate-adaptation-tool&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

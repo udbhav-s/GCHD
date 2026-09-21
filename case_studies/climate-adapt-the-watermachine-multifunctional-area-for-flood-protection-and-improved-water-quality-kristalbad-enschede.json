@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-the-watermachine-multifunctional-area-for-flood-protection-and-improved-water-quality-kristalbad-enschede",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-watermachine-multifunctional-area-for-flood-protection-and-improved-water-quality-kristalbad-enschede",
+  "title": "The Watermachine: multifunctional area for flood protection and improved water quality - Kristalbad, Enschede",
+  "summary": "Kristalbad, a 40-hectare Dutch area, utilizes the Water-machine concept for flood protection, water purification, enhancing ecological connectivity and creating a recreational zone. It stores 187000 m 3 of water to mitigate flood risks in nearby cities during heavy rainfall and purified water aids agriculture during dry spells. Kristalbad is an area of about 40 hectares located in the east of the Netherlands between the cities of Enschede (160.000 inhabitants) and Hengelo (81.000 inhabitants). This is one of the last remaining green areas between these two cities, playing a role for ecosystem-based adaptation to cope with potential climate change related impacts.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Enschede and Hengelo",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Overijssel",
+        "ucode": "NLD_0009_V1",
+        "dcid": null,
+        "source_code": "SUBN_Overijssel__NL_",
+        "source_name": "Overijssel (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Hengelo",
+      "label": "Hengelo"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water purification",
+      "label": "water purification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water storage",
+      "label": "water storage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Watermachine",
+      "label": "Watermachine"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "blue-green infrastructure",
+      "label": "blue-green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multi-functional area",
+      "label": "multi-functional area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Enschede",
+      "label": "Enschede"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of Kristalbad was to re-develop the area in a multi-functional way by finding a solution for the above mentioned challenges. In terms of flood risk the project aims to provide a water store capacity to be used during cloudbursts and intensive rainfall events and therefore protect the nearby cities and the transport network. At the same time the objective is to improve purification of stored water in an ecological way and develop the ecological connecting zone. Thanks to water purification, the water can be used for agricultural purposes, providing therefore a way to cope with drought. In addition, the objective is to develop the area for recreational use and with special attention to improve the landscape quality.",
+    "measures": "The adopted solution was the implementation of the “Watermachine” concept, developed in Sweden and aiming to exploit natural mechanisms to address Kristalbad challenges (flood and drought risks, water quality improvement and biodiversity conservation). The Kristalbad Watermachine is a natural area that is divided into several compartments mutually interconnected. These compartments are periodically filled with water coming from the Elsebeek River, rainfall and the wastewater treatment plant. Kristalbad is able to cope with the flood risks caused by heavy rainfall by storing a total water capacity of 187.000 m 3 . This storage capacity is able to keep the water out of the nearby urban areas in the city of Hengelo and Enschede during extreme rainfall events. At the same time stored water can limit drought impacts on crops and farmland as well as on natural habitats during dry summers. The water entering in the Watermachine normally has a moderate quality and is poor in terms of aquatic life. The compartments use different elevation levels in order to induce the water to flow throughout the area. It takes about four hours for the water to flow through the compartments back into the Elsebeek River. During this flowing, the water is purified by natural processes that combine light, air and vegetation processes to breakdown chemicals and other contaminants in the water. Consequently, the water is cleaner and suitable for aquatic life. The purified water is also used to increase groundwater levels and for recreational purposes. Kristalbad natural area plays a relevant role within the Dutch ecological network; attention was paid to realize in the area connectivity measures (like ecological corridors) and measures aiming to improve important habitats (such as breeding sites) in order to preserve local biodiversity.",
+    "outcomes": "Kristalbad has been successful because policymakers from the local, regional and national governments were involved in developing and carrying the re-development project since the beginning. All actors were very much willing to implement this multi-functional area and the Watermachine concept has been considered a good solution to the multiple regional challenges. The strong involvement of governmental actors has helped to get the project formally approved and to organise all the required permissions for its implementation. Furthermore, the project has also gained social support because of the generated benefits for inhabitants and tourists, as they can use the area for walking, cycling and other recreational activities. One of the limiting factors was that subsidy requests included very strict deadlines. This means that the process of the development of the plan had to speed up tremendously in order to be able to achieve funding.",
+    "cost_benefit": "The total costs of the re-development of Kristalbad area was about €6 million euros. This budget includes costs related to research, planning and design activities, communication costs and costs related to the implementation of the Watermachine measures and recreation facilities. This budget does not include the amounts of money paid by the public authorities to buy the land where the Watermachine was constructed. Funding was provided by the national, provincial and local governments involved in the planning and implementation of Kristalbad, integrated with subsidies provided by the national government. The benefits of this project are avoided costs of flood damage and of water purification done with alternative technological solutions. Benefits include also availability of good quality water during dry period. In addition, the area is used for recreational activities by citizens and tourists and there are signals that the improved landscape conditions will result in improved biodiversity. Till now, more than 150 different species of water-birds have been spotted in the area.",
+    "timeline": "Preparation, planning and design: 2005-2010. Construction of the Watermachine: 2010 – 2014. Finalizing, monitoring the impact and evaluating the measure in relation to the objectives: 2014 – on-going.",
+    "lifetime": "About 25 years.",
+    "stakeholders": "The first ideas about re-development of the Kristalbad area were formulated in 2008. The cities of Enschede and Hengelo were involved in the re-development project, together with the Waterboard Vechtstromen, which is the organisation responsible for water management in the region. Also the NGO Landscape Overijssel, the province of Overijssel and competent national ministries were consulted to support the requalification project. A project team of 7 public authorities was set-up to carry out the project. This team worked intensively to develop the plan and to carry out its implementation. Citizens as such were not actively involved in the process but were informed and consulted on a regular basis. The citizens were represented by the so-called ‘esthetical commission’. This is a commission that is composed of architects that provide advice to local policymakers on development plans. After its elaboration, the plan of the multi-functional area was submitted to the local councils and the national government for formal approval. Approval was easily obtained because these authorities were intensely consulted during the plan development. In this way, their pre-conditions for approval were integrated in the elaborated plan. To raise citizens’ awareness of the importance of the area, Kristalbad is promoted by communication activities.",
+    "legal_context": "The project is supported by the spatial planning and environmental laws (Wet op de Ruimtelijke Ordening, Wet Milieubeheer). The policy instruments that are connected to these laws were used to implement the project."
+  },
+  "point": {
+    "lat": 52.2345282942,
+    "lon": 6.88842773438,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "vechtstromen.nl",
+      "url": "https://www.vechtstromen.nl/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/the-watermachine-multifunctional-area-for-flood-protection-and-improved-water-quality-kristalbad-enschede",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "a1ae29d269e74bfc8739fd79d4965b01",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/the-watermachine-multifunctional-area-for-flood-protection-and-improved-water-quality-kristalbad-enschede",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:42+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

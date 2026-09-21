@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-tick-borne-encephalitis-tbe-surveillance-in-czechia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tick-borne-encephalitis-tbe-surveillance-in-czechia",
+  "title": "Tick-borne encephalitis (TBE) surveillance in Czechia",
+  "summary": "Tick-borne encephalitis (TBE) causes neuroinvasive illness, with increasing incidence attributed to global changes. The comprehensive national surveillance system in Czechia focusses on forecasting, reporting, and prevention. Its success relies on effective coordination, public awareness, and economic support for vaccination. Being endemic in 27 European countries, tick-borne encephalitis (TBE) is the most widespread tick-borne viral disease in Europe. Every year, it afflicts thousands of people with a neuroinvasive illness ( ECDC, 2012 ). Over the last decades, the reported incidence of TBE increased and the disease spread to new areas.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Czechia",
+        "ucode": "CZE_V1",
+        "dcid": "country/CZE",
+        "iso3": "CZE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "disease reporting system",
+      "label": "disease reporting system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tick-borne diseases",
+      "label": "tick-borne diseases"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "surveillance",
+      "label": "surveillance"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "hospital",
+      "older adults",
+      "patient",
+      "patients"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "older_people": 2,
+      "health_patients": 4
+    }
+  },
+  "intervention": {
+    "objectives": "In Czechia, the TBE surveillance is a comprehensive and nationwide system that covers the whole population and integrates forecasting, disease reporting and prevention. Its objective is to prevent health risks to the population with an effective, structured TBE control programme that strengthens the response capacity to the growing incidence of TBE in the medium and long term.",
+    "measures": "TBE surveillance in Czechia is based on a system that integrates three components, i.e. (i) forecasting and early warning, (ii) laboratory diagnostics and reporting, and (iii) prevention involving awareness raising, risk-avoidance and vaccination. (i) Forecasting: Tick activity is predicted through models based on air temperature and humidity (extremes of both inhibiting tick activity). The models were developed by the Czech Hydrometeorological Institute and the National Health Institute using multi-year data of tick presence and activity as well as meteorological measurements. The modelled tick activity forms the basis for a publicly available early-warning system (EWS) that issues a daily activity forecast of ready-to-attack ticks for the upcoming three days across Czechia. The EWS also communicates associated risk levels and recommended precautionary measures and explains for a non-expert audience how tick activity is forecasted and the link between tick activity and climate. (ii) Reporting: Currently, practitioners (including general practitioners, hospital physicians, and those responsible for reporting deaths from infectious diseases and for register records) play a central role in the TBE reporting system. First, the diagnosing physician reports to the public health authorities each confirmed case of TBE; that is, following the national legislation, each case for which laboratory tests reveal IgM antibodies in the cerebrospinal fluid of patients is reported to the central surveillance centre. Then, through an interview with the patient and standardized questionnaire, the medical epidemiologist or infection physician at the public health authority obtains relevant information about the medical history, including the probable time and place of infection and the possible route of transmission. Since 1993, the national reporting system (EPIDAT) has been computerized, and data are electronically transferred on a weekly basis to a safeguarded data depository of the Ministry of Health, from which they are transmitted to the National Institute of Public Health. (iii) Prevention: Based on modelled tick activity, preventive measures for different risk levels (e.g., use repellents, avoid vegetated areas) are recommended to the population and risk areas are delineated. These risk areas allow public authorities to understand where to act first in terms of knowledge sharing and vaccination campaigns. Recommended preventive measures are shared with the public via the early warning website and via different media channels. Awareness activities through media, such as educational advertisements on disease severity, are commonly broadcasted on television. TBE has no other than a supportive treatment. Therefore, vaccination plays an irreplaceable role ( Wondim, M. A., et al., 2022 ). Vaccination against TBE is recommended in Czechia for all people over 12 months of age. The vaccination includes 3 doses, and re-vaccination is required every 5 years (ECDC, 2022). From January 2022, all people over the age of 50 are entitled to free vaccination against TBE, following the . For people under 50, health insurance companies cover varying amounts of the vaccine cost of around CZK 800–900 (32-37 EUR).",
+    "outcomes": "No therapy, and specifically no antiviral agent, is available against TBE. In addition, controlling the tick vectors or its host animals is not feasible and/or has limited to no impact on TBE incidence as the TBE virus would continue to circulate using other vectors and reservoirs. Hence, prevention of TBE infections is crucial and relies on (i) avoidance of exposure and (ii) vaccination. Avoidance of exposure strongly relies on the correct and early identification of risk areas, on the communication thereof to the public and on individual behavioural measures (early removal of ticks from the body). Success of vaccination depends on TBE awareness among people at risk and those counselling them. According to a survey from 2020, TBE awareness in Czechia is very high, as is the awareness of the vaccine; 94% and 82% of the surveyed people are aware of TBE and the TBE vaccine, respectively. However, only 33% of the population is vaccinated, and the lowest vaccine uptake (25%) is among those over 60 years old (Pilz et al., 2022). As the most affected age group are exactly the older adults, free vaccination offered to all people over the age of 50 since January 2022 may help to change the trend of the increasing incidence of TBE in Czechia ( Orlikova et al., 2021 ). Overall, the surveillance system’s relies on an efficient institutional coordination between different health centres and local and national authorities. Besides, the initiative benefits from economic support for vaccination via the partial reimbursement of vaccines from preventive funds of the health insurance companies.",
+    "cost_benefit": "A specific cost-benefit analysis for the Czech surveillance system is not yet available. Expected benefits of the surveillance systems, though not quantified in numbers, are: reduced population exposure to areas at risk of infection reduced disease incidence (due to both vaccination and exposure avoidance) early diagnosis and hence more effective medical assistance increased numbers of vaccinated people.",
+    "timeline": "Surveillance is in place since 2000, and currently in force and continuously operated. Prevention campaigns and response are generally implemented on an annual and seasonal basis.",
+    "lifetime": "The surveillance system does not have a predefined lifetime. It is planned to be implemented in the long term, probably as long as TBE circulates in the country.",
+    "stakeholders": "Several administrations, institutions, and experts are involved in the TBE surveillance system: the Czech Ministry of Health collects data and transfers them on a weekly basis to a safeguarded data depository; the National Institute of Public Health hosts the data depository, analyses and processes the data, leading to the definition of 'risk areas' and dataflow to the early warning system; the central surveillance centre reports the laboratory-confirmed cases of TBE; other public health authorities carry out epidemiological investigations; medical epidemiologists or infection physicians, through interviews, obtain a patient’s medical history. Czechia is member of the Scientific Working Group on Tick-Borne Encephalitis, an international network of experts (neurologists, general practitioners, clinicians, travel physician, virologists, paediatricians, ecologists and epidemiologists) from more than 30 different European countries of TBE endemic and non-endemic regions. This body, launched in 1999, is there to encourage the control of TBE in Eurasia. The Scientific Group promotes international collaboration on TBE research and prevention, education and awareness raising on vaccination, the application of international standards on epidemiological TBE surveillance and the harmonisation of national and international policies on TBE prevention.",
+    "legal_context": "The surveillance system in Czechia is regulated by a national law (Ministerial decree No. 473/2008, (Annex 28. Amendment to Act No. 48/1997 on public health insurance regulates the free access to vaccinations for people over 50 years old."
+  },
+  "point": {
+    "lat": 50.0359736722,
+    "lon": 14.4140625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "info.chmi.cz",
+      "url": "https://info.chmi.cz/bio/mapy.php?type=kliste",
+      "role": "contextual_input"
+    },
+    {
+      "name": "vaccine-schedule.ecdc.europa.eu",
+      "url": "https://vaccine-schedule.ecdc.europa.eu/Scheduler/ByCountry?SelectedCountryId=201&IncludeChildAgeGroup=true&IncludeChildAgeGroup=false&IncludeAdultAgeGroup=true&IncludeAdultAgeGroup=false",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tick-borne-encephalitis-tbe-surveillance-in-czechia",
+    "publication_date": "2022-12-05",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "0803801ba0a14eb4ac8df29baa6ba59e",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/tick-borne-encephalitis-tbe-surveillance-in-czechia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:44+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-jakarta-alleviating-floods-with-parks-for-children",
+  "url": "https://www.c40.org/case-studies/cities100-jakarta-alleviating-floods-with-parks-for-children/",
+  "title": "Cities100: Jakarta – Alleviating Floods with Parks for Children",
+  "summary": "This C40 case study describes “Cities100: Jakarta – Alleviating Floods with Parks for Children,” an urban initiative documented for Jakarta. It is included because it addresses river flood, air pollution pm25 hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Jakarta is constructing parks all over the city to reduce flood duration and to ensure better quality of life for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jakarta",
+      "label": "Jakarta"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With more than 10 million inhabitants, the densely populated Jakarta struggles to keep the city safe when torrential rains hit. In an attempt to reduce flood duration and enhance quality of life, especially for children, Jakarta is constructing hundreds of parks across the capital.",
+    "measures": "Indonesia's capital has committed to increase green open spaces from 10% to 30% of the city's 662 km2 by 2030 as part of the city's Climate Action Plan. Seeing public green spaces reduced almost 78% in the past 40 years in the city, while also experiencing steady population growth and regular flooding events, Jakarta needed a solution. To reach the 30% target, Jakarta has begun building parks through the Green Open Space and Child-Friendly Integrated Public Spaces program. By 2016, the city had completed 200 parks, and is set to complete 306 by the end of 2017. Increasing green infrastructure has improved the city's resilience and reduced flood duration from the former three days to just three hours per flooding event. Kalidojo, Jakarta's oldest and largest red-light district, was demolished and turned into one of the city's green, child-friendly parks, including jogging tracks and bicycle lanes, a skate park, an amphitheater, and outdoor fitness facilities. The city plans to have around 3,000 parks built, covering all high-density and vulnerable areas by 2022.\n Environmental Benefits – The parks have generated a more attractive and greener environment, reducing CO2 and improving air quality, while enabling the city to recover from flooding in a matter of hours.\n Economic Benefits – The construction of the parks has created jobs for local Jakartans, who will see many more opportunities for work, as the city plans to construct 3,000 parks by 2022.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-jakarta-alleviating-floods-with-parks-for-children/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27304",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-jakarta-alleviating-floods-with-parks-for-children&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

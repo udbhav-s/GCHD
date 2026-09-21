@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-buenos-aires-sustainable-communities",
+  "url": "https://www.c40.org/case-studies/buenos-aires-sustainable-communities/",
+  "title": "Buenos Aires Strengthens Natural Resources to Protect Low-Income Communities",
+  "summary": "This C40 case study describes “Buenos Aires Strengthens Natural Resources to Protect Low-Income Communities,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: In the context of Buenos Aires Hydrolic Master Plan, Lake Soldati has been cleaned and its ecosystem restored, protecting the low-lying communities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In the context of Buenos Aires Hydrolic Master Plan, Lake Soldati has been cleaned and its ecosystem restored, protecting the low-lying communities surrounding it",
+    "measures": "Buenos Aires sits on the Argentinian coast with many nearby river deltas and watersheds. As a water-centric City, its residents face increasing risks of flooding. The combination of poor stormwater drainage across the City, due to recent and rapid urbanization, and increasing rates and intensity of floods has put the low-income and more vulnerable populations at serious risk. \n Nearly 700,000 people live in the City’s targeted watersheds and approximately 46,000 mostly low-income residents live in close proximity to the flood-prone Lake Soldati.\n In recent years, Buenos Aires has focused on flood protection in the City. In 2005, through the Ministry of Urban Development and Transportation (MDUyT), the City released a Hydraulic Master Plan to set in motion a path to protect its residents from the risk of eight floodable river watersheds in Buenos Aires. In particular, the City is focusing large capital investments in the Lake Soldati area, in the Cildáñez river basin, where a significant portion of low-income residents live. \n Throughout the course of the project, the Ministry of Environment and Public Spaces’ Urban Drainage Unit work to develop flood retention areas. The Urban Drainage Unit will also construct infrastructure networks to improve water distribution and wastewater collection, construct drainage channels to strengthen existing infrastructure, and enhance the urban public space. \n What is the innovation? \n The City of Buenos Aires is aware of the dangers of climate change and has taken several necessary steps to adapt its natural lands to better handle future climate events. From March 2001 to January 2006, the City developed the City’s Hydraulic Master Plan. This was the first planning document related to hydraulics, or the movement of water, in the City.\n After the Hydraulic Master Plan was published, the City of Buenos Aires created the group known as the Special Projects Unit of the Hydraulic Plan. The group was created to manage and implement the projects laid out in the Hydraulic Master Plan and the Water Risk Management Program (a program to implement adaptation work on the Arroyo Maldanado basin, improve green space, tree plantings, and more[2]). \n Procure funding that influences and supports project development and community engagement \n Most of the funding for the river basin adaptation projects is coming from the World Bank. The total project cost for the three basins Cildáñez, Maldonado, and Vega is US$326M. The World Bank is providing US$200M and the City of Buenos Aires is covering the remainder. The MDUyT’s Special Projects Unit of the Hydraulic Plan (UPEPH) is in charge of managing the fund and the project’s implementation. World Bank funded projects often come with support from the agency and a set of requirements, especially around reporting and community engagement. \n Implement projects that address multiple needs and provide countless benefits \n The adaptation of Lake Soldati and the resulting reduction in flood risk for the area will have significant benefits for the communities including environmental, social, economic, and health-related improvements. Firstly, the rehabilitation of the Lake involves an extensive clean-up and outreach campaign which improves the conditions for communities, attracts flora and fauna to the area, and ensures that residents have the practical knowledge and resources needed to keep Lake Soldati clean.\n Socially, this project significantly lowers the flood risk for low-income communities and contributes to the development of these communities by ensuring reliable access to essential services such as drinking water [8]. \n Make engagement, communication and community growth part of the project \n As part of the flood protection work across the City, there are several community engagement efforts that have been undertaken. In 2011, the Secretariat of Habitat and Inclusion (SECHI) was formed to coordinate engagement and foster relationships with targeted communities throughout Buenos Aires. \n As part of their mission, SECHI has an office located within the communities near Lake Soldati to build relationships with these particular communities. SECHI, with support from NGOs in the area, conducted many forms of engagement to get the community involved including door-to-door outreach, workshops with children, and focus group meetings [9].\n Through the World Bank funding, there are ongoing engagement efforts such as generating shareable communication for city dwellers and education programs. \n This has led to the Buenos Aires Office of Communication to work on community documents and resources and host informal seminars that educate and raise awareness of hazards and preventative actions to be taken during a flood event. \n For education, there are two programs planned. One aimed at the construction sector and education professionals to cover general knowledge about flood hazards, risks, vulnerability, and prevention, the other supporting the ongoing emergency first respondents program targeting the populations living in slums and poor neighborhoods of Buenos Aires [10]. \n Next Steps \n Recognizing that flood events are the city’s greatest risk, Buenos Aires has prioritized climate adaptation projects. These projects positively impact a significant portion of the City’s population, including a large number of low-income residents. The watershed adaptation projects make a stronger Buenos Aires that is resilient and prepared for the future of climate change – including the low-income and marginalized communities.\n Links to further Information \n 1. https://www.mininterior.gov.ar/planificacion/pdf/planes-loc/CABA/Modelo-territorial-2010-2060.pdf \n 2. https://www.buenosaires.gob.ar/desarrollourbano/desarrollo/planes/ programa-de-gestion-del-riesgo-hidrico \n 3. https://www.buenosaires.gob.ar/desarrollourbano/desarrollo/planes/ “plan-hidraulico” \n 4. http://documents.banquemondiale.org/curated/ fr/142861468008743600/pdf/ISDS-Print-P145686-01-28-2014-1390968222209.pdf \n 5. https://www.buenosaires.gob.ar/noticias/el-lago-soldati-recupera-su- ecosistema-original \n 6. https://issuu.com/sechabitat/docs/caso-soldati-baja \n 7 . https://issuu.com/sechabitat/docs/caso-soldati-baja \n 8. https://issuu.com/sustainia/docs/cities100 \n 9. https://stud.epsilon.slu.se/9716/1/bergman_l_161101.pdf \n 10. http://documents.worldbank.org/curated/en/287961468328119648/pdf/ PAD830-REVISED-OUO-9-R2016-0110-2.pdf \n Image taken from https://goexplorer.org/buenos-aires-flood-prevention-in-low-income-communities/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-sustainable-communities/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27462",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-sustainable-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

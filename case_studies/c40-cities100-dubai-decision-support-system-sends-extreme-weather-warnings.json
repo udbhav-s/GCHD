@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-dubai-decision-support-system-sends-extreme-weather-warnings",
+  "url": "https://www.c40.org/case-studies/cities100-dubai-decision-support-system-sends-extreme-weather-warnings/",
+  "title": "Cities100: Dubai – Decision Support System Sends Extreme Weather Warnings",
+  "summary": "This C40 case study describes “Cities100: Dubai – Decision Support System Sends Extreme Weather Warnings,” an urban initiative documented for Dubai. It is included because it addresses river flood, coastal flood hazards, and it is located in the Global South. C40 describes the action this way: Dubai created a Decision Support System using the latest weather forecasting technology in order to predict extreme weather events and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dubai",
+      "adm0": {
+        "name": "United Arab Emirates",
+        "ucode": "ARE_V1",
+        "dcid": null,
+        "iso3": "ARE"
+      },
+      "adm1": {
+        "name": "Dubai",
+        "ucode": "ARE_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Dubai coastline faces many risks because of climate change. Sea level is forecast to rise a minimum of 4 mm annually, while storm events are expected to be more frequent and severe. The Decision Support System for Marine and Waterways Management has integrated the latest technology to forecast extreme weather events and flooding, enabling the city to better respond and adapt to these climate change challenges.",
+    "measures": "Dubai launched its Decision Support System for Marine and Waterways Management in 2012, the first of its kind in the region, reducing climate change-induced risks to the coastal zone. The system consists of an integrated suite of meteorological, hydrodynamic, and wave models, combined with real- time data management and Web-based tools, creating a coastal monitoring and forecasting system. The system has been successful in predicting extreme weather events 24 hours in advance, delivering data and decision support to the municipality and public users on everything from sea level rise; change in wave frequency, height, and direction; increased precipitation rates; coastal erosion; and increased sea water acidity. Not just providing actionable, real-time information, the system has allowed for the creation of a comprehensive historical database, as well as a coastal inundation tool, capable of forecasting and mapping the extent of coastal flooding. By collecting weather and oceanographic information, the municipality is able to account for future risks of climate change in its infrastructure planning and design for the Dubai coastline.\n Environmental Benefits – The system is designed to help protect and maintain cultural heritage features along the coastline through their identification on maps and targeted monitoring.\n Social Benefits – Data produced by the system is sold to developers and other stakeholders to assist in commercial planning.\n Economic Benefits – Residents avoid injury and death via the provision of severe weather warnings from the system.\n Health Benefits – Residents avoid injury and death via the provision of severe weather warnings from the system.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-dubai-decision-support-system-sends-extreme-weather-warnings/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27228",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-dubai-decision-support-system-sends-extreme-weather-warnings&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

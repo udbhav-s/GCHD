@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-cape-town-industrial-resource-exchanges-reduce-co2",
+  "url": "https://www.c40.org/case-studies/cities100-cape-town-industrial-resource-exchanges-reduce-co2/",
+  "title": "Cities100: Cape Town – Industrial Resource Exchanges Reduce CO2",
+  "summary": "This C40 case study describes “Cities100: Cape Town – Industrial Resource Exchanges Reduce CO2,” an urban initiative documented for Cape Town. It is included because it addresses meteorological drought hazards, and it is located in the Global South. C40 describes the action this way: An industrial symbiosis program in Cape Town is facilitating waste and CO2 reduction via resource exchanges between companies, and is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Cape Town",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Western Cape",
+        "ucode": "ZAF_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Cape Town",
+        "ucode": "ZAF_0009_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "South Africa faces challenges with respect to resource use, including its reliance on fossil fuels for energy, water scarcity, and high landfill rates. Industrial symbiosis aims to address this by promoting reuse and recycling of industrial water.",
+    "measures": "The Western Cape Industrial Symbiosis Programme (WISP) is a free business facilitation service based in Cape Town, and is the first industrial symbiosis program in Africa. It connects companies so they can realize the benefits of exchanging underutilized or wasted resources. WISP targets the diversion of all industrial waste from landfill, complementing the city's zero waste to landfill activities. The program also focuses on reducing greenhouse gas emissions, generating financial benefits for companies and creating jobs. WISP has an enterprise development program, which creates new businesses via an incubation program linking entrepreneurs to raw material supply agreements. Workshops have identified more than 4,000 potential synergies between the 486 companies that are part of the WISP network. WISP has also developed an international standard carbon calculator to measure emissions savings from materials saved from landfilling and emissions avoided in producing and transporting new raw materials. Over the next three years, WISP synergies are expected to generate 64,500 metric tons in CO2 equivalent savings.\n Environmental Benefits – WISP has diverted a total 4,950 metric tons of waste from landfill, saving CO2 equating to 15,500 trees growing over 30 years.\n Economic Benefits – In just three years, WISP is expected to generate $2.27 million in economic benefits and promises a three to one rate of return on investment.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-cape-town-industrial-resource-exchanges-reduce-co2/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27354",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cape-town-industrial-resource-exchanges-reduce-co2&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

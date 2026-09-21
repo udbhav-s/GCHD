@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-chennai-s-comprehensive-parking-management-system",
+  "url": "https://www.c40.org/case-studies/chennai-s-comprehensive-parking-management-system/",
+  "title": "Chennai’s Comprehensive Parking Management System",
+  "summary": "This C40 case study describes “Chennai’s Comprehensive Parking Management System,” an urban initiative documented for Chennai. It is included because it is located in the Global South. C40 describes the action this way: Like many rapidly growing cities, the vehicular traffic of Chennai has sensibly increased. However, over the last few years, Chennai made a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Like many rapidly growing cities, the vehicular traffic of Chennai has sensibly increased. However, over the last few years, Chennai made a very systematic approach to increase non-motorised transport infrastructure and is now the first Indian city to implement an Area Wide Parking Management System.",
+    "measures": "Like many rapidly growing cities, the vehicular traffic of Chennai has sensibly increased. This coupled with limited growth in road infrastructure has led to significant stress on the parking system of the city.\n However, over the last few years, Chennai made a very systematic approach to increase non-motorised transport infrastructure and is now the first Indian city to implement an IT-based Area Wide Parking Management System.\n Discover here the full case study, how the project works and what are the benefits.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/chennai-s-comprehensive-parking-management-system/",
+    "publication_date": "2019-01-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27432",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=chennai-s-comprehensive-parking-management-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-york-city-modeling-aids-emissions-reductions-roadmap",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-modeling-aids-emissions-reductions-roadmap/",
+  "title": "Cities100: New York City – Modeling Aids Emissions Reductions Roadmap",
+  "summary": "This C40 case study describes “Cities100: New York City – Modeling Aids Emissions Reductions Roadmap,” an urban initiative documented for New York. It is included because it addresses coastal flood, heatwave, air pollution pm25 hazards. C40 describes the action this way: New York City has prepared a detailed roadmap to steer the city towards an 80% reduction in greenhouse gas emissions…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The effects of climate change are already evident in New York City: rising sea levels; increased frequency in heavy precipitation and coastal storms; hotter days on average; and more extended heat waves. The roadmap is designed to reduce emissions from the four highest-emitting sectors.",
+    "measures": "Having goals is one thing, but working out how to achieve them is another. New York City has developed a greenhouse gas emissions calculator that can tally the emissions associated with all fuel sources, waste streams, and avoided emissions throughout the city. Using this detailed and quantitative assessment, the city has calculated the necessary pace and extent of the transition to a renewable-based electric grid, renewable or high-efficiency heating and hot water in buildings, energy-efficient buildings, electric and clean fuel vehicles, and zero waste to landfills. With the emissions-cutting plans, New York City has a clear roadmap to 80 x 50, 80% reductions by 2050, and is demonstrating climate leadership via an evidence-based, comprehensive approach. To date, the city has reduced its annual greenhouse gas emissions by 14% from 2005 levels. Additionally, New York City and C40 are working to identify new measures to achieve a 9% decrease in greenhouse gas emissions by 2020, followed by steeper emissions reductions of 70% by 2030 and 100% by 2050, as part of C40’s Action Plan 2020 pilot.\n Environmental Benefits – Sector-based initiatives in the roadmap have several environmental co-benefits for the city. For example, the NYC Clean Fleet and other related on-road vehicle initiatives will improve air quality for citizens.\n Economic Benefits – New York City sees 80 x 50 as an opportunity to encourage green jobs for the local workforce and to spur new industries. They hope to become a global hub for energy efficiency and clean energy technology via initiatives such as UrbanTech NYC and Applied Sciences NY.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-modeling-aids-emissions-reductions-roadmap/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27331",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-modeling-aids-emissions-reductions-roadmap&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

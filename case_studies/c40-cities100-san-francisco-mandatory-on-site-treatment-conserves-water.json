@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-san-francisco-mandatory-on-site-treatment-conserves-water",
+  "url": "https://www.c40.org/case-studies/cities100-san-francisco-mandatory-on-site-treatment-conserves-water/",
+  "title": "Cities100: San Francisco – Mandatory On-site Treatment Conserves Water",
+  "summary": "This C40 case study describes “Cities100: San Francisco – Mandatory On-site Treatment Conserves Water,” an urban initiative documented for San Francisco. It is included because it addresses meteorological drought, river flood hazards. C40 describes the action this way: San Francisco requires all new large buildings to treat their non-potable water on-site, reducing the use of potable water and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "San Francisco",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "San Francisco",
+        "ucode": "USA_0005_0038_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "san-francisco",
+      "label": "San Francisco"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "By 2050, based on current per-capita water use, California’s estimated 22 million additional residents will need an additional 6.8 billion m3 of potable water per year. As California sees longer-lasting droughts and increased urbanization, San Francisco’s Non-potable Water Program anticipates an increase in the number of on-site water treatment systems installed, making it a critical strategy for dealing with a shrinking water supply due to climate change.",
+    "measures": "San Francisco’s Non-potable Water Program allows buildings and districts to incorporate decentralized, on-site water systems. Collecting and treating non-traditional sources of water, such as rainwater, stormwater, blackwater, and graywater, can reduce the use of potable water by up to 50% for residential buildings and 95% for commercial buildings. The collected water is used for irrigation of green surfaces, toilet flushing, and other non-potable uses. San Francisco’s program is designed to streamline the process for the private sector and create a new water management paradigm within the city.\n The program began in 2012 as a voluntary measure, but, as of 2015, it became mandatory for all new buildings over 23,000 m2 to recycle water on-site, making it the first policy of its kind in the USA. This groundbreaking step ensures that all new developments in San Francisco are built with water conservation as a top priority. Since the program’s inception in 2012, 33 projects have installed on-site water reuse systems.\n Social Benefits – On-site water systems build water resilience and enable communities to sustainably utilize available water resources to withstand and recover from adverse situations.\n Economic Benefits – The program provides grants of up to $500,000 to projects implementing on-site water reuse systems\n Health Benefits – The program regulates the entire life-cycle of water recycling installation systems, guaranteeing safe operation and usage and the protection of public health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-san-francisco-mandatory-on-site-treatment-conserves-water/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26990",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-san-francisco-mandatory-on-site-treatment-conserves-water&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-polczynska-park-and-ride",
+  "url": "https://www.c40.org/case-studies/polczynska-park-and-ride/",
+  "title": "Połczyńska Park+Ride: Smart and Green Parking in Warsaw",
+  "summary": "This C40 case study describes “Połczyńska Park+Ride: Smart and Green Parking in Warsaw,” an urban initiative documented for Warsaw. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The comprehensive retrofit of Połczyńska Park+Ride site will see the integration of low-carbon transportation, clean renewable energy, sustainable water management and green…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Warsaw",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": null,
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Mazowieckie",
+        "ucode": "POL_0007_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "M. St. Warszawa",
+        "ucode": "POL_0007_0015_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "warsaw",
+      "label": "Warsaw"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The comprehensive retrofit of Połczyńska Park+Ride site will see the integration of low-carbon transportation, clean renewable energy, sustainable water management and green areas. It will be a model for future developments in the field of smart and green solutions in Warsaw.",
+    "measures": "The municipal project of retrofitting the Połczyńska Park+Ride will have a total budget of nearly US$ 1 million. It shall comprise the following main elements:\n 1) Installing photovoltaic modules producing clean electricity (up to 192 kWp in total);\n 2) Installing a heat pump producing clean heat energy and construction of heating installation;\n 3) Modernising electric installations, internal lighting and external lighting (with the addition of LED lamps);\n 4) Constructing 4 charging points for electric vehicles (22 kW each);\n 5) Constructing an energy bank for storage of electricity;\n 6) Installing a energy management system;\n 7) Initialising an educational programme for citizens about sustainable transportation and related developments;\n 8) Creating new connection to the local electric grid;\n 9) Building a rainwater retention tank and green spaces. \n What is the project? How does it work? \n This retrofitting project will include and integrate innovative solutions that are so far unprecedented in Poland and rarely achieved across the world. These solutions will not only reduce GHG emissions and air pollutants, but will also help the city adapt to climate change thanks to the project’s rainwater retention.\n The project will mainly comprise of investments made into the physical structures supporting transportation infrastructure, new buildings and better energy efficiency. In addition, it will also deliever “soft” measures as well in the form of an educational programme to inform the public on these technical solutions.\n The developments planned for the Połczyńska are planned to function as a synergetic whole. The clean renewable energy produced by the site’s PV modules shall assist in powering EV chargers, as well as other on-site installations. However, since solar energy is not available 24/7, its storage in the energy bank will be critical for the better balancing between the supply and consumption of electricity. \n The integrated management system connecting all installations on-site are present to ensure that energy is not wasted, but rather utilised in the most efficient manner possible.\n What are the CO 2 reduction goals? \n The retrofitying of the Połczyńska Park+Ride site will be completed in 2022. Therefore, the project will reduce CO 2 emissions by 33 tonnes per year starting in 2023. \n Next Steps \n This project will act as a testbed for future retrofitting plans at all other 15 Park+Rides already operational in Warsaw, as well as at upcoming sites in the city.\n Fig. 1: Graphic of the planned parking site\n Contact Details \n Air and Climate Department, City of Warsaw\n Tel. +48 22 325 96 00\n Director Marcin Morawski mmorawski@um.warszawa.pl \n Deputy Director Jacek Kisiel jkisiel@um.warszawa.pl \n ZTM Public Transport Authority, City of Warsaw\n Tel. +48 22 45 94 323\n Jacek Bogusz j.bogusz@ztm.waw.pl",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/polczynska-park-and-ride/",
+    "publication_date": "2020-01-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27501",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=polczynska-park-and-ride&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

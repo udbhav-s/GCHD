@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-quezon-city-regulates-single-use-plastic-through-policy-intervention",
+  "url": "https://www.c40.org/case-studies/quezon-city-regulates-single-use-plastic-through-policy-intervention/",
+  "title": "Quezon City Regulates Single-Use Plastic through Policy Intervention",
+  "summary": "This C40 case study describes “Quezon City Regulates Single-Use Plastic through Policy Intervention,” an urban initiative documented for Quezon City. It is included because it is located in the Global South. C40 describes the action this way: The City Government enacted the Plastic Bag Reduction Ordinance to regulate the consumers’ use of plastic bags and to implement for the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quezon City",
+      "adm0": {
+        "name": "Philippines",
+        "ucode": "PHL_V1",
+        "dcid": null,
+        "iso3": "PHL"
+      },
+      "adm1": {
+        "name": "National Capital Region (Ncr)",
+        "ucode": "PHL_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quezon-city",
+      "label": "Quezon City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City Government enacted the Plastic Bag Reduction Ordinance to regulate the consumers’ use of plastic bags and to implement for the type 1 retailers (such as shopping malls, supermarkets, fast food chains, pharmacies etc.) a Plastic Recovery System Fee in exchange of plastics that will be earmarked for a Green Fund and utilized for environmental projects, benefitting the residents of Quezon City.",
+    "measures": "Single-use plastic is one of the key sources that accelerate the rapid degradation of the environment. With practically no recyclable purposes, it has been disposed of indiscriminately in environmentally sensitive locations such as waterways and landfills among others. In Quezon City, the primary challenge faced was that plastic bags were improperly discarded. While representing a missed opportunity to recover, reuse and recycle plastic, they also negatively impacted the city’s waste stream, contributing to various nuisances to the environment.\n In a study conducted by the Environmental Protection and Waste Management Department, plastic bags have been found to amount to 12% of the total waste composition of the city. This finding motivated implementation of an effective system of plastic bag recovery which sought the participation and commitment of the business sector and the citizens to protect the living environment. In 2012, the City Government enacted the Quezon City Ordinance SP-2140 series of 2012, entitled “An Ordinance Regulating the Use of Plastic Bags and Establishing an Environmental Fee for its Use, Providing Mechanism for Its Recovery and Recycling and Providing Penalties for Violation Thereof” otherwise known as the Plastic Bag Reduction Ordinance .\n The Quezon City Plastic Bag Reduction Ordinance has been then integrated into the harmonization of the city’s local environmental ordinances in 2014, leading to the creation of the Ordinance No. SP-2350, S-2014 or An Ordinance Providing for the Environmental Protection and Waste Management Code of Quezon City, also known as the “QC Environment Code”.\n What's innovative? How does it work? \n Type 1 retailers (Shopping Malls, Supermarkets, Department Stores, Grocery Stores, Fast Food Chains, Drug Stores, Pharmacy) shall impose a Plastic Recovery System Fee (PRSF) of two pesos (P2.00) for plastic bags having a thickness not lower than 15 microns. The establishment of a plastic recovery system fee was designed to primarily change consumer behavior rather than to generate funds. Such fees are put in place to change consumer habits and awareness, encouraging the use of reusable bags. This measure seeks to curb the amount of plastic bags in the waste stream, institutionalizing a more efficient and convenient recovery system for plastic bags in line with the 3Rs principle.\n A comprehensive, in-depth consultation with the business sector was undertaken to create the plastic bag recovery system and the plastic bag recovery fee. Since this wasn’t primarily a revenue generation scheme, the plastic recovery fee was not remitted to city’s funds. Instead, it remains with the retail stores and then utilized to fund various environmental initiatives, subject to prior approval of the city government. To monitor progresses, each retail business has to submit quarterly to the City Government a self-monitoring report detailing the quantity of recovered plastic bags and the amount of collected plastic recovery fee.\n As of the end of 2017, a total number of 6,269,278 pieces of plastic bags were recovered.\n A number of establishments have already implemented their “green fund” projects. For instance, one establishment utilized these revenues to donate 11,000 chairs made from converted soft plastic to various schools across the city. Another example is the donation of several eco-bicycles to the city’s police force.\n The compliance of the business establishments with the scheme and their initiative to develop and implement “green fund” projects added to the credibility and success of the city’s Plastic Recovery Fee System. In addition, this policy intervention addressed multiple concerns (e.g. the regulation of plastic bags), and is now contributing to shift consumers behaviour towards a more reuse-oriented attitude, as well as institutionalizing a revenue generating system that directly benefits the local communities and contributes to the city’s objective of becoming a low carbon and sustainable city.\n Links to further information: \n The QC Plastic Bag Reduction Ordinance \n http://quezoncity.gov.ph/index.php/featured-articles/875-qc-plastic-bag-reduction \n Contact Details: \n Ms. Frederika Rentoy\n Head\n Environmental Protection and Waste Management Department\n Quezon City Government\n Tel. (632) 988-4242",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/quezon-city-regulates-single-use-plastic-through-policy-intervention/",
+    "publication_date": "2018-09-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27406",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=quezon-city-regulates-single-use-plastic-through-policy-intervention&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-shenzhen-new-energy-vehicle-promotion",
+  "url": "https://www.c40.org/case-studies/shenzhen-new-energy-vehicle-promotion/",
+  "title": "Shenzhen ‘New Energy’ Vehicle Promotion",
+  "summary": "This C40 case study describes “Shenzhen ‘New Energy’ Vehicle Promotion,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: As one of the first pilot cities for the demonstration and promotion of ‘new energy’ vehicles, and one of the first pilot…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As one of the first pilot cities for the demonstration and promotion of ‘new energy’ vehicles, and one of the first pilot cities for subsidising the private purchase of ‘new energy’ vehicles in China, Shenzhen has achieved good results in the demonstration and promotion of ‘new energy’ vehicles in recent years through a series of systems, mechanisms and business model innovations, laying a solid foundation for further promotion and application.",
+    "measures": "Chinese version can be found here .\n Shenzhen, a pilot city for the two rounds of the promotion and application of ‘new energy’ vehicles in China, has achieved remarkable results in the demonstration and promotion of ‘new energy’ vehicles since 2009. By the end of July 2015, 11,041 ‘new energy’ vehicles, including 1,771 hybrid electric buses, 1,253 electric buses, 26 electric minibuses, 175 electric commuter cars, 520 ‘new energy’ government vehicles, 62 fuel cell vehicles, 850 electric taxis, 10 electric logistics vehicles, and 6,374 ‘new energy’ private cars, were accumulatively promoted in the city.\n Credits: China Daily\n From January-July 2015, 993 ‘new energy’ vehicles, including 961 private cars (882 plug-in hybrid electric passenger cars, and 79 electric passenger cars), 10 logistics vehicles, and 22 commuter cars, were accumulatively promoted; and two central enterprises, Potevio New Energy and China Southern Power Grid, as well as BYD Company, were brought in to undertake construction of the supporting charging facilities of the city, with 88 fast-charging stations (including 74 bus charging stations, and 14 public charging stations, with 1,388 fast charging piles in total), and nearly 3,000 slow charging piles for private cars built, to preliminarily form a charging network that covers the entire city.\n According to the Guiding Opinions on Accelerating the Promotion and Application of ‘new energy’ Vehicles of the General Office of the State Council, and Notice on Continuing on the Promotion and Application of New Energy Vehicles of the Ministry of Finance, the Ministry of Science and Technology, the Ministry of Industry and Information Technology, and the National Development and Reform Commission, Shenzhen has introduced several policies and measures for the promotion and application of New Energy Vehicles.\n In order to forcefully advance the promotion and application of ‘new energy’ vehicles in the city, the municipal government has comprehensively set up a RMB 5 billion support fund for the promotion and application of ‘new energy’ vehicles, with a focus on supporting their purchase, the construction of charging infrastructure, the setting up of the system of standards, research and consulting services for ‘new energy’ vehicles, and so on.\n Firstly, offer 1:1 supporting subsidies according to the vehicle purchase subsidy standard developed by the central finance department, without a reduction year on year, and add subsidies of RMB 10,000-20,000 to private cars during the use.\n Secondly, subsidise charging infrastructure investors up to 30% of investment in charging equipment for the construction.\n Thirdly, strictly implement the relevant provisions of Notice on Relevant Issues Concerning Policy of Power Price for Electric Vehicles of the National Development and Reform Commission for the charge price of ‘new energy’ vehicles, and develop the charging service charge standard (not more than RMB 0.45 per kWh).\n Fourthly, develop and introduce the specification for the construction of charging infrastructure, and include it in the overall plan of urban construction, and building and facility standard.\n Fifthly, study and formulate the measures for the administration of filing of charging facility operators, encourage more social capital to participate in the construction of charging infrastructure on the basis of normalised administration.\n Sixthly, study and formulate the measures for the administration of electric taxis, to guide more traditional fuel taxis to be changed to electric vehicle.\n Seventhly, study and formulate the guiding opinions for the use and administration of electric logistics vehicles, to offer the preferential measure of 24h all-area passing of electric vehicles for urban logistics distribution.\n The city has also conducted a preliminary study of motor vehicle carbon trading, and organised relevant institutions to carry out in-depth studies of the legislative guarantee, feasibility, operation scheme, and procedures for motor vehicle carbon trading. \n CO2 reduction \n According to statistics, the city has accumulatively achieved more than 1billion kilometers of safe mileage, around 280,000 tons in reduced carbon emissions, and around 100,000 tons in fuel saving. It has gained good social and economic benefits since the implementation of the demonstration and promotion of 'new energy' vehicles, and it has become the city with the largest application scale of 'new energy' vehicles in the public transport field in the world.\n Next steps \n In the future, Shenzhen will continue to expand the promotion and application scale of ‘new energy’ vehicles, strengthen the construction of charging facilities, establish and improve support policies for the supporting facilities, extend the scope of subsidies for ‘new energy’ private cars, actively explore different business models (such as improving the original business model of “financial leasing, vehicle and battery separation, and charging station and maintenance integration”; exploring and promoting the business model of “financial leasing, double-locking for win-win, and charging station and maintenance integration”; achieving normalised and standardised management of electric taxis; introducing car-sharing models in the private car field, and introducing a leasing model to the field of logistics vehicles and other special vehicles), and explore motor vehicle carbon trading.\n The Development and Reform Commission of Shenzhen Municipality drafted the 2016-2020 Work Plan of Shenzhen for Promotion and Application of New Energy Vehicles in association with the Transport Commission of Shenzhen Municipality, Housing and Construction Bureau of Shenzhen Municipality, and Traffic Police Department of Shenzhen Public Security Bureau, according to which 70% electrification of buses by the end of 2016 and 100% by the end of 2017 are planned to be achieved, and the application scale of time-share ‘new energy’ rental cars and online hailing ‘new energy’ cars will be expanded, and the scientific and reasonable reward mechanism for putting said cars on the market will be studied and formulated, to promote the electrification of all such cars by the end of 2020.\n Furthermore, according to the 13th Five-year Plan of Shenzen City for Responding to Climate Change, Shenzen will vigorously promote the construction of a charging network for 'new energy' vehicles, and require charging piles to be equipped for new residences, large public buildings, and public car parks according to 30% of the number of parking spaces, charging piles to be equipped for commercial and industrial projects according to no less than 10% of the number of parking spaces, and charging piles to be equipped for existing residential community car parks and public car parks according to no less than 10% of the number of parking spaces in principle.\n 8,246 fast charging piles for buses, 10,800 public fast-charging piles, and 115,000 slow charging piles will be constructed during the 13th Five-year plan period. In addition, Shenzen, oriented towards energy conservation and emission reductions, will actively promote 'new energy' vehicles, and establish and improve the incentive policy for emission reduction through carbon account credits of 'new energy' vehicles.\n Contact Details \n Development and Reform Commission of Shenzhen Municipality\n Department of Energy and Circular Economy\n Tel: +86 755 8812 1075\n zwgk@szplb.gov.cn",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shenzhen-new-energy-vehicle-promotion/",
+    "publication_date": "2018-07-25",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27397",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=shenzhen-new-energy-vehicle-promotion&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

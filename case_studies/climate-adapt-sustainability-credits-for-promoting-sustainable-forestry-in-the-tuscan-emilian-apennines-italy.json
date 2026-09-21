@@ -1,0 +1,255 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+  "title": "Sustainability credits for promoting sustainable forestry in the Tuscan-Emilian Apennines, Italy",
+  "summary": "Through sustainability credit marketing and the adherence to international certification systems, the Tuscan-Emilian Apennines National Park financially supports the sustainable management of forests, making them more resilient to climate change. The Tuscan-Emilian Apennines National Park is situated on the mountain divide between Tuscany and Emilia-Romagna, Italy. The Park Authority coordinates a project that generates market value for ecosystem services of sustainable forest management. The project helps forests adapt to climate change, and offers companies a way to support environmental protection through the purchase of Sustainability Credits.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Toscana",
+        "ucode": "ITA_0016_V1",
+        "dcid": null,
+        "source_code": "SUBN_Toscana__IT_",
+        "source_name": "Toscana (IT)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": "ITA_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sustainability credits",
+      "label": "Sustainability credits"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecosystem Services",
+      "label": "Ecosystem Services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sustainable forestry",
+      "label": "Sustainable forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Certification",
+      "label": "Certification"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "carbon sequestration",
+      "label": "carbon sequestration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biodiversity conservation",
+      "label": "Biodiversity conservation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Water cycle regulation",
+      "label": "Water cycle regulation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Hydrogeological protection",
+      "label": "Hydrogeological protection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Recreational functions",
+      "label": "Recreational functions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soil conservation",
+      "label": "soil conservation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Corporate social responsibility",
+      "label": "Corporate social responsibility"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The overall aim of the Sustainability credits approach is to help increase the climatic resilience of forests within the Biosphere Reserve to minimise climate change impacts on the forests and to ensure the continuous benefit from ecosystem services for future generations. It also aims to combat climate change by increasing carbon stocks in forest reservoirs. The specific objectives are: ● To enable forest planning over the entire territory managed by the Park Authority to deliver Ecosystem Services while strengthening the (climate) resilience of the forest. The ecosystem services provided include: o Carbon stocks in forest reservoirs to improve CO2 capture and storage capacity, o Biodiversity conservation, o Increase of the recreational and tourist value of the forest, o Nature-based solutions for water cycle management and conservation, o Soil conservation. ● To provide companies with a way to engage in Corporate Social Responsibility by supporting local projects, easily recognisable by their clients and employees. 80% of credit buyers are from provinces located in the National Park (Reggio Emilia, Parma, and Modena). While sustaining local projects, certification standards are international, allowing, in principle, credits to be sold globally. This combination highlights the importance of proximity between industrial districts and forests: companies appreciate purchasing credits close to their home.",
+    "measures": "The core solution is the Trading Platform for Sustainability Credits and its underlying system. Local companies, eager to demonstrate their commitment to social and environmental sustainability, buy credits generated by certified forests and sold through the platform. In this way, they finance forest restoration projects, which make forests more resilient to climate change. These transactions are monitored through the publicly accessible credits’ registry . The sustainability credit trading system is based on the widespread implementation of Sustainable and Responsible Forest Management across the Tuscan-Emilian Apennines Biosphere Reserve, coordinated by the National Park Authority. Within this system, sustainable Forest Management is defined as environmentally friendly (maintaining biodiversity, forest productivity, ecological processes), socially useful (providing long-term benefits to local and wider society), and economically sustainable (profitable without depleting resources). Forest certification (PEFC and FSC) is the tool used to promote this management, ensuring adherence to scientifically robust and stringent environmental, social, and economic standards. A key element of the Sustainability Credits Trading Platform is the local mechanism established for remunerating the ecosystem services generated by certified forests. Sustainability Credits are generated through the adoption of specific forest management solutions which are implemented in the park territory with additionality (i.e. generating additional benefits) compared to traditional management. These management solutions are implemented within forests certified for sustainable/responsible forest management and Ecosystem Services. Sustainability Credits represent the recognition of a market value to the ecosystem services provided by the certified forests. They are the result of a process involving the quantification, evaluation, and robust certification of the positive impacts of sustainable forest management on the quantity and quality of ecosystem services. The main, but by no means the only, quantitative indicator is the metric ton equivalent of CO2 sequestered. A crucial condition to generate credits is that the actions implemented provide additional benefits compared to traditional management. They must be performed within forests certified according to FSC and PEFC standards for both Sustainable/Responsible Forest Management and Ecosystem Services. The credit system certifies the adoption of one or more of the following sustainability measures within the forest: ● Increasing forest biomass ● Lengthening the minimum rotation of managed deciduous forests ● Conversion of coppice (woodland in which trees or shrubs are periodically cut back to ground level) to high forests (large, mature trees) ● Reforestation after extreme events ● Afforestation/reforestation activities ● Fire risk reduction ● Activities to protect against biotic damage Specific management actions carried out to demonstrate positive impact on the quality of Ecosystem Services include: ● Development of specific silviculture techniques, based on the selection and care of specific target trees, also creating dendro-microhabitats for insects, birds, small mammals and amphibians ● Protection of forest regeneration ● Transition towards forests with more natural structure and composition ● Creation of buffer strips to minimise disturbances, and ecological corridors to enhance ecosystems integrity and connectivity ● Nature-based solutions for soil/water quality conservation ● Maintenance or restoration of lakes, ponds and peat bogs to keep water in the forest ● Interventions to support the habitats of pollinators (green structures, refuges, nests, etc.) ● Research on and monitoring of endangered species’ habitats ● Activities to improve and promote recreational and cultural use of certified forests",
+    "outcomes": "Success factors Success factors include: • The coordinating role of the National Park Authority and of the new Forest Certification Group. It allowed multiple forest owners to participate under a single certificate. • The involvement of diverse stakeholders including public bodies, collective properties, and private owners • The backing by scientific research and expert advice • The use of well-established international certification standards (PEFC, FSC). • Funding from initiatives like Next Generation EU . The consistent growth in the number of members and certified area since the group's formal establishment in 2022 demonstrates that the initiative was successfully initiatiated and implemented and indicates potential for its scaling/replication. The format used for generating and trading sustainability credits can be replicated anywhere in areas with significant initial funding, public forests of adequate size, and an entrepreneurial fabric sensitive to sustainability. Importantly, forests should be able to benefit from additionality: credits are only generated if there is an improvement on top of previous management. The Park Authorities adopted the European Charter for Sustainable Tourism ( CETS ), obtained a first certification in 2014 and its renovation in 2019. The Charter represents an important opportunity to identify new and effective forms of sustainable development for the territory and to improve its capacity to attract tourists. Limiting factors An important limiting factor is the additionality requirement of credit generation. The closer the forest is to its pristine status, the fewer the credits that can be generated. Where sustainable forestry practices are already in place, as in the case of other Italian regions such as Trentino Alto Adige, a much larger forest area (50 ha) is needed to generate the same amount of credits as those generated by one hectare in Emilia Romagna and Tuscany. The expected number of credits generated by sustainable forest actions are expected to decrease in the long- term. This is due to a progressive saturation of the market, since all forestry practices are implemented in the park area and the forestry land not covered by the sustainability credits progressively declines. Moreover, the additionality criterion becomes increasingly difficult to satisfy. Indeed, if this point is reached, this would be a clear sign of the success of the project, but new mechanisms to ensure the long-term continuity of sustainable forest management will become necessary.",
+    "cost_benefit": "Quantifying the costs for this project is not straightforward. Designing, launching and operating the project has required five years of work by the Park’s staff, including travel and on-site activities to bring forest owners and managers onboard. This can roughly correspond to a few hundred thousand Euros. The project \"Trading Platform for Sustainability Credits\" has received funding within the EU-funded Next Generation EU project Green Community Garfagnana Greenland ( “Garfagnanagreenland. Strategie per una comunità locale sostenibile ”). Sustainability credits are a market instrument, with a price tag attached to each credit sold. Credits are sold at 33 Euro +VAT each. As each hectare generates on average 3 credits, the cost is about 100 Euro/ha (+ VAT). From the start of the project in xx to August 2025, 12,099 Sustainability Credits have been sold to 50 unique buyers. Revenues are entirely returned to forest managers for new sustainable forestry interventions. The non-monetary benefits provided by the implemented solutions are extensive and include positive outcomes related to the provision of five main ecosystem services: carbon dioxide capture and storage; biodiversity conservation; tourism and recreational functions of the forest; water cycle regulation and soil conservation s. More in detail, expected benefits are ● Climate Change Adaptation & Mitigation: o Increased climatic resilience of forests. o Increased carbon stocks in forest reservoirs. o Improved absorption and storage capacity of carbon dioxide. o Protection of settlements and economic activities against hydrogeological disruption and erosion, especially during extreme rainfall. ● Environmental Co-benefits: o Maintenance of biodiversity, forest productivity, and ecological processes. o Creation of habitats and support for diverse species of plants, animals, and fungi (Biodiversity Conservation). o Improved water cycle management. o Conservation of soil quality. ● Societal Co-benefits: o Psychophysical benefits from recreational activities in the forest (Health and well-being). o Preservation and enhancement of the forest's historical and cultural function. ● Economic Co-benefits: o Sustainable forestry operations that are sufficiently profitable without depleting resources. o Mechanism for companies to implement Environmental, Social, Governance strategies and projects. o Tall forests will be able to revive the timber economy for construction and the paper industry. o By fostering the recruitment of forestry experts, the project has generated skilled employment in the area. A quantitative analysis of these benefits is not available yet. However, a monitoring initiative is ongoing to evaluate project results. Anyway, it is possible to highlight that from the beginning of the project, the area covered by sustainable management moved from about 10,000 ha to 30,000 ha with increasing requests from forest owners and managers to join the project.",
+    "timeline": "The Certification Group was formally established in 2022, as a consortium of forest owners led by the Park Authority. They obtained their first certification in December 2022. The group expanded in 2023 and again in 2024, confirming certification in January 2024. Specific implementation timelines for the platform or individual measures are not explicitly provided. The project is ongoing, and new certificates are issued each year.",
+    "lifetime": "A fixed lifetime for the project's measures is not defined. Sustainable and Responsible Forest Management and the provision of Ecosystem Services are described as ongoing activities aimed at ensuring benefits for \"future generations\". The nature of the measures, like increasing biomass, converting coppice, reforestation, and maintaining ecosystem functions, implies a long-term, continuous effort or benefits that persist over significant periods.",
+    "stakeholders": "Public authorities such as municipalities, unions of municipalities and provinces are directly involved as public forest management bodies. Municipalities and provinces are also forest owners. In Italy, is often the case that ownership rights over forests are collective: forests are often “commons”, and hence the members of collective ownership bodies have a direct stake in the management of the forest. This also holds for standard private actors such as voluntary forestry consortia and private forest owners. Companies are also involved as owners. The rich biodiversity of the territory, covered by the project, attracts many research institutions such as departments from various Italian universities and Institutes/Research Bodies (CNR, State University of Milan, Universities of Parma, Pavia, Padua, Florence, Turin, Bologna). This provides opportunities for cooperation, advice, and specific research/monitoring. The local population showed some initial mistrust towards the project fearing forest usage restrictions. This lack of confidence was eventually overcome through several meetings organised in the affected villages. These meetings successfully clarified that the project aimed at generating intergenerational value: maintaining current income while preserving a more valuable resource for future generations. Also, educational projects with local primary schools were launched to create links between communities and forests.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 44.2883385,
+    "lon": 10.1970184,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "creditisostenibilita.it",
+      "url": "https://creditisostenibilita.it/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.parcoappennino.it",
+      "url": "www.parcoappennino.it",
+      "role": "contextual_input"
+    },
+    {
+      "name": "fsc.org",
+      "url": "https://fsc.org/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pefc.org",
+      "url": "https://www.pefc.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pefc.it",
+      "url": "https://www.pefc.it/cosa-facciamo/sviluppo-standard-di-servizi-ecosistemici-di-foreste-e-piantagioni-pefc-italia",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+    "publication_date": "2025-10-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7b44db6a298e44d8b8cd0ef9ccc66ff5",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/sustainability-credits-for-promoting-sustainable-forestry-in-the-tuscan-emilian-apennines-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:32+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

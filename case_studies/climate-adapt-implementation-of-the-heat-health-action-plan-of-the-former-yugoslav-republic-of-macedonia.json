@@ -1,0 +1,186 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+  "title": "Implementation of the Heat-Health Action Plan of North Macedonia",
+  "summary": "The Heat Health Action Plan (HHAP) of North Macedonia, implemented since 2012, includes a heat health warning system, cross-government coordination, and public awareness strategies. Translating climate health impacts for policymakers, and involving stakeholders was key for its implementation. The National Heat-Health Action Plan (HHAP) of North Macedonia was developed in 2011 and approved in 2012, following the National Climate Change Health Adaptation Strategy and Action Plan. The HHAP aims to decrease morbidity and mortality connected with extreme temperatures and heatwaves.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "North Macedonia",
+        "ucode": "MKD_V1",
+        "dcid": "country/MKD",
+        "iso3": "MKD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning",
+      "label": "early warning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "health plan",
+      "label": "health plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Alert system",
+      "label": "Alert system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "North Macedonia",
+      "label": "North Macedonia"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "preparedness",
+      "label": "preparedness"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "morbidity",
+      "label": "morbidity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mortality",
+      "label": "mortality"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "hospital",
+      "infants",
+      "patient"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "older_people": 1,
+      "health_patients": 4
+    }
+  },
+  "intervention": {
+    "objectives": "The HHAP aims to reduce current and future morbidity and mortality related to extreme temperatures and heatwaves. In particular the plan, and the related warning system, focuses on the most vulnerable groups of the population: elderly, infants and children up to five years old, chronically ill persons, people who are overweight, outdoor workers and people whose socioeconomic status makes them more vulnerable to climate change effects (e.g. the homeless). The health care system in the country has an important role in developing and implementing adaptation, prevention and response measures to address the health risks related to climate change, by: Strengthening existing public health capacities for early detection and adequate response; Anticipating the consequences of emerging diseases potentially related to climate change; Raising awareness among the population about the possible links between climate change and health.",
+    "measures": "The Heat Health Action Plan (HHAP) was finalized in 2011 and adopted by the Government of Macedonia in 2012. As part of the plan implementation, a heat health warning system was put in place. The system is still active and works in the period 01 May – 30 September. Its operation involves the following bodies: a cross-government body (consisting of the Ministry of Health, the Institute of Public Health, the Institute of Occupational Medicine and other national relevant stakeholders) coordinating heatwave alert which is responsible for the activation of the related green (vigilance), yellow (alert/preparedness), orange (heatwave) and red (emergency) phases. It also coordinates with local stakeholders on measures to be implemented. a meteorological agency, which informs the Ministry of Health about an evidence of alert levels and operationally communicates the 24–48-hour heatwave warning, and a public health agency, which evaluates the effects of heatwaves in terms of defined indicators as stated in the national heatwave plan ( SCORCH, 2020 ). The warning system is part of the broader approach designed by the HHAP and it includes: Recommendations for reducing exposure to heat inside health and social institutions (and special protection plans for the most vulnerable groups of the population); A communication strategy informing citizens and people involved in the health and social sectors about protection measures to be taken during heatwaves. In particular the strategy refers to the above-mentioned recommendations; Long term planning for preparedness of the health and social care systems, including: planning and training of personnel, continuous improvement of health protection and creation of new green areas; Monitoring and evaluation of the plan: a recent survey (2020) was developed together with the Université Catholique de Louvain (Belgium). An application for Android mobile phones in order to provide heat and health warnings in a timely manner and related recommendations to the users.",
+    "outcomes": "Lessons learned during the pilot phase of the HHAP (2009-2011) pointed out that: information on climate change impacts on health needs to be translated from the scientific research domain into language and time scales relevant for policy makers availability of national data on climate changes and related impacts is very important, as well as understanding major gaps in human capacity; all relevant stakeholders need to be involved and that their information needs may vary. More broadly, according to the experience of North Macedonia HHAP, strengthening health to heat-related impacts would require: Maximizing synergies with existing instruments and institutions; Preparing health and social care sector workforce to respond to health-related consequences of climate change and strengthening of health services to address climate-related events in a timely manner; Promoting consideration of the health issues and related responses within other sectors; Building capacity in the health and social care sector workforce. In this context, the Safety and Health at Work Act (Government Gazette of the former Yugoslav Republic of Macedonia No. 92/07) was enforced to provide the implementation of measures in the national heatwave plan to protect the health of workers during a heatwave.",
+    "cost_benefit": "North Macedonia took part in a two-year (2009-2011) WHO project called “Protecting health from climate change”. This was a 7-countries initiative (Albania, Kazakhstan, Kyrgyzstan, the Russian Federation, Tajikistan, North Macedonia and Uzbekistan) funded by the International Climate Initiative of the German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety. The overall goal of the project was to strengthen capacity in understanding and responding to the health risks of climate change as well as to develop the Heat-Health Action Plan. Within the project, a WHO study in the country showed that it is possible to compare the damage costs of the increase in disease cases and deaths that were not averted to the costs of adaptation. The annualized costs of heat-health adaptation measures were estimated at 12 million local currency units (LCU) compared to health damage costs (due to the increase in disease cases and deaths) of 170 million LCU per year ( WHO, 2013 ).",
+    "timeline": "The Heat-Health Action Plan was adopted by the Government in 2011, following the successful piloting of specific heat-protection actions in summer 2010. As part of the plan implementation, a heat heath warning system was put in place and is still operational.",
+    "lifetime": "There are no plans to revise the HHAP at this time. The heat health warning system runs every year from 1 May to 30 September. It is expected to continue operating and being updated.",
+    "stakeholders": "The institution with overall responsibility for implementing the Heat-Health Action Plan is the Ministry of Health. Within the Ministry of Health, the Commission for Monitoring Heat-Health Consequences has been operational since July 2007, while the Climate Change and Health Commission was established in June 2009. Both commissions participated in the preparation of the HHAP and they cooperate in the implementation, monitoring and evaluation of the Plan. The Climate Change and Health Commission functions as coordinating body and it is responsible for the involvement of other institutions during the implementation of the activities outlined in the Plan. The Commission for Monitoring Heat-Health Consequences oversees practical implementation of the activities, especially those connected with the provision of timely information to the citizens and health workers. It is recommended that when necessary, people from other relevant institutions participate in this Commission and in the Plan implementation. To this regard, relevant institutions and other actors include: the Public Health Institute and Public Health Centres, the Occupational Health Institute, the Crisis Management Centre, the Hydro meteorological Institute, the Directorate for Protection and Rescue, the Departments for improving the living environment within the municipalities, the Ministry of Transport and Communications, the Ministry of Labour and Social Policy, the Ministry of Education and Science, the Macedonian Red Cross, the Media and, finally, the non-governmental sectors. In the current implementation phase this collaborative approach has proven to work efficiently. For instance, in order to strengthen preparedness for crisis situations and climate change related emergencies, the last simulation exercise took place on 21 th November 2018, in Kumanovo. The key involved institutions were the Ministry of Health, the Strumica General Hospital (an important regional hospital centre), the Emergency Medical Services, the Crisis Management Centre, the Red Cross, fire-rescue units, the Ministry of the Interior, the Ministry of Defence and the World Health Organisation. Prior to the simulation exercise some preparatory meetings were held to establish the parameters of the exercise such as expected casualties, trigger indicators for activating the emergency response plan, triage and patient traffic flow as well as the responsibilities of hospital and emergency medical services staff. The simulation allowed the authorities to test general preparedness.",
+    "legal_context": "The National Heat-Health Action Plan was endorsed by the North Macedonian Government in 2011. It is formally linked to the Climate Change Health Adaptation Strategy (2011)."
+  },
+  "point": {
+    "lat": 41.738528468,
+    "lon": 21.5771484366,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "iph.mk",
+      "url": "http://www.iph.mk",
+      "role": "contextual_input"
+    },
+    {
+      "name": "zdravstvo.gov.mk",
+      "url": "https://zdravstvo.gov.mk/en-GB/dokumenti/akciski-planovi",
+      "role": "contextual_input"
+    },
+    {
+      "name": "iris.who.int",
+      "url": "https://iris.who.int/items/608d8fdd-be15-460d-83b6-092ef889ef24",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+    "publication_date": "2021-03-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7dff199b250a40999fe9a6783bd075d0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementation-of-the-heat-health-action-plan-of-the-former-yugoslav-republic-of-macedonia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

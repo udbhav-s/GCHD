@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman",
+  "url": "https://www.c40.org/case-studies/sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman/",
+  "title": "Sustainable Urbanization and Resource Efficiency for the City of Amman",
+  "summary": "This C40 case study describes “Sustainable Urbanization and Resource Efficiency for the City of Amman,” an urban initiative documented for Amman. It is included because it is located in the Global South. C40 describes the action this way: SURE (Sustainable Urbanization and Resource Efficiency) is designed to promote low-carbon buildings in Amman, and eventually in other municipalities and cities in…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "amman",
+      "label": "Amman"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "SURE (Sustainable Urbanization and Resource Efficiency) is designed to promote low-carbon buildings in Amman, and eventually in other municipalities and cities in Jordan, through the application of Building Energy Codes.",
+    "measures": "SURE (Sustainable Urbanization and Resource Efficiency) is a joint project by the United Nations Development Programme (UNDP) and the Green Environment Facility (GEF). It aims to establish a systematic approach for Greater Amman Municipality (GAM) to implement benchmarked, standardized tools and methodologies for measuring and reporting climate resiliency and resource efficiency in the city’s urban development.\n These measures will be implemented with the ultimate goal of improving the quality of life for the citizens of Amman and help the city comply with the National Energy Efficiency Action Plan (NEEAP) through the support for more resource-efficient urban planning and targeted low-carbon interventions on municipal buildings and street lighting.\n What is the policy? How does it work? \n The project is composed of the following four components:\n The establishment of urban sustainability planning tools and benchmarks\n Enabling and strengthening a framework to allow for the construction of low-carbon buildings\n Creating a framework for monitoring performance-based GHG emissions\n Establish targeted proof-of-concept mitigation interventions\n What are the CO2 reduction goals? \n The UNDP-GEF project is designed to promote low-carbon buildings in Amman, and eventually in other municipalities and cities in Jordan, through the application of building energy codes. In particular, the Thermal Insulation Code will be important for guiding the future construction and retrofitting of buildings. The project will directly support the implementation of the National Energy Efficiency Action Plan 2016-2020, and the National Green Growth Plan.\n Additionally, the project will:\n Achieve long-term environmental benefits by adapting to climate variables and mitigating GHG emissions \n Enhance and develop a comprehensive database of electricity and water consumption for the city of Amman \n Enhance and develop the urban monitoring system for greenhouse gas emissions from existing and new buildings in Amman\n The project will produce co-benefits such as job creation and green economy enhancement\n Links to further information \n “ A systemic approach to sustainable urbanization and resource efficiency in Greater Amman Municipality (GAM) ” document\n GEF Information page \n SURE flyer (EN)",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman/",
+    "publication_date": "2019-12-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27460",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

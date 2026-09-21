@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-the-million-trees-project",
+  "url": "https://www.c40.org/case-studies/the-million-trees-project/",
+  "title": "The Million Trees project",
+  "summary": "This C40 case study describes “The Million Trees project,” an urban initiative documented for Moscow. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: This project seeks to increase the size of the city's green fund as a way of reducing greenhouse gas emissions and adapting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Moscow",
+      "adm0": {
+        "name": "Russian Federation",
+        "ucode": "RUS_V1",
+        "dcid": null,
+        "iso3": "RUS"
+      },
+      "adm1": {
+        "name": "Central Federal District",
+        "ucode": "RUS_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Moscow City",
+        "ucode": "RUS_0001_0010_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "moscow",
+      "label": "Moscow"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "This project seeks to increase the size of the city's green fund as a way of reducing greenhouse gas emissions and adapting to climate change.",
+    "measures": "The decision-making process takes place via a special internet platform called “Active Citizen”. The voting process has two stages. In the first stage, citizens vote on whether to landscape their courtyard, after which specialists assess the possibility of planting new trees and bushes.\n In the second stage, citizens choose specific tree and shrub species to plant. Citizens can choose from those plant species which are resistant to the impact of the urban environment. A special booklet containing greenery recommended for planting in courtyard areas was created as part of the project. The booklet is available on the official website of the Moscow Department of Natural Resource Management and Environmental Protection (in the section “Ecology” → “Green spaces of Moscow”).\n Planting is carried out through the spring and autumn seasons (the list of locations where planting is planned is posted on the official website of the Moscow Department of Natural Resource Management and Environmental Protection (in the section “Services and feedback” → “Million Trees” project).\n As part of the planting events, a large number of environmental education events are also held, such as master classes for students, and environmental holidays, aimed at educating children and teenagers about the environment, including them in caring for green spaces.",
+    "outcomes": "Since the beginning of the “Million Trees” project in Moscow:\n – 15,300 courtyard territories have been greened;\n – over 90,400 trees and 1.8 million bushes have been planted;\n – over 1.5 million citizens have taken part in the voting process;\n – over 11,000trees and 300,000bushes were planted in 2017.\n The average volume of СО2 equivalent emissions sequestration by one tree is about 20 kg. The total volume of СО2 equivalent emissions sequestration over the period from 2013 to 2017 is almost 2 million tons СО2 equivalent.\n\nAs part of continuing “Million Trees”, the Moscow Department of Natural Resource Management and Environmental Protection has already received a number of requests from Moscow social organisations for 2018. It is planned to green 281 areas connected with a social use, planting 1,500 trees and 50,000 bushes there during the spring season. There will be a voting procedure among citizens in which they will able to choose which tree and shrub species will be planted in the city’s courtyards.\n Links for further information:\n https://www.mos.ru/city/projects/mln-derevyev/\n http://www.dpioos.ru/eco/ru/million_dereviev\n http://www.dpioos.ru/eco/ru/green_planting/o_14377",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The decision-making process takes place via a special internet platform called “Active Citizen”. The voting process has two stages. In the first stage, citizens vote on whether to landscape their courtyard, after which specialists assess the possibility of planting new trees and bushes.\n In the second stage, citizens choose specific tree and shrub species to plant. Citizens can choose from those plant species which are resistant to the impact of the urban environment. A special booklet containing greenery recommended for planting in courtyard areas was created as part of the project. The booklet is available on the official website of the Moscow Department of Natural Resource Management and Environmental Protection (in the section “Ecology” → “Green spaces of Moscow”).\n Planting is carried out through the spring and autumn seasons (the list of locations where planting is planned is posted on the official website of the Moscow Department of Natural Resource Management and Environmental Protection (in the section “Services and feedback” → “Million Trees” project).\n As part of the planting events, a large number of environmental education events are also held, such as master classes for students, and environmental holidays, aimed at educating children and teenagers about the environment, including them in caring for green spaces."
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-million-trees-project/",
+    "publication_date": "2018-05-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27392",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-million-trees-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

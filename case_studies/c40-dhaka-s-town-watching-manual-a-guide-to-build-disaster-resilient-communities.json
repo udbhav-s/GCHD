@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-dhaka-s-town-watching-manual-a-guide-to-build-disaster-resilient-communities",
+  "url": "https://www.c40.org/case-studies/dhaka-s-town-watching-manual-a-guide-to-build-disaster-resilient-communities/",
+  "title": "Dhaka’s ‘Town Watching Manual’: A Guide to build Disaster Resilient Communities",
+  "summary": "This C40 case study describes “Dhaka’s ‘Town Watching Manual’: A Guide to build Disaster Resilient Communities,” an urban initiative documented for Dhaka North. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: The ‘Town Watching Manual' provides a step-by-step reference guide for city councillors to help residents understand and identify climate risk and vulnerability…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dhaka North",
+      "adm0": {
+        "name": "Bangladesh",
+        "ucode": "BGD_V1",
+        "dcid": null,
+        "iso3": "BGD"
+      },
+      "adm1": {
+        "name": "Dhaka",
+        "ucode": "BGD_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dhaka-north",
+      "label": "Dhaka North"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The ‘Town Watching Manual' provides a step-by-step reference guide for city councillors to help residents understand and identify climate risk and vulnerability in their areas and to help them planning the actions needed to minimise the negative impacts of climate change.",
+    "measures": "Dhaka City is highly prone to climate-related natural disasters, particularly those related to flooding. From past experiences, Dhaka learned how important it is for each individual, family, and community to understand risks in their locality and take actions to prepare for potential disasters so that the city and community can respond quickly and effectively when those happen.\n Since city councillors are elected officials representing their communities, citizens consider their responsibility to take initiatives towards disaster risk reduction and make the community disaster-resilient. The ’Town Watching Manual' provides a step-by-step reference guide for city councillors to help residents to understand and identify climate risk and vulnerability in their area and to help them plan and take actions to minimise the negative impacts of climate change.\n 'Town watching’ comprises of walks around neighbourhoods to identify hazards but also community resources that could be utilised to reduce disaster-related risks and improve community resilience.\n The key elements of ‘Town Watching’ are: \n Defining the current situation of the area;\n Understanding the impacts of previous disasters;\n Identifying problems and suggesting solutions;\n Identifying stakeholders, their roles and responsibilities;\n Establishing a disaster management system in the community;\n Increasing people’s participation and mobilisation in various activities;\n Strengthening neighbourhood network action and community cohesion on this issue.\n The key steps in the process are: \n Setting objectives – this could be to a) raise awareness of natural disaster risks b) promote disaster risk reduction;\n Selecting participants – 6-8 is ideal for each group, led by a facilitator who guides the participation process;\n Fixing schedule – based on information such as weather and participant availability;\n Selecting area and route – a route of maximum 1 hour within the area where the participants live;\n Inspection walk – the ward councillor should conduct an inspection walk prior to the town watching to locate checking points and finalise the route. Residents that know the area well are recommended to join in order to provide contextual information;\n Preparing necessary items – collate maps and materials e.g. pens and paper required for the town watching;\n Session before town watching – ward councillor explains to the participants the purpose of the exercise and what they should be looking for;\n Undertake town watching – to look for dangerous things/places, safe places, useful things/places, and favourite things/places;\n Map making and presentation – participants map and discuss the findings;\n Action planning – to translate findings into action, including what the participants can do as individuals and what the community and city can do to help.\n What is the innovation? \n The ‘Town Watching’ manual defines a community-based approach and specifies in a simple and structured way the processes needed to engage the communities to proactively deliver disaster risk reduction.\n Next Steps: \n The guide will be rolled out to all councillors across the city to support them in developing risk and vulnerability assessments and disaster management plans for each area. The combined information will assist in the development of the overarching disaster management plan for the city.\n Contact Details: \n Dr. Engr. Tariq Bin Yousuf\n Superintending ENgineer, Environment\n Climate Change and Disaster Management Circle\n Dhaka North City Corporation\n Gulshan Centre Point, Plot 23-26 Road-46, 90\n Gulshan -2, Dhaka -1212\n Bangladesh\n Tel. +880-2-9858592\n Email: tariqbinyousuf@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dhaka-s-town-watching-manual-a-guide-to-build-disaster-resilient-communities/",
+    "publication_date": "2018-10-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27411",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=dhaka-s-town-watching-manual-a-guide-to-build-disaster-resilient-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

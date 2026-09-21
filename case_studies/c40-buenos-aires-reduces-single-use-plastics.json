@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-buenos-aires-reduces-single-use-plastics",
+  "url": "https://www.c40.org/case-studies/buenos-aires-reduces-single-use-plastics/",
+  "title": "Buenos Aires Reduces Single-Use Plastics",
+  "summary": "This C40 case study describes “Buenos Aires Reduces Single-Use Plastics,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Buenos Aires has introduced a ban on single-use plastics.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Buenos Aires has introduced a ban on single-use plastics.",
+    "measures": "The City of Buenos Aires has launched a series of measures to combat plastic pollution. The measures include: \n1) Banning disposable plastic bags in supermarkets, supermarkets and hypermarkets as of January 1, 2017. \n2) Progressively banning disposable plastic straws as starting from May 23, 2019 in restaurants, dance halls, kiosks, 4- and 5- star hotels, shopping centers and related businesses. \n3) Promoting reusable bottles over plastic bottles through the Recharge Your Bottle Program. It encourages bars, restaurants and the like to offer tap water to their community.\n What is the policy? \n The prohibitions of the plastic bag in 2017 and the single-use plastic straws in 2019 were decided by the Autonomous Government of the City of Buenos Aires, through its Ministry of Environment and Public Space in the fight against plastic pollution and in the challenge to reduce the generation of waste. These measure have been implemented through Resolution 341 / APrA / 2016, Law 3147 and Resolution No. 816 / GCBAMAYEPGC / 2019 under Law No. 1854 of Zero Waste . Beyond the political commitment of the government of Buenos Aires, many sectors of public life, such as local and international lNGOs, demanded these actions. This was manifested in citizen initiatives and commitments such as “Better without the straw”, to which several businesses have originally adhered voluntarily.\n The new laws surrounding the use of plastic straws led to a reduced generation of 77 tons of waste per year of material that does not have a recycling market. This material can also easily escape waste management systems, reach the river and consequently damage flora and aquatic fauna. Only 5% of discarded bags are effectively recycled, while in the case of plastic straws that share drops to zero. This political action also led to 1 billion less bags in circulation between 2017 and 2018, equivalent to 2,750 tons per year. \n GHG emissions reduction: This project is part of the City of Buenos Aires strategy of integral waste management, with a focus on reducing the generation of waste and reducing the amount of material disposed in landfill, reflected in Law No. 1854/05 of “Integral Management of Urban Solid Waste”. This project aims to reduce the use of single-use plastics, which has the potential to reduce GHG emissions. The potential for reducing total GHG emissions from this project is 6,518.6 tons of CO2eq per year when considering the reduction in the manufacture of plastic straws and plastic bags by this measure.\n Climate Resilience : In 2017, the Ministry of Environment and Public Space of the Government of the City of Buenos Aires removed a total of 14 tons of plastic bags from rainwater pipes, which block the pipes and increase the risk of flooding in the city. Through this measure, the disposal of plastic waste in storm drains of the city should be avoided, thus reducing the risk of flooding.\n Next Steps \n In the future, the aim is to set-up an even more ambitious standard that allows the prohibition to be extended to other single-use plastics.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-reduces-single-use-plastics/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27478",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-reduces-single-use-plastics&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

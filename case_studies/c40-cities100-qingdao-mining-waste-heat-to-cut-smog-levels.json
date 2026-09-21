@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-qingdao-mining-waste-heat-to-cut-smog-levels",
+  "url": "https://www.c40.org/case-studies/cities100-qingdao-mining-waste-heat-to-cut-smog-levels/",
+  "title": "Cities100: Qingdao – Mining Waste Heat to Cut Smog Levels",
+  "summary": "This C40 case study describes “Cities100: Qingdao – Mining Waste Heat to Cut Smog Levels,” an urban initiative documented for Qingdao. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Qingdao is utilizing waste heat sources to reduce reliance on coal and cut air pollution. Together with ambitious energy efficiency…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Qingdao",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shandong Sheng",
+        "ucode": "CHN_0023_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qingdao",
+        "ucode": "CHN_0023_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "qingdao",
+      "label": "Qingdao"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Qingdao's challenge of moving from a coal-based energy strategy to a more sustainable one mirrors the challenge many other Chinese cities face. Making use of waste heat from existing sources and investing in energy efficiency will help to reduce reliance on coal and bring down dangerous air pollution levels.",
+    "measures": "Around 12 million people live in the coastal Chinese city of Qingdao, which has suffered from high pollution levels, like many other coal-powered cities in China. To combat this and drive investment in green growth, the city is pursuing energy efficiency and clean energy innovations on an enormous scale. Regulations covering energy efficiency standards in buildings, heating energy consumption limits, and financial incentives have all been put in place to help the city on its low-carbon transition. More than $550 million has been invested in renewable energy systems and building retrofits since 2012, more than half of which came from public funds. Combining energy efficiency with renewable investment is not a ground-breaking strategy for reducing emissions, but when it comes to heating, the city is pursuing a truly innovative approach. Qingdao is investing $3.5 billion in a clean district heating network covering 180 km2 that will make use of air, ground, and waste-source heat pumps. Waste heat from industry and the sewage system is being mined in order to reduce the requirement for polluting coal power plants.\n Environmental Benefits – By implementing a clean heating network for the city, Qingdao aims to cut coal consumption by more than three million tons annually and reduce carbon dioxide emissions by around eight million tons per year.\n Social Benefits – Qingdao is pursuing green growth, and with the large public investment in clean energy has come new business investment and an estimated 10 million jobs to the region.\n Economic Benefits – Implementing retrofits to old, inefficient buildings alone is estimated to save the city around $6 million a year.\n Health Benefits – The use of clean energy is reducing winter smog levels, creating a more livable city for its 12 million inhabitants. In 2016, the number of 'good quality air' days rose to 299, up 17 from 2015.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-qingdao-mining-waste-heat-to-cut-smog-levels/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27325",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-qingdao-mining-waste-heat-to-cut-smog-levels&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

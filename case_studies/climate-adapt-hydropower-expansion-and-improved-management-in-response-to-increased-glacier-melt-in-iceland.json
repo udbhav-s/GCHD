@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+  "title": "Hydropower expansion and improved management in response to increased glacier melt in Iceland",
+  "summary": "Landsvirkjun, the national power company of Iceland, bases its reservoir management strategies on hydrological modelling of future changes of water flows induced by climate change. This is leading to increased reservoir capacity installations that can also ensure buffer capacity against extreme flooding. Iceland has 100% renewable electricity and heat system due to its abundant hydro- and geothermal resources. Despite the clear dominance of geothermal resources for house heating, hydropower plays an important role in Iceland’s energy mix, enabling Iceland’s electricity generation to be 100% renewable with 73% coming from hydro; 27% from geothermal and less than 0.01% from wind.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Iceland",
+        "ucode": "ISL_V1",
+        "dcid": "country/ISL",
+        "iso3": "ISL"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Asset expansion",
+      "label": "Asset expansion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "reservoir management",
+      "label": "reservoir management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "glacier melt",
+      "label": "glacier melt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "asset redesign",
+      "label": "asset redesign"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hydropower",
+      "label": "hydropower"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The warming of the atmosphere under climate change causes accelerated glacier melting, which results in increased water flow at hydropower stations. The first objective of Landsvirkjun (the National Power Company) is to improve projections of water flow under climate change. Better projections facilitate adaptation measures that minimize unnecessary water spills through the spillways. These measures includes modification of reservoir-management plans, installation of additional infrastructure, and/or the re-design of existing infrastructure to manage increased runoff. A co-benefit is increased flood protection, as the reservoirs can function as extra buffer capacity in the case of extreme flooding.",
+    "measures": "In collaborative research with other Nordic governments and research agencies as part of the group Norden, Landsvirkjun uses hydrological modelling to project future water flow, taking climate change impacts into consideration. Projections on future river flow were improved through use of observed temperature and precipitation data, and glacier area-volume-elevation curves were adjusted according to trends from climate model simulations. This information was then fed into a hydrological model to produce corrected flows that account for climate change. Landsvirkjun incorporated corrected flows into its reservoir management strategies. The organisation updates the flow series, and following that its reservoir management, every five years to reflect changing climate conditions. For new design and the refurbishing of older plants, Landsvirkjun uses as a design specification that considers future flows within 15 years and beyond. The corrected flow series of Landsvirkjun use data from IPPC as well as specific results for Iceland, such as the expected seasonal distribution of changes in temperature and precipitation. The flow series is further calibrated annually based on monitoring results. These findings are used for adjusting reservoir management and for assessing possible redesigns and upgrades of current power stations as well as proposals for future projects. In essence, the management and design of existing and planned assets is adjusted to take advantage of increased glacier flows, based on improved data on current and future flows. These measures result in an increased production of renewable energy in Iceland, because of reduced losses of water resources through spillways. The Búrfell Hydropower Plant provides an example where improved water flow data made an expansion economically feasible: the power plant capacity was increased from 70MW to 100MW. Landsvirkjun decided to build a new hydropower plant, which extends the original power plant and reduces its load. The new Búrfell extension was built underground for economical and sustainability reasons; it is operational since June 2018. The Búðarháls Hydropower Plant is a new project commissioned in 2014. The capacity of that plant was increased from the originally planned 80 MW to 95 MW in response to climate change. The Hvammur Hydropower Project is a future project, where capacity has also been increased based on the corrected flows, from 82 MW to 95 MW. The Hvammur project has been approved by the Icelandic Parliament under the “Master Plan for Nature Protection and Energy Utilization” (see the section on legal aspects), but a decision to start construction has not been taken.",
+    "outcomes": "Success factors: Collaboration with other power companies, universities and institutions facilitated and boosted the credibility of adaptation efforts; this was mainly done through the Norden consortium. The Executive Board of Landsvirkjun is involved in the adaptation process A step-by-step approach to climate change adaptation: every five years, past trends and projections of precipitation and temperature are reviewed, while a yearly calibration of models is performed based on monitoring results, in order to adjust current management and investment taken by Landvirkjun. Given the uncertainty in climate projections, Landsvirkjun maintains alternate plans that can be implemented should the selected scenario prove to be inaccurate. Such alternate plans include having curtailing agreements with major consumers, where a proportion of contracted annual energy sales can be curtailed, in addition to having plans ready for the construction of new renewable hydropower, geothermal and wind power projects. Limiting factor: The increased water flow is expected to be temporary. The ice-melting flows are projected to reach a plateau by 2030 and to stay constant afterwards up to 2080. By 2080, the volume of the glaciers will have decreased so much that the flows will start reducing. This long-term phenomenon has little effects on current decisions, which have a decision horizon of 50 years. Once flows have returned back to the levels of 1990’s, i.e. before the Icelandic glaciers started losing mass, the existing hydropower plants may have somewhat higher capacity than needed.",
+    "cost_benefit": "Costs: The cost of investing in research projects as part of a Scandinavian collaborative initiative (Norden) was moderate, about 1 million Euros. The cost of modifying the reservoir management plans is moderate and is reflected as internal cost, such as adding 2-3 staff members. The cost of modifying the design of planned assets (in most cases, the capacity of hydropower projects is increased) is high, in the order of tens of millions of Euros. Main benefits: The improved hydrological modelling has yielded valuable information for decision-making regarding future investment on hydropower plants. The increased generating capacity of 10% to date responding to increased water flows due to current and project climate change is increasing annual revenues. Increased reservoir capacity installations can ensure buffer capacity against extreme flooding, thereby leading to increased flood protection. The most extreme flood events in Iceland are glacial outburst floods due to volcanic eruptions. Glacier outburst floods are more common in Iceland than elsewhere in the world because of the interaction of volcanoes with glaciers.",
+    "timeline": "It took four years (2006 to 2010) for the Landsvirkjun company to use corrected flow series in the decision-making on reservoir management and investment decisions on future assets. The installation of extra capacity in the Búrfell power station took just over two years from the start of construction (2016).",
+    "lifetime": "The assessment on expected glacier melt and hence water volume for the hydropower generation is made every five years and calibrated by monitoring results on a yearly basis. As a result, investment and management decisions are taken based on an updated assessment, taking into account historical measurements and future projections. This strategy has a time horizon of 50 years, because return on investment for hydropower projects is calculated over a period of 50 years, and runoff projections from glaciers can be done over such a period with sufficient confidence.",
+    "stakeholders": "The company collaborated with Norden to identify and analyse the impacts of climate change on renewable energy systems. Norden is a regional collaborative initiative, involving governments and research agencies from Denmark, Finland, Iceland, Norway, Sweden, Faroe Islands, Greenland, and Åland. The programme is funded by the Nordic Council of Ministers In this collaborative research, observed temperature and precipitation data, as well as glacier area-volume-elevation curves, were adjusted according to climate model trends. Historical data on glacier melt and projected increase in runoff and the resulting volume of water were obtained. This exchange of knowledge and research among Scandinavian countries ensured a well-developed evidence base that is reviewed by a research consortium and as such disseminated in the wider community. Public consultation has been included in the design of expansion of current hydropower sites through the environmental impact assessment procedure, as is guaranteed by Law. Acceptance has also been sought by applying the Hydropower Sustainability Assessment Protocol (HSAP) for the Hvammur Hydropower Project and for the operation of the Blanda Hydropower Plant. The latter received the Blue Planet Prize from IHA in 2017.",
+    "legal_context": "The “ Master Plan for Nature Protection and Energy Utilization ” is a tool to reconcile the competing interests of nature conservation and energy production on a national scale and at the earliest planning stages. However, the climate adaptation aspect is not considered in these planning stages, and it is also not included as part of the environmental impact assessment procedure. Important aspect to consider is in Iceland hydropower is delivering 73% of its share of renewable energy and as such is an important contribution to Iceland’s energy mix."
+  },
+  "point": {
+    "lat": 64.7178799268,
+    "lon": -18.6987304688,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "landsvirkjun.com",
+      "url": "https://www.landsvirkjun.com/powerstations",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "f6fd0b3bba614a12a7e1377cf03ee06d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/hydropower-expansion-and-improved-management-in-response-to-increased-glacier-melt-in-iceland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:51+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

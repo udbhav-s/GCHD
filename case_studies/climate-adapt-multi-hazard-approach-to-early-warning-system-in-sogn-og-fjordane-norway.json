@@ -1,0 +1,213 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+  "title": "Multi-Hazard approach to early warning system in Sogn og Fjordane, Norway",
+  "summary": "The Sogn og Fjordane county in Norway tested a cost-effective multi-hazard early warning system, utilizing mobile phones and social media. While the demonstration project successfully distributed alerts, the warning system has not been implemented by national or subnational authorities, due to budget constraints and legislative barriers. The county of Sogn og Fjordane frequently experiences avalanches and landslides, storm surges and flooding. Due to climate change and related impacts on extreme weather events above hazards are expected to be exacerbated; more extensive adaptation strategies and measures are therefore needed.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": "country/NOR",
+        "iso3": "NOR"
+      },
+      "adm1": {
+        "name": "Vestlandet",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Vestlandet_NO_",
+        "source_name": "Vestlandet (NO)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "disaster management",
+      "label": "disaster management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "crisis management",
+      "label": "crisis management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "emergency response",
+      "label": "emergency response"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "population-based",
+      "label": "population-based"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "first response",
+      "label": "first response"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "avalanche",
+      "label": "avalanche"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rock slide",
+      "label": "rock slide"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mobile phone",
+      "label": "mobile phone"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "evacuation",
+      "label": "evacuation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "location-based",
+      "label": "location-based"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Cell phone",
+      "label": "Cell phone"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Multi-hazard early warning systems utilise various media and communication tools to inform the public about impending hazards and provide guidance on the precautions to take. They can operate at a regional, national and international level and can contribute significantly to reducing the risks of personal injury, loss of life, and damage to property and the environment. Early warnings also enable local/regional authorities to initiate evacuations more efficiently. By demonstrating a people-centred early warning system, the aim was to establish how modern technology can help reduce the negative consequences of weather related hazards in current and climate changed conditions, thus also helping to prevent the loss of lives. A key aspect of the project has thus been to assess how a multi­hazard warning system can be established within a framework that considers the warning needs of different types of undesirable events and hazards.",
+    "measures": "The overall aim of this project (part of the EU funded Clim-ATIC project) was to set, test and demonstrate a modern emergency population warning system by disseminating phone-based warning messages in a specified geographic area. As far as possible and appropriate, the system is based on already available modern technology and infrastructure, and anchored to existing legislative and institutional frameworks. In order to establish a cost-effective and sustainable early warning system, multi-hazard approach is a prerequisite, to share the costs among different scopes. The system and operational activities must therefore be established within a framework that considers the warning needs of all undesirable events and hazards (natural and man-made) and the requirements of various end-users. Four reference group meetings were held between 2008 and 2010 to set objectives and discuss the best methods and approaches to be used in the early warning system, including setting system specifications for the trial message. The telephone was recognised to be the most important medium for distributing warnings (a combination of fixed and mobile phone lines). Text messages (SMS) and spoken messages alerting the public to a natural hazard or disaster are distributed to all phones within a certain distance from the natural hazard or disaster in question. Having defined the criteria for the phone-based population warning system, the next step was identifying potential system suppliers and forwarding the system criteria for feedback as regards their interest and ability to comply with the criteria and take part in the project. After the presentation of the two potential companies, the reference group concluded that technological aspects did not seem to represent a major challenge in respect to the population warning exercise, whereas budgetary restrictions were identified as key challenges to be overcome. Before carrying out the population warning exercise, several dissemination activities were undertaken by the County Governor’s s Office. Information about the exercise was published on the County Governor’s website, Twitter profile and Facebook account, as well as being promoted through the local newspaper and the county-wide district radio station. The warning exercise on the 10 June 2010 was held in parallel with a table-top exercise focusing on local authorities’ ability to respond to extreme weather events. Several of the reference group members attended the exercise as observers. During the test, 2,500 mobile phones received the alert as text message, 322 fixed line phones in Aurland received the alert as voice message. The warning exercise was visible on Facebook for 2 hours and received 201,849 viewings. A post-exercise survey was carried out online and a door-to-door survey was conducted in the area of Høydalen to assess the public’s thoughts on the exercise. The population warning exercise was evaluated to measure the efficiency of the warning system by combining an electronic evaluation form and a door-to-door survey. Following the demonstration project, the warning system has not been implemented yet; neither locally nor on a national level. In recent years, the county of Sogn og Fjordane has seen numerous cases of extreme weather events such as severe land slides and flooding, in parallel with large-scale and highly dramatic fire incidents. No one has been killed in these events, but they all served as a reminder; underlining the need for a population-centered warning system with a multi-hazard approach. Hence, the County Governor of Sogn og Fjordane has argued that such a system ought to be implemented. However, no activities has followed and it is not clear if national authorities will prioritize the implementation of a warning system. In case national authorities decide against the full-scale implementation of a multi-hazard warning system, the project reference group aims to follow up the Clim-ATIC project at regional level; primarily in the county of Sogn og Fjordane. In this respect, the work will be closely developed with local / regional authorities, the health sector and relevant governmental agencies in order to assess and implement a warning system at regional level.",
+    "outcomes": "In order to establish a cost-effective early warning system, multi-hazard approaches are a prerequisite, as the costs of using and maintaining the system will be shared. A location-based warning system can also represent an integrated tool for disseminating purely informative messages, such as general public information or various messages from local authorities. Hence, this project demonstrated how an existing county-encompassing organization could be used to issue the population warning. As this organization is closely coordinated with the police whilst being an inter-municipal organization, it is thus suited for the issuing of both non-emergency and emergency warnings with a multi-hazard approach. We have argued that the technical aspects of people-centred warning systems are at large readily available, whereas issues concerning confidentiality legislation and system regulations must be addressed before successfully implementing efficient location-based warning systems. As we have demonstrated, publishing advertisements using social media is also subject to regulations. Actually, there are legislative barriers in terms of confidentiality rules that prevent geographic data collected by telemobile companies from being shared publicly. However, this information could be crucial for fast deployment of emergency services and therefore needs to be changed. In order to issue warnings which are “timely and understandable to those at risk”, we believe more research needs to be carried out on the opportunities and restrictions connected with the use of social media during crisis situations.",
+    "cost_benefit": "The early-warning system was developed and tested with Clim-ATIC; this is an EU-project (2008-2011) which dealt with communities’ ability to develop adaptation capacities to face a future climate, where the frequency and scale of extreme weather is believed to increase. Clim-ATIC WP4 related to the implementation of adaptation demonstration projects, and one of these WP4-projects was located in the County of Sogn og Fjordane. The resources needed for this demonstration project are in the form of staff time costs (95,191 Euro) and office overhead costs (up to 9,943 Euro) for the County Governor of Sogn og Fjordane. The total project cost was 105,145.00 Euro. 55,377.00 Euros were provided as a match funding commitment by the County Governor of Sogn og Fjordane and the remaining 49,768.00 Euro by Northern Periphery Programme (NPP), which is part of the European Commission’s Territorial Cooperation Objective. Furthermore, the project demonstrated that modern warning system technology can be combined with existing infrastructure and organizational patterns to enable local authorities to issue population warnings in a cost-effective and sustainable way. The existing inter-municipal emergency operations center, Alarmsentralen, is a county-encompassing monitoring and warning service that is already manned around the clock by highly qualified staff. Embedding a population warning system in this organization will incur little cost, training or resources. Moreover, as climate change is generally expected to lead to more frequent natural disasters and extreme weather frequency in years to come, an early warning system will therefore constitute an important part of local communities' climate change adaptation strategies, being this the major expected benefit.",
+    "timeline": "The demonstration project was realised in 2008 - 2011. There is the possibility, still not evident at the moment, that the early warning system will be operationally implemented in the future, through either national or regional administrations.",
+    "lifetime": "There is not a defined lifetime for early warning systems as long as these are updated and maintained operational.",
+    "stakeholders": "The project reference group was established in August 2008 and was consulted 4 times between 2008 and 2010. It was consisted of members from the following organizations: The County Governor of Sogn og Fjordane – PROJECT MANAGER (The state’s representative on regional level, being responsible for coordinating emergency planning within the county); The Western Norway Research Institute - Clim-ATIC regional lead partner (Assignment-based research institute with competence within the field of climate research); The Norwegian Energy Resources and Water Directorate (The Directorate’s mandate includes contingency planning for floods; its Sogn og Fjordane office also being the national authority on avalanches); The National Public Roads Administration (Responsible for state roads; having a special interest in population warnings related to closed tunnels and mountain crossings due to bad weather/accidents); Telenor (Norwegian Telecommunications Company, currently the sixth largest mobile phone operator in the world); The Norwegian Post and Telecommunications Authority (Autonomous administrative agency under the Norwegian Ministry of Transport and Communications, with monitoring and regulatory responsibilities for telecommunications markets in Norway); The Norwegian Broadcasting (in Sogn og Fjordane) (The Norwegian government-owned radio and television public broadcasting company, being the largest media organization in Norway); E-CO Hydro Power (Norwegian power company and the second largest producer of electricity in Norway. Special interest in population warnings related to dam-breaks causing floods, tsunamis); The Norwegian Police, Sogn og Fjordane District (The police is part of the Norwegian rescue service and is responsible for leading rescue work during accidents and disasters; including extreme weather events); Alarmsentralen (”The Alarm Central in Sogn og Fjordane”) (Inter-municipal operations centre which facilitates and coordinates inter-municipal fire-fighting operations in the county); The Directorate for Civil Protection and Emergency Planning (Maintains an overview of risk and vulnerability in Norway, and promotes measures to prevent accidents, crises and other undesirable incidents); The Norwegian Civil Defence (The State’s reinforcement for emergency and rescue departments in the event of major accidents and special incidents); Aurland Municipality (Municipality in Sogn og Fjordane; having previously experienced extreme weather events and avalanches, rockslides etc. Aurland is also where the project warning exercise was held); Unified Messaging Systems (UMS) (The leading supplier of advanced message handling in Northern Europe, offering services for alerting the population in case of critical incidents); Sogn og Fjordane University College (Joined the reference group in 2009 to assist in evaluating the early warning exercise, but unfortunately had to withdraw its membership due to a lack of internal resources); Førde Health Trust (Health enterprise responsible for performing geographic and specialist activities on behalf of Western Norway Regional Health Authority). As our angle of approach was to demonstrate a system with a multi-hazard approach, the project reference group played a key role in defining a system specification that enabled efficient and reliable issuing of multi-hazard warnings.",
+    "legal_context": "The “emergency population warning system” project is mentioned in a proposition report by the National Defence Committee (see appendix 3 of the document available), which discussed the need for a modern system for population warning. Furthermore, the majority of the committee stated that efficient population warning by the use of modern technology constitutes an important lifesaving and damage preventive tool, which Norway must aim to implement. In the National Vulnerability and Emergency Planning Report for 2010 (see appendix 4 of the document available), the Directorate for Civil Protection and Emergency Planning also addresses the need for establishing a more modern population warning system."
+  },
+  "point": {
+    "lat": 60.9010599944,
+    "lon": 7.18368530245,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+    "publication_date": "2014-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "69738f15bd05438f8c961486932af883",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/multi-hazard-approach-to-early-warning-system-in-sogn-og-fjordane-norway",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:47+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

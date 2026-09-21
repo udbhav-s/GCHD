@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-curitiba-friends-of-the-river",
+  "url": "https://www.c40.org/case-studies/curitiba-friends-of-the-river/",
+  "title": "Curitiba’s ‘Friends of the River’ Campaign to Reduce Water Shortage Risks and Promote Environmental Awareness",
+  "summary": "This C40 case study describes “Curitiba’s ‘Friends of the River’ Campaign to Reduce Water Shortage Risks and Promote Environmental Awareness,” an urban initiative documented for Curitiba. It is included because it addresses meteorological drought hazards, and it is located in the Global South. C40 describes the action this way: Curitiba has initiated the “Friends of the River” campaign, which will combine major civil works with community engagement to ensure the long-lasting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Curitiba",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Paraná",
+        "ucode": "BRA_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Curitiba",
+        "ucode": "BRA_0016_0133_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "curitiba",
+      "label": "Curitiba"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Curitiba has initiated the “Friends of the River” campaign, which will combine major civil works with community engagement to ensure the long-lasting benefits of this river clean-up",
+    "measures": "Curitiba's “Amigo dos Rios” programme proposes an integrated methodology to depollute the city's rivers. Together with several partners, the initiative introduces a new paradigm on how to manage water resources in an urban environment.\n Appropriately redirecting sewage for treatment is a challenge, not only because of the population's unawareness of its importance, but also because the city must create a bold framework that efficiently identifies and correct issues of existing systems.\n Focusing the work of the project to one sub-basin at a time, the project considers each region’s specificities and needs to direct actions and investments seeking the preservation of water springs and supply.\n Besides major civil works involving drainage, containment, profiling, and the dredging of rivers and lakes, the plan highlights the importance of local public committees to inspect the project's progress and continuity.\n Regarding the sewage collection system, the programme encapsulates the implementation and remodelling of treatment plants, the inspections of properties' connections to the system, marketing campaigns, the usage of low impact development technologies and the creation of a system to manage water resources, among others.\n What is the innovation? How does it work? \n This work is directed in sub-basins, with big collective actions that gather all teams in one place. All rivers in Curitiba flow from north to south, so the project will start from the north side of the city and will work its way down to its southern edge. This is a collective work, composed from many secretariats, state bodies and federal bodies.\n Since the beginning of the programme, 76% of the 449,699 connections (property of the sewage network) in Curitiba have been inspected. From this sample, 90,374 were considered irregular for disposing waste directly into rivers or rainwater tunnels.\n The programme's main goal is to reduce water shortage risks, especially with the preservation of water springs that supply the city. For that, it sets its priorities as thus: water quality improvement, citizenship education, industrial and residential residues and effluents' control, as well as proper treatment for those. Also, the “Amigos dos Rios” promotes recuperation and arborization of permanent preservation areas.\n Thanks to this programme, the risk of mosquito-born diseases has gone down. There has also been an improvement on the quality of life for citizens who live by the river’s edge, thanks to to the improvements done on the urban environment and the beautification of the area. For these communities, the clean river may also prove itself as a source of local pride.\n The preservation of rivers and water basins, including the promotion of awareness and clean-up campaigns, maintains the quality of the natural resources that the city can benefit from. Thanks to this project, the city is able to implement sustainable development as a policy and maintain its economic prosperity.\n Next Steps \n This project can inspire other cities by showing the example that large-scale projects on water management are possible in times of economic crisis. It also shows that such structural reforms on the city’s natural resources policies can be possible with, above all, political will.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/curitiba-friends-of-the-river/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27487",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=curitiba-friends-of-the-river&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

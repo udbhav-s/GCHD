@@ -1,0 +1,208 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-implementation-of-the-integrated-master-plan-for-coastal-safety-in-flanders",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-integrated-master-plan-for-coastal-safety-in-flanders",
+  "title": "Implementation of the integrated Master Plan for Coastal Safety in Flanders",
+  "summary": "In 2011, the Flemish Government adopted an Integrated Master Plan for Coastal Safety to address storm and sea-level rise risks. The plan includes both green and grey measures, and has been supported by wide communication efforts. Evaluations show good safety improvement results. The Flemish coast is intensively used by many actors, embracing coastal towns, commercial ports connected to industrial areas, leisure marinas and touristic activities. It is exposed to flooding due to storm events and sea level rise.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Prov. West-Vlaanderen",
+        "ucode": "BEL_0003_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Prov__West_Vlaanderen__BE",
+        "source_name": "Prov. West-Vlaanderen (BE)"
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal erosion",
+      "label": "coastal erosion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "harbour improvement",
+      "label": "harbour improvement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "storm events",
+      "label": "storm events"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Master Plan",
+      "label": "Master Plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ostend",
+      "label": "Ostend"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal safety",
+      "label": "coastal safety"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Flanders",
+      "label": "Flanders"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Beach nourishment",
+      "label": "Beach nourishment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "storm surge",
+      "label": "storm surge"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the Master Plan for Coastal Safety, approved in 2011, is to improve defences of the Flemish coastline from the effects of storms (up to 1,000 years of return period) and sea level rise (+30 cm) by 2050. Longer term objectives, considering the new challenges posed by climate change and updated projections of sea level rise, are now considered within the project “Kustvisie”. It was launched in 2017 and aimed at protecting the coast after 2050. The measures are planned considering the dynamic nature of the coast, with an overall view aiming for the sustainable development of coastal area. Environmental, economic, social, cultural and recreational objectives are included in the plan to find a balance among all components and with societal participation and stakeholders’ involvement.",
+    "measures": "In March 2007, the Coastal Division initiated an Integrated Master Plan for Coastal Safety (Masterplan Kustveiligheid) to protect Flanders against extreme flooding events in the present and in the future (2050). Extreme flooding events were defined as those associated with storms with a 1:1,000 years return period. The Master Plan aims to ensure the same level of protection under current conditions and in the case of a +30 cm sea level rise by 2050. Before the Master Plan was finalised, an emergency plan for the execution of most critical works was in place between 2004 and 2010. This made it possible to resolve most pressing problems and cover short-term risks. Those risks were mapped by a study that was part of the Master Plan elaboration. In particular, implemented emergency measures have provided protection against storms with 1:100 years return period as a minimum along the entire coastline. The Flemish government approved the Master Plan for Coastal Safety on the 10 th of June 2011, after it was approved by the ten Flemish coastal cities and coastal communities. Works started in 2011. The ambition is to protect the most critical areas as soon as possible. The website Kustveiligheid (Coastal Safety) provides information on specific measures planned in each coastal community as well as the relative work progress. The Master Plan includes both green and grey measures. Green measures consist of beach and dune nourishment. The permit granted by the Federal Government, after environmental impact assessment, enables to extract about 20 million cubic meters of sand – taken from the Belgian part of the North Sea – over a period of 10 years, thus fully supporting beach and dune nourishment. Beaches and dunes are monitored every year to adapt their management accordingly. Beach nourishment efficacy is periodically assessed using a 6-year plan to respond to still occurring erosion and cope with future sea level rise. The volumes needed for maintenance are estimated around 500.000 cubic meters per year. During the period 2011-2018, scheduled beach nourishments and repairs from heavy storm damage (e.g. after the “Sinterklaas” storm in 2013 or the “Dieter” storm in 2017) were completed in the risk areas identified in the Master Plan. Other smaller nourishment interventions were completed in other locations to strengthen the whole coastal area. Moreover, foreshore replenishment was carried out in October 2017 at Nieuwpoort. This foreshore nourishment aims to ensure the stabilization and growth of a bland intertidal beach (wet beach). This serves as a nature compensation intervention for works performed in and around the port of Ostend. On the other hand, it reinforces interventions performed in the neighbouring beach sections, delaying the erosion of the beach. Sand replenishment or hydraulic-filling is performed as much as possible in an environmental friendly manner, to minimise possible disturbance to the coastal ecosystem. A monitoring programme was put in action for larger projects to assess the environmental impact immediately after the completion of the works and following the evolution of the environmental recovery with the time. Grey measures (such as renovation of sea-dike and storm walls) have been implemented in areas where beach nourishment could not meet the desired safety standards. These protection measures have been designed to minimise their height and optimise their spatial integration, enhancing recreational opportunities. In Ostend, the reinforcement and renovation of Albert I promenade, with a mobile storm surge barrier was completed in 2012. The promenade was connected to the completed renovated Zeeheldenplein (sea heroes square). This is a “wave-damping” square that protects the city and offers, as an example of attractive architecture, recreational opportunities. The intervention is part of a wider plan to protect the city area at risk of flooding. This includes regular beach nourishment and the creation of a new large beach protected by a dam built perpendicular to the coastline. Storm walls on renovated dikes were built at Wenduine (2015) as well as in the Marina of Blankenberge (completed in 2019), combined with a complete renewal of the two areas. The works for the extension of the dike protecting Zwin, the best known nature reserve of Flemish and Dutch coast, started in 2016 were completed as an important part of the large-scale works to preserve this reserve. In 2018, the construction of a rotating storm surge steel barrier in the harbour channel of Nieuwpoort begun, to protect the city and the hinterland against high water levels during heavy storms. The work will take more than three years. In 2019, several studies were executed to design the necessary measures against storms in Zeebrugge, Mariakerke-Raversijde (Oostende) and Oostende (connection to Zeeheldenplein). These projects are planned to start-up in 2020. Considering the dynamic evolution of the Flemish sandy coast, a comprehensive evaluation of the implemented measures is performed every six years to ensure that all the coastal sections, identified in the Master Plan, meet the following safety standards: At the storm peak, the seawater flow rate that can run over the security line must not exceed 1 l/m/s, ensuring that the stability of adjacent buildings is not endangered. Eventual erosion of the dunes during the storm must not extend to the first residential area. The volume of the remaining dunes after the storm impact must be sufficient to avoid a breach in the dunes’ belt. The lining of the sea dike should remain stable during a storm to avoid a breach. Coastal erosion and the effects of emerging storms are closely followed through plane flying over the beach (twice a year) and dune areas (once every three years). Using LiDAR technology (Light Detection And Ranging), height maps of the beaches and dunes are created, allowing control of coastal erosion and plan management interventions. The second assessment was completed in 2017. It revealed that the level of protection has sharply risen in the areas where all planned measures have been implemented. In some other locations, where measures are not yet or not fully implemented or require constant nourishment, safety levels are not fully achieved. The next step towards coastal safety is the safety assessment of the existing harbour infrastructures like locks and gates to a 1,000 years storm event (corresponding to a probability of occurrence of such a storm of 0.1% in a year).",
+    "outcomes": "The Master Plan clearly identifies most critical areas of the coastal system, enabling optimisation of the use of resources and focusing on real priorities. Other success factors are: the adoption of an integrated approach, based on the integration of green (beach and dune nourishment) and grey (storm return walls, broadening of seawalls with stilling wave basin, storm surge barrier) protection measures; the combination of protection measures with urban requalification interventions, such as in the case of the city of Ostend, where coastal protection was integrated with the harbour improvement, the renovation of the seaside promenade and the construction of underground parking; the adoption of a dual temporal vision, including both the short term view that aimed to improve the protection of areas currently at risk and a long-term view (2050) aimed at providing the desired level of protection even in the future. In this regard, the Coastal Vision project will provide a longer term-vision of Flemish coastline with a time horizon until 2100. wide stakeholder participation, during both the design and implementation phases of the Master Plan. The coastal protection Master Plan is rather ambitious and therefore requires continuous engagement and technical-financial support. This is required in the future so as not to limit the full implementation of identified measures. Particular attention is also intended to be given to monitoring and assessment of potential ecological effects of planned interventions, including beach nourishment in particular. The implementation of some measures encountered local concerns, for example at Nieuwpoort, for the newly planned storm surge barrier. Additional measures were taken in this case to meet both environmental concern (interference of the control building with birds) and leisure boating sector demands (increase of flow velocity due to the narrowing of the section). By lowering the height of the control building and finishing it with a non-reflective layer, the demands of the birdlife specialists were met. By adding extra culverts in the abutments of the storm surge barrier, the narrowing of the wet section was reduced with a reduction of on flow velocities through the passage.",
+    "cost_benefit": "The total investment cost by the Flemish Government of the Master Plan for Coastal Safety is about 300 million euros. This estimation does not include costs related to the architectural development of grey protection measures aiming to preserve or even improve the local architectural and recreational values. These costs are covered by coastal municipalities. Maintenance costs of the new beaches (i.e. conservation of safety conditions after beach nourishment) are around 8 million Euros per year. Principal benefits are related to the main Master Plan goal, i.e. to protect coastal communities against storm events with a yearly probability of 0.1%, under current condition and the case of sea level rise (up to 30 cm by 2050). Coastal protection implies the maintenance of coastal human actives, including in particular: residential use of the coastal space, tourism, harbour and industrial activities. Wider beaches and the design of sea walls that optimises their integration in the existing coastal space will likely generate benefits in terms of tourism. Monitoring projects and studies performed to assess the environmental impact of interventions and the effectiveness of the implemented solutions are providing useful information for research purpose and future management activities.",
+    "timeline": "Works implementation started in 2011 and is still ongoing. Early 2020, 2/3 of the total budget was executed or tendered.",
+    "lifetime": "The Master Plan protection objectives have been set to protect Flemish coastal areas by 2050. Beyond this horizon time, a new project (Kustvisie) was launched in 2017 to keep the Flemish coast safe, explicitly considering new challenges pose by climate change.",
+    "stakeholders": "During the elaboration of the Master Plan particular attention was given to communication and stakeholder participation (including questionnaire, presentations, brochures, newsletter, etc.). Stakeholders’ consultation was in particular carried out by means of a steering committee and an advisory board. The steering committee consists of representatives of different governments and administrations at provincial, Flemish and Belgian levels. The advisory board consists of direct and local stakeholders from coastal communities and towns, nature organisations, yacht clubs, beach clubs and the local economy sectors including horeca (hotel, restaurant and catering). The same consultation bodies are also involved during the implementation phase of the Master Plan measures. Moreover, a communication programme is developed, including information targeted at the broad public. It covers work progress and the publication of the website Kustveiligheid that provides information on the planned and implemented measures.",
+    "legal_context": "The Master Plan is compliant with the objectives of the European Floods Directive (2007/60/EC). The Coastal Safety Masterplan is integrated in the adaptation measures within the Belgian National Climate Change Strategy and elaborated in action 1.34 of the Flemish part of the Belgian National Adaptation Plan."
+  },
+  "point": {
+    "lat": 51.1931152431,
+    "lon": 2.87841796864,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "afdelingkust.be",
+      "url": "https://www.afdelingkust.be/nl/masterplan-kustveiligheid",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/implementation-of-the-integrated-master-plan-for-coastal-safety-in-flanders",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5bff1f9ab9304f50a3b62d4b6fba94d3",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/implementation-of-the-integrated-master-plan-for-coastal-safety-in-flanders",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:55+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

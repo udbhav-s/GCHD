@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-boston-data-and-stakeholders-build-adaptation-roadmap",
+  "url": "https://www.c40.org/case-studies/cities100-boston-data-and-stakeholders-build-adaptation-roadmap/",
+  "title": "Cities100: Boston – Data and Stakeholders Build Adaptation Roadmap",
+  "summary": "This C40 case study describes “Cities100: Boston – Data and Stakeholders Build Adaptation Roadmap,” an urban initiative documented for Boston. It is included because it addresses river flood, tropical storm, heatwave hazards. C40 describes the action this way: Boston has taken a data- and stakeholder-driven approach to climate adaptation, creating Climate Ready Boston in an effort to develop…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Boston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Massachusetts",
+        "ucode": "USA_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "tropical_storm",
+    "heatwave"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "boston",
+      "label": "Boston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Extreme weather events such as Hurricane Sandy and winter storm Juno make it increasingly important for the City of Boston to prepare for impacts relating to climate change. By developing an understanding of projected climate change impacts, assessing how these will affect the city, and forming strategies to tackle these impacts, Climate Ready Boston ensures that the city is ready for the next extreme weather event, while adapting to long-term effects of climate change.",
+    "measures": "Born out of the city’s 2014 Climate Action Plan, Climate Ready Boston was launched in 2015 as an initiative to develop resilient solutions to the impacts of long-term climate change. The initiative has three key deliverables: consensus on updated projections on the impacts of climate change; an integrated vulnerability assessment of these impacts, including identification of neighborhoods, properties, and infrastructure assets that are most at risk; and specific resilience strategies and a guiding roadmap that will reduce the city’s vulnerabilities and prioritize implementation. Based on data and stakeholder engagement, these strategies will include a portfolio of solutions and interventions, such as policies, regulations, financial incentives, and design standards. The initiative has not only provided the city with physical damage estimates, such as the cost of repairing buildings and infrastructure, but also costs to the community, at-risk individuals, business operations, and social networks. This has been possible through comprehensive cross-sector partnerships, which have funded the program, supplied data, and discussed and implemented recommendations. These partnerships include more than 30 stakeholder committees, including city, state, and private sector agencies and community groups, that participate on an advisory level.\n Environmental Benefits – Because of the Climate Ready Boston initiative, the city is seeking to create green spaces to mitigate both flooding and heat impacts.\n Social Benefits – By engaging with community groups to discuss experiences of climate impacts, such as blizzards and heat waves, the city is ensuring that adaptation measures will enhance quality of life of residents, particularly among its most vulnerable populations.\n Economic Benefits – Climate Ready Boston aims to quantify the potential economic impacts of climate change on the city.\n Health Benefits – As part of the project, Boston is consulting with health authorities to identify initiatives to reduce public health impacts, specifically those related to an increase in extreme temperatures.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-boston-data-and-stakeholders-build-adaptation-roadmap/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27227",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-boston-data-and-stakeholders-build-adaptation-roadmap&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

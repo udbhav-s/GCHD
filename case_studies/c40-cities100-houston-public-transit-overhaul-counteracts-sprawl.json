@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-houston-public-transit-overhaul-counteracts-sprawl",
+  "url": "https://www.c40.org/case-studies/cities100-houston-public-transit-overhaul-counteracts-sprawl/",
+  "title": "Cities100: Houston – Public Transit Overhaul Counteracts Sprawl",
+  "summary": "This C40 case study describes “Cities100: Houston – Public Transit Overhaul Counteracts Sprawl,” an urban initiative documented for Houston. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Houston has created faster and more efficient light rail and bus lines that better connect the growing city. The Challenge…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Houston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Texas",
+        "ucode": "USA_0044_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Houston",
+        "ucode": "USA_0044_0113_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "houston",
+      "label": "Houston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Houston’s population has been rising steadily for years, and it currently stands as the fourth largest city in the USA. At the same time, the sprawling city has notoriously been a haven for cars. Houston now operates the third-busiest light rail line in the USA, proving that committed city leadership can overcome historical and geographic challenges.",
+    "measures": "In 2015, Texas’s largest city overhauled its transportation system, aiming to boost ridership, ease traffic congestion, and expand residents’ mobility options. Two cornerstones of the overhaul are the improved light rail and bus systems. The opening of two new light rail lines brought the total system length to 36.5 km, and the New Bus Network more than doubles the number of people with access to frequent (every 15 minutes or less) bus service to 1.1 million.\n The improvements acknowledge that Houstonians’ living and working patterns have changed over time, and that residents require access to all areas of the city – not just the downtown core – at all times of the day and week. The New Bus Network’s routes address this issue by connecting the city in a grid pattern, rather than the radial system it had operated on for decades. The percentage of riders served by frequent service has jumped from 25% to 75%, and every bus route now operates seven days a week.\n Social Benefits – Making the system work for citizens, the new bus system will ensure that 58% of trips between 30 key destinations are at least 10 minutes faster than before. Additionally, 94% of riders can board at their usual bus stop.\n Economic Benefits – The improved frequency of service can boost economic development opportunities by connecting 1 million people to an equal number of jobs throughout Houston.\n Health Benefits – Five hundred and eighty trees were planted along the two new light rail lines, improving air quality and the aesthetic appeal of the area.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-houston-public-transit-overhaul-counteracts-sprawl/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27045",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-houston-public-transit-overhaul-counteracts-sprawl&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

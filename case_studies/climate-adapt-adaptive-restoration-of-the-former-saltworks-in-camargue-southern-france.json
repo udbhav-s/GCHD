@@ -1,0 +1,199 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-adaptive-restoration-of-the-former-saltworks-in-camargue-southern-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptive-restoration-of-the-former-saltworks-in-camargue-southern-france",
+  "title": "Adaptive restoration of the former saltworks in Camargue, southern France",
+  "summary": "The Salin-de Giraud restoration employs a Nature-Based Solution (NBS) approach, enhancing resilience to storms and sea level rise by restoring hydrological functions, reestablishing ecosystem characteristics, and providing breeding sites for water birds. Interventions include dredging channels, reconnecting water bodies, and abandoning seafront dykes. A large restoration project started in 2011 in the former saltworks of Salin-de Giraud, located in the southeast of the Rhône delta, within the Camargue Regional Natural Park and the UNESCO‘s Man and Biosphere Reserve.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Arles, Saintes-Maries-de-la-Mer",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Provence-Alpes-Côte d'Azur",
+        "ucode": "FRA_0021_V1",
+        "dcid": null,
+        "source_code": "SUBN_Provence_Alpes_Côte_d_Azu",
+        "source_name": "Provence-Alpes-Côte d'Azur (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature-based solutions",
+      "label": "nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "saltworks",
+      "label": "saltworks"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Rhone",
+      "label": "Rhone"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Camargue",
+      "label": "Camargue"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hydrological connectivity",
+      "label": "hydrological connectivity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal wetlands",
+      "label": "coastal wetlands"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "nursery"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The following management objectives were set for the restoration project of the former saltworks in Camargue: Restore the natural hydrological functioning of the system, reconnecting the site with surrounding water bodies (inland lagoons, the Rhone river and the Mediterranean sea); Restore the natural ecosystem characteristics of coastal lagoons and sandy coastline, including dunes, salty vegetation and saltmarshes; Maintain or increase the site functioning as breeding site for water birds; Implement adaptive management to protect the coast from storms and sea level rise; Contribute to sustainable development, including the development of eco-tourism and recreational activities. As a whole, the works have been carried out in order to restore the natural characteristics and resilience of the ecosystem to promote an “accommodation space” strategy in the face of climate change and increased risks of natural disasters.",
+    "measures": "The restoration process was put in place by the Regional Natural Park of the Camargue (coordinating manager) working in partnership with the Tour du Valat Research Institute and the National Society for Nature Protection (co-managers) under the aegis of the Conservatoire du Littoral (landowner). Artificial sea water pumping into evaporation ponds used for salt extraction was stopped and a wide plan of activities was defined and started being implemented to restore gravitational water flows and other natural processes. Main works include: (i) channel dredging, (ii) construction of new and rehabilitation of previously existing connections between former saltworks and surrounding brackish and freshwater ecosystems, and (iii) abandonment of seafront dykes allowing the water to move freely between lagoons of the former saltworks and the Mediterranean Sea. Moreover, the dyke that was built in 1859 to protect people and property, located further inland, will be adapted to ensure flooding protection in the Rhône delta. Such hydraulic works allow for the reconnection of the former saltworks hydro-system to the lagoons located in the nearby Camargue Nature Reserve and to the sea. The reconnection of water bodies leads to the reshaping of water paths in a natural way, according to an NBS approach. Newly emerged soils and restored waterways become “new” habitats for vegetation, fish, birds and other wildlife populations. Following this approach, the coastal ecosystem is expected to become more resilient to better face the impacts of sea level rise and sea storms, including associated floods. Works are still ongoing; planned actions for the next future include: (i) further adaptation of inland protection dykes, changing their location; (ii) continuation of hydraulic restoration works and (iii) creation of cycling routes for sustainable tourism and recreational activities. New models to fine-tune the analysis of submersion risk according to new knowledge development on sea level rise are expected to guide these actions in the future. An environmental monitoring is being implemented to assess the hydrological and ecological dynamics of the site and will be maintained to evaluate the effectiveness of the new hydraulic works planned for the near future. This will include the assessment of hydrological and climate buffer functions of the restored ecosystems, as well as trends in some biodiversity indicators such as occurrence and distribution of migratory fish species.",
+    "outcomes": "Several success factors favoured the realisation of the restoration works, in particular as they have been considered beneficial by the environmental community (re-naturalisation of the ecosystem), the scientific community (knowledge development) and the society at large (buffer area mitigating the effects of storms and sea level rise and new area for recreational activities) The possibility of saving public funds, investing in a less expensive intervention compared to the maintenance of seafront dykes, surely encouraged the adoption of this approach. Even if several initiatives to inform the local community were organised, the implementation of the restoration project encountered a certain resistance from the inhabitants that struggled to accept that the seafront dyke was abandoned. A need to improve the communication and collaboration with nearby community to increase acceptance to continue the works, clearly emerged. Moreover, several uncertainties about the response of the ecosystem to the restoration interventions actually exist due to a still limited understanding about sea level rise impacts on wetlands. The environmental monitoring of the site, currently underway, is contributing to improve the existing knowledge on ecosystem functioning, supporting the effectiveness of the NBS approach. More realistic projections of wetland response to climate change could help in designing future effective management actions.",
+    "cost_benefit": "From the economic point of view, the new management strategy was considered a less expensive option compared to the integral maintenance of the seafront dykes. An investment of 7 to 13 million euros, plus 80 K€ to 140 K€ for annual maintenance has been estimated in order to maintain and adapt the inner protection dyke system (about 16 km linear extension). The cost for hydraulic reconnection works were estimated to be less than 1.5 million €. Benefits of the restoration have been evaluated from the environmental, social and economic perspectives. From the ecological point of view, monitoring results indicated improved functioning of the restored coastal lagoons and marsh ecosystems: successful saltmarsh vegetation succession, healthy benthic invertebrate community and submerged macrophyte cover in the lagoons, improved hydrobiological connectivity between the water bodies with a potentially nursery role and migratory path for fish species. From the social point of view, the restored area provides recreational opportunities for the local community and tourists that can freely access parts of the site, with an increased aesthetic and landscape value of the Rhône delta. The project also created the opportunity for the development of new scientific knowledge on the coastal wetland dynamics. The economic benefits of the ecological restoration include not only an important reduction in the use of public funds for the protection against flood risks, but also the provision of multiple ecosystem services offered by restored wetlands, including those related to above mentioned tourist and recreational activities.",
+    "timeline": "Restoration works started in 2011 after the Conservatoire du littoral became the site owner and they are still ongoing. New hydraulic restoration programs are planned to start by 2022 based on the current feasibility study, to improve freshwater management at the periphery of the site.",
+    "lifetime": "The restoration is a long-term project considered as a continuing, adaptive process in response to changing coastal dynamic and sea level rise. Monitoring and maintenance are integral part of this process.",
+    "stakeholders": "A dialogue with local actors and inhabitants of the nearby village of Salin de Giraud was established in order to increase awareness and acceptance of the local community. Public meetings, guided tours, photo exhibitions, and workshops were organised, with the production of information panels, brochures and videos to properly inform population, increase awareness on climate change issue and share management choices.",
+    "legal_context": "Engineering works needed for the hydraulic restoration of the site had to be declared or authorized after simple environmental impact assessment to comply with the EU Natura 2000 and Water Framework Directives. The coastal restoration project is fully consistent with the guidelines adopted by the Direction départementale des territoires et de la mer (DDTM) of the Bouches-du-Rhône , which is the authority in charge of marine submersion risk management in the Camargue. The strategy consists of allowing the coastal line to move freely with the natural formation of sandbars, while maintaining and reinforcing existing infrastructures to protect people and property further inland."
+  },
+  "point": {
+    "lat": 43.5007524357,
+    "lon": 4.30114746094,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "tourduvalat.org",
+      "url": "https://tourduvalat.org/en/newsletter-articles/the-restoration-of-the-former-saltworks-in-the-camargue-a-nature-based-solution-to-adapt-to-sea-level-rise",
+      "role": "contextual_input"
+    },
+    {
+      "name": "conservatoire-du-littoral.fr",
+      "url": "http://www.conservatoire-du-littoral.fr/siteLittoral/483/28-etangs-et-marais-des-salins-de-camargue-13_bouches-du-rhone.htm",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adaptive-restoration-of-the-former-saltworks-in-camargue-southern-france",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "bbce22cf7917440bbfb28c202fd34772",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adaptive-restoration-of-the-former-saltworks-in-camargue-southern-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

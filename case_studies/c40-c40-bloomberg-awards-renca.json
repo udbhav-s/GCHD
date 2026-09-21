@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-renca",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-renca/",
+  "title": "C40-Bloomberg Philanthropies Awards: Putting people at the centre of climate action in Renca",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Putting people at the centre of climate action in Renca,” an urban initiative documented for Renca. It is included because it addresses meteorological drought, heatwave, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: With a population of 160,000, the Chilean municipality of Renca may be small in size, but it has proved to be a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Renca",
+      "adm0": {
+        "name": "Chile",
+        "ucode": "CHL_V1",
+        "dcid": null,
+        "iso3": "CHL"
+      },
+      "adm1": {
+        "name": "Metropolitana",
+        "ucode": "CHL_0006_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "renca",
+      "label": "Renca"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With a population of 160,000, the Chilean municipality of Renca may be small in size, but it has proved to be a climate giant.",
+    "measures": "With a population of 160,000, the Chilean municipality of Renca may be small in size, but it has proved to be a climate giant. The historically low-income city faces numerous challenges, with a green space per-resident ratio of less than half what WHO recommends. Heat waves and droughts are becoming more intense and frequent, and nearly half of Renca’s residents live in vulnerable conditions. The city is collaborating with residents and global networks on an ambitious, holistic programme to mitigate the impact of climate change and improve residents’ wellbeing. \n The ‘We all care, we all act’ programme was created in collaboration with locals, reflecting residents’ wishes and needs and placing equity, inclusion and wellbeing at its heart. Actions implemented include installing solar panels in schools and heating/cooling systems in housing, launching four air quality monitoring stations and the city’s first electric bus, which prioritises journeys taken by the elderly. With the help of more than 16,000 resident volunteers, Renca is aiming to reforest 80,000 native species in a new urban park, supporting urban biodiversity and increasing resilience and resident access to green spaces.\n Renca cemented its climate ambitions after attending COP26; the only Chilean municipality to do so, it has made further pledges to expand its e-vehicle networks. By 2024, all municipal cars will be electric and all residents will have sufficient access to green space.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Building a Climate Movement",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-renca/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31508",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-renca&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:58:11",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

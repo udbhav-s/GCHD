@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+  "title": "Optimization of the mix of private and public funding to realise climate adaptation measures in Malmö",
+  "summary": "Malmö is experiencing negative effects from climate change due to rising temperatures and excessive rainfall. The city therefore aims to realise climate adaptation measures by integrating it directly in the design of urban development projects, such as in the case of the Western Harbour. The private funding to realise these measures is provided by developers, who realise the actual construction of the projects. They engage in a stakeholder partnership process initiated by the city to ensure that the final realisation of the urban development reflects Malmö’s sustainable vision.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Malmö",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": "country/SWE",
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Sydsverige",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Sydsverige__SE_",
+        "source_name": "Sydsverige (SE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Land use planning",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Public Private Partenership",
+      "label": "Public Private Partenership"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stakeholder process",
+      "label": "stakeholder process"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable urban development",
+      "label": "sustainable urban development"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The economic shift led to large internal works within the municipality in the 1990s and ambition to realise 3 major investments; the Øresund Bridge connecting Malmö to Copenhagen in 2001, the creation of Malmö University in 1998 and the redevelopment of Western Harbour since 2001.The Western Harbour district was to be developed as an example of sustainable urban development. With regard to climate adaptation this included the ambition to create a district that is cloudburst resilient. However, the city realised that the actual construction of the district lay in the hands of developers. The city therefore set-out to develop a stakeholder partnership process through which they could bring in the city’s sustainable ambitions, while not actually financing the construction of the development. It allows the city to identify the measures for which additional public funding is needed and thus the optimal mix of public and private funding to realise a sustainable urban development.",
+    "measures": "The city of Malmö has chosen to realise its sustainability ambitions (including climate change adaptation) by focussing on co-creation with private developers through the organisation of so-called ‘stakeholder partnership processes’. This allows for an effective mix of private and public funding. The approach entails the initiation of dialogues with private developers from the very start of an urban development process. Through the dialogue a sustainable urban development model is co-created for a specific site. In this way the city makes sure that the envisioned sustainability ambitions take shape in the construction of the urban development without having the financial responsibility for its execution. In addition, the city is able to identify through the dialogue whether additional (public) funding needs to be obtained to realise a higher level of environmental standards. An example is the realisation of green roofs in Western Harbour for which Malmö obtained national funding. The dialogue provides the city with a good sense of the environmental ambitions of the developers. When the city feels that a higher level of ambition needs to be achieved, it can decide to bring the option to apply for funding into the dialogue. Stakeholder partnerships have been a part of large urban development projects in Malmö since the early 1990s. A stakeholder partnership process generally consists of a series of meetings and workshops. The process kicks-off with a common study trip. Afterwards a series of workshops follows for which the city provides the topics depending on the envisioned sustainability goals. Generally the city takes the initiative to start off the partnership process. This involvement decreases over time as the stakeholders take over the initiative for the meetings. The partnership process officially ends once the urban development is completed. However, in some cases the private stakeholders continued their partnerships at their own initiative once the formal arrangement had ended. Western Harbour is an example of an urban development project in Malmö in which stakeholder partnerships were utilized. This former brownfield was redeveloped into a sustainable ‘eco-city’. The development includes both climate adaptation and mitigation measures. Examples of adaptation measures are the application of green roofs, green areas and stormwater management measures. Each developer attached to the development area as either a land owner or buyer was requested to participate in the stakeholder partnership. In addition the city invited other stakeholders relevant to the sustainability goals of the project; the energy company E.on (formerly Sydkraft), the Swedish Energy Agency and Lund University. The way in which the stakeholder participation processes take shape varies per project. Each project consists of multiple phases. One of the first projects in Western Harbour consisting of housing development included the following phases: Phase 1: This phase included the design of a Quality Program, which consisted of a set of strict sustainability guidelines. The guidelines were developed together with a selection of developers. Phase 2: This phase revolved around dialogue with the stakeholders. It involved all the private developers attached to the area as a buyer or owner of land. Through the dialogue the stakeholder partnership developed 5 to 6 sustainability goals for the area. Phase 3: Once a development is built, an evaluation is conducted to check whether the developers have lived up to their promises from the previous two phases. The Quality Program is a document developed specifically for the Western Harbour case. The document included a common ground for developers, a minimal quality level and requirement standards for architecture, landscape, energy, water, waste management and biodiversity. It outlined a set of guidelines that were developed together with all stakeholders to ensure that high environmental standards were maintained. The program was developed through a set of meetings that are referred to as the “Creative Dialogue” to emphasize its open character. The Quality Program served as a stringent base for the consecutive phases of the project.",
+    "outcomes": "There are several aspects that are essential in the realisation of a successful partnership. One of the most essential factors is trust between the partners. Trust was not evident at the start of the first stakeholder partnership processes for the urban development of Augustenborg. In some cases, developers were found to have difficulties trusting each other since they are usually competitors. New stakeholders are sometimes found to be distrusting of the city. A stakeholder participation process should therefore always start with a site visit to engage everyone at the location. It is important not to start the process with a regular meeting as this tends to cause the participants to quickly get locked-in to their familiar positions. The site visit is followed by a series of seminars and discussions during which stakeholders are divided in sub-groups. These seminars and discussions are initiated by the city and focus on a specific plot or topic. As trust needs to build over time, it makes the stakeholder partnership process less suitable as a solution to short term (policy) problems. However, once trust is gained it is a very powerful tool to realise more sustainable developments at limited public financial investment. There are also external factors beyond the city’s control that can influence the success of a stakeholder partnership process. Environmental awareness among stakeholders is important to the success of a stakeholder partnership. At the start of the process for Augustenborg this awareness was found to be very limited. Other factors that can influence the success of a partnership are developments in national legislation. Until 2016 the stakeholder participation process was complemented by the ‘Environmental Building Code’. This municipal program includes additional technical building requirements, such as energy norms and nature compensation requirements. The Green Space Factor, a tool applied in the Western Harbour case, has been integrated into the program. It was in use for almost 10 years, but a recently passed national legislation has made it impossible to impose more stringent technical legislation at the municipal level. It is not known yet how the implementation of the stakeholder partnership process without the ‘Environmental Building Code’ will affect its impact. A stakeholder partnership process can be a useful policy instrument when a city is not financially responsible for the implementation of an urban development, yet would like to exert maximum possible guidance towards targeted sustainability goals for the area. The stakeholder participation process does however require an investment of time from the municipality without a guarantee for success. It also requires an interest of private parties in developing the site. In the case of Malmö, the development of these urban sites by private developers has traditionally been a standard practice. The process therefore works especially well for urban development projects. Other than the investment of time and the use of municipal facilities, the stakeholder participation process does not involve any additional financial investment. It can therefore be a successful tool to implement climate adaptation measures when a city is prepared to invest sufficient time and have patience to see visible results in the long term. National and European funding can provide stakeholders in a partnership process with a complementary source of financing to realise environmental measures. It is, however, not a condition for success. In the case of Western Harbour, public funding was obtained to realise the first 3 phases of the development. The 4th phase, while generally being considered the most sustainable part of Western Harbour, did not involve any public funding. This difference can be explained by the generally increased environmental awareness of society by the time the 4th phase was implemented. Through the stakeholder participation process the city gets a good sense of the intentions and means of the developers to realise the city’s environmental vision. The stakeholder participation process therefore allows the city to identify more specifically the type and amount of public funding needed, which consequently increases the chance of success of realising the sustainable development as envisioned.",
+    "cost_benefit": "The costs for the city to implement a partnership process are limited. They include the time spent by policy officers managing the process and the provision of resources to facilitate meetings and workshops. Private developers are responsible for all the costs relating to the development of the plots. Even the roads, parks and streets on the site, which are developed by the city, are included in the price of the building plots and are therefore indirectly paid by developers. The costs of the development of the building plot itself are completely covered by the developers. The stakeholder partnership process can offer an opportunity to private partners to reduce costs by conducting shared studies. In the case of Western Harbour a sustainability coordinator was employed by the municipality and the developers to make exhaustive energy calculations. The costs involved in this hire were split between the municipality and the developers. These costs would have been much higher in case each developer would have needed to pay a coordinator separately. Projects including stakeholder partnerships may also be eligible for additional funding. In the case of Western Harbour the project received funding as a European R&D project called SURE/RESECO within the EU’s 5 th framework programme. In the case of Western Harbour the city applied for funding from both national and European sources to improve energy efficiency, realise green roofs and organise events to raise awareness (i.e. higher level standards). A total of SEK 250.000.000 (approximately € 26.300.000) in national funding (Local Investment Fund) was awarded to the city for the implementation of various environmental projects within Western Harbour. The projects ranged from a sustainability exposition to support developers in the realisation of green roofs. The subsidies were also used to construct more energy efficient buildings. An application for European funding was successfully obtained by the system to finance the energy system in Western Harbour. The system allows Western Harbour to produce energy locally through a wind power plant, solar power generation and geothermal heating. The involvement of the number and type of stakeholders in the funding application varies case by case. The application involving national funding to acquire energy efficient materials for the Western Harbour development was created in cooperation with the developer. In the case of funding for green roofs, the city completely managed the application and the developers applied for the funding from the city. This difference in approach was mainly due to the fact that the decision to apply for funding came later into the development process. The European funding application for the energy system was developed by the city in cooperation with the energy company. The selection of stakeholders to involve in the funding application is usually made by the city based on the input of the stakeholder participation process. This allows the city to make more specific funding proposals. The city always acts as the initiator and lead writer of the funding application.",
+    "timeline": "The first stakeholder partnership was created for Augustenborg in the early 1990s. The Western Harbour development started in 2001 and is still ongoing. The project consists of multiple phases for which different stakeholder partnerships are created.",
+    "lifetime": "The stakeholder partnership process starts as soon as plots have been sold to the developer and ends once the urban development is realised.",
+    "stakeholders": "The stakeholder partnership process is initiated by the urban planning department. The size of the partnership varies depending on the project. A group of 30 people is considered a small partnership. Such a group might consist of 8-10 developers, who each bring 2 representatives on average. Other participants are usually specialists from the energy company, the municipal waste company or other relevant (municipal) agencies. The composition of experts varies per meeting depending on the topic that is discussed. Private partners may also bring in additional specific experts, such as architects or consultants. So far the partnerships have not included any NGOs or citizens, although this would also be a possibility. The focus of the composition of the partnerships remains on developers as the city intends to impact actors that will eventually shape the site and finance it. Therefore a discussion with them will be the most effective.",
+    "legal_context": "The participation in a stakeholder partnership process is not completely voluntary. The city can include special conditions regarding a commitment to the partnership and sustainability requirements in the sales contract for the plot. This approach is limited to situations where the city owns the plot that is to be developed. So far the city has only engaged in one partnership with a stakeholder that already owned the land that was to be developed. In this case the dialogue process was found to be more intensive and difficult. Eventually an agreement was reached with support of buyers of building plots from the private landowner."
+  },
+  "point": {
+    "lat": 55.6093840881,
+    "lon": 12.9968261719,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "malmo.se",
+      "url": "https://malmo.se/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+    "publication_date": "2016-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "da23ad2428fe463c86ccc4d9fc13b20c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/optimization-of-the-mix-of-private-and-public-funding-to-realise-climate-adaptation-measures-in-malmo",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

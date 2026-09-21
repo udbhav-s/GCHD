@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-athens-pilot-urban-regeneration-project",
+  "url": "https://www.c40.org/case-studies/athens-pilot-urban-regeneration-project/",
+  "title": "Athens’ Pilot Urban Regeneration Project",
+  "summary": "This C40 case study describes “Athens’ Pilot Urban Regeneration Project,” an urban initiative documented for Athens. It is included because it addresses extreme heat hazards. C40 describes the action this way: In 2016, the CIty of Athens plans to launch a significant pilot project to regenerate the commercial triangle of the center of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Athens",
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": null,
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Attiki",
+        "ucode": "GRC_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "athens",
+      "label": "Athens"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2016, the CIty of Athens plans to launch a significant pilot project to regenerate the commercial triangle of the center of Athens.",
+    "measures": "Summary \nIn 2016, the CIty of Athens plans to launch a significant pilot project to regenerate the commercial triangle of the center of Athens.\n What is it? \nThe project aims to promote growth and mitigate the urban heat island effect locally and serve as a good example to be replicated in other parts of the city.\n Application \nThe project aims to:\n transform the main streets into pedestrian and low circulation zones with the aim of reducing private car use and increasing sustainable mobility options by encouraging cycling and walking\n deliver accessible options to blind people and people with kinetic difficulties\n reorganize pathways and rest places according to shading in summer and sun (where possible) in winter\n plant more trees, where possible. Where the width of streets does not allow it, pergolas are used where shade is needed and large plant pots are placed, to increase evapotranspiration.\n use cool and natural materials, with low embodied energy for covering pedestrian areas and low circulation streets\n use LEDs in public lighting \n This holistic approach in a very important area in the city center aims to show that change is possible. The first sustainable neighborhood aims at revitalizing the commercial triangle by facilitating access and providing opportunities for professionals to increase their income so as to respond the financial crisis.\nCommercial triangle regeneration plans",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/athens-pilot-urban-regeneration-project/",
+    "publication_date": "2016-04-12",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27172",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=athens-pilot-urban-regeneration-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

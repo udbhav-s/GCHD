@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-buenos-aires-re-urbanization",
+  "url": "https://www.c40.org/case-studies/buenos-aires-re-urbanization/",
+  "title": "Buenos Aires Upgrades its Informal Settlements",
+  "summary": "This C40 case study describes “Buenos Aires Upgrades its Informal Settlements,” an urban initiative documented for Buenos Aires. It is included because it is located in the Global South. C40 describes the action this way: Through a process of re-urbanization, Buenos Aires is providing a better quality of life for its residents in informal settlements by providing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Through a process of re-urbanization, Buenos Aires is providing a better quality of life for its residents in informal settlements by providing them a participatory slum upgrading process, enabling a wider homeownership among its residents and making rental housing better available",
+    "measures": "The city of Buenos Aires has initiated a set of integral Re-Urbanization Projects that aims to integrate participatory democracy among slumdwellers, as to better deliver on upgrading programmes.\n The city of Buenos Aires has seen an increase in population growth within informal settlements of the city. 10% of the city’s population resides in these informal settlements, which amount to over 300,000 people. \n This project’s goals was to improve the lives of slumdwellers living within the Villa 20 in the Lugano district through participative engagement with said slumdwellers. \n To reach this goal, the city focused on engaging in the following actions:\n Creating a participatory slum upgrading process\n Maintaining and formalizing home-ownership in public housing units\n Improving the housing market by enabling wider homeownership \n Making rental housing better available\n There were challenges to the project, notably with concerns over the budget, long-term political backup, and working in-time with political, administrative and social changes.\n Ultimately the project proved to be good for constructing social capital and promoting decision-making among local stakeholders. It initiated a rethinking of the relationship between government and social institutions while strengthening ties between different ministries, helping the ongoing challenges and complexities of slums and the re-urbanization processes.\n For more information, please consult the following links:\n Estión y Planificación por Proceso-Proyecto Para el Mejoramiento de Villas y Asentamientos de Gran Escala \n IVC Présentation PowerPoint \n La planificación y gestión participativa holística en el ejercicio del derecho a la ciudad",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-re-urbanization/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27463",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-re-urbanization&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

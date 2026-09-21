@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-delhi-turning-waste-into-energy-and-better-livelihoods",
+  "url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-energy-and-better-livelihoods/",
+  "title": "Cities100: Delhi – Turning Waste into Energy and Better Livelihoods",
+  "summary": "This C40 case study describes “Cities100: Delhi – Turning Waste into Energy and Better Livelihoods,” an urban initiative documented for Delhi NCT. It is included because it addresses air pollution pm25, malaria hazards, and it is located in the Global South. C40 describes the action this way: A new waste-to-energy plant in Delhi is turning would-be landfill waste into a resource, while at the same time reducing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Delhi NCT",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Delhi",
+        "ucode": "IND_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "malaria"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "delhi-nct",
+      "label": "Delhi NCT"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Without intervention, Delhi expects to generate about 15,750 tons of garbage each day in 2021, which will further stress the city’s inadequate waste-to-landfill disposal system, exacerbating leachate, air pollution, and disease. Meanwhile, it is estimated that 60% of the population has experienced respiratory illness due to dumpsites. To address these concerns, Delhi is changing its waste management system with the introduction of the Ghazipur Waste to Energy Plant, preventing further environmental degradation and community agitation.",
+    "measures": "Established in Delhi in 2011, the Ghazipur Waste to Energy Plant is India’s state-of-the-art facility, creating energy out of would-be landfill waste and contributing to the country’s goal of achieving 40% non-fossil fuel-based energy by 2030. The facility processes 2,000 tons of waste per day, generating 12 MW of power and 127 tons of fuel, which can be used in cement and power plants as an alternate source of energy. The plant has also invested heavily into air pollution control devices that conform to the European Industrial Emissions Directive, which is much more stringent than Indian norms. Estimates show that dumping of municipal solid waste at the Ghazipur dumpsite should drop by 90% within 25 years. In addition to reducing waste to landfill and generating power and fuel, the plant focuses on the community as well. The plant provided support to set up Gulmeher, a community center that provides about 200 local women, who previously earned a living picking waste at the Ghazipur dumpsite, with direct employment, capacity building, micro-enterprise support, and artisan training.\n Environmental Benefits – In reducing the amount of waste in landfill, the plant will help reduce surface runoff carrying toxins into waterbodies.\n Social Benefits – The Gulmeher initiative, associated with the plant, provides literacy programs, childcare services, and medical care to former waste collectors and their families.\n Economic Benefits – It is estimated that the plant will prevent more than 200 acres of land, valued at more than $308 million, from becoming landfill sites over the next 25 years.\n Health Benefits – Processing municipal solid waste will drastically reduce diseases such as dengue, malaria, as well as eye, skin, gastrointestinal, and respiratory illness, which occur due to open dumping.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-energy-and-better-livelihoods/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27214",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-delhi-turning-waste-into-energy-and-better-livelihoods&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

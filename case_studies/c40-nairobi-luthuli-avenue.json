@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-nairobi-luthuli-avenue",
+  "url": "https://www.c40.org/case-studies/nairobi-luthuli-avenue/",
+  "title": "Luthuli Avenue Sustainable Mobility",
+  "summary": "This C40 case study describes “Luthuli Avenue Sustainable Mobility,” an urban initiative documented for Nairobi. It is included because it addresses river flood, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Luthuli avenue in Nairobi is being turned from a 2-way to a 1-way street and is being implemented with new walking and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nairobi",
+      "adm0": {
+        "name": "Kenya",
+        "ucode": "KEN_V1",
+        "dcid": null,
+        "iso3": "KEN"
+      },
+      "adm1": {
+        "name": "Nairobi",
+        "ucode": "KEN_0030_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nairobi",
+      "label": "Nairobi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Luthuli avenue in Nairobi is being turned from a 2-way to a 1-way street and is being implemented with new walking and cycling infrastructure.",
+    "measures": "Nairobi City County Government has ventured into an ambitious exercise to convert one of Nairobi’s busiest streets from a 2-way to a 1-way street. Luthuli Avenue boasts a high number of electronic businesses and is often characterized by a high volumes of public service vehicles that contribute to urban traffic congestion, air pollution and noise pollution, which have been detrimental to the quality of Luthuli Avenue’s businesses. The conversion of the Avenue to a one way street will go a long way to decongest the city and direct traffic out of the central business district. The added benefit of improved air quality through the beautification and planting of trees will drive the push for cleaner air. Air quality monitors are also being installed in the street to collect data which will enhance monitoring capabilities of pollution levels. The cycling lanes and pedestrian walkways will improve urban mobility within the city.\n What is the project? How does it work? \n The project aims at decongesting the city through the conversion of a major thoroughfare to a one way street. The cycling lanes and the pedestrian walkways will encourage non-motorized forms of mobility, reduce vehicular emissions, and improve the air quality and health of citizens.\n The climate-proofed infrastructure will avert urban flooding occurrences, promote cool cities and enhance climate change resilience. The air quality monitoring will provide the evidence base to eventually create the first carbon neutral street in the region, signalling the potential of this project to lead towards a transformative impact on the fabric of the city. \n What are the CO2 reduction goals? \n The transport sector in Nairobi is one of the biggest emitters in the city. The project will reduce vehicle emissions in the project area by up to 50% thanks to the restrictions on cars and the new infrastructure for non-motorised transportation.\nUrban flooding will be averted due to the new infrastructure and improved adjustments. The trees planted in the avenue will enhance cooler cities due to the added shade and ambient benefits associated with them.\n The businesses in the vicinity will benefit from increased numbers of customers thanks to the accessibility of the street, the space to display their products as well as the conducive environment to operate in which will all lead to increased revenues for the City and the businesses\n Next Steps \n The project completion date is still unknown. Improvements will be made to install more AQ monitors to get the requisite data on the status of the air quality in the project area. Additional mechanisms will be put in place to improve on service delivery and mobility.\n Image retrieved from https://www.youtube.com/watch?v=KlcbFkzUSfY",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/nairobi-luthuli-avenue/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27493",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=nairobi-luthuli-avenue&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

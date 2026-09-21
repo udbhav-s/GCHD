@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-waterlogging-prevented-by-sponge-infrastructure",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-waterlogging-prevented-by-sponge-infrastructure/",
+  "title": "Cities100: Wuhan – Waterlogging Prevented by Sponge Infrastructure",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Waterlogging Prevented by Sponge Infrastructure,” an urban initiative documented for Wuhan. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: The Chinese megacity Wuhan launched a 15-year program using green and blue sponge projects to prepare for increased waterlogging caused…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Rapid urbanization and industrial development in Wuhan has increased the city’s impermeable area, causing flooding, pollution, and, at the same time, over-consumption of existing water supplies. By increasing the ability to absorb rainfall and improving the quality of the urban water system, the Wuhan Sponge City Programme is preparing the city for growth and extreme weather events.",
+    "measures": "The Wuhan Sponge City Programme focuses on reducing waterlogging and increasing water quality via the ecological remediation of existing urban water systems and the construction of blue and green spaces to capture and store rainwater. The first phase of the project, from 2015 to 2017, will see the development of 389 so-called sponge projects, such as urban gardens and waterbodies in parks, roads, residential communities, and commercial and public buildings. These will cover 38 m2 of the city and provide habitat for plants and wildlife. By the end of the pilot period, two new rainwater pump stations will have been constructed, providing at least 25% of the city’s water. Furthermore, 13 ports and channels will be repaired, drain pipelines will be improved, and at least one lake will be ecologically restored. Overall, the project is expected to reduce the occurrence of severe waterlogging events from once annually to once in 10 years in the pilot zone, a strong start to adapting the city to climate change.\n Environmental Benefits – It is estimated that initiatives in the project will result in a 70% reduction in pollution carried via runoff in certain catchment areas.\n Social Benefits – It is estimated that 20,000 new jobs will be created through the Wuhan Sponge City Programme.\n Economic Benefits – By focusing on the protection and utilization of the natural water system, the Wuhan Sponge City Programme prevents considerable costs caused by damage from waterlogging.\n Health Benefits – The project increases the quality of drinking water for the people of Wuhan.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-waterlogging-prevented-by-sponge-infrastructure/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27223",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-waterlogging-prevented-by-sponge-infrastructure&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

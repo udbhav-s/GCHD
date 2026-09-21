@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+  "title": "Ghent crowdfunding platform realising climate change adaptation through urban greening, Belgium",
+  "summary": "The crowdfunding platform of Ghent stimulates various community-based initiatives that are improving the living conditions of the city, with high potential for realising small “drops” of climate adaptation, while defending the application of non-discrimination and equity principles. Ghent aims at realizing more green areas in response to climate change and actively seeks citizen involvement to achieve this. This is in line with the city being very social and creative with many citizens actively developing bottom-up initiatives. Many of these small-scale projects however have difficulty developing into a successful project through the available financing mechanisms.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ghent",
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Prov. Oost-Vlaanderen",
+        "ucode": "BEL_0003_0003_V1",
+        "dcid": null,
+        "source_code": "SUBN_Prov__Oost_Vlaanderen__BE",
+        "source_name": "Prov. Oost-Vlaanderen (BE)"
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Crowdfunding",
+      "label": "Crowdfunding"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "edible street",
+      "label": "edible street"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban farming",
+      "label": "urban farming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vertical garden",
+      "label": "vertical garden"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "co-creation",
+      "label": "co-creation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sustainable food production",
+      "label": "sustainable food production"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green areas",
+      "label": "green areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "citizen involvement",
+      "label": "citizen involvement"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The city of Ghent has set out to develop a policy instrument to support the facilitation of co-creation, including its application for climate change adaptation. The instrument should be able to generate wider (financial) impact compared to subsidies or tax-incentives. Co-creation entails the involvement of multiple stakeholders. These stakeholders should have the opportunity to either contribute financially, through volunteer time or advertising the project. All these elements are crucial to a project’s success. The objective for the city of Ghent is therefore to develop an instrument that allows for the identification of ideas from the community as well as contributing to their realisation.",
+    "measures": "The city of Ghent developed a crowdfunding platform that allows citizens to share their ideas and raise the necessary funds to realize them. Ideas can vary and include the increase of the city’s adaptation capacity. The person submitting an idea becomes a ‘project initiator’. This person needs to provide a short description and a funding goal for the project. People who provide financial backing to a project are known as ‘supporters’. Their minimum donation is €10. The donated amount per idea is viewed as an indicator of community support; only the projects with sufficient community support will become financially viable. The focus of crowdfunding.gent is on projects with a societal benefit, which sets the platform apart from other crowdfunding platforms. The platform was launched on March 16th in 2015. Projects can be published on the platform through a straightforward process. Each citizen of Gent or person with an idea located in Ghent can submit a project by completing the crowdfunding.gent application form. The project becomes visible on the platform once it is approved by the platform manager, who is appointed by the city. He checks whether the project proposal meets a set of pre-defined requirements. Examples of criteria are “The project must transcend individual interests” and “The initiative must comply with laws and regulations that promote and defend the application of non-discrimination and equal opportunities”. The platform manager can provide feedback to applicants on how to enhance their project’s chance of success. The project is published once the applicant has made the necessary modifications. From this moment supporters can donate to the projects during a pre-defined period of time. Projects receive their collected donations even if they do not reach all the desired budget. It is not a requirement to meet the pre-funding goal, as past experience has demonstrated these projects can still be successfully implemented with a few amendments. In case of any modifications, the applicant is required to communicate to the supporters how their money will be spent. Crowdfunding.gent additionally offers initiators the opportunity to apply for a municipal subsidy of the project. The city has provided a fund of €55.000 per year specifically assigned to the crowdfunding platform. The request for municipal funding needs to be indicated in the original application form. Initiators can choose to apply for 25, 50 or 75% of municipal funding. To be eligible for funding, the pre-defined amount of co-funding needs to be raised. For example, a project that has applied for 50% of municipal funding with a funding goal of €1000 needs to raise at least €500 in donations by supporters. This condition is a means for the city to ensure that the project has sufficient community support. Whether or not a request is honoured is decided by an independent jury consisting of local experts. Per project the maximum amount of municipal subsidy that can be obtained is €5.000. The amount of municipal funding is at all times based on the pre-defined funding goal. So far, two initiatives that have been submitted through the crowdfunding platform can be considered contributions to the city’s climate adaptation goals. Due to changed priorities, most crowdfunded initiatives are currently (2023 update) mainly targeted at financing socio-cultural events, solidarity initiatives for vulnerable people, campaigns to preserve natural areas from urbanisation. The two climate adaptation projects focused on sustainable food production and enhancing green areas. The first project “Lekker dichtbij!” establishes mini-gardens on balconies of social housing. Through urban farming more green areas are created contributing to mitigate extreme temperatures in urban areas. In addition, local food production reduces the need for long-distance transportation and therefore prevents an exhaust of carbon dioxide emissions. Urban farming also often requires less intensive agriculture as the farming is carried out on a smaller scale. In addition, Lekker dichtbij! enhanced social integration by stimulating cooperation between the residents from various cultural backgrounds. The project was successful in raising the pre-defined funding goal. Another project, “the Edible Street”, set-out to transform the traditional stone facades into vertical gardens to create additional green areas while stimulating local food production. Similar to the “Lekker dichtbij!” project, it contributes to the enhancement of green areas and the reduction of carbon dioxide emissions. Although this project was not successful in raising the complete pre-defined funding goal, it was successfully implemented by scaling down the project. Instead of placing 100 planters in 5 streets, 88 planters were placed in 3 streets. Up to 2023, 150 initiatives funded by the crowdfunding platform were realised, with more than 10 thousand people involved and more than €545000 collected.The small scale of the crowdfunding projects (an average of about 8000 euro per project) and the very broad scope of the projects that can be funded through the platform evidently only has limited impact in the context of addressing climate change adaptation. Indeed, these types of projects can mainly be seen as successes for the city’s ambition to realise more co-creation with citizens. Certainly, the crowdfunding platform has the potential to be an excellent way to realise small ‘drops’ in the context of climate adaptation that can generate larger ripple effects.",
+    "outcomes": "The crowdfunding platform has been successful in identifying ideas that are less suitable to be financed by subsidies. Reasons for this ineligibility can be the small amount of requested budget or a mismatch with the requirements or objective of existing subsidies. To ensure the maximum output, the city of Ghent did not define specific criteria that the projects need to meet. They rather focused on defining the types of projects they would not support. These definitions were then translated to a set of minimum conditions that the projects need to meet to be included on the platform. For example projects with a commercial aim or with an explicit religious, philosophical or political nature are not eligible for funding. Each application is manually reviewed by a policy officer to ensure the projects meet these requirements prior to publication. The fact that the crowdfunded projects have the potential to create larger ripple effect is demonstrated by ‘the Edible Street’ project. The implementation of this project was quickly followed by a similar project in Kortrijk; Groene Straat (Green Street). This initiative finances the realisation of planters and other forms of ‘vertical green’ by offering bulk purchasing. The initiator based the project on a quick assessment of the core elements of the Ghent project that would allow a scaling-up of the project to a city level. Within Groene Straat 22 projects with additional (edible) green have been realised. Another project that followed the Ghent example is ‘G roenselare’ in the city of Roeselare, which started providing information to citizens on ways to create green facades after the city was named the most ‘grey’ cities of Flanders in 2014. A limiting factor of this type of instrument is financial resources needed to build and maintain the platform. In addition, sufficient man hours need to be made available for a city staff member to manage the content of the platform. The platform is considered successful if 1 out of 3 projects reach their pre-defined funding goal. A 100% success rate would not be realistic as several success factors are beyond control of the city. For example, the project initiator is not necessarily an experienced project manager. In addition, it is difficult for the city to control the policy topics that the project proposals on the crowdfunding platform address. For example, more cultural than environmental projects were proposed in the first year of crowdfunding.gent and this focus even became the most relevant in the following years . The use of crowdfunding as a policy instrument implies acceptance of the fact that the exact outcome cannot be easily controlled. On the other hand it offers a great opportunity to enhance innovation, cooperation and solidarity in a city.",
+    "cost_benefit": "The first year (2015) of the crowdfunding.gent platform has been successful in generating total revenue of €70.000. Of the total number of projects, 80% raised enough funding for implementation. So far 2 projects received an additional municipal subsidy. This subsidy amounted to a total of €1.480. The development of the platform involved both fixed and regular costs. Both costs have been covered by the city of Ghent. The costs were lower than the first year revenue collected by the crowdfunding projects. The specific IT-know-how necessary for the development and maintenance of a crowdfunding platform required the involvement of an external party. Next to the fixed costs, the city needs an internal project manager who can act as the central contact point on behalf of the city. This policy officer needs to be continuously involved in the project on at least a part-time basis in order for the project to run smoothly. The average target per project is 8,000 euros. Private investors can become eligible to fiscal benefits when supporting a project of their choice. Organisations, such as companies, foundations, associations, are able to make a direct deposit onto the account of the project. This allows them to bring the expenses in as their tax deduction in a similar fashion as non-crowdfunding donations. A \"regular\" donation to a crowdfunding campaign is run through a platform account and therefore is not eligible for tax deductions. The city of Ghent provides €55.000/year in funds to co-finance non-profit projects that achieve their funding goal through the crowdfunding platform. A jury of local experts takes the final decision on whether a project receives funding. The maximum amount of funding that can be assigned per project is €5.000. Projects that have successfully raised their pre-defined funding goal are still eligible for additional funding. An example is the project ‘Lekker dichtbij!’ This project ran for several weeks; it submitted its application in the spring of 2015, reached its funding deadline on June 14, 2015 and was implemented on June 19th, 2015. The project set €735 as its funding goal, but during the funding period it exceeded this amount by raising €822. The city of Ghent then co-financed the project for an additional €480. However, even though the opportunity of additional public funding is always offered, it does not seem to be an important motivator for project initiators to submit an application. In fact, in the first year of the crowdfunding platform only 2 projects applied for and received additional public funding. Other elements, such as publicity through the publication of the project on the platform, seem to be a more decisive factor in the consideration whether or not to submit an application to the crowdfunding platform.",
+    "timeline": "The necessary regulation to realise crowdfunding.gent was implemented on April 1st, 2015. It is evaluated every 2 years. The project “Lekker Dichtbij” submitted its application to the crowdfunding.gent platform in the spring of 2015. The funding deadline was reached at June 14, 2015. The project was implemented on June 19th, 2015. The project ‘The edible street’” reached its funding deadline around the same time. The first “planter-placement-day” was already held in May 2015, before the end of the funding deadline. The money that was raised through the platform was later used to reimburse the participants.",
+    "lifetime": "Crowdfunding.gent was launched in 2015 and is still running (2023).",
+    "stakeholders": "Crowdfunding.gent was developed by the City of Ghent with the support of an existing crowdfunding platform developer. No other stakeholders were involved in the development phase of the process. The citizens of Ghent and private investors are considered end-users of the platform. They can participate as either initiator of a project or end-user. The City of Ghent has appointed one policy officer to manage the platform. The city’s platform manager functions as the person to connect to the end-users. He reviews the project applications, takes care of communication with the citizens and manages the contact with the platform developer. His activities do not include financial transactions or platform maintenance activities. Maintenance activities are carried out by the platform developer. With regard to the municipal subsidies, the city has appointed a jury of local experts. The final decision on the composition of this jury is taken by the City Council. The platform mainly targets an online audience due to its set-up. However, ‘offline’ citizens do have the opportunity to reach the platform manager by phone or mail. He is available to fill-out the application form with them in person. A variety of communication channels have been utilized by City of Ghent to inform the citizens about the platform. These include flyers, the city’s official social media accounts and an article in the city magazine.",
+    "legal_context": "The system of the crowdfunding platform is set-up in a way that it runs financially independent from the city. The city of Ghent has hired an external contractor to technically develop and maintain the platform. All transactions concerning the donations are handled by this external developer. The municipal fund of €55.000 (per year) is handled by the external contractor to ensure that it runs smoothly. The decision on whether to assign additional funding is taken by an independent jury of local experts. Project initiators who have been granted additional funding need to meet a set of requirements with regard to justification of the money spent. Within 2 months and 1 year of the end of a project, the responsible for the project needs to submit 3 types of documents. These include invoices of relevant items, a report that demonstrates the funding was used for the agreed purpose and an overview of revenues and expenses of the project. In addition, the city has the right to check at the project implementation site whether the funding is spent appropriately. In case the funding is found to be misused, the city can place sanctions on the project responsible. These sanctions include a recovery of the assigned amount of funding or even to exempt the beneficiary of the funding from receiving any funding in the future. The detailed conditions are laid down in the ‘ Subsidiereglement voor het cofinancieren van non-profit crowdfundingprojecten “Wijs van Gent ”’ (or: Subsidy scheme for funding non-profit crowdfunding projects \"Crazy about Ghent\"), which is publicly accessible on the crowdfunding.gent website."
+  },
+  "point": {
+    "lat": 51.0552073386,
+    "lon": 3.71337890625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "crowdfunding.gent",
+      "url": "https://crowdfunding.gent/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+    "publication_date": "2023-11-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "bd42b21e70d84d8e8b30a9385866f86a",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/ghent-crowdfunding-platform-realising-climate-change-adaptation-through-urban-greening",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:38+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

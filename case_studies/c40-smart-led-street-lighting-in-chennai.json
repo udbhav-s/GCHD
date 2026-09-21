@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-smart-led-street-lighting-in-chennai",
+  "url": "https://www.c40.org/case-studies/smart-led-street-lighting-in-chennai/",
+  "title": "Smart LED Street Lighting in Chennai",
+  "summary": "This C40 case study describes “Smart LED Street Lighting in Chennai,” an urban initiative documented for Chennai. It is included because it is located in the Global South. C40 describes the action this way: Rapid urbanisation encourages proportionate enhancements to be made in the appropriate urban public utility infrastructures. Such public utilities are energised majorly…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Greater Chennai Corporation maintains 2,77,902 streetlights and the total charges for its electricity consumption amounts to nearly Rs 4.64 crores a month. The street lamps were first introduced in 1785. Till 1857, there were only 200 oil light lamps. By the year 1910, there were 6,500 oil lights. Electric street lighting was introduced for the first time in 1910. The improvement of lighting on this account was so immense that the number of electric lights gradually increased till the years of 1924-25 when all the lights were completely replaced by electric lights.\n Ever since, a fair amount of the department’s expenditures have gone towards the maintenance of sodium-vapour lamps, which have a high burn-out rate. Given their high consumption of electricity and high maintenance cost, it was proposed to switch to LED lights for energy and cost savings.\n The work order for the project was commissioned on 4 October 2017 and the project was slated for completion on 5th January 2018. The project cost was estimated at Rs 3.44 crores. The project was completed by 2nd January 2018 at a cost of Rs 2.94 crores, and it was funded by the Smart City Mission.",
+    "measures": "The Smart Street Lights have been installed as an open standard solution that is highly scalable and interoperable. The solution is designed for SCADA based monitoring with an automatic ticket-generation tool in case the light is not functioning. All of these technological features show that lights can be monitored even from remote locations and the functionality of the lights can be taken into account. This enables speedier replacement and low maintenance in case of repairs. The scalability factor ensures that the entire region can shift to a plan of energy efficiency and that it is easily replicable irrespective of the topography or demographic pattern of the region.\n\nThe project was initiated for the ABD area of T Nagar. In this project, 1,772 lights were changed from sodium-vapour lamps to LED lights. Spanning 6.92 sq. km., T Nagar is already an established development in the CBD region of Chennai.\n On average, nearly 2 lakh pedestrians use the streets of T Nagar and on a festive day the market area alone witnesses up to 20 lakh persons. Hence, good lighting adds to better security and mobility in the region.",
+    "outcomes": "Apart from the reduction in the carbon footprint, the savings in energy consumption and cost to government is given below:\n Since the spread of the LED light is over a larger radius than the conventional sodium-vapour lamps, the number of dark pockets in the region has been considerably reduced. The better lighting also invites increased footfall in the commercial areas.\n Some of the expected impacts include:\n 1) Reduction in crime rates in the region\n2) Increase in economic activity\n3) Reduced maintenance cost since the die-out is slower with LED lights\n4) Improved colour rendering\n5) Comparatively less heat generated and hence, less energy wasted",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/smart-led-street-lighting-in-chennai/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27525",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=smart-led-street-lighting-in-chennai&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T12:01:06",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

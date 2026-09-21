@@ -1,0 +1,190 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-fd",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/fd",
+  "title": "Flood risk management for hydropower plants in France",
+  "summary": "The Piano Key Weir (PKW) system, developed by France's Hydro Engineering Centre, safeguards hydropower infrastructure from climate change-induced floods in 10 local dams and globally in 30 installations. PKW adapts dam capacity efficiently with increased water discharge, offering a cost-effective, reliable, and collaborative solution. Hydropower is an essential part of the energy mix in France, accounting for around 20% of installed capacity. Climate change is projected to increase the frequency and intensity of extreme precipitation events and to accelerate snowmelt, which would result in increased flood risk.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Rhône-Alpes",
+        "ucode": "FRA_0022_V1",
+        "dcid": null,
+        "source_code": "SUBN_Rhône_Alpes__FR_",
+        "source_name": "Rhône-Alpes (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "snow melt",
+      "label": "snow melt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "dam overtopping",
+      "label": "dam overtopping"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "glacier melt",
+      "label": "glacier melt"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "piano key weir",
+      "label": "piano key weir"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hydropower",
+      "label": "hydropower"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "precipitation",
+      "label": "precipitation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extreme events",
+      "label": "extreme events"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Energy generation",
+      "label": "Energy generation"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The PKW system was developed in response to updated hydrological studies by EDF, which showed that extreme floods affecting hydropower dams were becoming more frequent and intense. PKWs help to adapt dam capacity to cope with climate change impacts such as increased precipitation and flooding. The objective of PKW systems is to provide an increased surface area for the (over)flow of water. This increases the discharge capacity of the dam without changing the maximum reservoir level. The primary benefit of such technology is to protect hydropower assets from damage, while also reducing operational costs compared to alternative gate systems. Other benefits include reducing downstream impacts during heavy precipitation events, as well as ensuring security of energy supply during such events through reduced operational failures.",
+    "measures": "The valley of Chassezac in the department of Ardèche in the Auvergne-Rhône-Alpes region of France was identified as a high potential hydrological basin in the 1950s. This led to the development of five hydropower dams and four hydropower plants, which were all built between 1961 and 1970. One of these, the Malarce dam, has a height of 28.4 m, a length of 111 m and a withholding capacity of 2.3 hm 3 (i.e. 2.3 million m 3 ). It became operational in 1968 and has a power capacity of 16MW. The PKW for the Malarce dam was commissioned to increase its maximum discharge capacity by around 600 m 3 /s to a total of 4600 m 3 /s. When dam water levels exceed the level in the inlet tanks, water automatically flows over the PKW into outlet tanks that run straight into the spillway channel and downstream. This technology provides a means of adapting dams to increasing flood risks expected under climate change. The PKW in the Malarce dam helps to reduce the risk of costly damage to dam infrastructure and to downstream communities. There are several engineering options available for managing dam spill over. Labyrinth spillways can only be installed in certain types of dams and must usually must be installed at the earliest dam design stage. Gated systems are in place in many existing dams for flow management. However, gated systems can fail in cases of saturation due to excessive flooding. PKWs often present the most effective option for flood risk management at existing dams. PKWs do not have a maximum capacity but instead provide a free flow spillway. PKWs can therefore manage much higher flow levels and provide a safer solution than gated systems, with minimal risk of malfunction and easier evacuation of floating debris. In contrast to other flow management techniques, PKWs also avoid human error, since they do not require human operators. This is helpful in emergency situations including flash flooding and landslides, during which workers cannot access the site. The principal European players in PKW technology are France, Switzerland and Belgium. EDF did not patent the PKW system. Instead it has been working collaboratively to share the PKW technology and insights with other players in the international hydropower community. Indeed, indicating international recognition of the innovative technology, several developers around the world (e.g. in Algeria, the USA and South Africa) are also installing PKWs. In 2015, EDF received a Climate Solutions Award from the United Nations Framework Convention on Climate Change on the theme of adaptation.",
+    "outcomes": "The PKW has been implemented in various hydropower facilities globally. This wide spread was facilitated by EDF’s decision not to patent this technology. The collaborative approach of the original developers, who shared the technology with stakeholders throughout the hydropower community, is one of the most important success factors of the technology. PKW is a cheap and easily installed solution compared to other overflow management technologies, such as gated systems. Furthermore, PKW technology is reliable and resilient since there is no need for manned operations or large scale maintenance. Finally, the fact that the first PKW was built by EDF, a well-known company that is well-respected in the hydropower sector, helped to convince other dam owners to install PKWs. Challenges relating to PKWs include the suitability and accessibility of certain dam sites, particularly in mountainous regions. Furthermore, the long lifetime of hydropower infrastructure and the duration of the product cycles means that the spread of new ideas and technological solutions takes time in this industry. Finally, construction at dam sites usually takes place only in the summer months, which adds further constraints to the installation of PKWs.",
+    "cost_benefit": "The cost of the PKW depends on the existing dam structure, location and also on the extent of water flow. Accessibility of the dam structure and associated equipment needs also impact on the cost. Depending on the dam, it may be more or less costly to install modifications such as PKW. Installation of PKW can cost between 200,000 and a few million Euros. In any case, the PKW can be cost-efficient, representing a relatively small component of the overall cost of the dam. Examples of PKW installation are routinely quoted as taking up to 30% of the total cost. While current gated system technology must be operated manually and requires expensive regular maintenance, PKWs do not require operating manpower and only low to no maintenance is needed.",
+    "timeline": "EDF developed the first PKW from 2003 to 2005 at the Goulours dam (Pyrenées Mountains). PKW implementation time varies on a case-by-case basis. Small projects can take a few months, whereas bigger projects can take a few years. In both cases, limitations arise due to the seasonal nature of dam construction work. Approval times are quite lengthy, involving preliminary study, detailed design, tendering, environmental studies and the approval of the authorities.",
+    "lifetime": "It is difficult to comment on the lifetime of these investments since PKW technology is relatively new and end-of-life has not yet been reached. It is expected that such concrete structures as PKWs would have the same lifetime as hydropower dams or other large civil engineering projects (i.e. 50-100 years).",
+    "stakeholders": "Since a PKW represents a small component of the overall dam, it does not have an explicit impact that is visible to or critiqued by stakeholders and NGOs. Therefore, stakeholder participation is not routinely an important part of PKW installation. Nevertheless, as with all major civil engineering projects, all PKWs follow strict environmental impact assessment procedures and need to receive government approval. These impact assessment procedures and approvals, for example through CODERST, include NGO and stakeholder consultations.",
+    "legal_context": "There is no legal obligation regarding PKW in France and legislation in this area is not expected. It is up to the dam owners to install the technology. However, improved flood management at hydropower facilities does align with some of the principles of Directive 2007/60/EC on the assessment and management of flood risks."
+  },
+  "point": {
+    "lat": 44.442665969,
+    "lon": 4.06991958618,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "edf.fr",
+      "url": "https://www.edf.fr/en/the-edf-group/world-s-largest-power-company/edf-official-partner-of-a-low-carbon-world/our-solutions-for-the-climate/piano-keys-for-reconfigured-dam",
+      "role": "contextual_input"
+    },
+    {
+      "name": "uee.uliege.be",
+      "url": "https://www.uee.uliege.be/cms/c_5026433/en/world-register-of-piano-key-weirs-prototypes",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/fd",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6ec2c48e75d542619f34bad6e180b6af",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/fd",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:22+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

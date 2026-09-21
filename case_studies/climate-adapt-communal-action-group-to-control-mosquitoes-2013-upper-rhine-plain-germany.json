@@ -1,0 +1,184 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+  "title": "Communal action group to control mosquitoes – Upper Rhine Plain, Germany",
+  "summary": "Climate change is driving the geographical expansion of the Asian tiger mosquito in Germany's Upper Rhine Plain. The Communal Action Group to Control Mosquitoes (KABS) employs ecological measures, including biological control and community involvement, to eradicate or reduce tiger mosquito populations. There is growing evidence that climate change is linked to observed and projected changes in endemicity of vector-borne disease (VBD). This is causing shifts in vector distribution and expansion of vector species into geographical regions that were previously unsuitable for climatic reasons.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Rheinhessen-Pfalz",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Rheinhessen_Pfalz__DE_",
+        "source_name": "Rheinhessen-Pfalz (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Freiburg",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Freiburg__DE_",
+        "source_name": "Freiburg (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Karlsruhe",
+        "ucode": "DEU_0001_0018_V1",
+        "dcid": null,
+        "source_code": "SUBN_Karlsruhe__DE_",
+        "source_name": "Karlsruhe (DE)"
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning",
+      "label": "early warning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Asian tiger mosquito",
+      "label": "Asian tiger mosquito"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vector-borne disease",
+      "label": "vector-borne disease"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Upper Rhine",
+      "label": "Upper Rhine"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Due to the strong mass multiplication of mosquitoes during wet/rain-rich and high temperature years, control is needed for reasons of public welfare and to create equal living conditions for all people living in the Upper Rhine Plain. The goal is to eradicate or at least significantly reduce the number of tiger mosquitoes in the Upper Rhine Plain, by using selective microbiological preparations and a control strategy based on ecological conditions. The goal of eradicating or at least significantly reducing the number of tiger mosquitos in the Upper Rhine Plain can be achieved in a way that is harmless to humans and nature. Mosquitoes are no longer regarded only as nuisance pests (as is the case of floodwater mosquitoes along the Rhine) but also as health pests, which must be eliminated or at least strongly reduced to keep the probability of transmission of viruses as low as possible The members of the Communal action group to control mosquitoes (KABS) have laid down the task and the principles of their actions in a statute: “The action group wants to curb the mosquito nuisances in the area of the Upper Rhine Plain while protecting the environment with ecologically acceptable measures, as long as the necessary funds are raised.”",
+    "measures": "Every year during the hatching season, relevant mosquito species are controlled in the Upper Rhine, through dedicated monitoring and early warning system. Since the 1970s, an association of local communities – the “Kommunale Aktionsgemeinschaft zur Bekämpfung der Schnakenplage (KABS) - Communal action group to control mosquitoes” – has been taking care of the mosquitoes (called \"Schnaken\" in the local dialect) in the region. Without its work, many areas would hardly be habitable along the Rhine river. Monitoring projects that deal with the early detection of founder populations of the Asian tiger mosquito were early developed, especially after 2007, when the first eggs of a tiger mosquito in Germany were detected at a carpark next to the motorway A5 close to Bad Bellingen in Baden-Wuerttemberg. In the following years, adults and eggs of tiger mosquitoes were also found in other locations in southwest Germany. These monitoring projects have been carried out successfully for several years. Since the tiger mosquito has established itself in the Upper Rhine Plain, the KABS has also been taking action against it. A number of cities have already commissioned the specialists from the KABS and her subsidiary organisations to monitor and control the tiger mosquito, including Freiburg, Heidelberg, Karlsruhe or Ludwigshafen. In the federal state of Baden-Wuerttemberg, various laboratory and field tests were carried out on a larger population of the Asian tiger mosquito that was newly discovered in 2015 in Heidelberg. Using an integrated ecological approach to the control of mosquitoes, the practicability and effectiveness of different measures were assessed under real field conditions, including: applying the mosquito biological control agent Bti in tablet form, releasing of sterile male adults (SIT) or lethal trap systems, specifically for female adults. At the same time the entire population of the Asian tiger mosquito in Heidelberg was monitored and controlled. Bti ( Bacillus thuringiensis subspecies israelensis strain AM65-52), a naturally occurring bacterium found in soils, is used since it contains spores that produce toxins (protein complex) that specifically target and only affect the larvae of a few Nematocera families. Most sensitive targets are mosquito larvae, less sensitive ones are larvae of blackflies, drain flies, chironomids and fungus gnats. Bti has no toxicity to other insects, other taxa or people and is approved for use for pest control in organic farming operations. Bti is used across the world for mosquito control and is used to kill developing mosquito larvae by being applied to standing water where those larvae are found. In recent years, an increasing number of tiger mosquito populations were found. In 2017 one single population was registered, while in 2020 six populations have been already found in the KABS area. At the end of the 2022 season, tiger mosquito populations were found in 15 KABS member communities. From this, a new structure within the KABS was created, which deals specifically with tiger mosquitoes. At the beginning of 2020, the \"Task Force Tiger mosquito, TFT\" was founded with a new organizational structure and control strategies were implemented. If an Asian tiger mosquito is detected in a KABS-member municipality, a targeted monitoring and vector control program is initiated. Depending on the situation and development in the course of the year, alternative approaches are applied, e.g., collecting samples, application of Bti, trap monitoring and public awareness raising campaigns. Since 2020, as soon as the tiger mosquito season begins, KABS staff go door to door, handing out leaflets which provide information about biology, prevention and general aspects of the Asian tiger mosquito and explain how to detect and report suspicious mosquitoes. After multiple treatment of the breeding sites with Bti, it is suggested that unused watering cans and buckets, for example, should be stored upside down, rain barrels covered with mosquito nets. Even the open tubes of sunshade stands should be closed. The leaflets include information about the active ingredient Bti, which can be used in tablet form in rain barrels or other water containers. In addition, trained personnel go through the private and public gardens with a pressure pump sprayer to treat breeding sites with Bti. KABS intervention is structured along this sequence of actions: KABS receives a warning about mosquito presence, either from residents, municipalities or as a result of a dedicated hot-spot monitoring The municipality and health department is informed where the mosquito(es) is (are) found, A press-release is jointly prepared by the KABS, the local health authority and the municipality. The general public of the municipality or the region is informed about the upcoming measures The site where the mosquito has been found is checked in order to understand the real relevance of the mosquito presence. The coordinates are added via an app on the smart-phone and linked to a GIS-system If no new population is found (only one individual), the monitoring is being continued. Generally the involvement of the general public is being continued too and information is provided via press-releases, posters, local radio stations, information events and municipal events. If a new population is found: The potential “area of relevance” around the site is being identified, based on experience and expert-judgement The municipality and the responsible health authority are informed about planned measures and about the support they should provide to the KABS. The involvement of the general public continues e.g. preparing press-release with municipality, informing the population about envisaged measures, supporting the KABS to provide access to the private properties and inform that a public document – a notice from the municipality – will be provided to the individual properties that need to be accessed by the KABS The KABS provides a two day training of its local KABS employees for taking the respective measures, like conducting Bti-application, trap monitoring and identification of all kinds of standing water, e.g. rain barrels on the property sites and explaining the need for the measures – this is also relevant to inform the property owners accordingly The measures are taken at the individual property level. Only one team for a specific area or even only one team member is being sent, because this increases the trust of the property owner and eases the access to the properties and the acceptance of measures All measures are tracked through an app on the smart-phone. Depending on the date of the last visit, the colour of the border of the plot automatically changes (e.g. a green property means that a KABS employee was on the site and took respective measures, orange means that between 11-14 days no KABS employee was on the property and took measures and red means that for more than 21 days, no KABS member was on site and took measures). The presence of the KABS staff as well as the measures taken are recorded and uploaded to a database to which the management of the task force has access. The trap-monitoring is continued The information provided to individual property owners is continued All important information about the monitored properties are digitally recorded on site, including the information about those properties where the access has been denied or about abandoned properties. In such cases, the municipal administration supports the work of the KABS by trying to contact the sceptical citizens or by identifying the owners of abandoned properties. The area of operation might change due to new individual findings or even new populations. By the end of the season, in late October, a final report of the season and an outlook of the next season including cost estimates are prepared by the KABS and provided to its members.",
+    "outcomes": "The positive reactions of the citizens of the KABS member communities show that the ecological mosquito control has greatly increased the quality of life on the Upper Rhine compared to earlier times. The best way to prove the control success is by comparing the catch results that were achieved at more or less the same time in sufficiently distant untreated (e.g. northern Kühkopf area, district of Groß-Gerau, Hesse) and treated areas. Each year, the KABS reduces the amount of mosquitoes in the member municipalities to a tolerable level, so that the quality of life of the people in the Upper Rhine region is maintained. Close coordination with the local authorities and maximum transparency towards the residents are important factors that determine a successful floodwater and tiger mosquito control. Factors that are limiting biological mosquito control are both economic factors and constrains related to nature conservation. Mosquito control in high value ecosystems that are protected under nature conservation legislative framework (for example wetlands along the Rhine river) must follow a targeted strategy that respect the environmental features of that area. Particularly vulnerable natural areas, like breeding areas for endangered bird species, may be even excluded from mosquito control due to nature conservation constrains However, these areas represent a small surface of the case study area, so that they do not significantly affect the success of the mosquito control initiatives.",
+    "cost_benefit": "The work of the KABS is financed exclusively by its members. The financial contribution of each member is initially calculated based on the number of residents (as at January 1 st 2022). For smaller communities with up to 1.500 inhabitants it amounts to € 8.750/year, for medium-sized up to 10.000 inhabitants € 35.000/year and for large cities with more than 100.000 inhabitants € 131.000/year. Districts pay € 47.700/year and the federal states € 57.000/year. Overall, the budget is around € 5 million/year and thus an average of € 1.50/resident/year. In addition, the costs of local control measures of around € 450.000/year are financed by those members in whose municipal area these costs are incurred. The advantages of the work of the KABS also benefit those communities with their citizens who are not members and therefore do not contribute to the costs that have to be raised to protect people near the Rhine from mosquito plagues. The floodwater mosquitoes \"Rheinschnaken\" migrate up to twenty kilometres away from the breeding area in search of a blood meal. Only in a few cases, non-adjoining municipalities are members of the KABS, e.g. from the Rhine to the east, and measures are only taken if there is an occurrence of snow melt mosquitoes in their area and thus a specific local need for monitoring and control.",
+    "timeline": "The KABS started in 1976. In 2020, the KABS was restructured and a specific Task Force to monitor and fight the tiger mosquito was established and measures implemented.",
+    "lifetime": "The KABS is assumed to continue in the long-term. On the one hand, the measures must be repeated every summer, and even more times during the season, because it is impossible stopping mosquitoes and they can reproduce very fast. On the other hand, awareness raising campaigns encouraging people not to leave pots, buckets etc. where mosquitoes can breed can lead to long-term positive effects in controlling this species.",
+    "stakeholders": "At the founding meeting of the KABS in 1976 in Philippsburg, 20 organisations (some districts as well as cities and municipalities from Germersheim, Karlsruhe, Ludwigshafen, Rhine-Neckar ,Südliche Weinstraße) declared their membership. 13 local communities from the above-mentioned districts and the city of Speyer joined the alliance in 1976 and 1977. By 1984 the number of members increased to 45 full members and three supporting members. Today the KABS has members from 94 regional authorities (92 municipalities and districts as well as the states of Baden-Wuerttemberg and Rhineland-Palatinate). The area of the KABS thus extends from Bingen or the Rheingau in the north to the municipalities at the Kaiserstuhl in the south, embracing a total of 2.7 million people. This means that all municipalities within this operational area bordering the Rhine are members of the KABS, so that all relevant and potential breeding areas can be controlled and mosquitoes cannot migrate from uncontrolled areas to the member municipalities. Right from the start, because of the movement of the “Rheinschnaken” (floodwater mosquitoes, Rhine Mosquitoes), there was also very close cooperation with the region of Alsace, France. The German federal states have also become members of the KABS because interventions for flood protection that are being developed in the Rhine river basin may include the establishment of retention areas (including polders) that need to be monitored and controlled, according to the plan approval procedure, as possible breeding areas for mosquitoes.",
+    "legal_context": "According to § 2 No. 12 IfSG (German Infection Protection Act), Aedes albopictus is one of the health pests as a potential carrier of disease. If these are detected and there is a justified risk that they will spread pathogens, then according to Section 17 (2) IfSG, the responsible authority must order the measures necessary to combat them. According to Section 1 (6) of the IfSG-ZusatzV (Bylaw to the German Infection Protection Act), the responsible authority is the local police authority, which, in accordance with Section 17 (6) of the IfSG in conjunction with Section 16 (6) and (7) of the IfSG, acts on the proposal of the health department. The locally responsible health department assesses whether there is such a risk."
+  },
+  "point": {
+    "lat": 48.4729212725,
+    "lon": 7.84423828125,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "kabsev.de",
+      "url": "https://www.kabsev.de/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=5qiSdIEEeM4",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+    "publication_date": "2022-11-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "492371bd93814b368380902582074d9d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/communal-action-group-to-control-mosquitoes-2013-upper-rhine-plain-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:02+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

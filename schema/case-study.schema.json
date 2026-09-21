@@ -1,0 +1,557 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mirror-worlds.local/schema/case-study.schema.json",
+  "title": "Mirror Worlds case study",
+  "description": "A data-driven case study indexed by administrative coverage, GCHD hazard, provenance, SDGs, and indicators.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "url",
+    "title",
+    "summary",
+    "location_scope",
+    "locations",
+    "hazards",
+    "data_sources",
+    "provenance",
+    "sdgs",
+    "indicators_measured",
+    "indicators_targeted"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": ["2.0", "2.1", "2.2"]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location_scope": {
+      "enum": ["global", "adm0", "adm1", "adm2", "non_administrative"]
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/location"
+      }
+    },
+    "hazards": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/hazardId"
+      }
+    },
+    "source_hazard_tags": {
+      "type": "array",
+      "description": "The hazard vocabulary of the source collection, kept verbatim. Tags that have no GCHD equivalent stay here so nothing is lost when hazards is narrower than the source.",
+      "items": {
+        "$ref": "#/$defs/sourceHazardTag"
+      }
+    },
+    "source_tags": {
+      "type": "array",
+      "description": "Other controlled vocabularies the source applies to the record, such as sectors or keywords. Kept verbatim for filtering and for later mapping.",
+      "items": {
+        "$ref": "#/$defs/sourceTag"
+      }
+    },
+    "population_focus": {
+      "description": "Which population groups the study is aimed at, and how that was decided.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/populationFocus"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "intervention": {
+      "description": "What was done and what came of it. Free text taken from the source, for reading rather than filtering.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/intervention"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "point": {
+      "description": "A representative point for the study, used to place it on a map when no boundary is resolved.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/point"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dataSource"
+      }
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "sdgs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sdg"
+      }
+    },
+    "indicators_measured": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/indicator"
+      }
+    },
+    "indicators_targeted": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/indicator"
+      }
+    },
+    "indicators_referenced": {
+      "type": "array",
+      "description": "Named indicators used by the study that do not have a UN Data Commons DCID.",
+      "items": {
+        "$ref": "#/$defs/referencedIndicator"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "location_scope": {
+            "const": "global"
+          }
+        },
+        "required": ["location_scope"]
+      },
+      "then": {
+        "properties": {
+          "locations": {
+            "type": "array",
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "locations": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hazardId": {
+      "enum": [
+        "river_flood",
+        "coastal_flood",
+        "tropical_storm",
+        "agricultural_drought",
+        "meteorological_drought",
+        "heatwave",
+        "extreme_heat",
+        "wildfire",
+        "sand_dust_storm",
+        "air_pollution_pm25",
+        "malaria",
+        "earthquake",
+        "volcano",
+        "landslide",
+        "armed_conflict"
+      ]
+    },
+    "administrativeUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "ucode", "dcid"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "iso3": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{3}$"
+        },
+        "ucode": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "dcid": {
+          "type": ["string", "null"]
+        },
+        "source_code": {
+          "type": ["string", "null"],
+          "description": "The region identifier used by the source collection, such as a NUTS code or the source's own region token. Kept so an unresolved unit can be matched to a GeoRepo ucode later."
+        },
+        "source_name": {
+          "type": ["string", "null"],
+          "description": "The region label exactly as the source wrote it, before any normalisation."
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "place_name", "adm0", "adm1", "adm2"],
+      "properties": {
+        "level": {
+          "enum": ["adm0", "adm1", "adm2", "non_administrative"]
+        },
+        "place_name": {
+          "type": ["string", "null"]
+        },
+        "adm0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adm1": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adm2": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lat", "lon"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "source": {
+          "type": "string",
+          "description": "Where the coordinate came from, such as the source record or a geocoder."
+        }
+      }
+    },
+    "sourceTag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocabulary", "code", "label"],
+      "properties": {
+        "vocabulary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the source vocabulary, for example climate_adapt_sectors."
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "populationFocus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["groups", "determined_by"],
+      "properties": {
+        "groups": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "children_youth",
+              "schools",
+              "women",
+              "older_people",
+              "low_income",
+              "displaced",
+              "health_patients",
+              "general_population"
+            ]
+          }
+        },
+        "determined_by": {
+          "enum": ["manual", "source_vocabulary", "keyword_scan", "llm_assisted"],
+          "description": "How the groups were decided. A keyword scan is a hint, not a curated judgement, so treat it as such when filtering."
+        },
+        "evidence_terms": {
+          "type": "array",
+          "description": "Terms found in the source text that led to the groups above.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "group_mentions": {
+          "type": "object",
+          "description": "How many times each group's terms appear. A single mention is usually incidental, so require more than one before treating a group as the study's actual focus.",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "intervention": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "objectives": {
+          "type": ["string", "null"],
+          "description": "What the study set out to achieve."
+        },
+        "measures": {
+          "type": ["string", "null"],
+          "description": "What was actually put in place."
+        },
+        "outcomes": {
+          "type": ["string", "null"],
+          "description": "What resulted, including limits and things that did not work."
+        },
+        "cost_benefit": {
+          "type": ["string", "null"],
+          "description": "What it cost and what it returned."
+        },
+        "timeline": {
+          "type": ["string", "null"],
+          "description": "When the work ran."
+        },
+        "lifetime": {
+          "type": ["string", "null"],
+          "description": "How long the measure is expected to last."
+        },
+        "stakeholders": {
+          "type": ["string", "null"],
+          "description": "Who was involved and how."
+        },
+        "legal_context": {
+          "type": ["string", "null"],
+          "description": "Policy or legal background the measure depended on."
+        }
+      }
+    },
+    "sourceHazardTag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocabulary", "code", "label", "mapped_to"],
+      "properties": {
+        "vocabulary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the source vocabulary, for example climate_adapt_climate_impacts."
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mapped_to": {
+          "type": "array",
+          "description": "GCHD hazard IDs this tag was mapped to. Empty means the tag has no GCHD equivalent.",
+          "items": {
+            "$ref": "#/$defs/hazardId"
+          }
+        }
+      }
+    },
+    "dataSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "role"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "role": {
+          "enum": [
+            "hazard_input",
+            "population_input",
+            "administrative_input",
+            "survey_input",
+            "operational_input",
+            "contextual_input",
+            "other"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "collection_name",
+        "collection_url",
+        "publisher",
+        "document_url",
+        "publication_date",
+        "retrieved_at",
+        "extraction_method"
+      ],
+      "properties": {
+        "collection_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collection_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publication_date": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "extraction_method": {
+          "enum": ["manual", "scraped", "api", "llm_assisted"]
+        },
+        "source_record_id": {
+          "type": ["string", "null"],
+          "description": "The identifier the source collection uses for this record, such as a CMS UID."
+        },
+        "source_api_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "The exact endpoint the record was read from, so a re-run can fetch the same bytes."
+        },
+        "source_content_type": {
+          "type": ["string", "null"],
+          "description": "The content type the source assigns the record, for example eea.climateadapt.casestudy."
+        },
+        "source_modified": {
+          "type": ["string", "null"],
+          "description": "When the source last changed the record. Use this to decide whether a re-scrape is needed."
+        },
+        "extracted_by": {
+          "type": ["string", "null"],
+          "description": "Name and version of the script that produced this record, for example scrape_climate_adapt.py@1.0."
+        }
+      }
+    },
+    "sdg": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["goal", "name"],
+      "properties": {
+        "goal": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 17
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "indicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dcid", "name"],
+      "properties": {
+        "dcid": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sdg_indicator": {
+          "type": ["string", "null"]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "referencedIndicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "source", "note"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

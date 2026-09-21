@@ -1,0 +1,187 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-adapting-to-heat-stress-in-antwerp-belgium-based-on-detailed-thermal-mapping",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-heat-stress-in-antwerp-belgium-based-on-detailed-thermal-mapping",
+  "title": "Adapting to heat stress in Antwerp (Belgium) based on detailed thermal mapping",
+  "summary": "The city of Antwerp, facing increasing heat stress, has adopted adaptation measures at the city-wide, local and citizen scale. This includes the development of a heat forecast and warning system, which has raised awareness at the political level. However, challenges remain for communication and technical integration. The city of Antwerp, in order to better understand the problem of heat stress, commissioned the research organization VITO to map the current and future temperatures and thermal comfort in the city.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Antwerp",
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Prov. Antwerpen",
+        "ucode": "BEL_0003_0001_V1",
+        "dcid": null,
+        "source_code": "SUBN_Prov__Antwerpen__BE_",
+        "source_name": "Prov. Antwerpen (BE)"
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Heat stress",
+      "label": "Heat stress"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "high resolution climate modelling",
+      "label": "high resolution climate modelling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat forecast system",
+      "label": "heat forecast system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "unpaved surface",
+      "label": "unpaved surface"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "blue-green infrastructure",
+      "label": "blue-green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban heat island",
+      "label": "urban heat island"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Urban greening",
+      "label": "Urban greening"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "Motivated by the research results, the city of Antwerp decided to implement adaptation measures to tackle the problem of heat stress in the city. The goals of the identified set of measures are to: (i) reduce the local heat stress as much as possible through changes in the built environment, (ii) inform citizens about the problem, (iii) engage them through citizen science campaigns, and (iv) minimize the health impacts with a heat forecast and warning system, targeting vulnerable groups.",
+    "measures": "To achieve optimal results, the adaptation measures are implemented simultaneously on three scales: 1) city-wide, 2) local and 3) the individual person. The implementation of the adaptation measures described here just started or have been planned. Full implementation and city-wide results will take a long time and are only expected to be completed by 2030. City-wide scale The construction of buildings in the city of Antwerp is regulated by a building code , which all inhabitants and developers need to adhere to when renovating or constructing a building. In this code, specific instructions were added (9/10/2014) to help reducing heat stress in the city over time: For all new or renovated roofs with a slope of less than 15% and a surface area of more than 20m², it is compulsory to install a green roof on top. This drastically lowers the temperature of the roof and cools air temperature by retaining and evapo-transpiring rain water. Additionally, green roofs provide extra thermal isolation for the building reducing the need for heating and cooling. All new installed private gardens and open parking lots need to be green and permeable. Only 20m² can be paved in gardens <60m² and only 1/3 in gardens >60m². All outdoor private parking lots need to have a permeable grassed surface. The majority of the buildings in the city centre have historical plaster facades. When renovated, these building fronts need to be painted in the original light, preferably white colour. White buildings reflect more sunlight and will not warm up as easily as dark buildings, thereby reducing the heat radiation from these buildings. Local scale Regularly, large squares, parks and neighbourhoods in the city are renovated. During the planning phase, the city administration included the optimisation of the thermal comfort situation as a new factor to be considered. To enable targeting actions, detailed information is needed on the local microclimate. Advised by VITO, the city of Antwerp has decided to use the Wet Bulb Globe Temperature (WBGT) indicator when assessing and optimizing the heat stress impact of renovation plans. WBGT, in contrast to simple temperature measurements, takes into account the radiation load (both shortwave and longwave), humidity and wind speed, which all influence human thermal comfort. Several detailed (1m resolution) modelling studies were performed by VITO to quantify the local WBGT values and assess the potential impact of planned adaptation measures. This led to the inclusion of green-blue infrastructure measures (e.g. trees, permeable surfaces, water ponds, fountains) in renovation plans. The modelling was complemented by a citizen science measurement campaign during the summer of 2018 in the framework of the H2020 Ground Truth 2.0 project. About 20 residents of Sint-Andries neighbourhood were engaged in measuring the WBGT in various types of locations. Besides validation of the model results, this campaign raised awareness of the heat stress problem and stimulated a discussion about the possible adaptation measures. Individual scale In Belgium, ‘heat health action plans’ are triggered based on temperature forecasts in rural settings. This leads to underestimation of heat stress in cities like Antwerp, where a considerable urban heat island effect causes twice as many heat wave days in urban areas than in the rural surroundings. In order to provide more accurate heat stress forecast for Antwerp, a short-term (5 day) heat forecast system, based on a combination of the regular European forecast model by ECMWF and the UrbClim model, was set up by VITO. The system delivers a forecast for each neighbourhood of Antwerp, taking into account the urban heat island effect. This allows efficient deploying of aid resources, targeting mostly the vulnerable elderly and children, to the places where they are needed most. Furthermore, a web platform was developed by the city of Antwerp to issue heatwave warnings to health aid workers and other relevant stakeholders, including advice what to do in case of a heatwave. The system is active during the warm months of the year in Belgium (April-September) and is managed by the city administration.",
+    "outcomes": "The main success of the research on heat stress and climate change in Antwerp was to raise awareness about this topic at the political level, generating the political will (and funding) to tackle this problem. Furthermore, this research resulted in the adaptation of the Antwerp building code and feeds into Antwerp’s Climate 2030 plan - a climate mitigation and adaptation plan in the framework of the Covenant of Mayors that is currently under development. Communication emerges as key issue in collaboration between researchers and city practitioners. This concerns communication between individual partners (e.g. for agreeing on project goals), communication among individual city departments involved, and suitable forms of communication between city officials or scientists and citizens. Researchers also experienced some technical problems since using real time data was not yet fully incorporated in the city’s IT infrastructure.",
+    "cost_benefit": "The research on heat stress and climate change has been mainly funded by European projects (FP7 RAMSES and NACLIM, H2020 Climate-fit.city and Ground Truth 2.0), which also covered a part of the in-kind costs for the city of Antwerp. Only one specific heat stress measurement and modelling study has been funded by the city of Antwerp itself and costed about 70,000 euro. The implementation of adaptation measures at the city-wide and the local scale (green roofs, trees, unpaved surfaces, ponds, fountains, etc.) is ongoing, but mostly still in a planning phase, so it is difficult to quantify direct costs and benefits. Besides the in-kind costs for the city of Antwerp, the heat forecast and warning system had a development cost around 20,000 euro and a yearly maintenance cost about 10,000 euro. Co-benefits include the improved communication and collaboration between city departments, increasing heat stress and climate change awareness of politicians and citizens, integration of heat stress adaptation measures in city planning (which also have beneficial effects on health, biodiversity, flooding, drought, etc.).",
+    "timeline": "The research on heat stress and climate change for the city of Antwerp started in 2013 and is still ongoing. Several components (e.g. heat stress maps, measurement campaigns) were performed in dedicated time windows, typically taking a few months to a year. The implementation of adaptation measures at the local scale proves to be a slow process, and concrete realisations at the city-wide scale have yet to materialize. Full implementation and city-wide results are only expected to be completed by 2030. The heat forecast system and web platform has been developed and set up in less than a year.",
+    "lifetime": "The measures described above (building code changes, heat stress adaptation measures, heat stress forecast) are meant to be long-lasting embedded in city operations and have no specified time range or lifetime.",
+    "stakeholders": "A co-creative approach was started between the city administration and companies involved (VITO, UNESCO IHE, Antwerp Smart Zone) to set up and test the heat forecast alarm and web platform. Several workshops for citizens were organized where the city administration and researchers introduced the heat stress problem and possible adaptation measures were discussed. Participating citizens were involved in evaluating and testing the first prototypes of the heat forecast alarm and web platform. Furthermore, citizens mapped heat stress and cool spots in one of the city’s neighbourhoods, while working out strategies to improve the thermal comfort in their neighbourhood with a focus on the vulnerable population.",
+    "legal_context": "The research on heat stress and climate adaptation has led to concrete changes in Antwerp’s building code , which regulates the construction of buildings in Antwerp. It also feeds into Antwerp’s Climate 2030 plan, a climate mitigation and adaptation plan in the framework of the Covenant of Mayors that is currently under development."
+  },
+  "point": {
+    "lat": 51.2068833949,
+    "lon": 4.41650390625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "cordis.europa.eu",
+      "url": "https://cordis.europa.eu/project/id/689744",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/adapting-to-heat-stress-in-antwerp-belgium-based-on-detailed-thermal-mapping",
+    "publication_date": "2020-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6791dc9d10f34a8895ffb9e34f2fccd8",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/adapting-to-heat-stress-in-antwerp-belgium-based-on-detailed-thermal-mapping",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:18:48+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

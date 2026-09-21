@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-reducing-the-risk-of-local-dengue-transmission-in-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+  "title": "Reducing the risk of local dengue transmission in France",
+  "summary": "To curb the spread of dengue, chikungunya, and Zika, enhanced surveillance, mandatory reporting, epidemiological investigations, and preventive measures are implemented in France. Although no quantitative estimates exist about saved lives, the system is expected to significantly reduce the risks of disease transmission, due to early detection of cases. The risk of local outbreaks of dengue is growing in many areas across Europe due to increasing urbanisation and globalisation. In addition, climate change increases climatic suitability in Europe for Aedes albopictus, an invasive mosquito species acting as a vector for the dengue virus. In France, Aedes albopictus is already widespread.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "patients"
+    ],
+    "group_mentions": {
+      "health_patients": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The aim of the enhanced surveillance is to detect the imported and autochthonous cases as soon as possible and to design and implement the public health interventions to reduce the risk of infection transmission. This includes the following objectives: Raised awareness of both the healthcare professionals and the general public; Detection of the dengue cases through systematic testing and immediate notification to the health authorities, major laboratory platforms database search, and epidemiological investigations; Entomological investigation around each viraemic case and effective vector control; Implementation of Substances of Human Origin (SoHO) safety.",
+    "measures": "Since 2006 in metropolitan France, a national strategy for preventing the spread of chikungunya and dengue in France has been implemented each year; Zika virus was included in 2016 . The monitoring system combines human and entomological monitoring with prevention and control measures. The risk is assessed according to the presence of the mosquito and the occurrence of autochthonous case(s). Dengue is a notifiable disease. This means that clinicians and biologists should report any confirmed or probable cases of dengue to their Regional Health Agency. After validation of the report, the Regional Health Agency transmits the information to Public Health France. Sociodemographic, clinical (symptoms, date of onset of symptoms), biological and epidemiological (travel outside metropolitan France, date of return to metropolitan France) data provided by the affected individuals make it possible to describe the cases, their period of stay in a viral transmission zone and their period of virus presence in the blood i.e., viraemia ( Terrien et al., 2019 ). In addition, Santé publique France Regional Offices review daily arbovirus diagnostic tests conducted in a nationwide network of laboratories to identify cases which have not been directly reported by doctors or laboratories. Each year, regional health authorities launch the enhanced surveillance period with awareness campaigns targeting health professionals on the diagnosis and reporting of dengue, chikungunya, and Zika cases. This involves providing information via email, webinars, and press releases. Epidemiological investigations are carried out for each case, whether imported or autochthonous. In the case of autochthonous cases of dengue, confirmation by the national arbovirus reference centre of the first case of a local transmission event is sought. This is followed by active case search by regional health authorities and Santé publique France Regional Offices, with engagement of municipalities. This includes door-to-door surveys (within 150m to 250 m radius area), and fingertip blood sampling for suspected cases. This may cover up to 1000 households, depending on population density. In locations with high density population, the information may be delivered to mailboxes or as posters in common areas of apartment buildings. Entomological teams investigate the locations where viraemic dengue cases (imported or autochtonous) live or work, and, if needed, other places that infected persons may have visited between 2 to 7 days after symptoms onset. These control measures include the destruction of breeding sites and, if necessary, targeted larvicide and/or adulticide treatments within a perimeter of 150 to 200 meters around the places frequented by the case during the infectious period ( Terrien et al., 2019 ). Another step is the information and awareness raising by the regional health authorities among clinicians, general health practitioners and pharmacists in the transmission area (via emails and phone calls) on prevention and reporting of dengue. A press release is issued for residents, informing about the infection risk, disease symptoms, and control measures that are being taken by the government, and practical tips to minimize mosquito reproduction.",
+    "outcomes": "The French dengue surveillance system appears to be sufficiently sensitive to detect autochthonous transmission and sufficiently efficient to limit their spread ( Terrien et al., 2019 ; Cochet et al., 2022 ). Initially the entomological surveys and vector control measures were implemented for each suspected case, without waiting for the laboratory results. However, the majority of these suspected cases tested negative for dengue and other arboviruses, thus the implemented measures were unnecessary. To improve efficiency, the efforts became concentrated on speeding up the laboratory confirmation. A long reporting delay of imported cases to local health authorities has been identified as the main driver for autochthonous transmission of dengue and chikungunya in Southern France ( Jourdain et al., 2020 ). Actions to reduce the delay in identification of cases include the sensitization of medical doctors and microbiologists about the importance of rapid notification and strengthening the laboratory catch-up by improving the deadlines for communicating biological results by nationwide private laboratories ( Terrien et al., 2019 ). Sustaining the French dengue surveillance system requires involvement and engagement of key stakeholders. This includes (i) consolidation of the network of reporting laboratories; (ii) raising awareness among patients to seek medical consultation for influenza-like illness without respiratory symptoms, especially if patients test negative for COVID-19; and (iii) orientation of health professionals to the diagnosis and reporting of arboviral diseases ( Terrien et al., 2019 ; Cochet et al., 2022 ). In addition, surveillance activities must be supplemented by encouraging the general public to reduce mosquito breeding sites, and by raising awareness among travellers on the means of preventing mosquito bites ( Terrien et al., 2019 ). The door-to-door surveys following an autochthonous case are generally very much appreciated by residents, since the teams explain the situation, answer questions and provide reassurance. For the awareness campaigns in the event of detected autochthonous dengue cases, direct contact with health professionals has been found to work well. Targeting individual communities is more effective than information campaigns at the NUTS3 level.",
+    "cost_benefit": "No specific quantitative cost estimates for dengue are available yet. An assessment of the economic costs of biological invasions of alien species in France - using the comprehensive global database InvaCost – shows that France leads the rank of European countries (EEA-38) with the highest estimated economic costs resulting from invasive species ( Manfrini et al., 2021 ). Aedes mosquitos are responsible for 36% of all costs or at least 410 million EUR between 1993 and 2018 (recorded costs only). Among the total costs, costs for the health sector take the largest share (25%). The majority of costs (79%) originates from damage to health; a minority (13%) is associated with vector control ( Manfrini et al., 2021 ). There are no quantitative estimates about the benefits of the surveillance system in terms of saved lives and infection reduction. However, the surveillance system is expected to significantly reduce the risk of local dengue transmission, due to early detection of cases .",
+    "timeline": "The French arbovirus surveillance system has been deployed in mainland France since 2006. The enhanced surveillance has been implemented between May and November since 2006.",
+    "lifetime": "The enhanced surveillance is implemented every year between May and November, corresponding with the Aedes albopictus mosquito season.",
+    "stakeholders": "Epidemiological surveillance is carried out at the regional level by the Regional Health Authorities and the regional offices of Santé publique France. It is also based on a network of laboratories carrying out diagnoses of these arboviruses as well as on the National Reference Centre for Arboviruses (CNR). Santé publique France coordinates epidemiological surveillance at the national level. Entomological surveillance, as well as mosquito control interventions, are carried out by mosquito control operators. The engagement of the individual health practitioners is crucial to ensure appropriate diagnosis and reporting of the disease.",
+    "legal_context": "The national legal framework that regulates the surveillance system in France is composed of several laws aimed to: specify the intervention framework for the prevention of mosquito-borne diseases (arboviruses), i.e. dengue, Zika, chikungunya, yellow fever, West Nile virus ( Instruction n° DGS/VSS1/2019/258 du 12 décembre 2019 ) regulate the modalities of for surveillance, detection and survey interventions, treatments and related activities works with regard to human diseases transmitted by mosquitoes ( Aedes, Anopheles and Culex ) ( Arrêté du 23 juillet 2019 ) settle the accreditation of organisations that can implement entomological surveillance, interventions for detection and prospection of insects and diseases, and treatment ( Arrêté du 23 juillet 2019 ) set up the legal basis for the implementation of measures to prevent vector-borne diseases transmitted by insects ( Décret 2019-258 du 29 mars 2019 – application en 2020)"
+  },
+  "point": {
+    "lat": 48.818262292,
+    "lon": 2.426544021,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "santepubliquefrance.fr",
+      "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-transmission-vectorielle/chikungunya/articles/donnees-en-france-metropolitaine/chikungunya-dengue-et-zika-donnees-de-la-surveillance-renforcee-en-france-metropolitaine-en-2022",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+    "publication_date": "2023-02-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ddc8b7fb10ac4c01bc7808ee8a0e7bf2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/reducing-the-risk-of-local-dengue-transmission-in-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:09+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

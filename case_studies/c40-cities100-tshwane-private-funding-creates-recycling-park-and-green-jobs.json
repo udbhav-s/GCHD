@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-tshwane-private-funding-creates-recycling-park-and-green-jobs",
+  "url": "https://www.c40.org/case-studies/cities100-tshwane-private-funding-creates-recycling-park-and-green-jobs/",
+  "title": "Cities100: Tshwane – Private Funding Creates Recycling Park and Green Jobs",
+  "summary": "This C40 case study describes “Cities100: Tshwane – Private Funding Creates Recycling Park and Green Jobs,” an urban initiative documented for Tshwane. It is included because it is located in the Global South. C40 describes the action this way: The Atteridgeville Recycling Park is the first multi-waste stream recycling facility developed via a public-private partnership in South Africa. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tshwane",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Tshwane",
+        "ucode": "ZAF_0003_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tshwane",
+      "label": "Tshwane"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "More than 10 million tons of CO2 equivalent emissions come from Tshwane's current landfilling practices annually. The city is rapidly running out of landfill space, and it does not have the required capital to develop recycling infrastructure. Private sector funding has offered a solution to develop advanced recycling centers.",
+    "measures": "The Atteridgeville Recycling Park (ARP) is being developed on public land in Tshwane with private financing through a novel 'build, operate, and transfer'agreement. The concessionaire, New GX Enviro, will operate the facility for 15 years, before ownership of the waste management facility reverts to the city at no cost. Two phases of the ARP have been completed so far, the material recovery facility, and the garden waste composting facility. These represent $5.2 million of a planned $16.4 million investment. The next phases are a municipal waste screening facility, which will separate organic and inorganic waste, and a construction and demolition waste disposal facility. The facility will serve 300,000 households in the surrounding regions and divert waste from landfill. It is also creating permanent jobs for the people of Atteridgeville, a historically disadvantaged area.\n Environmental Benefits – The recycling park will divert a significant portion of garden and recyclable waste in Tshwane from landfills, with consequent savings in greenhouse gas emissions. Since being launched in November 2016, more than 10 tons of garden waste has been composted.\n Economic Benefits – For the city, the economic benefit of the public-private financing model is that the waste management facility has been constructed without significant outlay of public funds, whilst the private operator is providing much-needed employment.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-tshwane-private-funding-creates-recycling-park-and-green-jobs/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27362",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-tshwane-private-funding-creates-recycling-park-and-green-jobs&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

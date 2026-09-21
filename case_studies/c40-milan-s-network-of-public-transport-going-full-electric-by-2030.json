@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-milan-s-network-of-public-transport-going-full-electric-by-2030",
+  "url": "https://www.c40.org/case-studies/milan-s-network-of-public-transport-going-full-electric-by-2030/",
+  "title": "Milan’s Network of Public Transport Going Full Electric by 2030",
+  "summary": "This C40 case study describes “Milan’s Network of Public Transport Going Full Electric by 2030,” an urban initiative documented for Milan. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: “Full Electric 2030” is the Milan Transports Utility (ATM)'s plan to convert the entire network of public transport to electric power by…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Milan",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Lombardia",
+        "ucode": "ITA_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Milano",
+        "ucode": "ITA_0009_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "milan",
+      "label": "Milan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "“Full Electric 2030” is the Milan Transports Utility (ATM)'s plan to convert the entire network of public transport to electric power by 2030.",
+    "measures": "“Full Electric 2030” is the Milan Transports Utility (ATM)'s plan to convert the entire network of public transport to electric power by 2030. In twelve years, the whole fleet of transport means will be only composed of electric vehicles, including 1,200 electric buses, serving both the city and the metropolitan area. These will be supported by 83 electric service cars for assisting transports, monitoring operations and maintaining subway and tram centers. Moreover, three full electric hubs will be built and four existing bus depots will be progressively transformed to host the new buses, through the installation of smart electric recharge points. To ensure that the system is 100% electric, ATM has also moved to a new electricity provider exclusively supplying certified renewable energy. \n These measures to create green and healthy streets are in-line with many of the commitments undertaken by the municipality, which include the C40 Fossil Fuel Free Streets Declaration , the Sustainabile Mobility Urban Plan and the Action Plan for Sustainable Energy .\nThe elimination of diesel from public transport is expected to result in less pollution, thus making the air cleaner and roads quieter and, therefore, improve the livability of the city\n What is the policy? \n Several innovative smart sustainable technologies will be deployed as part of the public transport network electrification.\n The bus depots feature: \n Slow charge plug-in with modular substations in containers \n CCSCombo2 socket: direct current 400/850V – 100kW \n Intelligent charging systems that will allow users to adjust the amount of power used depending on the time available for charging, the number of buses and the remaining charge installed. \n Chargers with variable output voltage depending on the different types of bus batteries and the charge status of the batteries themselves.\n The Quick Charge terminus grappled initially with the challenge of having a high power available in distributed locations. The solution found involved connecting the battery chargers directly to direct current overhead power supply or to the metro medium-voltage subway cabins, Thus the charge terminus features:\n Quick Charge/Opportunity Charge with “top down” pantograph \n Energy withdrawal from the overhead tramway line, direct current 400 / 850V – 200kW\n Energy withdrawal from medium-voltage subway cabins, direct current 400/850V – 200kW \n Online charging is necessary to increase the autonomy in the seasons when the air conditioning is switched on. There are currently only 13 terminuses that are equipped. By 2030 there will be 100.\n What are the CO2 reduction goals and achievements? \n CO2 Reduction: Thanks to the replacement of diesel with electric vehicles, by 2030 the Milan Transports Utility fleet will consume 30 million litres/year diesel less, thus reducing CO2 emissions of almost 75,000 tons/year. \n This final goal will be achieved through an intermediary step, thanks to the purchase of 215 electric buses and 295 hybrid buses by the end of 2022. By then, the reduction in diesel consumption will be of 6.5 million litres/year, corresponding to a decrease in carbon emissions of 16,000 tons/year. The new contract for the supply of electric power produced 100% from renewable sources will save 100,000 tons of CO2 emissions yearly.\n Air Quality: The replacement of diesel vehicles with electric and hybrid buses will reduce the emissions of hazardous air pollutants, especially of particulate matter. In general, the decreased use of fossil fuels, both by transport means and for the production of electricity, will reduce the environmental impact of all the phases of their lifecycle (exploration, extraction, production and waste management), positively affecting air quality.\n Next Steps \n When finished, this electrification project will cover 100% of the bus fleet and it will upgrade all the existing bus depots.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/milan-s-network-of-public-transport-going-full-electric-by-2030/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27475",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=milan-s-network-of-public-transport-going-full-electric-by-2030&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

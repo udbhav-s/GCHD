@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-reducing-car-usage-in-beijing-the-green-traveler-reward-platform",
+  "url": "https://www.c40.org/case-studies/reducing-car-usage-in-beijing-the-green-traveler-reward-platform/",
+  "title": "Reducing Car Usage in Beijing – The Green Traveler Reward Platform",
+  "summary": "This C40 case study describes “Reducing Car Usage in Beijing – The Green Traveler Reward Platform,” an urban initiative documented for Beijing. It is included because it is located in the Global South. C40 describes the action this way: The “Green Traveler Platform” has been initiated by the Beijing Environmental Exchange, a corporate domestic and international environmental equity public trading platform.…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Beijing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Beijing Shi",
+        "ucode": "CHN_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "beijing",
+      "label": "Beijing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The “Green Traveler Platform” has been initiated by the Beijing Environmental Exchange, a corporate domestic and international environmental equity public trading platform. The platform unites car networking companies, insurance companies, banks and other partners to promote a new integrated model in which public and private join hands to encourage a low-carbon society. The participants are rewarded based on how much they cut off driving. They may be rewarded up to hundreds or thousands RMB.",
+    "measures": "The “Green Traveler Platform” has been initiated by the Beijing Environmental Exchange, a corporate domestic and international environmental equity public trading platform. The platform unites car networking companies, insurance companies, banks and other partners to promote a new integrated model in which public and private join hands to encourage a low-carbon society. The participants are rewarded based on how much they cut off driving. They may be rewarded up to hundreds or thousands RMB.\n What is the innovation ? How does it work? \n The platform uses smart devices to identify each user's emission reduction behavior, displaying reductions directly in everyone’s personal 'emissions reduction account'. Through a voluntary trading model, users’ emission reductions are then converted into cash.\n There are two ways of participating in the scheme:\n 1) Participation with deposit. The vehicle owner must pay 499 RMB as a deposit for the onboard smart equipment. After the equipment is installed, the driver can get a reward of 0.5 RMB per day.\n 2) Participation without deposit. The vehicle owner buys the car insurance and uses the onboard smart device for free. After the car insurance takes effect, the car insurance platform rewards with 0.5 RMB per day, and the extra reward given by the car networking company can be obtained by cutting off driving.\n Based on recent data, the annual reward can vary from hundreds to thousands of RMB. The more you avoid driving, the bigger is the reward.\n Links to further information \n http://www.cbex.com.cn/article/xxpd/bjsdt/201801/20180100061304.shtml (Chinese)\n http://www.huaxia.com/jtsd/bjyw/2018/01/5627986.html (Chinese)\n Contact Details \n Beijing Environment Exchange\n Tel: (010) 66295566",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/reducing-car-usage-in-beijing-the-green-traveler-reward-platform/",
+    "publication_date": "2019-03-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27433",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=reducing-car-usage-in-beijing-the-green-traveler-reward-platform&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

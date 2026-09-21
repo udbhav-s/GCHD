@@ -1,0 +1,169 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+  "title": "IRRINET: IT irrigation system for agricultural water management in Emilia-Romagna, Italy",
+  "summary": "IRRINET, a web-based irrigation system developed in Emilia-Romagna region, assists over 12000 farms in daily irrigation scheduling. It efficiently manages water resources, contributing to saving around 90 million cubic meters annually, equivalent to 20% of the region's agricultural water demand. IRRINET is an IT irrigation system aiming to advise farmers on efficient water management. This web service was developed with public funding by the CER (Canale Emiliano Romagnolo, a water consortium located in the Emilia-Romagna region) based on a 1984 project which tested the use of telematics tools in agriculture in Emilia-Romagna.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": "ITA_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "irrigation",
+      "label": "irrigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "decision support system",
+      "label": "decision support system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "IRRINET",
+      "label": "IRRINET"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water saving",
+      "label": "water saving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "scheduling",
+      "label": "scheduling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water balance",
+      "label": "water balance"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Emilia-Romagna is a leading region in Italian agricultural production with more than 84,000 farms and about 1 million hectares invested. About 33% of the regional farms include irrigated land. In this context it became more and more important to use the water as efficiently as possible. Water scarcity and drought events are increasing in Emilia-Romagna and climate change is expected to worsen such situation, with consequent reduction of the amount of water available for agriculture. Considering the 2012 and 2013 drought events which affected Italy and in particular some areas of the Po valley, the Emilia-Romagna regional authority has put pressure to improve water use efficiency, introducing new criteria regarding water resources governance and management and developing and adopting innovative techniques that may enable farmers to improve overall economic and sustainable production, such as water scheduling. For these reasons, it is important to estimate quantitatively the anticipated effects of climate change on irrigation water requirements. The IRRINET system provides an answer to this issue, incentivizing an effective use of water resources, without decreasing the quality of crop production. In the long term, and particularly in regard to climate change and variability, IRRINET optimises the use of water resources and sustains agricultural production, especially in dry years.",
+    "measures": "IRRINET is an expert-based and free of charge information system for irrigation scheduling which implements the results of more than 50 years of research on plant/water relation and sustainable irrigation management. Irrigation scheduling is determined applying a complex mathematical model based on daily water balance of the soil-plant-atmosphere system aimed at crop irrigation management at a field scale. Different data and information are combined to estimate the exact volume of water demand, including: how much rainwater infiltrates the ground; simulation of the growth of the plant root system and alternation of the phenological phases; state of water stress in the crop; contribution of underground water and the flow of water through three layers of soil (surface layer occupied by the roots and the underlying layers). In few seconds the weighting of these elements are communicated in form of a short message service (SMS) and information through Web interface and Tablet App. In this way, the growers are equipped with an easy to use and understandable information on how much water their crop has used, how long they need to run their pump or drip system during irrigation and in which part of their property they have to act, thanks to integration with Google maps where the single plot of land is geolocalized. The data processed by IRRINET are gathered on daily basis and comes from three different sources: the regional Weather Service provides meteorological (rain and evapotranspiration) data; the regional Geological Service supplies soil data and the cultural parameters are provided by the CER. The IRRINET information systems allows the user to store parameters on yearly, monthly and daily basis and customize the service by specifying additional information on the agriculture plots, types of crop, local soil moisture data, carried out irrigations and local groundwater data. The first IRRINET prototype, which included a web-interface, was developed by CER in 1999 with the arrival of Internet, based on the outcome of a 1984 project aimed at testing the use of telematics in Emilia Romagna agriculture. In 2009 IRRINET evolved in IRRINET Plus which implements economic calculation of the benefit related to irrigation through a traffic light advisory system. Farmers are stimulated by the economic approach to maximise profit while reducing water overuse. The experts involved in further advancing IRRINET are working on a closer integration with open GIS information layers that may reduce the amount of data the users are requested to register in the system and on the use of satellite information to determine the effective crop coefficients (Kc) for the water balance calculation. IRRINET service currently involves more than 12,000 farms, covering almost 22% of the irrigated area in the Emilia-Romagna region. In the 2017 irrigation season 28,500 IRRINET SMS were sent and 147,000 irrigation scheduling were produced. IRRINET application in 2017 allowed water saving for more than 90 million m 3 . Starting from 2011, a national project called IRRIFRAME managed by ANBI brought the service to all the areas managed by the Italian reclamation boards and irrigation agencies. The IRRIFRAME service is applied in 26,100 parcels all over the Italian country and has been improved year-by-year based on users’ feedback and the outcome of research.",
+    "outcomes": "At early 2019, IRRINET-IRRIFRAME is present in 16 Italian regions and involves 69 Land Reclamation Boards and more than 16,000 users, 12,000 out of which are only in Emilia-Romagna region where the service is more consolidated. The key element which made this initiative successful is the simple, with low management costs, user friendly information system that has been set up for farmers to decide when and how much to irrigate. This service is accessible without charge of fees and is tailored for a large number of crops. Given the direct benefits for the users in terms of water and energy savings, water managers (i.e. Land Reclamation Boards) and water authorities (i.e. the Rural Development Plans of the Emilia-Romagna region) encourage and incentivize farmers to adhere to IRRINET. As stated in the Emilia-Romagna regulations, instead of relying on water for irrigation purposes managed by Land Reclamation Board, IRRINET users are allowed to withdraw surface water from the whole Reno basin during water shortage conditions. Moreover, they are obliged to register to IRRINET in case they are interested to apply for funding from the regional Rural Development Plan. IRRINET-IRRIFRAME can be easily transferred to other contexts wherever local data are available, in particular to calibrate the model to local conditions. Limitation can for example affect the availability of meteorological data (daily min, max and average temperature and hourly rain) or of georeferenced soil maps. These latter, if available, can reduce the input needs for soil parameters estimation and make output results more robust. The next challenges for the service evolution will be the integration with sensor and actuator systems, as well as input crop coefficient data provided by remote sensing, to cope with both few information provided by user or available on the area and the needs of more accuracy in soil water content calculation.",
+    "cost_benefit": "Starting from 1999, the IRRINET service has been supported and co-funded by CER, Emilia-Romagna region, ANBI and the European Union. Costs for the development of the (IT) irrigation information system amounted to 200.000 euros including research and test activities. Overall, the platform exhibits very low management costs which is around 0.02 €/ha and the service is provided for free to the final users.",
+    "timeline": "The IRRINET system is operative since 1984 with telematics tools and since 1999 with web tools. The extension with the IRRIFRAME system was implemented in 2 years from 2011 to 2013. The IRRIFRAME WEB and APP are currently (early 2019) under an update phase implemented and managed by Agronica Group Srl. A new version will be available by the end of 2019.",
+    "lifetime": "The IRRINET-IRRIFRAME system is updated according to IT developments on average every 3-5 years.",
+    "stakeholders": "IRRINET was developed and is managed by CER. Starting from 2011 the service has been subsequently supported and co-funded by the Emilia-Romagna Region and ANBI in collaboration with CER, including also EU contribution. Year by year, users feedbacks have driven the evolution of the IRRINET and IRRIFRAME systems.",
+    "legal_context": "The Italian Ministry of Agricultural, Food and Forestry Policies uses IRRIFRAME to plan agriculture policies in response to the European Commission's observations about water savings (according to the Water Directive Framework and in response to the requirements of the Guidelines for Water Protection). Additionally, some regional guidelines mention IRRINET - IRRIFRAME as a supporting tool to fulfil the water conditionality of the European Regional Development Fund regulation and respecting IRRINET-IRRIFRAME irrigation scheduling is mandatory for many farmers."
+  },
+  "point": {
+    "lat": 44.5278427985,
+    "lon": 11.42578125,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "irriframe.it",
+      "url": "https://www.irriframe.it/Irriframe",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4accee4ba63948fa8a168a30f400819e",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/irrinet-it-irrigation-system-for-agricultural-water-management-in-emilia-romagna-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:25+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

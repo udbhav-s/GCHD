@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-bengaluru-using-intelligence-to-create-better-public-transport",
+  "url": "https://www.c40.org/case-studies/cities100-bengaluru-using-intelligence-to-create-better-public-transport/",
+  "title": "Cities100: Bengaluru – Using Intelligence to Create Better Public Transport",
+  "summary": "This C40 case study describes “Cities100: Bengaluru – Using Intelligence to Create Better Public Transport,” an urban initiative documented for Bengaluru. It is included because it is located in the Global South. C40 describes the action this way: By using big data and an electronic tracking system, the City of Bengaluru can optimize the operation of public transport…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bengaluru",
+      "label": "Bengaluru"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Getting an overview of the BMTC, which operates a fleet of 6,000 buses and serves five million passengers every day is a difficult task. An ITS was designed to improve the efficiency and operations of the buses, incentivizing even greater ridership numbers from the citizens of Bengaluru.",
+    "measures": "Nicknamed 'the Silicon Valley of India', Bengaluru saw the introduction of an intelligent transport system (ITS) as a natural next step in support of the city's bus rapid transit system. In order to provide real-time information about the buses, the Bengaluru Metropolitan Transport Corporation (BMTC) deployed an ITS featuring a GPS-enabled vehicle tracking system, electronic ticketing machines, a passenger information system (PIS), control room, and data center. The system will improve user mobility by providing reliable real-time information on bus arrivals and route information to commuters via PIS, website, and an app. The operators can monitor and track buses and their performance, improving efficiency by route optimization, decreasing operational costs, and optimizing resource utilization. The $10.9 million project launched in 2016 and is expected to be fully implemented in 2021. The project will also include installation of 10,000+ handheld electronic ticket machines and vehicle tracking systems in 6,400 buses.\n Environmental Benefits – Improved information has led to increased loyalty from commuters and modal shift of passengers from private cars to public transport, reducing pollution.\n Economic Benefits – The system enabled BMTC to establish and maintain tight control over operations, resulting in an increase in total effective kilometers covered daily, making a positive impact on the system's financial performance.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bengaluru-using-intelligence-to-create-better-public-transport/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27342",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-bengaluru-using-intelligence-to-create-better-public-transport&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

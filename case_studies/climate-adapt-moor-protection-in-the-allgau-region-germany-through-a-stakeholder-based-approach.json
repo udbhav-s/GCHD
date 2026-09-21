@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+  "title": "Moor protection in the Allgäu region (Germany) through a stakeholder-based approach",
+  "summary": "By fostering collaboration between nature conservation, regional development, and tourism, the \"Allgäuer Moorallianz,\" initiative engages stakeholders, particularly farmers and landowners, to ensure long-term conservation. The Moorallianz has successfully implemented measures on bog habitat areas. “Allgäuer Moorallianz” is an initiative which was founded in 2007 aiming to foster moor protection in the Allgäu region. The Allgäu region belongs to the Bavarian Alpine foreland (Germany) and hosts one of the most important hotspots of high wetland with its diversity of moor types existing across the young moraine landscape and at different elevation levels.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Schwaben",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Schwaben__DE_",
+        "source_name": "Schwaben (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Allgäu region",
+      "label": "Allgäu region"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "conservation",
+      "label": "conservation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "regional development",
+      "label": "regional development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "moor",
+      "label": "moor"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetland",
+      "label": "wetland"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bog",
+      "label": "bog"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The overall aim of the “Allgäuer Moorallianz” initiative is to counter biodiversity loss by protecting and restoring the Allgäu moor landscape, in close integration with sustainable regional development. The establishment of suitable economic conditions for regional stakeholders (e.g. those involved in agriculture, forestry and tourism sectors) is highly relevant to ensure a long-term conservation approach. “Allgäuer Moorallianz” aims at establishing a stable cooperation between landscape management, nature conservation and regional economic development. This requires a strong commitment among all stakeholders involved. “Allgäuer Moorallianz” stresses the importance of the ecosystem services (such as water quality and quantity regulation) provided by the Allgäuer moor landscape, including in particular its contribution to the reduction of climate change impacts. The initiative also aims at strengthening the resilience of endangered bog and fen habitats and related species (e.g. by maintaining habitat connectivity) as well as at maintaining ecosystem services under changing climate condition.",
+    "measures": "In order to establish a sustainable conservation strategy for bogs and near-natural moor woodlands the close cooperation with regional actors - particularly farmers and landowners - is crucial. In the Allgäu region traditional forms of extensive agriculture relevant for an intact moor landscape are still in practice. This offers good opportunities for the stakeholder-based approach adopted by the “Allgäuer Moorallianz” initiative. “Allgäuer Moorallianz” is mainly funded by a large-scale nature conservation project (2009-2022), under the funding scheme chance.natur (for more details see the section “Cost and Benefits” ) . The overall project area includes more than 185,000 ha, located in two administrative districts (the Oberallgäu and the Ostallgäu, both with a population density of around 100/km 2 ). Within this region landscape management, education, tourism and awareness building measures have been implemented or supported by the Moorallianz aiming at integrating moor protection with regional development and tourism. In 2009 the large-scale nature conservation project started with a so-called development phase. During the first four years “Allgäuer Moorallianz” conducted a process to set up a development plan (PEPL - Pflege und Entwicklungsplan). The aim of the development plan was to get an overview of mire areas valuable to nature conservation and possible strategies to preserve and improve them. As a first step, a moor inventory of species and habitats and a water balance assessment were carried out. With this knowledge Moorallianz developed primary objectives and possible measures for different habitat types and endangered species; these are listed below together with the extension of the area they apply to as defined by the PEPL: Maintaining and improving the status of near-natural bogs and bog woodlands: 535.7 ha; Restoration of degraded raised bogs still capable of natural regeneration: 2,315.7 ha; Extensive management of near-natural open-land habitats and forests: 1,680 ha; Keep fallow areas open in near-natural open-land habitats and forests: 485 ha; Restoration (after fallowness) of extensive grassland: 310 ha; Long-term management of extensive grassland: 1,115 ha; Conservation of a grassland buffer zone: 280 ha. In 2012 the PEPL was finalised and the implementation phase of the large-scale nature conservation project started with a term of 10 years. As the implementation of the entire, wide-ranging PEPL is not possible during this time period, focus areas have been defined in close cooperation with all stakeholders (landowners and stakeholders from the agriculture, forestry and tourism sectors). Identified priorities mirror three different types of measure: Hydrological restoration (e.g. re-wet formerly drained bogs); Prevention of eutrophication; and Landscape management measures (e.g. keep up the traditional mowing to save meadow habitats of high biodiversity in the surrounding area or traditional forms of extensive bog forest management). Between 2012 and 2017 the Moorallianz initiative was able to purchase around 180 ha of raised and low bog areas implementing regeneration or landscape conservation management measures. Until the end of the large-scale nature conservation project in 2022 the Moorallianz will continuously buy bog habitat area and extend nature conservation measures. The “Seemoos” bog area provides an example of implemented measure. This degraded bog landscape used to be drained by many ditches with a total length of 12 km. These ditches are now dammed up again, so that the water can be held in the bog area. The “Seemoos” is one of the degraded bogs still capable of natural regeneration with a very high restoration potential. In addition to these measures, the initiative also focuses on awareness-raising and environmental education. Together with regional partners Allgäuer Moorallianz started a “Moor campaign” presenting the importance of the Allgäuer moors area as a formative element of the local landscape. This campaign includes activities such as: a circulating moor exhibition, provision of educational material and excursions for schools and youth groups. The nature conservation measures of “Allgäuer Moorallianz” give highly endangered habitats and specialized moorland species (such as glacial relict remnants) a chance to survive also under the expected changing climate conditions. Another co-benefit of the moor conservation in the Allgäu region is the maintenance and improvement of moor ecosystem services such as climate regulation, provisioning of water, water purification and cultural services (recreation).",
+    "outcomes": "Factors decisive for a successful outcome of the Moorallianz initiative: Cooperation among actors from nature conservation, agriculture and tourism, which is essential for the establishment of long-term moor protection and management; Focus on long-term moor conservation and restauration strategies (such as purchasing bog area or supporting farmers in purchasing agricultural machinery promoting the preservation of traditional extensive agriculture); Awareness-raising among all stakeholders and the public; Promoting the understanding of the unique moor landscape and its ecosystem services. The overarching objectives of this large-scale nature conservation project are: create a long-term perspective for moor conservation, halt biodiversity loss and maintain ecosystem services under changing climate conditions. In addition to promoting traditional agriculture, awareness-raising and cooperation among different stakeholders, land purchase is one important strategy for a long-term perspective in nature conservation. Here, the Moorallianz faces many challenges: For historical reasons, land ownership in this region is very fragmented (moor premises have an average size of about 0.15 ha per landowner). Due to this fact, Moorallianz must contact and negotiate with many landowners who have very different interests. Intensification of agriculture, settlement pressure and infrastructure projects lead to land-use conflicts, also on bogs and fens habitats (especially in peripheral areas). Furthermore, in order to secure the long-term perspective, efforts beyond the current project duration (2009-2022) are necessary.",
+    "cost_benefit": "“Allgäuer Moorallianz” is mainly funded by two projects: A large-scale nature conservation project ( 2009-2022) implemented under the funding scheme chance.natur , with a total budget of around EUR 9.4 million (75% provided by German national funding, 15% by the Federal State of Bavaria and 10% by project supporters). An associated rural development project implemented under the “Ländliche Entwicklung” agricultural, tourism and regional economy funding regime from 2009 to 2016, which had a funding budget of about EUR 1.4 million. Furthermore, bog protection measures are being funded by landscape maintenance programmes and contractual nature conservation agreements within regular programmes of the State of Bavaria. Finally, several mire protection projects in the Allgäu region are receiving funding from the Bavarian “KLIP 2050 program” (Bavarian Climate Protection Program 2050). The initiative has implemented many important long-term conservation measures for a large area with endangered wetland habitats and species so far. An important co-benefit of this project is the successful awareness building process among the regional stakeholders as well as the local population. The wetland and moor landscape in the Allgäu region - and its ecosystem services - have become an important value for parts of the local community as well as for tourism.",
+    "timeline": "The elaboration of the PEPL plan started in 2009 and was completed in 2012. After the plan finalisation concrete implementation of protection and restoration measures was initiated and is planned to continue to 2022.",
+    "lifetime": "The nature conservation and regional development measures implemented by the “Allgäuer Moorallianz” are expected to last for a long time period.",
+    "stakeholders": "The “Allgäuer Moorallianz” initiative brings together stakeholders from different sectors. Nature conservation experts and activists are one of the key drivers for the initiative and aim to halt biodiversity loss by establishing long-term moor protection and restoration activities. Farmers and landowners play an important role for habitat management on the other side. Many of the endangered high biodiversity habitats (e.g. meadows) rely on sustainable management and therefore suitable economic conditions for traditional farming methods need to be established. Besides nature conservation objectives, the protection of the unique wetland landscape is supported by the communal tourism offices, as tourism in the region also relies on the unique value of the moor landscape. The cooperation between these different stakeholders is a central pillar of the Moorallianz initiative. Establishing cooperation between these stakeholder groups was and still is a complex process and one of the main challenges for the management of the initiative.",
+    "legal_context": "“Allgäuer Moorallianz” is organised as an association which is held by two administrative districts in Bavaria (Landkreis Ostallgäu and Landkreis Oberallgäu). The project area of the Allgäuer Moorallianz includes eleven Natura 2000 sites comprising many Natura 2000 bog and wetland habitats as well as species protected under the Habitat Directive. This has acted as an important driver to design and implement measures aiming to the long-term conservation of the moor landscape."
+  },
+  "point": {
+    "lat": 47.4076441485,
+    "lon": 10.368347168,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "moorallianz.de",
+      "url": "http://www.moorallianz.de",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "0f2c1de24cad42eeafc8fd5651914f6c",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/moor-protection-in-the-allgau-region-germany-through-a-stakeholder-based-approach",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:22:45+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

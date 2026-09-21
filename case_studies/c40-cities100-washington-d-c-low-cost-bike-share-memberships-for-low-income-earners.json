@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-washington-d-c-low-cost-bike-share-memberships-for-low-income-earners",
+  "url": "https://www.c40.org/case-studies/cities100-washington-d-c-low-cost-bike-share-memberships-for-low-income-earners/",
+  "title": "Cities100: Washington D.C. – Low-Cost Bike-Share Memberships for Low-Income Earners",
+  "summary": "This C40 case study describes “Cities100: Washington D.C. – Low-Cost Bike-Share Memberships for Low-Income Earners,” an urban initiative documented for Washington, DC. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Washington, D.C. has introduced low-cost memberships as part of the city’s bike-share program, helping ensure that healthy, green transport is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Washington, DC",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "District Of Columbia",
+        "ucode": "USA_0009_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Washington, D.C. consistently ranks as one of the most congested metropolitan regions in the USA, with single-occupancy vehicle travel one of the largest sources of emissions. While the Capital Bikeshare program was designed to address CO2 emissions from single- occupancy vehicles, the Community Partners Program was added to ensure equal access to the program via the distribution of low-cost memberships to low-income earners.",
+    "measures": "In 2016, the Washington, D.C. public bike-sharing program, Capital Bikeshare, launched its Community Partners Program, designed to put low-cost bike- share memberships into the hands of those most in need of affordable transportation options. The Community Partners Program membership is available to local non-profits, government agencies, and social services organizations, enabling them to offer a steeply discounted annual membership to clients receiving social benefits, allowing equal access to safe, healthy, and sustainable transport. While the Capital Bikeshare system already boasts 35,000 members and averages 250,000 trips per month, the city hopes this new program will further increase the use of bicycles in the city. In addition to reducing membership costs, the program equips individuals in traditionally underserved communities with resources, including workshops to learn how to bike. As of June 2016, five large social services organizations had signed on as partners and are enrolling their clients to become Capital Bikeshare members, showcasing how a city’s transportation department and social services can work together to address social needs and achieve positive environmental results.\n Environmental Benefits – The Capital Bikeshare program reduces air pollution and, in turn, creates cleaner streams and rivers.\n Social Benefits – The low-cost Capital Bikeshare membership lowers transportation costs for participants, leaving more disposable income available for other needs such as rent and groceries.\n Economic Benefits – The Community Partners Program leverages local and public resources in a cost-effective manner, delivering a net positive result to local communities.\n Health Benefits – Participants now have access to a transportation option that also serves as a form of physical exercise, decreasing the risk of serious conditions like diabetes, obesity, and cardiovascular disease.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-low-cost-bike-share-memberships-for-low-income-earners/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27237",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-low-cost-bike-share-memberships-for-low-income-earners&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

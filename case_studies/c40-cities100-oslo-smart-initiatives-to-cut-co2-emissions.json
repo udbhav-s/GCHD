@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-oslo-smart-initiatives-to-cut-co2-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-oslo-smart-initiatives-to-cut-co2-emissions/",
+  "title": "Cities100: Oslo – Smart Initiatives to Cut CO2 Emissions",
+  "summary": "This C40 case study describes “Cities100: Oslo – Smart Initiatives to Cut CO2 Emissions,” an urban initiative documented for Oslo. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Oslo strives to be a leading force in the green transformation, and will cut emissions in half by 2020 with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Oslo",
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": null,
+        "iso3": "NOR"
+      },
+      "adm1": {
+        "name": "Oslo",
+        "ucode": "NOR_0012_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Oslo",
+        "ucode": "NOR_0012_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "oslo",
+      "label": "Oslo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Greenhouse gas emissions have increased by 25% since 1990 in Oslo. However, Oslo is in a unique position, with ready access to renewable energy and financial and human resources to develop and test new solutions, contributing to a better, greener, and more livable city.",
+    "measures": "The City of Oslo aims to cut greenhouse gas emissions 50% by 2020 and 95% by 2030 compared to 1990 levels. The strategy has three main areas: smart mobility, smart governance, and smart energy and comprises 16 initiatives such as reducing car traffic by 20%, phasing out the use of fossil fuel for heating and public transport, and eco-efficient procurement. All are intended to contribute to positive implications for climate change, urban planning and development, local transport, air quality, energy performance, eco-innovation, and sustainable employment. One of the most novel initiatives is integrating climate budgets as a part of the city's financial budget and, as such, count carbon dioxide the same way the city counts money. It was launched in 2016, and is one of the first city carbon budgets in the world. All city departments have been given responsibility for goal attainment and annual expected progress on the targets in the climate budget. The quarterly and annual reports on the progress are managed within the existing formal financial and governance system of the city.\n Environmental Benefits – The project will have a positive impact on reducing air and noise pollution, increasing biodiversity, and increasing the focus on reducing waste, waste recovery, and recycling.\n Social Benefits – As public transport increases its market share, Oslo will have more room for its residents, creating a more liveable city.\n Economic Benefits – New business opportunities have arisen in sectors like EV charging equipment and services, EV manufacturing, renewable fuels, e-bikes, green buildings, smart grid, and the circular economy.\n Health Benefits – Reduced air pollution and more green spaces, as well as an increase in active transportation will improve citizens’ health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-oslo-smart-initiatives-to-cut-co2-emissions/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27332",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-oslo-smart-initiatives-to-cut-co2-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

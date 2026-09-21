@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-city-adviser-shenzhen",
+  "url": "https://www.c40.org/case-studies/city-adviser-shenzhen/",
+  "title": "City Adviser Case Study Series: Shenzhen- Low-Emission-Vehicle Promotion",
+  "summary": "This C40 case study describes “City Adviser Case Study Series: Shenzhen- Low-Emission-Vehicle Promotion,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: Summary[1] By the end of 2015, Shenzhen has achieved the goal to have more than 25 thousand vehicles in total…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary[1] By the end of 2015, Shenzhen has achieved the goal to have more than 25 thousand vehicles in total…",
+    "measures": "Summary [1] \n By the end of 2015, Shenzhen has achieved the goal to have more than 25 thousand vehicles in total (20,000 increase in year 2015), including 7000 LEV buses (4000 increase in 2015), which accounts for more than 50% of the overall bus fleet; the number of pure electric taxi has reached over 3000 (2500 increase in year 2015), which accounts for more than 20% of the total taxi fleet. LEV number for municipal fleet including logistics, sanitation vehicles reached 3500 or more, adding 1000 more in 2015; new purchase of LEV by private owners reached over 9000 in total. Over year 2014-2015, Shenzhen has built 1968 fast charging piles and 20,250 slow charging piles, to meet the needs of a 20-thousand-LEV-market.\n Result [2] \n By the end of March 2014, Shenzhen has reached its 6,896 LEV promotion goal, saved 44,011 tons of diesel and 14,238 tons of gasoline; reduced GHG emissions of 200,796 tons including 195,205 tons of reduction from LEV buses; 804 tons from municipal fleet and 4787 tons from private cars.\n In year 2015, Shenzhen has weeded out 16 thousand vehicles with excessive emissions, saved standard fuel for 84,000 tons and reduced 150,000tons GHG emissions. \n Reason for Success \n Policy Incentives \n The LEV subsidies come from both state and local government. State subsidies are mainly for LEV purchasing subsidies, but local financial subsidies vary in different provinces and cities.\n For Shenzhen, state level funding will be distributed to local LEV manufactory and battery leasing enterprises to cut price and thus supporting LEV purchasing project. Subsidized LEV models must be included in the “Recommended LEV Model Directory” for public notice. Subsidy standards for each model were based on the power consumption of installed battery pack; all LEV models in the “Directory” are entitled for 3,000 CNY per kwh subsidies plus 50,000CNY for purchasing one PHEV (Plug-in hybrid electric vehicle) or 60,000CNY for Blade Electric Vehicles (BEV).\n In terms of local subsidies, Shenzhen has set up funds mainly to promote LEV purchasing, operations, relevant research projects as well as projects on battery pack recycling. Funding would be distributed directly to relevant organizations and producers in following ways:\n LEV purchasing and operations (buses, taxis and municipal vehicles); LEV financing with low or even negative interest rate; research fund and project fund for LEV promotion and battery recycle. Incentive policies for promoting buses, taxies and private cars are different:\n Bus Promotion \n Bus companies would only bear 65% of the total cost (the cost for one LEV bus is between 2-2.1million CNY) and government would cover the rest of the cost by offering subsidies.\n Taxi Promotion \n The cost of one BYD taxi was around 180,000 CNY after state subsidies of 60,000 CNY and local subsidies of 120,000CNY, which is twice higher than an average taxi. That being the case, a temporary subsidy for 10,000 CNY for each taxi was issued in year 2013. For taxi drivers, however, the biggest incentive was the policy that waives the annual license fee of 45,000 for each taxi.\n Private Cars Promotion \n In addition to direct subsidies from state and local government that reduces the purchasing rate, electronic cars buyers are also entitled to gain a free immediate car title. For average cars purchasing, buyers usually need to wait years to gain car title, and the market price for one title was around 30,000 thousand in year 2015.\n Innovative Mechanism to Support Facility Building \n Considering the high cost, Shenzhen has managed to integrate multi-parties to reduce the overall cost burden and market risks. The mechanism was especially effective in promoting LEV buses, building supporting facilities and ensuring maintenance services. \n Key words for LEV bus promotion strategies are: financial leasing; separating buses and batteries production; outsourcing maintenance and operating services. \n Financial leasing \n Financial firms, bus companies, bus producers, facilities and maintenance suppliers were agreed to sign financial leasing and sale-leaseback contracts. In the contract, both buses and charging facilities were set as assets for leasing.\n Separating electronic buses and battery production \n In LEV bus purchase, bus companies do not need to bear the overall bus cost including cost of buses and the cost of battery packs. Charging and maintenance suppliers will cover the costs for battery packs. \n Outsourcing maintenance and operating services \n Shenzhen bus companies have outsourced their charging and maintenance services to suppliers with battery recycling, charging, maintenance and charging station operating experience. This is to cut cost and also to share the management risk.\n The pattern was set to solve three main dilemmas when promoting electronic buses:\n 1.the high cost to purchase both the buses and battery packs;\n 2.uncertain terms of reference between battery and maintenance suppliers;\n 3.inadequate supply of charging facilities.\n [1] Figures were extracted from the Shenzhen LEV Promotion Plan and Strategy drafted by Shenzhen Graduate School of Peking University and public reports from Shenzhen Transportation Commission.\n [2] Figures were extracted from the Shenzhen LEV Promotion Plan and Strategy drafted by Shenzhen Graduate School of Peking University and Shenzhen Second Five-year Plan.",
+    "outcomes": "By the end of March 2014, Shenzhen has reached its 6,896 LEV promotion goal, saved 44,011 tons of diesel and 14,238 tons of gasoline; reduced GHG emissions of 200,796 tons including 195,205 tons of reduction from LEV buses; 804 tons from municipal fleet and 4787 tons from private cars.\n In year 2015, Shenzhen has weeded out 16 thousand vehicles with excessive emissions, saved standard fuel for 84,000 tons and reduced 150,000tons GHG emissions.\n\nPolicy Incentives \n The LEV subsidies come from both state and local government. State subsidies are mainly for LEV purchasing subsidies, but local financial subsidies vary in different provinces and cities.\n For Shenzhen, state level funding will be distributed to local LEV manufactory and battery leasing enterprises to cut price and thus supporting LEV purchasing project. Subsidized LEV models must be included in the “Recommended LEV Model Directory” for public notice. Subsidy standards for each model were based on the power consumption of installed battery pack; all LEV models in the “Directory” are entitled for 3,000 CNY per kwh subsidies plus 50,000CNY for purchasing one PHEV (Plug-in hybrid electric vehicle) or 60,000CNY for Blade Electric Vehicles (BEV).\n In terms of local subsidies, Shenzhen has set up funds mainly to promote LEV purchasing, operations, relevant research projects as well as projects on battery pack recycling. Funding would be distributed directly to relevant organizations and producers in following ways:\n LEV purchasing and operations (buses, taxis and municipal vehicles); LEV financing with low or even negative interest rate; research fund and project fund for LEV promotion and battery recycle. Incentive policies for promoting buses, taxies and private cars are different:\n Bus Promotion \n Bus companies would only bear 65% of the total cost (the cost for one LEV bus is between 2-2.1million CNY) and government would cover the rest of the cost by offering subsidies.\n Taxi Promotion \n The cost of one BYD taxi was around 180,000 CNY after state subsidies of 60,000 CNY and local subsidies of 120,000CNY, which is twice higher than an average taxi. That being the case, a temporary subsidy for 10,000 CNY for each taxi was issued in year 2013. For taxi drivers, however, the biggest incentive was the policy that waives the annual license fee of 45,000 for each taxi.\n Private Cars Promotion \n In addition to direct subsidies from state and local government that reduces the purchasing rate, electronic cars buyers are also entitled to gain a free immediate car title. For average cars purchasing, buyers usually need to wait years to gain car title, and the market price for one title was around 30,000 thousand in year 2015.\n Innovative Mechanism to Support Facility Building \n Considering the high cost, Shenzhen has managed to integrate multi-parties to reduce the overall cost burden and market risks. The mechanism was especially effective in promoting LEV buses, building supporting facilities and ensuring maintenance services. \n Key words for LEV bus promotion strategies are: financial leasing; separating buses and batteries production; outsourcing maintenance and operating services. \n Financial leasing \n Financial firms, bus companies, bus producers, facilities and maintenance suppliers were agreed to sign financial leasing and sale-leaseback contracts. In the contract, both buses and charging facilities were set as assets for leasing.\n Separating electronic buses and battery production \n In LEV bus purchase, bus companies do not need to bear the overall bus cost including cost of buses and the cost of battery packs. Charging and maintenance suppliers will cover the costs for battery packs. \n Outsourcing maintenance and operating services \n Shenzhen bus companies have outsourced their charging and maintenance services to suppliers with battery recycling, charging, maintenance and charging station operating experience. This is to cut cost and also to share the management risk.\n The pattern was set to solve three main dilemmas when promoting electronic buses:\n 1.the high cost to purchase both the buses and battery packs;\n 2.uncertain terms of reference between battery and maintenance suppliers;\n 3.inadequate supply of charging facilities.\n [1] Figures were extracted from the Shenzhen LEV Promotion Plan and Strategy drafted by Shenzhen Graduate School of Peking University and public reports from Shenzhen Transportation Commission.\n [2] Figures were extracted from the Shenzhen LEV Promotion Plan and Strategy drafted by Shenzhen Graduate School of Peking University and Shenzhen Second Five-year Plan.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/city-adviser-shenzhen/",
+    "publication_date": "2016-11-29",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27283",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-adviser-shenzhen&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-16T16:05:30",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

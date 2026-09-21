@@ -12,7 +12,7 @@ import ee
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS, GLOBAL_GEOMETRY,
-    ADMIN_DATA,
+    ADMIN_DATA, CHILD_AGE_BANDS, CHILD_PARTIAL_BAND, CHILD_PARTIAL_FRACTION,
 )
 from georepo_core import (
     get_country_names as get_local_country_names,
@@ -70,6 +70,21 @@ def _hazard_image(hazard):
 # Core GEE objects — built once at startup
 # ---------------------------------------------------------------------------
 
+def _child_population_by_sex(population, prefix):
+    """Add up the WorldPop age bands that fall under 18, for one sex.
+
+    The 15-19 band straddles the cutoff, so it is counted at CHILD_PARTIAL_FRACTION
+    and the younger bands are counted whole.
+    """
+    whole = population.select(
+        [f"{prefix}_{band}" for band in CHILD_AGE_BANDS]
+    ).reduce(ee.Reducer.sum())
+    partial = population.select(f"{prefix}_{CHILD_PARTIAL_BAND}").multiply(
+        CHILD_PARTIAL_FRACTION
+    )
+    return whole.add(partial)
+
+
 @lru_cache(maxsize=1)
 def build_core_images():
     population_collection = (
@@ -77,9 +92,9 @@ def build_core_images():
         .filter(ee.Filter.eq("year", 2020))
     )
     population = population_collection.mosaic()
-    childpop = population.select("population").rename("population")
-    childpop_m = population.select("M_.*").reduce(ee.Reducer.sum()).rename("population_m")
-    childpop_f = population.select("F_.*").reduce(ee.Reducer.sum()).rename("population_f")
+    childpop_m = _child_population_by_sex(population, "M").rename("population_m")
+    childpop_f = _child_population_by_sex(population, "F").rename("population_f")
+    childpop = childpop_m.add(childpop_f).rename("population")
 
     pop_target_res = population_collection.first().select("population").projection().nominalScale()
     target_crs = population_collection.first().select("population").projection()

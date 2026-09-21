@@ -1,0 +1,236 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-a-flood-and-heat-proof-green-emscher-valley-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+  "title": "A flood and heat proof green Emscher valley, Germany",
+  "summary": "After a century of use for wastewater drainage, the Emscher Valley has initiated a large-scale restoration plan, aiming to improve its capacity as carbon sink, create a more favourable microclimate, reduce flood risks, and achieve a more balanced water cycle in times of dry summer periods. Over a century ago a sparsely populated landscape of water meadows was transformed into an industrial conurbation, and the untamed river Emscher, in the Ruhr area, turned into a man-made system of open waste waterways. Due to subsidence caused by mining, it was impossible to build an underground sewer system.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Arnsberg",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Arnsberg__DE_",
+        "source_name": "Arnsberg (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cross-sectoral approach",
+      "label": "cross-sectoral approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Emscher",
+      "label": "Emscher"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "quality of life",
+      "label": "quality of life"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "NBS",
+      "label": "NBS"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water sensitive urban development",
+      "label": "water sensitive urban development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river restoration",
+      "label": "river restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood control area",
+      "label": "flood control area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Cooling",
+      "label": "Cooling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green spaces",
+      "label": "green spaces"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature based solutions",
+      "label": "nature based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "habitat network",
+      "label": "habitat network"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wastewater",
+      "label": "wastewater"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "To prepare for future climatic conditions, the Emschergenossenschaft (Emscher Cooperative), the water management association responsible for the Emscher river, decided for flexible nature-based solutions. Choice was made for combining the channelling of the wastewater originally directed to the Emscher and its tributaries into closed sewers, with revitalization of the rivers, aiming to strengthen the water cycle and profit from the water buffering as well as from cooling provided by nature’s ecosystem services. In short, the main adaptation objectives were: For summer: creating the green corridors of the Emscher landscape park for cooling, as well as creating a resilient water system, thereby avoiding the drying-out of brooks and rivers. For winter: increasing the retention capacity of the water bodies in order to avoid flooding in case of heavy rainfalls.",
+    "measures": "A traditional solution in response to the expected water discharge needs would have be the construction of a sewer system that could cope with expected variation in water amounts. With the Emscher revitalization project a more transitional approach was taken strengthening the water cycle by converting the river and its tributaries into nature-like waterways and by having wastewater channelled through closed sewers. Gradually being developed, the valley already comprises cooling green spaces, areas for flood control, recreation areas and a habitat network. All these measures contribute to the enhancement of the quality of life in the Ruhr metropolitan area. Important key elements of the Emscher project were and are the natural restauration of the Emscher system, wastewater management with underground installations of the sewage system, consideration of flood protection in all projects and sustainable rainwater management with return of (clean) rainwater into natural water cycles. Further elements are educational initiatives around the Emscher Valley and the development of valuable recreation areas. Nature-like water bodies have a higher capacity to buffer extreme weather events. In case of heavy rainfall, a nature-like water body has a higher retention capacity than a heavily modified one. The green belts accompanying the Emscher and its tributaries work as fresh air supply corridors for the dense urban areas. Wetlands and areas for stormwater retention cool down heat islands. The quality of life for people rises, heat stress is reduced, and new cycle paths along the water bodies provide possibilities for sustainable mobility. The overall approach taken is to integrate water management and urban planning for a water sensitive urban development. Before projects such as dynaklim and Future Cities started, each actor in the Emscher region developed its own adaptation approach. For example, the water boards analysed whether their sustainable water management was fit to cope with expected impacts of climate change. Cities assessed their building stock and discussed which improvements would be needed in response to the heat island effect. Further, the Regional Association Ruhr (Regionalverband Ruhr) fostered its measurements of urban temperatures. With the support of these two projects a cross-sectoral approach was developed, including all relevant stakeholders from different sectors such as: water management, planning, building, health and emergency services. In addition, being a partner in the Future Cities project, the Emscher case served as an example to develop strategies to make urban regions fit to cope with the expected impacts of climate change. Within the project the joint tool “ Future Cities Adaptation Compass ” was developed to help urban regions to create their own adaptation strategy. This tool fostered very much an interdisciplinary approach to reach cross-sectoral solutions. An example of an outcome of the Future Cities project is the sustainable development of two climate-proof industrial parks in Bottrop, in the Emscher region. Flash floods after heavy rainfalls often occurred on both sites. This situation is expected to be intensified with climate change. The Emschergenossenschaft and the Bottrop municipality agreed on a cooperation to restructure the industrial parks \"Scharnhölzstraße\" and \"Boytal\", thereby combining water, green and energy measures to make them climate-proof. The “Scharnhölzstraße” is an old business-site with an almost completely sealed surface. On the site, heavy rains tend to cause problems as well as overheating during periods of drought. A combined approach was taken for the public space on the one hand and the privately owned premises of the industry on the other hand. Decentralized solutions for rainwater (rainwater infiltration and rainwater use, solar power usage and green-zone enrichment) were envisaged to strengthen the area for upcoming climate events. Although the Emscher system is now well prepared, torrential rainfall events can still cause flooding from time to time. Other conservation, requalification and adaptation projects have been therefore started or are planned. For example, in 2020 the Ruhr Conference initiated a new project called \" Climate-resilient region with international charisma \" (Klimaresiliente Region mit internationaler Strahlkraft). Within this project, the ecosystem-based and holistic approach applied in the Emscher region will be extended to the entire area of the Ruhr region. The Ruhr system covers an area of 4,435 km², in which approx. 5.1 million people live in 53 towns and communities. For the implementation of adaptation measures, funding with a volume of around 250 million euros will be available in this area over the next ten years.",
+    "outcomes": "The revitalization of the Emscher river and its valley started in 1992. After many years of planning and implementation, the New Emscher Valley has gone from a purely envisioned ideal to a reality that has inspired new urban development. The modernisation of wastewater infrastructure and associated revitalisation of the Emscher are making the river a valuable space for leisure and relaxation in the region. People can now again experience the Emscher, which was once inaccessible to the public due to high levels of pollution. The revitalisation of the Emscher and discharge of wastewater into underground canals has freed up new spaces for innovation above ground, making the Emscher region more attractive. Ecological, social and institutional innovation have been combined to develop these new spaces. Hence, the Emscher conversion is not only a technological project but also framed as an important trigger for notably improving the quality of life and achieving positive economic impacts in the Ruhr area. The construction of underground sewers is still ongoing and is expected to be completed by 2022. It is important to stress that the ecological enhancement is an continuing process, which therefore needs to be continuously supported. The main limiting factor for other interventions is space. In a densely populated region such as the Emscher region with 2.700 people per square kilometre it is very hard to find space for a meandering river system. The competing demands on space are manifold: economic, social and ecological aspects have to be weighed up against each other. In addition, public authorities can only approve plans based on valid regulations.",
+    "cost_benefit": "With an investment volume of 4.5 billion Euros and a project period of several decades, i.e. from 1989 (start of the International Building Exhibition IBA Emscherpark) to 2022 (expected end of the construction of the underground, channelled sewers), the Emscher conversion is one of Europe’s biggest infrastructure projects. Investments of this size have noticeable impact on a region’s economy. Through the Emscher revitalisation about 1,400 jobs per year were created in the years from 1991 to 2020 (cf. study from Rheinisch-Westfälisches Institut für Wirtschaftsforschung, November 2013). The conversion project’s significance extends well beyond its direct effects on employment though. Upgrading the Emscher region provides a new quality of life and work and brings with it great opportunities to sustainably improve the Ruhr area’s attractiveness. Thus, it can positively influence the decisions of innovation-oriented companies considering moving or starting up in the region. The successful conversion of such a large river system also sends a positive signal for similar large-scale water management and urban development projects throughout Europe. Considering the challenges of climate adaptation, it is hardly possible to name the costs involved if choice would not have been made to restore the Emscher but to implement higher dikes and bigger sewers. In addition to that it would cost a fortune to provide a purely technical protection system, this would never be 100% proof considering that no-one knows exactly how extreme the next rainfall event will be. The Emscher revitalisation is paid through the members of the Emschergenossenschaft, which are municipalities, the mining industry and private parties. Further, best use has been made of several funds: from the Federal state of North Rhine-Westphalia, national research funding such as KLIMZUG, and EU-funding such as objective 2, INTERREG, FP7 and HORIZON2020, LIFE+. Wherever possible, support from private parties, local businesses and NGOs, such as the Emscherfreunde (Friends of the Emscher), is welcomed.",
+    "timeline": "The Emscher revitalization started in 1992. The construction of underground sewers takes around 25 years and is expected to be fully completed by 2022. The ecological enhancement of the Emscher river and its valley is a continuing process.",
+    "lifetime": "The revitalization of the Emscher river and its valley is an on-going process which is expected to be long lasting.",
+    "stakeholders": "The Emscher restoration project is closely linked to regional development and has given high importance to awareness raising and education. The New Emscher Valley is being developed through the close cooperation of municipalities, companies and citizens, coordinated by the Emschergenossenschaft (Emscher Cooperative). The two dynaklim and Future Cities projects provided an important contribution to strengthening the cooperation between different actors. Within the first project, the dynaklim group was established. It includes more than 50 network partners: companies involved in the regional economy, water boards, municipalities, universities and research facilities, as well as regional and civil society initiatives. Together, they drew a joint regional climate adaptation strategy. The dynaklim network set up a constant exchange of new knowledge and practical experiences between the project partners and with the public. Similarly, several actions were defined during the Future Cities project and were set-up with the aim to support continuation after the ending of the project. A number of initiatives were initiated to ensure durability to the above projects, also including stakeholder engagement: The former annual meetings of the dynaklim project are continued by the DWA (Deutschen Vereinigung für Wasserwirtschaft, Abwasser und Abfalland) project partners. Some measures developed in the context of the dynaklim project were integrated in the “ Climate Protection Plan ” of the North Rhine-Westphalian government. The Emscher Roadmap 2020 entitles the responsible organisations for the adaptation process and stipulates that these organisations continue the needed actions also after the end of the projects. The use of the Future Cities Adaptation Compass in the city of Dortmund includes wide stakeholder participation. The process started with a stakeholder analysis to make sure that no relevant actor is left out. Other relevant stakeholder participation activities are: In case of restoring water courses of the Emscher system, the residents are involved in the planning and implementation in a broad information and participation process. Regarding sustainable storm water management, the people in the Emscher region are informed in detail about how they can be involved including an internet platform . Specifically regarding extreme rainfall events, an information campaign was started within the Future Cities project. The campaign is based on the internet platform . The watersheds of the Emscher and the adjacent Lippe river face similar challenges of climate change. The two water boards, the Emschergenossenschaft and the Lippeverband, have therefore together developed measures for water management.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 51.548043063,
+    "lon": 7.16720581025,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "eglv.de",
+      "url": "http://www.eglv.de/emschergenossenschaft",
+      "role": "contextual_input"
+    },
+    {
+      "name": "future-cities.eu",
+      "url": "http://www.future-cities.eu",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4c0e4c40467c4969a1956dbce4adfb32",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/a-flood-and-heat-proof-green-emscher-valley-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:55+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

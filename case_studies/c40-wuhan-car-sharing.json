@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-wuhan-car-sharing",
+  "url": "https://www.c40.org/case-studies/wuhan-car-sharing/",
+  "title": "Wuhan Car-sharing",
+  "summary": "This C40 case study describes “Wuhan Car-sharing,” an urban initiative documented for Wuhan. It is included because it is located in the Global South. C40 describes the action this way: The explosion of the Chinese electric vehicle market has fueled car-sharing business over the past two years. Wuhan is one of the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The explosion of the Chinese electric vehicle market has fueled car-sharing business over the past two years. Wuhan is one of the four pilot cities for an Electric Vehicle car-sharing project run by the National High-tech Research and Development Program (“863″Program).",
+    "measures": "In the second half of 2015, the Ministry of Science and Technology agreed to include Wuhan’s Electric Vehicle Large Scale Car-sharing & Integrated Demonstration Operation Program into the National Key Technology Support Programs. Wuhan EV Demonstration Operation Inc. is the leading company of the program and intends to roll out 3000 EVs for car-sharing by the end of 2017, construct 300 outlets for the pickup and return of cars and install 3600 charging facilities. Membership will reach 90,000, covering 6 demonstration areas in the inner city and 6 demonstration areas in the outer city, 1+8 city cluster, Xiangyang, Shiyan and other intercity demonstration areas.\n Currently, car sharing service providers available in Wuhan are Gofun of Shouqi Group, EV Sharing of Wuhan EV Demonstration Operation Inc. and Changdee of Wuhan Changdee Technology Inc. For mileage charges, Gofun charges by mileage + time: 1 RMB Yuan/km +0.1 RMB Yuan/min. Changdee charges 9 yuan for half an hour, after that, 0.3 yuan/min and 15 yuan/h at maximum. EV Sharing charges by minute, 0.33 Yuan per minute. For initial service, 1 yuan is charged if service time is less than 24 hours. It only takes a few minutes to complete the pickup or return process via the mobile phone app or We-chat platform. The cars are connected with charging facilities which are safe and convenient. All cars used by the program are electric, which have no restrictions of plate number when crossing Changjiang bridges and ETC-free at toll gates. This program addresses a number of travel problems such as plate number restriction, traffic congestion, high purchase price, and high maintenance costs.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/wuhan-car-sharing/",
+    "publication_date": "2016-02-25",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27169",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-car-sharing&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

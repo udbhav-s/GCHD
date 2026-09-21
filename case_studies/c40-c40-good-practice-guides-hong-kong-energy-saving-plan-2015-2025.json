@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-hong-kong-energy-saving-plan-2015-2025",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-energy-saving-plan-2015-2025/",
+  "title": "C40 Good Practice Guides: Hong Kong – Energy Saving Plan 2015-2025+",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Hong Kong – Energy Saving Plan 2015-2025+,” an urban initiative documented for Hong Kong, China. It is included because it is located in the Global South. C40 describes the action this way: Summary In Hong Kong, electricity consumption represents more than half of the city’s total annual energy use, with buildings accounting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary In Hong Kong, electricity consumption represents more than half of the city’s total annual energy use, with buildings accounting…",
+    "measures": "Summary \n In Hong Kong, electricity consumption represents more than half of the city’s total annual energy use, with buildings accounting for about 90% of the city's electricity use. In May 2015 Hong Kong’s Environmental Bureau unveiled the Energy Saving Plan for the Built Environment 2015-2025+ xv , which sets a new target of reducing Hong Kong's energy intensity by 40% by 2025. The plan analyses the city’s energy use and sets out the strategy, policy and key actions that can help Hong Kong achieve the new target.\n Results \n Hong Kong’s energy efficiency policy focuses on driving energy savings through a combination of educational, social, economic and regulatory initiatives. Apart from setting an ambitious city-wide goal, the Plan also requires the Hong Kong Government to take key actions, such as: set the target for all major new government buildings and new public housing to achieve at least BEAM Plus Gold and Gold ready standards xvi respectively; reach a 5% electricity reduction target for municipal buildings by 2020 (from a 2014 baseline); conduct periodic reviews to expand or tighten relevant energy-related standards including the statutory requirements under the Buildings Energy Efficiency Ordinance (2010), the Building (Energy Efficiency) Regulation (1995), and the Energy Efficiency (Labelling of Products) Ordinance (2008); update public education programmes and encourage public sector institutions to save energy; strengthen government energy saving efforts by appointing Green Managers and Energy Wardens; support community campaigns through government funding schemes; and cooperate with key commercial energy consumers to develop sector-specific campaigns to promote energy efficiency.\n Reasons for success \n The success of Hong Kong’s Energy Saving Plan comes from the city’s strong regulatory experience and history of effective enforcement. Additionally, by providing the underlying data for current energy consumption in the municipal building portfolio the city is able to show the potential for improvements and demonstrate the credibility of the targets.\n When/why a city might apply an approach like this \n Cities can define local targets to help streamline municipal building efficiency into urban planning and create a more stable policy environment to promote investor confidence. Where national building energy efficiency targets or legislation don’t exist, outlining a strategy and targets at the municipal level can be even more important. In cities with limited building efficiency experience, clear targets can be particularly helpful in focusing political attention and generating the necessary momentum for municipal building efficiency improvements, while contributing to any city GHG emissions reduction targets. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Municipal Building Efficiency Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Hong Kong’s energy efficiency policy focuses on driving energy savings through a combination of educational, social, economic and regulatory initiatives. Apart from setting an ambitious city-wide goal, the Plan also requires the Hong Kong Government to take key actions, such as: set the target for all major new government buildings and new public housing to achieve at least BEAM Plus Gold and Gold ready standards xvi respectively; reach a 5% electricity reduction target for municipal buildings by 2020 (from a 2014 baseline); conduct periodic reviews to expand or tighten relevant energy-related standards including the statutory requirements under the Buildings Energy Efficiency Ordinance (2010), the Building (Energy Efficiency) Regulation (1995), and the Energy Efficiency (Labelling of Products) Ordinance (2008); update public education programmes and encourage public sector institutions to save energy; strengthen government energy saving efforts by appointing Green Managers and Energy Wardens; support community campaigns through government funding schemes; and cooperate with key commercial energy consumers to develop sector-specific campaigns to promote energy efficiency.\n\nThe success of Hong Kong’s Energy Saving Plan comes from the city’s strong regulatory experience and history of effective enforcement. Additionally, by providing the underlying data for current energy consumption in the municipal building portfolio the city is able to show the potential for improvements and demonstrate the credibility of the targets.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-energy-saving-plan-2015-2025/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27114",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-hong-kong-energy-saving-plan-2015-2025&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

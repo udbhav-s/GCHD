@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+  "title": "Online training in climate change and health for the public health and wider health workforce in Europe",
+  "summary": "An open online course on the interplay between climate change and health, by the Association of Schools of Public Health in the European Region (ASPHER) and the Global Consortium on Climate and Health Education (GCCHE), built capacity and enhanced the climate-health literacy of the public health and wider health professionals in Europe.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Europe",
+      "adm0": null,
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Health professionals",
+      "label": "Health professionals"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "climate health literacy",
+      "label": "climate health literacy"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "professional development",
+      "label": "professional development"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "school",
+      "schools",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 18
+    }
+  },
+  "intervention": {
+    "objectives": "The goal of the European Climate and Health Responder Course was to engage and educate the public health and wider health research, practice, policy, and academic communities with a basic introduction to climate-health literacy. Through the course, participants would become more aware of current and future events climate impacts on health, enhancing their engagement in advocacy, policy, and research to inform evidence-based health decisions across the sectors. Specific goals included: To build and train a network of experts on climate change and health in the European Region via an open-education strategy, where course materials can be re-used and redistributed to support educators. To strengthen the climate-health literacy of health professionals through case studies of implemented responses to climate-related health risks and impacts across the European Region. To enhance the knowledge, confidence, and communication abilities of current and future health professionals to act on climate and health, improving population care and public health practice and serving as credible advocates.",
+    "measures": "In early 2024, ASPHER and the GCCHE launched the European Climate and Health Responder Course, freely accessible to participants. The 'Climate and Health Responder Course' is part of a global flagship initiative by GCCHE and its partners to educate interdisciplinary professionals on the impacts of climate change on health. The course was targeted at public health and health professionals and trainees from the European region who had limited understanding of climate impacts on health. For 10 weeks, the course offered a weekly live, virtual session of 90 minutes, which included a lecture followed by two case studies and a Q&A session. Each lecture covered a specific topic of the climate-health nexus and was delivered in English. All resources of the course, including session recordings, slide decks, and course readings, were provided as an open education resource, available after the session to all registered participants. The sessions were built around the following ten topics: Climate Change and Health Extreme Temperatures Wildfires and Air Quality Water Supply and Sanitation Vector Borne Diseases/Zoonoses Pathways to a Healthy Net Zero Future Sustainable Health Care Climate Litigation and Health Communication, Engagement, and Advocacy in Climate Change Europe in a Global Context: Climate Justice Participants were required to attend at least 70% of the course and pass the final exam with a score of at least 70% to obtain a Certificate of Participation from both ASPHER and GCCHE. Approximately 4,600 individuals from different European countries and outside Europe registered for the first edition of the course. The high interest and diverse backgrounds of participants across healthcare and public health demonstrates the widespread demand for skills and knowledge on climate change and health and the need for free, accessible training on the topic. At the end of the course (in April 2024), more than 850 participants successfully passed the final exam and received a certificate of completion. The course evaluation consisted of a longitudinal survey during registration and at the end of the course, as well as a weekly evaluation survey. The survey assessed the effectiveness of the training course in influencing professional behaviour related to climate and health communication, application of climate and health knowledge, and engagement in addressing climate and health risks. Participants were asked to reflect on the topic’s effectiveness, delivery, potential practice changes, leadership in adaptation and mitigation initiatives, self-evaluation of skills gained, confidence in using these skills, and areas for improvement. Given the high demand, the course is tentatively planned to be repeated on a yearly basis. At the same time, the materials are available as open education access , respectively accessible to those interested in building their climate-health literacy at any given time. ASPHER and the GCCHE have considered the development of regionally relevant courses tailored to different areas of the health sector in the future.",
+    "outcomes": "Success factors: In Europe, ASPHER is a recognized leader across public health training and education development, and its membership and the established Climate-Health Working Group provided the means for convening a sub-group to voluntarily work on the development of the course on a weekly basis. GCCHE is recognized as a global leader in providing free, climate and health education courses. Prior to the European Responder Course, GCCHE has deployed several courses in North American, Latin America, the Caribbean and Southeast Asia. GCCHE has trained more than 20,000 people from 167 countries. GCCHE’s extensive network of individuals and the 300+ institutions from 60+ countries were also enablers for success for the high enrolment of participants. Furthermore, the experience of hosting courses, the existing supports of technical needs, as well as full-time staff, contributed to the long-term success of their course offerings. Building on GCCHE’s experiences, the weekly 90-minutes sessions were delivered via Zoom, the dates and time taking into account national holidays and time zone differences within Europe. Additionally, the content was tailored specifically for Europe, with case studies spread across the European Region. The wide success of the course was also highly attributed to ASPHER/GCCHE sub-working group team members who worked closely with the guest speakers to ensure the delivery of content fitting the course syllabus. Limitations: Due to limited funding, the course was only available in English. To support the participants with less advanced English, captions were enabled for the live sessions. The Zoom chat was monitored by the ASPHER moderators and GCCHE technical support team throughout the session to provide further explanations if needed. At the beginning of each session, the moderator shared these instructions, to make sure that the participants felt supported. The location of the GCCHE office in North America and the time difference in relation to Europe resulted in some scheduling challenges, which were resolved by the willingness in both GCCHE and ASPHER to adjust. The course was also impacted by daylight savings time, creating confusion for participants. The team sent a reminder to participants prior to the first session after the time change and the participants were encouraged to add the course schedule to their calendars. Exceptionally, lateness was not penalised for participants who joined late during the week of daylight savings. Another limitation was catering for a broad audience with varying levels of prior knowledge and experience of climate-health issues and different cultural contexts, thus an approach of starting with the basics was chosen. For future initiatives, narrowing down the target group will be considered. It has been debated whether to adapt the current general course outline to align it with more specific competencies as well as to the ASPHER curriculum that is to be released in late 2024. Future editions of the course are dependent on the capacity of the ASPHER/GCCHE sub-working group.",
+    "cost_benefit": "Costs: Developing a new initiative requires time and resources, posing the difficulty with long-term sustainability. Through the collaborative partnership with the GCCHE, ASPHER can manage the course in a sustained way. The GCCHE support has been vitally important, not only from the perspective of not re-inventing the wheel but harnessing both organisations’ visions and goals was vital in strengthening the capacity and awareness of the role of health professionals in climate change. Through the support of the GCCHE, the online platform was provided in-kind through their organisation support. The GCCHE has the provisions with full-time staff and resources to supporting the online registration process, weekly surveys and the final exam. ASPHER’s sub-working group contributed their time voluntarily, driven by their passion for climate-health education. To share the workload, each team member moderated 1 or 2 weekly topic sessions. Funds provided by ASPHER member schools supported the content development and presentations by speakers. Furthermore, ASPHER is supported by the Young Professional Programme, which involves students and early-career individuals, passionate about climate-health. The sub-working group involved voluntary representation from the Young Professionals to ensure the content material was relatable to the new generation and health workforce. Benefits: Through the diverse support from ASPHER’s Schools of Public Health across different European countries, the course offers a unique regional perspective. Participants gained a comprehensive understanding of the interplay between climate change and health in Europe drawing on the latest evidence and practice. With a stronger educational foundation, which enhances their climate-health literacy, participants have the practical skills for identifying, preventing, and responding to health impacts of climate change. This increases their professional competence and enhance their career opportunities. Indirectly, the course provided a networking opportunity. Participants shared their names and affiliate organisations in the chat at the beginning of each session, fostering exchange of ideas and collaborations. Educating the public health and health workforce on climate change equips them to contribute to building more resilient communities that can better withstand and adapt to climate-related challenges. Climate-informed health professionals are better positioned to influence policy and advocate for public health measures that address climate change, as well as raise public awareness of the impacts and encourage preventive measures, supporting a climate-resilient health system.",
+    "timeline": "Developing the course began in May 2023, and was done in five phases, which lasted approximately two months each: Phase 1 : Developing a set of best practices for the working group between the ASPHER and the GCCHE to identify roles, vision, and expectations Phase 2: Competencies, Curriculum, and Intended Learning Outcomes Phase 3: Content Development for Lecturers & Case Studies Phase 4: Course live sessions (February - April 2024) Phase 5: Course Evaluation & Dissemination",
+    "lifetime": "The interest in the European Responders Course with (over 4,600 registered participants) the partnership between ASPHER and GCCHE is planned to continue and expand over the next few years. The ASPHER Climate and Health Working Group is currently planning to develop further specialised courses for targeted groups of health professionals. Training the public health and wider health professionals can improve their preparedness to tackle the climate-health challenges over the curse of their career. The course content is fully available online as an open education resources, accessible at any time.",
+    "stakeholders": "The European Climate and Health Responder Course was developed by ASPHER and the GCCHE. The course was developed as part of the ongoing collaboration between these organisations. ASPHER is a membership based organisation open to organisations within the WHO European Region, including schools of public health and professional public health associations. Individuals involved are experts in the public health and medical health fields. In 2022, ASPHER set up the Climate-Health Working Group to refine the needs of the health workforce regarding climate and health education. The working group is composed of public health practitioners, academics, leaders, and young professionals who are members of ASPHER’s Young Professional Programme. A sub-working group was established specifically to support the collaboration with the GCCHE. In the sub-working group for the EU Responder Course, the GCCHE provided weekly guidance on the structure and technicalities of the course development. The course involved guest lecturers across different organisations and schools of public health, including the World Health Organization, the European Climate and Health Observatory, and the Global Climate and Health Alliance (GCHA), drawing on ASPHER's networks. The sub-working group identified the speakers for the weekly topics, which allowed learning from experts and raising awareness about the different stakeholders working in climate-health across Europe. This provided an opportunity to strengthen relationships across the organisations involved in the course. The enrolment rates of participants was relatively balanced across clinical health, public health, and community care. Some participants came from other professions (e.g. architecture, chemical engineering, horticulture and warehouse management), demonstrating the wide interest in a broader course that is applicable to all backgrounds. Although the course was targeted at practitioners, it was also promoted to students at different universities and schools of public health. Over 1,695 of course participants were university students. Lastly, important stakeholders of the course were the member schools that offered the financial support for the course: Ecole des Haute en Sante Publique (France) NOVA National School of Public Health (Portugal) SSPH+ Swiss School of Public Health (Switzerland) Erasmus School of Health Policy and Management (Netherlands) Lietuvos Sveikatos Mokslų Universitetas (Italy)",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 50.8465573,
+    "lon": 4.351697,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "aspher.org",
+      "url": "https://www.aspher.org/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "publichealth.columbia.edu",
+      "url": "https://www.publichealth.columbia.edu/research/programs/global-consortium-climate-health-education/courses/past-courses/european-climate-health-responder-course",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+    "publication_date": "2024-10-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "dd7db8462664429d928cb69086bee2e9",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/online-training-in-climate-change-and-health-for-the-public-health-and-wider-health-workforce-in-europe",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park/",
+  "title": "Cities100: Wuhan – Rehabilitated River Embankment Becomes Beach Park",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Rehabilitated River Embankment Becomes Beach Park,” an urban initiative documented for Wuhan. It is included because it addresses river flood, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: Wuhan has re-embraced nature to make its city safe from flooding, while also providing the world's largest beach park for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2016, Wuhan experienced its worst rain in 18 years, reaching up to 1,087.2 mm in some districts, affecting 1.7 million people and causing almost $4 billion in damages 1 . The rainfall exceeded 100-year standards of 344 mm, and the flood level reached 1 m higher than the average warning level.",
+    "measures": "The Chinese megacity Wuhan is rehabilitating the embankment of the Yangtze River, as El Niño and monsoon rains have broken all records in recent years and exposed the city's inadequate flood defences. Historically, giant dikes lined the river banks, protecting riverside neighborhoods, but during extreme summer rainfall these systems failed. The city is now dismantling old defenses and instead embracing the natural protection qualities of vegetation. By modifying the embankment with a gentle slope, the area has now become the Yangtze River Beach Park. The newly established Beach Park is more than 7 km long and contains a vegetation buffer strip, 700,000 m2 of green park area, including 45,000 trees and rain gardens, which naturally filter polluted runoff water and defend Wuhan from intense storm events. Social perks add further value to the development. Fifteen kilometers of non-motorized roads, seven swimming pools, and 15 football courts cater to the 3.2 million people who have visited the park so far. A part of China's 13th Five Year Plan, the park is to become the largest urban riverfront park in the world at 10 million m2.\n Environmental Benefits – In addition to thousands of trees, 325,000 m2 of shrubs and 387,000 m2 of grass have been planted, improving the regional microclimate and lowering the urban heat island effect, with a drop in temperature of three degrees.\n Economic Benefits – Since the completion of the first phase of construction, the value of land in areas surrounding the park has risen from $631 to $1,471 per m2.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27309",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

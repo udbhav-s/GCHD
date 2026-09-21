@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-operation-of-the-austrian-heat-protection-plan",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+  "title": "Operation of the Austrian Heat Protection Plan",
+  "summary": "Austria's Heat Protection Plan, launched after the 2003 heatwave, aims to reduce heat stress and health risks especially in urban areas. It includes early warnings and tailored protection measures, focuses on vulnerable populations and involves collaboration between national and regional authorities. Evidence that increasing temperatures leads to increased mortality and morbidity is well documented, with population vulnerability being location specific. Especially the 2003 heat wave in Europe raised the awareness of negative impacts of heat stress on human health in Austria.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "elderly people",
+      "label": "elderly people"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Contingency plan",
+      "label": "Contingency plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "morbidity",
+      "label": "morbidity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mortality",
+      "label": "mortality"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "hospitals",
+      "kindergartens"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 2,
+      "older_people": 5,
+      "health_patients": 3
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the Austrian Heat Protection Plan is to reduce heat stress and prevent additional climate change-related negative health effects in the population in especially heat-prone areas (e.g., urban areas affected by the heat-island effect). In addition to climate change, broad demographic changes in Austrian society are to be expected. Changes in population size, age distribution, number of single-person households, or other demographic characteristics have implications on the handling of the environment, but also on specific needs (e.g., heat sensitivity increases with age). The plan serves to increase awareness of the health-related problems caused by prolonged heat waves. Practical tips and a guide for authorities and institutions should help to prevent heat-induced illnesses and fatal casualties. Special attention is placed on the chronically ill people, people in poor health condition, children, the elderly and people living in areas increasingly subject to heat waves. This plan establishes roles and functions for governmental institutions at national and regional (Bundesland) level. Although it is coordinated centrally by the Ministry of Health and Woman´s Affairs, it has a de-centralized operational structure.",
+    "measures": "Main elements and actions foreseen by the plan include: Definition of roles and responsibilities for each authority involved in the plan operation. Within the health sector, roles and responsibilities involve national and regional levels. The Ministry of Health and Woman´s Affairs informs about the heat warning on its web-page and provides and promotes precautionary measures for the citizens. The provinces provide as early as possible specific information to different targets (e.g. homes for the elderly, nursing homes, hospitals, kindergartens). Daily alerts to the general public are provided by the National Met Service (ZAMG) regarding the state of hazard related to extreme temperature and heat waves. Four possible alert levels are considered: (i) Green, indicating normal temperatures for that time of year; (ii) Yellow, indicating that temperatures are higher and there is potential to cause adverse health effects in the most sensitive population; (iii) Orange, indicating that temperatures are high and it is likely to cause adverse health effects in the sensitive population; (vi) Red, indicating extremely high temperatures likely to cause significant adverse health effects. For each alert level specific protection measures are established to reduce possible adverse health impacts; for example, during an orange and red alert level the following measures can be activated: (a) Inform the general population, health establishments, social services, and relevant media channels of the alert level and recommend what protective measures (i.e. drinking of water) can be applied to reduce heat-stress; information material is being provided by the Ministry of Health and Woman´s Affairs and the regions as well as in relevant facilities (e.g. homes for the elderly, nursing homes, hospitals, kindergartens); (b) Enhance communication channels in an early phase (adequate lead time) between the health sector and other sectors; (c) Coordinate with emergency response services (e.g. emergency services, mobile health care, medical association) to promote precautionary measures on time; (d) Coordinate with pharmacies to inform customers about possible problems related to heat stress and pharmaceuticals. Special focus on vulnerable population groups. A heat hotline is available at the Federal Office for Food Safety (AGES) for the general public in case of longer heatwaves. Monitoring of mortality and morbidity associated with periods of heat stress. Report to the Health Minister and the general public on the activities developed during the year.",
+    "outcomes": "The national alert warning system starts to be better known nationally, and previous experiences from two regions (Styria and Carinthia) served as a good basis for its development in Austria. In the case of the provinces Styria and Carinthia, a targeted e-mail with detailed prognosis, tips and links for further information is sent to all relevant actors. The details are showcased in the respective plans. For example in Styria the provincial health authorities developed a data pool for all relevant organisations to be informed. This data pool is exchanged with the ZAMG and used as distribution list for heat-warnings. At the beginning of the hot season all relevant organisations in Styria receive general information for the heat protection plan. As soon as possible, after an alert level is activated, an e-mail with regional forecasts, including information sheets and additional relevant information is sent. In the province of Vienna, a preventive heat warning service in cooperation with ZAMG warns all relevant actors in this field and provides tips and suggestions for measures (Vienna heat guidebook) to the general public. The heat warning service was developed after the heat wave of 2003 with different actors within the city of Vienna, the ZAMG as well as the medical University and the Vienna Regional Health Insurance Fund. Since 2010 a preventive heat warning service is in place for the Vienna citizens that warn in case that a heat level is exceeded for at least three days in a row. The information is spread to the citizen via a webpage of the city of Vienna and provincial media. How the national alert warning system will reduced actually adverse health effects will be difficult to assess, and there is currently no information available, besides the quantitative number of clicks on the heat warnings at the National Met Service (ZAMG). The collaboration in the development of the plan between the national and regional level as well as actors in the health sector will allow a realistic risk assessments based on early warning information and thus ensure a faster response within the health system. Another important success issue is the introduction of different temperature cut off values used to trigger alters in each region. However, this is a part of the plan that will be decided between the provinces and the National Met Service (ZAMG) which can benefit from more refined information.",
+    "cost_benefit": "The plan is fully funded by the Ministry of Health and Woman´s Affairs. Staff working on this plan also works in other areas of prevention thus making it very difficult to estimate the costs and resources associated with the plan. By definition the benefits of this plan is prevention of adverse health effects. Measuring these benefits is difficult and has not yet been analysed or calculated, but since the plan is in force for the first time in 2017, the impacts will be monitored and evaluated in the coming years.",
+    "timeline": "Following experiences with heatwave since 2003, the Austrian Heat Protection Plan was established in 2017 and will be in operation every year.",
+    "lifetime": "Actions foreseen by the Plan are assumed to continue for the long-term. A revision of the Plan is planned after first experiences are gained in the coming summer periods.",
+    "stakeholders": "Governmental institutions at national and regional levels were involved in the elaboration of the plan and work together taking on different roles during various stages of the plan operation. Other involved actors are health professionals, hospitals and other emergency staff. Communications regarding alert levels and corresponding risk reduction actions required are issued to the media by the National Met Service (ZAMG). Printed material on how to reduce risks are widely available in clinics and other locations targeting vulnerable groups such as the homes of the elderly. Information is also available online on the Ministry of Health and Woman´s Affairs website as well as on the website of the regional health authorities.",
+    "legal_context": "The Heat Protection Plan is a national plan developed, funded and implemented by the Ministry of Health and Woman´s Affairs and all relevant actors in the field of health and early warning on the national and regional level."
+  },
+  "point": {
+    "lat": 47.0701218238,
+    "lon": 13.3154296875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "warnungen.zamg.at",
+      "url": "https://warnungen.zamg.at/html/en/today/all/at/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gesundheit.steiermark.at",
+      "url": "http://www.gesundheit.steiermark.at/cms/beitrag/11685019/72561200",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ktn.gv.at",
+      "url": "https://www.ktn.gv.at/Themen-AZ/Details?thema=32&subthema=39&detail=472",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "74342b24978b4d48971fc0089c25ee15",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/operation-of-the-austrian-heat-protection-plan",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:23+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

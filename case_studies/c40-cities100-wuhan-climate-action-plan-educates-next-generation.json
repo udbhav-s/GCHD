@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-climate-action-plan-educates-next-generation",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-climate-action-plan-educates-next-generation/",
+  "title": "Cities100: Wuhan – Climate Action Plan Educates Next Generation",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Climate Action Plan Educates Next Generation,” an urban initiative documented for Wuhan. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Wuhan has set a goal to peak emissions ahead of Chinese targets, and has placed a strong emphasis on education…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Wuhan, the largest city in central China, is growing rapidly. Building sustainability into future economic growth plans is a challenge for many Chinese cities, and Wuhan is demonstrating how more ambitious strategies can be put into place.",
+    "measures": "The Chinese megacity Wuhan has committed to reach its carbon emissions peak around 2022. The model-based action plan established yearly carbon emission goals by district and industry across the city, and received input from businesses and citizens during the drafting process. Schools are seen to be a key focus area for Wuhan, which has established a set of low-carbon management and education principles suited for middle and primary schools. This strategy is the first of its kind in China, and will foster awareness of a low-carbon life and society and help students understand what steps are being taken in response to climate change in their city and why. The city hopes that with teachers and students as knowledge brokers, awareness amongst the general public will increase too.\n Economic Benefits – Based on the current carbon price, Wuhan will save around $370 million by 2022 with carbon emissions reductions.\n Health Benefits – Reducing emissions associated with polluting transport and coal burning will also improve air quality and save an estimated 50,000 lives by 2022.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-climate-action-plan-educates-next-generation/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27337",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-climate-action-plan-educates-next-generation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

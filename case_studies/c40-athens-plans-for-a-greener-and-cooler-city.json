@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-athens-plans-for-a-greener-and-cooler-city",
+  "url": "https://www.c40.org/case-studies/athens-plans-for-a-greener-and-cooler-city/",
+  "title": "Athens Plans for a Greener and Cooler City",
+  "summary": "This C40 case study describes “Athens Plans for a Greener and Cooler City,” an urban initiative documented for Athens. It is included because it addresses extreme heat hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Athens’ Operational Programme for the next five years sets the long-term strategy objectives of the City. The Greener and Cooler City project…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Athens",
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": null,
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Attiki",
+        "ucode": "GRC_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "athens",
+      "label": "Athens"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Athens’ Operational Programme for the next five years sets the long-term strategy objectives of the City. The Greener and Cooler City project aims to address one of the city’s main priorities: the improvement of basic environmental parameters and of the quality of life for all residents.",
+    "measures": "Summary \nAthens’ Operational Programme for the next five years sets the long-term strategy objectives of the City. The Greener and Cooler City project aims to address one of the city’s main priorities: the improvement of basic environmental parameters and of the quality of life for all residents.\n What is it? \nThe Directorate of Urban Green Space and Environment has set a target for making Athens a Greener and Cooler City , by proposing specific sustainable actions, achieving measurable goals regarding environmental improvement and taking into account other social and economic issues. Athens is also a member of the C40 Cool Cities Network.\n The main environmental objectives are:\n Mitigation of Urban Heat Island Effect\n Reduction of energy consumption and CO 2 related emissions\n Improvement of bioclimatic indices (indicator of distress or thermal comfort, etc.)\n Increase of CO 2 absorption and dust restrain\n Increase of shade\n Reduction of noise\n Management of storm water\n At the same time, in social terms, the project aims to restore the city center as a residential area and stop its continuous degradation, to offer a healthier environment and improve the quality of life for all who live or work in Athens.\n Currently, the existing situation is characterized by:\n Unequal distribution of parks and green spaces in the seven districts of the city\n Minimum land available for new green spaces\n Existing green spaces that need upgrading of infrastructure and strengthening of their vegetation\n Large and important green spaces that are not easily accessible (especially for vulnerable populations – elderly people and children)\n Multi-level ownership, since there are cases where important green spaces are administratively owned by other public services; in addition, cooperation with the Ministry of Culture is needed in places which are of great archeological interest\n Lack of financial and human resources\n Huge bureaucracy and complex administrative procedures during the implementation of each project.\n Application \nIn order to make Athens a greener and cooler city, two basic types of actions are planned:\n The reassessment of existing green spaces, with a main objective of increasing tree canopy \n For the most important green spaces in Athens (main parks, hills and the National Garden), management plans are being prepared to ensure the proper maintenance and viability. In addition, main squares and streets, where planting is possible, will be equipped with additional tree lines to increase canopy. \nIndicative existing green spaces that need proper management \n Implementing actions in districts that lack or don’t have access to organized and functional green spaces \n These actions include the creation of the municipal urban farm in Elaionas district (pilot project). \nUrban farm plan in Elaionas\n Moreover, new green spaces need to be developed to contribute to the mitigation of the UHI effect in Athens, which tends to be more frequent and more intense due to climate change. That includes the implementation of the proper infrastructure works to allow the planting of new trees on pavements, the further development of the green roofs programme, as well as the development of vertical green spaces and green facades. Currently, in 14 school buildings green roofs have been constructed using proper plants, which has led to a reduction of the buildings' consumption and improved the microclimatic conditions in the areas where the buildings are located. \n Green roofs in schools programme",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/athens-plans-for-a-greener-and-cooler-city/",
+    "publication_date": "2016-04-12",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27171",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=athens-plans-for-a-greener-and-cooler-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

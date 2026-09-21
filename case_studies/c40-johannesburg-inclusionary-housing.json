@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-johannesburg-inclusionary-housing",
+  "url": "https://www.c40.org/case-studies/johannesburg-inclusionary-housing/",
+  "title": "Inclusionary Housing in Johannesburg",
+  "summary": "This C40 case study describes “Inclusionary Housing in Johannesburg,” an urban initiative documented for Johannesburg. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The first inclusionary housing policy in Africa has been adopted in Johannesburg. This will ensure that the supply of smaller units in…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Johannesburg",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Johannesburg",
+        "ucode": "ZAF_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The first inclusionary housing policy in Africa has been adopted in Johannesburg. This will ensure that the supply of smaller units in the center city will increase, hence reducing travel and emissions throughout the city.",
+    "measures": "This project marks the first inclusionary housing policy that has been adopted anywhere in Africa. The hope is that the policy will increase the supply of smaller units in well located parts of the City, helping to address the housing backlog, bringing down prices of housing over time, as well as reducing travel times, costs and emissions in a city where these criteria are too high.\n What is the innovation? How does it work \n The framework will serve as a mechanism for land value capture that will favour the city and its residents. Council mandated to administer and award development rights within the city. The awarding of such rights usually results in an increase in value which should not only be enjoyed by the property owner, but should benefit the wider city and its residents as per the principles of the Spatial Planning and Land Use Management Act.\n The project was innovative thanks to a detailed inclusionary housing calculator that was developed internally by the city. \n Creating a more compact city (as opposed to continuing with sprawl) will help to preserve the remaining natural and biodiverse areas we have in the outskirts of the city, maintaining the ecosystem services they provide.\nIt is hoped that the above will also improve air quality in making the city more efficient.\n A compact city is environmentally and economically sustainable. It increases density and proximity which leads to a reduced energy consumption for transportation as well as improve land use management and preservation of rural land and biodiversity. A city with medium to high-density settlements has also reduced costs of services, public facilities and infrastructure provision, increasing economic sustainability and feasibility.\n Next Steps \n The policy (or similar policies) may be implemented by other Cities or indeed by National or Provincial Government.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/johannesburg-inclusionary-housing/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27492",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=johannesburg-inclusionary-housing&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

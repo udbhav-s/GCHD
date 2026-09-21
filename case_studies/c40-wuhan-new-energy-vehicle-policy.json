@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-wuhan-new-energy-vehicle-policy",
+  "url": "https://www.c40.org/case-studies/wuhan-new-energy-vehicle-policy/",
+  "title": "Wuhan ‘new energy’ vehicle policy",
+  "summary": "This C40 case study describes “Wuhan ‘new energy’ vehicle policy,” an urban initiative documented for Wuhan. It is included because it is located in the Global South. C40 describes the action this way: In 2015, cars in Wuhan numbered 2,223,577, 17.10% higher than in 2014. In the same year, Wuhan proactively promoted ‘new energy’ vehicles,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2015, cars in Wuhan numbered 2,223,577, 17.10% higher than in 2014. In the same year, Wuhan proactively promoted ‘new energy’ vehicles, introduced incentives to encourage applications for ‘new energy’ vehicles, put in 661 charging facilities and built 21 charging stations. No fewer than 3,075 ‘new energy’ vehicles went on sale. The number of ‘new energy’ vehicles going on sale ranked 12th out of 39 pilot cities and 5th among cities of same category.",
+    "measures": "In terms of subsidies, ‘new energy’ vehicles eligible for financial support include electric vehicles, plug-in hybrid electric vehicles and fuel cell vehicles. When a company or an individual buys a ‘new energy’ vehicle, local authorities will subsidise 1:1 per national subsidy. Local and national subsides will not exceed 60% of the sales price of this type of vehicle. If the maximum subsidy of 60,000 RMB is provided for a ‘new energy’ vehicle by the national authorities, a citizen buying a ‘new energy’ vehicle can get 120,000 RMB in subsidy.\n With respect to taxes and fees in Wuhan, ‘new energy’ vehicles are exempt from: vehicle and vessel use tax; toll charges for urban roads, bridges and tunnels; and vehicle purchase tax. In 2015, Wuhan’s ETC rate was 8 yuan/time (for vehicles of under five seats) and 2100 yuan for a year. ‘New energy’ vehicles are exempt from ETC，generating a saving of 2,100 ETC cost per year.\n At the same time, ‘new energy’ vehicles can charge for free at designated charging facilities. They are exempt from number plate restrictions when driving in the city.\n In addition, Wuhan mandates that new residence compounds and large public parking yards must plan for and provide charging facilities as per 20% of their total space. Wuhan also writes ‘new energy’ vehicles into government procurement. Fifty percent of new or replacement vehicles for government agencies, public security, judicial services, public transportation, and environment health must use ‘new energy’ vehicles. For ‘new energy’ logistics vehicles delivering in cities, permits are provided for travelling on specified routes within the 3rd ring road.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/wuhan-new-energy-vehicle-policy/",
+    "publication_date": "2017-06-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27296",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-new-energy-vehicle-policy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

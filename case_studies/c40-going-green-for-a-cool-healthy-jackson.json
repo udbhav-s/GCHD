@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-going-green-for-a-cool-healthy-jackson",
+  "url": "https://www.c40.org/case-studies/going-green-for-a-cool-healthy-jackson/",
+  "title": "Going Green for a Cool, Healthy Jackson",
+  "summary": "This C40 case study describes “Going Green for a Cool, Healthy Jackson,” an urban initiative documented for Jackson. It is included because it addresses extreme heat hazards. C40 describes the action this way: As part of the Cities Taking Action to Address Health, Equity, and Climate Change grant, Jackson was one of six U.S. cities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jackson",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Mississippi",
+        "ucode": "USA_0025_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Jackson",
+        "ucode": "USA_0025_0030_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jackson",
+      "label": "Jackson"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change grant, Jackson was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects.",
+    "measures": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative , Jackson was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects. \n What is Going Green for a Cool, Healthy Jackson? \n Extreme heat and humidity are the biggest weather-related threats to the health and wellbeing of people in Jackson, Mississippi. Temperatures are above 35ºC (95º Fahrenheit) for an average of 47 days a year, forecast to increase to 58 days per year by 2030 . Heat affects everyone, but neighbourhoods that have higher poverty rates are even more impacted. Extreme heat is an even greater problem in Mississippi, where one in four people live below the poverty line – the highest rate in the U.S. \n To tackle inequitable extreme heat in Jackson, 2ºC Mississippi , a local non-profit organisation led by Dominika Parry, built a coalition of partners with Mississippi State University’s Jackson Community Design Center (JCDC) , the National League of Cities, and local consultants from Jackson State University. Together, they are working with residents on the Going Green for a Cool, Healthy Jackson project.Through a community-led design process, the team identified three sites in the historic Farish Street district that will be transformed into green spaces, using nature to reduce ambient temperatures and improve health and wellbeing for Jacksonians.\n What has Going Green for a Cool, Healthy Jackson achieved so far? \n Heat mapping \n 2°C Mississippi partnered with CAPA Strategies led by Dr Vivek Shandas, a climate change professor and researcher who studies how urban heat islands disproportionately impact communities of colour. With the help of many volunteers, they collected over 70,000 individual measurements of temperature and humidity throughout the day using sensors attached to cars to create heat maps of Jackson. Using this data and by engaging with the community, Farish Street was identified as an ideal location for this project, both for its cultural significance and high temperatures.\n Creating a community park \n The project team engaged residents in a year-long community design process to envision how Farish Street could become a vibrant, cool, and green community space. After meeting with residents, the JCDC developed mock-ups with examples of nature-based features from different cities and parks, including green walls, rain gardens, shrubs. The team were inspired by urban nature projects from all around the world, including The Promenade in Velenje, Slovenia and Xuhui Runway Park in Xuhui, China. This way, residents could see their ideas come to life and what it would look and feel like to be in the spaces they were designing together. \n Community design process for Farish Street sites. © Dr. Dominika Parry \n The transformation of Farish Street will begin in 2024. A mural will be commissioned, street trees will be planted, and the Town Creek fence will be cleaned up. Construction of the park will start over the next two years. With the success of the planning process, 2°C Mississippi is working on securing implementation and maintenance funds.\n The Going Green for a Cool, Healthy Jackson project has set the stage for a new park in Jackson designed by the community, for the community. It has established relationships with engaged residents and opened the door for more collaboration between residents, non-profits, academia and city government institutions to benefit the health and wellbeing of Jacksonians.\n Learn more about Going Green for a Cool, Healthy Jackson \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/going-green-for-a-cool-healthy-jackson/",
+    "publication_date": "2023-10-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36677",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=going-green-for-a-cool-healthy-jackson&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-16T12:15:55",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

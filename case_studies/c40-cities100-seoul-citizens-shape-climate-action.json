@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-seoul-citizens-shape-climate-action",
+  "url": "https://www.c40.org/case-studies/cities100-seoul-citizens-shape-climate-action/",
+  "title": "Cities100: Seoul – Citizens Shape Climate Action",
+  "summary": "This C40 case study describes “Cities100: Seoul – Citizens Shape Climate Action,” an urban initiative documented for Seoul. It is included because it addresses heatwave hazards. C40 describes the action this way: The Promise of Seoul engages citizens in helping the South Korean capital reach its climate targets. The Challenge Many cities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "heatwave"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seoul",
+      "label": "Seoul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Many cities struggle to engage their citizens in public policy initiatives. To combat this, the Promise of Seoul is dedicated to involving people city-wide. Public, civil, and corporate bodies will realize the vision by carrying out detailed action plans in areas including energy, urban planning, air quality, transportation, resource recycling, water, ecosystems, health, and safety.",
+    "measures": "In 2015, Seoul unveiled its new ambition to reduce greenhouse gas emissions and take action against climate change: the Promise of Seoul. This citizen-led project aims to curtail CO2 emissions by 25%, or 10 million tons, by 2020. Given Seoul’s population of approximately 10 million people, this equates to one ton of CO2 reduced per person. Other goals include increasing the use of public transportation to 66.5% by 2020 and saving the equivalent of 5 million tons of oil by 2030 through energy efficiency and conservation practices. The project is closely tied to Seoul’s energy initiative, One Less Nuclear Power Plant, which cuts energy consumption by the equivalent of 2 million tons of oil – the capacity of one nuclear power plant – between 2012 and 2014.\n While One Less Nuclear Power Plant has been a success thus far, the city felt more public involvement was needed to truly galvanize action. Therefore, the Promise of Seoul was initiated to solicit help from citizens and private organizations in shaping the project and in carrying out the goals and measuring results. In all, more than 830,000 citizens and 52 civil organizations took part in Seoul’s commitment to reduce one ton of carbon dioxide per person.\n Environmental Benefits – The city plans to recycle 73% of waste by 2020 under the Promise of Seoul.\n Social Benefits – The project includes plans to extend bike lanes by 1,000 km, making active transportation throughout the city safer and more enjoyable.\n Health Benefits – The Promise of Seoul will improve public health by employing preventive measures against infectious diseases and heat waves, while increasing its capacity to respond to climate related disasters.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-seoul-citizens-shape-climate-action/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27001",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-seoul-citizens-shape-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

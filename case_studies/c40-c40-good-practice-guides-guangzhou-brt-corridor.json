@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-guangzhou-brt-corridor",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-guangzhou-brt-corridor/",
+  "title": "C40 Good Practice Guides: Guangzhou – BRT Corridor",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Guangzhou – BRT Corridor,” an urban initiative documented for Guangzhou. It is included because it is located in the Global South. C40 describes the action this way: Summary Guangzhou’s innovative 22.5 km long BRT corridor opened in February 2010 and is an example of holistic planning, with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Guangzhou",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Guangzhou",
+        "ucode": "CHN_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guangzhou",
+      "label": "Guangzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Guangzhou’s innovative 22.5 km long BRT corridor opened in February 2010 and is an example of holistic planning, with…",
+    "measures": "Summary \n Guangzhou’s innovative 22.5 km long BRT corridor opened in February 2010 and is an example of holistic planning, with the BRT at the centre of a multimodal transport network that integrates other urban design elements. The corridor’s success was also recognised by the Institute for Transportation and Development Policy’s Sustainable Transport Award in 2011 xx .\n Among the key features of the system, which was developed in cooperation with ITDP China, are the following: fully segregated BRT lanes with world’s highest BRT bus volumes (350 buses per hour in a single direction, approximately one bus every 10 seconds, transporting more than 800,000 passengers per day); xxi system location in a high-density area and station size based on passenger demand; flat-rate subsidized bus fares and discounted smart cards; direct access to metro or rail stations; bridges from bus stations connecting directly to adjacent buildings; bike parking and public bike sharing available at or near BRT stations (more than 5,000 bikes); and a “greenway” combining bike lanes, walkways, parks and playgrounds on either side of the BRT corridor. xxii \n Results \n As the ITDP report suggests, xxiii the Guangzhou BRT system has reduced traffic congestion and increased speed of buses and mixed traffic by 29% and 20% respectively, saving 52 million commute hours in 2010, with an estimated annual value of US$ 24 million. It also improved efficiency of the city’s overall bus system, increased use of public transport and reduced bus overcrowding (bus service satisfaction increased from 29% to 65%). The BRT system contributed to an estimated average annual CO 2 emissions reduction of 86,000 metric tons during its first 10 years through car use reduction and biking promotion, and particulate emissions reduction of at least 4 tons per year, further increasing the efficiency of Guangzhou buses already running on LPG. At the same time, the BRT reportedly resulted in annual operating cost savings of US$14 million since the system began operating, securing a competitive return on investment (despite subsidized bus fares) expected at 79% within 10 years (131% if all local and global benefits, excluding health impacts, are taken into account).\n Reasons for success \n Guangzhou’s BRT system is particularly successful because of the holistic and detailed planning process. The city considered very carefully how the new BRT corridor would fit in with people’s expectations and needs, as well as with existing modes of transit e.g. existing bus routes, walking and cycling options in the city, etc.\n When/why a city might adopt an approach like this \n Cities seeking to develop BRT solutions for long-term sustainability benefits should look to the above examples for holistic implementation. Guangzhou has considered both design and integration features to ensure economic and social factors (demand, population distribution, fare structure, station accessibility, existing community sites and landmarks), physical and geographic factors (width of roadways and necessary expansion, elevation, existing infrastructure), and technological factors (vehicles, real-time monitoring, signals, fare integration) are taken all into account in the design and implementation phases of its BRT system. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "As the ITDP report suggests, xxiii the Guangzhou BRT system has reduced traffic congestion and increased speed of buses and mixed traffic by 29% and 20% respectively, saving 52 million commute hours in 2010, with an estimated annual value of US$ 24 million. It also improved efficiency of the city’s overall bus system, increased use of public transport and reduced bus overcrowding (bus service satisfaction increased from 29% to 65%). The BRT system contributed to an estimated average annual CO 2 emissions reduction of 86,000 metric tons during its first 10 years through car use reduction and biking promotion, and particulate emissions reduction of at least 4 tons per year, further increasing the efficiency of Guangzhou buses already running on LPG. At the same time, the BRT reportedly resulted in annual operating cost savings of US$14 million since the system began operating, securing a competitive return on investment (despite subsidized bus fares) expected at 79% within 10 years (131% if all local and global benefits, excluding health impacts, are taken into account).\n\nGuangzhou’s BRT system is particularly successful because of the holistic and detailed planning process. The city considered very carefully how the new BRT corridor would fit in with people’s expectations and needs, as well as with existing modes of transit e.g. existing bus routes, walking and cycling options in the city, etc.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-guangzhou-brt-corridor/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27093",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-guangzhou-brt-corridor&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-rotterdam-climate-change-adaptation-strategy",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-rotterdam-climate-change-adaptation-strategy/",
+  "title": "C40 Good Practice Guides: Rotterdam – Climate Change Adaptation Strategy",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Rotterdam – Climate Change Adaptation Strategy,” an urban initiative documented for Rotterdam. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Summary Rotterdam, the largest European port, has an integrated climate change adaptation approach, marked by adoption of the Rotterdam Climate…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rotterdam",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": null,
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zuid-Holland",
+        "ucode": "NLD_0012_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rotterdam",
+      "label": "Rotterdam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Rotterdam, the largest European port, has an integrated climate change adaptation approach, marked by adoption of the Rotterdam Climate…",
+    "measures": "Summary \n Rotterdam, the largest European port, has an integrated climate change adaptation approach, marked by adoption of the Rotterdam Climate Proof xviii (2008) and the Rotterdam Climate Change Adaptation Strategy xix (2013). The strategy aims to: a) strengthen a robust system of flood, storm water surge and sea-level rise defences; b) adapt the urban space to combine its three functions: ‘sponge’ (water squares, infiltration zones and green spaces), protection (dykes and coastal protection) and damage control (evacuation routes, water- resistant buildings and floating structures); c) increase city resilience through integrated planning; d) foster the opportunities that climate change brings, such as strengthening the economy, improving the quality of life, and increasing biodiversity.\n Results \n Rotterdam’s adaptation system is based on the flood and sea-level rise defence system, consisting of the Maeslantkering (flexible storm surge barrier), permanent sand dunes along the coast, and dykes along the rivers. In fact, Rotterdam adopts a tailored “inner-dyke/outer-dyke” approach. The inner-dyke city (mostly below sea level) is formed by a system of polders drained by water outlets and pumps and protected by smaller secondary dykes. The outer-dyke city area (3-5.5 m above the sea level), where about 40,000 citizens live, is vulnerable to rising sea levels or smaller temporary floods. It is being adapted through use of innovative technologies (e.g. floating buildings) and more traditional approaches (e.g. insulation of building facades and raising electrical installations). In addition to sea and river flood defence, Rotterdam is also addressing heavy rainfall threats. It has built water storage spaces, including the Museumpark car park underground water storage with capacity of 10,000 m 3 , and is integrating Blue-Green Corridors into the urban landscape. These Blue-Green Corridors – watercourses and ponding areas – are designed to facilitate natural hydrological processes such as groundwater replenishment whilst minimizing urban flooding, enhancing biodiversity and improving cities liveability. Rotterdam also installed over 185,000 m 2 of green roofs in 2014 alone. Finally, the launch of the 100% climate-proof neighbourhood-scale project in the Zomerhofkwartier, demonstrates Rotterdam’s commitment to comprehensive delta city adaptation.\n Reasons for success \n Since the very conception of the city, Rotterdam has a history of integrating land use and flood control, with city officials and other stakeholders making decisions around water management in relation to natural conditions. The city government also clearly identifies climate change adaptation as a priority, taking responsibility for resilient planning and financing a large portion of adaptation measures. Climate change adaptation investment needs have been integrated in the city budget, which enables the city to be proactive about planning for climate change resilience. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Rotterdam’s adaptation system is based on the flood and sea-level rise defence system, consisting of the Maeslantkering (flexible storm surge barrier), permanent sand dunes along the coast, and dykes along the rivers. In fact, Rotterdam adopts a tailored “inner-dyke/outer-dyke” approach. The inner-dyke city (mostly below sea level) is formed by a system of polders drained by water outlets and pumps and protected by smaller secondary dykes. The outer-dyke city area (3-5.5 m above the sea level), where about 40,000 citizens live, is vulnerable to rising sea levels or smaller temporary floods. It is being adapted through use of innovative technologies (e.g. floating buildings) and more traditional approaches (e.g. insulation of building facades and raising electrical installations). In addition to sea and river flood defence, Rotterdam is also addressing heavy rainfall threats. It has built water storage spaces, including the Museumpark car park underground water storage with capacity of 10,000 m 3 , and is integrating Blue-Green Corridors into the urban landscape. These Blue-Green Corridors – watercourses and ponding areas – are designed to facilitate natural hydrological processes such as groundwater replenishment whilst minimizing urban flooding, enhancing biodiversity and improving cities liveability. Rotterdam also installed over 185,000 m 2 of green roofs in 2014 alone. Finally, the launch of the 100% climate-proof neighbourhood-scale project in the Zomerhofkwartier, demonstrates Rotterdam’s commitment to comprehensive delta city adaptation.\n\nSince the very conception of the city, Rotterdam has a history of integrating land use and flood control, with city officials and other stakeholders making decisions around water management in relation to natural conditions. The city government also clearly identifies climate change adaptation as a priority, taking responsibility for resilient planning and financing a large portion of adaptation measures. Climate change adaptation investment needs have been integrated in the city budget, which enables the city to be proactive about planning for climate change resilience.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-rotterdam-climate-change-adaptation-strategy/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27148",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-rotterdam-climate-change-adaptation-strategy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-buenos-aires-flood-prevention-in-low-income-communities",
+  "url": "https://www.c40.org/case-studies/cities100-buenos-aires-flood-prevention-in-low-income-communities/",
+  "title": "Cities100: Buenos Aires – Flood Prevention in Low-income Communities",
+  "summary": "This C40 case study describes “Cities100: Buenos Aires – Flood Prevention in Low-income Communities,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: A reservoir upgrade in Buenos Aires will have a positive impact on the city’s underprivileged neighborhoods. The Challenge The combination…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The combination of poor stormwater drainage, due to recent urbanization, and increasing rates of floods has put Buenos Aires’ most vulnerable and low-income populations at serious risk. The new network of reservoirs aims to decrease the frequency of flooding and improve the social and economic standing of at-risk residents",
+    "measures": "In 2011, Buenos Aires unveiled a Hydraulic Master Plan intended to combat the increasing frequency of floods and their associated social and economic damage. The project will upgrade the city’s stormwater drainage network to provide protection against 10-year rainfall events. The project consists of the installation of three reservoirs that together can hold up to 300 million liters of water during heavy rains. These projects will benefit about 700,000 people living in the target basins, 10% of whom are in the most critical areas.\n One of these reservoirs is Lake Soldati. This flood-prone lake, surrounded by about 46,000 mainly low-income residents, will be turned into a natural reservoir, allowing excess rain water to flow to a nearby river in a controlled manner, and prevent flooding of the lake’s shores. The goal of this reservoir is to protect vulnerable residents and help foster sustainable social and economic development in the area.\n Environmental Benefits – The rehabilitation of Lake Soldati will involve an extensive cleanup, as well as an outreach campaign to ensure that residents have the knowledge and resources needed to keep the lake clean.\n Social Benefits – The Lake Soldati project not only protects low-income residents, but contributes to their neighborhood’s development by ensuring access to essential services such as transportation, health, and education.\n Economic Benefits – Fewer floods equal fewer disruptions to transportation, communication, and resource access, all of which will mean savings for the city as well as individual residents.\n Health Benefits – The project will improve sanitation conditions for the vulnerableresidents who live in informal settlements around Lake Soldati.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-flood-prevention-in-low-income-communities/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26995",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-flood-prevention-in-low-income-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-seoul-leaving-the-car-behind-pays-off",
+  "url": "https://www.c40.org/case-studies/cities100-seoul-leaving-the-car-behind-pays-off/",
+  "title": "Cities100: Seoul – Leaving the Car Behind Pays Off",
+  "summary": "This C40 case study describes “Cities100: Seoul – Leaving the Car Behind Pays Off,” an urban initiative documented for Seoul. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The City of Seoul seeks to reduce carbon emissions and localized air pollution under a voluntary civic engagement program whereby…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seoul",
+      "label": "Seoul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of Seoul boasts a highly effective public transport system. Even so, the city still struggles with very high levels of localized air pollution and CO2 emissions caused in part by the increasing number of private vehicles.",
+    "measures": "A voluntary program in the city of Seoul, South Korea, rewards citizens who reduce their driving compared to kilometers driven the year before. Incentives are given in the form of points, which can be used to pay for local taxes, purchase mobile gift cards, or donate to a local fund that fights energy poverty by installing energy-saving units like LED lights and mini solar panels. The city expects to pay out $1.36 million annually in program incentives. A two-year trial period resulted in doubling the carbon emission reductions compared to Seoul's Voluntary No-driving Days program. The Eco-driving mileage program, launched in April 2017, aims to enlist 50,000 members each year and maintain 250,000 members after 2022. This program directly engages citizens in the city's efforts to tackle climate change. Members of the program are expected to build better driving habits and acquire better understanding of climate change.\n Environmental Benefits – By inducing less driving, the program will improve Seoul's air quality by reducing both fine particle pollution and greenhouse gas emissions.\n Social Benefits – The program was designed with the knowledge that in order for it to be successful, a meaningful number of people would have to willingly accept daily inconveniences, which is why participating citizens are rewarded as environmental problem-solvers.\n Health Benefits – The program is designed to cut vehicle driving, which will improve public health, as transportation is responsible for 37% of air pollution in Seoul.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-seoul-leaving-the-car-behind-pays-off/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27348",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-seoul-leaving-the-car-behind-pays-off&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

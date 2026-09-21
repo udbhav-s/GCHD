@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-copenhagen-city-of-cyclists",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-city-of-cyclists/",
+  "title": "C40 Good Practice Guides: Copenhagen – City of Cyclists",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Copenhagen – City of Cyclists,” an urban initiative documented for Copenhagen. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Summary Copenhagen is renowned for its cycling culture. Since the 1970s, the city has invested heavily in cycle infrastructure, tailoring…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Copenhagen is renowned for its cycling culture. Since the 1970s, the city has invested heavily in cycle infrastructure, tailoring…",
+    "measures": "Summary \n Copenhagen is renowned for its cycling culture. Since the 1970s, the city has invested heavily in cycle infrastructure, tailoring roads and transport policy to cyclists’ needs. In 2012, the City of Copenhagen adopted a new cycling strategy for 2025 with a goal of increasing the modal share of bicycles to 50% of commuter trips and reducing serious injuries by 70%. xviii  \n Results \n According to the Copenhagen Bicycle Account 2014 xix , 45% of the total number of people working or studying in Copenhagen cycle to their place of work or education. There are 350 km of segregated cycle tracks, which accommodate all types of cyclists, including children, seniors, and families. The shift to a dominant cycling mode share has also had beneficial economic impacts given reductions in air pollution and healthcare costs. Cycling is generally perceived as a healthier, more environmentally friendly, cheaper and often a quicker way to move around town than public transport or a car. 50% of Copenhagen cyclists claim they cycle because that is the easiest way to get around the city.  \n Reasons for success \n Copenhagen has been successful in its cycling strategy thanks to a range of large and small interventions to support cycling in the city. The City of Copenhagen has introduced a vast network of Green Cycle routes and Super Cycle Highways. The cycle tracks are designed with safety and convenience of the bike user in mind, with clear segregation from cars, often with a curb or trees separating the two transport users. xx A key improvement has also been the introduction of the ‘Cykelslangen’, or ‘cycle snake’, an elevated bike lane that combines an enhanced cycling experience with an iconic design addition to the city. xxi Commuters are permitted to bring bicycles on local trains for free, which further encourages mixed-mode commuting. Copenhagen also has a number of high-profile cycling advocates, including city government officials and even the Danish Royal Family. xxi  \n When/why a city might adopt an approach like this \n Copenhagen’s cycling efforts have long been a source of inspiration for other cities that aspire for cycling to be the primary mode of transportation. This has given rise to the term ‘Copenhagenisation’, coined by Danish architect and professor Jan Gehl. xxiii Urban and transport planners from all over the world have been looking to Copenhagen for ways to shift people away from their cars and onto bikes. xxiv  \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Transit Oriented Development Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "According to the Copenhagen Bicycle Account 2014 xix , 45% of the total number of people working or studying in Copenhagen cycle to their place of work or education. There are 350 km of segregated cycle tracks, which accommodate all types of cyclists, including children, seniors, and families. The shift to a dominant cycling mode share has also had beneficial economic impacts given reductions in air pollution and healthcare costs. Cycling is generally perceived as a healthier, more environmentally friendly, cheaper and often a quicker way to move around town than public transport or a car. 50% of Copenhagen cyclists claim they cycle because that is the easiest way to get around the city.\n\nCopenhagen has been successful in its cycling strategy thanks to a range of large and small interventions to support cycling in the city. The City of Copenhagen has introduced a vast network of Green Cycle routes and Super Cycle Highways. The cycle tracks are designed with safety and convenience of the bike user in mind, with clear segregation from cars, often with a curb or trees separating the two transport users. xx A key improvement has also been the introduction of the ‘Cykelslangen’, or ‘cycle snake’, an elevated bike lane that combines an enhanced cycling experience with an iconic design addition to the city. xxi Commuters are permitted to bring bicycles on local trains for free, which further encourages mixed-mode commuting. Copenhagen also has a number of high-profile cycling advocates, including city government officials and even the Danish Royal Family. xxi",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-city-of-cyclists/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27135",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-copenhagen-city-of-cyclists&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

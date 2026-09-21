@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-portland-tracking-emissions-at-home-and-abroad",
+  "url": "https://www.c40.org/case-studies/cities100-portland-tracking-emissions-at-home-and-abroad/",
+  "title": "Cities100: Portland – Tracking Emissions at Home and Abroad",
+  "summary": "This C40 case study describes “Cities100: Portland – Tracking Emissions at Home and Abroad,” an urban initiative documented for Portland. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Portland unveiled a climate plan that judges emissions based not only on what happens within its borders but also on…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Portland",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Oregon",
+        "ucode": "USA_0038_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "portland",
+      "label": "Portland"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Portland, Oregon, has been an American leader on climate change for many years. This ambitious plan builds on decades of action and takes the city a step further by analyzing how Portland residents’ and businesses’ purchasing habits influence greenhouse gas emissions elsewhere in the world. With this knowledge, the city is preparing for even more rigorous climate action in the future.",
+    "measures": "A key feature of Portland’s 2015 Climate Action Program is its pioneering consumption-based emissions inventory methodology, enabling the city to drive down greenhouse gas emissions within and beyond its borders. The consumption inventory analyzes data on spending by Portland households, government agencies, and business capital investment, taking into account the entire value chain of a product or service. This method enables the city to track the emissions it is responsible for regardless of where those emissions took place, and to better comprehend exactly how the city contributes to climate change and can develop additional mitigation opportunities.\n In addition to this new methodology, the comprehensive plan targets an 80% reduction in emissions by 2050, and includes a host of climate change-related targets for 2020, such as increasing the combined mode share for transit, bicycling, and walking to at least 50%, reducing energy use in existing buildings by 1.7% annually, and increasing the total recovery of solid waste to 80%.\n Environmental Benefits – The plan aims to double the city’s installed solar capacity to 30 MW, which will reduce emissions by 6,000 metric tons annually by 2020.\n Social Benefits – The plan focuses on social equity and prioritizes climate actions that reduce disparities in wealth, access to amenities, and public health, by, for example, prioritizing sidewalk construction and tree planting in underserved areas of the city.\n Economic Benefits – The plan builds on Portland’s recent experience in growing the clean technology sector at a much faster rate than the city economy as a whole, and the city now boasts more than 12,000 local jobs in clean tech.\n Health Benefits – Portland’s Climate Action Program aims to expand urban forest canopy to cover at least 31% of the city, which will improve air quality.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Emissions or carbon inventory",
+      "url": null,
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-portland-tracking-emissions-at-home-and-abroad/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27003",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-portland-tracking-emissions-at-home-and-abroad&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

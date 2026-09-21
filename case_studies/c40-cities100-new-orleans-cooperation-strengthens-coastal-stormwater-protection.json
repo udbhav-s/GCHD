@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-orleans-cooperation-strengthens-coastal-stormwater-protection",
+  "url": "https://www.c40.org/case-studies/cities100-new-orleans-cooperation-strengthens-coastal-stormwater-protection/",
+  "title": "Cities100: New Orleans – Cooperation Strengthens Coastal Stormwater Protection",
+  "summary": "This C40 case study describes “Cities100: New Orleans – Cooperation Strengthens Coastal Stormwater Protection,” an urban initiative documented for New Orleans. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Increased cooperation between federal, state, and local agencies has enabled New Orleans to strengthen its resilience against more frequent future…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New Orleans",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Louisiana",
+        "ucode": "USA_0019_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-orleans",
+      "label": "New Orleans"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Facing numerous complex challenges – including rising seas, diminished protective wetlands, intense storm threats, land subsidence, and regular flooding – the City of New Orleans has had to reassess its water management practices and increase collaboration between agencies to close gaps in services and ensure that the city is fully prepared to deal with extreme weather events.",
+    "measures": "Facing rising sea levels, regular flooding, and land subsidence, the American City of New Orleans needed to reset its approach to adaptation planning, as a lack of coordination between government agencies had left the city unprepared. The solution was establishment of the Urban Delta initiative, an integrated approach to storm protection, fostering cooperation between federal, state, and local agencies in order to build a strong, resilient city.\n Through Urban Delta, New Orleans identified gaps in coordination and areas of service for which no agency had official responsibility, and took steps to rectify these oversights. One such case is management of groundwater and subsidence. These areas are now managed by the Sewerage and Water Board of New Orleans, which is working with the city and citizen groups on the best ways to cooperatively manage threats. Increased coordination is paying off, as New Orleans has begun a collaborative reconstruction of the city’s streets, drainage, and sewer systems. This rehabilitation is expected to increase the city’s protection from a 100-year storm level to a 500-year storm level, while also preventing 600,000 tons of debris from flood-related property damage over the next 50 years.\n Environmental Benefits – The energy needed to process and pump out water that falls within the protective levee system represents 60% of municipal energy use. Urban Delta is expected to reduce this energy consumption by up to 30%.\n Social Benefits – Urban Delta will create a defensible city that can provide equitable levels of protection for all city residents and accept displaced citizens from communities no longer viable due to coastal land loss.\n Economic Benefits – With Urban Delta, properly maintained groundwater levels will reduce land subsidence in New Orleans, which is estimated to cost around $2.2 billion in damages to structures over the next 50 years.\n Health Benefits – The project expects a correlated decrease in respiratory illnesses due to mold and other harmful health outcomes linked to water damage in buildings.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-orleans-cooperation-strengthens-coastal-stormwater-protection/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26986",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-orleans-cooperation-strengthens-coastal-stormwater-protection&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-toronto-de-contamina-tion-begets-a-new-green-community",
+  "url": "https://www.c40.org/case-studies/cities100-toronto-de-contamina-tion-begets-a-new-green-community/",
+  "title": "Cities100: Toronto – De-contamination Begets a New Green Community",
+  "summary": "This C40 case study describes “Cities100: Toronto – De-contamination Begets a New Green Community,” an urban initiative documented for Toronto. It is included because it addresses river flood hazards. C40 describes the action this way: Revitalizing a contaminated urban brownfield and creating an ecologically functional river mouth will foster a new sustainable community and reduce…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Toronto",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "Ontario",
+        "ucode": "CAN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Toronto",
+        "ucode": "CAN_0009_0046_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Port Lands Neighbourhoods was once a massive wetland teeming with aquatic wildlife, but the area was filled to create an industrial district. Now, after years serving industrial purposes, the district has become an underutilized, heavily contaminated brownfield site. Toronto plans to revitalize the area to develop a sustainable community.",
+    "measures": "The City of Toronto is working with Waterfront Toronto, the Toronto and Region Conservation Authority, the Province of Ontario and the Federal Government to re-naturalize the mouth of the Don River into a healthier and ecologically functional river outlet to Toronto’s Inner Harbour. This will allow for the transformation of the Port Lands, an underutilized and contaminated industrial area, into a new sustainable community. Creating the new river mouth will protect 290 hectares of land east and south of the Don River which is currently at risk of flooding and will include the decontamination or removal of approximately 2.5 million m3 of polluted soil.\n The plan is to transform the Port Lands Neighbourhoods into a resilient and sustainable community with 12,500 homes, 279,000 m2 of commercial and retail space, and 53 hectares of parks and public spaces. The sustainability focus includes implementing aggressive energy and transportation strategies such as targets for energy use intensity and measures to encourage active mobility by building bike-share facilities and designated lanes for pedestrians and bikes.\n Social Benefits – The project is estimated to generate 7,672 person years of employment.\n Economic Benefits – The direct investment in flood protection will generate approximately $859 million in economic value added to the Canadian economy.\n Health Benefits – The project aims to make the district a zero waste export community by requiring high levels of domestic, commercial, industrial, and construction waste diversion, reducing pollutants from unmanaged waste and overused landfills.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-toronto-de-contamina-tion-begets-a-new-green-community/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27055",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-toronto-de-contamina-tion-begets-a-new-green-community&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

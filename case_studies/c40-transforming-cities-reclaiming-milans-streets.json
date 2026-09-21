@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-reclaiming-milans-streets",
+  "url": "https://www.c40.org/case-studies/transforming-cities-reclaiming-milans-streets/",
+  "title": "Transforming Cities: Reclaiming Milan’s streets",
+  "summary": "This C40 case study describes “Transforming Cities: Reclaiming Milan’s streets,” an urban initiative documented for Milan. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Milan",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Lombardia",
+        "ucode": "ITA_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Milano",
+        "ucode": "ITA_0009_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "milan",
+      "label": "Milan"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "How Milan’s youth are transforming public spaces one paintbrush at a time \n As temperatures rise, Milan’s summers are getting hotter, and public spaces are becoming more important than ever. From planting gardens to painting streets, the city is finding creative ways to stay cool and bring back a bit of La Dolce Vita.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for City of Milan, Z Zurich Foundation & C40 Cities by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-reclaiming-milans-streets/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42518",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-reclaiming-milans-streets&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-17T12:46:08",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

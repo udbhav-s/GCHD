@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-toronto-neighborhood-renewal-boosts-climate-resilience",
+  "url": "https://www.c40.org/case-studies/cities100-toronto-neighborhood-renewal-boosts-climate-resilience/",
+  "title": "Cities100: Toronto – Neighborhood Renewal Boosts Climate Resilience",
+  "summary": "This C40 case study describes “Cities100: Toronto – Neighborhood Renewal Boosts Climate Resilience,” an urban initiative documented for Toronto. It is included because it addresses river flood hazards. C40 describes the action this way: Toronto’s Sustainable Neighbourhood Retrofit Action Plan is bringing adaptation and mitigation measures to apartment buildings and single-family homes. The Challenge…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Toronto",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "Ontario",
+        "ucode": "CAN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Toronto",
+        "ucode": "CAN_0009_0046_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Retrofit and climate mitigation measures can often be difficult to implement in Toronto’s older buildings and communities where the aging infrastructure requires the most improvements. SNAP programs succeed in promoting change and increasing community resilience while fully engaging residents in the process.",
+    "measures": "Toronto’s Sustainable Neighbourhood Retrofit Action Plan (SNAP) is a locally tailored home retrofit program reaching both homeowners and renters with building upgrades and community enhancement initiatives. Assisting residents from planning to implementation of projects, SNAP simultaneously targets energy conservation, urban forest enhancement, water conservation, and stormwater management, as well as local food production in order to create more resilient neighborhoods. In the Black Creek neighborhood, a community of 25,000 people which was home to one of SNAP’s six pilot projects, positive results have already been observed; 88% of participants have undertaken at least one retrofit action since the program launched in 2012. One SNAP program underway in Black Creek, Harvest the Rain, has distributed 217 rain barrels to residents in an effort to protect against basement flooding while using the collected water to support vegetable gardens and tree planting. City-wide, SNAP measures are expected to reduce stormwater runoff and pollutants from private lots by 30%, expand urban forest cover by 8%, and reduce electricity use by 10%.\n Environmental Benefits – SNAP assists in achieving targets established by the City of Toronto by reducing electricity use in the neighborhood by 10% and reducing natural gas use by 17% below 2007 levels by 2020.\n Social Benefits – 1,500 neighbors have connected with one another through the Black Creek SNAP program.\n Economic Benefits – SNAP aims to satisfy 20% of a community’s vegetable needs with onsite gardens, helping residents save money on grocery bills.\n Health Benefits – SNAP’s expansion of urban forest cover and promotion of gardening increases the community’s contact with nature, which has positive impacts on mental health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-toronto-neighborhood-renewal-boosts-climate-resilience/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27202",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-toronto-neighborhood-renewal-boosts-climate-resilience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-toronto-enwave-energy-corporation",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-toronto-enwave-energy-corporation/",
+  "title": "C40 Good Practice Guides: Toronto – Enwave Energy Corporation",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Toronto – Enwave Energy Corporation,” an urban initiative documented for Toronto. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Summary In Toronto, the “hybrid public-private” business model served as the catalyst for implementing the city’s deep-lake-water cooling system, planned…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Toronto",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "Ontario",
+        "ucode": "CAN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Toronto",
+        "ucode": "CAN_0009_0046_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary In Toronto, the “hybrid public-private” business model served as the catalyst for implementing the city’s deep-lake-water cooling system, planned…",
+    "measures": "Summary \n In Toronto, the “hybrid public-private” business model served as the catalyst for implementing the city’s deep-lake-water cooling system, planned since the early 1980s but challenged by lack of major private investment. The opportunity came when too much silt in drinking water extracted from Lake Ontario led the city to plan for a deeper, longer pipe to reduce filtering costs. Such a pipe, reaching the depths of the lake with stable low temperatures (4°C), could also serve for the deep-water cooling system. This created an incentive for the city to partner with the company Enwave through restructuring of the originally non-profit publicly owned Toronto District Heating Corporation that had restricted powers in securing long-term financing.\n Results \n Enwave’s Deep Lake Water Cooling xxxvi , integrated with the city’s drinking water system, became operational in July 2004 and is the largest district cooling system from a renewable resource in North America, with 50 customers signed-on and 30 large commercial bank and data-centre buildings connected (3.2 million m 2 , 75,000 tons of refrigeration equivalent). It also enhances the supply of potable water with a clean water source, decreases electrical demand and consumption, increases employment opportunities, and helps businesses and Toronto residents reduce greenhouse gas emissions and improve outdoor air quality. Enwave Energy Corporation originally had two shareholders − the City of Toronto and the Ontario Municipal Employees Retirement System (OMERS) – with a 43% and 57% share respectively. The City Council and OMERS have recently exited the project, selling Enwave for CAD$480 million (US$429 million), which resulted in a net profit of CAD$100 million (US$89 million) for the Toronto City Council.\n Overall, the public-private partnership helped the long-planned project to reduce risk and secure financing. First, the partnership helped uncover the total benefits to the city, such as financial and environmental savings, which enabled the regulators to grant Enwave an exemption from water extraction fees (in particular as Enwave only extracts the cold from the water, not the resource itself), which was key for ensuring project’s commercial viability. Second, the partnership helped develop a customer base, as the local government backing and awareness-raising about district cooling benefits contributed to increased confidence among potential customers and their signing of the required long-term contracts (some of nearly 20 years).\n Reasons for success \n The success of the private-public partnership was driven by an early recognition of opportunity for partnership through connection of the drinking water and water for cooling supply. The involvement of the City of Toronto as investor and promoter helped create confidence in the project. The adaptation of local regulations (i.e. exemption from water extraction fees) also helped ensure the project’s viability, while securing long-term benefits for the City of Toronto as well as revenues from the project’s later privatization.\n When/why a city might apply an approach like this \n Based on the city characteristics, including regulatory powers, financing capacity, risk tolerance and the degree of access to low-cost finance, the city can choose the right ownership structure and business model. The wholly public model is particularly suitable for cities with strong financing capability, whereas the hybrid public-private and wholly private models enable cities to leverage private investments with lower risk to the municipal government, while keeping a certain degree of involvement in or oversight of the project. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The District Energy Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Enwave’s Deep Lake Water Cooling xxxvi , integrated with the city’s drinking water system, became operational in July 2004 and is the largest district cooling system from a renewable resource in North America, with 50 customers signed-on and 30 large commercial bank and data-centre buildings connected (3.2 million m 2 , 75,000 tons of refrigeration equivalent). It also enhances the supply of potable water with a clean water source, decreases electrical demand and consumption, increases employment opportunities, and helps businesses and Toronto residents reduce greenhouse gas emissions and improve outdoor air quality. Enwave Energy Corporation originally had two shareholders − the City of Toronto and the Ontario Municipal Employees Retirement System (OMERS) – with a 43% and 57% share respectively. The City Council and OMERS have recently exited the project, selling Enwave for CAD$480 million (US$429 million), which resulted in a net profit of CAD$100 million (US$89 million) for the Toronto City Council.\n Overall, the public-private partnership helped the long-planned project to reduce risk and secure financing. First, the partnership helped uncover the total benefits to the city, such as financial and environmental savings, which enabled the regulators to grant Enwave an exemption from water extraction fees (in particular as Enwave only extracts the cold from the water, not the resource itself), which was key for ensuring project’s commercial viability. Second, the partnership helped develop a customer base, as the local government backing and awareness-raising about district cooling benefits contributed to increased confidence among potential customers and their signing of the required long-term contracts (some of nearly 20 years).\n\nThe success of the private-public partnership was driven by an early recognition of opportunity for partnership through connection of the drinking water and water for cooling supply. The involvement of the City of Toronto as investor and promoter helped create confidence in the project. The adaptation of local regulations (i.e. exemption from water extraction fees) also helped ensure the project’s viability, while securing long-term benefits for the City of Toronto as well as revenues from the project’s later privatization.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-toronto-enwave-energy-corporation/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27086",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-toronto-enwave-energy-corporation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

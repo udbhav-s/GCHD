@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-creating-local-good-green-jobs-in-rio-de-janeiro",
+  "url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-rio-de-janeiro/",
+  "title": "Creating local good green jobs in Rio de Janeiro",
+  "summary": "This C40 case study describes “Creating local good green jobs in Rio de Janeiro,” an urban initiative documented for Rio de Janeiro. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: In a 2022 analysis by C40, Vivid Economics, and Cambridge Econometrics, we examined how Rio’s climate action could create these good, green…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In a 2022 analysis by C40, Vivid Economics, and Cambridge Econometrics, we examined how Rio’s climate action could create these good, green jobs.",
+    "measures": "Rio de Janeiro developed its climate action plan in 2021, aiming to make 40% of the city’s jobs green by 2030. In a 2022 analysis by C40, Vivid Economics, and Cambridge Econometrics, we examined how Rio’s climate action could create these good, green jobs.\n The analysis assessed who would benefit from green jobs, how quickly they could be created, which sectors the jobs could be created in, and how they would be distributed, providing clear data and identifying areas where public programmes could improve access to green jobs for everyone. Key findings include:\n Ambitious climate action in this decade could generate and support over 550,000 jobs in Rio de Janeiro and its supply chains by 2030 . These jobs would primarily be in buildings, public transport, clean energy, and waste.\n Adaptation interventions to enhance the city’s resilience to climate crisis impacts, including investments in urban parks, water management, and nature restoration, could result in more than 400,000 additional jobs .\n Realising this opportunity to enhance community livelihoods, create sustainable employment, reduce energy costs, and provide additional benefits for all residents requires significant investment from both public and private sources.\n Implementing Rio’s climate actions could lead to substantial job creation, particularly benefiting youth, Black and Brown individuals, and women, who face the highest unemployment rates. It also offers an avenue for informal workers—who make up 30% of the city’s employed—to access formal jobs through a fair transition.\n Access the job analysis in English and Portuguese .\n LEARN MORE ABOUT GOOD, GREEN JOBS",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-rio-de-janeiro/",
+    "publication_date": "2022-10-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "38641",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=creating-local-good-green-jobs-in-rio-de-janeiro&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2024-05-23T10:17:57",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

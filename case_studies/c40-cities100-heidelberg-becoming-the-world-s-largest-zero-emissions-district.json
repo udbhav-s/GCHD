@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-heidelberg-becoming-the-world-s-largest-zero-emissions-district",
+  "url": "https://www.c40.org/case-studies/cities100-heidelberg-becoming-the-world-s-largest-zero-emissions-district/",
+  "title": "Cities100: Heidelberg – Becoming the World’s Largest Zero-emissions District",
+  "summary": "This C40 case study describes “Cities100: Heidelberg – Becoming the World’s Largest Zero-emissions District,” an urban initiative documented for Heidelberg. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: Passive house standards, rooftop vegetation, and non-motorized transportation will make Bahnstadt the largest zero-emissions city district in the world. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Heidelberg",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": null,
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Baden-Württemberg",
+        "ucode": "DEU_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Heidelberg",
+        "ucode": "DEU_0001_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "heidelberg",
+      "label": "Heidelberg"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "When a former freight and switch yard was shuttered in Heidelberg, a central city district became a desolate brownfield. With scarce living space in the city center, Heidelberg initiated an urban redevelopment project, Bahnstadt. Built to accommodate the city’s ambition of dramatically lowering its CO2 emissions, the project proves the case for zero emissions city districts.",
+    "measures": "In Heidelberg, the new district Bahnstadt is the largest urban development project in Germany, and, at 116 hectares, boasts the largest area covered by passive houses in the world. The houses’ ultra-low energy consumption is far lower than required under the country’s building energy efficiency standards. A large wood chip-powered combined heat and power plant was constructed specifically for the district that provides Bahnstadt with 24 million kWh of electricity and 80 million kWh of heating energy annually, enough to cover the entire district’s energy demand and to reduce CO2 emissions to almost 0%. The wood chips are collected from sustainable sources, such as landscape maintenance waste.\n Due to Bahnstadt’s central location in Heidelberg, with quick access to the city’s main railway station, trams, and buses, private transport is minimized. When residents do need a car, a car-sharing fleet of electric vehicles is readily available – and planned to be expanded to 1,800 EVs by 2020. Attractive walking and cycle paths in and outside the district have made the bicycle the main mode of transport in Bahnstadt, contributing to Heidelberg’s goal of reducing greenhouse gas emissions by 95% by 2050.\n Environmental Benefits – All households in the district are equipped with smart meters, so residents can keep track of their energy consumption and costs, encouraging low energy use.\n Social Benefits – The district offers accessible flats for handicapped and elderly residents, large flats for families, small flats for students, and a funding program which provides low-income residents with up to one-third of the monthly rent.\n Economic Benefits – The development of the Bahnstadt district has created 7,000 jobs, lowering the unemployment rate and contributing to economic development.\n Health Benefits – By providing attractive infrastructure for cyclists, bike parking facilities, and other bicycle-related services, the city encourages Bahnstadt’s residents to bike, improving residents’ health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-heidelberg-becoming-the-world-s-largest-zero-emissions-district/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27051",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-heidelberg-becoming-the-world-s-largest-zero-emissions-district&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

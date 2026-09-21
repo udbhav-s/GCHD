@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-gaia-green-area-inner-city-agreement-to-finance-tree-planting-in-bologna",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/gaia-green-area-inner-city-agreement-to-finance-tree-planting-in-bologna",
+  "title": "GAIA - Green Area Inner-city Agreement to finance tree planting in Bologna",
+  "summary": "Bologna, like many Southern European cities, is facing drought, extreme temperatures and water scarcity as a result of climate change. With no national or regional adaptation action plan still in place, the city of Bologna took it upon themselves to draft an Adaptation Plan to Climate Change. The plan, which was approved by the City Council on October 2015, focuses on the development of innovative, concrete measures that could be tested locally. These measures were developed as part of the LIFE+ project BLUE AP (Bologna Local Urban Environment Adaptation Plan for a Resilient City).",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bologna",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": "ITA_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "corporate responsibility",
+      "label": "corporate responsibility"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "GAIA",
+      "label": "GAIA"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "public-private partnership",
+      "label": "public-private partnership"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "trees",
+      "label": "trees"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With no national or regional adaptation action plan still in place, Bologna needed to find a way to develop a stand-alone climate plan and actions that could be financed without national or regional funds. Planting trees is a major action. The city needed to find a financing model to implement this measure.",
+    "measures": "The city decided to create the ‘green areas inner-city agreement’ (GAIA) based on a public-private partnership model to finance tree planting. Trees can provide necessary cooling during heat waves through evaporation and transpiration, which creates a natural air conditioning effect. Consequently, tree foliage can help to reduce overall temperatures in the city by 4.5 C. The planted trees increase the number of areas with shade in the city and reduce groundwater withdrawals through their capacity of releasing water that they have extracted through their roots into the atmosphere. They also help to preserve vulnerable areas such as river banks and landslides areas through their roots. In addition, green areas can help to decrease air pollution in the city. The GAIA mechanism is based on the idea to use financial compensation for the carbon footprint of businesses as a main driver for action. The financial compensation is used to purchase plants and maintain trees throughout the city. Participation of the town council and local businesses in the GAIA initiative is on a voluntary basis. A business that is interested in participating in GAIA can request an easy-to-use tool from the project website. This tool allows businesses to calculate the quantity of carbon dioxide involved in their processes and services. Next the businesses can select the type of partnerships they would like to purchase to neutralize their carbon footprint. The basic partnership is the ELDER TREE PARTNERSHIP, which consists of purchasing 1 to 5 trees. This partnership entails a cost between € 200 and € 1,000. A company that purchases 6 to 20 trees becomes a MAPLE PARTNER. This partnership costs between € 1,200 and € 4,000. Finally, a company can purchase more than 20 trees and become an ELM PARTNER. The costs of this partnership are minimally € 4,200. The number of trees required to compensate the company’s carbon footprint is calculated according to the amount of carbon dioxide which will be absorbed. This is an indicative number; the company makes the final decision on how many trees it wishes to purchase to compensate its emissions. The city of Bologna has developed clear guidelines that detail the different steps that need to be taken in the process and which party is responsible. The city identifies the cost components, approves the Protocol of Agreement, takes the initiative to start the planting works and pays the tree suppliers. The city also commits to providing a monitoring report every 6 months from the start of the partnership. The company needs to initiate the partnership by providing an expression of interest and sending its data to the city. Once the type of partnership is selected, the company is asked to sign the Protocol. With this Protocol the company agrees to buy the trees and finance the first 3 years of maintenance. A guideline has been developed within the project detailing these steps involved to aid other municipalities or authorities that want to implement the partnership in their own city. The project was initially tested through 3 pilot areas; 116 trees were planted in the urban park Villa Angeletti, the industrial district Roveri and Palazzo D’Accursio, which is an area in the city centre. Several other green areas, such as urban parks, hillside parks and local recreational areas, have been selected for the GAIA project. In total 23 areas in Bologna were identified at the start of the project that together have a potential of planting 3,000 trees. They all belong to Bologna Town Council and meet a set of requirements: they need to enable trees to absorb carbon dioxide, have environmental value in terms of conservation of biodiversity and protection of the territory, provide a revitalization of the area and social value and have an appropriate geographic location. At the same time, the GAIA project contributes to the climate adaptation objectives of the Bologna Adaptation Plan to increase the number of green spaces in urban areas and promote urban safety in the face of extreme weather events. Trees have the capacity to increase soil cohesion and therefore can help to prevent landslides and erosion from occurring. On June 4th 2014 the city council approved the signing of “Mayors Adapt”. Bologna was the first Italian city to join the initiative. The project includes a study through which the shading capacity per tree was assessed. It also established the potential evapotranspiration values of tree species to ensure that a decrease of the urban heat island effect could be realised. These values have been published in a technical guidebook as part of the project. The GAIA project has been complemented by actions to improve emergency management and communication with citizens about heat waves. There are further developments with Bologna currently implementing a GAIA spin-off project for citizens called RADICI. This project is financed through crowdfunding.",
+    "outcomes": "As of April 2016 GAIA has realised the planting of 1,405 trees in the Bologna city area. The success of the project depends on the driver, i.e. the effort of companies to compensate their carbon dioxide emissions. To provide scientific evidence supporting the project implementation, several studies were conducted, including calculations on the estimated carbon dioxide storage capacity for 24 species of trees. Technical calculations were also conducted to estimate the capacity of trees in decreasing fine dust, volatile organic compounds (VOC) and gaseous pollutants as well as their capacity in terms of temperature reduction. Pre-selection of these species was based on both scientific knowledge and a specific set of requirements that was provided by the Bologna town council. The city of Bologna has received some interest from other cities in Italy that would like to replicate the project, such as the city of Bari, the city of Sassari and the city of Cagliari. The project does show several ‘spin-off’ activities among companies. Two companies of the GAIA Promoting Group, Hera S.p.A and UNIPOL, have exported the GAIA model to other cities in which they operate through the implementation of a local project. Other companies demonstrated an increased awareness of their carbon footprint after the GAIA project. Overall the process was a very positive experience in cooperation for the city of Bologna, where all partners did their best to meet the project deadlines and objectives and to work in a transparent and very proficient way. GAIA provides mutual benefits for all actors as further detailed also in the “Costs and Benefits” section.",
+    "cost_benefit": "The initial phase of the GAIA project was realised on a budget of 1,202,000 euros. Approximately half of this sum was financed with support of European Life funding. This sum was mainly used for the development of the instruments itself, the guidelines and the technical and scientific document. The city used its own funds to attune the process based on feedback of the initial results. The minimum contribution of a company purchasing a tree is 200 euros (incl. taxes). It represents the average purchase and maintenance costs of the tree as the real costs vary for the different tree species. It also takes the average market price of carbon dioxide into account. 1,405 trees have been sold up till April 2016, which represents a total contribution by companies of 281,000 euros. This amount was enough to cover the expenditures involved in the purchase and maintenance of the trees. Companies that participate in GAIA obtain different benefits depending on the type of partnership that they select. In exchange for their investment, businesses receive a free audit to calculate their carbon dioxide offset potential and workshops on the main environmental issues related to their business. In addition, they can obtain various additional (marketing) benefits for their company. These benefits range from a GAIA plate in the green created areas to the opportunity to speak at a GAIA conference. In addition, the project keeps businesses informed on the opportunities arising from the green economy and the public-private co-operation network. On signing a statement of intent, the council agrees to plant the trees, cover any unexpected maintenance costs for the first 3 years and provide project progress updates. The private entity agrees to pay the chosen contribution, which covers the purchase, the planting and ordinary maintenance of the trees for 3 years. These maintenance costs include watering, trimming, removal, weeding and substitution in case of dry out. After the third year, these ordinary maintenance costs come at the expense of the Municipality of Bologna. The project is now able to run as a self-sufficient initiative, although so far the investments costs for the development of the project are not covered by the selling price of the trees. However, the financial benefits are not the only consideration of the city; the social benefits are as important. For example; the project has enabled the city to raise awareness among companies of the carbon dioxide production involved in their production processes and practices and stimulate the local economy by offering opportunities to the companies to market themselves. Bologna is currently implementing a GAIA spin-off project for citizens called RADICI. This project is financed through crowdfunding. Cities that would like to implement a similar model as GAIA will need to invest less than Bologna as they can use the project material that has been developed through the project. However, to obtain good results cities are advised to make some financial support available.",
+    "timeline": "The LIFE project “GAIA - Green Areas Inner-city Agreement” ran from October 10th, 2010 till April 30th 2013. The GAIA protocol already exists and is now a stable instrument of the municipality.",
+    "lifetime": "A GAIA agreement is valid for 3 years. The trees are supposed to last for their life span of 30 years.",
+    "stakeholders": "The GAIA project consisted of a public-private partnership from the start. Each of the partners involved brought in their own expertise. The Institute of Biometeorology of the National Research Council (IBIMET) supported on the development of scientific guidelines. Impronta Etica, a non-profit organisation that aims to promote sustainability and Corporate Social Responsibility (CSR), helped to develop the partnership model. Unindustria Bologna, an association of entrepreneurs in Bologna, focused on the involvement of enterprises. Finally, Cittalia, a local branch of the National association of Italian cities and municipalities focused on research activities, provided support in the communication and dissemination needs. The project also included the set-up of a body that controls the partnership model and procedures for the selection and planting of green areas. The GAIA Management Group, which consists of the G. Marconi Airport of Bologna, the Coop Adriatica, Enel, Gruppo Hera, Gruppo Unipol, La Perla, Manutencoop and M. Casale Bauer, was created to function as a first promoter at the start of the project. A further 11 businesses joined the project during the experimental phase. They are GD, Interporto, Bologna Fiere, Granarolo, Mec-Track, Cadiai, STS, BRT S.p.A., Indica Srl, Piccoli Motori srl and PS Mobile srl.",
+    "legal_context": "The GAIA project requires a legal agreement that allows a private entity to engage in a financial transaction with a public authority. This type of intervention can be carried out in various ways. The intervention through which a private entity contributes to works, services and other activities aimed at the community can be classified as either charitable donations or donations, sponsorships or direct payment of the invoices by the municipality. Each type of intervention has different rules and implementation modalities. For a non-profit organization, a received donation is a non-taxable income. In the case of sponsorships, the activity is considered as business activity, and as such it is subject to V.A.T. and to direct taxation. The analysis demonstrated that the charitable donation was the most advantageous option in the case of the GAIA agreement."
+  },
+  "point": {
+    "lat": 44.5121761711,
+    "lon": 11.3214111328,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "lifegaia.eu",
+      "url": "http://www.lifegaia.eu",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ec.europa.eu",
+      "url": "http://ec.europa.eu/environment/life/project/Projects/index.cfm?fuseaction=search.dspPage&n_proj_id=3752",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/gaia-green-area-inner-city-agreement-to-finance-tree-planting-in-bologna",
+    "publication_date": "2016-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "dac7c1374e17411694ed4d2805f14624",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/gaia-green-area-inner-city-agreement-to-finance-tree-planting-in-bologna",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:36+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-financial-contributions-of-planning-applications-to-prevention-of-heathland-fires-in-dorset-uk",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/financial-contributions-of-planning-applications-to-prevention-of-heathland-fires-in-dorset-uk",
+  "title": "Financial contributions of planning applications to prevention of heathland fires in Dorset, UK",
+  "summary": "Dorset is a county in South West England on the English Channel Coast. The Dorset heathlands cover an extensive area of South East Dorset, fragmented by urban development and other land uses. These heathlands once covered over 50,000 hectares, stretching as far as Dorchester and Poole. Changes in agricultural practice, conifer planting, scrub encroachment, urban expansion and road building have all contributed to a reduction in area. Dorset's fragmented heaths measure approximately 5,700 hectares today. Heathlands are an important habitat and are protected by European-level designations.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wildfire",
+      "label": "wildfire"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "development",
+      "label": "development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Dorset",
+      "label": "Dorset"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "developer fee",
+      "label": "developer fee"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heathland",
+      "label": "heathland"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protected area",
+      "label": "protected area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "funding scheme",
+      "label": "funding scheme"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly",
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1,
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The Dorset Heathlands Planning Framework Supplementary Planning Document 2020-2025 sets out an approach to the mitigation of the harmful effects of residential development on Dorset’s lowland heaths, including increased risk of fire. It continues the work of the previous SPD 2015-2020, which started in 2007. The approach aims to ensure that the integrity of the heathlands is not further diminished by a steady increase in urban pressures. A range of measures have been identified jointly by the local authorities and Natural England; some of them being also relevant in terms of increased resilience to higher fire risk due to the combined effect of climate change and urban development. The mitigation measures are to be financed by developer contributions coming from new developments located in a distance between 400m and 5km away from the protected heathland. This will help to reconcile the pressures of further residential development with the conservation of the designated heathland sites.",
+    "measures": "The Bournemouth, Christchurch and Poole (BCP) Council and the Dorset Council have local plans in place to mitigate the harm from new housing and tourism development on the Dorset Heathlands, which are coherent with the approach set by the SPD. The Councils have been operating the 2015-2020 SPD since January 2007. The SPD2020-2025 is an interim update that continues the approach set in the previous period. BCP and Dorset local authorities have adopted the SPD 2020-2025 on 31 March 2020. The new SPD covers the period from 2020 to 2025 and sets out an approach and guiding principles to the alleviation of the harmful effects of residential development on Dorset’s lowland heaths. The strategy is a long term approach setting out a five year rolling programme of measures. It has been prepared jointly between BCP Council and Dorset Council with advice from Natural England. The strategy consists of two mutually dependent and supporting policy mechanisms: Restrictions on development within a buffer of 400 metres around the heathlands area; and Mitigation associated with some types of development within the a zone between 400 metres to 5 kilometre from the heathlands area. The mitigation elements of the strategy are organised in two parts: Part 1: Strategic Access, Management and Monitoring (SAMM); and Part 2: Heathland Infrastructure Projects (HIPs). The Councils intend to review the strategy set out in the SPD through the preparation of new local plans over the next 2-3 years to ensure that growth can be mitigated effectively. Part 1: Strategic Access Management and Monitoring (SAMM) SAMM provides a strategy to mitigate the potential impacts of new housing developments and determines the level of financial contribution required from new residential developments. According to the SPD, developers who receive planning permission for residential buildings within the zone between 400m and 5km from protected heathland sites pay contribution fees. In general, no additional residential development is permitted within 400m straight distance from protected heathland sites, with the exception of purpose built schemes for the elderly or the disabled. The due obligation is applied to every residential development where there is a net increase in dwellings. The financial contribution is based upon a standard charge, with adjustment for the different occupancy rate for houses and flats. To provide certainty to those making applications for residential development and to ensure transparency and accountability, a mechanism for the calculation of the planning obligation has been adopted, based on the forecast 2-year average population increase by type of dwelling in 2014-2028. The factors that are taken into account for calculating the developers’ contribution consider: The amount of planned development. For the BCP Council the trajectory indicates a supply of 11,290 homes in the five year period (2020-2025). 6,850 of this total have been already approved, while other 4,440 homes still need to come forward. For Dorset Council the trajectory indicates a supply of 3,716 homes in the five year period. 2,216 of this total have been already approved, while other 1,500 homes still need to come forward within the 5km heathland area. Cost of the mitigation measures part of the SAMM mechanism. This cost over the 2020-2025 period amounts to £2M, split in £1.42M for BCP Council and £0.58M for Dorset Council. The charge is calculated by dividing the total cost of providing SAMM measures by the number of planned homes within the 5km heathland area for each respective Council over the period 2020-2025 The SAMMs contribution in the BCP Council for houses (2.42 occupants) are £394 and for flats (1.65 occupants) £269. In the Dorset Council the costs are £406 per house and £277 per flat. These fees are applied to fund a number of measures to mitigate the impact of urban development on heathlands that can contribute in reducing heathlands sensitivity to climate change induced effects, as in particular to increased fire risk. Mitigation measures include: (i) improvement of existing recreational sites and development of new recreational infrastructure to divert the recreational pressure from the most valuable and sensitive heathlands; (ii) land purchased as alternative open space; (iii) provision of more rangers and wardens; (iv) purchasing monitoring equipment; (v) land management to reduce fire load and risk of fires; and (vi) purchasing firefighting equipment and developing other firefighting instruments. Concerning this latter point, 2019 measures included: Update of maps showing fire access routes for heathland sites; these maps are provided to fire appliances on their mobile data terminals. Use of WhatsApp to circulate information about fire incidents as they occur to land managers who will support each other as required. Launch of Firewise UK , an on-line platform raising awareness on how to reduce risk of fire to homes close to areas at risk from wildfire. Part 2: Heathland Infrastructure Projects (HIPs) HIPs are physical infrastructure projects that provide facilities to direct people away from the protected heathland sites. SANGs (Suitable Alternative Natural Greenspaces) are the most significant element of these projects, having a key role in providing an alternative destination to the Dorset Heathlands. HIPs are delivered from contributions collected through Community Infrastructure Levy (CIL) payments. Possible types of Heathland Infrastructure Projects include: (i) route-ways, gateways, viewing points, seating and way marking, ii) improved access to non-designated sites iii) improved linkages between SANGs and other green infrastructure, or iv) creation of dog friendly areas to provide alternative secure locations for dog owners to train and exercise their dogs.",
+    "outcomes": "Main success factors can be identified in the following points: A previously existing partnership was used as a basis for development of the SPD Planning Framework. Also, the participation in the Urban Heaths LIFE-Nature project allowed for collection of necessary evidence and development of experience in application of various alleviation measures. The collaborative approach is preferable to local authorities applying alleviation measures individually. Focus on the entire area where heathland is concentrated, consistency of approach, pooling of developers’ contributions and collective prioritisation of the alleviation projects are the main advantages of the collaborative approach. Development of statutory policies in the Local Development Frameworks of the planning authorities in the near future will be an additional benefit helping to drive forward the implementation of associated alleviation projects. Section 106 (S106) of the Town and Country Planning Act 1990, allows a local planning authority to enter into a legally-binding agreement or planning obligation with a landowner in association with the granting of planning permission. The use of Section 106 agreements based on biodiversity protection requirements for developers to contribute to is an innovative funding mechanism for alleviation of urban pressure on heathland across the south east Dorset area. The measures applied are not only physical. Engagement with the local community is emphasised to increase the awareness of fire danger and other negative impacts on heathland. The applied approach is continuously updated based on relevant findings from monitoring. As limiting factor, it was observed by the UK Government that there is a limited potential to protect the heathland by establishment of buffer zones. This is due to the proximity of existing infrastructure to these zones, and the potentially very costly and extensive demolition and relocation programmes that would need to take place.",
+    "cost_benefit": "The measure itself requires only marginal costs for administrative work. The budget for the financial year 2019 -2020 was £203,241.41, funded by Local Planning Authority Partners from developer contributions collected from development within 5 Km of any heathland site. The cost of measures to mitigate the impact of urban development on heathland in south east Dorset was estimated at £4.3 million (November 2015 prices) and these should be brought up by the charges on house owners as a result of the measure. The benefits are the assurance that the integrity of the heathlands is not further eroded or diminished by a steady increase in urban pressures due to additional development, the reduced risk of fires (from 176 in 2010 to 77 in 2019; 20 financial year), the preservation of the biodiversity, and the contribution to the reduction of heathlands sensitivity to climate change.",
+    "timeline": "The first Dorset Heathlands Planning Framework Supplementary Planning Document’ (SPD) was introduced in 2007 and has been updated several time since now.",
+    "lifetime": "The current Dorset Heathlands Planning Framework Supplementary Planning Document’ (SPD) is proposed until 2025.",
+    "stakeholders": "The heathlands in urbanised Dorset have a long history of protection through partnership approaches. Dorset Heathland Forum was first established in 1989. Then Urban Heaths Partnership was then established with the focus on the conservation and maintenance of heathland located close to human settlements, with a particular focus on management of access. The partnership includes: BCP Council, Dorset Council (partnership leader), Dorset Wildlife Trust, Dorset & Wiltshire Fire & Rescue Service, Dorset Police, Natural England (then called English Nature), The Amphibian & Reptile Conservation Trust, Forestry England, Royal Society for the Protection of Birds and the National Trust. In 2000 the Urban Heaths Partnership successfully applied for £1.2 million funding from the European Union LIFE-Nature fund. The four-year Urban Heaths LIFE Project, launched in July 2001, addressed urban pressures on the heaths by providing extra wardens, new firefighting equipment for Dorset Fire and Rescue Service, a Heathland and Wildlife Protection Officer in Dorset Police and delivering an education programme within the local community and its schools. In 2007, a joint Dorset Heathland Executive Group was established to oversee the implementation of the SPD Planning Framework. The Dorset Heaths Advisory Group is a non-executive body with membership from all the participating local authorities (Borough of Poole, Bournemouth Borough Council, Christchurch Borough Council, East Dorset District Council, and Purbeck District Council), national agencies, wildlife groups (Natural England, Home Builders Federation and the Royal Society for the Protection of Birds) and those with an interest in the Dorset Heaths. This membership of this group has adapted in-line with Local Government Review in Dorset during 2019 and oversees the mitigation and monitoring and makes recommendations to the local authorities who have responsibility for creating the planning framework for the Dorset Heaths. Both SPD documents also underwent public consultation. Consultation on the latest draft SPD (2020-2025) occurred between January and February 2020. The cabinets of both unitary authorities considered the responses received during the consultation before adopting the final version in March 2020.",
+    "legal_context": "The lowland heaths in South East Dorset are covered by a number of international, European and national designations, in particular the: Special Protection Areas (SPAs) under the EU Birds Directive; Candidate Special Areas of Nature Conservation (SACs) under the EU Habitats Directive. Ramsar sites (an international designation) by virtue of supporting certain wetland bird habitats and species. Dorset Heaths Special Area of Conservation (Purbeck and Wareham) and Studland Dunes. The international nature conservation designations cover 96% of the Dorset heathland, and 97% is covered by the Sites of Special Scientific Interest (SSSIs) UK designation. Following these designations, regulation 48 of the UK Conservation requires that any application for development or strategic plan which is likely to significantly affect a European site is subject to an appropriate assessment of the implications of the proposal for the site’s conservation objectives. The planning authority must ascertain that the plan or project will not have an adverse effect on the integrity of the site, alone or in combination with other plans or projects, either directly or indirectly, taking account of any conditions or restrictions that would help ensure no adverse effect, before granting permission or adopting a plan or policy. The local authorities in South East Dorset have adopted six local plans which contain a similarly worded policy that addresses the Dorset Heathland issue. The SPD supports these local plans. The local plans are accompanied by habitats regulations assessments (HRA) which set out the measures that need to be provided to enable development to be delivered. Together the HRAs provide a consistent record of the approach to avoidance and mitigation and in varying levels of detail, the type and nature of projects required. Due to a Local Government review in 2019 in which local authorities were realigned and reduced in number into two unitary authorities, during 2020 - 2022 each authority is working on developing new local plans. The current SPD has been prepared having regard to the tests set out in the Community Infrastructure Levy Regulations 2010 and subsequent amendments, in particular Regulation 122 which sets out the three tests that the planning obligation should be necessary, directly related and fairly and reasonable related in scale and kind to the development. Where the Regulations change the authorities will continue to provide suitable mechanisms to enable applicants to contribute efficiently. The Councils use different mechanisms to fund mitigation dependent upon local circumstances."
+  },
+  "point": {
+    "lat": 50.7103736793,
+    "lon": -2.10662841788,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "dorsetcouncil.gov.uk",
+      "url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/supplementary-planning-documents-and-guidance/all-of-dorset/dorset-heathlands-planning-framework.aspx",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/financial-contributions-of-planning-applications-to-prevention-of-heathland-fires-in-dorset-uk",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "87d64f0706c54c7da4a56da69b4d1927",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/financial-contributions-of-planning-applications-to-prevention-of-heathland-fires-in-dorset-uk",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:24+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

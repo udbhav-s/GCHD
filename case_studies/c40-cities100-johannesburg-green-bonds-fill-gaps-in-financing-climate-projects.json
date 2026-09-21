@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-johannesburg-green-bonds-fill-gaps-in-financing-climate-projects",
+  "url": "https://www.c40.org/case-studies/cities100-johannesburg-green-bonds-fill-gaps-in-financing-climate-projects/",
+  "title": "Cities100: Johannesburg – Green Bonds Fill Gaps in Financing Climate Projects",
+  "summary": "This C40 case study describes “Cities100: Johannesburg – Green Bonds Fill Gaps in Financing Climate Projects,” an urban initiative documented for Johannesburg. It is included because it is located in the Global South. C40 describes the action this way: Johannesburg’s 2014 green city bonds scheme has secured finance for investments in a suite of projects mitigating climate change and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Johannesburg",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Johannesburg",
+        "ucode": "ZAF_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Cities across the world are experiencing difficulties in securing financing for green urban development, resulting in unrealized projects. Green bonds have helped Johannesburg overcome this barrier by providing access to additional funding and tapping into a new base of socially responsible investors. According to the World Bank, investors are increasingly looking to green bonds, with investments in these programs tripling to $35 billion between 2013 and 2014.",
+    "measures": "As the first emerging market city to issue green city bonds, Johannesburg is a front-runner in finding innovative funding sources for climate action. The $143 million worth of green bonds sold in 2014 fill gaps in much-needed development finance for projects within energy, water, waste, and transportation. The funding will help implement the city’s climate change mitigation strategy and accelerate projects, such as a rollout of 42,000 building smart meters, 43,000 solar water heaters, deployment of 152 hybrid buses as well as conversion of buses from diesel to natural gas.\n One project financed by the bonds is a 16 km extension of the Rea Vaya Bus Rapid Transit system, which will result in 10 new stations, and 5 km of walking and cycling lanes. Due to the successful 2014 issuance, the city has become a global role model and has shared its approach to green bonds with cities across the world. Johannesburg is planning to issue new green bonds to finance further climate action.\n Environmental Benefits – The extensive installation of solar water heaters will save the equivalent of 22.5 GWh of electricity per year, enough to power a small town.\n Social Benefits – Green bond-financed projects to increase recycling separation at the source target 470,000 households and will help increase job creation in Johannesburg.\n Economic Benefits – Johannesburg’s green bonds have reduced the costs of realizing the city’s green projects. As the bond auction in 2014 was 150% oversubscribed, the city sees even bigger potential for future issuances.\n Health Benefits – Through green bonds, a number of projects in Johannesburg are transforming the city toward greater energy and water efficiency, low carbon transportation, more renewable energy and better waste management.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-green-bonds-fill-gaps-in-financing-climate-projects/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27020",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-johannesburg-green-bonds-fill-gaps-in-financing-climate-projects&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

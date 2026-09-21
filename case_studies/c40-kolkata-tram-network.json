@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-kolkata-tram-network",
+  "url": "https://www.c40.org/case-studies/kolkata-tram-network/",
+  "title": "Upgrading Kolkata’s Tram Network",
+  "summary": "This C40 case study describes “Upgrading Kolkata’s Tram Network,” an urban initiative documented for Kolkata. It is included because it is located in the Global South. C40 describes the action this way: The city of Kolkata, the earstwhile capital city of India, has a population of 44,96,694 and a municipal area of 205 sq.km.…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The city of Kolkata, the earstwhile capital city of India, has a population of 44,96,694 and a municipal area of 205 sq.km. Kolkata has only about 7% of the land area under roads and almost 88% of all the trips are made by walking, cycling and public transportation. Further, Kolkata has a tram system in place from early 1900’s and has undergone a 21 st century transformation to complement other modes of public commute.",
+    "measures": "Description \n The Trams in Kolkata were one of the main mode of transportation until the 1990’s. There were about 400 trams operating until then. Eventually, with the introduction of the underground metro (the first in India) and subsequently the expansion of the new metro lines complemented by the upgrade of bus services and the proliferation of private motor vehicles, the ridership of trams declined. There was no concerted effort for reviving the trams until then. This also resulted in the decline of the upkeep of tram bogeys. \n In contrast, trams were abolished in other cities, e.g. Bombay, Delhi and Chennai. The City of Kolkata retained its tram system and it still continues to remain a prominent mode of public transport although the ridership numbers have declined significantly. \n The challenge faced by Kolkata is the limited supply of land for road space. Kolkata has only the 7% of its land area dedicated to road space, of which 1% has been lost to encroachments bringing down the effective road space to 6%. With the proliferation of private vehicles, taxis and two-wheelers, it has become exceedingly difficult to retain and maintain an efficient tram network. \n According to the tram authorities, in order for the trams to work more efficiently there is the need to de-reserve the rights of way. Also, trams in Kolkata are old fashioned, noisy and slow, and partly because of this their routes have been truncated causing ridership to suffer. The strategic task facing the government now is how to leverage the old assets of the tram company to leap into the 21st century.\n Trams are more than merely a means of transportation – they represent the city's soul and heritage (only city in India with a trams network). They serve as a mode of public transportation but also provide heritage tours for visitors. At present there are 40 to 45 trams currently plying on 7 to 8 existing routes covering a total of 40 kms. These comprise of both single and double bogey trams with a total ridership of 10,000 to 12,000 daily passengers. The table below gives a brief chronology of the developmet of tramways in Kolkata since 1880. \nSource: Heritage on Track, INTACH & Rorary Club of Calcutta Chowrenghee. \n Trams are maintained by the Trams Engineering Section while their movement is regulated by the Traffic Department. The Permanent Way Department is responsible for ensuring the right of way while the Overhead Cables Department is responsible for the transmission of electricity. The supply of electricity to run the trams is provided by Calcutta Electricity Supply Company.\n The 6kV A/C power is converted to D/C in 10 sub-stations and is then stepped down to 415 Volt A/C which is further converted to 550 D/C through a rectifier and carried through cables to the desired location where electricity is connected to the overhead cables.\n Next Steps \n In 2020, the West Bengal Transport Company (WBTC) plans to introduce ten single bogey air conditioned tram cars, increasing the fleet to 55 trams, aiming to increment their appeal. At present, WBTC is looking at capacity enhancement and at improving and maintaining the existing routes. The trams remain perhaps the most sustainable solution for the city’s public transportation system.\n Figure 1: Existing 40 kms of Tram routes \n Source: Calcutta Tramways Company, WBTC.\n Figure 2: New Air Conditioned Tram Bogeys",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/kolkata-tram-network/",
+    "publication_date": "2020-01-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27500",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=kolkata-tram-network&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

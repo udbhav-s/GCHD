@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-singapore-solar-power-on-land-and-sea",
+  "url": "https://www.c40.org/case-studies/cities100-singapore-solar-power-on-land-and-sea/",
+  "title": "Cities100: Singapore – Solar Power on Land and Sea",
+  "summary": "This C40 case study describes “Cities100: Singapore – Solar Power on Land and Sea,” an urban initiative documented for Singapore. It is included because it is located in the Global South. C40 describes the action this way: Space-constrained Singapore is looking to water as well as rooftops for solar energy as the city's population continues to grow…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Singapore",
+      "adm0": {
+        "name": "Singapore",
+        "ucode": "SGP_V2",
+        "dcid": null,
+        "iso3": "SGP"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "singapore",
+      "label": "Singapore"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Almost all of Singapore's energy, primarily natural gas, is imported. By investing in solar PV, Singapore can reduce both its dependence on fuel imports and CO2 emissions.",
+    "measures": "Singapore is one of the most densely populated cities in the world and lacks land for large-scale solar plants compared with the likes of China or Dubai. Therefore, they are now implementing Solar Nova, an accelerator program designed to aggregate demand and facilitate installation, as well as use reservoirs to host large-scale solar power projects. The city is developing floating solar panels that can be deployed on 17 available freshwater reservoirs. The first project under development will sit on the Tengeh reservoir and act as a test bed for future installations. Eight companies will have the chance to deploy panels, and after six months of performance monitoring, the two most efficient systems will be selected for additional deployments. In addition to this project, Singapore is also implementing Solar Nova, which aims to facilitate installation of 350 MW of solar across the city by 2020. In order to achieve this, there is a leasing arrangement in place where solar companies install and own the equipment and the customer pays lower utility fees each month.\n Environmental Benefits – The floating PV test project will determine how panels affect water quality and biodiversity in aquatic ecosystems.\n Economic Benefits – The Solar Nova and floating PV programs will position Singapore as a regional innovation hub for solar and green tech. The floating solar market alone is estimated to be worth $2.7 billion by 2025 1 .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-singapore-solar-power-on-land-and-sea/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27321",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-singapore-solar-power-on-land-and-sea&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-protecting-surface-water-quality-in-lappeenranta",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+  "title": "Protecting surface water quality in Lappeenranta, Finland",
+  "summary": "A stormwater management program integrates infrastructure and nature-based solutions to guarantee high quality standards for lake water in Lappeenranta, Finland, where climate change will raise human health risk due to deteriorating drinking and bathing water quality in Lake Saimaa. Lappeenranta is a medium-sized city (73,000 inhabitants) on the shore of Lake Saimaa in south-eastern Finland. The city is facing significant climate change risks from increased rainfall, extreme weather and flood events. Flood water and water from melting snow carry contaminants which decrease water quality in the lake and jeopardises drinking and bathing water quality for Lappeenranta residents.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lappeenranta",
+      "adm0": {
+        "name": "Finland",
+        "ucode": "FIN_V1",
+        "dcid": "country/FIN",
+        "iso3": "FIN"
+      },
+      "adm1": {
+        "name": "Etelä-Suomi",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Etelä_Suomi__FI_",
+        "source_name": "Etelä-Suomi (FI)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "freshwater ecosystems",
+      "label": "freshwater ecosystems"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "citizen engagement",
+      "label": "citizen engagement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sewage system",
+      "label": "sewage system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "pupils",
+      "school",
+      "students"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 3
+    }
+  },
+  "intervention": {
+    "objectives": "The overall aim of water management, as indicated in the Stormwater Management Plan, is to prevent groundwater deterioration, in terms of ecological status and water quality for human uses, including recreational ones. The Plan lists the following objectives for stormwater management: Managing and possibly preventing flood damage from stormwater Maintain groundwater resources, by preventing harmful substances from entering groundwater and optimizing the absorption of water into groundwater Preserving the recreational use of water bodies through stormwater quality management by reducing nutrient inputs to water bodies Minimising the expansion of the pipeline network and the amount of stormwater discharged to the treatment plant Increasing natural and on-site stormwater management methods that promote biodiversity in nature and urban areas, which is the main focus of this case study Using stormwater as a resource, such as a landscape feature, for irrigation or wetland The Plan also identifies more specific objectives for managing stormwater quality in receiving water bodies, such as reducing nutrient pollution and preventing algal blooms in the western Saimaa region.",
+    "measures": "The Stormwater Management Plan sets out the conditions for use of nature-based solutions, such as changing street layout to provide green strips and biofiltration areas and providing space for management structures, as stormwater from heavily trafficked streets can carry metals, oils, and microplastics. Recommendations include implementing water quality management, such as directing stormwater, and increasing the use of permeable pavements and open ditches as street drainage solutions. A new nature-based system of drainage on the city streets is being put in place, which includes planting an optimised vegetation mix along the curb to improve filtration of water to the underlying water collection system. This system is coupled with sensors for remote monitoring of stormwater quality and flow, and flooding in the drainage system. Eight new urban wetland areas have been built; seven along the shores of the Pien-Saimaan lake and one on the shore of Ruoholampi lake near Lappeenranta, the latter completed in September 2023. The area of the seven Pien-Saimaan wetlands includes three ponds and a stream-like section, which brings water collected by the stream water network to the wetlands. The ponds slow down the waterflow, allowing pollutant substances in Saimaa water to settle at the bottom. The ponds are built at different heights on a slope, and since the water level can vary substantially, the pools have been furbished with a system to accommodate overflows. The Ruoholampi wetland prevents nutrients and solid matter from flowing into Ruoholampi lake and from there to Pien-Saimaa. It also improves biodiversity and, being built in the proximity of a school, the welfare of the students. Other nature-based stormwater management structures include stormwater retention basins (Heinäkatu) and the Koulukatu infiltration area (the TransformAr project pilot site). Heinäkatu retention basin is used to slow down stormwater run-off, so to balance flood peaks during heavy rains and act as a capacity buffer for the stormwater sewer network. The water is collected in the retention area and discharged into the system at the other end. In the retention area, the flow of water is slowed, allowing for deposition of solids and other pollutants, so that the water returned to the stormwater sewer is cleaner. Vegetation that develops in the basins over time enhances the purification of the water and helps with evaporation. The facility consists of two basins with a natural stone dam between them. The basins are shallow with a depth of about 0.5 m and can dry out between rainfall events. Steppingstones have been installed at the dam to encourage closer inspection of the pools, as the area is also used as a learning environment for the pupils of a nearby school. The renovation of Koulukatu street includes a stormwater bio-filtration area in the green section of the street, which reduces the amount of stormwater discharged to sewer and untreated water bodies. Stormwater is absorbed down to the groundwater table through the structural layers of biochar and limestone, recharging it. Moreover, at the Huhtiniemi artificial groundwater plant in Lappeenranta, domestic water is produced by infiltration of surface water from the western part of the Pien-Saimaa into groundwater. Huhtiniemi is the only artificial groundwater facility, out of 10 groundwater intakes total, in Lappeenranta. Raw water is pumped from Saimaa to sand filtration basins on the Huhtiniemi ridge, which serves as a natural filter that effectively purifies the water. The water is then pumped from wells and undergoes alkalization treatment and ultraviolet disinfection before entering the water distribution network. In addition, the urban runoff system will be improved and monitored with a set of new sensors and coupled monitoring of the contamination, water quality and flow within the drainage system. Further, the residents will be given the opportunity to monitor the implemented solutions via a crowdsourcing smartphone application.",
+    "outcomes": "Space constraints are a limitation in stormwater management. The Stormwater Management Plan notes that stormwater quality management structures are typically sized for once-annual or bi-annual heavy rainfall and allowing for an additional 20% margin for climate change, yet in some locations there might be not enough room to handle even a once-a-year rainfall event. In such situation a cost/benefit evaluation of alternative solutions, such as nature-based ones - urban wetland areas developed in Lappeenranta, was carried out. Moreover, increasing the number of stormwater structures also increases the annual maintenance effort and hence the human resources required. In densely built-up central urban areas, an aesthetical aspect is important. The Plan suggests channelling runoff into streets’ tree lanes and flowerbeds, fitted with infiltration structures, coupled with underground drainage solutions - as the ones being built in Lappeenranta. A potential limiting factor is coordination among the institutions and actors involved. Wetland maintenance and management is the responsibility of Greenreality , the municipality’s service for environmental protection and sustainable development of the city, while other stormwater management structures, such as stormwater retention basins (Heinäkatu) and the Koulukatu infiltration area (the TransformAr project pilot site) are managed by the Streets and Urban Environment department as part of the maintenance of streets and green areas. Coordination between private and public responsibility for managing stormwater and connecting to the main drainage networks in the case of private properties can also be a limiting factor for the Plan. Of particular concern is runoff management from industrial sites, due to the wide range of pollutants they can discharge, which in turn calls for case-by-case solutions. Wetland construction has been particularly successful and does not seem to have suffered major limiting factors. Land availability was not an issue due to declining agricultural activities in the Lappeenranta area. The only, temporary limiting factor is time - it takes about three years for a wetland to fully perform its water filtration and regulation functions. On the plus side, wetlands also have scenic effects and increase the recreational appeal of the areas involved. An additional benefit is the replicability of the solutions. The City of Lappeenranta joined the H2020 TransformAr project as a demonstration site partner, to improve and demonstrate some adaptation actions taken within the framework of the Stormwater Management Plan. The coverage of these adaptation actions by the TransformAr project provides a unique opportunity for monitoring their development and gauging their effectiveness and transferability. In view of the latter, a follow-up program has been developed within the project with the Norwegian city of Gjøvik, a city of around 30,000 inhabitants on the Mjøsa lake, the largest lake in Norway. Gjøvik has been chosen as replicator for Lappeenranta in view of their similar climate vulnerability in terms of urban planning and water management. The TransformAr project is monitoring implementation of the same adaptation solution in Gjøvik as in Lappeenranta.",
+    "cost_benefit": "The cost of maintaining green areas includes winter maintenance, cleaning, maintenance of structures, equipment and furnishings, and vegetation management. In 2023 the overall maintenance cost for green areas was 1.69 €/m 2 . Wetland construction and maintenance are planned on a site-by-site basis, thus no “typical” figure for these costs can be provided. However, as an illustration of the range of cost involved, the Lappeenranta administration has provided the following examples for the construction of the wetlands: The Heinäkatu retention basin had a cost of €44/m 2 for a 3,000 m 2 area, totaling €132,000. This includes the costs for the materials, transport and labor, the costs for planting new trees and vegetation, construction site work, including construction management and other site tasks, and the construction tasks directly borne by the city’s administration. The Koulukatu infiltration area cost €340/m 2 for 245 m 2 , totaling €83,300. This includes the costs of the materials for infiltration area and the pipes that discharge storm water into the area, the related transport and labor costs, the costs for planting new trees and vegetation, as well as the construction site work, including construction management and other site tasks, and the construction tasks directly borne by the city’s administration. Finally, monitoring/sensor costs , including sensors, installation, maintenance, management, monitoring, and repair services plus data services for 26 months, total €21,000 for 5 monitoring points in 3 areas. Benefits from these measures put in place within this case study have not been assessed in quantitative terms. Strengthening the control over water quality has obvious benefits for the welfare of Lappeenranta’s citizens and visitors, in terms health safety stemming from reliable water standards for domestic uses and for recreational purposes, even in presence of flooding events. The use of nature-based solutions to create wetlands within the municipality’s territory increases the availability of green areas. The network of wetlands also increases biodiversity and provides a habitat for many birds and insects.",
+    "timeline": "Eight nature-based measures are already in place. The new open ditch system coupled with sensors, the citizen science network and the survey are expected to be completed by the end of 2025, within the time frame of the TransformAr project. In total, 11 nature-based solution sites, including the Koulukatu infiltration area ( TransformAr pilot site), will be implemented within this program.",
+    "lifetime": "Wetlands, if properly maintained, are expected to last indefinitely. Sensors, on the other hand, are relatively short-lived from about a year to 10 year or less, depending on the specific conditions at the installation site, and will need to be replaced in case of failure (see Zhu et al, 2023 for details).",
+    "stakeholders": "To prepare the Stormwater Management Plan, the stakeholder consultation process was carried out in three workshops in autumn 2019, with the participation of Lappeenrannan Energiaverkot Oy (a local water and energy distribution utility), the City of Lappeenranta's Land Property Management, City Planning, Streets and Environment, Environmental Services, Building Control, the South Karelia Rescue Service and the ELY Centre of South-East Finland (a regional development centre). The themes of the workshops were stormwater and land use planning, stormwater and information systems and natural management of stormwater. The summaries of the workshops were used to produce a preliminary set of contents for the Stormwater Management Plan, as well as an electronic list of the necessary documents on which this plan is based.",
+    "legal_context": "The basis for direct leadership of the Lappeenranta municipality in the new stormwater management program (including NBS) stems from an amendment to the Water Management Act in 2014. Previously, stormwater management was regulated in the Water Management Act; following the amendment, stormwater management is now regulated by the Land Use and Building Act, with the aim and purpose of promoting stormwater management in its entirety. Under the Land Use and Building Act, the responsibility for organising stormwater management lies with the municipality. This does not automatically translate into the inclusion of private property into the system, which requires coordination of public and private responsibilities. In 2018, the ownership of the stormwater network and parts of the water supply network was reorganized (City council decision). After the change of ownership, a four-year service agreement was signed between the city and the water utility, which also included an obligation to prepare a city-wide stormwater plan. Stormwater management is guided by zoning regulations, the City's Stormwater Management Priorities (Section 2.2), and the Building Code. The City of Lappeenranta also owns the stormwater drainage network."
+  },
+  "point": {
+    "lat": 61.0,
+    "lon": 28.0,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "transformar.eu",
+      "url": "https://transformar.eu/demonstrator-1-city-of-lappeenranta-finland/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+    "publication_date": "2024-02-29",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4e61866caa4d4042a96c8a371d854f16",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/protecting-surface-water-quality-in-lappeenranta",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

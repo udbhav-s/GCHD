@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-buenos-aires-ecological-reserves",
+  "url": "https://www.c40.org/case-studies/buenos-aires-ecological-reserves/",
+  "title": "Costanera Sur, Lugano Lake and Costanera Norte-Ciudad Universitaria",
+  "summary": "This C40 case study describes “Costanera Sur, Lugano Lake and Costanera Norte-Ciudad Universitaria,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Ecological reserves in Buenos Aires that protect biodiversity, enhance research and give nature back to city residents.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Ecological reserves in Buenos Aires that protect biodiversity, enhance research and give nature back to city residents.",
+    "measures": "Ecological reserves that protect biodiversity, enhance research and give nature back to city residents \nThe City of Buenos Aires has developed three ecological reserves – Costanera Sur, Lugano Lake and Costanera Norte-Ciudad Universitaria – to protect nature and improve the city’s climate resilience. Covering 409 hectares in total, the reserves help mitigate noise and visual pollution, regulate the city’s climate and absorb rainwater, providing ideal settings for scientific research, environmental education, sustainable tourism, and green space that residents use for leisure and recreation.\n Costanera Sur Ecological Reserve \n Costanera Sur was the first site in Buenos Aires to be designated a protected area; thanks to more than 36 years of conservation and restoration, the site now covers 350 hectares and is the most biodiverse space in the city.\n The area’s rich biodiversity is exemplified by the presence of the Argentine Flag butterfly, previously thought to be extinct, which was discovered at the reserve in 2016. In light of this, the city is supporting efforts to increase the population of this rare species. The reserve borders the Río de la Plata and has four interior lagoons, as well as a variety of walking trails for public use.\n © The City of Buenos Aires \n Until the 1970s, this space functioned as a municipal beach resort, but it was set to be redeveloped to serve as the administrative centre of the City of Buenos Aires. To accommodate the project, developers began dumping rubble at the site to increase land and push back the river, but it was eventually abandoned.\n In time, nature began to reclaim the space. Following a series of floods at the site, diverse natural environments formed; local environmental groups recognised this in 1985 and began to deliver educational activities at Costanera Sur. Then, on 5 June 1986, the space was officially declared an ecological reserve.\n The area has continued to flourish, providing environmental and community benefits for city residents — fauna, flora and humans alike. In 2005, the Ramsar Convention recognised the Costanera Sur reserve as a ‘Ramsar Site’, an important international designation, while BirdLife International and Aves Argentinas formally recognised the space as an ‘Important Bird Conservation Area’ in 2005.\n Lugano Lake Ecological Reserve \n Located on the southern bank of the Cildañez stream, on an old meander of the Riachuelo, the nature reserve at Lugano Lake has a rich landscape covered by exotic and native trees. The space spans 36 hectares and features areas dedicated to restoring species typical of the Paraná Delta and islands of the Argentine Espinal Ecoregion.\n Since 2013, vegetation control and infrastructure development have been active in the space to conserve the natural environment and native flora. It was officially recognised as a protected area by the City of Buenos Aires in 2018.\n © The City of Buenos Aires \n With the city’s support, Lugano Lake sustains a diverse flora and fauna that includes more than 20 species of butterflies, 118 species of birds and more than 120 types of plants.\n A species of particular note is the Orquídea del Talar, which grows on the shores of the lake and the Cildañez stream and has become an iconic feature of the reserve. This orchid species was once considered extinct, but was identified in the area during a survey of the local vegetation in 2015.\n Costanera Norte-Ciudad Universitaria Ecological Reserve \n The Costanera Norte-Ciudad Universitaria ecological reserve consists of a conservation area spanning 14 hectares and an urban park for city residents and visitors covering 9 hectares.\n Costanera Norte is located in an area originally covered by the Río de la Plata. In the 1960s, development work was carried out to infill the land using the river’s sediments, thereby enabling rededication of the space.\n Following this, in the 1970s, an islet was built parallel to the coast to join the space to the mainland at the south, sitting at the height of Pavilion 2 of the Ciudad Universitaria.\n During the 1990s, natural landscapes quickly began to form along the new coastal strip. The space now comprises grasslands, forests and wetlands predominately containing exotic species of flora, though the wetland features an abundance of native species.\n © The City of Buenos Aires \n Inés Gorbea, the Secretary of Environment for the City of Buenos Aires , is responsible for the care, administration and development of these conservation spaces. She said: “The management of these protected areas is an important part of our work. Not only because of their environmental importance, but because they also provide space for us to survey our city’s biodiversity and offer places for learning and the conservation of species.”\n The spaces attract around 1 million visitors each year, making them an important source of eco-tourism that helps support local jobs, businesses and the economy. They also contribute to the resilience of nearby communities and provide access to nature, improving the quality of life of all Buenos Aires residents.\n This article was originally produced as a “Spaces in the City” feature for the C40 World Mayors Summit 2022 hosted by the City of Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": "Costanera Sur was the first site in Buenos Aires to be designated a protected area; thanks to more than 36 years of conservation and restoration, the site now covers 350 hectares and is the most biodiverse space in the city.\n The area’s rich biodiversity is exemplified by the presence of the Argentine Flag butterfly, previously thought to be extinct, which was discovered at the reserve in 2016. In light of this, the city is supporting efforts to increase the population of this rare species. The reserve borders the Río de la Plata and has four interior lagoons, as well as a variety of walking trails for public use.\n © The City of Buenos Aires \n Until the 1970s, this space functioned as a municipal beach resort, but it was set to be redeveloped to serve as the administrative centre of the City of Buenos Aires. To accommodate the project, developers began dumping rubble at the site to increase land and push back the river, but it was eventually abandoned.\n In time, nature began to reclaim the space. Following a series of floods at the site, diverse natural environments formed; local environmental groups recognised this in 1985 and began to deliver educational activities at Costanera Sur. Then, on 5 June 1986, the space was officially declared an ecological reserve.\n The area has continued to flourish, providing environmental and community benefits for city residents — fauna, flora and humans alike. In 2005, the Ramsar Convention recognised the Costanera Sur reserve as a ‘Ramsar Site’, an important international designation, while BirdLife International and Aves Argentinas formally recognised the space as an ‘Important Bird Conservation Area’ in 2005.\n\nThe Costanera Norte-Ciudad Universitaria ecological reserve consists of a conservation area spanning 14 hectares and an urban park for city residents and visitors covering 9 hectares.\n Costanera Norte is located in an area originally covered by the Río de la Plata. In the 1960s, development work was carried out to infill the land using the river’s sediments, thereby enabling rededication of the space.\n Following this, in the 1970s, an islet was built parallel to the coast to join the space to the mainland at the south, sitting at the height of Pavilion 2 of the Ciudad Universitaria.\n During the 1990s, natural landscapes quickly began to form along the new coastal strip. The space now comprises grasslands, forests and wetlands predominately containing exotic species of flora, though the wetland features an abundance of native species.\n © The City of Buenos Aires \n Inés Gorbea, the Secretary of Environment for the City of Buenos Aires , is responsible for the care, administration and development of these conservation spaces. She said: “The management of these protected areas is an important part of our work. Not only because of their environmental importance, but because they also provide space for us to survey our city’s biodiversity and offer places for learning and the conservation of species.”\n The spaces attract around 1 million visitors each year, making them an important source of eco-tourism that helps support local jobs, businesses and the economy. They also contribute to the resilience of nearby communities and provide access to nature, improving the quality of life of all Buenos Aires residents.\n This article was originally produced as a “Spaces in the City” feature for the C40 World Mayors Summit 2022 hosted by the City of Buenos Aires.",
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-ecological-reserves/",
+    "publication_date": "2022-07-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "32781",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-ecological-reserves&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-10T15:55:36",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

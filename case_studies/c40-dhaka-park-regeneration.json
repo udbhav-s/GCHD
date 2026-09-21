@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-dhaka-park-regeneration",
+  "url": "https://www.c40.org/case-studies/dhaka-park-regeneration/",
+  "title": "Regeneration of Public Spaces in Dhaka North",
+  "summary": "This C40 case study describes “Regeneration of Public Spaces in Dhaka North,” an urban initiative documented for Dhaka North. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Retrofitting of Parks & Playgrounds and Reclaiming Public Spaces in Dhaka North City Corporation area",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dhaka North",
+      "adm0": {
+        "name": "Bangladesh",
+        "ucode": "BGD_V1",
+        "dcid": null,
+        "iso3": "BGD"
+      },
+      "adm1": {
+        "name": "Dhaka",
+        "ucode": "BGD_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dhaka-north",
+      "label": "Dhaka North"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Retrofitting of Parks & Playgrounds and Reclaiming Public Spaces in Dhaka North City Corporation area",
+    "measures": "Dhaka North City Corporation (DNCC) has been developing 20 parks and playgrounds through the upgrade, regeneration and greening of urban open spaces. \n Justice Shahbuddin Ahmed Park is one of these parks, located in the neighbourhood of Gulshan, that the DNCC has recently developed as part of their regeneration strategy of public spaces. \n The master plan of the park has been designed through prioritizing the opinion of the different user groups, i.e. using questionnaire surveys, Participatory Rapid Appraisal (PRA) sessions, Minecraft simulations and more. The park features walkways, cycle tracks, an indoor & outdoor gymnasium, children playing zones, a women’s corner, a library, kiosks, and landscaped gardens. The park is gifted with a water body which is accessible by waterside walkways. A green amphitheatre, a performance deck, suspended viewing decks and a drinking water fountain are special attractions that provide the area with natural beauty. Landscaping with grass, plants, flower beds, rain water harvesting facilities have been kept. Two gateways, peripheral visible fencing, lighting and security systems have been incorporated for accessibility and safety. A water fountain, public toilet facilities and trash bins are kept for public convenience.\n Next Steps \n The city will develop the guidelines for the operations and maintenance of parks, playgrounds and open spaces and involve the neighbourhood community in the planning and operation through partnerships. The supervision and monitoring of the establishment will be done through a co-management system involving the Dhaka North City Corporation and the community. A similar experience will be utilized in developing an extra 20 parks and playgrounds in Dhaka North. In addition to that, 6 additional public spaces will be developed with the support of UN HABITAT.\n Links to further Information \n www.dncc.gov.bd \n Contact Details \n Dr Tariq Bin Yousuf\n Project Director\n Upgradation, Regeneration & Greening of Urban Open Spaces in Dhaka City Project \n Dhaka North City Corporation\n Mob. +88-01817578326\n email. tariqbinyousuf@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Household or community survey data",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dhaka-park-regeneration/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27484",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=dhaka-park-regeneration&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

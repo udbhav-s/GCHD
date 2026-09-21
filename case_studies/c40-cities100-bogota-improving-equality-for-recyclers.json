@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-bogota-improving-equality-for-recyclers",
+  "url": "https://www.c40.org/case-studies/cities100-bogota-improving-equality-for-recyclers/",
+  "title": "Cities100: Bogotá – Improving Equality for Recyclers",
+  "summary": "This C40 case study describes “Cities100: Bogotá – Improving Equality for Recyclers,” an urban initiative documented for Bogotá. It is included because it is located in the Global South. C40 describes the action this way: By including Bogotá’s informal recyclers in the city’s social and economic structure, thousands of people have been granted deserved dignity…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Historically, waste collection services in Bogotá have not been prioritized and informal waste pickers were valued neither socially nor economically. The city’s Zero Waste program focuses on awarding dignity to the city’s recyclers, which has led to improved collection of reusable materials, increased energy produced at biogas plants, and reduced CO2 emissions.",
+    "measures": "In an effort to lower emissions and improve social justice, Bogotá launched the Zero Waste program in 2012. The program aims to increase recycling and reduce waste sent to landfills, while establishing more equitable conditions for the city’s recyclers, who previously had been excluded from the social and economic structures of the city.\n The Zero Waste program is part of the city’s development program, Bogotá Humana, which prioritizes environmental stewardship, with a particular focus on social inclusion. This focus has meant that thousands of recyclers have been given the chance to work under the city’s new waste collection scheme, giving them financial incentives to help increase recycling and providing them with formal recognition by the government. The recyclers’ efforts, along with conscious consumerism and improved residential waste separation, are key components of the city’s strategy to fulfill a goal of reducing waste sent to landfills by 20% by 2016.\n Environmental Benefits – A biogas plant located at one of the city’s landfills produces about 39 MW worth of energy .\n Social Benefits – The city recyclers are now compensated for their work, and collect about one ton of reusable materials daily.\n Economic Benefits – As a result of the Zero Waste program, the price of service collection has been reduced by 15%.\n Health Benefits – As part of Bogotá’s social inclusion strategy, 12,000 protection kits are being delivered to the city’s recyclers, allowing them to more safely do their jobs.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bogota-improving-equality-for-recyclers/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26971",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-bogota-improving-equality-for-recyclers&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

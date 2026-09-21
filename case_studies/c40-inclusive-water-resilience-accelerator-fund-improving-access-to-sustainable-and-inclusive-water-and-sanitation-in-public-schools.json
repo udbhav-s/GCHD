@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools",
+  "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools/",
+  "title": "Inclusive Water Resilience Accelerator Fund | Improving access to sustainable and inclusive water and sanitation in public schools",
+  "summary": "This C40 case study describes “Inclusive Water Resilience Accelerator Fund | Improving access to sustainable and inclusive water and sanitation in public schools,” an urban initiative documented for Dakar. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Supported by the C40 Inclusive Water Resilience Accelerator Fund, Dakar is working to improve water, sanitation, and hygiene (WASH) facilities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dakar",
+      "adm0": {
+        "name": "Senegal",
+        "ucode": "SEN_V1",
+        "dcid": null,
+        "iso3": "SEN"
+      },
+      "adm1": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dakar",
+      "label": "Dakar"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Dakar is working to improve water, sanitation, and hygiene (WASH) facilities…",
+    "measures": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Dakar is working to improve water, sanitation, and hygiene (WASH) facilities within the city’s secondary schools, where only 10% currently meet WHO toilet standards. Many facilities are poorly maintained and lack accessible and menstrual hygiene provisions, contributing to poor health and increased school absences. \n Through participatory assessments in all 55 public schools, the city engaged students, teachers, parents, and inspectors to identify needs and co-design solutions. These included new and rehabilitated sanitation blocks, menstrual health kits, and connections to potable water, all aimed at improving accessibility, privacy, and maintenance. Dakar now has a phased implementation roadmap that prioritises climate-resilient, locally sourced construction and investments to close the WHO toilet–student ratio gap. \n Complementary training and awareness programs on safe WASH practices, gender equity, and facility management are helping ensure long-term sustainability, offering an inclusive and resilient model that Dakar can replicate and scale across the city.\n Learn more about the DAKAR project \n More about C40’s ICA FUND",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools/",
+    "publication_date": "2025-11-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45686",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:52:55",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

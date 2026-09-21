@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-drive-less-chengdu-low-carbon-e-travel-credits-initiative",
+  "url": "https://www.c40.org/case-studies/drive-less-chengdu-low-carbon-e-travel-credits-initiative/",
+  "title": "Drive Less! – Chengdu Low-carbon e-Travel Credits Initiative",
+  "summary": "This C40 case study describes “Drive Less! – Chengdu Low-carbon e-Travel Credits Initiative,” an urban initiative documented for Chengdu. It is included because it is located in the Global South. C40 describes the action this way: The Chengdu Development and Reform Commission, the Municipal Traffic Management Bureau and other units jointly announced in 2017 the launch of the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chengdu",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Sichuan Sheng",
+        "ucode": "CHN_0026_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chengdu",
+        "ucode": "CHN_0026_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chengdu",
+      "label": "Chengdu"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Chengdu Development and Reform Commission, the Municipal Traffic Management Bureau and other units jointly announced in 2017 the launch of the “Drive Less, Chengdu Low-carbon e-Travel” initiative, the first benefit-all carbon-reduction programme of Chengdu towards a low-carbon travel sector.",
+    "measures": "Read here the Chinese version of this case study.\n “Chengdu e-Travel” is China’s first ‘public traffic welfare’ platform. After car owners register and add their vehicles to the platform, they can voluntarily apply for reducing driving through it. After they fulfill their commitments, confirmed by the smart traffic monitoring equipment, they get credits that can be redeemed for various rewards in the “Chengdu e-Travel” Welfare Mall.\n What is the innovation? How does it work? \n The Benefit-all Carbon-reduction initiative will give full play to the advantages of the “Chengdu e-Travel” platform. It calculates the “carbon assets” generated from car owners’ emission reductions, and uses the benefit-all mechanism and market mechanism to exchange credits for low-carbon products or even cash to motivate low-carbon behaviours. The benefit-all carbon-reduction mechanism mainly aims to incentivise energy-saving and carbon reduction behaviours.\n What are the CO2 reduction achievements? \n Since the launch of the platform on July 23, 2017, across six administrative divisions, i.e. Wuhou, Jinniu, Jinjiang, Qingyang, Chenghua and Gaoxin, a total of 14,700 private cars applied for reducing driving, resulting in a total of 169,700 days of reduced driving and leading to emissions reduction of nearly 2,000 tCO2e.\n Contact Details \n Chengdu Municipal Development and Reform Commission\n No.2 Jinyue Xi Road, Chengdu City\n TEL: 028-61886168\n http://www.cddrc.gov.cn/reform/detail.action?id=853356",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/drive-less-chengdu-low-carbon-e-travel-credits-initiative/",
+    "publication_date": "2019-06-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27444",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=drive-less-chengdu-low-carbon-e-travel-credits-initiative&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

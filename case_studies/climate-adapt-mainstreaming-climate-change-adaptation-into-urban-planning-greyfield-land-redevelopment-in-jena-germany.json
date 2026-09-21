@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+  "title": "Mainstreaming climate change adaptation into urban planning: greyfield land redevelopment in Jena (Germany)",
+  "summary": "In Jena, adaptation has been integrated in urban planning thanks to public awareness, public institutional support, and investments in collaboration and research. Detailed cost-benefit analyses inform decision-making for interventions such as the greyfield land redevelopment. Jena is a city of about 108,000 inhabitants and – due to its specific geographic location – is exposed to various climate change-related risks, whereas heatwaves are the most relevant. Climate projections for Jena expect a substantial increase of this risk in the future.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jena",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Thüringen",
+        "ucode": "DEU_0016_V1",
+        "dcid": null,
+        "source_code": "SUBN_Thüringen__DE_",
+        "source_name": "Thüringen (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multi-criteria analysis",
+      "label": "multi-criteria analysis"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heatwave",
+      "label": "heatwave"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mainstreaming",
+      "label": "mainstreaming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Urban planning",
+      "label": "Urban planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "climate proofing",
+      "label": "climate proofing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "greyfield",
+      "label": "greyfield"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The climate change adaptation strategy of Jena (JenKAS) enabled the city administration and other affected actors to assess the local effects of climate change and include them in the urban planning. One of the most relevant objectives is reducing the intensity of the urban heat island effect and increasing adaptation to extreme heat events. To meet this scope, a bundle of structural measures and nature-based solutions should be implemented, as in the case of thee redevelopment of the Inselplatz. After the preparatory land-use plan for the Inselplatz was approved in May 2014, a probabilistic multi-criteria analysis was used to compare three drafts exploring different ways to shape the public area and rank them according to the suitability of their design to promote climate change adaptation. This analysis includes a comparative economic assessment of potential adaptation options to identify the most suitable bundle of adaptation measures for implementation. The results of this assessment informed the detailed design of the new Inselplatz and the administrative and political decision-making process.",
+    "measures": "JenKAS’ backbone is a handbook on climate sensible urban planning, which includes information on current and future local climatic conditions, legal aspects, economic assessments of adaptation options and best practice examples. The handbook is complemented by a decision support system tool called JELKA , specifically addressed to urban stakeholders and decision-makers. The tool was developed to make climate risk information more accessible and provide tailor-made recommendations, i.e., propose suitable adaptation measures for a specific policy field or a particular spatial unit. The redevelopment of the Inselplatz is one of the first specific interventions for which the JenKAS approach aiming at mainstreaming climate change adaptation into urban planning was applied. This intervention aims at transforming the existing greyfield area into a new campus of the Friedrich Schiller University, also including adaptation measures to cope with heat stress-related risks. In a first step, JELKA was used to pre-select adaptation options to be considered for three alternative drafts for the redevelopment of the area. Then PRIMATE, a software for Probabilistic Multi-Attribute Evaluation developed at the Helmholtz Centre for Environmental Research - UFZ was applied to systematically compare these three drafts by means of multi-criteria analysis. The alternatives vary in: (a) number of trees and crown characteristics (small or large crowned trees), (b) colour schemes of pavements (ordinarily- or light-coloured cobblestone, respectively with an albedo of 0.3 and 0.5), (c) use and size of water bodies (none, water body of 40 m 2 , or water body of 80 m 2 ) and (d) size of green roofs (31%, 50%, or 70% of total roof surface). In order to compare the three alternatives the following four criteria were considered: (i) heat stress level (quantitative evaluation), (ii) costs (monetary evaluation), (iii) architectural quality (qualitative evaluation), and (iv) amenity value (qualitative evaluation). To visualize how the three alternatives will develop over time, these parameters were modelled for three different periods: (i) the year 2021, the anticipated opening of the campus; (ii) 2021-2050 visual appearance in the medium-term, and (iii) 2071-2100 visual appearance in the long-term. The main results of the multi‐criteria assessment for the Inselplatz intervention were: Alternative 3 ranks first in the medium‐term (2021‐2050) as well long‐term perspective (2021‐2100). This option consists in: (i) conserving the existing 14 trees and planting 31 new one (27 large-crowed trees and 4 small-crowed ones); (ii) use light-coloured pavements for the entire area; (iii) develop roof greening of new flats roofs (30% tar‐gravel‐roof and 70% extensive green roof); (iv) construct an 80 m 2 artificial water body. The heat stress level was estimated through an indicator ranging from 0 (no heat stress) and 10 (maximum heat stress). According to the analysis, it was lower for the third alternative. Following values of the indicator were calculated for this alternative in comparison with the other two (indicator values of alternatives 1 and 2 are indicated within brackets): (i) period 1981-2010 = 4.1, corresponding to medium (4.8 for alternative 1, 4.5 for alternative 2); (ii) period 2021-2050 = 5.2, slightly elevated (6.0 for alternative 1, 5.7 for alternative 2); (iii) period 2021-2100 = 6.7, moderately elevated (7.5 for alternative 1, 7.2 for alternative 2). Light‐coloured pavements and large‐crowned trees have a beneficial impact on site‐specific micro‐climatic conditions (those of the Inselplatz). The (presumably) higher costs also pay‐off with regard to the criteria amenity value and architectural quality. When comparing the net present costs of a small‐crowned and a large‐crowned tree over a longer period (i.e. 82 years), the costs were slightly higher for small‐crowned trees compared to those for large‐crowned trees. Furthermore, the latter has a more beneficial impact on site‐specific microclimate. The influence of an artificial watercourse is more ambiguous as it is quite costly and has – due to its dimension – only a limited impact on the microclimate. Its overall value largely depends on how it is assessed with regard to its influence on criteria as amenity value and architectural quality. Works at Inselplatz started in 2018 and up to now mainly focused on the preparation of the construction site. Interventions are expected to be completed by 2024/2025 (Project group “ Campus Inselplatz ”).",
+    "outcomes": "Mainstreaming adaptation into urban planning in Jena has been fostered by various factors: Extreme weather events and how they relate to climate change boosted public awareness; Administration and political decision-makers acted in accordance with the precautionary principle and allocated personnel and a small permanent budget for supporting climate change adaptation at the Department of Urban Development & City Planning of the city of Jena. Financial support at the national level allowed the development of JenKAS, which is the basis for adaptation activities in the city. In the JenKAS working group various city departments, representatives of the State of Thuringia, scientists and consultants were involved and facilitated networking within and beyond the city limits in order to support adaptation action. Adaptation-related research projects are mandated by the city administration on a regular basis to continuously update and expand the existing knowledge base. External perception of these activities is manifold and helps to maintain adaptation momentum, e.g. national award “Climate-active municipality 2016”, “Environmental Award 2015” of the State of Thuringia. The assessment being conducted for the Inselplatz greatly benefited from this institutional set-up. There are also some factors hindering the mainstreaming of adaptation into urban planning in Jena: (i) climate change denial of relevant stakeholders including political decision-makers, (ii) tight public budgets, (iii) scarcity of experienced personnel, and (iv) lack of knowledge on external funding opportunities for adaptation actions. However, these constraints can easily be turned into challenges and can establish Jena as frontrunner city in terms of climate change adaptation.",
+    "cost_benefit": "Four criteria were used to compare the three alternatives for the redevelopment of the Inselplatz: Costs, including: (i) investment and maintenance costs of the pavements, artificial water elements and green structures (i.e. lawn and trees), (ii) net present values of green roofs (monetary, discount rate: 1.5%); Heat stress level (quantitative); Architectural quality (qualitative); Amenity value for university staff, students and guests (qualitative). A probabilistic multi-criteria method (i.e. stochastic PROMETHEE II), which is particularly capable of dealing with uncertain, incomplete, heterogeneously scaled and inconsistent data was used for the analysis. The effects of uncertain data and diverging stakeholder preferences for the four criteria were considered in the analysis and documented in the assessment results. For the adaptation measure “roof greening”, a separate cost-benefit analysis was conducted. For this analysis costs (i.e. investment, reinvestment, rehabilitation, maintenance costs) and benefits accruing to the owners of the buildings (i.e. private stormwater fee savings, reduced installation costs of stormwater management facilities, energy cost savings) were considered. The respective net present values obtained were also considered for the probabilistic multi-criteria analysis. Some public benefits, i.e. habitat creation value and carbon sequestration, were also estimated but reported separately. The total costs foreseen for this large-scale urban development project amounts to 188 million Euros and consist of four sub-projects. The overall financing has not yet been fully clarified. However, some of the interventions will be co-financed, with around 84 million Euros of the European Regional Development Fund (ERDF). Approximately 10 million Euros come from federal funds of the Higher Education Pact 2020, 37.7 million from state funds and 4.1 million from the city of Jena.",
+    "timeline": "The analysis and planning phase of the redevelopment of the Inselplatz occurred in the period 2012-2017. The implementation phase started in 2018 and up to now (2019) mainly consisted in cleaning and preparation of the construction site. Excavation interventions are planned for 2020, while construction is scheduled to start in late 2020. EU-funded buildings are scheduled to be commissioned by 2023, while the other components will be completed by 2024/2025.",
+    "lifetime": "For some of the components to be developed, expected lifetime is in the range of: 40 years for green roofs, 40-50 years for small-crowned urban trees, 80-100 years for large-crowned urban trees, 80 years for pavements, and 80 years for artificial water elements.",
+    "stakeholders": "Urban land-use planning in Germany is a procedure including the preliminary two stages involvement of public authorities and agencies as well as of any other stakeholders for options and proposals. Once all comments (e.g. on environmental, economic or infrastructural aspects) considered important are collected, they must be duly weighed and balanced, considering both the interests of the developer and any public or private interests which might be affected by the project. The competent local body adopts a decision on public display. The public have the opportunity within one month to offer recommendations and make objections regarding the plan, which are then to be taken into account. In parallel to this formal participation process, which is required by German law (formal planning), supplementary informal participation processes and cooperation might be applied to enhance planning outcomes and their acceptance. Guiding principles can be developed and acknowledged by the responsible political bodies, most often the City Council, and put into practice aiming at an active involvement of citizens, civil organisations, associations and businesses (informal planning). In the case of Jena redevelopment, it was expected to consider preference sets (weighting) of various different stakeholders (e.g. planners, politicians, citizens) for the multi-criteria analysis However, it turned out that this does not fit to existing planning routines described above, which include formal and informal stakeholder participation. The results of these engagement activities are reflected in the drafting and re-drafting process; this information is somehow “digested” by the planner and to some extent formally and informally embedded in the planning exercise. Therefore, the planner has to be able to produce a somehow “balanced” weighting set when taking the decision; otherwise, opposition to the final draft will prevent it to be accepted by the City council. For the Inselplatz multi-criteria analysis, two planners involved in the planning process elicited the weights individually. Both weighting sets were used for the assessment to somehow control for some kind of perception bias.",
+    "legal_context": "Discussions on developing a local climate adaptation strategy in Jena started back in 2005. After a resolution of the City Council in 2009, the city development department commissioned a public funded pilot study to analyse local climate change impacts, identify potential adaptation measures, and better understand the risk perceptions of stakeholders. In 2010, the development of the local climate adaptation strategy (JenKAS) was the next logical step. It was supported by the research programme of the German Federal Ministry of Traffic, Construction and Urban Development and locally co-financed. In May 2013, the City Council acknowledged JenKAS as an informal planning principle of the urban development in Jena. This was an important precondition for the implementation of JenKAS and the continuous consideration of climate change adaptation in urban planning in Jena. Changes of the legal framework in different policy fields gradually were passed on to the staff of various municipal entities through their respective regular advanced trainings. Revisions of the external regulatory framework such as the one of the Federal Building Code in 2011 strengthen climate adaptation mainstreaming efforts."
+  },
+  "point": {
+    "lat": 50.871844771,
+    "lon": 11.5631103516,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "base-adaptation.eu",
+      "url": "https://base-adaptation.eu/mainstreaming-climate-change-adaptation-urban-planning-jena-germany",
+      "role": "contextual_input"
+    },
+    {
+      "name": "uni-jena.de",
+      "url": "https://www.uni-jena.de/en/Campus_Inselplatz",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+    "publication_date": "2020-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "cdbea2ad7a4a4553a305e695ff9d1c33",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/mainstreaming-climate-change-adaptation-into-urban-planning-greyfield-land-redevelopment-in-jena-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:46+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

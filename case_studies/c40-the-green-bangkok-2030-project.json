@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-the-green-bangkok-2030-project",
+  "url": "https://www.c40.org/case-studies/the-green-bangkok-2030-project/",
+  "title": "The Green Bangkok 2030 Project",
+  "summary": "This C40 case study describes “The Green Bangkok 2030 Project,” an urban initiative documented for Bangkok. It is included because it addresses extreme heat, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: What is it? The Environment Department, Bangkok Metropolitan Administration (BMA) sees the opportunity to increase urban green spaces by developing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bangkok",
+      "adm0": {
+        "name": "Thailand",
+        "ucode": "THA_V1",
+        "dcid": null,
+        "iso3": "THA"
+      },
+      "adm1": {
+        "name": "Bangkok",
+        "ucode": "THA_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bangkok",
+      "label": "Bangkok"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "What is it? The Environment Department, Bangkok Metropolitan Administration (BMA) sees the opportunity to increase urban green spaces by developing…",
+    "measures": "The Environment Department, Bangkok Metropolitan Administration (BMA) sees the opportunity to increase urban green spaces by developing the unused spaces scattered throughout Bangkok that belong to both government and private agencies. These spaces include vacant public spaces, areas under the expressways, space between buildings, footpaths, land alongside the canals, etc. \n The Green Bangkok 2030 Project was launched by the BMA to carry out a collaboration between public, private and civil sectors equipped with the capability and public mind to expand green spaces in Bangkok. \n To meet the objectives of the Paris Agreement, the Royal Thai Government aims to reduce greenhouse gas emissions by 20% – 25% by 2030 compared to business as usual (BAU). 2030 is also the year that the United Nations is requiring member nations to achieve their Sustainable Development Goals (SDGs). The Green Bangkok 2030 Project corresponds with SDG 11: Sustainable cities and communities, and SDG 13: Climate action (Protect the planet).\n\nOn 15 December 2019, the BMA announced the Green Bangkok 2030 Project together with other stakeholders—PTT Public Company Limited, Thai Association of Landscape Architects, Big Trees Project, We! Park Project, and Thailand Urban Tree Network. Following the announcement, the steering committee began to implement and monitor the project. The committee comprises of the Governor of Bangkok as a chairman of adviser to the committee, the Permanent Secretary for the BMA as a committee chairperson, and government, private stakeholders, civil society and educational institutions as committee members.\n The main objective of the Green Bangkok 2030 Project is to increase sustainable, quality green spaces. There are 5 key success indicators: \n Social: The design of green spaces is suitable for everyone (Universal Design). There is an even distribution of green spaces where citizens can easily access the area by walking. This also enhances social interaction. \n Economic: The new green spaces must promote the community, district and urban economy, as well as add value to the surrounding land areas, or they must stimulate local tourism. \n Environmental: The new green spaces must be able to enhance the balanced biodiversity of urban ecosystems, including adding animal habitats, reducing air pollution and alleviating the urban heat island effect. \n Management: There must be a system for the maintenance of green spaces such as using appropriate and modern technologies to save operation costs and manpower. \n Community and Cooperation: There must be community and citizen participation so that the created green spaces can respond to their needs and desired activities. It should also generate a sense of ownership. \n The Green Bangkok 2030 Project has set 3 targets:\n Increasing the ratio of green spaces to 10 square meters per person.\n Increasing public green spaces that people can access within 400 meters or 5 minutes by walking at no less than 50% of Bangkok’s total area. \n Increasing urban tree canopy per urban area to 30% of Bangkok’s total area. \n There are 11 pilot projects in Phase 1 (2021-2022), including:\n 10 rais (approx. 4 acres) of Piyaphirom Park, Bang Kapi District,\n 2.5 rais (approx. 1 acre) of Santiporn Park, Phra Nakhon District, \n 29 rais (approx. 11.5 acres) of the park at Rom Klao Road and Chao Khun Thahan Road Interchange, Lat Krabang District,\n 37 rais (approx. 14.6 acres) of the park at Bangkok Land Development Station, Bang Khun Thian District,\n 0.5 rai (approx. 0.2 acre) of the park at Soi Na Wat Hua Lamphong, Bang Rak District, \n 2 rais (approx. 0.8 acre) of the park at Soi Vibhavadi 18, Lane 3, Chatuchak District,\n 66 rais (approx. 26 acres) of the area in On Nut Garbage Disposal Plant, Prawet District, and\n 5 km of green spaces in the Head Office of PTT Public Company Limited and along Phahon Yothin Road (Lad Phrao Intersection – Victory Monument), etc.",
+    "outcomes": "Many small and large private enterprises are interested in offering their own lands to take part in the Green Bangkok 2030 Project and increase green spaces in their communities. Therefore, for phase 2, the project is currently undergoing a process of official acceptance of the lands. Upon acceptance, the BMA will develop the offered lands as public green spaces for the city in the future and focus on increasing the green area by providing and expanding the 5 new green areas in Bangkok.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-green-bangkok-2030-project/",
+    "publication_date": "2020-12-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27519",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-green-bangkok-2030-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T16:36:29",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

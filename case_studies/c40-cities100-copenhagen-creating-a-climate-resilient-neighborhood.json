@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-copenhagen-creating-a-climate-resilient-neighborhood",
+  "url": "https://www.c40.org/case-studies/cities100-copenhagen-creating-a-climate-resilient-neighborhood/",
+  "title": "Cities100: Copenhagen – Creating a Climate resilient Neighborhood",
+  "summary": "This C40 case study describes “Cities100: Copenhagen – Creating a Climate resilient Neighborhood,” an urban initiative documented for Copenhagen. It is included because it addresses river flood, air pollution pm25 hazards. C40 describes the action this way: The Copenhagen neighborhood of Østerbro adapts the city to extreme weather using affordable green infrastructure that also improves quality of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A single cloudburst in July 2011 caused over $1 billion in damage to Copenhagen, according to the city’s Technical and Environmental Administration. Faced with the reality that these events will become more frequent in the coming years, the city is taking serious precautions to prepare itself. Østerbro Climate Quarter’s resilience demonstrates that adaptation measures not only protect citizens and infrastructure but also contribute to a more enjoyable and livable city.",
+    "measures": "Copenhagen has learned that large-scale grey infrastructure renovations are not always the best response to climate change. Instead, faced with increasing rates of flooding, the Danish capital created the world’s first climate-resilient district Østerbro Climate Quarter by implementing green infrastructure. This concept is cheaper to implement and maintain than expanding sewers, and it reduces the financial impact of extreme weather events.\n Should a storm-related flood hit the area, the integrated system of green streets and pocket parks will serve as retention areas and water basins. Local hills will function as the sides of a bowl, funneling water to designated retention areas. Public squares will even be able to collect water from surrounding buildings’ roofs and distribute the water locally, thanks to a new pipe system. When completed, 30% of rainwater is expected to be managed this way, instead of ending up in the sewer system. In total, 50,000 m2 of cityscape will become climate-resilient, natural urban infrastructure.\n Environmental Benefits – Creating greener infrastructure can improve air quality, sequester CO2, and improve local biodiversity.\n Social Benefits – More than 10,000 people have taken part in the project’s 170 citizen-led initiatives to create green surfaces, usable urban spaces, and a climate-prepared neighborhood.\n Economic Benefits – The green and surface-based climate adaptations of the Østerbro Climate Quarter will reduce the cost of damage from cloudbursts and are cheaper to implement than sewer expansions.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-copenhagen-creating-a-climate-resilient-neighborhood/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26992",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-copenhagen-creating-a-climate-resilient-neighborhood&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

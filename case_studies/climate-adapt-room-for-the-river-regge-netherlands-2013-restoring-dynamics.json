@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+  "title": "Room for the River Regge, Netherlands - restoring the river dynamics",
+  "summary": "The Regge river underwent canalization in 1935. In response to flooding and water scarcity issues, a re-naturalization program, “Reggevisie”, was initiated in 1998. It focuses on restoring river dynamics, creating water buffering space, promoting nature development, and enhancing recreational appeal, with completion expected in 2025. Historically, the Regge was a free-flowing shallow lowland river which meandered through a landscape containing marshes, wet meadows and sandy levees. To facilitate shipping, from 1848 onwards the river was straightened by cutting off meanders, and the river channel was deepened and widened.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "re-meandering",
+      "label": "re-meandering"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "renaturalisation",
+      "label": "renaturalisation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature development",
+      "label": "nature development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Integrated approach",
+      "label": "Integrated approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "room for the river",
+      "label": "room for the river"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The overall objective was to make the Regge ‘climate resilient’. This implied accounting for the impacts of the actual climate variability while also taking into consideration the projected future situation. In the Reggevisie programme, the canalized river was restored to a dynamic and resilient, meandering river at different places, taking into account the protection of the residents against flooding. In general, the Regge restoration pursues the following objectives: Moderating discharge peaks to prevent flooding downstream; Restoring natural stream processes and stream character: (i) inundations, (ii) natural drainage course, (iii) smaller profiles (summer bed), (iv) higher flow rates; Combating droughts: (i) with downstream smaller sections so that the drainage base can be placed higher and the flux of groundwater to surface water can be reduced in size; (ii) by reconnecting old streams back to the river Regge in order to provide more irrigation water to farmers and drinking water for the drinking water industry and ensure enough water at the weirs for the functioning of the fish ladders. Improving water quality by: (i) sedimentation and purification on the spot (green cleansing), (ii) realizing (as long as possible) a certain flow rate downstream, (iii) developing (wet) natural and landscape values, for instance as a stepping stone in the ecological structure. Climate change projections were taken into account in the projects part of the Reggevisie programme to ensure that the abovementioned aspects will also remain valid under projected changing conditions.",
+    "measures": "Within the Reggevisie programme the river dynamics of the river Regge have been improved and more room has been created to buffer peak discharges and improve water retention during dry periods. These processes gain special importance in the light of climate change since flood peaks and droughts are expected to increase. To create extra capacity to handle flood water, part of the canalised river course has been maintained and a flood canal has been created parallel to the meandering river, along the lower and middle Regge. Barriers just below the floodplain level separate the canal from the meandering river. During average flow conditions, flow is routed only through the river meanders. During flood periods, flow is routed over the barriers and through the flood canal as well. This design reduces and delays the peak discharge. The peak discharge is reduced because the inundation area has increased significantly from the reference situation. Overall, the delay is due to the greater length of the Regge river system and the increased inundation area. After building the flood canal, so far, increased water levels have not caused any flooding in the Regge. In the lowland Regge a wide flood plain has been created by reconnecting the old meanders which are often the starting point for new meandering. The profile of the Regge has been adjusted to provide the desired flow in the summer and sufficient variation in morphology, erosion and sedimentation processes. Moreover, to increase groundwater levels in dry periods, the surface water levels were raised. The design was adapted by increasing the flow width by 20%, resulting in a higher bottom level of the Regge, which leads to a reduced draining effect from the groundwater to the river. The Water Board Vechtstromen is continuing the Reggevisie programme which is supposed to be completed by 2025. In particular, some of the projects in the middle and lower Regge are still ongoing.",
+    "outcomes": "Success factors include the following points: The Water Board Regge and Dinkel and the newly formed Water Board Vechtstromen had and have a strong drive towards integrated water management; The vision for the Regge was formally adopted by the Water Board; National and European legislation and policy (WFD and Natura 2000 in particular) helped developing and implementing the Reggevisie programme ; The re-meandering projects are all integrated projects with multiple purposes; The implemented measures are based on research and science-based evidence; The EU Water Framework Directive (WFD) objectives are not the only ones for the projects, which also aim for restoration of fluvial habitats; The integrated approach adopted and combining objectives has led to cost-efficiency; All projects have sufficient support from the local communities; The Water Board had initially only limited insight about the effectiveness of the restructuring measures for ecological goals, but the results in the last years indicate a very good ecological development e.g. of the macro-fauna. In some places, private landownership hindered the implementation of the restoration projects and in some cases expropriation was required.",
+    "cost_benefit": "Total cost of the various projects has been estimated in about 25 million euro. Significant benefits are related to the improved protection from flood events and improved conditions during drought conditions. The enhancement of the natural design and conditions of the Regge was and is an integral part of many of the projects part of the Reggevisie programme. The creation of an ecological corridor along the river aimed at increasing the connection of natural areas and allowing plants and animals to naturally spread. In addition, space is created for viable and profitable agriculture around the Regge valley. The enhanced natural design of the Regge has boosted and is boosting recreation activities and tourism in the municipalities through which the Regge flows.",
+    "timeline": "The implementation of the Reggevisie started in 2010 and will continue until 2025.",
+    "lifetime": "The Reggevisie programme includes long-term renaturalisation projects with a lifetime estimated in at least 100 years.",
+    "stakeholders": "The Water Board Vechtstromen cooperates with a wide number of stakeholders for the Reggevisie programme, which are consulted along the entire stretch of the river. In particular, the Reggevisie programme is realized in collaboration with: Private landowners and users; Municipalities of Ommen, Twenterand, Hellendoorn, Wierden and Rijssen-Holten and courtyard of Twente; The Province of Overijssel; The Department of Public Works; Twente region; Conservation organizations, as: Landscape Overijssel, Natuurmonumenten, Forestry Commission. In all projects part of the programme, the consultation has led to local support. The Water Board throughout the implementation phase works to actively involve the public by providing information and through integrated design processes for the redevelopment projects. Stakeholder consultation is continuing as part of the on-going work to complete the programme, expected to finish by 2025.",
+    "legal_context": "The projects part of the Reggevisie programme were based on the 4 th National Policy Document on Water Management (1998), the European Water Framework Directive (2000), the National Water Policy for the 21 st Century (2000), the National Water Plan (2009) and Natura 2000 Directives."
+  },
+  "point": {
+    "lat": 52.47994,
+    "lon": 6.41649,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "klimaatbuffers.nl",
+      "url": "https://www.klimaatbuffers.nl/projecten/regge",
+      "role": "contextual_input"
+    },
+    {
+      "name": "landschapoverijssel.nl",
+      "url": "https://www.landschapoverijssel.nl/gebieden/gebiedenregge",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/RSKaqkuTkws",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/_SzBeOYP7sQ",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "18ec8dab9d0e4636bf2f5183749b1b89",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/room-for-the-river-regge-netherlands-2013-restoring-dynamics",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

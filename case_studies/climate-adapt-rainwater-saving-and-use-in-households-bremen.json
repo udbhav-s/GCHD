@@ -1,0 +1,159 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-rainwater-saving-and-use-in-households-bremen",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/rainwater-saving-and-use-in-households-bremen",
+  "title": "Rainwater saving and use in households, Bremen",
+  "summary": "To reduce pressure on its sewage system, Bremen has taken new approaches in rainwater management. Fee refunds and subsidies were the main success factor for the adoption of rainwater-based solutions by households (e.g. for toilets, garden irrigation, and collection tanks). In Germany, for a long time a single fee for both rainwater and wastewater was levied in all communities. After some German court decisions the fee for rainwater was separated from wastewater one and is now based on the extension of impervious property surface (m 2 ), which directs water into the public sewage system. Collecting rainwater on private property with e.g.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bremen",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Bremen",
+        "ucode": "DEU_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Bremen__DE_",
+        "source_name": "Bremen (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FINANCIAL",
+      "label": "Financial"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "subsidy",
+      "label": "subsidy"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainwater",
+      "label": "rainwater"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "fee",
+      "label": "fee"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soil sealing",
+      "label": "soil sealing"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green building",
+      "label": "Green building"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The overall objective of actions taken by the city of Bremen is to establish a natural water balance and to reduce the rainwater discharge into the sewerage system, supporting its use. At the same time drinking water consumption for certain uses in households should be decreased (e.g. toilet flushing).",
+    "measures": "The solution provided to improve rainwater use in Bremen household is a combination of technical and economic approaches and applies to all private property owners. On one hand a rainwater cistern system is applied. Such a system of gutters and downspouts directs the rainwater collected by the roof to a storage cistern. The cistern, mostly located in the underground, may be constructed of various materials including cinderblock, reinforced concrete, precast concrete, fiberglass, or steel. The cistern supplies water to the household through a standard pressurized plumbing system. The rainwater can be used either for toilet flushing, but also for watering the garden. The installation of such systems in existing buildings requires adaptation of the piping system and some earthworks and is therefore sometime quite costly. In order to increase the uptake of the system and lower the costs a subsidy on the investment costs is given to the property owner. This subsidy can amount to a maximum of 12.000 Euros or a maximum of 1/3 of the total investment costs. On the other hand the property owner gets the rainwater fee (0.63 €/m 2 /year) refunded if rainwater use is applied or the ground is kept permeable, as the fee is calculated on the sealed area. For properties larger than 1,000 m 2 the fee has to be split between rain and wastewater. Smaller properties can voluntary decide if such a split is feasible and convenient. In practice the larger the property is and the more water can be kept on the ground the more cost savings in comparison to sealed properties can be achieved.",
+    "outcomes": "The main success factor for using rainwater in households is the funding scheme (i.e. subsidies for the installation of the rainwater use system) provided by the Federal State of Bremen which enhances the environmental behaviour of house owners. According to information from the Bremer Umweltberatung (environmental consulting for Bremen), several citizens would like to have more eco-friendly houses, but without a proper funding they are rarely taking any actions concerning rainwater management. The main barrier is that not all rainwater use solutions that could be established in households lead to a cost saving. Some house owners are also afraid of having construction works on their property. Therefore the implementation of such rainwater use systems is more easily when houses are newly constructed. High investment costs are also a significant barrier, which can be relieved by subsidies.",
+    "cost_benefit": "The rainwater fee for sealed and overbuilt area is 0.63 €/m 2 /year for the rainwater not discharged to the sewage system due to infiltration or use this fee is refunded. This refund is based on the individual circumstances on the property. The costs of installing a rainwater use system are depending on the local context and amount at least to 6,000 Euros. The investment subsidy provided by the Federal State of Bremen amounts to a maximum of 12.000 Euros, and in any case cannot exceed 1/3 of the overall costs incurred by a property applying the rainwater use system.",
+    "timeline": "The funding scheme was set up in the 1990s and has been developed further since then. The current scheme exists since 2016. The split of the fees for rain and wastewater are legally required since 2010.",
+    "lifetime": "The lifetime of a rainwater cistern system is 15-20 years, depending on maintenance.",
+    "stakeholders": "The design of the measures part of the approach taken by Bremen has not included stakeholder participation. However, citizens are among the main actors directly responsible for their implementation.",
+    "legal_context": "The treatment of wastewater (including rainwater) is within the responsibility of the German communities; the costs of these services need to be paid by the property owner. Before 2010 communities have not been obliged to split the fees for the service between rain and wastewater. After some German court decisions the fee for rainwater needed to be separate from any wastewater fee and has now to be based on the size of impervious property surface, which directs water into the public sewage system."
+  },
+  "point": {
+    "lat": 53.0808273721,
+    "lon": 8.81103515625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "umwelt.bremen.de",
+      "url": "https://umwelt.bremen.de/umwelt/abwasser/regenwasser-25593",
+      "role": "contextual_input"
+    },
+    {
+      "name": "hansewasser.de",
+      "url": "https://www.hansewasser.de/service/gebuehren-und-gesetze#getrennte-entwaesserungsgebuehr",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/rainwater-saving-and-use-in-households-bremen",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "793a8f36db564a4686ecb84d50e1ca86",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/rainwater-saving-and-use-in-households-bremen",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:02+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

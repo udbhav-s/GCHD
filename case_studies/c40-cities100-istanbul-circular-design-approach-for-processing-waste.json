@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-istanbul-circular-design-approach-for-processing-waste",
+  "url": "https://www.c40.org/case-studies/cities100-istanbul-circular-design-approach-for-processing-waste/",
+  "title": "Cities100: Istanbul – Circular Design Approach for Processing Waste",
+  "summary": "This C40 case study describes “Cities100: Istanbul – Circular Design Approach for Processing Waste,” an urban initiative documented for Istanbul. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Istanbul's circular design approach to waste management allows the city to produce electricity and compost from different waste streams, as…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Istanbul",
+      "adm0": {
+        "name": "Republic of Türkiye",
+        "ucode": "TUR_V1",
+        "dcid": null,
+        "iso3": "TUR"
+      },
+      "adm1": {
+        "name": "İstanbul",
+        "ucode": "TUR_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "istanbul",
+      "label": "Istanbul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Istanbul faces a serious air pollution challenge, with particulate levels consistently above the WHO recommended level. Smart designs for heating and cooling that do not create extra pollution such as the greenhouse project are needed to reduce health risks for citizens.",
+    "measures": "Istanbul's Odayeri waste management site is not only large, varied, and capable of processing 12,000 tons of waste per day, but also has a strong focus on environmental protection and tapping the potential resources for new growth. The 266-hectare site is dedicated to many different waste streams including municipal, medical, and organic waste. Landfill sites are isolated from groundwater using natural and geotechnical membranes, and drainage lines exist to collect methane gas produced over time. There is also a waste-to-energy plant with a capacity of 35 MW, enough to power 130,000 families for a year, which also produces heat as a by-product. Rather than let this go to waste, the heat is captured and sent to a nearby 3,200 m2 greenhouse for increased productivity. The organic waste processing area also produces compost for the greenhouse, which grows 600,000 flowers per month for the city's parks and gardens.\n Environmental Benefits – Seasonal flowers in Turkey are usually grown in Mediterranean climates. Using excess heat to grow the flowers locally results in logistical and cost savings.\n Economic Benefits – By using waste heat from the waste processing site instead of burning natural gas, the greenhouse saves an estimated $130,000 per year.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-istanbul-circular-design-approach-for-processing-waste/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27363",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-istanbul-circular-design-approach-for-processing-waste&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

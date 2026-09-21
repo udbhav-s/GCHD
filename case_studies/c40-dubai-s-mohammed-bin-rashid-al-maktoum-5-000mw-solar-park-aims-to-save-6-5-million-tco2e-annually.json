@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually",
+  "url": "https://www.c40.org/case-studies/dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually/",
+  "title": "Dubai’s ‘Mohammed Bin Rashid Al Maktoum’ 5,000MW Solar Park Aims to Save 6.5 Million tCO2e Annually",
+  "summary": "This C40 case study describes “Dubai’s ‘Mohammed Bin Rashid Al Maktoum’ 5,000MW Solar Park Aims to Save 6.5 Million tCO2e Annually,” an urban initiative documented for Dubai. It is included because it is located in the Global South. C40 describes the action this way: The Mohammed bin Rashid Al Maktoum Solar Park is one of Dubai’s key initiatives aiming to achieve the goals set in the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dubai",
+      "adm0": {
+        "name": "United Arab Emirates",
+        "ucode": "ARE_V1",
+        "dcid": null,
+        "iso3": "ARE"
+      },
+      "adm1": {
+        "name": "Dubai",
+        "ucode": "ARE_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Mohammed bin Rashid Al Maktoum Solar Park is one of Dubai’s key initiatives aiming to achieve the goals set in the Dubai Clean Energy Strategy 2050, i.e. to produce 75% of city’s energy requirements from clean sources by 2050.",
+    "measures": "The Government of Dubai has set several ambitious strategies, such as the ‘Dubai Plan 2021’ and the ‘ Dubai Carbon Abatement Strategy ', aiming to reduce carbon emissions by 16% by 2021.\n The Mohammed bin Rashid Al Maktoum Solar Park, developed and managed by the Dubai Electricity & Water Authority (DEWA), is one of Dubai’s key initiatives to achieve the goals set in the Dubai Clean Energy Strategy (DCES) 2050 , i.e. to produce 75% of city’s energy requirements from clean sources by 2050.\n What is the Project? \n The Solar Park is the largest single-site solar park in the world, with a planned capacity of 5,000MW by 2030. Located in Seih Al Dahal, Dubai, the power plant will reduce over 6.5 million tons of carbon dioxide emissions every year starting from 2030.\n The solar park uses a range of photovoltaic (PV) and concentrated solar power (CSP) technologies. Besides, it also includes an Innovation Centre and it is home to one of the largest Research & Development centres in the region, which includes PV solar and CSP testing facilities and a solar-powered water desalination plant.\n The Power Plant \n Operation of the park began in 2013, with the launch of the first phase of the project, having a capacity of 13MW. The second phase of the solar park was successfully inaugurated in April 2017, adding up the total capacity to 200 MW.\n With regards to future expansions, the third phase will be implemented in stages (200MW implemented in 2018, 300MW for the second stage, and further 300MW for the third stage). Finally, the fourth phase – 950MW – has received the lowest international Levelised Cost of Electricity (LCOE) bid of USD 7.3 cents per kilowatt hour (kWh) for the CSP plant, and added 250MW of PV solar panels with a cost of just 2.4 USD cents per kilowatt hour, the world's lowest. The CSP Plant will feature a 260 meter solar tower, the world’s tallest of its kind.\n Total investments amount to AED 16 billion (≈ USD 4.4 billion).\n The Research & Development Centre \n The Research & Development Centre clearly demonstrates DEWA’s vision to promote sustainability in energy supply, diversify energy sources, and create a business environment that encourages innovation. It supports Dubai’s plan to build a knowledge-based economy by improving efficiency standards and supporting renewable energy initiatives. The Centre contributes to strengthening Dubai’s position as a global hub for Research and Development in renewable energy, clean technologies and sustainability related initiatives.\n The outdoor Photovoltaic solar testing facility \n The main purpose of the outdoor testing facility is to study and evaluate the performance and reliability of solar panels under desert climatic conditions. It monitors performance (energy production, yield, degradation rate, dust effect, etc.) for each solar panel over a long term period.\n Photovoltaic Powered Reverse Osmosis Water Desalination Plant \n For research and development purposes in the field of water desalination using solar energy, DEWA built a pilot solar-powered reverse osmosis water desalination plant. The production capacity is 50 m3 per day of drinking water (with bottled water quality), achieved by desalinating brackish water using solar energy with Energy Storage Batteries. The Innovation Centre DEWA is building also an Innovation Centre, equipped with the latest renewable and clean energy technologies, which will serve as an exhibition centre featuring the newest innovations in the field. Through this centre, DEWA aims to raise awareness on sustainability issues while enhancing national capabilities and increasing competitiveness.\n Links to further information \n Mohammed Bin Rashid Al Maktoum Solar Park \n Dubai Clean Energy Strategy 2050",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually/",
+    "publication_date": "2019-04-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27437",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

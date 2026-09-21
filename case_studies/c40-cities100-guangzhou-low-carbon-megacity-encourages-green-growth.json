@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-guangzhou-low-carbon-megacity-encourages-green-growth",
+  "url": "https://www.c40.org/case-studies/cities100-guangzhou-low-carbon-megacity-encourages-green-growth/",
+  "title": "Cities100: Guangzhou – Low-Carbon Megacity Encourages Green Growth",
+  "summary": "This C40 case study describes “Cities100: Guangzhou – Low-Carbon Megacity Encourages Green Growth,” an urban initiative documented for Guangzhou. It is included because it is located in the Global South. C40 describes the action this way: Guangzhou is planning for an increasing population and rising demand for energy with the a multi-sector, low-carbon plan for green…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Guangzhou",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Guangzhou",
+        "ucode": "CHN_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guangzhou",
+      "label": "Guangzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With energy consumption already high and demand increasing in urban and industrial areas, Guangzhou aims to reduce its carbon emissions while maintaining growth by focusing on industrial planning, architecture, transportation, government agencies, and residential communities.",
+    "measures": "Guangzhou, a megacity with a population exceeding 13 million, is still in a stage of rapid economic development and urban construction. In 2012, Guangzhou launched the Pilot Low Carbon City Implementation Plan in an effort to reduce greenhouse emissions through systematic measures in the growing city. The plan includes the elimination of outdated industrial capacity and equipment and the promotion of energy-efficient technologies and green, low-carbon buildings. Transport infrastructure is also being targeted, with a new public transport system mainly based on rail transit. Both market mechanisms, such as limiting entry permits for high-carbon projects to control greenhouse gas emissions, and institutional mechanisms, such as stricter emissions standards, have been used to promote low-carbon development under the plan. Green industries have developed quickly in the city, with an added value of $4.2 billion in 2014, an 11.1% increase compared to the previous year. As a commitment to the plan, Guangzhou announced in 2015 it will reach its carbon emissions peak by 2020.\n Environmental Benefits – The plan promotes environmental improvements by strengthening forest carbon sequestration with afforestation and the low-carbon disposal of biochemical waste.\n Social Benefits – In constructing new rail transit, the plan reduces traffic on the roads, with residents spending less time commuting to and from work.\n Economic Benefits – Guangzhou’s target is to reduce CO2 emissions per $1,500 of GDP by 40% or more by 2020 compared to 2010.\n Health Benefits – Due to the plan’s initiatives, Guangzhou’s air quality standard was met 85% of days in 2015, an increase of 8% compared to the year before.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-guangzhou-low-carbon-megacity-encourages-green-growth/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27246",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-guangzhou-low-carbon-megacity-encourages-green-growth&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

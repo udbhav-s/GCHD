@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-bengaluru-inclusive-climate-action",
+  "url": "https://www.c40.org/case-studies/bengaluru-inclusive-climate-action/",
+  "title": "Bengaluru’s waste management",
+  "summary": "This C40 case study describes “Bengaluru’s waste management,” an urban initiative documented for Bengaluru. It is included because it is located in the Global South. C40 describes the action this way: Bengaluru is leveraging local, community-driven models to drive just and climate-resilient waste management systems Between 2022 and 2025, Bengaluru launched a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bengaluru",
+      "label": "Bengaluru"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Bengaluru is leveraging local, community-driven models to drive just and climate-resilient waste management systems Between 2022 and 2025, Bengaluru launched a…",
+    "measures": "Bengaluru is leveraging local, community-driven models to drive just and climate-resilient waste management systems \n Between 2022 and 2025, Bengaluru launched a first-of-its-kind project advancing inclusive climate action for frontline workers in the waste management system. The Bruhat Bengaluru Mahanagara Palike (BBMP) partnered with Bengaluru Solid Waste Management Limited (BSWML) and C40 Cities to lead the initiative and demonstrate how local, community-driven efforts can support fair, climate-resilient systems. \n Waste management is one of Bengaluru’s key priority sectors in the city’s Climate Action Plan, focusing on its predominantly informal workforce: the plan addresses low wages, lack of security, and inadequate recognition. \n The project used a participatory approach to work with hundreds of stakeholders, from city officials to waste workers, to engage in workshops, interviews, and training. At the end of the pilot, 72 waste pickers, marshals and link workers were consulted in a social dialogue to co-create solutions that improve working conditions, service delivery, and resilience.\n Bengaluru has successfully built stronger and fairer waste management systems by centering waste workers and equity in climate governance, supporting local leadership, and institutionalising participatory approaches to climate action delivery.\n Find out more about how Bengaluru is advancing inclusive climate action for waste workers across the city.\n Read the full Case study \n Access the implementation guide",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "Between 2022 and 2025, Bengaluru launched a first-of-its-kind project advancing inclusive climate action for frontline workers in the waste management system. The Bruhat Bengaluru Mahanagara Palike (BBMP) partnered with Bengaluru Solid Waste Management Limited (BSWML) and C40 Cities to lead the initiative and demonstrate how local, community-driven efforts can support fair, climate-resilient systems. \n Waste management is one of Bengaluru’s key priority sectors in the city’s Climate Action Plan, focusing on its predominantly informal workforce: the plan addresses low wages, lack of security, and inadequate recognition. \n The project used a participatory approach to work with hundreds of stakeholders, from city officials to waste workers, to engage in workshops, interviews, and training. At the end of the pilot, 72 waste pickers, marshals and link workers were consulted in a social dialogue to co-create solutions that improve working conditions, service delivery, and resilience.\n Bengaluru has successfully built stronger and fairer waste management systems by centering waste workers and equity in climate governance, supporting local leadership, and institutionalising participatory approaches to climate action delivery.\n Find out more about how Bengaluru is advancing inclusive climate action for waste workers across the city.\n Read the full Case study \n Access the implementation guide",
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/bengaluru-inclusive-climate-action/",
+    "publication_date": "2026-02-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "46584",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=bengaluru-inclusive-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2026-02-19T17:07:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

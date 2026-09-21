@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand",
+  "url": "https://www.c40.org/case-studies/cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand/",
+  "title": "Cities100: Rotterdam – Resilience and Quality of Life Go Hand in Hand",
+  "summary": "This C40 case study describes “Cities100: Rotterdam – Resilience and Quality of Life Go Hand in Hand,” an urban initiative documented for Rotterdam. It is included because it addresses river flood, coastal flood, extreme heat hazards. C40 describes the action this way: Securing and maintaining a robust city by incorporating adaptation measures in urban development, Rotterdam is achieving climate resilience while improving…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rotterdam",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": null,
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zuid-Holland",
+        "ucode": "NLD_0012_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rotterdam",
+      "label": "Rotterdam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Facing floods caused by sea level rise and extreme precipitation, Rotterdam needed resilient solutions to combat the consequences of climate change. The city has found solutions integrated in the city’s urban development to increase climate resilience, while also increasing the value of the city’s living environment.",
+    "measures": "With 55% of the country vulnerable to floods, the Netherlands is particularly exposed to rising sea levels. Acknowledging this, Rotterdam developed the Rotterdam Adaptation Strategy (RAS), which addresses the need for adaptation planning in all city projects. RAS is an integral strategy for the entire city, securing safety and livability for more than 600,000 citizens.\n The city has built 219,000 m2 of green roofs which, besides being comfortable spaces for recreational activities, absorb at least 82 metric tons of CO2 and can retain 15 liters of water per m2 in case of heavy rainfall. Car parks double as water catchment basins, able to store 10 million liters of water. Similarly, the Benthemplein Water Square doubles as a playground and is able to retain 1.8 million liters of water. These, and other RAS adaptations, reduce the burden on sewer systems and the risk of flooding in the city, while providing citizens with new spaces for leisure time, which improve aesthetics and quality of life in the city.\n Environmental Benefits – The urban heat island effect is reduced in areas where the city experiences increased temperatures of up to 8°C.\n Social Benefits – The Benthemplein Water Square has acted as a catalyst for community engagement and increased recreational activities, making it an integral part of the area’s contribution to the living environment.\n Economic Benefits – Businesses benefit from the increasing interest in climate change adaptation solutions, which, at present, account for 3,600 jobs in the region",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26983",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

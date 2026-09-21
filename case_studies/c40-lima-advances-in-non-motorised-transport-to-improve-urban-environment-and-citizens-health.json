@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health",
+  "url": "https://www.c40.org/case-studies/lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health/",
+  "title": "Lima Advances in Non-Motorised Transport to Improve Urban Environment and Citizens’ Health",
+  "summary": "This C40 case study describes “Lima Advances in Non-Motorised Transport to Improve Urban Environment and Citizens’ Health,” an urban initiative documented for Lima. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Municipality of Lima is implementing various projects to promote non-motorised transport within the city.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lima",
+      "adm0": {
+        "name": "Peru",
+        "ucode": "PER_V1",
+        "dcid": null,
+        "iso3": "PER"
+      },
+      "adm1": {
+        "name": "Lima",
+        "ucode": "PER_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Lima",
+        "ucode": "PER_0015_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lima",
+      "label": "Lima"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Municipality of Lima is implementing various projects to promote non-motorised transport within the city.",
+    "measures": "In the past few years, the municipality of Lima has implemented various projects to promote and increase non-motorised transport within the city, such as walking and biking. \n One of the main projects is to ban cars from transiting through a large portion of the historical city centre on every Sunday. 'Al Damero de Pizarro sin Carro’, as the project is called, instituted the closure of 68 blocks from 9am to 5pm every Sunday, which adds up to 15 km of public streets. This has improved the citizens’ quality of life and offered a new leisure opportunity, attracting over 120 thousand pedestrians and 1,400 cyclists per month.\n The project, which was approved in 2015, also tracks improvements in air quality, noise reduction and the increase in walking and cycling as a way to demonstrate the social and health benefits of this initiative. Alongside, there are several cultural and social activities organized every Sunday, coordinated by different municipal secretariats in partnership with the central government. Urban cycling workshops were also offered throughout the year, and over 3,600 people participated.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health/",
+    "publication_date": "2019-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27427",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

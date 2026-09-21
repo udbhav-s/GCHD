@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-buenos-aires-citizens-ready-against-climate-change",
+  "url": "https://www.c40.org/case-studies/buenos-aires-citizens-ready-against-climate-change/",
+  "title": "Buenos Aires ‘Citizens Ready Against Climatic Change’ Programme",
+  "summary": "This C40 case study describes “Buenos Aires ‘Citizens Ready Against Climatic Change’ Programme,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood, heatwave hazards, and it is located in the Global South. C40 describes the action this way: The “Citizens Ready against Climate Change” campaign was initiated to inform the public about the risks of climate change and improve the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The “Citizens Ready against Climate Change” campaign was initiated to inform the public about the risks of climate change and improve the resilience of its communities.",
+    "measures": "The Buenos Aires program “Citizens ready against climate change” began in 2017, due to concerns about the impacts of heat waves and floods. Particularly since 2014, a series of climatic events which impacted the infrastructure, and population health, including causing many deaths, highlighted the need for more information and the proposal of concrete measures to address these issues.\nIn this regard, this program aims to raise awareness among the population about climate change and the importance of being prepared in the face of extreme climate events, focusing mainly on measures against heat waves and floods. This is done through a series of workshops, as well as with mass communication through phone calls, SMS messages and email.\n What is the project? How does it work \n Workshops were developed aimed at population groups of great vulnerability. The city focused on the elderly population to inform them about heat waves, and on the Matanza-Riachuelo Basin population to inform them about floods. Hence, the workshops allowed neighbours to come together to exchange views about climate issues and strategies to address them.\nWorking with and empowering older adults is one of the innovations because not only is this age group interesting for their reflections and memories about the climate, but they have the ability to share ideas in the families and institutions in which they are part of.\n What are the CO2 reduction goals? \n This project is oriented towards improving the resilience of its population. It does so with the following strategies:\n Deliver training on heatwaves and floods and its links with climate change \n Deliver self-protection kits that are made up of waterproof backpacks, hermetic envelopes (to protect important documentation) and an emergency kit\n Inform individuals and families of flood evacuation routes\n Inform citizens how to withstand the effects of heat waves \n Coordinate the delivery of rechargeable bottles for hydration (raising awareness on the importance of avoiding the use of single-use plastic) \n Train Environmental Promoters from vulnerable neighbourhoods (referents in the neighbourhood) in order to promulgate these strategies\n Overall results of the program from 2017 to the present: \n 2720 people attended 113 awareness talks about heat waves. \n Mass calls made: 258,103. \n SMS sent: 2,000,000. \n Mails sent: 133,010 \n Day centres trained: 26 (100% day centres in the city). \n Trainings in fixed health stations: 10 (100%). \n 130 self-protection kits delivered in 4 self-protection workshops. \n 8 environmental promoters from vulnerable communities (Villa 20 and other institutions of the Commune 8) trained to replicate workshops. \n A 70% participation of women heads of household.\n Bringing out social benefits, the project aimed to empower citizens in the decision-making process, creating a space for articulation between government and neighbours, and generate spaces the exchange of strategies, informations and solutions regarding climate change among neighbours.\n Next Steps \n The Climate Change Management plans to scale this project by training other government areas that work with vulnerable populations (environmental references in informal settlements, environmental volunteers, promoters, and public health personnel) and representatives of civil society organizations so that these referents replicate the workshops in the 15 communes of the city with the objective of tripling the scope of the workshops in the next two years.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-citizens-ready-against-climate-change/",
+    "publication_date": "2020-01-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27504",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-citizens-ready-against-climate-change&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

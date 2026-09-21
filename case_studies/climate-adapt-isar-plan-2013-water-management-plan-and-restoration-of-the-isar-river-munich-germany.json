@@ -1,0 +1,168 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+  "title": "Isar-Plan – Water management plan and restoration of the Isar river, Munich (Germany)",
+  "summary": "The Isar-Plan combined water retention and renaturation measures for the Isar River in Munich. It significantly improved flood protection, water quality, biodiversity habitat, and recreational opportunities in the area. Stakeholder involvement and mediation were key aspects of the initiative. This case study describes the flood risk management plan and the related restoration of a formerly canalized eight kilometres stretch of the Isar river in the city of Munich (the so called “Isar Plan”). Still in the beginning of the 19 th century, the Isar was a typical wild alpine river with wide gravel islands and sandbanks and a constantly changing riverbed.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Munich",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Oberbayern",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Oberbayern__DE_",
+        "source_name": "Oberbayern (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "flood protection",
+      "label": "flood protection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "habitat restoration",
+      "label": "habitat restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Munich",
+      "label": "Munich"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river restoration",
+      "label": "river restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "blue-green infrastructure",
+      "label": "blue-green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Isar river",
+      "label": "Isar river"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Main aims of the Isar-Plan are: Improvement of flood control by increasing the water retention capacity of the river stretch in Munich; Improvement of the habitats for wild species, considering issues related to: ecological upgrading of the river Isar, morphological processes, longitudinal and lateral continuity, natural habits for animals and plants, biodiversity conservation and water quality. Improvement of recreational quality due to the growing need for recreational space within a dense urban area, i.e., access to waterline, attractive landscape and views.",
+    "measures": "The formerly fixed, canal-like riverbed has been transformed to a riverbed of varying width with gravel banks and gravel stone islands which develop dynamically in a system of coming and going. Through the widening of the main channel from 50 m up to 90 m, incorporating the forelands along the river and the floodplains, average discharge and flood runoff has been improved and has given more space to the river. The steep embankments secured with concrete slabs and paving have been replaced with flat sloping banks and naturally developing banks. Technically designed cross-river sills with linear cross-section that are spaced at 200 meters with drops of maximum one meter could not be passed by fish in most cases. These have been replaced by flat ramps with stone rock steps in a honeycomb design with intermediate pools. These measures not only restore a near-natural appearance of the Isar river, but also improve the living conditions and types of habitat for flora and fauna characteristic of the Isar. After restoration, flood runoff has been improved. Now, flood water can run off without causing damage at a rate of 1,100 cubic meters per second. In order to better protect lower-lying city districts from extraordinary high flood waters and the associated damage, an additional safety distance of one meter between the flood water level and the crest of the dike had to be ensured. In areas with reduced dike safety, new dikes were filled in front of the old ones to maintain the air-side tree population. The water-side sealed embankment with its thin layer of top soil is an ideal site for species of dry grassland. By sowing indigenous wild herbs, spreading cut hay and transplanting sods with endangered plant species on the new dike embankments and in the foreland, the scars left by the construction work in the first development sections quickly healed.",
+    "outcomes": "The level of cooperation achieved between all stakeholders involved within the Isar-Plan was excellent and one key success factor for the project. Acceptance of the general public was achieved by strong public participation in the process through multiple mediums to encourage awareness and participation. Participation was especially encouraged during a landscape design competition for the redesign of the 1.6 km urban stretch in the city centre. It allowed a voice given to the population for the design of the area as well as raising awareness of the issues of renaturation and flood protection. However, stakeholder dialogue and involvement was also challenging at times with controversial discussions, and a public quarrel involving strong campaigns. A conflict came about after two nearly opposing designs were awarded 1 st and 2 nd prize for the redesign of the urban stretch with the first one focusing more on flood protection and the second one on renaturation. Finally, a clever compromise between the two designs was reached, showing how good mediation and cooperation can help to solve such conflicts. During the long implementation phase (11 years) adaptive management for the implementation of the plan was necessary. For instance, the big flood of 2005, in the middle of the implementation phase, had a major impact on both the location and on the kind of projects finally implemented.",
+    "cost_benefit": "Approximately 35 million euros were spent in total for the project: 28 million euros in construction costs, 7 million euros for the remediation of contaminated sites and the removal and disposal of weapons from the Second World War. The costs were split between the Bavarian State Government (55%) and the City of Munich (45%). Main Benefits of the project include: Flood protection; the big flood of 2005 had a major impact in the whole catchment area of the Isar river. The restoration measures that had already been implemented up to this point of time had a significant effect in reducing the extent of the damages caused by the flood in Munich. Compared to other parts in the South of Germany, the flooding did not cause substantial damages in Munich due to the restoration of the Isar river. Water quality; the Isar-Plan contributed to the improvement of water quality in the Isar river in order to achieve bathing water quality. All communities situated on the Isar have completed the process of upgrading their waste-water treatment plants to include UV germicidal irradiation systems. These measures have considerably improved the quality of water. Today, swimming is possible within the Isar river. Water and land habitat; the widening of the riverbed not only led to an improved flow of flood water, but also created room for other measures to be developed on the banks: gently sloping riversides, gravel banks off the shores, gravel stone islands and ground ramps made from large blocks of flat stones and interspersed with deeper pools. Features like these lend Isar area its natural character. The project measures have led to an improvement in living conditions and habitat for the Isar region’s native animals and plants. Furthermore, the Isar river now has more room to move and reshape itself along this entire stretch. Recreational quality; the recreational quality has greatly improved, the restored Isar is, especially in summer, one of the favourite places of Munich citizens.",
+    "timeline": "The project was launched in 1995 by the State Office of Water Management Munich and the City of Munich. Restoration work began in February 2000 and was finished in 2011.",
+    "lifetime": "There is not a defined lifetime for the measures implemented under the Isar Plan, provided that monitoring and maintenance are ensured. Renaturalised banks, river sides and islands aim at promoting the process of naturalisation of the entire stretch of the Isar river in the city of Munich.",
+    "stakeholders": "In 1995, an interdisciplinary working group “Isar-Plan” was initiated. Members were the State Office of Water Management Munich, the City of Munich (Department of Public Construction, Department of Urban Planning and Building Regulation and Department of Health and Environment) and the “Isar-Allianz” (an alliance of NGOs). The working group examined the flood-water situation, the need for recreational areas at the riverside and the area’s flora and fauna and their habitat. Based on their findings, the development goals were defined. The City Council and the District Councils were involved during the progress of the project. Public participation was ensured through: internet platform, info-brochures, excursions, workshops, TV and press, round tables, info-points, service telephone.",
+    "legal_context": "Various City Council resolutions, already starting in 1980, have driven and supported the Isar Plan development and implementation"
+  },
+  "point": {
+    "lat": 48.1367666782,
+    "lon": 11.5356445308,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "yumpu.com",
+      "url": "https://www.yumpu.com/en/document/read/3768185/a-new-lease-of-life-for-the-isar-river-wasserwirtschaftsamt-munchen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "panorama.solutions",
+      "url": "https://panorama.solutions/en/solution/isar-plan-improving-flood-protection-and-recreational-opportunities-redesigning-isar",
+      "role": "contextual_input"
+    },
+    {
+      "name": "restorerivers.eu",
+      "url": "https://restorerivers.eu/wiki/index.php?title=Case_study%3AIsar-Plan",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6789332771ae4ee589bd50f7ea45eaea",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/isar-plan-2013-water-management-plan-and-restoration-of-the-isar-river-munich-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:27+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

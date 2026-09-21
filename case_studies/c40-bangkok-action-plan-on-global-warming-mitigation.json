@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-bangkok-action-plan-on-global-warming-mitigation",
+  "url": "https://www.c40.org/case-studies/bangkok-action-plan-on-global-warming-mitigation/",
+  "title": "Bangkok Action Plan on Global Warming Mitigation",
+  "summary": "This C40 case study describes “Bangkok Action Plan on Global Warming Mitigation,” an urban initiative documented for Bangkok. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Bangkok published an Action Plan on Global Warming mitigation which was established in order to reduce GHG emissions by at least 15%.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bangkok",
+      "adm0": {
+        "name": "Thailand",
+        "ucode": "THA_V1",
+        "dcid": null,
+        "iso3": "THA"
+      },
+      "adm1": {
+        "name": "Bangkok",
+        "ucode": "THA_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bangkok",
+      "label": "Bangkok"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Bangkok published an Action Plan on Global Warming mitigation which was established in order to reduce GHG emissions by at least 15%.",
+    "measures": "Bangkok is a rapidly expanding metropolis with more than 10 million people. It has a high utilization rate and the largest amount of greenhouse gas emissions in the country. It is a city that is very much aware of the challenges of climate change, particularly its role in increasing the risk of natural disasters, as indicated by the flood crisis of 2011. Bangkok wishes to make a contribution to the international community’s efforts to reduce carbon emission and conserve our planet, as well as increasing its own resilience.\n What it is and its achievements \n The origin of the Master Plan was the Bangkok Action Plan on Global Warming Mitigation 2007 – 2012 , which was established in order to reduce GHG emissions by at least 15% of the total GHG emission anticipated in the year 2012 under a business as usual projection. It included 5 initiatives, which were to expand the mass transit rail system within Bangkok metropolitan area, to promote the use of renewable energy, to improve building electricity consumption efficiency, to improve solid waste management and wastewater treatment efficiency and to expand total park area. In order to achieve these goals, full support from the people of Bangkok as well as every sector is required. The opinions and suggestions for the plan were put together and refined by number of interdisciplinary experts from 36 organizations such as the Ministry of Natural Resources and Environment, the Ministry of Energy, the Federation of Thai Industries, Thailand Environment Institute etc., and other organizations from both the private and public sector. \n The Action Plan was successful in initializing projects aimed at addressing climate change at a local level. It nonetheless still faced some issues in its implementation. As a result, the BMA decided to design the Bangkok Master Plan on Climate Change 2013 – 2023 . The plan aims to implement climate change mitigation and adaptation measures by working on (1) environmentally sustainable transport; (2) energy efficiency and alternative energy; (3) efficient solid waste management and wastewater treatment; (4) green urban planning; and (5) adaptation planning. To support this, BMA and Japan International Cooperation Agency (JICA) agreed on the Technical Cooperation Project for the implementation of the Bangkok Master Plan on Climate Change 2013 – 2023, and have been jointly working during the initial period of the Master Plan with strong support by the Thai Government ministries and agencies and knowledge sharing by the City of Yokohama, Japan. This Master Plan, with its drafting process finished in September 2015 and later approved by the BMA Governor, provides a framework for Bangkok to establish a low carbon and climate change resilient city. It will benefit the people of Bangkok directly and indirectly. It is expected that the Master Plan, if implemented properly, would yield total net GHG emissions in the year 2020 of 46.44 million tons CO2equivalent, approximately 13.57% against the business-as-usual scenario.\n How it works \n – JICA support for the implementation of the Master Plan – \n Bangkok Metropolitan Administration (BMA ), supported by Japan International Cooperation Agency (JICA)’s Technical Cooperation , is currently implementing the Project for Strengthening Institutional Capacity for the Implementation of Bangkok Master Plan on Climate Change 2013-2023 , which is a 5-year capacity building project to ensure effective implementation and sustainability of the Bangkok Master Plan on Climate Change 2013-2023. \n The items listed below are the expected outputs for achievements within its 5 years of implementation: \n To support institutional arrangements for smooth implementation \n To strengthen capacity for planning and implementation of prioritized mitigation and adaptation activities\n To develop capacity for monitoring and evaluation to assess the progress of the BMA Master Plan\n Activities under the Technical Cooperation Project include:\n Exchange of knowledge on organizational management of climate change policy, including planning and implementation of mitigation and adaptation activities. (knowledge sharing includes all 5 sectors under the Master Plan: Transportation, Energy, Waste and Wastewater, Green Urban Planning and Adaptation) through training and seminars.\n Plan and implement activities that have been prioritized under the Master Plan.\n Provide opportunities for sharing lessons learned communications from key activities under the Master Plan.\n Provide the training curriculum for measurement, reporting, and verification (MRV) for the relevant sector. The course consists of assessing the competency of the trainees including responses from trainees in the form of course evaluations.\n Share the knowledge of monitoring and evaluation of climate change policies through training and seminars.\n Study methodologies for monitoring and evaluation including measurement reporting, verification of greenhouse gas emissions for activities of the Master Plan and development and guidelines for Bangkok as a local government.\n The BMA established the Steering Committee, as the overseeing supervisory body of the Master Plan, which is jointly organized with the Joint Coordination Committee (JCC) of the Technical Cooperation Project. The Steering Committee’s function is to plan, supervise, advise and monitor the progress of the implementation of the Master Plan. To enhance the capacity building activities, the Steering Committee established a Working Group to set up the project's work plan and appoint five specific technical bodies (Task Forces) to drive technical activities in each area. JICA has sent 2 Long Term Experts who are stationed at the Department of Environment, Bangkok City Hall 2, as well as 8 Short Term experts, who support BMA in overall policies and sectoral activities, in cooperation with national specialists and staffs locally mobilized under the Technical Cooperation Project.\n The 1 st Session of the JCC/the 5 th Session of the SC (JCC1/SC5) held in January 2018 recognized the importance of the alignment of proposed mitigation and adaptation activities under the Master Plan with BMA’s annual and budgetary process, with a view to mainstreaming climate change into BMA’s routinized operation. In this regard, with support by the Technical Cooperation Project, BMA initiated to select priority projects for the submission to the budget request window. \n Following the above, the 2 nd Session of the JCC/the 6 th Session of the SC (JCC2/SC6) selected initial priority projects for the submission to the forth coming budget amendment request, which included the total of 46 projects, namely 5 projects from sustainable transport, 20 projects from energy efficiency and alternative energy options, 9 projects from waste and wastewater management, 6 projects from green urban planning and 6 projects from climate change adaptation. Most of the selected projects are budgeted from Bangkok and some are no budget projects.\n Also, to ensure the fruition and implementation of such mitigation and adaptation projects, a training in Japan was organized in May 2018, in close cooperation with the City of Yokohama. BMA officials learned how to maximize impacts and effectiveness of such projects, in terms of GHG emission reduction amount and strength of resilience, as well how to mobilize resources and stakeholders for scaling up action\n – The mid-term review of the Master Plan – \n The mid-term review called the Comprehensive Review of the progress of implementation of the Bangkok Master Plan on Climate Change 2013-2023, for the period of 2013-2017 was conducted in 2018 with the support of JICA Technical Cooperation Project. The purposes of the Review were to track the progress of implementation of the Master Plan by quantitative and qualitative assessment of actions listed, to identify challenges and needs and synthesize lessons learned, and to guide the way forward for further actions needed for strengthening climate actions. According to the review, increasing resources and capacity of the newly established Climate Change Strategy sub-division, strengthening the institutional framework, and mainstreaming climate change mitigation and adaptation by incorporating it into the BMA’s long-term development plans remains challenges for the BMA.\n Next Steps \n The BMA will set a new mitigation target for 2030 for its climate change actions in order to fill the gap between the current target under the Master Plan 2020, and consistent with the implementation under the Paris Agreement as well as Thailand’s NDC. In addition, the BMA will report the relevant situation of activities which were mentioned in the NDC Action Plan and NAP by specifying the roles and responsibilities of the BMA to the important missions in order to proceed in 2019-2020. \n Additionally, strengthening collaboration with governmental agencies was regarded as a key to expedite climate changes actions. The collaboration with the Department of Alternative Energy Development and Efficiency ( DEDE) advances energy efficiency in buildings owned by the BMA and private sectors together with the cooperation with the authorities under the Ministry of Transport such as the Office of Transport and Traffic Policy and Planning (OTP) and Mass Rapid Transit Authority (MRTA) in planning and implementation in order to enhance public transport network. \n Links to Further Information: \n Original publication on the Mayors for Peace page \n Contact Details \n Head of Climate Change Strategy Sub-Division, \n Air Quality and Noise Management Division, Department of Environment, BMA. \n ccs.bma2019@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/bangkok-action-plan-on-global-warming-mitigation/",
+    "publication_date": "2019-12-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27458",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=bangkok-action-plan-on-global-warming-mitigation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

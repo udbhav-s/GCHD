@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-berlin-emissions-reductions-ratchet-to-climate-neutrality",
+  "url": "https://www.c40.org/case-studies/cities100-berlin-emissions-reductions-ratchet-to-climate-neutrality/",
+  "title": "Cities100: Berlin – Emissions Reductions Ratchet to Climate Neutrality",
+  "summary": "This C40 case study describes “Cities100: Berlin – Emissions Reductions Ratchet to Climate Neutrality,” an urban initiative documented for Berlin. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Berlin has identified 95 separate actions across six different sectors to bring the city to climate neutrality by 2050. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Berlin",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": null,
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Berlin",
+        "ucode": "DEU_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Berlin",
+        "ucode": "DEU_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "berlin",
+      "label": "Berlin"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Although Berlin has been able to reduce its CO2 emissions by a third since 1990, emissions have started to rise again since the mid-2000s. BEK aims to involve all citizens in reversing this trend.",
+    "measures": "The City of Berlin has set a legally binding target of carbon neutrality by 2050. In order to achieve this ambitious target, the city developed Climate-Neutral Berlin 2050, with the Berlin Energy and Climate Protection Programme (BEK) at its center. It is the city's roadmap towards climate neutrality, in which 95 specific strategies from six different sectors are defined. The BEK is based on results of an interdisciplinary research project, as well as a broad public participation process, involving stakeholders from industry, civil society, and political organizations. The project combines actions from six different sectors: energy supply, buildings and urban development, economy, traffic, private households and consumption, and adaptation to the consequences of climate change. The specific strategies will ratchet up Berlin's emissions cuts, from 40% by 2020, 60% by 2030, and at least 85% by 2050 compared with 1990 levels. If monitoring and evaluation finds emissions trends not to be in line with these targets, adjustments are required by law.\n Environmental Benefits – Encouraging green infrastructure contributes to CO2 mitigation as well as improved air quality and greater urban biodiversity.\n Economic Benefits – According to one study, energy-efficient building renovations and investment in renewables could yield benefits worth more than $106 million by 2030, even in a cost-intensive area.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-berlin-emissions-reductions-ratchet-to-climate-neutrality/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27339",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-berlin-emissions-reductions-ratchet-to-climate-neutrality&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+  "title": "Sustainable climate change adaptation of forestry in the province of Soria, Spain",
+  "summary": "Climate change is increasing the threat of pest proliferation and fire risk in the forest of Soria. Adaptation solutions include the creation of a mixed forest with diverse tree species and ages and the operation of a continuous fire prevention system. Forest monitoring and close cooperation with landowners are considered crucial aspects for making those adaptation measures effective. About 60% of the whole province of Soria (North-central Spain) is covered by forest (620 830 hectares). This includes various landscape types such as woodland, scrubland, and natural pastures. Wooded forests cover an area of 447,546 ha which is a share of 43.45% of the whole province area.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Castilla y León",
+        "ucode": "ESP_0007_V1",
+        "dcid": null,
+        "source_code": "SUBN_Castilla_y_León__ES_",
+        "source_name": "Castilla y León (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Mixed forest",
+      "label": "Mixed forest"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Mediterranean forests",
+      "label": "Mediterranean forests"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Pest management",
+      "label": "Pest management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Fire prevention",
+      "label": "Fire prevention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Wood and non-wood forest products",
+      "label": "Wood and non-wood forest products"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The common objective of many local forest managers in Soria is to support and preserve the natural forest ecosystem, forest economy, recreational activities and biodiversity despite climate change threats. Responding to those societal objectives, The LIFE Soria ForestAdapt project aims to increase the resilience of southern European forests to climate change through developig and testing adaptation measures in public and private forest management plans. A Technical guide or reference for Forest Management with climate change adaptation measures will be developed to guide for gradually adaptating the forest management plans for the province of Soria. The project aim is to replicate the model and use the management strategies in the Autonomous Community of Castilla y León region, and to upscale it to Spain and Southern Europe.",
+    "measures": "Since the forest in Soria is vast and includes a wide range of altitudes with associated temperature gradients and landscapes, different typologies of climate change adaptation solutions are implemented and promoted by the local and regional forest advisory board. Establishing mixed forest with resilient species and ages. For example, Pinus halepensis and Pinus pinea can be introduced in areas where drier conditions are expected. Making sure that logging and replanting is not done in large areas at the same time to create a diversity in tree age is important. This reduces the vulnerability of the stand to pest and disease pressure. It is a also a national strategy for Spain, but it needs more evidence to determine its success as a solution also to forest fire increases. Introduction of broadleaved forest species into large coniferous forest stands. Local managers call this \"broadleaved enrichment\". This practice contributes to forest biodiversity and may have a role for fire risk reduction ( Oliveira et al., 2023 ). These species include elms, ashes, birches, etc. Regenerating agricultural area into forested area. Landowners are supported by the government for planting trees with advice of species composition. National policies also support the land use change from agricultural land to forested land. Connected fire management. Fire rangers of the Forest Service work in concert throughout the region to keep watching at the lookout towers. Fire prevention strategies are based on a two-level system: the first level is the early detection of fires, based on 32 watchtowers with guards , and a detection system using 19 thermal cameras (19), 1 smoke detection and 2 visible cameras . The second level is the prevention of forest fire all year round. Forestry workers, knowledeable about the local forests, employ fire crews all year round that visit checkpoints throughout the forest. On the contrary, the majority of Spanish regions or autonomous communities opted for an extinguishing system with urban firefighters who are very professional, but are not familiar with the forest and/or the behaviour of forest fire. Grazing through rotation of fenced-off areas. Wld and domestic grazers are abundant in the area. These are kept away from about 20% of the forest area at a time in order to allow for these areas to regrow naturally. Adapting timing of economic activities in the forest. The timing of allowed grazing, hunting or harvesting non-wood products is flexible to changing climate conditions. The Soria forest is open for public use without restrictions to hiking paths, but with strict permit regulations for hunting or mushroom gathering. These timings are important for the forest regeneration and they need to be optimised considering the rotation of fenced-off areas for grazing. Certification. 65,6 % of the public forest (131,715 ha) and several private forests are FSC or PEFC certified. The sustainable management of forests is compulsory by law in Spain (Law 43/2003, of 21 November). The Spanish FSC and PEFC certification offices improved the application of the regulations and favoured the trade and management of wood and derived products, including criteria of biodiversity, efficient management and traceability. The Soria ForestAdapt Project aims to include 15 000 new hectares of forest with these FSC or PEFC certifications which will incorporate new adaptive management criteria developed by the project. Dissemination, education and collaboration. Staying connected with the community is a very important strategy for protecting the forest in Soria against climate change impacts. The forest is an important part of the culture. When people feel a sense of connection and ownership with the forest, they are more likely to protect and advocate for its adaptation to achieve benefits not just for the forest, but for society that considers the forest a part of their home. “SolucionesZero”. Several informative materials about possible investment actions were prepared to support those private companies that wish to contribute to the conservation of Spanish forests. So called ‘Zero Solutions’ (adaptation actions to mitigate specific climate change threats) were communicated through videos. The videos present the problems in the local forest and the actions to address them (see website section ). Each Zero Solution starts from the origin of the problem, considers consequences and solutions, and assesses costs and business benefits. ‘ZeroSolutions’ proposals are tailored to the needs of the companies in terms of returns, trade-offs and minimum working areas (more information in the Websites Section). Monitoring activities Forest Monitoring. Illegal logging and spread of insects, pests and diseases is both done by using articifical intelligence and by inventorizing and modeling forest data. Every forest mangement measure can be used to understand the threats to the forest and to what extent management measures are needed. They can also be used as practical evidence to improve model projections and to elaborate better informed recommendations management support. Short and long-term pest and disease monitoring. The regional forest service includes several sites with pheromone traps to monitor the presence of the most important insect pests in the area. There are also permanent plots monitoring tree health status, using a regional network. The regional forestry administration has teams to monitor pests and diseases through placing pheromone traps to track populations, such as, for example, the pine processionary Thaumetopoea pytiocampa , a lepidopteran that defoliates pine trees in its larval lige stage.",
+    "outcomes": "Success factors Adaptation of the forest of Soria is necessary for the landscape in the region to adapt to the rapidly increasing temperature and fire threats. Adapting the diversity of the forest species, creating a network of educated stakeholders and innovative projects has been essential for the success of the forest. In these last years the forest cover area in Soria has increased by nearly 8% (IV National Forest Inventory - IFN). The interconnecting culture of the forest sector in Soria, involving private, public, industry and educational institutes, is a very important factor in the success of the Soria forest management. Each of these parties understands the value of the forest for nature, culture and the bioeconomy. The re-investment of funds by the government and ASFOSO, the private land owner organization into the active management of the forest areas indicates the importance of the forest in the Soria region. Many of the dissemination measures demonstrated their effectiveness since, though many economic activities take place in the forest and the area is completely open to the public, there is very little damage caused by humans, as most people take good care tvisit the forest consciensciously. The association of forest owners is also a successful entity facilitating collaboration between private owners and the local public administration. Limiting factors Agricultural activities that border the forest can sometimes come into conflict with forest fire prevention. This is especially relevant around harvest time he land and forest is dryest and thus fire risk is it’s highest. The operation of agricultural machinery poses a risk of spark, and can easily cause a major fire. Time and lack of man-power can also be a limiting factor to implement different management protocols. Especially monitoring, pruning and policing the area can be difficult when the forest is open access to any public use. Cooperation between stakeholders, though extremely important for the long-term preservation of the forest. Due to possible conflicting interests of the parties involved, changing structures and forest management practices can be a limiting factor in implementing new strategies. Mandated by the national government, the forest inventory is due every 10 years. However, in practice this task is a huge exercise for this large forest area and can take several years before the whole process is complete.",
+    "cost_benefit": "The total cost of monitoring actions of the LIFE Soria ForestAdapt project is €702,477, not including costs of operational forest fire prevention in the regular forest management work of the Soria Forest Service. The average cost for a FSC/PEFC certification is € 215.010. The 4-year dissemination budget allocated for education to the general public (students and citizens) in the LIFe project is €52,165. The general communication budget of the project was €125,871 whereas. €67,350 were foreeseen for the transmission of results (including ZeroSolutions). Benefits of the extensive dissemination efforts are already visible. There is evidence that companies are willing to invest into the proposals suggested by the SoriaLife project (Zero Solutions), and are working on the implementation of measures on their private lands. Some of these initiatives are getting co-financing from energy companies to support fire prevention or other adaptation strategies. 15% of forest-related economic revenue is returned to the province for investing in forest management and infrastructure such as early thinnings, forest roads, forest reserves/parks and for fire prevention (other preventive silviculture, etc.).",
+    "timeline": "Many of the adaptation actions practiced in the Soria forest can be implemented within a year like pruning or logging but require continuous efforts. The LIFE Soria ForestAdapt project is in place for 4 years from October 2020 until January 2025 to test novel management practices and to implement them into protocols. Implementing the test findings into regular practice can take longer than the project lifetime before implementation rules are adapted by all different stakeholders. Other management practices in Soria are ongoing, and don’t have a pre-defined number of years to implement but must be done continuously (monitoring, fire prevention) or on an annual basis (fencing grazers, forest activity timing, planting and patch).",
+    "lifetime": "Benefits of adapting forest practices for climate resilience can last for tens to hundreds of years and prevent disasters. Many of the services can provide benefits to forest health for up to 20 years when consciously implemented.",
+    "stakeholders": "Since forest is very important for people living in Soria, big efforts are made to disseminate knowledge between different stakeholders in the area. Beyond the partners of the Life Soria ForestAdapt project, the collaboration of the regional Forest Service ( Junta de Castilla y Leon) , the forest rangers of municipalities in Soria, the universities and the private forest owners’ organization are involved when working on forest management innovation projects. The collaboration with the Association of Forest Owners of Soria (ASFOSO) is essential: their involvement in the conservation of the forests is notable , promoting governance and facilitating contact between private owners and the public administration to manage and support management plans. The national government is also indirectly involved by stimulating land-use change from agricultual to forest landscapes with the Spanish Forest Strategy .",
+    "legal_context": "The forest in Soria is under the jurisdiction of the regional forest service , the Autonomous Community of Castilla y Leon. Regional regulations are in place for the management of the forest , for the perservation of forest health and for fire prevention . Spain's forest management is governed by national laws like the Ley de Montes, Ley 42/2007, Ley 21/2013, Ley 33/2015, and various regional regulations, focusing on sustainable use, conservation, biodiversity protection, and forest fire prevention. national forest inventories are prepared every 10 years. National forest inventories collect forestry and environmental data that support forest planning and management. According to this law, forest management planning is both done at the strategic level ( Spanish Forest Plan 2022-2032 and Spanish Forest Strategy horizon 2050 ) and at operational level through Forest Resources Management Plans (PORF) drawn up and approved by the forest administrations of the Autonomous Communities. For the community of Castilla y Leon region where Soria is located, the main strategic policy document is the Forest plan (issued in 2002). It aims to contribute to the conservation and improvement of the natural environment, its resources and its biological and landscape diversity, support the sustainable rural development, enhance the wide variety of functions of the mountains, and encourage the participation of stakeholders. As part of the implementation of this plan, four PORFs (also including the Soria area) are under preparation."
+  },
+  "point": {
+    "lat": 41.763548659816166,
+    "lon": -2.468412285098025,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://soriaforestadapt.es/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "medmodelforest.net",
+      "url": "https://www.medmodelforest.net/en/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://soriaforestadapt.es/herramienta/#",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=slKAFIxyag4",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=SsN7BYfZ3y8",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=Q8MdMPgzBsw",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=ZhyzPNGJygo",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=cilwlon5rn4",
+      "role": "contextual_input"
+    },
+    {
+      "name": "soriaforestadapt.es",
+      "url": "https://www.soriaforestadapt.es/es/pagina/fitoclim",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+    "publication_date": "2024-09-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "4d75b17b8c81404491aea6ee57d5a289",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/sustainable-climate-change-adaptation-of-the-forest-sector-in-the-province-of-soria-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

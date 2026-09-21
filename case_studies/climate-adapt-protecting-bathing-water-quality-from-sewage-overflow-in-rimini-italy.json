@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+  "title": "Protecting bathing water quality from sewage overflow in Rimini, Italy",
+  "summary": "During heavy rainfall events, Rimini frequently experienced combined sewage system overflows which caused local surface flooding in the city and direct discharge of untreated, diluted wastewater into the sea. The resultant contamination of sea water was posing health risks and necessitated frequent implementation of bathing bans on the city’s beaches, with negative impacts on tourism.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rimini",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Emilia-Romagna",
+        "ucode": "ITA_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Emilia_Romagna__IT_",
+        "source_name": "Emilia-Romagna (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water treatment plants",
+      "label": "water treatment plants"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bathing water",
+      "label": "bathing water"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sewage overflow",
+      "label": "Sewage overflow"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stormwater",
+      "label": "stormwater"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The creation of a separated sewage collection system (where feasible), improvement of the sewage treatment system, and installation of storage tanks for collecting and storing overflow wastewater and storm water (in areas with a combined sewage collection system) aim to reduce or stop contamination of sea water originating from urban sewage overflows during the increasingly frequent and intense rainfall events.",
+    "measures": "Following the Optimized Seawater Protection Plan, adopted in 2013, the city’s sewage system and the wastewater treatment plant have been renewed and upgraded, increasing and improving collection and treatment capacities in the whole area. The combined sewage system was replaced with a separated system in most parts of the city. In the most densely built-up areas, where the dual system was not possible, a pumping system including storage for the collection of runoff and sewage water was created or expanded. The system includes an underground plant, completed in 2020, for the collection of runoff water during extreme rainfall events. The runoff water is released successively into the sewage system and conveyed to a treatment plant once the pressure on the urban system has decreased. If storage capacities are reached, the diluted wastewater is released into the sea. The plant consists of two storage tanks located 40 meters below ground; a first tank with a capacity of 14,000 cubic metres collects the initial rainfall water, while the second, with a capacity of 25,000 cubic metres, is dedicated to storage and limiting the amount of mixed wastewater and stormwater conveyed to the sea. This stored water is discharged into the sea 1,000 meters from the shoreline to further reduce any health risks for beach users. The public works necessary for installing new sewage pipes and underground collectors were used as an opportunity to renew the city’s waterfront, substituting streets and parking lots with a park. The park’s walkways, green areas and sports facilities are slightly elevated to provide protection for the city against storm surges and sea level rise. The pumping plants and the water storage tanks are located beneath an attractive building which is used as a belvedere with an accessible elevated terrace overlooking the beaches.",
+    "outcomes": "Monitoring of bathing water quality as required by the Bathing Water Directive (EC, 2006) is done by the Regional Environment Agency (ARPAE) and takes place close to the shoreline, in a water depth between 80 and 120 centimeters. Monitoring points are pre-defined and correspond to the points where sewage water can potentially be released. The monthly controls of Enterococci and E. coli bacteria during the bathing season (from the beginning of May to the end of September) are complemented by ad-hoc monitoring in cases of extreme precipitation events or discharges from the sewage system into the sea, communicated by the utility company. Such events trigger precautional bathing bans, and additional monitoring activities are carried out to determine the end of the contamination event. From 2020 onwards, when the northern part of the new sewage plant was nearly complete (in the very northern sections some parts of the new system became operative later), the number of sewage discharges into the sea and bathing bans have reduced and, in some places, gone down to zero. The park, created between the beaches and the waterfront, raises the level of the promenade by 80 centimeters, providing an example of how strongly urbanized sections of the coast can be protected against some level of sea level rise without compromising the touristic use of beaches. At the same time, the level of protection against storm surges will not be sufficient under scenarios of higher sea level rise and additional measures might be needed to protect the city. The sewage system is protected against overflows for 1-in-50 year rainfall events. Under climate change, less frequent but more intense rainfall is projected for the Emilia Romagna Region (Sabelli, 2023). Therefore, today’s 1-in-50 year events are likely to occur more frequently and bathing bans are not excluded in the future.",
+    "cost_benefit": "The overall costs (until late 2023) for the improvements in the sewage system are approximately 200 M€. Upgrading of the sewage system has been financed by 3 entities: the Municipality of Rimini (33%) using inter alia regional and EU funding, the water utility (33%), and through tariffs paid by water users (33%). Whilst the latter led to some critique (Rimini 2.0, 2018), according to the Italian water pricing regulations, improvements of water and sewage system services can be co-financed by an increase in consumer payments for the water services. The creation of the urban park has been financed by the municipality which has been able to use, further to the municipal budget, additional national and regional funding. The completion of the Seawater Protection Plan will benefit the tourism industry, improving the reputation of Rimini as seaside resort and allowing for continuous use of beaches. The economic value of the avoided losses caused by health risks in sea water and consequent bathing bans for the bathing establishments is estimated at about 1.5 M€/year (Venier, 2018, p. 233).",
+    "timeline": "The project is being realized successively in different sections of the city’s waterfront, with the northern and central parts of the coastline already completed. The water storage plant has been in operation since 2020. Further sections are under realization. The entire waterfront will be transformed by 2026.",
+    "lifetime": "The lifetime corresponds to the lifetime of public infrastructure.",
+    "stakeholders": "The renovation of the sewage infrastructure has been managed together by the Municipality of Rimini and the water utility company responsible for the management of wastewater in the city. Collaboration between these entities took place on the basis of the Seawater Protection Plan, developed together with the water utilities, and adopted by the local authority (Municipality of Rimini) in 2013. Scientific support for modelling the hydraulic system and future risks of flooding from extreme precipitation and the definition of the security level was provided by the regional Environment Agency (ARPAE). The security level chosen for dimensioning the system refers to events with an actual return period of 1-in-50 years. The plan for safeguarding bathing waters and the urban park are elements of the wider strategic plan for Rimini, which has been subject to further participative activities. Prior to the development of the of the urban park area “ parco del mare ”, the city of Rimini consulted citizens and city users, economic actors as operators of beach establishments ( stabilimenti balneari ), bars, restaurants and services in the area, as well as environmental groups. The specific needs and expectations voiced by those stakeholders were used to shape the form of the new park. For instance, more space than initially foreseen was reserved for leisure time activities, cycling and walking. The consultation also informed the specifications for the architectural competition launched for the area.",
+    "legal_context": "In Italy, discharging runoff water into natural water bodies is not allowed according to the national law for water protection, as this water is considered contaminated and needs to be treated (D.Lgs. n. 152 del 2006). For this reason, in the creation of a separated sewage system, mechanisms have been introduced to ensure treatment of runoff water and avoidance of contamination of the near-shore waters with run-off water in case the storage capacities should be reached. Interventions such as the improvement of the sewage system, according to Italian law, are not subject to environmental assessments."
+  },
+  "point": {
+    "lat": 44.05542,
+    "lon": 12.57004,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "gruppohera.it",
+      "url": "https://www.gruppohera.it/-/psbo-il-gigante-buono-che-protegge-il-mare-di-rimini",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=vk2ysfwxR4o&t=56s",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cittaclima.it",
+      "url": "https://cittaclima.it/portfolio-items/rimini-piazzale-kennedy/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "wateractionhub.org",
+      "url": "https://wateractionhub.org/projects/2237/d/the-rimini-seawater-protection-plan/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "riminiturismo.it",
+      "url": "https://riminiturismo.it/en/what-do/enjoy-and-relax/sea-beaches-and-nature/parco-del-mare-sea-and-promenade-together-new",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+    "publication_date": "2024-02-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ffc3a83193e243e9acb50fa40c7744d5",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/protecting-bathing-water-quality-from-sewage-overflow-in-rimini-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:53+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

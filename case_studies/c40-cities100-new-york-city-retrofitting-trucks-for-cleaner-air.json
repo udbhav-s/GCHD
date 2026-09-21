@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-york-city-retrofitting-trucks-for-cleaner-air",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-retrofitting-trucks-for-cleaner-air/",
+  "title": "Cities100: New York City – Retrofitting Trucks for Cleaner Air",
+  "summary": "This C40 case study describes “Cities100: New York City – Retrofitting Trucks for Cleaner Air,” an urban initiative documented for New York. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: New York is targeting air pollution by offering rebates to retrofit or replace older trucks with alternatively fuelled models. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Thousands of trucks drive through the South Bronx every day, with high levels of particulate matter contributing to a community asthma rate three times the national average. Advanced vehicle technologies with low-carbon fuels are a breath of fresh air for New Yorkers.",
+    "measures": "In 2012, New York introduced the Hunts Point Clean Truck Program (HPCTP), working to address the poor air quality experienced by the Hunts Point and Port Morris communities in the South Bronx, where 15,000 truck trips begin or end every day. The program provides financial incentives to truck owners who are based, or who regularly operate, in the South Bronx, to retrofit diesel exhaust systems with scrubber technologies, or to replace older trucks with newer, cleaner models such as hybrid-electric, compressed natural gas, or fully electric. Three years into the program, the HPCTP celebrated the replacement of 500 old, highly-polluting diesel trucks. In total, truck replacements, retrofits, scrappage schemes, and transport refrigeration unit replacements have resulted in annual reductions of NOx by 90%, PM2.5 by more than 95%, hydrocarbons by 80%, and carbon monoxide by almost 85% for HTCTP vehicles.\n Economic Benefits – Many of the program's applicants are immigrant-owned, small businesses. The program helps these businesses stay competitive and provide jobs for New Yorkers.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-retrofitting-trucks-for-cleaner-air/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27345",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-retrofitting-trucks-for-cleaner-air&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

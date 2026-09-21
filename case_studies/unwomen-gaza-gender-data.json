@@ -1,0 +1,147 @@
+{
+  "schema_version": "2.2",
+  "id": "unwomen-gaza-gender-data",
+  "url": "https://data.unwomen.org/features/gender-data-gaza-are-helping-humanitarian-response-reach-women-and-girls",
+  "title": "Gender data in Gaza are helping the humanitarian response reach women and girls",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "State of Palestine",
+        "iso3": "PSE",
+        "ucode": "PSE_V1",
+        "dcid": "country/PSE"
+      },
+      "adm1": {
+        "name": "Gaza Strip",
+        "ucode": "PSE_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "women"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "girls",
+      "women"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "women": 13
+    }
+  },
+  "intervention": null,
+  "point": null,
+  "data_sources": [
+    {
+      "name": "UN Women Rapid Gender Assessments",
+      "url": null,
+      "role": "survey_input"
+    },
+    {
+      "name": "UN Women Gender Alerts",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "Survey data from Rafah",
+      "url": null,
+      "role": "survey_input"
+    },
+    {
+      "name": "Humanitarian food distribution records",
+      "url": null,
+      "role": "operational_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "UN Women Data Hub",
+    "collection_url": "https://data.unwomen.org/",
+    "publisher": "UN Women",
+    "document_url": "https://data.unwomen.org/features/gender-data-gaza-are-helping-humanitarian-response-reach-women-and-girls",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/sdg/AG_PRD_FIESMS.AGE--_T__SEX--_T__URBANIZATION--_T",
+      "name": "Prevalence of moderate or severe food insecurity in the population",
+      "sdg_indicator": "2.1.2"
+    },
+    {
+      "dcid": "undata/sdg/AG_PRD_FIESMSN.AGE--_T__SEX--_T",
+      "name": "Population in moderate or severe food insecurity",
+      "sdg_indicator": "2.1.2"
+    },
+    {
+      "dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--_T",
+      "name": "Proportion of population using safely managed drinking water services",
+      "sdg_indicator": "6.1.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_SAN_HNDWSH.URBANIZATION--_T",
+      "name": "Proportion of population with basic handwashing facilities on premises",
+      "sdg_indicator": "6.2.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_DYN_MORTN.AGE--Y0T4__SEX--_T",
+      "name": "Number of under-5 deaths",
+      "sdg_indicator": "3.2.1"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/sdg/AG_PRD_FIESMS.AGE--_T__SEX--F__URBANIZATION--_T",
+      "name": "Food insecurity prevalence among women",
+      "rationale": "Rapid Gender Assessment found 493,000 displaced women and girls facing heightened food insecurity; 14,716 women-headed households prioritized for WFP food aid"
+    },
+    {
+      "dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--_T",
+      "name": "Access to safe drinking water",
+      "rationale": "Gender Alert found >1 million women and girls with almost no access to safe water"
+    },
+    {
+      "dcid": "undata/sdg/SH_SAN_HNDWSH.URBANIZATION--_T",
+      "name": "Basic handwashing facilities",
+      "rationale": "Gender Alert documented lack of functioning toilets, running water, and sanitary products"
+    }
+  ],
+  "summary": "Following the October 2023 conflict in Gaza, UN Women's Women Count Regional Programme produced Rapid Gender Assessments and Gender Alerts analyzing gendered impacts of the humanitarian crisis. Data revealed that food aid primarily reached men who could queue publicly, while an estimated 493,000 women and girls—including 3,000 widows—faced heightened food insecurity. This evidence enabled a November 2023 partnership between UN Women and WFP to prioritize 14,716 women-headed households for food distribution, including women-only bakery windows. Subsequent Gender Alerts quantified catastrophic hunger among >1 million women and girls, estimated monthly needs for 10 million disposable or 4 million reusable menstrual pads, and documented that 70% of those killed were women and children. Methods include rapid gender assessments, gender alert publications, survey data from Rafah, media partnerships for data communication, and data-driven humanitarian advocacy integrated into UN Women and partner operational plans."
+}

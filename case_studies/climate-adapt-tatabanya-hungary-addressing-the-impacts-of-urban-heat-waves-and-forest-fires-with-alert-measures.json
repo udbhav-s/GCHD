@@ -1,0 +1,210 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+  "title": "Tatabánya, Hungary, addressing the impacts of urban heatwaves and forest fires with alert measures",
+  "summary": "To reduce heatwave and wildfire impact, Tatabánya uses a proactive heat and UV alert system, along with improved fire brigade capabilities, and educational activities targeting vulnerable groups. Community engagement and communication play a pivotal role in the success of these measures. The City of Tatabánya has a Local Climate Change Strategy and Action Plan, approved in 2008, which have been implemented to address diverse climate hazards, which mainly impact people’s health (e.g. heatwaves and heat stress, UV radiation, forest fires).",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tatabánya",
+      "adm0": {
+        "name": "Hungary",
+        "ucode": "HUN_V1",
+        "dcid": "country/HUN",
+        "iso3": "HUN"
+      },
+      "adm1": {
+        "name": "Közép-Dunántúl",
+        "ucode": "HUN_0005_V1",
+        "dcid": null,
+        "source_code": "SUBN_Közép_Dunántúl__HU_",
+        "source_name": "Közép-Dunántúl (HU)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Capacity building",
+      "label": "Capacity building"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "information dissemination",
+      "label": "information dissemination"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "UV alert system",
+      "label": "UV alert system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat alert system",
+      "label": "heat alert system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest fires",
+      "label": "forest fires"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "prevention",
+      "label": "prevention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "participation",
+      "label": "participation"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "hospitals",
+      "infants",
+      "nursery",
+      "pensioners",
+      "pupils",
+      "schools",
+      "student",
+      "students"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 6,
+      "older_people": 1,
+      "health_patients": 2
+    }
+  },
+  "intervention": {
+    "objectives": "As part of the Local Climate Change Strategy and the Action Plan, three measures have been implemented in Tatabánya: (i) a local heat- and UV-alert system; (ii) the Smart Sun Educational Programme; and (iii) measures aiming at improving the capacity of the fire brigade. The local heat- and UV-alert system and the Smart Sun Educational Programme were designed to protect the public from the harmful impacts of high temperatures (including heatwaves) and UV radiations. They seek to: Increase public awareness about heatwaves impacts on health and on efficient measures for self-protection against unfavourably high temperatures; Reduce the number of people exposed to the harmful effects of high temperature conditions and provide information that can reduce harmful effects on human health; Save resources through focusing on prevention measures rather than measures that address the consequences. The measures directed at further building the capacity of the fire brigade were designed to protect the public and forests from wildfires, and prevent biodiversity loss. Specifically, the measures aim to: Prevent damage from wildfires and health impacts due to the smoke and biodiversity loss; Prevent casualties among the fire-fighters due to the lack of training and capacity.",
+    "measures": "Tatabánya established a mix of soft measures to deal with the impacts of heatwaves and wildfires. Among these, a heat- and UV-alert system is in place: when extremely hot weather is predicted, a heatwave and UV protocol is set in motion. The Hungarian Meteorological Service and the National Public Health Office report warnings for heatwaves or high UV radiation to the local authorities. After that, the citizens receive an alert in printed or electronic form. The protocol consists of a series of activities providing advice to citizens on how to prepare for the forecasted heatwave and who to contact in case of health problems. A key aspect is that information reaches citizens rapidly and through different channels (local radio, television, the city’s homepage, Facebook). As soon as an impending heatwave is forecasted, the National Medical Officer of Hungary is informed. Instructions for citizens, institutions, health care organisations and media, updated every 30 minutes, are distributed through various media channels: the local and regional media are alerted. Information is also distributed through other channels: the city homepage, mail delivery and faxes to all authorities, institutions, public companies and employers. The heat alert system has been activated several times already: in the last 8 years (up to 2020) an average of 3-5 alerts were yearly issued in Tatabánya. The UV alert system was activated once every year, except in 2012 when it was activated twice. According to the Mayor’s Office, an increasing number of inhabitants are now aware of what they should do during a heatwave or UV radiation alert. Under the Smart Sun Educational Programme different vulnerable groups (e.g. infants and their parents, youngsters, old people and ill people) are made aware of the harmful effects of heatwaves and high solar activity on the human body, as well as of the simple and effective measures on how to protect themselves and take care of other people (e.g. drinking 2-3 litres of still water per day, staying indoors or in shady places between 11:00 and 15:00h, wearing light hats, wearing sun glasses, etc.). Adults are also made aware of their rights concerning the working environment, especially if their work includes outdoor activities. For example, employers should supply employees working outside with drinking water, proper clothing, and should take care to implement an appropriate work regime (1 hour of working outdoors in the heat wave should be followed by 30 minutes of rest). Higher temperatures during longer periods, reduced precipitation, and changing wind patterns increase the risk of forest fires in many European regions. However, only small-scale fires (mainly nearby built-up areas) occurred in the last few years. The city of Tatabánya in Hungary has enhanced the capability of fire brigades to fight forest fires by: providing specialist training and equipment improving the road network in forest areas, thereby improving accessibility for the emergency services during a fire providing watchtowers or camera systems that can help to detect fires early; and offering well-managed emergency response systems. The use of a fire weather index system helps the fire brigade to prepare for and respond to such events. A strengthening of local and regional disaster management has led to a reduction in damage from forest fires and the number of casualties among fire fighters. An additional side benefit is that these measures have also helped with managing other natural hazards, such as storm events and floods, which are projected to occur more frequently as a result of projected climate change.",
+    "outcomes": "The wide involvement of actors who cooperated is one of the success factors that led to the development and operation of the heat- and UV-alert system. An easy-to-activate procedure of the alert system also facilitates early warning communication of the potential risk and a readiness response by citizens. The alert starts from the Mayor’s Office. It then informs about 150 institutions, who then forward the alert to their workers, and to their contacts. Every institution is thus informed and already aware of its responsibilities during an alert. Through this process, and the involvement of media (local radio stations, and television), almost the entire population of the city is made aware of the alert. The Mayor’s Communication Office also informs the politicians. The Sociological Research Institute helped the City in designing the alert plan. This enabled the institute to develop robust in-house expertise which can are made available to other Hungarian municipalities and members of the Climate-Friendly Cities Association.",
+    "cost_benefit": "The development of the Local Climate Change Strategy and Action Plan was funded through the budget for Environmental Education and Climate Change available at the municipal level. Staff was assigned from the Municipality of Tatabánya and from the Sociological Research Institute of the Hungarian Academy of Sciences to develop the Strategy and the Plan. In 2009, a budget of HUF 4,000,000 (approx. EUR 15,000) was made available by the Environmental Education and Climate Change Department and a full-time climate manager was assigned for the implementation of the Action Plan. This budget remained approximately constant through the years: 4-6,000,000 HUF have been provided yearly by the Municipality of Tatabánya, while additional contributions have been made available by other organizations involved.",
+    "timeline": "Approximately 1.5 years were needed to develop the Local Climate Change Strategy and Action Plan. The implementation of the measures started in 2008 and is on-going, with measures already implemented still active.",
+    "lifetime": "The Climate Change Action Plan refers to the 2008-2025 time period. Tatabánya municipality is regularly informed about its state of progress. A revision of the Strategy and the Action Plan is planned in the next year and half.",
+    "stakeholders": "The Tatabánya Climate Change Action Plan is the result of the integration of top-down and bottom-up approaches. The plan was prepared with the assistance of the Sociological Research Institute of the Hungarian Academy of Sciences. The City of Tatabánya has been supporting the initiatives proposed by the Academy and, by using the support of civil society, the problems of environmental protection and specifically those associated with climate change risks were addressed. During the preparation of the Plan extensive stakeholder consultations took place. All relevant municipal bodies were involved: the Department of Education within the Municipality of Tatabánya, the National Public Health Institute, schools (teachers and students), nursery homes, local hospitals, engineers, utility providers (electricity company, industrial enterprises, the transport managing company, waste managing companies etc.). The heat and UV warning system is based on close cooperation and participation of 22 different organizations, including local police, local ambulance service, local civil defense, local fire department, hospitals, water utilities and schools. The residents of Tatabánya formed three active groups, each involved in promoting local sustainability. Among their many accomplishments, they have contributed to the heat and UV alert program, organized teams to assist in the implementation of the Climate Change Action Plan at the very local level, established emissions reduction targets, and implemented educational and information programs (the city has an annual budget for its housing program, which includes energy saving). The three groups and their goals are as follows: The first group is the Inhabitants Group, which focuses on the development of a new vision for the future of the city: it serves in a representative capacity in public decision making and through its efforts has helped to promote communication between residents and public officials by ensuring that local interests are made known; The second group is the Local Council of Pupils: this is comprised of student representatives who are engaged in a variety of tasks, including participating in local decision making; The third group is the Local Climate Group that is comprised of a wide range of individuals including students, pensioners, doctors, nurses, teachers, engineers, scientists, public officials, heads of companies, and other residents.",
+    "legal_context": "The Tatabánya Climate Change Action Plan is encouraged under the National Climate Change Strategy of Hungary adopted in 2008. The Department for Strategy and Control of Tatabánya was the lead governmental body during the preparation, and it is the leading implementing agency."
+  },
+  "point": {
+    "lat": 47.5705035787,
+    "lon": 18.4031295769,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "tatabanya.hu",
+      "url": "http://www.tatabanya.hu",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8b4f38e69968412b93c72bd48b1dfce4",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/tatabanya-hungary-addressing-the-impacts-of-urban-heat-waves-and-forest-fires-with-alert-measures",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:22+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

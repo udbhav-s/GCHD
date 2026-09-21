@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-landfill-restoration-project-to-mitigate-ghg-emissions-particularly-by-creating-an-area-for-carbon-sequestration-with-local-trees-and-plants",
+  "url": "https://www.c40.org/case-studies/landfill-restoration-project-to-mitigate-ghg-emissions-particularly-by-creating-an-area-for-carbon-sequestration-with-local-trees-and-plants/",
+  "title": "C40 Good Practice Guides: Wuhan – Jinkou landfill restoration",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Wuhan – Jinkou landfill restoration,” an urban initiative documented for Wuhan. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Summary After the closure of Wuhan’s Jinkou landfillvii in 2005 due to insufficient health and safety standards, environmental issues with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary After the closure of Wuhan’s Jinkou landfillvii in 2005 due to insufficient health and safety standards, environmental issues with…",
+    "measures": "Summary \n After the closure of Wuhan’s Jinkou landfill vii in 2005 due to insufficient health and safety standards, environmental issues with landfill gas pollution, leachate infiltration and damages to the landfill site landscape began to surface. The pollution caused by the closed Jinkou landfill would have taken decades to remove through natural degradation, affecting not only the environment but also residents in nearby areas.\n To restore this wasteland more efficiently and cost-effectively, the city began an aerobic ecological restoration project, viii which restored more than 52 hectares of land for city landscaping (increased land values and economic development in surrounding areas) and saved $125 million compared to conventional restoration methods. ix The landfill site restoration process, which began in 2014, introduced proper planting techniques, diverse plants, and measures to improve the soil. The project also ties in with Wuhan’s General Urban Planning scheme (2010-2020), which aims to improve the quality of the city’s ecological environment and enhance sustainable urban development.\n Results \n One of the main climate change objectives of the landfill restoration project was mitigation of GHG emissions, particularly by creating an area for carbon sequestration with local trees and plants (at least 66 tCO 2 absorbed), and capturing the gases produced from the waste landfill. The project is also restoring 52 hectares of land (recycling more than 1 million m 3 of displaced soil from urban construction projects), improving the environment for 100,000 residents living in close proximity to the landfill, reducing water and air pollution, eliminating risks of methane release and potential explosions, lowering surrounding temperatures through the introduction of green space, serving as water catchment area, shortening the degradation time of waste, and contributing to the local ecosystem by planting local species on the restored land. x To cap off its success, this former landfill site hosted the China International Garden Expo in 2015.\n Reasons for success \n Driven by the urgency of the project and the opportunity for financial savings by opting for an innovative approach, Wuhan successfully took the challenge of restoring one of the most polluted areas and transforming it into an ecological haven in the centre of the city in a remarkably short period of time.\n When/why a city might adopt an approach like this \n Cities that look into building new landfill sites should adopt this approach, ensuring that any new landfills are sanitary closed-loop landfills. To address impacts on local livelihoods, it is important to involve local communities from the beginning of the project and create new economic opportunities for people who might have previously lived off jobs related to open landfills (e.g. rag pickers). In addition, cities trying to remediate existing landfill sites and improve the health of their citizens in surrounding areas can adopt the landfill restoration approach to combine landscape rehabilitation with other benefits.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "One of the main climate change objectives of the landfill restoration project was mitigation of GHG emissions, particularly by creating an area for carbon sequestration with local trees and plants (at least 66 tCO 2 absorbed), and capturing the gases produced from the waste landfill. The project is also restoring 52 hectares of land (recycling more than 1 million m 3 of displaced soil from urban construction projects), improving the environment for 100,000 residents living in close proximity to the landfill, reducing water and air pollution, eliminating risks of methane release and potential explosions, lowering surrounding temperatures through the introduction of green space, serving as water catchment area, shortening the degradation time of waste, and contributing to the local ecosystem by planting local species on the restored land. x To cap off its success, this former landfill site hosted the China International Garden Expo in 2015.\n\nDriven by the urgency of the project and the opportunity for financial savings by opting for an innovative approach, Wuhan successfully took the challenge of restoring one of the most polluted areas and transforming it into an ecological haven in the centre of the city in a remarkably short period of time.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/landfill-restoration-project-to-mitigate-ghg-emissions-particularly-by-creating-an-area-for-carbon-sequestration-with-local-trees-and-plants/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27125",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=landfill-restoration-project-to-mitigate-ghg-emissions-particularly-by-creating-an-area-for-carbon-sequestration-with-local-trees-and-plants&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

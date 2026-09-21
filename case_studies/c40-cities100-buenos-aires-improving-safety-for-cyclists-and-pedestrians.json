@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-buenos-aires-improving-safety-for-cyclists-and-pedestrians",
+  "url": "https://www.c40.org/case-studies/cities100-buenos-aires-improving-safety-for-cyclists-and-pedestrians/",
+  "title": "Cities100: Buenos Aires – Improving Safety for Cyclists and Pedestrians",
+  "summary": "This C40 case study describes “Cities100: Buenos Aires – Improving Safety for Cyclists and Pedestrians,” an urban initiative documented for Buenos Aires. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Increasing sidewalk space and building networks of bicycle lanes have put Buenos Aires on the map as the most bicycle…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Facing a number of issues linked to increasing numbers of vehicles and traffic congestion, such as a lack of safety for cyclists and pedestrians and worsening air pollution, Buenos Aires introduced the Healthy Mobility project. The project promotes mobility in the city by making streets safe for pedestrians and cyclists.",
+    "measures": "Under the Healthy Mobility project, Buenos Aires became the first city in Argentina to implement a program focused on increasing the number of pedestrians and cyclists and limiting the number of cars on the road. The project represents a paradigm shift, as the city now puts people before cars, promoting cycling and walking and aiming to reduce the use of cars.\n To boost the number of trips made on foot, the city has reclaimed 7,735 m2 to widen sidewalks and redesign intersections to reduce vehicle speed and make crossings safer. A network of on-street protected bike lanes was built and includes 140 km of bi-directional lanes separated by a physical cord from cars for increased protection. The bike lanes are expected to increase by 30.5 km per year. In addition, Buenos Aires also introduced a bike-sharing system to further encourage citizens to choose this sustainable and healthier transportation option.\n Environmental Benefits – The Healthy Mobility project results in a cleaner environment, as each passenger traveling by car emits 152 grams of CO2 per km, while cycling and walking are emissions free.\n Social Benefits – The city is planning to cover 160 more areas with pedestrian-friendly interventions, mainly including areas vulnerable to high-traffic flows, such as schools and hospitals, improving safety for 400,000 people.\n Economic Benefits – The interventions are beneficial for businesses that have installed tables and chairs on the reclaimed pedestrian areas, and reorganized bus stops have increased revenue during peak hours.\n Health Benefits – Before the project, just 0.4% of all trips in Buenos Aires were made by bicycle. Today, 3.5% of trips are made by bike, with the goal of reaching 5% by the end of 2015, significantly increasing citizens’ health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-improving-safety-for-cyclists-and-pedestrians/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27052",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-improving-safety-for-cyclists-and-pedestrians&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

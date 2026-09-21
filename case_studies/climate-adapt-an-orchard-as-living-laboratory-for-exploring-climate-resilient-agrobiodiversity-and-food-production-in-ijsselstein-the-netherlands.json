@@ -1,0 +1,230 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+  "title": "An orchard as living laboratory for exploring climate resilient agrobiodiversity and food production in IJsselstein (The Netherlands)",
+  "summary": "A publicly accessible urban orchard with immense genetic heritage is maintained to preserve its biodiversity and food provision in the face of climate change. This requires continuity in funding and management. The fruit collection of IJsselstein is the largest within Dutch city boundaries. It contains more than 2000 fruit trees representing over 800 varieties, including around 300 rare or no longer cultivated types. The preservation of this important genetic variety is key to maintain agrobiodiversity under current and future climate conditions. The collection includes around 30 orchard sites, spread around the suburbs in the city, covering an average surface of 0.5 hectare each.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "IJsselstein",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Utrecht",
+        "ucode": "NLD_0010_V1",
+        "dcid": null,
+        "source_code": "SUBN_Utrecht__NL_",
+        "source_name": "Utrecht (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat",
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "CULTURALHERITAGE",
+      "label": "Cultural heritage"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Orchard",
+      "label": "Orchard"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Fruit tree collection",
+      "label": "Fruit tree collection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Grafting",
+      "label": "Grafting"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Genetic biodiversity",
+      "label": "Genetic biodiversity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Swales",
+      "label": "Swales"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "GIS-based monitoring",
+      "label": "GIS-based monitoring"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Citizen science",
+      "label": "Citizen science"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "school",
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 3,
+      "schools": 5,
+      "older_people": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The main objective of the adaptation measures, implemented in the IJsselstein’s urban orchaerd, is to safeguard and strengthen its unique fruit tree collection. It includes around 1,550 trees and 500 espalier column trees, representing more than 800 varieties (from all over Europe and USA), of which about 300 are rare or no longer cultivated elsewhere. Some exist as single remaining specimens, making the collection a valuable reservoir of agrobiodiversity. Adaptation measures aim to prevent genetic erosion through grafting programmes, ensure the long-term survival of heritage orchards, and enhance their role for climate resilience agrobiodiversity. Those climate resilient maintenance practices of fruit trees ensure the provision of ecosystem services such as storing water, mitigating heat stress, supporting biodiversity, and offering recreational and educational value to the community. Monitoring tree performance under drought, heat, and flooding conditions also informs future food security strategies. These objectives align with national and municipal climate adaptation goals, biodiversity strategies, and EU ambitions to protect genetic resources and enhance green urban infrastructure.",
+    "measures": "To address the multiple challenges threatening the IJsselstein fruit collection, a wide range of adaptation measures have been developed and implemented, combining practical orchard management, knowledge safeguarding, plant species monitoring using digital tools, and community engagement. Together, these actions strengthen the resilience of this unique collection to climate extremes while ensuring that its cultural, ecological, and social value is maintained for the future. Water management : Given that climate extremes that cause alternated surplus and deficit in water availabilityposes the greatest risk, adaptive water management is a priority. Swales (“wadis”) have been constructed at several orchard sites to temporarily store and infiltrate excess rainwater, mitigating damage from increasingly frequent heavy precipitation. At the same time, monitoring and research activities explore how different fruit tree varieties respond to drought, flooding, and heat. Those activities help to identify the most climate-resilient species. This knowledge guides replanting and grafting strategies, thereby ensuring long-term robustness of the collection under multiple climate change scenarios. Safeguarding genetic diversity : The IJsselstein collection comprises more than 2,000 trees (of which 1550 are common fruit trees, i.e. apple and pear plum) across 38 sites. They represent over 800 varieties, of which around 300 are rare or no longer cultivated elsewhere. To prevent genetic erosion, the NGO Klimaatnatuurlijk IJsselstein (KNIJ) coordinates an annual grafting programme with approximately 50 different varieties grafted each year. Both high-stem and low-stem trees are propagated, creating backup lines and securing the future of globally unique specimens. DNA analysis is also under preparation to further guarantee the genetic security of the collection. Maintenance and long-term impacts : Pruning and other orchard maintenance measures are regularly carried out in collaboration with the Pomona company and local partners. Still, young tree mortality remains high where planting was done without adequate soil preparation or aftercare. This result highligs the need for continuous expertise and long-term management beyond short caretaker contracts. Nevertheless, monitoring shows that 69% of the trees are expected to live more than 15 years, securing continuity if management recommendations are implemented. Digitalisation and monitoring : Robust monitoring and evaluation systems underpin the adaptation measures. Since 2017, all trees have been re-inventoried and linked to a GIS-based fruit map , which integrates photographs, variety information, maintenance status, and ecological value. QR codes now allow visitors and managers to directly access this information in the field. Historical fruit images were digitised, and unknown varieties are being identified in collaboration with Pomona and the Nederlands Fruit Netwerk (an initiative to conserve and take care of old Dutch fruit varieties as a cultural heritage). The ecosystem services provided by the fruit collection were assessed using the “ I-Tree Eco\" model. The model is designed to use standardized field data and local hourly air pollution and meteorological data to quantify urban forest structure, environmental effects, and value to communities. Ecosystem services include carbon storage, water retention, and cooling benefits. Together with research activities (e.g., van Hall Larenstein, Wageningen University), the modelling provides scientific evidence of the values generated by the orchard. Results can be used for orienting future planning and management measures. By combining traditional grafting and genetic safeguarding with modern GIS-based monitoring and citizen science initiatives, the IJsselstein measures are both robust and flexible. The measures are able to withstand uncertain climate scenarios—and are also open enough to adapt management strategies as new data from monitoring and research activities and new climate projections emerge. The integration of ecosystem, cultural, and social functions makes the orchard collection a living laboratory for climate adaptation in peri-urban settings, with lessons relevant across Europe. In addition to the above adaptation measures, the following awareness raising and capacity building initiatives are undertaken: Community engagement and awareness : Adaptation measures are embedded within broader community initiatives that create social co-benefits. Since 2013, annual apple-picking days, juice-making, cider production, and baking competitions have involved schools, youth organisations, and local residents. This ensures that adaptation actions also strengthen food literacy and community ties. Information boards (on fruit espalier, biodiversity, pollinators, and climate adaptation) and guided walking trails make the link between orchards and climate change accessible to the general public. Arts projects, such as leaf-print paintings and photography exhibitions, were used to increase visibility and emotional connection with the collection. This broad engagement ensures that the measures remain socially inclusive and fosters long-term stewardship. Knowledge transfer and governance : To counter the above-mentioned lack of specialist expertise and policy follow-up, KNIJ and partners invested in building and transferring knowledge. Stakeholder analyses and management vision studies (2019–2021) informed the development of the above-mentioned comprehensive tree management plan. Collaboration with universities, secondary schools, and local experts helps anchor orchard knowledge and management within education and science. While the municipal council has not always acted upon expert recommendations, ongoing documentation and public awareness campaigns increased pressure for political commitment. The fruit collection has now been recognised as three official Dutch Plant Collections (apples, pears, hazelnuts), formally linking it with national and EU-level networks for genetic resources. The IJsselstein experience demonstrates that peri-urban fruit collections can function as living laboratories for climate change adaptation, biodiversity conservation, and community engagement.",
+    "outcomes": "Success factors The initiative to safeguard the IJsselstein fruit collection has benefitted from several decisive enablers. Civic leadership and initiative. The role of Klimaatnatuurlijk IJsselstein (KNIJ) was central. Mobilising volunteers, experts, and schools, KNIJ created broad awareness of the value of the collection and kept momentum during periods when municipal engagement was low. Their consistent initiative ensured that rare varieties were preserved through grafting programmes and that links to climate change adaptation were emphasised. Community learning and education. Success is also linked to the wide range of educational and cultural activities built around the orchards. Those include guided walks, fruit-picking days, art projects, and school collaborations. These activities have not only supported public appreciation of the orchards but also embedded long-term learning about biodiversity and climate resilience across generations. This social anchoring has strengthened legitimacy and public support for continued investment. Innovative digital tools. The development of the GIS-based fruit map, integrating inventories, photos, and monitoring data, has been a technical success. It allows systematic tracking of more than 1,500 and 500 column trees across 38 locations and has become a key tool for monitoring tree health, maintenance planning, and raising transparency for both professionals and the wider public. Scientific collaboration. Partnerships with van Hall Larenstein University of Applied Sciences, Wageningen University, and Pomona specialists improved knowledge transfer, supported ecosystem service assessments ( e.g., ITREE ), and connected the local project to national and international research agendas on biodiversity and climate change adaptation. Together, these factors have created a unique blend of bottom-up initiative, technical innovation, and broad social participation. They were crucial for the resilience of the project despite institutional and financial challenges. The combination of civic initiative, digital monitoring, and grafting programmes could be replicated in other municipalities with heritage or community orchards. However, replication depends on addressing the limiting factors identified: securing long-term funding, ensuring political commitment, and embedding specialist knowledge in governance structures. Several elements, such as the GIS-based fruit map, grafting protocols, and education programmes, already provide replicable models that could be applied in other European cities facing similar challenges Limiting factors Despite these successes, several barriers continue to hinder the full potential of the adaptation measures. Economic constraints. Funding for orchard care remains short-term and fragmented, often organised through limited caretaker contracts that do not match the long-time horizon required for orchards. As a result, maintenance quality varies, young tree mortality is high, and long-term investments such as soil improvement or systematic replanting are sometimes delayed. Governance and political factors. Political support at municipal level was inconsistent. High turnover among councillors and officials, combined with limited knowledge transfer, has reduced continuity. In some cases, the fruit ecological and cultural significant collection was perceived as a ‘non-essential’ budget item. Consequently, budgets for proactive care and adaptation measures were often deprioritized. The existence of a professional tree management plan, developed by experts, illustrates this gap: although technically sound, it has not yet been fully adopted or implemented by the municipality. Measures like selective relocation, strategic replanting, and site-specific water interventions could not be realised. Technical expertise. Specialist knowledge on heritage fruit varieties and appropriate orchard management is limited and not always available when needed. Short-term contracts discourage long-term capacity-building, while gaps in expertise reduce the effectiveness of planting and aftercare. Complexity of municipal implementation. With more than 2,000 fruit trees, spread over 38 locations, the management task is complex. Coordinating maintenance, water measures, public use, and biodiversity goals requires integrated planning capacity, which municipalities often lack under current resource constraints. Social and institutional challenges. While public support is generally strong, competing urban land-use priorities, differing perceptions of the orchards’ value, and limited alignment with municipal adaptation priorities can hinder structural integration into long-term policy. Embedding the collection’s protection in municipal procurement, governance, and policy frameworks is critical for long-term success, ensuring that its value as cultural heritage and a climate adaptation tool is preserved. Together, these limiting factors form a reinforcing loop: climate-induced water extremes weaken trees; knowledge and funding gaps limit timely adaptive care; short tender cycles and policy-practice disconnections delay structural solutions; and tree losses then reduce the collection’s resilience and public value.",
+    "cost_benefit": "Costs and Funding Safeguarding the IJsselstein fruit tree collection requires recurring investment in three areas: Tree maintenance – annual pruning, pest monitoring, and replacement of diseased or dead trees. Collection maintenance – grafting and planting to preserve genetic diversity and ensure long-term continuity. Digital maintenance support– updating and operating the GIS fruit tree map, which underpins monitoring and management. According to the Tree Management Plan 2021–2025 , the baseline costs for pruning and routine maintenance amount to approximately €41,000 per year (mainly pruning of apples, pears, and columnar trees). Additional costs for replanting, soil improvement, targeted pruning of less common species, and digital maintenance support vary per year, meaning that total annual costs regularly exceed this baseline. Grafting and replanting can be estimated at €10,000–20,000. Digital maintenance support cost around €5,000 per year. Those expenses ese are primarily financed by the Municipality of IJsselstein, with contributions from local initiatives (e.g. volunteer work coordinated by KNIJ) and occasional project-based funding. While outsourcing through short-term tenders can reduce costs, this approach risks undermining quality and continuity. While outsourcing through short-term tenders has kept budgets under pressure, the overall investment remains modest compared to the substantial benefits of the orchard. Short-term contracts and insufficient specialist expertise can lead to higher young tree mortality and missed opportunities for climate change adaptation. However, when compared with the quantified benefits — including an annual ecosystem service value of over €10,000 and a structural asset value of €1.43 million — the baseline investment of around €41,000+ per year is highly cost-effective. Environmental Benefits The 2020 i-Tree Eco assessment quantified multiple ecosystem services delivered by the collection’s 2,096 trees: Carbon storage: 189 metric tons (€20,800 value). Annual carbon sequestration: 11.9 metric tons (€1,310 per year). Air pollution removal: 143 kg/year (€8,230 per year). Oxygen production: 31.7 metric tons/year. Stormwater management: 327 m³ avoided annual runoff (€623 per year). Total economic value of the area (Natural capital’s monetary value): €1.43 million (replacement cost). These services directly support climate change adaptation by reducing flood risks, providing local cooling, and improving urban air quality. At the same time, they contribute to climate mitigation through carbon storage and sequestration. Societal Benefits The orchards preserve more than 800 fruit varieties, including over 300 rare ones. Those varieties provide a living genetic library for future food security. Community events such as an Apple Picking Day, grafting workshops, and guided fruit walks create opportunities for recreation, education, and social connection. Activities are designed to be accessible, ensuring that children, elderly people, and vulnerable groups also participate. The orchards are located in public green spaces across IJsselstein. They make adaptation benefits equally accessible to all residents, regardless of income or social background. The orchards also provide shaded recreational areas, improving climate resilience for urban residents without private gardens. Locally harvested fruit is processed into juice, cider, and jams, linking adaptation measures to local food resilience and cultural heritage. Economic Benefits Beyond avoided environmental costs, the collection creates economic value: Future-proofing through preservation of rare fruit varieties that may prove economically important under changing climate conditions. Strengthening the local economy through eco-tourism, events, and small-scale fruit processing. Cost savings by reducing stormwater damage risks and improving public health through cleaner air. Property value gains as green infrastructure is associated with higher real estate values. Fostering long term sustainability and resilience by encouraging a balance between economic growth and environmental protection.",
+    "timeline": "Maintaining the tree collection maintenance is a continuous task. Ensuring healthy tree collections requires a 10-year vision that includes planning, preparing and implementing the measures. Grafting programs require about 3 years, including cutting, grafting and plant growth.",
+    "lifetime": "All measures to preserve the fruit collection in the long-term have an indefinite lifetime. A high stem fruit tree requires about 80-100 years of maintenance, while a low stem espalier column tree requires about 40 years for its full development.",
+    "stakeholders": "Safeguarding and making the IJsselstein fruit tree collection climate resilient rely on a broad and collaborative network of actors. These range from grassroots initiatives and volunteers to expert practitioners, private companies, research institutions, and to the municipality as formal owner of the trees. Public authorities are formally responsible for the collection. The Municipality of IJsselstein owns the trees and commissions contractors for their care. While maintenance is outsourced, the municipality increasingly collaborates with local initiatives such as the NGO KNIJ to align management practices with long-term goals. The fruit collection is also linked to national knowledge networks on fruit biodiversity, which provide expertise for species identification and genetic safeguarding. Civil society and grassroots organizations play a central role. The local initiative KNIJ has acted since 2017 as a key driver of the project, initiating and coordinating activities, raising awareness, and linking local residents to the orchards. These low-threshold activities encourage broad participation and ensure that local communities remain engaged. Citizen inclusivity and fairness are central to the approach. Participation is deliberately low-threshold through activities like public harvest days, school projects, and community festivals. Vulnerable groups, such as youth and elderly residents, are included through local organizations. This ensures that adaptation benefits are accessible to all social groups. Specialist practitioners and companies provide the technical expertise needed for maintenance and future-proofing of the collection. Professional growers graft rare varieties, environmental consultants prepare biodiversity and nature value maps, and GIS specialists maintain the digital fruit tree map . These experts solve practical challenges such as pruning, monitoring pests, and improving water management, ensuring that the collection can adapt to changing climate conditions. Research institutions contribute to scientific knowledge and independent evaluation. For example, the University of Applied Sciences Van Hall Larenstein carried out research projects on stakeholder engagement, ecosystem services, and the potential of fruit trees to adapt to climate change. Citizen science initiatives also helped to document biodiversity associated with the collection and raise public awareness. Knowledge carriers and heritage actors safeguard the historical value of the orchards. The IJsselstein collection was built up over decades with varieties sourced from across Europe. Maintaining this living cultural heritage to avoid the loss of the rare genetic material requires careful grafting, documentation, and collaboration with national and regional fruit networks. Participation forms and levels range from information provision (websites, books, information boards, guided walks) to consultations (stakeholder meetings, capturing expert advice on management plans), to collaboration (joint programmes on grafting, biodiversity monitoring, and public events). Long-term volunteer engagement, professional maintenance contracts, and structured digital monitoring tools such as the GIS fruit tree map demonstrate commitment.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 52.02560104913948,
+    "lon": 5.03280249356953,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "fruitcollectieijsselstein.nl",
+      "url": "https://www.fruitcollectieijsselstein.nl/infoborden-rondom-het-fruit/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.fruitcollectieijsselstein.nl",
+      "url": "www.fruitcollectieijsselstein.nl",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www.knij.nl",
+      "url": "www.knij.nl",
+      "role": "contextual_input"
+    },
+    {
+      "name": "rmn.kaartviewer.nl",
+      "url": "https://rmn.kaartviewer.nl/iconviewer/index.html?website=Fruitbomen_iconen",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+    "publication_date": "2025-11-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "351227cd9a1b4fb78d2141f9014c9fba",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/an-orchard-as-living-laboratory-for-exploring-climate-resilient-agrobiodiversity-and-food-production-in-ijsselstein-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:27:02+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

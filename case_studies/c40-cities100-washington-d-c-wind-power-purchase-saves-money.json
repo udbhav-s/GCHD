@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-washington-d-c-wind-power-purchase-saves-money",
+  "url": "https://www.c40.org/case-studies/cities100-washington-d-c-wind-power-purchase-saves-money/",
+  "title": "Cities100: Washington, D.C. – Wind Power Purchase Saves Money",
+  "summary": "This C40 case study describes “Cities100: Washington, D.C. – Wind Power Purchase Saves Money,” an urban initiative documented for Washington, DC. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: By entering into a Power Purchase Agreement to buy wind energy at a fixed rate over the next 20 years,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Washington, DC",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "District Of Columbia",
+        "ucode": "USA_0009_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Large-scale wind power is not feasible in Washington, D.C. but, with the use of a PPA, the District is able to directly source wind power and advance the regional market for renewable energy. The PPA also reduces the District’s vulnerability to volatile energy prices by establishing a long-term price for electricity that is fixed for 20 years and cheaper than fossil fuel-based power.",
+    "measures": "In 2015, Washington, D.C. entered into a 20-year Power Purchase Agreement (PPA) with Iberdrola Renewables. Wind power procured under the PPA will supply roughly one-third of the District government’s electricity from a 46 MW wind farm. The deal is the largest of its kind ever entered into by an American city. Under the PPA, the District does not pay for the wind farm itself, but rather, agrees to purchase 125,000 to 150,000 MWh of wind electricity every year at a fixed rate 30% lower than fossil fuel power.\n The avoided emissions will reduce government-wide greenhouse gas emis-sions by 17% from 2013 levels, which is the equivalent of growing 24 million trees each year. The PPA is expected to spur additional investment in the local renewable energy market by demonstrating confidence in wind energy as a scalable, long-term solution. The District is also negotiating two solar PPAs that would install 12.5 MW of solar arrays on roughly 50 District buildings, provid-ing another 3% to 5% of the government’s electricity consumption.\n Environmental Benefits – Greenhouse gas emission reductions from the PPA are equivalent to taking 20,000 cars off the road.\n Social Benefits – The wind farm that the PPA supports has created close to 100 clean energy jobs during construction and supports roughly half-a-dozen permanent positions.\n Economic Benefits – The PPA will help stabilize long-term electricity costs and is estimated to save District taxpayers $45 million over the next 20 years through lower electricity rates.\n Health Benefits – The majority of the District’s air pollution comes from fossil fuel-fired power plants located outside its borders. The PPA prevents the release of air pollutants such as soot, smog, and mercury that are harmful to human health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-wind-power-purchase-saves-money/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26961",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-wind-power-purchase-saves-money&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

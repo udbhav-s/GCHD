@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city",
+  "url": "https://www.c40.org/case-studies/colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city/",
+  "title": "COLABORE – A Public Co-working Space to Develop and Accelerate Sustainable & Inclusive Solutions for the City",
+  "summary": "This C40 case study describes “COLABORE – A Public Co-working Space to Develop and Accelerate Sustainable & Inclusive Solutions for the City,” an urban initiative documented for Salvador. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Salvador kicks off the first public incubator of social affairs in Brazil focusing on the seventeen Sustainable Development Goals of the United…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Salvador kicks off the first public incubator of social affairs in Brazil focusing on the seventeen Sustainable Development Goals of the United Nations. \n As part of the city's Resilience Strategy, the Municipal Innovation Center – Colabore – has been built amid the trees of the City Park (Parque da Cidade) using 16 old maritime containers.",
+    "measures": "Understanding that social inequality is the greatest challenge to overcome in several Brazilian cities is key for the sustainable development of the country. The Municipality of Salvador, through its Secretariat for Sustainability, Innovation and Resilience (Secis), envisioned the Municipal Center COLABORE (inaugurated on May 10 2019) as the first public co-working space for micro-enterprises, individual micro-entrepreneurs (MEIs), startups or people, who aim to develop social impact solutions for the city and also contribute to achieving a better and more sustainable future for all its residents.\n In partnership with SEBRAE, the Brazilian agency to support the management of micro and small businesses, COLABORE was created amidst the trees of one of the most popular meeting places of the capital of Bahia: Parque da Cidade, a public city park counting an average of 100 thousand visitors per month. The Municipality invested 1.2 million reais in the project. Sixteen old maritime containers have been reused and distributed over an area of 2,700 square meters.\n COLABORE forms part of the Resilience Strategy of Salvador and is another successful delivery of the Sustainable City axis – Salvador 360 – a program aiming to accelerate the social economic growth of the city.\n The proposal was to establish a shared work environment, favorable to the creation of, and interaction between the entrepreneurial community. Users of COLABORE will have access to shared offices, an auditorium, and several meeting rooms. In addition to the benefits offered by the infrastructure itself, the coworking spaces will allow the interaction between professionals from different areas, the expansion of business networking, while reducing or even eliminating costs of head offices.\n What is the innovation? How does it work? \n It is a sustainable infrastructure!\n In addition to the fact that the structure has been built from reused containers, COLABORE also counts on several sustainable technologies, such as vegetation cover, the use of cross ventilation, a capture rainwater system, photovoltaic solar panels, sewage treatment and reuse solutions, permeable flooring, an intelligent refrigeration management system, natural acoustic barriers, as well as bike racks to encourage active mobility.\n Eight modules make up the space, two of which are reserved for co-working, with 26 workstations that allow training courses, in areas like innovation and social entrepreneurship, to be carried out periodically, promoting the acceleration of Salvador's innovation ecosystem; and another 20 stations in two other modules host the social business incubator.\n COLABORE was designed to contribute towards the city’s Sustainable Development Goals (SDG) and 2030 UN targets . It will become the hub where sustainable solutions and initiatives are selected, incubated and accelerated.\n A public notice will be launched to select startups, microenterprises, individual micro-entrepreneurs (MEIs) and private individuals who have ideas for sustainable projects for the city and wish to work there. The selection will take into account the alignment of project proposals with the SDG.\n Sustainable elements present in the structure of Colabore are:\n Solar Energy – There is a solar energy system composed of 12 photovoltaic solar panels that generate an average of 520 kW/month and avoid the emission of approximately 3 tons of CO2e per year.\n Vegetable cover – 270 square meters of green ceiling working as thermal insulation, reducing the temperature inside the building by up to 5°C and providing a greater public conviviality with the green.\n Capture rainwater system – The rainwater is collected for irrigation of the green roof. Condensation water from air conditioning is also captured for the same purpose.\n Cross ventilation – In order to reduce energy consumption, the building was designed to take full advantage of the naturally occurring ventilation. This allows constant changes of the air and reduces the internal temperature.\n Natural Lighting – COLABORE was also designed to take full advantage of natural lighting in order to reduce energy consumption. Glass partitions have been installed across the work spaces and no film was used in the windows. \n Bicycles – Increased cycling improves air quality and the physical and mental health of people. Appropriate places for users to leave their bicycles have been provided in order to encourage active mobility.\n Natural Acoustic Barrier – Being located in a Rain Forest preservation area, the vegetation around COLABORE works as a natural acoustic barrier, helping to reduce noise as well as the internal ambient temperature.\n Permeable Pavement – There are 300 square meters of drainage floor, 100% permeable, contributing to the reduction of surface runoff as it allows the infiltration of water into the soil. Wastewater Treatment and Reuse – All effluents from buildings are treated biologically, allowing the reuse of treated effluent for irrigation of green areas or other non-drinkable applications.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city/",
+    "publication_date": "2019-05-31",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27441",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

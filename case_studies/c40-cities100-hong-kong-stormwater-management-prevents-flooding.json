@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-hong-kong-stormwater-management-prevents-flooding",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-stormwater-management-prevents-flooding/",
+  "title": "Cities100: Hong Kong – Stormwater Management Prevents Flooding",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Stormwater Management Prevents Flooding,” an urban initiative documented for Hong Kong, China. It is included because it addresses river flood, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong is tackling its serious flooding problem by taking a holistic and integrated approach to stormwater management. The Challenge…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong averages more than 2,300 mm of rainfall each year, one of the highest rates in the Pacific Rim, and storms are expected to become more common in coming years. Its dense population and mountainous terrain exacerbate the challenges of flooding. This wide-ranging, integrated approach to flood management helps the city maintain its economic growth without sacrificing sustainability or safety.",
+    "measures": "To address severe flooding, Hong Kong’s Drainage Services Department implemented a range of projects to improve water drainage in the city. Rather than building drainage facilities in flood-prone areas, the city is intercepting and diverting waterways along their natural courses to better prevent flooding. To date, Hong Kong has created 2,400 km of stormwater drains, 350 km of river channels, and three underground flood storage tanks that hold a total of 17,000 m3. The city’s robust drainage infrastructure not only reduces the risk of flooding, it also revitalizes water bodies and creates green spaces, which in turn promote biodiversity and mitigate the heat island effect.\n The city has committed nearly $5 billion to flood-prevention and water revitalization projects. Successful examples include the sophisticated Happy Valley Underground Stormwater Storage Scheme, which monitors water retention in underground storage tanks. Similarly, the 3.7 km Lai Chi Kok Drainage Tunnel intercepts runoff from uphill catchment in West Kowloon.\n Environmental Benefits – Photovoltaic panels installed at Hong Kong’s water treatment facilities will generate 828,000 kWh of electricity by 2017.\n Social Benefits – The 144 km of revitalized waterways provide residents with more enjoyable places to walk and cycle, thus promoting more outdoor urban activities.\n Economic Benefits – Property values have risen by up to 10% in areas that have experienced water revitalization.\n Health Benefits – Upstream management and stormwater drainage tunnels are helping Hong Kong prevent flooding and improving the natural environment of the city and its surrounding areas.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-stormwater-management-prevents-flooding/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26999",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-stormwater-management-prevents-flooding&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-austin-commitment-to-low-cost-solar-net-zero-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-austin-commitment-to-low-cost-solar-net-zero-emissions/",
+  "title": "Cities100: Austin – Commitment to Low-Cost Solar, Net-Zero Emissions",
+  "summary": "This C40 case study describes “Cities100: Austin – Commitment to Low-Cost Solar, Net-Zero Emissions,” an urban initiative documented for Austin. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The people of Austin are blessed with abundant sunshine, and together with the municipal utility, they are committed to powering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Austin",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Texas",
+        "ucode": "USA_0044_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Austin",
+        "ucode": "USA_0044_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "austin",
+      "label": "Austin"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Texas was the leading crude oil and natural gas-producing state in 2015 1 , and shifting to clean energy runs up against this fossil fuel legacy. However, the state is now also the top producer of wind power in the USA 2 and solar is surging.",
+    "measures": "In the heart of Texas, a solar revolution is unfolding. Austin, the state capital, has set a goal of reaching net-zero greenhouse gas emissions by 2050, and plans to reach the target via solar commitments, innovative tariff structures, and electric storage integration. Austin's municipally-owned electric utility, in coordination with community stakeholders, aims to deploy 950 MW of solar by 2025, including 200 MW of rooftop solar, throughout the city. To meet these ambitious goals, Austin Energy is implementing a multi-prong solar strategy. Long-term procurement contracts with utility-scale solar plants will comprise the majority of the target, but to change attitudes and achieve community buy-in, Austin Energy is also developing clever tariffs to fairly spread the cost of solar and make solar accessible for all. Their first community solar project was launched in early 2017, with an 180 kW array at the Palmer Events Center. The utility also launched its own solar mapping tool, allowing residents to calculate the solar potential of their property.\n Social Benefits – A proportional metering solution is under development that will enable the cost of solar installations in multi-family affordable housing properties to be split fairly amongst tenants. This will bring solar to properties and families that have traditionally been shut out of the solar energy market.\n Health Benefits – Shifting from coal and natural gas-fired power plants to solar power reduces particulate emissions and improves local air quality for Austin's residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-austin-commitment-to-low-cost-solar-net-zero-emissions/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27324",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-austin-commitment-to-low-cost-solar-net-zero-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

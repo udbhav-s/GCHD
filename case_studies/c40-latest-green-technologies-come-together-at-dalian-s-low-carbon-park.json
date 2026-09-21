@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-latest-green-technologies-come-together-at-dalian-s-low-carbon-park",
+  "url": "https://www.c40.org/case-studies/latest-green-technologies-come-together-at-dalian-s-low-carbon-park/",
+  "title": "Latest Green Technologies Come Together at Dalian’s Low-Carbon Park",
+  "summary": "This C40 case study describes “Latest Green Technologies Come Together at Dalian’s Low-Carbon Park,” an urban initiative documented for Dalian. It is included because it is located in the Global South. C40 describes the action this way: The Dalian ‘Low-Carbon Park’ is located in the Huang Ni Chuan Tiandi Software Park of Dalian City. It uses entirely natural energy…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dalian",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Liaoning Sheng",
+        "ucode": "CHN_0018_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dalian",
+        "ucode": "CHN_0018_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dalian",
+      "label": "Dalian"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Dalian ‘Low-Carbon Park’ is located in the Huang Ni Chuan Tiandi Software Park of Dalian City. It uses entirely natural energy and is open to citizens free of charge. The park spreads across an area of 12,000 square meters and has been built jointly by Shui On Land, Shui On Construction and Yida Group with an initial investment of 27 million Yuan (≈ USD 4.2 million). It is the first park in Dalian with “low-carbon” in its title.",
+    "measures": "Equipped with ecological toilets, solar street lamps and wind turbines, the ‘Low-Carbon Park’ situated in the Daliang Huang Ni Chuan Tiandi Software Park, relies completely on natural light, wind energy, rainwater, and is free from wires and air conditioners, with only a small portion of it being cemented.\n What is the innovation ? How does it work? \n The sustainable design of the ‘Low-Carbon Park’ can be seen through several main features: Park roads are constituted of a thin layer of cement with coarse aggregates for asphalt to give the pavement have a honeycomb structure, allowing seepage during rainy days. All the reflective spikes, street lamps and flow stands on the road surface are equipped with solar photovoltaic panels, able to store energy for LED lighting at night. Also, dozens of electric bicycles across the park are made available for citizens free of charge. The only building in the park is the ‘Low-Carbon Experience Hall’, which is also equipped with a large number of low-carbon features. It has a green roof, where flowers and plants are grown, and a glass component allows for natural daylight inside the building. The wooden boards used in the interior are all composite boards fabricated from waste wood. Neither air conditioning nor regular heating have been installed in the building, while a solar hot water thermal heating system covers the heat demand during winter. The park’s drainage pipes are covered with stones and covered in an iron mesh, beautiful and environmentally friendly at the same time. In addition, both the rainwater recycling and garbage disposal systems are equipped with the latest internationally-recognised low-carbon technologies.\n Next Steps \n This project represents one of the 91 projects undertaken as part of the Dalian's '5-1' livelihood program, which aims to develop and transform an old urban area, build a new parking lot, renovate a trading market, build a new fitness center, and upgrade roads and streets in Dalian’s fourth district, the Dalian Development Area and the High-Tech Park. In 2018, Dalian added extra 15 key livelihood programs, including: completing the green landscaping of the Malan River Sports Park; launching the construction of Hainabaichuan International Sculpture Park; launching greening, beautification and ecological remediation projects around the rivers Chunliu and Zhoushui; and planting more trees along the sidewalks of the fifth district.\n Links to further information \n Dalian High-Tech Zone \n Discovering Dalian's High-Tech Zone \n Contact Details \n Dalian Urban Construction Bureau\n Tel: 0411-83627567\n Dalian Planning Bureau\n Tel: 0411-83722686",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/latest-green-technologies-come-together-at-dalian-s-low-carbon-park/",
+    "publication_date": "2019-04-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27436",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=latest-green-technologies-come-together-at-dalian-s-low-carbon-park&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

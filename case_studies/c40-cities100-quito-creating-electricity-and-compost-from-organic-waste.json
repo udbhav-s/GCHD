@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-quito-creating-electricity-and-compost-from-organic-waste",
+  "url": "https://www.c40.org/case-studies/cities100-quito-creating-electricity-and-compost-from-organic-waste/",
+  "title": "Cities100: Quito – Creating Electricity and Compost from Organic Waste",
+  "summary": "This C40 case study describes “Cities100: Quito – Creating Electricity and Compost from Organic Waste,” an urban initiative documented for Quito. It is included because it is located in the Global South. C40 describes the action this way: Quito is reducing emissions and changing the definition of waste by generating clean energy, creating compost, and recycling paper and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quito",
+      "label": "Quito"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Quito, an average of 1,877 tons of waste is sent to the Inga landfill per year, accounting for 13% of the city’s carbon footprint. Sixty percent of waste in Inga landfill is organic, and its decomposition results in the generation of methane, contributing to climate change. By recycling, composting, and generating biogas through the Organic Waste and Climate Change project, Quito is reducing emissions and giving waste a new purpose.",
+    "measures": "Under its Development and Land Use Plan, in 2015 Quito launched an integrated waste management project based on the concept of a circular economy, while encouraging social and environmental co-responsibility. The Organic Waste and Climate Change project has three elements: generate 5 MW of electricity by 2017 with landfill biogas, process 12 million tons of organic waste into compost through the construction of a municipal organic waste processing plant, and improve paper and cardboard recycling by means of waste recovery, processing, and commercialization. The project aims to achieve a 33% reduction in greenhouse gas emissions from waste, which is equivalent to approximately 300,000 tons of CO2, by 2017. Citizen engagement is key to the project’s success, and has been carried out using a combination of outreach campaigns, public meetings, environmental forums, and social media. Information about the project has been made open and transparent for everyone, aiming to include all sectors of society in decision-making.\n Environmental Benefits – Since 2015, 37,723 tons of paper and cardboard have been recycled through the project, preventing CO2 emissions from future logging and production.\n Social Benefits – The project will link 280 small-scale recyclers, a vulnerable sector of the population, ensuring access to minimum wage.\n Economic Benefits – The waste market is expected to expand, with 13,249 new jobs for material traders arising through the project.\n Health Benefits – By diverting waste from the landfill, the project improves the hygiene of municipal markets, reducing the risk of infections",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-quito-creating-electricity-and-compost-from-organic-waste/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27211",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-quito-creating-electricity-and-compost-from-organic-waste&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

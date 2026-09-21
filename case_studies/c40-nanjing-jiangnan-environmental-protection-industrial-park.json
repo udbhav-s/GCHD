@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-nanjing-jiangnan-environmental-protection-industrial-park",
+  "url": "https://www.c40.org/case-studies/nanjing-jiangnan-environmental-protection-industrial-park/",
+  "title": "Nanjing Jiangnan Environmental Protection Industrial Park",
+  "summary": "This C40 case study describes “Nanjing Jiangnan Environmental Protection Industrial Park,” an urban initiative documented for Nanjing. It is included because it is located in the Global South. C40 describes the action this way: Nanjing Jiangnan Environmental Protection Industrial Park is a park hosting environmental protection businesses receiving majority support from the municipality of Nanjing, which…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nanjing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Nanjing",
+        "ucode": "CHN_0015_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nanjing",
+      "label": "Nanjing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Nanjing Jiangnan Environmental Protection Industrial Park is a park hosting environmental protection businesses receiving majority support from the municipality of Nanjing, which has the important task of organizing centralised disposal of domestic garbage and solid waste across the city.",
+    "measures": "Firstly, a domestic garbage incineration power plant was built. Since the start of its operation in 2015, by September 2017 it had disposed of 2.85 million tons of domestic garbage and more than 600,000 tons of landfill leachate, generating 1.05 billion kWh of power and achieving sales income of approximately 630 million yuan. It has made an important contribution to the disposal of biohazardous waste, and to the reduction and recycling of domestic garbage in Nanjing.\n Secondly, a landfill site was built as a supporting project to the garbage incineration power generation project. This is mainly used to deal with incinerator ash generated from the garbage incineration power plant. The designed capacity of the landfill is 220 ton/day (120 tons of slag and 100 tons of ash per day).\n Thirdly, a comprehensive slurry disposal centre was built. This solves the issue of construction slurry disposal in Nanjing and contributes to the reduction, bio-safety, stabilisation and resource utilisation of slurry.\n The programme will be accelerated with waste disposal at its heart. Key projects comprise: firstly, integrating the comprehensive disposal of solid waste and the emergency disposal of urban garbage, which, upon completion, will add capacity of 80,000 ton/year for hazardous waste disposal, and capacity of 1,500 ton/day for domestic garbage disposal. Secondly, the comprehensive disposal of hazardous solid waste, with incineration capacity of 30,000 ton/year, physicochemical treatment capacity of 30,000 ton/year, and safe fill capacity of 20,000 ton/year. Thirdly, battery recycling and regeneration, which will build a power battery cascade and lead-acid battery recycling and regeneration base.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "Firstly, a domestic garbage incineration power plant was built. Since the start of its operation in 2015, by September 2017 it had disposed of 2.85 million tons of domestic garbage and more than 600,000 tons of landfill leachate, generating 1.05 billion kWh of power and achieving sales income of approximately 630 million yuan. It has made an important contribution to the disposal of biohazardous waste, and to the reduction and recycling of domestic garbage in Nanjing.\n Secondly, a landfill site was built as a supporting project to the garbage incineration power generation project. This is mainly used to deal with incinerator ash generated from the garbage incineration power plant. The designed capacity of the landfill is 220 ton/day (120 tons of slag and 100 tons of ash per day).\n Thirdly, a comprehensive slurry disposal centre was built. This solves the issue of construction slurry disposal in Nanjing and contributes to the reduction, bio-safety, stabilisation and resource utilisation of slurry.\n The programme will be accelerated with waste disposal at its heart. Key projects comprise: firstly, integrating the comprehensive disposal of solid waste and the emergency disposal of urban garbage, which, upon completion, will add capacity of 80,000 ton/year for hazardous waste disposal, and capacity of 1,500 ton/day for domestic garbage disposal. Secondly, the comprehensive disposal of hazardous solid waste, with incineration capacity of 30,000 ton/year, physicochemical treatment capacity of 30,000 ton/year, and safe fill capacity of 20,000 ton/year. Thirdly, battery recycling and regeneration, which will build a power battery cascade and lead-acid battery recycling and regeneration base."
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/nanjing-jiangnan-environmental-protection-industrial-park/",
+    "publication_date": "2018-05-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27387",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=nanjing-jiangnan-environmental-protection-industrial-park&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

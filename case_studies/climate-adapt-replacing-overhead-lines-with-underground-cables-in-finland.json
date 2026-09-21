@@ -1,0 +1,149 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-replacing-overhead-lines-with-underground-cables-in-finland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/replacing-overhead-lines-with-underground-cables-in-finland",
+  "title": "Replacing overhead lines with underground cables in Finland",
+  "summary": "The electricity distribution operator Elenia invests in substantial underground cabling aiming for 75% by 2028 to meet outage requirements and adapt to climate change impacts such as extreme weather events. This enhances energy supply security and cost savings, supported by collaboration with telecommunications companies and technology integration. This case study considers a Finnish example of replacing overhead lines with underground cabling. The same strategy is also applied in other European countries. Elenia is the second largest electricity distribution system operator in Finland.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Finland",
+        "ucode": "FIN_V1",
+        "dcid": "country/FIN",
+        "iso3": "FIN"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tree fall",
+      "label": "tree fall"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Energy distribution",
+      "label": "Energy distribution"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "underground cabling",
+      "label": "underground cabling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wind storm",
+      "label": "wind storm"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "snow load",
+      "label": "snow load"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extreme events",
+      "label": "extreme events"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In order to adhere to the outage requirements of Finland’s Electricity Market Act, and to adapt to increasingly frequent and extreme weather events, distribution system operators such as Elenia are investing substantially in underground cabling. Since 2009, Elenia has focused on developing only weather-proofed distribution lines, including underground cabling. The weather-proofing efforts aim to improve security of supply and to promote local employment for underground cabling work for the period in question. Currently, 41% of the company’s cabling is underground, with a 75 % target for 2028.",
+    "measures": "Underground cabling is viewed as a technique of adapting electricity transmission and distribution systems to climate change since it protects assets from expected climate change impacts including storms and excessive snow loads. The installation of underground cabling involves three predominant techniques: placing cabling in concrete-reinforced troughs, placing the cables in underground tunnels, or directly burying the cables. In Finland, the technique used involves the construction of trenches ranging from around 0.45m to 1m depth, with the cabling then buried within the soil layer. By placing cabling underground, most of the adverse weather conditions that traditional transmission infrastructures are exposed to aboveground can be avoided. This refers largely to precipitation and windstorms, which can cause damage to overhead power lines either directly or indirectly through treefall, resulting in power outages. Underground cabling can alleviate the requirement for further and more frequent investments in transmission infrastructure maintenance and repairs. The expected benefits include a more secure energy supply with less instances of weather-related power outages, while also achieving cost savings in the long run due to reduced maintenance and repairs.",
+    "outcomes": "The key success factor for underground cabling is the availability of the correct technology for underground cabling, with regard to installation, monitoring and management. Elenia co-operates as much as possible with other underground cabling entities such as telecommunications companies to minimise disturbance to populations through digging activities, as well as reducing costs through collaboration. Although underground cabling could be exposed to new climate hazards, in particular from flooding and soil movements related to landslides, so far these risks remain hypothetical. Excavation due to other construction or maintenance activity represents a key risk of damage to installed underground cables. However, recent Elenia innovations include the application of digitisation and GIS technology to underground cables, with the aim of informing excavators as to the location of underground cables. Although there is no regional focus and the network area is treated consistently, during the first years Elenia focused on the highest density areas, with rural areas to follow.",
+    "cost_benefit": "In Finland, the planned investments by Elenia for 2018 are €140 million. The largest costs relate to installation, with a substantial portion of this spent on excavation. Elenia aims to minimize costs by partnering with telecommunications companies for joint excavation efforts where possible. Finland’s 7 th Communication to the UNFCCC estimates that total investments in distribution networks needed to ensure security of supply (including through underground cabling) will be €2,800 million. The benefits, although not quantified at this stage, will involve more secure energy supply, as well as job provision for excavation and installation work during the required time period. Additionally, there are benefits that are unrelated to climate change adaptation. These include lower visual impact and reduced accident risk e.g. fires and impact associated with broken or fallen cables. At 2018, a study on the social costs and benefits of underground cabling as a key adaptation measure was under review.",
+    "timeline": "The share of underground cabling in Elenia’s electricity network increased from 38 % in 2016 to 41 % in 2017. This rate gives an indication of the progress towards the target of 75 % by 2028. The implementation time for a particular project varies between several months and several years, depending in particular on the area covered and the length of cables (from a few kilometres up to several hundreds of kilometres). A typical underground cabling project takes 1-2 years, whereby the first year is normally dedicated to project selection and design, and the second year involves actual construction, commissioning and documentation.",
+    "lifetime": "It is difficult to establish the exact lifetime of the underground cables that Elenia is currently installing, since none have yet reached their end-of-life. The technical lifetime of underground cables is estimated to lie between 50 years and 70 years. The regulatory or economic lifetime may be slightly shorter.",
+    "stakeholders": "Elenia representatives suggested that the construction of weatherproof networks was a long-term process requiring openness and interaction both for the operational purposes and to create trust towards this long-term change. As a result, interaction with key stakeholders at various levels and in particular municipalities is embedded in Elenia’s operations. This interaction generally occurs in a collaborative atmosphere. As an example, in December 2016, Elenia carried out a popular event for local residents in Ruovesi concerning the cabling project. Elenia involves different stakeholders in different phases of the construction as much as possible. For example, Elenia reports meetings with land owners, authorities and the general public, intensive co-operation with local and regional media and also social media to give open information to their stakeholders.",
+    "legal_context": "The Finnish Electricity Market Act was updated in 2013 to stipulate that by 2028, energy networks must be designed so that storms or snow loads do not cause blackouts lasting more than 6 hours in town areas or more than 36 hours in other areas. This legislation resulted from Finland’s history of problems with severe power outages due to storms and heavy snow loads. Although electricity distribution system operators are able to decide themselves how to tackle this requirement, this legislation was the main driver of underground cabling efforts in the country. Elenia is not the only company undertaking underground cabling efforts in Finland but rather all electricity companies in the country are giving it due consideration, showing significant changes in the sector."
+  },
+  "point": {
+    "lat": 62.9152330395,
+    "lon": 25.6640625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "elenia.fi",
+      "url": "http://www.elenia.fi/sahko/saavarma",
+      "role": "contextual_input"
+    },
+    {
+      "name": "unfccc.int",
+      "url": "http://unfccc.int/files/national_reports/annex_i_natcom/submitted_natcom/application/pdf/952371_finland-nc7-1-fi_nc7_final.pdf",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/replacing-overhead-lines-with-underground-cables-in-finland",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "9465880243be48d9b3556cf649c4ee17",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/replacing-overhead-lines-with-underground-cables-in-finland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:16+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

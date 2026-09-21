@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-seattle-finished-with-fossil-fuels-city-electrifies-vehicles",
+  "url": "https://www.c40.org/case-studies/cities100-seattle-finished-with-fossil-fuels-city-electrifies-vehicles/",
+  "title": "Cities100: Seattle – Finished with Fossil Fuels, City Electrifies Vehicles",
+  "summary": "This C40 case study describes “Cities100: Seattle – Finished with Fossil Fuels, City Electrifies Vehicles,” an urban initiative documented for Seattle. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: By transitioning the city's transportation sector from oil to electricity, Seattle is one step closer to becoming carbon neutral. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seattle",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Washington",
+        "ucode": "USA_0049_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seattle",
+      "label": "Seattle"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Seattle, the transportation sector accounts for 60% of greenhouse gas emissions, which is why the city is jump-starting its transition from oil to electricity, with the ultimate goal of eliminating emissions from transportation in 2050.",
+    "measures": "Drive Clean Seattle is the city's strategy to reduce greenhouse gas emissions and localized air pollution in the highly emitting transport sector. Leading by example, Seattle wants at least 30% of light-duty vehicles in the municipal fleet to be electric by 2030 and to halve emissions from the fleet by 2050. To accelerate progress in the privately owned vehicle sector, the city is installing 20 fast-charging stations, and is establishing rules to allow curbside EV charging. Seattle is also part of a $10-billion, multi-city demand aggregation agreement designed to spur increased EV manufacturing. Regionally, Seattle is also expanding electric transit via a $50-billion light-rail expansion. And by partnering with the private sector, the city hopes to facilitate a record-breaking purchase of all-electric transit buses. By driving the transition from oil to electricity in transportation, Seattle moves closer to its goal of becoming carbon neutral by 2050.\n Economic Benefits – In Seattle's municipal fleet, each hybrid vehicle replaced with an EV saves $6,929 in total cost of ownership. With 150 EVs in the fleet, and at least 100 purchases planned for 2017, the city saves $1.7 million.\n Health Benefits – Air quality improves with the shift to electric vehicles as pollutants from gasoline and diesel combustion are reduced.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-seattle-finished-with-fossil-fuels-city-electrifies-vehicles/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27347",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-seattle-finished-with-fossil-fuels-city-electrifies-vehicles&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

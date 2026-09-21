@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-raising-awareness-of-sustainability-in-an-urban-society",
+  "url": "https://www.c40.org/case-studies/raising-awareness-of-sustainability-in-an-urban-society/",
+  "title": "Raising awareness of sustainability in an urban society",
+  "summary": "This C40 case study describes “Raising awareness of sustainability in an urban society,” an urban initiative documented for Heidelberg. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Climate protection and sustainability are central to the urban development of Heidelberg. All the city’s municipal buildings have been constructed or retrofitted…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Heidelberg",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": null,
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Baden-Württemberg",
+        "ucode": "DEU_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Heidelberg",
+        "ucode": "DEU_0001_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "heidelberg",
+      "label": "Heidelberg"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Climate protection and sustainability are central to the urban development of Heidelberg. All the city’s municipal buildings have been constructed or retrofitted to the highest efficiency standards. Over the last seven years apartments for nearly 4,000 people were constructed in a net-zero district. The district heating system used by the local utilities is one of the greenest in Germany. And trams, charging stations for electric vehicles and cycling paths are continuously improved. However, if you want to turn this positive spirit from the last few decades into a something enduring you need to have the broad support of the citizens. Therefore, for many years the municipal administration of Heidelberg has carried out a number of projects to raise awareness of sustainability, starting with the youngest citizens – in childcare centres.",
+    "measures": "Climate protection and sustainability are central to the urban development of Heidelberg. All the city’s municipal buildings have been constructed or retrofitted to the highest efficiency standards. Over the last seven years apartments for nearly 4,000 people were constructed in a net-zero district. The district heating system used by the local utilities is one of the greenest in Germany. And trams, charging stations for electric vehicles and cycling paths are continuously improved. However, if you want to turn this positive spirit from the last few decades into a something enduring you need to have the broad support of the citizens. Therefore, for many years the municipal administration of Heidelberg has carried out a number of projects to raise awareness of sustainability, starting with the youngest citizens – in childcare centres.\n Sustainability as part of teaching in municipal childcare centres \n Following a decision of the local council in 2012, sustainable development education has been a mandatory element of daily life at municipal childcare centres (around 50% of all childcare centres in Heidelberg). A good example of this is that 30% of the nutrition provided has to be produced in an ecological and socially fair way. By exploring this aspect of food, children begin to understand the importance of responsible interaction between nature, animals, humans and resources. The same is true for many other activities, like playing in the garden, looking for insects and birds and learning why it is important to switch lights off. Additionally, the city is encouraging and training non-municipal childcare centre operators (such as churches and private organisations) to implement these aspects into their own teaching.\n Sustainability as a part of pupils’ daily life \n On leaving kindergarten, children enter elementary school. Via a booklet, the administration informs parents about this new and exciting area of pupils’ education. Sustainability and climate protection form a key part of this booklet, and parents are encouraged to let their children walk to school. This is possible as, following the principle of “Short legs – short ways”, there are schools in Heidelberg in walking distance of every residential area. If parents are worried about the safety of their children, they can use or start up a “walking school bus”. Children walk to school in a group following a defined route. At fixed “bus stops”, the groups pick up other children to join the group. On their route, one “bus driver” accompanies the kids, in most cases a mother or a father of one of the children. This system exists at many schools in Heidelberg.\n Walking to school leads to better health through activity, increases safety as fewer cars drive and park around the schools, reduces fuel consumption, improves air quality and, finally yet importantly, educates children about their mobility behaviour.\n Additionally, schools can join the E-Team project. The municipal administration supports schools financially, which commit to a sustainable education by implementing mobility concepts, organising energy-efficiency projects or participating in waste prevention events. Schools receive additional grants when they manage to reduce their energy consumption through responsible heating, turning the lights off and other non-investment-related measures.\n Educating pupils also means educating their parents. Children talk to their parents about things they learned at school. This can often lead to new thinking about sustainability in their social surroundings.\n The municipal administration not only directly obliges teachers and educators to teach sustainability, it also offers continuing education in close cooperation with the University of Heidelberg, the Heidelberg Center for the Environment and particularly with the Heidelberg University for Education.\n Never stop learning \n Young adults can make their voices heard on sustainability at the biannual youth climate summit. There, they have the chance to discuss their ideas for a sustainable development with political and business leaders (such as the mayor and the chief executive of the local utilities). \n Similar to the E-Team projects at schools, the City of Heidelberg supports sports clubs when they invest in energy-efficient products or organise events dedicated to sustainability. Clubs work perfectly as accelerators, as they play a major role in German communities. Such cooperation has, for example, led to the replacement of conventional halogen lamps with LEDs at a soccer field and an indoor tennis centre. The effect has been a 50% reduction in electricity demand. It may also have prompted club members to consider replacing their lamps at home.\n The political background \n To implement such a variety of projects in this depth, the administration needs the strong support of the local parliament. By signing the Charter of European Cities & Towns Towards Sustainability (Aalborg Charter) in 1994 the parliament and administration of the City of Heidelberg committed to sustainable development. Multiple decisions have followed this initial commitment, the latest being in 2016 with the resolution to commit to the UN sustainable development goals. Every administration proposal to the parliament is checked for its compliance with the sustainable development goals. Biannual reports document the success of projects like those presented above. In 2017, Heidelberg won recognition by UNESCO for the fourth time for its exemplary implementation of education for sustainable development.\n Through all these measures, climate protection, clean air, preservation of species and other aspects of sustainability are established in urban society. And, by starting with the youngest, the city builds a path into a sustainable future.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/raising-awareness-of-sustainability-in-an-urban-society/",
+    "publication_date": "2018-05-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27384",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=raising-awareness-of-sustainability-in-an-urban-society&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

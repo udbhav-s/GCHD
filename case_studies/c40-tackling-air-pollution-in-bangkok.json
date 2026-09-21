@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-tackling-air-pollution-in-bangkok",
+  "url": "https://www.c40.org/case-studies/tackling-air-pollution-in-bangkok/",
+  "title": "Tackling Air Pollution in Bangkok",
+  "summary": "This C40 case study describes “Tackling Air Pollution in Bangkok,” an urban initiative documented for Bangkok. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The successful solution to the air pollution problem in Bangkok Air quality in Bangkok has gradually improved and for the most…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bangkok",
+      "adm0": {
+        "name": "Thailand",
+        "ucode": "THA_V1",
+        "dcid": null,
+        "iso3": "THA"
+      },
+      "adm1": {
+        "name": "Bangkok",
+        "ucode": "THA_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bangkok",
+      "label": "Bangkok"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Air quality in Bangkok has gradually improved and for the most part, the number of air pollutants meet the Thailand ambient air quality standard. This success can be attributed to the combined effort of all sectors and stakeholders. Various government, private, academic and public sectors cooperated to continually mitigate air pollution. In particular, they worked to solve problems at the source by raising the standard of pollution emissions from automobiles and the quality of fuel. However, at present, some areas in Bangkok are confronted with PM2.5 air pollution, with 60% of pollutants coming from diesel-engine automobiles, 35% from open burning, and 5% due to other causes. These sources of emissions present the main challenge that needs to be addressed. Additionally, the meteorological condition of still air and calm wind has trapped dust particles in the air. The situation may get more severe if there is a lack of efficient solution planning for the future. It is also necessary for stakeholders to cooperate in solving the problems. Therefore, the government has announced that the challenge of the PM2.5 air pollution phenomenon is on the national agenda and all stakeholders must proceed with effective action to improve air quality for Thai citizens and visitors.",
+    "measures": "Air quality in Bangkok has gradually improved and for the most part, the number of air pollutants meet the Thailand ambient air quality standard. This success can be attributed to the combined effort of all sectors and stakeholders. Various government, private, academic and public sectors cooperated to continually mitigate air pollution. In particular, they worked to solve problems at the source by raising the standard of pollution emissions from automobiles and the quality of fuel. However, at present, some areas in Bangkok are confronted with PM2.5 air pollution, with 60% of pollutants coming from diesel-engine automobiles, 35% from open burning, and 5% due to other causes. These sources of emissions present the main challenge that needs to be addressed. Additionally, the meteorological condition of still air and calm wind has trapped dust particles in the air. The situation may get more severe if there is a lack of efficient solution planning for the future. It is also necessary for stakeholders to cooperate in solving the problems. Therefore, the government has announced that the challenge of the PM2.5 air pollution phenomenon is on the national agenda and all stakeholders must proceed with effective action to improve air quality for Thai citizens and visitors.\n\nRecognising the importance of ameliorating PM2.5 air pollution, the Bangkok Metropolitan Administration (BMA), has stipulated many policies to observe and monitor real time dust through PM2.5 measurement stations. The data is reported on www.bangkokairquality.com , www.prbangkok.com , the Facebook of the Air Quality, the Noise Management Division, the Environment Department, the Public Relations Office, the BMA, the website www.air4thai.com of the Pollution Control Department, and the Ministry of National Resources and Environment. Furthermore, the BMA has cooperated with other related agencies to implement the measures to address the PM2.5 problem. They are as follows:\n\nThe objective is to observe and monitor the situation, analyze data in the matter of commanding the operational units, integrate relevant agencies, circulate information on the PM2.5 situation, and provide guidelines on how to prevent and reduce health effects via social media channels.\n The Committee has overseen short term operations, including: \n Increasing the frequency of road cleaning and water sprinkling to trap dust\n Increasing checkpoints and prohibiting all types of automobiles that emit black smoke\n Coordinating to facilitate traffic congestion and promoting public transport systems\n Prohibiting waste burning and open burning\n Strictly controlling the dust from Skytrain construction\n Controlling and solving problems associated with dust from building construction\n Increasing green areas\n Controlling pollution emissions from industrial factories to meet the standard\n Distributing surgical masks and information on how to prevent PM2.5, particularly for children, patients, and elders, etc\n For the long term, the BMA has implemented the measures, namely: \n Improving the pollutant emission standard of automobiles and quality of fuel\n Developing the network for multi-module public transport systems\n Promoting the utilisation of public transport systems\n Providing “Park&Ride” buildings to promote public transport systems\n Increasing green areas\n\nThe objective is to monitor, report, and announce the situation on PM2.5 air pollution, as well as to unite efforts to solve the problem in a timely manner. In case of PM2.5 exceeding the Thailand ambient air quality standard, the Center will notify the district offices in the areas and relevant agencies to take action immediately.",
+    "outcomes": "Air quality in Bangkok has gradually improved and for the most part, the number of air pollutants meet the Thailand ambient air quality standard. This success can be attributed to the combined effort of all sectors and stakeholders. Various government, private, academic and public sectors cooperated to continually mitigate air pollution. In particular, they worked to solve problems at the source by raising the standard of pollution emissions from automobiles and the quality of fuel. However, at present, some areas in Bangkok are confronted with PM2.5 air pollution, with 60% of pollutants coming from diesel-engine automobiles, 35% from open burning, and 5% due to other causes. These sources of emissions present the main challenge that needs to be addressed. Additionally, the meteorological condition of still air and calm wind has trapped dust particles in the air. The situation may get more severe if there is a lack of efficient solution planning for the future. It is also necessary for stakeholders to cooperate in solving the problems. Therefore, the government has announced that the challenge of the PM2.5 air pollution phenomenon is on the national agenda and all stakeholders must proceed with effective action to improve air quality for Thai citizens and visitors.\n\nPM2.5 is a result of the same greenhouse gas emitters that affect health and the environment. The BMA, consequently, has unified policies and measures for continuing to monitor and solve the PM2.5 problem and greenhouse gas emissions in terms of cost reduction and co-benefit, and lowering the impact on people’s health, especially vulnerable groups such as children, patients, and elders. The BMA undertakes many activities such as evaluating and prohibiting automobiles with black smoke, promoting public transport, maintaining automobile engines to mitigate air pollution emission and save energy, managing traffic congestion, upgrading the standards of emissions from automobiles and quality of fuel, controlling burning in the open air, and increasing green areas, etc. \n The BMA strives to emphasise measures to control PM2.5 and provides knowledge on the prevention of PM2.5. Also, the BMA improves the channels to distribute information on air quality to the citizens to help them understand issues with air quality, and to create a cooperative network. The BMA’s air quality report application, AirBKK, has been developed to display the air quality index and covers the areas without air quality monitoring stations. The results are shown in colours specified by air quality index of the Pollution Control Department. The application also provides guidelines and information on the prevention of PM2.5. Information to follow Air Quality Index (AQI) at the actual locations can be accessed in real-time by downloading the AirBKK application available for both Android and iOS operating systems. \n According to the cooperative network for solving the PM2.5 problem under the dust crisis circumstances (December – April), the amount of PM2.5 has been gradually decreasing. The annual average of PM2.5 in Bangkok area in the year 2018 was 27 µg/m3. This was reduced to 26 µg/m3 in 2019 (the Pollution Control Department, 2020). However, due to the annual average standard, the amount of PM2.5 should not exceed 25 µg/m3. This highlights the ongoing challenge for the BMA and stakeholders to meet the Thailand ambient air quality standard.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "This is to ensure the relevant agencies or authorities can promptly take action. \n Some stakeholders include the Pollution Control Department, Department of Health, Department of Disease Control, Thai Meteorological Department, Department of Land Transport, Metropolitan Police Bureau, Traffic Police, the 1st Army Area, etc. These agencies have provided management guidelines for the governor to take action under the level-three situation of PM2.5 with the emphasis on solving the pollution at the original sources and lessening the impact on people’s health through the following measures:\n Controlling automobiles\n Controlling industrial factories\n Controlling construction\n Controlling open burning\n Monitoring air quality near schools\n Distributing surgical masks\n This action plan is initiated under the National Agenda Action Plan to eradicate PM2.5 between December-April, attempting to ensure the number of days of PM2.5 does not exceed the Thailand air quality standards during the critical period increasing by 5% per year. Each measure will be implemented based on the level of PM2.5 and the potential impact on people’s health.",
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/tackling-air-pollution-in-bangkok/",
+    "publication_date": "2020-12-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27520",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=tackling-air-pollution-in-bangkok&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-04-19T16:22:16",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

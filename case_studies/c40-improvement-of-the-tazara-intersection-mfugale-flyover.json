@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-improvement-of-the-tazara-intersection-mfugale-flyover",
+  "url": "https://www.c40.org/case-studies/improvement-of-the-tazara-intersection-mfugale-flyover/",
+  "title": "Improvement of the Tazara Intersection (Mfugale Flyover)",
+  "summary": "This C40 case study describes “Improvement of the Tazara Intersection (Mfugale Flyover),” an urban initiative documented for Dar es Salaam. It is included because it is located in the Global South. C40 describes the action this way: Dar es Salaam has completed a project to improve the transit through the Tazara Intersection toward the Nyerere road through construction of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dar es Salaam",
+      "adm0": {
+        "name": "United Republic of Tanzania",
+        "ucode": "TZA_V1",
+        "dcid": null,
+        "iso3": "TZA"
+      },
+      "adm1": {
+        "name": "Dar-Es-Salaam",
+        "ucode": "TZA_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dar-es-salaam",
+      "label": "Dar es Salaam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Dar es Salaam has completed a project to improve the transit through the Tazara Intersection toward the Nyerere road through construction of a fly over (overpass). The project aimed at mitigating the congestion of the Tazara intersection to benefit both private and public transport users, reduce emissions and improve public transit flow through the area.",
+    "measures": "Image taken from: constructionreviewonline.com/2018/09/tanzanias-president-to-induct-us-45m-tazara-flyover/ \n What is the innovation? How does it work? \n The project aimed at providing a solution to congestion problems at Dar es Salaam’s intersections. Tazara is one the city’s notably busy intersections, especially in the mornings and evenings. It is the main road to the Julius Nyerere International Airport and serves as a connection to other city areas.\n The overpass allows vehicles in one road (the Nyerere road) to pass over the intersection directly, thus reducing congestion by an estimated 80%. Dar es Salaam residents who use the Taraza intersection are now spending their time more productively instead of waiting in traffic jams. The transit time of public buses connecting peripheral areas to the city centre has also been significantly reduced. There are also social benefits to this project, as family members who commute to-and-from work by passing through the intersection can now spend less free time in transit and more time together.\n What are the CO2 reduction goals/achievements? \n The project successfully reduced the level of congestion and shortened transit journeys through the intersection. Other key achievements include:\n CO2 emissions from congestion have been reduced. Since the Tazara intersection is the main link to the city’s port and airport, the amount of time needed for haulage has been reduced;\n The transit time of public buses connecting peripheral areas to the city centre has been significantly reduced;\n As the Tazara intersection is an important node on the way to the city landfill site, smooth trips by solid waste collection trucks to site have increased around 20%.\n A special study would be needed in order to estimate the amount of GHG emissions reduced and quantify other co-benefits. \n Next Steps \n The Dar es Salaam Urban Transport Master Plan 2018 has initiated other similar projects. These include the improvements on the Ubungo interchange, the Chang’ombe flyover and the Aghakan – Osterbay bridge which are currently ongoing projects.\n Links to further Information \n Dar es Salaam Transport Policy and System Development Master Plan \n Prepatory Survey on the Project For Improvement of Tazara Intersection in The United Republic of Tanzania Final Report \n Contact Details \n Shedrack Maximillan\nHead of Waste Management Unit\nDar es salaam City Council\nShedrack_Maximilian@yahoo.co.uk\nTel: +255754944504",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/improvement-of-the-tazara-intersection-mfugale-flyover/",
+    "publication_date": "2019-12-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27456",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=improvement-of-the-tazara-intersection-mfugale-flyover&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-17T13:10:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

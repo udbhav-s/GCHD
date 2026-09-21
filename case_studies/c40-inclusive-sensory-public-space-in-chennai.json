@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-inclusive-sensory-public-space-in-chennai",
+  "url": "https://www.c40.org/case-studies/inclusive-sensory-public-space-in-chennai/",
+  "title": "Inclusive & Sensory Public Space in Chennai",
+  "summary": "This C40 case study describes “Inclusive & Sensory Public Space in Chennai,” an urban initiative documented for Chennai. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The park department of Greater Chennai Corporation has established a model Sensory Park at Santhome on the land belonging to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The park department of Greater Chennai Corporation has established a model Sensory Park at Santhome on the land belonging to…",
+    "measures": "The park department of Greater Chennai Corporation has established a model Sensory Park at Santhome on the land belonging to Greater Chennai Corporation. This park was built under the Chennai Smart City Project, measuring around 1,500 square meters. It is a way forward with inclusive governance and recreational infrastructure for the citizens of Chennai. The park excels with innovative standards. The design and layout of the park provide a stimulating journey through the senses and heighten awareness that brings positive learning experiences.\n A sensory park, as the name implies, focuses on features that attract multiple senses of an individual. These are specialised parks for all visitors with a special emphasis on children with disabilities. The purpose of such an initiative is to provide individual and combined sensory opportunities to users who may not have had such an experience thus far.\n A sensory garden, for example, contains features that are accessible to differently-abled individuals. These features include scented and edible plants, tactile sculptures, sculpted handrails, water features designed to make sound and wash over the hands, textured touch-pads, magnifying-glass screens, Braille signage, and audio induction loop descriptions. Depending on the user group, other provisions may further integrate sound and music, more centrally to combine the needs of younger users with their respective sensory access.\n Some of the features of Sensory Park include:\n Encourage children with a sensory processing issue\n Create confidence in children with mobility impairment\n Provide a platform for children with visual impairment to touch and feel\n Offer essential elements in an inclusive play space\n Meet the evolving needs of a child required for his all-round growth\n Tactile feedback platforms that respond to touch\n Specially designed herb garden having plants with unique fragrances\n Light and sound show\n Braille signboards on all exhibits",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-sensory-public-space-in-chennai/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27526",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-sensory-public-space-in-chennai&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:57:50",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

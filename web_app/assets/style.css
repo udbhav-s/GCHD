@@ -449,6 +449,157 @@ body {
 }
 .exposure-method-p:last-child { margin-bottom: 0; }
 
+/* ── Case-study explorer ── */
+.case-study-filters {
+  padding: 12px 14px 4px;
+  background: var(--panel-h);
+  border-bottom: 1px solid var(--border);
+}
+.case-study-filter { min-width: 0; margin-bottom: 10px; }
+.case-study-filter-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.case-study-chip-select .dash-dropdown-value {
+  background: rgba(28,171,226,0.12);
+  color: #0e7ab5;
+  border-radius: 12px;
+  padding: 2px 7px;
+}
+.case-study-result-count {
+  padding: 8px 16px;
+  color: var(--lo);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+}
+.case-study-list { padding: 10px; }
+.case-study-card {
+  margin-bottom: 10px;
+  padding: 12px;
+  background: white;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(17,24,39,0.05);
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+.case-study-card:hover,
+.case-study-card:focus {
+  border-color: rgba(28,171,226,0.55);
+  box-shadow: 0 5px 16px rgba(17,24,39,0.1);
+  transform: translateY(-1px);
+  outline: none;
+}
+.case-study-card-unmapped { border-left-color: var(--border2); }
+.case-study-title {
+  color: var(--hi);
+  font-size: 0.79rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.case-study-summary {
+  display: -webkit-box;
+  margin-top: 6px;
+  overflow: hidden;
+  color: var(--mid);
+  font-size: 0.68rem;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.case-study-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px; }
+.case-study-tag {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 2px 6px;
+  border-radius: 9px;
+  font-size: 0.56rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+/* SDG pills use the official UN goal colours, from the UN SDG guidelines
+   (E_SDG_Guidelines_Sep2023). White text on every goal, as the UN icons do. */
+.case-study-tag-sdg { background: #7f8a99; color: #fff; }
+.case-study-tag-sdg-1  { background: #E5243B; }
+.case-study-tag-sdg-2  { background: #DDA63A; }
+.case-study-tag-sdg-3  { background: #4C9F38; }
+.case-study-tag-sdg-4  { background: #C5192D; }
+.case-study-tag-sdg-5  { background: #FF3A21; }
+.case-study-tag-sdg-6  { background: #26BDE2; }
+.case-study-tag-sdg-7  { background: #FCC30B; }
+.case-study-tag-sdg-8  { background: #A21942; }
+.case-study-tag-sdg-9  { background: #FD6925; }
+.case-study-tag-sdg-10 { background: #DD1367; }
+.case-study-tag-sdg-11 { background: #FD9D24; }
+.case-study-tag-sdg-12 { background: #BF8B2E; }
+.case-study-tag-sdg-13 { background: #3F7E44; }
+.case-study-tag-sdg-14 { background: #0A97D9; }
+.case-study-tag-sdg-15 { background: #56C02B; }
+.case-study-tag-sdg-16 { background: #00689D; }
+.case-study-tag-sdg-17 { background: #19486A; }
+/* Goals 7 and 6 are light enough that white text loses contrast. */
+.case-study-tag-sdg-6,
+.case-study-tag-sdg-7 { color: #1d2430; }
+.case-study-tag-hazard { background: #fff1e6; color: #b45309; }
+.case-study-tag-region { background: #f0f1f3; color: #59616e; }
+.case-study-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--lo);
+  font-size: 0.6rem;
+}
+.case-study-source-link,
+.case-study-popup a { color: var(--cyan); text-decoration: none; font-weight: 600; }
+.case-study-source-link:hover,
+.case-study-popup a:hover { text-decoration: underline; }
+.case-study-empty { padding: 24px 10px; color: var(--lo); font-size: 0.72rem; text-align: center; }
+
+.case-study-pagination {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 12px;
+  background: rgba(255,255,255,0.96);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+}
+.case-study-pagination button {
+  padding: 5px 9px;
+  background: white;
+  color: var(--cyan);
+  border: 1px solid rgba(28,171,226,0.45);
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.64rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.case-study-pagination button:disabled {
+  color: var(--lo);
+  border-color: var(--border);
+  cursor: default;
+}
+.case-study-pagination span {
+  color: var(--mid);
+  font-size: 0.62rem;
+  font-weight: 600;
+}
+.case-study-popup { max-width: 240px; font-family: 'Source Sans Pro', sans-serif; }
+.case-study-popup-title { color: var(--hi); font-size: 0.78rem; font-weight: 700; line-height: 1.35; }
+.case-study-popup-location { margin: 5px 0 8px; color: var(--mid); font-size: 0.66rem; }
+
+.leaflet-interactive[fill="#1CABE2"] { cursor: pointer; }
+
 /* ── AI auth gate ── */
 .ai-auth-card {
   padding: 24px 16px;

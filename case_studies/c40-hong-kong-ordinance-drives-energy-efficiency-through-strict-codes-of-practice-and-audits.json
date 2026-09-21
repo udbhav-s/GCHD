@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-hong-kong-ordinance-drives-energy-efficiency-through-strict-codes-of-practice-and-audits",
+  "url": "https://www.c40.org/case-studies/hong-kong-ordinance-drives-energy-efficiency-through-strict-codes-of-practice-and-audits/",
+  "title": "Hong Kong Ordinance Drives Energy Efficiency through Strict Codes of Practice and Audits",
+  "summary": "This C40 case study describes “Hong Kong Ordinance Drives Energy Efficiency through Strict Codes of Practice and Audits,” an urban initiative documented for Hong Kong, China. It is included because it is located in the Global South. C40 describes the action this way: In 2008, the Chief Executive of the Government of the Hong Kong Special Administrative Region announced their intention to support a low…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2008, the Chief Executive of the Government of the Hong Kong Special Administrative Region announced their intention to support a low carbon economy. The Buildings Energy Efficiency Ordinance (BEEO) was subsequently legislated as a major government measure for achieving this goal. The BEEO seeks to drive energy efficiency through stringent codes of practice and energy audits, and targets most public and private commercial buildings in Hong Kong, excluding small and historic buildings.",
+    "measures": "Image provided by The Government of The Hong Kong Special Administrative Region. Copyright ©2014 \n Summary \nIn 2008, the Chief Executive of the Government of the Hong Kong Special Administrative Region announced their intention to support a low carbon economy. The Buildings Energy Efficiency Ordinance (BEEO) was subsequently legislated as a major government measure for achieving this goal. The BEEO seeks to drive energy efficiency through stringent codes of practice and energy audits 1 , and targets most public and private commercial buildings in Hong Kong, excluding small and historic buildings. The ordinance covers new construction and major retrofits of existing commercial buildings; Registered Energy Assessors (REA) play an essential role in executing the ordinance, by certifying compliance of building service design and conducting energy audits. The BEEO was unveiled in December 2010, and was fully implemented by September 2012.\n What is it? \nThe Building Energy Efficiency Ordinance (BEEO) is a Hong Kong government measure aimed at saving energy and carbon emissions, and fostering the development of a low carbon economy through the enforcement of strict codes of practice and audits.\n How does it work? \nBEEO comprises three central elements:\n Building Energy Code (BEC):\n New construction and existing buildings undergoing major retrofits are required to comply with BEC minimum standards and requirements for four key building service installations: air-conditioning, electrical, lift and escalators and lighting.\n Energy Audit Code (EAC):\n An energy audit must be conducted every ten years for the key building service installations in commercial buildings and in commercial components of composite buildings (e.g. shopping centres). The building’s energy audit report then needs to be publically displayed. \n Registered Energy Assessors (REA):\n Certified REAs are required to process the BEC certification and energy audit works required under the ordinance. REAs are not necessarily third parties and may be direct staff of the developers, building owners or business tenants. Submissions from such REAs therefore function as a type of self-reporting mechanism.\n A six months grace period was initially given to building owners to encourage compliance with the BEEO. At this stage, the main focus of the BEEO is the prosecution and investigation of any non-compliance.\n CO2 reduction \nThe BEEO was enacted to enable the promotion of building energy efficiency under a regulatory framework. The requirement to carry out an energy audit was also included to trigger a change in energy consumption behaviour.\n The results expected for the first 10 years of implementation are:\n Energy savings of around 2.8 billion kWh for new buildings.\n 1.96 million tonnes CO2 emissions reductions.\n Given that the BEEO was only launched in 2012, evidence for evaluating its effectiveness against national climate targets is currently limited. Nevertheless, two main impacts are expected from the programme:\n Overcoming split-incentives 2 between building owners and tenants, by mandating building owners to improve their buildings, thus freeing tenants from the responsibility of sharing the cost of retrofit works.\n Increasing community expectations towards building energy efficiency, by setting minimum requirements for energy efficiency in four key building service installations.\n Application \n As there are more than 40,000 existing buildings in Hong Kong, reaching out to these building owners is challenging given the current resources of the BEEO enforcement team. Nevertheless, the reliance on REAs to certify the energy efficiency of buildings and to conduct energy audits has been a successful technique for dealing with this shortfall in resources.\n Further information \nTo find out more about Hong Kong’s BEEO, the programme’s success factors, challenges and lessons learned please refer to the report Urban Efficiency: A Global Survey of Building Energy Efficiency Policies in Cities , launched by the Tokyo Metropolitan Government and C40 in late 2014 and updated in May 2015.\n ______________________________________________________________________________\n 1 The inspection, survey or examination of a building or facility to identify current performance and efficiency improvement opportunities.\n 2 These occur where both the building owner and tenant are reluctant to making a large initial investment to improve building energy efficiency, as the benefits associated with the resulting energy savings are believed to accrue to the other party.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/hong-kong-ordinance-drives-energy-efficiency-through-strict-codes-of-practice-and-audits/",
+    "publication_date": "2015-11-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27058",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hong-kong-ordinance-drives-energy-efficiency-through-strict-codes-of-practice-and-audits&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

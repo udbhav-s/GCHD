@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-waste-to-art-india-s-first-tyre-park-in-kolkata",
+  "url": "https://www.c40.org/case-studies/waste-to-art-india-s-first-tyre-park-in-kolkata/",
+  "title": "Waste to Art: India’s first tyre park in Kolkata",
+  "summary": "This C40 case study describes “Waste to Art: India’s first tyre park in Kolkata,” an urban initiative documented for Kolkata. It is included because it is located in the Global South. C40 describes the action this way: With the aim to turn waste into art, the West Bengal Transport Corporation (WBTC) has planned to launch India’s first…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With the aim to turn waste into art, the West Bengal Transport Corporation (WBTC) has planned to launch India’s first…",
+    "measures": "With the aim to turn waste into art, the West Bengal Transport Corporation (WBTC) has planned to launch India’s first Tyre Park in Kolkata. \n Discarded tyres and scraps are usually piled up at Kolkata bus depots, and due to the lack of proper disposal and exposure to rain, these waste piles can become a health hazard. \n To manage this, the in-house WBTC team has collected the discarded items and have reworked and converted the waste into swings, chairs, tables and other colourful, eye-catching art to be featured in the park. The tyres have also been painted with some of the city’s symbolic structures and transport systems to increase the appeal of the park to the public. \n The Tyre Park will be located at the esplanade in the city and will cater to the public with the addition of a café, music, and a space to relax amidst the hustle of the busy city. \n The introduction of Tyre Park makes a case for a circular economy through a ‘Recycling & Reuse of Waste’ approach. Initially, WBTC would give these tyres away for disposal and partially sell them to scrap dealers for a paltry sum. Given this new approach, WBTC is also able to generate revenue by charging a small entrance fee to the facility which was established by WBTC employees. \n Tyre Park will have a small café, music, and it will be a little space for people to sit, relax and enjoy the various craftsmanship made by only tyres. From the esplanade, the people can also ride on the Tram Library that runs on Esplanade Shyam-Bazar route. Also, they can see Smarnika nearby, which has some old tram archives.\n Kolkata To Have India’s First Tyre Park; Art To Be Created Out Of Waste Tyres",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/waste-to-art-india-s-first-tyre-park-in-kolkata/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27528",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=waste-to-art-india-s-first-tyre-park-in-kolkata&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:51:15",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-chicago-adsorptive-playgrounds-foster-social-cohesion",
+  "url": "https://www.c40.org/case-studies/cities100-chicago-adsorptive-playgrounds-foster-social-cohesion/",
+  "title": "Cities100: Chicago – Adsorptive Playgrounds Foster Social Cohesion",
+  "summary": "This C40 case study describes “Cities100: Chicago – Adsorptive Playgrounds Foster Social Cohesion,” an urban initiative documented for Chicago. It is included because it addresses river flood hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Revitalizing school lots to capture stormwater reduces the risk of flooding in Chicago’s poorest neighborhoods, while fostering community engagement. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chicago",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Illinois",
+        "ucode": "USA_0014_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chicago",
+      "label": "Chicago"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With climate change causing new rainfall patterns, flooding risks for poor communities have increased to new levels. In the last eight years, the city has experienced four storms exceeding the rainfall amount of a “10-year-storm.” Space to Grow mitigates the problem by providing green infrastructure to soak up stormwater.",
+    "measures": "Launched in 2013, Space to Grow has revolutionized everyday asphalt school lots into green stormwater infrastructure playgrounds that serve as educational amenities and community gathering spaces. The project targets low-income areas facing flood risks as well as social and economic challenges. The design focuses on capturing stormwater, with the city’s current infrastructure unable to withstand the new rainfall patterns caused by climate change. By redesigning playgrounds, the project aims to reduce flood risk in the surrounding school neighborhoods, each designed to manage a 24-hour, 100-year storm, exceeding requirements in Chicago’s Stormwater Management Ordinance. At the same time, outdoor classrooms, vegetable gardens, and sporting facilities promote environmental education, social engagement, and physical activity. Access is provided to families and the community outside school hours, fully utilizing the new spaces. Overall, six school lots have been transformed by Space to Grow and 28 more are expected to be completed by 2019.\n Environmental Benefits – Damage from flooding events and land subsidence are expected to be reduced.\n Social Benefits – With 90% of the students served by the project from low-income families, Space to Grow fosters social connections and builds cohesion within communities by providing new and alternative meeting points.\n Economic Benefits – Due to the implementation of Space to Grow, property values in surrounding neighborhoods are expected to increase.\n Health Benefits – Running tracks, permeable turf fields, and basketball courts aim to reduce obesity.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-chicago-adsorptive-playgrounds-foster-social-cohesion/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27222",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-chicago-adsorptive-playgrounds-foster-social-cohesion&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-london-elephant-and-castle",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-elephant-and-castle/",
+  "title": "C40 Good Practice Guides: London – Elephant & Castle",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: London – Elephant & Castle,” an urban initiative documented for London. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Summary The Elephant & Castle site sees the regeneration of the Heygate Estate, a post-war social housing area in central…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Elephant & Castle site sees the regeneration of the Heygate Estate, a post-war social housing area in central…",
+    "measures": "Summary \n The Elephant & Castle site sees the regeneration of the Heygate Estate, a post-war social housing area in central London. ix In 2002, the Greater London Authority published the London Plan, setting out a vision for the development of the capital. In addition to establishing a spatial and regulatory framework for the development of more jobs and homes, the 2002 plan identified key areas for growth across London, including Elephant & Castle in the London Borough of Southwark.\n The London Plan provided a clear framework within which Southwark Council could develop its policies and proposals for the Borough, and the Council established its own Southwark Plan. Following this, Southwark Council published a development framework for Elephant & Castle, that described where, how and what regeneration might take place, and included details of the Council’s aspirations for jobs, housing, community safety, transport, education, shopping, health and more. x \n Results \n In July 2007, as part of a competitive tender process, Southwark Council selected Lendlease as its preferred master development partner for the regeneration of Elephant & Castle; a Regeneration Agreement between the two parties was signed in July 2010. The London Borough of Southwark was heavily involved in the process as both the approving authority and the creator of the development framework. The regeneration then took a major step forward in 2012 when Lendlease submitted planning applications for its three sites and, in January 2013, received outline planning permission for the Elephant Park Masterplan.\n The project has since achieved the second phase of recognition in its journey to become Climate Positive. The Climate Positive Roadmap projects a Climate Positive outcome and the reduction of more than 10,000 tCO 2 e annually through the development of the project and implementation of its Climate Positive credits.\n The Masterplan’s Energy Reduction Strategy goes beyond current policy requirements to ensure that the most sustainable solutions are implemented on-site, aiming to maintain flexibility to accommodate future developments in technology and fuel supply. The strategy also specifies the following goals:\n Doubling density with zero growth in emissions;\n Exceeding local policy requirements for carbon reduction by 30%;\n Ensuring efficient building design and technology to improve insulation and air circulation – leading to significant energy savings for residents;\n Building all homes with 100% controlled, responsibly-sourced FSC timber;\n Implementing an extensive biodiversity strategy, which will seek to restore nature on-site and help improve air quality;\n A masterplan with a strong focus on walking, cycling, and the use of public transport, with charge points for electric vehicles.\n The project’s energy solution is particularly innovative. Existing policy calls for buildings to connect to heat networks that will be delivered to Elephant Park through the construction of a highly efficient on-site Combined Heat and Power (CHP) system. The energy strategy will also utilise grid-injected biomethane as a carbon offset. Additionally, Climate Positive credits are to be generated through the expansion of a district heating network to connect at least 1,000 neighbouring homes. These homes will be equipped with smart meters to further reduce heat demand.  \n Reasons for success \n The Elephant & Castle Climate Positive project is notable for its strong planning framework and the ability of a visionary developer to leverage that framework to raise ambition and innovation. Elephant & Castle also benefits from its central location with robust transit connectivity and supportive policies that for instance encourage development of and connection to heat networks.  \n When/why might a city adopt an approach like this \n While the city does not control this project, the local borough was the approval agency and selected the developer as part of a competitive bid process. A similarly situated city could include procurement requirements emphasising low-carbon performance and seek a single developer to deliver a holistic, masterplanned solution.  \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cimate Positive Development Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "In July 2007, as part of a competitive tender process, Southwark Council selected Lendlease as its preferred master development partner for the regeneration of Elephant & Castle; a Regeneration Agreement between the two parties was signed in July 2010. The London Borough of Southwark was heavily involved in the process as both the approving authority and the creator of the development framework. The regeneration then took a major step forward in 2012 when Lendlease submitted planning applications for its three sites and, in January 2013, received outline planning permission for the Elephant Park Masterplan.\n The project has since achieved the second phase of recognition in its journey to become Climate Positive. The Climate Positive Roadmap projects a Climate Positive outcome and the reduction of more than 10,000 tCO 2 e annually through the development of the project and implementation of its Climate Positive credits.\n The Masterplan’s Energy Reduction Strategy goes beyond current policy requirements to ensure that the most sustainable solutions are implemented on-site, aiming to maintain flexibility to accommodate future developments in technology and fuel supply. The strategy also specifies the following goals:\n Doubling density with zero growth in emissions;\n Exceeding local policy requirements for carbon reduction by 30%;\n Ensuring efficient building design and technology to improve insulation and air circulation – leading to significant energy savings for residents;\n Building all homes with 100% controlled, responsibly-sourced FSC timber;\n Implementing an extensive biodiversity strategy, which will seek to restore nature on-site and help improve air quality;\n A masterplan with a strong focus on walking, cycling, and the use of public transport, with charge points for electric vehicles.\n The project’s energy solution is particularly innovative. Existing policy calls for buildings to connect to heat networks that will be delivered to Elephant Park through the construction of a highly efficient on-site Combined Heat and Power (CHP) system. The energy strategy will also utilise grid-injected biomethane as a carbon offset. Additionally, Climate Positive credits are to be generated through the expansion of a district heating network to connect at least 1,000 neighbouring homes. These homes will be equipped with smart meters to further reduce heat demand.\n\nThe Elephant & Castle Climate Positive project is notable for its strong planning framework and the ability of a visionary developer to leverage that framework to raise ambition and innovation. Elephant & Castle also benefits from its central location with robust transit connectivity and supportive policies that for instance encourage development of and connection to heat networks.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-elephant-and-castle/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27101",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-london-elephant-and-castle&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

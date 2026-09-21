@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-residents-private-sector-collaboration-buenos-aires",
+  "url": "https://www.c40.org/case-studies/residents-private-sector-collaboration-buenos-aires/",
+  "title": "Buenos Aires’ Circular Economy Network",
+  "summary": "This C40 case study describes “Buenos Aires’ Circular Economy Network,” an urban initiative documented for Buenos Aires. It is included because it is located in the Global South. C40 describes the action this way: Exploring how Buenos Aires is collaborating with residents and the private sector to increase recycling and reduce waste generation.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Exploring how Buenos Aires is collaborating with residents and the private sector to increase recycling and reduce waste generation.",
+    "measures": "Collaborating with residents and the private sector to increase recycling and reduce waste generation\n In Buenos Aires, around 7,500 tonnes of waste are processed each day. In line with the city’s climate action plan and to achieve its goal of becoming carbon neutral, more resilient and inclusive by 2050, Buenos Aires is aiming for 80% of the city to recycle by 2023.\n To be successful, this ambitious goal requires engagement from both businesses and residents. Therefore, the city has developed a circular economy model centered on co-creating impactful solutions. The city collaborates with stakeholders from all sectors of society to encourage cultural change, reduce the amount of waste generated, promote proper material separation, and more effectively recover waste that can be processed and reused.\n The Circular Economy Network \n Launched in 2021, the city’s Circular Economy Network is a pioneering initiative that seeks to strengthen public-private partnerships . The network includes more than 300 institutions representing the public and private sectors, including banks, large and small businesses, sustainable entrepreneurs and local universities. This diverse professional network shares one common goal: to promote responsible consumption, recycling and the reuse of resources across industries.\n The network’s activities are complemented by the Sello Verde (“Green Seal”) certification, which recognises regulatory compliance and ambitious waste management practices in public and private offices, commercial premises and residential buildings. A total of 142 institutions have already been recognised, including the Banco Itaú, which obtained the Green Seal for all its offices and ten public locations. The certification lasts one year and is reviewed to assess continued compliance.\n “Since we launched the BA Recicla Plan a year ago, our key objectives have been to involve all sectors and promote responsible consumption, recycling and the reuse of resources in industry. Today, there are already more than 280 organisations in the Circular Economy Network, reflecting the broad teamwork between the public and private sectors”, said Clara Muzzio, Minister of Public Space and Urban Hygiene for the City of Buenos Aires . \n How are recovered materials reused? \n All collected dry recyclables are sent to the city’s Green Centres, where waste cooperatives sort and process the materials and then return them to industry for reuse. \n An example of this process is the renovation of the Puente de la Mujer’s floor. At this iconic location in Buenos Aires, the floor was restored and transformed using plastic wood, recovered from 100,000 bottles filled with single-use plastic. This material is more resistant, durable and requires less maintenance than traditional wood. Its use here is only possible thanks to residents’ and businesses’ effective separation of waste materials.\n The replaced wood also benefits from an extended lifespan; following its removal from the Puente de la Mujer, it was transformed into furniture for the Piedrabuenarte Cultural Centre in the south of the city.\n The road to changing habits \n Reducing waste and increasing recycling and the reuse of materials is easier when the required infrastructure and cultural habits are in place. Buenos Aires has been working towards this for many years, with the goal of transforming its waste management capacity. For example, in 2015, the city recorded that 35% of residents routinely recycled; by 2022, that number increased to more than 50%.\n The city fulfilled two key commitments to achieve this. Between 2016 and 2019, Buenos Aires doubled its recycling capacity from 400 to 800 tonnes per day and implemented a separated waste system with door-to-door collection. The city also introduced 16 green centres and a recycling centre that manages and treats different waste materials, including:\n a construction and demolition waste treatment plant that processes more than 3,000 tonnes of aggregate waste per day; \n a polyethylene terephthalate bottle treatment plant with a capacity to process 16 tonnes of bottles per day;\n a material recovery facility that automatically sorts and separates recyclable waste;\n a forestry waste treatment plant that receives all the material generated by pruning across the city; \n and an organic waste treatment plant, which processes materials from source segregation and differentiated collection.\n In addition, in 2021, the city fulfilled its commitment to ensuring that 100% of Buenos Aires residents can access a green recycling bin within 150 metres of their homes.\n The city also introduced regulations to limit single-use plastics. The Plastic Bag Disposal Law reduced bag deliveries to the city’s shops by more than 500 million bags annually, and the Resolution to Prohibit the Use, Delivery and Sale of Plastic Straws has eliminated 2 million straws per month.\n Improvements to the city’s recycling and waste processing infrastructure are effectively combined with initiatives that raise awareness of and promote Buenos Aires’ circular economy. For example, the city’s BA Recicla Plan encourages waste separation and drives improvements for the city’s Green Centres. The Recicla Plan also reinforces the work of the Circular Economy Network and Green City Ambassadors, to improve recycling rates and compliance with sustainable regulations among both residents and the private sector.\n All photos courtesy of the City of Buenos Aires. \n This article was originally produced as a “Spaces in the City” feature for the C40 World Mayors Summit 2022 hosted by the City of Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/residents-private-sector-collaboration-buenos-aires/",
+    "publication_date": "2022-09-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "32793",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=residents-private-sector-collaboration-buenos-aires&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-10T16:08:55",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

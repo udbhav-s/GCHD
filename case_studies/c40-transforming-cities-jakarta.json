@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-jakarta",
+  "url": "https://www.c40.org/case-studies/transforming-cities-jakarta/",
+  "title": "Transforming Cities: The paint cooling Jakarta",
+  "summary": "This C40 case study describes “Transforming Cities: The paint cooling Jakarta,” an urban initiative documented for Jakarta. It is included because it is located in the Global South. C40 describes the action this way: Jakarta is home to over 10 million people who seek shelter indoors from the blistering urban heat. One brilliant architecture professor is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jakarta",
+      "label": "Jakarta"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Jakarta is home to over 10 million people who seek shelter indoors from the blistering urban heat. One brilliant architecture professor is painting the skyline with a sun-reflecting paint to cool down the city.",
+    "measures": "Indonesia’s bustling capital is home to over 10 million people who seek shelter indoors from the blistering urban heat. But one brilliant architecture professor is painting the skyline with a sun-reflecting paint in a bid to cool down the city.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for C40 Cities by BBC StoryWorks as part of the Transforming Cities series. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-jakarta/",
+    "publication_date": "2023-02-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33799",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-jakarta&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-13T17:02:17",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

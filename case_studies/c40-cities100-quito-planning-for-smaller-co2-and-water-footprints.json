@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-quito-planning-for-smaller-co2-and-water-footprints",
+  "url": "https://www.c40.org/case-studies/cities100-quito-planning-for-smaller-co2-and-water-footprints/",
+  "title": "Cities100: Quito – Planning for Smaller CO2 and Water Footprints",
+  "summary": "This C40 case study describes “Cities100: Quito – Planning for Smaller CO2 and Water Footprints,” an urban initiative documented for Quito. It is included because it is located in the Global South. C40 describes the action this way: By measuring its water and carbon footprints, Quito is developing tailor-made, cost-effective policies and projects that help the city develop…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quito",
+      "label": "Quito"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Rising temperatures, decreased rainfall, and more frequent extreme weather events are forcing Quito to more efficiently manage its energy and water use. The carbon and water footprint measurement tool helps city officials sculpt policies and projects that will lower Quito’s energy use. Quito plans to expand these mechanisms to the private sector in the coming years to make an even greater impact on the city’s carbon and water footprints.",
+    "measures": "In Quito, Ecuador, the use of carbon and water footprint assessment tools led the city to develop a targeted Action Plan of initiatives to lower its CO2 emissions and water use. The plan is divided into two “portfolios.” The carbon portfolio includes actions that reduce Quito’s CO2 emissions by 20% by 2032. As one of the many initiatives planned to achieve this goal, Quito will complete a landfill biogas project that will reduce CO2 emissions by almost 5.5 million tons each year. Other initiatives include the creation of solar power plants, which will avoid the generation of 1.42 million tons of CO2 emissions annually.\n Similarly, in order to avoid the use of 1.5 billion m3 of water by 2032 – cutting the city’s water footprint by 68% – Quito is instituting policies that promote the use of water efficient appliances, ecological toilets, vacuum systems, and water reuse. Through these carbon and water footprint tools, the city is demonstrating how to translate energy assessments and observations into customized and measureable targets and policies.\n Environmental Benefits – The city aims to outfit all 223,000 public light fixtures with energy efficient LED lights by 2020.\n Social Benefits – Improving communication and engagement between municipal departments and the public is the most cost-effective method of achieving many of the city’s carbon and water targets.\n Economic Benefits – The planned landfill biogas plant and the promotion of hybrid and electric vehicles represent the greatest cost-benefit payoff of projects seeking to lower Quito’s carbon footprint.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-quito-planning-for-smaller-co2-and-water-footprints/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27006",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-quito-planning-for-smaller-co2-and-water-footprints&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

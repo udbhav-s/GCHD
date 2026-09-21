@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama",
+  "url": "https://www.c40.org/case-studies/the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama/",
+  "title": "The Project to Support the Planning and Implementation of Nationally Appropriate Mitigation Actions (NAMAs) in a Measurement, Reporting and Verification Manner (SPI-NAMA)",
+  "summary": "This C40 case study describes “The Project to Support the Planning and Implementation of Nationally Appropriate Mitigation Actions (NAMAs) in a Measurement, Reporting and Verification Manner (SPI-NAMA),” an urban initiative documented for Ho Chi Minh City. It is included because it is located in the Global South. C40 describes the action this way: The technical cooperation project is aiming to enhance the planning and implementation capacity of relevant ministries and local governments. It will develop…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ho Chi Minh City",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ho Chi Minh City",
+        "ucode": "VNM_0027_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "ho-chi-minh-city",
+      "label": "Ho Chi Minh City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The technical cooperation project is aiming to enhance the planning and implementation capacity of relevant ministries and local governments. It will develop a Measurement, Reporting and Verification (MRV) system necessary for planning, implementation and management of Nationally Appropriate Mitigation Actions (NAMAs) at the city level in Vietnam, taking Ho Chi Minh City (HCMC) as the model city.",
+    "measures": "In Vietnam, greenhouse gas (GHG) emissions have been increasing owing to the rapid economic growth. In response, in 2008, the Prime Minister at that time decided to implement the National Target Program to Respond to Climate Change (NTP-RCC), containing a comprehensive direction for climate change measures in Vietnam. All concerned agencies were mandated to formulate climate change measures up to the target year 2020.\n Credits: Vietnam-guide.com\n In 2011, the prime minister adopted the National Strategy on Climate Change, and the Ministry of Natural Resources and Environment (MoNRE) was tasked to formulate the Nationally Appropriate Mitigation Actions (NAMAs) in collaboration with the relevant ministries. In relation to this, local governments are supposed to develop and implement low-carbon action plans. The local governments are required to understand their GHG emissions, monitor the implementation status and the effect of NAMAs objectively, and promote measures continuously. Policies and plans have been prepared in some local governments; however, the quantification of GHG emissions, expected emission reductions, and actual emission reductions remains a challenge.\n Alongside strengthening the capacity to develop climate change measures, the capacity to objectively evaluate the effects of such measures and modify or add new measures accordingly needs further enhancement. In this context, the Japan International Cooperation Agency (JICA) started a technical cooperation project aiming to enhance the capacity of the Vietnamese Government to plan, implement and manage NAMAs, taking MoNRE as the counterpart organisation.\n Scope of the Project: \n 1) To collect data required to quantify HCMC’s GHG emissions in energy, transport, industry, agriculture, land use and waste sectors;\n 2) To provide technical capacity building for improving calculation and monitoring methods and the calculation approach for each sector;\n 3) To conduct baseline survey of HCMC’s NAMAs (especially focusing on the energy sector) and carry out technical assistance so that cities will be able to assess the progress of NAMAs in the future;\n 4) To understand GHG emissions in HCMC, consolidate and organise the information and knowledge obtained through the project, hence establish, propose and support dissemination of a MRV style across the country.\n Results: \n The activities can be largely grouped into GHG inventory, MRV on climate change mitigation measures, and training and seminars. The activities in HCMC started in October 2015 and ended in October 2017. On GHG inventory, from October 2015 the initiatives undertaken to date were studied, and the data sources and preparation principles were studied and considered. Subsequently, the preparation of the GHG inventory commenced, and by August 2017 it was largely completed. The drafting of the GHG Inventory Preparation Manual commenced in November 2016 and was completed in October 2017. To achieve this, teams from JICA and C40 cooperated on developing the inventory using the GPC framework and putting data into the City Inventory Reporting and Information System (CIRIS).\n On MRV, gathering and analysis of basic information and mitigation measures started in October 2015. The MRV piloting started in August 2016 and the drafting of the MRV Manual started in September 2016 and was completed in October 2017, incorporating the results of the pilot MRV system. On training and seminars, there were 2 trainings on Climate Change Mitigation, 2 internal training workshops for MoNRE’s officials on GHG Inventory in HCMC, and 2 on GHG Inventory and MRV in Japan. \n How does it work? \n At the national level, the Project has provided essential technical and advisory inputs to MoNRE’s preparation for the Government Decree on Roadmap and Modality for Reducing GHG Emissions. It includes, inter alia, technical analysis of framework and national MRV. The Decree is anticipated to serve as the first national, Paris-compliant, legal framework guiding implementation of mitigation measures, and ensuring the effectiveness of Vietnam’s Nationally Determined Contribution (NDC). In parallel, in September 2016 the Project launched the ‘Low Carbon Technology Assessment’, providing means of implementing NDCs from a low carbon technology angle. It offers direct technical inputs to enhance on-going processes to review and update Vietnam’s NDC.\n At the municipal level, the Project has selected Ho Chi Minh City as a model city, hoping to establish the technical expertise needed to continuously quantify GHG emissions and emissions reduction. Based on the Global Protocol for Community-scale GHG Emission Inventories (GPC), the Project delivered key outcomes regarding 2015 HCMC GHG inventory. Key deliverable is also the MRV manual guiding quantification of emission reductions for Energy, Transport and Waste projects, which currently awaits institutionalization by the city.\n What are the CO2 Reduction Goals? \n Based on the Global Protocol for Community-scale GHG Emission Inventories (GPC) the Project delivered key outcomes regarding 2015 HCMC GHG inventory and allowed the city to monitor their GHG emissions for the years to come. Based on that result, the Project has provided essential technical and advisory inputs to MoNRE’s preparation for the Government Decree on Roadmap and Modality for Reducing Greenhouse Gas Emissions.\n GHG Inventory: \n Of the 91 cities participating in C40, 60 cities have prepared a GHG inventory based on the GPC standard. Most cities only report the emissions in the three main sectors: Stationary Energy, Transportation and Waste. HCMC is among the only five cities with an inventory covering all five sectors: Those mentioned above plus Industrial Processes and Product Use (IPPU) and Agriculture, Forestry and Other Land Use (AFOLU).\n Next Steps: \n Following the good momentum nurtured thus far, and further supported by a Memorandum of Cooperation between JICA and C40 in support of climate action planning in HCMC, the Project is now entering into its final year of cooperation (ending in January 2019). Technical support activities in HCMC will be focusing on:\n 1) Conducting studies for necessary revision and enhancement of the current policy framework;\n 2) Elaborating city-level monitoring and evaluation to support quantification of policy impacts;\n 3) Supporting action plan development and MRV for the targeted pilot sector – i.e. transport. It was also highlighted that those activities in HCMC should directly support the implementation of the Government Decree, which is currently under formulation at the national level.\n Links to further information: \n https://www.jica.go.jp/project/english/vietnam/036/index.html \n https://www.jica.go.jp/project/english/vietnam/036/c8h0vm00009um1se-att/project_summary_sheet_en.pdf \n Contact Details: \n Ha Minh Chau\n Manager in Charge, Climate Change Bureau\n Ho Chi Minh City Department of Natural Resources and Environment\n 63 Ly Tu Trong, Ben Nghe Ward, District 1, HCMC, Vietnam\n hminhchau.stnmt@tphcm.gov.vn ,\n chauctr@yahoo.com.vn \n Koji Fukuda\n Chief Technical Advisor / JICA Expert\n A211, Ministry of Natural Resources and Environment (MONRE)\n No.10, Ton That Thuyet St. Hanoi, Vietnam\n fukuda.koji@friends.jica.go.jp ,\n fukuda.monre.vientam@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama/",
+    "publication_date": "2018-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27404",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

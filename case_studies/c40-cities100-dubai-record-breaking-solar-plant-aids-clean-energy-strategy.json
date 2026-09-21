@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-dubai-record-breaking-solar-plant-aids-clean-energy-strategy",
+  "url": "https://www.c40.org/case-studies/cities100-dubai-record-breaking-solar-plant-aids-clean-energy-strategy/",
+  "title": "Cities100: Dubai – Record-Breaking Solar Plant Aids Clean Energy Strategy",
+  "summary": "This C40 case study describes “Cities100: Dubai – Record-Breaking Solar Plant Aids Clean Energy Strategy,” an urban initiative documented for Dubai. It is included because it is located in the Global South. C40 describes the action this way: The people of Dubai are beginning to realize the enormous potential of their solar endowment, and are also targeting demand-side…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dubai",
+      "adm0": {
+        "name": "United Arab Emirates",
+        "ucode": "ARE_V1",
+        "dcid": null,
+        "iso3": "ARE"
+      },
+      "adm1": {
+        "name": "Dubai",
+        "ucode": "ARE_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The United Arab Emirates' gross domestic electricity consumption has more than doubled over the past ten years and is forecast to surge over the next five years as population and GDP grow. Ensuring that growth begins to decouple from emissions is crucial to ensuring a sustainable future.",
+    "measures": "Dubai's Integrated Energy Strategy (DIES) aims to reduce energy and water consumption as well as significantly increase the city's renewable energy generation. It is the first strategy of its kind in the Gulf region. On the demand side, Dubai wants to see a 30% reduction in water and electricity consumption by 2030, and has developed a number of incentives and regulations designed to encourage flexible consumption activity and energy efficiency improvements. On the supply side, the city aims to have more than 1,000 MW of solar power installed by 2019, which will include an 800-MW solar farm: the Mohammed bin Rashid Al Maktoum Solar Park. When the 25-year contracts were awarded in 2015, this solar plant broke global records for the lowest cost per unit of energy 1 . Once completed, it will cover 77 km2, an area roughly the size of Copenhagen, making it the world's largest solar plant on a single plot 2 . It will also contain state-of-the-art R&D and energy innovation centers.\n Environmental Benefits – Five million tons of CO2 are estimated to have been saved through energy and water saving activities since the start of the demand-side strategy in 2011.\n Economic Benefits – The demand-side strategy has yielded an estimated $1.5 billion from 2011-2015 in energy and water savings.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-dubai-record-breaking-solar-plant-aids-clean-energy-strategy/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27314",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-dubai-record-breaking-solar-plant-aids-clean-energy-strategy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

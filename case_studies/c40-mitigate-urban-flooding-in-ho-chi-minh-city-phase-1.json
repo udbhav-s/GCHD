@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-mitigate-urban-flooding-in-ho-chi-minh-city-phase-1",
+  "url": "https://www.c40.org/case-studies/mitigate-urban-flooding-in-ho-chi-minh-city-phase-1/",
+  "title": "Mitigate Urban Flooding in Ho Chi Minh City – Phase 1",
+  "summary": "This C40 case study describes “Mitigate Urban Flooding in Ho Chi Minh City – Phase 1,” an urban initiative documented for Ho Chi Minh City. It is included because it addresses river flood, coastal flood hazards, and it is located in the Global South. C40 describes the action this way: An urban flooding mitigation project, comprising of a 60km ring dike system, 6 sluice gates and 3 pumping stations, has been implemented…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ho Chi Minh City",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ho Chi Minh City",
+        "ucode": "VNM_0027_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "ho-chi-minh-city",
+      "label": "Ho Chi Minh City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "An urban flooding mitigation project, comprising of a 60km ring dike system, 6 sluice gates and 3 pumping stations, has been implemented in Ho Chi Minh City’s central area and in some of its surrounding districts.",
+    "measures": "Located on the delta areas of Sai Gon River and Dong Nai River systems, Ho Chi Minh City is facing many challenges relating to urban flooding caused by high tides and heavy rainfalls. Climate change and its consequences, such as increasing intensity of heavy rains and sea level rise, exacerbate these challenges and cause negative impacts on the city’s socio-economic development. For example, between 1962 and 2001, there have been 9 incidents of “extremely heavy” rain (i.e. 3-hour accumulated rainfall exceeding 100 millimeters) exceeding the capacity of the drainage system. This means only one “extremely heavy” rainfall every 4 years for the past forty years. However, from 2002 to 2017 there have been 44 “extremely heavy” rains recorded in the area of Ho Chi Minh City, that is 3 times per year. Flooding is even more problematic when heavy rain happens during high tidal times, resulting in water levels in rivers and canals being higher than sewer discharge valves, thus preventing discharge through the normal sewage system.\n Credits: Vietnam News and Thanh Nien News\n What does the project consist of? \n To mitigate urban flooding in Vietnam’s most populous city, in October 2008 the Master Plan for Flooding Prevention was approved by then the Prime Minister, and consisted of dividing the city into 3 water control areas while implementing flood prevention plans for each of these areas. Phase 1 of this flooding mitigation project started in June 2016 and is expected to be finished by the end of 2019, covering an area of 570 km2, home to 6.5 million people (Area IA1 in Picture 1). These new flood control systems are designed to control water levels in Ho Chi Minh’s canals and enhance the effectiveness of its drainage system.\n Picture 1: Area of the Project (Area IA1) \n The components of Phase 1 include: \n The construction of a 60km ring dike;\n The construction of 6 sluice gates* 40-160m wide, including Ben Nghe, Tan Thuan, Phu Xuan, Muong Chuoi, Cay Kho, Phu Dinh, and several additional small sluice gates (two 10m wide, twelve 2m wide and thirteen 1m wide sluice gates);\n The construction of a pumping station with capacity of 12m3/s at Ben Nghe sluice gate, a pumping station with capacity of 24m3/s at Tan Thuan sluice gate and a pumping station with capacity of 18m3/s at Phu Dinh sluice gate;\n The construction of the Project’s central management building and the Supervisory Control and Data Acquisition (SCADA) system.\n The operation procedures of flooding protection works are summarized as follows:\n During rainy season:\n Open sluice gates when:\n The water level in the upstream is higher than the downstream at the sluice gates;\n Close sluice gates when:\n Upstream water level = +1.00m and downstream water level ≥ +1.00m; in case no rain is forecasted; Upstream water level = +0.00m and downstream water level ≥ +0.00m; in case rain is forecasted;\n Pumping stations will be operated when:\n Heavy rain with accumulated rainfall exceeds 60mm happens or is predicted and upstream water level = +0,6m, downstream water level ≥ upstream water level.\n During dry season:\n Open sluice gates fully when the tidal level is lower than +1.0 m;\n Close sluice gates when the tidal level is higher than +1.0 m.\n *A sluice is a water channel controlled at its head by a sliding gate or other devices for controlling the flow of water.\n Next Steps: \n When Phase 1 is finished and all facilities are fully operating, the municipality will carry on developing urban flood control measures for Area IB and IA2 (Picture 1) and also Area II (newly-developing areas in the right bank of Sai Gon River).\n Links to further Information: \n https://www.trungnamgroup.com.vn/du-an/du-an- giai – quyet – ngap -do- trieu -tp-hcm.html (Vietnamese)\n http://www.ttcn.hochiminhcity.gov.vn/chuong-trinh-du-an-chong-ngap/-/ext/articleview/article/447746/10182 (Vietnamese)\n Point of contact: \n Dr.Phan Anh Tuan, Head of R&D Division The Steering Center of the Urban Flood Control Program Ho Chi Minh City\n Email: ttcn@tphcm.gov.vn \n Fax: (+84.8)3526 5354\n Mr. Ha Minh Chau, In-charge Manager of Climate Change Bureau Ho Chi Minh City Department of Natural Resources and Environment\n Email: hminhchau@tphcm.gov.vn \n Phone: +84 916556578",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/mitigate-urban-flooding-in-ho-chi-minh-city-phase-1/",
+    "publication_date": "2018-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27403",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=mitigate-urban-flooding-in-ho-chi-minh-city-phase-1&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

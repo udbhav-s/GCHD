@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-research-center-built-with-green-design-principles",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-research-center-built-with-green-design-principles/",
+  "title": "Cities100: Wuhan – Research Center Built with Green Design Principles",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Research Center Built with Green Design Principles,” an urban initiative documented for Wuhan. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Wuhan’s clean energy research center was built with a goal to emit zero carbon emissions, while the researchers inside focus…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In recent years, China’s building sector has been characterized by rapid new construction and demolition of older buildings. A key challenge is therefore to ensure that new buildings reduce energy use and optimize resources. The Wuhan New Energy Research Institute is a prime example of engineering and design excellence that can reduce CO2 emissions and serve as a model to other new construction in Wuhan and cites throughout China.",
+    "measures": "In 2011, Wuhan initiated construction on one of the largest green buildings in China. Covering 68,480 m2, the Wuhan New Energy Research Institute is a home to forward-thinking research focused on developing wind, solar, and clean energy knowledge and technologies. Aiming to be a landmark of science and technology, the building has been constructed according to BREEAM and “China Green 3-star” standards. The innovative design of the building takes into account the power of nature, forming the shape of a lily, and using this shape to reduce energy use and optimize the use of natural resources. The roof of the main tower, which resembles the flower, is covered with solar panels. The tower, or “stem,” beneath the flower falls within its shadow, reducing the need for additional heating and cooling, while consuming no fossil fuels and emitting no CO2. Furthermore, a wind turbine at the center of the structure produces 480,000 kWh of energy for the building. While this research institute, housed on 11 hectares of land, emitted only 2,863 tons of CO2 in 2015, it aims to be emissions-free in the coming years.\n Environmental Benefits – The research center’s innovative design features provide natural light and shading, which reduces the need for artificial lighting and air conditioning.\n Economic Benefits – The building will save 530,000 kWh of electricity and 4,800 tons of water annually, which will yield financial savings for the building owner.\n Health Benefits – A natural ventilation system in the building controls the cleanliness and flow rate of air, improving comfort and indoor air quality.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-research-center-built-with-green-design-principles/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27188",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-research-center-built-with-green-design-principles&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

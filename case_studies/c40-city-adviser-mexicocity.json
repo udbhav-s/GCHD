@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-city-adviser-mexicocity",
+  "url": "https://www.c40.org/case-studies/city-adviser-mexicocity/",
+  "title": "City Adviser Case Study Series: Mexico City- Sustainable Buildings Certification Program",
+  "summary": "This C40 case study describes “City Adviser Case Study Series: Mexico City- Sustainable Buildings Certification Program,” an urban initiative documented for Mexico City. It is included because it is located in the Global South. C40 describes the action this way: Summary The Mexico City’s Ministry of the Environment manages the voluntary Sustainable Buildings Certification Program (1). The Program aims to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Mexico City’s Ministry of the Environment manages the voluntary Sustainable Buildings Certification Program (1). The Program aims to…",
+    "measures": "Summary \n The Mexico City’s Ministry of the Environment manages the voluntary Sustainable Buildings Certification Program (1). The Program aims to foster sustainable construction and usage of commercial, industrial and residential buildings by awarding certification that reflect various levels of sustainability performance in the areas of energy efficiency, water, mobility, solid waste, social and environmental responsibility, and green roofs.\n Voluntary participation from building owners and tenants is incentivized through tax reductions, reduced energy and water bills, access to project financing, expedited permitting procedures, and finally, prospects of increased rental yields from green premiums.\n Results \n Since its creation in 2009, 40 buildings have been certified as of 2015, resulting in a total reduction of 20.1 million kWh of electricity, 205,690 m 3 of potable water and 66,120 tons of CO 2 eq. For existing buildings with baselines, these represent actual savings. For new buildings with no baseline, these figures represent estimate savings from a business as usual building design.\n Property and payroll taxes reduction incentives for participants in the Program are generating important economic benefits. Certification also provides reduced building operational costs due to increased energy and water efficiency performance. Certification also leads to increases in property values.\n Reasons for success \n Conducting physical improvements in existing and new buildings, equipment and systems, raise environmental sustainability and reduce energy consumption and maintenance costs, in addition for commercial, residential and industrial owners and tenants to qualify for property tax and payroll tax reductions.\n (1) Mexico City Ministry of the Environment, Sustainable Buildings Certification Program\n http://data.sedema.cdmx.gob.mx/sedema/index.php/tramites/programa-de-auditoria-y-autoregulacion-ambiental/edificaciones-sustentables \n http://martha.org.mx/una-politica-con-causa/wp-content/uploads/2013/09/15-Certificacion-Edificaciones-Sustentables.pdf \n https://www.dropbox.com/s/2ufvj8a6marezs9/Programa-Certificacion-Edificaciones-Sustentables.pdf?dl=0",
+    "outcomes": "Since its creation in 2009, 40 buildings have been certified as of 2015, resulting in a total reduction of 20.1 million kWh of electricity, 205,690 m 3 of potable water and 66,120 tons of CO 2 eq. For existing buildings with baselines, these represent actual savings. For new buildings with no baseline, these figures represent estimate savings from a business as usual building design.\n Property and payroll taxes reduction incentives for participants in the Program are generating important economic benefits. Certification also provides reduced building operational costs due to increased energy and water efficiency performance. Certification also leads to increases in property values.\n\nConducting physical improvements in existing and new buildings, equipment and systems, raise environmental sustainability and reduce energy consumption and maintenance costs, in addition for commercial, residential and industrial owners and tenants to qualify for property tax and payroll tax reductions.\n (1) Mexico City Ministry of the Environment, Sustainable Buildings Certification Program\n http://data.sedema.cdmx.gob.mx/sedema/index.php/tramites/programa-de-auditoria-y-autoregulacion-ambiental/edificaciones-sustentables \n http://martha.org.mx/una-politica-con-causa/wp-content/uploads/2013/09/15-Certificacion-Edificaciones-Sustentables.pdf \n https://www.dropbox.com/s/2ufvj8a6marezs9/Programa-Certificacion-Edificaciones-Sustentables.pdf?dl=0",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/city-adviser-mexicocity/",
+    "publication_date": "2016-11-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27257",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-adviser-mexicocity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-16T16:06:40",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

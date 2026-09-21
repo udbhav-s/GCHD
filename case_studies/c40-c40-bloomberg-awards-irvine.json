@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-irvine",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-irvine/",
+  "title": "C40-Bloomberg Philanthropies Awards: Engaging community leaders to cool Irvine",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Engaging community leaders to cool Irvine,” an urban initiative documented for Irvine. It is included because it addresses river flood, coastal flood, wildfire hazards. C40 describes the action this way: California is at risk of coastal flooding, habitat destruction and wildfires; Irvine is taking a holistic, grassroots approach at the block-level to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Irvine",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "wildfire"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "irvine",
+      "label": "Irvine"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "California is at risk of coastal flooding, habitat destruction and wildfires; Irvine is taking a holistic, grassroots approach at the block-level to tackle these threats and improve community climate resilience.",
+    "measures": "California is at risk of coastal flooding, habitat destruction and wildfires; Irvine is taking a holistic, grassroots approach at the block-level to tackle these threats and improve community climate resilience.\n In 2021, the city collaborated with 25 community-led organisations to engage residents in making climate pledges a reality, recruiting over 200 block leaders to guide community efforts. The pledges include introducing energy and water conservation measures, shifting to a planet-friendly diet, switching to cycling or walking, retrofitting homes, and creating disaster evacuation plans/kits. The city launched a pilot programme offering grants up to US $1,000 and no-interest loans of US $25,000 to help finance home upgrades that improve sustainability and resilience in Irvine’s oldest neighbourhoods.\n Community-building and connecting with residents who are traditionally excluded from the climate conversation is a core part of the initiative. So far, more than 180 ethnically diverse Irvine households are taking part in the Cool Block programme. Together, they have pledged over 1,800 actions and taken 1,385 measures to reduce emissions. The measures have resulted in a reduction of nearly 250 tonnes of CO2 emissions, bringing Irvine a step closer to its goal of becoming carbon-neutral by 2030 – 15 years before the rest of the state of California.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Building a Climate Movement",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-irvine/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31505",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-irvine&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:56:31",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

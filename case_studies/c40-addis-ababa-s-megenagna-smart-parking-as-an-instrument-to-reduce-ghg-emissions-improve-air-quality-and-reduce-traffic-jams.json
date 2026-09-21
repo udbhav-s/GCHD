@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-addis-ababa-s-megenagna-smart-parking-as-an-instrument-to-reduce-ghg-emissions-improve-air-quality-and-reduce-traffic-jams",
+  "url": "https://www.c40.org/case-studies/addis-ababa-s-megenagna-smart-parking-as-an-instrument-to-reduce-ghg-emissions-improve-air-quality-and-reduce-traffic-jams/",
+  "title": "Addis Ababa’s ‘Megenagna Smart Parking’ as an Instrument to Reduce GHG Emissions, Improve Air Quality, and Reduce Traffic Jams",
+  "summary": "This C40 case study describes “Addis Ababa’s ‘Megenagna Smart Parking’ as an Instrument to Reduce GHG Emissions, Improve Air Quality, and Reduce Traffic Jams,” an urban initiative documented for Addis Ababa. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The ‘Megenaga Smart Parking’ sensibly reduced traffic congestion in the city, smoothing out the traffic flow during peak hours, while contributing to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Addis Ababa",
+      "adm0": {
+        "name": "Ethiopia",
+        "ucode": "ETH_V1",
+        "dcid": null,
+        "iso3": "ETH"
+      },
+      "adm1": {
+        "name": "Addis Ababa",
+        "ucode": "ETH_0001_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "addis-ababa",
+      "label": "Addis Ababa"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The ‘Megenaga Smart Parking’ sensibly reduced traffic congestion in the city, smoothing out the traffic flow during peak hours, while contributing to GHG emissions reduction and air quality improvement.",
+    "measures": "Addis Ababa’s parking system is mainly dominated by on-street parking, although there are a few off-street parking areas or parking spaces inside buildings. However, there are no readily accessible parking areas near public transport terminals, which contribute to the inefficient utilization of the road network, especially in terms of road users’ safety and traffic congestion. This, in turn, contributes to higher carbon emissions from vehicles and further impacts on air quality. Addis Ababa’s Transport Programs Management Office (TPMO) is making efforts to solve parking issues through the development of optimized parking systems, particularly with the construction of smart parking systems equipped with modern devices, such as cameras and sensors.\n The Addis Ababa’s Master Plan , which has been in place since 2017 and will be operational until 2027, embeds the construction of 60 parking areas. It is hoped to address the critical traffic congestion in Ethiopia’s capital.\n What does the project consist of? What’s the innovation? \n There are several smart parking systems being built in Addis Ababa. The ‘Megenagna Smart Parking’ (MSP) is fully operating since June 2017, and is considered as a continental first, and is the first smart parking facility constructed within this new city’s mobility management plan. It connects six road junctures convening from different parts of the capital, and its aim is to alleviate the pressure on the surrounding road network. Megenagna was selected as the pilot location, as it is a central hub for many economic activities, such as markets, mall, shops and hotels, and therefore very prone to traffic and pedestrian congestion.\n The MSP consists of a 15-storey facility spreading over an area of 170 square meters, and with construction cost of 40 million Birr (≈ USD 1.5 million). It has been financed by the Government of Ethiopia and constructed jointly by Dayang Auto-parking Equipment Co. Ltd., a Chinese smart parking manufacturing company, and a local electro-mechanical works contractor, SYSPROEN Systems and Engineering Ltd. It has the capacity to accommodate a total of 140 cars, out of which 50 will directly on the ground floor. The preserved area around the parking site could also accommodate 70 more cars, tallying up the total ground floor’s car capacity to 120. The Smart Megenagna Parking has a modern lifting system that safely parks cars in a huge steel storey building.\n This smart parking has many benefits. It contributes to GHG emissions reduction and air quality improvement by alleviating traffic congestion, through reducing time drivers need to find a free parking space. Furthermore, it also helped solve parking and traffic flow issues in the area by providing more parking slots, accompanied by policies banning street-parking in highly-congestible areas. Moreover, it presented a job opportunity for 20 people, becoming the leading example for other smart parking systems being built across the city. The simple steps in using the facilty involve payment via a credit card system; then one’s car is placed on a platform and taken up for parking. Parking prices across the facility are identical: 6 birrs for the first hour (≈ USD 0.20) and 9 birrs (≈USD 0.30) for every additional hour. As one of the parking attendants testifies, “The park has good demand throughout the day”.\n Lessons learned \n As explained by Mrs. Maernet G/Tsaddik, leader of the ‘Parking development, Expansion and Licensing Core’ of the TPMO, “the Megenagna Smart Parking is doing well; however, the Welosefer Ground Parking, for instance, which opened at the same time as the MSP, is not operating as expected, due to the lack of demand for parking slots in that area”. Therefore, the main challenge of Addis Ababa’s smart parking revolution is that some of the sites allocated in the city’s master plan are situated in low traffic and suburb areas, with low parking demand, or in central areas where it is very difficult to undertake parking construction. The City of Addis is thus working on relocating some sites not feasible as per the master plan, so that parking demand and parking sites offer match. To this extent, the MSP experience is very crucial.\n Links to further information \n Ethiopia Introduces First Smart Parking System in Africa (Video) \n Addis Ababa's Master Plan \n Contact Details\n Tibebu Assefa\n Addis Ababa\n Ethiopia\n tassefa@c40.org",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/addis-ababa-s-megenagna-smart-parking-as-an-instrument-to-reduce-ghg-emissions-improve-air-quality-and-reduce-traffic-jams/",
+    "publication_date": "2018-12-07",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27417",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=addis-ababa-s-megenagna-smart-parking-as-an-instrument-to-reduce-ghg-emissions-improve-air-quality-and-reduce-traffic-jams&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

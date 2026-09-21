@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-ciclovias-en-la-capital",
+  "url": "https://www.c40.org/case-studies/ciclovias-en-la-capital/",
+  "title": "Ciclovías en la capital",
+  "summary": "This C40 case study describes “Ciclovías en la capital,” an urban initiative documented for Quito. It is included because it is located in the Global South. C40 describes the action this way: Quito, a sus 2.835 metros sobre el nivel del mar, con una topografía compleja, con una pared montañosa al occidente,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quito",
+      "label": "Quito"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Quito, a sus 2.835 metros sobre el nivel del mar, con una topografía compleja, con una pared montañosa al occidente,…",
+    "measures": "Quito, a sus 2.835 metros sobre el nivel del mar, con una topografía compleja, con una pared montañosa al occidente, varias quebradas que la atraviesan de forma transversal y dos valles altamente poblados hacia el oriente, sumados unos grados de dificultad al planificar infraestructura ciclista, con 540 mil vehículos motorizados en vías estrechas; y una contribución del sector transporte con más de tres millones de toneladas de dióxido de carbono equivalente, que corresponde al 52% de las emisiones de huella de carbono a nivel urbano, presenta un gran un desafío para la planificación de la movilidad, y más aún con los problemas generados por la emergencia sanitaria.\n Por otro lado, hay una parte ciudadana también compleja que se ha venido trabajando y que debe ser mucho más profundizada, que es la visión que los ciudadanos tienen al respecto de la bicicleta y otros modos de transporte distintos al automóvil. Desde un aspiracional inalcanzable hasta una necesidad indiscutible, las versiones de por qué es necesaria la adquisición de un vehículo propio son variadas en Quito. Pero las propuestas que la ciudad presente como alternativas a esta aspiración deben ser contundentes, claras, bien implementadas y logradas a un nivel en el que esa misma visión se vaya reemplazando por una con mayores ventajas a futuro. \n Esos son los fuertes obstáculos que hemos tenido que sortear como ciudad para la implementación de un importante proyecto de ciclovías urbanas con un concepto de movilidad accesible, sostenible, conectivo, seguro y eficiente que no se había planteado antes en la ciudad.\n Si bien es cierto, Quito contaba ya con casi 58km de ciclovías (entre bidireccionales, unidireccionales, compartidas y sub urbanas), implementadas en los últimos 12 años, no se había planteado un reemplazo modal impactante hasta el momento, a través de la toma de un carril vehicular completo por sentido en avenidas colectoras principales en la urbe. Cosa que no ha sido fácil y que ha causado algo de conmoción en los conductores de vehículos particulares principalmente, quienes ven que las vías están “repletas” de autos y la congestión es un acompañante intenso en los desplazamientos de los quiteños. \n Este proyecto de 67.5km de ciclovías amplias, conectivas, visibles e implementadas en vías principales a lo largo y ancho de la ciudad empezó a ejecutarse en junio del año de la pandemia. Aprovechando la oportunidad que las calles algo desoladas nos permitió, para que las obras sean lo menos disruptivas posible. \n Pero el proyecto no viene sólo, es parte de una planificación amplia en cuanto a la compleja movilidad de la ciudad, que tiene varias aristas importantes y nunca antes intervenidas. Entre las que está una mejora integral a los sistemas de transporte público, una restricción vehicular potente, la reestructuración de los perfiles viales para darle priorización al peatón y al ciclista y la implementación del Metro. Todos proyectos enlazados entre sí y profundamente conectados con una visión de ciudad más sostenible, amigable y accesible.\n Todo el plan tiene como objetivo la cobertura longitudinal de la principal mancha urbana, desde la micro-centralidad de Calderón-Carapungo al norte de Quito hasta la zona de Quitumbe al extremo sur, y cerca de 20 corredores transversales que funcionen como alimentadores desde los barrios orientales y occidentales hacia el ramal longitudinal principal, más o menos en la manera en que los flujos de agua solían moverse en el terreno antes del crecimiento arquitectónico de la ciudad.\n Desde junio hasta diciembre se ha ejecutado casi el 25% del proyecto con un presupuesto e inventario limitados. La planificación del trazado y de las zonas de ejecución se realizó en la Secretaría de Movilidad y la ejecución está a cargo de la Empresa Pública Metropolitana de Movilidad y Obras públicas en coordinación con la Agencia Metropolitana de Tránsito. \n La planificación e implementación también han tenido actores críticos en su construcción como lo son los colectivos de ciclistas de Quito quienes ayudaron a darle forma al proyecto desde la parte ciudadana y se han comprometido con el mismo en sus etapas de diseño y socialización. \n Y desde otras entidades municipales como la Secretaría de Territorio, Hábitat y Vivienda y las Administraciones Zonales el proyecto ha recibido apoyo en su concepción y desarrollo.\n Creo que vale mucho la pena recalcar que el presupuesto que se utiliza para la implementación de un proyecto de ciclovías que excede la dimensión de lo existente por muchos kilómetros, es relativamente pequeño si lo comparamos con cualquier otro tipo de infraestructura vial. Los elementos de segregación, la pintura, los elementos semafóricos y poca obra civil nos demuestran que las intervenciones de bajo costo y alto impacto son muy posibles, muy eficaces y tienen una capacidad transformadora única\n Se avizora que el proyecto de Ciclovías Emergentes se complete pasando el segundo semestre del 2021 si los procesos, sobre todo los de adquisiciones, se dan de manera correcta. Y será solamente un peldaño en una escalera de infraestructura que debe continuar sin importar quién esté a la cabeza de la ciudad ni qué visión tenga, ya que la movilidad sostenible es un concepto que se debe conservar sin importar cualquier otra circunstancia.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/ciclovias-en-la-capital/",
+    "publication_date": "2021-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27522",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ciclovias-en-la-capital&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,195 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+  "title": "White roof, innovative solar shadings and bioclimatic design in Madrid",
+  "summary": "This new IMDEA building in Madrid incorporates both mitigation and adaptation solutions such as bioclimatic design, water-saving systems, and renewable energy. With a focus on energy efficiency and resource sustainability, it exemplifies integrated climate-resilient construction. Climate change impacts are expected to strongly impact the Madrid region and include extreme heat in summer, water scarcity and occasional heavy rainfall. In 2012, the new building of the energy department of the Madrid Institute for Advanced Studies (IMDEA) was completed. The building, located in Móstoles, 18 Km southwest from central Madrid, incorporates different climate change adaptation solutions.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Móstoles",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Comunidad de Madrid",
+        "ucode": "ESP_0013_V1",
+        "dcid": null,
+        "source_code": "SUBN_Comunidad_de_Madrid__ES_",
+        "source_name": "Comunidad de Madrid (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "IMDEA",
+      "label": "IMDEA"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "building orientation",
+      "label": "building orientation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "energy consumption",
+      "label": "energy consumption"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "indoor temperature",
+      "label": "indoor temperature"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bioclimatic architecture",
+      "label": "bioclimatic architecture"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "permeable surface",
+      "label": "permeable surface"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cooling",
+      "label": "cooling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mitigation",
+      "label": "mitigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water saving",
+      "label": "water saving"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "energy efficiency",
+      "label": "energy efficiency"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Since the objective of the energy department of the IMDEA institute is to carry out research and development on energy issues (especially concerning renewable energy and clean energy solutions), a connection to these overarching goals was considered in the design of the new building. At the same time the developers aimed to design a building that would operate for a long time and that would function under changed climatic conditions, with higher summer temperatures and without consuming additional energy for cooling. The building design had to include energy efficient systems, renewable energy, reduced energy use, efficient water systems, efficient resource use (such as building materials) and green areas around the building.",
+    "measures": "Most of the solutions implemented in the construction of the IMDEA building are climate change adaptation and mitigation measures at the same time. The building was designed according to the criteria of bioclimatic architecture, in order to achieve low indoor temperatures during hot periods and minimise energy use for cooling and lighting. Building facades are back-ventilated with 80 mm isolation and different exterior finishes for optimal result. It is enveloped by large transparent surfaces, especially in the indoor walls, which improve the appearance and lighting of the building. Horizontal blades (“fixed large louvre blade system”) are used on the outside of the building, thereby offering effective solar shading without impairing the view. These sunshades protect the users against an excessive level of heat due to solar radiation or the possibility of glare when the solar altitude is at its highest or when the levels of radiation are very high. Together with a proper orientation of the building, the sunshades enable optimal use of the incoming light in times of low solar altitude (early morning, late evening and winter days). Roof areas exposed to direct sun have been covered with a special white material reflecting radiation, which reduces the amount of energy needed for cooling and the contribution to the urban heat island effect. Special care has been taken in the orientation of the building: different facade systems have been designed and compared in order to develop the optimal facade according to function and orientation. The building was designed in modules, so it could be expanded or divided without affecting its functionality or image. The core of the building forms its heart in terms of use and is designed as a natural meeting and interaction place. The research spaces are placed around it. In those spaces the technical equipment is placed on top, thereby forming a passive defence cover against excessive solar radiation and heat. Adaptation measures have also been developed with respect to water management. Water-saving systems are implemented; for example sinks, toilets and urinals consume very little water and the saving is over 40% compared to a conventional building. Additionally, all the water from the roof is collected and used to irrigate green areas or for other non-specified purposes. Not only extreme droughts, but also extreme rainfalls are taken into account; the parking has a permeable surface, which drains water quickly after the event. The green area surrounding the building is covered with local trees and plants. The climate mitigation measures that have been taken in consideration focus mainly on energy efficiency, renewable energy sources and reduced energy consumption. The building has energy efficient facilities and a monitoring and control system to ensure optimal use of those facilities. The building has become more energy efficient every year, due to this monitoring system. A closed system of water cooling also supports the energy and water efficiency of the building. An aquifer thermal energy storage installation, cogeneration and solar panels are installed as renewable energy sources. Resource efficiency was another important focus of the project. During construction, recycled materials were used, such as steel, aluminium or glass; as well as locally made components, such as natural stone, concrete and ceramic materials. Sustainability of the materials was also an important issue and therefore the materials derived from wood have the FSC certificate. The whole IMDEA building was designed and developed according to the Green Building specifications (established by the US Green Building Council) and obtained the LEED Gold Certification. Finally, climate change mitigating measures are also implemented via behavioural measures; electric cars and carpooling are encouraged by the reservation of special places on the IMDEA parking area.",
+    "outcomes": "The time and attention paid to designing the building has led to a thoroughly developed building plan. It started as a relatively simple design but evolved during the design process with an increase in energy efficiency targets over time. Another success factor was that the project focused on an integrated design instead of a straightforward addition of individual techniques. For example, solar panels have been installed in the roof directly instead of adding them at a later stage. Another example is that during the soil testing for the foundations, simultaneously tests have been performed for the aquifer thermal energy storage potential. At the beginning of the project the climate, energy and sustainability targets were very low, but they evolved over the course of the project. The continuous updating of the targets and measures lengthened the project development time considerably.",
+    "cost_benefit": "Construction cost was about 9.2 million of Euros. No subsidy was given directly by the city or the region, but since the IMDEA institute was created by the Community of Madrid, this building project was indirectly funded by the autonomous community. IMDEA received funding from calls for Science and Technology of the Ministry of Economy and Competitiveness, although it is unknown how much funding was received. IMDEA also received funding from the European Regional Development Fund (ERDF), through an agreement signed between the Ministry of Economy and Innovation and the Community of Madrid, but it is unclear how much of the funding was dedicated to the building and how much to the research work; in total, the funding is in the order of magnitude of millions of euros. The new building did not just cost money, but it is meant to save money during the period of use. The high energy and water efficiency of the building can result in lower future costs for energy and water consumption compared to conventional buildings.",
+    "timeline": "Construction of the building started on May 2010 and was completed in May 2012. The monitoring of the energy performance of the building is ongoing.",
+    "lifetime": "Provided that the building is well maintained, its useful life is estimated to be over 50 years. The building was designed foreseeing the future possibility of incorporating technical improvements.",
+    "stakeholders": "Stakeholder participation was not directly relevant for the design and construction of the new building of the energy department of IMDEA. The following key actors were involved. The project was initiated by the IMDEA institute (Fundación IMDEA Energía). In Spain, building projects are usually governed by one party and in this case this supervising party was the architect company Arkitools. The construction company was SACYR. Several different consultants participated in the project: HCA (structures consultants), OFINCO (installations consultants), INITEC (installations consultants) and EUROCONSULT (project management). VEGA INGENIERÍA assisted in the LEED certification process. The municipality of Móstoles, the city where the IMDEA building is located, supported the project by providing the land for free.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 40.4202804565,
+    "lon": -3.70577001572,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "construction21.org",
+      "url": "http://www.construction21.org/case-studies/es/madrid-institute-for-advanced-studies-imdea.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "energy.imdea.org",
+      "url": "http://www.energy.imdea.org",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "dd58569e78e840a4b2f1b36265c6419f",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/white-roof-innovative-solar-shadings-and-bioclimatic-design-in-madrid",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:29+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

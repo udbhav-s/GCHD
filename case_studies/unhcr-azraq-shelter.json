@@ -1,0 +1,115 @@
+{
+  "schema_version": "2.2",
+  "id": "unhcr-azraq-shelter",
+  "url": "https://www.unhcr.org/innovation/using-gis-technology-map-shelter-allocation-azraq-refugee-camp/",
+  "title": "Using GIS technology to map shelter allocation in Azraq refugee camp",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Azraq refugee camp",
+      "adm0": {
+        "name": "Jordan",
+        "iso3": "JOR",
+        "ucode": "JOR_V1",
+        "dcid": "country/JOR"
+      },
+      "adm1": {
+        "name": "Az Zarqa'",
+        "ucode": "JOR_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "displaced"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "refugee",
+      "refugees"
+    ],
+    "group_mentions": {
+      "displaced": 4
+    }
+  },
+  "intervention": null,
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Azraq shelter inventory and physical addresses",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Refugee occupancy and allocation records",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Camp GIS basemap",
+      "url": null,
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "UNHCR Innovation",
+    "collection_url": "https://www.unhcr.org/innovation/",
+    "publisher": "UNHCR",
+    "document_url": "https://www.unhcr.org/innovation/using-gis-technology-map-shelter-allocation-azraq-refugee-camp/",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/unicef/MG_RFGS_CNTRY_ASYLM.AGE--AGE-_T",
+      "name": "Number of refugees, by host country",
+      "sdg_indicator": "10.7.4"
+    },
+    {
+      "dcid": "undata/sdg/SM_POP_REFG_OR",
+      "name": "Number of refugees per 100,000 population, by country of origin",
+      "sdg_indicator": "10.7.4"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/unicef/MG_RFGS_CNTRY_ASYLM.AGE--AGE-_T",
+      "name": "Refugee population in host country",
+      "rationale": "Efficient shelter allocation for ~26,000 Syrian refugees in 10,000 transitional shelters at Azraq camp"
+    },
+    {
+      "dcid": "undata/sdg/SM_POP_REFG_OR",
+      "name": "Refugee density",
+      "rationale": "Managing high-volume daily refugee intake (300–1,600 newcomers/day) requires accurate shelter inventory"
+    }
+  ],
+  "summary": "At Azraq refugee camp in Jordan, UNHCR faced a shelter allocation bottleneck for ~26,000 Syrian refugees across 10,000 fixed transitional shelters with physical addresses. Associate Field Officer Yahya Hassune replaced a fragile shared Excel system with a custom GIS application enabling staff to click shelters on a camp map, view availability, occupancy, damage status, and informal occupation, allocating shelters in ~20 seconds and feeding data directly into progress tracking. The system reduced shelter allocation staff from 11 to 5 while processing up to 1,600 newcomers in a single day. Methods include geographic information systems, spatial database design, map-based interactive allocation, and real-time shelter inventory management. The innovation demonstrates how geospatial technology improves refugee camp operations, shelter access, and humanitarian response efficiency."
+}

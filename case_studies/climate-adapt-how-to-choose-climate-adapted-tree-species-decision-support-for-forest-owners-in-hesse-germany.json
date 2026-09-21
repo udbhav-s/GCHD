@@ -1,0 +1,203 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+  "title": "How to choose climate adapted tree species: Decision support for forest owners in Hesse, Germany",
+  "summary": "Mixed forests increase the resilience to large-scale climate damage. The recommendations developed in Hesse region provide decision support to forest owners and foresters for selecting climate-adapted compositions of tree species based on current soil and future climate conditions. The process revealed that cooperation between science and practice as well as ensuring the transfer of knowledge are crucial factors. Climate change and the rapidly changing tree growth conditions pose major challenges for forest ecosystems and the forest sector as a whole.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Kassel",
+        "ucode": "DEU_0007_0010_V1",
+        "dcid": null,
+        "source_code": "SUBN_Kassel__DE_",
+        "source_name": "Kassel (DE)"
+      }
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Gießen",
+        "ucode": "DEU_0007_0006_V1",
+        "dcid": null,
+        "source_code": "SUBN_Gießen__DE_",
+        "source_name": "Gießen (DE)"
+      }
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Darmstadt",
+        "ucode": "DEU_0007_0002_V1",
+        "dcid": null,
+        "source_code": "SUBN_Darmstadt__DE_",
+        "source_name": "Darmstadt (DE)"
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tree species selection",
+      "label": "tree species selection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "web portal BaEm",
+      "label": "web portal BaEm"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "App BaEm",
+      "label": "App BaEm"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "digital knowledge transfer",
+      "label": "digital knowledge transfer"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "tree species recommendations",
+      "label": "tree species recommendations"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "forest drought stress",
+      "label": "forest drought stress"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The recommendations for climate-adapted tree species compositions in Hesse, developed as part of the IKSP-Hessen project have the following objectives: 1. To provide site specific information for unmapped forest areas in Hesse’s municipal and private forests as a basis for selecting tree species appropriate to the location, as only 80 % of the forests have already been mapped. In this context, the project aims to better spatially represent water and nutrient balance, especially in the broad spectrum of sites mapped as “mesotrophic”. 2. To develop silvicultural recommendations forward - looking to the year 2100. The regional climate scenarios from the core ensemble of the ReKliEs-De state-level expert group are used for this purpose. 3. To identify ‘‘forest development types”, consisting of a recommended mixture of tree species that complement each other in their growth patterns, in order to minimise or reduce the risk of damage due to climate change. The final goal is that results are made available to all Hessian forest owners, implementing a new and user-friendly information system usable by forest owners without in-depth technical knowledge.",
+    "measures": "The project included three main activities: (i) mapping site specific characteristics under current and future conditions, (ii) development of recommendations (‘recommended forest development types’) and (iii) knowledge transfer to favour the uptake of recommendations by forest owners (Web-Service for climate-adapted tree species), as detailed below. 1. Mapping site specific characteristics Understanding site specific characteristics, such as available water and nutrient supply, is essential for choosing suitable tree species for any forest site. Soil site maps were available at the start of the project for the majority of forest areas in Hesse. In order to close the gap of 20 % undocumented forest area and improve the mapping results, computer models were developed at the NW-FVA to derive the trophic state, the climatic water balance (difference between precipitation and potential evapotranspiration) and the usable field capacity (water available for plants after replenishment in the winter months) for all the forests sites. To compute the area-based estimation of the usable field capacity a total of 4.179 soil profiles were prepared. In addition, the soil map of the Hessian State Surveying Office was used to estimate the trophic levels ( Heitkamp et al., 2020 ). The core element was the assessment of the future water supply by assessing the site water balance during the vegetation period. This parameter consists of the usable field capacity and the climatic water balance. The climatic water balance used is based on climate projections of the RCP 8.5 emissions scenario (IPCC 2014), calculated with the global model ECHAM 6 and the STARS II statistical regional model as the mean value for the reference period 2041 – 2070. In order to establish the local reference, a combined method of inverse distance weighting and height regression was used to scale down to a 50 x 50 m grid. The new NW-FVA site map thus contains comprehensive information on trophic levels and future site water balance for the entire forest in Hesse, allowing greater weight of climate considerations in the selection of tree species. 2. Development of recommended forest development types Tree species are categorised according to their water and nutrient requirements using threshold values of the drought stress index. Tree species which complement each other in terms of their ecological requirements and growth behaviour are matched to form mixed stand types, or forest development types. Depending on the fulfilment of its ecological requirements for the site, the role of a tree species in mixed forests can be classified as leading, mixed, accompanying or excluded from cultivation. In addition to the site water balance and trophic criteria, recommendations also contain some silvicultural and economic settings (e.g. exclusion of pine and birch on water and nutrient-rich sites). For hydromorphic sites, i.e. soils influenced by groundwater and backwater, the allocation of tree species using the site water balance is not suitable, since the usable field capacity is not meaningful here. Instead, they are categorised by the previous system according to the terrain water regime and trophic level. The main arguments in favour of mixed forests are their greater stability and their generally higher resilience in compensating for disturbances. Forest development types are used in silvicultural planning. They are described by models of the desired forest structure that e.g. categorise their successional position and specify development goals with regard to their protective and recreational function. Timber production targets are included in the form of target diameters and production periods. Percentages of tree species are defined for both development and regeneration targets. Site-specific planning information can be derived for each tree species recommanded in a forest development type. The catalogue of forest development types for municipal and private forests comprises 34 forest development types. They are already being utilised by numerous forest owners. The number of visits to the web portal in August 2024 is more than 296,000 (number of clicks) and it is growing. Due to the risk of misinterpretation by non-expert users, the NW-FVA generally advises consulting with specialised forestry personnel. 3. Web-Service for climate-adapted tree species The decision support system for climate-adapted tree species selection was integrated into HessenForst ’s operational GIS and made available to forest owners as a freely accessible Web portal ( https://www.nw-fva.de/baem/ ). In addition, the REST-Web-Service on which the entire service is based and the WMS (web map service) can be easily integrated into other software products. The NW-FVA website also contains a quick guide to using the service. The catalogue of forest development types, further background information and the classification tables are available for download. In the web application, a click on the map opens a table with information on the position, forest site characteristics and recommended forest development types at each forest location throughout Hesse. To complement the web portal, an app was developed for the Android and iOS (Apple) operating systems for mobile devices. The advantage of the app is that it determines the position of a forest location via GPS. It enables information to be retrieved immediately, so that an assessment of the existing silvicultural situation can be linked directly to the forest site. If there is no internet access available, the selected location is saved and can be opened later to retrieve the associated information. Positioning is particularly helpful if there is no forest division or map basis or if it is difficult to draw boundaries, for example in small private forests. Finally, the catalogue of forest development types serves as the basis for subsidies from the administrative bodies. The state of Hesse is funding the reforestation of open spaces that have been affected by the extreme drought between 2018 and today. The selection of a forest development type recommended at a specific location is mandatory for forest owners and a prerequisite for receiving subsidies for planting and maintenance.",
+    "outcomes": "Success factors: In order to put the results into practice as quickly and efficiently as possible, the knowledge transfer process took place on several levels and this represented a key success factor of the project. First, the composition of the project participants, that involved the HessenForst and the Hessian Forest Owners’ Association meant that experienced practitioners were involved in the development and interpretation of the results from the project start. This ensured recognition of the recommendations provided and active incorporation into forest planning from the outset. Therefore, the first validation took place during the ongoing process before the results were presented and made available to the general public. This approach considerably increased the acceptance of the developed tree species recommendations. A second level of knowledge transfer lies in easy-to-understand documentation and making the results publicly available in a form that transparently supports forest owners and foresters in their decisions. A digital decision support system (DSS) war therefore designed as a suitable tool. This is publicly accessible via an NW-FVA web portal , where forest owners can easily identify their stands and access/download the tree species recommendations developed in the project. A mobile version for Android and iOS mobile phones has also been developed. These applications are the easiest way to locate sites using the GPS function of the mobile device. As the third stage of knowledge transfer, active training courses were organised in close cooperation with HessenForst in all forestry offices. Lectures were also given at events organised by the Hessian Forest Owners’ Association. Free training courses are also offered to forest owners in their own forests. The courses and the web portal were advertised via flyers and adverts in specialized journals. In addition, the creation of video user manuals has begun. These are also available on the NW-FVA website. Surprisingly, several other sectors, such as environmental planning offices, nature conservation authorities, and entities responsible for drinking water extraction and dams or road construction, expressed interest in using tree species recommendations and in integrating the service into their GIS portals. This demonstrates the success of the initiative undertaken by NW-FVA. A similar approach, based on the same concept of forest development types, was implemented in the North-Rhine Westphalia state (Germany), within the SUPERB project (see the case study Large forest restoration solutions in NRW ), suggesting the replication potential of the project. Limiting factors: Although there is a great need for advice and the recommendations were bindingly integrated into the state subsidies for reforestation projects, the tree species recommendations are not established as a new standard yet. The invitation to provide feedback and the training programme were welcomed, but not to the extent hoped for. In-depth knowledge in the complex field of tree species selection in a changing climate is considered necessary to avoid misinterpretations. Moreover, the target group of decision-makers in the forest is very heterogeneous, requiring high efforts in communication. To overcome these limitations, a training programme will be maintained in the long term. On-site training is preferred, but instructional videos are also desired. This will be considered to improve the uptake of recommendations.",
+    "cost_benefit": "The total cost of the project was 5.655.000 EUR and mainly included personnel cost. The use of tools developed in the project is free for all users. Costs for restoring forests are variable according to the site conditions and to the extent of the area to be restored. An example can be found in the case study “ Large- scale forest restoration solutions for resilience to multiple climate stressors in North Rhine-Westphalia, Germany ” Silvicultural planning using forest development types that recommend mixed forests will provide greater stability and generally higher resilience to disturbances. This will not only ensure environmental and economic benefits but also secure maintenance of other forest ecosystem services. Though not specifically quantified, it will also support climate regulation, water regulation and supply, erosion control, habitat provision, and recreation.",
+    "timeline": "The project started in 2018 and runs until 2025. The web portal was made available for the first time in October 2020. After intensive further development, a comprehensive update was carried out in May 2023. The selection and planning of specific restoration or planting measures may take up to one year. Continuous management of the forest stands is important in order to maintain an adapted mixed forest that can provide all ecosystem services. There are corresponding management recommendations for each forest development type, differentiated according to pre-thicket stage, thicket stage, qualification stage and dimensioning stage as well as the maturity and regeneration stage.",
+    "lifetime": "The decision support tool is designed to be permanent and is updated on an ongoing basis.",
+    "stakeholders": "The project partners were the forest owners and advisers: HessenForst , responsible for the state forest and parts of municipal- and private forest, and the Hessian Forest Owners’ Association, responsible for all other parts of municipal and private forests. Both provided advice and data throughout the project and were involved in the knowledge transfer processes. A survey of forest owners and advisors was carried out to develop strategies to promote awareness and use of the decision support tools for municipal and private forests. Since the early steps of the project, stakeholder involvement favoured the acceptance and uptake of recommendations from forest owners. For this reason, more details of stakeholder engagement are reported under the section “Success and limiting factors”.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 50.659935775303126,
+    "lon": 9.019008964124833,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "nw-fva.de",
+      "url": "https://www.nw-fva.de/unterstuetzen/software/baem/hessen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "nw-fva.de",
+      "url": "https://www.nw-fva.de//forschen/projekte/ksp-hessen",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=mk8XUrf-3sU&t=7s",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+    "publication_date": "2025-01-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5bc97e490bd5465f9ebe80a68d8de16d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/how-to-choose-climate-adapted-tree-species-decision-support-for-forest-owners-in-hesse-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:49+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

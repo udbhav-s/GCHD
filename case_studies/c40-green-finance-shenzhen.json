@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-green-finance-shenzhen",
+  "url": "https://www.c40.org/case-studies/green-finance-shenzhen/",
+  "title": "The Real Economy Lab of Green Financial Services in Shenzhen",
+  "summary": "This C40 case study describes “The Real Economy Lab of Green Financial Services in Shenzhen,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: The Real Economy Lab of Green Financial Services aims to bring the characteristics of Shenzhen into play, connect global resources, and rely…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Real Economy Lab of Green Financial Services aims to bring the characteristics of Shenzhen into play, connect global resources, and rely on the successful experience of the China Emissions Exchange (Shenzhen) in the carbon market and carbon finance to explore innovative ways that connect green financial services to the real economy, provide green financial solutions that integrate China and foreign countries, and work together to promote the global green industries and low-carbon transformation and development.",
+    "measures": "Chinese Vers. \n The real economy lab of green financial services was established by the joint promotion of the green finance committee of the Financial Society of Shenzhen Special Economic Zone and the world Financial Center for Sustainability (FC4S) of UNEP, under the support and guidance of the Shenzhen Municipal Government and the People's Bank of China, Shenzhen Central Branch. It was launched upon the official announcement at the FC4S headquarters in Geneva, Switzerland, on October 9, 2019.\n The laboratory secretariat will be located in the China Emissions Exchange in Shenzhen.\n FC4S, as a subsidiary of the UNEP, aims to deepen and promote global financial centres cooperation in the field of green finance, leverage the advantages of financial centres , and promote the development of global green causes. Existing members include 30 financial centres, covering London, New York, Paris, Hong Kong, Shanghai, Frankfurt, and Shenzhen.\n What is the innovation? \n The laboratory is located in the Futian District, Shenzhen, and receives the dual guidance of FC4S and Shenzhen Green Finance Committee. A special consultant is recommended by both parties to supervise and guide the laboratory work. The laboratory's research planning and daily operations will be the responsibilities of the laboratory secretariat, held by the Shenzhen Emissions Exchange. \n There are three working groups under the secretariat: the technical working group, which is mainly responsible for the development of innovative green financial products and services for the real economic model; the project working group, which is mainly responsible for the alignment of green finance and technology projects; and the communication working group, which is mainly responsible for the publicity and exchange of laboratory work results.\n As the world's first financial service platform linking green finance and green real economy, the laboratory will focus its work on the following four aspects:\n Firstly, starting from segmentation of green industries and the greening of industrial parks, explore new real economy models of green financial services, and identify the green industries that are fit for the support of green finances and design commercially sustainable and operable new green finance model by studying the characteristics of segmentation of green industries and various industrial parks;\n Secondly, promote the laboratory to integrate the green capital of FC4S member cities from the two levels of green technology incubation and green industry mergers and acquisitions, coordinate green resources from multiple sides around the world, help financial institutions formulate innovative financial solutions, expand financing channels, explore sustainable green financial business models, enrich green financial service chain, and promote green capital to serve green industries and enterprises in a faster, more stable and extensive way.\n Thirdly, establish a pool of green technologies, projects and enterprises, collect green projects in FC4S member cities to be integrated into the green technology project library jointly established by the Shenzhen Green Financial Committee and the China Emissions Exchange in accordance with the entry criteria. China will promote the deep connection between green capital and technology, projects and enterprises, broaden financing channels for green enterprises and reduce financing costs.\n Fourthly, establish an international information exchange network of green finances, conduct international exchange activities, promote the experience and technical exchanges between laboratory members and other financial centres, demonstrate the excellent green finance practices in Shenzhen and enhance the international influence of the city.\n Next Steps \n In the near future, the Exchange will invite FC4S members to join the laboratory and use the laboratory as a platform to encourage participating member cities to explore new models of green financial services and real economy in their own countries or local areas, sharing experiences and results on the platform and promoting successful experiences to the world. At the same time, promote the establishment of a pool of global green technologies, projects and enterprises, gather green capital in member cities, find business opportunities globally, carry out green investments, and jointly develop green industries and green economies.\n Links to further Information \n http://www.jr.sz.gov.cn/sjrb/gzdt/201910/t20191011_18317091.htm \n http://www.gd.chinanews.com/2019/2019-08-31/404667.shtml \n FC4S website \n Contact Details \n 深圳排放权交易所\n 战略规划部/绿色金融工作部\n 陈奕廷\n 电话： +86 18666019643\n Yiting Chen (Will)\n Project Manager, Strategy & Planning Dept./Green Finance Work Dept.\nChina Emissions Exchange (Shenzhen)\n Cell: +86 18666019643\n Email: cyt@cerx.cn",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-finance-shenzhen/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27464",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=green-finance-shenzhen&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

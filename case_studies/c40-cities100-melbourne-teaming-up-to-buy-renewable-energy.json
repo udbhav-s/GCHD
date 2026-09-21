@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-melbourne-teaming-up-to-buy-renewable-energy",
+  "url": "https://www.c40.org/case-studies/cities100-melbourne-teaming-up-to-buy-renewable-energy/",
+  "title": "Cities100: Melbourne – Teaming Up to Buy Renewable Energy",
+  "summary": "This C40 case study describes “Cities100: Melbourne – Teaming Up to Buy Renewable Energy,” an urban initiative documented for Melbourne. It is included because it addresses agricultural drought, meteorological drought hazards. C40 describes the action this way: To reach its renewable energy targets and drive investments in green energy, Melbourne has joined forces with 13 organizations to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "agricultural_drought",
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "By entering into partnerships with other organizations, Melbourne is able to significantly improve the share of renewable energy consumed in the city and provide reliable demand for renewable providers to allow their projects to proceed and further drive down costs.",
+    "measures": "About 90% of Melbourne’s electricity comes from brown coal power plants and as the city center is dominated by high-rises, it is not possible to decarbonize the electricity supply sufficiently through on-site renewable use. Therefore, Melbourne is developing an innovative group procurement model for renewable energy where the city and 13 other organizations agree to purchase electricity from a renewable energy plant via a long-term contract. The combined procurement of the group, consisting of other city governments, cultural institutions, financial institutions, and property businesses, will result in the construction of a new solar plant or wind farm supplying approximately 100 GWh of electricity to the grid.\n Melbourne aims to scale the model further to reach its target of 25% electricity from renewable sources by 2018. The city adopted the procurement model to circumvent national policy inertia in the renewable energy industry by using existing market mechanisms and developing a replicable model that is not reliant on policy changes. Melbourne is developing a full suite of tools and information to assist other cities in adopting similar procurement models.\n Environmental Benefits – In Australia, a major barrier to investment in utility-scale renewable energy facilities is the inability of new generators to secure power purchase agreements. This procurement project seeks to change this trend.\n Social Benefits – Utility-scale renewable energy facilities are creating employment in areas that are in economic and social decline due to the closure of other industrial sectors or challenging environments for agriculture due to drought and climate change.\n Economic Benefits – Approximately 144 jobs will be created to construct the new renewable energy facility, plus 12 jobs in the ongoing operation and maintenance of the plant.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-melbourne-teaming-up-to-buy-renewable-energy/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26965",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-melbourne-teaming-up-to-buy-renewable-energy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

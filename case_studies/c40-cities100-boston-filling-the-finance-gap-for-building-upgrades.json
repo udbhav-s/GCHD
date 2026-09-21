@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-boston-filling-the-finance-gap-for-building-upgrades",
+  "url": "https://www.c40.org/case-studies/cities100-boston-filling-the-finance-gap-for-building-upgrades/",
+  "title": "Cities100: Boston – Filling the Finance Gap for Building Upgrades",
+  "summary": "This C40 case study describes “Cities100: Boston – Filling the Finance Gap for Building Upgrades,” an urban initiative documented for Boston. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Boston developed an investment fund that pools and mitigates risks in order to obtain capital for energy efficiency and resilience…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Boston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Massachusetts",
+        "ucode": "USA_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "boston",
+      "label": "Boston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Over the next 10 years, buildings in Boston will have an upgrade investment opportunity of $158 million annually, which is more than three times current levels of investment. The Boston Deep Green Loan Pool aims to help fill this funding gap for valuable and environmentally sustainable infrastructure projects.",
+    "measures": "The Boston Deep Green Loan Pool is an investment fund providing loans to retrofit the city’s buildings for greater energy efficiency and resilience. The fund addresses the difficulty that public and private sector property owners have in obtaining financing for operational upgrades. By pooling risks, the Boston Deep Green Loan Pool offers loans with favorable terms such as default protection and credit enhancement that make it easier for property owners to secure additional capital.\n The fund mitigates credit risk by using an energy performance contract under which operational savings are tightly linked to repayment of the loan and risks are assessed through a standardized process. The fund’s implementation of energy performance contracts includes guaranteed reductions in building energy use or production of on-site renewable energy, which enables greenhouse gas reductions. Fundraising for the Boston Deep Green Loan Pool began in December 2014.\n Social Benefits – Expanding investment in property upgrades will make affordable, quality housing more widely available.\n Economic Benefits – Buildings in Boston have a $1.6 billion self-funding upgrade investment opportunity.\n Health Benefits – Building upgrades financed by the fund will improve indoor air quality and therefore the health of those suffering from respiratory and heart-related illnesses.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-boston-filling-the-finance-gap-for-building-upgrades/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27025",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-boston-filling-the-finance-gap-for-building-upgrades&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

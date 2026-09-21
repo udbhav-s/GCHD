@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+  "title": "Building fire resilience using recycled water in Riba-Roja de Túria, Spain",
+  "summary": "The forest surrounding the urban areas of Riba-Roja de Túria (Valencia, Spain) is exposed to increased wildfires. The municipality aims to enhance resilience by implementing green urban actions, including recycling 80000 m³ of wastewater and creating green firebreaks to mitigate forest fire risks. Riba-Roja de Túria is a municipality located in the National Park of Túria’s River in Valencia (Spain) which represents one of the last remaining forestry ‘lungs’ in its metropolitan area. The Túria Park also represents a clear example of the scarce and valuable Mediterranean riparian forests associated with the River Túria.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Riba-Roja de Túria",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Comunidad Valenciana",
+        "ucode": "ESP_0010_V1",
+        "dcid": null,
+        "source_code": "SUBN_Comunidad_Valenciana__ES_",
+        "source_name": "Comunidad Valenciana (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective is to increase fire resilience in the area of Túria Natural Park, by applying sustainable water management principles. More than 35 hectares of “strategic nature” (i.e. green firebreaks and plant species with characteristics allowing to reduce fire risk) are planned to be managed in order to prevent fires at the urban-rural interface, protecting natural areas, biodiversity, agricultural land and the potentially affected population. The use of recycled water for fire extinction will also help in preserving water resources, in a future looking perspective. In addition, it is recognized that the protection against fires at the interface with urban areas (Wildland Urban Interface, WUI) is not only a fire-fighters’ responsibility. Both decision-makers and practitioners, working at the WUI, must learn to use integrated fire resilient strategies, such as implementing irrigation solutions and considering a sustainable water cycle, adjusting the water demand to the actual water availability. Therefore, raising awareness of the public in fire prevention and self-defence is another objective to be pursued.",
+    "measures": "Riba-Roja de Túria has developed a fire resilience strategy based on the use of recycled water to prevent and protect an area at the wildland-urban interface against fires. The strategy provides preventive, pre-suppression and extinction irrigation/soaking patterns automatically programmed to respectively: (i) increase fuel moisture anytime during the fire season, (ii) directly protect from fire flame during the preparedness stage in case a fire is declared nearby, and (iii) respond to fire event with direct water application. To carry out this strategy, after considering existing fire risk management plans and emergency protocols, four main actions of different nature are being implemented: Building a hydraulic infrastructure to supply recycled water, from the city wastewater treatment plant to the wild land-urban interface of the area Designing an unsupervised irrigation module to prevent and manage fire Designing, building and maintaining transitional ‘green belts’ around the urban area (green firebreaks) and performing various forestry activities to reduce the fuel load. Green belts are designed to act as firebreaks and prevent the advance of fire in the urban-forest interface area. They are maintained through reusing treated water from the hydraulic infrastructure Raising awareness campaigns and training activities for citizens to increase fire risk perception and self-protection capabilities 1. The hydraulic system is composed of four new buried or semi-buried water tanks and one renovated tank that collect water from the Water Regeneration Station (WRS). The treated water gets the tanks by a pumping equipment located at the treatment station and by a 63 mm diameter polyethylene pipeline. Water is then distributed to 42 “cannons” (irrigation and sprinkler towers) through more than 6,500 meters of pipes. Reclaimed water from WRS is used to prevent and manage fire in the forested area. Reclaimed water coming from the WRS will also be used to improve the water quality of an existing wetland (“la Vallesa” pond), that is exploited as a natural emergency reservoir in addition to tanks. The area is catalogued as a ‘protected wetland’ by the natural resources management plan of the Valencian Government. The Water Regeneration Station allows an advanced water treatment to eliminate organic micropollutants. Those, include Chlorpyrifos, a common pesticide, coming from the influent water, pharmaceuticals, personal care products and endocrine disrupting compounds. It guarantees the safe use of recycled water in the natural park. The treatment process consists of ozonation, followed by biofiltration. This will also allow reducing the current load of suspended solids delivered to the wetland, thus minimising siltation processes, as well as to restore the whole hydraulic network in the surroundings. 2. The unsupervised irrigation system is responsible for calculating the irrigation needs consistent with daily soil conditions. It has been designed to be fed with data coming from a wireless sensory network, the so-called WUIProtect (Wildland Urban Interface Protection system against wildfires). This is a European patent developed by a small company ( Medi XXI GSA ). The system is used to monitor meteorological conditions (temperature, humidity, wind), air quality conditions (particulate matter, nitrogen oxides) and biomass variables (fuel and soil moisture, etc.), together with eventual fire ignitions in real time. This system uses hundreds of sensors that were set up at the interface between the wildland and urban areas of Riba-Roja and Paterna. Based on collected data and specific algorithms, elaborated during the project, the system continuously provides information to update fire risk managers. The system also communicates with the water cannons, thus triggering different types of irrigation patterns: preventive irrigation to increase fuel moisture anytime; pre-suppression wetting for fuel blanketing during the preparedness stage in case of fire in the area and, finally, direct attack when flames are so close that can be directly wet by the water delivered by the GUARDIAN cannons. 3. Riba-Roja de Túria municipality is also building green firebreaks to increase the fire resilience of the area. Green firebreaks are low flammability 50-60 m-wide strips of vegetation located in strategic areas of the territory to slow down or stop the progress of forest fires. The green fire breaks are made up of strategically planted fire-resistant trees (e.g. Fraxinus ornus, Celtis australis, Sorbus domestica ). Shrub windbreak barriers, made of species of low fire vulnerability (Myrtus communis, Viburnum tinus, Pistacea lentiscus), were also used at the windward edge of the firebreak to reduce surface wind speed. Green firebreaks get water from the hydraulic infrastructure to moisten vegetation in the area and form a thick green wall facing the prevailing wind to block the ashes and heat. Plant species are selected based on the following characteristics: low flammability, structural properties to reduce wind speed, fuel load reduction, ability to generate the growth and maintenance of fungi to improve soil conditions, and a combination of herbaceous plants to favour soil moisture. Several regular forestry actions are also implemented, like thinning, pruning and clearing, especially in post-fire natural regenerated areas or in mature forest areas. The latter, in some cases, have to be treated to reduce fuel load and continuity. These actions increase fire resilience of la Vallesa forest while also improving its ecological conditions (control of invasive species). Without forestry treatments to reduce the fuel load, the system implemented in the Guardian project loses efficiency. Forestry actions create areas where trees shade the ground and remove shrub cover that constitutes the “ladder” by which the fire climbs to the canopy. 4. In addition, the Riba-Roja de Túria municipality is engaged in awareness raising campaigns to train citizens in fire prevention. The training sessions target both residents and schoolchildren living near the fire risk zones. The residents are being skilled about fire prevention and how the hydraulic infrastructure can minimise fire risks, including a demonstration of the water cannons being installed throughout the area. As part of these training sessions, the city is also holding workshops on fire resilient gardening to further develop citizens’ skills in fire prevention. The schoolchildren, aged 6 to 11 years old, are taught about climate change, including its causes and effects, and the consequences fires can have on homes depending on the fire resilience measures adopted. Finally, the municipality of Riba-Roja de Túria has successfully developed an Action Plan for an integrated solution to reduce fire risks while providing a safe natural environment for citizens. A list of indicators and target values has been set to measure the success of the implemented measures: minimum surface area for silvicultural treatments (105 ha), minimum water quality standards of the regenerated water from the treatment plant (pesticides like chlorpyrifos concentration in recycled water, with a target of <0.03 μg/l) and minimum number of inhabitants and residential areas protected by the overall fire defence system. This plan allows to constantly and increasingly monitor and report on progress and efficiency of the implemented measures. After two years from the project completion, the performance of the WRP has proved successful. WUIProtect is already operational since summer of 2022. In June 2022, a wildfire was reported in the “Pedrera” cannon, just a few kilometres away from the GUARDIAN sites. Given the fire weather conditions (34ºC, relative humidity of 20%, and west-southwesterly winds exceeding 20 km/h), it was recommended to activate the water cannons in “Masia Traver” and “Els Pous” sectors. Fortunately, the fire was quickly brought under control with minimal consequences and a very limited area burned. It proved to be a valuable test for the system, showcasing its prompt response to an emergency situation ( GUARDIAN journal n.4 ). In April 2024, a severe fire event occurred. It was early detected and successfully managed through the Guardian hydraulic infrastructure.",
+    "outcomes": "The Action Plan developed by the municipality of Riba-Roja that set a list of indicators and target values, allows testing the success of the first implemented measures, thus enabling their completion. Other success factors that allowed the implementation of the adaptation measures were: the sufficient amount of water availability from the treatment plant and the existence of an urban-forest interface where to build the infrastructure. In addition, the initiatives of awareness raising and involvement of citizens, that were undertaken at the early stages of the project, favoured their success. The reaction of Riba Roja’s local government was extremely positive. The positive results of the project contributed to trigger complementary projects, with interest from at least 11 municipalities in Spain. In the area of Riba-Roja municipality, the extension of the project to “Valencia la Vella” is considered, with an anticipated investment of approximately €400,000, relying on municipal financing. Concurrently, Paterna is examining the protection of \"la Cañada\" settlement, not covered by Guardian due to financial limitations. The municipality of Eliana (in the vicinity of GUARDIAN sites) has already acquired portable cannons similar to those developed in GUARDIAN to address fire risk. The Natural Park of \"El Saler\" near Valencia is currently adopting a system like the one developed in GUARDIAN (GUARDIAN Journal n. 4 ). Conversely, working in a natural park required several authorizations and increased the costs for realizing the infrastructure. The set up of the hydraulic infrastructure encountered some implementation issues. Those are related to the use of heavy cranes needed to transport the towers (which can be up to 26 m long) to be moved to the destination site located in a complex landscape (i.e. WUI neighbourhoods with narrow roads close to wild areas). The nearness of the Valencia airport imposed particular attention. Some towers of the hydraulic infrastructure needed to be highly visible for safety reasons. Towers in this area have been painted with white and red strips for the sake of increasing visibility. The other towers were instead painted in green to favour forest landscape integration and minimise visual impact. An activity of prescribed fire in an abandoned cropland had been scheduled in the GUARDIAN project but not implemented due to the persistence of weather conditions not suitable for this technique (winter high temperatures and winds, which could trigger uncontrolled fire in the forest). The activity had been designed to reduce wildfire risk, to train operators and for research activity (collecting data and improving the knowledge about this technique and its impacts) . Limiting factors are also related to the institutional setting of the Valencian Community. The regulation on fire prevention was not sufficient for this case, and legislation for addressing disaster risk reduction and safeguard of human life was not covering all the needed aspects. Thanks to the GUARDIAN project, the regional legislation ( legislation decree 1/2021 ) has been amended to include green firebreaks and the use of irrigation from hydraulic systems as valuable fire risk reduction measures. This has been one of the most relevant achievements of the project in terms of legislation. Finally, other important limiting factors were related to the need of guaranteeing the quality of the recycled water (technical issues), and to properly determine the location of the hydraulic system in a natural area, taking into considerations the distances of the infrastructure from special value trees.",
+    "cost_benefit": "The total cost of the adaptation measures amounted at 5,494,755 EUR, partially financed by EU Urban Innovative Actions under the GUARDIAN project (EUR 4,395,804, 80% of funding). Maintenance costs will be covered by drinking water tariffs. The water operating company has extended its responsibility to the new facilities established by the GUARDIAN project. Municipalities will be responsible for maintaining forestry activities in the areas within their jurisdiction, while the Vallesa Natural Park management entity will assume responsibility for the corresponding areas. As for the river area, maintenance duties will be overseen by the Spanish Ministry of Ecological Transition. Benefits from the implementation of the hydraulic infrastructure to recycle wastewater are mainly related to the increase in the resilience of the areas to prevent forest fire and reduce the forest fires risks. The advanced water treatment ensured by this system also allows reducing the environmental impact previously associated to the discharge of urban waste waters and its re-use for irrigation. It can also provide a cost-efficient supply that decreases the demands – and stress – on valuable sources, such as groundwater, rivers, and water reservoirs. This is particularly important in areas affected by water scarcity and drought, thus increasing environmental sustainability. Forest preservation in the GUARDIAN project area provides important ecosystem services, including carbon sequestration (climate regulating service). The amount of CO 2 stored in trees resulted to be 18,396 tons, considering an area of 400 hectares. Based on the average market value of CO 2 emissions in 2021 and considering that the goods generated by environmental assets can last for a long period of time (e.g. 100 years), researchers calculated that the ecosystem service of carbon absorption and storage in Vallesa can be valued EUR 32.8 million. The economic value of cultural ecosystem services provided by the forest (e.g., educational and research activities, cultural values, recreation and tourism) was also quantified. It suggests a total value of EUR 411.5 million, over a 100-year lifespan. Since the investment required to maintain the project's operation over a 100-year period was estimated at around EUR 6.2 million, the GUARDIAN project turned to be cost-effective, having a highly favourable cost-benefit rate ( Demonstrating GUARDIAN economic feasibility, 2023 ).",
+    "timeline": "The GUARDIAN Project run from 2019 to 2021. This 3 years period included building, testing, and operational phases of the planned intervention. An extension period was granted, to end by April 2022. The hydraulic infrastructure was completed in 2020. During 2021, operational parameters have been adjusted to maximize the efficiency of the treatment processes. The plant started to be operational in 2022.",
+    "lifetime": "The infrastructure is expected to have a lifetime of more than 25 years with a plan of regular maintenance. Responsibilities for its operation and maintenance have been defined.",
+    "stakeholders": "Stakeholders have been mainly engaged in the awareness raising campaigns on fire prevention. Training sessions and workshops have been organized to train both residents and schoolchildren on climate change risks for the area, damages from fires, and prevention actions. In addition, specific sessions have been dedicated to present and demonstrate the hydraulic infrastructure and its benefits with the objective, to increase its acceptance by the local community and to avoid any conflicts related to potential risks associated to the wastewater reuse. In order to create a community of engaged residents, trained personnel visited properties and discussed with residents vulnerability elements of their houses and self-protection potential. Protocols applied in case of emergency and the role of residents were explained.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 39.54519,
+    "lon": -0.56811,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "proyectoguardian.com",
+      "url": "https://proyectoguardian.com",
+      "role": "contextual_input"
+    },
+    {
+      "name": "portico.urban-initiative.eu",
+      "url": "https://portico.urban-initiative.eu/uia/guardian-green-urban-actions-resilient-fire-defence-interface-area",
+      "role": "contextual_input"
+    },
+    {
+      "name": "youtu.be",
+      "url": "https://youtu.be/nw70Nloz0Z8",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+    "publication_date": "2024-12-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5c55bc6a04e3434885e8556a6d3d9c2d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/building-fire-resilience-using-recycled-water-in-riba-roja-de-turia-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

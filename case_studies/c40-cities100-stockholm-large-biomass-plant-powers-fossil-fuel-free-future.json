@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-stockholm-large-biomass-plant-powers-fossil-fuel-free-future",
+  "url": "https://www.c40.org/case-studies/cities100-stockholm-large-biomass-plant-powers-fossil-fuel-free-future/",
+  "title": "Cities100: Stockholm – Large Biomass Plant Powers Fossil Fuel-Free Future",
+  "summary": "This C40 case study describes “Cities100: Stockholm – Large Biomass Plant Powers Fossil Fuel-Free Future,” an urban initiative documented for Stockholm. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: By using a large-scale biomass plant to power its district heating system, Stockholm is inching closer to its goal of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Stockholm",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": null,
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Stockholms Laen",
+        "ucode": "SWE_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Stockholm",
+        "ucode": "SWE_0015_0018_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "stockholm",
+      "label": "Stockholm"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Stockholm aims to reduce per capita greenhouse emissions to 2.3 tons by 2020 and rely on 100% renewable energy by 2050. Powered by sustainably and locally sourced wood waste, prevalent in the region, the large CHP KVV8 will play a key role in growing and diversifying the city’s renewable energy system while reducing the global climate impact of the district heating system.",
+    "measures": "Through its new combined heat and power plant, CHP KVV8, Stockholm is powering 90% of its district heating system with renewable energy. The biomass used to power the plant consists mostly of locally sourced forest residue and wood waste that has received Forest Stewardship Council certification. Flexible operations enable the plant to adjust the production of both heat and electricity to meet current demand, helping the city achieve energy efficiency gains. When fully operational in 2017, CHP KVV8 will provide 1,700 GWh of heat and 750 GWh of electricity annually, generating enough heat for 190,000 households. The large-scale plant contributes to Stockholm’s goals of reducing CO2 emissions, improving air quality, and ultimately becoming a fossil fuel-free city by 2050. Along with wind and solar power, the CHP KVV8 plant, managed by Fortum Värme, a joint venture between the city and the energy company Fortum, will form the backbone of the city’s renewably powered future.\n Environmental Benefits – The plant will decrease greenhouse gas emissions equivalent to approximately 12% of the annual emissions from the Stockholm’s area transport sector.\n Economic Benefits – This project will help secure and create jobs in sustainable forestry.\n Health Benefits – CHP KVV8 reduces the use of fossil fuels and will reduce emissions of NOx and particulates in the area, which will help mitigate the incidence of related respiratory disease.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-stockholm-large-biomass-plant-powers-fossil-fuel-free-future/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27182",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-stockholm-large-biomass-plant-powers-fossil-fuel-free-future&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

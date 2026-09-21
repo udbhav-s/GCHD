@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+  "title": "Room for the River Waal – protecting the city of Nijmegen",
+  "summary": "In response to frequent flooding, Nijmegen redesigned the Waal River to reduce water levels, moving dykes inland and creating a new channel. This involved expropriation of land and compensation schemes. An important success factor was the overall coordination and funding by the national government. At Nijmegen, the Waal River bends sharply and narrows. This creates a bottleneck, which often caused flooding of the historic city centre of Nijmegen, located on the south bank of the Wall.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nijemegen",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Gelderland",
+        "ucode": "NLD_0004_V1",
+        "dcid": null,
+        "source_code": "SUBN_Gelderland__NL_",
+        "source_name": "Gelderland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "dike relocation",
+      "label": "dike relocation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "room for the river",
+      "label": "room for the river"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban development",
+      "label": "urban development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "integrated approach",
+      "label": "integrated approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Nijmegen",
+      "label": "Nijmegen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the project was to improve the protection of the city of Nijmegen and the village of Lent from flooding by creating more room for the river.",
+    "measures": "The Room for the Waal River project was part of the wider ‘ Room for the River Plan ’ approved by the Dutch Government in 2007. The main goals of this wider project are to manage higher water flows levels in the Dutch rivers by lowering the elevation of flood plains, creating water buffers, relocating levees, increasing the depth of side channels, and constructing flood bypasses. Within the Room for the Waal project: the existing dike, located in front of the village of Lent along the norther shore of the Wall, was moved 350 m inland to create room for an ancillary river channel; an ancillary channel with a width of 150-200 m and a length of 3 km was dug in front of Lent to provide more space for water during floods. The channel has a natural aspect and is used for recreational purposes such as rowing and sailing; the newly built channel created a new island now used as a unique urban river park in the heart of Nijmegen with space for living, recreation, culture, water and nature; to cross the river and provide access to the island urban park the existing Wall bridge was extended and new bridges where built.",
+    "outcomes": "An important success factor was that the overall ‘Room for the River Plan’ was coordinated and largely funded by the national government. It was a coordinated effort that not only focused on one location, but spread the overall problem over a range of measures at different locations. Each measure contributed a part of the solution. In addition, the programme was developed as a coordinated programme involving a large number of partners, including the national government, provinces, municipalities and water boards. The specific projects, moreover, were conducted with broad involvement of stakeholders and the local community. An important limiting factor of the ‘Room for the River Plan’ was the limitation of the budget. This was partly overcome through securing additional funding from the provinces, water boards and municipalities. In addition to available funding, a limiting factor was the need for expropriation of land and compensation schemes for periodic flooding of lands included as part of the measures adopted.",
+    "cost_benefit": "Total costs of the project are estimated in 351 million euro, mainly provided through the national budget. An environmental assessment and a social cost-benefit analysis have been made for this project, indicating a more than $295 million positive effect. The main benefit of the Room for the Waal River project is the increased protection from flooding of the city of Nijmegen and the village of Lent. Apart from this key objective, the project improved the river natural landscape and provided space for recreational opportunities. In a wider perspective, the Waal project contributed to the overall ‘Room for the River Plan’ aimed at reducing river flooding risk at a larger scale.",
+    "timeline": "The project was initiated in 2012. Relocation of the dike, construction of the ancillary channel and creation of the new were completed by 2016. After 2016, the area was further developed to allow for recreation, housing and other urban functions.",
+    "lifetime": "Lifetime of the implemented project is considered of at least 100 years.",
+    "stakeholders": "Within the Room for the Waal River project, stakeholders and the local community were engaged through newsletters, information meetings and interactive workshops. In the interactive workshops, the project was presented asking the participants to provide their inputs. Moreover, the whole project was subject to the Strategic Environmental Assessment (SEI) and Environmental Impact Assessment (EIA) procedures, including the required public participation. Through the broad involvement of stakeholders and detailed responses to their inputs, the stakeholders’ doubts and opposition were largely addressed.",
+    "legal_context": "High river discharge situations in 1993 and 1995 in the Netherlands led to a change in policy. Where the previous policy was based on discharging surplus water to the sea as quickly as possible, the new policy became to first retain water, then store the water and finally discharge the excess water. The new water policy was later linked to nature development and implementation of the EU Water Framework Directive as it contributes to the improvement of the morphology of the Dutch rivers. This approach has been also used in the case of the Room of the Waal River project."
+  },
+  "point": {
+    "lat": 51.8387474532,
+    "lon": 5.86051940894,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=-2TE2eSV77k&feature=youtu.be",
+      "role": "contextual_input"
+    },
+    {
+      "name": "urbanclimateadaptation.net",
+      "url": "https://www.urbanclimateadaptation.net/ezine1/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "goexplorer.org",
+      "url": "https://goexplorer.org/nijmegen-embracing-the-river-to-combat-flooding/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "hnsland.nl",
+      "url": "https://hnsland.nl/en/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "086033ea878b441985c9eac18bf89960",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/room-for-the-river-waal-2013-protecting-the-city-of-nijmegen",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:37+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

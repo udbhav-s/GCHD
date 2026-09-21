@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-boston-new-media-engages-residents-in-climate-action",
+  "url": "https://www.c40.org/case-studies/cities100-boston-new-media-engages-residents-in-climate-action/",
+  "title": "Cities100: Boston – New Media Engages Residents in Climate Action",
+  "summary": "This C40 case study describes “Cities100: Boston – New Media Engages Residents in Climate Action,” an urban initiative documented for Boston. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Boston’s sustainability messaging and branding campaign uses digital media and monitoring systems to engage residents in achieving climate goals. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Boston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Massachusetts",
+        "ucode": "USA_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "boston",
+      "label": "Boston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Greenovate Boston was designed to ensure that constituents were not just targets of outreach, but active contributors to the content of the program. To solve this challenge, Greenovate Boston took advantage of the rapidly expanding social media universe to spur a variety of climate actions at home, at work, and in communities.",
+    "measures": "After recognizing that many climate-related projects – such as those related to transportation, air pollution, food, and solid waste – were handled by many different city departments, each with its own brand and logo, Boston officials created Greenovate Boston to unify the separate brands and establish a broad platform for communication, community engagement, and recognition of achievement. In order to help constituents clearly understand the interrelatedness of the city’s climate programs, Greenovate Boston uses social media and newsletters to reach multiple audiences, and utilizes a state-of-the art system to track and measure how well campaigns and events spur environmental action\n Greenovate Boston’s “Solarize Boston” initiative incentivized installation of residential rooftop photovoltaic systems; in a six-month period in 2012, this program led to 116 projects with a combined capacity of 522 kW. Greenovate Boston has also contributed to a record 4 billion transit riders in 2014. In 2014, Greenovate Boston established additional goals for 2020, including 36,000 additional residential home weatherization and significant energy upgrades, 10 MW of additional solar capacity on commercial buildings, and a 5.5% reduction in distance traveled by cars, below 2005 levels.\n Environmental Benefits – The 2015 Arbor Day event in the city, sponsored by Greenovate Boston, resulted in 216 trees planted, pruned, and mulched across the city.\n Social Benefits – The program catalyzes community building through partnerships with neighborhood organizations and city departments specifically focused on neighborhood action.\n Economic Benefits – Greenovate Boston’s “Taste the Tap” campaign results in up to $1,400 saved per person each year when residents drink tap water instead of bottled water.\n Health Benefits – Many Greenovate Boston climate initiatives also have health benefits, such as encouraging Bostonians to take the stairs at work instead of the elevator, and to ride a bike or walk rather than driving a single occupancy vehicle.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-boston-new-media-engages-residents-in-climate-action/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27035",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-boston-new-media-engages-residents-in-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-resilient-water-systems-hong-kong",
+  "url": "https://www.c40.org/case-studies/resilient-water-systems-hong-kong/",
+  "title": "Resilient Storm Water Management Leading to Climate Adaptation for Hong Kong, China",
+  "summary": "This C40 case study describes “Resilient Storm Water Management Leading to Climate Adaptation for Hong Kong, China,” an urban initiative documented for Hong Kong, China. It is included because it addresses river flood, coastal flood, tropical storm hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong’s Drainage Services Department has completed a series of plans and surveys that have adequately prepared the city for typhoons.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong’s Drainage Services Department has completed a series of plans and surveys that have adequately prepared the city for typhoons.",
+    "measures": "Between 1994 and 2010, Hong Kong’s Drainage Services Department (DSD) progressively completed a series of Drainage Master Plans (DMPs) which were then followed by regular reviews. The scope of these studies cover the entirety of all flood-prone areas in Hong Kong, and led to the construction of 2,400 km of storm water drainage pipes, 360 km of river channels, 21 km of drainage tunnels, 4 underground flood storage tanks and 27 village polder schemes; all infrastructure projects that led to significantly reduced flood risk. \nTo adapt to climate change and cater to increasing urbanisation, a DMP review has been taking place in a series of phases since 2008, aiming to re-examine drainage capabilities and identify improvements to be made for enhanced flood resilience. It takes into account future urban development and climate change effects to develop its drainage improvement schemes. \n What is the innovation? How does it work? \n The DSD’s Inter-Reservoir Transfer Scheme (IRTS) is a remarkable innovation serving the dual purpose of improving flood protection levels and achieving water conservation. The IRTS transfers collected surface runoff between reservoirs, thereby creating a designated storage capacity to receive further runoff from the catchment, as well as reducing the reservoir overflow to the downstream urban area. This will significantly reduce the risk of flooding. It will also generate an annual additional fresh water yield of 3.4M m3 with minimal recurrent costs.\n In addition, the plan also encapsulates many revitalisation projects for the city’s rivers. The Ho Chung, Upper Lam Tsuen and Kai Tak rivers are gradually being revitalised into green rivers while revitalisation projects for the Tsui Ping River and the Yuen Long Nullah are under planning. Notably, Hong Kong’s first river park is being envisaged along Tung Chung River in Lantau Island where the public will be able to spend leisure time at the river’s bank. Passive designs such as boardwalks, viewing decks and footpaths are planned. In order to balance out the environmental impact and the influx of new visitors, native vegetation will be preserved to maintain the existing habitat at the upstream of Tung Chung River. The river park will provide the public a crucial social and ecological resource to nurture a water friendly culture in the city.\n Additionally, the city has been able to innovate in the way it constructs underground flood storage facilities. The Happy Valley underground storage tank with a volume of 60,000 m3 was constructed underneath a series of football pitches. This concept not only achieves low-impact urban development and land co-usage, it also avoids the large-scale downstream drainage improvement works. Moreso, the use of smart movable weirs prevents pre-mature filling of the tank, thus maximising the effectiveness of the storage capacity, allowing for a smaller tank design. \n The project also aims to reduce the flood risk in Hong Kong by formulating a new drainage provision which: (i) adopts either a Representative Concentration Pathway (RCP) at a 4.5 or 6.0 scenario recommended in the IPCC 5 th Assessment Report (this will be whichever is worse for rainfall and sea level rise projection), and (ii) considers projected climate change effects up until at least the mid 21 st century, and potentially further on if it is found to be cost effective.\n Hong Kong is prone to very heavy rainstorms, and experienced substantial flooding during the 1990s. With completion of major flood prevention works formulated in the DMP and DMP reviews, the number of areas of high flooding risk (blackspots) have been significantly reduced from 90 (in 1995) to 6 (in 2019). All major flooding blackspots, affecting areas of more than 100 hectares or resulting in serious social and economic disruption, were eliminated by 2010. Improved flood prevention standards now safeguards 7.4 million citizens. In the midst of growing threats by climate change, Hong Kong was hit by super typhoons Hato and Mangkhut in 2017 and 2018, and although the super typhoons brought major disruptions throughout the city, there were no fatal incidents thanks to Hong Kong’s robust and reliable flood prevention infrastructure. \n Next Steps \n To date, the DSD has completed DMP reviews for 6 drainage basins, covering an area of approximately 520 km2. Designs of the proposed drainage improvements works, taking into account the effects of climate change and revitalisation concepts, are underway. A DMP review for 4 more drainage basins with an area of approximately 310 km2 is currently on-going and set for completion by the end of 2020. A DMP review for the remaining basins with area of 80 km2 is scheduled for completion by 2030. \nThe DSD has implemented water harvesting at Lai Chi Kok Drainage Tunnel and the Happy Valley Underground Stormwater Storage Scheme which has resulted in annual water savings of 44,000m3 and 220,000m3 respectively. The harvested water can be used for toilet flushing, irrigation and street cleaning. Water saving will be significantly scaled up in IRTS which will generate an annual additional fresh water yield of 3.4 million m3. The DSD will continue to scale the water harvesting as well as the holistic water resources management in the future.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/resilient-water-systems-hong-kong/",
+    "publication_date": "2020-01-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27499",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=resilient-water-systems-hong-kong&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

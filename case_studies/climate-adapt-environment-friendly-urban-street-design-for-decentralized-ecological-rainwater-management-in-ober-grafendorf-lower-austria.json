@@ -1,0 +1,198 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+  "title": "Environment-friendly urban street design for decentralized ecological rainwater management in Ober-Grafendorf, Lower Austria",
+  "summary": "In Ober-Grafendorf, a decentralized rainwater management system was implemented to address flooding and drought challenges caused by climate change. This system reduces costs for the municipality and households, and provides multiple environmental benefits through smart street infrastructure. The municipality of Ober-Grafendorf is located at an elevation of 280 m in a typical pre-Alpine landscape in the Mostviertel region in the western part of the Austrian province Lower Austria.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ober-Grafendorf",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Oberösterreich",
+        "ucode": "AUT_0004_V1",
+        "dcid": null,
+        "source_code": "SUBN_Oberösterreich__AT_",
+        "source_name": "Oberösterreich (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Ecosystem-based adaptation",
+      "label": "Ecosystem-based adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainwater management",
+      "label": "rainwater management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "drainage",
+      "label": "drainage"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "local adaptation",
+      "label": "local adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heavy precipitation",
+      "label": "heavy precipitation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The project “eco-street” (“Ökostraße”) implemented in the municipality of Ober-Grafendorf represents a smart, decentralised, ecological rainwater management system based on an environment-friendly urban street design (DrainGarden®). The main objective was to avoid flooding of built-up areas by draining excess surface water in case of heavy precipitation events from the sealed street surface to unsealed road-side zones planted with greenery, whose specific design allows retention, storage and filtering of the rainwater. Equally important goals were to avoid public costs for construction and maintenance of additional sewage pipes, and to reduce costs and energy inputs for operation of pumping stations and sewage treatment facilities. At the same time, the adaptation measure aims at generating co-benefits, such as improvement of the urban micro-climate through plant transpiration, cooling effects during summerly heat waves, visual upgrade of the townscape, and reduction of costs and efforts for irrigating and maintaining the urban greenery. The measure is intended as an innovative pilot and demonstration adaptation activity that shall serve as a model solution also for other cities and municipalities. Permanent scientific monitoring shall support customized applications in other contexts and locations. The local adaptation measure in Ober-Grafendorf was developed and implemented as part of a regional pilot adaptation process within the transnational EU project C3-Alps – ‘Capitalising Climate Change Knowledge for Adaptation in the Alpine Space’ (Interreg Alpine Space Programme 2007-2013). The overall goal of the pilot activities conducted in the frame of the project in regions across the Alps was to put climate adaptation on local and regional agendas and to pave the way for implementation of concrete adaptation activities and measures. In the Mostviertel region, seven pilot municipalities participated in the process, including Ober-Grafendorf.",
+    "measures": "The project “eco-street” (“Ökostraße”) in the municipality of Ober-Grafendorf is an environment-friendly urban street design for decentralized ecological rainwater management. In response to recurring heavy precipitation events causing small-scale flooding, overload situations of the sewage system and rising costs for maintenance works, the measure was realised in a new urban development area at a street section of 100 meters length and 11 meters width in 2015. The “eco-street” concept, which has been protected under the name DrainGarden®, is a system of vegetated, aesthetically appealing roadside surface strips covered with special substrates of natural origin and planted with greenery that are able to absorb, retain, store and filter large amounts of water in short time. The specifically developed soil substrates are layered in a way as to combine high water permeability with high storage capacities. In case of heavy rainfall the water is not flowing from streets and other paved surfaces into the sewer, but into the green areas. Each cubic metre of substrate can store up to 500 litres of water. As it is required by regulations in place for conventional water retention structures, the system is designed to assure flood protection up to heavy precipitation events with a 100 year return interval. The water remains available to the plants, is filtered by the substrate and allowed to infiltrate slowly into the groundwater body. The micro-climatic effect of the water used by the plants for transpiration equates to the cooling capacity of a 100-years-old beech tree on a hot summer day and is able to reduce the local temperature by up to 5°C during heat periods. Further environmental co-benefits include the storage of CO 2 by plants and substrate, the containment of growth of sealed soil, an increase in urban green spaces, and visual improvement of the townscape. The system allows the municipality to avoid investment costs for construction of additional sewage pipes as well as regular operational costs for maintaining the sewerage and operating pumping facilities. In addition, the existing urban water drainage system is disburdened, and costs for operating the municipal wastewater treatment facility as well as for irrigation and maintenance of the urban greenery are reduced. Selection of the right plant species is a crucial factor for success of the measure. Apart from being in compliance with road safety standards, the greenery should be designed as to avoid drivers and walkers from damaging the system, which can be achieved by using shrubs, flowering and soil-covering species. On the other hand, suitable plant species need to be adjusted to the local climate and should be perennial, easy to maintain and robust, including resilience against de-icing salt during winter time. The project has been designed as a scientific experiment whose performance parameters are currently continuously monitored in order to learn for future applications. The adaptation measure is particularly suited for the secondary street system in settlements and for newly developed settlement areas. With necessary modifications, the rainwater management system can be tailored to other situations, such as green roofs, car parks, and private housing. The “eco-street” concept has received much attention by both the public and experts, and it is considered an important innovation in sustainable local road construction. The municipality Ober-Grafendorf intends to widely apply the concept on its territory, therewith reducing the share of sealed surface area.",
+    "outcomes": "Confirming the innovation potential of the project, the measure has won the Austrian Energy Globe Award in the category “water” and a Climate Star award in 2016. The adaptation solution has since then been tailored to different context situations and has been applied also in other municipalities and large cities, including Vienna. Success factors that facilitated the implementation of the measure include the following: The municipality of Ober-Grafendorf has long-standing experiences in climate mitigation, energy efficiency and sustainable development activities. It has for years been an active member of respective networks and programmes, such as the Climate Alliance, the e5 Programme, the Climate and Energy Model Region “Mostviertel Mitte”, Fair Trade Municipalities, and, most recently, the Covenant of Mayors. Past experiences with local integration of environmental policy themes and active participation in municipality networks have contributed to paving the way for the entry of climate adaptation onto the municipal agenda. As an ecosystem-based adaptation measure that responds to several climate change impacts at the same time and delivers multiple environmental co-benefits, the measure can be considered a good practice example of sustainable adaptation. The measure performs very well as regards cost-effectiveness, and it has comparative cost advantages against conventional solutions. It thus saves public money and disburdens the municipal household. Moreover, the regional adaptation process conducted within the “seed-funding” C3-Alps project proved successful in raising awareness about climate change and adaptation needs, in communicating climate adaptation as well as in transferring adaptation knowledge and building adaptive capacities. It was thus the crucial trigger in putting climate adaptation on the agendas of the participating municipalities. Based on an evaluation of lessons learnt from the process in C3-Alps, the following success and facilitating factors have been identified: back-up by higher administrative levels and personal presence of representatives at stakeholder meetings demonstrated political commitment and motivated municipalities to participate; bottom-up problem formulation and choice of the topics of interest by the municipalities themselves was crucial for commitment, acceptance and relevance of the developed adaptation measures; framing adaptation to climate change in positive terms, by emphasizing opportunities and concepts such as resilience, sustainability and future development potentials, rather than in terms of risk, damage or loss, helped to communicate adaptation; support for local adaptation processes needs to be responsive to the specificities of each municipality and to take into account the preferences of individual stakeholders; there is no “one-size-fits-all” approach that works equally well in each municipality; in order to be well-performing, the participation process required intense preparation, careful planning, professional process management and sufficient resources (financing, time), while at the same time leaving sufficient room for flexibility; preparation and communication of knowledge needs to be target group-oriented; internal communication trainings with a didactic expert helped to professionalise the communication approaches; finding the right balance between motivating stakeholders to participate and avoiding overstraining of stakeholders’ resources and capacities was difficult, but crucial; cooperating and networking with other organisations active in the region was crucial for the sustainability of the adaptation process; participation as a pilot region in an EU project and “being a forerunner region” on transnational level were strong motivating arguments for the municipalities. As regards the entire regional adaptation process as such, the novelty of climate adaptation as a local policy theme in combination with the dominance and previously achieved depth of integration of climate mitigation and renewable energy issues at the local level proved to be the most limiting factor. Discriminating adaptation from mitigation was thus difficult to many municipal stakeholders. As a consequence, a part of the developed adaptation measures had a strong bias towards climate mitigation and were lacking the clear adaptation relevance. Another difficulty was that at the time of implementing the process a regional adaptation strategy at provincial level was still missing. The adaptation options set out in the National Action Plan on Adaptation to Climate Change proved to be ill-suited for the local level, i.e. they were perceived as too abstract, strategic and distant. Thus, considerable efforts had to be invested in “translating” and “down-scaling” adaptation options from the national to the local level.",
+    "cost_benefit": "In comparison to conventional structural solutions, the smart, ecological urban rainwater management system implemented in Ober-Grafendorf has considerable cost advantages, both over the short and the long term, and it delivers a range of environmental co-benefits. The environmental performance of the measure is currently being monitored. Quantitative data are gathered on, e.g., the water balance of the system, the micro-climatic effects of substrates and plants, their capacity to filter out pollutants, and on the contribution of the local system to rainwater management on the regional scale. Depending on the dimension and the accessibility of the site, the absolute investment costs for implementing the eco-street / DrainGarden® concept can vary from case to case. The cost of the substrate for one cubic metre is about 100 Euros. Depending on the choice of plants, the cultivation cost ranges from two Euros / m 2 for seeding to several thousand Euros / m 2 for planting large woody perennial plants. The measure avoids considerable investment costs that would otherwise be required for building road-side sewage pipes and for installing a clean water drain, and it reduces long-term operational costs for maintaining the sewerage, pumping out the sewers in case of flooding, treating wastewater as well as for irrigating and maintaining the urban greenery. Since the costs for constructing and maintaining the urban sewage and water sanitation system make up a high share of municipal budgets, this considerably reliefs burdens from urban households. The immediate cost for roadside construction works and street design differ only marginally from standard solutions, because the system is implemented in areas that would have been used for conventional roadside greenery anyway. In addition to preventing the risk of local flooding, the water drainage and rainwater management system offers multiple benefits. It stores rainwater, makes it available to plants, filters out pollutants, and gives off residual water amounts to the groundwater. Evaporation of the water stored in the substrates and transpiration by plants creates a cooling effect, thus improving the urban micro-climate and helping to mitigate heat stress during summerly heat periods without any additional cost. Realisation of the measure has been financed by the regular municipal budget. The municipality did not receive any particular public funding. The same applies for the measures that have been implemented in the other municipalities that participated in the regional adaptation process. While a budget of 65,000 Euros was available for the process management and support services within the EU co-funded C3-Alps project, the municipalities and other stakeholders did not receive any funding or remuneration for participating in the regional pilot process and for implementing concrete measures. However, the process managers provided consulting and advise on available financial incentives and financing opportunities within existing funding programs of the provincial state and the federal government. In general, the adaptation activities defined and implemented by the municipalities often were soft and low-cost measures, rather than technological solutions requiring substantial investments.",
+    "timeline": "The environment-friendly urban street design for decentralized ecological rainwater management in Ober-Grafendorf was implemented during several months in the summer of 2015. It is accompanied by a scientific monitoring phase scheduled for several years. As regards the entire regional adaptation process within the C3-Alps project, preparatory activities started at the beginning of 2011. Beginning with the first stakeholder workshop in autumn 2011, the operational phase of the process lasted until the end of 2014. Implementation of measures by the municipalities and the inter-municipal exchange are continuing after the end of the C3-Alps project.",
+    "lifetime": "The life cycle of the measure implemented in in Ober-Grafendorf is estimated to be around 50 years, provided that planning, implementation and maintenance are carried out with the required expertise.",
+    "stakeholders": "The project was initiated by the Mayor of Ober-Grafendorf, who has long been a strong proponent of sustainable and environment-friendly solutions in municipal development. The decision to finance and install the adaptation measure has been taken by the municipal council. Since the measure was to be realized in a new urban area that was still undeveloped, there was no particular need to further involve residents in the decision. However, as it is required by the spatial planning laws in Austria, the preceding local spatial development plan and the concrete zoning plan have been subject to stakeholder participation and public consultation. Crucial contacts to external experts were brokered by the long-term gardening service provider of the municipality. On behalf of the municipality, the project has been implemented in cooperation with the University of Natural Resources and Life Sciences Vienna and the consultancy firm Zenebio GmbH, who had already invested several years of research in developing smart rainwater management systems. Preparation of the measure was embedded in a regional adaptation process that was conducted in the Mostviertel region in Lower Austria from 2011 to 2014. Running under the title “Changeable Mostviertel. Fit into climate future”, the process was one of the pilot activities within the Alpine Space project C3-Alps and aimed at supporting and implementing adaptation at local level. Building on a tailored regional communication strategy and careful planning of the process, the stakeholder process applied structured forms of participation and group interaction formats, supported by more informal ad hoc-interactions with stakeholders. Particular attention was given to early participation of stakeholders, the continuity and transparency of the process, and regular stakeholder interactions. A core team of the Climate Alliance Lower Austria, politically backed up by representatives of the Office of the Provincial Government Lower Austria, was responsible for designing, organising and steering the process on the regional level. Over a duration of three years from 2012 to 2014, seven municipalities, including Ober-Grafendorf, participated in four local workshops per municipality, totalling to 28 municipal workshops, plus four joint cross-municipal workshops and public stakeholder events. The main functions of the process management team were to motivate stakeholders to participate, to initiate and facilitate the local adaptation processes, to provide and broker scientific knowledge in usable forms, to integrate local knowledge, and to provide a supportive and empowering framework for the municipality stakeholders. The main stakeholders involved were the mayors as well as the leaders and members of local working groups in each of the seven pilot municipalities. The work groups set up in each municipality were composed of a group of citizens of different ages, sexes, education and profession. The inter-municipal workshops and public events were highly appreciated by participants for facilitating exchange of experiences and social learning among the work groups of all municipalities. Preparation of adaptation knowledge as well as information transfer was supported by external climate change experts, who delivered expert lectures at the workshops on the specific topics chosen by each municipality. The regional adaptation process was embedded in wider networking activities with partner organisations and institutions with multiplier roles, including regional development agencies, managers of LEADER regions, the agency for village and city renewal of Lower Austria, the regional energy and environment agency of Lower Austria, and managers of climate and energy model regions.",
+    "legal_context": "Construction and maintenance of the secondary road network in Austrian municipalities is within municipal competence and thus represents a statutory responsibility of local authorities. The ecological urban rainwater management system has to comply with the same regulations and standards as any other conventional solution, e.g. with regulations related to road safety or national norms for water infiltration engineering works. A specific goal in the present case study was to comply with rules of the Austrian Water and Waste Management Association (ÖWAV) related to the storage of 100-year heavy rainfall events. The specific system DrainGarden®, which has been implemented in the present case, is a registered trademark and thus subject to respective applicable protection rights. The system is marketed by the Austrian gardening and landscape planning company Zenebio GmbH."
+  },
+  "point": {
+    "lat": 48.1518862465,
+    "lon": 15.5696868896,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zenebio.at",
+      "url": "http://zenebio.at/buchenstrasse-obergrafendorf/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "cipra.org",
+      "url": "https://www.cipra.org/en/cipra/international/projects/completed/C3-Alps",
+      "role": "contextual_input"
+    },
+    {
+      "name": "ober-grafendorf.gv.at",
+      "url": "https://www.ober-grafendorf.gv.at/sites/oekostrasse",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "c70f3450b07a4026b4b2a42569b3be16",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/environment-friendly-urban-street-design-for-decentralized-ecological-rainwater-management-in-ober-grafendorf-lower-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:19+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

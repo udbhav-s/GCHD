@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-hong-kong-landslide-protection-with-low-impact-design",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-landslide-protection-with-low-impact-design/",
+  "title": "Cities100: Hong Kong – Landslide Protection with Low-Impact Design",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Landslide Protection with Low-Impact Design,” an urban initiative documented for Hong Kong, China. It is included because it addresses landslide hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong is protecting residents from deadly, rain-induced landslides by strategically installing barriers and drainage tunnels. The Challenge Hong Kong…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "landslide"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong is a mountainous city with dense urban development built on steep man-made and natural terrain. Many of the man-made slopes were constructed 50 years ago without proper engineering, and with the city's high rainfall, landslides are common and cause extensive socio-economic damage and fatalities.",
+    "measures": "The topography across Hong Kong's land area is dramatic: more than 60% of the land is steeper than 15 degrees and 30% is steeper than 30 degrees. Very high rainfall on this hilly natural and man-made terrain has resulted in frequent and disastrous landslides across the densely developed city. Quantitative risk assessments had predicted up to 2,500 landslides per year and identified high-risk zones. To mitigate these risks, the city is implementing low-impact and effective landslide protection solutions. Using remote sensing tools and GIS-based landslide modeling, the city has designed and strategically placed both flexible and rigid barriers to resist the impacts of landslides. This approach was chosen in favor of slope stabilization, which is not only costly but also requires extensive earthworks and tree felling. In addition, drainage tunnels and smart monitoring technology enable better control of groundwater in the city's slopes, one of the primary drivers of landslides.\n Economic Benefits – The project lowered the landslide risk to 'as low as reasonably practicable', reducing direct and indirect economic losses associated with landslides. The project also created 550 jobs during construction.\n Health Benefits – Reduced landslide risk has improved public safety and created a more livable environment for Hong Kong citizens.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Satellite or remote-sensing imagery",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-landslide-protection-with-low-impact-design/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27297",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-landslide-protection-with-low-impact-design&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

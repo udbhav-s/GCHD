@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-mexico-city-comprehensive-program-increases-resilience",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-comprehensive-program-increases-resilience/",
+  "title": "Cities100: Mexico City – Comprehensive Program Increases Resilience",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Comprehensive Program Increases Resilience,” an urban initiative documented for Mexico City. It is included because it is located in the Global South. C40 describes the action this way: Already a national leader on climate change, Mexico City has implemented a successor to its first adaptation tool, increasing the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Climate change presents a host of challenges and consequences for cities; without adequate adaptation measures, infrastructure and citizens are left vulnerable to extreme weather events and other hazards. With Mexico City’s PACCM, the city aims to ensure resilience and sustainable development, with low carbon intensity, through an extensive adaptation planning program.",
+    "measures": "In 2008, Mexico City became the first city in Mexico to develop and implement a local plan in response to climate change. Six years later, Mexico City initiated the Second Climate Action Program (PACCM), continuing actions to increase resilience and combat climate change with a planning tool that integrates, coordinates, and promotes methods to reduce environmental, social, and economic risks posed by climate change. PACCM is a comprehensive program – comprising 69 actions – targeting a wide range of challenges, suchas increasing energy efficiency, containing urban sprawl, managing natural resources and preserving biodiversity, educating citizens about climate change, and increasing research and development.\n The various PACCM actions include creation of a territorial planning program that integrates environmental and urban polices resulting in increased conservation of soil and saving 19,242 m3 of water. PACCM will also modernize Mexico City’s public transport to become more energy efficient and save 2.7 million kWh of energy. Full implementation of PACCM is expected to decrease the city’s emissions by 30% by 2020.\n Environmental Benefits – Under PACCM, new bus rapid transit lines and inter-modal transport schemes are developed and the subway system is modernized, which will reduce CO2 emissions by 3.3 million tons by 2020.\n Social Benefits – Under PACCM, the city’s resilience, as well as the population’s adaptation capacities, are increased, improving quality of life for the 5.6 million city residents most vulnerable to consequences of climate change.\n Economic Benefits – PACCM provides cost savings for the city by minimizing adverse climate effects, such as weather-related disasters, that could damage infrastructure, crops, and property.\n Health Benefits – PACCM improves public health, as it tackles increasing pollutants and toxic air emissions in the city.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-comprehensive-program-increases-resilience/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26987",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-comprehensive-program-increases-resilience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

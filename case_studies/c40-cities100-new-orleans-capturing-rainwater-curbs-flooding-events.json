@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-orleans-capturing-rainwater-curbs-flooding-events",
+  "url": "https://www.c40.org/case-studies/cities100-new-orleans-capturing-rainwater-curbs-flooding-events/",
+  "title": "Cities100: New Orleans – Capturing Rainwater Curbs Flooding Events",
+  "summary": "This C40 case study describes “Cities100: New Orleans – Capturing Rainwater Curbs Flooding Events,” an urban initiative documented for New Orleans. It is included because it addresses river flood, extreme heat, malaria hazards. C40 describes the action this way: In New Orleans, the Gentilly Resilience District project is transforming the city’s approach of urban water management while beautifying neighborhoods….",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New Orleans",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Louisiana",
+        "ucode": "USA_0019_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat",
+    "malaria"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-orleans",
+      "label": "New Orleans"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New Orleans faces threats of flooding from intense rainfall events and sinking soils, which exacerbate flood risk, especially in low-lying districts like Gentilly. The urban heat island effect is also an issue due to the quantity of unnatural surfaces. The city has found a solution through various gray and green infrastructure solutions that collect rainfall and, as an added bonus, address the urban heat island effect.",
+    "measures": "Implemented in 2016, the Gentilly Resilience District project is transforming streets, parks, schoolyards, open lots, and homes by facilitating the construction of green roofs, bioswales, and pervious pavements throughout Gentilly, a particularly vulnerable, mixed-income neighborhood. With flooding and slow land subsidence posing a significant threat to the city, the aim is to capture and store rainfall in the urban environment. The project adopts a suite of approaches, acknowledging that one solution is not enough to ensure a secure future for New Orleans in a changing climate. The initiatives under the Gentilly Resilience District project not only capture rainfall but help to beautify neighborhoods, encouraging more recreational activities and improving walkability. The project also benefits the significant portion of city residents who are unemployed, in particular the 52% of African-American males of working age, with new job and training opportunities in water management specifically targeting this group.\n Environmental Benefits – The project will improve water quality through natural filtration of pollutants, improving the health of the whole ecosystem.\n Social Benefits – Heat islands in the city will be reduced through the reduction of impervious surfaces and increased shade, lowering local temperatures and encouraging more people to be outside.\n Economic Benefits – Each dollar spent on the Gentilly Resilience District project will result in more than one dollar of estimated benefits through improved property values, reduced flood risk, avoided costs to infrastructure maintenance, environmental value, and recreational benefits.\n Health Benefits – Due to the reduction of water standing in urban in environments for prolonged periods of time, the Gentilly Resilience District project prevents mosquito-borne illnesses.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-orleans-capturing-rainwater-curbs-flooding-events/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27218",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-orleans-capturing-rainwater-curbs-flooding-events&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

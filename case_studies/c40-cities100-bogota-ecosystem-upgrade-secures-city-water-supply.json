@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-bogota-ecosystem-upgrade-secures-city-water-supply",
+  "url": "https://www.c40.org/case-studies/cities100-bogota-ecosystem-upgrade-secures-city-water-supply/",
+  "title": "Cities100: Bogotá – Ecosystem Upgrade Secures City Water Supply",
+  "summary": "This C40 case study describes “Cities100: Bogotá – Ecosystem Upgrade Secures City Water Supply,” an urban initiative documented for Bogotá. It is included because it is located in the Global South. C40 describes the action this way: In Bogotá, a project is greening the city’s surrounding mountains through conservation, restoration, and sustainable land management to secure water…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Bogotá, a city situated at an elevation of 2,640 m, is surrounded by mountains that contain the water supply for approximately 80% of its inhabitants. As water security is under threat due to mining and farming, as well as climate change, Bogotá is securing its water supply through the Conservation Corridor, restoring ecosystems to increase the natural capture and storage of water, and including local communities in the process.",
+    "measures": "Bogotá is strategically increasing vegetation cover and removing invasive species that negatively impact the water cycle through the Chingaza-Sumapaz-Guerrero Conservation Corridor. Launched in 2014, the project is a means to ensure water security in the city, with 184.4 hectares going through a restoration process and 164.5 hectares going through a reconversion process. Sixteen micro watersheds and more than 12 municipalities were identified as critical focal points. Research is underway on plants that can absorb higher quantities of water, and vegetation cover is increasing. By buffering high mountain ecosystems, more water is able to be absorbed naturally and flow to the reservoir for storage. Local communities are included in the planning process and encouraged to take ownership of their water resources. Through education on sustainable land management and training on risk and impact analysis, fewer pesticides are being used and pressures have been reduced on the water supply.\n Environmental Benefits – New protected areas were declared in the mountains surrounding the city to ensure the continuous maintenance of the improved ecosystems.\n Social Benefits – The project included the participation of 1,827 mountain inhabitants in the planning and planting processes, enhancing the quality and quantity of local food production.\n Economic Benefits – By restoring the existing natural water supply, Bogotá avoids the cost of pumping water from sources at lower elevations and expanding infrastructure.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bogota-ecosystem-upgrade-secures-city-water-supply/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27220",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-bogota-ecosystem-upgrade-secures-city-water-supply&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-quezon-city",
+  "url": "https://www.c40.org/case-studies/transforming-cities-quezon-city/",
+  "title": "Transforming Cities: Quezon City’s waste warriors",
+  "summary": "This C40 case study describes “Transforming Cities: Quezon City’s waste warriors,” an urban initiative documented for Quezon City. It is included because it is located in the Global South. C40 describes the action this way: Naly struggled to support her family through the pandemic – until she discovered a community clean-up programme. Now an incentivised…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quezon City",
+      "adm0": {
+        "name": "Philippines",
+        "ucode": "PHL_V1",
+        "dcid": null,
+        "iso3": "PHL"
+      },
+      "adm1": {
+        "name": "National Capital Region (Ncr)",
+        "ucode": "PHL_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quezon-city",
+      "label": "Quezon City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Naly struggled to support her family through the pandemic – until she discovered a community clean-up programme. Now an incentivised…",
+    "measures": "Naly struggled to support her family through the pandemic – until she discovered a community clean-up programme. Now an incentivised environmentalist, she teaches her grandchildren the values of recycling and relieves the city’s landfills in exchange for electricity and other essentials.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Quezon City Local Government by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-quezon-city/",
+    "publication_date": "2023-07-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "35534",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-quezon-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-07-19T15:52:03",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

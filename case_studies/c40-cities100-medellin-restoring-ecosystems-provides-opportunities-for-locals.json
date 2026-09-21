@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals",
+  "url": "https://www.c40.org/case-studies/cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals/",
+  "title": "Cities100: Medellín – Restoring Ecosystems Provides Opportunities for Locals",
+  "summary": "This C40 case study describes “Cities100: Medellín – Restoring Ecosystems Provides Opportunities for Locals,” an urban initiative documented for Medellín. It is included because it addresses river flood, landslide hazards, and it is located in the Global South. C40 describes the action this way: Medellín is tackling hillside urban growth and protecting these areas from flooding and landslides by adopting a socially inclusive approach…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Medellín",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Antioquia",
+        "ucode": "COL_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Medellín",
+        "ucode": "COL_0002_0069_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "landslide"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "medellin",
+      "label": "Medellín"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Unregulated urban growth on hillside areas of Medellín has caused environmental degradation of land and water resources. This socially integrated approach to managing vulnerable land not only improves the environment, but encourages economic growth and social inclusion in existing communities.",
+    "measures": "The Peripheral Garden of Medellín was established in 2012 in response to the risks of urban growth in uphill neighborhoods. Covering more than 65 hectares, the garden features footpaths, bike lanes, and clean mobility corridors, while facilitating ecological restoration, environmental preservation, and sustainable housing. Thousands of native trees have been planted to restore ecosystems, and organic orchids have been developed to encourage new eco-businesses and preserve regional farming traditions. Conscious of the communities that already inhabit these areas, the city included them in the process by providing employment and educational opportunities. At least 300 families are working to cultivate their food and start their own businesses, while 150 new leaders have been trained to manage their territory on the hillside. Another achievement is the establishment of the Fique Association of Pan de Azucar, consisting of 100 families with the goal to commercialize the native plant.\n Environmental Benefits – The project restores native species and protects the region from further environmental degradation from urban development.\n Social Benefits – The Peripheral Garden includes two educational facilities, which have already provided environmental education and construction training to 1,000 community members.\n Economic Benefits – Inhabitants of the Peripheral Garden have access to a new source of revenue from new farming opportunities, with 5,000 benefiting from direct employment.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27219",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

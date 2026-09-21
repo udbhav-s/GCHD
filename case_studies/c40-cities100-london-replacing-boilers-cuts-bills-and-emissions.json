@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-london-replacing-boilers-cuts-bills-and-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-london-replacing-boilers-cuts-bills-and-emissions/",
+  "title": "Cities100: London – Replacing Boilers Cuts Bills and Emissions",
+  "summary": "This C40 case study describes “Cities100: London – Replacing Boilers Cuts Bills and Emissions,” an urban initiative documented for London. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The mayor of London has delivered two city-wide schemes to replace and repair some of the most inefficient gas boilers…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Residential buildings are estimated to be responsible for 36% of London's total emissions, with two-thirds coming from heating and hot water. Targeting the most vulnerable is one of several ways to realize CO2 reductions in an inclusive and economic manner.",
+    "measures": "The majority of Londoners rely on individual gas boilers for hot water and warm homes. However, as with many aging cities, much of the existing housing stock and heating systems are inefficient and expensive. The London Boiler Cashback Scheme and Better Boilers are two schemes designed to replace aging boilers, reduce fuel poverty, and improve air quality in London. The Cashback Scheme provided around 4,000 homeowners and private landlords with $500 cashback to replace boilers operating at less than 70% efficiency with new boilers operating at more than 90% efficiency and outfitted with better controls. The scheme used mayoral funds at the outset to leverage a further $13 million from the private sector to create deeper CO2 reductions and help achieve the mayor's target of becoming a zero-carbon city by 2050. The Better Boilers scheme specifically targets the most vulnerable communities in London and is in response to rising numbers of fuel-poor citizens in the capital.\n Environmental Benefits – The London Boiler Cashback Scheme is reducing NOx emissions by around six metric tons per year, improving air quality in the capital.\n Social Benefits – The Better Boilers scheme supports up to 500 fuel-poor households. The scheme aims to support the most vulnerable and tackle growing fuel poverty in London.\n Economic Benefits – The schemes are expected to drive investment of $13 million or more in new efficient boilers, helping to sustain work for the construction and heating sectors across the capital.\n Health Benefits – Installing more efficient and safer boilers is expected to reduce the risk of carbon monoxide poisoning from old boiler heating systems, reduce cold-related health conditions, and improve local air quality.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-london-replacing-boilers-cuts-bills-and-emissions/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27312",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-london-replacing-boilers-cuts-bills-and-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

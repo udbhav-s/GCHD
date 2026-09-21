@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-bloomberg-awards-quezon-city",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-quezon-city/",
+  "title": "C40-Bloomberg Philanthropies Awards: GrowQC: food security for Quezon residents",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: GrowQC: food security for Quezon residents,” an urban initiative documented for Quezon City. It is included because it is located in the Global South. C40 describes the action this way: In Quezon City, the COVID-19 pandemic exacerbated widespread hunger and malnutrition. The city launched GrowQC to tackle the growing problem of food…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quezon City",
+      "adm0": {
+        "name": "Philippines",
+        "ucode": "PHL_V1",
+        "dcid": null,
+        "iso3": "PHL"
+      },
+      "adm1": {
+        "name": "National Capital Region (Ncr)",
+        "ucode": "PHL_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quezon-city",
+      "label": "Quezon City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Quezon City, the COVID-19 pandemic exacerbated widespread hunger and malnutrition. The city launched GrowQC to tackle the growing problem of food insecurity amongst the most vulnerable residents.",
+    "measures": "In Quezon City, the COVID-19 pandemic exacerbated widespread hunger and malnutrition. The city launched GrowQC to tackle the growing problem of food insecurity amongst the most vulnerable residents. The initiative aims to make healthy and nutritious food available to all and create inclusive and sustainable livelihoods for vulnerable groups by converting idle lands across the city into productive, green and local urban farms, reducing transport and agriculture-related emissions.\n From the start of the pandemic to 2022, GrowQC has established a total of 337 urban gardens and ten model farms, creating livelihoods for 4,119 urban farmers, 258 displaced workers and 298 vendors and jeepney drivers. Private landowners were exempt from paying Idle Land Tax if they allowed their land to be utilised in the project for three years, effectively increasing the city’s access to land; a total of 381,650 m2 of land was converted for urban agriculture.\n During the city’s most intense lockdown in 2021, GrowQC ensured 1.7 million healthy and nutritious meals were served to 325,600 families. Around 3,600 residents, previously on low or zero incomes, have been trained as city farmers to produce food and boost their income. Direct access to fresh and affordable food has benefited the health and wellbeing of communities that experienced food insecurity. The project promotes a circular economy by exemplifying the farm-to-table and waste-to-energy cycle, serving as an integrated food system that is sustainable and replicable to other cities.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Innovative Climate Solutions",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-quezon-city/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31499",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-quezon-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:49:03",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

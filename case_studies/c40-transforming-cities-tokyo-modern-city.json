@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-tokyo-modern-city",
+  "url": "https://www.c40.org/case-studies/transforming-cities-tokyo-modern-city/",
+  "title": "Transforming Cities: The houses built for the future",
+  "summary": "This C40 case study describes “Transforming Cities: The houses built for the future,” an urban initiative documented for Tokyo. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tokyo",
+      "adm0": {
+        "name": "Japan",
+        "ucode": "JPN_V1",
+        "dcid": null,
+        "iso3": "JPN"
+      },
+      "adm1": {
+        "name": "Tookyoo",
+        "ucode": "JPN_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tokyo",
+      "label": "Tokyo"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "How Tokyo homes will be built for the future \n Paid and presented by Tokyo Metropolitan Government \n Moving around Tokyo is an experience for the senses. \n The high-tech, fast-paced city is held up internationally for its modernity. But the city is in need of an update of its own. Seventy per cent  of Tokyo’s energy-related CO2 emissions arise from energy used in homes and buildings. Tokyo’s residents might soon start to see their city leading the way in modernising its energy supplies. \n The Tokyo Metropolitan Government (TMG) has amended an ordinance in the hope of decreasing energy consumption, increasing renewable energy sources, and decentralising energy storage. From April 2025, housing suppliers that provide an annual total of at least 20,000 sq m of floor space within Tokyo must meet the new building mandate . Requirements include wall and window cladding to promote high insulation and solar panels installed on rooftops. The aim is to reduce the usage of overall energy consumption, such as space heaters and cooling units, through insulation techniques; then have the reduced home energy needs be mainly supplied by the home’s solar panels. \n Tokyo is one of the biggest cities in the world, and we need to bring in energy from surrounding prefectures to power it.\n Kouji Miyazawa, Deputy Director General of the Bureau of Environment at TMG \n In order to meet its ambitious targets to reduce carbon emissions by half by 2030 (compared to 2000 levels), the city is taking a multi-pronged approac h . “We need to do everything we can,” he says. \n In Japan, there is an expression that goes: “rich in nature, poor in natural resources” – such as oil and coal. It isn’t just the capital that is energy dependent; about 87% of Japan’s energy is imported, leaving only 13% of all energy consumption to be produced domestically . \n Developing renewable energy sources given the country’s geography remains a challenge.\n Professor Shin-ichi Tanabe, The School of Creative Science and Engineering at Waseda University \n As one of the members of the Tokyo Metropolitan Environmental Council, he advised on his area of expertise – modern home building techniques that can help make our lives at home more comfortable and sustainable. “For a dense city like Tokyo, however, the available rooftop space has promising potential for solar energy.” \n TMG projects that the new mandate will increase their solar capacity by 1GW by 2030, which assumes a ripple effect will take place, including an increased standardisation of solar panel installation in new houses, and an expansion of installation to existing houses not subject to the mandate. This will account for 5% of their carbon emission reduction targets for the residential sector. “We created a task force and gave a two-year preparation period for the new mandate,” says Kumiko Sugawara, who also works at the Bureau of Environment. “We worked extensively on public outreach and visited around 50 major home builders multiple times. We explained our mission, how the change can benefit the housing suppliers, and what they could expect in terms of support and funding.” \n In addition to subsidising the cost of solar panels, battery systems, and other low-emission home appliances, TMG is extending funding to new technologies that would aid their goal to reduce the city’s emissions, such as highly efficient and lightweight solar cell modules and power conditioners that optimise photovoltaic output. Sekisui Chemicals, a major housing supplier with the Sekisui Heim brand, has developed long roof eaves that increase the roof area on which solar panels can be installed by about 30%. As part of their own initiatives, they are also working on the development of lightweight and flexible solar panels that can be installed on non-flat surfaces.\n Another venture project Miyazawa is counting on is the advancement of floating wind turbines to be placed off the nearby Izu Islands. \n It will be a huge engineering achievement, and we hope this will spearhead a movement to position Japan as a leader in renewable energy technology.\n Kouji Miyazawa, Deputy Director General of the Bureau of Environment at TMG \n The move to implement these changes has been introduced at pace, but there are major house suppliers in Tokyo who have already built in accordance with the new law. The aforementioned Sekisui Chemicals is an accredited “Net Zero Energy House” builder, which means that houses are designed with the aim of consuming only as much energy as they can create through heat insulation, high-efficiency equipment, and solar power generation. “Our corporate mission has always been to build long-lasting and comfortable homes that are more sustainable,” explains Masakazu Oohashi at TOKYO SEKISUIHEIM Company Ltd, a sales subsidiary of Sekisui Chemical. \n And though exempt from the 2025 mandate, there are a few smaller, local builders who are taking the initiative to look at energy efficiency and how that fits into standards of living. “I come from a long line of builders,” says Toshiyuki Takahashi of Kiyobishi Construction, who inherited the family business from his father, like his father did before him. “I always believed in the Japanese traditional methods of building. But then I had an opportunity to visit Germany to see their “passive house” (a voluntary standard for energy efficiency in a building that reduces the building’s carbon footprint) and was blown away.” Takahashi decided to update the company’s philosophy and set out to promote and build “Net Zero Energy Houses” and incorporate a concept called “ecomodo” – a portmanteau of the words “eco” and “comodo”, which means “comfortable” in Spanish. His company received the High Standard Award and the Leading Company Award in 2023, an award given only to developers who achieved the “high insulation and energy efficiency performance standards” required by the TMG before the start of the 2025 mandate. \n In order to sustain all the privileges that come from living in a city, we must become more environmentally ethical. And to the best of our abilities, the energy we use should be supplied ourselves. Solar panels on individual homes and buildings can bring us closer to such goals.\n Professor Shin-ichi Tanabe, The School of Creative Science and Engineering at Waseda University \n “We are moving in the right direction,” agrees university student and green initiative environmentalist Daiki Yamamoto. He is a co-founder of record 1.5, a youth-led project put together to report on climate action and environmental issues. “But we still have far to go. I hope that we will soon find a story that brings us together to move towards a future that runs on renewable energy.” \n Tokyo’s initiative has inspired its surrounding prefectures to follow suit. “It is not a far stretch to expect that Tokyo’s new mandate will be implemented nationwide,” says Miyazawa. And speaking on sustainable practices, Prof Tanabe says that what used to be thought of as the cost of reducing the impact on the environment, “now must be understood as new standards.” With further investments and technological advancements, there may come a day when the Japanese saying becomes: rich in nature and in natural renewable energy. \n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Tokyo (Tokyo Metropolitan Government) by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-tokyo-modern-city/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42612",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-tokyo-modern-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-08-26T09:20:51",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

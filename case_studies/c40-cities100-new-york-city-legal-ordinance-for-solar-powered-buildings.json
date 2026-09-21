@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-york-city-legal-ordinance-for-solar-powered-buildings",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-legal-ordinance-for-solar-powered-buildings/",
+  "title": "Cities100: New York City – Legal Ordinance for Solar-Powered Buildings",
+  "summary": "This C40 case study describes “Cities100: New York City – Legal Ordinance for Solar-Powered Buildings,” an urban initiative documented for New York. It is included because it addresses river flood hazards. C40 describes the action this way: New York City’s government agencies are now legally required to assess potential solar PV retrofits at all municipal buildings. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Buildings are responsible for nearly three-quarters of New York City’s greenhouse gas emissions. Recognizing that the expansion of renewables is key to a comprehensive strategy to mitigate the climate impact of building energy use, the ordinance is reducing the city’s own carbon footprint and serving as an example to the private sector.",
+    "measures": "In 2016, New York City passed a law requiring local government agencies to assess all city-owned rooftops for solar photovoltaic (PV) potential, in order to support the city’s goal to install 100 MW of solar PV on municipal property by 2025. Agencies must report on factors including the potential reduction in energy use and greenhouse gas emissions, the financing of the project, and whether buildings’ rooftops are suitable for a solar installation. In keeping track of the projects, the city will also take into consideration the financial savings accruing from CO2 emissions reductions in order to better reflect the value of the retrofits.\n To date, the city has installed 8.8 MW of solar PV across 52 municipal buildings. Informed by the government agencies’ evaluations, New York City plans to develop a strategy to expand the initiative to 4,000 city-owned buildings, which include schools, hospitals, libraries, courthouses, firehouses, offices, police precincts, wastewater treatment plants, and recreation centers, and which will help the city reach its goal to reduce city-wide greenhouse gas emissions 80% by 2050.\n Environmental Benefits – Energy storage is coupled with solar PV in flood-prone areas in order to prepare for power loss or urgent need for additional electricity.\n Social Benefits – Solar installations at schools are paired with a renewable energy educational curriculum in classrooms.\n Economic Benefits – The city’s initiative will create 160 jobs in the renewable energy sector by 2025.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-legal-ordinance-for-solar-powered-buildings/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27180",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-legal-ordinance-for-solar-powered-buildings&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

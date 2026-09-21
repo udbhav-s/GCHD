@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-san-francisco-coupling-public-health-and-climate-resilience",
+  "url": "https://www.c40.org/case-studies/cities100-san-francisco-coupling-public-health-and-climate-resilience/",
+  "title": "Cities100: San Francisco – Coupling Public Health and Climate Resilience",
+  "summary": "This C40 case study describes “Cities100: San Francisco – Coupling Public Health and Climate Resilience,” an urban initiative documented for San Francisco. It is included because it addresses river flood, heatwave, extreme heat hazards. C40 describes the action this way: San Francisco is linking health and climate change impacts under a program that aims to educate and empower citizens and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "San Francisco",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "San Francisco",
+        "ucode": "USA_0005_0038_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "san-francisco",
+      "label": "San Francisco"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "For the last decade, cities have invested in developing climate action plans to reduce their greenhouse gas emissions, yet less attention has been paid to developing adaptive measures to protect public health during climate change-related extreme weather events. This program seeks to rebrand climate change as a public health issue and has partnered with city agencies to educate them about climate change health impacts.",
+    "measures": "Climate change is expected to more seriously affect the health and well-being of communities that are least able to prepare for, cope with, and recover from the impacts, such as the fact that extreme heat days in San Francisco are projected to increase by up to 40 days per year. To address this challenge, the City and County of San Francisco’s Climate and Health Program is successfully addressing the public health impacts of climate change by leveraging data driven planning and health indicators to create policies around climate adaptation on a local level.\n By centralizing and formalizing the collection of neighborhood-level data, the program provides neighborhood organizations, city departments, and direct service providers a simple, streamlined way to access information on climate and health. The Community Resilience Index is a summary of 36 equally weighted indicators from nine categories, such as hazards, environment, housing, economy, and demography. The index scores are visualized on neighborhood-level maps on a website where all data is open-access. The innovative use of data and assessments has initiated a public dialogue on the link between climate change and health, and resulted in actions to strengthen community resilience.\n Environmental Benefits – This data-driven approach to tracking the health impacts of climate change supports projects that reduce CO2, improve energy efficiency and increase renewable energy production, as well as reduce water use and support sustainable transportation.\n Social Benefits – The development of a heat wave and flood disaster response plan, as well as appropriate surveillance and outreach activities, are keeping San Franciscans safe in the event of extreme weather and natural disasters.\n Economic Benefits – Low-income communities are more sensitive to the economic stresses associated with climate change, such as increased prices for basic needs and threats of job loss, which this program addresses.\n Health Benefits – The program’s use of climate data helps the city design solutions that eliminate health disparities.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-san-francisco-coupling-public-health-and-climate-resilience/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27037",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-san-francisco-coupling-public-health-and-climate-resilience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

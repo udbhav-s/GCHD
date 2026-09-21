@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-sustainable-catering-at-the-university-of-basel",
+  "url": "https://www.c40.org/case-studies/sustainable-catering-at-the-university-of-basel/",
+  "title": "Sustainable Catering at the University of Basel",
+  "summary": "This C40 case study describes “Sustainable Catering at the University of Basel,” an urban initiative documented for Basel. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: The University of Basel considers its campus a Living Lab for sustainability. In cooperation with WWF Switzerland, the University Caterer developed a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Basel",
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": null,
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Basel-Stadt",
+        "ucode": "CHE_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The University of Basel considers its campus a Living Lab for sustainability. In cooperation with WWF Switzerland, the University Caterer developed a climate protection program including aspects such as sustainable purchasing, reducing food waste and increasing vegetarian meals.",
+    "measures": "Universities in their role of knowledge institutions and enablers of innovation can play a responsible role in supporting the sustainable development for society as a whole.\n In 2012 the University of Basel has created its own Sustainability Office with the goal to introduce sustainability for teaching, research, outreach as well as campus and operations.\nThe University decided for an integrative approach and considers the campus as a Living Lab that gives students as well as staff the opportunity to experience sustainability. The campus services and facilities are in addition to the possibility of enrolling in courses about sustainability such as the Master in Sustainable Development.\n Several activities of the sustainability office feed into this approach. The Living Lab implemented to date several actions for the development of the concept of sustainability and sustainable catering at the University:\n The implementation started in spring 2013 in close collaboration with the university caterer SV Group Schweiz that developed together with WWF Switzerland the climate protection programme. The program encompasses aspects like sustainable purchasing (seasonal and regional food, no transportation by airplanes), increase vegetarian meals, introduction of vegan meals on a regular basis, reducing and preventions food waste, reduction of energy expenditure during cooking and in the canteen facilities).\n Guidelines on how to organise sustainable events at the University were developed. They include information on sustainable catering as well as on reducing food waste. \n The guidelines are used internally, but also for events with the community such as the University Night of Science where the University opens its doors to the Basel community – providing thus not only information about sustainability but also giving the possibility to experience it directly.\n Student engagement can be at various levels: \n BOOST, a student project incubator that supports students to engage in their own projects making the University more sustainable. Among these are various projects that deal with nutrition and waste reduction and management. \n Reduce or prevent food waste and waste from paper cups. The first initiative was performed by former students of the University of Basel that became the founders of Refiller – the consultancy that works to reduce the impact and utilisation of single use paper cups by introducing sustainable alternatives. The same students are now engaged with the foodwaste.ch, a not-for-profit organisation that implements concrete projects and action to reduce food waste such as evidence-based awareness raising and collaborations with the private sector.\n The actors involved are The University of Basel, local public authorities, and civil society. \n The strategic decision of having a Sustainability Office for the University of Basel has enabled several projects to be implemented successfully. These projects have a multiplier effect for the university, its students, and the community at large. \n Links to further Information \n Concept for Sustainable Catering at the University of Basel:\n https://sustainability.unibas.ch/fileadmin/nachhaltigkeit/user_upload/redaktion/Bilder_Klimagenuss/Massnahmenplan_ \n Student projects on nutrition: https://sustainability.unibas.ch/en/projects/4seasons/ \n https://sustainability.unibas.ch/en/projects/nuglargaerten/ \n Student projects on waste: https://sustainability.unibas.ch/en/projects/boost/2014-15-beste-reste \n BOOST: https://sustainability.unibas.ch/en/projects/boost/ \n Event guidelines: https://sustainability.unibas.ch/en/event-guidelines/ \n University Night of Science: https://www.unibas.ch/en/News-Events/University-Night-2015/Nachhaltiger-Event.html \n http://www.refiller.ch/unibasel/ \n www.foodwaste.ch \n Contact Details \n Kanton Basel-Stadt\nDepartment of Presidential Affairs\nUrban Development\nStefanie Kaiser\n stefanie.kaiser@bs.ch",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/sustainable-catering-at-the-university-of-basel/",
+    "publication_date": "2017-11-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27371",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=sustainable-catering-at-the-university-of-basel&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

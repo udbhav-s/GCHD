@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-melbourne-growing-green-guide",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-growing-green-guide/",
+  "title": "C40 Good Practice Guides: Melbourne – Growing Green Guide",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Melbourne – Growing Green Guide,” an urban initiative documented for Melbourne. It is included because it addresses extreme heat hazards. C40 describes the action this way: Summary Melbourne released the Growing Green Guidexxx, xxix in February 2014 to promote green surfaces and provide technical advice on how…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Melbourne released the Growing Green Guidexxx, xxix in February 2014 to promote green surfaces and provide technical advice on how…",
+    "measures": "Summary \n Melbourne released the Growing Green Guide xxx, xxix in February 2014 to promote green surfaces and provide technical advice on how to design, build and manage green roofs, walls and facades so they can provide multiple long-term benefits for building owners and the wider community. The Guide has been developed as a first policy response for Melbourne, which is facing a doubling of population over the next 30 years and increased urban heat island effect, and is therefore highly at risk from heat-related deaths in the future.\n Results \n There are currently around 50 green walls, 100 green roofs and many green facades across Melbourne – and the numbers are growing.\n Reasons for success \n Melbourne conducted extensive public review through public meetings and sharing the guide with the citizens. An active review period was allowed for input from multiple stakeholders. The Guide is accessible to public and does not assume significant prior knowledge.\n When/why a city might adopt an approach like this \n Cities that plan to introduce heat mitigation policy can develop guidelines that share a range of research, practical advice, and models of how to implement vegetation cover in their cities. This strategy works in a variety of conditions, but is especially effective when regulatory codes or other public guidance and resources may be lacking, but there is otherwise public ability, interest and willingness to undertake cool surfacing. To be effective, this strategy requires high public communication capacity of the government or the assistance of a third party. Public engagement is likely to be most effective when the business case can be made or other co-benefits identified. This is also a good solution where there may be limited regulatory authority over buildings. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cool Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "There are currently around 50 green walls, 100 green roofs and many green facades across Melbourne – and the numbers are growing.\n\nMelbourne conducted extensive public review through public meetings and sharing the guide with the citizens. An active review period was allowed for input from multiple stakeholders. The Guide is accessible to public and does not assume significant prior knowledge.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-growing-green-guide/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27075",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-melbourne-growing-green-guide&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

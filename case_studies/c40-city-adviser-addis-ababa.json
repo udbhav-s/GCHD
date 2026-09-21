@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-city-adviser-addis-ababa",
+  "url": "https://www.c40.org/case-studies/city-adviser-addis-ababa/",
+  "title": "City Adviser Case Study Series: Addis-Ababa BRT System- Stakeholder engagement series",
+  "summary": "This C40 case study describes “City Adviser Case Study Series: Addis-Ababa BRT System- Stakeholder engagement series,” an urban initiative documented for Addis Ababa. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Summary Addis-Ababa’s BRT system, approved in 2011, forms part of Addis-Ababa’s 2011 Transport Policy. With walking taking up more than…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Addis Ababa",
+      "adm0": {
+        "name": "Ethiopia",
+        "ucode": "ETH_V1",
+        "dcid": null,
+        "iso3": "ETH"
+      },
+      "adm1": {
+        "name": "Addis Ababa",
+        "ucode": "ETH_0001_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "addis-ababa",
+      "label": "Addis Ababa"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Addis-Ababa’s BRT system, approved in 2011, forms part of Addis-Ababa’s 2011 Transport Policy. With walking taking up more than…",
+    "measures": "Summary \n Addis-Ababa’s BRT system, approved in 2011, forms part of Addis-Ababa’s 2011 Transport Policy. With walking taking up more than 60% of the city’s modal split, the BRT offers a much needed alternative to getting around the city, offering a faster, regular, more equitable and reliable transport option. The 16 km pilot corridor for Addis-Ababa’s BRT is currently in detail design phase. Expansion of the system includes a plan to launch 6 other corridors by 2030. In 2015, C40 played a key role in working with the Addis-Ababa Transport Programs Management Office (TPMO) in developing the BRT’s Public Engagement, Branding and Communications Strategy and workplan. A grant of close to 1 million Euro has since been secured to implement this comprehensive strategy and other technical functions towards the successful realization of the BRTB2 Project. Three key stakeholder engagement actions have taken place since 2015.\n Results \n 1. Addis Ababa has held a series of stakeholder engagement meetings with affected minibus and taxi operators in various sub-cities throughout the corridor.\n a. Result: The city is currently working out strategic plans to offer minibus operators affected by the BRT B2 pilot project shareholder positions in the BRT’s new Sheger Express Bus Operating Company or opportunities to be incorporated in the BRT system operation (as bus drivers or other employees).\n 2. Addis-Ababa partnered with WRI and C40 in sponsoring a high level leadership study tour to India in order to get leadership on board. Ten transport officials visited BRT systems in New Delhi, Ahmedabad, Indore and Bhopal. Delegates included heads of the Transport Programs Management Office (TPMO), Sheger Operator (BRT Operator), the Addis-Ababa Police Commission, the Addis-Ababa City Roads Authority (AACRA), the Addis-Ababa Road and Transport Bureau (AARTB), the newly established Public Freight and Transport Authority (PFTA) and Traffic Management Agency (TMA).\n b. Result: Delegates visited BRTs that have helped transform key Indian cities by cutting travel times, reducing traffic deaths and injuries, decreasing carbon emissions and air pollution, and improving the overall quality of life for residents. One of the delegates stated, “This program was very useful for the delegation, who are the key stakeholders in this process, and of the steering committee. They have seen BRT systems practically, and understood what the challenges could be. A topic that in the past was never been on agenda, we have just starting to discuss it, now people are taking part of the decision making process. It means that whatever decision we will make, it will be now an informed decision ” \n 3. Urbanization can often result in cities and communities losing their identities. Addis-Ababa is in the process of engaging architectural design students who will work with the city’s experts in heritage, parks and urban design in a workshop which will result in the design of key station icons, public parks, station names and information bulletins along the corridor.\n c. Result : This workshop will engage 30-50 students, experts and communities along the corridor in finding ways to incorporate important cultural and historical elements at the stations. The students will also conduct community engagement and ensure that residents throughout the corridor are consulted about this future service.\n Reasons for success \n Developing a plan for strategic and continuous engagement with stakeholders is critical to ensure that a city know when and how to engage key stakeholders to make sure that they are aware of upcoming changes which will impact their livelihoods or daily lives so that they are able to voice their opinions at key practical stages and can therefore feel ownership of the new BRT system. Addis-Ababa has had the benefit of getting its public engagement plan peer reviewed by a number of C40 cities and learning about BRT systems from various cities around the world. Aware of possible challenges which the city might face during the planning and implementation phase, Addis-Ababa’s plan to invest in a comprehensive and well-funded public engagement plan is a concrete example of the importance of early planning to ensure participation of various stakeholders at key stages of the project’s design and implementation.",
+    "outcomes": "1. Addis Ababa has held a series of stakeholder engagement meetings with affected minibus and taxi operators in various sub-cities throughout the corridor.\n a. Result: The city is currently working out strategic plans to offer minibus operators affected by the BRT B2 pilot project shareholder positions in the BRT’s new Sheger Express Bus Operating Company or opportunities to be incorporated in the BRT system operation (as bus drivers or other employees).\n 2. Addis-Ababa partnered with WRI and C40 in sponsoring a high level leadership study tour to India in order to get leadership on board. Ten transport officials visited BRT systems in New Delhi, Ahmedabad, Indore and Bhopal. Delegates included heads of the Transport Programs Management Office (TPMO), Sheger Operator (BRT Operator), the Addis-Ababa Police Commission, the Addis-Ababa City Roads Authority (AACRA), the Addis-Ababa Road and Transport Bureau (AARTB), the newly established Public Freight and Transport Authority (PFTA) and Traffic Management Agency (TMA).\n b. Result: Delegates visited BRTs that have helped transform key Indian cities by cutting travel times, reducing traffic deaths and injuries, decreasing carbon emissions and air pollution, and improving the overall quality of life for residents. One of the delegates stated, “This program was very useful for the delegation, who are the key stakeholders in this process, and of the steering committee. They have seen BRT systems practically, and understood what the challenges could be. A topic that in the past was never been on agenda, we have just starting to discuss it, now people are taking part of the decision making process. It means that whatever decision we will make, it will be now an informed decision ” \n 3. Urbanization can often result in cities and communities losing their identities. Addis-Ababa is in the process of engaging architectural design students who will work with the city’s experts in heritage, parks and urban design in a workshop which will result in the design of key station icons, public parks, station names and information bulletins along the corridor.\n c. Result : This workshop will engage 30-50 students, experts and communities along the corridor in finding ways to incorporate important cultural and historical elements at the stations. The students will also conduct community engagement and ensure that residents throughout the corridor are consulted about this future service.\n\nDeveloping a plan for strategic and continuous engagement with stakeholders is critical to ensure that a city know when and how to engage key stakeholders to make sure that they are aware of upcoming changes which will impact their livelihoods or daily lives so that they are able to voice their opinions at key practical stages and can therefore feel ownership of the new BRT system. Addis-Ababa has had the benefit of getting its public engagement plan peer reviewed by a number of C40 cities and learning about BRT systems from various cities around the world. Aware of possible challenges which the city might face during the planning and implementation phase, Addis-Ababa’s plan to invest in a comprehensive and well-funded public engagement plan is a concrete example of the importance of early planning to ensure participation of various stakeholders at key stages of the project’s design and implementation.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/city-adviser-addis-ababa/",
+    "publication_date": "2016-11-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27271",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-adviser-addis-ababa&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-16T16:06:17",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

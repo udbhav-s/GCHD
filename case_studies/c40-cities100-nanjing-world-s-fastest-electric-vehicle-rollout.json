@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-nanjing-world-s-fastest-electric-vehicle-rollout",
+  "url": "https://www.c40.org/case-studies/cities100-nanjing-world-s-fastest-electric-vehicle-rollout/",
+  "title": "Cities100: Nanjing – World’s Fastest Electric Vehicle Rollout",
+  "summary": "This C40 case study describes “Cities100: Nanjing – World’s Fastest Electric Vehicle Rollout,” an urban initiative documented for Nanjing. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Chinese City of Nanjing has positioned itself as a world leader in electric vehicle use, ushering over 4,300 EVs…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nanjing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Nanjing",
+        "ucode": "CHN_0015_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nanjing",
+      "label": "Nanjing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As air pollution is the cause of one in six premature deaths in China, Nanjing’s promotion of electric vehicles not only helps alleviate this crisis, but also lessens fossil fuel dependence and supports a more sustainable automobile industry.",
+    "measures": "Nanjing has raised the bar on electric vehicles to new heights with its enormous and speedy EV deployment scheme. Since 2014, the city has put more than 4,332 electric vehicles on the road, including 1,208 buses and 940 taxis. The city has also created three battery-swapping stations and 14 battery charging stations equipped with 791 charging facilities. While it is not the largest EV fleet in the world, it is the fastest of its size to be implemented: Nanjing was able to roll out its full, operating ﬂeet in under a year.\n The government has facilitated this growth by implementing purchase price and electricity price subsidy schemes and by offering incentives for the construction of charging stations. In total, the city government has invested $168 million in this project, and has already seen a clear payoff. In the first year of operation, the city saved 61 million liters of oil and reduced CO2 emissions by 246,000 tons – all in all saving $71 million in energy bills. Nanjing plans to continue its successful scheme, and increase the number of EVs on the road to more than 7,215 by the end of 2015.\n Economic Benefits – This project has positioned Nanjing as an industry hub; manufacturing facilities of 46 EV companies now call the city home. These companies bring Nanjing yearly tax revenues of $16 million.\n Health Benefits – Reducing CO2 emissions by a quarter of a million tons translates into better air quality for city residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-nanjing-world-s-fastest-electric-vehicle-rollout/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26959",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-nanjing-world-s-fastest-electric-vehicle-rollout&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

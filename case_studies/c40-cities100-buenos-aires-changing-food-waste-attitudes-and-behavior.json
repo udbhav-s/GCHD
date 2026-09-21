@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-buenos-aires-changing-food-waste-attitudes-and-behavior",
+  "url": "https://www.c40.org/case-studies/cities100-buenos-aires-changing-food-waste-attitudes-and-behavior/",
+  "title": "Cities100: Buenos Aires – Changing Food Waste Attitudes and Behavior",
+  "summary": "This C40 case study describes “Cities100: Buenos Aires – Changing Food Waste Attitudes and Behavior,” an urban initiative documented for Buenos Aires. It is included because it is located in the Global South. C40 describes the action this way: Buenos Aires is tackling the growing challenges of food waste and food shortages with a source-based strategy targeting households, schools,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "It is estimated that 16 million tonnes of food are thrown away annually in Argentina; meanwhile, 32% of the population lives below the poverty line 1 . This is the first municipal strategy that aims to tackle both problems simultaneously.",
+    "measures": "The sustainable urban food strategy in Argentina's capital is reducing food waste sent to landfill. In recent years, the city has been praised for recognizing the importance and rights of informal waste-pickers, as well as processing municipal waste sustainably. But the newest strategy aims to tackle a more culturally ingrained attitude to food waste. Starting in primary schools and working with the UN's Food and Agriculture Organization, the city aims to disseminate information about best practices for minimizing and dealing with food waste. The information campaign also focuses on restaurants and communities, where workshops will be held to engage citizens. In addition, the University of Bologna recently launched a survey on food waste in the city, which is the first research of its kind in Latin America. The city hopes to use the results as a starting point to cut food waste further and determine how to reallocate surplus food to the hungry.\n Environmental Benefits – Combatting waste sent to landfill will reduce emissions of carbon dioxide and methane produced via fermentation in landfills.\n Economic Benefits – Reducing waste volumes benefits consumers, who save money on food shops, as well as the municipality, which saves money via reduced waste processing.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-changing-food-waste-attitudes-and-behavior/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27355",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-changing-food-waste-attitudes-and-behavior&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

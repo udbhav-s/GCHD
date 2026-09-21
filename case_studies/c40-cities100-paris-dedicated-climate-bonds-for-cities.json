@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-paris-dedicated-climate-bonds-for-cities",
+  "url": "https://www.c40.org/case-studies/cities100-paris-dedicated-climate-bonds-for-cities/",
+  "title": "Cities100: Paris – Dedicated Climate Bonds for Cities",
+  "summary": "This C40 case study describes “Cities100: Paris – Dedicated Climate Bonds for Cities,” an urban initiative documented for Paris. It is included because it addresses extreme heat hazards. C40 describes the action this way: Paris’ green bonds, dubbed “climate bonds,” specifically target the financing of city climate action projects, with a first issuance worth…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Paris",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": null,
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Ile-De-France",
+        "ucode": "FRA_0012_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Paris",
+        "ucode": "FRA_0012_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "paris",
+      "label": "Paris"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Prior to the introduction of climate bonds, more than $5.6 billion was invested in projects under the Paris Climate Action Plan through traditional bonds or loans. The climate bonds aim to persuade private and institutional investors to invest in the low carbon economy by providing attractive rates and guarantees, while securing finance for Paris’ extensive investment in climate change adaptation and mitigation.",
+    "measures": "In November 2015, just before the UN Climate Change Conference in Paris, COP21, the City of Paris launched the first-ever city “climate bonds” – a variation of green bonds that focus solely on securing finance for city government climate change mitigation and adaptation projects. The $336 million issuance of climate bonds makes it one of the largest issuances of green city bonds to date. By raising funds through green bonds, Paris is sending a clear signal to the market and instilling confidence in suppliers of green products and services\n The bonds finance projects in the Paris Climate Action Plan that aim to reduce greenhouse gas emissions by 75% by 2050. Areas of action include renewable energy, building energy retrofits, mobility electrification, improved waste collection, water use demand management, and reduction of the urban heat island effect. Notable projects are a 20 GWh per year-saving retroﬁt of 200 schools, 300 charging points for electric vehicles, and the creation of a new electric bus rapid transit line, as well as urban farming and city greening programs.\n Environmental Benefits – All projects registered in Paris’ climate bonds will reduce CO2 emissions by a minimum of 30%.\n Social Benefits – Projects funded by climate bonds include the retrofitting of 25,000 social housing units, a goal of the Paris Climate Action Plan.\n Economic Benefits – To ensure investor confidence in the green bonds, and accountability in terms of results, a yearly audit will be published evaluating all supported projects.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-paris-dedicated-climate-bonds-for-cities/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27029",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-paris-dedicated-climate-bonds-for-cities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

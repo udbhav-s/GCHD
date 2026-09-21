@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-santiago-slashing-smog-with-public-building-enhancements",
+  "url": "https://www.c40.org/case-studies/cities100-santiago-slashing-smog-with-public-building-enhancements/",
+  "title": "Cities100: Santiago – Slashing Smog with Public Building Enhancements",
+  "summary": "This C40 case study describes “Cities100: Santiago – Slashing Smog with Public Building Enhancements,” an urban initiative documented for Santiago. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Chile's capital is investing millions in energy efficiency upgrades and renewable energy projects for public buildings to reduce emissions and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Santiago",
+      "adm0": {
+        "name": "Chile",
+        "ucode": "CHL_V1",
+        "dcid": null,
+        "iso3": "CHL"
+      },
+      "adm1": {
+        "name": "Metropolitana",
+        "ucode": "CHL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Provincia De Santiago",
+        "ucode": "CHL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "santiago",
+      "label": "Santiago"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Santiago generates only 43% of the electricity the city consumes, with more than half of electricity generated from imported diesel and gas. Increasing the local generation of clean energy and ramping up energy efficiency will contribute to reduced emissions, healthier air for citizens, and reduced dependency on fuel imports.",
+    "measures": "Santiago is aggressively investing in renewable energy projects and efficiency upgrades for their schools, hospitals, and other public buildings. Between 2015 and 2018, the city will invest almost $5 million in rooftop solar projects and efficiency retrofits expected to deliver significant reductions in utility bills and emissions for the municipally owned buildings. By aggregating demand across all of the projects, the municipality was able to drive down the cost of solar from $5.40 to $0.96 per installed watt. As the city is surrounded by mountains, heat and toxic gases can be trapped in the city bowl, leading to dangerous levels of air pollution. On several occasions the city has been forced to temporarily 'shut down' 1 due to high levels of toxic air pollutants. This project is one part of the Regional Strategy of Resilience aiming to cut energy consumption levels and derive more energy from local renewable sources. This drive towards cleaner energy is mirrored on the national scale, which has seen Chile double its renewable energy capacity between 2013 and 2016.\n Economic Benefits – The solar energy systems installed on 15 public roofs generated savings of $140,000 annually, and the efficiency upgrades installed in the first 14 buildings generated $1.2 million in savings per year.\n Health Benefits – Reducing fossil fuel use via efficiency upgrades improves temperature regulation, noise levels, humidity, and air quality for patients, employees, and visitors in hospitals.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-santiago-slashing-smog-with-public-building-enhancements/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27322",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-santiago-slashing-smog-with-public-building-enhancements&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

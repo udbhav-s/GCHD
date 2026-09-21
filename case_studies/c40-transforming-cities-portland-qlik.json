@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-portland-qlik",
+  "url": "https://www.c40.org/case-studies/transforming-cities-portland-qlik/",
+  "title": "Transforming Cities: How cities can use data to track their climate goals",
+  "summary": "This C40 case study describes “Transforming Cities: How cities can use data to track their climate goals,” an urban initiative documented for Portland. It is included because it addresses river flood, heatwave, wildfire, air pollution pm25, landslide hazards. C40 describes the action this way: Learn how a data dashboard developed using Qlik is helping Portland understand its climate action performance.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Portland",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Oregon",
+        "ucode": "USA_0038_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "wildfire",
+    "air_pollution_pm25",
+    "landslide"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "portland",
+      "label": "Portland"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn how a data dashboard developed using Qlik is helping Portland understand its climate action performance.",
+    "measures": "© Transforming Cities \n When Portland in Oregon, USA, experienced a days-long, record-breaking, deadly heat wave in the summer of 2021, it was seen as an anomaly. Temperatures in the Pacific Northwest rarely exceed 100°F (38°C), but peaked around 116°F in Oregon that summer. Then, the summer of 2022 set new records again.\n “Portlanders are feeling the impacts of a changing climate,” says Kyle Diesner , a climate policy analyst at the City of Portland bureau of planning and sustainability. The heat waves were followed by wildfires which significantly reduced the air quality in the city over the summer.\n Portland has been in the avant-garde of climate mitigation since adopting its climate action plan in 1993, which has been followed by an updated 2015 plan, and a 2022 Climate Emergency Workplan. “People move to Portland for that environmental ethic – to be in a city that’s close to nature, that has an urban growth boundary that prevents sprawl,” says Diesner.\n But the progress made presents new challenges to responding to climate change today. “So much of the low-hanging fruit, the easier things, the incentives, the voluntary changes, has already been put in place. We’re getting to a point where each of the things we have to do ahead of us are much heavier and more challenging to do,” says Diesner.\n One of the challenges with prioritising action on the climate is that there are many other competing issues. Diesner cites challenges like homelessness, housing affordability and crime in Portland. To support more climate commitments, cities need buy-in from residents and businesses – and this often requires evidence.\n “Fortunately, we have been able to use data to help tell that story. Since 1993, we’ve been tracking our local carbon emissions, and we’ve seen those emissions decline,” says Diesner. “Today, they’re 25% below where they were in 1990, even though we’ve added about 39% more people.”\n Other cities are following Portland’s lead. Faced with similar challenges of how to prioritise their actions, they need data to be accessible and understandable.\n Data is a critical tool to help us understand climate change, by monitoring temperature trends and frequency of climate events. If data is relevant and accessible it helps create action, says Julie Kae, Executive Director at Qlik . Qlik Sense, an analytics and data platform, uses AI to help city decision-makers to understand data, minimising bias, and elevating data literacy.\n “I think it’s incredibly important for people everywhere to have access to good, reliable data because we need that in order to properly understand how grave and great and urgent a problem climate change is,” agrees Rachel Huxley, Director of Knowledge and Learning, C40 Cities , with whom Qlik have collaborated. “There’s a huge amount of noise out there.”\n In partnership with Qlik, C40 has developed an engagement dashboard to help cities actively share successes and learn from each other – such as documenting best practices, presenting at webinars, or directly mentoring other cities. The dashboards can help cities see where they stand on key metrics and benchmark themselves against city peers, with the aim of improving decision-making and accelerating the policies and investments necessary to prevent more catastrophic consequences of climate change.\n Kae says that making data accessible to both the public and the private sector can facilitate collaboration. “We worked on a project that included a non-profit which had information with regards to water accessibility in and around the Amazon River,” she says. “There are a number of private sector companies that need – and have rights to – more water from the Amazon than [they are currently able to access.”\n By taking freshwater availability data and combining it with consumption needs, it was possible to see how the private companies were able to cooperate. “Only [when you share data] can you come to the table and have a conversation about collaborating to protect that vital resource,” says Kae.\n This collaboration can extend out from city to city too. The Colombian city of Medellín is using C40 data from European countries, the United States and Canada to improve their energy efficiency.\n Like many cities, the energy crisis has drawn attention on how to reduce energy waste in Medellín. Carlos Alberto Bohorquez Gutierrez, an environmental planning coordinator for the Municipality of Medellín, says that London has been a source of inspiration for Latin American countries on this front.\n The consequences of not adapting to climate change for a city like Medellín could be severe, says Gutierrez. The city has suffered from devastating floods and landslides in recent years, which destroy infrastructure and bring the city to a standstill.\n “We need to build different adaptations, to… protect us, especially in the transportation system,” he says. “Our metro is an internationally-recognised, integrated transport infrastructure. But in an extreme situation, such as heavy rain or flooding, the metro could be paralysed and thus paralyse the cable car systems. So, these adaptations in the works would control flooding and urban drainage.”\n It’s important to understand where cities can have the most impact, what the biggest sources of emissions are, and the climate risks that they need to mitigate and manage. “Given the scale and urgency of the climate crisis, we simply can’t afford not to be having that maximum impact,” says Huxley.\n Portland, for example, is now starting to look at emissions data with a different lens – consumption-based emissions, which are the emissions that are produced globally as a result of Portlanders spending on goods and services, materials, food, and to build buildings. These are not always accounted for in traditional carbon accounting.\n “We’re making great progress reducing emissions locally,” says Diesner. “But, we’ve seen consumption-based emissions rise. [So] we’ve advanced a lot of work around reuse and repair [with] our repair cafes, tool libraries, fix-it fairs, we’re really helping residents better utilise, maintain, and keep in use the goods that they do have today.”\n Because the low-hanging fruit has already been picked, Diesner says that the focus is now on climate justice, resilience and the impact climate change has on communities. “This allows us to make sure that we help those who most often get left behind – people with low incomes, certainly people of colour in the US – they’re traditionally the ones who don’t have the resources to make changes or to live healthy lives and easily adapt.”\n Diesner is optimistic that other cities are not far behind their lead. He hopes that people will learn from their 30-year journey and perhaps make the same transition in less time. “It’s exciting to see how this movement has really grown, compared to where we were in 2015, when we were the only city asking those questions.”\n More From The ‘Transforming Cities’ Series \n This content was produced for Qlik by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-portland-qlik/",
+    "publication_date": "2023-05-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "34777",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-portland-qlik&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-07-04T08:38:31",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

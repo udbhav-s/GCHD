@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-sand-motor-2013-building-with-nature-solution-to-improve-coastal-protection-along-delfland-coast-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sand-motor-2013-building-with-nature-solution-to-improve-coastal-protection-along-delfland-coast-the-netherlands",
+  "title": "Sand Motor – building with nature solution to improve coastal protection along Delfland coast (the Netherlands)",
+  "summary": "The Sand Motor, a Dutch mega-nourishment project implemented in 2011, formed a hook-shaped peninsula to protect the coastline, mitigate sea-level rise, and create recreational and ecological spaces. Equivalent to 20 years of regular nourishment, it is achieving its goals of coastal preservation, habitat creation, and leisure opportunities. The Sand Motor is a ‘mega-nourishment’ implemented in the Delfland Coast (North Sea coast of South Holland, The Netherlands) as innovative pilot project to test the upscaling of regular sand nourishment along the Dutch coast, carried out by Rijkswaterstaat (the Dutch Ministry of Infrastructure and Water Management Works).",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zuid-Holland",
+        "ucode": "NLD_0012_V1",
+        "dcid": null,
+        "source_code": "SUBN_Zuid_Holland__NL_",
+        "source_name": "Zuid-Holland (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "dunes",
+      "label": "dunes"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal erosion",
+      "label": "coastal erosion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Beach nourishment",
+      "label": "Beach nourishment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "recreational area",
+      "label": "recreational area"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main objective of the Dutch national coastal policy is the sustainable maintenance of the coastal zone on different scales of time and space: Protection of the hinterland against flooding from sea, by maintaining safe water defences; Maintaining the coastline (with the base coastline as the reference), preserving all coastal functions; Maintenance of the coastal foundation in the context of relative sea level rise, meaning preserving the equilibrium between the mean sea level and the sediment budgets. As described in the report about the first four years of the Monitoring and Evaluation Programme the following three objectives were formulated for the Sand Motor: Encouragement of natural dune growth and preservation of a wide beach along the Delfland Coast between Hook of Holland and Scheveningen. This will provide coastal protection functions as well as benefits for nature conservation and leisure activities. Knowledge development and innovation with the aim of determining the extent to which coastline maintenance and added value for leisure and nature can be achieved in conjunction, also in the perspective of sea level rise. Creation of an appealing leisure and nature area on the Delfland Coast.",
+    "measures": "The concept of ‘mega-nourishment’, as a long-lasting source of sand, deposited in a single operation, has been implemented through the Sand Motor pilot project, carried out in the Delfland coast (South Holland), where regular nourishment interventions have been carried out since 1990s to contrast coastal erosion. The Sand Motor is an innovative intervention to protect low-lying coastal zone from sea level rise impacts. It is a large nourishment performed in 2011, immediately after a general reinforcement of the Delfland coastal area. It involved 21.5 million cubic metres of sand extracted ten kilometres offshore and deposited along the coast, to form a hook-shaped peninsula of 128 ha, including a dune lake and a lagoon. The intervention was complemented with two foreshore nourishment operations conducted on either side of the peninsula. This ‘mega-nourishment’ follows the Building with Nature approach. The amount of deposited sand acts as a buffer against sea level rise. The approach reduces the frequency of disturbances of local ecosystems caused by regular sand nourishment interventions, while also providing new areas for nature and new opportunity for recreational activities. In its original shape, the Sand Motor protruded 1 km into the sea and stretched along 2 km of coast. At many locations it rises up to 5 meters above mean sea level. The final design of the Sand Motor was selected as the most compliant with the three main objectives set up in the Environmental Impact Assessment carried out for the project realisation: dune growth, creation of more nature and leisure facilities, knowledge development. Since the construction of the Sand Motor in 2011, the sand has indeed spread along the coast, with coastal accretion both to the south and the north. This led and still leads to changes in the shape of the Sand Motor, with (logically) the strongest evolution in the first year after construction. Transitory developments of the Sand Motor created new morphological shapes and landscapes: a ‘sand spit’, a lagoon, a tidal channel, the beach plain on the southern side of the Sand Motor, and different patterns of sand banks. Moreover, a new dune lake, with drainage and monitoring system, was created at the base of the hook ensuring that the Sand Motor will not have a negative impact on the groundwater flows in the Solleveld drinking water catchment area on the landward side.",
+    "outcomes": "Through the sand Motor Initiative, long-term protection of the coast (primary objective) is combined with nature expansion (new habitat for local flora and fauna) and new space for recreation, meeting multiple targets of different actors. This created considerable national and international interest in the Sand Motor. Ecoshape, a joint effort involving Dutch dredging and engineering companies, the knowledge sector and the government, has contributed to spread and promote the Sand Motor initiative, highlighting its 'Building with Nature' approach. Alongside with the Sand Motor several research programs were set up, including NatureCoast, with three post-doctorate and twelve doctorate researchers. Sand Motor-like solutions are being considered in several locations outside the Netherlands both in Europe (e.g., Sweden, United Kingdom, Belgium) and elsewhere (United States, Mexico). The realisation of the intervention required the use of an important volume of sand extracted offshore (21.5 million cubic metres) with a grain size that was sufficiently compatible with the characteristics of the beach area of deposit. Sand availability is an issue to be considered in the transferability of the practice. The Sand Motor is a unique coastal area including sand flats that are submerged twice a day at high tide. Side-effects of the intervention were the creation of new currents resulting from the dynamic nature and changing form of the hook-shaped peninsula, creating temporary dangerous situations, especially for bathing. These could be kept under control by a combination of information to the public, extra attention of coastal guards which were assisted by bathymetric surveys and by a smartphone application.",
+    "cost_benefit": "The project was funded by the Province of South Holland and Rijkswaterstaat; the cost of the intervention was 70 million euros. After the intervention, an intense monitoring effort has been realised. Five years after the construction of the Sand Motor, the results of monitoring activities show its contribution to coastal protection, especially in the vicinity of the Sand Motor. The coastline at the Sand Motor and immediately to the north and south has moved and is now located seaward of the base coastline. Extensive research carried so far demonstrated that the new sand shoal created through the Sand Motor, offers new habitat for flora and fauna, especially in and around the sheltered and shallow part of the lagoon. Moreover, the Sand Motor is offering a new large area which is used for recreational purposes, in line with the expectation of the Provincial Authority of South Holland. Other benefits relate to the acquired knowledge on the coastal system and the possibilities to implement this innovative intervention for strengthening the coast. The projected long lifetime of the Sand Motor (about 20 years) is a clear advantage of the intervention compared to traditional sand nourishment requiring regular interventions with large volume of sand frequently disturbing the seabed. Five years after the intervention, Sand Motor is considered a realistic alternative for coastal management in terms of both costs and effect. A complete economic evaluation of the innovative intervention compared to conventional maintenance solutions has not yet formulated.",
+    "timeline": "The Sand Motor was built between March 2011 and November 2011 and since its completion, the intervention has been closely monitored. A first comprehensive evaluation of how the Sand Motor is working was completed after five years from its construction (in 2016) and the final assessment is expected for 2021.",
+    "lifetime": "The anticipated lifetime of the Sand Motor is at least 20 years, during which it is expected that wind, waves and currents spread the sand along the coast between the Hook of Holland and Scheveningen. However, the complete redistribution of the deposited sand will certainly take more than 20 years, with benefits of the Sand Motor also after the first 20 years. After the first four years from the Sand Motor construction, monitoring results indicated that 95% of the sand volume is still in the deposit area, suggesting that the lifespan of the pilot project could be longer than expected.",
+    "stakeholders": "The Sand Motor was realised after an agreement signed by the Province of South Holland, Rijkswaterstaat, the City of Hague, the Municipal Authorities of Westland, the Delfland District Water Control Board and the South Holland Environmental Federation. The project was co-designed by the signatories throughout workshops and its location was commonly decided to avoid any negative impact on the stakeholders engaged. Beyond the parties participating to the agreement, civil society was also consulted and had the possibility to ask questions and formally object through legal procedures, especially during the planning phase.",
+    "legal_context": "In 2008, a new Delta Committee (after the first one established to manage the disastrous flood of 1953) was commissioned by the Dutch Secretary of Public Works and Water Management, with the mandate of formulating a vision on the long-term protection of the Dutch coast and its hinterland. This second State Delta Committee provided suggestions on how to protect the Dutch coast and the low-lying hinterland against the expected impacts of climate change, including sea level rise and coastal flooding. These recommendations, in an integrated vision for the future extending to 2100, fed the Delta Programme for a climate-proof Netherlands, further embedded in the Delta Act. Building with nature approach, with sand nourishment to protect North Sea coastal areas from flooding is part of the recommendations of the Delta Committee to be followed in the medium and long term. The planning phase of Sand Motor included the Environmental Impact Assessment procedure, to identify the most feasible and environmentally friendly alternatives for nourishment-based coastal management."
+  },
+  "point": {
+    "lat": 52.0476343911,
+    "lon": 4.19059753418,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "dezandmotor.nl",
+      "url": "https://www.dezandmotor.nl/en/home/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "deltares.nl",
+      "url": "https://www.deltares.nl/en/projects/sand-engine/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/sand-motor-2013-building-with-nature-solution-to-improve-coastal-protection-along-delfland-coast-the-netherlands",
+    "publication_date": "2019-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "bcb3ef95a9f34cef9314c954ab6a228f",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/sand-motor-2013-building-with-nature-solution-to-improve-coastal-protection-along-delfland-coast-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:46+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

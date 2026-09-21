@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-building-railway-transport-resilience-to-alpine-hazards-in-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-railway-transport-resilience-to-alpine-hazards-in-austria",
+  "title": "Building railway transport resilience to Alpine hazards in Austria",
+  "summary": "To mitigate Alpine hazards and face climate-related risks, Austrian Federal Railways implements structural and operational protection measures including a weather monitoring system. This both ensures passenger safety and service continuity. The railway transportation system of the Alpine country Austria plays an important role in the European transit of passengers and freights. Moreover, the Austrian railway network is essential for the accessibility of lateral alpine valleys and is thus of crucial importance for their economic and societal welfare. If traffic networks are (temporarily) disrupted, alternative options for transportation are rarely available.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning",
+      "label": "early warning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "emergency management",
+      "label": "emergency management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Alpine hazard",
+      "label": "Alpine hazard"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "risk assessment",
+      "label": "risk assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "structural measures",
+      "label": "structural measures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "railway infrastructure",
+      "label": "railway infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "preparedness",
+      "label": "preparedness"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Meteorological extreme events pose a great risk for railway infrastructure and the safety of passengers. In the future, climate change will presumably have implications on meteorological hazards in the Alpine region. The objectives of the structural and operational measures, implemented by the ÖBB Infra AG along with its partners, are to minimize direct damage to railway infrastructure where this is economically, technically and environmentally feasible. However, especially in the Alpine mountain environment full protection is not possible and the risk profile due to climate change continuously changes. The objective of the weather monitoring and early warning systems is therefore to ensure safe and continuous operations of the network and the safety of passengers despite the increasing frequency and magnitude of extreme events projected by climate change.",
+    "measures": "The ÖBB Infra AG follows mainly two complementary risk management strategies. On one hand, risk from Alpine hazards is reduced by implementing structural protection measures. ÖBB Infra AG is mainly responsible for constructing and maintaining protective measures, such as avalanche protection galleries or rockfall barriers. In most cases, it also must finance these measures. Nevertheless, if the planned measures protect also settlements or other infrastructure elements such as roads or energy supply, ÖBB Infra AG cooperates with other state and regional authorities or communities and the protection system can be subsidized within the Hydraulic Engineering Assistance Act (WBFG [1985] 2014). On the other hand, risk from Alpine mountain hazards is reduced by improving preparedness for response and emergency management. A key element of ÖBB’s risk reduction strategy is the weather monitoring and early warning system called infra:wetter , which is jointly operated by ÖBB and the private weather service UBIMET GmbH. This interactive web-portal, available to the ÖBB staff. It combines data from own and external weather stations of the ZAMG (Zentralanstalt für Meteorologie und Geodynamik - Central Institute of Meteorology and Geodynamics), radars, satellites as well as local and global weather forecasts with detailed information on the complete railway network in Austria. It provides a calculation of important meteorological parameters like temperature, wind speed, precipitation, snowfall, and the snow line at a local level. Besides providing individualized and route-specific warnings to approximately 1,800 users, infra:wetter is also used to identify so-called critical meteorological conditions (CMCs) in advance: weather conditions that potentially lead to larger disruptions of train traffic. Those conditions require coordinated action by the Geotechnics and Natural Hazards Management Department of the ÖBB Infra AG. In case a critical meteorological condition is detected with sufficient pre-warning time, a weather warning is issued and a plan of procedures is implemented. This can include the installation of an incidence command that decides about operational safety precautions, such as speed limits, track closures or other temporary mitigation measures. For instance, in the case that heavy snowfall is predicted, measures such as a revised planning of human resources and provision of winter services, or preheating of switch points can be undertaken to ensure the operability of the network. The existence of a functioning weather monitoring and early warning system is also an effective and flexible risk management solution to address the projected changes in the frequency and intensity of climatic hazards due to climate change. Currently, the system is being further developed to better cope with thunderstorms and heavy rains. The aim is to increase predictability in terms of when and where the routes could be affected.",
+    "outcomes": "The success of the ÖBB’s risk management strategy, particularly of the infra:wetter system and of the structural protection measures against alpine hazards, is rooted in a pragmatic balance between high-tech innovation and traditional engineering. Success factors Governance Factors: The Hydraulic Engineering Assistance Act (WBFG) is a masterpiece of collaborative governance. By allowing cost-sharing between the railway, federal states, and local communities, it turns expensive protection measures into shared regional assets, overcoming the \"not my budget\" hurdle. Technical Factors: The partnership with UBIMET (a private company leading in weather service technologies) and Geosphere Austria (ZAMG) provided the ÖBB with a high-level local expertise that a purely internal department could not maintain. Theintegration of 55 proprietary high-altitude weather stations into the existing network creates a data density that is world-class. Economic Factors: The 6-year Framework Plan provides long-term financial stability. Unlike annual budgets, this allows for the planning of massive structural projects (like large flood protections or gallery construction) that take years to complete. Limiting Factors and Challenges Physical and biological Factors: Space is the primary constraint. In narrow Alpine valleys, there is often literally no room to build a new rockfall gallery without infringing on protected habitats or existing settlements. Austria’s strict Nature Protection Laws can delay structural measures for years. Social Factors: There is a specific \"perception of risk\" challenge. While experts see the need for a track closure based on infra:wetter data, the public often views these \"preventative\" delays as a sign of inefficiency rather than safety, leading to social pressure and resistance to service interruptions. This points out the need for better awareness raising and risk communication. Technical Knowledge Gaps: While the system handles snow and wind excellently, flash floods and localized thunderstorms remain a \"blind spot.\" These events happen within minutes and are not to model at the meter-scale needed for rail safety. Economic Limits: Total protection is mathematically and financially impossible. With several hundred avalanche paths, the ÖBB must prioritize interventions. This \"triage\" approach that prioritizes tasks requiring most urgent actions can be politically sensitive if a specific region feels its rail connection is less protected than others.",
+    "cost_benefit": "The harsh mountainous nature of the Eastern Alps, covering 65% of Austria, presents a profound challenge for railway management, as steep slopes and narrow floodplains force infrastructure into high-risk zones for debris flows, rockfalls, and avalanches. This vulnerability was starkly illustrated by the September 2024 floods. Those caused approximately EUR 100 million in direct financial damage to tracks and tunnels in Lower Austria, while indirect losses from service disruptions were even more severe. Indirect costs often eclipse direct infrastructure damage. They ripple through the entire national economy, affecting both the daily lives of citizens and the reliability of international supply chains. Industries relying on \"just-in-time\" delivery—such as automotive or chemical clusters—face production halts when raw materials are stranded. The reduction of daily trains forces thousands of commuters into slower rail replacement busses or private vehicles, leading to massive time wasting. In 2012, the replacement bus service alone costed around EUR 15,000 per day. Recovering the derailed passenger train costed more than EUR 100,000. Costs of damages to avalanche barriers, track bed, and other infrastructure must be added to that. The Austrian Federal Railways (ÖBB) estimates renewal costs of around EUR 5 million for Tyrol and Vorarlberg . Unfavourable weather conditions can lead to closures of entire rail networks and traffic routes, mainly due to events such as snowfall, storms and floods. Weather-related delays or failures on transport routes and railway lines generate additional costs for the railway company. From 60 minutes delay, there is a 25% fare refund, even in the case of weather-related delays, as required by the Regulation (EU) 2021/782 on rail passengers’ rights and obligations. In no other industry is the adherence to schedules and the timely transport of people and goods so important. Reducing these climate change related fallouts and delays brings several benefits, mainly in terms of avoided cost, ensuring economic activities, reduced payments to passengers and stranded operation staff.",
+    "timeline": "The construction of structural protection measures (e.g. galleries and flood protection systems) can take up to several years for implementation. The implementation of other structural measures such as protective nets against landslides and debris flows is a continuous task run by ÖBB Infra AG. The protective measures focus also on rockfall protection by installation of protective nets which also require continuous maintenance. Currently, ÖBB Infra AG and UBIMET GmbH systematically analyse weather conditions with regard to anomalies caused by climate change. This allows a better preventive planning of measures. ÖBB Infra AG and UBIMET GmbH implemented the weather monitoring and early warning system infra:wetter in 2005 and it is still operational (2026 update).",
+    "lifetime": "Structural protection measures such as avalanche protection galleries or rockfall barriers usually have a lifetime of several decades. The weather monitoring and early warning system infra:wetter is a permanent task.",
+    "stakeholders": "To address the risk posed by natural hazards, ÖBB Infra AG employs relevant resources and is responsible for major decisions. However, due to the complex situation of alpine hazards, their management within the railway transportation in Austria cannot be handled by ÖBB Infra AG alone, and structural risk mitigation measures in the transport sector have to be aligned with public risk management strategies in many places. Thus, partnerships and vital cooperation between various stakeholders at different administrative levels, i.e. from the local level to the national level, are needed. At a superordinate level, ÖBB Infra AG cooperates with federal ministries on strategic issues such as decisions in legislation and technical standards. At the level of structural risk reduction measures, ÖBB Infra AG cooperates with regional authorities, communities and the Federal Ministry of Agriculture and Forestry, Climate and Environmental Protection, Regions and Water Management (BMLUK). Regarding non-structural measures, ÖBB Infra AG cooperates with the private sector, academic institutions and regional authorities for operating the weather monitoring and early warning system and to improve risk assessments, e.g. with the avalanche warning services of the Austrian provinces.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 47.159840013,
+    "lon": 14.0625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "cordis.europa.eu",
+      "url": "https://cordis.europa.eu/project/id/308438",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-railway-transport-resilience-to-alpine-hazards-in-austria",
+    "publication_date": "2026-05-05",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "0606971f3d8f42d08e948518e24800df",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/building-railway-transport-resilience-to-alpine-hazards-in-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:27+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

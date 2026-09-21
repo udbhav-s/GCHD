@@ -1,0 +1,200 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+  "title": "EEA grants supporting the city of Bratislava (Slovakia) to implement climate mitigation and adaptation measures",
+  "summary": "A repeated access to EEA grants supports Bratislava in gradually transforming its urban layout by creating new green spaces. The interventions are in line with the mitigation and adaptation goals set in the City strategic plans . Bratislava has received two times funding from “EEA Grants and Norway Grants” (hereafter called EEA Grants) for urban climate adaptation projects. The first project was entitled ‘Bratislava is preparing for climate change’ and implemented measures to enhance the resilience of Bratislava city to the adverse impacts of climate change, in particular intense rainfall and heat. These measures included tree planting, green roofs and rainwater retention facilities.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bratislava",
+      "adm0": {
+        "name": "Slovakia",
+        "ucode": "SVK_V1",
+        "dcid": "country/SVK",
+        "iso3": "SVK"
+      },
+      "adm1": {
+        "name": "Bratislavský kraj",
+        "ucode": "SVK_0002_V1",
+        "dcid": null,
+        "source_code": "SUBN_Bratislavský_kraj__SK_",
+        "source_name": "Bratislavský kraj (SK)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "surface permeability",
+      "label": "surface permeability"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "elderly people",
+      "label": "elderly people"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban green space",
+      "label": "urban green space"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "EEA grants",
+      "label": "EEA grants"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Children",
+      "label": "Children"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "older_people": 5
+    }
+  },
+  "intervention": {
+    "objectives": "The objectives of the two projects funded by the EEA Grants were to increase the city’s resilience to climate change, with particular reference to extreme temperatures, heavy rains and related flooding, while also improving energy efficiency and reducing greenhouse gas emissions. Such objectives have been incorporated in several planning documents (see Legal Aspects) issued after the city accession to the Covenant of Mayors (2012). The main target groups are the inhabitants of Bratislava city, especially the vulnerable groups (elderly people and children). The project ‘Bratislava is preparing for climate change’ practically contributes to the strategy’s implementation and realizes several solutions to relieve heat stress and problems with rainwater discharge.",
+    "measures": "The “EEA Grants and Norway Grants” represent the contribution of Iceland, Liechtenstein and Norway to reducing economic and social disparities and to strengthening bilateral relations with 16 EU countries in Central and Southern Europe and the Baltics. Iceland, Liechtenstein and Norway are not EU members but are members to the European Economic Area (EEA) Agreement. The beneficiary countries can apply for a grant and, within a country, stakeholders can apply for a project which is paid out of the grant agreement. Since 2014, Bratislava used the opportunity two times for achieving adaptation goals. Under the first grant (‘Bratislava is preparing for climate change’), adaptation measures addressed the creation of more green spaces and permeable surfaces in a number of different sub-projects throughout the city. For all of the sub-projects the city of Bratislava organized the process towards implementation (planning, negotiating with the funding organization, design). Project activities included several pilot investment projects: Restauration of a square (Námestie hraničiarov) in the city district of Petržalka - with 100,000 inhabitants - one of the larger and most densely populated districts of the city of Bratislava. The park area was renovated by reducing the number of paved roads and by creating space for more greenery. The whole concept is based on retaining as much of the original greenery as possible, augmented by more than 4,500 new perennial plants and decorative grasses, nearly 3,700 ground-covering woody plants, and up to 11 new large woody plants. Islands of flourishing flowers have also been created, providing a significant seasonal character to the park. The original grassed areas were revitalized, opened up, and complemented by adding new seeds. Paved roads lead rainwater into the open areas by means of appropriate gradients, where it seeps into the soil. Hence, rainwater stays where it falls, the water deficit of the area is reduced, and the sewage system carries less water. In addition, trees were planted in Dolnozemská street. The area is used for individual recreation activities such as a meeting place for small and big groups. Installation of a green roof of 1,000 square meters size on a care home for elderly people owned by the city of Bratislava. The vegetation roof has cooling properties and is effective in rainwater management. The green roof on ARCHA elderly home (and elderly home in Lamač) is still functioning and it was designed to be maintenance-free. In the summer of 2017, the partner of the project, Faculty of Natural Sciences, Comenius University in Bratislava, measured the temperature and air humidity on different types of roofs (with or without a green cover). The surface temperature of green roofs resulted up to 19 °C lower compared to temperature of a standard roof ( Vulnerability and Risk Assessment Atlas , in Slovak). Renovation of important squares in the city centre (Námestie Slobody, Hlavné námestie, Františkánske námestie). Trees have been planted in the main square of the historic centre and in the Námestie Slobody (Old town), which is bordered by buildings of the Slovak University of Technology and governmental office buildings. Trees are providing shade on hot days. This very visible result has been realized after very long negotiations with many departments in the city, overcoming arguments on the historic character of the squares, archaeological issues, etc.. Two tree-lined avenues have been realized, providing cool corridors that connect important big roads in the old town. One consists of 15, the other of 45 large trees. In Svoradova street, in an area with previously no green public spaces and been left unused for a long time, a ca. 1,000 square meters park was realized. The new public space includes a model for rainwater management, retention, and rain garden, which was implemented by the Old town district. Nové Mesto district was historically an industrialized area with food processing factories and chemical industry. Today the brownfields are being transformed into apartment houses. In this context, the revitalisation of the park Gaštanica Koliba was intended to stop the degradation of its ecosystem, preserving existing vegetation while improving the local climate and efficient use of rainwater. This included treating of 140 trees, including some of the local population of chestnut trees, to install a local seepage pit to retain water both to the benefit of the local vegetation as well as to prevent erosion and landslides. A local seepage pit was installed to retain water both to the benefit of the local vegetation as well as to prevent erosion and landslides. In the same Nové Mesto district, a new green park (Jama) was created in the area of the former velodrome. Jama is a large park of about 3 ha size, combining sports, relaxation, leisure time activities, and city greenery, improving life not only in this area but also throughout the city. Rainwater from the paved and green areas is collected by a system of drainage pipes and directed to a new artificial lake, which has an aesthetic, climate control, and water retention function. The lake also serves as the source of the park’s watering system. In the Bratislava Forest Park - a 19th century designed landscape park – existing water reservoirs of one of the very few remaining streams flowing down from the Male Karpaty mountain range are planned to be restored according to the management plan of the area. These are important for fire protection of the forests and surrounding areas, but they also support local biodiversity and can take-up excess rain water in times of heavy rainfall which would otherwise flow into the city. Restoration of ponds in the recreational area of Železná studienka . Within these projects, Bratislava City Forests authority restored the ponds and rebuild the inlet and outlet structures to ensure that the optimum water level in the ponds is maintained. Furthermore, the city has installed wooden platforms at the ponds within other projects. As a follow-up activity within the same project (‘Bratislava is preparing for climate change’), a small projects grant scheme was established for support of sustainable drainage systems (SUDSs). A total amount of € 50,000 was made available for small projects up to maximum € 1,000 per project. The grant sheme is still open (year 2023) and eligible applicants are private home owners, NGOs and businesses. The grant covers a maximum of 50% of the total costs for the small project implementation. The majority of implemented projects and measures funded by the subsidy represented different forms of SUDSs such as water reservoirs, rainwater gardens or small green roofs. The grant scheme comes with consultancy for applicants and dissemination activities. The applications are assessed by the steering committee of the project, consisting of the Office of the Chief Architect, Department of Strategies and Projects and Department of Environment. Since than more than 1000 projects have been funded, with interest growing annually. Finally, the project led to the preparation of the Climate Change Adaptation Action Plan of Bratislava, issued in 2017 (more details in the ‘Legal aspects’ section) and revised every four years. A self-evaluation schedule for the Plan was prepared by the department of the Chief architect (Útvar hlavného architekta) to collect information on the implementation of individual measures by various departments of Bratislava City. In the first half of 2018, detailed information was collected through several working meetings with experts and representatives of various urban districts. This information fed the interim monitoring report of the Adaptation Plan. The project funded in the second grant agreement (Climate resilient Bratislava – Pilot projects for decarbonisation, energy efficiency of buildings and sustainable rainwater management in urban space) aims to further increase the city resilience against expected risks of climate change by following up/upscaling certain measures of the previous project. Moreover it supports the transition to a carbon neutral city in the near future by the gradual reduction of greenhouse gas emissions for certain sectors and by minimizing their carbon footprint.",
+    "outcomes": "In the ‘ EU Cities Adapt project’ - a project of the European Commission, run during 2012-2013 and aimed at capacity building for adaptation strategies for European cities - the city of Bratislava was one of the selected cities for the training phase. Within this project, Bratislava established a working group in which the City Chief Architect and all relevant city departments participated. This working group identified the climate risks of the city, engaged external stakeholders and developed a draft adaptation strategy. This work formed the basis to apply for EEA Grants. This predecessor project helped the city review its climate risks and corresponding adaptation needs and formed the basic project idea and objectives. Therefore, it was one of the two key success factors in obtaining the funding. On the other hand, the good support from the Government Office of the Slovak Republic, which has an EEA Grants Department (now under the Ministry of Investment, Regional Development and Informatisation of the Slovak Republic – 2023 update), and the user-friendly application procedure of the EEA grant facilitated the process of applying for the necessary project funding in the first phase. Bratislava City Office applied for funding under an EEA Grants open call in order to implement a number of measures that were identified during the development of the climate adaptation action plan. The timing of the call fitted perfectly with the stage of development of the action plan which was finalised. The positive outcomes of the project, funded under the first EEA grant, created the conditions for the second grant application that combines adaptation (scaling out pilot projects realised in the first project) and mitigation goals. In 2017, as one of the goals of the first project, the Climate Change Adaptation Action Plan of Bratislava was developed. The plan focused on the design and implementation of adaptation measures to mitigate the negative impacts of climate change (increasing the percentage of vegetation areas, ensuring the availability of green spaces, implementation of water conservation measures, etc.). Two limiting factors contributing to some delays in the implementation of the EEA first grant can be highlighted as follows: Firstly, the complex procedures for the implementation of measures: permits and obligations for public works, time consuming public procurement procedures, and consideration of archaeological aspects (being Bratislava a historical city). Secondly the independent governance structure of Bratislava City districts which makes it more difficult for Bratislava City Office to coordinate processes. Moreover, local regulations limited the application of some of the adaptation measures. For example, Bratislava has a regulation to prevent soil pollution from parking places, stating that they should have an impermeable surface and a space to collect oily water. This precludes the use of permeable pavement on parking places, which otherwise would be perfectly suited for increasing the infiltration of rainwater. The local situation, with lots of underground parking garages, precludes planting of trees in many places. On the other hand, the two main current planning documents (the Climate Change Adaptation Action Plan of Bratislava and the City development plan 2022 – 2030 , see Legal aspects) support greening initiatives both for mitigation and adaptation goals.",
+    "cost_benefit": "Total project costs for the whole ‘Bratislava is preparing for Climate Change’ project have been € 3,337,640, of which around € 2,400,000 (ACC02003 Project information) came from EEA Grants (Adaptation to Climate Change - Flood and Drought Prevention, priority sector Climate Change). The remaining € 926,000comes were provided by the Bratislava City office and the City Districts of Nové Mesto and Petržalka. The budget was divided over the partners according to their contribution to sub-projects and project management tasks. The “Climate-Resilient Bratislava – Pilot Projects on Decarbonisation, Energy Efficiency of Buildings and Sustainable Rainwater Management in the Urban Environment” project was performed within the framework of the “Climate Change Mitigation and Adaptation” (SK-Climate) program co-financed by the European Economic Area Financial Mechanism 2014-2021 and the State Budget of the Slovak Republic. The Costs of the total project are management costs, publicity, small grants, and construction activities. The benefits of the project and related sub-projects are difficult to directly express in terms of money. Financial benefits are for example related to less damage caused by flooding during expected intense rainfalls. Another example are better health conditions leading to less medical and societal costs for vulnerable people during heat-waves by providing areas with shade. Apart from climate change aspects, green spaces in general contribute to well-being. In addition, the cooperation among project partners and exchange of experience and knowledge that are built up during this project will pave the way for future projects to implement the Adaptation Action Plan. More in detail, the benefits of the projects are: increased perception of safety improved access to urban green space leading to increased health and wellbeing increased activities for recreation and exercise creation of cultural heritage and sense of place protection of historic and cultural landscape/infrastructure mitigation of climate change due to more green areas.",
+    "timeline": "The first project/grant period started in 2014 and is scheduled to finish in April 2017. Due to time-consuming procedures for permits and public procurement the implementation time is expected to extend beyond the official end date of the project. The second project/grant period started in 2020 and runs until February 2024.",
+    "lifetime": "The grant involves the realization of several sub-projects with different lifetimes: 20 years for green roofs, 40 years for trees on a square, centuries for a park and a few decades for rain water retention facilities. All green areas however also need regular maintenance.",
+    "stakeholders": "Bratislava consists of 17 independent city districts, and the Bratislava City Office provides overall coordination for the implementation of the measures. As part of the project funded under the first grant , Bratislava City Office has asked the city districts whether and how they would like to be involved and which sub-projects would be relevant within these districts. Apart from the city districts, various stakeholders (the Bratislava Regional Conservation Association, Bratislava Water Company, City Committee of Slovak Nature and Landscape Conservation Union, City Forest in Bratislava, Comenius University in Bratislava, Nature Sciences Faculty) were involved in developing the plans. Moreover, the Norwegian partner COWI (private consultancy) was involved because of its experience in the field and to underline the spirit of the EEA Grants regarding international cooperation. Some stakeholders were directly financially involved (as further described below) as they got funding from the grant and brought in some own investment (amounting to 15% of total budget). Other stakeholders were involved to transfer knowledge and to implement and mainstream adaptation measures into wider plans, such as on water and nature management. Stakeholders that were directly financially supported Bratislava City Office. Provides overall management and publicity of the project. The coordination of the ‘Bratislava is preparing for Climate Change’ project was done by a Steering Committee which consisted of a chairman (the Chief architect of the City) and a number of staff from different departments of the Bratislava City Hall (strategy project management and financial resources, environment, territorial system coordination, social affairs, transport, infrastructure etc.). The Committee also included representatives of scientific organizations (i.e. Geographical Institute of the Slovak Academy of Sciences and Comenius University in Bratislava) and non-governmental organizations. The steering committee also took decisions on the grant applications for private sustainable drainage systems. City district Bratislava - Nové Mesto ‘New Town’ and City district Bratislava – Petržalka. Both city districts are responsible for analysing options to solve problems in their cadastral area and directly implement planned measures in their district. They are also responsible for the communication of the results achieved. During the strategy and action plan development, already existing relations and cooperation with other stakeholders have been further strengthened. The project is promoted through the city districts’ web page . It is a consulting group which has more than 80 years of experience in the environmental protection sector. Their experience and knowledge have been a valuable asset in the project implementation, mainly in the engineering phase, the implementation of measures, communication and the exchange of experiences and the dissemination of project results. COWI has received budget for travelling to enable the cooperation with Bratislava and has provided assistance in problem solving and to establish future cooperation with other sectors in Norway. Stakeholders without financial contribution Bratislava Regional Conservation Association (BROZ). It is an NGO focused on nature, landscape and environment conservation. As a project partner, this association contributed to protect and restore the nature of the Bratislava city forest area. Bratislava Water Company (BVS, a.s.). It is a joint stock company including also Bratislava City among its share-holders. It provided its professional services and technical assistance during the implementation of sub-projects . Slovak Nature and Landscape Conservation Union (SZOPK). It is an umbrella NGO focused on nature, landscape and environment conservation. Its branch office, located in Bratislava City, participates in the project as legal entity. It promoted communication with the general public, local communities and it helped increase public awareness about the project. City Forest Company in Bratislava. This company is incorporated in the Statute of Bratislava Forest Park authority. Some proposed measures were implemented in Bratislava Forest Park, and therefore the City Forest Company needed to be involved in the project. Nature Sciences Faculty of Comenius University in Bratislava. The university is an educational and scientific institution. It provided professional advice and methodical assistance for the Adaptation Action Plan. As part of the project funded within the second grant, the preparation of the action plan for mitigating and adapting to climate change by 2030 took place using a participatory approach. The analysis of the current state and vision was prepared through the organisation of working groups on individual topics: Quality of life and health of residents, Green-blue infrastructure, Sustainable urbanism, Mobility, and Circular economy. An introductory conference was organized and three workshops took place in the 2021-2022 period. The goal of the workshops was to involve a diverse professional public and stakeholders in the project activities, to obtain expert input, information and comments that fed the action plan. The first workshop was about the assessment of the city's vulnerability to climate change, the second one was about possible 2030 scenarios for the city and the third one was about getting prepared for climate change by enhanced stormwater management solutions. At the same time, discussion forums and surveys were being prepared.",
+    "legal_context": "The adaptation solutions implemented in the two projects that received EEA grants, contribute to the achievement of the objectives of several actions plans issued by the City of Bratislava. In 2013, the first Action Plan for Sustainable Energy Development of Bratislava was developed. It aimed at the design and subsequent implementation of mitigation measures (reduction of greenhouse gas emissions by 20% by 2020) in the energy sector. In 2017, the Climate Change Adaptation Action Plan of Bratislava was developed, focused on the design and implementation of adaptation measures to mitigate the negative impacts of climate change. The plan aimed to increase the percentage of vegetation areas, ensure the availability of green spaces, implement water conservation measures, etc. The latest plan, the City development plan 2022 – 2030 ( Bratislava 2030 ) , combines the activities of both previous plans (adaptation and mitigation actions) and aims to reduce greenhouse gas emissions by 55% by 2030."
+  },
+  "point": {
+    "lat": 48.1331006594,
+    "lon": 17.1112060547,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "eeagrants.org",
+      "url": "https://eeagrants.org/archive/2009-2014/projects/SK02-0005",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eeagrants.sk",
+      "url": "https://www.eeagrants.sk/en/projects/klimaticky-odolna-bratislava-pilotne-projekty-zamerane-na-dekarbonizaciu-energeticku-ucinnost-budov-a-udrzatelne-h/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "klimatickyodolna.bratislava.sk",
+      "url": "https://klimatickyodolna.bratislava.sk/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "una.city",
+      "url": "https://una.city/nbs/bratislava/svoradova-park-renovation",
+      "role": "contextual_input"
+    },
+    {
+      "name": "interlace-hub.com",
+      "url": "https://interlace-hub.com/subsidy-scheme-support-rainwater-management-installations-bratislava",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+    "publication_date": "2023-12-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b4c1fe392421435eb5bf9b8dd5f20e29",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/eea-grants-supporting-the-city-of-bratislava-to-implement-climate-adaptation-measures",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:14+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

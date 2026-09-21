@@ -1,0 +1,166 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+  "title": "New North Zealand Hospital: A resilient acute care hospital for the future, Hillerød, Denmark",
+  "summary": "The new North Zealand Hospital in Hillerød aims to enhance resilience against climate-related impacts by incorporating a climate-informed design, innovative solutions for flood risk reduction and flexible organisation. It sets a blueprint for future hospitals of the country. Climate change is increasing the frequency and magnitude of extreme weather events and creates risks that will impact health care facilities. Exposure of hospitals and other health facilities to heatwaves, flooding or other climate impacts can have negative impact on the patient and staff health.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hillerød",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": "country/DNK",
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "Hovedstaden",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Hovedstaden__DK_",
+        "source_name": "Hovedstaden (DK)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "groundwater modelling",
+      "label": "groundwater modelling"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "hospital",
+      "label": "hospital"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extreme precipitation",
+      "label": "extreme precipitation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "health care facilities",
+      "label": "health care facilities"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "hospital",
+      "hospitals",
+      "patient",
+      "patients",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1,
+      "health_patients": 50
+    }
+  },
+  "intervention": {
+    "objectives": "The development and planning of the New Hospital in North Zealand are based on the political objectives stated in the political basis for construction work in the Capital Region of Denmark. Furthermore, the vision of this hospital is articulated around five objectives: (i) to offer the best treatment, (ii) to be effective and professional, (iii) to be safe, (iv) to be welcoming, (v) to be able to work across conventional boundaries. Within this last guiding principle, the hospital intends to be adapted to a changing environment. The project is part of the radical modernisation of health care systems undertaken in the Capital Region of Denmark. As the New Hospital North Zealand, Hospitals of the region will merge and expand resulting in top high-tech-hospitals with a contemporary efficient and welcoming environment for patients and better working conditions for staff in the future. The building codes of the hospital considers climate risk of flooding while the hospital is designed to allow for flexible functional planning in the case of a reorganisation of units (e.g., conversion of standard bedroom to outpatient clinic), or an increased need for patient beds (e.g., conversion of office space to patient’s rooms) that could enable it to cope with unexpected climatic events.",
+    "measures": "The New Hospital in North Zealand, Hillerød has been planned to be the central hospital resource for more than 310,000 citizens in the northern part of the Capital Region of Denmark. The hospital merges three existing hospitals: Hillerød Hospital, Elsinore Hospital and Frederikssund Hospital. It will extend over 118,000m² and include over 570 single patient rooms. The two bottom floors of the complex comprise diagnosis and treatment facilities and the two top floors houses the inpatient wards surrounding a roof garden. Taking into account climate risks related to extreme rain events, the design has necessitated: Detailed site investigation to ascertain the existing groundwater and soil conditions. Assessment of individual borehole groundwater rise relationship for varying rainfall intensity (single rainfall events and cumulated rainfall events). The precipitation over the period of 10 years (2007 to 2016) was processed to evaluate the anomalies (positive or negative deviation) from average rain events. The planning of the New Hospital in North Zealand Hospital followed the national guidelines from 2014 for adapting engineering design to different levels of precipitation. The combination of different downscaling methods of climate projections for Denmark, model runs (1950-2100 time-scale) and scenarios (A1B, RCP4.5 and RCP8.5) provided a range of possible climate factors to be compared. In particular, the precipitation event over 24 and 48 hours with 100 years return period was considered for the estimation of the correspondent groundwater levels. Based on this model, the hospital building was placed at an optimum site level and the following solutions have also been developed to reduce the risk of flooding: External ponds and streams were established to provide water storage and to move the standing water away from the access road and main hospital. Carpark trenches provide further on-site rainwater attenuation. Additional vegetated areas around the complex can serve as further rainwater storage. Setting a blueprint for future hospitals, the design primarily focusses on patient wellbeing to aid quicker recovery, with a structure that maximises closeness to nature and view of nature that plays an important part in human health and wellbeing. Finally, the hospital aims to be the most digitally-enabled project in Denmark with automated systems to maximise hospital efficiency, so healthcare workers have more time to spend with patients. The new hospital is also highly sustainable with its low energy design.",
+    "outcomes": "User involvement has been one of the key success factors as more than 300 stakeholders have taken part in the vision and design of the hospital. In addition, communication with the local authority has been extensive to ensure good collaboration.",
+    "cost_benefit": "Denmark is investing more than 40 billion Danish Kroner (approximately 5.4 billion euros) over a 10-year period (2015-2025) in the renewal of hospital facilities all over the country. The investment covers 16 projects. New North Zealand Hospital is one out of 4 new hospitals. The total construction of this new facility costs of approximately DKK 5.4 billion (approximately 730 million euros).",
+    "timeline": "Conception of the building was initiated in 2014. Construction has started in 2019, with handover of the building in 2025. The Capital Region of Denmark operates the largest health care system in Denmark and is facing radical modernisation over the next 10-15 years (2015-2030). The New Hospital North Zealand, is part of this modernisation initiative.",
+    "lifetime": "Solutions implemented in this case are the result of long-term planning of the Hospital that took into account long-term climate scenarios. Solutions are planned to last 50 years if regularly maintained.",
+    "stakeholders": "User involvement has been on-going throughout the development of the hospital, from vision development to functional optimisation and planning of outdoor areas. These processes have involved personnel, experts, students, and patients and their relatives ( Region H ). More than 300 stakeholders have taken part in this process. For the development of the adaptation solution, the Hospital management and relevant local authority representatives were involved.",
+    "legal_context": "New North Zealand Hospital is the contracting authority/ entity. The New Hospital North Zealand forms part of the consolidation of the Danish Healthcare estate enacted from the “ Proposal for Hospital and Psychiatry Plan 2020 ”. The investment is part of a structural reform plan for the Danish health care system, where hospital care is centralised in fewer locations and community health centres will maintain more health care services in the local area. Solutions taken in this case are part of an improved framework for climate change adaptation in Denmark with the consideration of increased precipitation when planning new construction projects, especially critical infrastructure such as health facilities. The project ensured compliance with the Hillerød rainwater discharge restrictions and with the he national guidelines (2014 ) for adapting engineering design to different levels of precipitation were applied."
+  },
+  "point": {
+    "lat": 55.92899,
+    "lon": 12.3057,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "regionh.dk",
+      "url": "https://www.regionh.dk/nythospitalnordsjaelland/Sider/default.aspx",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+    "publication_date": "2022-02-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ad0d73c1ae37420587e8df4805c7da93",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/new-north-zealand-hospital-a-resilient-acute-care-hospital-for-the-future-hillerod-denmark",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:10+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

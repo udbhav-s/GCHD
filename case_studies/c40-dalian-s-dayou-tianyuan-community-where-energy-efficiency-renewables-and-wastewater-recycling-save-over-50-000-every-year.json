@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-dalian-s-dayou-tianyuan-community-where-energy-efficiency-renewables-and-wastewater-recycling-save-over-50-000-every-year",
+  "url": "https://www.c40.org/case-studies/dalian-s-dayou-tianyuan-community-where-energy-efficiency-renewables-and-wastewater-recycling-save-over-50-000-every-year/",
+  "title": "Dalian’s Dayou Tianyuan Community – Where Energy Efficiency, Renewables and Wastewater Recycling save over $50,000 every year.",
+  "summary": "This C40 case study describes “Dalian’s Dayou Tianyuan Community – Where Energy Efficiency, Renewables and Wastewater Recycling save over $50,000 every year.,” an urban initiative documented for Dalian. It is included because it is located in the Global South. C40 describes the action this way: The Dayou Tianyuan Community is a great example of an eco-friendly community, where the implementation of clean energy and energy efficiency measures,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dalian",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Liaoning Sheng",
+        "ucode": "CHN_0018_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dalian",
+        "ucode": "CHN_0018_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dalian",
+      "label": "Dalian"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Dayou Tianyuan Community is a great example of an eco-friendly community, where the implementation of clean energy and energy efficiency measures, and an advanced water recycling system allowed to substantially reduce the reliance on coal and save collectively up to ≈ USD 50,000 per year.",
+    "measures": "The Dayou Tianyuan community is located in the village of Wangjia, Lingshui Town, in the west of Dalian City, spreading over an area of about 30 hectares. Surrounded by mountains and facing the sea, it is a rare place for practicing good ‘feng shui’ 1 , with a rich natural and cultural environment. This residential community featuring ecological and commercial housing has been successfully developed following the “National Comfortable Housing Demonstration Project” launched by the Chinese Ministry of Construction in July 2001, which upholds the concept of “building residences in the suburbs, making them ecological, popular and commercialized”.\n 1 Feng shui is a practice originating from China, which claims to use energy forces to harmonize individuals with their surrounding environment. \n What is the innovation ? How does it work? \n The residential buildings in the Dayou Tianyuan community are all provided with solar water heaters, deemed to save 1.5 to 2 million kWh of electricity every year across the whole community, worth approximately 240,000 yuan (≈ USD 35,000).\n Smart heating systems are another example of the energy efficiency measures implemented. Dayou Company has built a hot water heating center with a capacity of 3.5 million square meters, equipped with a low-consuming boiler with a thermal efficiency of 83.72% (well above the government requirement of 68%). At the same time, high-quality thermal insulation material has been used to make the pipe networks and the heat exchange station more thermally efficient (92.6~99.8%), minimizing heat loss during the heat transfer.\n In addition, households have been provided with an effective home insulation system, installed on the external walls and stairwells. The outer walls are covered with a 5cm thick polystyrene board, while the ground and ceiling are made with low-temperature radiant heating technology. According to the inspection of the Quality Supervision Office of the Dalian Research Institute of Building Sciences, the actual energy consumption of Dayou Tianyuan is only 16.5 W/m2, which enabled to save up to 67% on coal consumption.\n There is also a wastewater treatment station and a ground reservoir located within the community. The latter is used to store recycled water treated by the wastewater treatment facility. The recycled water is then pumped into all the households for flushing purposes, or is used for gardening, fire fighting and car washing. The wastewater treatment station processes up to 1,000 tons of waste water per day, and is not only limited to the 1,480 households of the community, but is also treating domestic sewage coming from other 2,300 households.\n At the beginning of the construction of the Dayou Tianyuan community, water veins were identified and a large water collector well was built aligned with the wellsprings. Surface runoff, such as rainwater, seeps through the ground and road surface into the collector well, where it is successfully stored.\n An artificial recycling system for treated water, a semi-natural recycling system for surface water and a natural recycling system for groundwater are all components of this unique water recycling system. According to reports, only by recycling water alone, the community is able to save 30% of tap water and more than 100,000 yuan (≈ USD 14,600) every year.\n Contact Details \n Guan Jun\n Dalian Dayou Real Estate Development Co., Ltd.\n 30-2-1-1 Jingtian Street, Ganjingzi District, Dalian City, Liaoning Province\n 0411-84741855\n huangln@evangel.net \n 13352227160@163.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dalian-s-dayou-tianyuan-community-where-energy-efficiency-renewables-and-wastewater-recycling-save-over-50-000-every-year/",
+    "publication_date": "2019-03-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27434",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=dalian-s-dayou-tianyuan-community-where-energy-efficiency-renewables-and-wastewater-recycling-save-over-50-000-every-year&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-flood-awareness-belem",
+  "url": "https://www.c40.org/case-studies/transforming-cities-flood-awareness-belem/",
+  "title": "Transforming Cities: Raising flood awareness in a lowland city",
+  "summary": "This C40 case study describes “Transforming Cities: Raising flood awareness in a lowland city,” an urban initiative documented for Belém. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Belém",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Pará",
+        "ucode": "BRA_0014_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Belém",
+        "ucode": "BRA_0014_0076_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "belem-2",
+      "label": "Belém"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "How locals in Bélem are defending their community against floods \n From cargo-laden ships to skyscrapers set against blue-tiled buildings, this busy port city is the gateway to the Amazon River. But Belém’s location on an archipelago makes it vulnerable to floods. Now, a city-wide effort is engaging locals in flood awareness and prevention. \n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for BMW Foundation by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "From cargo-laden ships to skyscrapers set against blue-tiled buildings, this busy port city is the gateway to the Amazon River. But Belém’s location on an archipelago makes it vulnerable to floods. Now, a city-wide effort is engaging locals in flood awareness and prevention. \n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for BMW Foundation by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-flood-awareness-belem/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42608",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-flood-awareness-belem&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-07-01T16:32:15",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

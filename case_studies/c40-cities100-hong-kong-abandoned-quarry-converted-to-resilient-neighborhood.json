@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood/",
+  "title": "Cities100: Hong Kong – Abandoned Quarry Converted to Resilient Neighborhood",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Abandoned Quarry Converted to Resilient Neighborhood,” an urban initiative documented for Hong Kong, China. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong is transforming an old industrial site into a sustainable residential development, providing much-needed housing while ensuring climate resiliency…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In recent years, Hong Kong has experienced a housing shortage with a rapidly growing population, as well as issues with increased rainfall intensity and increased temperatures. The project aims to address the housing and climate change challenges in an integrated, multi-sectoral, and sustainable manner to develop a prosperous, livable, and attractive city.",
+    "measures": "The Anderson Road Quarry in Hong Kong was once a facility supplying asphalt and concrete, but the now vacant 40-hectare site will supply housing for 25,000 people. In order to prepare the urban development for the impacts of climate change, the city is employing a wide array of adaptive and resilient approaches. One focus for the large redevelopment is sustainable water management, which will be attained by implementing a first-of-its-kind 7,200 m3 artificial stormwater attenuation lake park, a rainwater harvesting system, and a gray water reuse system. These measures avoid expensive upgrades to existing drainage systems and will save around 3,000 metric tons of CO2 annually, helping the city live up to its 65% to 75% carbon reduction goal by 2030 set in the Hong Kong Climate Action Plan. In further efforts to save energy and CO2, all streets will be lit with LEDs, saving up to 70% more energy than conventional light fittings, and buildings will have 3,700 m2 green roofs and 35 m2 solar panels.\n Environmental Benefits – With at least 23 hectares of green areas, and plans to plant 200,000 trees, CO2 will be sequestered and air quality significantly improved.\n Social Benefits – The project provides 155,000 m2 of parkland for residents of the Anderson Road Quarry and nearby neighborhoods, increasing the social cohesion between different Hong Kong communities.\n Health Benefits – The project provides 2.6 km of cycling path integrated with 5.3 km of walking paths within the community parks. A bike-sharing program and interactive bus stops integrated with a smartphone app will encourage residents to use more active, sustainable means of transportation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27307",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

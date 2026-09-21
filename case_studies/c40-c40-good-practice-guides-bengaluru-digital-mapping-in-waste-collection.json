@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-bengaluru-digital-mapping-in-waste-collection",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-bengaluru-digital-mapping-in-waste-collection/",
+  "title": "C40 Good Practice Guides: Bengaluru – Digital mapping in waste collection",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Bengaluru – Digital mapping in waste collection,” an urban initiative documented for Bengaluru. It is included because it is located in the Global South. C40 describes the action this way: Summary Bengaluru embraced digital mapping to inform waste collection and transportation systems in order to reach the city’s goal of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bengaluru",
+      "label": "Bengaluru"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Bengaluru embraced digital mapping to inform waste collection and transportation systems in order to reach the city’s goal of…",
+    "measures": "Summary \n Bengaluru embraced digital mapping to inform waste collection and transportation systems in order to reach the city’s goal of 100% solid waste collection. Facing a challenging situation with several closed landfills, an ineffective solid waste management system (with only 50% of waste collected), and unreliable or missing data to accurately plan effective collection and transportation, Bengaluru adopted a new approach to solid waste management in 2013, when it started collaborating with the Centre for Public Problem Solving. The city launched a process to create a geographic information system (GIS)-based model for its solid waste management, and is now ready to roll it out in almost half of the city. The GIS system enables the city to store, analyse, and share a diverse range of mapped geographic information, such as decentralized infrastructure and existing vehicle routes, which are crucial when planning waste collection and transportation. The data-driven model enables a cost-efficient waste management system by using optimal route algorithms and automated rules for data collection.\n Results \n A better-planned, efficient, and monitored collection and transportation system is expected to decrease the length of overall waste collection travels by 80% and expand the door-to-door collection to cover the whole city by 2016. This is expected to bring about CO 2 reduction from the waste sector of 109 metric tonnes/year, as well as multiple co-benefits. The new norms of waste handling will ensure cleaner and healthier living conditions in vulnerable communities; 19,000 new jobs are to be created when the GIS model covers the entire city by 2016; and with door-to-door collection for the entire city, open burning and dumping of waste will be minimized, reducing air and soil pollution.\n Reasons for success \n The key to success of Bengaluru’s waste management data approach has been the use of the GIS model as a decision support tool for resourceful management of transporting the community solid waste, as well as an extensive parallel citizen engagement program.\n When/why a city might adopt an approach like this \n This approach is particularly suited to cities aiming to achieve effective and efficient management of waste collection fleet services. The various algorithms available via GIS software help define alternative routes in heavy traffic situations leading to costs and fuel savings for municipalities. In addition, a data repository of past fleet movements would further support the development and improvement of citizens’ engagement strategies for waste collection services, for instance through development of user friendly mobile apps to disseminate and update pick-up times. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "A better-planned, efficient, and monitored collection and transportation system is expected to decrease the length of overall waste collection travels by 80% and expand the door-to-door collection to cover the whole city by 2016. This is expected to bring about CO 2 reduction from the waste sector of 109 metric tonnes/year, as well as multiple co-benefits. The new norms of waste handling will ensure cleaner and healthier living conditions in vulnerable communities; 19,000 new jobs are to be created when the GIS model covers the entire city by 2016; and with door-to-door collection for the entire city, open burning and dumping of waste will be minimized, reducing air and soil pollution.\n\nThe key to success of Bengaluru’s waste management data approach has been the use of the GIS model as a decision support tool for resourceful management of transporting the community solid waste, as well as an extensive parallel citizen engagement program.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-bengaluru-digital-mapping-in-waste-collection/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27130",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-bengaluru-digital-mapping-in-waste-collection&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

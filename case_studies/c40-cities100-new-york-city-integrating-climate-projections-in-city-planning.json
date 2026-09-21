@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-york-city-integrating-climate-projections-in-city-planning",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-integrating-climate-projections-in-city-planning/",
+  "title": "Cities100: New York City – Integrating Climate Projections in City Planning",
+  "summary": "This C40 case study describes “Cities100: New York City – Integrating Climate Projections in City Planning,” an urban initiative documented for New York. It is included because it addresses river flood, coastal flood, tropical storm, heatwave, extreme heat hazards. C40 describes the action this way: In New York City, climate change risks are now integrated into the city's existing planning and construction operations, ensuring city…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New York City faces sea level rise, storm surges, heat waves, extreme hot days, and intense rain events. In order to increase resilience, the city has mainstreamed adaptation into the planning process, ensuring that climate projections inform building and infrastructure design.",
+    "measures": "New York City is the first American city to institutionalize climate resiliency by establishing city-wide Climate Resiliency Design Guidelines for using forward-looking climate projections in city project designs. New York City's government departments all have previously developed their own development guidance but lacked a consistent approach for how to use climate projections. The guidelines provide a consistent methodology for engineers, architects, and planners to design facilities that are resilient to continued changes in climate across the entire lifespan of the facilities.The Climate Resiliency Design Guidelines are multi-hazard, addressing all major climate change risks identified by the New York City Panel on Climate Change. The guidelines address some of New York's most acute issues, such as how to limit the urban heat island effect, while also protecting facilities against extreme heat. By recommending flexible adaptation pathways, a way of designing facilities with coastal storm protections that are upgradable, the city will limit urban flooding from extreme precipitation. In doing so, the city is not only becoming increasingly resilient but also a more enjoyable place to live for millions of New Yorkers.\n Economic Benefits – The economic benefits of the guidelines will be seen in losses avoided, ensuring that New York City bounces back quickly from extreme weather events. Hurricane Sandy cost $19 billion in damages and lost economic activity.\n Health Benefits – Minimizing the city's urban heat island effect will result in a cooler city, better able to keep vulnerable New Yorkers safe during heat waves. Critical city services such as hospitals will be well-protected and quickly restored following major weather events.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Weather or climate-projection data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-integrating-climate-projections-in-city-planning/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27305",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-integrating-climate-projections-in-city-planning&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

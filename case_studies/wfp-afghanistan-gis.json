@@ -1,0 +1,140 @@
+{
+  "schema_version": "2.2",
+  "id": "wfp-afghanistan-gis",
+  "url": "https://www.esri.com/about/newsroom/blog/world-food-programme-apps-afghanistan",
+  "title": "World Food Programme Guides Operations in Afghanistan with Online GIS Apps",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Afghanistan",
+        "iso3": "AFG",
+        "ucode": "AFG_V1",
+        "dcid": "country/AFG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "armed_conflict"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": null,
+  "point": null,
+  "data_sources": [
+    {
+      "name": "WFP vulnerability analysis",
+      "url": null,
+      "role": "contextual_input"
+    },
+    {
+      "name": "Security and conflict layers",
+      "url": null,
+      "role": "hazard_input"
+    },
+    {
+      "name": "Supply-chain routes and road conditions",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Field GPS and driver access reports",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "WFP programme data",
+      "url": null,
+      "role": "operational_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Esri Newsroom",
+    "collection_url": "https://www.esri.com/about/newsroom/",
+    "publisher": "Esri",
+    "document_url": "https://www.esri.com/about/newsroom/blog/world-food-programme-apps-afghanistan",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/sdg/SN_ITK_DEFC",
+      "name": "Prevalence of undernourishment",
+      "sdg_indicator": "2.1.1"
+    },
+    {
+      "dcid": "undata/sdg/AG_PRD_FIESMS.AGE--_T__SEX--_T__URBANIZATION--_T",
+      "name": "Prevalence of moderate or severe food insecurity in the population",
+      "sdg_indicator": "2.1.2"
+    },
+    {
+      "dcid": "undata/sdg/VC_DSR_AFFCT",
+      "name": "Number of people affected by disasters",
+      "sdg_indicator": "1.5.1"
+    },
+    {
+      "dcid": "undata/sdg/SG_DSR_LGRGSR",
+      "name": "Score of adoption and implementation of national disaster-risk reduction strategies in line with the Sendai Framework",
+      "sdg_indicator": "1.5.3"
+    },
+    {
+      "dcid": "undata/sdg/SM_POP_REFG_OR",
+      "name": "Number of refugees per 100,000 population, by country of origin",
+      "sdg_indicator": "10.7.4"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/sdg/SN_ITK_DEFC",
+      "name": "Prevalence of undernourishment",
+      "rationale": "WFP aims to achieve zero hunger by targeting food-insecure households in remote and conflict-affected districts"
+    },
+    {
+      "dcid": "undata/sdg/AG_PRD_FIESMS.AGE--_T__SEX--_T__URBANIZATION--_T",
+      "name": "Prevalence of moderate or severe food insecurity",
+      "rationale": "Vulnerability mapping identifies populations needing food assistance"
+    },
+    {
+      "dcid": "undata/sdg/VC_DSR_AFFCT",
+      "name": "Number of people affected by disasters",
+      "rationale": "Climate-related disasters (drought, floods, landslides) drive food insecurity and constrain delivery"
+    }
+  ],
+  "summary": "The World Food Programme in Afghanistan faced severe operational constraints from mountainous terrain, limited roads, armed conflict, and climate shocks (drought, floods, COVID-19) that left families food insecure. WFP built an integrated online GIS platform combining vulnerability analysis, security layers, supply-chain routes, road conditions, and programmatic data to support evidence-based humanitarian logistics. Drivers report real-time access constraints; security staff use conflict hotspot maps for access negotiations with non-state armed groups, replacing armed escorts with community acceptance policies. Methods include geospatial vulnerability assessment, multi-layer operational dashboards, field GPS reporting, and shared mapping with partners such as UNICEF. The approach operationalizes food security intelligence to plan deliveries, mitigate risk, and reach the most vulnerable populations."
+}

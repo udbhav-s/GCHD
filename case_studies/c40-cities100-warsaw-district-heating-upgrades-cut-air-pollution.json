@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-warsaw-district-heating-upgrades-cut-air-pollution",
+  "url": "https://www.c40.org/case-studies/cities100-warsaw-district-heating-upgrades-cut-air-pollution/",
+  "title": "Cities100: Warsaw – District Heating Upgrades Cut Air Pollution",
+  "summary": "This C40 case study describes “Cities100: Warsaw – District Heating Upgrades Cut Air Pollution,” an urban initiative documented for Warsaw. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Warsaw is upgrading its Soviet-era district heating system, improving liveability for residents and reducing greenhouse gas emissions. The Challenge Air…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Warsaw",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": null,
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Mazowieckie",
+        "ucode": "POL_0007_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "M. St. Warszawa",
+        "ucode": "POL_0007_0015_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "warsaw",
+      "label": "Warsaw"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Air pollution is a real problem in Poland, which is largely dependent on coal for its electricity. Warsaw's district heating system ensures that air quality is much better than in other cities such as Krakow where many people heat their homes by burning coal.",
+    "measures": "Following Warsaw's devastation during the Second World War, a centrally planned heating system was put in place to heat the homes of the 2.6 million inhabitants. It is the largest district heating system in Europe, and in need of upgrading. Substations are used throughout the network to control the quality of heat distributed to end-users, and the Polish capital has invested more than $30 million to replace 111 group substations with 810 individual substations. These individual substations allow end-users much more control over heat levels in homes, so making the changes will improve liveability for residents as well as heat transfer efficiency and will reduce emissions. In order to complete construction during the summer before the cold weather began and minimize disruption to residents, the city distributed 30,000 information leaflets and held meetings with residents and building managers. The system covers 56% of the city, but with new substations allowing more connections, it could be expanded significantly.\n Environmental Benefits – District heating is a more efficient and environmentally friendly way of heating homes compared to individual boilers, especially if the energy source for the district heating is renewable.\n Social Benefits – Customers who receive heat from group substations have limited influence on heat management in the building, as well as poorer capabilities to use and control heat. The upgrades help to reduce social and economic inequalities between Warsaw residents.\n Health Benefits – As well as CO2 savings, the project will also reduce particulate emissions by two metric tons per year, SO2 by 76 metric tons per year, and NOx by 38 metric tons per year. This will improve air quality and reduce respiratory health problems for citizens.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-warsaw-district-heating-upgrades-cut-air-pollution/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27316",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-warsaw-district-heating-upgrades-cut-air-pollution&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-mexico-city-public-transit-integration-catapults-bike-share",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-public-transit-integration-catapults-bike-share/",
+  "title": "Cities100: Mexico City – Public Transit Integration Catapults Bike-share",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Public Transit Integration Catapults Bike-share,” an urban initiative documented for Mexico City. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: To create a true shift in transit habits, Mexico City integrated its bike-share program with the city’s public transport network,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The decades-long development of a car culture in Mexico City has resulted in the presence of more than 5 million automobiles on the city’s streets. This has led to enormous traffic congestion problems, as drivers spend an average of four hours a day commuting. ECOBICI’s integration into Mexico City’s transit system and sheer size encourage faster, healthier, and more sustainable transportation options.",
+    "measures": "While bike-sharing systems have become commonplace in many large cities, Mexico City’s ECOBICI stands out as one of the few systems in the world that is integrated with the city’s overall public transit network. One card allows users to access the metro, buses, trains, and bicycles – making pedal-powered transport a viable commuting method. This integration is vital to the system’s success, as data from a 2014 User Perception Survey show that 87% of trips are made in combination with other modes of transportation.\n ECOBICI has seen a massive uptake in popularity, with the number of daily trips increasing from 3,053 in 2010 to 33,700 in 2015. This is thanks, in part, to the ECOBICI’s size: the system boasts 6,025 bikes at 444 docking stations across 42 neighborhoods of the city. Similarly, the integrated card has made the shift to bicycle use easier for residents, and it has allowed the system to overcome one of the biggest challenges in transportation: changing commuting habits. Six of 10 system users did not previously use a bicycle as a mode of transport before ECOBICI was launched, and 14.5% of users shifted from driving to biking.\n Environmental Benefits – By encouraging citizens to use bicycles and other public transit options instead of private vehicles, ECOBICI helps to reduce air pollution in the Mexican capital.\n Social Benefits – Aware of the ability for transport access to improve social equity, ECOBICI’s targeted effort has doubled the number of women using the system from 2010 to 2015.\n Economic Benefits – Severe traffic congestion costs Mexico City $10 billion in lost productivity each year. ECOBICI has generated more than 45.5 years worth of productivity savings since 2010.\n Health Benefits – ECOBICI has found that 54% of their users have improved their physical condition since beginning to ride, 7% have lost weight, and 15% have improved their overall health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-public-transit-integration-catapults-bike-share/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27034",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-public-transit-integration-catapults-bike-share&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

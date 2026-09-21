@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+  "title": "Improved resilience of biomass fuel supply chain in UK",
+  "summary": "Nine UK electricity generating companies have been receiving support based on the provisions of the Climate Change Act of 2008. Specifically, the Joint Environmental Programme (an initiative funded by nine of the leading energy producers in the UK) supports a programme of research focusing on the environmental impacts of these nine leading producers, including Drax Power. The operating subsidiary of the Drax Group plc, Drax Power Limited has 6 boilers with a maximum capacity of 3,945 MW, 3 of which are powered by biomass pellets.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tyne, Liverpool, Hull and Immingham",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Tyne",
+      "label": "Tyne"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Liverpool",
+      "label": "Liverpool"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Immingham",
+      "label": "Immingham"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "harbour infrastructrue",
+      "label": "harbour infrastructrue"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Hull",
+      "label": "Hull"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biomass",
+      "label": "Biomass"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Drax",
+      "label": "Drax"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "power station",
+      "label": "power station"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "ports",
+      "label": "ports"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "fuel supply",
+      "label": "fuel supply"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objectives of adapting infrastructure at Drax Power and at associated terminals are to ensure resilience to storm surge impacts in the long term, thereby ensuring that Drax Power is able to supply power securely. Furthermore, the multi-port strategy not only alleviated threats of supply chain backlog in weather-related events, but it also greatly increased the import capacity for biomass supply.",
+    "measures": "Drax Power has implemented numerous adaptation measures to combat the impacts of storm surge and flooding events on its operations. These include structurally raising power plant equipment above potential storm surge water levels as well as constructing sea walls for protection at their Immingham terminal. Furthermore, subterranean tunnels have been fitted with storm surge barriers, while future tunnel constructions will take place above ground level. At Immingham, the outer lock gate has been upgraded to withstand 1 in 1,000 year flood events, with previous gates able to withstand 1 in 20 year tidal flooding events (under UKCP09 medium emission scenario). Such improvements to flood defences were made through joint investments by Associated British Ports (the owner and operator of The Port of Immingham) and Drax Power. Similar measures have been implemented at the Port of Liverpool and the Port of Hull, where the investments were underwritten by the port themselves. To further adapt to flood-related impacts, the transportation of biomass pellets from all ports to power plants takes place by diesel-powered trains, avoiding any need for cables which can also be damaged during storms. Finally, Drax has also adopted a geographically-based adaptation strategy to avoid the impacts of localised storm surges through a multi-port strategy. The strategy has seen biomass port terminals dispersed throughout the UK, with terminals fitted with biomass handling equipment at the Ports of Tyne, Liverpool, Hull and Immingham.",
+    "outcomes": "The geographic spread of ports and flood management measures in ports has allowed Drax to increase its import capacity from the US for wood pellet biomass up to 2 million tonnes per year. There is some controversy regarding the climate benefits as well as biodiversity impacts of the fuel change from fossil fuels to biomass at Drax power plants. Drax is committed to sourcing wood (predominantly harvesting residues and low-value roundwood) from working forests rather than primary forests, and to ensure that the environmental benefits of such forests are maintained (through, for example, tree planting). However, the use of predominantly US forest biomass has attracted some criticism from non-governmental organisations in the US who believe that increased biofuel demand in general, and the increased demand for wood pellets from Drax in particular, is responsible for damage to forest habitats and may even increase GHG emissions. The EEA is not able to take a position in this complex debate, which involves government agencies, non-governmental organisations, certification service providers as well as further experts and stakeholders. The adaptation benefits of this project are not controversial, and they seem transferable to other regions and projects. However, the debate about the wider sustainability aspects of Drax’s biomass strategy stresses that there can be synergies as well as trade-offs between climate change adaptation, mitigation and other environmental and social concerns. The development of adaptation strategies by public and private actors needs to consider those concerns comprehensively in order to avoid maladaptation. As part of its continuous work aiming to improve Climate-ADAPT contents, EEA will evaluate if additional information is available to review these aspects.",
+    "cost_benefit": "The geographical splitting of biomass supply between multiple ports on both the East and West coasts of the UK reduces the risk of climate events on an interrupted fuel supply. The strategy also allows larger biomass fuel imports to take place, permitting further conversion of the Drax power plant from coal to biomass. Drax can now receive shipments from ships with 65,000 tonne capacities due to investments made by the ports underwritten by long-term contracts with Drax. For example, Drax has invested £135m (€150m) at Immingham to facilitate efficient transport of biomass from the US. The Port of Immingham has invested £4.7 million in the construction of a new outer dock gate to protect against 1 in 1000 year flooding events, and £0.5 million in flood resilience works to electrical substations. Furthermore, when Drax reaches maximum capacity with the projected conversion of a fourth power plant later this year, they find themselves in the unique position of being able to assist other biofuel operators with biomass stocks in times of need. A storm surge in 2013 caused a loss of biomass deliveries to the Drax power plant. As a results, coal was used in order to continue generating power. By now, all of Drax’s boilers run exclusively on 100% biomass. Therefore, assuring a continued biomass supply and preventing damage to biomass stocks from flooding is imperative to their business. If a flooding event such as in 2013 happened today, without adaptation measures, the expected costs to Drax due to loss of operations would be £1 million/day. If the fuel shortage were to lead to power cuts, the wider societal costs would be much higher.",
+    "timeline": "The majority of adaptation measures that have taken place at the Port of Immingham have occurred since the flooding events of 2013. Drax has been importing biomass and proactively upgrading port facilities since 2008.",
+    "lifetime": null,
+    "stakeholders": "Drax Power provides input to Energy UK (a UK trade association for industry) in regards to identifying threats and adaptation measures to climate change. Through such engagement, the energy industry will assist the UK government to understand the level of capacity to adapt within the energy system, which is subsequently fed into UK Climate Change Risk Assessment reports and National Adaptation Programmes. The engagement with Energy UK allows the energy industry to collaborate with each other, to minimise the threats of climate change and improve the resilience of the energy system as a whole. Furthermore, Drax organises stakeholder and NGO roundtables. Two such events were held in London and Brussels in 2017, to discuss approaches to biomass sustainability and the risks associated with wood fibre procurement. However, specific discussions on adaptation needs were not handled.",
+    "legal_context": "Under the UK Climate Change Act of 2008, the energy sector is responsible for assessing the risks posed to the sector from climate change. Under the Act, Drax must (along with various other energy system stakeholders) submit Climate Change Adaptation Reports, which explain the climate change risks to their business as well as the response strategies. Under the UK Renewables Obligation Scheme, introduced in 2002, electricity suppliers must source a proportion of electricity from renewable sources. Renewable Obligation Certificates are awarded to suppliers who generate renewable electricity, with operators able to trade such certificates with other parties. When suppliers do not have a sufficient number of certificates to meet their obligation within the reporting year, they must then pay a sum into a buy-out fund. Drax is also party to a Contract for Difference (CfD) with a government owned entity (The Low Carbon Contracts Company), which is responsible for delivering aspects for the government’s Electricity Market Reform Programme. Through this programme, Drax can make or receive payments through the amount of electricity dispatched from their biomass units."
+  },
+  "point": {
+    "lat": 52.1604545577,
+    "lon": -1.23046875,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "drax.com",
+      "url": "https://www.drax.com/sustainability/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webarchive.nationalarchives.gov.uk",
+      "url": "http://webarchive.nationalarchives.gov.uk/20130124005001/http://www.defra.gov.uk/environment/climate/sectors/reporting-authorities/reporting-authorities-reports/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "401e8e22cf124ef9a8c4144def682bd0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/improved-resilience-of-biomass-fuel-supply-chain-in-uk",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:01+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-protecting-outdoor-agricultural-workers-from-extreme-heat-in-puglia",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-outdoor-agricultural-workers-from-extreme-heat-in-puglia",
+  "title": "Protecting outdoor agricultural workers from extreme heat in Puglia, southern Italy",
+  "summary": "In 2021, the Puglia region declared a public health emergency and enacted an ordinance to limit outdoor agricultural work during peak heat. Although the evaluation of its effects will take time, this measure is already raising awareness about heat related injuries in the workforce. Average annual temperature in Italy has increased by 1.1°C since 1880, and with that the exposure of people to heatwaves. High temperatures create uncomfortable or even dangerous working conditions for health that may reduce both working hours (labour supply) and workers’ performance during these working hours (labour productivity; Dasgupta et al., 2021 ).",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Puglia",
+        "ucode": "ITA_0013_V1",
+        "dcid": null,
+        "source_code": "SUBN_Puglia__IT_",
+        "source_name": "Puglia (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "AGRICULTURE",
+      "label": "Agriculture"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "OBSERVATIONS",
+      "label": "Observations and Scenarios"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "CLIMATESERVICES",
+      "label": "Climate services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "extreme heat",
+      "label": "extreme heat"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "outdoor activity",
+      "label": "outdoor activity"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "labour",
+      "label": "labour"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Heat stress",
+      "label": "Heat stress"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "displaced"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "migrant"
+    ],
+    "group_mentions": {
+      "displaced": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The main objectives of the ordinance issued by the Puglia region are to: (i) protect agricultural workers in the region from prolonged exposure to extreme heat, (ii) inform the relevant stakeholders (employees, employers, and public health authorities) about the risks of extreme heat, and (iii) inform citizens about the issue of extreme heat and physical activity. The National Social Security Institute (INPS), the National Institute for Insurance against Accidents at Work (INAIL), and labour unions such as CGIL and CISL have been calling for precautionary measures to be established to prevent accidents from occurring due to high temperatures. The ordinance was enacted precipitately due to deaths of several agricultural workers including that of a 27-year-old migrant from Mali.",
+    "measures": "In June 2021, the regional government of Puglia, considering the increasing incidence of work injuries due to extreme heat, issued an ordinance to prohibit outdoor work in the agricultural sector between 12:30 to 16:00 on “high-risk” days until 31 August 2021. The ordinance was subsequently re-issued in June 2022 with the prohibition of agricultural work in “high-heat conditions” lasting until 31 August 2022.The 2022 prohibition is effective from 12.30 to 16.00 on days that are forecasted to be of “high risk” and for “intense physical activity” according to the warnings issued by WORKLIMATE . The WORKCLIMATE project is a two-year national initiative aimed to assess the impact of environmental thermal stress on workers’ health and productivity and to identify interventions to reduce the risk. As part of the project, an integrated weather-climatic and epidemiological heat warning system has been developed to improve knowledge on the effect of thermal stress conditions on workers and to estimate the social costs of injuries at work. Heat stress risk forecast maps (based on Wet Bulb Globe Temperature, WBGT) for up to five days at high spatial (7 km resolution) and temporal (four-time intervals during the day; 8:00, 12:00, 16:00 and 20:00 CET) resolution are continuously provided during summer. These forecasts are meant to provide operational support to both the workers and the employers to aid the prevention and protection of workers from extreme heat. Accordingly, specific warnings, deployed on the project website, are coded to indicate three different levels of risk: “low”, “medium”, and “high”. The effects of the regional ordinance and of the warnings issued by the WORKLIMATE project on health and well-being of workers are not still known and will require a long time to be clearly detectable. However, the WORKLIMATE project includes several activities of data collection of heat stress in different outdoor exposure scenarios for selected Italian companies as well as the analysis of the effects of procedural and organizational changes on productivity. Moreover, a national survey, opened to all citizens, was launched to investigate the perception and knowledge of the effects of heat in the workplace in order to identify intervention strategies to reduce the risk of heat for the occupational sector.",
+    "outcomes": "Although the evaluation of the effects of the ordinance prohibiting outdoor work on risky days will take time, one of the main successes has been to raise awareness about heat related injuries in the workforce among both the workers and the employers. The long-term success will be a decline in such injuries in the agricultural sector in Puglia and Italy as more regions implement such measures. While the labour unions were not actively involved in the process leading to the ordinance, CGIL, one of the largest labour unions have endorsed the ordinance. Moreover, at the request of three of the major labour unions (CGIL, CISL, UIL), the region of Calabria (southern Italy) passed a similar ordinance in July 2022. A limitation of the prohibition is the rigidity of the warning system, as outdoor work is only prohibited from 12:30 to 16:00 on “high-risk” days, while the heat stress could pose “high risk” at other times of the day. A further limitation is the limited validity time of the ordinance that needs to be renewed every year. In addition, the ordinance per se does not provide any indication to manage the shift in the working times or to cover the cost of labour not done during the four hottest hours. This can trigger heterogeneous responses by different companies and farmers associations and cooperatives, without any actual assurance for workers.",
+    "cost_benefit": "The ordinance itself did not involve any specific cost. The WORKCLIMATE project was funded by INAIL through the BRIC 2019 (call for collaborative scientific research). The measure is expected to improve the preparedness of agriculture workers to extreme temperatures due to climate change, improve working conditions, and workers’ health. This is expected to lead economic benefits in terms of higher productivity and reduced stress on the public health system. However, additional costs could entail the loss of output due to work not being conducted during the hours of prohibition and the loss of wages to the workers.",
+    "timeline": "The WORKCLIMATE project started in June 2020 and is planned to last for two years. The first ordinance that prohibited outdoor work during the hottest hours of the day was issued in June 2021. The second ordinance was issued in June 2022.",
+    "lifetime": "The two ordinances issued by Puglia Region have limited lifetime (summer 2021 and summer 2022) and need to be renewed every year to be effective in the long time.",
+    "stakeholders": "INAIL - a public non-profit entity safeguarding workers against physical injuries and occupational diseases, is involved as a key stakeholder to review the existing heat health warning systems and selection of indicators to be used to assess the impact of heat on workers. INAIL is a key partner of the WORKCLIMATE project, which developed the heat-risk forecasts used by the Puglia authorities to determine the “high-risk” days when outdoor work in the agricultural sector is prohibited.",
+    "legal_context": "The ordinance has been published in the official collection of decrees and ordinances of the president of the regional council of Puglia and has been sent for legal obligations to the prefects and to the mayors in the municipalities of Puglia. The department of civil protection is involved in the public health aspects."
+  },
+  "point": {
+    "lat": 41.1211335396,
+    "lon": 16.8629837036,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "worklimate.it",
+      "url": "https://www.worklimate.it/en/home-english/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/protecting-outdoor-agricultural-workers-from-extreme-heat-in-puglia",
+    "publication_date": "2022-11-02",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "d41c536f24bc44f5b29d752f3b18b173",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/protecting-outdoor-agricultural-workers-from-extreme-heat-in-puglia",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:55+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

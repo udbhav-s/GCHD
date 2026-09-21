@@ -1,0 +1,151 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-climate-crisis-and-health-education-of-health-professionals-for-transformative-action-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-crisis-and-health-education-of-health-professionals-for-transformative-action-germany",
+  "title": "Climate Crisis and Health: Education of health professionals for Transformative Action, Germany",
+  "summary": "Launched by the German Climate Change and Health Alliance in 2020, the \"Planetary Health Academy\" lecture series aims to raise awareness, educate health professionals, and encourage transformative action on climate-related medical challenges. The Academy provides practical solutions and offers free online lectures for healthcare workers. The health sector plays a central role in communicating, preventing and following up on the effects of the climate and environmental crisis.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "NONSPECIFIC",
+      "label": "Non specific",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Lectures",
+      "label": "Lectures"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Health professionals",
+      "label": "Health professionals"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Continuous professional development",
+      "label": "Continuous professional development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Planetary Health",
+      "label": "Planetary Health"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools",
+      "older_people",
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly",
+      "patients",
+      "school",
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 8,
+      "older_people": 1,
+      "health_patients": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The Planetary Health Academy aims to provide the continuing professional education on climate crisis and health and communication training. Further, its lecture series has a focus on transformative action. Planetary Health Academy lectures have the following objectives: To raise awareness among health professionals of the health consequences of the climate crisis and their responsibility to convey the urgency of action to policy makers, patients and the general public, To educate health professionals on climate-related medical challenges, such as adapting medication during heat waves, To enable people to act as multipliers in communicating the connections between climate and health, To encourage socio-political commitment, To motivate sustainable action in the sense of an emission-neutral health sector, To integrate research findings on the health consequences of climate crisis in basicand advanced training for the health professions, To fill the knowledge gaps that exist in medical universities in terms of teaching on these subjects.",
+    "measures": "In 2020, the German Alliance for Climate Change and Health (KLUG), a network of individuals, organisations and associations from the health sector, launched the Planetary Health Academy , a lecture series on planetary health (i.e. global human health and the state of the natural systems on which it depends) for physicians, trainees, students and employees of all health professions. This series offers practical suggestions for implementation in everyday working life (e.g. working with patients), in order to address the gaps existing in terms of education on these topics in German medical universities. The Planetary Health Academy is aimed at all interested parties from the healthcare sector. During the COVID-19 pandemic, lectures were delivered online due to the impossibility of arranging physical meetings - and with the additional benefit of reaching a larger audience and attracting health professionals worldwide. The lectures are free of charge, open to all interested parties and give participants the opportunity to deal intensively with the topic of health and the environment. Each lecture series involves 6 to 9 events of 1.5 hours each. The contents of all lecture series are subsequently prepared as videos including materials (presentations, background information, etc.) and made permanently available via the Planetary Health Academy website. The first lecture series were delivered in German and focused primarily on students and trainees in the health care professions. The second and third editions, in English, were aimed at an international audience. The fourth edition of the online lecture started in November 2021, including 9 lectures in German by more than 20 renowned experts from various clinical disciplines, including general medicine, paediatrics, anaesthesia, and other. Based on the recently published textbook “ Planetary Health - Climate, Environment and Health in the Anthropocene \", the focus was on clinical content, with particular emphasis on the connection between various medical disciplines and planetary health, to explore the clinical effects of climate crisis for individual specialist fields and areas of action. The Planetary Health Academy continues to broaden its offer including workshops and labs that focus on specific topics, such as heat or psychological impacts of the climate crisis, with smaller groups of approximately 20 people. The lectures are certified as advanced medical training by the Berlin Medical Association and the Austrian Medical Association. Physicians can receive three Continuing Medical Education (CME) points per lecture for a representation allowance. The lecture series is recognised as an elective/ optional subject at various German universities, for example in Aachen and Freiburg.",
+    "outcomes": "The semesters of the Planetary Health Academy have generated large interest in the topics. On average, 1000 participants attended each lecture with a peak at 1500 people/ lecture during the first semester. Free and online lessons are a key success factor that attracted large public, as well as the possibility to get a certificate of attendance. Over 70 physicians were accredited over the first three semesters. Regarding the limiting factors, it would be possible to reach even more people interested in the topic by communicating more broadly. The chosen language for each lecture series limited the audience to participants speaking German or English respectively. Advantages of an online format outnumber its restrictions; yet, still, some aspects as networking and a strong sense of community might benefit from in-person meetings. In addition, there is also a gap between the number of attendees and the low number of accredited physicians. Many physicians might have participated but not gone through the process to receive accreditation.",
+    "cost_benefit": "KLUG, the organisation that founded Planetary Health Academy, is financed by private donors and receives institutional funding by the Mercator Foundation , the European Climate Foundation , and by the Federal Environment Agency (115,000 Euro in years 2019-2021) and the Federal Ministry for the Environment, Nature Conservation and Nuclear Safety and Deutsche Bundesstiftung Umwelt (DBU). The Planetary Health Academy incurs personnel costs for the organisation, moderation, preparation, and follow-up of materials, as well as costs for technical equipment. For the participants, the online lecture is free of charge and the lecturers do not receive a fee. Doctors can receive 3 CME points for an expense allowance of 25 euros per lecture. The lecture series has led to a significant number of health professionals and students to become active change agents for planetary health by hosting educational programs themselves, organising protest actions, creating public awareness, and reaching out to politicians. Examples of transformative action in the Planetary Health Academy lecture series sparked the formation of 20 new “ Health for Future ” groups in the course of the lecture series. Health for Future is a movement of health professionals and students who conduct transformational projects on a local, national and international level, currently including over 70 local groups in Germany, Austria, Switzerland and Belgium.",
+    "timeline": "The Planetary Health Academy was launched in May 2020 and it is still ongoing (early 2022). The fifth round of the lecture series is currently in planning for the summer term 2022 and it will focus on clinical fields such as obstetrics and gynaecology, nutrition and many more.",
+    "lifetime": "Each series of lectures lasts a semester, involving 6 to 9 events of 1.5 hours. The positive effects of training are long-lasting, as they are expected to pave the way towards general improvement in the health care system. Working on a broad educational offer on the content of Planetary Health and transformative action will continue being a main focus for KLUG in the future in order to address the gaps existing in terms of education on climate change and health topic in German medical universities. Hence, the whole lifetime of this initiative will depend on the further needs in terms of education and funding mechanisms that ensure its implementation.",
+    "stakeholders": "These lectures series mobilise and gather experts from different fields, e.g. science and professional associations including professors from different universities such as the Charité in Berlin, the Harvard School of Public Health, the University Medical Centre Utrecht in Netherlands, the University of Heidelberg, the Potsdam Institute for Climate Impact Research, as well as experts from different organisations such as the Lancet Countdown on Climate Change and Health, the Wildlife Conservation Society, the Planetary Health Alliance and many more. The profile of participants depends on the content of each lecture series including physicians, trainees, students, and employees of all health professions. The first semester, held in German, engaged exclusively German speaking participants including some from Austria and Switzerland. However, semesters held in English reached participants from over 60 countries",
+    "legal_context": "The German National Adaptation Strategy (2008) mentions that the federal and state governments should provide targeted, appropriate information about climate change impacts on health to the population, including to the information ‘multipliers’ such as the medical personnel."
+  },
+  "point": {
+    "lat": 52.51604,
+    "lon": 13.37691,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "klimawandel-gesundheit.de",
+      "url": "https://www.klimawandel-gesundheit.de/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "healthforfuture.de",
+      "url": "https://healthforfuture.de/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "umweltbundesamt.de",
+      "url": "https://www.umweltbundesamt.de/das-uba/was-wir-tun/foerdern-beraten/verbaendefoerderung/projektfoerderungen-projekttraeger/klimawandel-gesundheit-bildung-fuer-transformatives",
+      "role": "contextual_input"
+    },
+    {
+      "name": "planetary-health-academy.de",
+      "url": "https://planetary-health-academy.de",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-crisis-and-health-education-of-health-professionals-for-transformative-action-germany",
+    "publication_date": "2022-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "c9d1df2900b14f04b94b032773a82f4d",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-crisis-and-health-education-of-health-professionals-for-transformative-action-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:50+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

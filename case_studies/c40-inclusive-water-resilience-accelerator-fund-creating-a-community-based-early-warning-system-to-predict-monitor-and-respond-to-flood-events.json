@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events",
+  "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events/",
+  "title": "Inclusive Water Resilience Accelerator Fund | Creating a community-based early warning system to predict, monitor, and respond to flood events",
+  "summary": "This C40 case study describes “Inclusive Water Resilience Accelerator Fund | Creating a community-based early warning system to predict, monitor, and respond to flood events,” an urban initiative documented for Lagos. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Lagos is addressing severe flood risks caused by heavy rainfall, exacerbated by inadequate drainage infrastructure and limited forecasting systems. With…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lagos",
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": null,
+        "iso3": "NGA"
+      },
+      "adm1": {
+        "name": "Lagos",
+        "ucode": "NGA_0025_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lagos",
+      "label": "Lagos"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Lagos is addressing severe flood risks caused by heavy rainfall, exacerbated by inadequate drainage infrastructure and limited forecasting systems. With…",
+    "measures": "Lagos is addressing severe flood risks caused by heavy rainfall, exacerbated by inadequate drainage infrastructure and limited forecasting systems. With support from the C40 Inclusive Water Resilience Accelerator Fund, the city is developing a community-based early warning system (CBEWS) that provides real-time data through weather monitoring equipment in high-risk locations. \n The new system enhances the city’s ability to predict, monitor, and manage floods, and helps share alerts quickly with vulnerable communities. Residents have also received training to build local knowledge and capacity, while dedicated monitoring teams have been established to operate the system and coordinate emergency responses. \n By prioritising frontline communities and actively engaging residents directly, the project helps reduce displacement and loss of livelihoods, strengthens urban resilience, and offers a sustainable model for effective and equitable flood management.\n Learn more about the Lagos project \n More about C40’s ica fund",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events/",
+    "publication_date": "2025-11-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45698",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:53:37",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

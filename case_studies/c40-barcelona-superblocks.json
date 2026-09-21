@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-barcelona-superblocks",
+  "url": "https://www.c40.org/case-studies/barcelona-superblocks/",
+  "title": "The implementation of the Superblocks programme in Barcelona: Filling our streets with life",
+  "summary": "This C40 case study describes “The implementation of the Superblocks programme in Barcelona: Filling our streets with life,” an urban initiative documented for Barcelona. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: The implementation of the Superblocks programme in Barcelona stems from the challenge of improving the quality of people's lives while simultaneously reducing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Barcelona",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": null,
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Cataluna",
+        "ucode": "ESP_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Barcelona",
+        "ucode": "ESP_0008_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "barcelona",
+      "label": "Barcelona"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The implementation of the Superblocks programme in Barcelona stems from the challenge of improving the quality of people's lives while simultaneously reducing environmental impact. This functional restructuring of the city enables people to reclaim public areas and make them an extension of their own homes, creating a public space full of life.",
+    "measures": "Today's streets need to be redefined as public spaces; as habitable places; as community spaces; as an extension of housing; as a space for games, greenery, history and the local life of neighbourhoods. Rethinking the city through new ways of grouping, based on traditional blocks, allows us to reconsider the role played by streets and, also, to foster social interaction.\n The Superblocks programme is a new way of organising the city, redistributing public areas between vehicles and people through the specialisation of streets. This new city mobility structure limits the number of streets for through traffic and frees up the remaining streets for other functions, such as recreation and relaxation. The results of this hierarchical change are new urban units – larger than a block, but smaller than a neighbourhood, which are known as Superblocks or Superilles.\n The prevailing criteria used here underscore what is already in existence: public spaces as a common asset; protecting neighbourhoods from through traffic; reducing pollution and accidents; strengthening pedestrian rights and social cohesion. On the other hand, re-naturalising new public spaces with planted elements (tactical urbanism) and soft (permeable) surfaces is another important factor for the urban design of these new spaces. This enables us to deal with the problem of increased and excessive impermeability in urban areas.\n Barcelona is a dense and compact city, with all the benefits this entails with regard to travel needs and efficiency in the use of natural resources. Despite all the efforts made over the last few decades, Barcelona remains a city with few green spaces. By adopting the Barcelona Climate Commitment, the city aims to increase its urban green areas by 1.6 km2, i.e. by 1 m2 per current city resident. In order to achieve this ambitious goal, various strategic projects and measures are being implemented, including the Barcelona Resiliency and Climate Change Adaptation Strategy and the Barcelona Green Infrastructure and Biodiversity Plan. The Superblocks project reverses the current priorities for streets, creating more opportunities for providing space for citizens and mitigating the lack of green areas. This project is expected to extend citizen spaces/car-free spaces by over 23 hectares.\n What is the innovation/policy/project/technology? How does it work? \nThe Superblocks programme is a new way of organising a city like Barcelona, one which prioritises more sustainable travel and securing public space for its residents. It involves a radical, holistic modification of built-up areas.\n The project does not involve major physical changes, but rather tactical urbanism: promoting soft measures that are often low-cost and easy to adapt. It represents a new way of understanding and providing benefit to the city, allowing experimentation.\n Superblocks fosters urban transformation based on maximum participation and civic co-responsibility in all phases of the project. Barcelona City Council offers the maximum level of public dialogue and consensus building on diagnosis and proposals, as well as on the implementation of the programme.\n What are the CO2-reduction goals/achievements? \n Barcelona City Council’s starting point, and ongoing reference points, are the climate change commitments that it has already adopted. But the council and its citizens wish to go further at a city level, through the network of signatories to the Citizen Commitment to Sustainability 2012-22, and with all Barcelona stakeholders keen to participate in reducing gas emissions and adapting to climate change in the coming years. Through collective action, the city aims to ensure that by 2030 Barcelona will have reduced its per capita levels of CO2-equivalent emissions by 40% compared to 2005 levels (3.14 GEH/inhabitant).\n To achieve these goals Barcelona City Council is introducing a variety of programmes and projects. Here the Urban Mobility Plan, linked to the Superblocks programme, is crucial as it will enable a 21% reduction in private car and moped use in the city. To this end, the plan involves a range of strategies, including completing 233km of bike lanes by the end of 2018 and implementing a new ‘orthogonal’ bus network for the whole city. Other key actions are included in the Barcelona Energy, Climate Change and Air Quality Plan 2011-2022.\n Next Steps \n The Urban Mobility Plan establishes that the entire city is to be organised into Superblocks, so the programme includes mobility network planning, so that any project carried out in the city is developed under this new structure. In this way, the programme establishes sufficiently flexible functional criteria that can be adapted to the characteristics of each city district, while also ensuring the uses and functions foreseen for all types of the streets. In the neighbourhoods of Sants, Les Corts and Poblenou the programme has already been implemented, while it is in train in Horta and Sant Antoni. More neighbourhoods are currently being considered for the programme.\n Links to further Information \n Barcelona Commitment to Climate – Approved November 2015 http://ajuntament.barcelona.cat/ecologiaurbana/sites/default/files/Barcelona%20Commitement%20to%20Climate.pdf \n Superblocks to the rescue: Barcelona’s plan to give streets back to residents. Article from The Guardian, Marta Bausells, 17 May 2016 http://www.theguardian.com/cities/2016/may/17/superblocks-rescue-barcelona-spain-plan-give-streets-back-residents?CMP=fb_a-cities_b-gdncities \n What New York Can Learn From Barcelona’s ‘Superblocks’. Article from The New York Times, Winnie Hu, 30 September 2016 http://www.nytimes.com/2016/10/02/nyregion/what-new-york-can-learn-from-barcelonas-superblocks.html?_r=1 \n Government Measure on Superblocks “Let's fill streets with life. Establishing Superblocks in Barcelona” (May 2016) http://ajuntament.barcelona.cat/ecologiaurbana/en/bodies-involved/citizen-participation/superblocks and http://ajuntament.barcelona.cat/ecologiaurbana/sites/default/files/en_gb_MESURA%20GOVERN%20SUPERILLES.pdf \n A breath of fresh air: rise of the ‘Superblocks’. Article from Polis Network – Thinking Cities magazine, pg. 62, Daniela Stoycheva, Project Manager at Polis Network (English, 1 December 2016) http://www.polisnetwork.eu/uploads/Modules/PublicDocuments/tc7c.pdf \n Barcelona green infrastructure and biodiversity plan 2020 – Full publication http://w110.bcn.cat/MediAmbient/Continguts/Vectors_Ambientals/Espais_Verds/Documents/Traduccions/GreenPlan_2020full.pdf \n Key impact \n Any other statistics or details you would like to highlight for viewers, especially in regard to the impact it has or will have on citizens of your city The impact the Superblocks programme has on citizens of the city are numerous: empowering people, particularly children and the elderly, given the fear that traffic generates; fostering intergenerational relationships through public areas where people can meet and carry out leisure activities; strengthening people’s emotional bonds with their environment while participating in decision making; increasing public safety by increasing vitality in the streets; making more space available for physical exercise; and so on.\n Annual CO2 reduction \n The Urban Mobility Plan (UMP), linked to the Superblocks programme, is crucial and will enable a 21% reduction in private car and moped use in the city. The predicted reduction of CO2 in the scenario of 21% reduction of UMP traffic was 22.6% of t since 2011 (reference data) 2018. In absolute values it is supposed to go from 785 t to 608 t (reduction of 177 t).\n Contact Details \n Neda Kostandinovic\nSustainability Department\nUrban Ecology – Barcelona City Council \n Avda. Diagonal, 240, 4th floor\n08018 Barcelona\nTel. +34 932 914 491\n nkostandinovic@ext.bcn.cat \n http://ajuntament.barcelona.cat/ecologiaurbana",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/barcelona-superblocks/",
+    "publication_date": "2018-03-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27378",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=barcelona-superblocks&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

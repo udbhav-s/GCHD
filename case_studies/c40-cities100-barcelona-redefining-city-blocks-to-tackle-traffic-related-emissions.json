@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions/",
+  "title": "Cities100: Barcelona – Redefining City Blocks to Tackle Traffic-Related Emissions",
+  "summary": "This C40 case study describes “Cities100: Barcelona – Redefining City Blocks to Tackle Traffic-Related Emissions,” an urban initiative documented for Barcelona. It is included because it addresses air pollution pm25, extreme heat hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Barcelona is redefining the city’s streets to promote green spaces for citizens and reduce traffic-related emissions. The Challenge Barcelona is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Barcelona",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": null,
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Cataluna",
+        "ucode": "ESP_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Barcelona",
+        "ucode": "ESP_0008_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "barcelona",
+      "label": "Barcelona"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Barcelona is a densely built city dealing with a lack of urban green space and chronic air and noise pollution problems. The Superblocks approach to spatial organization will increase green spaces and decrease emissions in a city where transportation accounts for 27.8% of CO2 emissions.",
+    "measures": "Through the Superblocks program, Barcelona is redesigning the city’s streets to limit traffic and increase the amount of green and recreational spaces available to citizens. The new program changes traditional city blocks into clusters of “superblocks,” where perimeter streets allow through traffic, but inner streets are reserved for pedestrians and cyclists. So far, the city has created Superblocks in four pilot neighborhoods, and by 2019, it expects the program will achieve CO2 emissions reductions of between 20% and 75%. The Superblocks program does not involve major physical changes, which allows for experimentation and reversibility. The project is part of a larger Urban Mobility Plan, a strategic measure of Barcelona’s Climate Commitment, expected to decrease traffic by 21% while extending car-free spaces by more than 23 hectares and adding 300 km of bike lanes. This measure will reduce CO2 emissions by 159,100 metric tons per year.\n Environmental Benefits – The project increases the amount of green spaces, reduces the heat island effect, and improves air quality.\n Social Benefits – The new car-free public spaces encourage use by children and the elderly, and create opportunities for social interaction, sports, and cultural activities.\n Economic Benefits – The Superblocks program improves the quality of life in the city which makes Barcelona a more attractive destination for businesses and their employees.\n Health Benefits – The project simultaneously reduces the city’s noise pollution levels while increasing the amount of green space by 1 m2 per capita.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27183",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

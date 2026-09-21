@@ -1,0 +1,283 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-empowering-small-rural-municipalities-through-multilevel-governance-for-adaptation-in-north-rhine-westphalia-germany",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/empowering-small-rural-municipalities-through-multilevel-governance-for-adaptation-in-north-rhine-westphalia-germany",
+  "title": "Empowering small rural municipalities through multilevel governance for adaptation in North Rhine-Westphalia, Germany",
+  "summary": "A multilevel governance approach to adaptation, mixing bottom-up and top-down approaches, was successfully tested in North Rhine-Westphalia, prompting the implementation of the Federal State Adaptation Law and making rural regions better prepared for climate change The goal of the Evolving Regions project (2019-2023) was to enable stakeholders in seven rural districts in the German Federal state of North Rhine-Westphalia (NRW) to actively address the impacts of the changing climate. A district in NRW is a regional administrative unit. The average area of the rural districts participating in the project was 1,270 km2 with a population density of 276 inhabitants/km2 on average.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Detmold",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Detmold__DE_",
+        "source_name": "Detmold (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Düsseldorf",
+        "ucode": "DEU_0010_0010_V1",
+        "dcid": null,
+        "source_code": "SUBN_Düsseldorf__DE_",
+        "source_name": "Düsseldorf (DE)"
+      }
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Köln",
+        "ucode": "DEU_0010_0024_V1",
+        "dcid": null,
+        "source_code": "SUBN_Köln__DE_",
+        "source_name": "Köln (DE)"
+      }
+    },
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Münster",
+        "ucode": "DEU_0010_0033_V1",
+        "dcid": null,
+        "source_code": "SUBN_Münster__DE_",
+        "source_name": "Münster (DE)"
+      }
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "NONSPECIFIC",
+      "label": "Non specific"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "TRANS",
+      "label": "Transnational region (stretching across country borders)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "bottom-up approach",
+      "label": "bottom-up approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rural areas",
+      "label": "rural areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "North Rhine Westphalia",
+      "label": "North Rhine Westphalia"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "regional authorities",
+      "label": "regional authorities"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vision-driven approach",
+      "label": "vision-driven approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multi-level governance",
+      "label": "multi-level governance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "collaborative governance",
+      "label": "collaborative governance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "social innovation",
+      "label": "social innovation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "communities empowerment",
+      "label": "communities empowerment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multi-stakeholder approach",
+      "label": "multi-stakeholder approach"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "roadmapping",
+      "label": "roadmapping"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vulnerable groups",
+      "label": "vulnerable groups"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Over a period of four years, the LIFE project Evolving Regions , led by the Social Research Centre at the TU Dortmund University (sfs), supported seven districts in the Federal state of NRW in actively approaching adaptation to climate change. Project objectives included: Improving the resilience of the participating districts to the impacts of climate change, integrating and mainstreaming the topic of climate change adaptation into municipal and regional planning processes and supporting regional actors in acquiring the necessary competencies in order to independently continue the climate change adaptation activities beyond the project life time.",
+    "measures": "The main component of the project was the implementation of integrated collaborative climate adaptation processes in the seven participating districts in NRW, following the method of Evolving Roadmapping. Effective climate adaptation requires a framework of interdisciplinarity, collaboration, coordination, and integration. Evolving Roadmapping addresses this need for integration and offers a practical framework of action for the steps of the adaptation process (analysis, planning, implementation, and evaluation). The Evolving Roadmapping method The Evolving Roadmapping method comprises the following six steps to approach the complex and long-term task of climate adaptation. A more detailed description can be found in the Evolving regions project guidelines Step 1: Setting the framework and defining goals as the commitment for the process; Step 2: Analysis of the current situation including a detailed analysis of the relevant actors, specific regional framework conditions and expected climatic, spatial and social changes Step 3: Development of a shared vision of a desirable future and identifying regional needs for action; Step 4: Development of general strategies and creating a catalogue of measures tailored to identify the needs for action. The work was split in different “cross-sectoral thematic fields” to be able to work with a cross-cutting approach. For example, the thematic field ‘landscape under climate change’, includes the sectors of agriculture, forestry, nature conservation and recreation; Step 5: Creation of the Roadmap as an agreed, practical and flexible working document for future use in climate adaption by all local/regional actors; Step 6: Monitoring for the evaluation of the implementation and for enabling a future orientated development process. The practical application of Evolving Roadmapping The Roadmapping method was applied in the districts through the organisation of a series of workshops, over a period of about one and a half year. Based on a stakeholder analysis, the most relevant actors, institutions and organisations for climate adaptation were identified for each district and invited to the workshops. In total, more than 600 people were actively involved in the project (around 90 per region). Products and impact of Evolving Roadmapping In each district, an individual integrated climate adaptation Roadmap was developed, which includes: a vision, guiding principles or goals for climate change adaptation, an overview of the impacts of climate change, illustrating the interaction of climate impacts and spatial or social sensitivities. A detailed district-wide climate impact analysis was provided by the Department of Spatial Planning at the TU Dortmund (Institut für Raumplanung der Universität Dortmund IRPUD), which was based on publicly available data from the LANUV , the collaboratively developed measures including procedural steps, responsibilities and information on possible drivers and barriers, information on assessing impacts and monitoring further needs for action with regard to an active adaptation to the consequences of climate change. An example of such a Roadmap for one district is available here . The project funds enabled the districts to establish a staff position for the duration of the project to coordinate climate adaptation (the so-called ‘regional promoter’). The positions of the promoters are mainly located in the administration of the districts, mostly in the areas of environmental planning or climate protection. The promoters were part of a newly established staff structure accompanying the process, adapted to the various regional governance frameworks. In addition, regional experts from all 7 districts were brought together in a core team. The task of this core team was to support the process and to multiply the results in their respective areas of expertise or work. In order to inform the general public about the course and content of the processes, the regional promoters were trained by media experts from ZDF Digital, a company funded by the federal public broadcasting, in the use of various social media platforms and the creation of videos. A large number of green, gray, and soft adaptation measures in various thematic fields were collected, discussed in the regional processes and adapted to the region's socio-economic and climate change conditions. Those measures include: raising awareness among the public and decision-makers, implementation of structural and technical measures, adapted planning/building/land management as well as financial support/funding programs. A detailed up-to-date spatial overview on the scope of adaptation concepts at municipal and district level is provided in the Interactive Climate Atlas North Rhine Westphalia (Klimaatlas) by the State Agency for Nature, Environment and Consumer Protection NRW ( LANUV) . The maps are regularly updated, capturing on any progress, also reflecting potential future impacts of the Evolving Regions project.",
+    "outcomes": "The implementation of collaborative and multi-disciplinary climate adaptation processes offers a lot of advantages but is also accompanied by a certain amount of time and effort. Throughout the project, several possible drivers and barriers were identified. Barriers The collaborative development of an integrated but also detailed climate adaptation concept was time-consuming and demanded the participants' time. However, as such processes strongly depend on the knowledge and participation of the different actors, it was crucial to keep the motivation of the participants high. This was not always be possible, but could be supported by a personal approach with a focus on highlighting the individual and societal benefits of one’s participation. According to the participants, the cooperation through online meetings and shared working platforms had some disadvantages, e.g. the loss of personal exchange. However, according to many participants, these disadvantages were offset by advantages, e.g. time savings due to the elimination of travelling efforts or the possibility to comment on interim results between two workshops via collaborative online platforms. When implementing online formats, the differing skills of the participants were taken into account and access was made as easy as possible. Different goals, opinions and ideas can lead to conflicts, also in climate change adaptation. To avoid this, the regional processes started with the definition of shared goals. Different views were always discussed during the process in order to find a common solution. Not all relevant participants could always be recruited for the process, which sometimes led to knowledge gaps that prevented more concrete discussions, e.g. about the implementation of measures. This was compensated by a focused involvement of relevant actors parallel to the workshops. Limited options of acting at regional/local levels for some participants and topics occurred, such as for agricultural companies, mainly dominated by the Common Agriculture Policy (CAP) of the EU. Those actors did not see options to integrate their decisions in a regional or municipal roadmap. Communicating those specific needs to the Federal state, Federal and EU levels would be essential to address regional and local adaptation needs for those sectors. Success factors Pre-existing networks (such as from sustainable development) and adaptation efforts were a great asset. Tying the process to established governance structures and projects not only ensured consistency, but also made it possible to make the best use the existing know-how. As collaborative processes strongly depend on the active participation of the different actors, a high level of motivation is of great value. This especially applies to people with relevant tasks, responsibilities or personal networks. These potential ‘multipliers’ of knowledge were actively addressed (e.g. by approaching them personally) and kept in the adaptation process as closely as possible. The increasing relevance of the topic of climate change adaptation in politics and society was a major driver. In recent years, there has been a noticeable increase in attention to climate protection and adaptation issues. The flood disaster in the western part of Germany in the summer of 2021, for example, gave the topic of heavy rainfall prevention a particular importance in these regional processes. Such events can be used to critically examine existing structures and processes and to raise awareness among different groups (without becoming alarmist). The design and implementation of the workshops \"at eye level\", i.e. enabling all participants to work together on an equal level, led to an increased motivation and to the (at least temporary) suspension of existing conflicts. In order to guarantee their independent and continuous use beyond the project, the provision of the climate impact analysis and a practical monitoring scheme were designed for each district as practical and accessible as possible. These services were developed in close cooperation with the practitioners. Political support also played an important role in the adaptation processes prompted by the Evolving Regions project. Roadmaps were officially adopted by the district councils, the highest political level each of the North Rhine Westphalian districts. The project has also received attention in the Federal state's politics and backup from the Federal state government through providing the project funding and ensuring the scientific collaboration with the Environment agency (LANUV) and other relevant actors in the Federal state of NRW (for example the public funding federal state bank, NRW. BANK ). Finally, the knowledge gained throughout the project was passed on to other regions in Germany as well as to other regions in Europe and actors, mainly through the dissemination of reports and the organisation of various events and contributions in international conferences. Training courses for consultants and employees of other districts’ administrations were organised to make them aware of the Roadmapping concept of the Evolving Region project and to apply it in their area of responsibility. These courses were run jointly by the Social Reasearch Centre at TU Dortmund University, difu and the Education Centre for the Supply and Waste Management Industry (Bildungszentrum für die Ver- und Entsorgungswirtschaft gGmbH, BEW, a non-profit organisation, acting at federal levels). Together with stakeholders from the Dutch region of West-Overijssel/Ijssel Vechtdelta and the University of Twente in Enschede, the commonalities and differences of the different approaches were discussed in exchange rounds in order to be able to make suitable policy recommendations.",
+    "cost_benefit": "Costs As the project focused on the collaborative development rather than the implementation of concrete measures, the financial resources of the project (total budget €2.9 million), which came from the EU LIFE programme and the Federal state of NRW, were used to implement the project components. The districts had to contribute 1000€ each in order to be part of LIFE project. In addition, in almost all districts, own resources were allocated to establish and maintain the new staff positions of the climate change adaptation ‘promoters’, which were initially financed by the project. Actors interested in implementing an adaptation process according to the Evolving Roadmapping method should expect costs for the establishment of a coordinating unit, the implementation of an extensive dialogue process, the preparation of a climate impact analysis as well as potentially for further external expertise and services (e.g. for project monitoring). In the project, these costs were largely covered for the participating regions. Benefits Districts and municipalities could derive multiple benefits in adopting and implementing the Evolving Roadmapping method. Through the implementation of integrated, collaborative climate adaptation processes of Evolving Regions project, the seven participating districts were enabled to actively address the consequences of climate change. In addition, regional actors could benefit from relevant support services that were provided by the project. The detailed district-wide climate impact analysis enabled regional actors to understand the concrete impacts of climate change and to identify those areas and sectors that are most affected. The practice-oriented monitoring concept provides an easy-to-use approach to assess the impact of a measure before it is implemented. For this purpose, impact chains in the sense of intervention logics have been developed that illustrate the positive (and negative) effects of a measure. These were linked to indicators that can be used to monitor and evaluate the measures listed in the roadmap. These services and the established network enabled the regional actors to integrate the topic of climate adaptation into their daily work and to independently continue the initiated efforts. This capacity building is an elementary objective of the Evolving Roadmapping method. In many districts, the network of actors created during the process is likely to be used beyond the project, as the demand for the continuation of the created networks was expressed by the participants in all districts. In some districts, e.g. in Minden-Lübbecke, the project network was transferred to a newly established working group on climate change adaptation, which meets regularly. Due to the positive results and experiences in using a new project, six out of seven project-funded staff position to coordinate climate adaptation (the so-called ‘regional promoter’), were permanently established by the districts after the end of the project. Furthermore, the development of an integrated planning document agreed upon by regional stakeholders forms the basis for future climate adaptation in the regions. Overall, the processes were able to directly address some key challenges related to climate change adaptation. Indeed, the climate impact analysis reduced uncertainties about existing and expected climate change impacts, and the dialogue processes enabled relevant actors to cooperate across thematic and administrative boundaries. On this basis, future climate adaptation activities can be coordinated or combined more closely and resources can be used in a more targeted manner. Finally, the integrative and collaborative approach of Evolving Roadmapping made it possible to work on different topics together and thus to consider possible conflicts but also synergies from the very beginning of the process.",
+    "timeline": "The Evolving Regions project duration was 2019-2023 The regional processes took about one and a half years each, including preparation, dialogue and working phase and political decision-making.",
+    "lifetime": "The project results are expected to create long-term or permanent changes in the districts’ governance frameworks, through the establishment of new dedicated staff positions and the initiation of network structures and participation processes. It is expected to enable the implementation of climate change adaptation measures in the long term.",
+    "stakeholders": "The central idea of the Evolving Roadmapping method is the cooperation of different societal actors for the joint development of climate change adaptation strategies, objectives and measures. Measures are not simply proposed by external advisors, but developed jointly by the regional actors. This bottom-up approach directly involves the relevant people in the elaboration of strategies and measures. This approach ensures that generic measures can be adapted precisely to regional needs and governance frameworks. It also increases the ownership and the chances of implementation, as the actors to be involved are at the table from the very beginning. However, this approach requires an adequate and early stakeholder mapping. In the workshops, special emphasis was put on collaboration 'at eye level'. All opinions and ideas were discussed openly, regardless of the societal position of the respective participants. As a large part of the regional processes took place during the Covid-19 pandemic, almost all events were held online. These formats were evaluated mostly positively by the participants. The processes were organised and moderated by the Social Research Centre at the TU Dortmund University and the German Institute of Urban Affairs (Deutsches Institut für Urbanistik, difu), accompanied by a variety of support services, provided by project partners such as the (National) German Weather Service for awareness raising, and the Prognos AG for monitoring of the project progress. The practical implementation of the roadmapping approach involved the participation of stakeholders coming from different sectoral work areas and different policy-making bodies and administrative levels. They included for example: district administrations (including e.g. departments for regional development, water management, civil protection or nature conservation), towns and municipalities (including e.g. departments for urban and spatial planning, business development or tourism), district and municipal politics, a variety of non-profit organisations and business associations, different kinds of companies, research and educational institutions, public and private actors from agriculture, forestry and nature conservation.",
+    "legal_context": "By providing a basis for active integrated and collaborative adaptation to the impacts of climate change, the Evolving Regions project contributed to the objectives of the European Green Deal and the goals of the EU Strategy on Adaptation to Climate Change, while also addressing the priorities of the (national) German Strategy for adaptation to Climate Change (DAS) ( BMUV 202 0 ) and the one of the Federal state of NRW ( MKULNV 2015 ). In Germany's first Climate Adaptation Act from 2021, the Federal state of NRW defined its goals for climate adaptation. It states: \"The negative impacts of climate change are to be limited by the responsible public authorities through the development and implementation of adaptation measures that are specific to each field of action and tailored to the respective region\" (§ 3 (1) Klimaanpassungsgesetz NRW, own translation, NRW 2021 ). The law emphasises the role of public authorities in actively taking climate adaptation measures and obliges them to take climate adaptation concerns into account when fulfilling their tasks. By supporting this LIFE project, the Federal State Government of NRW intended to provide a proven practical approach and inspiration for municipalities and districts in NRW to implement the adaptation law."
+  },
+  "point": {
+    "lat": 51.406059405,
+    "lon": 7.32788085937,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "evolvingregions.com",
+      "url": "https://www.evolvingregions.com/en/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/empowering-small-rural-municipalities-through-multilevel-governance-for-adaptation-in-north-rhine-westphalia-germany",
+    "publication_date": "2023-10-05",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "a4940aff58574683b2f7eea67845a3a0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/empowering-small-rural-municipalities-through-multilevel-governance-for-adaptation-in-north-rhine-westphalia-germany",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:17+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

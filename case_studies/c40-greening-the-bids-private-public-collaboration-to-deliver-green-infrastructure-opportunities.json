@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities",
+  "url": "https://www.c40.org/case-studies/greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities/",
+  "title": "Greening the BIDs: Private-public collaboration to deliver green infrastructure opportunities",
+  "summary": "This C40 case study describes “Greening the BIDs: Private-public collaboration to deliver green infrastructure opportunities,” an urban initiative documented for London. It is included because it addresses river flood, extreme heat, air pollution pm25 hazards. C40 describes the action this way: The Greater London Authority (GLA) is working with Business Improvement Districts (BIDs) in central London to identify and then deliver opportunities for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Greater London Authority (GLA) is working with Business Improvement Districts (BIDs) in central London to identify and then deliver opportunities for increasing green cover. The Greening the BIDs project has supported 15 green infrastructure audits and part-funded demonstration projects with the aim of catalysing urban greening in central London. This will help deliver Mayoral objectives to increase green cover to reduce the Urban Heat Island effect and tackle local surface water flooding, while enhancing the beauty of London.",
+    "measures": "Greening the BIDs is an innovative public-private sector programme that combines the strategic overview of the Mayor with the delivery capacity of BIDs and their members to ‘green’ business districts in central London. The aim is to make these areas, which are of economic importance as well as home to many Londoners, both more visually attractive and more resilient to extreme weather. Greening the BIDs therefore promotes the interlinked social, economic and environmental benefits of green infrastructure.\n\nThe Mayor has set an ambitious target of increasing the amount of green cover in central London by 5% by 2030 and by 10% by 2050 (based on a 2008 baseline). Enhancing or increasing the number of trees, parks, gardens and living roofs make areas more attractive to visit and work in, and help urban areas become more resilient to extreme weather events, which helps to preserve economic sustainability.\n In order to meet the mayoral greening target, green infrastructure must be delivered though both new developments and retrofit of the existing built environment. With limited budget and land ownership in central London, the GLA must work with others to help meet this mayoral objective. The GLA has therefore developed partnerships with BIDs, through the Cross River Partnership public-private sector alliance. To raise awareness of the opportunities and benefits of green infrastructure in the BIDs the GLA has:\n Commissioned or supported detailed green infrastructure audits in 15 central London BIDs to identify current urban greening measures and promote the benefits they provide, as well as opportunities for urban greening and how these can be realised.\n Provided grant funding to BIDs to deliver 15 retrofit green infrastructure demonstration projects – covering approximately 25% of the total project costs. This has been administered by the Cross River Partnership (CRP), which is a public-private delivery agency covering the GLA’s central London sub-region area. The projects help to raise the profile of green infrastructure, upskill BIDs and their members to help deliver other urban greening projects across the BID and highlight the benefits to businesses and residents alike.\n Created a Greening the BIDs steering group, consisting of representatives from the BIDs, GLA and CRP, which provides vision and direction for the project and acts as a forum to share experiences, solutions, and best practice.\n Any BID, employer partnership, or other owners/managers of public or private estate can undertake a green infrastructure audit. The Victoria BID (the first in London to complete a green infrastructure audit) has produced a best practice guide which is free to download .",
+    "outcomes": "In total over 500 hectares have been audited through Greening the BIDs, identifying the potential for over 300 rain gardens, 200 green walls and more than 100 hectares of green roofs, as well as other small scale interventions such as planters and window boxes. These audits have revealed the potential to introduce 1 million m 2 of new green-cover. Greening the BIDs has also successfully generated interest in and awareness of urban greening. This in turn encourages businesses to invest in green infrastructure as part of their longer-term refurbishments and regeneration strategies. The GLA is now:\n Collating information on green infrastructure projects that have been delivered by the BIDs (without GLA financial support).\n Continuing to offer financial support to BIDs who wish to complete a green infrastructure audit, potentially including BIDs or employer partnerships outside of central London but within the Greater London boundary.\n Working with BIDs and other partners to continue to develop the evidence base regarding the benefits and performance of green infrastructure in the urban realm, to help attenuate surface water (and reduce localized flood risk), improve air quality, and assess public perception.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities/",
+    "publication_date": "2015-01-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26939",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

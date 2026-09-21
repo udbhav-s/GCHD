@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-rajokri-water-body",
+  "url": "https://www.c40.org/case-studies/rajokri-water-body/",
+  "title": "The Rajokri Water Body Revitalisation Project",
+  "summary": "This C40 case study describes “The Rajokri Water Body Revitalisation Project,” an urban initiative documented for Delhi NCT. It is included because it is located in the Global South. C40 describes the action this way: In order to reverse the destruction of Delhi’s local habitats and water tables, the Delhi State Government began creating a series of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Delhi NCT",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Delhi",
+        "ucode": "IND_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "delhi-nct",
+      "label": "Delhi NCT"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In order to reverse the destruction of Delhi’s local habitats and water tables, the Delhi State Government began creating a series of mini sewage treatment plants (STPs). The natural treatment plant for the Rajokri water body has a capacity to naturally clear 600 kilolitres per day of sewage water with BOD (biochemical oxygen demand) levels of 150 ppm to less than 20 ppm.",
+    "measures": "Up until 2017 the Rajokri water body used to be a dirty and turbid pond fed by sewage from the nearby shanties. It has now transformed into 9,446 square meters of redeveloped public space, with a water body of 2,000 square meters which is now fed with treated effluents which, at an earlier date, were its primary pollutants.\n Key Statistics of the waterbody revitalization project –\n Total area of the water body – 9,446 sq.m\n Water area – 2,000 sq.m\n Technology used for revitalisation – Scientific wetland system with activated bio-digestion.\n Design capacity – 600 kilolitres (kl) per day.\n Place-making through the creation of landscaped areas i.e. areas for public gatherings. \n The work for revitalisation has been split into two packages/works – \n 1. Construction of a wetland system.\n 2. Landscape, civil, electrical and horticulture work including maintenance for a period of 5 years.\n Figure 1: Proposed scheme, existing situation and implemented final product.\n Features of the new water body include the following:\n Central waterbody with purified water and 2 MG capacity;\n Amphitheatre that doubles up as Chhath Ghat (an ancient Hindu Vedic festival historically native to the Indian subcontinent) for public gatherings;\n Green play areas with open gym and swings;\n Gravel based walking pathways that also double up as rainwater harvesting channels;\n Constructed wetland.\n Construction of the wetland system.\n 1. Sedimentation tank – Six partitions with five baffle walls with alternate slots at top and bottom having a capacity of 760 kl. Length: 38m, breadth: 5m, Depth: 4m;\n 2. Wetland system \n – Length: 34.8 – 25.8m, Width: 10.11m, Depth: 2.0 to 2.6m; \n – No. of chambers: 15; \n – Filler stone aggregate of nominal size of 200 to 300mm over a depth of 77cm, 100mm over a depth of 38cm, 80mm over a depth of 115cm; \n 3. Plants on wetland – Umbrella Piperes and Canna Indica;\n 4. Five manholes for sewage collection;\n 5. 200mm sewage collection pipe;\n 6. Tender Cost – INR 7,719,499 (ca. USD 108,500).\n Landscape, Civil, Electrical and Horticulture work including maintenance for a period of 5 years.\n 1. Cost wise split of various components involved:\n – Civil Work – INR 7,353,000 (ca. USD 103,500)\n – Mechanical & Electrical Work – INR 373,000 (ca. USD 5,200)\n – Planting Work – INR 1,065,000 (ca. USD 15,000)\n – Maintenance Work – INR 1,315,000 (ca. USD 18,500)\n 2. Two high mast lights of 16m height;\n 3. Two 1.5 HP water pumps for lifting water from sedimentation tank to the wetland system, operated by solar energy;\n 4. 5 HP submersible pump for feeding the sprinkler system;\n 5. 3,400 sq.m of grassing area.\n What is the Innovation? \n The project utilizes a scientific wetland system with active bio digesters (SWAB), as opposed to the standard approach of chemical treatment.\n The use of wetlands and mechanised aeration systems moves away from Delhi’s Jal Boards policy to isolate a water body by concretising the base and using chemicals to treat water. The wetland ecosystem includes plants such as typha latifolia and spider lily, a layer of gravel which filters water, and has a biofilm on it to process pollutants. The gravel system also immobilises heavy metals.\n Constructed wetlands are effective in treating organic matter, nitrogen, phosphorus, decreasing the concentrations of trace metals and organic chemicals (Kadlec and Knight 1996). The submerged aquatic macrophytes have very thin cuticles and therefore, readily take up metals from water through the entire surface. Macrophytes possess extraordinary ability to survive the adverse conditions of pollution and possess high colonization rate that are virtual tools of excellence for phytoremediation. Further they redistribute metals from sediments to water, finally accumulate in the plant tissues, accelerate biogeochemical processes and hence maintain homoeostasis.\n How does the system work? \n Step 1 – Raw sewage from all channels tapped to meet at common inlet. Water quality at input level is BOD 150, TDS 2,214\n Step 2 – Sewage fed into underground sedimentation tank and bio-digester: Solid components broken down and decomposed, big particles are then removed. BOD is 75.\n Step 3 – Solar pumps push output to artificial wetland: 2.5m deep gravel with hormonally treated plants absorb toxins. BOD is 20.\n Step 4 – Treated water passes along slope of grassland to waterbody. Carbon and sand filters reduce BOD/TDS level to below 10/10. \n Next Steps \n This model will be used to revive 159 lakes at a cost of INR 376 crore (ca. USD 53.3 Million).\n Links to further Information \n Indian Express Article: Delhi 159 dying lakes to get fresh lease of life as jal board begins ambitious rs 376 crore project \n Times of India Article: why this rs 90l project will be a- emplate for revival of over 150 waterbodies in city \n Contact Details \n Delhi Jal Board (DJB) \n Shri. Ankit Srivastava/ Shri. Roshan Shankar \n Tel. +44 207 4000 \n sriankit30@gmail.com / roshankar@gmail.com \n Image retrieved from http://rohanta.org/2019/04/rajokari-water-body-revival-project/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/rajokri-water-body/",
+    "publication_date": "2020-01-02",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27480",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=rajokri-water-body&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

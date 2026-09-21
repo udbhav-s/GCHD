@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-mexico-city-green-bonds-for-climate-action",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-green-bonds-for-climate-action/",
+  "title": "Cities100: Mexico City – Green Bonds for Climate Action",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Green Bonds for Climate Action,” an urban initiative documented for Mexico City. It is included because it is located in the Global South. C40 describes the action this way: Mexico City has financed a program that will reduce CO2 emissions and strengthen the city's capacity to withstand climate change,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Mexico City's population is expected to grow to 23.5 million people by 2030. Decoupling emissions from population and GDP growth will be a significant challenge for the megacity.",
+    "measures": "Mexico City's Climate Action Program is designed to maximize emissions reductions and increase resilience against future climatic shocks. The city issued $50 million worth of green bonds to finance much of the project, including investments in a new bus rapid transit lines and an LED street lighting project. This was the first example of such a financing scheme for a Latin American city, and proved popular, the bonds were oversubscribed by a factor of 2.5. The city also has an online monitoring system designed to track compliance of the program and the progress of each of its 102 climate actions. Finally, the program includes a gender perspective, which seeks to reduce inequality gaps between men and women caused by climate change effects. The city has set itself seven strategies as part of its climate action program, which include a rural and urban energy transition, containing urban sprawl, and building resilience. Each of the 16 boroughs involved has the responsibility to develop their own Borough Climate Action Program with both mitigation and adaptation actions.\n Environmental Benefits – The Climate Action Program has also resulted in the maintenance of more than 200,000 m2 of green areas, collection of 376 tons of used batteries, and the protection of 925,000 m2 of conservation land.\n Social Benefits – Including a gender perspective in the program ensures greater equality as climate change impacts affect women and men differently.\n Economic Benefits – The green bonds issued by Mexico City were oversubscribed two-and-a-half times, showing how novel financing models can be used to catalyze climate action projects in cities.\n Health Benefits – The bikeability and walkability actions of the program have generated large health benefits. More than 230,000 people use the bike-sharing program and 82% report improvements in quality of life.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-green-bonds-for-climate-action/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27333",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-green-bonds-for-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

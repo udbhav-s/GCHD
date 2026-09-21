@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-municipal-building-efficiency-the-energy-efficiency-and-demand-side-management-project-of-the-city-of-johannesburg",
+  "url": "https://www.c40.org/case-studies/municipal-building-efficiency-the-energy-efficiency-and-demand-side-management-project-of-the-city-of-johannesburg/",
+  "title": "Municipal Building Efficiency: The ‘Energy Efficiency and Demand Side Management’ Project of the City of Johannesburg",
+  "summary": "This C40 case study describes “Municipal Building Efficiency: The ‘Energy Efficiency and Demand Side Management’ Project of the City of Johannesburg,” an urban initiative documented for Johannesburg. It is included because it is located in the Global South. C40 describes the action this way: The efficient use of energy and water is increasingly important, especially in view of the growing demand for such resources and the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Johannesburg",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Johannesburg",
+        "ucode": "ZAF_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The efficient use of energy and water is increasingly important, especially in view of the growing demand for such resources and the negative environmental impacts arising from their uncontrolled and wasteful use. \n The City of Johannesburg, together with the Department of Energy, has implemented the Energy Efficiency and Demand Side Management project. The project consists of establishing a detailed baseline analysis of the city’s energy and water usage in its Metro Centre Building complex, as well as determining its waste management practices. The project is informed by two broad drivers: the need to improve energy efficiency and increasing availability of more efficient technologies, especially in lighting and air conditioning.",
+    "measures": "The City of Johannesburg (CoJ) has established a detailed baseline understanding of energy and water usage in its Metro Centre Building complex, as well as waste management practices. \n The audit assisted the city government in defining current levels of energy consumption and identifying areas of intervention and the recommended technologies to reduce energy usage in municipal buildings. The intervention was not limited to energy efficiency only but included water efficiency and waste management practices.\n The initiative is informed by two broad drivers: on one side the need to improve energy efficiency in response to the local, national and global shift towards a greener, less carbon-intensive economy; on the other side the increasing availability of new technologies that can successfully contribute to greater energy efficiency, especially in lighting and air conditioning.\n The latter is particularly important, as the global energy demand for air conditioning is growing rapidly and is increasingly contributing to the growing carbon emissions associated with the power generation sector. The carbon emission link is particularly strong in South Africa where around 90% of power generation is coal-based, and coal will continue to dominate for the foreseeable future given the country’s large coal reserves and the ongoing construction of large new coal-fired power stations such as Kusile. Buildings consume almost 60% of all this electricity (Rode, Burdett & Soares, 2011).\n In air-conditioned commercial buildings, the largest energy share goes to lighting and air conditioning. Altogether, heating and cooling typically account for almost half of the buildings’ operation costs. Air conditioning is proved to contribute to grid instability, with cycling compressor motors turning continuously on and off (US Department of Energy, 2012). That is why the City fo Johannesburg targeted these major consumers of energy when attempting to improve energy efficiency in public buildings to reduce power consumption and save money.\n This approach was tested in the CoJ civic centre’s main building, in Braamfontein, which comprises of three Blocks, A, B and C. It was built in 1973 and has an estimated floor area of about 51,000 m2. The building is owned by the city council and managed by the Johannesburg Property Company, a property management company of the council. Its occupancy rate is above 70% for most of the time. About 1,700 people work permanently at the civic centre and about 800 people visit the centre every day, Monday to Friday. Block A is the tallest building with 20 floors including the ground floor and three basement floors used for parking. Block B is the second tallest with eight floors including one basement floor and two ground floors (ground floor & street level). Block C (the Council Chamber Wing – CCW) has seven floors including one basement floor, a ground floor and a lower ground floor.\n An assessment of the main building was conducted in 2017. It was agreed that although the building has three separate blocks, according to the Resource Efficient and Cleaner Production (RECP) Assessment it should be considered as one entity since all systems are interconnected throughout. The main electricity loads in the building come from heating, ventilation, air conditioning (HVAC), lighting, water heating and elevators.\n The detailed RECP Assessment focused on:\n Lighting inventory and identification of potential energy saving options;\n Assessment of the use of HVAC systems and feasibility of replacing options;\n Electricity consumption of the building and calculation of the carbon footprint;\n Water consumption in the building and identification of water-saving options;\n Water heating and feasibility of replacing electric geysers with solar geysers;\n Feasibility of solar PV to generate own power;\n Feasibility of rainwater harvesting solutions;\n Waste management including segregation of waste at the source.\n The assessment also noted that the building had a central HVAC system in Bock C, but due to age and poor maintenance the system was no longer capable of providing efficient air conditioning to the block, therefore it has been switched off. Now, there’s only a limited number of split air conditioners in some areas of the building, but the rest all relies on natural ventilation.\n In addition, during winter months, about a third of the offices still use oil heaters for heating. The RECP In-Plant Assessment (IPA) was conducted on 3-12 June 2015 and the energy consuming equipment was assessed to determine the potential for improvement. The RECP assessment identified low and high-cost measures which, if implemented, could result in less use of resources, reduced operational costs and less negative environmental impact. The total emissions reduction estimated for this building would be of 2,183 tCO2e per year.\n Contact Details \n Lebo Molefe\n Director of Air Quality and Climate Change department\n City of Johannesburg\n Tel: +27 11 080 9334\n Email: lebomol@environment.gov.za",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/municipal-building-efficiency-the-energy-efficiency-and-demand-side-management-project-of-the-city-of-johannesburg/",
+    "publication_date": "2019-07-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27449",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=municipal-building-efficiency-the-energy-efficiency-and-demand-side-management-project-of-the-city-of-johannesburg&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

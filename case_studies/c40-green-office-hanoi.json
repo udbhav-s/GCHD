@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-green-office-hanoi",
+  "url": "https://www.c40.org/case-studies/green-office-hanoi/",
+  "title": "Hanoi’s “Green Office” Environmental Management System",
+  "summary": "This C40 case study describes “Hanoi’s “Green Office” Environmental Management System,” an urban initiative documented for Hanoi. It is included because it is located in the Global South. C40 describes the action this way: Hanoi DONRE office has made its offices green by reducing the consumption of resources and changed behaviours of its staff",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hanoi",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ha Noi City",
+        "ucode": "VNM_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hanoi DONRE office has made its offices green by reducing the consumption of resources and changed behaviours of its staff",
+    "measures": "Green Office (GO) is an Environmental Management System (EMS) for offices that focuses on awareness-raising and behavioural change in relation to sustainable consumption practices aimed at office workers. These efforts constitute a continuous process of addressing systematic issues in order to reduce the operating costs and environmental impacts of the organizations GO works with, resulting in healthy and friendly working environments. The program is run by Geeninno, which is a team led by AIT-Vietnam under the support of the One Planet Organization’s Sustainable Lifestyle and Education Program.\n Greeninno is a voluntary Hanoian team which got the support from AIT-VN and several organizations in Hanoi, including the Department of Natural resources and Environment (DONRE), to take on the initiative. The Environmental Protection Agency (EPA) office of DONRE is one of 10 cases of the initiative. \n Most of the 10 pilot cases are being implemented in the Hanoi area. Its activities are also supplemented by Live & Learn, an NGO who is providing GO with guidance and kits on how to assess different types of offices in Vietnam.\n Figure 1: the 10 pilot cases of the initiative across Vietnam under the Sustainable Lifestyle and Education program implimented by Greeninno\n Green Office AIT-VN is suitable for all types of offices, such as Service providers, Manufacturing enterprises (GO applies to back office area), State Agencies, University/School, NGOs & International organizations. GO AIT-VN focuses on key domains of consumption and the establishment of EMSs through behavioral changes and contexts/norms for nurturing and promoting sustainable lifestyles instead of adjusting infrastructures/ facilities.\n Enterprises and organizations can implement the GO program with internal resources following GO AIT-VN guidelines and register for GO AIT-VN certification. Based on assessment and certified indicators, AIT-VN provides two levels of certification: Standard and Advanced.\n The GO AIT-VN guidelines present a roadmap on how to set up a Green Office through training on behavior change and sustainable consumption. It also provides tools for GHG emission and inventory calculations. \n AIT-VN provides the training of trainers (ToT) to become internal experts in GO implementation that helps enterprises and organizations in executing GO and build capacity for employees. Participants of the ToT will be equipped with knowledge of sustainable consumption, climate change, Greenhouse Gas (GHG) and skills on behavior change training and GO management system setup.\n What is the project? How does it work? \n The Green Office program is an environmental management system for offices that focuses on raising awareness and driving behaviour changes towards sustainable consumption practices. This program not only reduces direct and indirect greenhouse gas (GHG) emissions, but also reduces operational costs through reduced wastage of electricity, water, paper, and other resources.\n What are the CO2 reduction achievments? \n Since the implementation, GHG emissions were reduced by 10.9% per capita at the DONRE office. Overall reduction across the organisation was 4.2.%\n Next Steps \n Continuous improvements are being carried out under the Green Office program at the DONRE office.\n Links to Further Information \n “Green Office” Official Website \n Contact Details \n Ms. Le Thanh Thuy\n Project Management and Communication Division\n Hanoi Environmental Protection Agency (EPA)\n Hanoi Department of Natural Resources and Environment (DONRE)\n Tel: +84 983376658 \n Fax +84 4 37833926 \n Email: thuyle.epa@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-office-hanoi/",
+    "publication_date": "2020-01-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27497",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=green-office-hanoi&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

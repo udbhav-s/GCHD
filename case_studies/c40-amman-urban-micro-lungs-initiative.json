@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-amman-urban-micro-lungs-initiative",
+  "url": "https://www.c40.org/case-studies/amman-urban-micro-lungs-initiative/",
+  "title": "Urban Micro-Lungs Initiative in Amman",
+  "summary": "This C40 case study describes “Urban Micro-Lungs Initiative in Amman,” an urban initiative documented for Amman. It is included because it addresses river flood, meteorological drought, heatwave, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Urban Micro-Lungs (UML) initiative is a green infrastructure intervention executed by the project Improving Living Conditions in disadvantaged areas…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "amman",
+      "label": "Amman"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Urban Micro-Lungs (UML) initiative is a green infrastructure intervention executed by the project Improving Living Conditions in disadvantaged areas…",
+    "measures": "The Urban Micro-Lungs (UML) initiative is a green infrastructure intervention executed by the project Improving Living Conditions in disadvantaged areas in Amman (ILCA), funded by the German Federal Ministry for Economic development and Cooperation (BMZ) and implemented by GIZ in partnership with the Jordanian Ministry of Environment and Greater Amman Municipality. The initiative is implemented with the technical expertise of Tayyun Research Studio and aims at establishing two urban micro-forests in the densely populated area of East Amman. \n Urban expansion and densification have led to widespread habitat loss. Native trees and plants which normally grow in these regions have been replaced by buildings and paved areas. The UML initiative aims to bring back nature into the city through a unique planting technique called the Miyawaki Method. This method utilises meticulous soil engineering to provide the ideal conditions for plant growth. Plants and trees are carefully selected, based on the habitat present in the region, and layered to create a self-sustaining native forest that develops up to ten times faster than conventional methods. \n Greening dense urban areas with these self-sustaining forests can help offset some of the negative effects of climate change. Indeed, residents of the implementation areas mentioned an increase in extreme weather events such as flash floods and heatwaves over the past years as a directly observable effect of environmental degradation- linked to climate change. In addition, dense urban areas tend to have lower air quality due to mounting traffic congestion and decreased green cover. These micro-forests provide various environmental benefits by improving air quality, providing shade, and reducing water runoff. The careful selection of plant species, based on the habitat of the area, also ensures that they are drought tolerant and require little maintenance. \n The UML initiative generates awareness among both the population and local authorities on the importance of green infrastructure. It also provides the municipality of Amman with a replicable model to develop urban green spaces adapted to the ecological context of the country. The surrounding community will be able to enjoy the improved aesthetics and witness the positive health outcomes resulting from the newly established forests. \n The project utilised a participatory approach involving community members of all ages in the transformation process of the selected areas. In addition, the process itself was the occasion to raise awareness of the environmental benefits of native plants and better care of public spaces. The changes didn’t stop there: further beautification of one of the planting locations was also undertaken and completed with the neighbouring community to increase ownership and make the site a place that residents are proud of.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/amman-urban-micro-lungs-initiative/",
+    "publication_date": "2021-05-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27533",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=amman-urban-micro-lungs-initiative&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:37:01",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-my-nanjing-app",
+  "url": "https://www.c40.org/case-studies/my-nanjing-app/",
+  "title": "The “My Nanjing” App and The Promotion of Citywide Low-Carbon Travel",
+  "summary": "This C40 case study describes “The “My Nanjing” App and The Promotion of Citywide Low-Carbon Travel,” an urban initiative documented for Nanjing. It is included because it is located in the Global South. C40 describes the action this way: The “My Nanjing” app has been incentivizing public and active transportation among Nanjing residents by providing instant bike sharing and bus positioning…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nanjing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Nanjing",
+        "ucode": "CHN_0015_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nanjing",
+      "label": "Nanjing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The “My Nanjing” app has been incentivizing public and active transportation among Nanjing residents by providing instant bike sharing and bus positioning for its users",
+    "measures": "Chinese vers. \n In 2016, Nanjing launched the “Nationwide Low-Carbon Travel” and “Create Green Nanjing”. Relying on the “My Nanjing” APP, Nanjing launched a public service platform for low carbon travel for all citizens in Nanjing. The city also organized events themed on low carbon travel as well as developed green payment methods and carry out carbon credit rewards through integrating citizen's green travel data covering walking, bicycling, metro, and bus. At present, the low-carbon travel public service platform receives about 2 million clicks per day from a total number of 800,000 individual users.\n What is the innovation/policy/project/technology? How does it work? \n Accelerate the deployment of public bicycle service stations. There currently a total of 2,676 stations, an average daily usage of more than 220,000 people, 12 million registered users of shared bicycles, and 850,000 daily uses on average, bringing convenience to citizens for their “first and last mile” travel.\n What are the CO2 reduction goals/achievements? \n The “My Nanjing” app has a number of benefits to the public, such as bike sharing, green travel, and charging rental for new energy vehicles. By providing instant bike sharing and bus positioning, the public is encouraged to use public transportation. Prior to the introduction of this APP, priority was given to taxi or private car in traveling. After the app was launched, the instant and efficient public transportation network information promoted the use of public transportation, thereby achieving indirect emission reductions.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/my-nanjing-app/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27465",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=my-nanjing-app&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

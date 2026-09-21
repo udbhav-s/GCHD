@@ -1,0 +1,203 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+  "title": "Planned relocation of municipal campsite alongside floodplain restoration in Normandy (France)",
+  "summary": "The PACCo project in Saâne Valley demonstrates that proactive coastal adaptation, including habitat restoration and the planned relocation of a vital municipal asset away from the floodplain is effective in reducing vulnerability to climate risks. Normandy’s proactive approach to managing coastal risks sets a positive example for advancing coastal resilience across Europe. The Saâne Valley, located in Normandy Region, has been impacted by flooding, mainly due to development in the floodplains and land use modifications leading to the Saâne river being disconnected from the sea. This has adversely affected both the economic prospects and the ecology of the Valley.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Haute-Normandie",
+        "ucode": "FRA_0011_V1",
+        "dcid": null,
+        "source_code": "SUBN_Haute_Normandie__FR_",
+        "source_name": "Haute-Normandie (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "municipal infrastructure",
+      "label": "municipal infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wetlands",
+      "label": "wetlands"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "sewage treatment plant",
+      "label": "sewage treatment plant"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "coastal erosion",
+      "label": "coastal erosion"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "schools"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The PACCo project was a cross-border initiative focusing on two pilot sites: the Lower Otter Valley in East Devon (UK) and the Saâne Valley in Normandy (France). Both areas, located in estuarine regions, have experienced significant landscape changes over time. In France, building on earlier research from the Saâne Lower Valley Territorial Project 2050 and work under the EU INTERREG-funded Living with a Changing Coasts (LiCCo) project , PACCo aimed to tackle coastal climate challenges while emphasizing the importance of stakeholder collaboration. PACCo has been instrumental in delivering the key objectives and infrastructure projects set out for the Saâne Lower Valley. First adopted by local councils in 2016, the Saâne Lower Valley Territorial Project 2050 has taken actions starting in 2024 to reconnect the Saâne River to the sea. Its main objectives include: · Flood risk management: Ensuring the Saâne River can flow to the sea while managing risks of coastal flooding. · Balancing socio-economic needs in the Valley: Considering the needs of residents, farmers, fishermen, tourists, and other Valley users. · Environmental enhancement: Improving wetland quality, ecological continuity, and restoring biodiversity. Key projects planned under the Saâne Lower Valley Territorial Project 2050 included: · Relocating the Quiberville campsite and Sainte Marguerite-sur-Mer bungalows. · Implementing land use changes and managing the campsite development on the new site. · Developing a hydraulic structure to reconnect the Saâne to the sea. · Restoring the floodplain, including wetland environments and functions. The PACCo project aims to show that proactive measures can effectively adapt coastal areas to climate change. Working with stakeholders, the project focuses on several key solutions: · Awareness raising: Engaging stakeholders through public meetings and awareness raising campaigns to develop a long-term climate adaptation plan. · Protecting and Restoring Nature: Reconnecting the Saâne to its floodplain and the sea, replacing a culvert with a bridge, and restoring 50 hectares of intertidal habitats to improve flood management and the Valley’s ecology. · Relocating Businesses and Amenities: Moving the municipal campsite to higher ground to reduce flood risk and support habitat restoration, while developing a more sustainable tourist facility to boost the local economy. · Using Resilient Design: Installing new sewage treatment facilities to enhance water quality and network resilience.",
+    "measures": "Normandy’s proactive approach to managing coastal risks sets a positive example of advancing coastal resilience across Europe. At the regional level, Normandy launched the \" Our Coast for Tomorrow \" (Notre Littoral Pour Demain) programme in 2014 in response to climate change impacts such as coastal erosion, flooding, and sea level rise. Through this strategic framework, the regional authority coordinates local strategies and streamlines funding for adaptation projects, enabling Normandy to safeguard its coastal communities while restoring natural habitats and enhancing coastal ecosystems. Numerous local climate adaptation projects have received support under this initiative. The EU INTERREG-funded PACCo project significantly advanced the objectives and key initiatives identified in the Saâne Lower Valley Territorial Project 2050. From 2020 to 2023, the PACCo project provided critical funding and support for major infrastructure developments, laying the groundwork for long-term, resilient growth in the region. This included close collaboration with local communities to develop a comprehensive and sustainable development plan. As part of the first phase in implementing the Saâne Lower Valley Territorial Project 2050, the PACCo project set the stage for future efforts, transforming a local initiative into one with broader regional impact. It promotes proactive adaptation strategies by coordinating and delivering key infrastructure projects designed to enhance the Valley’s resilience to climate change. Relocation of municipal campsite outside the floodplain: The municipal campsite in the Saâne Valley, located east of Quiberville-sur-Mer where the Saâne River meets the sea, has faced significant fluvial flooding, with increasing risks from coastal flooding. The PACCo project oversaw the purchase of land by the municipality for the purpose of campsite relocation. The new site is located outside of the floodplain and offers convenient road access and proximity to the coast and Quiberville. The relocation site was informed by soil studies, topographical data, flood maps, risk assessments, and environmental impact assessments, ensuring a suitable location was selected with minimal environmental impact. The municipality of Quiberville acquired a 6-hectare hillside plot near Longueil for the new campsite. The new site will feature a central car park and 160 sites, including 71 for motorhomes, caravans, and vans, 32 for tents and bivouacs, and 57 rental accommodations. Sustainable design elements, such as infiltration ponds, swales, permeable surfaces for vehicle sites, and native plantings, were incorporated to minimise runoff, stabilise soils, and blend the campsite into the landscape with tree plantings to screen the area. New sewage treatment plant: As part of the relocation plan, a new high-performance sewage treatment plant was constructed in Longueil, outside the floodplain. This facility replaces five outdated treatment sites that were failing and often discharged during floods, leading to poor water quality. The new plant will serve 4,300 residents, meeting current and future demands for the next 20-30 years. It also includes an open-access educational space. The project was guided by detailed design studies and careful management to ensure timely completion. Previously, untreated discharges in Longueil had degraded water quality and harmed local biodiversity. Floodplain habitat restoration: The ongoing project, scheduled for completion by 2026, seeks to restore ecological continuity between the Saâne River and the sea, expand the floodplain, and improve intertidal habitats. By that time, approximately 50 hectares of intertidal habitat will be restored, reconnecting floodplains, wetlands, and the river to the ocean. Monitoring and evaluation is also an important part of the PACCo project. This phase was supported by local authorities who engaged stakeholders to support ongoing monitoring and evaluation of the restoration work. In the Saâne Valley, the Water Agency and Rouen University collaborated with the Mixed Union of Saâne Vienne and Scie Water Basins to assess the project’s impact. These organizations are measuring changes in fauna, flora, water salinity, riverbed evolution, sediment deposits, and the landscape. The PACCo project demonstrates that planned relocation is a powerful strategy for adapting to climate-related impacts such as coastal flooding, erosion, and storm surge.",
+    "outcomes": "As part of PACCo, four conditions were identified as critical to the project’s success: 1. The presence of strong stakeholder involvement and political support, especially from local authorities and community members. Normandy’s trans-boundary coastal management approach has accelerated the scaling of lessons learned from PACCo. The SMLN coordinated stakeholders and applied lessons learned across local authorities. Additionally, Normandy Region funded the Saâne Lower Valley 2050 communication strategy, developed alongside PACCo, to engage and inform local communities about project timelines and future steps. Following PACCo’s success, local authorities across Normandy have adopted similar adaptation measures combining planned relocation with coastal restoration. In December 2022, Normandy Region introduced the GIEC Normandy Action Plan , committing to carbon neutrality and climate adaptation through 34 actions across eight themes, including coastal relocation. 2. Funding was critical for project implementation, especially since the project involved land acquisition. Through the European Regional Development Fund (ERDF) 2021-2027 and the Interreg France (Channel) England programme and regional contributions, Normandy secured €25 million to update its coastal policy. This funding supports sustainable coastal management, nature-based solutions, and the relocation of public economic activities from high-risk areas. Projects must address climate change impacts, enhance ecological functions, involve stakeholders, and raise public awareness. 3. Land availability determines the pace of project implementation . Since land was available, it was much simpler to implement adaptation projects, such as relocating economic activities. 4. A dedicated team for project coordination, stakeholder engagement, and facilitation accelerated the process. Engaging landowners early was crucial for the project’s success. In the Saâne Valley, within the Saâne Lower Valley Territorial Project 2050, the National Coastal Protection Agency negotiated land purchases and formed partnerships with landowners, facilitating land acquisition and restoration work. By February 2023, the Conservatoire had acquired 63 hectares, using these for habitat restoration. The acquisition for relocating the municipal campsite was handled by a public landowner on behalf on the municipality. It also acquired the old campsite land, managed demolition and site preparation in partnership with the National Coastal Protection Agency.",
+    "cost_benefit": "The relocation process is costly and can put significant strain on the budget of local authorises. The municipality spent nearly 500,000 EUR acquiring land for the new campsite in Quiberville, the Caux Terroir Community of Communes invested 100,000 EUR in the new sewage treatment plant, and the National Coastal Protection Agency spent over €2 million acquiring land in the Saâne Lower Valley for wetland restoration, which will cover around 50 hectares by 2026. Initially estimated at 6.9 million EUR, the cost of building new campsite amenities rose to €8.6 million due to inflation from COVID-19 and the European geopolitical crisis. More information on funding is offered here . The PACCo project not only reduced the exposure of businesses and amenities to climate change but also supported estuarine biodiversity and landscape restoration. This included improving water quality, restoring ecosystems, and widening the river channel to enhance water flow. The benefits of these efforts, such as improved water quality and increased biodiversity, are being documented and will continue to be assessed. Community engagement was crucial for gaining support for the campsite relocation. In Quiberville-sur-Mer, the campsite is a vital source of income, attracting tourists and supporting local businesses that rely on seasonal activity.",
+    "timeline": "The PACCo project was implemented over 3 years (2020 – 2023), while restoration of rivers and floodplains are expected to be completed by 2026. To further advance coastal adaptation projects, a €25 million fund was established through contributions from the European Regional Development Fund (ERDF) and the Region. Funds are allocated for activities related to sustainable coastal management, policy development, and nature-based solutions and must be spent by 2028.",
+    "lifetime": "The PACCo project’s legacy continues through the Saâne Lower Valley Territorial Project 2050. Since the end of the PACCo project, the SMLN has focused on implementing the last steps of the Territorial Project. This includes wetland restoration at the campsite at Quiberville-sur-Me, changing the course of the Saâne riverbed and river mouth to reduce flood risk by creating more room for water to flow, creating new walking paths, and establishing a recreational area for both tourists and Saâne Valley inhabitants. While the benefits of planned relocation are felt immediately, the benefits of ecosystem restoration, including enhanced biodiversity, improved water quality, and improved ecological function, will be felt over the long term.",
+    "stakeholders": "Effective governance is crucial to Normandy’s coastal adaptation efforts, requiring close coordination between the region, local authorities, and stakeholders. Through Normandy’s strategic framework on coastal adaptation, the “Our Coast for Tomorrow” ( Notre Littoral pour demain ) programme, Normandy and the National Coastal Protection Agency ( CdL - Conservatoire du Littoral ) established the Mixed Union of the Normandy Coast (SMLN - Syndicat Mixte du Littoral Normand ). This body manages protected coastal areas, collaborating with local authorities, ports, tourism, and fisheries. Since 2012, SMLN has led the Saâne Lower Valley Territorial Project 2050, which includes the French activities of the PACCo project. SMLN coordinates regionally, manages projects on Conservatoire du Littoral lands, and oversees local utilities and authorities. The Saâne Lower Valley Territorial Project 2050, which defined PACCo’s deliverables, is governed by two main committees. The technical committee, meeting twice yearly, handles technical aspects, while the steering committee, meeting annually, oversees organisational roles such as contracting authorities and financial sponsors. Co-chaired by the vice-president of the Normandy Region, the steering committee includes over 40 stakeholders, including local authorities, public bodies, technical and financial partners, universities, local associations, farmers, fishermen, and hunters. This structure ensures thorough project oversight from planning to implementation. Sub-technical and sub-steering committees also me throughout the project to address specific issues. In addition to these meetings, during the PACCo project, the PACCo steering committee met twice a year and work package meetings were held monthly. PACCo was also supported by regular project management meetings to ensure effective coordination. The PACCo project placed stakeholder engagement, including landowners, at the heart of the planned relocation process. Local communities and regional stakeholders were integral to the planning phase, ensuring the project team fully understood the socio-economic and environmental context. Between 2014 and 2016, public consultations, workshops, and exhibitions helped develop and evaluate different scenarios for the relocation of the campsite. Funding from PACCo supported the project’s transition to the operational phase, underpinned by a communication strategy featuring a dynamic press kit, summer exhibitions, and site visits to local communities, schools, and organisations. Key activities included mapping stakeholders, using existing channels to communicate about projects activities, developing a clear timeline, and conducting site visits and surveys. Habitat creation and restoration will be overseen by the National Coastal Protection Agency, with management delegated to the Mixed Union of Saâne Vienne and Scie Water Basins ( Syndicat Mixte des Bassins Versants Saâne Vienne Scie ). Recent land acquisitions have necessitated re-evaluation of restoration plans and flood models. The project addresses its impact on local farmers through ongoing communication to help them adapt. The PACCo project, studied by the University of Exeter and Lisode Consultancy, examined the governance and engagement strategies used in the Otter and Saâne Territorial Projects. This research produced two key deliverables on the Methodology for Engagement and Involvement of End Users and Key Stakeholders . The study explored how governance was set up for each project and assessed the effectiveness of community engagement in both cases.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 49.906725131,
+    "lon": 0.931800653503,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/milieux-aquatiques-eaux-et-littoral",
+      "role": "contextual_input"
+    },
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/giec-normand",
+      "role": "contextual_input"
+    },
+    {
+      "name": "normandie.fr",
+      "url": "https://www.normandie.fr/idee-notre-littoral-pour-demain",
+      "role": "contextual_input"
+    },
+    {
+      "name": "pacco-interreg.com",
+      "url": "https://www.pacco-interreg.com/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "basse-saane-2050.com",
+      "url": "https://basse-saane-2050.com/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+    "publication_date": "2024-10-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "12cd1e7e2fd74df1bfc0d50428afe5d2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/planned-relocation-of-municipal-campsite-alongside-floodplain-restoration-in-normandy-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:35+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

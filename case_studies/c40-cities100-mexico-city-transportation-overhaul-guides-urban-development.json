@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-mexico-city-transportation-overhaul-guides-urban-development",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-transportation-overhaul-guides-urban-development/",
+  "title": "Cities100: Mexico City – Transportation Overhaul Guides Urban Development",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Transportation Overhaul Guides Urban Development,” an urban initiative documented for Mexico City. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Mexico City is transforming its transportation network to prioritize active mobility and transit-oriented development in an effort to create a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Covering nearly 1,500 km2, Mexico City’s sprawling footprint has led to inequitable access to key city resources and high CO₂ emissions. By overhauling the city’s transportation network to focus on mobility and access via active and public transit, Mexico City is taking the major necessary steps to redefine its landscape, reduce car dependence, and cultivate a connected and coordinated city.",
+    "measures": "Launched in 2014, Mexico City’s Comprehensive Mobility Program represents a paradigm shift in the city’s approach to urban planning, prioritizing pedestrians, cyclists, and users of the public transportation system over private automobiles in an effort to catalyze economic development and social inclusion and reduce CO₂ emissions. The Comprehensive Mobility Program is structured under a number of strategic areas, with a clear focus on creating complete streets that prioritize active and public transit and fostering transit-oriented development (TOD). To support these goals, Mexico City has already added 65 CNG buses on two lines, transporting 23,000 users a day; extended its bus rapid transit system to cover six lines; and expanded its bike-sharing system, Ecobici, to 6,000 bicycles and 444 stations. In the coming years, the program, which is closely linked to Mexico City’s General Development Program 2013-2018, will further transform the city, improving access to social and economic opportunities by adding 110 km of cycling infrastructure and cleaning the city’s air by replacing 20,000 old polluting minibuses and taxis with new cleaner vehicles.\n Environmental Benefits – As the transport sector is the main contributor to Mexico City’s CO₂ emissions, prioritizing active mobility and public transit will substantially reduce energy use.\n Social Benefits – A focus on transit-oriented development will help more city residents to access crucial economic opportunities and city services via affordable public transport.\n Economic Benefits – Economic activity along Calle Madero, a historic street that received mobility improvements, has increased by 80 % in the form of sales, employment, and business investment.\n Health Benefits – Replacing tens of thousands of polluting minibuses and taxis, and adding CNG buses to the city’s fleet, will reduce outdoor air pollution.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-transportation-overhaul-guides-urban-development/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27242",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-transportation-overhaul-guides-urban-development&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

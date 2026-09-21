@@ -1,0 +1,190 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-insurance-company-supporting-adaptation-action-in-small-and-medium-size-enterprises-in-turin-italy",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/insurance-company-supporting-adaptation-action-in-small-and-medium-size-enterprises-in-turin-italy",
+  "title": "Insurance company supporting adaptation action in small and medium size enterprises in Turin (Italy)",
+  "summary": "Turin's DERRIS project, a public-private partnership, enhances SME resilience to climate impacts, addressing flood risks through Company Adaptation Action Plans and the Integrated District Adaptation Plan. The project’s online tool, CRAM, guides SMEs in assessing vulnerability and developing adaptation action plans. Weather- and climate-related damages, in particular those due to flooding, pose substantial risks to the business continuity of small and medium enterprises (SMEs). Currently, this economic sector receives in Italy little support for planning and implementation of adaptation measures.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Turin",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Piemonte",
+        "ucode": "ITA_0012_V1",
+        "dcid": null,
+        "source_code": "SUBN_Piemonte__IT_",
+        "source_name": "Piemonte (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WATERSCARCE",
+      "label": "Water Scarcity",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMECOLD",
+      "label": "Extreme cold",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUSINESSINDUSTRY",
+      "label": "Business and industry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "public private partnership",
+      "label": "public private partnership"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Insurance company",
+      "label": "Insurance company"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "private sector",
+      "label": "private sector"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "risk awareness",
+      "label": "risk awareness"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "risk management",
+      "label": "risk management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "SME",
+      "label": "SME"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "DERRIS project aimed at developing a new model for public-private partnerships between Turin insurers, local authorities and SMEs. The partnerships focussed on: (i) transferring the knowledge on risk assessment and management from insurers to public and private adaptation planners, and (ii) promoting the development and implementation of adaptation plans for SMEs and industrial districts. The assessment of climate risks was carried out in parallel at the enterprise and district level, aiming at a better interaction between private sector stakeholders, insurance sector and local adaptation authorities.",
+    "measures": "The public-private partnership was developed and implemented in a pilot phase in six industrial and manufacturing areas in the northern part of the city of Turin. It was based on collaboration between the city administration, Unipol (an Italian financial services holding company) and 32 selected SMEs between 2016 and 2017. During this period, Unipol’s loss prevention team supported the participating enterprises and the local authority with the required expertise. In particular it underpinned the design of Company Adaptation Action Plans (CAAP) for the SMEs and the Integrated District Adaptation Plan (IDAP) for a selected area, in collaboration between private (including the SMEs) and public stakeholders and the city. The IDAP contains important preparation steps for the upcoming city adaptation plan. The six pilot industrial and manufacturing areas within the city of Turin had been identified analysing recent climate events regarding selected hazards (flooding, intense precipitation, lightning, extreme temperatures, wind, hail and landslides), which affected areas with presence of SMEs. The SMEs participating in the project came from various sectors: mechanical productions (12 enterprises), chemical productions (6), services and trade (respective 5 and 4), food production (3) and handicraft (2). The participating enterprises were generally small. The majority (24 enterprises) had between 5 and 20 employees, while only one SME had over 250 employees. Damages from weather or climate events had been already experienced by 13 enterprises and 14 had implemented some preventive measures against damages from weather- or climate-related events. For the participating SMEs, the support was provided by experts from the UNIPOL loss prevention team during two on-site inspections focussed on assessment of vulnerability to climatic events, selection of possible risks faced and potential actions for risk reduction to be included in CAAPs. During these visits, the questionnaire used in the CRAM tool was also tested, and the tool was developed afterwards. This on-line tool was created to ensure the transfer of know-how on risk assessment and risk management to SMEs, also after the completion of the project. CRAM presents information on climate-related risks based on geographic location (e.g. location with respect to flood risk zones) and automatically generates outputs relevant for the CAAP on the basis of the information provided by SMEs in the questionnaire. The SMEs which participated in the project identified three main types of approach for adapting to climate change: Risk prevention, risk management and emergency management; Integrating climate adaptation considerations in management and operational procedures, Implementing green infrastructure solutions (like green roofs) and improving water efficiency. The assessment of climate risks was carried out in parallel at the enterprise and district level, aiming at a better interaction between private sector stakeholders, insurance sector and local adaptation authorities. In the pilot phase held in Turin, 28 out of the initial 32 enterprises completed their CAAPs, containing 565 actions in total (median 20 actions per plan). Some SMEs put in or upgraded green infrastructure solutions; other companies put in place mobile or fixed flood protection measures (walls, gates or barriers). Some SMEs created routine procedures for regular control of gutters (to reduce the risk of flooding) and of machine performance under elevated temperatures. One enterprise adapted its new building during the construction phase according to the information about the local flood risk by elevating floor levels and changing layout of walls to reduce potential damages. Many enterprises amended their organisational and management systems, for example including specific plans for disaster recovery, appointing personnel for monitoring emergency alerts or creating budget reserves for recovery measures. In parallel, the DERRIS project supported the city of Turin in developing an Integrated District Adaptation Plan (IDAP), with the involvement of several municipal departments. The Plan and its associated activities (the structured process of stakeholder engagement and the inter-sectoral working group on climate change set up in the City of Turin) were intended to prepare the subsequent work on a comprehensive climate adaptation strategy and adaptation action plan for the city of Turin. Furthermore, IDAP included the identification of adaptation measures related to the creation of new green infrastructure measures and the maintenance and improvement of existing ones, especially networks of green spaces and urban water courses. After the pilot phase in Turin, the partnership was extended to ten other Italian cities and 128 SMEs used the online CRAM tool for assessing their climate risk and finalizing their CAAPs. An analysis of these plans reveals flooding to be the most important climate hazard (addressed by about 25% of the measures), followed by heavy rain (18%). Other hazards like wind, lightening, water scarcity, extreme temperatures were addressed by approximately 12% of the measures for each of the impacts, and hail and landslides by only 5% each. The types of measures included in the plans of the 128 SMEs were: operational and management procedures (38%); interventions on infrastructures and installations (34%); actions regarding early warning operational procedures (11%); actions improving water efficiency (14%); actions on green infrastructure (3%). In order to address the barriers to the implementation of adaptation measures, DERRIS project investigated the existing financial instruments for adaptation in Italy and Europe and contributed to a public debate at the European level on the role of insurers as investors financing climate adaptation activities. These activities were included in the formulation of a set of general requirements and guidance for financial instruments supporting public authorities, especially at the local level, and private businesses in climate adaptation activities. Further to the guidelines and recommendations for direct financial and indirect fiscal support for adaptation action, DERRIS released a financial instrument to support SMEs for implementing climate risk prevention and management actions included in their CAAPs, consisting of loans (between €10,000 and €100,000) issued by the banking branch of Unipol, “Unipol Banca”. After the completion of the project in 2018, the capitalising activities continue, involving four more cities (including Milan) since 2019. Moreover, the CRAM tool for assessing climate risks and supporting SMEs in planning their adaptation plans is still online and active.",
+    "outcomes": "Involvement of SMEs into the project activities in each of the cities represented a major challenge, which was overcome by the involvement of trade organizations. The preparation of the Integrated District Adaptation Plan in Turin has laid the ground for a more comprehensive urban adaptation planning activity by creating an inter-sectoral working group on climate adaptation and a structure for stakeholder involvement. Further to a low level of awareness about climate-related risks and the options of risk mitigation, the availability of financial resources (funding, specific loans and/or fiscal instruments) appears to be a crucial limiting factor for the implementation of climate adaptation.",
+    "cost_benefit": "The project was financed by the LIFE programme. The total budget amounted to over €1,3 million, 60% of which (€790,299) was financed by the EU. The project did not aim at producing direct economic benefits, and the costs avoided thanks to improved risk management have not been quantified. The initiative succeeded in increasing awareness about climate risks among SMEs, improving the knowledge available for increasing disaster risk preparedness and climate adaptation for SMEs, and supporting the design of Company Adaptation Action Plans.",
+    "timeline": "DERRIS project run form 1 September 2015 to 30 September 2018; the UNIPOL activities, such as support to local authorities interested in replicating the public private partnership model, organization of meetings with SMEs and the update of the CRAM tool, are provided until 2023.",
+    "lifetime": "Company Adaptation Action Plans have a long-term perspective; the plans, including the assessment of climate risk and identification of response, are annually revised.",
+    "stakeholders": "A widespread range of local players were involved in the partnership in order to facilitate the engagement of the SMEs. These included trade organisations, Chambers of Commerce, UnipolSai (the insurance branch of the Unipol group), Unipol agencies and Unipol Banca (the bank branches of Unipol). Unipol regional branches played a key role in supporting local authorities in the involvement of trade organizations and convincing SMEs to participate. Most of these local players agreed to participate in the training sessions as it was felt to be a very effective way to increase their awareness of climate change impacts on businesses and of the potential advantages of climate change adaptation plans for ensuring business continuity. In this way, a snowball effect was created, whereby the participating organisations were becoming ambassadors of the DERRIS project and helped disseminating knowledge and tools created by the project to other SMEs.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 45.1200528415,
+    "lon": 7.6025390625,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "cram.derris.eu",
+      "url": "https://cram.derris.eu",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webgate.ec.europa.eu",
+      "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE14-CCA-IT-000650/derris-disaster-risk-reduction-insurance",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/insurance-company-supporting-adaptation-action-in-small-and-medium-size-enterprises-in-turin-italy",
+    "publication_date": "2020-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "7ccd45848b8545cc92efdc51dca93d97",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/insurance-company-supporting-adaptation-action-in-small-and-medium-size-enterprises-in-turin-italy",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:15+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

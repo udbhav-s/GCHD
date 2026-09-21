@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-clean-cities-through-better-waste-management-systems",
+  "url": "https://www.c40.org/case-studies/clean-cities-through-better-waste-management-systems/",
+  "title": "Clean Cities Through Better Waste Management Systems",
+  "summary": "This C40 case study describes “Clean Cities Through Better Waste Management Systems,” an urban initiative documented for Amman. It is included because it is located in the Global South. C40 describes the action this way: The challenge The waste management sector is Jordan’s second-largest emitter of greenhouse gases, with the most notable of those being…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "amman",
+      "label": "Amman"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The waste management sector is Jordan’s second-largest emitter of greenhouse gases, with the most notable of those being methane. These gases are mainly produced by organic waste that is not properly pre-treated.\n The Greater Amman Municipality (GAM) metropolitan area is home to 4 million of the country’s 9.5 million inhabitants. With a rapidly growing population, more waste is being produced. Waste management systems in the country, especially in the capital, are overburdened. Waste collected in Amman was being disposed of at the Al Ghabawi landfill without any treatment. Less than three percent of recyclable materials were recovered by the informal economy. \n The waste management staff lack practical expertise and resources to modernise the waste sector and mitigate harmful effects on the climate. In order to remedy these issues, recyclables need to first be separated and then treated in a separate process.\n The waste management project implemented by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ) is intended to support the Jordanian administration to lay the foundations for a climate-friendly waste cycle management program in the Greater Amman Municipality (GAM). Alternatives to using landfills will be created and emissions of greenhouse gases will be reduced. Recyclables will be collected separately and then utilised accordingly.",
+    "measures": "The challenge \n The waste management sector is Jordan’s second-largest emitter of greenhouse gases, with the most notable of those being methane. These gases are mainly produced by organic waste that is not properly pre-treated.\n The Greater Amman Municipality (GAM) metropolitan area is home to 4 million of the country’s 9.5 million inhabitants. With a rapidly growing population, more waste is being produced. Waste management systems in the country, especially in the capital, are overburdened. Waste collected in Amman was being disposed of at the Al Ghabawi landfill without any treatment. Less than three percent of recyclable materials were recovered by the informal economy. \n The waste management staff lack practical expertise and resources to modernise the waste sector and mitigate harmful effects on the climate. In order to remedy these issues, recyclables need to first be separated and then treated in a separate process.\n The waste management project implemented by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ) is intended to support the Jordanian administration to lay the foundations for a climate-friendly waste cycle management program in the Greater Amman Municipality (GAM). Alternatives to using landfills will be created and emissions of greenhouse gases will be reduced. Recyclables will be collected separately and then utilised accordingly.\n The approach \n In the pilot projects, various models for separate collection and recycling are being developed and tested in cooperation with the communities in three selected neighbourhoods. The models follow the National Solid Waste Management Strategy and Amman Strategic Waste Plan. They are adapted to different local and cultural conditions. The collected recyclables are treated and recycled in appropriate facilities. \n Training measures help qualify employees to plan and optimise routes and to collect and evaluate data. Employees also learn how to communicate with the producers of garbage regarding waste avoidance and separation of recyclables. Those responsible for the pilot composting and sorting systems not only receive operation and maintenance training, but they also learn how mass balances are prepared and costs are calculated. Sharing experiences at the local, national, regional and international levels is encouraged. Courses and conferences deepen knowledge and facilitate exchange, as does participation in specialised platforms, such as the “Connective Cities: Municipal know-how for host communities in the Middle East” platform.\n The results \n Three differently structured pilot regions, two residential areas and one business district were selected for the pilot introduction of the separate collection of recyclable materials. For the first pilot region, a working group consisting of community members of the residential area, representatives of the GAM, and national and international GIZ consultants was established. The evaluation of the current situation, including household surveys, was completed for the first pilot region in November 2018. Based on these results, a decision was made together with GAM to determine which collection systems would be tested for the separate collection of recyclable materials. In the first pilot area, around 3,100 households participated in the separate collection of waste and recyclables. As a result, around 1.6 tonnes of recyclable materials are recovered daily and will not end up in landfill.",
+    "outcomes": "Three differently structured pilot regions, two residential areas and one business district were selected for the pilot introduction of the separate collection of recyclable materials. For the first pilot region, a working group consisting of community members of the residential area, representatives of the GAM, and national and international GIZ consultants was established. The evaluation of the current situation, including household surveys, was completed for the first pilot region in November 2018. Based on these results, a decision was made together with GAM to determine which collection systems would be tested for the separate collection of recyclable materials. In the first pilot area, around 3,100 households participated in the separate collection of waste and recyclables. As a result, around 1.6 tonnes of recyclable materials are recovered daily and will not end up in landfill.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Household or community survey data",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/clean-cities-through-better-waste-management-systems/",
+    "publication_date": "2021-01-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27532",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=clean-cities-through-better-waste-management-systems&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:45:52",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

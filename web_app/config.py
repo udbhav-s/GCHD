@@ -56,6 +56,18 @@ HAZARDS = [
 
 HAZARD_MAP = {h["name"]: h for h in HAZARDS}
 
+# WorldPop splits population into age bands labelled by the first year each one
+# covers: 0 is under 1, 1 is 1-4, 5 is 5-9, 10 is 10-14, 15 is 15-19. UNICEF
+# counts a child as anyone under 18, which cuts the 15-19 band in the middle, so
+# that band is counted at three fifths and the rest are counted whole.
+#
+# The band named "population" is every age together. Using it would report the
+# whole population rather than children.
+CHILD_AGE_BANDS = ["0", "1", "5", "10"]
+CHILD_PARTIAL_BAND = "15"
+CHILD_PARTIAL_FRACTION = 0.6
+CHILD_AGE_LABEL = "under 18"
+
 HAZARD_TOPICS = {
     "Extreme Heat": ["maximum_temperature_era5_land_2024"],
     "Drought":      ["drought_pdsi_terraclimate_2024"],

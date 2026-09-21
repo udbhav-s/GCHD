@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-community-based-interventions-to-improve-river-health",
+  "url": "https://www.c40.org/case-studies/community-based-interventions-to-improve-river-health/",
+  "title": "100 Resilient Cities Pilot Project: Community Based Interventions to Improve River Health (Aller River)",
+  "summary": "This C40 case study describes “100 Resilient Cities Pilot Project: Community Based Interventions to Improve River Health (Aller River),” an urban initiative documented for Durban (eThekwini). It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The Take Back Our Rivers project (TBOR) is an initiative of eThekwini Conservancies Forum (ECF) that seeks to restore the river health…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Durban (eThekwini)",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Kwa-Zulu Natal",
+        "ucode": "ZAF_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "eThekwini",
+        "ucode": "ZAF_0004_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Take Back Our Rivers project (TBOR) is an initiative of eThekwini Conservancies Forum (ECF) that seeks to restore the river health of selected rivers in the eThekwini Municipal Area through rehabilitation and restoration strategies. The Environmental Planning and Climate Protection Department (EPCPD) partnered with ECF, through the Kloof Conservancy to pilot the TBOR project in the Aller River, which passes through the areas of New Germany and Clermont. The purpose of the pilot was to explore community-based interventions to improve river health. Some of the project key successes include, a cohort of well-trained young people that are working in the Aller River undertaking waste clean-up and river monitoring, improved river health, stakeholder engagement, establishment of cross-departmental collaboration (e.g. involvement of Water and Sanitation and Health departments in the monitoring of river health), and various awareness programme with the local schools, communities and local non-governmental organization partners.",
+    "measures": "Introduction\n At the end of 2013, Durban was selected as one of the first 32 cities to be included in the Rockefeller Foundation’s international 100 Resilient Cities Programme (hereafter referred to as 100RC). A key output from Durban’s participation in 100RC is the development of a ‘Resilience Strategy’ for Durban which is currently being finalized. Durban’s resilience journey began with a scoping and research phase in 2014 to understand some of the key resilience challenges in Durban. A number of issues were identified by Durban stakeholders as playing a critical role in either enhancing or undermining resilience through a number of stakeholder engagement processes.\n Some of the key ideas that emerged from this process were as follows;\n a) Environment: The importance of the natural environment in providing the foundation for human wellbeing, development and resilience. Issues of particular importance related to biodiversity, water and climate change and the need to address these as part of Durban’s resilience strategy.\n b) Active and engaged citizens: The resilience work highlighted the fact that government cannot work alone to implement what is needed to build a resilient city. Citizens who are active and engaged have a key role to play in mobilizing local action and contributing towards broader resilience objectives for the city.\n c) Capacity building: Capacity building plays a key role in creating awareness, building knowledge and equipping citizens with the skills they need to find employment and to contribute towards building a resilient society and economy. \n Pilot projects have been initiated through the 100RC programme to explore some of the ideas that have emerged and to understand what will be required to implement them. The Take Back Our Rivers pilot project provided an opportunity to test ways in which to address the three resilience issues described above, simultaneously.\n\nThe ‘Take Back Our Rivers’ initiative flagship project of the Kloof Conservancy project seeks to restore the river health of selected rivers across eThekwini Municipality, through river assessments, rehabilitation and various restoration strategies and resource mobilization for implementation. Whilst the ‘Take Back our Rivers’ initiative is being coordinated by the Kloof Conservancy, it is important to stress that this is a project of the eThekwini Conservancies Forum (ECF). ECF is part of the regional node of conservancies ‘Conservation KZN’ and represents all conservancies in the eThekwini Municipal Area. The pilot was implemented on the 5.8 km stretch of the Aller River, which passes through New Germany and Clermont. The piloted area is situated across different communities (middle class residential area; industrial area; and low income/informal housing), and provided an opportunity to mobilize diverse members of the community living alongside the river to ensure the sustainability of the work.\n The pilot project approach provided an opportunity to assess how river ecosystems can be managed and monitored through active engagement of citizens who have been appropriately capacitated to undertake the work that is required, thereby contributing towards building a resilient and sustainable city.",
+    "outcomes": "There have been a number of successes achieved in this project implementation, but it is acknowledged that a year is not enough for a project of this magnitude. Therefore, more funding is still required to maintain a clean, alien invasive free Aller River and to sustain the work that the Eco-Champs do. The funding provided by eThekwini Municipality during the pilot project enabled the project team to leverage funding for phase 2 of the project from Cambridge University. The Cambridge University funding will fund the project from June 2017 until January 2018. \n There is significant potential to incorporate the TBOR approach to be applied to other rivers. This comprehensive project concept could be adopted and adapted into the Palmiet Rehabilitation Pilot Project (PRP), which has received funding from Aqueduct Program. The money is to be used towards the rehabilitation of ecological infrastructure within the catchment.\n The Palmiet Rehabilitation Project is a climate change adaptation oriented project. The project primarily focuses on conservation, rehabilitation & restoration of natural systems within the catchment to improve river health and surrounding community resilience. The Climate Protection Branch within the EPCPD, which oversee the PRP is pursuing a similar partnership with the Kloof Conservancy to replicate and upscale the Aller River concept into the Palmiet Catchment as an approach to implement the project.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The ‘Take Back Our Rivers’ initiative flagship project of the Kloof Conservancy project seeks to restore the river health of selected rivers across eThekwini Municipality, through river assessments, rehabilitation and various restoration strategies and resource mobilization for implementation. Whilst the ‘Take Back our Rivers’ initiative is being coordinated by the Kloof Conservancy, it is important to stress that this is a project of the eThekwini Conservancies Forum (ECF). ECF is part of the regional node of conservancies ‘Conservation KZN’ and represents all conservancies in the eThekwini Municipal Area. The pilot was implemented on the 5.8 km stretch of the Aller River, which passes through New Germany and Clermont. The piloted area is situated across different communities (middle class residential area; industrial area; and low income/informal housing), and provided an opportunity to mobilize diverse members of the community living alongside the river to ensure the sustainability of the work.\n The pilot project approach provided an opportunity to assess how river ecosystems can be managed and monitored through active engagement of citizens who have been appropriately capacitated to undertake the work that is required, thereby contributing towards building a resilient and sustainable city."
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/community-based-interventions-to-improve-river-health/",
+    "publication_date": "2017-09-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27370",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=community-based-interventions-to-improve-river-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

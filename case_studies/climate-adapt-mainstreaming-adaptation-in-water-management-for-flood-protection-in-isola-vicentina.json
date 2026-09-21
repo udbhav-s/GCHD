@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-mainstreaming-adaptation-in-water-management-for-flood-protection-in-isola-vicentina",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-adaptation-in-water-management-for-flood-protection-in-isola-vicentina",
+  "title": "Mainstreaming adaptation in water management for flood protection in Isola Vicentina",
+  "summary": "Isola Vicentina is prone to flooding stemming from the main rivers and the minor local drainage network, as well as, from extreme precipitation events, which are happening almost every year and are expected to increase in magnitude and frequency. Municipal Water Management Plans (MWMPs) enable an analysis of the local drainage system, getting an accurate picture over administrative and maintenance responsibilities, to identify the most urgent (and locally relevant) problems of poor drainage, and the related flood protection measures.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Isola Vicentina",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": "country/ITA",
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": "ITA_0020_V1",
+        "dcid": null,
+        "source_code": "SUBN_Veneto__IT_",
+        "source_name": "Veneto (IT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "prepardness",
+      "label": "prepardness"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mainstreaming",
+      "label": "mainstreaming"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protection",
+      "label": "protection"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "prevention",
+      "label": "prevention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Green infrastructure",
+      "label": "Green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water drainage",
+      "label": "water drainage"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "MWMPs are local plans (until now in force only in the Veneto Region) born as coordination tools between municipalities and land reclamation authorities. Their objective is to allow a shared analysis of the local drainage system, getting an accurate picture over administrative and maintenance responsibilities, to identify the most urgent (and locally relevant) problems of poor drainage and the related flood protection measures. In the case of Isola Vicentina, the MWMP has been set up with a more ambitious adaptation approach: the idea is to transform the MWMP in a local flood adaptation plan which couples prevention, protection and preparedness strategies. Suggesting how to modify the physical structure of built-up areas, as well as citizens’ behaviour and social organization, the plan tries to reduce the long-term potential damage (up to flood with a return period of 1/300 years) generated by climate change. In other words, the MWMP aims to solve current and future local hydraulic problems acting also on the vulnerability of buildings, infrastructure and people, promoting sustainable land use practices and bridging this new climate adapted knowledge into other sectorial spatial planning tools.",
+    "measures": "The analyses carried within the MWMP put together different flood hazard data: The hazard stemming from the main river network was taken from official maps and plans: the Hydrogeological Plan ( Piano di Assetto Idrogeologico in Italian); the new Eastern Alps’ Flood Risk Management Plan, etc.; Local authorities (such as Alto Vicentino land reclamation authority, civil protection organisations, municipal authority, etc.) have been involved to collect information on historical events generated by the local drainage system; Finally, citizens’ local knowledge and direct experience was directly surveyed through consultative public meetings. Results were then compared and integrated with those coming from the MWMP’s flood frequency estimation and local conveyance capacity analysis. This process led to the identification of more than 20 areas suffering poor drainage or flooding issues. Several measures were identified for each critical area. As suggested by the Flood Directive (2007/60/EC), the proposed measures were divided into three main typologies: Prevention measures, aiming to prevent damage occurrence avoiding new developments in flood-prone areas, structurally adapting urban fabrics and reducing soil-sealing and surface runoff generation through Sustainable Urban Drainage Systems (SUDS). A purely theoretical scenario prepared during the MWMP elaboration showed a potential decrease in the flood extent of about 40% (compared to the present land use) if the whole un-built area would be reforested. Thanks to this information, the municipal authority gained a better understanding on the need to preserve woodlands, and is now envisaging to convert some grassland and uncultivated fields into wooded areas. Moreover, a ten-hectare pilot area was identified to simulate in reality how the preservation of woodlands can improve the resilience of the municipal territory to flooding and landslides. Protection measures, aiming to reduce the likelihood of floods and/or the impact of floods in a specific location, such as restoring flood plains and wetlands, building flood defences or enhancing the conveyance capacity of the drainage network. About 50 protection measures were identified and planned within the MWMP, including: cleaning up rivers and streams, enlarging existing ditches, opening new roadside ditches, creating new retention areas, widening the existing urban drainage network, etc. In particular, a water retention area is already going through the design and implementation phases, thanks to a regional funding. The retention measure (with a water capacity of about 1 million cubic meters) is located in a South area of the Isola Vicentina Municipality, on the Orolo River. It mainly aims to protect downstream municipalities (in particular Vicenza) from the main river floods, reducing and temporarily storing a portion of the flood-wave. Preparedness measures, aiming to provide instructions to citizens on how to react/respond in case of flooding events. Starting from the existing documents and guidelines produced by the Italian civil protection service, Isola Vicentina citizens have been equipped with a booklet on what to do before/during/after a flood in their territory. Moreover, citizens were trained through a cycle of 4 public workshops.",
+    "outcomes": "The elaboration of the MWMP, according to an adaptive approach has been possible thanks to the determination of the municipal government of Isola Vicentina, the scientific support of the IUAV University and the field work carried out by municipal and technical consultants. A relevant role was also played by the whole citizenship, who was directly involved in site surveys and in the identification of the most critical areas (thanks to their past experience of flooding). The development of the plan has been hampered by two main elements: A single municipality was in charge of the MWMP, without an official coordination with surrounding municipalities: as a consequence, downstream municipalities will benefit from the implementation of some risk reduction measures, whereas some critical issues generated outside (upstream) Isola Vicentina could not be solved by the plan. The definition of the exact responsibilities of each stakeholder group (including farmers for agricultural practices and rural drainage; home-owners for cleaning of private urban ditches and reduction of soil-sealing; water companies for urban storm-water management) over the various drainage system components was not easy to be agreed.",
+    "cost_benefit": "The cost for the elaboration of the MWMP was €25.000. According to the plan, the cost for structural protection measures range from about €2 million (up to flood with a return period of 1/50 years) to about €4 million (up to flood with a return period of 1/100 years). Minor interventions will be paid (or directly realized) by the municipal authority and private citizen. Major works, involving wider areas and catchments going beyond the municipal boundary, will require the economic contribution of the “ Alta Pianura Veneta” land reclamation authority (a public-private consortium made up of all landowners in the area of competence) and of the Veneto Region government, the availability of which will depend upon the political choices of the next years. Considering that the total damage of the 2010 flood exceeded €400 million, and that damages for €80 million affected just the Caldogno municipality, which is just downstream Isola Vicentina, the convenience of the planned risk reduction measures clearly emerges.",
+    "timeline": "The MWMP elaboration process started in October 2015 and was concluded in June 2016. Planned measures will be implemented from 2017 to 2022, considering two 3-years steps. The implementation of the first measures already started with: (i) the adoption of management and maintenance regulation framework over private ditches, (ii) the design and construction of a water retention area in a southeast area of the municipality, (iii) the designation of a ten-hectares pilot area where to simulate how the preservation of woodlands can improve the resilience of the whole municipality to flooding and landslides.",
+    "lifetime": "The MWMP has a lifetime of six years (in line with the Flood Directive), which corresponds to its implementation time-frame.",
+    "stakeholders": "During the MWMP elaboration process – through four public workshops – citizens and local stakeholders were consulted and involved in order to envisage locally suited flood risk reduction measures, and gather feedback on the proposed actions. Final MWMP measures were selected comparing the results obtained from the hydrologic/hydraulic analysis with people’s priorities and feedback. Beyond the general public, targeted key stakeholder groups (such as farmers, business people and the landowners of flood-prone areas) were explicitly invited. Around 200 people participated to these meetings. In general, all participants were highly motivated since the 2010 flood affected adjacent municipalities, generating fear and increasing the relevance of the issue in the public opinion. Consequently, these workshops were also used to spread flood risk awareness and train people on how to cope with extreme weather conditions. Finally, given the existence of non-structural measures directly involving all the inhabitants in the local water management, the public participation and consultation process was also aimed to spread good practices and behavioral daily guidelines (e.g. on management and maintenance of small water courses).",
+    "legal_context": "The whole MWMP elaboration was inspired by the flood risk management approach suggested by the Flood Directive (2007/60/EC), focused on prevention, protection and preparedness strategies. A specific chapter of the MWMP explicitly lists all the regional and national laws related to the plan, among which the major ones are: Lgs. 152/2006 (Italian environment act); Lgs. 49/2010 (Italian Flood Directive implementation act); G.R. 3637/2002 - D.G.R. 1322/2006 - D.G.R. 1841/2007 - D.G.R. 2948/2009 (Veneto Region: standards for stormwater and flood management in urban areas); R. 11/2004 (Veneto Region: spatial planning act); R. 12/2009 (Veneto Region: land reclamation act); D.G.R. 427/2013 (Veneto Region Spatial Plan, which includes the MWMP directive."
+  },
+  "point": {
+    "lat": 45.6274842123,
+    "lon": 11.4477539062,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "comune.isola-vicentina.vi.it",
+      "url": "http://www.comune.isola-vicentina.vi.it",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/mainstreaming-adaptation-in-water-management-for-flood-protection-in-isola-vicentina",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "128874d3e68c44499ba849e272554a39",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/mainstreaming-adaptation-in-water-management-for-flood-protection-in-isola-vicentina",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:44+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

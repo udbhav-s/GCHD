@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-washington-d-c-world-s-largest-thermal-hydrolysis-plant",
+  "url": "https://www.c40.org/case-studies/cities100-washington-d-c-world-s-largest-thermal-hydrolysis-plant/",
+  "title": "Cities100: Washington D.C. – World’s Largest Thermal Hydrolysis Plant",
+  "summary": "This C40 case study describes “Cities100: Washington D.C. – World’s Largest Thermal Hydrolysis Plant,” an urban initiative documented for Washington, DC. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The largest thermal hydrolysis installation in the world helps Washington, D.C. produce bioenergy more efficiently while turning waste into a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Washington, DC",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "District Of Columbia",
+        "ucode": "USA_0009_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Similar to other major cities, Washington, D.C. is affected by fluctuating energy prices. By investing in the thermal hydrolysis facility, the city provided itself a self-sufficient energy system that decreases its vulnerability to energy price fluctuations and increases its long term resilience to climate change.",
+    "measures": "Washington, D.C. has brought to scale one of the most innovative waste-to-energy technologies by building the Walter F. Bailey Bioenergy Facility, the largest thermal hydrolysis installation in the world. The system produces 10 MW of electricity and supplies one-third of the power requirements of the connected Blue Plains wastewater facility. Thermal hydrolysis is a process in which remaining solids from wastewater treatment are exposed to high heat and pressure that weaken the cells’ structure and accelerate the production of methane as the solids biodegrade. The methane is used to generate energy; steam generated in the process is then fed back into the system to assist the initial heating step. As the procedure purifies the remaining waste solids, or biosolids, which can then be used as natural fertilizers, thermal hydrolysis transforms waste into a productive resource with positive benefits for the environment. The sanitized residue is used around the District as a natural fertilizer for urban gardens and green infrastructure projects, and the city is planning a large-scale commercialization of the fertilizer.\n Environmental Benefits – DC Water, the District’s water utility, will process 200,000 tons of biosolids per year into nutrient rich soil that meets or exceeds all Environmental Protection Agency standards for soil production and use in rural and urban settings.\n Economic Benefits – DC Water is saving $10 million per month. The savings are reflected in customer rates.\n Health Benefits – The efficient thermal hydrolysis process eliminates the need for 40 daily truck trips to haul biosolids offsite for land application in Virginia, improving air quality in the region.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-world-s-largest-thermal-hydrolysis-plant/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27176",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-world-s-largest-thermal-hydrolysis-plant&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-addis-ababa-bus-depots",
+  "url": "https://www.c40.org/case-studies/addis-ababa-bus-depots/",
+  "title": "Shegole and Kality Climate-Smart Bus Depots",
+  "summary": "This C40 case study describes “Shegole and Kality Climate-Smart Bus Depots,” an urban initiative documented for Addis Ababa. It is included because it addresses river flood, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Addis Ababa has overseen the construction of two climate-smart bus depots, with waste and wastewater treatment systems, green roofing, charging points for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Addis Ababa",
+      "adm0": {
+        "name": "Ethiopia",
+        "ucode": "ETH_V1",
+        "dcid": null,
+        "iso3": "ETH"
+      },
+      "adm1": {
+        "name": "Addis Ababa",
+        "ucode": "ETH_0001_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "addis-ababa",
+      "label": "Addis Ababa"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Addis Ababa has overseen the construction of two climate-smart bus depots, with waste and wastewater treatment systems, green roofing, charging points for electric buses and solar panels incorporated into the design .",
+    "measures": "Addis Ababa launched the construction of two bus depots (“Shegole” and “Kality”) in 2016. Both depots host multiple services, which include washing bays, fueling stations, maintenance services and parking (both underground and ground level). The depots are climate-smart, as waste and wastewater treatment systems, green roofing, charging points for electric buses and solar panels are incorporated into the depots’ design. For instance, the depots have wastewater recycling capabilities and the washing bays use their own underground water. Moreover, these new depots will reduce the distance travelled by empty buses returning to their bases at the end of their shifts.\nShegole and Kality cover an area of 5.35ha and 5.24ha respectively. Each bus depot is intended to serve 250-300 buses on a daily basis, which will greatly reduce unnecessary trips and congestion. When operational, the depots serve all public transport enterprises operating in the city, both privately and publicly owned.\n What is the innovation/policy/project/technology? How does it work \n The city currently does not have a modern bus depot which provides all the above services in one stop. Furthermore, compared to the older bus terminus stops, these new depots will serve both public and privately owned buses. These make the depots unique at the city level as well as at the national level.\n The project is funded by the Addis Ababa City Administration. Within the city administration, there are a number of institutions working on the issue of transport, including the Addis Ababa Transport Program Mangement office. The Office is responsible for undertaking the construction of these depots. The city’s clear Transport Policy with a set vision to increase the mobility of passengers and efficiently deliver goods and services served as the basis for actors in the transportation sector to design such a large project with the city fund. After their completion, the depots will be handed over for management to the Anbessa city bus service enterprise which is a city-owned public transport company. The city budget capacity, ambitious city legislation, and financing mechanism all contributed to increasing the success potential of the project. \n What are the climate goals/achievements? \n CO2 emission reduction : Planned solar panels, green roofs, electric charging points, and waste management systems all constitute important CO2-mitigating actions. The project will also reduce idle trips made by buses returning to their origin points, which will reduce fuel consumption.\n Resilience: Vulnerability to run-off climate change is also addressed in the project as the depots will use underground water that has a system which recycles up to 80% of used water. The water for washing the buses is pumped from groundwater wells with pumping capacities of 8 m 3 /hour. The water is then recycled in a water recycling plant, while liquid waste from the whole block and the site will be treated in a wastewater treatment plant. Each depot has two reservoirs with the capacity of holding 150 m 3 of water. The waste management system and green roofing can be taken as examples to mitigate flooding from the currently strained city-wide drainage system.\n Air Quality and Waste Management: The transport and waste management sectors are two of the main contributors to air pollution in Addis Ababa. In the transport sector, the main causes have been identified as the large quantity of aged vehicles with poor fuel efficiency on the road, as well as the low quality of the fuel used. The new Shegole and Kality bus depots will enable the acquisition of new, fuel-efficient vehicles. Responsible waste management in the depots will also have an impact on reducing air pollution.\n Next Steps \n The city has a plan to scale-up the construction of depots in the coming years. Recently, the city decided to build an additional depot – the design and environmental impact assessment have been finalized. \n Links to further Information \n More info and image retrieved from: https://resilientaddis.org/2019/02/07/69-2/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/addis-ababa-bus-depots/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27469",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=addis-ababa-bus-depots&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+  "title": "Online monitoring and early warning system for bacterial contamination in public surface waters in Breda, the Netherlands",
+  "summary": "A remote monitoring system for the presence of potentially harmful bacteria in surface and river waters triggers early warnings for local authorities in Breda. This allows them to take preventive measures and protect people against negative health impacts of microbiological contamination when recreating in public waters.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Breda",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": "country/NLD",
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Noord-Brabant",
+        "ucode": "NLD_0007_V1",
+        "dcid": null,
+        "source_code": "SUBN_Noord_Brabant__NL_",
+        "source_name": "Noord-Brabant (NL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The overall objective of online enzyme monitoring and early warning in Breda is to monitor microbiological water quality of its open waters and to mitigate negative health impacts due to deteriorated water quality. More specifically, this includes: Improving, accelerating and allowing for more frequent detection of incidents impairing microbiological water quality; Reducing the time between contamination and response; Informing/alerting public authorities and the public about water quality and restrictive measures.",
+    "measures": "The city of Breda shares up-to-date information on the water quality of its surface waters that are frequently used by the public for recreation. Maps visualize traffic light information based on bathing water quality standards from the Bathing Water Quality Directive , i.e. green for water quality meeting the standards in official bathing waters [1] ; orange for water quality meeting the standards in non-official bathing waters; red for surface water quality below the standards, hence posing a health risk. To allow for a quick and effective assessment of the water quality, the city of Breda uses an online enzyme monitoring system, BACTcontrol [2] . It allows early detection of deterioration in the microbiological quality of water, enabling preventative actions and early warnings to maintain the microbiological quality of water and to protect public health. The BACTcontrol sensor continuously takes samples in the water and analyzes them on the spot for the presence and activity of specific enzymes of E.coli , coliforms, enterococci and bacteria in general, as an indicator of the presence of bacterial contamination. The system transmits the measured data online to a data platform, where local city authorities can consult, review and translate the information. If threshold concentrations are exceeded, warning notifications and changed traffic light information are exchanged with the public via a public website . If the microbial concentrations reduce and meet the bathing water quality standards again, the system allows for a quick removal of the warning message to the public. Physical water sampling and lab or mobile analysis complement the online enzyme monitoring system after the latter has given a warning message for further investigation and evaluation of the contamination. [1] Since there are no surface waters that are allowed to become official bathing waters in the city, the green light is not assigned in Breda. [2] Manufactured by microLAN, the Netherlands",
+    "outcomes": "The BACTcontrol system allows for quick analysis (1-2 hours) and requires limited manual work, which can be carried out at the sampling location in contrast with conventional microbiological methods requiring lab-grown cultures (24-48 hours). This results in almost real-time warning messages in case of contamination, which contributes to the prevention of health risks.",
+    "cost_benefit": "The system costs around EUR 85 000 on an annual basis. This includes the annual cost for operating the BactControl sensor between May and September (bathing season) of around EUR 30 000. The required lab sampling and analysis for microbiological contamination complementing the in-situ enzymatic measurements cost around EUR 20 000 annually. Annual costs for the management of the public website with warning message and water quality information sum up to EUR 10 000, while another EUR 25 000 has to be allocated to data analysis, policy follow-up and work instructions. At the macro-level, the speed and accessibility of online monitoring and early warning for bacterial contamination in public waters prevents significant social and environmental costs by protecting public health against water-borne diseases. The online monitoring system provides public authorities with continuous insights into the water quality of surface waters, which allows them to issue timely warming messages. Climate change is expected to increase the frequency of incidents compromising surface water quality, so public health authorities, water utilities, municipalities and recreation managers can prevent significant social and environmental costs by being prepared to rapidly detect microbiological risks and respond to water quality issues.",
+    "timeline": "Completion of testing and validation of the enzyme monitoring and early warning system takes several months.",
+    "lifetime": "In the future, the online monitoring and early warning system will remain highly relevant for stakeholders involved in water management and public health. Considering warming and the projected increase in flooding, authorities responsible for managing surface water quality will increasingly rely on monitoring tools to manage microbiological contamination and early warning systems to protect human health. Very specifically, the BACTcontrol sensor is developed to require limited maintenance and to function unattended for several months. The associated portal that issues early warning system for the public requires regular updates.",
+    "stakeholders": "The implementation of the water quality monitoring and early warning system involves several stakeholders, including public authorities in water management, public health and recreation, local (i.e., city level) and national regulators, as well as the research and private sector stakeholders. The regional water authority ( Waterschap Brabantse Delta ) in collaboration with Aquon is responsible for data collection, while the city of Breda focusses on data processing and disclosure. While the BACTcontrol technology was developed by the private company microLAN and the measuring plan by the private company Partners4Urbanwater , engagement of water management and public health authorities in the city of Breda [1] contributed to successful development and implementation of the integral operational system. [1] The system was also implemented and tested in other cities, including Amsterdam (the Netherlands)",
+    "legal_context": "Existing legislation such as the European Bathing Water Directive regulate water quality in recreational waters. As online enzyme monitoring is a developing technology, it is currently not regulated nor required under existing regulatory frameworks for bathing waters."
+  },
+  "point": {
+    "lat": 51.5930421967,
+    "lon": 4.77615594864,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "microlan.nl",
+      "url": "https://www.microlan.nl/monitoring-products/bactcontrol-online-monitor-of-total-and-specific-bacteria-activity-in-water/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "microlan.nl",
+      "url": "https://www.microlan.nl/2023/03/16/smart-city-and-bathing-water-monitoring/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "admin.recreatiewater-breda.nl",
+      "url": "https://admin.recreatiewater-breda.nl/Waterkwaliteit/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+    "publication_date": "2024-04-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e91b71d3d973473e8b8864b33f755202",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/online-monitoring-and-early-warning-system-for-bacterial-contamination-in-public-surface-waters-in-breda-the-netherlands",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:23:15+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+  "title": "Relocation as adaptation to flooding in the Eferdinger Becken, Austria",
+  "summary": "Eferdinger Becken in Austria successfully reduced flood vulnerability by offering 80% compensation for the voluntary relocation of 154 flood-prone houses after major flooding in 2002 and 2013. The rapid negotiation and allocation of a 250 million EUR budget facilitated substantial compensations, encouraging residents to move. The area of the Eferdinger Becken, Upper Austria, is a small area that lies on the Danube. It has no protection against floods with a 100-year return time: the flood-prone area includes about 154 houses that flood regularly.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Eferding",
+      "adm0": {
+        "name": "Austria",
+        "ucode": "AUT_V1",
+        "dcid": "country/AUT",
+        "iso3": "AUT"
+      },
+      "adm1": {
+        "name": "Oberösterreich",
+        "ucode": "AUT_0004_V1",
+        "dcid": null,
+        "source_code": "SUBN_Oberösterreich__AT_",
+        "source_name": "Oberösterreich (AT)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "compensation",
+      "label": "compensation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "relocation",
+      "label": "relocation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Community",
+      "label": "Community"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "resettlement",
+      "label": "resettlement"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "social",
+      "label": "social"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The region is one of the most river flood-prone areas in Austria with major flood events occurred in 1991, 1997, 2002 and 2013. As a consequence, the national and regional authorities have focused their attention on the development of various adaptation strategies, such as relocation of large parts of the houses in the area. The aims was to integrate all potential residents into the relocation program, especially to communicate the potential hazards and risks, define problems and to find common objectives and measures. Furthermore, key tasks were to organise and ensure financial support to relocation from the regional and national authorities.",
+    "measures": "After the major flooding events in 2002 and 2013 it became clear that the only truly effective flood protection measure in the Eferdingen Becken area is relocation of households away from the highest risk areas. This was supported by the results of a cost-benefit analysis that found relocation to be the most cost efficient option of adaptation. In consultation with the affected households and other interested parties (e.g. the civil protection authorities), a mapping of the area for resettlement was undertaken and approved in a short time and in high agreement. It included 154 properties. In order to be able to offer a compensation of resettlement for the house owners, the local government negotiated and agreed with the Ministry of Finance on support by the national funds. The federal support amounted to 250 million EUR. Additional to federal funds, the regional government provided 75 million EUR funding. The rate of compensation was fixed at 80% of the value of the existing house, determined by an independent valuation. The majority of the valuations indicated compensation volumes below 500,000 EUR, with some properties set to receive compensation above 500,000 EUR. The Federal Ministry of Finance proofed the valuations and approved the proposed sums of compensation. The households had to apply for relocation compensation before end of year 2015, which was later extended to mid-2016. Property owner can decide on its own whether to apply for the relocation compensation and accept the related offer. By January 2016 149 households had requested and 146 already received relocation compensation offers. Out of those, 80 home owners have decided to relocate while the others decided to stay. The residents who decided to move were supported in obtaining substitute plots of land in the region (usually former forest and semi natural areas) at an affordable price. To achieve this goal, the regional authorities dedicated special areas (replacement properties) for the householders for their relocation. Furthermore, the regional authorities fixed the purchase price to overcome the potential pitfall of land price speculation within the region. The first payments of the compensations started at the beginning of 2015. 20% of the funding is used for necessary demolitions, deposition of debris and re-cultivation of the area. The long-term construction prohibition for each of the vulnerable land plots is fixed by an entry in the land registry. There is however an exception provided for those who choose to stay in the flood prone area and decide to move to higher floors in their houses – reconstruction of these higher floors for living purposes is permissible.",
+    "outcomes": "Due to attachment to the property and disbelief in repeated high flooding risks the first organised waves of voluntary relocation did not gain sufficient interest from home-owners. However, the extreme floods and high losses of 2002 and 2013 served as ‘eye openers’ and convinced many of the residents to decide on resettlement. A 250 million EUR budget for flood protection including resettlements and technical flood protection in the Eferdinger Becken was negotiated with the federal government and bindingly secured with a state contract in a record time, unique in the history of the country. This allowed offering 80% of house value compensations to the relocation volunteers, which served as one of the key success factors. The local authorities also designated some limited special relocation areas and fixed land prices to avoid land price speculations. People who are affected by relocations are confronted with profound changes in their lives. This requires overcoming the emotional attachment to the place and in particular to adapt to the new environment, as well as coping with financial burden and re-building a new neighbourly social network. The non-movers were most likely older and less mobile people who are in fact less resilient to cope with future flood events. The consequences were higher vulnerability within the remaining communities with the fact that younger people (more likely to be resilient) moved away. Nevertheless, the relocation process can be seen as success story, wherein the exposure and vulnerability to climate change in the flood-prone areas were reduced. Another success factor seems to be the fact that each property owner can decide on its own if she/he accepts the offer. This is fundamental different to other reallocation action in Austria where the community had to decide commonly for or against the reallocation (e.g. Marchland).",
+    "cost_benefit": "In total a budget of 250 million EUR was agreed by the provincial (regional) and federal (national) government. The costs for the resettlement are shared between the federal level (50% of the calculated time value of the buildings including destruction costs) the province level (30%) and the owner (20%). Overall, the key aim to reduce the exposure to flooding risk and to keep the retention volume along the River Danube has been achieved. At January 2016 the exposure of households to flooding risk in the area was reduced by more than 50% (taking into account the number of households that have already decided to relocate), which will increase as more home owners accept the relocation offers. The relocation process was supported by a cost-benefit assessment which however is not publicly accessible.",
+    "timeline": "Unclear, but experiences from other cases in Austria show that the process can take more than 10 years. In January 2016, 146 owners out of 154 included in the specific risk zone (protection zone for flooding) have received a funding offer for resettlement. 80 of them have accepted the offer. Nine buildings were already completely destructed by the end of 2016.",
+    "lifetime": "The relocation is permanent.",
+    "stakeholders": "Although the first organised waves of relocation were received by the local population with high reservations and did not attract many volunteers for resettlement, after the 2013 flooding event the residents increasingly began to inquire about relocation possibilities and support. The regional government developed a map of resettlement areas based on risk levels, and the level of difficulty to provide technical solutions and hazard response. The map was discussed and agreed with the mayors of the affected municipalities, representatives from the communities as well as with an advisory committee which was set up to represent all interested parties. As a result in January 2016 146 out of 154 highly affected property owners applied for the valuation of compensation and 80 out of those finally decided for resettlement.",
+    "legal_context": "The properties from which the citizens will be reallocated will not change ownership. The property ownership will remain, but the zoning will be changed from building area to grass land and future building activities are strongly restricted (e.g. buildings for agricultural production are allowed if this is needed by agricultural production laws). The cost sharing between the federal and provincial level is regulated in a specific inner-Austrian contract according to the Austrian constitution. The construction time of the building played an important role if funds can be granted. According to the technical guiding principles for the federal waterways administration (RIWA T BWS) no flood protection measures for buildings and infrastructure erected after 01.07.1990 can be funded in Austria. In the case of the Eferdinger Becken relocation and related compensation are defined possible according to a legal opinion."
+  },
+  "point": {
+    "lat": 48.3124279041,
+    "lon": 14.0618133545,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "land-oberoesterreich.gv.at",
+      "url": "https://www.land-oberoesterreich.gv.at/193034.htm",
+      "role": "contextual_input"
+    },
+    {
+      "name": "land-oberoesterreich.gv.at",
+      "url": "https://www.land-oberoesterreich.gv.at/184800.htm",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+    "publication_date": "2017-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "6b85bf285fbc438b80d0841aa1d296b0",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/relocation-as-adaptation-to-flooding-in-the-eferdinger-becken-austria",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:13+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

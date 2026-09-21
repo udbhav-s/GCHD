@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-kruibeke-bazel-rupelmonde-belgium-a-controlled-flood-area-for-flood-safety-and-nature-protection",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/kruibeke-bazel-rupelmonde-belgium-a-controlled-flood-area-for-flood-safety-and-nature-protection",
+  "title": "Kruibeke Bazel Rupelmonde (Belgium): a controlled flood area for flood safety and nature protection",
+  "summary": "The Kruibeke Bazel Rupelmonde (KBR) Controlled Flood Area is a key part of Belgium's Sigma Plan, providing flood protection for 20000 hectares in the Scheldt Estuary while also offering restored habitats and recreation. It proved its efficacy for the first time during the strong tide event of January 2018, offering a useful buffer area and preventing a dangerous flooding. The Kruibeke Bazel Rupelmonde (KBR) Controlled Flood Area (CFA) is a key component of the Belgian Sigma Plan for the Scheldt Estuary . The Sigma Plan is an integrated flood protection plan that combines dikes, seawalls and flood areas to protect approximately 20,000 hectares of land from flooding.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Belgium",
+        "ucode": "BEL_V1",
+        "dcid": "country/BEL",
+        "iso3": "BEL"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Prov. Antwerpen",
+        "ucode": "BEL_0003_0001_V1",
+        "dcid": null,
+        "source_code": "SUBN_Prov__Antwerpen__BE_",
+        "source_name": "Prov. Antwerpen (BE)"
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Rupelmonde",
+      "label": "Rupelmonde"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sigma Plan",
+      "label": "Sigma Plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Bazel",
+      "label": "Bazel"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Kruibeke",
+      "label": "Kruibeke"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "controlled flood areas",
+      "label": "controlled flood areas"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature compensation",
+      "label": "nature compensation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Scheldt Estuary",
+      "label": "Scheldt Estuary"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The primary objective of the KBR Controlled Flood Area is to reduce flood risks along the Scheldt and its main tributaries, including the perspective of climate change and sea-level rise. With the addition of on-going and future Sigma Plan projects, the minimum level of flood protection throughout the Scheldt estuary will be improved further. As a result, flood events are projected to occur only once every 1,000 years, taking into account a sea level rise of 25 cm by 2050. The secondary objective of the KBR is to provide nature compensation for the expansion of the port of Antwerp and for related large infrastructure works: the site’s nature compensation area includes 150 hectares of bird meadow for works related to the port’s Deurganck Dock and 300 hectares of tidal marshland for Scheldt infrastructure works.",
+    "measures": "The Kruibeke Bazel Rupelmonde (KBR) Controlled Flood Area was created by lowering the height of the former flood protection dikes along the Scheldt and constructing new dikes further inland at the appropriate flood protection height. The KBR site provides a major contribution to flood safety along the Scheldt estuary due to its large size (600 hectares), its strategic location and the low level of the land, ensuring a large water storage capacity. The KBR controlled flood area consists of what were originally three separate, contiguous polders (areas of reclaimed land), the Kruibeke, Bazel and Rupelmonde polders. These polders were used predominantly for agricultural and recreational purposes such as fish ponds. While these functions could be conserved to a large degree within a controlled flooding area, it was instead decided to convert the area into a nature area as compensation for areas affected by the expansion of the Antwerp port and work in the Scheldt River. This choice to develop nature within the CFA reflects the integrated approach of the Sigma Plan, which combines flood protection and nature protection. Already prior to the project, the three polders were designated as Special Protection Zones under the EU Habitats Directive, based in particular on the presence of priority habitats of ‘remaining relict woods on alluvial grounds’. Furthermore, the polders were indicated as protected under the Birds Directive. To create the required compensation for natural areas affected by the port of Antwerp and other infrastructure works, 300 hectares of tidal marshes, 150 hectares of meadow bird area and 91.9 hectares of forest were developed within the Controlled Flood Area. For the purpose of creating tidal marshes, several weirs have been inserted in the outer dike to allow a controlled tide within the CFA. The system allows water from the Scheldt to flow into the area through high weirs during high tide, and exit the area during low tide through low weirs. The high weirs are important as they allow the effects of high and neap tides to occur within the KBR CFA. Furthermore, the combination of outlet and inlet weirs allows for a regular exchange of organisms and nutrients between the Controlled Flood Area and the Scheldt. One low weir is kept open on a nearly permanent basis to allow a continual exchange of water between the Scheldt and the Kruibeekse Creek. Weirs were designed as fish friendly, to support fish migration. The weirs are also essential for removing excess water from the CFA after storm surge events that overtop the outer dikes. They can also be used prior to an expected storm surge event in order to maximize the water catchment capacity of the CFA. The CFA came into operation in 2015. It proved its efficacy for the first time during the strong tide event of January 2018, offering a useful buffer area and preventing a dangerous flooding. The polders do not only form a controlled flooding area but they also provide a wide natural area. Through the participation in the LIFE funded SCALLUVIA project (2013-2018), about 90 hectares of alluvial forest and creeks were restored, fish stocks were managed and recreational use of the area was enhanced. In addition, the project has integrated recreational functions throughout the site, including paths for hiking and biking, educational signposts, observation points and recreational fishing opportunities. The polders of Kruibeke, Bazel and Rupelmonde form the largest and most frequented Sigma Plan site in Flanders, which is becoming a popular tourist attraction for leisure activities. A number of works just outside of the KBR CFA have also been undertaken. They include the creation of a small area of depoldered land along the Scheldt River just in front of the outer dike of the CFA and two water catchment areas on the landward side of the inner dikes. The depoldered area has been fully exposed to the tide as dike protection has been moved further inland, creating a tidal wetland. The two catchment areas were created to store water from the creeks that during normal operation flow through the CFA. During storm surge events, the creeks will not be able to flow into the CFA as the weirs through which the creeks usually flow will be closed, and these catchment areas were built to temporarily store their water. The Northern catchment area has been developed into a recreational area with several fish ponds and a walking path.",
+    "outcomes": "Main success factors include: The project creates a large integrated and multi-functional area that provides flood safety, natural habitats and recreational space. A lengthy process of communication and relationship building with local communities and stakeholders helped to reverse much of the opposition to the project. Communication emphasised the project’s functions for local safety and also for recreation. Linking the project to compensation for natural areas affected by the Antwerp port helped to raise its political profile. Despite these elements, it should be noted that both political and legal processes, including the expropriation of private land, have been lengthy, with close to 40 years elapsing between the initial proposal and its completion. In late 2014, while nearly all local public and stakeholder issues had been resolved and the project was near the end, one issue continued to block completion. Several industrial pipelines that ran through the polders had to be rerouted in order to finish the dike works. Complete relocation of pipelines encountered strong opposition from one of the owner companies, leading to legal procedures and thus delaying the completion of the inner dike. The contentious was finally resolved, allowing the development of more than 130 hectares of additional space for nature.",
+    "cost_benefit": "The budget for the development of the KBR CFA was 100 million. Approximately three-quarters of the budget were used for studies and construction and one-quarter for expropriating landowners. To carry out the project, more than 100 separate contracts were awarded. For more information about costs and benefits, please see the Sigma Plan case study .",
+    "timeline": "The project was initiated in 1977 and the CFA came into operation in 2015. Works for nature restoration and to ensure complete fruition of the area for recreation activities continued up to 2018 within the EU LIFE funded SCALLUVIA project. Nature management and maintenance is a continuous effort that is addressed in the Nature Management Plan prepared by the Flemish government",
+    "lifetime": "No specific lifetime identified; the area will need regular upkeep and maintenance, with which it will become a permanent part of the landscape.",
+    "stakeholders": "Stakeholder participation has been an essential part of the KBR project. Local opposition started after the project was announced in 1977 as part of the first Sigma Plan, leading to many years of delay. By the end of the last century, while all other original Sigma Plan projects were already completed, work on the KBR CFA had not yet begun. Opposition arose from safety concerns expressed by the Kruibeke municipal government, concerns from environmental NGOs about the zoning plan, and resistance from farmers and fishing pond owners in the KBR site who did not wish to be expropriated. To address this significant opposition, the Flanders government gave extra attention to stakeholder relations and project communication. Attention was directed at specific stakeholder groups including: farmers, nature enthusiasts, municipalities and local residents. Efforts were made to nurture relationships with these stakeholder groups and to achieve broader support from Kruibeke residents by providing them steady updates on the project. Over time, the project managed to garner stakeholder support and (following legal action) to expropriate nearly all the land within the polders. Local citizen support was improved through the integration of recreational opportunities for local citizens and others as well as steps to address specific project concerns. The recreational opportunities were also considered to potentially offer new business opportunities through increased tourism. By 2014, local support had increased following changes in the municipal government. In this process, the designation of the site as a nature compensation area for the port of Antwerp raised the project’s political profile and provided an impetus to reach an agreement and begin work in 2001. In order to properly manage the polders after the completion of the works, a nature management plan has been drafted and made available for public consultation during early 2020. The plan aims to sustainably preserve and strengthen fauna and flora biodiversity as well as to ensure safe accessibility of paths and dikes.",
+    "legal_context": "The nature compensation projects that are a central element of the KBR project are linked to the EU Habitats and Birds Directives. The construction of Deurganck Dock in the Port of Antwerp required the compensation of 150 hectares of bird meadow area. Other infrastructural works related to the Antwerp harbour required the compensation of 300 hectares of natural tidal nature areas within the KBR CFA."
+  },
+  "point": {
+    "lat": 51.1733701305,
+    "lon": 4.31530952436,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sigmaplan.be",
+      "url": "https://www.sigmaplan.be/en/projects/polders-kruibeke",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/kruibeke-bazel-rupelmonde-belgium-a-controlled-flood-area-for-flood-safety-and-nature-protection",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b9a9b8249db547caa4fa62e0592885bb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/kruibeke-bazel-rupelmonde-belgium-a-controlled-flood-area-for-flood-safety-and-nature-protection",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:31+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

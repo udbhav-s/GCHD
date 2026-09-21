@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-santiago-local-recycling-centers-boost-the-recycling-rate",
+  "url": "https://www.c40.org/case-studies/cities100-santiago-local-recycling-centers-boost-the-recycling-rate/",
+  "title": "Cities100: Santiago – Local Recycling Centers Boost the Recycling Rate",
+  "summary": "This C40 case study describes “Cities100: Santiago – Local Recycling Centers Boost the Recycling Rate,” an urban initiative documented for Santiago. It is included because it is located in the Global South. C40 describes the action this way: Santiago is increasing the rate of recycling by building local centers that benefit the local environment and entrepreneurship. The Challenge…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Santiago",
+      "adm0": {
+        "name": "Chile",
+        "ucode": "CHL_V1",
+        "dcid": null,
+        "iso3": "CHL"
+      },
+      "adm1": {
+        "name": "Metropolitana",
+        "ucode": "CHL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Provincia De Santiago",
+        "ucode": "CHL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "santiago",
+      "label": "Santiago"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A lack of adequate infrastructure and cultural norms have limited Santiago to a 10% recycling rate, according a local survey. The majority of waste ends up in landfills, negatively impacting the lives of mainly low-income communities.",
+    "measures": "The City of Santiago is making it easier for citizens to recycle by implementing so-called 'clean points' where waste can be sorted in order to be reused. A network of points will be built to increase the recycling rate. New equipment and training of personnel will also be used to classify, transport, and eliminate illegal waste disposal in public spaces. An important aspect of the project is the inclusion of 'Base Recyclers' (one-man recycling companies) in the waste network, as their income will increase with more efficient waste collection. The project will create 20 new clean points in 16 municipalities that integrate the pre-treatment processing of waste, facilitating the transport and trade onto processing companies. Existing local recycling initiatives will be strengthened by the local centers, and the project aims to improve economic, social, and environmental measures related to solid waste management. Local governments are free to adapt the approach, so it responds to local market demands, making it an adaptive, flexible waste management system.\n Environmental Benefits – Local recovery of waste reduces emissions by avoiding longer collection and transportation trips, as well as reduced methane emissions from organic decomposition in landfills.\n Economic Benefits – Reimagining waste as a resource instead of “garbage” makes possible revenue generation from the sale of recovered and/or recycled waste.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-santiago-local-recycling-centers-boost-the-recycling-rate/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27359",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-santiago-local-recycling-centers-boost-the-recycling-rate&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

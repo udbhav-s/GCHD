@@ -1,0 +1,227 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+  "title": "Urban river restoration: a sustainable strategy for storm-water management in Lodz, Poland",
+  "summary": "The pilot river restoration activities implemented around the Sokołówka, using eco-hydrology as part of a Blue-Green Network, have been a success and have convinced the Lodz authorities and water professionals of the value of replicating these for other rivers across the city. The 19 th century industrialisation in Lodz heavily affected the city’s rivers, altering their ecosystems and hydrology. Many rivers in the densely built-up city were canalized. This resulted in a higher flood risk from runoff during heavy rain periods. Low water retention also implies reduction of soil moisture during dry spells, contributing to higher temperature and reduced air humidity (urban heat island).",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lodz",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": "country/POL",
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Łódzkie",
+        "ucode": "POL_0003_V1",
+        "dcid": null,
+        "source_code": "SUBN_Łódzkie__PL_",
+        "source_name": "Łódzkie (PL)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Sokołówka River",
+      "label": "Sokołówka River"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "quality of life",
+      "label": "quality of life"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green space",
+      "label": "green space"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green and blue network",
+      "label": "green and blue network"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river restoration",
+      "label": "river restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "storm-water management",
+      "label": "storm-water management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban planning",
+      "label": "urban planning"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water quality",
+      "label": "water quality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "water retention",
+      "label": "water retention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "SWITCH project",
+      "label": "SWITCH project"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "playgrounds",
+      "students",
+      "young people"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "Two major objectives were pursued in Lodz: Elaboration and demonstration of the strategy and technology for restoration of municipal rivers based on natural processes, aiming at improved storm water management, increased water retention, and better water quality supporting higher biodiversity and improvement of quality of life. Development of a system-wide approach to urban planning, based on the Blue-Green Network concept. The concept assumes that river valleys and green spaces are connected in the city planning and development processes, to create a framework for a city that retains water, supports green infrastructure, encourages healthy lifestyles, attracts business, and becomes resilient to global climate change.",
+    "measures": "Adopted solutions include a restoration project, implemented on the Sokołówka river, and the development of an overall approach to urban planning based on the Blue-Green Network concept. The SWITCH project introduced a multi-stakeholder process (i.e. Learning Alliance) involving all the actors in the city with an interest in water and natural resources management as well as the regional and national stakeholders. This multi-stakeholder approach with strong research elements resulted in the application of the principles of ecohydrology (studying the interactions between water and ecosystems) and Integrated Urban Water Management in the demonstration project “restoration of the Sokołówka River”. The Sokołówka River, which is mostly supplied by storm water outlets, runs partially in an artificial channel and has been prone to algal blooms due to high content of nutrients in the storm water. The objectives of the restoration project were as follows: Apply innovative ecosystem biotechnologies following the principles of eco-hydrology; Increase the capacity of the river system to reduce urban flooding by increasing water storage and purification capacity; Restore the river functions to improve the quality of life of the citizens and the attractiveness of the city. The first step of the pilot project was the acquisition of accurate baseline data (e.g. chemical analysis of bottom sediments and water, biological and ecological data, river water budget and models for storm water management) that were used to select the appropriate measures to be implemented. This step provided the information for the design and construction of three storm water reservoirs (completed in 2006, 2009 and 2010) and a sequential sedimentation bio-filtration system for storm water purification (completed in 2011) which was patented as a SWITCH innovation. Moreover, the project led to a wider plan for rehabilitation of the Sokołówka river and a plan for the development of Sokołówka River park. The Sokołówka river restoration project and the demonstrated approach to urban planning have contributed towards resolving the following climate change-related challenges: Reduction of the storm water sewage flow peaks by means of a series of ponds and reservoirs, creation and restoration of river valley and wetlands; Increase of water retentiveness in the city landscape (mitigation of extreme flows, increase of groundwater level, support of city vegetation) by application of phytotechnology; Increase of the water quality, ecological stability of freshwater resources and their carrying capacity by instream ecohydrological regulation; Increase of quality of life and aesthetic values in the catchment by restoration of the river corridor, ecotone zones and landscape; Increase of human health through promotion of healthy urban environments by incorporating the blue-green network into the development plan of the city. The changes in the Sokołówka valley raised interest among local developers. A company, investing in a housing area near the river, was interested in contributing to more sustainable storm water management, and decided to introduce related solutions such as retention wells, in a way that all storm water can be stored entirely within their investment area. Several bottom-up initiatives focusing on rivers and green spaces emerged in other areas of the city, e.g., the historical area of Księży Młyn and Jasień river. Several NGOs became interested in green and blue infrastructure and the possible use of its services, e.g., alternative sustainable transportation routes (cycle paths) or green backyards. The pilot river restoration activities implemented around the Sokołówka have been a success and have convinced the Lodz authorities and water professionals of the value of replicating these for other rivers across the city. During the first years of the Sokołówka river demonstration project, a Blue-Green Network concept was developed by the researchers from the European Regional Centre for Ecohydrology at the Polish Academy of Science in Lodz. The idea is to frame the development in the city by a network of (restored) river systems and green spaces (agricultural areas, parks and brownfield land). Connecting ‘blue’ and ‘green’ spaces could help maintain the continuity of ecological processes and provide an integrated approach to storm water retention as well as purification and amelioration of the city microclimate, thus allowing flexible adaptation to climate change, improvements to the quality of life and more liveable environment in the urban area. The concept has not been completely implemented at a full scale but remains important in city planning and has been revisited in the on-going development of the city’s strategy to climate change adaptation (Ecopact). The city planners of Lodz attempt to incorporate the ideas of the blue-green network into plans in the city centre when the local conditions and regulations allow it. All green elements such as parks, trees and flower beds are important part of urban designs in Lodz and the city aims to create green corridors to connect them. The experiences and preliminary results of the Sokołówka river restoration project were also utilized in an EU LIFE+ project that took place in 2010-2015: ER-REK, Ecohydrologic rehabilitation of recreational reservoirs Arturówek (Łódź) as a model approach to rehabilitation of urban reservoirs. The rehabilitated Arturówek reservoirs provide an important recreational area for the city inhabitants that is visited by up to 3,000 people a day in high season. The sequential sedimentation-biofiltration system (SSBS) for stormwater purification developed in Sokołówka and EH-REK has been later utilized for the upgrade of efficiency in small sewage treatment plants. The plan of the Sokołówka River park initiated during the demonstration project was approved by the city council in 2016 and the construction has started with paths and recreational infrastructure. Also, a new concept for the wider rehabilitation of the Sokołówka river and three parks on its course was developed in 2020. The new development project called Sokołówka Valley aims to connect Sokołówka River Park, Mickiewicz’s Park and Wasiak’s Pond with a hiking trail, water and ecosystem themed educational path and a bicycle path. Also, the river rehabilitation continues in the project area; ponds in the Mickiewicz’s Park will be cleaned up and the SSBS for storm water purification will be improved. In addition to this, the infrastructure and facilities of the parks will be significantly improved, including new paths, street furniture, playgrounds, toilets and a renovated restaurant.",
+    "outcomes": "Main success factors can be summarised as follows: Participation in the SWITCH project was a major driving factor, not least due to the funding available through the project. Participation in the project helped to marry the technical expertise with the planning in the city and raise awareness of the need to consider green and blue spaces in the city. A professor from the University of Lodz stated that “SWITCH has completely changed how the city looks at water (...) The idea that water and green areas can be central in the future of Lodz has become an accepted view in the city”. Stakeholder involvement through the Learning Alliance was a strong driver of the initiative. Through the alliance, strong new linkages were forged between scientists, decision makers and other key stakeholders. These links are being maintained well beyond the conclusion of the SWITCH project. A big part of the Learning Alliance success is due to the strong champions within the forum. Committed individuals, in particular a professor from the University of Lodz who has promoted river restoration since the 1990s, have been instrumental to the process of building the partnership and keeping it going. The success of the Learning Alliance also relied upon strong facilitation, frequent communication, and the commitment of stakeholders from all organisations to regular involvement. Although the Learning Alliance is no longer operating officially, the links established still bring benefits, in the form of new projects, initiatives and better cooperation among the Learning Alliance former members.",
+    "cost_benefit": "The EU funding was vital to the project. The total SWITCH project budget for activities in Lodz of about €1,150,000 covered the costs to the university and to the City of Lodz for five years. The Sokołówka river demonstration project had a budget of approximately € 700,000. About € 130,000 was invested in the Learning Alliance activities. It should be mentioned that many in-kind contributions were provided, in particular by the researchers and PhD students from the research institutions in Lodz. The multiple benefits of the Sokołówka restoration project have not been quantified, but include at least avoided damages from urban flooding, increased value of the attractive urban environment, health benefits due to the improvements in air quality and the reduction of the urban heat island effect. The solution has proved itself in practice as the reservoirs collect excess water at every rainfall event and the area is evidently more attractive to live in. New buildings are planned to be built in the area and people are willing to pay more for the apartments in the area. Most importantly however, the people living in the area are very attached to the parks and the river which build up the local identity.",
+    "timeline": "The re-engineering of the Sokołówka river took place primarily during the SWITCH project in 2006-2011. The rehabilitation project of Arturowek reservoirs (EH-REK) capitalized on the early results of the Sokołówka river restoration and was carried out in 2010-2015. The follow-up development projects initiated during the SWTICH project have been advanced later by the city of Lodz. The redevelopment plan of the Sokołówka park was approved in 2016 and a new concept for the wider rehabilitation plan of the Sokołówka river was developed in 2020.",
+    "lifetime": "Whilst restoration of damaged ecological systems and ecosystem functions is difficult and can be costly, it is also a long-lasting solution and its effects are likely to exceed the lifetime of one generation.",
+    "stakeholders": "The close links between the researchers from the University of Lodz and the City of Lodz, in existence since the 1990s, provided a solid basis for the collaboration in the SWITCH project. The cooperation was substantially enhanced and expanded to include other relevant stakeholders through the establishment of the SWITCH Learning Alliance in Lodz: a stakeholder forum for exchanging ideas, plans and interests, with allocated EU funds for its activities. This process started in March 2006, initially involving the stakeholders perceived to have the most critical roles in water management. Over time, additional important actors were identified and involved. The key stakeholders in the Lodz Learning Alliance at its peak included partners from 25 different organisations, the most important being: City of Lodz departments: Municipal Management, Environment and Agriculture, Strategic Planning; Waterworks and Sewage Company, which operates the treatment plants and water supply and sewerage networks in Lodz; Lodz Infrastructure Company, which owns the treatment plants and water supply and sewerage networks in Lodz; Lodz Wastewater Treatment Plant; Research institutes: (i) Department of Applied Ecology of the University of Lodz, (ii) European Regional Centre for Ecohydrology under the auspices of UNESCO – the International Institute of the Polish Academy of Sciences, (iii) Technical University of Lodz, (iv) Medical University of Lodz, (v) Institute of Occupational Medicine in Lodz; Several NGOs, which joined the Lodz Learning Alliance in 2009 at the Blue-Green Network development launch. The Learning Alliance built and trained a facilitation team, developed a website and communication strategy and hosted several meetings, trainings and workshops on different urban water management issues. Each workshop expanded the membership of the Alliance. The SWITCH team in Lodz undertook a wide range of awareness raising and advocacy activities. These included engaging young people to raise their awareness of environmental issues and to create interest in the city’s hidden rivers. The mass media, especially radio and newspapers, were also engaged. Citizens continue to have a significant role in the development of the green and blue areas of Lodz. For example, many improvements to the Sokołówka river park have been initiated by citizens. Also, the collaboration between the city of Lodz and the local research institutes and infrastructure companies continues. A water and sewage company has created a trail of Lodz rivers to show where the partially covered rivers run in the city. There are also ideas of uncovering some parts of other rivers, for example in Źródliska park and in Kilinski’s Park.",
+    "legal_context": "In May 2009, the recommendations for a Blue-Green Network were incorporated into one of the most important strategic documents of the city used as a basis for spatial planning: the Study of Conditions and Directions of Spatial Development of the City of Lodz. In 2012, the concept officially became part of the Strategy for Integrated Development of Lodz 2020+. The follow-up Arturowek Reservoirs project directly responds to the requirements of the EU Directive 2006/7/WE on bathing waters and the Water Framework Directive 2000/60/UE."
+  },
+  "point": {
+    "lat": 51.7712391991,
+    "lon": 19.4677734367,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "uml.lodz.pl",
+      "url": "https://uml.lodz.pl/ekoportal",
+      "role": "contextual_input"
+    },
+    {
+      "name": "webgate.ec.europa.eu",
+      "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE08-ENV-PL-000517/ecohydrologic-rehabilitation-of-recreational-reservoirs-arturowek-in-lodz-as-a-model-approach-to-rehabilitation-of-urban-reservoirs",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "5da4c586fb17427c9d52ea9783d4a290",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/urban-river-restoration-a-sustainable-strategy-for-storm-water-management-in-lodz-poland",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:25:57+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-heatwave-plan-for-england",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heatwave-plan-for-england",
+  "title": "Heatwave plan for England",
+  "summary": "In 2003, a 10 day heatwave period caused over 2,000 excess deaths (compared to the same dates in the previous five years) in UK. As a response, the heatwave plan for England was first issued in 2014 and has since undergone annual updates (last update in May 2016 has not introduced changes to 2015 version that therefore it is the one still valid). The plan intends to protect the population from heat-related harm to health. It aims to prepare for, alert people to, and prevent, the major avoidable effects on health during periods of severe heat.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cross-sectoral",
+      "label": "cross-sectoral"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "multi-agency",
+      "label": "multi-agency"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Action plan",
+      "label": "Action plan"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "early warning system",
+      "label": "early warning system"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "equality assessment",
+      "label": "equality assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "heat",
+      "label": "heat"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "older_people"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "elderly"
+    ],
+    "group_mentions": {
+      "older_people": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The objectives of the heatwave plan are: Strategic planning: coordinated long-term and multi-agency planning (the latter referring to a joint effort together with experts outside the health sector to, e.g., increase cooling capacity of the built environment). A seasonal alert and information system to: (i) trigger the response of National Health Services, government and public health system, (ii) inform and advise health and social care professionals; information will be both preventive and tactic (upon forecast of a severe heatwave). Heatwave and summer preparedness. Key tasks are: agreements on lead bodies at subnational level, reducing indoor heat exposure, preparedness of the health and social care system.",
+    "measures": "Main measures implemented through the heatwave plan for England are: A heat-health watch system : this alert system operates from June 1 to September 15. It receives temperature forecasts from the national meteorological office. Alert levels range from 0 (year-round long term planning) to 4 (national emergency: heat impacts extend beyond the health sector, according to national cross-sectoral judgement). Intermediate alerts (levels 2 and 3) are issued above 30 and 15 °C (day and night, respectively), threshold varying regionally. While heat-health watch is operative, Public Health England (PHE) monitors key outputs from real-time syndromic surveillance and shares these data with the health department (DH). Standardised meteorological heatwave warnings : these alert levels inform the health-health watch system (cf. above). Warnings are color-coded to indicate the affected region. Coordinated, multi-agency response through the inclusion of the UK local resilience forums (LRF; these are institutionalised response partnerships of local public services – including emergency services, local authorities, the National Health Service (NHS), the Environment Agency and others). • Information and training of the public and of health care professionals: the heatwave plan and its accompanying documents include concise and easily understandable advice for individual prevention measures – including peer-to-peer community help. A main tool are “ action tables ”, which are clearly laid out and comprehensible one-page for four different targeted audiences (national institutions to local citizens) allowing the rapid briefing about risks and countermeasures for each alert level. Public coverage is increased through dissemination via social media (Facebook, Twitter). Equality assessment : special emphasis was laid on safeguarding equality during prevention and aid, i.e. screening for groups which might be at particular risk for e.g. socio-economic reasons. The heatwave plan for England offers solutions to cope with present climate variability and extreme events, which are highly relevant also to better adapt to future climate changes. In this perspective, the plan suggests a number of additional health-related adaptation options including: green spaces for cool environments, thermal insulation of homes, and cooling health facilities.",
+    "outcomes": "In relation to the plan implementation the following success factors can be mentioned: The heatwave plan considers and informs other relevant frameworks and strategies, like the Public Health Outcomes Framework (PHOF), Joint Strategic Needs Assignments (JSNAs) and Joint Health and Wellbeing Strategies (JHWSs). This helps to align adaptation measures with technically related strategies and improve performance through synergies (exchange subject matter know-how and evidence, ensure convergence of measures, etc.) The plan both supports and relies on local to regional agents, notably the LRF but also Local Health Resilience Partnerships, public health directors as local agenda-setters, or Local Health and Wellbeing Boards. This ensures swift and locally adequate response and cooperation among responders of administratively distinct forces. The plan is updated on a yearly base (and endowed with supplementary dissemination material) as required by new developments (see e.g. 2016 update ; this has not introduced changes to 2015 version that therefore it is the one still valid). This protects against outdated or insufficient response schemes as evidence and know-how continuously evolves during implementation.",
+    "cost_benefit": "Adaptation to future warming, including prolonged peak temperature, highly benefits from the provision of subject-matter forecasting and alert chains. These deliver specific information to local multi-agency responders who can then prevent or at least minimise the costs (last not least concerning healthcare staff and facilities) otherwise incurred through lack of information or preparation. Note that local resilience forums – though implemented independently from the heatwave plan – promise a very useful concept for the implementation of cross-sectoral adaptation and disaster risk reduction, too.",
+    "timeline": "The plan was first published on 13 May 2014. Updates of plan and/or supplements: 21 August 2014, 22 May 2015, 25 May 2016 (this last version does not introduce changes; thus 2015 one is the still valid version). The plan has been operative since May 2014.",
+    "lifetime": "Long-term, with scheduled annual revisions.",
+    "stakeholders": "Stakeholder participation shapes the annual revisions of the heatwave plan through the input of expertise from relevant stakeholder groups and levels: these range from national government institutions to regional or local health care units. Likewise, the heatwave plan is supplemented by different special reports for particular stakeholder groups: (i) health and social care professionals, (ii) home managers and staff, (iii) teachers and supervisory staff, and (iv) citizens. The results of a dedicated equality analysis are publicly available, too.",
+    "legal_context": "Key health care responsibilities (and authority) – as during heatwaves – are stipulated in the UK parliament’s Health and Social Care Act 2012. The LRF, an integral operative part of the heatwave plan, are so-called Category 1 (or “core”) responders of the UK emergency planning & response system, provided by the parliament’s Civil Contingencies Act 2004."
+  },
+  "point": {
+    "lat": 52.6412861629,
+    "lon": -1.43554776907,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/government/publications/heatwave-plan-for-england",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/guidance/local-resilience-forums-contact-details",
+      "role": "contextual_input"
+    },
+    {
+      "name": "gov.uk",
+      "url": "https://www.gov.uk/government/publications/healthy-lives-healthy-people-improving-outcomes-and-supporting-transparency",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/heatwave-plan-for-england",
+    "publication_date": "2016-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "e78ef8e7240d4b0e883b0d0e187b74bc",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/heatwave-plan-for-england",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:47+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

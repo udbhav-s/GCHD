@@ -1,0 +1,143 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-use-of-insurance-loss-data-by-local-authorities-in-norway",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/use-of-insurance-loss-data-by-local-authorities-in-norway",
+  "title": "Use of insurance loss data by local authorities in Norway",
+  "summary": "Urban flooding and storm-related losses are rising due to climate change. The insurance industry, through data sharing on extreme weather-related claims, can aid adaptation planning and risk management. This Norwegian pilot project highlights the usefulness of insurance loss data for municipalities. Losses and damages related to urban flooding and storms are likely to increase due to climate change. The insurance industry can potentially play a key role in climate change adaptation by contributing to the understanding of risks associated with climate change.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bærum, Grue, Kongsvinger, Løten, Nord-Odal, Ringsaker, Stavanger, Tromsø, Trondheim",
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": "country/NOR",
+        "iso3": "NOR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Insurance data",
+      "label": "Insurance data"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "municipality",
+      "label": "municipality"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cloudburst",
+      "label": "cloudburst"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rainfall damages",
+      "label": "rainfall damages"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "students"
+    ],
+    "group_mentions": {
+      "schools": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The project’s overall goal was to assess whether having access to loss insurance data linked to extreme weather events could strengthen the municipalities’ capacity to prevent and reduce climate- and weather-related losses. The focus has been on flooding, but also other climate impacts such as landslides and storms were included. Additional goals were to develop a method to use disaster loss data from insurers, outline the structure of a future system to use disaster loss insurance data as well as to strengthen the trust between municipalities, state agencies and insurers on prevention and reduction of climate-related losses. Further goals included: clarify the methods and benefits of using the insurance industry's injury data, specify costs involved and present an outline of a future system for easier usage of the data. Lastly, the project aimed to strengthen trust and collaboration between the municipal sector, state authorities and the insurance industry on climate-related losses.",
+    "measures": "At the initiative of Finance Norway and based on a collaboration with a selection of insurance companies, Western Research, the Norwegian University of Science and Technology (NTNU) and nine pilot municipalities (Bærum, Grue, Kongsvinger, Løten, Nord-Odal, Ringsaker, Stavanger, Tromsø and Trondheim), a dialogue was initiated which facilitated sharing asset-level loss data held by insurers with the cities' planning and infrastructure sectors. Finance Norway collected and organised disaster loss data from various insurers. Western Norway Research Institute and NTNU assisted cities with importing and analysing the data. Trondheim, for instance, received a subset of insurance loss data, including 17,000 individual damage claims caused by flooding and other events that had taken place within its jurisdiction over 10 years. Around 54% of the claims could be geocoded, i.e. associated with a given location. The geocoding of the incidents was done by the research institutes, to compensate for the lacking expertise and capacity in the city. The data was then ground-truthed by the City of Trondheim’s staff and contributed to their overview of risks related to urban flooding. For example, the insurance claims dataset highlighted some areas affected by intense precipitation, which were previously not identified by the local government as vulnerable. All municipalities agreed that the dataset on damages is a useful additional information for flood risk management and/or adaptation to climate change. For GIVAS (an inter-municipal company for municipalities of Grue, Kongsvinger og Nord-Odal kommuner), the combination of this dataset with the digital terrain models provided valuable information about areas at risk. Whilst the damage risk in central parts of towns were well-recognised, the insurance dataset had improved the understanding of risk in more remote areas. In some municipalities the data was used to develop various plans. In Bærum, the access to industry data has supported the identification of problem areas with regards to water and drainage, for example indicating a concentration of damages around covered streams. The dataset was used in the formulation of the Cloudburst Plan for Bærum. Also, the municipal spatial plan prioritises uncovering of streams to reduce the risk of flooding. In addition, the municipality has used insurance damage data in connection with planning of interventions related to water and drainage, as it helped to pinpoint the causes of damages and thus to direct actions. However, the extent to which local authorities benefitted from the insurance loss data varied among the cities and depended on the availability and extent of other flood-damage datasets held by the authorities, the expertise among civil servants to process it and spatial and temporal accuracy of the insurance claims datasets. The dataset was also seen as useful for financial and spending plans. For Løten, the cost overview of damages from the insured losses was seen as a good argument for the local politicians to provide budget for water management. In Tromsø, this type of data emphasised the need for new skillsets and new work tools, such as software allowing working with this type of data in spatial context. As a side effect, the pilot project has raised awareness on climate change and improved knowledge of how climate change affects society. Numerous research projects were undertaken to investigate climate-related risk factors, risk awareness, risk management and risk prevention. Some of these studies were funded by the Norwegian Agency of Environment. This project has since led to a national collaboration between the Norwegian Directorate of Civil Protection (DSB), the National Flood Agency, the State Road directorate and Finance Norway with a view to the future establishment of a national loss data platform under DSB, “The Knowledge Bank” ( DSB Kunnskapsbanken ). The Knowledge Bank was launched November 2020. It gives extending access to local (on address level) insurers’ loss data and other public loss data to all cities in Norway and to the Norwegian Flood Directorate (NVE). The public will have access to the data on municipality level. Establishing a database for public use and research using aggregate, anonymised data on climate-related damage from the insurance companies and the Norwegian Natural Perils Pool was a recommendation of the Official Norwegian Report NOU 2010:10 to the Ministry of Environment ‘Adapting to a changing climate. Norway’s vulnerability and the need to adapt to the impacts of climate change’. The goal is to achieve better overview and knowledge about undesirable events and disasters, and thus to strengthen work on societal safety, enhance disaster prevention, and reduce losses.",
+    "outcomes": "The benefits of using insurance loss data, as well as potential limiting factors have been identified as follows: Well-informed land-use and infrastructure planning is one of the most important tools for cities to prevent and reduce climate-related risk. Access to insurance loss data is useful to get a more complete picture of risks and take appropriate action. The novelty of the project was a challenge and required developing a relationship between the insurance industry, research institutes and municipalities based on trust, willingness to cooperate and commitment to the project. The insurance loss data to be useful to local authorities in adaptation planning needs to be very detailed. The information should be correct with regards to the location (down to a property/piece of infrastructure damaged), the timing of the event (date of the event rather than date of reporting it to the insurer), and the cause (e.g. type of flooding and how high the water was). The coding of events used in the insurance industry is not done with climate adaptation planning in mind. In the current format, the data to be fit for purpose requires better geocoding to be more fit for purpose. For many municipalities, the lack of internal expertise to process the spatial data and link it to other information types is an issue. To be able to use the data, either different skill sets among staff are needed or external expertise needs to be brought in, potentially incurring additional costs. Some municipalities (e.g. Stavanger) collaborated further with universities, whereby Master students analysed the datasets. Although the Norwegian data protection authority concluded that sharing loss data would benefit society in general for this specific pilot project, the generalisation of this approach would require careful management of access to data rules and potential legislative changes to data privacy and competition rules. These could be facilitated by accompanying measures at European level. The project has demonstrated the value of collaboration and knowledge exchange. Open dialogue between the insurance industry, municipalities and various authorities, building trust and understanding of various challenges and opportunities was a key success factor. The municipality of Tromsø also sees that the use of this type of data can be basis for cooperation within the municipality.",
+    "cost_benefit": "The project was financed by Finance Norway (NOK 1 million – EUR 110 000) and the Ministry of Climate and environment (260 000 NOK – EUR 30 000 euro). The anticipated benefits are reduced scale of damages if the municipalities implement measures to address rainfall-related flooding, also those based on data shared by insurance companies.",
+    "timeline": "Initiated in 2012 by Finance Norway, the pilot project started in September 2013 and ended in February 2015. In 2018, a new public-private partnership was launched involving Norwegian Directorate for Civil Protection (DSB) and Finance Norway. The agreement focuses on exchange of damage data, which will be used in DSB's Knowledge Bank to support strengthening the work of municipalities and county councils in preventing disasters.",
+    "lifetime": null,
+    "stakeholders": "The project relied heavily on the engagement of all major insurance companies in Norway. The role of Finance Norway as a dialogue facilitator and trusted authority was essential in securing the agreement among the companies to share the data with the municipalities. The research institutes involved provided the essential expertise to translate the information from the insurance companies into datasets usable to local authorities.",
+    "legal_context": "Norway’s 2013 White Paper on Climate Change Adaptation upholds that everyone is responsible for climate change adaptation – individuals, business and industry and public authorities. In line with the principle of responsibility, all ministries have responsibility to safeguard consideration for climate change within their sector. The White Paper states that adaptation work should always be based on the best available knowledge. The local character of the impacts of climate change puts the municipalities in the front line in dealing with climate change. New guidelines describing how the municipalities and counties can incorporate climate change adaptation work into their planning activities were adopted in 2018. Open data challenges includes the need to protect data privacy and safeguard competition in the insurance sector. The privacy of individual claimants is protected by the EU General Data Protection Regulation 2016/679 (GDPR) that entered into force in May 2018. To ensure the confidentiality and proper use of personal information contained in the insurance claims data, a data processing agreement was drawn up among the lawyers specialising in privacy issues at Finance Norway and in the city of Trondheim. The loss data is meant to be for insurers’ internal use as one of the main source of information on which insurers rely to undertake their core business. If other insurance companies had access, that might lead to price-fixing cartels and lack of competition. The commercial sensitivity can be addressed when disclosing the data to other parties by aggregating data at broader geographical levels and restricting access to more granular asset-level data to specific local authority employees. An exemption from the data protection law was granted for the pilot project. Norway is now working on an extension of the pilot scheme at country level through the development of a knowledge bank that would include loss data, piloted by the Civil Protection Directorate. The Finance Ministry has supported the work and are in dialogue with Finance Norway to identify and foster the optimal solution."
+  },
+  "point": {
+    "lat": 60.9304322029,
+    "lon": 9.84375,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/use-of-insurance-loss-data-by-local-authorities-in-norway",
+    "publication_date": "2020-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "0baf3de3bebc48a3a353b7ce30e9d435",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/use-of-insurance-loss-data-by-local-authorities-in-norway",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:08+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

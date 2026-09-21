@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-transformation-from-landfill-to-garden",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-transformation-from-landfill-to-garden/",
+  "title": "Cities100: Wuhan – Transformation from Landfill to Garden",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Transformation from Landfill to Garden,” an urban initiative documented for Wuhan. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Chinese City of Wuhan has restored more than 50 hectares of land from a closed landfill in less than…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Natural degradation of pollutants from the Jinkou landfill would have taken at least 30 years, and restoration through excavation measures is very costly. To solve the issue, Wuhan restored the landfill and sur-rounding environment using aerobic ecological restoration, thereby ensuring that the land is reutilized for enjoyable purposes.",
+    "measures": "The closed Jinkou landfill in Wuhan caused pollution, which natural degrada-tion would have taken decades to remove, affecting not only the environment but also residents in nearby areas. To restore this wasteland more efficiently, the city began an aerobic ecological restoration project. Not only does it alleviate risks of long-term safety issues from pollutants and eliminate the threat of methane explosions, this project also restores more than 50 hectares of land for city landscaping. Proving that even the most polluted areas can become ecological havens, this former landfill site hosted the China International Garden Expo in 2015.\n The restoration process, which began in 2014, introduced proper planting techniques, diverse plants, and measures to improve the soil aiming to promote continuity of the fundamental ecological system. The project ties in with Wuhan’s General Urban Planning scheme to improve the quality of the city’s ecological environment and enhance sustainable urban development, and eventually become a National Garden City, which is a title the Ministry of Housing and Urban-Rural Development grants to Chinese cities focusingon green, sustainable development.\n Social Benefits – The new ecological park improves the quality of life for the citizens of Wuhan and promotes economic and social development in the surrounding areas.\n Economic Benefits – The project saved $125 million by using aerobic ecological restoration compared to conventional restoration methods.\n Health Benefits – Restoring the landfill site ensures reduced air pollution for morethan 100,000 people living in close proximity to the landfill.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-transformation-from-landfill-to-garden/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26976",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-transformation-from-landfill-to-garden&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

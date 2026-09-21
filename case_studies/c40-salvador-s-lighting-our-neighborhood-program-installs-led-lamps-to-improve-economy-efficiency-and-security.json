@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-salvador-s-lighting-our-neighborhood-program-installs-led-lamps-to-improve-economy-efficiency-and-security",
+  "url": "https://www.c40.org/case-studies/salvador-s-lighting-our-neighborhood-program-installs-led-lamps-to-improve-economy-efficiency-and-security/",
+  "title": "Salvador’s “Lighting our Neighborhood” Program installs LED lamps to improve economy, efficiency and security",
+  "summary": "This C40 case study describes “Salvador’s “Lighting our Neighborhood” Program installs LED lamps to improve economy, efficiency and security,” an urban initiative documented for Salvador. It is included because it is located in the Global South. C40 describes the action this way: Since 2019, Salvador has been replacing its street incandescent lights with LED lights as one of the initiatives within the “Lighting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Since 2019, Salvador has been replacing its street incandescent lights with LED lights as one of the initiatives within the “Lighting…",
+    "measures": "Since 2019, Salvador has been replacing its street incandescent lights with LED lights as one of the initiatives within the “Lighting our Neighbourhood” Program. This initiative has reached 100 of Salvador’s 163 neighborhoods and 75,000 poles in Salvador will have LED lights by the end of 2020. The Public Lighting Office (DSIP), a department of the Municipal Public Order Secretariat of Salvador, leads the Program. This initiative has many advantages in terms of light and energy efficiency. It reduces consumption by 50%, improves quality and durability, and increases the sense of security in neighborhoods.\n Replacing lamps with LED lighting makes the public lighting system more efficient as they can reach 50 to 100 thousand hours of operation, while other types of lamps are only around 30 thousand hours. LED lighting has a luminous efficiency up to five times higher than incandescent lights. This makes maintenance costs much lower helping the Municipal Government decrease its energy consumption tariff. Simultaneously, as LED lights are more powerful at lighting the streets, they also help to reinforce public safety and improve pedestrian visibility at night. In addition, LED luminaires are easy to control via a remote management system, reducing operating costs and avoiding CO2 emissions from car trips to the poles.\n According to the director of Public Lighting in Salvador, Júnior Magalhães, the program changed the concept of public lighting in the city as it promoted the democratization and modernization of lighting to entire neighborhoods, including some of the most peripheral neighborhoods, bringing LED light to all streets and alleys, including the installation of new poles. The program was not started in wealthy neighborhoods, but in vulnerable ones, where there is usually a higher rate of problems related to violence. Public lighting brings, in addition to the quality of life, a greater sense of security for those who walk the streets at night.\n The process for replacing LED lights starts with a field study conducted by DSIP teams to understand the needs of each location. This includes the number of lights and installation requirements to ensure that the whole neighborhood and its inhabitants receive adequate public lighting. In addition, the Municipal Government issues public notices for the purchase of lighting fixtures through price registration to reduce costs and be able to reach more neighborhoods.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/salvador-s-lighting-our-neighborhood-program-installs-led-lamps-to-improve-economy-efficiency-and-security/",
+    "publication_date": "2020-12-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27516",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=salvador-s-lighting-our-neighborhood-program-installs-led-lamps-to-improve-economy-efficiency-and-security&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

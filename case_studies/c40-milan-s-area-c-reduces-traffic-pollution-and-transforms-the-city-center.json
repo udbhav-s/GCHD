@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-milan-s-area-c-reduces-traffic-pollution-and-transforms-the-city-center",
+  "url": "https://www.c40.org/case-studies/milan-s-area-c-reduces-traffic-pollution-and-transforms-the-city-center/",
+  "title": "Milan’s Area C reduces traffic pollution and transforms the city center",
+  "summary": "This C40 case study describes “Milan’s Area C reduces traffic pollution and transforms the city center,” an urban initiative documented for Milan. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The City of Milan has launched several measures to address air pollution and traffic congestion. One such measure is an innovative road…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Milan",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Lombardia",
+        "ucode": "ITA_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Milano",
+        "ucode": "ITA_0009_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "milan",
+      "label": "Milan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of Milan has launched several measures to address air pollution and traffic congestion. One such measure is an innovative road pricing scheme called Area C, a congestion charge aimed at reducing traffic pollution in Milan and, consequently, improving quality of life for citizens and visitors alike.",
+    "measures": "Area C is a road pricing measure launched by the Municipality of Milan in January 2012 to improve the quality of life of those who live, work, study and visit the city. Area C is the restricted traffic zone in Milan's center that requires car drivers to pay a congestion charge. The area subject to the congestion charge is called Cerchia dei Bastioni, a Limited Traffic Zone (LTZ) of 8.2 km2, 4.5% of the whole territory of the Municipality of Milan. Citizens were directly involved in developing Area C. In June 2011, they were asked to vote in a public referendum on limiting traffic and increasing the uptake of low-emission vehicles in the city center. A 79% majority voted in favour of such a measure.\n\nAccess to Area C is limited on Monday, Tuesday, Wednesday and Friday from 7:30 to 19:30, and Thursday from 7:30 to 18:00. Cars entering Area C are detected by a system of 43 electronic gates (7 of which are reserved for public transport vehicles), equipped with ANPR (Automatic Number Plate Recognition) technology.\n A daily entrance ticket costs €5, which covers all accesses made by the same vehicle during that day. There are various types of other entrance tickets for residents, service vehicles, and for parking garages, for example. \n Mopeds, motorcycles, electric cars, vehicles for disabled people, public utility and public transport service vehicles, taxis, hybrid*, methane-powered*, LPG* and biofuel* cars are exempt from the charge.\n (*until 31/12/2016. From 01/01/2017 they will pay normal rates).",
+    "outcomes": "Milan is finalizing its Sustainable Urban Mobility Plan, which outlines the possibility of extending Area C to the Cerchia Filoviaria (2nd cordon), and introducing a Low Emission Zone (LEZ), similar to that in force in London. Currently, the systems (camera and on-board units) are set to control and manage the heaviest vehicles and those used for the transport of dangerous goods. In a second phase, the city aims to also manage tourist buses and discourage the use of other, heavily polluting vehicles.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/milan-s-area-c-reduces-traffic-pollution-and-transforms-the-city-center/",
+    "publication_date": "2015-03-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26957",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=milan-s-area-c-reduces-traffic-pollution-and-transforms-the-city-center&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

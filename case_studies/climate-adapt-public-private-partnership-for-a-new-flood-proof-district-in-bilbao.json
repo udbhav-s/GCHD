@@ -1,0 +1,187 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+  "title": "Public-private partnership for a new flood proof district in Bilbao, Spain",
+  "summary": "A major restoration project is underway to transform a degraded urban area into a modern and sustainable residential neighbourhood and in a lively area for social, cultural, recreational and commercial activities. This new urban space is designed to withstand the increased vulnerability to extreme flooding events induced by climate change. In view of increasing extreme precipitations projected across the Basque country due to climate change, and considering the need for new housing to accommodate citizens of Bilbao, a major urban regeneration project is currently underway to redevelop Zorrotzaurre district into a new flood-proof residential quarter.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bilbao",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "País Vasco",
+        "ucode": "ESP_0017_V1",
+        "dcid": null,
+        "source_code": "SUBN_País_Vasco__ES_",
+        "source_name": "País Vasco (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "WATERMANAGEMENT",
+      "label": "Water management"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Zorrotzaurre district",
+      "label": "Zorrotzaurre district"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "river expansion",
+      "label": "river expansion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protection wall",
+      "label": "protection wall"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "urban redevelopment",
+      "label": "urban redevelopment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "stormwater tanks",
+      "label": "stormwater tanks"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Elevation of ground level",
+      "label": "Elevation of ground level"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "public-private parternship",
+      "label": "public-private parternship"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The objective of the redevelopment project is to turn Zorrotzaurre from a mostly abandoned and contaminated industrial site to a residential area and a lively space for Bilbao’s residents and visitors. Its development plan foresees the construction of 5.473 new dwellings and 202.129 square meters of construction for economic activity (25% of the total surface area). This, inter alia, requires adequate protection from the increased risk of flooding caused by climate change. Objectives with regards to flooding have been defined as: existing houses in Zorrotzaurre should be well protected for T100 rainfall events (that is, flooding events of a magnitude which is historically registered to happen every 100 years). New buildings/housing should withstand T500 events (even less frequent, more catastrophic events, recurring every 500 years). These objectives are consistent with the Master Plan for Urban Planning in Bilbao, the Master Plan for Zorrotzaurre and the Bilbao Adaption Plan (see the Legal Aspects section below for more details).",
+    "measures": "In order to create a balanced urban development of the Zorrotzaurre area, 50% of new housing units are allocated to social housing and and separately sold under a protected market system. The plan foresees a new neighborhood well-connected to the rest of the city, equipped with affordable housing, and areas for environmentally-friendly economic activities. Two thirds of Zorrotzaurre area are reserved for public uses, including open green areas to be enjoyed by the local community and visitors alike and public facilities for educational, health, sport and cultural uses. This mix of residential (housing), public and economic activities aims to reduce mobility needs for the island’s inhabitants and stimulate space for artistic and creative innovation. Hence, Zorrotzaurre aims to grow into a ‘creative island’. To protect the new residential district of Zorrotzaurre from flooding, several measures are being taken: Opening up the Deusto canal between the mainland and the Zorrotzaurre peninsula (October 2018). The opening of the canal reduces the flood potential by creating increased water capacity and thereby decreasing the height of the water surface. Studies show that the opening of the canal greatly reduces the risk of flooding in Zorrotzaurre as well as other urban areas (e.g. Botika Vieja, Euskalduna, Abandoibarra, and Campo Volantín) including the historic centre of Bilbao higher upstream. With this adaptation measure in place, a flood level decrease between 1 and 0.5 meter can be achieved. Similarly, the Research Center for Climate Change, BC3 , has conducted a study concluding that the opening of the canal would generate a considerable reduction in the expected economic damage from flooding events in Bilbao ( Martinez-Juarez, 2020 ). The opening of the canal turns the peninsula into an island, connected to the mainland by means of new bridges. Elevation of the ground level. During the first phase of the project the surface in the east and west of the Zorrotzaurre peninsula/island has been elevated by 1.5 meters so that new buildings can be constructed on a higher level. This should protect the new buildings from T=500 rainfall events. Construction of a flood protection wall (started in august 2023). To protect the 47 existing buildings (including 352 apartments) on the peninsula, mostly located next to the river, a 1 meter high flood protection barrier is under construction. This barrier should ensure that existing buildings are protected from flooding from T=100 rainfall events. Green, open spaces. The 7.5 km long river bank will mostly (95%) become a 20 meter wide public space for pedestrians and bikers, partly at the current level and partly at the elevated level. Some of this area can be used as an overflow area for the river. The green open spaces are concentrated on both edges of the island. On the canal side, there are major walkways on both banks of the canal, as well as a linear park of 40,000 square meters in the central area of the island. The gardens of Botica Vieja on the opposite side of the canal will be extended and increased in size and connected by the new bridges to the open spaces on the Zorrotzaurre island. The network is complemented with “green fingers” of more than 5.000 square meters extending across the island from the canal to the pathway located on the riverbank. Provision of storm water tanks. In addition to the measures above, the construction of three storm water tanks to store excess water was launched in October 2022, one in San Ignacio (620 cubic meters) and two in Ribera de Duesto (2.100 cubic meters each) (two neighbourhoods on the other side of the canal). Specific governance institutions have been set up in order to steer the implementation process of this complex project. The private landowners of Zorrotzaurre, sit together with public authorities in the ’Comisión Gestora de Zorrotzaurre’ , the Management Commission of Zorrotzaurre. The private sector initiated the partnership, and, due to the importance of the project and the amount of land owned by public authorities (Port, City and Province), the public sector joined the ‘Comisión Gestora’. Besides this commission, the ‘ Junta de Concertación’ an organisation defined in the Basque law for urbanism) was also created, to develop the first phase of the project. Both organisations (the Comisión Gestora and the Junta de Concertación) are not-for-profit, since the final objective is to balance the costs with investments made by the owners.",
+    "outcomes": "The redevelopment of Zorrotzaurre is a slow and complex project which was also affected by the general economic crisis of 2007-2008. Therefore, instead of carrying out the entire project at once, it was decided to split the plan for the peninsula/island into two areas and these two spatial plans then have been further divided into phased developments. Several factors make up the complexity of the project and delay its execution: The large number of stakeholders involved, including the municipality, land owners and residents. Soil pollution: because of previous industrial activities, the soil in some areas is polluted and needs to be decontaminated before construction work can start. Soil reclamation for two thirds of the area (correspondent to the first development unit) was completed in 2021. Reclamation is being paid by the companies that caused it, or by the current land owners if the former do not exist anymore. Moving industries: the plan also involves the demolishment of several buildings and the relocation of 30 companies to other locations outside of Zorrotzaurre. For this, a special plan and a sub-project have been created, the so-called ‘Re-Allotment project’, which also consisted of gathering funds within the ’Comisión Gestora de Zorrotzaurre’ to compensate the parties involved. The compensation and ample preparation time for the relocation meant that very few problems have been encountered in the end with the parties concerned. On the other hand, one of the greatest assets to the project is the investment vehicle that has been concluded: the great number of land owners of all sizes gathered in the public-private partnership (the ’Comisión Gestora de Zorrotzaurre’). The partnership includes a Coordination Board and a Management Board, which oversees the execution of the works and facilitates the coordination and operation of the project.",
+    "cost_benefit": "The final costs for opening the Deusto were about €21 million, almost double the initial estimate (€12.1). The City Council takes up this spending as they reached an agreement with the Basque government that the Basque country in turn will finance the costs of one of the new bridges. The municipality will also pay for the flood protection barrier (€1.68 million) and the storm water tanks (with a budget of €5.7 million), as agreed between the municipality and the ‘Comisión Gestora de Zorrotzaurre’. The costs for the ground level elevation and public, green spaces (as well as the other redevelopment costs) are paid by the ’Comisión Gestora de Zorrotzaurre’, the public-private partnership that has been erected for the redevelopment of Zorrotzaurre. The members of the Commission pay for all the expenses of the project and contribute financially relative to the share of land they own (51% public, 49% private). According to the BC3 study on the costs and benefits of opening the Deusto canal , it has been estimated that the overall flood protection solutions are able to: (i) eliminate the damage costs associated with T=10 rainfall events; and (ii) reduce damage costs for T=100 and T=500 events by about 67% and 30% respectively. Besides the direct benefits in terms of reduced exposure to flooding, the requalification of the island brings about also co-benefits in terms of reducing housing demand pressure, decreasing traffic congestion, and by increasing the green areas and the cultural spaces available in Bilbao.",
+    "timeline": "Works started in 2016 with the construction of the Frank Gehry bridge over the canal, opened in 2018. The decontamination of the soil of the larger residential section has been completed. Several parts of the project are currently in the construction phase, and the complete urban redevelopment of the island is expected take more than 30 years for its completion. Significant time is also taken by setting up the governance bodies in charge of the implementation of the project (Juntas de Concertación). While those for the northern and southern sections of the island were launched in 2013, the one for the central part of the island is expected to be established ten years later, in November 2023. The private-public partnership and the Comisión Gestora de Zorrotzaurre will be maintained for the whole project duration.",
+    "lifetime": "The flood protection measures are expected to last the lifetime of the buildings. The whole redevelopment plan of the area is expected to last for an indefinite time.",
+    "stakeholders": "The main stakeholders of the redevelopment project are the land owners of Zorrotzaurre. They are an active part of the public-private partnership, the ’Comisión Gestora de Zorrotzaurre’ (See Solutions). The current members of this Management Commission own 65% of the land in Zorrotzaurre. These are: the Regional Basque Government (through the Department of Territorial Planning, Housing and Transport and the publicly-owned company Visesa), Bilbao City Council, the Port Authority of Bilbao, and private entities ‘Sociedad Promotora Inmobiliaria Margen Derecha S.A.’ and ‘Vicinay Cadenas S.A.’. The ’Comisión Gestora de Zorrotzaurre’ supervises the redevelopment plan of Zorrotzaurre (the ‘Master Plan Zorrotzaurre’). The residents of Zorrotzaurre are excluded from membership as they are not supposed to pay for any costs of the project. However, together with the neighbourhood association, they have been involved in the design and development of the plans through various interactions with the project managers. Among the results of these discussions, a programme has been established by the ‘Society for Municipal Restoration’, or Surbisa, with a ring-fenced budget (donated 50% by developers of the general project and 50% by the municipality) to support and help existing owners and tenants to restore their buildings with special attention to improve accessibility and energy saving. Surbisa is a municipal company, owned 100% by the City. In addition, the redevelopment plan has had two periods of public consultation where 38 and 10 claims respectively were received from citizens of Bilbao. As a result of the claims, a number of modifications were introduced into the initial planning approach, some of a minor nature and others more fundamental. For example, the former industrial building known as the ‘Papelera’, located on the Deusto riverbank, remained in place, since citizens expressly wanted to keep this historic building now converted into a university.",
+    "legal_context": "The legal basis for the implementation of the adaptation actions in the Zorrotzaurre is the Master Plan for Urban Planning in Bilbao’ (approved in 1995 and revised in 2016) and the Master Plan for Zorrotzaurre (prepared in 2004 and revised in 2007). The first document provided the legal basis for land use change of Zorrotzaurre from industrial to residential. The second document defines the redevelopment design of the district. It was designed by the prestigious architect Zaha Hadid and officially approved by the Bilbao City Council in 2012. The ‘Comisión Gestora de Zorrotzaurre’ has a leading role to advance the work and achieve the plan’s objectives, as well as to resolve problems that may arise during the implementation. The executive decisions are taken by the members of the organisation’s Management Board, who are representatives,at the highest level, of the property owners. The Coordination Board, on the other hand, is responsible for the daily operations and it regularly reports to the Management Board. The adaptation objectives of the ‘Master Plan Zorrotzaurre’ are backed by the national and regional adaptation strategies. The Ministry for the Environment of the Government of Spain issued a ‘ Spanish Strategy for Climate Change and Clean Energy’ 2007 laying out its plans until 2020. The Basque Country has followed and in 2015 adopted the ‘ Basque Climate Change Strategy 2050’ . Whilst the implications of the latter for the Basque municipalities are yet to be seen, both strategies provide an incentive to do more at local level to prevent impacts from climate change. In 2019, the Adaptation Plan for the city of Bilbao was issued. This plan puts forward the lines of action in the short and medium term to provide a comprehensive reaction to the climate vulnerabilities of the city, taking into account the guidelines of the 2014 Spanish National Adaptation and the Climate Change Strategy to 2050 of the Basque Country. The restoration of Zorrotzaurre as described in the Strategy of Sustainable Urban Development of the city of Bilbao is one of the building blocks of the Plan and the main line of action to cope with flooding risk."
+  },
+  "point": {
+    "lat": 43.2732059171,
+    "lon": -2.94708251953,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "zorrotzaurre.com",
+      "url": "http://www.zorrotzaurre.com/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "zaha-hadid.com",
+      "url": "https://www.zaha-hadid.com/masterplans/zorrozaurre-masterplan/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+    "publication_date": "2023-11-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "2e43e052354f433687257580de89ab99",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/public-private-partnership-for-a-new-flood-proof-district-in-bilbao",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:24:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+  "title": "Green roofs in Basel, Switzerland: combining mitigation and adaptation measures",
+  "summary": "Basel, Switzerland boasts the world's highest green roof area per capita. The initiative, driven by energy-saving and biodiversity goals, is promoted through incentive programs and legal mandates, and expected to bring significant adaptation benefits. With 5.71 m 2 /inhabitant in 2019, the city of Basel in Switzerland has the largest area of green roofs per capita in the world ( Living roofs and walls from policy to practice , 2019). Initiatives aiming to increase the provision of green roofs in Basel were initially driven by energy-saving programmes, and subsequently by biodiversity conservation.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Basel",
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": "country/CHE",
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Nordwestschweiz",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Nordwestschweiz_CH_",
+        "source_name": "Nordwestschweiz (CH)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "ENERGY",
+      "label": "Energy"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green roofs",
+      "label": "green roofs"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "surface runoff",
+      "label": "surface runoff"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Basel",
+      "label": "Basel"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "incentives",
+      "label": "incentives"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cooling indor temperature",
+      "label": "cooling indor temperature"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mitigation",
+      "label": "mitigation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "building regulations",
+      "label": "building regulations"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main aim of the green roof initiative is to increase the coverage of green roofs in the city of Basel through the use of a combination of financial incentives and building regulations. Reducing energy consumption of buildings and protection of biodiversity have been the initial key motivators. Initially, green roofs, as a measure of energy saving, were funded by the City of Basel for a two-year period in the mid-1990s to increase interest and awareness. Encouraged by the success of this project, funds were allocated to a study documenting the biodiversity benefits of green roofs. The program was funded again in 2005-2007. The new program specified guidelines (mostly related to the ecological features and to the fire safety of the roofs) to which green roof projects had to adhere in order to be eligible for the funds. It is now recognised that green roofs also provide a climate change adaptation function by limiting surface water runoff and reducing temperature in urban areas.",
+    "measures": "In many cities in Switzerland, numerous green roofs were created in the 1980s, mainly as pilot projects, which provided a foundation of knowledge and experience for later initiatives. In addition, 1995 was the EU year of Nature Conservation. This provided the impetus for Basel’s first green roof campaign, which started in 1996. In the early 1990’s the City of Basel implemented a law to support energy saving measures. According to this law, which was the only one of its type in Switzerland, 5% of all customers’ energy bills are put into an Energy Saving Fund, which is then used to fund energy saving campaigns and measures. The national Department of Environment and Energy decided to pursue and promote green roofs using this source of funds for the 1996-1997 program. A second funding program was implemented in 2005-2007. No further funding initiative was deemed necessary after that. The campaign was considered successful enough, and the obligation to convert into green roof all flat roofs in new and retrofitted building that went into force in 2010 (reinforcing the 2002 one), was deemed sufficient to provide the momentum needed to the expansion of green roofs in the municipality. In densely built-up areas where providing extensive parks and planting trees may be impossible, vegetated roofs are a feasible greening option. These roofs not only mitigate the urban heat island effect but also act as insulators. By minimising heat gains in buildings, green roofs can lower the indoor temperatures by as much as 5°C and consequently reduce the need for cooling and the associated energy use, thus contributing to climate change mitigation and adaptation. Modelling studies conducted in Manchester, UK show that greening all the suitable roofs in densely built-up areas could reduce storm water runoff by 17–20% ( Speak et al., 2013 ). Green roofs can also provide ‘steppingstones’ for migratory species under changing climate conditions. An investigation of the total number of green roofs in 2006 indicated the presence of 1,711 extensive green roofs (roofs with shallow soil that mostly house succulents and grasses) and 218 intensive green roofs (roofs with deeper soil to accommodate larger plants and trees) in the city of Basel. So, approximately 23% of Basel’s flat roof area was green in 2006. Since then, around 100 green roofs, covering a surface of 80,000 m 2 , have been installed each year. Although there is no new official estimate available, this should add up to about 40% of roof surface in Basel now covered by green roofs, according to the Basel municipality. For developers, installing green roofs is now considered routine, and developers make no objections to installing them. In Basel, the green roof regulations (i.e. the 2002 amendment to the City of Basel’s Building and Construction Law), stipulate the following: The growing medium should be native regional soils — the regulation recommends consulting a horticulturalist; The growing medium should be at least 10 cm deep; Mounds 30 cm high and 3 m wide should be provided as habitat for invertebrates; Vegetation should be a mix of native plant species, characteristic to Basel; Green roofs on flat roofs over 1,000 m 2 must involve consultation with the city’s green roof expert during design and construction. A further amendment in 2015 set the minimum thickness of soil to 12 cm.",
+    "outcomes": "A comprehensive suite of mechanisms, from incentives to statutory regulations, has ensured a wide uptake of green roofs in Basel. Championship of the project by a committed researcher from the Zurich University of Applied Sciences (Stefan Brenneisen) contributed to the initiative’s success. Involvement of all stakeholders from the beginning of the initiative helped to address questions and concerns and ensured that everyone’s goals were met. An important lesson is that in the urban context, climate change adaptation can be compatible with mitigation; the case of Basel illustrates that adaptation can be driven by actions aimed at energy saving and climate change mitigation. Such opportunities of utilising existing and on-going urban and infrastructure developments driven by other goals for the purposes of adaptation should be sought and maximised in order to avoid maladaptation. Green roofs are an excellent example for this. Two ongoing projects, funded by the Swiss Federal Bureau for the Environment, are measuring the benefits on green roofs in terms of biodiversity (insects such as butterflies and beetles, and molluscs such as snails) but no results have been published so far. The two projects also aims to measure the impact of climate change, for instance the occurrence of dry spells in periods that are not traditionally dry (such as fall and spring), on the species composition of green roof ecosystems. The results and the overall progress of Basel green roofs system will be showcased in 2023 at the Green Roof Congress.",
+    "cost_benefit": "Costs and subsidies have varied considerably since the launch of the program. The initial costs of roof greening were estimated at 100 CHF per m 2 . Beneficiaries of the fund received 20 CHF per m 2 of green roof in 1996-1997, for both new developments and for retrofitting green roofs of an existing building. In the 2005-2007 program, beneficiaries received 30–40 CHF per m 2 only for retrofitting existing buildings. Cost is now down to about 23 CHF per m 2 . Subsidies are no longer in place and are regarded as no longer necessary. Nowadays, green roof technology deployed in Basel has converged to the simplest configuration, with a one-layer insulation membrane, a protection layer and then a 12 -15 cm thick layer of soil. This configuration guarantees the waterproofing and the structural soundness of the building, and it is allowed by building codes and regulations, which are less strict than in neighbouring countries such as Austria. Green roofs have multiple benefits, including absorbing rainwater and delaying runoff (hence reducing flood risk in high intensity rainfall events); providing insulation of buildings; helping to lower urban air temperatures and mitigate the urban heat island effect; creating a habitat for plant and wildlife; and providing a more aesthetically pleasing urban landscape.",
+    "timeline": "Green roofs are private initiatives that can be stimulated by the government. In Basel, two green roof incentive programmes operated for specified two-year long periods (1996-1997 and 2005-2007).",
+    "lifetime": "Green roofs have an expected lifetime of about 50 years.",
+    "stakeholders": "Prior to the first incentive programme (1996-1997), the Department of Environment and Energy conducted a poll with the Swiss public to determine the level of support for an electricity tax to pay for energy-saving measures. The focus on green roofs was promoted by researchers from the Zurich University of Applied Sciences (ZHAW) in Wädenswil (Switzerland), who aimed to influence decision-makers in Basel to amend the building regulations and offer financial incentives to increase green roof coverage. Various stakeholders were consulted when developing the green roof concept, and in establishing the first incentive programme: the local business association, the horticultural association, the green roof association, the Pro Natura Basel environmental organization, the Department of Parks and Cemeteries in the City of Basel, and the National Department of Environment, Forest and Landscapes. Basel’s green roof regulations did not meet with any significant resistance because all stakeholders were involved in the process from the beginning, and because of the success of the incentive programmes. For developers, installing green roofs is now considered to be a routine practice, and developers do not object to their installation. The incentive programmes were targeted at businesses as well as the residents of Basel. During the incentives programme in 1996-97, the media interest was high, and newspapers and posters were used to inform residents of Basel about the subsidies. This played an important role in its success because it increased awareness of green roofs across a range of stakeholders. Contests on the best-looking green roofs are organised regularly.",
+    "legal_context": "Basel passed a Building and Construction Law requiring green roofs on all new developments with flat roofs. The Building and Construction Law has since provided a major impetus for more green roofs in Basel. An amendment, passed in 2002, reads that all new and renovated flat roofs must be greened and stipulates their design to maximise biodiversity. This requirement was reinforced in 2010 through a regulation that mandated green roofing for all flat roofs if involved in a building retrofit, and in all new buildings with flat roofs. A current legal issue is how to deal with green roofs in combination with photovoltaic (PV) installation. The urban green department at Basel municipality is involved in informal discussions with architects and developers to accommodate the coexistence of 100% surface green roofs and lifted PV panels in a way that does not interfere with either plant growth or electricity generation. Where full co-installation is impossible, an agreement among different urban departments, in place since 2018, stipulates a compromise of 60% PV and 40% green roofs, with gravel beneath panels. The use of gravel is compensated by the requirement that the remaining 40% green roof surface has increased ecologic value (secured through the deployment of dead woods, or particularly ecologically valuable soils and sands). Recently, combining the two with uplifted PV is becoming technologically more feasible and consequently increasingly implemented in practice."
+  },
+  "point": {
+    "lat": 47.5524330226,
+    "lon": 7.58605957001,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "urbanhabitats.org",
+      "url": "http://www.urbanhabitats.org/v04n01/wildlife_pdf.pdf",
+      "role": "contextual_input"
+    },
+    {
+      "name": "urbanhabitats.org",
+      "url": "http://urbanhabitats.org/v04n01/wildlife_full.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "greenroofs.org",
+      "url": "http://www.greenroofs.org",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+    "publication_date": "2020-12-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "3ee0d5132b454c5d82a9047e7e9f35f2",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/green-roofs-in-basel-switzerland-combining-mitigation-and-adaptation-measures-1",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:41+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

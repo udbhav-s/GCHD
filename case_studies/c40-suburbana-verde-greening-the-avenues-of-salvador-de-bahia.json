@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-suburbana-verde-greening-the-avenues-of-salvador-de-bahia",
+  "url": "https://www.c40.org/case-studies/suburbana-verde-greening-the-avenues-of-salvador-de-bahia/",
+  "title": "‘Suburbana Verde’: Greening the Avenues of Salvador de Bahia",
+  "summary": "This C40 case study describes “‘Suburbana Verde’: Greening the Avenues of Salvador de Bahia,” an urban initiative documented for Salvador. It is included because it is located in the Global South. C40 describes the action this way: 1,520 native trees have been successfully planted along one of the most important avenues of Salvador, aiming to improve the quality of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "1,520 native trees have been successfully planted along one of the most important avenues of Salvador, aiming to improve the quality of life of people living in suburban areas.",
+    "measures": "During March – August 2018, the Secretariat of Sustainable City and Innovation of Salvador has successfully implemented the ‘Suburbana Verde’ project, thanks to which 1,520 native trees have been planted along one of the most important avenues of the city.\n What is the project? How does it work? \n A green corridor is being formed throughout one of the most important avenues in the city – Avenue Afrânio Peixoto, known as “Suburbana”. In total, 1,520 trees will now be part of the landscape across the 14km-long avenue, a number that surpassed the initial goal of 1,400 seedlings.\n Launched in March 2018, the 5-month long project was delivered already, three months before the original deadline. Native species, such as ipês, sibipirunas, paus-brasil, paus-ferro, jacarandás and oitis are among the tree species that will be now growing in the area. “Our objective with this large planting, is to give more quality of life for those who live in the suburban areas, show value of the Brazilian flora – especially the Atlantic forest biome – and give preference to species that are more adapted to our soil and climate.\n From an aesthetic point of view, we will only see the results in about four to five years, when the trees will have large canopies and provide shadow. But the environmental result is already a reality”, highlights André Fraga, the Secretary of Sustainable City. ‘Suburbana Verde’ is part of the Program “Salvador Capital of the Atlantic Forest”, which aims to promote afforestation in the city prioritizing native species. Teams from the Secretariat visited the neighbourhoods close to the project, to promote awareness and local ‘ownership’ of the newly planted trees. Local residents and business owners received information about the importance of urban afforestation, the benefits of the project, and necessary caretaking measures for the seedlings.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/suburbana-verde-greening-the-avenues-of-salvador-de-bahia/",
+    "publication_date": "2018-12-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27422",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=suburbana-verde-greening-the-avenues-of-salvador-de-bahia&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

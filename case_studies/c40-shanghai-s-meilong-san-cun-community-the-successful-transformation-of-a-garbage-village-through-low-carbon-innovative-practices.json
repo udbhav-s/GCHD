@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-shanghai-s-meilong-san-cun-community-the-successful-transformation-of-a-garbage-village-through-low-carbon-innovative-practices",
+  "url": "https://www.c40.org/case-studies/shanghai-s-meilong-san-cun-community-the-successful-transformation-of-a-garbage-village-through-low-carbon-innovative-practices/",
+  "title": "Shanghai’s ‘Meilong San Cun’ Community: The Successful Transformation of a ‘Garbage Village’ Through Low-Carbon Innovative Practices",
+  "summary": "This C40 case study describes “Shanghai’s ‘Meilong San Cun’ Community: The Successful Transformation of a ‘Garbage Village’ Through Low-Carbon Innovative Practices,” an urban initiative documented for Shanghai. It is included because it is located in the Global South. C40 describes the action this way: Built in 1990, Meilong San Cun is a typical public housing community of Shanghai, counting 2,369 households with a population of about…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shanghai",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shanghai Shi",
+        "ucode": "CHN_0024_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shanghai",
+        "ucode": "CHN_0024_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shanghai",
+      "label": "Shanghai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Built in 1990, Meilong San Cun is a typical public housing community of Shanghai, counting 2,369 households with a population of about 6,500, with majority of relocated households. Meilong Cun’s “green culture” developed as the community turned from a “garbage village” to a “clean community” and then to a “low-carbon community”, largely thanks to the success of the “ Green Housewives ” volunteer movement (retired community residents that volunteer to promote green culture in the community and promote sustainable practices from waste management to green spaces management).",
+    "measures": "Find here the Chinese version of this case study!\n In March 2011, based on the development goal for “Liveable Lingyun” county, the sub-district office carefully designed the “Lingyun Eco-Home” community education project. The project looked at the ‘Meilong San Cun’ residential community and the community school as the base to explore sustainable development of an urban community in practice through recycling domestic waste, using green energy, building eco-diversified residential area, and other actions.\n The construction of low-carbon communities is not only about strengthening infrastructures, such as the establishment of rainwater collecting facilities and renewable energy power generation facilities, but also about changing lifestyles and habits, such as changing the way people dispose of their waste.\n What is the innovation? \n There are many exemplary measures in the community, such as the below 'waste to recycling credits’ system:\n Every Thursday afternoon, residents of Meilong San Cun can take their own used newspapers, plastic bottles, used household appliances and other wastes to a designated waste management room, and sort them out by categories for recycling. Residents can use their mobile phone number or WeChat to register. Then they take the sorted waste to a recycling station at a fixed time. The workers at the station weigh the garbage, convert it into recycling credits and put it on the person’s membership card. The credits can be redeemed at a nearby convenience store to buy daily groceries, such as a cup of yogurt, a box of peanuts, or even a bucket of oil.\n More broadly, the community presents the following innovations:\n Cultivate resident’s low-carbon behaviors: \n Barter, exchange items not in use with other families;\n Recycle plastic waste;\n Environment-friendly fruit preserving workshops;\n Low-carbon facilities: \n Green corridor planting area;\n Large colored LED electronic display screen for ads;\n Energy-saving street lamp system upgrading;\n Vertical planting on the north wall of the residential area.\n Water-saving resource utilization: \n Rainwater collection and recycling system;\n Digital monitoring system;\n Eco-planting workshops, including teaching about the use of fish and vegetable waste.\n Links to further information \n (Chinese) http://wemedia.ifeng.com/20026988/wemedia.shtml \n (Chinese) http://www.sohu.com/a/151269696_155927",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shanghai-s-meilong-san-cun-community-the-successful-transformation-of-a-garbage-village-through-low-carbon-innovative-practices/",
+    "publication_date": "2019-05-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27439",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=shanghai-s-meilong-san-cun-community-the-successful-transformation-of-a-garbage-village-through-low-carbon-innovative-practices&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

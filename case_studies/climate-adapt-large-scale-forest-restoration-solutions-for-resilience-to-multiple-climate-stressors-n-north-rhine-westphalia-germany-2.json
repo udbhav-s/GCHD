@@ -1,0 +1,224 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-large-scale-forest-restoration-solutions-for-resilience-to-multiple-climate-stressors-n-north-rhine-westphalia-germany-2",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/large-scale-forest-restoration-solutions-for-resilience-to-multiple-climate-stressors-n-north-rhine-westphalia-germany-2",
+  "title": "Large- scale forest restoration solutions for resilience to multiple climate stressors in North Rhine-Westphalia, Germany",
+  "summary": "In North Rhine-Westphalia (NRW), since 2018, about 145,000 ha of spruce forest were damaged by wind, drought and subsequent pest invasion. This environmental catastrophe reveals the imperative need to establish multifunctional and climate-adapted forests. To reach this goal, the NRW SUPERB project demonstration (demo)-area maintains several demo-sites in the affected region, which will provide new insights on suitable forms of forest restoration.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm2",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": null,
+      "adm2": {
+        "name": "Köln",
+        "ucode": "DEU_0010_0024_V1",
+        "dcid": null,
+        "source_code": "SUBN_Köln__DE_",
+        "source_name": "Köln (DE)"
+      }
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Detmold",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Detmold__DE_",
+        "source_name": "Detmold (DE)"
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": "country/DEU",
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Arnsberg",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Arnsberg__DE_",
+        "source_name": "Arnsberg (DE)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "DROUGHT",
+      "label": "Droughts",
+      "mapped_to": [
+        "meteorological_drought"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "STORM",
+      "label": "Storms",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "SUPERB",
+      "label": "SUPERB"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest restoration",
+      "label": "Forest restoration"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Biodiversity monitoring",
+      "label": "Biodiversity monitoring"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Forest ecosystem services",
+      "label": "Forest ecosystem services"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "North Rhine Westphalia",
+      "label": "North Rhine Westphalia"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "nurseries",
+      "schools",
+      "youth"
+    ],
+    "group_mentions": {
+      "children_youth": 1,
+      "schools": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The overall goal is to create an enabling environment for and demonstrate feasibility of large-scale restoration of forests and forest landscapes across Europe, that can better adapt to future challenges of climate change. Solutions should strictly consider the sites’ potentials (climate, soil water, nutrient balance), taking into account future climate scenarios, as well as the “Four tree species principle” within a forest stand. The four tree species principle aims to ensure more climate-resilient mixed forests. According to this principle, each forest stand should include a mixture of four tree species in accordance with the so called “forest development types” (Waldentwicklungstypen, WET) of the Silviculture concept of NRW ( Waldbaukonzept_nrw.pdf ). Combinations of deciduous and coniferous species as well as light and shade tree species are used for the mixtures. The SUPERB project engages with diverse stakeholders to discuss the different expectations for the forests and the restoration goals in order to promote broad societal support for the restoration efforts. The measures aim to restore ecosystem services like wood production, carbon storage, biodiversity provisioning (especially in large Natura 2000 areas), recreation and tourism, water provisioning, and air purification. The restoration process aims to involve different governmental agencies and public financial support. It should also contemplate the selection of climate-adapted species and genotypes, and ensure that the desired forest reproductive materials become available in sufficient quality. Moreover, the actions also aim to address the controversy about forest restoration targets like different expectations of stakeholder groups towards using the forests as well as to communicate the critical importance of reduced deer browsing pressure with local hunters. The actions implemented in the NRW demonstration sites focus on increasing vitality and stability of the stands as well as on minimizing future outbreak risks. Objectives of the SUPERB project in general can be found here .",
+    "measures": "In the NRW demo-area, actions focus on forest diversification and ecosystem restoration, using combinations of replanting (over 30-70% of the surface of each plot) and natural regeneration for the remaining part. At least four different species are selected for reforestation in each demonstration site. Pioneer species are included, where appropriate. Restoration actions demonstrate the establishment of resilient mixed species stands in areas affected by bark beetle outbreaks since 2018. Restoration approach While restoring forests in NRW, the following principles were considered: Artificial regeneration requires selection of seed provenances and plant material that complies with the regulations. Suitable reproductive material, forestry personnel and forestry labour need to be available. In this case study suitable reproductive material was mostly available. In a few cases an alternative tree species or alternative provenance had to be chosen, delaying some activities. Soil protection must be considered (e.g. no driving over large areas during site preparation and soil erosion and nutrient export should be minimized). Generally, n o soil preparation was carried out on the planted sites. Only for the hydrosuspension seeding trial a small mower was used to remove the grass. The ground pressure of the mower is less than 200 (g/cm²). Ungulate game populations need to be adapted. All sites need to be fenced or protected by tree shelters for the project. Hunting infrastructure is considered when establishing the forest stands. Social ecosystem services of forests in urban areas (e.g. recreation) need to be considered to ensure social acceptance. Balanced use of light demanding and shade tolerant tree species as well as a mixture of deciduous and coniferous tree species ensure diverse forest experience for visitors all year round . Financial possibilities of the forest enterprises determine framework conditions for restoration design. Supporting the decision-making process should be done using available forest management instruments (e.g. silvicultural concept, Waldinfo.NRW - Startseite - website) and the latest scientific findings and recommendations. For each forest stand to be restored, one of several pre-defined forest development types (German: Waldentwicklungstyp - WET) was chosen as a reference, based on current site conditions (nutrients, water regime) and future changes expected under different climate scenarios (RCP 4.5 or RCP 8.5). Each WET is a mixture of four tree species that consists of: (i) a main tree species (50-70 %), one additional tree species (20-40 %) and (iii) two secondary species. An example for WET 12 includes: Quercus petraea (sessile oak), main species Fagus sylvatica (common beech),additional species Tilia cordata (winter lime tree), secondary species Castanea sativa (sweet chestnut), secondary species More info on the WETs and specific tree species, used in the different NRW demo-sites is given in the SUPERB Project workplan in section 3. Additionally, two reference stands, where natural regeneration is allowed, were established for each restoration site. One reference stand was fenced and one was without protection. To be able to evaluate the effect of the restoration activities, an initial assessment and a monitoring of the restoration sites were done. Initial assessment of restoration sites The purpose of the initial forest inventory is to describe the state of the remaining forest trees, dead wood and optionally herb layer prior to the restoration measures, as a reference to assess success and failures of the measures on ecosystem diversity and functions. The observations are conducted and recorded at plot scale. The sample design was laid out over the restored areas involving several aspects of the stand structure. The initial inventory measured the adult trees, saplings and seedlings (ground vegetation inventory of non-tree species and deadwood). Monitoring In 2024 and 2025, another plot-based inventory will be conducted to evaluate the success of natural regeneration. It includes identifying causes of tree mortality, and assessments of biodiversity quality. Herb layer species richness and abundance is assessed. In addition, data on non-tree species are collected using one of the world's most popular nature apps (iNaturalist app), to enable citizen science verification of the species identification. In selected inventory plots a single assessment of soil carbon and soil biological activity/diversity took place in 2023. Microbial biomass, functional catabolic diversity, fine root biomass, pH, carbon concentration, and bulk density were quantified. For the microorganism analysis soil samples until 15 cm and for the chemical analysis soil samples until 80 cm were taken.",
+    "outcomes": "The implementation of restoration activities benefits from a general consensus about restoration goals. In a stakeholder workshop, a common understanding of the restoration concept was easily achieved, without controversial feedback, since it was already developed with stakeholder engagement before the SUPERB project. Stakeholders agreed that climate-resilient forests and spreading risks regarding tree species choice are needed. Furthermore, all restoration measures are in detail developed in cooperation with the landowners or the forest managers representing the landowners. This feedback from stakeholders, having a strong economic stake on the forest, should be carefully considered for future upscaling of the approaches from the test site to the demonstration area. Three main limiting factors were identified: Limited stakeholder response to the definition of restoration goals. Although the initial workshop was successful in mobilizing a diverse group of stakeholders who were interested in forest restoration and who were eager to be engaged, certain types of stakeholders were underrepresented. For example, no one representing recreational use of the forest attended the workshop. Moreover, some stakeholders felt like they were not able to contribute to the workshop because of their lack of knowledge. Splitting stakeholder engagement into forest experts and non-forest experts could be a solution and allow a more inclusive and focused discussion. Conflicting restoration objectives in Natura2000 area. In one demo-site the original restoration plan could not be implemented since it was not approved by the nature conservation authorities. The legal situation leaves room for interpretation. The nature conservation authority interprets the landscape plan for the area in a way that only forest stands dominated by European beech and with tree species associated with Luzulo-Fagetum are to be established on calamity sites in Natura 2000 areas. This strategy refers to the (past) potential natural vegetation (Tüxen, 1957). This is perceived as a limiting factor for adapting forests to an uncertain future. Climate adaptation in fact requires the establishment of mixed forests with species that are adapted to the new site conditions posed by climate change instead of one single dominating species. This issue requires to be further addressed for future restoration plans. Deer management. Deer management is an important factor when it comes to successful forest regeneration, also for the NRW demo-area. Heavy browsing of shoots, leaves and buds as well as damage from fraying and bark stripping can threaten forest restoration. High deer populations cause an increase in costs for forest owner due to additional expenses for protection measures and loss of revenue from timber sales. Especially if the hunting right is leased, it is important to set silvicultural goals in the lease agreement. Deer will find suitable habitats on the calamity areas. There will be a significant increase in food availability and cover for deer. Therefore, it is important to include the hunting infrastructure in the reforestation plans. Challenges of reforestation due to sika deer were discussed with stakeholders: despite intense hunting of sika deer, it is not possible to establish tree species such as oak or silver fir, which are susceptible to browsing – if not protected by either fencing or growth shelters. One of the conclusions of the discussion was that game control remains a problem for forest restoration in NRW demo area.",
+    "cost_benefit": "SUPERB is funded by the European Commission’s Horizon 2020 Framework Programme under the topic “Restoring biodiversity and ecosystem services” of the call “Building a low-carbon, climate resilient future: Research and innovation in support of the European Green Deal (H2020-LC-GD-2020)“. The total cost is EUR 20,248,122.32 whereof the EU contribution is EUR 19,996,256.25. The restoration costs consist of direct cost of various restoration activities carried out on demo-sites. The direct costs are divided into several categories such as site preparation (e.g. soil preparation - ploughing, topsoil removal), materials (e.g. wooden polls for fences, fence net), plants (e.g. cost of seeds, seedlings, saplings) and labour costs (e.g. person costs for soil preparation, planting, installing fences, maintenance like weeding). Mixed forests with trees that have different requirements for light will likely require a more labour-intensive management compared to even-aged single species stands. Considering a plot of 10.000 m 2 , the costs for broadleaf dominated reforestation (Mixed-oak-forest) over a surface of 7.000 m 2 , leaving natural regeneration for the remaining 3.000 m 2 , range between EUR 13.000 to EUR 17.700 The costs for a conifer dominated reforestation (Mixed-Douglas-fir-forest) range between EUR 8.400 to EUR 13.100. Such costs include plant material, planting, tending and fencing for a timeframe of 10 years (SUPERB Restoration Workplan ). Economic benefits of restoration in terms of wood harvest will become tangible only in 30 years, since forests were largely damaged and reforestation takes time before trees have reached dimensions for marketable timber. Other expected forest ecosystem services that will be enhanced through reforestation activities, though not specifically quantified, are: climate regulation; water regulation and supply; erosion control; habitat provision; and recreation. The final establishment of a mixed forest is expected to be more resilient to large calamities and thus support sustaining continuous forest microclimates and avoiding reoccurrence of large cleared areas.",
+    "timeline": "The forest restoration measures were implemented between autumn 2022 and spring 2024, while maintenance, mainly cleaning of competing vegetation, is on-going. The selection and planning of the specific restoration measures took up to one year. Fencing and planting were completed in less than one month per demonstration site. The maintenance includes continuous fence control and regular mechanical cleaning of competing vegetation (once or twice per year depending on site conditions).",
+    "lifetime": "The interventions have indefinite lifetime. Continuous management of the forest stands is important to maintain an adapted mixed forest that can provide all ecosystem services. To achieve the objectives, management measures are applied in accordance with the NRW silvicultural concept, such as regulating the tree mixture and thinning. There are corresponding management recommendations for each forest development type, differentiated according to pre-thicket stage, thicket stage, qualification stage and dimensioning stage as well as the maturity and regeneration stage.",
+    "stakeholders": "Throughout the course of the SUPERB project, a series of stakeholder engagement activities was carried out. Stakeholder mapping at the demo level . In March and early April 2022, an initial mapping of stakeholders affected by the restoration work in the demo site was carried out. A series of co-creative stakeholder workshops. Throughout the project time (2022-2025) the following 3 co-creative stakeholder workshops are carried out: The vision and design workshop took place in September 2022, in which the demo leaders with representative stakeholders inform and co-decide on demo’s restoration vision, goals and workplans. The implementation workshop took place in May 2024, in which the demo leaders consult representative stakeholders on the current project. Furthermore, the revision of the reforestation concept of NRW was presented to obtain feedback from the participants. The second Stakeholder Workshop also included a public engagement workshop set in the afternoon with an excursion to attract also non-forestry experts. The review and upscaling workshop is planned for May 2025, in which representative stakeholders will be engaged to evaluate the demo restoration results achieved and on give recommendations for upscaling restoration practices. In addition to the common SUPERB stakeholder workshops, in the NRW demo area another targeted stakeholder event was organized in May 2024 to discuss contrasting perspectives on species selection in forest restoration after spruce dieback in Natura 2000 areas. Finally, in an excursion to the SUPERB demo sites in the State Forest of Arnsberg, the stakeholders were able to meet the local forester and were informed about which forest stands will be established on which sites. Co-development and implementation of a stakeholder engagement strategy for each demo. In August-September 2022, the NRW demo project drafted the first version of its stakeholder engagement strategy. The strategy explains how the demo engages with the full range of diverse stakeholders over the course of the project. It identified different types of forest owners and forest managers as key actors involved in the restoration activities. Other stakeholders with high interest in the restoration include policy makers and regulating agency staff, hunters, tree nurseries, forest value chain actors, environmental NGOs, and forest visitors. The strategy developed a vision on stakeholder engagement and community involvement detailing specific sets of suggested engagement activities, for example: i) Training for forest managers (silvicultural trainers), ii) Guided tours with nature conservation NGOs, iii) Guided tours with forest owners, hunters etc., iv) Guided tours with schools (Forest Youth Centre Arnsberger Wald) and for the general public.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 51.2609835,
+    "lon": 8.047548429021685,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "forest-restoration.eu",
+      "url": "https://forest-restoration.eu/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "forest-restoration.eu",
+      "url": "https://forest-restoration.eu/demo-area-north-rhine-westphalia/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/large-scale-forest-restoration-solutions-for-resilience-to-multiple-climate-stressors-n-north-rhine-westphalia-germany-2",
+    "publication_date": "2024-10-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "61822619e11b4c89a4bf7687c28baacb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/large-scale-forest-restoration-solutions-for-resilience-to-multiple-climate-stressors-n-north-rhine-westphalia-germany-2",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:21:37+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

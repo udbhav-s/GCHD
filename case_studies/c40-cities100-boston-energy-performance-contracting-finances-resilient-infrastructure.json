@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-boston-energy-performance-contracting-finances-resilient-infrastructure",
+  "url": "https://www.c40.org/case-studies/cities100-boston-energy-performance-contracting-finances-resilient-infrastructure/",
+  "title": "Cities100: Boston – Energy Performance Contracting Finances Resilient Infrastructure",
+  "summary": "This C40 case study describes “Cities100: Boston – Energy Performance Contracting Finances Resilient Infrastructure,” an urban initiative documented for Boston. It is included because it addresses coastal flood, air pollution pm25 hazards. C40 describes the action this way: Renew Boston Trust is using energy performance contracting to finance resilience measures with savings from energy efficiency upgrades in an…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Boston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Massachusetts",
+        "ucode": "USA_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "coastal_flood",
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "boston",
+      "label": "Boston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Like many cities, for Boston, financing essential municipal infrastructure upgrades via taxes is increasingly difficult in the face of other pressing social needs. Yet, as a coastal city vulnerable to severe weather and sea level rise, Boston still requires significant investments in resilience and energy efficiency upgrades. The RBT helps solve this challenge by using a tried-and-true model to fund improvements to critical-but-underserved projects.",
+    "measures": "Boston has launched the Renew Boston Trust (RBT) in an effort to improve energy efficiency and resilience upgrades in the city’s building stock by using a self-funded financing model. The system builds upon the idea of energy performance contracting, in which energy savings are used to finance investments. With RBT, operating savings from energy efficiency and renewable energy measures pay not only for those investments, but excess savings pay for resilience investments, which traditionally do not produce operating savings by themselves. While the current program primarily targets municipal properties, RBT is working to apply innovative financing models to the institutional and nonprofit sector as well, via a tax-exempt lease program that would aggregate small projects, allowing non-profits to reduce upfront costs and improve financing through economies of scale. When implemented, the expanded RBT is expected to achieve a 10-fold increase in funding for energy efficiency and resilience projects and accelerate achievement of the city’s Climate Action Plan emissions reduction goals.\n Environmental Benefits – The resilience upgrades funded by RBT can make properties and communities less vulnerable to rising sea levels and increased storm activity.\n Social Benefits – Given the negative impact of high operating costs on housing, expanding self-funded investment in property upgrades, without burdening the operating budget, aims to make affordable housing more widely available.\n Economic Benefits – The expansion of projects under RBT will expand the green-collar workforce needed to carry out resilience and energy efficiency improvements.\n Health Benefits – The retrofit projects often result in improved indoor air quality that reduces respiratory health hazards.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-boston-energy-performance-contracting-finances-resilient-infrastructure/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27200",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-boston-energy-performance-contracting-finances-resilient-infrastructure&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

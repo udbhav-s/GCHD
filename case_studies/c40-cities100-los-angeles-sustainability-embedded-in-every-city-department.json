@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-los-angeles-sustainability-embedded-in-every-city-department",
+  "url": "https://www.c40.org/case-studies/cities100-los-angeles-sustainability-embedded-in-every-city-department/",
+  "title": "Cities100: Los Angeles – Sustainability Embedded in Every City Department",
+  "summary": "This C40 case study describes “Cities100: Los Angeles – Sustainability Embedded in Every City Department,” an urban initiative documented for Los Angeles. It is included because it addresses meteorological drought, extreme heat hazards. C40 describes the action this way: Los Angeles has integrated its wide-reaching sustainability plan into all municipal departments in the pursuit of an impressive list of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Los Angeles",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Los Angeles",
+        "ucode": "USA_0005_0019_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "los-angeles",
+      "label": "Los Angeles"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Consecutive years of drought and extreme heat, combined with an increasing population, have left Los Angeles vulnerable to the effects of climate change. As water scarcity is a particularly severe problem in the region, pLAn has set the city on track to reduce the purchase of imported water by 50% by 2025, and to source 50% of water locally by 2035.",
+    "measures": "Launched in 2014, Los Angeles’ ambitious and comprehensive 20-year sustainable development strategy, pLAn, aims to make California’s largest city a national leader in sustainable development. Under the plan, Los Angeles plans to be the first large American city to achieve an 80% waste diversion rate by 2017, while at the same time seeking the title of most new green jobs created. Additionally, the city plans to derive 50% of its electricity from renewable sources by 2030 and support active and public transit such that, by 2025, 50% of all journeys will be taken by foot, bike, or public transit, up from 26% in 2012\n Another important “first,” which will be necessary in order to achieve the impressive goals: Los Angeles is the first American city to incorporate a sustainability plan into department performance reviews and budget prioritization, and to require Chief Sustainability Officers at the department level. By integrating the sustainability plan into every level of city government, Los Angeles is poised to circumvent traditional municipal bureaucratic hurdles and ensure that the plan leads to meaningful action, all while ensuring accountability and transparency.\n Environmental Benefits – In the face of a persistent drought, the city recently set the goal of a 20% reduction in water use per capita by 2017.\n Social Benefits – As part of the plan’s effort to create thriving, safe, and equitable neighborhoods, by 2017, 56% of Angelenos will live less than one km from a park or open space.\n Economic Benefits – Los Angeles’ policies on green building, water infrastructure, energy efficiency, and transit have set the city on the path to create 20,000 new green jobs by 2017.\n Health Benefits – To help with unhealthy extreme heat, Los Angeles plans to install 10,000 cool roofs by 2017 and prepare additional city buildings to function as cooling centers and disaster gathering places.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-los-angeles-sustainability-embedded-in-every-city-department/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27005",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-los-angeles-sustainability-embedded-in-every-city-department&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

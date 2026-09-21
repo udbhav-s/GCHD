@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-transforming-cities-penang",
+  "url": "https://www.c40.org/case-studies/transforming-cities-penang/",
+  "title": "Transforming Cities: Cooling down Penang",
+  "summary": "This C40 case study describes “Transforming Cities: Cooling down Penang,” an urban initiative documented for Penang. It is included because it addresses river flood, landslide hazards, and it is located in the Global South. C40 describes the action this way: Corina’s beloved home of Penang has seen flooding, landslides, and unbearable heat. A programme harnessing the power of nature is giving her…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Penang",
+      "adm0": {
+        "name": "Malaysia",
+        "ucode": "MYS_V1",
+        "dcid": null,
+        "iso3": "MYS"
+      },
+      "adm1": {
+        "name": "Pulau Pinang",
+        "ucode": "MYS_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "landslide"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "penang",
+      "label": "Penang"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Corina’s beloved home of Penang has seen flooding, landslides, and unbearable heat. A programme harnessing the power of nature is giving her some hope for a calmer climate.",
+    "measures": "Corina’s beloved home of Penang has seen flooding, landslides, and unbearable heat. A programme harnessing the power of nature is giving her some hope for a calmer climate.\n More From The ‘Transforming Cities’ Series \n This content was produced for Think City by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-penang/",
+    "publication_date": "2022-11-04",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33430",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-penang&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-13T16:48:40",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

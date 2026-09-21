@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-copenhagen-public-private-finance-scheme",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-public-private-finance-scheme/",
+  "title": "C40 Good Practice Guides: Copenhagen – Public-private finance scheme",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Copenhagen – Public-private finance scheme,” an urban initiative documented for Copenhagen. It is included because it addresses river flood hazards. C40 describes the action this way: Summary The City of Copenhagen has adopted an innovative public-private finance scheme to fund its Cloudburst Management Plan for storm…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The City of Copenhagen has adopted an innovative public-private finance scheme to fund its Cloudburst Management Plan for storm…",
+    "measures": "Summary \n The City of Copenhagen has adopted an innovative public-private finance scheme to fund its Cloudburst Management Plan for storm water management xlvi . In particular, it had to address ambiguous responsibility allocation for greenscaping (construction of bioswales, green retention basins, etc.).\n Results \n The main stormwater runoff infrastructure (underground storage, drainage system) is financed through collected water charges by publicly owned water utility companies, with fees controlled and regulated by the local government. The greening component linked to improvement of public space is paid for by the local government, primarily through collected taxes, but new sources of finance might become available as Copenhagen is also lobbying the national government for a change in legislation. The remaining challenge is the finance of adaptation measures in privately owned buildings, which have the biggest potential to reduce damages from storm flooding (about one-third of costs estimated by the Cloudburst Plan) but few incentives beyond higher insurance prices.\n Reasons for success \n Holistic stakeholder engagement is one of the main drivers of the successful planning and implementation of the Cloudburst Management Plan. Copenhagen was able to collaborate successfully with their national government to change legislation allowing for a wider application of water fees, while also working with the Danish water utility to coordinate government and water services. Copenhagen also worked with various private- sector partners, including insurance companies, to monetise losses and projected losses and create cost-benefit analyses of various measures in order to provide a strong rationale for significant budgetary allocation.\n When/why a city might apply an approach like this \n Cities around the world should in particular consider priority budgeting, adaptation pathways and creative finance when a complete climate change adaptation plan’s financial needs are larger than the amount available within the city budget and other funding sources are limited or lacking.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The main stormwater runoff infrastructure (underground storage, drainage system) is financed through collected water charges by publicly owned water utility companies, with fees controlled and regulated by the local government. The greening component linked to improvement of public space is paid for by the local government, primarily through collected taxes, but new sources of finance might become available as Copenhagen is also lobbying the national government for a change in legislation. The remaining challenge is the finance of adaptation measures in privately owned buildings, which have the biggest potential to reduce damages from storm flooding (about one-third of costs estimated by the Cloudburst Plan) but few incentives beyond higher insurance prices.\n\nHolistic stakeholder engagement is one of the main drivers of the successful planning and implementation of the Cloudburst Management Plan. Copenhagen was able to collaborate successfully with their national government to change legislation allowing for a wider application of water fees, while also working with the Danish water utility to coordinate government and water services. Copenhagen also worked with various private- sector partners, including insurance companies, to monetise losses and projected losses and create cost-benefit analyses of various measures in order to provide a strong rationale for significant budgetary allocation.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-public-private-finance-scheme/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27160",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-copenhagen-public-private-finance-scheme&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

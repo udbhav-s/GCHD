@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-melbourne-refresh",
+  "url": "https://www.c40.org/case-studies/melbourne-refresh/",
+  "title": "Melbourne’s Climate Change Adaptation Strategy Refresh",
+  "summary": "This C40 case study describes “Melbourne’s Climate Change Adaptation Strategy Refresh,” an urban initiative documented for Melbourne. It is included because it addresses river flood, heatwave hazards. C40 describes the action this way: Melbourne’s Climate Change Adaptation Strategy Refresh (2017) initiated a re-articulation of Melbourne’s Climate Change Goals, fostering stronger partnerships with others and empowering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Melbourne’s Climate Change Adaptation Strategy Refresh (2017) initiated a re-articulation of Melbourne’s Climate Change Goals, fostering stronger partnerships with others and empowering the community to act.",
+    "measures": "City of Melbourne's Climate Change Adaptation Strategy Refresh 2017 is an update of its first risk-focussed Climate Change Strategy which was released in 2009. The 2009 strategy saw the implementation of over 100 actions and adaptation embedded into the way the city works. It identified four main climate change risks for Melbourne: insufficient water supply, floods, heatwaves and storms. While these still remain the priority areas for Melbourne, the Strategy Refresh was triggered by changes that have occurred since 2009, including population growth projections increasing, updated climate science and projections, and policy settings both globally and nationally changing. \n The updated strategy details how Melbourne will work towards the vision of a city that is adapting well to climate change and in particular address the need to create stronger partnerships with others and empower the community to act. The refreshed strategy has been guided both by the municipality’s understanding of climate risks and strategic priorities identified by the community. The strategy outlines how the city will deliver and advocate for effective adaptation through five strategic adaptation goals: \n Enhance the natural environment and green spaces of Melbourne;\n Shape Melbourne’s built form and urban renewal areas to withstand future climate change impacts;\n Strengthen the resilience of Melbourne’s inclusive, family friendly and culturally diverse community; \n Protect and enhance Melbourne’s diverse economy; \n Continue to build City of Melbourne’s adaptation capabilities and expertise.\n The City of Melbourne municipality has 170,000 residents but greater Melbourne includes over 4 million. Each day City of Melbourne has close to one million visitors. This strategy refresh aims to create a city that can adapt well to climate change and continue to prosper and thrive.\n What is the project? How does it work? \n Many cities are now developing Climate Change Adaptation Strategies but Melbourne is one of the first cities worldwide to refresh their strategy and review their action plan based on current best practice and knowledge. The refreshed strategy is moving the city in a new direction. The review showed a need for Melbourne to shift focus from adapting internal assets and processes to working more with external organisations, the community and the private realm. As there are many players making decisions that affect change in Melbourne, the city must work with its partners more effectively to ensure that it protects citizens and achieves the potential economic, social and environmental co-benefits that planning for climate change can bring.\nNew areas of focus include communicating with small and medium business to ensure they continue to prosper during extreme weather events; increasing permeable surfaces to reduce impacts of flooding; appropriately greening the city in both the public and private realm to help cool the city and improve biodiversity; and developing extreme weather plans to ensure support is provided to vulnerable communities during these events.\n What are the CO2 reduction goals? \n The City of Melbourne’s CO2 reduction goals are outlined in Melbourne’s Climate Change Mitigation Strategy released in 2018, which aligned the city to the 1.5C ambitions of the Paris Agreement. In addition, the adaptation actions in the refreshed Adaptation Strategy were assessed against a prioritisation criteria that included 'Does not produce additional GHG emissions’, to avoid additional GHG emissions where possible. However, the benefits of the adaptation action may have outweighed some minimal increase in GHG emissions.\n Next Steps \n Following the strategy refresh, Melbourne is able to share its approach, plans and actions with other councils and support them to establish their own adaptation plans.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/melbourne-refresh/",
+    "publication_date": "2020-01-31",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27508",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=melbourne-refresh&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

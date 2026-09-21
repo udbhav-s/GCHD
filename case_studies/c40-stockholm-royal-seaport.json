@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-stockholm-royal-seaport",
+  "url": "https://www.c40.org/case-studies/stockholm-royal-seaport/",
+  "title": "Stockholm Royal Seaport",
+  "summary": "This C40 case study describes “Stockholm Royal Seaport,” an urban initiative documented for Stockholm. It is included because it addresses coastal flood hazards. C40 describes the action this way: The Stockholm Royal Seaport (SRS) project is transforming the old industrial port area into a modern city environment for both residents and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Stockholm",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": null,
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Stockholms Laen",
+        "ucode": "SWE_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Stockholm",
+        "ucode": "SWE_0015_0018_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "stockholm",
+      "label": "Stockholm"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Stockholm Royal Seaport (SRS) project is transforming the old industrial port area into a modern city environment for both residents and businesses, setting the standard for creating a fossil-fuel free Stockholm. The project will improve the city’s sustainability by providing 12,000 apartments and 35,000 work places, which will be combined with space for recreation, thereby creating a dynamic and vibrant living and working space.",
+    "measures": "A Climate Positive Candidate , the SRS project is directly linked to the city’s ambition to develop a fossil-fuel free city by 2050, as well as the need for Sweden to adapt to the growing impacts of climate change, from rising temperatures and sea levels to higher precipitation. Projected population growth poses further challenges, as the city’s population is expected to reach 1.5 million within the city and 3.5 million in the region by 2030.\n Due to increasing competition between cities and regions, SRS is becoming a hub in the Baltic region. The seaport’s strategic location as the gateway to Stockholm, as well as its location in the center of the fast-expanding Baltic region, has increased the need to update the port’s infrastructure to accommodate rising ferry and cruise line traffic.\n\nIn 2009, the City Council of Stockholm decided that the Stockholm Royal Seaport should become a new environmentally profiled district. The aim of the project is to transform the old industrial port area into a modern city environment for both residents and businesses. Close cooperation between public authorities, developers, industry and universities, resulted in six focus areas, including energy, transportation, climate adaptation, eco-cycle systems, and sustainable housing.\n The city, building off of the success of the Hammarby Sjostad project, set out aggressive goals for SRS, including:\n Reducing carbon dioxide emissions to less than 1.5 tonnes per person by 2020;\n Having a fossil fuel-free city district by 2030; and\n Creating a climate-adapted district to mitigate the impacts of rising temperatures and sea levels.\n The project targets will be achieved through close cooperation with developers, utilities and other stakeholders. Requirements in land allocation agreements, combined with monitoring and follow-up processes ensure that houses are built according to passive house standards, wherein local renewable energy is generated, waste is recycled and local storm water management is built on properties. The city ensures that the transport network enables sustainable choices by prioritizing walking, biking and public transport, as well as encouraging recycling and renewable energy production.",
+    "outcomes": "Stockholm was selected as the first European Green Capital in 2010, demonstrating the steps Stockholm has already taken towards achieving environmental sustainability.\n The SRS is, and will continue to be, an important part of the city’s economic growth. For example, the port itself receives a few thousand visitors every day and the 120-year old gasworks will be transformed into a public area containing a culture centre with an international stage, museum, and public amenities. The urban green structure will connect the northern and southern part of the Royal National Park and contribute to a resilient ecosystem, recreation and an aesthetic urban environment.\n Since 2007, citizen participation has also been a key component of the SRS. Public consultations and open house informational meetings, as well as mail surveys and meetings with residents living in the surrounding city districts, have ensured input from the public.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/stockholm-royal-seaport/",
+    "publication_date": "2015-01-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26945",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=stockholm-royal-seaport&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

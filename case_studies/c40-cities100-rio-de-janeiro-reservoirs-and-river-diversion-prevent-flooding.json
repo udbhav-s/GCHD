@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-rio-de-janeiro-reservoirs-and-river-diversion-prevent-flooding",
+  "url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-reservoirs-and-river-diversion-prevent-flooding/",
+  "title": "Cities100: Rio De Janeiro – Reservoirs and River Diversion Prevent Flooding",
+  "summary": "This C40 case study describes “Cities100: Rio De Janeiro – Reservoirs and River Diversion Prevent Flooding,” an urban initiative documented for Rio de Janeiro. It is included because it addresses river flood, landslide hazards, and it is located in the Global South. C40 describes the action this way: Rio de Janeiro has built a range of flood-prevention infrastructure to help protect the vulnerable Tijuca region from river and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "landslide"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Heavy rains in Rio de Janeiro cause flooding due to poor drainage or overflow, traffic congestion, damage to buildings and infrastructure, landslides, and diseases due to water contamination. The Great Tijuca area is particularly susceptible to landslides and flooding, due to its low-lying position. These projects are therefore necessary to protect residents and infrastructure from more frequent flooding.",
+    "measures": "In 2012, the Brazilian City of Rio de Janeiro started construction on four underground reservoirs as well as a diversion tunnel for the Joana River in order to improve the resilience of the city’s Tijuca region. Excess water volume, which normally would overflow and cause flooding, will now accumulate in the tanks and be pumped out to the nearby bay. The reservoirs, one of which is complete, while the others are under construction, can accommodate a 25-year rainfall event. Revitalizing the Praça da Bandeira reservoir has transformed the area into a large, welcoming public space, including a 450 m2 skating rink, fitness center for seniors, green areas, new lighting, and a 212 meter circuit for walking.\n The flood-control plan also involves the construction of a diversion tunnel for the Joana River, to relieve the over-burdened Mangue Channel, which receives water from five different rivers. The Joana River course diversion will create a second outflow to the bay, decreasing dependence on the Mangue Channel. The outflow will also be faster because the water will travel a shorter course. Together, these flood-control plans will prevent flooding onto city streets, infrastructure damage, and the spread of waterborne diseases, and, at the same time, improve traffic conditions.\n Social Benefits – More open and accessible green areas encourage the use of public spaces and help catalyze civic engagement and a more enjoyable urban environment.\n Economic Benefits – The city anticipates that fewer floods, and their resulting damage, will help real estate values, revitalize local businesses, and prevent economic losses due to traffic congestion caused by flooding.\n Health Benefits – By reducing the risk of flooding, the city also reduces the spread of waterborne diseases.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-reservoirs-and-river-diversion-prevent-flooding/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26991",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rio-de-janeiro-reservoirs-and-river-diversion-prevent-flooding&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

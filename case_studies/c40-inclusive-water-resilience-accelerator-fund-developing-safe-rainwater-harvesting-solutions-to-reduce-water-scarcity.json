@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity",
+  "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity/",
+  "title": "Inclusive Water Resilience Accelerator Fund | Developing safe rainwater harvesting solutions to reduce water scarcity",
+  "summary": "This C40 case study describes “Inclusive Water Resilience Accelerator Fund | Developing safe rainwater harvesting solutions to reduce water scarcity,” an urban initiative documented for Freetown. It is included because it addresses meteorological drought hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: In Freetown, chronic water scarcity, worsened by the impacts of climate breakdown, is forcing many residents in vulnerable neighbourhoods to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Freetown",
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": null,
+        "iso3": "SLE"
+      },
+      "adm1": {
+        "name": "Western Area",
+        "ucode": "SLE_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "freetown",
+      "label": "Freetown"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Freetown, chronic water scarcity, worsened by the impacts of climate breakdown, is forcing many residents in vulnerable neighbourhoods to…",
+    "measures": "In Freetown, chronic water scarcity, worsened by the impacts of climate breakdown, is forcing many residents in vulnerable neighbourhoods to rely on contaminated water sources. This increases health risks and disproportionately affects women and children. With support from the C40 Inclusive Water Resilience Accelerator Fund, the city is exploring safe rainwater harvesting solutions to address these challenges for its frontline communities. \n Following a policy gap analysis and assessment of existing community-led systems, the city evaluated the feasibility of expanding rainwater collection systems in several informal settlements. More than 30 community leaders and resident groups are now being trained in safe water harvesting, system maintenance, and conservation – fostering local ownership, community buy-in, and knowledge sharing.\n The results of the feasibility study will help Freetown approach funders and development partners with a scalable model for community-level rainwater harvesting infrastructure that enhances health, equity, water security, and climate resilience.\n Learn more about the Freetown project \n More about C40’s ICA Fund",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity/",
+    "publication_date": "2025-11-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45696",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:53:11",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-wuhan-industrial-city-becomes-ecological-town",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-industrial-city-becomes-ecological-town/",
+  "title": "Cities100: Wuhan – Industrial City Becomes Ecological Town",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Industrial City Becomes Ecological Town,” an urban initiative documented for Wuhan. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: By shutting down chemical companies and turning industrial areas into new ecological communities, Wuhan has dramatically reduced pollution and enabled…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Wuhan, an industrial park consisting of chemical enterprises was a large contributor of pollutants, resulting in detrimental environ mental consequences and poor public health. The industrial park was demolished and enterprises moved. The development of an ecological city has improved the environment and the living conditions for its residents.",
+    "measures": "In 2014, the City of Wuhan converted an industrial area, the Gutian Old Industrial Zone, into a green, low carbon district called the Gutian Ecological New Town. To do so, the city shut down or relocated 99 chemical enterprises, reducing the total emissions of main pollutants by at least 90%. The Gutian Eco-logical New Town will make use of solar and wind power and absorb heat from the Han River to supply residential units with heating and cooling. All buildings will be constructed using ecological building technologies. Green bicycle routes and a low carbon light-rail network with stations within 300 meters of all residents will ensure eco-friendly traveling in the new ecological town.\n Under the project, the area of Gutian that had been most polluted by the former chemical companies will become a park and testing area for soil purification using biological restoration to absorb pollutants. The green projects already constructed take up 1.2 million m2 and will save 3.8 million kWh of energy and 1.3 million tons water. By 2020, the area is expected to expand to 4 million m2.\n Environmental Benefits – Investing over $157 million to restore the environment after closing the Gutian Old Industrial Zone, Wuhan is determined to forego its industrial past with the ecological town.\n Social Benefits – Social Public green areas per capita have increased from 4.5 m2 to 12.5 m2 and in total have increased from 2.5 million m2 to 6.6 million m2, improving quality of life in the community.\n Economic Benefits – With 5,000 new green households built, and with more than $1.5 billion invested in shopping, tourism, and trade, Wuhan is expecting to see significant economic development in the area.\n Health Benefits – To ensure the health and well-being of citizens, Wuhan erected a public health services complex with a disease control center, a women and children’s hospital, and a social charity house with 1,000 beds.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-industrial-city-becomes-ecological-town/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27053",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-industrial-city-becomes-ecological-town&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-orleans-comprehensive-strategy-for-equality-and-resilience",
+  "url": "https://www.c40.org/case-studies/cities100-new-orleans-comprehensive-strategy-for-equality-and-resilience/",
+  "title": "Cities100: New Orleans – Comprehensive Strategy for Equality and Resilience",
+  "summary": "This C40 case study describes “Cities100: New Orleans – Comprehensive Strategy for Equality and Resilience,” an urban initiative documented for New Orleans. It is included because it addresses river flood, tropical storm hazards. C40 describes the action this way: New Orleans is determined to make the city resilient to future climate change in a socially equitable way via a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New Orleans",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Louisiana",
+        "ucode": "USA_0019_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "tropical_storm"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-orleans",
+      "label": "New Orleans"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "More than a decade after Hurricane Katrina flooded 80% of the city and the homes and businesses of one million people, New Orleans is moving forward with its comprehensive strategy to reduce inequality and climate change vulnerability.",
+    "measures": "'Resilient New Orleans' is a portfolio of policies combining environmental, social, and infrastructure systems to reduce climate risk and socio-economic inequality. Climate change is expected to disproportionately affect poor communities 1 , so to increase resiliency, New Orleans is investing in the most vulnerable neighborhoods. One initiative is an emergency account program, which matches financial savings for lowand moderate-income earners to create emergency funds dedicated to natural disaster response. Another initiative incentivizes property owners to invest in risk reduction via a tested financial tool that removes high upfront cost barriers for homeowners.The city is also investing in green infrastructure to improve resilience. Built on a river delta and low-lying marshy land, water is at the heart of New Orleans. After decades of trying to work against the water, the city now embraces it via a network of parks and green spaces. The green infrastructure absorbs water slowly, filtering and cleaning it in the process, allowing the city's drainage system to cope with storm downpours more effectively. New Orleans will also establish a pioneering Resilience Center to serve as a hub for resilience innovation and leadership.\n Environmental Benefits – By reintegrating green and blue infrastructure back into the city's urban landscape, biodiversity will increase and natural filtration capacity will improve water quality.\n Social Benefits – With more than 52% of black men unemployed or underemployed, Resilient New Orleans is focused on advancing social cohesion and mobility. A workforce development program is in progress to accompany environmental projects.\n Economic Benefits – Improved flood protection is expected to result in lower insurance premiums for low-income communities.\n Health Benefits – Equitable public health is a key goal and improved air and water quality and improved housing conditions will all contribute to better health for the city's residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-orleans-comprehensive-strategy-for-equality-and-resilience/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27298",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-orleans-comprehensive-strategy-for-equality-and-resilience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

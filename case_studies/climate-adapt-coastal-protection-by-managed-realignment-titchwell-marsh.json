@@ -1,0 +1,161 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-coastal-protection-by-managed-realignment-titchwell-marsh",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+  "title": "Coastal protection by managed realignment, Titchwell Marsh",
+  "summary": "Titchwell Marsh lies towards the western end of the North Norfolk coast in UK. It forms a key part of the North Norfolk Coast Special Protection Area (SPA) and Special Area of Conservation (SAC). The freshwater and brackish habitats at Titchwell are protected by seawalls. However, these walls would have been in danger of not being able to withstand the next few years due to coastal erosion and rising sea levels.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": "country/GBR",
+        "iso3": "GBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "SEALEVELRISE",
+      "label": "Sea Level Rise",
+      "mapped_to": [
+        "coastal_flood"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BIODIVERSITY",
+      "label": "Biodiversity protection"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "COASTAL",
+      "label": "Coastal areas"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "protected area",
+      "label": "protected area"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "managed realignment",
+      "label": "managed realignment"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "NBS",
+      "label": "NBS"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Coastal defense",
+      "label": "Coastal defense"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "restoration measure",
+      "label": "restoration measure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "saltmarsh",
+      "label": "saltmarsh"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "soft engineering",
+      "label": "soft engineering"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "nature compensation",
+      "label": "nature compensation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "RSPB",
+      "label": "RSPB"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main goal of Titchwell Marsh Coastal Change Project was to provide flood defences for designated freshwater habitats in the short, medium and long term, whilst minimising impacts on the designated habitats outside the flood defences. Project objectives focused on: Protecting freshwater habitats from coastal erosion destruction; and Mitigating/compensating for the inevitable loss of important brackish marsh.",
+    "measures": "The project implemented a “managed realignment” scheme at Titchwell Marsh in response to climate change related sea level rise and increased erosion. The project included the strengthening of the existing western wall and the construction of a new wall (the Parrinder wall). These two walls aim to protect the freshwater habitats for at least the next 50 years. In addition, the project created a breach in the sea wall to connect the brackish marsh to the tidal saltmarsh to the east. The breach was located to tie into existing saltmarsh creeks. This allows the sea to enter into the brackish marsh, which turned back to tidal saltmarsh: the brackish marsh frequently flooded with the tide, allowing it to develop into saltmarsh and mudflats. These habitats are not only attractive to birds, but they act as sea defence in their own right and play a significant role in protecting the new Parrinder wall. The brackish marsh supported an important number of breeding avocet, a designated feature of the North Norfolk Coast SPA. To offset the loss of avocet nesting habitat following the managed realignment, additional nesting islands were created in the freshwater marsh at Titchwell (mitigation) and additional new avocet nesting habitat was created at the RSPB’s nature reserves at Frampton Marsh and Freiston Shore (compensation). The project acts as a good example of using mitigation and compensation in the context of Natura 2000. At the end of 2011, the work on the sea walls (including strengthening of the western wall, construction of the new Parrinder Bank and the breaching of brackish marsh) was completed. Freshwater habitats are now protected by 5.8m AOD (Above Ordnance Datum) sea defences with a flood defence standard of 1 in 30 years. This should be sufficient to protect the site for the next 50 years until less erosive coastal environment exist at Titchwell. The coastline at Titchwell Marsh currently sits on a sediment drift divide where longshore drift removes sediment in a westerly direction and local currents driven by the presence of the Scolt Head barrier beach system to the east of Titchwell remove sediment in an easterly direction. The barrier beach system at Scolt Head has been expanding in westerly direction for many years and it is predicted that as Scolt Head continues to expand west, the erosive point will pass Titchwell. The area from which the materials for the new Parrinder sea wall were excavated was land-formed; water control structures were installed to create an additional 2.4ha of reedbed habitat. The creation of a new reedbed in this area was an important side benefit of the project. By the end of the project, reed had started to naturally colonise the area. The maceration of encroaching reed using a previously untested technique was also extremely successful. The area previously covered by reed has been colonised by curled dock which has provided additional sources of seed food for wintering waterfowl. Repeated treatment is required every five to ten years, depending on the rate of reed re-growth. The installation of the fresh-marsh sluice with twice the capacity of the old one has enabled water levels to be managed more dynamically than was possible before. The move from a drop-board to a tilting weir sluice also allows to manage water levels more precisely so that the ideal water levels for passage wading birds can be achieved. An additional side-benefit of the works is that it was possible to extend the visitor trails around the new area of reedbed.",
+    "outcomes": "Factors decisive for a successful outcome of the project includes: A clear understanding of the coastal processes affecting Titchwell Marsh was critical in determining the most appropriate solution to the problem. Working with, not against, coastal processes was vital in gaining the support of Natural England and the Environment Agency. Investment in local consultation and communication was essential in securing planning consent. No objections were received from the local community. Appointing experienced contractors who understood the challenges of working in an environmentally sensitive site. Due to the breeding and wintering bird interest at Titchwell, construction work could only take place within a three month window (August, September & October) where disturbance could be minimised. This meant that the project took three years to deliver and the working window coincided with the busiest period for visitors thus impacting on visitor numbers and business performance.",
+    "cost_benefit": "Half of the cost of the project was covered by the European Commission, through its LIFE+ financial instrument. Additional funding was provided by Waste Recycling Environmental Ltd (WREN), SITA Trust and the Crown Estate. The project total budget was 2,009,660.00 € with a EU contribution of 1,004,830.00 €. An important co-benefit of the project was the creation of a new reedbed habitat which provided additional habitat for species such as the waterfowl as well as an extended route of the visitor trails. In addition, the new fresh-marsh sluice enables to manage water levels more dynamically.",
+    "timeline": "Planning consent for the project was secured in July 2009 and in September 2011 the breach made in east wall allowing seawater into what was the brackish marsh.",
+    "lifetime": "The proposed re‐alignment was estimated to be sustainable for the next 50 years, after which natural coastal change may result in a less erosive environment for the Titchwell Marsh RSPB Reserve frontage and provide long term sustainability.",
+    "stakeholders": "The key stakeholders in the project were Natural England (the UK government’s statutory nature conservation advisor), the Environment Agency (the public body responsible for coastal flood defense), Eastern Sea Fisheries (now Eastern Inshore Fisheries and Conservation Agency, the agency responsible for the management of inshore fisheries), the local community living in the villages closest to the reserve and visitors to Titchwell Marsh. The support of these stakeholders was critical in securing the necessary consents for the project. Individual meetings were held with Natural England, the Environment Agency and Eastern Sea Fisheries responded to a scoping report. Telephone conversations were held with two key local fishermen and three consultation days were held for the local community with over 150 people attending. Additional interpretation was provided for visitors to the reserve. An annual newsletter was produced for the duration of the project to keep local residents informed on progress.",
+    "legal_context": "As the proposed works were within the Wash and North Norfolk Coast SPA and SAC sites and were likely to have a significant effect (specifically on some of the designated features of the North Norfolk Coast SPA) an Appropriate Assessment of this proposal was required. Information was provided in the Environmental Statement accompanying the planning application to inform the Appropriate Assessment, including details of mitigation and compensation measures considered necessary in respect of relevant affected designated features at the site. Information was included to demonstrate that other relevant requirements of the Habitats Regulations were met, including the consideration of less damaging alternative solutions and imperative reasons of overriding public interest (IROPI) linked to the site designations. The main impact of the proposed scheme on the SAC interest features was the conversion of the brackish marsh to an intertidal area characterised by mudflats and saltmarsh. This would be a positive impact leading to an increase (11.09 ha) in the area of intertidal habitat within the designated sites. The proposed scheme would have been a temporary negative impact upon shrubby sea‐blite Suaeda vera , an interest feature of the SAC. Shrubby sea‐blite was found along the sea walls at the Titchwell Reserve and so would have been impacted by works to strengthen and raise the walls. A planting scheme for shrubby sea‐blite was prepared that would result in a net increase in the overall distribution of the species at Titchwell. The major direct adverse effects on the designated SPA / Ramsar site would have been on the wintering high‐tide wader roost and breeding avocet population. Both these SPA qualifying features were located on islands in the brackish marsh which would be lost following realignment. The RSPB was committed to ensuring that the necessary mitigation and compensation measures were in place and fully functional before damage to the North Norfolk Coast SPA occurred at Titchwell. The predicted adverse effects on the high tides wader roost could be wholly mitigated through the creation of new islands in the freshwater marsh at Titchwell. This would also benefit the breeding avocet population although a precautionary approach was taken and a compensatory habitat for breeding avocet at our Frampton Marsh and Freiston Shore Nature Reserves on the Lincolnshire side of The Wash was created. At Titchwell, the area of islands in freshwater marsh was increased from 5,450 square meters to 10,175 square meters. The new islands provided suitable habitat for the high tide wader roost and nesting habitat for a minimum of 18 pairs of breeding avocets. As there were no readily available, suitable sites within the North Norfolk Coast SPA to create replacement habitat to mitigate against the impacts on the remaining 34 pairs of avocet, habitat creation in The Wash (the nearest available location) was identified as the next best area to compensate for the residual adverse effect on breeding avocet."
+  },
+  "point": {
+    "lat": 52.9673031956,
+    "lon": 0.602874755837,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "rspb.org.uk",
+      "url": "https://www.rspb.org.uk/our-work/conservation/projects/titchwell-marsh-coastal-change-project/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "rspb.org.uk",
+      "url": "https://www.rspb.org.uk/reserves-and-events/reserves-a-z/titchwell-marsh/",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+    "publication_date": "2015-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "8b313d845e8d44af8ae1c9fbaa193053",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/coastal-protection-by-managed-realignment-titchwell-marsh",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:00+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

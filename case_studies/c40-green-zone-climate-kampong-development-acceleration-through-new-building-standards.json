@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-green-zone-climate-kampong-development-acceleration-through-new-building-standards",
+  "url": "https://www.c40.org/case-studies/green-zone-climate-kampong-development-acceleration-through-new-building-standards/",
+  "title": "Green Zone (Climate Kampong) Development Acceleration Through New Building Standards",
+  "summary": "This C40 case study describes “Green Zone (Climate Kampong) Development Acceleration Through New Building Standards,” an urban initiative documented for Jakarta. It is included because it is located in the Global South. C40 describes the action this way: This initiative focuses on accelerating the development of low to middle-Income high-rise housing in Green Zone Daan Mogot ( Climate Kampong )…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jakarta",
+      "label": "Jakarta"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "This initiative focuses on accelerating the development of low to middle-Income high-rise housing in Green Zone Daan Mogot ( Climate Kampong ) through the involvement and participationof key stakeholders.",
+    "measures": "In 2004, in Indonesia, energy demand from the building sector accounted for around 27% of the total energy consumption, and this figure is expected to increase to up to 40% by 2030, with the majority of new buildings expected to rise in Jakarta. The International Finance Corporation (IFC) noted that up to one-third of the energy and water consumed by buildings in Indonesia, including those in its capital city, can be reduced through better building design and management.\n What does the project consist of? \n Supported by the IFC, and assisted by the Clinton Climate Initiative and since 2009 by C40, Jakarta’s local government has identified low to middle-income high-rise housing in Daan Mogot as the pilot area for the Green Zone project.\n The built area will cover 17,6098 Ha and will consist of 7 sixteen-storey high-rise buildings, the Jakarta Grand Mosque – in process of completion – schools and hospitals.\n Credits: https://greenbuilding.jakarta.go.id/ \n What is the innovation? \n To accelerate the implementation and development of the Green Zone project, the Governor established a Green Building Forum composed of a group of various stakeholders, aiming to mainstream the concept of Green Building as it has been defined by the Governor Regulation of DKI Jakarta No.38/2012 on Green Building and the Governor Instruction No. 30/2017. This Green Zone Project is part of the pilot implementation of “30:30 Commitment”, which is Jakarta’s commitment to reduce water and energy consumption, as well as GHG emissions by 30% by 2030.\n The first stage has been to formulate the ‘Grand Design’ of the Jakarta Green Building Programme. The steps taken will not only improve energy efficiency measures, but will also open the way for opportunities for the private sector and other stakeholders to develop sustainable housing infrastructure and buildings. Furthermore, the project is also supporting an increasing community awareness towards low carbon activities and the mechanisms necessary for a green growth.\n What are the CO2 reduction achievements? \n Credits: https://greenbuilding.jakarta.go.id/ \n Having realised the importance of seriously tackling climate change, Jakarta has already proven that green building policies have a real impact. Within 3 years, more than 260 buildings have complied with the Green Building regulations. This figure is equivalent to a reduction of 605,000 CO2e metric tons per year, energy savings for more than 850,000 MWh/year, and avoided costs of USD 68.3 million per year.\n Links to further information: \n https://greenbuilding.jakarta.go.id/ \n Contact Details: \n Dr. Aisa Tobing\n Jakarta Research Council\n esa_tobing@yahoo.com \n aisa@jakarta.go.id",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-zone-climate-kampong-development-acceleration-through-new-building-standards/",
+    "publication_date": "2018-09-21",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27408",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=green-zone-climate-kampong-development-acceleration-through-new-building-standards&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

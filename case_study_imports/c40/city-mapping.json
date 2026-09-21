@@ -1,0 +1,1762 @@
+{
+  "Abidjan": {
+    "adm0": {
+      "name": "Côte d'Ivoire",
+      "ucode": "CIV_V1",
+      "iso3": "CIV"
+    },
+    "adm1": {
+      "name": "District Autonome D'Abidjan",
+      "ucode": "CIV_0008_V1"
+    },
+    "adm2": {
+      "name": "Abidjan",
+      "ucode": "CIV_0008_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Addis Ababa": {
+    "adm0": {
+      "name": "Ethiopia",
+      "ucode": "ETH_V1",
+      "iso3": "ETH"
+    },
+    "adm1": {
+      "name": "Addis Ababa",
+      "ucode": "ETH_0001_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Amman": {
+    "adm0": {
+      "name": "Jordan",
+      "ucode": "JOR_V1",
+      "iso3": "JOR"
+    },
+    "adm1": {
+      "name": "'Amman",
+      "ucode": "JOR_0003_V1"
+    },
+    "adm2": {
+      "name": "Qasabet Amman",
+      "ucode": "JOR_0003_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Amsterdam": {
+    "adm0": {
+      "name": "Netherlands",
+      "ucode": "NLD_V1",
+      "iso3": "NLD"
+    },
+    "adm1": {
+      "name": "Noord-Holland",
+      "ucode": "NLD_0008_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Ann Arbor": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Michigan",
+      "ucode": "USA_0023_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Athens": {
+    "adm0": {
+      "name": "Greece",
+      "ucode": "GRC_V1",
+      "iso3": "GRC"
+    },
+    "adm1": {
+      "name": "Attiki",
+      "ucode": "GRC_0002_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Auckland": {
+    "adm0": {
+      "name": "New Zealand",
+      "ucode": "NZL_V1",
+      "iso3": "NZL"
+    },
+    "adm1": {
+      "name": "Auckland",
+      "ucode": "NZL_0002_V1"
+    },
+    "adm2": {
+      "name": "Auckland",
+      "ucode": "NZL_0002_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Austin": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Texas",
+      "ucode": "USA_0044_V1"
+    },
+    "adm2": {
+      "name": "Austin",
+      "ucode": "USA_0044_0008_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Bangkok": {
+    "adm0": {
+      "name": "Thailand",
+      "ucode": "THA_V1",
+      "iso3": "THA"
+    },
+    "adm1": {
+      "name": "Bangkok",
+      "ucode": "THA_0003_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Barcelona": {
+    "adm0": {
+      "name": "Spain",
+      "ucode": "ESP_V1",
+      "iso3": "ESP"
+    },
+    "adm1": {
+      "name": "Cataluna",
+      "ucode": "ESP_0008_V1"
+    },
+    "adm2": {
+      "name": "Barcelona",
+      "ucode": "ESP_0008_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Beijing": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Beijing Shi",
+      "ucode": "CHN_0002_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Belém": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "Pará",
+      "ucode": "BRA_0014_V1"
+    },
+    "adm2": {
+      "name": "Belém",
+      "ucode": "BRA_0014_0076_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Bengaluru": {
+    "adm0": {
+      "name": "India",
+      "ucode": "IND_V1",
+      "iso3": "IND"
+    },
+    "adm1": {
+      "name": "Karnataka",
+      "ucode": "IND_0016_V1"
+    },
+    "adm2": {
+      "name": "Bengaluru Urban",
+      "ucode": "IND_0016_0005_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Berlin": {
+    "adm0": {
+      "name": "Germany",
+      "ucode": "DEU_V1",
+      "iso3": "DEU"
+    },
+    "adm1": {
+      "name": "Berlin",
+      "ucode": "DEU_0003_V1"
+    },
+    "adm2": {
+      "name": "Berlin",
+      "ucode": "DEU_0003_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Bogotá": {
+    "adm0": {
+      "name": "Colombia",
+      "ucode": "COL_V1",
+      "iso3": "COL"
+    },
+    "adm1": {
+      "name": "Bogotá, D.C.",
+      "ucode": "COL_0006_V1"
+    },
+    "adm2": {
+      "name": "Bogotá, D.C.",
+      "ucode": "COL_0006_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Boston": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Massachusetts",
+      "ucode": "USA_0022_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Buenos Aires": {
+    "adm0": {
+      "name": "Argentina",
+      "ucode": "ARG_V1",
+      "iso3": "ARG"
+    },
+    "adm1": {
+      "name": "Ciudad Autonoma De Buenos Aires",
+      "ucode": "ARG_0005_V1"
+    },
+    "adm2": {
+      "name": "Ciudad Autonoma De Buenos Aires",
+      "ucode": "ARG_0005_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Cape Town": {
+    "adm0": {
+      "name": "South Africa",
+      "ucode": "ZAF_V1",
+      "iso3": "ZAF"
+    },
+    "adm1": {
+      "name": "Western Cape",
+      "ucode": "ZAF_0009_V1"
+    },
+    "adm2": {
+      "name": "City of Cape Town",
+      "ucode": "ZAF_0009_0003_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Chengdu": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Sichuan Sheng",
+      "ucode": "CHN_0026_V1"
+    },
+    "adm2": {
+      "name": "Chengdu",
+      "ucode": "CHN_0026_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Chennai": {
+    "adm0": {
+      "name": "India",
+      "ucode": "IND_V1",
+      "iso3": "IND"
+    },
+    "adm1": {
+      "name": "Tamil Nadu",
+      "ucode": "IND_0030_V1"
+    },
+    "adm2": {
+      "name": "Chennai",
+      "ucode": "IND_0030_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Chicago": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Illinois",
+      "ucode": "USA_0014_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Cleveland": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Ohio",
+      "ucode": "USA_0036_V1"
+    },
+    "adm2": {
+      "name": "Clinton",
+      "ucode": "USA_0036_0014_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Copenhagen": {
+    "adm0": {
+      "name": "Denmark",
+      "ucode": "DNK_V1",
+      "iso3": "DNK"
+    },
+    "adm1": {
+      "name": "The Capitol Region",
+      "ucode": "DNK_0015_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Curitiba": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "Paraná",
+      "ucode": "BRA_0016_V1"
+    },
+    "adm2": {
+      "name": "Curitiba",
+      "ucode": "BRA_0016_0133_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Dakar": {
+    "adm0": {
+      "name": "Senegal",
+      "ucode": "SEN_V1",
+      "iso3": "SEN"
+    },
+    "adm1": {
+      "name": "Dakar",
+      "ucode": "SEN_0009_V1"
+    },
+    "adm2": {
+      "name": "Dakar",
+      "ucode": "SEN_0009_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Dalian": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Liaoning Sheng",
+      "ucode": "CHN_0018_V1"
+    },
+    "adm2": {
+      "name": "Dalian",
+      "ucode": "CHN_0018_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Dar es Salaam": {
+    "adm0": {
+      "name": "United Republic of Tanzania",
+      "ucode": "TZA_V1",
+      "iso3": "TZA"
+    },
+    "adm1": {
+      "name": "Dar-Es-Salaam",
+      "ucode": "TZA_0002_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Delhi NCT": {
+    "adm0": {
+      "name": "India",
+      "ucode": "IND_V1",
+      "iso3": "IND"
+    },
+    "adm1": {
+      "name": "Delhi",
+      "ucode": "IND_0010_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Detroit": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Michigan",
+      "ucode": "USA_0023_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Dhaka North": {
+    "adm0": {
+      "name": "Bangladesh",
+      "ucode": "BGD_V1",
+      "iso3": "BGD"
+    },
+    "adm1": {
+      "name": "Dhaka",
+      "ucode": "BGD_0003_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Dubai": {
+    "adm0": {
+      "name": "United Arab Emirates",
+      "ucode": "ARE_V1",
+      "iso3": "ARE"
+    },
+    "adm1": {
+      "name": "Dubai",
+      "ucode": "ARE_0004_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Durban (eThekwini)": {
+    "adm0": {
+      "name": "South Africa",
+      "ucode": "ZAF_V1",
+      "iso3": "ZAF"
+    },
+    "adm1": {
+      "name": "Kwa-Zulu Natal",
+      "ucode": "ZAF_0004_V1"
+    },
+    "adm2": {
+      "name": "eThekwini",
+      "ucode": "ZAF_0004_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Ekurhuleni": {
+    "adm0": {
+      "name": "South Africa",
+      "ucode": "ZAF_V1",
+      "iso3": "ZAF"
+    },
+    "adm1": {
+      "name": "Gauteng",
+      "ucode": "ZAF_0003_V1"
+    },
+    "adm2": {
+      "name": "Ekurhuleni",
+      "ucode": "ZAF_0003_0003_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Fortaleza": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "Ceará",
+      "ucode": "BRA_0006_V1"
+    },
+    "adm2": {
+      "name": "Fortaleza",
+      "ucode": "BRA_0006_0176_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Freetown": {
+    "adm0": {
+      "name": "Sierra Leone",
+      "ucode": "SLE_V1",
+      "iso3": "SLE"
+    },
+    "adm1": {
+      "name": "Western Area",
+      "ucode": "SLE_0005_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Fuzhou": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Fujian Sheng",
+      "ucode": "CHN_0004_V1"
+    },
+    "adm2": {
+      "name": "Fuzhou",
+      "ucode": "CHN_0004_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Guadalajara": {
+    "adm0": {
+      "name": "Mexico",
+      "ucode": "MEX_V1",
+      "iso3": "MEX"
+    },
+    "adm1": {
+      "name": "Jalisco",
+      "ucode": "MEX_0014_V1"
+    },
+    "adm2": {
+      "name": "Guadalajara",
+      "ucode": "MEX_0014_0040_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Guangzhou": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Guangdong Sheng",
+      "ucode": "CHN_0006_V1"
+    },
+    "adm2": {
+      "name": "Guangzhou",
+      "ucode": "CHN_0006_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Hanoi": {
+    "adm0": {
+      "name": "Viet Nam",
+      "ucode": "VNM_V1",
+      "iso3": "VNM"
+    },
+    "adm1": {
+      "name": "Ha Noi City",
+      "ucode": "VNM_0022_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Heidelberg": {
+    "adm0": {
+      "name": "Germany",
+      "ucode": "DEU_V1",
+      "iso3": "DEU"
+    },
+    "adm1": {
+      "name": "Baden-Württemberg",
+      "ucode": "DEU_0001_V1"
+    },
+    "adm2": {
+      "name": "Heidelberg",
+      "ucode": "DEU_0001_0014_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Ho Chi Minh City": {
+    "adm0": {
+      "name": "Viet Nam",
+      "ucode": "VNM_V1",
+      "iso3": "VNM"
+    },
+    "adm1": {
+      "name": "Ho Chi Minh City",
+      "ucode": "VNM_0027_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Hong Kong, China": {
+    "adm0": {
+      "name": "China, Hong Kong SAR",
+      "ucode": "HKG_V1",
+      "iso3": "HKG"
+    },
+    "adm1": null,
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "GeoRepo models Hong Kong as ADM0 (China, Hong Kong SAR), with no subordinate units."
+  },
+  "Houston": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Texas",
+      "ucode": "USA_0044_V1"
+    },
+    "adm2": {
+      "name": "Houston",
+      "ucode": "USA_0044_0113_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Irvine": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "California",
+      "ucode": "USA_0005_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Istanbul": {
+    "adm0": {
+      "name": "Republic of Türkiye",
+      "ucode": "TUR_V1",
+      "iso3": "TUR"
+    },
+    "adm1": {
+      "name": "İstanbul",
+      "ucode": "TUR_0040_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Jackson": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Mississippi",
+      "ucode": "USA_0025_V1"
+    },
+    "adm2": {
+      "name": "Jackson",
+      "ucode": "USA_0025_0030_V1"
+    },
+    "match_confidence": "medium",
+    "notes": "Interpreted as Jackson, Mississippi; exact same-name ADM2 among many US candidates."
+  },
+  "Jakarta": {
+    "adm0": {
+      "name": "Indonesia",
+      "ucode": "IDN_V1",
+      "iso3": "IDN"
+    },
+    "adm1": {
+      "name": "Dki Jakarta",
+      "ucode": "IDN_0011_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Johannesburg": {
+    "adm0": {
+      "name": "South Africa",
+      "ucode": "ZAF_V1",
+      "iso3": "ZAF"
+    },
+    "adm1": {
+      "name": "Gauteng",
+      "ucode": "ZAF_0003_V1"
+    },
+    "adm2": {
+      "name": "City of Johannesburg",
+      "ucode": "ZAF_0003_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Karachi": {
+    "adm0": {
+      "name": "Pakistan",
+      "ucode": "PAK_V1",
+      "iso3": "PAK"
+    },
+    "adm1": {
+      "name": "Sindh",
+      "ucode": "PAK_0005_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "Mapped to Sindh; GeoRepo has multiple Karachi district ADM2 units, so ADM2 is left null."
+  },
+  "Kolkata": {
+    "adm0": {
+      "name": "India",
+      "ucode": "IND_V1",
+      "iso3": "IND"
+    },
+    "adm1": {
+      "name": "West Bengal",
+      "ucode": "IND_0035_V1"
+    },
+    "adm2": {
+      "name": "Kolkata",
+      "ucode": "IND_0035_0012_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Kuala Lumpur": {
+    "adm0": {
+      "name": "Malaysia",
+      "ucode": "MYS_V1",
+      "iso3": "MYS"
+    },
+    "adm1": {
+      "name": "Kuala Lumpur",
+      "ucode": "MYS_0004_V1"
+    },
+    "adm2": {
+      "name": "Kuala Lumpur",
+      "ucode": "MYS_0004_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Lagos": {
+    "adm0": {
+      "name": "Nigeria",
+      "ucode": "NGA_V1",
+      "iso3": "NGA"
+    },
+    "adm1": {
+      "name": "Lagos",
+      "ucode": "NGA_0025_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Lawrence": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Massachusetts",
+      "ucode": "USA_0022_V1"
+    },
+    "adm2": null,
+    "match_confidence": "medium",
+    "notes": "Interpreted as Lawrence, Massachusetts; bare city label is not uniquely geocodable."
+  },
+  "Lima": {
+    "adm0": {
+      "name": "Peru",
+      "ucode": "PER_V1",
+      "iso3": "PER"
+    },
+    "adm1": {
+      "name": "Lima",
+      "ucode": "PER_0015_V1"
+    },
+    "adm2": {
+      "name": "Lima",
+      "ucode": "PER_0015_0008_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Lisbon": {
+    "adm0": {
+      "name": "Portugal",
+      "ucode": "PRT_V1",
+      "iso3": "PRT"
+    },
+    "adm1": {
+      "name": "Lisboa",
+      "ucode": "PRT_0011_V1"
+    },
+    "adm2": {
+      "name": "Lisboa",
+      "ucode": "PRT_0011_0007_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "London": {
+    "adm0": {
+      "name": "United Kingdom of Great Britain & Northern Ireland",
+      "ucode": "GBR_V1",
+      "iso3": "GBR"
+    },
+    "adm1": {
+      "name": "England",
+      "ucode": "GBR_0001_V1"
+    },
+    "adm2": {
+      "name": "Greater London",
+      "ucode": "GBR_0001_0017_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Los Angeles": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "California",
+      "ucode": "USA_0005_V1"
+    },
+    "adm2": {
+      "name": "Los Angeles",
+      "ucode": "USA_0005_0019_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Madrid": {
+    "adm0": {
+      "name": "Spain",
+      "ucode": "ESP_V1",
+      "iso3": "ESP"
+    },
+    "adm1": {
+      "name": "Madrid, Comunidad De",
+      "ucode": "ESP_0013_V1"
+    },
+    "adm2": {
+      "name": "Madrid",
+      "ucode": "ESP_0013_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Manila": {
+    "adm0": {
+      "name": "Philippines",
+      "ucode": "PHL_V1",
+      "iso3": "PHL"
+    },
+    "adm1": {
+      "name": "National Capital Region (Ncr)",
+      "ucode": "PHL_0004_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Medellín": {
+    "adm0": {
+      "name": "Colombia",
+      "ucode": "COL_V1",
+      "iso3": "COL"
+    },
+    "adm1": {
+      "name": "Antioquia",
+      "ucode": "COL_0002_V1"
+    },
+    "adm2": {
+      "name": "Medellín",
+      "ucode": "COL_0002_0069_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Melbourne": {
+    "adm0": {
+      "name": "Australia",
+      "ucode": "AUS_V1",
+      "iso3": "AUS"
+    },
+    "adm1": {
+      "name": "Victoria",
+      "ucode": "AUS_0008_V1"
+    },
+    "adm2": {
+      "name": "Melbourne",
+      "ucode": "AUS_0008_0043_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Mexico City": {
+    "adm0": {
+      "name": "Mexico",
+      "ucode": "MEX_V1",
+      "iso3": "MEX"
+    },
+    "adm1": {
+      "name": "Ciudad De México",
+      "ucode": "MEX_0007_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Milan": {
+    "adm0": {
+      "name": "Italy",
+      "ucode": "ITA_V1",
+      "iso3": "ITA"
+    },
+    "adm1": {
+      "name": "Lombardia",
+      "ucode": "ITA_0009_V1"
+    },
+    "adm2": {
+      "name": "Milano",
+      "ucode": "ITA_0009_0008_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Miramar": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Florida",
+      "ucode": "USA_0010_V1"
+    },
+    "adm2": null,
+    "match_confidence": "medium",
+    "notes": "Interpreted as Miramar, Florida; no exact ADM2 in GeoRepo."
+  },
+  "Moscow": {
+    "adm0": {
+      "name": "Russian Federation",
+      "ucode": "RUS_V1",
+      "iso3": "RUS"
+    },
+    "adm1": {
+      "name": "Central Federal District",
+      "ucode": "RUS_0001_V1"
+    },
+    "adm2": {
+      "name": "Moscow City",
+      "ucode": "RUS_0001_0010_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Nairobi": {
+    "adm0": {
+      "name": "Kenya",
+      "ucode": "KEN_V1",
+      "iso3": "KEN"
+    },
+    "adm1": {
+      "name": "Nairobi",
+      "ucode": "KEN_0030_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Nanjing": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Jiangsu Sheng",
+      "ucode": "CHN_0015_V1"
+    },
+    "adm2": {
+      "name": "Nanjing",
+      "ucode": "CHN_0015_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "New Orleans": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Louisiana",
+      "ucode": "USA_0019_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "New York": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "New York",
+      "ucode": "USA_0033_V1"
+    },
+    "adm2": {
+      "name": "New York",
+      "ucode": "USA_0033_0031_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Oceanside": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "California",
+      "ucode": "USA_0005_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Oslo": {
+    "adm0": {
+      "name": "Norway",
+      "ucode": "NOR_V1",
+      "iso3": "NOR"
+    },
+    "adm1": {
+      "name": "Oslo",
+      "ucode": "NOR_0012_V1"
+    },
+    "adm2": {
+      "name": "Oslo",
+      "ucode": "NOR_0012_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Ottawa": {
+    "adm0": {
+      "name": "Canada",
+      "ucode": "CAN_V1",
+      "iso3": "CAN"
+    },
+    "adm1": {
+      "name": "Ontario",
+      "ucode": "CAN_0009_V1"
+    },
+    "adm2": {
+      "name": "Ottawa",
+      "ucode": "CAN_0009_0031_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Paris": {
+    "adm0": {
+      "name": "France",
+      "ucode": "FRA_V1",
+      "iso3": "FRA"
+    },
+    "adm1": {
+      "name": "Ile-De-France",
+      "ucode": "FRA_0012_V1"
+    },
+    "adm2": {
+      "name": "Paris",
+      "ucode": "FRA_0012_0003_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Pau": {
+    "adm0": {
+      "name": "France",
+      "ucode": "FRA_V1",
+      "iso3": "FRA"
+    },
+    "adm1": {
+      "name": "Aquitaine",
+      "ucode": "FRA_0002_V1"
+    },
+    "adm2": null,
+    "match_confidence": "medium",
+    "notes": "Pau, France, mapped to historical Aquitaine; no exact ADM2 in GeoRepo."
+  },
+  "Penang": {
+    "adm0": {
+      "name": "Malaysia",
+      "ucode": "MYS_V1",
+      "iso3": "MYS"
+    },
+    "adm1": {
+      "name": "Pulau Pinang",
+      "ucode": "MYS_0010_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Philadelphia": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Pennsylvania",
+      "ucode": "USA_0039_V1"
+    },
+    "adm2": {
+      "name": "Philadelphia",
+      "ucode": "USA_0039_0051_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Phoenix": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Arizona",
+      "ucode": "USA_0003_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Portland": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Oregon",
+      "ucode": "USA_0038_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Qingdao": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Shandong Sheng",
+      "ucode": "CHN_0023_V1"
+    },
+    "adm2": {
+      "name": "Qingdao",
+      "ucode": "CHN_0023_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Quezon City": {
+    "adm0": {
+      "name": "Philippines",
+      "ucode": "PHL_V1",
+      "iso3": "PHL"
+    },
+    "adm1": {
+      "name": "National Capital Region (Ncr)",
+      "ucode": "PHL_0004_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "Mapped to the Philippines National Capital Region; province-level Quezon is not the city."
+  },
+  "Quito": {
+    "adm0": {
+      "name": "Ecuador",
+      "ucode": "ECU_V1",
+      "iso3": "ECU"
+    },
+    "adm1": {
+      "name": "Pichincha",
+      "ucode": "ECU_0019_V1"
+    },
+    "adm2": {
+      "name": "Distrito Metropolitano De Quito",
+      "ucode": "ECU_0019_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Renca": {
+    "adm0": {
+      "name": "Chile",
+      "ucode": "CHL_V1",
+      "iso3": "CHL"
+    },
+    "adm1": {
+      "name": "Metropolitana",
+      "ucode": "CHL_0006_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Rio de Janeiro": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "Rio De Janeiro",
+      "ucode": "BRA_0019_V1"
+    },
+    "adm2": {
+      "name": "Rio De Janeiro",
+      "ucode": "BRA_0019_0013_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Rotterdam": {
+    "adm0": {
+      "name": "Netherlands",
+      "ucode": "NLD_V1",
+      "iso3": "NLD"
+    },
+    "adm1": {
+      "name": "Zuid-Holland",
+      "ucode": "NLD_0012_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Salvador": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "Bahia",
+      "ucode": "BRA_0005_V1"
+    },
+    "adm2": {
+      "name": "Salvador",
+      "ucode": "BRA_0005_0147_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "San Francisco": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "California",
+      "ucode": "USA_0005_V1"
+    },
+    "adm2": {
+      "name": "San Francisco",
+      "ucode": "USA_0005_0038_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Santiago": {
+    "adm0": {
+      "name": "Chile",
+      "ucode": "CHL_V1",
+      "iso3": "CHL"
+    },
+    "adm1": {
+      "name": "Metropolitana",
+      "ucode": "CHL_0006_V1"
+    },
+    "adm2": {
+      "name": "Provincia De Santiago",
+      "ucode": "CHL_0006_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Seattle": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Washington",
+      "ucode": "USA_0049_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Seoul": {
+    "adm0": {
+      "name": "Republic of Korea",
+      "ucode": "KOR_V1",
+      "iso3": "KOR"
+    },
+    "adm1": {
+      "name": "Seoul",
+      "ucode": "KOR_0016_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Shanghai": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Shanghai Shi",
+      "ucode": "CHN_0024_V1"
+    },
+    "adm2": {
+      "name": "Shanghai",
+      "ucode": "CHN_0024_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Shenzhen": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Guangdong Sheng",
+      "ucode": "CHN_0006_V1"
+    },
+    "adm2": {
+      "name": "Shenzhen",
+      "ucode": "CHN_0006_0003_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Singapore": {
+    "adm0": {
+      "name": "Singapore",
+      "ucode": "SGP_V2",
+      "iso3": "SGP"
+    },
+    "adm1": null,
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "GeoRepo models Singapore as ADM0, with no subordinate units."
+  },
+  "Stockholm": {
+    "adm0": {
+      "name": "Sweden",
+      "ucode": "SWE_V1",
+      "iso3": "SWE"
+    },
+    "adm1": {
+      "name": "Stockholms Laen",
+      "ucode": "SWE_0015_V1"
+    },
+    "adm2": {
+      "name": "Stockholm",
+      "ucode": "SWE_0015_0018_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Sydney": {
+    "adm0": {
+      "name": "Australia",
+      "ucode": "AUS_V1",
+      "iso3": "AUS"
+    },
+    "adm1": {
+      "name": "New South Wales",
+      "ucode": "AUS_0002_V1"
+    },
+    "adm2": {
+      "name": "Sydney",
+      "ucode": "AUS_0002_0146_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "São Paulo": {
+    "adm0": {
+      "name": "Brazil",
+      "ucode": "BRA_V1",
+      "iso3": "BRA"
+    },
+    "adm1": {
+      "name": "São Paulo",
+      "ucode": "BRA_0025_V1"
+    },
+    "adm2": {
+      "name": "São Paulo",
+      "ucode": "BRA_0025_0305_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Tallinn": {
+    "adm0": {
+      "name": "Estonia",
+      "ucode": "EST_V1",
+      "iso3": "EST"
+    },
+    "adm1": {
+      "name": "Harjumaa",
+      "ucode": "EST_0001_V1"
+    },
+    "adm2": {
+      "name": "Tallinn (Town)",
+      "ucode": "EST_0001_0022_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Tempe": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "Arizona",
+      "ucode": "USA_0003_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Tokyo": {
+    "adm0": {
+      "name": "Japan",
+      "ucode": "JPN_V1",
+      "iso3": "JPN"
+    },
+    "adm1": {
+      "name": "Tookyoo",
+      "ucode": "JPN_0040_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Toronto": {
+    "adm0": {
+      "name": "Canada",
+      "ucode": "CAN_V1",
+      "iso3": "CAN"
+    },
+    "adm1": {
+      "name": "Ontario",
+      "ucode": "CAN_0009_V1"
+    },
+    "adm2": {
+      "name": "Toronto",
+      "ucode": "CAN_0009_0046_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Tshwane": {
+    "adm0": {
+      "name": "South Africa",
+      "ucode": "ZAF_V1",
+      "iso3": "ZAF"
+    },
+    "adm1": {
+      "name": "Gauteng",
+      "ucode": "ZAF_0003_V1"
+    },
+    "adm2": {
+      "name": "City of Tshwane",
+      "ucode": "ZAF_0003_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Vancouver": {
+    "adm0": {
+      "name": "Canada",
+      "ucode": "CAN_V1",
+      "iso3": "CAN"
+    },
+    "adm1": {
+      "name": "British Columbia",
+      "ucode": "CAN_0002_V1"
+    },
+    "adm2": {
+      "name": "Greater Vancouver",
+      "ucode": "CAN_0002_0014_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Venice": {
+    "adm0": {
+      "name": "Italy",
+      "ucode": "ITA_V1",
+      "iso3": "ITA"
+    },
+    "adm1": {
+      "name": "Veneto",
+      "ucode": "ITA_0020_V1"
+    },
+    "adm2": {
+      "name": "Venezia",
+      "ucode": "ITA_0020_0005_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Warsaw": {
+    "adm0": {
+      "name": "Poland",
+      "ucode": "POL_V1",
+      "iso3": "POL"
+    },
+    "adm1": {
+      "name": "Mazowieckie",
+      "ucode": "POL_0007_V1"
+    },
+    "adm2": {
+      "name": "M. St. Warszawa",
+      "ucode": "POL_0007_0015_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Washington, DC": {
+    "adm0": {
+      "name": "United States of America",
+      "ucode": "USA_V1",
+      "iso3": "USA"
+    },
+    "adm1": {
+      "name": "District Of Columbia",
+      "ucode": "USA_0009_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; no exact city ADM2 available in the cache."
+  },
+  "Wuhan": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Hubei Sheng",
+      "ucode": "CHN_0013_V1"
+    },
+    "adm2": {
+      "name": "Wuhan",
+      "ucode": "CHN_0013_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Yokohama": {
+    "adm0": {
+      "name": "Japan",
+      "ucode": "JPN_V1",
+      "iso3": "JPN"
+    },
+    "adm1": {
+      "name": "Kanagawa",
+      "ucode": "JPN_0018_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "Mapped to Kanagawa; GeoRepo has ward ADM2 units but no whole-city unit."
+  },
+  "Zhenjiang": {
+    "adm0": {
+      "name": "China",
+      "ucode": "CHN_V1",
+      "iso3": "CHN"
+    },
+    "adm1": {
+      "name": "Jiangsu Sheng",
+      "ucode": "CHN_0015_V1"
+    },
+    "adm2": {
+      "name": "Zhenjiang",
+      "ucode": "CHN_0015_0011_V1"
+    },
+    "match_confidence": "high",
+    "notes": "ADM1 verified against GeoRepo; ADM2 is an exact city/municipality match."
+  },
+  "Jaipur": {
+    "adm0": {
+      "name": "India",
+      "ucode": "IND_V1",
+      "iso3": "IND"
+    },
+    "adm1": {
+      "name": "Rajasthan",
+      "ucode": "IND_0028_V1"
+    },
+    "adm2": {
+      "name": "Jaipur",
+      "ucode": "IND_0028_0017_V1"
+    },
+    "match_confidence": "high",
+    "notes": "Exact Jaipur ADM2 under Rajasthan."
+  },
+  "Basel": {
+    "adm0": {
+      "name": "Switzerland",
+      "ucode": "CHE_V1",
+      "iso3": "CHE"
+    },
+    "adm1": {
+      "name": "Basel-Stadt",
+      "ucode": "CHE_0005_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "Basel city is in Basel-Stadt; GeoRepo has no exact Basel city ADM2 (its Basel-Stadt ADM2 is N/A)."
+  },
+  "Changwon": {
+    "adm0": {
+      "name": "Republic of Korea",
+      "ucode": "KOR_V1",
+      "iso3": "KOR"
+    },
+    "adm1": {
+      "name": "Gyeongsangnam-Do",
+      "ucode": "KOR_0010_V1"
+    },
+    "adm2": {
+      "name": "Changwon-Si",
+      "ucode": "KOR_0010_0002_V1"
+    },
+    "match_confidence": "high",
+    "notes": "Exact Changwon-Si ADM2 under Gyeongsangnam-Do."
+  },
+  "Caracas": {
+    "adm0": {
+      "name": "Venezuela",
+      "ucode": "VEN_V1",
+      "iso3": "VEN"
+    },
+    "adm1": {
+      "name": "Distrito Federal",
+      "ucode": "VEN_0011_V1"
+    },
+    "adm2": {
+      "name": "Libertador",
+      "ucode": "VEN_0011_0001_V1"
+    },
+    "match_confidence": "high",
+    "notes": "Exact Caracas-area Libertador municipality under GeoRepo Distrito Federal."
+  },
+  "Cairo": {
+    "adm0": {
+      "name": "Egypt",
+      "ucode": "EGY_V1",
+      "iso3": "EGY"
+    },
+    "adm1": {
+      "name": "Cairo",
+      "ucode": "EGY_0001_V1"
+    },
+    "adm2": null,
+    "match_confidence": "high",
+    "notes": "Exact Cairo ADM1; city label spans multiple Cairo districts, so ADM2 is left null."
+  }
+}

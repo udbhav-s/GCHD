@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-ica-cities-fund-dar-es-salaam",
+  "url": "https://www.c40.org/case-studies/ica-cities-fund-dar-es-salaam/",
+  "title": "ICA Fund | Engaging informal workers in the organic waste management sector",
+  "summary": "This C40 case study describes “ICA Fund | Engaging informal workers in the organic waste management sector,” an urban initiative documented for Dar es Salaam. It is included because it is located in the Global South. C40 describes the action this way: Learn about the inclusive climate project led by the City of Dar es Salaam that is supported by a C40 Inclusive Climate…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dar es Salaam",
+      "adm0": {
+        "name": "United Republic of Tanzania",
+        "ucode": "TZA_V1",
+        "dcid": null,
+        "iso3": "TZA"
+      },
+      "adm1": {
+        "name": "Dar-Es-Salaam",
+        "ucode": "TZA_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dar-es-salaam",
+      "label": "Dar es Salaam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn about the inclusive climate project led by the City of Dar es Salaam that is supported by a C40 Inclusive Climate Action (ICA) Cities Fund grant.",
+    "measures": "In Dar es Salaam’s informal settlements, uncollected waste, dumping, and open waste burning have created serious health and environmental risks.\n The C40 Inclusive Climate Action (ICA) Cities Fund supported the city’s efforts to build the capacity of officials in community mobilisation, identifying knowledge gaps among informal workers, and addressing these through tailored training programmes. \n The city directly engaged with community stakeholders and delivered targeted training to over 100 waste workers. This supported the integration of informal waste workers into the city’s formal waste management programmes.\n The project led to a 55% increase in waste collection rates, opened up new income opportunities for informal workers through better market access, improved health and safety conditions, and created new green jobs. Over 50 city staff received training, which, together with the development of a new Systematic Community Mobilisation Toolkit , has strengthened the city’s institutional capacity to support the informal waste sector and bring the project to scale.\n READ THE LATEST UPDATES ON THIS PROGRAMME \n MORE ABOUT C40’s ICA FUND \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. Learn more about C40’s ICA Fund .\n Editor’s note: this case study was originally published in June 2023; the content was updated in May 2024 to reflect the latest details about the project, which can be accessed in full here .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "In Dar es Salaam’s informal settlements, uncollected waste, dumping, and open waste burning have created serious health and environmental risks.\n The C40 Inclusive Climate Action (ICA) Cities Fund supported the city’s efforts to build the capacity of officials in community mobilisation, identifying knowledge gaps among informal workers, and addressing these through tailored training programmes. \n The city directly engaged with community stakeholders and delivered targeted training to over 100 waste workers. This supported the integration of informal waste workers into the city’s formal waste management programmes.\n The project led to a 55% increase in waste collection rates, opened up new income opportunities for informal workers through better market access, improved health and safety conditions, and created new green jobs. Over 50 city staff received training, which, together with the development of a new Systematic Community Mobilisation Toolkit , has strengthened the city’s institutional capacity to support the informal waste sector and bring the project to scale.\n READ THE LATEST UPDATES ON THIS PROGRAMME \n MORE ABOUT C40’s ICA FUND \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. Learn more about C40’s ICA Fund .\n Editor’s note: this case study was originally published in June 2023; the content was updated in May 2024 to reflect the latest details about the project, which can be accessed in full here .",
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/ica-cities-fund-dar-es-salaam/",
+    "publication_date": "2024-05-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "35222",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ica-cities-fund-dar-es-salaam&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-19T11:42:32",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

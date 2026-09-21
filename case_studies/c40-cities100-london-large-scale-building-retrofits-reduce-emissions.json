@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-london-large-scale-building-retrofits-reduce-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-london-large-scale-building-retrofits-reduce-emissions/",
+  "title": "Cities100: London – Large-scale Building Retrofits Reduce Emissions",
+  "summary": "This C40 case study describes “Cities100: London – Large-scale Building Retrofits Reduce Emissions,” an urban initiative documented for London. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Three London programs are retrofitting public buildings and homes and showcasing private sector leaders in energy efficiency. The Challenge Workplaces…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Workplaces and homes account for 43% and 36% of London’s CO2 emissions, respectively. These programs incentivize investment in energy efficiency upgrades, since, under RE:FIT, the level of energy savings is contractually guaranteed by the energy services company, offering secure financial savings to participating organizations over an agreed payback period.",
+    "measures": "London has rolled out three initiatives to improve the energy efficiency of the city’s building stock. The suite of programs is composed of two retrofit programs, RE:FIT and RE:NEW, and a commercial sector incentive program, Business Energy Challenge (BEC). RE:FIT aims to retrofit at least 40% of London’s public-owned buildings by 2025 and cut CO2 emissions across the city’s public sector by 45,000 metric tons by the end of 2015. Similarly, RE:NEW plans to retrofit 275,000 private homes by 2017, while reducing CO2 emissions by 93,000 metric tons. RE:NEW’s current phase aims to retrofit approximately 5% of London households. Combined, these programs have retrofitted more than 110,000 London homes and 460 public buildings. \n The third program, BEC, complements the public and private home retrofit programs by driving energy efficiency in the commercial sector through an awards scheme based on applicants’ submitted energy data. 58 businesses have participated in BEC, and the 27 award winners reduced their energy consumption by 181,892 MWh from 2010 to 2014 – enough to power 10,700 UK households for a year.\n Environmental Benefits – RE:FIT projects are generating over 2,000 MWh per year from renewable energy technologies. BEC data will shed light on the potential market for solar energy in private businesses\n Social Benefits – RE:FIT has created over 1,700 jobs, and its next phase is slated to yield 2,000 more.\n Health Benefits – Replacement boilers are a key measure for numerous RE:FIT and RE:NEW projects, resulting in improved air quality and cuts in NOx emissions.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-london-large-scale-building-retrofits-reduce-emissions/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27009",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-london-large-scale-building-retrofits-reduce-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

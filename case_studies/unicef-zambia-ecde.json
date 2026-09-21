@@ -1,0 +1,140 @@
+{
+  "schema_version": "2.2",
+  "id": "unicef-zambia-ecde",
+  "url": "https://data.unicef.org/data-for-action/harnessing-geospatial-technology-for-early-childhood-development-and-education-in-zambia/",
+  "title": "Harnessing Geospatial Technology for Early Childhood Development and Education in Zambia",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "iso3": "ZMB",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "schools"
+    ],
+    "group_mentions": {
+      "children_youth": 2,
+      "schools": 1
+    }
+  },
+  "intervention": null,
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Gridded population estimates for children in the target age group",
+      "url": null,
+      "role": "population_input"
+    },
+    {
+      "name": "School locations",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Health facility locations",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Road networks",
+      "url": null,
+      "role": "operational_input"
+    },
+    {
+      "name": "Focus groups, consultative meetings, and field visits",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "UNICEF Data for Action",
+    "collection_url": "https://data.unicef.org/data-for-action/",
+    "publisher": "UNICEF",
+    "document_url": "https://data.unicef.org/data-for-action/harnessing-geospatial-technology-for-early-childhood-development-and-education-in-zambia/",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "extracted_by": "migrate_legacy_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 1,
+      "name": "No Poverty"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/sdg/SE_PRE_PARTN.SEX--_T",
+      "name": "Participation rate in organized learning (one year before official primary entry age)",
+      "sdg_indicator": "4.2.2"
+    },
+    {
+      "dcid": "undata/sdg/SH_STA_STNT.AGE--Y0T4__SEX--_T",
+      "name": "Proportion of children moderately or severely stunted",
+      "sdg_indicator": "2.2.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--_T",
+      "name": "Proportion of population using safely managed drinking water services",
+      "sdg_indicator": "6.1.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_SAN_SAFE.URBANIZATION--_T",
+      "name": "Proportion of population using safely managed sanitation services",
+      "sdg_indicator": "6.2.1"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/sdg/SE_PRE_PARTN.SEX--_T",
+      "name": "Pre-primary organized learning participation",
+      "rationale": "Expanding equitable access to early childhood development and education (ECDE) infrastructure"
+    },
+    {
+      "dcid": "undata/sdg/SH_STA_STNT.AGE--Y0T4__SEX--_T",
+      "name": "Child stunting",
+      "rationale": "ECDE sites integrate health, nutrition, WASH, and child protection services"
+    },
+    {
+      "dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--_T",
+      "name": "Safely managed drinking water access",
+      "rationale": "Site selection weights proximity to water and sanitation infrastructure"
+    }
+  ],
+  "summary": "UNICEF Zambia, with the Frontier Data Network and government partners (ZAMSTATS, GRID3), used geospatial analytics to identify optimal locations for new early childhood development and education (ECDE) centers funded by the EU Human Development Programme. The scoring model ranks potential sites by population density of target-age children, proximity to schools, health facilities, and road networks across 10 districts in 2 provinces, identifying 6,994 potential sites (~3,000 meeting criteria of >100 children near essential services). Data came from publicly available geospatial sources; automated backend ranking replaced labor-intensive manual map review. Community consultations, focus groups, and field visits validated sites and incorporated local knowledge (e.g., seasonal migration). Methods include GIS proximity analysis, weighted multi-criteria site scoring, stakeholder engagement, and iterative model refinement combining quantitative analytics with qualitative ground-truthing."
+}

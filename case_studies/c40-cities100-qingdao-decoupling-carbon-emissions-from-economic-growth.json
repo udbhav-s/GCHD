@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-qingdao-decoupling-carbon-emissions-from-economic-growth",
+  "url": "https://www.c40.org/case-studies/cities100-qingdao-decoupling-carbon-emissions-from-economic-growth/",
+  "title": "Cities100: Qingdao – Decoupling Carbon Emissions from Economic Growth",
+  "summary": "This C40 case study describes “Cities100: Qingdao – Decoupling Carbon Emissions from Economic Growth,” an urban initiative documented for Qingdao. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Specific reduction targets for each energy-intensive sector will guide the City of Qingdao in achieving its emissions targets, despite experiencing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Qingdao",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shandong Sheng",
+        "ucode": "CHN_0023_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qingdao",
+        "ucode": "CHN_0023_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "qingdao",
+      "label": "Qingdao"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Qingdao is a fast-growing city with a high proportion of manufacturing seeking to pursue further economic growth. The city's new low-carbon plan ensures that Qingdao will not be plagued by air pollution like many neighboring cities.",
+    "measures": "The Qingdao Low-Carbon Development Plan, part of the second batch of Chinese low-carbon pilots, has put forward specific, systematic, and comprehensive actions and policies. The plan, running from 2014 to 2020, includes systems for spatial layout, industry, energy supply, and transportation. The plan has issued guidance for every department in the city, encouraging the local government to become low-carbon in all operations. Other Chinese cities are expected follow in Qingdao's footsteps to make low-carbon development plans.Qingdao has established a close connection between its economic development target and mitigation target over the short, medium, and long term. Before 2020, Qingdao will focus on improving energy efficiency and rationalization of industrial structure. After 2020, transport and buildings will be the key areas of carbon emissions control. Low-carbon standards in the buildings and transport sectors will be perfected in order to avoid lock-in effects that could hinder the mitigation efforts. The city seeks to cut the carbon intensity level per unit of GDP by 50% in 2020 from 2005 levels.\n Environmental Benefits – The annual average PM2.5 concentration has decreased from 66 μg/m3 in 2013 to 45 μg/m3. Likewise, the quality of water and soil has improved.\n Social Benefits – Employment opportunities have been created in the service industry as a result of pushing low-carbon development.\n Economic Benefits – The city has experienced rapid economic growth, yet at the same time cut its carbon intensity, signaling healthy growth and preparing the city to decouple carbon emissions from economic growth in the future.\n Health Benefits – Morbidity and mortality connected to climate change-related local epidemics have been on the decline. Curbing the growth of carbon emissions can further improve air quality and the well-being of urban residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-qingdao-decoupling-carbon-emissions-from-economic-growth/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27329",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-qingdao-decoupling-carbon-emissions-from-economic-growth&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

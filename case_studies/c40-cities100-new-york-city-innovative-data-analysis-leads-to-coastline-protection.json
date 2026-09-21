@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-new-york-city-innovative-data-analysis-leads-to-coastline-protection",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-innovative-data-analysis-leads-to-coastline-protection/",
+  "title": "Cities100: New York City – Innovative Data Analysis Leads to Coastline Protection",
+  "summary": "This C40 case study describes “Cities100: New York City – Innovative Data Analysis Leads to Coastline Protection,” an urban initiative documented for New York. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Addressing the risk of rising sea levels, New York City implemented its Raise Shorelines Citywide project, which, through a comprehensive…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Between 1900 and 2000, sea levels in New York Harbor rose by an average of just over two and a half centimeters per decade, about twice the global average, with projections showing these trends will continue or accelerate. As part of Raise Shorelines Citywide, New York City is working proactively to secure critical assets, infrastructure, and neighborhoods, addressing the risks presented by sea level rise.",
+    "measures": "Raise Shorelines Citywide began in 2014, a project specifically designed to address sea level rise rather than storm surge. New York City is identifying vulnerable shorelines with comprehensive and detailed analyses, including data on daily high tide inundation, calculated using localized sea level rise projections from the New York City Panel on Climate Change (NPCC) and a wave atlas produced specifically for this project. Using the 90th percentile of projections for the 2050s produced by NPCC, projects were identified that will fortify vulnerable stretches of shoreline to prevent inundation of buildings and infrastructure in a future where the highest average level of the New York Harbor could rise by 81 cm. Analysis of New York City’s more than 965 km of shoreline led to the selection of 15 projects that will make the city’s coastline more resilient to the risks posed by sea level rise.\n Environmental Benefits – The project will provide at least $2.5 million in ecological benefits, creating or improving access to 14 hectares of public space.\n Social Benefits – Aware of the need for social equity, at least 30 % of new hires for the construction of these projects will be low-income individuals.\n Economic Benefits – Raise Shorelines Citywide will protect at least 65 businesses from flooding, preserving over $15 million in revenue.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-innovative-data-analysis-leads-to-coastline-protection/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27224",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-innovative-data-analysis-leads-to-coastline-protection&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

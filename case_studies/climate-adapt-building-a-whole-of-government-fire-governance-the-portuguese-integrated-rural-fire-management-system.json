@@ -1,0 +1,167 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+  "title": "Building a whole-of-government fire governance: the Portuguese Integrated Rural Fire Management System",
+  "summary": "Protecting Portugal and its forests from severe rural wildfires is in line with the mandate to protect people and property and to support the rural development, by ensuring that ecosystems are adequately maintained. To fulfill this mission an integrated plan for rural fire management has been established. Forested areas of Portugal (about 36% of land area) are endangered by the outbreak of rural wildfires, destroying large areas of forest stands every year. Growing wildfire risk in Portugal results from the interplay of several factors, including changing land-use and management practices, changing vegetation cover, as well as climate change ( OECD, 2023 ).",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": "country/PRT",
+        "iso3": "PRT"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "wildfire"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "WILDFIRES",
+      "label": "Wildfires",
+      "mapped_to": [
+        "wildfire"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "FORESTRY",
+      "label": "Forestry"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "NAT",
+      "label": "National"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ECONOMICASP",
+      "label": "Economic aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MRE",
+      "label": "MRE"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wildfire management",
+      "label": "wildfire management"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "wildfire prevention",
+      "label": "wildfire prevention"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "rural areas",
+      "label": "rural areas"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The extreme wildfires of 2017 brought attention to the importance of landscape fire prevention . While policy efforts until then had mostly relied on ex post response measures, the 2017 wildfires showed the need to adapt to changing landscape fire risk. The main objectives of the IRFMS are: To create landscape fire risk awareness To reduce landscape fire risk To prevent risk and impacts The NPIRFM identifies the following targets: the loss of human lives in fires, although possible, is a rare occurrence; fires spanning over 500 ha only account for 0.3% of total fires; the accumulated burnt area over the decade (2020-2030) is less than 660 000 ha. The overall system aims to reduce vulnerability to more frequent, intense and unpredictable landscape fires driven by climate variability and meteorological uncertainty. IRFMS seeks to build a resilient rural landscape through active land management, fuel reduction, and risk informed planning. Raising awareness includes promoting safer practices, community preparedness, and local engagement in prevention. Another crucial objective is to ensure coordinated action between national, regional and local entities, aligning prevention, suppression and recovery efforts.",
+    "measures": "The Portuguese IRFMS is based on the integration of two pillars of action: Rural Fire Management (RFM) and Rural Fire Protection (RFP). Both are considered key by the Independent Technical Committee (ITC) that studied the fire events occurred in June 2017 in Portugal. Rural fire management is under the responsibility of government unit for agriculture and sea, while Rural Fire Protection is under the responsibility of government unit for home affairs. The IRFMS overcomes this sectoral approach, establishing a system that looks at the two main areas in an integrated way. Moreover, a paradigm shift was implemented, from the previous system mainly focused on fire suppression to the new system that gives more significant weight towards fire prevention. The IRFMS is organised into 6 sequential and continuous stages to address landscape fire risk in the country, from planning to post-fire management. Each stage is then translated into processes, for which specific responsibilities are assigned according to a RACI chart (a RACI chart is a project management tool defining roles, as in Responsible, Accountable, Consulted and Informed). The six stages are Planning, Preparation, Pre-suppression, Suppression & Relief, and Post-fire management: NPIRFM identifies four strategic goals to address the identified weaknesses and seize opportunities: - Valuing the rural areas , i.e. promoting sustainable rural development and valuing the production of wood and other forest products. This is linked to spatial planning and to the national policy measures for land development. However, they are mostly geared towards valuing rural areas with the creation of new business models and niche markets based on local forest products, incentives for agroforestry and forest management contracts and making the territory more attractive, innovative, diversified and competitive. Examples : Landscape Transformation Programme and National Cadastral Information System. - Active management of rural areas , i.e. involving owners to sustainably manage their land, creating and maintaining a diverse landscape that creates discontinuity in fire propagation. This also includes large-scale programs of fuel load reduction, silvopastoral and controlled fire programmes as well as ensuring protection of the community and buildings in dangerous situation. Examples : Protection of communities and buildings (Aldeia Segura / Pessoas Seguras); Prescribed burning; Silvopastoral systems and grazing programmes in Montesinho, Gerês, Monchique and Alto Minho use goats, sheep and cattle to reduce fuel loads while supporting rural livelihoods (see also the case study about Prescribed fire and grazing in Viseu Dão Lafões ). - Changing behaviours , i.e. avoid dangerous practices such as uncontrolled use of fire, waste burning, and any potential source of ignition, while drawing attention to sound fire prevention and land management practices. Communication and information towards various targets at regional and local level is equally important. Example s: National Campaigns - Portugal Chama (Tv and radio spots, other spots with the involvement of associated companies.| Raposa Chama; Emigrante Chama; Teatro Chama, for specific target-groups. - Efficient risk management , i.e. build knowledge about risk occurrence and related impacts on the environment, economy and society. It includes the need for preparing risk maps and forecasting systems, implement an enabling risk governance model, building capacity of institutions and increasing personnel skills. Examples : National wildfire risk maps and forecasting systems; IRFMS monitoring platform; IRFMS qualification programme; IRFMS and SIFOR Public Portal - https://www.sgifr.gov.pt/ Annual IRFMS reports are yearly submitted to the government by AGIF, I.P., as provided for in Article 4(m) of Decree-Law No. 12/2018, of 16 February 2018. According to NPIRFM , an interim evaluation of the national plan is finalizing, and a final evaluation shall be done in 2031.",
+    "outcomes": "The 2017 wildfires highlighted a number of weaknesses in the wildfire management system in place in Portugal until that year, thus paving the road to the development of the new management system. Enabling factors Enabling factors for sustaining and promoting the success of IRFMS processes are: governance, qualification, and information and communication, as recognised by the NPIRFM . Governance (including high-level, overarching, but also at all other administrative and decision levels) is seen as a prerequisite for supporting the entire process chain and involves renovation of organisational and legislative aspects. Technical training and qualification is considered key for enabling agencies and entities involved in the system, and to incorporate effective knowledge into the processes of the IRFMS. Finally, information and communication support the regular operation of the processes. For this reason, accessible platforms for data management and sharing are also needed. In addition to this, the successful initiation and implementation of the IRFMS has depended on strong political commitment, longterm funding, and the capacity of institutions at all levels to adapt to a prevention oriented model. Structural challenges such as land fragmentation, limited technical resources in rural areas, and the need for behavioural change continue to constrain progress. At the same time, scientific innovation, integrated landuse planning, and AGIF’s leadership in monitoring, evaluation and international cooperation have been decisive enablers. Obstacles The key obstacle to the further decentralisation of wildfire management foreseen by IRFMS is the lack of stable and predictable financial resources and technical capacities available at all levels. The new system required a deep transformation of governance and legislation, thus necessitating high effort, time and resources. Maintaining a supra-ministerial, high-level coordination role within the IRFMS is equally critical to ensure coherence across sectors and sustained alignment of policies and investments. Ensuring continuity across political cycles and securing broad stakeholder buy in remain essential for sustaining the transformation initiated after the 2017 wildfire Upscaling Portugal signed several international agreements for mutual support and knowledge sharing for integrated fire management, which can increase the efficiency of national level policies and measures as well as mutual learning and the replication of the approach in other countries. In this regard, AGIF prepared the Landscape Fire Governance Framework ( LFGF ) presented at the 8th Internacional Wildland Fire Conference, in Porto, Portugal, May 2023. The LFGF got support from several countries and received declarations of support from the UN Environment Programme (UNEP), UN Office for Disaster Risk Reduction (UNDRR), UN Forum on Forests (UNFF), Food and Agriculture Organisation (FAO), the Organisation for Economic Cooperation and Development (OECD; participated in the draft of the LFGF as well) and the Organization for Security and Co-operation in Europe (OSCE). Since then, AGIF went to COP28 spreading the word about the LFGF and in support of FAO’s Fire Hub , which will adopt LFGF as one of its references. AGIF maintains open dialogue with the UN and the EU promoting the adoption of the LFGF. Moreover, several Memoranda have been signed, to open cooperation on all stages of the wildfire value chain, for example: CalFIRE (California), USFS (for the entire USA), Canada, Brazil, Chile and Finland. More memoranda are on the horizon, as AGIF aims at facilitating international cooperation and exchange of expertise. While until recent years international co-operation had solely focused on wildfire suppression, this is quickly changing, with a growing number of initiatives focusing on strengthened international co-operation for wildfire prevention. Between 2006 and 2010, the FIRE PARADOX project – an international initiative funded by the European Commission – focused on promoting wildfire prevention as part of an integrated approach to wildfire management. In 2014, the SPITFIRE platform – a cross-border service on weather and wildfire risk forecasting – was established to allow information-sharing between the Portuguese and Spanish civil protection and meteorological agencies. NPIRFM also foresees the creation of an Iberian Centre for Research, Prevention and Combating of Wildfires, which is set to further improve co-operation on wildfire risk assessment, prevention and climate change adaptation between Portugal and Spain. Most notably, the Centre should facilitate cross-border research and knowledge exchange to better understand wildfire drivers in the region; joint awareness-raising campaigns; and cross-border trainings on wildfire risk prevention and suppression.",
+    "cost_benefit": "Costs In 2017 alone, the total cost of the June and October wildfires was estimated to amount to nearly €1.5 billion ( San-Miguel-Ayanz et al., 2020 ). Economic impacts and costs were particularly dire for the forestry sector. In the coming decades, the costs resulting from extreme wildfires are projected to grow, also considering the impacts on tourism industry. Financial resources required for the National Action Plan (NAP) are estimated to be an additional €383 million per year. Compared to the annual IRFMS spending (2019 being the baseline year) they increased from €264 million to €647 million per year, corresponding to a total IRFMS expenditure of €7.1 billion across the full time span of the national plan. Total annual IRFMS expenditure is distributed between each of the strategic goals: SG1 — Value rural areas, €69 million SG2 — Active management of rural areas, €207 million SG3 — Change behaviours, €70 million SG4 — Efficient risk management, €301 million. In IRFMS processes, this translates into a distribution of 58% in wildfire prevention and 42% in suppression. In fact, this expenditure of €647 million per year will be financed from multiple sources, including EU funds. Further, it is expected to finance projects mainly related to environmental protection, institutional empowerment and community protection. Benefits IRFMS has four major impacts as a result of meeting NPIRFM targets: 1. the ability of the country to turn a tragedy into an opportunity, reducing the problem of wildfires to acceptable levels, where human casualties and very severe fires are rare events. Thus, demonstrating that Portuguese people and their institutions have managed to overcome the challenge, which is shared by the state and society as a whole; 2. meeting the expectations of reducing CO 2 emissions in accordance with the 2050 Carbon Neutrality Roadmap, avoiding the emission of 47 megatons of CO 2 equivalent accumulated by 2030; 3. annual contribution of €701 million, resulting from the delta between non-implementation of the plan in the “Black Sky” inertia scenario and the “We did it” scenario, to be achieved in 2030, based on: • reduced loss of goods and services generated in forest and agroforestry areas, where the benefit of NAP implementation is to be €483 million per year, equivalent to 0.23% of gross domestic product (GDP) expressed in GVA (gross value added); • an increase of €138 million per year in the amount of forest-generated goods and services (6.5 million hectares), including carbon sequestration, from €1.7 billion per year (0.8% of GDP) to €1.8 billion (0.9% of GDP); • an increase of €80 million per year to a total annual amount of €2.8 billion (1.3% of GDP) in the processing industry — panels, pulp and paper, cork — mainly for exporting, boosted by increased supply. The total contribution of this plan to national wealth is therefore estimated to be €701 million per year (+0.3 p.p.), thus accounting for 2.3% of GDP in 2030. 4. Creation of 60 000 jobs by 2030 for active management of forest and agroforestry areas, transport and logistics, maintenance and repair of materials, and tourism The IRFMS is also expected to generate benefits in terms of governance, with a more coordinated approach between environmental and human safety issues, previously addressed by separated governmental bodies. In this regard wildfire governance has become more decentralised in Portugal in recent years. The committees established under the IRFMS facilitate the engagement of subnational governments in wildfire management. Municipalities and intermunicipal communities are increasingly involved in the management of wildfire risk, e.g. through enhanced forest management and civil protection competencies. Moreover, the implementation of the IRFMS is expected to generate several further amendments to laws in place within the former mechanism. In fact, the IRFMS envisages new fire prevention methods that have an impact on spatial planning and new spatial planning options, new forms of fuel management and forest planning. The Expropriation Law is also impacted to allow ICNF to conduct expropriations for fire prevention. Although a formal cost-benefit analysis has not been published yet, the financial performance of the system demonstrates a growing relationship between these two dimensions. Despite spending being below projected levels, operational capacity and available resources have reached their highest levels to date. The governance model also reduces long-term costs by prioritizing fuel management, risk planning, and structural prevention, which are internationally recognized as more cost-effective than approaches based solely on suppression. Maintenance costs Maintenance costs are mainly related to the ongoing operation of interagency coordination structures, monitoring and evaluation systems, training, and maintenance of prevention and suppression capacities. These are integrated into the annual budget of the IRFMS entities and are supported by investment programs and public funding. AGIF's leadership in monitoring, evaluation, and international cooperation has also contributed to the alignment of national policies with EU adaptation frameworks and influenced updates to sectoral strategies, operational standards, and legislative instruments related to rural fire management.",
+    "timeline": "Implementation started in 2017 by a specific Task Force created in October 2017, to translate the recommendations of the Independent Technical Committees into actions. It lasted for 14 months, and having completed its mandate. AGIF followed this task force from January 1 st 2019 onwards. In the first quarter of 2018, a study was conducted to assess the approach to fire management in place until 2017, and to draft the outline and requirements of the new IRFMS. Public consultation run from July to September 2018. NPIRFM was approved by Council of Ministers Resolution No. 45-A/2020 of 16 June 2020. The IRFMS was established by law in 2021, although many of its principles where already in place since 2018. The IRFMS required a phased implementation over 4–5 years, beginning after the 2017 wildfires with the creation of AGIF and the approval of the main legislative and planning instruments. As this is a long-term government transformation, full implementation is ongoing, with some delays due to the complexity of government reforms, the need to develop local technical capacity, and the time required to secure funding for ongoing projects and measures.",
+    "lifetime": "The NPIRFM is valid for 2020-2030, and the IRFMS has been conceived as a long term, continuously monitored and lessons-leant subjected system. Tus, IRFMS was established as a permanent solution, replacing the former system. The 2020-2030 Strategy establishes the vision and values, identifies the context, defines the strategic guidelines and goals, sets targets and introduces a new governance and risk management model, detailed in the individual process chain document.",
+    "stakeholders": "Once the vision and strategic goals of the IRFMS had been defined, work and reflection sessions were held with public and private stakeholders, consolidating the diagnosis and gathering proposals for measures for each one of the strategic goals. The responsibilities were distributed among the central government, municipalities and non-government organisations. According to the NPIRFM , responsibilities for all processes defined in the IRFMS are now clearly assigned. The strategic coordination and monitoring of the new system is under the responsibility of AGIF (Agency for Integrated Rural Fire Management), that facilitates coordination of public policies, programs and initiatives related to the implementation of IRFMS. AGIF falls under the direct authority of Portugal’s Prime Minister, which ensures its political empowerment as a cross-governmental agency independent from specific ministries. AGIF comprises a high-level co-ordination committee, presided by the Prime Minister, which integrates the top management of all public agencies active in wildfire management. Since 2024, AGIF’s direct reporting was delegated to the minister for agriculture and sea, reflecting the then government’s view on forests and landscape fires. Under the planning instruments (national, regional, sub-regional and local) AGIF also promotes structured participation of all relevant stakeholders—including municipalities, intermunicipal communities, landowners, forest producer organisations, fire brigades, scientific institutions and civil society—ensuring that prevention and response measures reflect local realities and shared priorities. Within the IRFMS, ICNF, I.P. (Institute for Nature Conservation and Forests) coordinates efforts on the RFM pillar and ANEPC (National Emergency and Civil Protection Authority) coordinates efforts on the RFP pillar. These entities contribute to designing prevention and suppression measures for each land use, rural (under RFM) and urban (under RFP). ANEPC is also tasked with commanding suppression operations. In the new system, local authorities and landowners have a greater role in the efficient reduction of fire risk in rural territories. Intermunicipal forestry technical offices have been created, empowering local authorities in landscape fire prevention. Intermunicipal “Forest sappers brigades” also became operational for preventive forestry actions and post-fire intervention and emergency, with a view to increasing the territory's resilience to forest fires. A close collaboration has been established with universities, research centres and technical experts to integrate scientific knowledge into risk assessment, fuel management planning and decisionsupport tools. It ensures broad stakeholder participation by coordinating national agencies, municipalities, landowners, forest organisations, fire brigades, researchers and civil society. Participatory processes bring together scientific and local knowledge to inform NPIRFM planning, while awareness campaigns and training initiatives strengthen community preparedness. The system also plays a key role in promoting crosssectoral coordination, steering the lessonslearned process, and supporting landowners and intermunicipal forestry structures to enhance prevention capacity and territorial resilience. NPIRFM strategy and process chain documents, approved by the Council of Ministers on 5 December 2019, were made available for public consultation for sixty days on the consultalex.gov.pt website. During this period, 73 nationwide information sessions were held, which were attended by more than 2,000 people. One hundred and fifteen written contributions were received, enabling the improvement of the documents and resulting in a significant improvement of the National Action Plan.",
+    "legal_context": null
+  },
+  "point": {
+    "lat": 38.7077507,
+    "lon": -9.1365919,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "agif.pt",
+      "url": "https://www.agif.pt/en",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sgifr.gov.pt",
+      "url": "https://www.sgifr.gov.pt/",
+      "role": "contextual_input"
+    },
+    {
+      "name": "agif.pt",
+      "url": "https://www.agif.pt/en/landscape-fire-governance-framework",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+    "publication_date": "2026-03-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "941000c19c144cacaf4a99d08bd107cb",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/building-a-whole-of-government-fire-governance-the-portuguese-integrated-rural-fire-management-system",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:26:40+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-cities100-copenhagen-carbon-neutral-district-heating",
+  "url": "https://www.c40.org/case-studies/cities100-copenhagen-carbon-neutral-district-heating/",
+  "title": "Cities100: Copenhagen – Carbon Neutral District Heating",
+  "summary": "This C40 case study describes “Cities100: Copenhagen – Carbon Neutral District Heating,” an urban initiative documented for Copenhagen. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Copenhagen is making the world’s largest district heating system carbon neutral by substituting fossil fuels with biomass. The Challenge To…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "To achieve carbon neutral heating in Copenhagen’s comprehensive district heating system, the city decided to focus on upgrading old coal-fired combined heat and power plants to now be fired with wood pellets. The city will also construct a new wood chip-fired CHP plant. To diversify the energy sources needed and increase the flexibility of the system, Copenhagen is also testing the possibility of using large heat pumps to capture the heat from cleaned wastewater, drinking water, industrial surplus heat, and geothermal wells.",
+    "measures": "The Danish capital has the world’s largest district heating network. The system serves 98% of Copenhagen’s buildings. Over a 15-year period ending in 2025, the Greater Copenhagen Utility (HOFOR) will make the system carbon neutral by transitioning from coal, oil, and natural gas to sustainable biomass. To produce carbon neutral heating, HOFOR will replace fossil fuels at large combined heat and power (CHP) plants with wood pellets from sustainably grown forests. It will also deploy large-scale heat pumps that run on wind energy and geothermal energy and incorporate heat storage provided by large water tanks.\n The plan also aims to reduce energy consumption in buildings and homes through remote monitoring of customers’ energy use. If a large deviation occurs, the customer will be alerted and she can review the heating unit for errors and ensure optimum settings and operation. Finally, real-time monitoring of the distribution system, and the use of weather forecasts to ensure operational efficiency, will reduce heat losses in the district heating system by 6% by 2025.\n Environmental Benefits – The plan includes building a 65 MW geothermal renewable energy facility.\n Economic Benefits – Upgrading existing CHP plants, and constructing a new CHP facility, will create local employment.\n Health Benefits – By establishing a small number of large CHP plants, emissions will come from a few large chimneys, all equipped with efficient filters that remove NOx, sulfate, and particles from the exhaust, which will reduce air pollution in the city.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-copenhagen-carbon-neutral-district-heating/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26963",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-copenhagen-carbon-neutral-district-heating&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

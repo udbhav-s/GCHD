@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-c40-good-practice-guides-copenhagen-cloudburst-management-plan",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-cloudburst-management-plan/",
+  "title": "C40 Good Practice Guides: Copenhagen – Cloudburst Management Plan",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Copenhagen – Cloudburst Management Plan,” an urban initiative documented for Copenhagen. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Summary Copenhagen, the capital of Denmark situated on the coast of the Øresunds region that connects the North Sea with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Copenhagen, the capital of Denmark situated on the coast of the Øresunds region that connects the North Sea with…",
+    "measures": "Summary \n Copenhagen, the capital of Denmark situated on the coast of the Øresunds region that connects the North Sea with the Baltic Sea, is vulnerable to sea level rise, warmer weather and more weather extremes in the future, including heavy rain events. Spurred by a series of highly damaging cloudburst events, including the July 2011 cloudburst that caused damages worth close to €1 billion, Copenhagen needed a better way to manage the water inundating the city during these downpours. In 2011 the City of Copenhagen adopted the Copenhagen Climate Adaptation Plan xxvii , complemented by the Cloudburst Management Plan xxviii (2012) detailing the methods, priorities, and measures related to adaptation to extreme rainfall events.\n Results \n Copenhagen was able to work with water utility on a comprehensive restructuring of the Copenhagen drainage system (including separation of rainwater from waste water) and streetscape, in order to turn roads into rivers in the case of extreme rain (part of Copenhagen’s “storm water plan”) and direct water to outlets and retention basins. This is complemented by greenscaping, in particular through implementation of the Sustainable Urban Drainage System – building of green gardens, rooftops and bioswales to prevent rainwater from flowing directly into sewers.\n Reasons for success \n There are three main reasons for Copenhagen’s success. First, the city had experienced repeated extreme weather events, which created political buy-in for change. Second, the Copenhagen government showed budget creativity by pushing for a change in national level legislation to allow the use of revenues from a water-use fee combined with private financing and revenues from taxes for investment in the water management system. Finally, presenting the adaptation measures under the “improved city green space” frame stimulated great enthusiasm and acceptance of major city infrastructure overhaul. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Copenhagen was able to work with water utility on a comprehensive restructuring of the Copenhagen drainage system (including separation of rainwater from waste water) and streetscape, in order to turn roads into rivers in the case of extreme rain (part of Copenhagen’s “storm water plan”) and direct water to outlets and retention basins. This is complemented by greenscaping, in particular through implementation of the Sustainable Urban Drainage System – building of green gardens, rooftops and bioswales to prevent rainwater from flowing directly into sewers.\n\nThere are three main reasons for Copenhagen’s success. First, the city had experienced repeated extreme weather events, which created political buy-in for change. Second, the Copenhagen government showed budget creativity by pushing for a change in national level legislation to allow the use of revenues from a water-use fee combined with private financing and revenues from taxes for investment in the water management system. Finally, presenting the adaptation measures under the “improved city green space” frame stimulated great enthusiasm and acceptance of major city infrastructure overhaul.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-cloudburst-management-plan/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27151",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-copenhagen-cloudburst-management-plan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

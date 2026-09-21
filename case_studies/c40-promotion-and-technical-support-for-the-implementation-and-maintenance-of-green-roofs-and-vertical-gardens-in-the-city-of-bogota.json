@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota",
+  "url": "https://www.c40.org/case-studies/promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota/",
+  "title": "Promotion and Technical Support for The Implementation and Maintenance of Green Roofs and Vertical Gardens in the City of Bogotá",
+  "summary": "This C40 case study describes “Promotion and Technical Support for The Implementation and Maintenance of Green Roofs and Vertical Gardens in the City of Bogotá,” an urban initiative documented for Bogotá. It is included because it addresses air pollution pm25, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: This project is focused on sharing best practices and research to better understand the effect of urban heat islands and develop tools…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "This project is focused on sharing best practices and research to better understand the effect of urban heat islands and develop tools and resources that may support cities in advancing the implementation of cool roofs, green roofs, pavements and other surfaces.",
+    "measures": "The City of Bogotá, in its current 2016-2020 “Bogotá Mejor para Todos” Development Plan has included as one of its goals to promote the implementation of green roofs and vertical gardens in public spaces and private buildings in the capital.\n In order to do so, it counts on an interdisciplinary work team responsible for technical support, comms support and capacity-building. This is one of the administration strategies to improve the environment and landscape of the city, prioritizing sustainable urban planning like a measure of climate change adaptation and mitigation and to face other environmental impacts that are affecting the quality of life of the citizens of Bogotá.\n From the second semester of 2016 to the second semester of 2018, over 13,000m2 of green roofs and vertical gardens were implemented in the city. The goal is to have at least 20,000m2 by the first semester of 2020.\n What is the innovation? Hoes does it work? \n Green roofs and vertical gardens allow for vegetation growth in the exposed surface of buildings. They keep the structure protected, increasing biodiversity by creating new habitats and allowing for buildings to work as biological connectors, producing oxygen, absorbing CO2, filtering harmful particles, improving air quality as well as decreasing the heating of surfaces mitigating the heat island effect. Moreover, these technologies allow for the control of rainwater, reducing water runoff.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota/",
+    "publication_date": "2019-12-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27459",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-paris-oasis-schoolyard-programme-france",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/paris-oasis-schoolyard-programme-france",
+  "title": "Paris Oasis Schoolyard Programme, France",
+  "summary": "To address heatwave vulnerabilities, the city of Paris initiated the \"OASIS\" program, transforming schoolyards into green spaces accessible to vulnerable groups. Through co-design and coordination, ten pilot schoolyards showcase success, guiding the program's citywide expansion. After the devastating 2003 and 2017 heatwaves and in light of projections that predict increasing frequency and duration of heatwaves in the future, the City of Paris embarked on developing a range of initiatives to address this threat recognising that different social groups and different areas of the city have unequal vulnerabilities.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Paris",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": "country/FRA",
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Île de France",
+        "ucode": "FRA_0012_V1",
+        "dcid": null,
+        "source_code": "SUBN_Île_de_France__FR_",
+        "source_name": "Île de France (FR)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "URBAN",
+      "label": "Urban"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "LC",
+      "label": "Local (e.g. city or municipal level)"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "COSTBENEFIT",
+      "label": "Cost-benefit analysis and maintenance costs"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "ENVIRONMENTALASP",
+      "label": "Environmental aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "JUSTRESILIENCE",
+      "label": "Just Resilience"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MITIGATIONASP",
+      "label": "Mitigation aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "NATUREBASEDSOL",
+      "label": "Nature-based solutions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "RUPOTENTIAL",
+      "label": "Replication/upscaling potential"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "SOCIETALASP",
+      "label": "Societal aspects"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "social inclusion",
+      "label": "social inclusion"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "vulnerable population",
+      "label": "vulnerable population"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "schoolyards",
+      "label": "schoolyards"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "just adaptation",
+      "label": "just adaptation"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Heat waves",
+      "label": "Heat waves"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "cooling places",
+      "label": "cooling places"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "green infrastructure",
+      "label": "green infrastructure"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Urban heat island",
+      "label": "Urban heat island"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth",
+      "schools",
+      "women",
+      "older_people",
+      "low_income",
+      "displaced"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children",
+      "elderly",
+      "kindergartens",
+      "low income",
+      "mothers",
+      "pupils",
+      "refugees",
+      "school",
+      "schools",
+      "schoolyard",
+      "schoolyards",
+      "students"
+    ],
+    "group_mentions": {
+      "children_youth": 9,
+      "schools": 83,
+      "women": 1,
+      "older_people": 3,
+      "low_income": 1,
+      "displaced": 1
+    }
+  },
+  "intervention": {
+    "objectives": "The OASIS schoolyard programme addresses the problem of heat waves by increasing green spaces in the city. The specific objectives of the OASIS schoolyard project were to: reduce the local heat island effect provide pupils with a healthy and stimulating learning environment educate residents about the risk of climate change create cool places available to the most vulnerable populations and create numerous meeting spaces to spur conviviality and solidarity",
+    "measures": "In 2018, the City of Paris alongside with local stakeholders, tested a first approach for piloting the OASIS concept: transforming asphalted, paved or cemented schoolyards into green “oasis” offering cool and pleasant places where especially most vulnerable people can stay and meet. Following the first pilots and the preliminary lessons learnt, the City of Paris applied to receive funding from the European Regional Development Fund – Urban Innovative Actions Initiative (UIA) in order to form an interdisciplinary consortium and thus ensure the feasibility, applicability and effectiveness of the envisioned OASIS approach. Within the frame of the UIA-OASIS project, four kindergartens, four elementary schools and two middle schools were selected as pilot projects and transformed into green schoolyards through innovative techniques including nature-based solutions. The initial selection of these schoolyards was based on multiple factors including social, environmental and technical criteria. More specifically, the consortium included: social criteria to make sure that schools are also located in areas with higher vulnerability (e.g. low income households or high percentage of refugees); environmental criteria considering local microclimate assessment including urban heat island effect; and technical criteria such as the urgency for reconstructing the schoolyards’ infrastructure and equipment. One of the most important factors for the selection was that schoolyards must be directly accessible from the street to allow for an opening to the vulnerable public as “cool island”. The goal to transform the schoolyards into greener and cooler spaces was achieved: by increasing the vegetated areas in the schoolyards i.e. through the planting of trees, lawns, orchards, vegetable gardens by introducing natural elements or new eco-innovative products and materials; g. using a light-coloured, low carbon footprint substrates with a modular porosity for the schoolyards grounds which are expected to be much cooler by using rainwater to wet the ground (enhancing the ground’s cooling effect via evapotranspiration) as well as for water games or school gardening) by using additional artificial installations to cool down schools and reducing their energy consumption such as solar air-conditioning. The OASIS project included an evaluation phase to assess its impact and develop a framework that could be scaled up across the city. A research team from Sciences Po has evaluated social impacts through observations and surveys. Météo-France and the Paris Interdisciplinary Energy Research Institute has led a before and after climate evaluation based on data collected by weather stations located in the school grounds. Following the successfully transformation of the ten pilot schoolyards, a set of recommendations and plans have been produced for other schoolyards. So far (2022), 75 schoolyards have been already transformed in Paris. The city is committed to develop a standardised adaptable methodology for transforming asphalt-covered schoolyards into green spaces for everyone. To attract attention to the newly accessible green spaces, a number of events such as gardening activities were organised, where local families and residents of all ages were invited to participate or simply enjoy the newly transformed green schoolyard. During the opening hours a guard from the city is supervising the place to ensure safety. Following up this pilot phase of opening the schoolyards to the public, the city is working on securing the human and financial resources for establishing this program in the long-term and ideally replicating it to all city’s public schoolyards.",
+    "outcomes": "Thanks to the innovative approach and initial success of the pilot projects, the OASIS schoolyard programme has produced a set of recommendations and plans for other schoolyards with the goal to scale up the programme across the city. The City of Paris has committed itself to developing a standardised adaptable methodology for transforming asphalt-covered schoolyards into green, playful and welcoming spaces for everyone. The involvement of students, teachers and school-staff in the co-design of schoolyards contributed to the success of the initiative that was able to meet most community’s expectations. The collaboration between different city departments (health, environment, education) favoured the implementation of the project by meeting multiple purposes through an integrated approach that jointly considered the environmental aspects, the health of vulnerable people and the community education needs. A limiting factor that can hinder the full implementation of the initiative is the fear of terror attacks that the city has been experiencing in the past decade that results in strong security requirements. During all opening hours, guards from the City of Paris are present in the schoolyards at a cost that should not be underestimated. Moreover, there have been also opposition from some parts of the neighbouring population to open some of the schoolyard at the weekend because of the noise made by children. Cleaning of schoolyards after their use must be ensured, further increasing the cost of the initiative.",
+    "cost_benefit": "The OASIS Schoolyard greening programme is co-funded by different entities including the City of Paris, the State (“Plan de relance”) and the Water management Agency Seine Normandie and amounts to approximately 9 million euro each year for the transformation of around 25 schoolyards including costs for surveillance and maintenance. The UIA-OASIS pilot schoolyards (2018-2022) were funded through the European Regional Development Fund’s- Urban Innovative Actions (ERDF-UIA), a program that provides innovative projects with resources to address today’s urban challenges. The ERDF-UIA contribution amounted to EUR 4,995,793.16. Transformed schoolyard in greener areas accessible by students and by the public provide the most vulnerable people (e.g. children, elderly people) with cooler and pleasant places where to stay especially during heat waves. The transformed schoolyards help to locally temper heat waves and can be used as “cool islands” during such events. Some of the schoolyards have already been made accessible to the population, including vulnerable groups. A positive side effect of the project is that greener courtyards become places of outdoor learning for children that contribute to their awareness on environmental topics. In addition, the greening of the schoolyards improves the local infiltration capacity of the ground compared to the asphalted areas which can have a positive drainage effect during heavy rainfall events.",
+    "timeline": "The UIA-OASIS project run from 2019 to 2021. The OASIS greening schoolyard programme will gradually be implemented to upscale the OASIS approach.",
+    "lifetime": "The adopted solutions are expected to have an a lifetime of more than 50 years with regular maintenance.",
+    "stakeholders": "The UIA – OASIS pilot schoolyards were transformed into greener spaces through a co-design process with extensive stakeholder engagement which was led by CAUE 75 (Council of architecture, urbanism and environment of Paris). The stakeholder engagement process included the following steps: Awareness raising and co-design workshops with students : 6 tailored workshops were conducted in each school, addressing several topics such as climate change, biodiversity and water management. The different possible uses of schoolyards were also discussed as well as the current state of the schoolyard and the potentiality of the OASIS project in transforming schoolyards into a greener space. Students were invited to share their ideas about how to transform schoolyards. Consultation with the educational community: Based on the children's work, 3 workshops with teachers, school and after-school staff were performed with the scope of further developing the transformation project and defining a work plan. Support from the City of Paris: The departments of the City of Paris, in charge of the OASIS programme, were then invited to each school for at least three working sessions with the aim to finalise the project seeking a compromise between the schools wishes and the technical constraints. Following these working sessions, detailed project plans were developed. For the transformation of the schoolyards, the City of Paris achieved a cross-department collaboration were the Department of Environment, The Department of Health and sanitation as well as the Department of Education worked together in order to feed the projects throughout the process. Participatory workshops, maintenance guide and management plan : Even after the transformation of the schoolyards, the UIA-OASIS project continues since the schoolyards are “alive” and need to be taken care of. Participatory workshops are held to allow for the completion of the landscaping, to continue planting with the children and to anchor the school's ownership of the schoolyard with concrete actions. The City of Paris has produced a maintenance guide offering advice on watering and plant maintenance so that schools can take care of their schoolyard themselves and use it as an educational tool for their students. A management plan was also provided to the schools. This engagement process gives ownership to those that know and use these places the most, while educating them and spreading awareness on matters of sustainability and environmental mindfulness. Local residents were invited to contribute to the coordination of after-school activities and to the maintenance of the new, communal spaces. For the opening of the schoolyards to the public, with the support of the NGO “League of Education”, a special effort was made to reach all residents in the neighbourhoods, including socially vulnerable people, by handing out flyers also in structures that provide social services, to invite people to participate in the opening events such as gardening activities.",
+    "legal_context": "The OASIS schoolyard greening programme is part of the Resilience Strategy of the City of Paris (“Stratégie de Résilience de Paris”) as action 10 under objective A: “A city built and developed to meet the challenges of the 21st century”. Moreover, the City of Paris has combined the UIA-OASIS project with another innovative initiative, the “15 minutes City”, a new concept that foresees that essential urban services should be reachable in a 15 min walking or cycling distance from residents’ homes. Currently, this joint effort has led to the opening of access to almost 50 schoolyards after-school hours including most of the UIA-OASIS schoolyards."
+  },
+  "point": {
+    "lat": 48.85717,
+    "lon": 2.3414,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "paris.fr",
+      "url": "https://www.paris.fr/pages/les-cours-oasis-7389",
+      "role": "contextual_input"
+    },
+    {
+      "name": "oppla.eu",
+      "url": "https://oppla.eu/casestudy/18474",
+      "role": "contextual_input"
+    },
+    {
+      "name": "eea.europa.eu",
+      "url": "https://www.eea.europa.eu/publications/who-benefits-from-nature-in/oasis-school-grounds-programme-in",
+      "role": "contextual_input"
+    },
+    {
+      "name": "uia-initiative.eu",
+      "url": "https://www.uia-initiative.eu/en/uia-cities/paris-call3",
+      "role": "contextual_input"
+    },
+    {
+      "name": "caue75.fr",
+      "url": "https://www.caue75.fr/ateliers-a-l-ecole",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/paris-oasis-schoolyard-programme-france",
+    "publication_date": "2022-06-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "ca54ee0807e540c5864ed4753db5c0f6",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/paris-oasis-schoolyard-programme-france",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-09-10T10:15:54+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

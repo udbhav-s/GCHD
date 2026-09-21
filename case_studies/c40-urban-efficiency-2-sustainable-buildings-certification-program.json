@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-urban-efficiency-2-sustainable-buildings-certification-program",
+  "url": "https://www.c40.org/case-studies/urban-efficiency-2-sustainable-buildings-certification-program/",
+  "title": "Urban Efficiency II: Mexico City – Sustainable Buildings Certification Program",
+  "summary": "This C40 case study describes “Urban Efficiency II: Mexico City – Sustainable Buildings Certification Program,” an urban initiative documented for Mexico City. It is included because it is located in the Global South. C40 describes the action this way: Urban Efficiency II: Seven Innovative City Programmes for Existing Building Energy Efficiency builds on research in the successful predecessor “Urban Efficiency”…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Urban Efficiency II: Seven Innovative City Programmes for Existing Building Energy Efficiency builds on research in the successful predecessor “Urban Efficiency”…",
+    "measures": "Urban Efficiency II : Seven Innovative City Programmes for Existing Building Energy Efficiency builds on research in the successful predecessor “Urban Efficiency” Report and captures seven new detailed city case studies from C40 member cities. It is primarily targeted at city-level policy makers and decision makers across the world. The report increases the resource and evidence base available to support cities understanding of the characteristics and impact of innovative city programmes emerging across C40 cities, that advance operational energy efficiency and retrofitting in existing, privately owned buildings.\n Mexico City's Sustainable Buildings Certification Program – Abstract \n Mexico City’s Sustainable Buildings Certification Programme (SBCP) offers the owners or tenants of commercial, residential and industrial buildings an opportunity to reduce and demonstrate the environmental impact of their properties across a broad range of categories. By requiring multiple actions covering energy, water, waste, transport and social and environmental responsibility, SBCP promotes a holistic view of sustainability in the building industry. Participation from owners and tenants is incentivised through tax reductions, reduced energy and water bills, access to project financing, expedited permitting procedures, and finally, prospects of increased rental yields from green premiums.\n The full case study for Sustainable Buildings Certification Program can be found here .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/urban-efficiency-2-sustainable-buildings-certification-program/",
+    "publication_date": "2017-02-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27289",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=urban-efficiency-2-sustainable-buildings-certification-program&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

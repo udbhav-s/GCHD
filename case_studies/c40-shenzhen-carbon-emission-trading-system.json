@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "id": "c40-shenzhen-carbon-emission-trading-system",
+  "url": "https://www.c40.org/case-studies/shenzhen-carbon-emission-trading-system/",
+  "title": "Shenzhen carbon emission trading system",
+  "summary": "This C40 case study describes “Shenzhen carbon emission trading system,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: Shenzhen became the pilot city in China to officially begin using carbon trading on 18 June 2013. Carbon trading in Shenzhen has…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Shenzhen became the pilot city in China to officially begin using carbon trading on 18 June 2013. Carbon trading in Shenzhen has now achieved clear results after more than four years of pilot work, demonstrating that carbon trading can directly promote the emission reduction of enterprises and cities. The carbon emission control system in Shenzhen included 824 units in 2016, and by 4 January 2017 the accumulated total volume and turnover of allowance trading on the Shenzhen carbon market was around 18.07 million tons and RMB 596 million respectively.",
+    "measures": "Before the launch of its carbon emissions trading market, Shenzhen calculated the urban carbon emission list, which set the total carbon emission for the enterprises included in the control system and allocated an allowance for the three years of the pilot period. During the carbon emissions trading pilot period, participating enterprises must first quantify and report their own annual carbon dioxide emissions, and then have independent third-party verification institutions verify their emission reports. They must also guarantee that their carbon intensity does not exceed the carbon intensity target set by the government. Participating enterprises whose carbon emission is lower than their allowance may carry over surplus allowance to the following year for use or sell it directly on the carbon market for profit.\n In order to establish a system complete with both legal provisions and government regulations, Shenzhen has developed and passed Provisions of Shenzhen Special Economic Zone on Carbon Emission Management, Interim Measures of Shenzhen City for the Administration of Carbon Emissions Trading, and other relevant documents. And the units included for control are accurately monitored and strictly verified: any relevant noncompliance and counterfeiting, etc, which is discovered will lead to comprehensive verification, and, once the noncompliance is confirmed, corresponding punishment, including fines, and even blacklisting, will be conducted. Once blacklisted, enterprises will be subject to “one-vote veto” in terms of finance and taxation, etc. In this way, this strict control mechanism forces units included for control to actively practise energy conservation and emission reduction.",
+    "outcomes": "The Shenzhen carbon emissions trading system covers 40% of carbon emissions in Shenzhen, with the main objective being to restrict the total emission of those enterprises included in the control system, and reducing the carbon intensity of enterprises included in emission control by 25% by 2015 from a 2010 base. Statistics show that by 2015 the absolute carbon emission of units included for control had declined by 5.31 million tons since 2010, with the carbon intensity down by as much as 41.8%, far exceeding the 21% reduction target issued by China to Shenzhen during the 12th Five-year Plan period.\n\nIn the 13th Five-year Plan of Shenzhen City for Responding to Climate Change, Shenzhen clearly set out its ambition to: strengthen carbon emission management of enterprises included in government carbon emission control; implement a third-party verification and reporting system and an allowance compliance system of carbon emission; promote the energy conservation and emission reduction of enterprises; promote the construction of an energy management system and energy management centre for key energy-using enterprises; focus on advancing the top 10,000 enterprises’ energy-saving and low-carbon activity; strengthen demand-side management, and boost end energy-using products to improve energy efficiency.\n In addition, according to 2016 Work Summary and 2017 Work Plan of the Development and Reform Commission of Shenzhen Municipality, Shenzhen will further improve the carbon emission trading system in the following ways. Firstly, continue to expand coverage of the city’s carbon trading in the transportation field; actively explore including taxi and public building enterprises in the carbon emission trading system; actively introduce new trading categories and energetically develop carbon finance by giving full play to the advantages that Shenzhen boasts of high market activity and a developed information and financial industry. Secondly, cooperate on completing arrangements for building a national market and ensure the smooth transition from the Shenzhen carbon market to the national carbon market, according to the work goal of the National Development and Reform Commission, which aims to launch national carbon emissions trading in 2017. Thirdly, further progress the training for national carbon market capacity-building with the Shenzhen Center for National Carbon Market Capacity-building as the platform, and take the above opportunity to attract other cities in China which have a good base in this field which value low-carbon development, especially cities which have a similar industrial make-up, in order to carry out in-depth regional carbon market cooperation with Shenzhen. Fourthly, strengthen carbon trading publicity, and carry out relevant training on carbon trading; continue to increase carbon trading publicity and training efforts for the new enterprises included for control, and gradually increase the public’s awareness and acceptance of carbon trading; conduct extensive publicity through media, social and government platforms, etc; actively respond to the demands of enterprises included for control, and complete the compliance work for 2016.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "Before the launch of its carbon emissions trading market, Shenzhen calculated the urban carbon emission list, which set the total carbon emission for the enterprises included in the control system and allocated an allowance for the three years of the pilot period. During the carbon emissions trading pilot period, participating enterprises must first quantify and report their own annual carbon dioxide emissions, and then have independent third-party verification institutions verify their emission reports. They must also guarantee that their carbon intensity does not exceed the carbon intensity target set by the government. Participating enterprises whose carbon emission is lower than their allowance may carry over surplus allowance to the following year for use or sell it directly on the carbon market for profit.\n In order to establish a system complete with both legal provisions and government regulations, Shenzhen has developed and passed Provisions of Shenzhen Special Economic Zone on Carbon Emission Management, Interim Measures of Shenzhen City for the Administration of Carbon Emissions Trading, and other relevant documents. And the units included for control are accurately monitored and strictly verified: any relevant noncompliance and counterfeiting, etc, which is discovered will lead to comprehensive verification, and, once the noncompliance is confirmed, corresponding punishment, including fines, and even blacklisting, will be conducted. Once blacklisted, enterprises will be subject to “one-vote veto” in terms of finance and taxation, etc. In this way, this strict control mechanism forces units included for control to actively practise energy conservation and emission reduction."
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shenzhen-carbon-emission-trading-system/",
+    "publication_date": "2018-03-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27380",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=shenzhen-carbon-emission-trading-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-climate-adaptation-strategy-for-the-grimsel-area-in-the-swiss-alps",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-adaptation-strategy-for-the-grimsel-area-in-the-swiss-alps",
+  "title": "Climate adaptation strategy for the Grimsel area in the Swiss Alps",
+  "summary": "The Grimsel area is exposed to natural hazards, exacerbated by climate change. A participatory 'Climate Adaptation Strategy' was developed to ensure sustainable regional development, focusing on transport access, quality of life, safety, and communication. Settlements, infrastructure, land use and road connections in the Grimsel area in southern Switzerland are heavily exposed to risks from hydrological and gravitational natural hazard processes, such as rock fall, mudflows, landslides, avalanches, and floods favoured by sedimentation of debris.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Innertkirchen, Guttannen",
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": "country/CHE",
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Espace Mittelland",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Espace_Mittelland_CH_",
+        "source_name": "Espace Mittelland (CH)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "FLOODING",
+      "label": "Flooding",
+      "mapped_to": [
+        "river_flood"
+      ]
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "ICEANDSNOW",
+      "label": "Ice and Snow",
+      "mapped_to": []
+    },
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "BUILDINGS",
+      "label": "Buildings"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "DISASTERRISKREDUCTION",
+      "label": "Disaster Risk Reduction"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "LANDUSE",
+      "label": "Land use planning"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MOUNTAINAREAS",
+      "label": "Mountain areas"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TOURISMSECTOR",
+      "label": "Tourism"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "TRANSPORT",
+      "label": "Transport"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "VULNERABILITY",
+      "label": "Vulnerability Assessment"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "PLANSTRATEGY",
+      "label": "Adaptation Plans and Strategies"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "mountain regions",
+      "label": "mountain regions"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "natural hazards",
+      "label": "natural hazards"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "regional development",
+      "label": "regional development"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "Governance",
+      "label": "Governance"
+    },
+    {
+      "vocabulary": "climate_adapt_keywords",
+      "code": "socio-economic vulnerability",
+      "label": "socio-economic vulnerability"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Running within the thematic cluster “Coping with natural hazards”, the development of the ‘Climate Adaptation Strategy for the Grimsel area‘ was one of 31 pilot projects funded by the first funding phase (2013-2017) of the federal Swiss pilot programme for adaptation to climate change . This programme supports implementation of the Swiss national adaptation strategy ( Federal Council, 2012 ) by providing financial support for innovative and exemplary projects on climate adaptation in cantons, regions and municipalities. The pilot project in the Grimsel area aimed at sensitizing the regional actors for the consequences of climate change and promoting cooperation between relevant actors across levels and sectors. Concrete goals were to identify adaptation options, to develop a sub-regional, long-term adaptation strategy for coping with natural hazards in a coordinated way, and to achieve commitment of actors to its implementation. The strategy document is centred around four strategic directions for sustainable regional development under conditions of climate change: i) transport access, ii) quality of life, iii) safety, and iv) communication. For these, the following objectives have been defined ( Bender-Gàl et al., 2016 ): Transport infrastructure: Adequate accessibility is ensured, taking into account cost-benefit aspects, while different qualities of traffic access are possible for different road sections. Quality of life: Optimal usage of the potentials of the region remains possible despite climate change. The tendency to out-migrate will not intensify despite the effects of climate change, and its consequences for the quality of life will be mitigated. Safety: Living in the municipalities remains safe, and inhabitants have a good feeling of security. Risks to people and property values are minimised. Communication: Communication within and about the region is easily understandable, well-targeted, adequate for the needs of each decision-making level, regular, occurring at the right time and through clearly agreed communication channels. Furthermore, the strategy identifies five areas of interest and defines qualitative targets aiming at climate-resilient and sustainable regional development for each of them.",
+    "measures": "The ‘Climate Adaptation Strategy for the Grimsel Area’ ( Bender-Gàl et al., 2016 ) recognizes that growing risks due to climate change and other on-going social developments are closely interlinked. It thus tackles climate adaptation and sustainable regional development in a coupled way ( Steinemann et al., 2017 ). Accordingly, the strategy’s fields of action are partly directly related to climate-driven natural hazard processes and partly targeting also non-climatic influences on broader regional development. The strategy thus aims at securing climate-resilient regional development in a natural hazard and risk management context. Based on assessments of the status quo, expected changes, resulting future challenges, and potential opportunities, the strategy document ( Bender-Gàl et al., 2016 ) defines strategic directions and the following five areas of interest: (a) buildings, settlements and facilities; (b) cantonal road and infrastructure; (c) tourism; (d) employment and economic development; and (e) village life, socio-cultural aspects and landscape. For each of the areas of interest, potential action fields are identified, appraised, and prioritised, resulting in a portfolio of six concrete measures. These are defined in an operational way, including responsibilities, work steps, progress indicators, etc.. The measures are of different type and address: institutional settings, improvement of the knowledge base, settlement development, communication, marketing, and contributions to a technical solution. The following measures have been defined: Establishment of a steering committee for the ‘Climate Adaptation Strategy for the Grimsel Area’: Constituting a steering group and defining its tasks and terms of reference in order to secure the implementation, monitoring and advancement of measures. Conversion of unused real estates for residential purposes (municipality Guttannen, hamlet Boden): Creating new housing space, attracting new residents, and promoting inward-oriented settlement development, in order to secure social and cultural village life and to preserve attractiveness of the area as living space despite the adversities of climate change. The measure responds to perceived losses of safety and quality of life due to climate-induced natural hazards and aims at counteracting out-migration fuelled by changing risk perceptions of the population. Improving exchange of data and information on natural hazards: Establishing an infrastructure and procedures for exchanging and processing data and information on natural hazards from various sources and for providing them to experts and the public. This shall support regional actors in coping with risks. Preparing for possible new railway connection: The measure aims at contributing to the recent political discussion on plans to build a new narrow-gauge railway, bundled with a high-voltage power line, in a 20 km long tunnel system passing north-south under the Grimsel pass. The project offers a ‘climate-proof’ alternative to the hazard-prone cantonal road. Possible implications of the project on the region and its exposure to natural hazards shall be evaluated and fed into decision-making. Improvement of crisis communication for tourism: Elaborating and implementing a tailored communication concept to convey in a more timely, accurate and effective manner information on occurrence of hazard events to touristic user groups. Marketing of the natural environment and dynamic processes: Developing tourism products that market landscape and the natural environment as regional assets. This shall also contribute to raising awareness of guests for natural hazard processes and to create better understanding for emergency measures such as road closures. Implementing measure 1), the strategy has been structurally anchored in the region by establishing the steering group already in 2016. The steering group is part of a newly created governance arrangement for implementation of the strategy that builds on existing institutional structures in the region and combines central coordination with decentral responsibilities. It is composed of important institutions that participated in the strategy development and chaired by the Regionalkonferenz Oberland-Ost, an institution that is in charge of coordinating regional policy and acts at the interface of municipal, cantonal and federal authorities. The actors participating in the strategy development have committed themselves to implementing the strategy by signing a declaration of intention. By the end of 2018, realisation of further measures is showing a mixed picture, with the state of implementation ranging from finalized to being in progress to facing difficulties: The touristic valorisation of natural hazard processes (measure 6) is running successfully and is bringing university courses, scientific excursions, and study visits of visitors from as far as other continents to the region. The improvement of data exchange on natural hazards (measure 3) among the region’s main infrastructure operators is progressing very well and has yielded substantial outcomes, e.g. regarding the redressing of redundant monitoring structures, common usage of databases run by single operators, and joint procurement of new monitoring systems. The body of arguments related to plans for a new railway connection (measure 4) has been prepared and communicated to responsible decision makers, but due to political decisions by the federal level the construction project has been postponed to a later point in time. Pursuit of measures 2) and 5) is currently delayed or on hold because crucial framework conditions have changed (new municipal government, personal change at actor responsible for measure).",
+    "outcomes": "The ‘Climate Adaptation Strategy for the Grimsel region’ is considered a success and a “good practice” project by the coordinators of the Swiss pilot programme for climate adaptation ( FOEN, 2017 ). It is among the minority of pilot projects that went beyond improving the knowledge base or developing support tools and proceeded to identifying concrete adaptation options, formulating them in a regionally anchored strategy and preparing its implementation in practice. The following main success factors related to different dimensions can be identified ( Steinemann et al., 2016 ): Success factors related to external framework conditions: Preceding hazard events in recent years had caused problem pressure at the beginning of the project, which created awareness of the need for action and increased the willingness to start a regional adaptation process. A re-assessment of local flood risk during the strategy development process implied that the risk was less severe than had been originally assumed, which eased the problem perception of the involved actors. Although such dynamics may be seen as ambivalent, the changes in local risk perception facilitated a shift in scope of the strategy process from a rather narrow focus on (structural) risk management measures to much broader regional development perspectives. The good availability of regional data on natural hazard processes at present and in the future was a favourable precondition. Initiation of strategy development and choice of thematic foci were driven bottom-up by actors within the region and their regional needs. Federal funding by the pilot programme was supportive. It signalled political will and relevance of climate adaptation at higher government level. The overall Swiss tradition of inhabitants having strong civic roles and being used to acting in various societal roles at the same time proved a fertile substrate for participatory policy development. Success factors related to the strategy development process: Broad participation of the relevant regional actors from multiple levels and regionally important economic sectors, including key actors with good reputation and high credibility in the region. This also secured broad acceptance of the strategy. Strong commitment of the process managers and high motivation of participating actors. Ownership of actors was fostered by allocating responsibility for development of measures to them. Involvement of external consultants assured professional project management, attractive facilitation of workshops, and efficient preparation and post-processing of meetings. Granting thematic flexibility to the process allowed reacting to changes in external framework conditions and opened up creative leeway. The participating actors have committed themselves to implementing the strategy by signing a declaration of intent. Success factors related to contents of the strategy: It has been a crucial success factor that climate-related natural hazards were dealt with in a broader regional development context, taking into full account their interactions with societal developments and socio-economic regional challenges. It has been supportive that also the opportunities resulting from climate change and societal adaptation have been addressed. For instance, one of the measures seeks to take advantage of dynamic landscape processes shaped by changing climatic conditions by marketing them as an asset for tourism. The strategy process has been institutionalised by establishing a new governance structure (steering group with terms of reference) for its implementation. It has to some extent been a limiting factor that group-based work with climate change scenarios during the workshop process was not successful. The initial idea was to differentiate problem assessments and adaptation options according to different scenarios of climate change (weak, medium, strong), so as to take account of uncertainties. It turned out, however, that this approach was too complex. Instead, the actors developed common appraisals of the general direction of future developments under progressing climate change (current situation improving, deteriorating, or remaining constant), which were not bound to a specific time horizon. While implementation of some measures has been achieved or is showing good progress, changes in framework conditions are currently negatively affecting other measures or limiting their impact. Despite preparatory steps for the conversion of unused buildings (measure 2), a political change of the local government has currently put the process on hold. A staff change at the actor responsible for measure 5) has so far delayed its implementation. The body of arguments related to the new Grimsel railway line (measure 4) has been completed and argued in favour of the project, but the federal government has in the meantime downgraded its priority.",
+    "cost_benefit": "The development of the ‘Climate Adaptation Strategy for the Grimsel area’ was one of the projects funded by the federal Swiss pilot programme for adaptation to climate change. In its first funding phase, the pilot programme has funded 31 projects with a total funding volume of 7.7 million Swiss Francs. Excluding accompanying measures, this amounts to an average budget of approximately 200.000 Swiss Francs per project. For each measure defined in the strategy, the benefits and intended outcomes are described and financing needs are characterised in qualitative terms, but neither benefits nor costs have been quantified. Establishment and operation of the steering group did not cause any extra costs, because administration and work time are borne by the regular budgets of the member organisations. It has not been possible to estimate the costs of other measures at the time of drafting the strategy document, because in most cases the financing needs for full realisation of the measures depend on the outcomes of first implementation steps (e.g., clarifying the exact needs of various user groups regarding the planned natural hazard data hub). Accordingly, estimation of cost is sometimes part of the step-by-step implementation plan for measures. Qualitative cost-benefit considerations played an important role in development of the strategy and are at the root of several measures. For instance, protecting the road infrastructure against natural hazards and increasing the quality of traffic access is restricted by the limited availability of public financial resources. The current focus of the public road management regime on monitoring hazard hot spots and preparing recovery measures if damages occur will thus have to be retained, because financing of larger structural protection measures is not feasible. Similar cost-benefit relations in the field of tension between risk prevention (adequate protection levels) and risk tolerance (acceptable risk levels) contribute to many of the challenges that the strategy responds to.",
+    "timeline": "Implementation of the package of measures started in 2016, i.e. immediately after finalisation of the strategy document and the end of the seed-funding pilot project. The steering group for implementation of the strategy, as an institutional measure, has been established already during 2016. Some measures are by their nature rather open-ended, while completion of several other measures was originally planned until the end of 2018. Since some of these measures are delayed or facing challenges, they might become subject to re-scheduling or revision by the steering group.",
+    "lifetime": "The measures defined in the strategy are predominantly non-structural, but rather process-oriented and aim at shaping conditions and durable processes for climate-resilient, sustainable regional development. As such, their ‘lifetime’ is not subject to a discrete time range.",
+    "stakeholders": "The ‘Climate Adaptation Strategy for the Grimsel area” has been developed in a participatory process running from 2014 to 2016. The involvement of all relevant stakeholders and the broad representation of important institutional actors in the working group has been identified as a key success factor of the project ( Steinemann et al., 2016 ). Above all, the participation process succeeded in bringing together sectoral actors from different levels that up to then pursued separate risk management strategies in rather fragmented ways. The process organisation was composed of the project management, the working group, a sub-contracted external expert, and the Federal Office for the Environment (FOEN) as coordinator of the funding programme. The process management team was led by the Regionalkonferenz Oberland-Ost, which also acted as the project executing body, and included representatives of the engineering office of the cantonal administration (Oberingenieurkreis I) and of one municipality. Further partners represented in the working group included all municipalities, relevant cantonal offices, and both public and private actors representing the regional key sectors energy industry, transport infrastructure, tourism and agriculture. An external consultant was responsible for process steering, facilitation of meetings, and expert advice. Further counselling and expertise was provided by a climate adaptation officer of the funding body FOEN. The strategy has been developed in a workshop-based process, which was structured in five phases. Starting with a kick-off event in May 2014 and ending with a closing event in January 2016, altogether six workshops have been conducted. They served to identify and deliberate on the actors’ needs and problem perceptions, systemic interdependencies, needs and options for actions, possible conflicts, strategy design, priorities and strategic directions, common goals, and concrete measures. The workshops were prepared and post-processed by means of input papers, which were gradually developed into the final strategy document. Bilateral exploratory talks, in particular before the first workshop, proved very useful to clarify the actual problem situation and to structure the discussion during the workshops. To some extent, these talks supplemented the workshops, in case limited time resources did not allow all participants to fully express all their concerns. The “world café” format proved a particularly suitable method to facilitate discussion in small groups within the workshops. Active participation in the process and positive identification with its outcome was promoted by inviting the participants to give inputs, e.g. on their interest group’s future vision, and by assigning responsibility for the development of measures to them. The stakeholder participation process was crucial to achieving the appropriate balance of measures within the stress field spanned by the strategic goals. This involved balancing acceptable risk levels with adequate levels of safety, accessibility and quality of life. In their lessons learnt ( Steinemann et al., 2016 ), the process managers conclude that scientific facts alone are not sufficient for taking related judgments, but that it is necessary to develop joint positions by bartering different views and problem perceptions in a collective deliberation process.",
+    "legal_context": "The contents of the strategy document and the adaptation measures defined therein connect seamlessly to the relevant municipal, cantonal and federal stock of legislation."
+  },
+  "point": {
+    "lat": 46.6499075162,
+    "lon": 7.95684814453,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "nccs.admin.ch",
+      "url": "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/pilotprogramm-anpassung-an-den-klimawandel2/pilotprogramm-anpassung-an-den-klimawandel/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--umgang-0/pilotprojekt-zur-anpassung-an-den-klimawandel--klimaadaptionsstr.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "oberland-ost.ch",
+      "url": "https://www.oberland-ost.ch/aufgaben/regionalentwicklung.html",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/climate-adaptation-strategy-for-the-grimsel-area-in-the-swiss-alps",
+    "publication_date": "2018-01-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b6b82e9c1fcd404cb8f677d937ba9e10",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/climate-adaptation-strategy-for-the-grimsel-area-in-the-swiss-alps",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:19:33+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

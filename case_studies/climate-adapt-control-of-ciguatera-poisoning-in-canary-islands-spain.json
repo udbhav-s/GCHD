@@ -1,0 +1,134 @@
+{
+  "schema_version": "2.2",
+  "id": "climate-adapt-control-of-ciguatera-poisoning-in-canary-islands-spain",
+  "url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/control-of-ciguatera-poisoning-in-canary-islands-spain",
+  "title": "Control of ciguatera poisoning in Canary Islands, Spain",
+  "summary": "The surveillance system set up by the Canary Islands Government aims to remove certain fish containing ciguatoxins from the market and to improve the detection of ciguatera in humans. The case study illustrates benefits to artisanal fisheries and public health. Ciguatera poisoning (CP) occurs when people consume fish containing ciguatoxins (CTXs) with a high toxicity level. CTXs are a type of marine biotoxins produced by certain microalgae (Gambierdiscus spp . and Fukuyoa spp .) accumulated by the marine food chain.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": "country/ESP",
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Canarias",
+        "ucode": null,
+        "dcid": null,
+        "source_code": "SUBN_Canarias__ES_",
+        "source_name": "Canarias (ES)"
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "climate_adapt_climate_impacts",
+      "code": "EXTREMEHEAT",
+      "label": "Extreme heat",
+      "mapped_to": [
+        "extreme_heat"
+      ]
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "HEALTH",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "climate_adapt_sectors",
+      "code": "MARINE",
+      "label": "Marine and Fisheries"
+    },
+    {
+      "vocabulary": "climate_adapt_governance_level",
+      "code": "SNA",
+      "label": "Sub National Regions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "MEASUREACTION",
+      "label": "Adaptation Measures and Actions"
+    },
+    {
+      "vocabulary": "climate_adapt_adaptation_elements",
+      "code": "EU_POLICY",
+      "label": "Sector Policies"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "health_patients"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "patient"
+    ],
+    "group_mentions": {
+      "health_patients": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The aim of the initiatives implemented in Canary Islands are to reduce the number of ciguatera poisoning cases and to limit the risk of outbreaks.",
+    "measures": "Two main actions were implemented to limit the risk of ciguatera poisoning in the Canary Islands: monitoring the presence of ciguatoxins in certain fish and including ciguatera poisoning as a notifiable disease. 1) Controlling the fish catch for ciguatoxins in fisheries Since June 2009, the General Directorate of Fisheries of the Canary Island Government has applied a protocol to determine the presence or absence of ciguatoxin in certain species that exceed a given weight, before being sold. This protocol, attached, is mandatory to the small scale (fresh fish) professional fishing sector of the Canary Islands. Recreational fishermen are informed about CP and the existence of this protocol (species and weights). They are encouraged but not obliged to apply the Protocol to the caught species before consuming them (see attached brochure). The target species and threshold weights have been selected by a group of experts (veterinarians, toxicologists, marine biologists, professionals in fisheries and public health). Currently the species (and weights) monitored are: amberjacks ( Seriola spp.) – 12 kg; dusky grouper ( Epinephelus marginatus ) – 12 kg; bluefish ( Pomatomus saltatrix ) – 9 kg; island grouper ( Mycteroperca fusca ) – 7kg; and wahoo ( Acanthocybium solandri ) - 35 kg. In 2022, criteria for introducing changes to species and weight monitored were established. A new species may be included only if it was the source of a confirmed autochthonous CP case and the fish had been captured in Canary waters. Furthermore, the weight limit of species currently included can be lowered in one of these two situations: (i) if a fish submitted to ciguatoxin detection tested positive exceeds the weight limit by up to 500 gr and shows high toxicity, or (ii) if a fish captured in Canary waters that weighed below the weight limit was the source of confirmed autochthonous ciguatera case, in which case the new weight limit would be set at the weight of that particular fish. 2) Including ciguatera poisoning as a notifiable disease. Since 2015 ciguatera poisoning is a mandatory notifiable disease in the Canary Islands. It is the only place within the EU, and one of the few around the world (including Florida, Hawaii, and Hongkong) where the physicians diagnosing the poisoning need to report the disease. The physicians, entering the ciguatera as a cause of poisoning into a patient’s clinical record within the public health system, automatically receive a notification to complete the notification form. Therefore, public health authorities can further investigate and confirm the case. Private physicians can download the same form and send it to public health authorities by email. In recent years, the number of ciguatera poisoning cases have decreased in the Canary Islands. Whilst this could be a result of the control measures implemented, this decline could also be associated with the Covid-19 pandemic or low awareness of the healthcare practitioners not reporting the disease.",
+    "outcomes": "To better understand the risks of CP in Europe, the European Food Safety Authority (EFSA) and the Spanish Food Safety Authority (AESAN) jointly funded the EuroCigua project between June 2016 and January 2021. The project aimed to determine the spread and main characteristics of ciguatera in Europe; measure biotoxin levels in microalgae and in fish; and develop analytical methods to characterise these toxins ( EFSA ). Despite an increasing body of scientific evidence and the interest of the media, the public awareness of the problem remains low. According to a survey from 2018, just over 10% of the population in the Canary Islands had some awareness of ciguatera and less than 4% knew about poisoning cases in the Canary Islands. Among the respondents, 82% wished to receive more information about ciguatera, mainly via television and social networks. Public information and monitoring plans are essential to improve the practice of vulnerability assessment for food security, and reducing the risk of CP. It is therefore necessary to design a program within the framework of risk communication to know if the audience receives, understands and responds appropriately ( Bilbao-Sieyro et al., 2019 ).",
+    "cost_benefit": "During the EuroCigua project (2016-2021), the IUSA- ULPGC laboratory received scientific and technical support for the analyses from the European Reference Laboratory for Marine Toxins (Vigo) and Institute of Agrifood Research and Technology (IRTA). This led to harmonisation of different protocols. Therefore, the participation in the research project had a direct impact on the improvement of the daily activity carried out for the official control programme. The project also allowed direct and indirect contact with the trophic web, analyzing the situation of different fish species, regarding their contribution to the maintenance of ciguatoxins in the marine environment. In addition, thanks to the EuroCigua project and the collaboration with Canary Government DG Fisheries, 46 ciguatoxic fish from the CP official control were available for laboratory work. The fish were necropsied in IUSA facilities and 660 kg of muscle and livers were delivered to the university of Vigo to prepare Ciguatoxin Reference Materials ( Castro et al., 2022 ), whose future availability will be of benefit to laboratories worldwide working on ciguatoxin detection. The EuroCigua project led to the establishment of a collaboration network of different prestigious international institutions involved in developing knowledge on the ciguatera toxins environmental conditions. DGP-GMR activities are financed by the European Maritime and Fisheries Fund (EMFF 2014-2020) and European Maritime, Fisheries and Aquaculture Fund (EMFAF 2021-2027). Also, a study on the economic impact on the fishing sector is currently being carried out (financed by European Regional Development Fund (EDRF) and INTERREG V-A Spain-Portugal MAC 2014-2020). The cost of the actions taken by the General Directorate of Public Health are included in the General Budget for 2023. The main benefit of the control measures is increased food safety. The benefit for the local fisheries is that under ciguatera toxin testing protocol 7,717 (87%) large fishes reached the commercial chain with confirmed food security. The ciguatera control measures in place allowed avoiding fish capture bans.",
+    "timeline": "The monitoring programme to determine the presence or absence of ciguatoxin in fish is operational since 2009, but in 2011 the methodology for the CTX detection changed. The obligation to notify CP to the Public Health Authority is in place since 2015. Awareness raising is a continuing process, with activities focussed on informing people and health care workers planned for 2023 and 2024. The Eurocigua project ran between 2016 and 2020. The Eurocigua II project started in 2022 and will continue until 2025.",
+    "lifetime": "The surveillance system does not have a predefined lifetime. It is planned to be continuously implemented by the Canary Islands Government and be effective in the long term.",
+    "stakeholders": "The following stakeholders are involved in the fish control programme: DG Fisheries, Canary Island Government: public administration with competences in fisheries matters. Gestión del Medio Rural de Canarias (Management of the Rural Environment of the Canary Islands) GMR Canarias, S.A.U.: public entity that belongs to the GDF providing support in the management of the protocol. Directorate General for Public Health (DG Public Health), Canary Island Government: public administration with competences in Public Health (specifically Food Safety and Epidemiology departments). University Institute of Animal Health and Food Safety (IUSA-ULPGC): laboratory in charge of fish analysis within the CP official monitoring. Small scale (fresh fish) professional fishing sector: thirty associations participating in sampling on eight islands. DG Fisheries and GMR, the IUSA-ULPGC laboratory and the professional fishing sector are involved in the preparation and management of the fish samples and are in daily close contact through the traceability web tool system. DG Fisheries and the DG Public Health are in regular communication, updating on all necessary information for the best application of both protocols (fishing and health). A permanent panel of experts will be established in the near future to assist in the decision-making process regarding the fishing protocol.",
+    "legal_context": "Ciguatera poisoning became a mandatory notifiable disease in the Canary Islands through the entry into force of a modification of the existing national law in 2015 (3992 ORDEN of 17/08/2015 about the establishment of the Canarias Epidemiological Surveillance Network). This legislation specifies that each CP case a physician diagnoses has to be notified to the Public Health authority within 24 hours since the diagnosis, including the patient’s and the notifying physician’s identification data and the clinical presentation of the poisoning. The CTX detection protocol has been applied from 2009 by resolution. This protocol is mandatory for all small-scale professional fishing entities. The resolution of the DG Fisheries of August 2022 is currently in force."
+  },
+  "point": {
+    "lat": 27.9652949152,
+    "lon": -15.5786132812,
+    "source": "climate_adapt_geolocation"
+  },
+  "data_sources": [
+    {
+      "name": "gobiernodecanarias.org",
+      "url": "https://www.gobiernodecanarias.org/pesca/temas/Control_calidad_productos/ciguatera.html",
+      "role": "contextual_input"
+    },
+    {
+      "name": "www3.gobiernodecanarias.org",
+      "url": "https://www3.gobiernodecanarias.org/sanidad/scs/contenidoGenerico.jsp?idDocument=bb1799ed-b4c0-11de-ae50-15aa3b9230b7&idCarpeta=c60bd3e4-a9a3-11dd-b574-dd4e320f085c",
+      "role": "contextual_input"
+    },
+    {
+      "name": "sanidad.gob.es",
+      "url": "https://www.sanidad.gob.es/en/areas/sanidadExterior/euroCiguaII/home.htm",
+      "role": "contextual_input"
+    },
+    {
+      "name": "efsa.europa.eu",
+      "url": "https://www.efsa.europa.eu/en/topics/ciguatoxins-and-other-marine-biotoxins",
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "Climate-ADAPT Case Study Explorer",
+    "collection_url": "https://climate-adapt.eea.europa.eu/en/knowledge/tools/case-study-explorer",
+    "publisher": "European Environment Agency",
+    "document_url": "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/control-of-ciguatera-poisoning-in-canary-islands-spain",
+    "publication_date": "2024-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "api",
+    "source_record_id": "b066534c719b47a8b26edc22a7f305c8",
+    "source_api_url": "https://climate-adapt.eea.europa.eu/++api++/en/metadata/case-studies/control-of-ciguatera-poisoning-in-canary-islands-spain",
+    "source_content_type": "eea.climateadapt.casestudy",
+    "source_modified": "2026-08-25T08:20:05+00:00",
+    "extracted_by": "scrape_climate_adapt.py@1.1"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}
