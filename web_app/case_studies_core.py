@@ -12,12 +12,16 @@ from georepo_core import get_feature_by_ucode
 CASE_STUDIES_DIR = Path(__file__).resolve().parents[1] / "case_studies"
 
 
-def _deepest_unit(location):
+def _units_deepest_first(location):
+    """Yield the location's administrative units, most specific first."""
     for level in ("adm2", "adm1", "adm0"):
         unit = location.get(level)
         if unit and unit.get("ucode"):
-            return level, unit
-    return None, None
+            yield level, unit
+
+
+def _deepest_unit(location):
+    return next(_units_deepest_first(location), (None, None))
 
 
 def _combined_bounds(features):
@@ -34,13 +38,16 @@ def _map_geometry(locations, feature_lookup):
     features = []
     seen_ucodes = set()
     for location in locations:
-        _level, unit = _deepest_unit(location)
-        if not unit or unit["ucode"] in seen_ucodes:
-            continue
-        seen_ucodes.add(unit["ucode"])
-        feature = feature_lookup(unit["ucode"])
-        if feature:
-            features.append(feature)
+        # Fall back to a wider unit when the boundary cache has no feature for the
+        # narrow one. A study with an unresolved district still maps to its country.
+        for _level, unit in _units_deepest_first(location):
+            if unit["ucode"] in seen_ucodes:
+                break
+            feature = feature_lookup(unit["ucode"])
+            if feature:
+                seen_ucodes.add(unit["ucode"])
+                features.append(feature)
+                break
 
     if not features:
         return None, None
@@ -80,6 +87,12 @@ def enrich_case_study(record, feature_lookup=get_feature_by_ucode):
         location_labels.append("Global")
 
     point, bounds = _map_geometry(locations, feature_lookup)
+    if point is None:
+        # Sources that give a coordinate can still be mapped with no boundary match.
+        record_point = record.get("point")
+        if record_point:
+            point = [record_point["lat"], record_point["lon"]]
+
     return {
         **record,
         "countries": sorted(countries.values(), key=lambda item: item["name"]),
