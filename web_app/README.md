@@ -52,20 +52,36 @@ JSON file; it can be overridden with the `EARTH_ENGINE_PROJECT` environment vari
 
 ### 3. Build the GeoRepo boundary cache
 
-Download the public ADM0–ADM2 exports linked from
-[`georepo-data`](../../georepo-data/README.md), then run:
+The GeoRepo API is retired and answers 410 on every endpoint, so the boundaries
+come from the public blob exports instead. All three were published together on
+16 September 2026 and carry real GeoRepo ucodes:
 
 ```bash
+BASE=https://unidatadapmclimatechange.blob.core.windows.net/public/georepo
+curl -L -o /tmp/adm0.geojson $BASE/adm0.geojson   # 224 MB
+curl -L -o /tmp/adm1.geojson $BASE/adm1.geojson   # 539 MB
+curl -L -o /tmp/adm2.geojson $BASE/adm2.geojson   # 1.4 GB
+
 python scripts/build_georepo_cache.py \
-  --adm0 /path/to/adm0.geojson \
-  --adm1 /path/to/adm1.geojson \
-  --adm2 /path/to/adm2.geojson \
+  --adm0 /tmp/adm0.geojson \
+  --adm1 /tmp/adm1.geojson \
+  --adm2 /tmp/adm2.geojson \
   --output data/georepo/boundaries.sqlite
 ```
+
+Take all three from the same export. Mixing vintages risks ucodes that no longer
+match the ones case studies record. The build takes a couple of minutes and
+produces roughly 289 countries, 3,578 provinces, and 41,092 districts.
 
 The generated database is intentionally ignored by Git. It retains only current
 (`is_latest`) boundaries, simplifies geometry for web display, and preserves UNICEF
 GeoRepo `ucode` identifiers.
+
+Build somewhere else first and swap the file in if one is already in place, and
+remove any leftover `-wal` and `-shm` sidecars so they cannot pair with the new
+database. `scripts/build_standin_boundary_cache.py` is a Natural Earth fallback
+that covers ADM0 and ADM1 only; it is for making the app runnable, not for
+analysis.
 
 ### 4. Public Earth Engine data
 
