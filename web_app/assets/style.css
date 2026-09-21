@@ -538,6 +538,40 @@ body {
 .case-study-source-link:hover,
 .case-study-popup a:hover { text-decoration: underline; }
 .case-study-empty { padding: 24px 10px; color: var(--lo); font-size: 0.72rem; text-align: center; }
+
+.case-study-pagination {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 12px;
+  background: rgba(255,255,255,0.96);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+}
+.case-study-pagination button {
+  padding: 5px 9px;
+  background: white;
+  color: var(--cyan);
+  border: 1px solid rgba(28,171,226,0.45);
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.64rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.case-study-pagination button:disabled {
+  color: var(--lo);
+  border-color: var(--border);
+  cursor: default;
+}
+.case-study-pagination span {
+  color: var(--mid);
+  font-size: 0.62rem;
+  font-weight: 600;
+}
 .case-study-popup { max-width: 240px; font-family: 'Source Sans Pro', sans-serif; }
 .case-study-popup-title { color: var(--hi); font-size: 0.78rem; font-weight: 700; line-height: 1.35; }
 .case-study-popup-location { margin: 5px 0 8px; color: var(--mid); font-size: 0.66rem; }

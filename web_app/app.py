@@ -4,12 +4,14 @@
 
 import os
 import re
+import math
 import json as _json
 from urllib.parse import urlencode
 
 import dash
 from dash import dcc, html, Input, Output, State, ctx, no_update, ALL
 import dash_leaflet as dl
+from dash_extensions.javascript import Namespace
 import plotly.graph_objects as go
 from dotenv import load_dotenv
 
@@ -82,6 +84,9 @@ HAZARD_LABELS = {
     "landslide": "Landslide",
     "armed_conflict": "Armed conflict",
 }
+CASE_STUDY_PAGE_SIZE = 20
+EMPTY_FEATURE_COLLECTION = {"type": "FeatureCollection", "features": []}
+CASE_STUDY_JS = Namespace("gchd", "caseStudies")
 
 
 def ask_gemini(_query):
@@ -680,6 +685,12 @@ def tab_case_studies():
         ]),
         html.Div(id="case-study-result-count", className="case-study-result-count"),
         html.Div(id="case-study-list", className="case-study-list"),
+        html.Div(className="case-study-pagination", children=[
+            html.Button("Previous", id="case-study-prev-page", n_clicks=0),
+            html.Span(id="case-study-page-label"),
+            html.Button("Next", id="case-study-next-page", n_clicks=0),
+        ]),
+        dcc.Store(id="case-study-page", data=0),
     ])
 
 
@@ -768,7 +779,16 @@ def map_component():
                 dl.LayerGroup(id="data-layers"),
                 dl.LayerGroup(id="boundary-layers"),
                 dl.LayerGroup(id="selection-layer"),
-                dl.LayerGroup(id="case-study-markers"),
+                dl.GeoJSON(
+                    id="case-study-markers",
+                    data=EMPTY_FEATURE_COLLECTION,
+                    cluster=True,
+                    spiderfyOnMaxZoom=True,
+                    zoomToBoundsOnClick=True,
+                    superClusterOptions={"radius": 55, "maxZoom": 15},
+                    pointToLayer=CASE_STUDY_JS("pointToLayer"),
+                    onEachFeature=CASE_STUDY_JS("onEachFeature"),
+                ),
                 dl.GeoJSON(
                     id="custom-boundary-geojson",
                     data=None,
@@ -1092,51 +1112,98 @@ def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode):
     return matches
 
 
-def _case_study_marker(study):
-    return dl.CircleMarker(
-        center=study["map_point"],
-        radius=7,
-        pathOptions={
-            "color": "#ffffff",
-            "weight": 2,
-            "fillColor": "#1CABE2",
-            "fillOpacity": 0.92,
-        },
-        children=[
-            dl.Tooltip(study["title"]),
-            dl.Popup(html.Div(className="case-study-popup", children=[
-                html.Div(study["title"], className="case-study-popup-title"),
-                html.Div(", ".join(study["location_labels"]), className="case-study-popup-location"),
-                html.A("Read case study ↗", href=study["url"], target="_blank",
-                       rel="noopener noreferrer"),
-            ])),
+def _case_study_feature_collection(studies):
+    return {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [study["map_point"][1], study["map_point"][0]],
+                },
+                "properties": {
+                    "id": study["id"],
+                    "title": study["title"],
+                    "location": ", ".join(study["location_labels"]),
+                    "url": study["url"],
+                },
+            }
+            for study in studies
+            if study.get("map_point")
         ],
-    )
+    }
+
+
+@app.callback(
+    Output("case-study-page", "data"),
+    Input("case-study-prev-page", "n_clicks"),
+    Input("case-study-next-page", "n_clicks"),
+    Input("case-study-sdg-filter", "value"),
+    Input("case-study-hazard-filter", "value"),
+    Input("case-study-country-filter", "value"),
+    Input("case-study-admin-filter", "value"),
+    State("case-study-page", "data"),
+    prevent_initial_call=True,
+)
+def update_case_study_page(_prev, _next, _sdgs, _hazards, _country, _admin, page):
+    studies = _filter_case_studies(_sdgs, _hazards, _country, _admin)
+    page_count = max(1, math.ceil(len(studies) / CASE_STUDY_PAGE_SIZE))
+    current_page = min(max(page or 0, 0), page_count - 1)
+    if ctx.triggered_id == "case-study-prev-page":
+        return max(0, current_page - 1)
+    if ctx.triggered_id == "case-study-next-page":
+        return min(page_count - 1, current_page + 1)
+    return 0
 
 
 @app.callback(
     Output("case-study-list", "children"),
     Output("case-study-result-count", "children"),
-    Output("case-study-markers", "children"),
+    Output("case-study-page-label", "children"),
+    Output("case-study-prev-page", "disabled"),
+    Output("case-study-next-page", "disabled"),
+    Input("case-study-sdg-filter", "value"),
+    Input("case-study-hazard-filter", "value"),
+    Input("case-study-country-filter", "value"),
+    Input("case-study-admin-filter", "value"),
+    Input("case-study-page", "data"),
+)
+def update_case_study_cards(sdg_goals, hazards, country_ucode, admin_ucode, page):
+    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode)
+    mapped = [study for study in studies if study.get("map_point")]
+    page_count = max(1, (len(studies) + CASE_STUDY_PAGE_SIZE - 1) // CASE_STUDY_PAGE_SIZE)
+    page = min(max(page or 0, 0), page_count - 1)
+    start = page * CASE_STUDY_PAGE_SIZE
+    end = min(start + CASE_STUDY_PAGE_SIZE, len(studies))
+    visible_studies = studies[start:end]
+    if visible_studies:
+        cards = [_case_study_card(study) for study in visible_studies]
+    else:
+        cards = html.Div(
+            "No case studies match these filters.", className="case-study-empty"
+        )
+    label = "case study" if len(studies) == 1 else "case studies"
+    if studies:
+        count = f"Showing {start + 1}–{end} of {len(studies)} {label} · {len(mapped)} mapped"
+    else:
+        count = "0 case studies · 0 mapped"
+    return cards, count, f"Page {page + 1} of {page_count}", page == 0, page >= page_count - 1
+
+
+@app.callback(
+    Output("case-study-markers", "data"),
     Input("case-study-sdg-filter", "value"),
     Input("case-study-hazard-filter", "value"),
     Input("case-study-country-filter", "value"),
     Input("case-study-admin-filter", "value"),
     Input("store-tab", "data"),
 )
-def update_case_study_view(sdg_goals, hazards, country_ucode, admin_ucode, active_tab):
+def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode, active_tab):
+    if active_tab != "case-studies":
+        return EMPTY_FEATURE_COLLECTION
     studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode)
-    mapped = [study for study in studies if study.get("map_point")]
-    if studies:
-        cards = [_case_study_card(study) for study in studies]
-    else:
-        cards = html.Div(
-            "No case studies match these filters.", className="case-study-empty"
-        )
-    label = "case study" if len(studies) == 1 else "case studies"
-    count = f"{len(studies)} {label} · {len(mapped)} mapped"
-    markers = [_case_study_marker(study) for study in mapped] if active_tab == "case-studies" else []
-    return cards, count, markers
+    return _case_study_feature_collection(studies)
 
 
 @app.callback(
