@@ -15,14 +15,14 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Kassel",
-        "ucode": null,
+        "ucode": "DEU_0007_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Kassel__DE_",
         "source_name": "Kassel (DE)"
-      },
-      "adm2": null
+      }
     }
   ],
   "hazards": [

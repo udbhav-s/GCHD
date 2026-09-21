@@ -25,7 +25,7 @@
       "adm2": null
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -33,17 +33,17 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Düsseldorf",
-        "ucode": null,
+        "ucode": "DEU_0010_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Düsseldorf__DE_",
         "source_name": "Düsseldorf (DE)"
-      },
-      "adm2": null
+      }
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -51,17 +51,17 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Köln",
-        "ucode": null,
+        "ucode": "DEU_0010_0024_V1",
         "dcid": null,
         "source_code": "SUBN_Köln__DE_",
         "source_name": "Köln (DE)"
-      },
-      "adm2": null
+      }
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -69,14 +69,14 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Münster",
-        "ucode": null,
+        "ucode": "DEU_0010_0033_V1",
         "dcid": null,
         "source_code": "SUBN_Münster__DE_",
         "source_name": "Münster (DE)"
-      },
-      "adm2": null
+      }
     },
     {
       "level": "adm0",

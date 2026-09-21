@@ -43,7 +43,7 @@
       "adm2": null
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -51,14 +51,14 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Karlsruhe",
-        "ucode": null,
+        "ucode": "DEU_0001_0018_V1",
         "dcid": null,
         "source_code": "SUBN_Karlsruhe__DE_",
         "source_name": "Karlsruhe (DE)"
-      },
-      "adm2": null
+      }
     }
   ],
   "hazards": [

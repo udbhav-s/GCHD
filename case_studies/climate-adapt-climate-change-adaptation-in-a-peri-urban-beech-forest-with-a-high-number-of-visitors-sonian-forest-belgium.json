@@ -7,7 +7,7 @@
   "location_scope": "adm1",
   "locations": [
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Belgium",
@@ -15,14 +15,14 @@
         "dcid": "country/BEL",
         "iso3": "BEL"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Prov. Brabant Wallon",
-        "ucode": null,
+        "ucode": "BEL_0002_0001_V1",
         "dcid": null,
         "source_code": "SUBN_Prov__Brabant_Wallon__BE_",
         "source_name": "Prov. Brabant Wallon (BE)"
-      },
-      "adm2": null
+      }
     },
     {
       "level": "adm1",
@@ -43,7 +43,7 @@
       "adm2": null
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Belgium",
@@ -51,14 +51,14 @@
         "dcid": "country/BEL",
         "iso3": "BEL"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Prov. Vlaams-Brabant",
-        "ucode": null,
+        "ucode": "BEL_0003_0004_V1",
         "dcid": null,
         "source_code": "SUBN_Prov__Vlaams_Brabant__BE_",
         "source_name": "Prov. Vlaams-Brabant (BE)"
-      },
-      "adm2": null
+      }
     }
   ],
   "hazards": [

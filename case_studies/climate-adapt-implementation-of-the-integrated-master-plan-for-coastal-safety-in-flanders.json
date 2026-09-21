@@ -7,7 +7,7 @@
   "location_scope": "adm1",
   "locations": [
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Belgium",
@@ -15,14 +15,14 @@
         "dcid": "country/BEL",
         "iso3": "BEL"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Prov. West-Vlaanderen",
-        "ucode": null,
+        "ucode": "BEL_0003_0005_V1",
         "dcid": null,
         "source_code": "SUBN_Prov__West_Vlaanderen__BE",
         "source_name": "Prov. West-Vlaanderen (BE)"
-      },
-      "adm2": null
+      }
     }
   ],
   "hazards": [

@@ -7,7 +7,7 @@
   "location_scope": "adm1",
   "locations": [
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -15,17 +15,17 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Kassel",
-        "ucode": null,
+        "ucode": "DEU_0007_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Kassel__DE_",
         "source_name": "Kassel (DE)"
-      },
-      "adm2": null
+      }
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -33,17 +33,17 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Gießen",
-        "ucode": null,
+        "ucode": "DEU_0007_0006_V1",
         "dcid": null,
         "source_code": "SUBN_Gießen__DE_",
         "source_name": "Gießen (DE)"
-      },
-      "adm2": null
+      }
     },
     {
-      "level": "adm1",
+      "level": "adm2",
       "place_name": null,
       "adm0": {
         "name": "Germany",
@@ -51,14 +51,14 @@
         "dcid": "country/DEU",
         "iso3": "DEU"
       },
-      "adm1": {
+      "adm1": null,
+      "adm2": {
         "name": "Darmstadt",
-        "ucode": null,
+        "ucode": "DEU_0007_0002_V1",
         "dcid": null,
         "source_code": "SUBN_Darmstadt__DE_",
         "source_name": "Darmstadt (DE)"
-      },
-      "adm2": null
+      }
     }
   ],
   "hazards": [
