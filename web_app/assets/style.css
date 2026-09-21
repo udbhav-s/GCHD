@@ -659,6 +659,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+.context-case-study-loading,
+.context-case-study-loading > div,
+.context-case-study-results {
+  min-height: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
 .context-case-study-list {
   min-height: 0;
   overflow-y: auto;

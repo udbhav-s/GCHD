@@ -855,8 +855,18 @@ def map_component():
                     html.Div(id="context-case-study-title", className="context-case-study-heading"),
                     html.Div(id="context-case-study-subtitle", className="context-case-study-subtitle"),
                 ]),
-                html.Div(id="context-case-study-count", className="context-case-study-count"),
-                html.Div(id="context-case-study-list", className="context-case-study-list"),
+                dcc.Loading(
+                    id="context-case-study-loading",
+                    className="context-case-study-loading",
+                    type="dot",
+                    color="#1CABE2",
+                    delay_show=120,
+                    delay_hide=100,
+                    children=html.Div([
+                        html.Div(id="context-case-study-count", className="context-case-study-count"),
+                        html.Div(id="context-case-study-list", className="context-case-study-list"),
+                    ], className="context-case-study-results"),
+                ),
             ],
         ),
     ])
