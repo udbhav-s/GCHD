@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Thüringen",
-        "ucode": null,
+        "ucode": "DEU_0016_V1",
         "dcid": null,
         "source_code": "SUBN_Thüringen__DE_",
         "source_name": "Thüringen (DE)"

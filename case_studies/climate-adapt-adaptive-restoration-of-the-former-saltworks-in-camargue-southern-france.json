@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Provence-Alpes-Côte d'Azur",
-        "ucode": null,
+        "ucode": "FRA_0021_V1",
         "dcid": null,
         "source_code": "SUBN_Provence_Alpes_Côte_d_Azu",
         "source_name": "Provence-Alpes-Côte d'Azur (FR)"

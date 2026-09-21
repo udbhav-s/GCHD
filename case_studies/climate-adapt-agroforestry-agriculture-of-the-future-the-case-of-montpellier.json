@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Languedoc-Roussillon",
-        "ucode": null,
+        "ucode": "FRA_0013_V1",
         "dcid": null,
         "source_code": "SUBN_Languedoc_Roussillon__FR_",
         "source_name": "Languedoc-Roussillon (FR)"

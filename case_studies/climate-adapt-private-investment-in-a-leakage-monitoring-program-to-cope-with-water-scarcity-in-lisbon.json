@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Lisboa",
-        "ucode": null,
+        "ucode": "PRT_0011_V1",
         "dcid": null,
         "source_code": "SUBN_Lisboa__PT_",
         "source_name": "Lisboa (PT)"

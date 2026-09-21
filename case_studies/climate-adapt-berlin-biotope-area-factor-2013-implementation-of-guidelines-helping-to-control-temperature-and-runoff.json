@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Berlin",
-        "ucode": null,
+        "ucode": "DEU_0003_V1",
         "dcid": null,
         "source_code": "SUBN_Berlin__DE_",
         "source_name": "Berlin (DE)"

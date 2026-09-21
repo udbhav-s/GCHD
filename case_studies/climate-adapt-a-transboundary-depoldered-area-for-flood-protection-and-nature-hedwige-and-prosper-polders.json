@@ -35,7 +35,7 @@
       },
       "adm1": {
         "name": "Zeeland",
-        "ucode": null,
+        "ucode": "NLD_0011_V1",
         "dcid": null,
         "source_code": "SUBN_Zeeland__NL_",
         "source_name": "Zeeland (NL)"

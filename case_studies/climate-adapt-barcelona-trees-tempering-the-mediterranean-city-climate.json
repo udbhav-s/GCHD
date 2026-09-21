@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Cataluña",
-        "ucode": null,
+        "ucode": "ESP_0008_V1",
         "dcid": null,
         "source_code": "SUBN_Cataluña__ES_",
         "source_name": "Cataluña (ES)"

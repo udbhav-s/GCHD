@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Marche",
-        "ucode": null,
+        "ucode": "ITA_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Marche__IT_",
         "source_name": "Marche (IT)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Noord-Holland",
-        "ucode": null,
+        "ucode": "NLD_0008_V1",
         "dcid": null,
         "source_code": "SUBN_Noord_Holland__NL_",
         "source_name": "Noord-Holland (NL)"

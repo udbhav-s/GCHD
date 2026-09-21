@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Comunidad de Madrid",
-        "ucode": null,
+        "ucode": "ESP_0013_V1",
         "dcid": null,
         "source_code": "SUBN_Comunidad_de_Madrid__ES_",
         "source_name": "Comunidad de Madrid (ES)"

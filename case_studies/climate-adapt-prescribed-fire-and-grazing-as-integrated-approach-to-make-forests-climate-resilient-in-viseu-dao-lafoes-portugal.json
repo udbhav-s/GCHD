@@ -35,7 +35,7 @@
       },
       "adm1": {
         "name": "Extremadura",
-        "ucode": null,
+        "ucode": "ESP_0011_V1",
         "dcid": null,
         "source_code": "SUBN_Extremadura__ES_",
         "source_name": "Extremadura (ES)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Utrecht",
-        "ucode": null,
+        "ucode": "NLD_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Utrecht__NL_",
         "source_name": "Utrecht (NL)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Praha",
-        "ucode": null,
+        "ucode": "CZE_0011_V1",
         "dcid": null,
         "source_code": "SUBN_Praha__CZ_",
         "source_name": "Praha (CZ)"

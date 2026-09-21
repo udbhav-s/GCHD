@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Stockholm",
-        "ucode": null,
+        "ucode": "SWE_0015_V1",
         "dcid": null,
         "source_code": "SUBN_Stockholm__SE_",
         "source_name": "Stockholm (SE)"

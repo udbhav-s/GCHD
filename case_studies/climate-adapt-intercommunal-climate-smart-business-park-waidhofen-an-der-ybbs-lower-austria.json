@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Niederösterreich",
-        "ucode": null,
+        "ucode": "AUT_0003_V1",
         "dcid": null,
         "source_code": "SUBN_Niederösterreich__AT_",
         "source_name": "Niederösterreich (AT)"

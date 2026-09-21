@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Hamburg",
-        "ucode": null,
+        "ucode": "DEU_0006_V1",
         "dcid": null,
         "source_code": "SUBN_Hamburg__DE_",
         "source_name": "Hamburg (DE)"

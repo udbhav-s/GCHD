@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Emilia-Romagna",
-        "ucode": null,
+        "ucode": "ITA_0005_V1",
         "dcid": null,
         "source_code": "SUBN_Emilia_Romagna__IT_",
         "source_name": "Emilia-Romagna (IT)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "País Vasco",
-        "ucode": null,
+        "ucode": "ESP_0017_V1",
         "dcid": null,
         "source_code": "SUBN_País_Vasco__ES_",
         "source_name": "País Vasco (ES)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Comunidad Valenciana",
-        "ucode": null,
+        "ucode": "ESP_0010_V1",
         "dcid": null,
         "source_code": "SUBN_Comunidad_Valenciana__ES_",
         "source_name": "Comunidad Valenciana (ES)"

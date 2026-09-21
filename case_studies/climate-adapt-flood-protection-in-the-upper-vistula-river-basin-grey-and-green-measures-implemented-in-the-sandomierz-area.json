@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Lubuskie",
-        "ucode": null,
+        "ucode": "POL_0005_V1",
         "dcid": null,
         "source_code": "SUBN_Lubuskie__PL_",
         "source_name": "Lubuskie (PL)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Castilla y León",
-        "ucode": null,
+        "ucode": "ESP_0007_V1",
         "dcid": null,
         "source_code": "SUBN_Castilla_y_León__ES_",
         "source_name": "Castilla y León (ES)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Veneto",
-        "ucode": null,
+        "ucode": "ITA_0020_V1",
         "dcid": null,
         "source_code": "SUBN_Veneto__IT_",
         "source_name": "Veneto (IT)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Bremen",
-        "ucode": null,
+        "ucode": "DEU_0005_V1",
         "dcid": null,
         "source_code": "SUBN_Bremen__DE_",
         "source_name": "Bremen (DE)"

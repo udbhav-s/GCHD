@@ -35,13 +35,71 @@ NOISE = re.compile(
 )
 
 
+def _strip_accents(text):
+    text = unicodedata.normalize("NFKD", text)
+    return "".join(ch for ch in text if not unicodedata.combining(ch))
+
+
 def normalise(name):
     """Reduce a region name to a comparable form: no accents, no punctuation, no admin prefix."""
-    text = unicodedata.normalize("NFKD", name)
-    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = _strip_accents(name)
     text = NOISE.sub("", text.strip())
     text = re.sub(r"[^a-z0-9]+", " ", text.lower())
     return re.sub(r"\s+", " ", text).strip()
+
+
+_PAREN = re.compile(r"^(.*?)\s*\(([^)]+)\)\s*$")
+
+# Administrative words some sources append: Stockholms Laen, Aarhus Amt.
+SUFFIX_NOISE = re.compile(
+    r"\s+(laen|lan|amt|amtskommune|county|counties|region|regionen|megye|"
+    r"voivodeship|oblast|zhupa)$",
+    re.IGNORECASE,
+)
+
+
+def name_variants(name):
+    """Every comparable form of a region name.
+
+    Sources and GeoRepo write the same region differently. Spain's Madrid is
+    "Comunidad de Madrid" in one and "Madrid, Comunidad De" in the other, and
+    Greek regions arrive as "Aττική (Attiki)" against a plain "Attiki". Matching
+    on any shared form catches these without loosening the comparison itself.
+    """
+    variants = set()
+
+    def add(value):
+        key = normalise(value)
+        if key:
+            variants.add(key)
+            trimmed = SUFFIX_NOISE.sub("", key).strip()
+            if trimmed:
+                variants.add(trimmed)
+
+    add(name)
+
+    # Bilingual names joined by a slash, as Brussels is written in French and Dutch.
+    if "/" in name:
+        for part in name.split("/"):
+            add(part)
+
+    # "Attiki" out of "Aττική (Attiki)": keep a parenthetical when the name
+    # outside it does not survive being reduced to Latin letters.
+    match = _PAREN.match(name)
+    if match:
+        outside, inside = match.group(1), match.group(2)
+        add(inside)
+        if re.search(r"[a-zA-Z]", _strip_accents(outside)):
+            add(outside)
+
+    # "Madrid, Comunidad De" and "Comunidad de Madrid" meet in the middle.
+    if "," in name:
+        parts = [part.strip() for part in name.split(",") if part.strip()]
+        if len(parts) == 2:
+            add(" ".join(reversed(parts)))
+            add(parts[0])
+
+    return variants
 
 
 def load_candidates(db_path):
@@ -55,25 +113,27 @@ def load_candidates(db_path):
 
     index = {}
     for row in rows:
-        key = (row["adm0_ucode"], normalise(row["name"]))
-        index.setdefault(key, []).append(
-            {"ucode": row["ucode"], "level": row["level"], "name": row["name"]}
-        )
+        entry = {"ucode": row["ucode"], "level": row["level"], "name": row["name"]}
+        for variant in name_variants(row["name"]):
+            index.setdefault((row["adm0_ucode"], variant), []).append(entry)
     return index
 
 
 def find_match(index, adm0_ucode, name, cutoff):
     """Return (match, note). match is None when nothing is safe to write."""
-    key = normalise(name)
-    exact = index.get((adm0_ucode, key))
-    if exact and len(exact) == 1:
-        return exact[0], "exact"
-    if exact:
-        levels = {c["level"] for c in exact}
+    for key in sorted(name_variants(name)):
+        exact = index.get((adm0_ucode, key))
+        if not exact:
+            continue
+        unique = {candidate["ucode"]: candidate for candidate in exact}
+        if len(unique) == 1:
+            return next(iter(unique.values())), "exact"
+        levels = {candidate["level"] for candidate in unique.values()}
         if len(levels) > 1:
-            return None, f"ambiguous across levels: {[c['ucode'] for c in exact]}"
-        return None, f"ambiguous: {[c['ucode'] for c in exact]}"
+            return None, f"ambiguous across levels: {sorted(unique)}"
+        return None, f"ambiguous: {sorted(unique)}"
 
+    key = normalise(name)
     names = [k[1] for k in index if k[0] == adm0_ucode]
     close = difflib.get_close_matches(key, names, n=2, cutoff=cutoff)
     if len(close) == 1:

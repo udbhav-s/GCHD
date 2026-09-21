@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Overijssel",
-        "ucode": null,
+        "ucode": "NLD_0009_V1",
         "dcid": null,
         "source_code": "SUBN_Overijssel__NL_",
         "source_name": "Overijssel (NL)"

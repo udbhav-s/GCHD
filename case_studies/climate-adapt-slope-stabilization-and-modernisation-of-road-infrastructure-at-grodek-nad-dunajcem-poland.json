@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Małopolskie",
-        "ucode": null,
+        "ucode": "POL_0006_V1",
         "dcid": null,
         "source_code": "SUBN_Małopolskie__PL_",
         "source_name": "Małopolskie (PL)"

@@ -17,7 +17,7 @@
       },
       "adm1": {
         "name": "Île de France",
-        "ucode": null,
+        "ucode": "FRA_0012_V1",
         "dcid": null,
         "source_code": "SUBN_Île_de_France__FR_",
         "source_name": "Île de France (FR)"
