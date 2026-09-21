@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-curitiba-honey-garden",
   "url": "https://www.c40.org/case-studies/curitiba-honey-garden/",
   "title": "Honey Garden Programme in Curitiba",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "curitiba",
+      "label": "Curitiba"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Curitiba has set up a program to teach its citizens the importance and benefits bees have on local biodiversity and food production.",
+    "measures": "The Honey Gardens program of Curitiba represents a first of its kind in Brazil. The program’s aim is to highlight the importance and benefits of the the ecosystem services provided by bees. Through their pollination services, native bees are responsible for 40% to 90% of the perpetuation of native woods in Brazil as well for at least 33% of food plantations in the region. Hence, the program was conceived with the dual purpose of conserving the bee population in Curitiba for its added benefits to biodiversity and to the productivity of the Urban Farm program in the city.\n The program achieves this through a two-pronged approach:\n The first is by raising ecological awareness to the conservation and maintenance of urban biodiversity and its impact on quality of life to citizens. It is doing this through interacting with the media, experts and city managers to demonstrate how important bees are to the region’s wealth and biodiversity. Notably, it launched a series of courses called the Guardians of Biodiversity in local schools and communities.\n Secondly, it introduces a set of management measures to protect native pollinators. The project ensures that all the new biodiversity projects in Curitiba are developed with the conservation of the bees as a fundamental element in the quality of life, air, water, food and of the city. \n What is the policy? \nThe program is aligned with the strategies for social, economic and environmentally sustainable development, as to protect, recover and promote the sustainable use of natural resources. \n Bees are responsible for the perpetuation of plant species, as well as the feed supply for animals and seeds dispersion. One of the goals of this project is to increase fruit and seeds production, accelerating and strengthening the restoration of degraded areas as a strategy to mitigate climate change. Additionally, the project is aiming to create a series of ecological corridors called ‘pollen corridors’ to help create a purifying effect on the air in the city and to increase the quality of life of its citizens. \n The program also hopes to raise awareness of the importance of Ecosystem Services and expand the culture of environmental responsibility. Brazil has between 300 and 400 bee species identified, and is highly dependent on them for its natural habitat. \n Many are the stingless native bees natives of Parana State:\n Jataí (Tetragonisca angustula), species that has useful characteristics for rational exploitation, with excellent honey, good productivity and docility; Mandaçaia (Melipona quadrifasciata), a rare species in nature; Mirins (Plebeia spp.), small bees, whose variety of species and relative ease in choosing nesting sites make it the most common group in the State; Tubuna (Scaptotrigona bipunctata), an aggressive species that produces abundant honey. Irapuá (Trigona spinipes), even more aggressive than the Tubuna, and it does not adapt to the hive rearing because its nest is arboreal and its honey is not suitable to consumption due to the habit of the bees to visit waste and decaying carcasses. \n One of the most interesting species in the State from a behavioural point of view is the Irati (Lestrimelitta limao), whose main characteristic is the inability to remove from the flowers the necessary pollen and nectar for their subsistence. Due to this, this species steals the material needed for the nest and for its subsistence from other meliponini (stingless bees), a habit known scientifically as kleptobiosis (SCHWARTZ, 1995). \n The list of endangered species in Parana State includes 18 bees species, being 8 solitaries and 10 socials (SCHWARTZ-FILHO et al. 2004).\n Next Steps \n Projects such as the Honey Gardens are needed in practically every city in similar climates. The States of Pará, Goiás, Santa Catarina, in Brazil, and the countries of Paraguay, Costa Rica and Malaysia have shown interest in replicating the Honey Gardens program. The loss of pollinator bees in the world have highlighted the necessity to implement initiatives that promote the conservation of bees and, consequently, the conservation of the fauna and flora of the planet. Curitiba is open to sharing the knowledge and the guidelines of the project.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/curitiba-honey-garden/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27486",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=curitiba-honey-garden&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

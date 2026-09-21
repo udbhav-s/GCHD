@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-london-charging-zones-to-promote-ulevs",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-charging-zones-to-promote-ulevs/",
   "title": "C40 Good Practice Guides: London – Charging Zones to Promote ULEVs",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary London introduced a Congestion Charge zone in 2003, aimed at reducing high traffic flow in the centre of the…",
+    "measures": "Summary \n London introduced a Congestion Charge zone in 2003, aimed at reducing high traffic flow in the centre of the city. The Congestion Charge zone covers 21 square kilometres (about 8.1 square miles) and operates on weekdays between 07:00 and 18:00 where most drivers must pay a daily charge of £11.50. Full electric, hydrogen and plug-in hybrid vehicles qualify for a 100% Ultra Low Emission Vehicle (ULEV) discount, providing an incentive to own and operate these types of vehicles. This discount is complemented by a range of initiatives elsewhere in London that include free on-street parking and electric charging to encourage early adoption.\n Since 2008, London has operated one of Europe’s largest Low Emission Zones (LEZ). Covering the entire city, the LEZ specifies emission requirements for heavy vehicles driven in the city all year round. These requirements have gradually been strengthened by the Mayor of London to correspond with the introduction of tougher European vehicle emission standards. The daily charge for non-compliance is up to £200 a day.\n In 2015, the Mayor of London committed to introduce the world’s first Ultra-Low Emission Zone (ULEZ) to address London’s Nitrogen Dioxide challenge and encourage the use of cleaner vehicles. For the first time, emission standards will be set for every vehicle driven in central London, including the five million cars seen over the course of a year. These standards will be fully operational by 2020, 24 hours a day and 7 days a week, in the same area as the Congestion Charge. Smaller vehicles will be charged £12.50 a day and larger vehicles £100 a day if they do not comply. As part of the ULEZ package, the Mayor of London also set strict requirements for new buses, taxis and private hire vehicles to use ultra low emission technology and create demonstrator fleets. When combined, these specific fleets are forecast to contribute around half of the road transport emissions leading to poor air quality in the city’s centre.\n Results \n London now holds a higher market share of ULEVs than in the UK overall and it has seen significant decreases in airborne particulate matter, achieving European legal limits for the first time. xxi The Central London ULEZ is expected to almost halve exhaust pollutants from road transport in 2020 and a third of the bus fleet will operate with either electric-hybrid or zero emission technology. Specific licensing requirements for taxis from 2018 and private hire vehicles from 2020 will see an accelerated introduction of ULEVs joining these fleets over time.\n London has taken the approach to operate two distinct schemes that address congestion and pollution in the city. Whilst many public fleets, such as taxis and buses, are exempt from the Congestion Charge, they are however covered under the ULEZ scheme. During the launch of the Congestion Charge, extra buses and routes were introduced to take advantage of the increased traffic speeds and the greater demand for public transportation. Most recently, increased road capacity is being used to transform London’s cycling infrastructure.\n Reasons for success \n The Congestion Charge, LEZ and upcoming ULEZ are part of a comprehensive package of measures to reduce congestion and improve air quality, as well as provide incentives, resources and opportunities for city residents and industry stakeholders to transition to cleaner and more efficient vehicles. Regular drivers to the Congestion Charge zone save over £2,900 per year by switching to a full-electric or plug-in hybrid vehicle and they will also comply with the ULEZ requirements, avoiding a further £4,500 cost per year. This comprehensive approach has also provided economic opportunities, creating a positive feedback loop that has facilitated conditions for even more ambitious aspirations. Thanks to the Mayor of London’s policy, London’s iconic black taxis will benefit from an unprecedented makeover — manufacturers have since responded with a £300m investment to research and produce ultra low emission taxis.\n When/why a city might adopt an approach like this \n Cities that aim to alter the relative advantage of fossil fuel vehicles to make ULEV purchasing more cost effective can look towards London’s systematic zoning efforts for valuable insights. Cities may face significant challenges from private-sector stakeholders who will find it difficult to transition their activities to account for these new conditions. As such, the introduction of zones will be most effective in cities with strong relationships with other sectors to help address potential concerns, and in cities with significant power and authority to implement such a strategy effectively. Overall, initiatives to clean up the oldest vehicles whilst incentivising the latest technologies will help to ensure a balanced approach. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Low Emission Vehicles Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "London now holds a higher market share of ULEVs than in the UK overall and it has seen significant decreases in airborne particulate matter, achieving European legal limits for the first time. xxi The Central London ULEZ is expected to almost halve exhaust pollutants from road transport in 2020 and a third of the bus fleet will operate with either electric-hybrid or zero emission technology. Specific licensing requirements for taxis from 2018 and private hire vehicles from 2020 will see an accelerated introduction of ULEVs joining these fleets over time.\n London has taken the approach to operate two distinct schemes that address congestion and pollution in the city. Whilst many public fleets, such as taxis and buses, are exempt from the Congestion Charge, they are however covered under the ULEZ scheme. During the launch of the Congestion Charge, extra buses and routes were introduced to take advantage of the increased traffic speeds and the greater demand for public transportation. Most recently, increased road capacity is being used to transform London’s cycling infrastructure.\n\nThe Congestion Charge, LEZ and upcoming ULEZ are part of a comprehensive package of measures to reduce congestion and improve air quality, as well as provide incentives, resources and opportunities for city residents and industry stakeholders to transition to cleaner and more efficient vehicles. Regular drivers to the Congestion Charge zone save over £2,900 per year by switching to a full-electric or plug-in hybrid vehicle and they will also comply with the ULEZ requirements, avoiding a further £4,500 cost per year. This comprehensive approach has also provided economic opportunities, creating a positive feedback loop that has facilitated conditions for even more ambitious aspirations. Thanks to the Mayor of London’s policy, London’s iconic black taxis will benefit from an unprecedented makeover — manufacturers have since responded with a £300m investment to research and produce ultra low emission taxis.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-charging-zones-to-promote-ulevs/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27164",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-london-charging-zones-to-promote-ulevs&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

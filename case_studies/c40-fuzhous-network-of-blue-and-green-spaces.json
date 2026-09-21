@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-fuzhous-network-of-blue-and-green-spaces",
   "url": "https://www.c40.org/case-studies/fuzhous-network-of-blue-and-green-spaces/",
   "title": "Fuzhou’s network of blue and green spaces",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "fuzhou",
+      "label": "Fuzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Since 2017, Fuzhou has been working to create a network of parks linked together by river walkways and urban greenbelts, which make the natural environment more accessible to residents",
+    "measures": "Since 2017, Fuzhou has been working to create a network of parks linked together by river walkways and urban greenbelts, which make the natural environment more accessible to residents. By the end of 2020, green spaces accounted for 42.24% of built-up areas in Fuzhou. Additionally, the total area of accessible green park space reached 15.39 square metres, and green parks’ coverage rate (tree and shrubbery cover) reached 94.95%.\n The landscape and people of Fuzhou have benefited from this plan by having greater access to urban nature, as the approach intertwines urban ecological corridors, green channels and cultural spaces. At present, there are 379 parks built along the inner rivers and 501.7 kilometres of riverfront greenways. \n Wu Xiande, Mayor of Fuzhou , emphasised promoting the connection of water systems, better-protecting rivers and lakes, and managing flooding and drainage.\n More About Adaptation & Water",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/fuzhous-network-of-blue-and-green-spaces/",
     "publication_date": "2023-03-27",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "34193",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=fuzhous-network-of-blue-and-green-spaces&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-27T11:24:59",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-xingrong-community-an-environment-friendly-community-led-vegetable-garden-in-chengdu",
   "url": "https://www.c40.org/case-studies/xingrong-community-an-environment-friendly-community-led-vegetable-garden-in-chengdu/",
   "title": "Xingrong Community: An Environment-friendly Community-led Vegetable Garden in Chengdu",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chengdu",
+      "label": "Chengdu"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "On the rooftop of the No. 7 of Xingrong South Lane, Chengdu, residents opened up an environment-friendly vegetable garden where green peppers, loofah, bitter gourd, cucumbers, and other kinds of vegetables are grown. The garden occupies about 100 square meters in total.",
+    "measures": "Read the case study in Chinese here .\n This vegetable garden was established in 2014 by the Xingrong Community Committee. At that time, the community commissioned a civil organization to promote community development and self-environmental governance.\n Brainstorming brought about the decision of turning the open space on the roof of the No. 7 of Xingrong South Lane, Chengdu, into a vegetable garden. It has not only greened the community, but also enabled the residents of the community to eat completely ecological vegetables. Amongst more than 50 households in the community, 23 households participated in planting vegetables. The vegetables harvested are then distributed across the 23 households.\n What is the innovation? How does it work? \n Irrigation: water used for irrigation comes from rainwater; no tap water is needed.\n Fertilizer: all rely on community residents to turn waste into a resource by using waste from cooking.\n Pest control: pepper water is sprayed on vegetables to control pest. Pests that come out of the soil are hand-picked out by the residents.\n Contact Details \n Xingrong Community,\n Xiaojiage Street, Hi-tech Zone\n http://jcpt.chengdu.gov.cn/gaoxinqu/xingrongshequ \n Tel: 028-85178167",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/xingrong-community-an-environment-friendly-community-led-vegetable-garden-in-chengdu/",
     "publication_date": "2019-06-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27443",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=xingrong-community-an-environment-friendly-community-led-vegetable-garden-in-chengdu&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

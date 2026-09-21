@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-guadalajara-urban-forests",
   "url": "https://www.c40.org/case-studies/guadalajara-urban-forests/",
   "title": "Guadalajara’s Urban Forests Network",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guadalajara",
+      "label": "Guadalajara"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Urban Forests Network in Guadelajara has been able to integrated 419 hectares of nature space into the city’s care, ensuring that these spaces are well-maintained for its biodiversity and leisure potential.",
+    "measures": "The Urban Forests Network of Guadalajara has its origin as a set of nature spaces in the city, which began by adding a total of 167.89 hectares to the project. By 2019, Guadelajara has integrated 419.39 extra hectares into the project, encapsulating some of the most emblematic parks in the metropolis.\n What is the innovation? \n The main objective of this project is to manage these spaces with the same integral scheme of rehabilitation, care and maintenance of urban ecosystems with an inclusive and broad-spectrum social perspective and to consolidate urban forests as integral social and environmental welfare centers. When retrieving spaces with approved criteria, the city then offers a service with periodic management that includes the increase of the forest mass in good state of health, with the corresponding attention to the native biodiversity, as well as to generate safe and pleasant spaces for the healthy cohabitation of the inhabitants and visitors of the city.\n What are the CO2 reduction goals? \n The project seeks to reduce the city’s overall CO2 production through the increase of green areas and ensuring connectivity between urban forests\n Urban forests also serve as buffers in the growing effect of climate change. In the most forested areas, the city observed a temperature of between 2 and 3 degrees less than in the more built urban environment. Increasing the greenery in a given area is crucial for the city to restore its usually benevolent climate.\n The environmental benefits will be reflected in the immediate attention of the health of soil, forestry, biodiversity and environmental services that the urban parks and forests of the metropolis, this benefit will be measurable later on.\n Next Steps \n The systemic conception of the environmental, architectural and social heritage that these green areas represent has demonstrated the undeniable relevance of working in a network for the care of the environment.\n The organisation working on the project is aiming for a new metropolitan approach , with the intention to create a “Metropolitan Urban Forestry Agency”, with the strategy of optimizing resources, knowledge, technology and strategic alliances with the aim of guaranteeing a sustainable future for the inhabitants of Guadalajara.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/guadalajara-urban-forests/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27490",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=guadalajara-urban-forests&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

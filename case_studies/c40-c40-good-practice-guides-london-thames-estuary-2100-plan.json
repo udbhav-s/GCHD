@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-london-thames-estuary-2100-plan",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-thames-estuary-2100-plan/",
   "title": "C40 Good Practice Guides: London – Thames Estuary 2100 Plan",
@@ -31,6 +31,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary London already benefits from world-class tidal flood defences. However, increasing pressures, including climate change, means that flood risk is…",
+    "measures": "Summary \n London already benefits from world-class tidal flood defences. However, increasing pressures, including climate change, means that flood risk is increasing xliii . The Thames Barrier and associated tidal defences currently protect 1.25 million people and £200 billion worth of property. There is significant development being planned behind these defences and a wealth of commercial opportunity, which requires continued investment in this critical flood defence infrastructure not only in the short-term but the long-term too. In response to a changing estuary and the risk associated with this, the Environment Agency produced the Thames Estuary 2100 Plan (TE2100), which sets out how to manage flood risk across the estuary, up to the end of the century.\n Results \n As climate change is a significant factor in determining increases in flood risk, the Environment Agency funded major new research into this, looking at changes to fluvial flows, sea storm surges and sea level rise due to thermal expansion and polar ice melt. In total, the modelling took up one year’s capacity of the Met Office supercomputer. Key findings were: storm surge tides on the Thames are less likely than previously thought to increase in either height or number, due to climate change, over the next 100 years; fluvial flood flows on the river Thames could rise by about 40% by 2080, driven by increased rainfall; sea levels could rise by up to 88 cm by the end of the century, and greater increases are feasible.\n The plan is a flexible and adaptable solution to increasing flood risk in London and the Thames estuary. It avoids committing to flood defence infrastructure which may either prove unnecessary, due to lower than predicted sea-level rise, or be made quickly redundant, by accelerations in climate change impacts. This innovative approach to ‘planning for uncertainty’, allows for flood risk management measures to be developed in a timely, sustainable and cost- effective way, whatever the future holds.\n The TE2100 plan has also driven much of the science behind the latest marine climate projections for London and the UK. Its approach has gained interest from around the world, in cities such as New York, Rotterdam, Jakarta and others, to pioneer new approaches to climate change adaptation.\n Reasons for success \n Although at the forefront of delta city climate change adaptation, London has recognised the need to re-evaluate its data and scenarios based on changing climate and other external conditions to keep up-to-date with new potential risks and opportunities.\n When/why a city might apply an approach like this \n This practice is applicable to cities that face a combination of a number of concurring serious geophysical risks or that need to re-asses the risks and defence opportunities to keep up to date with changing climate and urban conditions. The super levee solution is also particularly suited for cities with large portions of wide riverbank area for redevelopment. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "As climate change is a significant factor in determining increases in flood risk, the Environment Agency funded major new research into this, looking at changes to fluvial flows, sea storm surges and sea level rise due to thermal expansion and polar ice melt. In total, the modelling took up one year’s capacity of the Met Office supercomputer. Key findings were: storm surge tides on the Thames are less likely than previously thought to increase in either height or number, due to climate change, over the next 100 years; fluvial flood flows on the river Thames could rise by about 40% by 2080, driven by increased rainfall; sea levels could rise by up to 88 cm by the end of the century, and greater increases are feasible.\n The plan is a flexible and adaptable solution to increasing flood risk in London and the Thames estuary. It avoids committing to flood defence infrastructure which may either prove unnecessary, due to lower than predicted sea-level rise, or be made quickly redundant, by accelerations in climate change impacts. This innovative approach to ‘planning for uncertainty’, allows for flood risk management measures to be developed in a timely, sustainable and cost- effective way, whatever the future holds.\n The TE2100 plan has also driven much of the science behind the latest marine climate projections for London and the UK. Its approach has gained interest from around the world, in cities such as New York, Rotterdam, Jakarta and others, to pioneer new approaches to climate change adaptation.\n\nAlthough at the forefront of delta city climate change adaptation, London has recognised the need to re-evaluate its data and scenarios based on changing climate and other external conditions to keep up-to-date with new potential risks and opportunities.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Weather or climate-projection data",
@@ -45,7 +70,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-thames-estuary-2100-plan/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27157",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-london-thames-estuary-2100-plan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

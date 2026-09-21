@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-toronto-adaptation-report-informs-cross-sector-collaboration",
   "url": "https://www.c40.org/case-studies/cities100-toronto-adaptation-report-informs-cross-sector-collaboration/",
   "title": "Cities100: Toronto – Adaptation Report Informs Cross-Sector Collaboration",
@@ -34,6 +34,31 @@
     "air_pollution_pm25",
     "malaria"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In addition to flooding and winter storms, Toronto faces increased instances of heat waves, with modeling suggesting that by 2040- 2050 daily maximum temperatures could reach 44°C. To adapt to these pressing concerns, Toronto is laying the groundwork for action through the Resilient City report, ensuring that services and operations – both in and outside the city’s jurisdiction – are coordinated.",
+    "measures": "In 2014, Toronto unveiled Resilient City – Preparing for a Changing Climate, a policy paper that lays the groundwork for comprehensive adaptation action. The report outlines how climate change resilience can be integrated into decision-making and coordination of city operations and services. Furthermore, it proposes specific recommendations, such as the creation of a geospatial risk assessment tool that tracks data like heat vulnerability, locations of flood zones, locations of previously flooded areas and electrical outages, and areas of heavy tree damage from different departments and utilities, recognizing interdependencies between city departments. Keeping with the theme of coordination and collaboration, the report underpinned the creation of the cross-sectoral Resilient City Working Group (RCWG), made up of 16 city organizations, plus several outside agencies, including utilities and transit agencies. Collectively these organizations work to develop and support a broad range of new actions to address climate change impacts on infrastructure, services, and city operations in a coordinated and cohesive way to ensure that Toronto is prepared for and capable of adapting nimbly to the effects of climate change.\n Environmental Benefits – The report recommends improved care for the city’s trees in order to reach its overall goal of increasing canopy cover to 40%.\n Social Benefits – The report recommends updating floodplain maps for vulnerable areas to incorporate 3-D modeling and future extreme weather projections, which will help protect at-risk residents from future impacts.\n Economic Benefits – The report details recommendations that could cost the city $1.3 million annually, a fraction of the costs incurred through climate change impacts, such as rain storms in 2005 and 2013 that cost the city $47 million and $70 million, respectively.\n Health Benefits – Toronto hopes that the adaptation measures recommended by this report will prevent more illness and death from extreme heat, poor air quality, and vector-borne disease.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -42,7 +67,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-toronto-adaptation-report-informs-cross-sector-collaboration/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27230",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-toronto-adaptation-report-informs-cross-sector-collaboration&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

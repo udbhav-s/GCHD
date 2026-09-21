@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-guangzhou-energy-audits-and-retrofits-mandated-for-large-public-buildings",
   "url": "https://www.c40.org/case-studies/cities100-guangzhou-energy-audits-and-retrofits-mandated-for-large-public-buildings/",
   "title": "Cities100: Guangzhou – Energy Audits and Retrofits Mandated for Large Public Buildings",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guangzhou",
+      "label": "Guangzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Due to rapid urbanization and higher living standards, buildings, particularly those operated by large public institutions, constitute a major part of energy consumption and greenhouse gas emissions in Chinese cities. In order to address these challenges and ensure that future development is energy efficient, Guangzhou mandated that large, energy-guzzling public buildings must undergo energy retrofits in order to reduce CO2 emissions.",
+    "measures": "Guangzhou has instituted a plan requiring large public institutions, such as government agencies, hospitals, schools, and cultural and sports venues, to complete comprehensive energy audits and undertake energy efficiency improvements by the end of 2017. In order to target the biggest energy consumers, the plan applies to 206 institutions with annual power consumption of at least 1,500 MWh or a gross floor area of 20,000 m2, mandating a 20% reduction of energy demand per unit of floor area after improvements are completed. The plan builds on impressive results from previous years, in which 31 energy efficiency improvement projects implemented at public institutions in Guangzhou cut annual power consumption by 21,000 MWh and reduced CO2 emissions by 12,000 tons from 2012 to 2015. The intent of requiring energy audits and efficiency improvements for these key energy consumers is to provide examples of green public buildings and formulate the energy consumption standard for all public institutions in Guangzhou.\n Social Benefits – By undertaking these initiatives at major public institutions, visited regularly by thousands of citizens, the project aims to improve public awareness of energy-saving measures.\n Economic Benefits – Guangzhou estimates that participating public institutions’ electric bills will be cut by about $15 million annually with full implementation of the program.\n Health Benefits – As the goal of this project is significant CO2 emissions reductions from buildings, the city anticipates corresponding improvements in air quality.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-guangzhou-energy-audits-and-retrofits-mandated-for-large-public-buildings/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27187",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-guangzhou-energy-audits-and-retrofits-mandated-for-large-public-buildings&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

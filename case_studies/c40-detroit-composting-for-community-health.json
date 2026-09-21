@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-detroit-composting-for-community-health",
   "url": "https://www.c40.org/case-studies/detroit-composting-for-community-health/",
   "title": "Detroit Composting for Community Health",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "detroit",
+      "label": "Detroit"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative, Detroit was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects.",
+    "measures": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative , Detroit was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects. \n What is Detroit Composting for Community Health? \n Detroit Composting for Community Health is a series of composting pilot projects around Detroit led by community leaders and community-based organisations, including Eastside Community Network, Georgia Street Community Collective (GSCC), FoodPLUS Detroit, Sustainable Community Farms, and Breathe Free Detroit. Together, these organisations are working to increase access to urban farming and composting to improve quality of life for people living in some of Detroit’s most polluted areas.\n What has Detroit Composting for Community Health achieved so far? \n Detroit Community Compost Training Programme \n The Sustainable Community Farm provides a green haven for residents. The Farm hosts community events like Juneteenth celebrations and movie nights, as well as being a centre for farming, composting, and growing healthy crops from rich soil.\n The Sustainable Community Farm hosts the ‘Detroit Community Compost’ training programme to equip young people aged 16–24 with urban farming and composting knowledge. The programme provides an entryway for those not currently in school or employment into good green jobs that contribute to environmental sustainability. In partnership with Marvin Hayes, an expert and leader in composting efforts in Baltimore, the young people in the programme will be visiting Baltimore Compost Collective for in-depth compost and sustainability training.\n People’s Compost Initiative \n The Georgia Street Community Collective (GSCC) in the east side of Detroit and community non-profit FoodPlus Detroit have expanded their urban farming and composting efforts to train up members of the community. The ‘People’s Compost Initiative’ offers compost training and demonstrations for people of all ages. So far, they have equipped over 70 people with compost skills and knowledge across Detroit.\n People’s Compost Initiative participants and leaders. © Renee V. Wallace \n Compost Warriors at Wayne State University \n Wayne State University, one of the leading higher education institutions in Detroit and in Michigan, has been transformed into a waste-conscious and sustainable campus through a strong partnership between FoodPLUS Detroit and Georgia Street Community Collective (GSCC).\n The ’Compost Warriors’ programme involves composting and sustainability training sessions for students, empowering them to be ambassadors on their campus. The students were trained to conduct quality control checks on the food scraps collected from the cafeteria and retail outlets and to weigh, document, and transport collections to the GSCC farm for composting. Each year, they have rescued an average of 16,000 lbs of food waste – totalling 40,000 lbs to date – to be transformed into rich compost for the urban farm. \n Now, there’s a campus-wide composting collection system, dining services have information about composting front and centre in the dining hall, and the head chef is exploring the possibility of collaborating with GSCC to grow farm-fresh ingredients to feed students on campus.\n Through these various approaches to urban farming and composting, community leaders and compost advocates have empowered Detroit residents and students to farm, compost, and come together to cultivate healthy food and vibrant community spaces.\n Learn more about Detroit Composting for Community Health \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "Detroit Composting for Community Health is a series of composting pilot projects around Detroit led by community leaders and community-based organisations, including Eastside Community Network, Georgia Street Community Collective (GSCC), FoodPLUS Detroit, Sustainable Community Farms, and Breathe Free Detroit. Together, these organisations are working to increase access to urban farming and composting to improve quality of life for people living in some of Detroit’s most polluted areas.\n\nDetroit Community Compost Training Programme \n The Sustainable Community Farm provides a green haven for residents. The Farm hosts community events like Juneteenth celebrations and movie nights, as well as being a centre for farming, composting, and growing healthy crops from rich soil.\n The Sustainable Community Farm hosts the ‘Detroit Community Compost’ training programme to equip young people aged 16–24 with urban farming and composting knowledge. The programme provides an entryway for those not currently in school or employment into good green jobs that contribute to environmental sustainability. In partnership with Marvin Hayes, an expert and leader in composting efforts in Baltimore, the young people in the programme will be visiting Baltimore Compost Collective for in-depth compost and sustainability training.\n People’s Compost Initiative \n The Georgia Street Community Collective (GSCC) in the east side of Detroit and community non-profit FoodPlus Detroit have expanded their urban farming and composting efforts to train up members of the community. The ‘People’s Compost Initiative’ offers compost training and demonstrations for people of all ages. So far, they have equipped over 70 people with compost skills and knowledge across Detroit.\n People’s Compost Initiative participants and leaders. © Renee V. Wallace \n Compost Warriors at Wayne State University \n Wayne State University, one of the leading higher education institutions in Detroit and in Michigan, has been transformed into a waste-conscious and sustainable campus through a strong partnership between FoodPLUS Detroit and Georgia Street Community Collective (GSCC).\n The ’Compost Warriors’ programme involves composting and sustainability training sessions for students, empowering them to be ambassadors on their campus. The students were trained to conduct quality control checks on the food scraps collected from the cafeteria and retail outlets and to weigh, document, and transport collections to the GSCC farm for composting. Each year, they have rescued an average of 16,000 lbs of food waste – totalling 40,000 lbs to date – to be transformed into rich compost for the urban farm. \n Now, there’s a campus-wide composting collection system, dining services have information about composting front and centre in the dining hall, and the head chef is exploring the possibility of collaborating with GSCC to grow farm-fresh ingredients to feed students on campus.\n Through these various approaches to urban farming and composting, community leaders and compost advocates have empowered Detroit residents and students to farm, compost, and come together to cultivate healthy food and vibrant community spaces.\n Learn more about Detroit Composting for Community Health \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/detroit-composting-for-community-health/",
     "publication_date": "2023-10-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36671",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=detroit-composting-for-community-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-24T16:56:36",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

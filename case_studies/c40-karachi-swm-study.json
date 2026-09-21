@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-karachi-swm-study",
   "url": "https://www.c40.org/case-studies/karachi-swm-study/",
   "title": "A Study for Better Solid Waste Management in Karachi",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "karachi",
+      "label": "Karachi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of Karachi in Pakistan houses a population of 25 million residents and produces a waste quantity of 14,000 to 16,000 tons/day with a collection of 40 to 60%. With limited availability of land for the disposal of waste, the State (Government of Sindh) and City authorities (Sindh Solid Waste Management Board) are facing challenges in collection and disposal of waste. In light of the above, a study was commissioned and was undertaken by UNESCAP, IUCN and UNHABITAT to explore possible solutions to improve the city’s waste management initiatives.\n After devolution of the local government ordinance 2001, the responsibility of waste collection and transportation came under city administrators, and treatment and disposal of refuse was handed over to the City District Government of Karachi (CDGK).\n Under the Sindh Act No.4 of 2014, the Sindh Solid Waste Management board was formed, which was responsible for the solid waste management of areas that fell under the Karachi Metropolitan Corporation (KMC).",
+    "measures": "One of the consequences of the urbanization in Karachi has been the increasing volumes of solid waste, which has cost the city a considerable sum of money. Due to a lack of financial and technical resources, the municipal body of Karachi struggles to manage solid waste in a safe and sustainable way. This raises the important issue of how to deliver quality service in the face of financial and skill constraints in the public sector. \n To overcome the problems related to solid waste management, the City District Government of Karachi (now defunct) carried out a study which showed that approximately 9,000 tones of solid waste was generated in Karachi daily. However, rapid establishment of new housing sectors and industrial estates, construction activity and a variety of institutions have over the years contributed to waste generation. The amount of solid wastes has substantially increased to 14,000/16,000 tons per day, aided by the rapid growth of population and economic activity. \n It is estimated that by the year 2020, the solid waste generation may approach 18,000 to 20,000 tons each day. The current poor solid waste management practices demand a mechanism for efficient solid waste management. Lack of planning, inappropriate technology and poor management are obviously the main areas of concern and require a serious effort from government authorities and other agencies to achieve efficiency in the management of solid waste. \n The objectives of the study conducted by UNESCAP include the following: \n Determine household waste storage methods, social and cultural habits towards waste hygiene and cleanliness, and the roles of household members in managing and segregating waste. \n Waste collection mechanism and its transportation from the household, defining services level provided by municipal authorities. \n Analysis of the waste produced from households and commercial activities.\n Market chain analysis for recyclables.\n To accomplish the objectives of the study, two parts were designed. First, a questionnaire survey for households and the commercial and market chain was conducted. The second part comprised of the collection and analysis of solid waste produced by households and commercial activities, including vegetable & fruit markets. \n The study showed that the average household solid waste generation for the city of Karachi is estimated to be 0.44 kg per capita per day ranging from 0.19 to 0.84 kg/c/d. \n Waste analysis of commercial activities and fruit and vegetable markets, showed that the average waste generation was 1.795 kg per shop per day and 11.77 kg/shop/d respectively. \n The waste composition analysis showed that the organic fraction (food waste) has the highest proportion ranging from 36.1 to 93%.\n It has been observed that a moderate proportion of people segregate their recyclable waste and that women play an important role in this process. Metal was the type of waste most segragated, followed by plastic and paper. \n The most common materials involved in the recycling process are plastic, packaging, furniture, paper and metal.\n Recommendations based on the survey and analysis conducted as a part of the study include the following.\n Currently two landfill sites are available for solid waste management. The area available at these sites is not adequate to fulfill the landfilling of waste generated by the city. Moreover, these sites are located far away and it is not economically viable to transport waste over such large distances. There is the need to develop new landfill sites, which will have to be designed to recover energy as well as produce compost from the organic fraction of the waste collected.\n Awareness-raising seminars/campaigns should be organized to sensitize the masses on solid waste management issues. \n Modern techniques can be used to improve the existing overloaded system. For example;\n – Introducing skips. \n – Providing separate bins for recyclable waste and disposable waste. \n – Designated waste collection points. \n Source segregation should be adopted thereby providing independent containers for organic fraction and recyclables. This will assist primary recycling industries and development of facilities for bio fertilizer production such as compost. \n Illegal dumping of solid waste/garbage in drains can be avoided by training the local communities through awareness programmes and implementing a stronger decentralized collection system. \n Organic fraction of municipal solid waste from household and fruit and vegetable markets can be used as feedstocks for energy production and bio fertilizer. \n Next Steps \n The Government of Sindh, in consultation with the Solid Waste Management Board, is expected to take up the recommendations for implementation in a phased manner and set aside funds for this initiative. \n Links to further Information \n UN ESCAP Baseline Study for Solid Waste Management – Karachi \n Researchgate – Urban Solid Waste Management in Karachi, Pakistan \n Contact Details \n Muhammad Maswood Alam\nSenior Director (Coordination)\nKarachi Metropolitan Corporation, M.A.Jinnah Road, Karachi – 74200\nTel: +92 333 3421371 \n alam437@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Household or community survey data",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/karachi-swm-study/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27485",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=karachi-swm-study&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

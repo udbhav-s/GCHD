@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-cairo-taxi-trade-in-scheme-improves-air-quality",
   "url": "https://www.c40.org/case-studies/cities100-cairo-taxi-trade-in-scheme-improves-air-quality/",
   "title": "Cities100: Cairo – Taxi Trade-in Scheme Improves Air Quality",
@@ -26,6 +26,25 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Sixty-eight percent of the more than1.5 million vehicles operating in the Cairo area are more than 15 years old, meaning they use more fuel and emit more pollution. The program has demonstrated that committed financial incentives can encourage more environmental choices.",
+    "measures": "Financed by the World Bank, Cairo has launched a taxi trade-in scheme in which owners can turn in their old cars for safe, managed scrapping and recycling and receive $600 towards the purchase of a new, cleaner vehicle. The scrapping and recycling program is a successful collaboration backed by the public and private sectors. The Ministry of Finance lifted the sales taxes on eligible vehicles to encourage taxi owners to purchase these options. Likewise, participating car companies offer new vehicles at a 25% to 30% discount and banks offer drivers loans with competitive interest rates.\n The program also has a strong legal backing, as Cairo has instituted a law stating that owners of mass transport vehicles, such as taxis, older than 20 years are not eligible for new operating licenses or license renewals. All of these actions are paying off, as the program has a 94% success rate: 40,689 new taxis have replaced aging vehicles in the city.\n Environmental Benefits – The program has not only reduced CO2 emissions, but also CH4 and N2O emissions, all of which significantly improve air quality and reduce air pollution from the transportation sector.\n Social Benefits – Replacing vehicles in an aging, deteriorating taxi fleet with newer, safer vehicles has also led to safer streets and fewer vehicle-related traffic crashes.\n Economic Benefits – Newer, more efficient vehicles reduce fuel consumption and thus save drivers and companies money on petrol.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +53,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-cairo-taxi-trade-in-scheme-improves-air-quality/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27047",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cairo-taxi-trade-in-scheme-improves-air-quality&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas",
   "url": "https://www.c40.org/case-studies/revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas/",
   "title": "Revitalising the Kuala Lumpur Klang River Waterfront into Resilient Sustainable Pedestrian Areas",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kuala-lumpur",
+      "label": "Kuala Lumpur"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The River of Life (ROL) is a project headed by the Government of Malaysia to transform the main rivers of Kuala Lumpur into vibrant and liveable waterfronts with high economic value. The ROL initiative involves 3 cDeomponents:\n 1. River Cleaning – to be carried out along a 110 km stretch of the Klang River Basin (8 rivers) with the objective to improve river water quality from class III – class IV to class IIB by 2020\n 3. River Beautification – to be carried out along a 10.7km stretch along the Sungai Klang and Sungai Gombak corridors\n 3. Land Development (Commercialization and Tourism) – to catalyse development along the river corridor and transform the land along the corridor for regeneration and economic investment \n The main agencies responsible in implementing this project are the Department of Irrigation & Drainage (DID) Malaysia for river cleaning, the Kuala Lumpur City Hall (DBKL ) for river beautification and Ministry of Federal Territory (KWP ) for land development/commercialisation and tourism.",
+    "measures": "The council-led project outcomes are:\n 1. River beautification – placemaking initiatives to regenerate the old urban core of the city as well as to re-establish the connection of the city to its river, leading to increased sense of ownership of the river by city residents as well as increased tourism\n 2. Decreased fossil fuel reliance through pedestrianisation initiatives – decreased reliance on motorised vehicles within the historic district of the city\n The federal-led project outcomes are the improvements of river water quality and flood mitigation potential of the city, as well as the economic regeneration of the area, which include job creation and the provision of affordable housing.",
+    "outcomes": "With the completion of the River of Life project in the historic district, a continuous 10.7 km walkways and cycle ways will be created, providing optimised pedestrian connectivity as well as river beautification to the historic district. Additionally, improvement of the river water quality of 8 rivers (totalling 110km in length) from its WQI Class III – V, to an improved Class IIB is anticipated.\n\nKuala Lumpur will continue to facilitate beautification measures, bringing in life and vibrancy along the river corridors, including both active and passive recreational activities, educational experiences related to river and biodiversity. KLCH shall designate river corridors, implement measures to improve the amenity value of rivers and implement guidelines for development within or abutting the river corridors.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas/",
     "publication_date": "2019-09-09",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27454",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

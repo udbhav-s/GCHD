@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-inclusive-water-resilience-accelerator-fund-improving-environmental-education-to-help-residents-become-active-environmental-educators-and-build-water-resilience-within-their-communities",
   "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-environmental-education-to-help-residents-become-active-environmental-educators-and-build-water-resilience-within-their-communities/",
   "title": "Inclusive Water Resilience Accelerator Fund | Improving environmental education to help residents become active environmental educators and build water resilience within their communities",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "sao-paulo",
+      "label": "São Paulo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "São Paulo is strengthening climate resilience in vulnerable, low-income areas through a community-based environmental education program supported by the C40…",
+    "measures": "São Paulo is strengthening climate resilience in vulnerable, low-income areas through a community-based environmental education program supported by the C40 Inclusive Water Resilience Accelerator Fund. \n Initially, four local educators received specialised training on environmental topics, including water, sanitation, climate emergencies, and nature-based solutions. They designed tailored activities to take back to their own communities. Over the course of three months, they will deliver 30 hours of educational activities to 80 residents in low-income communities, building skills in monitoring, communication, problem-solving, and collective action. \n Graduates will become Environmental Monitoring Agents who can champion positive environmental change, sustainable practices, and community resilience. By embedding local knowledge and skills to address local water-related challenges, the project provides a replicable model for equitable, community-based resilience and long-term behavioural change in São Paulo\n Learn more about the São Paulo project \n More on C40’s ICA FUND",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-environmental-education-to-help-residents-become-active-environmental-educators-and-build-water-resilience-within-their-communities/",
     "publication_date": "2025-11-21",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45717",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-improving-environmental-education-to-help-residents-become-active-environmental-educators-and-build-water-resilience-within-their-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2026-01-29T16:40:43",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

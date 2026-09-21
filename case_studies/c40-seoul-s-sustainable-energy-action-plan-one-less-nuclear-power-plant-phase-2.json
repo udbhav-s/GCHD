@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2",
   "url": "https://www.c40.org/case-studies/seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2/",
   "title": "Seoul’s Sustainable Energy Action Plan: One Less Nuclear Power Plant – Phase 2",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seoul",
+      "label": "Seoul"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The One Less Nuclear Power Plant 2 initiative is the second phase of Seoul’s energy policy, which aims to increase the ability of the city to meet its energy needs and reduce its reliance on nuclear power plants. The targets are to reach 20% electricity self-reliance rate, cut greenhouse gas emissions by 10 million tons and reduce energy use by 4 million TOE (Ton of Oil Equivalent). The policy aims to produce, save, and increase energy efficiency through citizen participation.",
+    "measures": "South Korea imports 98% of its fossil fuel consumption. Electricity is generated from 43.1% coal, 21.4% natural gas, 26.8% nuclear, 1.8% oil, 5.6% renewables and 1.3% hydroelectricity. \n The power sector in South Korea is vertically integrated, and is controlled by the state-owned Korea Electric Power Corporation (KEPCO). The government proposed a partial privatisation of the sector in 2016 to increase competition in power generation and distribution, although the timeframe is undetermined. The majority of their energy is still obtained from fossil fuels, with The need for Seoul to reform their energy policy became apparent in 2011 after the city experienced a major blackout and due to public pressure to phase out nuclear plants after the Fukushima Daiichi nuclear disaster (nuclear power provides 26.8% of South Korea’s power). The Seoul Metropolitan Government has been implementing the One Less Nuclear Power Plant Project since April 2012 to increase energy self-sufficiency and reduce energy use.\n Seoul is also trying to resolve the inconveniences suffered by residents living near nuclear power plants or thermal power plants through implementation of mutual growth projects and cooperative projects in partnership with other local governments. The achievements of One Less Nuclear Power Plant (2012-2017) were identified as a reduction in energy consumption of 4.65 MTOE, whilst the independence rate grew from 2.9% to 5%.\n Solution to the Problem \n The first phase of the energy policy was launched in April 2012 with a target of reducing 2 million TOE of energy, an amount of energy that corresponds to the power generation of one nuclear power plant. The city designated 71 project areas under energy generation, energy efficiency and energy saving. The policy gained widespread support from the public, and the target was reached 6 months early, with electricity use falling by 4% by 2014 compared to 2011.\n The second phase of the energy policy started in July 2014 with bigger visions and values. The targets are to reach 20% electricity self-reliance rate, cut greenhouse gas emissions by 10 million tons and reduce energy use by 4 million TOE compared to 2011 levels3. The city aims to realise the three energy values – energy self-reliance, sharing, and participation – through institutional improvements and citizen participation, where citizens themselves produce and consume energy efficiently.\n The project has engaged citizens and changed their perception of energy. Around 1.88 million people have joined the Eco-mileage program, which incentivises members’ energy saving behaviours. Some 20,000 students from 500 schools have become ‘Energy Guardian Angles’ to practice energy-saving at home and at school. In addition, 20,000 buildings and houses took part in the Building Retrofit Project, and 9.60 million lights were replaced with eco-friendly, high energy-efficient LED bulbs.\n In addition, Seoul is trying to resolve the inconveniences suffered by residents living near nuclear power plants or thermal power plants through implementation of mutual growth projects and cooperative projects, such as the construction of solar power plants, in partnership with other local governments.\n Public engagement: \n For over six months the Executive Committee, formed of 48 advisors and experts from academia, businesses, and civic groups, held social fiction conferences and public discussions to listen to the opinions of citizens. Online surveys were also conducted to collect public opinions, and the Seoul International Energy Advisory Council submitted their recommendations on the second phase as well.\n In February 2017, Seoul Energy Corporation was launched to supervise the capital’s energy policies. It is distributing a manual of the One Less Nuclear Power Plant Project and spreading its energy saving know-how. Social promotion has been encouraged through creative and consistent calligraphic style between the two phases.\n The Corporation will also spread the value of mutual growth and realize energy democracy in cooperation with other local governments. In conjunction with the local communities, it will carry out a variety of new and renewable energy projects, and produce and distribute the manual of the One Less Nuclear Power Plant Project to other local governments.\n The potential challenges in the success of this programme is the uptake of policies by the public and engagement by community groups. The Executive Director of the Sun and Wind Energy Cooperative noted, “Since these projects are absolutely dependent on civic participation, we hope to see more policies for supporting energy cooperatives and specific plans for civic participation”.\n Links to further Information \n One Less Nuclear Power Plant Phase 2 – Brochure \n Contact Details \n Chul Woong Choi\n Deputy Director / Head of One Less Nuclear Power Plant\n ENvironmental Policy Division",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2/",
     "publication_date": "2018-12-05",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27416",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

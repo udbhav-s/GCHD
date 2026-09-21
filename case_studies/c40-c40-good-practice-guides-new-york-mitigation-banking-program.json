@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-new-york-mitigation-banking-program",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-york-mitigation-banking-program/",
   "title": "C40 Good Practice Guides: New York – Mitigation banking program",
@@ -32,6 +32,31 @@
     "coastal_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary New York City (NYC), situated in the delta of the Hudson River, is prone to storm flooding and sea-level…",
+    "measures": "Summary \n New York City (NYC), situated in the delta of the Hudson River, is prone to storm flooding and sea-level rise that is exacerbated by the loss and degradation of its wetlands, which provide natural absorptive and flood defence capacity xliv . A case in point is the Saw Mill Creek marsh, a severely degraded wetland on Staten Island’s west shore, which could have provided the absorptive capacity to mitigate much of the severe flooding that occurred during Hurricane Sandy in 2012. After the Hurricane, NYC lacked a sustainable funding source that it could draw on to restore this and many other degraded wetlands throughout the City. Healthy wetlands are needed to provide a resiliency buffer for coastline communities, many of which are disproportionately lower income than communities across the city at large. To address these issues, NYC introduced MARSHES, a citywide wetland mitigation banking program, which utilises one-time Federal recovery funding to perpetuate a sustainable and replicable program for wetland restoration and resiliency improvements across the city.\n Results \n Mitigation banking addresses the sub-optimal and ad-hoc current system of mitigation by developers in New York that are seeking to build on or near wetland and aquatic resources. This ad-hoc system requires developers to negotiate with resource agencies to find, restore or create aquatic resources in-kind. This requirement often results in wetland restorations that are less cost-effective, efficient and environmentally desirable. Through mitigation banking programs, a third-party entity performs wetland restoration in offsite, environmentally significant areas, thus generating “mitigation credits” that are sold to developers to offset the impacts of their activities. Such an approach typically enables the protection of more and more critical wetlands, thereby producing both economies of scale by reducing the cost associated with mitigation, as well as ecologies of scale by restoring larger, more ecologically diverse, and integrated wetland habitats.\n In the case of Saw Mill Creek marsh, the US$16.73 million publicly financed restoration project will result in a triple bottom line by providing a resiliency buffer to protect the adjacent communities against the impacts of storm-related flooding, easing the burden of permitting for resilient construction activities taking place along the waterfront, and also generating mitigation credits to help finance the project itself and catalyse future wetland restorations elsewhere in the city.\n Reasons for success \n New York City was able to leverage Federal disaster recovery funds to help seed the initial mitigation bank. Mitigation banking is a model already tested throughout the U.S. to balance economic initiatives with wetlands restoration. However, this effort had never before been pursued with Federal recovery funding and is rarely undertaken by a public agency to self-finance its own mitigation effort. This model will also allow the city to plan for and finance the long-term stewardship of the marshes and wetlands that will be rehabilitated. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cool Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Mitigation banking addresses the sub-optimal and ad-hoc current system of mitigation by developers in New York that are seeking to build on or near wetland and aquatic resources. This ad-hoc system requires developers to negotiate with resource agencies to find, restore or create aquatic resources in-kind. This requirement often results in wetland restorations that are less cost-effective, efficient and environmentally desirable. Through mitigation banking programs, a third-party entity performs wetland restoration in offsite, environmentally significant areas, thus generating “mitigation credits” that are sold to developers to offset the impacts of their activities. Such an approach typically enables the protection of more and more critical wetlands, thereby producing both economies of scale by reducing the cost associated with mitigation, as well as ecologies of scale by restoring larger, more ecologically diverse, and integrated wetland habitats.\n In the case of Saw Mill Creek marsh, the US$16.73 million publicly financed restoration project will result in a triple bottom line by providing a resiliency buffer to protect the adjacent communities against the impacts of storm-related flooding, easing the burden of permitting for resilient construction activities taking place along the waterfront, and also generating mitigation credits to help finance the project itself and catalyse future wetland restorations elsewhere in the city.\n\nNew York City was able to leverage Federal disaster recovery funds to help seed the initial mitigation bank. Mitigation banking is a model already tested throughout the U.S. to balance economic initiatives with wetlands restoration. However, this effort had never before been pursued with Federal recovery funding and is rarely undertaken by a public agency to self-finance its own mitigation effort. This model will also allow the city to plan for and finance the long-term stewardship of the marshes and wetlands that will be rehabilitated.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-york-mitigation-banking-program/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27158",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-new-york-mitigation-banking-program&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

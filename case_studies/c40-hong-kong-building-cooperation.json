@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hong-kong-building-cooperation",
   "url": "https://www.c40.org/case-studies/hong-kong-building-cooperation/",
   "title": "Strategic Collaboration for Better Building Efficiency in Hong Kong",
@@ -20,6 +20,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "To combat climate change, Hong Kong has implemented a series of strategies to enhance building energy efficiency through legislation and collaboration.",
+    "measures": "Hong Kong, China (HK) Government has set ambitious goals to reduce carbon emissions by 65- 70% by 2030 and energy use by 40% by 2025 (from a 2005 baseline). To meet these goals, Hong Kong has implemented “ACT” strategies to enhance building energy efficiency through legislation and collaboration. \n What is the project? How does it work? \n The “ACT” acronym stands for “Accelerate, Collaboration and Technology”.\n Accelerate \nThe Electrical and Mechanical Services Department (EMSD) of Hong Kong has launched a series of legislations to mobilize the public and promote energy efficiency and conservation, including Buildings Energy Efficiency Ordinance (BEEO) and the Mandatory Energy Efficiency Labelling Scheme (MEELS). Energy efficiency standards are upgraded based on technological advancements. \n Collaboration \nEMSD also collaborates with diverse stakeholders, e.g. Dialogue Platform, Energy Saving for All Campaign to encourage community-wide participation. They worked with the Hong Kong Green Building Council in promoting retro-commissioning on buildings. To keep up with worldwide developments in energy efficiency and conservation (EE&C) technologies, EMSD also actively participated in Asia-Pacific Economic Cooperation (APEC) Energy Working Group. \n Technology \nIn 2016, Hong Kong’s energy intensity had reduced by 28% from 2005. To meet HK’s climate goals, building energy performance improvements must be embraced. EMSD established the InnoOffice to engage startups, universities and end users to co-innovate solutions to enhance building energy efficiency.\n What are the CO2 reduction goals? \n Since 2012, over 800 new buildings and about 7,000 retrofitting works on existing buildings have complied with BEEO’s building energy requirements. The estimated saving from BEEO is 1,500 million kWh/year in 2020 with contribution from the new building energy codes. With full implementation of latest phase of energy efficiency labelling schemes in Dec 2019, Hong Kong aims to save 625 million kWh/year. Electricity end use of 8 types of electrical appliances accounts for 70% of total consumption in the residential sector.\n EMSD has collaborated with the Hong Kong Green Building Council to carry out retro-commissioning pilot projects on private and public buildings. An average annual energy saving of 5% was achieved. With such good results, the city will roll out retro-commissioning on 280 government buildings over 7 years starting in 2019. Through Dialogue Platform, key stakeholders of 4Ts Charter partners from the building sector (about 40 big organisations) have worked together and set an overall saving target of 5% from 2015 to 2020.\n The Buildings Energy Efficiency Ordinance (BEEO) is estimated to save 1,500 million kWh a year in 2020 (reduce carbon emissions by 1.06 million tonnes). Up to 2028, BEEO will bring 27 billion kWh accumulated energy savings from new and existing buildings, equivalent to total carbon emissions reduction of 19 million tonnes. Buildings that perform well on energy efficiency are crucial for better livability and “smart” low carbon living. Upon the full implementation of the 3rd phase of the Mandatory Energy Efficiency Labelling Scheme in Dec 2019, it will save 625 million kWh per annum (reduce carbon emissions by 440,000 tonnes). Through dialogue platform and engagement, key 4Ts partners from the building sector have set their energy saving plans (2015-20) with total saving of 230 million kWh (reduce carbon emissions by 160,000 tonnes). \n All above measures could save over 2.2 billion kWh in 2020 (reduce carbon emissions by over 1.5 million tonnes). Hong Kong’s energy intensity was reduced by 28% in 2016 from 2005 level, becoming the lowest among all 21 APEC economies.\n Next Steps \n The retro-commissioning solutions are not only promoted in Hong Kong, but also in the Greater Bay Area (GBA) of China. The Electrical and Mechanical Services Department, together with the Hong Kong Green Building Council and the Building Services Operation and Maintenance Executives Society, signed a MoC in November 2018 with 4 universities and professional bodies in the Mainland and Macao to promote the development and application of retro-commissioning solutions for buildings in the GBA. Through collaboration among these partners, it is expected that various organizations in the GBA and other Mainland cities will further collaborate to adopt retro-commissioning solutions as a new solution for achieving building energy efficiency through knowledge sharing, training and conference exchanges. \n Energy Saving Plan for Hong Kong’s Built Environment 2015~2025+ \n Hong Kong’s Climate Action Plan 2030+",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -28,7 +53,12 @@
     "document_url": "https://www.c40.org/case-studies/hong-kong-building-cooperation/",
     "publication_date": "2020-01-31",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27507",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hong-kong-building-cooperation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

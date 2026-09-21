@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-data-driven-outreach-leads-to-building-retrofits",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-data-driven-outreach-leads-to-building-retrofits/",
   "title": "Cities100: New York City – Data-Driven Outreach Leads to Building Retrofits",
@@ -31,6 +31,31 @@
     "river_flood",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Nearly three-quarters of New York City’s CO2 emissions come from building energy use. Yet, barriers, including complex incentive schemes and bureaucratic hurdles, impede energy retrofits in the city, especially for low-income communities. By identifying buildings with high energy use and reaching out to owners via trusted local organizations, the city is able to offer to residents a streamlined, custom-made strategy to implement green retrofits.",
+    "measures": "New York City’s retrofit programs utilize data-driven analysis and community outreach to pinpoint properties which present the greatest opportunities for energy savings and are at greatest risk of climate change impacts. Using a sophisticated strategy combining benchmarking, audits, and other data sources, the Retrofit Accelerator program is identifying and assisting owners of buildings larger than 4,600 m2 with upgrades. Meanwhile, a complementary program, Community Retrofit, reaches out to owners of buildings in low and moderate-income neighborhoods with the help of influential community organizations and local utilities, offering free technical advisory services for the implementation of energy and water efficiency projects. Since its 2015 launch, Retrofit Accelerator has identified 1,000 projects for energy upgrades and over the next three years, the program will assist at least 1,500 buildings in implementing energy or water efficiency projects. At the same time, Community Retrofit anticipates greenhouse gas reductions of 9,000 metric tons of CO2 over three years from at least 500 completed or initiated retrofits, resulting in $5 million in annual cost savings.\n Environmental Benefits – The initiatives include 280 projects that address water conservation to help reduce storm-related wastewater and sewer overflows that pose pollution risks.\n Social Benefits – Energy efficiency upgrades will decrease buildings’ electricity load, and increases the ability of the utility to provide stable electricity to customers during extreme weather events.\n Economic Benefits – In its first three years, Retrofit Accelerator seeks to assist 450 affordable buildings with upgrades, reducing utility costs for low-income residents.\n Health Benefits – The Retrofit Accelerator Program is helping buildings convert to cleaner fuels, which is expected to reduce PM 2.5 emissions by 90 tons each year.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-data-driven-outreach-leads-to-building-retrofits/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27190",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-data-driven-outreach-leads-to-building-retrofits&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

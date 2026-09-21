@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-paris-transport-policy-curbs-air-pollution",
   "url": "https://www.c40.org/case-studies/cities100-paris-transport-policy-curbs-air-pollution/",
   "title": "Cities100: Paris – Transport Policy Curbs Air Pollution",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "paris",
+      "label": "Paris"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Paris has struggled with poor air quality connected to motorized vehicle transportation, especially from diesel-fueled vehicles, which are responsible for 40% of fine particle emissions. To remedy this situation, the city launched a series of rigorous measures to advance a shift away from diesel vehicles and promote low-carbon mobility.",
+    "measures": "Paris’ ambitious mix of public policy initiatives and investment in alternative modes of mobility is tackling the city’s air quality problems. Specific measures include improving the pedestrian network, promoting the use of electric vehicles, and banning the use of polluting diesel vehicles by 2020. By gradually implementing these policies over the coming years, Paris hopes to achieve its ultimate goal of reducing transportation emissions by 60% by 2020. Other key measures of Paris’ plan to combat traffic-related air pollution are improvements to the city’s flagship self-service bike- and electric car-sharing programs, Velib’ and Autolib’. To support these services, Paris added 1,279 bicycle parking spots in 2014 and will install 1,400 km of cycle lanes by 2020, with the goal of increasing the share of trips made by bikes to 15% by that year. In addition, citizens who give up their car can receive financial help to subscribe to Velib’ or Autolib’ or to Navigo, the city-wide public transport pass.\n Environmental Benefits – Measures taken by the city aim to decrease traffic, which is responsible for two-thirds of NO2 emissions in Paris.\n Economic Benefits – The promotion of Autolib’ and Velib’ contributes to the development of the sharing economy and allow users to avoid high-cost vehicle ownership.\n Health Benefits – With these concrete actions, Paris aims to improve its air quality and the respiratory health of its residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-paris-transport-policy-curbs-air-pollution/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27186",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-paris-transport-policy-curbs-air-pollution&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

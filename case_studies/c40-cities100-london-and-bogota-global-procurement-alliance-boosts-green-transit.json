@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-london-and-bogota-global-procurement-alliance-boosts-green-transit",
   "url": "https://www.c40.org/case-studies/cities100-london-and-bogota-global-procurement-alliance-boosts-green-transit/",
   "title": "Cities100: London And Bogotá – Global Procurement Alliance Boosts Green Transit",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The transport sector accounts for 27% of the world’s energy use, and baseline CO2 emissions could almost double by 2050 if no steps towards low-emission transportation are taken. This large-scale collaboration aims to transform the urban transportation industry and create new standards of sustainability around the world.",
+    "measures": "London and Bogotá have joined forces in an effort to propel the hybrid bus market to the next level. Although cities are increasingly buying ultra-low emission buses, such as electric, hydrogen, and hybrid buses, by 2014 there had been no corresponding reduction in price as sales increased. Discussions with manufacturers made clear that this was because of a perceived lack of commitment to new technologies by a large enough number of cities. By getting 24 cities on board the Clean Bus Declaration, this cross-city initiative is able to prove to manufacturers and industry stakeholders that public transit systems around the world are ready for a change. If signatory cities reach their collective goal of 40,000 hybrid and electric buses by 2020, the project will save 880,528 tons of CO2 annually.\n London has committed $510 million so that by 2020, all 300 single-deck buses in central London will be zero emission capable and all 3,000 double-deck buses will be hybrid. In Bogotá, the aim is for the existing fleet of 1,200 diesel buses to be replaced with hybrid or electric models by 2020. These efforts are already paying off: since the program launched in March 2015, the average price for a hybrid bus has declined by 10%.\n Social Benefits – In London, disadvantaged communities and minority populations are more exposed to unhealthy exhaust fumes. Deploying cleaner buses will provide a cleaner environment for all citizens.\n Economic Benefits – In London, the ultra-low emission vehicle sector generates $2 billion in sales, supporting nearly 600 companies across the supply chain and around 9,000 jobs.\n Health Benefits – The project hopes to save up to 58,104 metric tons of NOx by 2020, equivalent to a quarter of NOx emissions from the signatory cities’ bus fleets.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-london-and-bogota-global-procurement-alliance-boosts-green-transit/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27041",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-london-and-bogota-global-procurement-alliance-boosts-green-transit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

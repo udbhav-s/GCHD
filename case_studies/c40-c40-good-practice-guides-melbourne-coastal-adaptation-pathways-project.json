@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project/",
   "title": "C40 Good Practice Guides: Melbourne – Coastal Adaptation Pathways Project",
@@ -32,6 +32,31 @@
     "coastal_flood",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The City of Melbourne adopted its Adaptation Strategy in 2009 to address different climate change related risks, from warmer…",
+    "measures": "Summary \n The City of Melbourne adopted its Adaptation Strategy in 2009 to address different climate change related risks, from warmer temperatures, heat waves and lower rainfall, to seasonal intense storm events and flash flooding xlv . Climate change is predicted to increase the frequency and intensity of flood and extreme storm events. A number of areas in Melbourne have existing vulnerability to these types of events and the threat will likely be exacerbated in the future. However, the first step on the adaptation pathway was to understand and prioritize the risks and responses, based on a complete cost-benefit analysis. This approach helps to target limited resources to most needed adaptation actions.\n Results \n The City of Melbourne’s understanding of the risks and economic impacts of climate change to coastal areas has been boosted by the government-funded Port Phillip Bay Coastal Adaptation Pathways Project. This tool aims to assist climate adaptation decision-making in local flood prone areas by proposing an economic framework for decision-makers to compare the value communities place on occupying land subject to flooding, the cost associated with flood events and flood mitigation measures. This improves decision-makers’ ability to decide on the type and timing of flood mitigation measures. The project also produced five detailed case studies of impacted sites, two of which, Southbank and Arden-Macaulay, sit within the Melbourne municipality. Such an economic model framework can also be shared among cities and prevent the need for each of the bodies to develop their own models. Moving forward, the City of Melbourne is further developing the framework into an Integrated Climate Adaptation Model, addressing both water and heat and looking at increasing community participation in all aspects of adaptation planning, much as they engage citizens in participatory budgeting in Melbourne.\n Reasons for success \n This project focused on developing stronger partnerships between the responsible authorities. Councils, State Government agencies and State Government departments have each learned about how to work efficiently together in the future and though limitations in the research and methodology were identified, Melbourne and the other partners emerged with a framework for inter-regional decision-making in climate change adaptation. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The City of Melbourne’s understanding of the risks and economic impacts of climate change to coastal areas has been boosted by the government-funded Port Phillip Bay Coastal Adaptation Pathways Project. This tool aims to assist climate adaptation decision-making in local flood prone areas by proposing an economic framework for decision-makers to compare the value communities place on occupying land subject to flooding, the cost associated with flood events and flood mitigation measures. This improves decision-makers’ ability to decide on the type and timing of flood mitigation measures. The project also produced five detailed case studies of impacted sites, two of which, Southbank and Arden-Macaulay, sit within the Melbourne municipality. Such an economic model framework can also be shared among cities and prevent the need for each of the bodies to develop their own models. Moving forward, the City of Melbourne is further developing the framework into an Integrated Climate Adaptation Model, addressing both water and heat and looking at increasing community participation in all aspects of adaptation planning, much as they engage citizens in participatory budgeting in Melbourne.\n\nThis project focused on developing stronger partnerships between the responsible authorities. Councils, State Government agencies and State Government departments have each learned about how to work efficiently together in the future and though limitations in the research and methodology were identified, Melbourne and the other partners emerged with a framework for inter-regional decision-making in climate change adaptation.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27159",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

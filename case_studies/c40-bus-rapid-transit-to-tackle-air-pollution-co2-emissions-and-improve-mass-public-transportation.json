@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation",
   "url": "https://www.c40.org/case-studies/bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation/",
   "title": "Bus Rapid Transit to Tackle Air Pollution, CO2 Emissions, and Improve Mass Public Transportation",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "amman",
+      "label": "Amman"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Amman's BRT will be the city’s first bus rapid transit system (BRT), which is expected to increase public transport mode share from 14% to 40% by 2025 and reduce CO2e emissions by 48,000 tonnes per year.",
+    "measures": "Amman’s BRT will be the city’s first bus rapid transit system (BRT), in which premium, high-capacity buses run on exclusive and completely segregated lanes. The system will include the development and design of stops, stations, passenger information points, interchanges and terminals, with buses running on a frequency possibly as low as 3 minutes along Amman’s busiest corridors.\n The BRT corridors in Amman are not being designed in isolation. Rather, they are being incorporated into an integrated public transport network. For a user to get from their doorstep to their workplace, they may require more than just a BRT ride. This is why an extensive network of feeder services is being designed along with the BRT. Feeders will mostly be buses but may also include smaller vehicles. They are meant to carry users to the nearest BRT stop and will also provide a high-quality and frequent service that will minimize the time people have to sit and wait for the bus.\n The current project includes the construction, planning and equipping of 2 BRT dedicated corridors having a total length of 25km and a total cost of around 250 Million USD, of which two-thirds is financed by the ‘Agence française de développement’ (AFD). It is expected that 140 articulated buses will eventually carry more than 315,000 passengers per day. The 2 routes will serve major transit routes in the city (e.g. the University of Jordan, the Sport City and the Mahatta Terminal).\n The main objectives of Amman’s BRT urban network are the following:\n Improvement of mass public transportation as well as traveling conditions and accessibility to employment areas;\n Reduction of polluting emissions;\n Strengthening management capacity building in the city of Amman (as this is the biggest public transport project in the country).\n What is the innovation? How does it work? \n The project aims to deliver premium quality, economically feasible, car-competitive mass transit system for all of Amman's citizens.\n The implementation of the BRT system consists of three major categories, including:\n Infrastructure: building of bus lanes, stations, terminals, etc. This will also include road work to alleviate current traffic congestion problems at some of the key intersections along the BRT routes.\n Operations: the operation of the system will be handled by a private operator to be selected through competitive bidding. The operator will be responsible for providing buses, developing the depot, hiring and training drivers, as well as handling customer service functions.\n Ticketing system: an effective payment system is essential for supporting the operation of the BRT. This is especially true for expediting passenger loading/ unloading and reducing the bus dwell time at each station.\n Amman’s BRT is expected to be operational from 2021 and is planned to increase public transport mode share from 14% to 40% by 2025.\n Next Steps \n The BRT project started in 2010. It stopped in the summer of 2011 amid concerns over its feasibility and funding capacities, which saw the Cabinet suspend it and halt all related tenders. In 2015, the government decided to resume the project, as part of a plan to provide transport solutions and ease traffic congestion in Amman. Therefore, a concession contract will now be established with a private operator who will provide buses and manage the joint operation of both Amman and Amman-Zarqa BRTs (the latter being financed by the Jordanian Government).The system will be expanded over time to cover all of Amman's neighborhoods.\n Links to further Information \n BRT brochure \n Contact Details \n Greater Amman Municipality / Public Transport Directorate\n Rula Al-Khashman, BRT Project Coordinator\n Mobile: +9627990 54092\n Email: rula.k@ammancity.gov.jo",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation/",
     "publication_date": "2019-06-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27445",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

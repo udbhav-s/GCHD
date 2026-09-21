@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-singapore-boosting-public-transit-while-limiting-cars",
   "url": "https://www.c40.org/case-studies/cities100-singapore-boosting-public-transit-while-limiting-cars/",
   "title": "Cities100: Singapore – Boosting Public Transit While Limiting Cars",
@@ -22,6 +22,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "singapore",
+      "label": "Singapore"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Roads already take up 12% of Singapore’s land; in order to keep a healthy, active, and livable city, it simply cannot afford to allocate much more space to cars. The city’s safe, convenient, and integrated transportation network helps promote sustainable growth for years to come",
+    "measures": "Faced with a rising population and extremely limited land, Singapore recently unveiled a long-term vision for bolstering its public transit system in order to keep people moving efficiently around the city without building more roads. By 2017, the city-state will add 1,000 buses to its fleet, and by 2030, it will double its urban rail network to about 360 km, ensuring that 80% of households are within a 10-minute walk of a train station.\n By incentivizing public transit and actively discouraging car use, the city-state’s Land Transport Master Plan has already achieved impressive results. The share of journeys made by public transport has increased from 59% in 2008 to 66% in 2015, with the goal of reaching 75% by 2030. Additionally, the city is controlling growth in the number of cars and amount of road infrastructure created. For instance, new roads will be built only to support public transport travel by buses or to serve newly developed areas. Wherever possible, Singapore plans to reclaim road space to increase greenery, pedestrian walkways, and cycling paths.\n Environmental Benefits – Vehicles are responsible for 57% of Singapore’s PM2.5 emissions. Reducing car usage will help to lower PM emissions and improve public health.\n Social Benefits – Low-wage workers and persons with disabilities receive at least a 15% and 25% discount on public transit, respectively, ensuring that every citizen has access to quality transportation.\n Economic Benefits – The transport network will include 13 integrated transport hubs by 2025 at which bus and rail connections will intersect residential and commercial developments, promoting economic activity and growth.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -30,7 +55,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-singapore-boosting-public-transit-while-limiting-cars/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27048",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-singapore-boosting-public-transit-while-limiting-cars&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

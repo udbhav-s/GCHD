@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-city-adviser-athens",
   "url": "https://www.c40.org/case-studies/city-adviser-athens/",
   "title": "City Adviser Case Study Series: City of Athens- Climate Action Plan",
@@ -26,6 +26,31 @@
   "hazards": [
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "athens",
+      "label": "Athens"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary In 2014, the City of Athens an active member of C40 since 2008, requested technical on-ground support to develop…",
+    "measures": "Summary \n In 2014, the City of Athens an active member of C40 since 2008, requested technical on-ground support to develop a Climate Action Plan for reducing greenhouse gas emissions and adapting to climate change. The first step of the process concerned the development of a GPC-compliant greenhouse gas inventory. This inventory, apart from setting a baseline status, permits the monitoring of activities planned or already under implementation and allows for corrective actions, when necessary. At the same time, as equal importance has been given to adaptation, the climate action plan is used for increasing the city’s resilience to climate risks, improving the quality of life and ensuring a sustainable future for the next generations.\n Results \n The Climate Action Plan, being compatible with the objectives of the Global Covenant of Mayors for Climate and Energy, sets an ambitious target for cutting greenhouse gas emissions by 40% until 2030, which is translated into approx. 2,000,000 t of CO2eq. The main activities concern the energy upgrade of the city’s very old building stock, public lighting and promotion of sustainable mobility options. The City, apart from undertaking actions for improving its own energy performance, will act as a role model for the private sector and the citizens setting the example for other stakeholders to follow. As a first and very important step for a city in the middle of a financial crisis, the rational use of energy in municipal buildings has led to a reduction of approx. 200,000 euros in energy costs.\n Adaptation is also considered a main pillar for increasing the city’s resilience and is actually part of the resilience strategy being developed by the City. Adapting to heat can bring multiple benefits that range from reduction of the cooling needs and the related energy consumption to the protection of vulnerable population and reduction of mortality rates. In addition, the use of green and blue infrastructures in the city and the adoption of nature-based solutions for a cooler and greener city are also expected to have a positive impact in air quality, which is of major importance for the quality of life in urban areas.\n Reasons for success \n Many factors have contributed to the success of the project, including the support of C40 staff and experience exchange from other cities through the involvement of Athens in C40 networks. Seeing other cities’ examples and the results of initiatives that have taken place in other parts of the world acted as an inspiration for developing the climate action plan and selecting the actions tailored to the needs of the City of Athens. In addition, the experience that was transferred for overcoming barriers in implementing climate actions was also very helpful, as it helped the city avoid mistakes or solutions that would not be successful.\n The direct involvement of the city staff and their engagement was also of utmost importance. Raising awareness and making the staff part of the solution, as they have been actively involved in the development of the plan, was very positively received by the city directorates.\n In addition, the co-benefits that derive from climate actions were highlighted and were directly linked to the city’s resilience, economic activity of the city, the standards of living, the potential of job creation and social cohesion. In a city in a middle of a financial and social crisis, it is important to show that for example improving energy efficiency leads to reduction of operational costs and that the most vulnerable groups of citizens are protected against extreme weather events (i.e. heat waves).\n Finally, the C40 adviser programme and the presence of the City Adviser, helped to connect the Mayoral oﬃce to city oﬃcials on activities related to environment, energy and climate change (e.g. internal processes that the city needs to follow for operating more eﬀectively, the participation of the City of Athens in European-­‐funded projects in these ﬁelds, the evaluation of collaboration of the city with external stakeholders) and created the necessary mandate that the administration needed for taking action.",
+    "outcomes": "The Climate Action Plan, being compatible with the objectives of the Global Covenant of Mayors for Climate and Energy, sets an ambitious target for cutting greenhouse gas emissions by 40% until 2030, which is translated into approx. 2,000,000 t of CO2eq. The main activities concern the energy upgrade of the city’s very old building stock, public lighting and promotion of sustainable mobility options. The City, apart from undertaking actions for improving its own energy performance, will act as a role model for the private sector and the citizens setting the example for other stakeholders to follow. As a first and very important step for a city in the middle of a financial crisis, the rational use of energy in municipal buildings has led to a reduction of approx. 200,000 euros in energy costs.\n Adaptation is also considered a main pillar for increasing the city’s resilience and is actually part of the resilience strategy being developed by the City. Adapting to heat can bring multiple benefits that range from reduction of the cooling needs and the related energy consumption to the protection of vulnerable population and reduction of mortality rates. In addition, the use of green and blue infrastructures in the city and the adoption of nature-based solutions for a cooler and greener city are also expected to have a positive impact in air quality, which is of major importance for the quality of life in urban areas.\n\nMany factors have contributed to the success of the project, including the support of C40 staff and experience exchange from other cities through the involvement of Athens in C40 networks. Seeing other cities’ examples and the results of initiatives that have taken place in other parts of the world acted as an inspiration for developing the climate action plan and selecting the actions tailored to the needs of the City of Athens. In addition, the experience that was transferred for overcoming barriers in implementing climate actions was also very helpful, as it helped the city avoid mistakes or solutions that would not be successful.\n The direct involvement of the city staff and their engagement was also of utmost importance. Raising awareness and making the staff part of the solution, as they have been actively involved in the development of the plan, was very positively received by the city directorates.\n In addition, the co-benefits that derive from climate actions were highlighted and were directly linked to the city’s resilience, economic activity of the city, the standards of living, the potential of job creation and social cohesion. In a city in a middle of a financial and social crisis, it is important to show that for example improving energy efficiency leads to reduction of operational costs and that the most vulnerable groups of citizens are protected against extreme weather events (i.e. heat waves).\n Finally, the C40 adviser programme and the presence of the City Adviser, helped to connect the Mayoral oﬃce to city oﬃcials on activities related to environment, energy and climate change (e.g. internal processes that the city needs to follow for operating more eﬀectively, the participation of the City of Athens in European-­‐funded projects in these ﬁelds, the evaluation of collaboration of the city with external stakeholders) and created the necessary mandate that the administration needed for taking action.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Emissions or carbon inventory",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/city-adviser-athens/",
     "publication_date": "2016-11-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27248",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-adviser-athens&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-16T16:06:55",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program",
   "url": "https://www.c40.org/case-studies/cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program/",
   "title": "Cities100: Wuhan – Carbon Credit Scheme Bolsters Massive Bike-Share Program",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Faced with problems of air pollution and traffic congestion, Wuhan, one of the most populous cities in Central China, launched an ambitious bike-sharing project that helps curb growing motor vehicle dependence and related emissions, while also solving last-mile transportation and boosting citizen engagement through the carbon credit system.",
+    "measures": "Wuhan has rolled out one of the world’s largest bike-sharing projects, installing 20,000 bikes at 856 stations since 2015. Plans call for 80,000 bicycles and 3,160 stations to be installed city-wide by 2018. The new system is integrated with other modes of public transport in the city to increase connectivity. As a bonus feature, the stations offer charging facilities for electric vehicles, to further promote green transportation. Daily rides have risen from more than 1,000 during the trial period to about 80,000 in May 2016, amounting to 15 million total rides since launching. A unique component of the system is the integration of a carbon credit scheme, through which bike-sharing users’ individual CO₂ reduction is calculated based on average riding speed and other factors, and converted into a carbon credit, registered to individual users. The credit can be used to purchase small personal commodities and services, such as movie tickets, or used to offset other carbon emissions.\n Environmental Benefits – The bike-share’s annual CO₂ emissions reduction has reached 25,000 tons.\n Social Benefits – The project helps address the city’s traffic congestion problems and lack of space for parking.\n Economic Benefits – As the first hour of bike use is free, and most bike trips last less than one hour, users are able to save money on transport.\n Health Benefits – The bike-sharing program addresses health problems related to vehicle emissions and encourages the population to participate in a daily fitness activity.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27241",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

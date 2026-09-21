@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-rio-de-janeiro-transoeste-brt",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-rio-de-janeiro-transoeste-brt/",
   "title": "C40 Good Practice Guides: Rio de Janeiro – TransOeste BRT",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The first BRT corridor, the TransOeste located in the west side of the city, was launched in June 2012….",
+    "measures": "Summary \n The first BRT corridor, the TransOeste located in the west side of the city, was launched in June 2012. It began with 40 km of exclusive, segregated corridors, 36 stations, and new articulated and standard buses. After only one year in operation the TransOeste BRT line grew to 56 km of exclusive lanes and 58 stations, transporting 120,000 passengers per day (and now up to 185,000 per day). xiv The example of TransOeste in Rio de Janeiro shows how a BRT corridor (and ultimately a whole system) can provide a high- capacity transit solution for a city, enabling municipal authorities to increase liveability, mobility, and sustainability. Furthermore, while BRT is often compared to metro lines in terms of service and operations, they can cost ten to hundred times less and be delivered much more quickly as Rio de Janeiro has demonstrated. xv \n The TransOeste corridor has reduced an inner city trip from 1 hour and 40 minutes to 45 minutes. By the time four BRT lines will have been opened in 2016, the share of trips made by public transport in Rio de Janeiro is expected to increase from 18% to 63%, with more than 150 km of exclusive BRT corridors expected to carry two million passengers each day. xvi \n Results \n The TransOeste BRT drastically improved mobility in the city, reduced emissions and increased comfort for those using the corridor, delivering a better experience for users (travel time savings, increased comfort through new buses, etc., which attracted people to the services). xvii The BRT line is expected to save an estimated 107,000 tons of CO 2 e per year over a 20-year period, thanks to fuel-efficient buses and rationalized bus routes. The buses being used in the corridor are Euro V, to help reduce emissions. The value of time saved on the total of trips on the TransOeste BRT corridor averages $23 million a year. xviii The development of the BRT has also related co-benefits, such as reduced air pollution, construction of new bike lanes along the corridor, and expansion of sidewalks and green space.\n Reasons for success \n TransOeste has proved so successful because it was part of Rio’s holistic planning exercise for the corridor and a strong overarching transport improvement plan for the city. Moreover, the feeder bus routes were identified and optimised/rationalised as needed; implementation was done gradually in several phases; surveys were undertaken with users before and during implementation, as well as after, to get feedback on the BRT system and improve future plans.\n Moreover, Rio de Janeiro seized the opportunity brought by the recent and upcoming global events (FIFA 2014; 2016 Olympic Games) and plans to complete their network of BRT corridors, to serve almost 2 million people every day. The new intermodal station locations were chosen strategically, for high demand and visibility, mostly adjacent to the 2016 Olympic sites. The city is now adding an extra 7 km to TransOeste and connecting it to the subway system (also under construction), as well as adding another bus terminal integrated with the subway, with 7 more BRT stations to this corridor. These are likely to be launched by June 2016. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The TransOeste BRT drastically improved mobility in the city, reduced emissions and increased comfort for those using the corridor, delivering a better experience for users (travel time savings, increased comfort through new buses, etc., which attracted people to the services). xvii The BRT line is expected to save an estimated 107,000 tons of CO 2 e per year over a 20-year period, thanks to fuel-efficient buses and rationalized bus routes. The buses being used in the corridor are Euro V, to help reduce emissions. The value of time saved on the total of trips on the TransOeste BRT corridor averages $23 million a year. xviii The development of the BRT has also related co-benefits, such as reduced air pollution, construction of new bike lanes along the corridor, and expansion of sidewalks and green space.\n\nTransOeste has proved so successful because it was part of Rio’s holistic planning exercise for the corridor and a strong overarching transport improvement plan for the city. Moreover, the feeder bus routes were identified and optimised/rationalised as needed; implementation was done gradually in several phases; surveys were undertaken with users before and during implementation, as well as after, to get feedback on the BRT system and improve future plans.\n Moreover, Rio de Janeiro seized the opportunity brought by the recent and upcoming global events (FIFA 2014; 2016 Olympic Games) and plans to complete their network of BRT corridors, to serve almost 2 million people every day. The new intermodal station locations were chosen strategically, for high demand and visibility, mostly adjacent to the 2016 Olympic sites. The city is now adding an extra 7 km to TransOeste and connecting it to the subway system (also under construction), as well as adding another bus terminal integrated with the subway, with 7 more BRT stations to this corridor. These are likely to be launched by June 2016.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-rio-de-janeiro-transoeste-brt/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27092",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-rio-de-janeiro-transoeste-brt&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

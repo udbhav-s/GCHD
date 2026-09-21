@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure",
   "url": "https://www.c40.org/case-studies/improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure/",
   "title": "Improving Living Conditions in Poverty-Stricken Areas in Amman by Implementing Green Infrastructure",
@@ -32,6 +32,31 @@
     "heatwave",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "amman",
+      "label": "Amman"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Improving Living Conditions in poverty-stricken Areas in Amman (ILCA) is a pilot project set up to develop and improve existing elements of green infrastructure in selected sites in East Amman.",
+    "measures": "The partially unplanned infrastructure of East Amman’s neighbourhoods has created scarcity of open spaces, lack of greenery and inadequate connectivity of sidewalks, stair networks and streets. Access to public facilities and basic urban services (e.g. public transport, waste management, water and energy supply, health care, education and public security) are bound to long distances or sometimes completely cut off. Due to housing density, any construction, rehabilitation or maintenance of public open spaces (POS) is challenging. In some places, incomplete waste collection and inadequate urban infrastructure have led to deteriorated social interactions and environmental hazards such as flooding and soil pollution.\n At the same time, urban green spaces are known to mitigate heat and air pollution and contribute to urban wellbeing. Access to community gardens and recreational facilities is also strongly linked to reductions in crime and in particular to reduced juvenile delinquency. As the world’s cities densify, continuing to value green spaces in cities is vital, but also a challenge; particularly where there is pressure for space, resources and development. Despite these challenges, cities need to revive and invest in POS to enable environmental and social benefits and build attractive cities for all.\n The ‘Improving Living Conditions in poverty-stricken Areas’ project (ILCA) aims to create ownership and enhance the quality of life of Amman’s residents through community participatory involvement in the design, planning and management of the newly created or revived public open spaces.\n Improving the connection to public transport plays a prominent role, as well as increasing the accessibility of public spaces, with particular attention to women and girls’ specific needs. The project also intends to raise awareness on the potential of green infrastructure to mitigate/adapt to climate change and support Jordan in the achievement of their commitments at the global and national level, such as the SDGs and NDCs.\n What is the innovation? How does it work? \n Several pilot sites in East Amman have been selected to implement practical examples of green urban design and thereby illustrate different elements of green infrastructure. At the neighbourhood level, the aim is to counteract the degradation of urban spaces, improve social cohesion and foster interaction between different population groups. At a higher scale, the infrastructure networks will contribute to filtering air and water pollutants, preserving local biodiversity, decreasing the impact of urban heat waves and avoiding soil erosion.\n Links to further information \n Brochure_Green Infrastructure \n Contact Details \n Greater Amman Municipality\n Sajeda Alnsour / Project Manager\n Tel: 9626436111 Ext. 2546\n Mobile: +962777742971\n Email: Sajida.Alnsoor@AmmanCity.gov.jo",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure/",
     "publication_date": "2019-06-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27446",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

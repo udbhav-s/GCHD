@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model",
   "url": "https://www.c40.org/case-studies/clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model/",
   "title": "Clean Energy in Quezon City: A Wasteland turned into a Waste-to-Energy Model",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quezon-city",
+      "label": "Quezon City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "An iconic wasteland in Quezon City has been transformed into a successful and international recognized methane gas recover Waste-to-Energy model.",
+    "measures": "Quezon City has been renowned for its unparalleled success in solid waste management. By implementing an innovative program, the city is transforming an iconic wasteland into an internationally recognized waste-to-energy model, becoming the first city in the Philippines to recover methane gas from waste disposal.\n This innovative project would have not been possible without the strong political will of the city to radically transform the ‘Payatas’ open dumpsite into a controlled waste disposal facility, especially after a trash slide claimed 300 lives in the local community. Following this tragedy, the city initiated massive rehabilitation works, including slope reprofiling, stabilization and greening, leachate collection and recirculation, the improvement of the drainage system, and the fortification of access paths to the site.\n In 2002, the City Government started to collaborate with the Philippine National Oil Corporation (PNOC) to set-up a 100 kilowatt pilot methane power plant at the Payatas Controlled Disposal Facility (PCDF), which has been successfully launched in 2004 as part of the city’s conversion program to turn methane into electricity.\n Credits: quezoncity.gov.ph\n Three years later, in 2007, the Quezon City Government initiated a scale-up of the scope and capacity of the project by establishing a public-private partnership on solid waste management. More specifically, the City forged an agreement with a private energy company – Pangea Green Energy Philippines, Inc. – regarding the capture, collection, processing, and flaring of landfill gas (LFG), including the conversion of methane into electricity. Consequently, the project has been also registered as a Clean Development Mechanism under the United Nations Framework Convention on Climate Change (UNFCCC).\n Credits: quezoncity.gov.ph\n What does the project consist of? How does it work? \n The biogas plant captures, collects, processes, and flares landfill gas (LFG), converting it into clean electric power. The power generated is enough to sustain the electricity demand of the facility and the surrounding streetlights, also allowing to meet the basic power needs of the nearby residential area. The current capacity of the plant is of 1.5 megawatts and the project is able to generate a monthly average of 40,000 kilowatt-hour (KWh).\n What are the CO2e reduction achievements? \n The total average of CO2e reduction per annum is of 116,339 metric tonnes. Cumulatively, the project was reported to have mitigated 795,054.44 tCO2e from March 2008 to January 2018. Since the project started exporting electricity in 2013, the total exported electricity reached 26,327.98 megawatt-hours (MWh).\n Links to further information: \n http://quezoncity.gov.ph/index.php/featured-articles/1232-payatas-the-power-producer \n Contact Details: \n Ms. Frederika Rentoy\n Head\n Environmental Protection and Waste Management Department\n Quezon City Government\n Tel. (632) 988-4242",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model/",
     "publication_date": "2018-09-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27405",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

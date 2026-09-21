@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-rio-de-janeiro-pioneering-sustainability-in-schools",
   "url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-pioneering-sustainability-in-schools/",
   "title": "Cities100: Rio de Janeiro – Pioneering Sustainability in Schools",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Rio de Janeiro's low-income areas, there is a need for educating residents about the importance of recycling waste, water conservation, and general low-emission habits, which the Sustainable Schools Project addresses.",
+    "measures": "Initiated in 2016, six schools in the Brazilian coastal city joined the pilot of the Sustainable Schools Project. Now at eight schools, the project is a pioneering initiative in Brazil, developed to empower students, teachers, and their surrounding communities with knowledge on sustainability and climate change. By teaching new concepts and practices, students learn how to use natural resources in a sustainable fashion, the importance of recycling, and how to shrink their carbon footprint. The schools are not merely talking about climate change, they are walking the walk, too. Participating schools have developed vegetable gardens, composting facilities, vegetable oil collection to avoid disposal in the sewers, and electronics and batteries waste collection. The schools have also installed PV solar panels, LED lamps, and hybrid lampposts with integrated wind and solar power devices to power them off-grid. The city plans to have 40 sustainable schools by the end of 2020.\n Environmental Benefits – More than 800 liters of oil were collected by students from three schools in 2016 in order to avoid improper disposal and water pollution.\n Social Benefits – Providing students with a hands-on environmental education enables them to learn the importance of cooperation and the effects of doing good in their communities at an early age.\n Health Benefits – The project promotes healthy eating, and communities surrounding the schools benefit from the organic vegetables grown at the schools.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-pioneering-sustainability-in-schools/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27330",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rio-de-janeiro-pioneering-sustainability-in-schools&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

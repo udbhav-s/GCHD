@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities",
   "url": "https://www.c40.org/case-studies/hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities/",
   "title": "Hanoi Metro: A Sustainable Public Transport for Densely Populated Cities",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Hanoi Sustainable Urban Transport (SUT) Program will develop an integrated public transport system in six districts of Hanoi that will support effective utilization of the Hanoi’s Metro Line 3. Improved public transport will greatly enhance access, as well as support the Hanoi Urban Transport Master Plan’s (HUTMP) objective of increasing public transport ridership of over 40% and reducing dependency on private vehicles.",
+    "measures": "Hanoi is Vietnam's capital and the second-largest city in the country. The population of the greater urban area is about 7.5 million (2015), and is expected to grow to more than 8 million by 2025. Private vehicles dominate transportation, with about 90% of transport modal share. Inadequate road infrastructure results in heavy congestion during peak hours, and this is getting worse as motorbike riders switch to cars when their household income improves.\n While the road network is expanding slowly, the growth cannot meet the expected increase in demand, and most inner city areas face space limitations on road capacity expansion. Private transport is not sustainable as the principal transportation mode. A well-integrated high capacity public urban transport system is essential to meet the demands of Hanoi, and a metro rail system is the most appropriate solution for densely populated inner city areas.\n Without investment in major public transport infrastructures to support a significant modal shift to public transport, economic growth will be severely constrained and the urban environment will deteriorate due to high logistics costs and severe congestion. Hanoi is at an early stage of adoption of private motorization, so investments in major public transport infrastructures represent an effective mean to reduce future urban congestion and lower carbon emissions.\n What is the project? \n The Project will develop an integrated public transport system in six districts (four urban and two sub-urban) of Hanoi that will support effective utilization of the city’s Metro Line 3. Improved public transport will greatly enhance access, as well as support the Hanoi Urban Transport Master Plan’s (HUTMP) objective of increasing public transport ridership of over 40%, reducing dependency on private vehicles.\n This program is one of the five major interventions under the Vietnam Country Investment Plan (CIP). The CIP was first endorsed by the Trust Fund Committee in December 2009, and later revised and endorsed again in 2013. The revised CIP reallocates Clean Technology Fund (CTF) financing to include an additional $50 million to the Hanoi Sustainable Urban Transport (SUT) Program on top of the original $50 million. The SUT is fully consistent with the Government of Vietnam’s policy framework for climate change, energy security, and environmental management. It is aligned also with the Asian Development Bank’s Country Partnership Strategy (CPS) for Vietnam, focusing on improving institutional, financial and operational efficiency of transport infrastructure, and road safety. The HUTMP focuses on the development of the Metro Line 3, along with four other metro lines (i.e. MRT Line 1, 2, 2A, and BRT Line 1), as priority interventions facilitating access to public transport. This will consequently help to tackle the transport sector’s high share of CO2 emissions, which almost doubled from 14 percent in 1980 to 25 percent in 2011.\n How does it work? \n The SUT comprises two investment operations: The ‘Hanoi Metro Rail System Line 3: Nhon – Ha Noi station section’ (Project 1), which will develop a new double track metro rail line, including stations and depot facilities, and electrical and mechanical systems; and the ‘Strengthening Sustainable Urban Transport for Metro Line 3’ (Project 2), which will implement sustainable transport measures. The detailed design of Project 1 was completed in March 2012. In June 2012, the Government of Vietnam signed the CTF project preparation grant of $1 million. CTF funds will co-finance accessibility measures, public transport information systems, and sector development and implementation support. The total cost is almost $1.54 billion.\n Competitive metro rail services and improved integration of Metro Line 3 stations with other transportation is expected. Project 1 will achieve operational Metro Line 3 and improved capacity of Ha Noi Metropolitan Railway Management Board (MRB). Project 2 will establish improved accessibility features at Metro Line 3 stations, including construction of pedestrian subways and footbridges, bus stops and feeder links, and waiting areas for public transport service providers. A station access management system will be installed to facilitate efficient flow of people and traffic around the metro. What are the CO2 reduction goals/achievements? While the overall goal is to develop a public traffic network citywide, supporting sustainably the city’s economic growth and efficiency, the Metro line operation is also expected to mitigate up to 20,000 tCO2eq/year.\n Next Steps \n Enforcement measures will be improved to ensure clear pedestrian access and smooth traffic flow, and to manage private vehicle parking around the Metro. Integrated and innovative public transport services and measures connecting metro stations will be developed. Public transport policy will be improved, including station access management system and enforcement measures, station parking policy, public transport ticketing framework, pricing of public and private transport, and capacity development and training to transport agencies.\n Links to further information \n Hanoi's Metro Line – Agence Française de Dévelopment (French)\n Contact Details \n Ms. Nga\n Hanoi Metropolitan Railway Management Board (MRB)\n +84 982042807\n hutdppmu@vnn.vn",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities/",
     "publication_date": "2018-12-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27425",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

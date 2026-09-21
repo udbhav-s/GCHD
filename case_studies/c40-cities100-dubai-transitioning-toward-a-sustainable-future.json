@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-dubai-transitioning-toward-a-sustainable-future",
   "url": "https://www.c40.org/case-studies/cities100-dubai-transitioning-toward-a-sustainable-future/",
   "title": "Cities100: Dubai – Transitioning toward a Sustainable Future",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Throughout the United Arab Emirates, up to 85% of the population and 90% of the infrastructure of coastal zones are at risk from climate change. Such vulnerability, combined with expected population growth, has led the city to create strategies and programs that decouple economic growth from CO2 emissions.",
+    "measures": "Dubai seeks to become a regional leader in sustainable development and green growth through its Carbon Abatement Strategy (CAS) 2021. Focusing primarily on the power, water, and waste sectors, the CAS seeks to eliminate 11 million tons of CO2 by 2021. Launched in 2012, the CAS has already increased resource and system efficiency by yielding water savings of nearly 16 million m3 between 2011 and 2014, increasing the recycling rate to 10% from almost 0% in three years, and committing 48 km2 for the development of large-scale utility solar power projects.\n Dubai’s CO2 reduction targets may not be as ambitious as those of other cities, but they are an important step in the United Arab Emirates’ transition toward more sustainable development and a significant departure from its past. Dubai is already a global business destination and is seen by many cities in the region as a source of innovation. The CAS’s focus on green economic development, led by the Green Economy Partnerships program, which encourages green trade and investment and accelerates the adoption of green technologies, products, and services, showcases to the entire region that green growth and reduced fossil fuel dependence are economically viable and improve quality of life for citizens.\n Environmental Benefits – A 200 MW solar photovoltaic plant, scheduled to open in 2017, is estimated to displace almost 500,000 metric tons of greenhouse gas emissions.\n Social Benefits – By increasing transit ridership 11% between 2011 and 2013, and an additional 16% between 2013 and 2014, Dubai has created better and less expensive access to urban resources for all residents.\n Economic Benefits – The Carbon Abatement Strategy’s eight demand side management programs (focused on building retrofits, LED lighting, district cooling, and other initiatives) have led to $225 million in savings.\n Health Benefits – Waste-to-energy projects will reduce the use of landfills, which will improve air quality and public health for nearby communities.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-dubai-transitioning-toward-a-sustainable-future/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27008",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-dubai-transitioning-toward-a-sustainable-future&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

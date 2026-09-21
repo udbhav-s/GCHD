@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-orleans-turning-hurricane-risk-into-mitigation-opportunity",
   "url": "https://www.c40.org/case-studies/cities100-new-orleans-turning-hurricane-risk-into-mitigation-opportunity/",
   "title": "Cities100: New Orleans – Turning Hurricane Risk into Mitigation Opportunity",
@@ -27,6 +27,31 @@
     "coastal_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-orleans",
+      "label": "New Orleans"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "While many cities in the USA began implementing climate mitigation strategies 10 years ago, New Orleans was recovering from hurricane devastation. Ready to turn hurricane risk into mitigation opportunity, the city is rolling out its first community-wide strategy designed to mitigate the effects of climate change.",
+    "measures": "Attack is the best form of defense for coastal cities like New Orleans that face rising sea levels and climate change-related extreme weather events. Climate Action for a Resilient New Orleans outlines 27 actions to reduce greenhouse gas emissions 50% by 2030. The strategy considers best practices in greenhouse gas mitigation such as planning to scale local solar from 40 MW to 255 MW and moving to 100% low-carbon power by 2030, a remarkable feat for a city in a state largely dependent on fossil fuels. To further reduce its contribution to climate change, New Orleans seeks to electrify the city's public transportation and ensure 50% of all trips are made using non-fossil-fuel-powered vehicles by 2030. Finally, the city currently diverts only 5% of waste from landfills, as recycling infrastructure was dismantled during Hurricane Katrina. But, with its new strategy, New Orleans plans to divert 50% of waste from landfills by 2030.\n Environmental Benefits – In addition to actions designed to reduce emissions, the strategy includes a plethora of adaptation initiatives that also have mitigation benefit such as planting 40,000 trees.\n Economic Benefits – Rebuilding the region's ability to generate value from waste will stimulate economic development and jobs in this area as part of the Climate Action for a Resilient New Orleans.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-orleans-turning-hurricane-risk-into-mitigation-opportunity/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27338",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-orleans-turning-hurricane-risk-into-mitigation-opportunity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

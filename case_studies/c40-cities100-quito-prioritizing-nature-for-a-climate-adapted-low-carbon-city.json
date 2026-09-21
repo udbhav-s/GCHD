@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city",
   "url": "https://www.c40.org/case-studies/cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city/",
   "title": "Cities100: Quito – Prioritizing Nature for a Climate-Adapted, Low-Carbon City",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quito",
+      "label": "Quito"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "More than 56% of Quito's natural vegetation is deemed vulnerable to climatic changes, including temperature and precipitation changes. With a population of 2.5 million, which is expected to double by 2025 1 , the subtropical highland ecosystems are under growing pressure.",
+    "measures": "More than 60% of Quito's high-altitude territory is covered by vegetation. Yet, as changes in climate come into contact with economic and agricultural developments, ecosystems are being put under increasing pressure. The Ecuadorian mountain capital has therefore initiated efforts to guarantee sustainable city development focused on the city's fragile ecosystems. Quito manages the city's natural surroundings and forests as an integral part of its municipal planning and development, pursuing collaborative environmental governance between multiple city actors to enable sustainable land management from all sectors. The city has used geographic information systems (GIS) to map the baseline ecosystem data, estimate future deforestation rates, and prioritize adaptation measures in the most vulnerable ecosystems to ensure continued ecosystem services and natural resilience. Quito has recognized the importance of forest conservation for preservation of water services, including flood protection and freshwater supply, and has ring-fenced 175,000 hectares of land for protection under its 'Municipal Protected Areas' scheme. The city is also reclaiming 60,000 hectares of previously degraded land, which is expected to sequester around six million tons of carbon dioxide. This ultimately contributes to reducing the city's carbon footprint by 5% every year.\n Environmental Benefits – Situated at an altitude of almost 3,000 m, Quito has a unique city climate and associated biodiversity. The city is protecting the three Important Bird and Biodiversity Areas, as well as a habitat for the highly vulnerable Andean Spectacled Bear populations native to the area.\n Economic Benefits – By enabling access to job opportunities in sustainable agriculture and tourism, rural communities close to natural areas can benefit from urban economic developments.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27308",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

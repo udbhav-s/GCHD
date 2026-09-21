@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-chennai-citizen-public-and-private-engagement-in-waste-management",
   "url": "https://www.c40.org/case-studies/cities100-chennai-citizen-public-and-private-engagement-in-waste-management/",
   "title": "Cities100: Chennai – Citizen, Public, and Private Engagement in Waste Management",
@@ -31,6 +31,31 @@
     "river_flood",
     "malaria"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In 2016, Chennai saw some of the worst floods in its history, and clearing 145,000 tons of waste from the streets after the waters subsided highlighted the extent of the city's rubbish problem. Chennai's new waste management strategy aims to reduce the buildup of waste and realize some of the potential value.",
+    "measures": "Chennai has embarked on a journey to uproot deeply ingrained attitudes towards waste. More than two-thirds of all waste in the city is from residential sources, and of that, 60% is organic, showing that segregation at the source could be a simple and powerful tool for cleaning up the streets. Households throughout the city are now required to segregate their waste, which is then collected and taken to recycling, incineration, or landfill sites. Community meetings, youth club conventions, and social media campaigns were all part of the city's strategy to spread awareness amongst the community, and since the start of the program in 2016, the city has recorded a 2.5% reduction in total waste production. Chennai is no stranger to innovative waste management strategies, in 2002, the infamous Jambulingam Street was laid with shredded-plastic infused tarmac, which has passed the test of time, constant rickshaw turbulence, and monsoon flooding. Now, the government continues to look for innovation from the private sector and is pursuing public-private partnerships for better processing of previously segregated waste.\n Environmental Benefits – The city's scheme aims to reduce the quantities of waste littered in streets and rivers, improving the urban environment for millions of citizens.\n Social Benefits – Fifteen thousand sanitary workers are employed by the Solid Waste Management Department, many of whom have little employment alternatives.\n Health Benefits – Cleaning up Chennai's streets reduces the spread of diseases such as jaundice, malaria, and dengue fever, which are linked with waste-dumping practices.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-chennai-citizen-public-and-private-engagement-in-waste-management/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27357",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-chennai-citizen-public-and-private-engagement-in-waste-management&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-kwazulu-natal-sustainable-energy-forum-ksef",
   "url": "https://www.c40.org/case-studies/kwazulu-natal-sustainable-energy-forum-ksef/",
   "title": "KwaZulu-Natal Sustainable Energy Forum (KSEF)",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The disjointed sustainable energy sector in KwaZulu-Natal led to the development of the KwaZulu-Natal Sustainable Energy Forum (KSEF). A primary role of KSEF was to achieve integration and stimulate communication between government, private business, research institutions and various other stakeholders. While it is extremely difficult to calculate the exact greenhouse gas emission reduction from initiatives like KSEF emissions, it is important to note that KSEF has played a critical catalytic role in the sector.",
+    "measures": "The mission statement of KSEF is “…to facilitate the development and growth of the sustainable energy sector in KwaZulu-Natal, South Africa through information dissemination, facilitation of networking within the sector and implementation of enabling projects”.\n The vision of KSEF is “…for KwaZulu-Natal to have a vibrant sustainable energy sector that provides a range of goods and services that reduce the environmental impact of energy provision, assists in the creation of local economic opportunities and facilitates broad access to energy”.\n KSEF’s primary objectives are:\n 1. The promotion of the Sustainable Energy Sector in KwaZulu-Natal by facilitating stakeholder engagement, networking and information sharing, and by providing a platform for both private sector and public sector stakeholders including researchers, investors and civil society to engage around opportunities and challenges in the sector.\n 2. The promotion of, and education, and training programmes relating to environmental awareness, greening and sustainable development projects, with a focus on renewable energy and energy efficiency.\n 3. Research including agricultural, economic, industrial, social, scientific and technological research with a focus on renewable energy and energy efficiency.\n 4. The provision of training, support or assistance to communicate based projects relating to self-help, empowerment, capacity building, skills development or anti-poverty.\n 5. The provision of training, support or assistance to emerging micro enterprises to improve capacity to start and manage businesses in the sustainable energy sector.\n 6. The development, servicing, upgrading, conversion or procurement of stands or the provision of building materials which address the issue of energy poverty, energy access and affordability for the benefit of persons whose monthly household income is equal to or less than R 7,500 or any greater amount determines by the Income Tax Act.\n KSEF was initiated as early as May 2010, at a Renewable Energy Research Seminar hosted by Imagine Durban and the eThekwini Energy Office, the first KSEF meeting. At that Seminar a terms of reference for KSEF was discussed, which was further developed by the Energy Office and Imagine Durban. The Terms of Reference was accepted by the participants of the second KSEF meeting in October 2010.\n KSEF was initially co-funded by the United Nations Industrial Development Organisation (UNIDO) and the eThekwini Municipality, Energy Office. The funding was utilised to host quarterly KSEF meetings and to engage the services of a ‘Forum Manager’.\n The main purpose of the quarterly KSEF meetings were to introduce and discuss sustainable energy projects that were earmarked for KwaZulu-Natal, and thereafter guide and coordinate the effective implementation of these projects. In addition, it was envisaged that the dialogue and initiatives of KSEF would improve economic productivity, increase local production an investment in further research.\n The Forum manager was tasked with the following:\n 1. Strategic interventions in Research and Development, Manufacturing, and Market penetration.\n 2. Management Activities:\n Regular communication with broader KwaZulu-Natal energy stakeholder;\n Build on and expand the effectiveness of the communication systems already in place;\n Organising and facilitating at least three sector specific meetings and three stakeholder workshops in each year; and\n Review and planning of strategic interventions in each of the identified sectors.\n 3. Reporting Activities:\n Review and report on the membership base and activities of KSEF;\n Develop a business plan for KSEF; and\n Review funding options for KSEF.\n When the contract of the Forum Manager ended in 2014, a decision was taken to convert KSEF from a Municipal Project to a separate entity in the form of a Not-for-Profit Company.\n Since the conversion of KSEF into a not-for-profit company, all operations ground to a halt. This is primarily due to initial Board of Director not properly registering KSEF as a not-for-profit company, which resulted in KSEF’s inability to raise funding to undertake it’s functions.\n The subsequent leadership has since rectified the situation and KSEF is being restarted.\n Key lessons learnt including the following:\n 1. Consultation is critical for the establishment of such a forum, as everyone needs to take ownership of it. In addition, the consultation will allow the purpose of forums to directly address real challenges and opportunities, not some theoretical aspect.\n 2. Certain types of Forums/initiatives cannot be structured to be self-funding, they inherently do not provide services that can be marketed as sellable but provide an invaluable function for the industry.\n 3. Selecting the correct people to lead such a forum is vitally important, people with the correction motivations, dedication and energy should be identified – even though they will not get remunerated.",
+    "outcomes": "The immediate next step is to restart KSEF, this will necessitate the following: finalisation of re-registration with CIPC and SARS. Thereafter KSEF will be in a position to receive funding to begin with their scope of work.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/kwazulu-natal-sustainable-energy-forum-ksef/",
     "publication_date": "2017-09-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27367",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=kwazulu-natal-sustainable-energy-forum-ksef&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

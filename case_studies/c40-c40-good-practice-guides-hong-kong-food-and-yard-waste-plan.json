@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-hong-kong-food-and-yard-waste-plan",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-food-and-yard-waste-plan/",
   "title": "C40 Good Practice Guides: Hong Kong – Food and Yard Waste Plan",
@@ -20,6 +20,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Food and Yard Waste Plan for Hong Kong (2014-2022) is a comprehensive organic waste management plan including a…",
+    "measures": "Summary \n The Food and Yard Waste Plan for Hong Kong (2014-2022) is a comprehensive organic waste management plan including a strategy, targets, policies and action plans for the management of food and green waste. The target is to reduce Hong Kong's food waste disposal to landfills by at least 40% by 2022. To achieve this target, the Hong Kong Government has mapped out four strategies as the backbone of the plan to overcome the challenge of food waste, namely: reduction at source, reuse and donation, recyclable collection, and turning food waste into energy.\n Results \n It is estimated that about 0.46 million tonnes CO 2 e GHG emissions can be avoided annually when the plan is fully implemented in 2022. Additionally, the target is to reduce Hong Kong's food waste disposal to landfills (about 3,600 tonnes per day in 2011) by at least 40% by 2022. It is estimated that about 20% of food waste would be avoided through the Hong Kong Food Wise Campaign, and the implementation of a waste-charging programme.\n Reasons for success \n The success of Hong Kong’s Food and Yard Waste Plan is based on the comprehensive plan to tackle the largest component of municipal solid waste, in conjunction with an understanding of the local environment and the diverse role that citizens, businesses and the Government can play, as well as combination various incentives, from awareness-raising to financial stimulus.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Waste to Resources Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "It is estimated that about 0.46 million tonnes CO 2 e GHG emissions can be avoided annually when the plan is fully implemented in 2022. Additionally, the target is to reduce Hong Kong's food waste disposal to landfills (about 3,600 tonnes per day in 2011) by at least 40% by 2022. It is estimated that about 20% of food waste would be avoided through the Hong Kong Food Wise Campaign, and the implementation of a waste-charging programme.\n\nThe success of Hong Kong’s Food and Yard Waste Plan is based on the comprehensive plan to tackle the largest component of municipal solid waste, in conjunction with an understanding of the local environment and the diverse role that citizens, businesses and the Government can play, as well as combination various incentives, from awareness-raising to financial stimulus.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -28,7 +53,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-food-and-yard-waste-plan/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27085",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-hong-kong-food-and-yard-waste-plan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

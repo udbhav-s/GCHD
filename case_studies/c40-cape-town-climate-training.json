@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cape-town-climate-training",
   "url": "https://www.c40.org/case-studies/cape-town-climate-training/",
   "title": "Adaptive Climate Leadership Training in Cape Town",
@@ -30,6 +30,31 @@
   "hazards": [
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The city of Cape Town has developed a programme to train city staff on how to manage uncertainty and respond appropriately during extreme weather events and climate shocks.",
+    "measures": "The City of Cape Town strives to build a leadership culture so that, when confronted with potential shocks and stresses, the collective behaviour of leaders will be collaborative, agile, adaptable and responsive. The essence of adaptive leadership is to promote adaptability that allows the organization to flourish and learn from past experiences in order to guide future successes. \n Cape Town's Adaptive Leadership training programme is an initiative aimed at developing the skills of staff of the City of Cape Town to lead in a rapidly changing world impacted by climate change. The programme has two main modules. \n The first module is a simulation exercise of a heatwave scenario, aiming to: \n Improve adaptive leadership capabilities in the City \n Allow applying adaptive capabilities in practice\n Broaden City staff understanding about resilience in the urban environment \n During the simulation exercise, staff members are assigned roles at random and are then presented with various elements of information through mock news headlines as the heat wave escalates. The heat wave simulation provides a unique learning opportunity to apply adaptive leadership skills in practice. The adaptive leadership model is designed to assist organisations and individuals in dealing with significant and disruptive changes in uncertain times where no set procedures or clear guidelines exist. Adaptive leaders make use of practices and strategies that assist in accomplishing change and developing the adaptability required to thrive in challenging and complex environments. \nThe second module of this programme is an Adaptive Leadership Masterclass. City staff are taught the theoretical and practical knowledge of the adaptive leadership approach through an interactive training session. This aims to complement the simulation activities. \nFinally, all participants are invited to form part of an adaptive leadership community of practice following their attendance at a session. This community of practice aims to share articles, videos and best practice information about adaptive leadership so that staff are continually prompted with additional information and tools to strengthen their adaptive leadership capabilities.\n The Adaptive Leadership training programme puts emphasis on the capabilities of people to respond to uncertainty. It is not aiming to produce exact responses to specific climate shocks, but rather build the broad range of skills needed to respond to any event on any scale.\n Next Steps \n At present, the City of Cape Town held two simulation exercises and two masterclasses which have helped to refine the project. During this time 100 staff members have been trained. The plan is to scale the project to reach at least four simulations and eight masterclasses per year, with an estimated 50 staff members attending each simulation exercise and 25 each masterclass. Over the next 5 years, the City of Cape Town aims to train 1,000 city staff members.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cape-town-climate-training/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27477",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cape-town-climate-training&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

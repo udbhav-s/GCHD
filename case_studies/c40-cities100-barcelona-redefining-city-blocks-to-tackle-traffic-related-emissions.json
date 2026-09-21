@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions",
   "url": "https://www.c40.org/case-studies/cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions/",
   "title": "Cities100: Barcelona – Redefining City Blocks to Tackle Traffic-Related Emissions",
@@ -31,6 +31,36 @@
     "air_pollution_pm25",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "barcelona",
+      "label": "Barcelona"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Barcelona is a densely built city dealing with a lack of urban green space and chronic air and noise pollution problems. The Superblocks approach to spatial organization will increase green spaces and decrease emissions in a city where transportation accounts for 27.8% of CO2 emissions.",
+    "measures": "Through the Superblocks program, Barcelona is redesigning the city’s streets to limit traffic and increase the amount of green and recreational spaces available to citizens. The new program changes traditional city blocks into clusters of “superblocks,” where perimeter streets allow through traffic, but inner streets are reserved for pedestrians and cyclists. So far, the city has created Superblocks in four pilot neighborhoods, and by 2019, it expects the program will achieve CO2 emissions reductions of between 20% and 75%. The Superblocks program does not involve major physical changes, which allows for experimentation and reversibility. The project is part of a larger Urban Mobility Plan, a strategic measure of Barcelona’s Climate Commitment, expected to decrease traffic by 21% while extending car-free spaces by more than 23 hectares and adding 300 km of bike lanes. This measure will reduce CO2 emissions by 159,100 metric tons per year.\n Environmental Benefits – The project increases the amount of green spaces, reduces the heat island effect, and improves air quality.\n Social Benefits – The new car-free public spaces encourage use by children and the elderly, and create opportunities for social interaction, sports, and cultural activities.\n Economic Benefits – The Superblocks program improves the quality of life in the city which makes Barcelona a more attractive destination for businesses and their employees.\n Health Benefits – The project simultaneously reduces the city’s noise pollution levels while increasing the amount of green space by 1 m2 per capita.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +69,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27183",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-barcelona-redefining-city-blocks-to-tackle-traffic-related-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

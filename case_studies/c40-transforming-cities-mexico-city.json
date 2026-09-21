@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-mexico-city",
   "url": "https://www.c40.org/case-studies/transforming-cities-mexico-city/",
   "title": "Transforming Cities: Mexico City’s rain catchers",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn about Juana, from Milpa Alta, who takes inspiration from the nopales cacti and stores water by harvesting the rain with the help of a city programme.",
+    "measures": "Juana lives in Milpa Alta, a municipality famous for its “green gold” – the nopales cacti. With her family and community struggling on a rationed supply of water, she takes inspiration from the nopales and stores water by harvesting the rain with the help of a city programme.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Cosecha de lluvia, Mexico City Government by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-mexico-city/",
     "publication_date": "2023-03-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "34162",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-mexico-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-22T14:16:38",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

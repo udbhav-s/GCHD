@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-flood-warning-system-to-protect-low-income-frontline-communities",
   "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-flood-warning-system-to-protect-low-income-frontline-communities/",
   "title": "Inclusive Water Resilience Accelerator Fund | Creating a community-based early flood warning system to protect low-income, frontline communities",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Rio de Janeiro is developing its first community-based early flood warning…",
+    "measures": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Rio de Janeiro is developing its first community-based early flood warning system (CBFEWS) to address riverine flooding in the Acari basin. Increasingly extreme rainfall and limited monitoring have caused significant damage and pose major risks to public health, particularly in low-income communities facing the worst impacts. The new system will use real-time monitoring, “nowcasting” technology, and emergency protocols to provide advance warnings before flood events. This will allow for more timely preparation and response. \n Local communities are active stakeholders in the process: participatory co-design sessions capture residents’ lived experiences and ensure community needs are directly reflected. Residents also receive training to understand and manage the system, building ownership and fostering long-term sustainability. \n The CBFEWS strengthens equitable climate resilience by protecting frontline communities and offers a scalable model for at-risk watersheds across Rio de Janeiro.\n learn more about the rio project \n more about C40’S ICA FUND",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-flood-warning-system-to-protect-low-income-frontline-communities/",
     "publication_date": "2025-11-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45702",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-flood-warning-system-to-protect-low-income-frontline-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:54:02",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

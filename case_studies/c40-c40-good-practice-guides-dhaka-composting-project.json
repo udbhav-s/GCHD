@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-dhaka-composting-project",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-dhaka-composting-project/",
   "title": "C40 Good Practice Guides: Dhaka – Composting project",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dhaka-north",
+      "label": "Dhaka North"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Dhaka is one of the most densely populated cities in Asia (population of around 12 million), with many people…",
+    "measures": "Summary \n Dhaka is one of the most densely populated cities in Asia (population of around 12 million), with many people living in slums and squatter settlements. Although it recently adopted a Solid Waste Master Plan, most areas of the city lack sufficient waste collection services. Only 40-60% of Dhaka’s waste is collected and transported to the city’s two landfills. xi Out of the approximately 1.65 million metric tons of solid waste that Dhaka generates annually, more than 80% is composed of organic matter. xii \n Waste Concern, an NGO, has demonstrated that such a venture can be profitable if land is provided and waste collection facilitated by the city, and if the government promotes the sale of organic fertilizer. In 1995, for the first time in Dhaka, Waste Concern initiated a community- based decentralized Composting Project at Section-2, Mirpur. Since then the plant has been running satisfactorily, is contributing to reducing GHG emissions compared to burning the waste, and has been replicated in other communities with land being provided by public agencies and local government bodies. xiii \n Results \n So far, Waste Concern’s model of managing waste has reduced more than 18,000 tons of CO 2 emissions each year in Bangladesh and generated 414 new jobs for the urban poor. It is helping to reduce the 52% of generated solid waste that remains uncollected in Dhaka. Waste Concern works with municipal governments to use solid waste as a resource by composting waste in 5 community-based composting plants (one 10-12 tons/day capacity; two 3 tons/day capacity; and two 1 ton/day capacity plants) and then selling it to fertilizer companies.\n To scale-up its model, Waste Concern as a Social Business Enterprise partnered with a for-profit private Dutch company using CO 2 emissions offsets from the Clean Development Mechanism (CDM) of the Kyoto Protocol. As part of the project, they are building 700 tons/day-capacity compost plants strategically located in the periphery of Dhaka city, with a production capacity of 50,000 tons/year, aiming to reduce CO 2 emissions by 560,000 tons over the next 6 years. Over the long term, composting all organic waste in Dhaka would create new jobs for about 16,000 people, especially women. Waste Concern also established a Regional Recycling Training Centre located in Dhaka, offering training programs to help local officials to undertake full operational activities. This model has already been replicated in more than 26 cities. xiv \n Reasons for success \n The success of the composting project in Dhaka is based on the favourable composition of solid wastes, with a higher percentage of organic matter, precisely the right moisture content and C/N ratio slightly higher but adjustable, xv as well as partnership with an expert organization experienced in running similar projects. The public-private-community partnership also helped to guarantee financial viability of such a project, in particular thanks to the initial land provision by the municipality, necessary to launch the composting project and exploit its benefits.\n When/why a city might adopt an approach like this \n Cities grappling with land scarcity and increasing waste generation need to look for options beyond conventional waste disposal facilities as well as to maximising resources through energy recovery. Similar approaches will help cities reduce the footprint of waste treatment facilities as well as lead to solutions for energy recovery from growing waste generation. Similarly, cities with greater organic composition of their waste stream could invest in decentralized composting facilities to harness eco-friendly compost, thereby reducing several tonnes of methane emissions from waste decomposition in landfills. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "So far, Waste Concern’s model of managing waste has reduced more than 18,000 tons of CO 2 emissions each year in Bangladesh and generated 414 new jobs for the urban poor. It is helping to reduce the 52% of generated solid waste that remains uncollected in Dhaka. Waste Concern works with municipal governments to use solid waste as a resource by composting waste in 5 community-based composting plants (one 10-12 tons/day capacity; two 3 tons/day capacity; and two 1 ton/day capacity plants) and then selling it to fertilizer companies.\n To scale-up its model, Waste Concern as a Social Business Enterprise partnered with a for-profit private Dutch company using CO 2 emissions offsets from the Clean Development Mechanism (CDM) of the Kyoto Protocol. As part of the project, they are building 700 tons/day-capacity compost plants strategically located in the periphery of Dhaka city, with a production capacity of 50,000 tons/year, aiming to reduce CO 2 emissions by 560,000 tons over the next 6 years. Over the long term, composting all organic waste in Dhaka would create new jobs for about 16,000 people, especially women. Waste Concern also established a Regional Recycling Training Centre located in Dhaka, offering training programs to help local officials to undertake full operational activities. This model has already been replicated in more than 26 cities. xiv\n\nThe success of the composting project in Dhaka is based on the favourable composition of solid wastes, with a higher percentage of organic matter, precisely the right moisture content and C/N ratio slightly higher but adjustable, xv as well as partnership with an expert organization experienced in running similar projects. The public-private-community partnership also helped to guarantee financial viability of such a project, in particular thanks to the initial land provision by the municipality, necessary to launch the composting project and exploit its benefits.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-dhaka-composting-project/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27127",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-dhaka-composting-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

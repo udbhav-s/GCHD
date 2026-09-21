@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-sao-paulo-incentivizing-density-near-public-transit",
   "url": "https://www.c40.org/case-studies/cities100-sao-paulo-incentivizing-density-near-public-transit/",
   "title": "Cities100: São Paulo – Incentivizing Density Near Public Transit",
@@ -30,6 +30,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "sao-paulo",
+      "label": "São Paulo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "São Paulo has been challenged by new commercial and residential developments being built in parts of the city with suboptimal existing public infrastructure. This scheme of charging developers according to a model that takes into account socio-economic factors, such as access to public transit, and environmental footprints drives real estate development toward areas of the city in need of investments.",
+    "measures": "To promote more sustainable and transit-oriented urban development, São Paulo devised a scheme in which real estate developers must financially compensate the city for new developments based upon the value of the land, the cost of creating new urban infrastructure – particularly public transportation – and the environmental impacts of new construction. The scheme incentivizes mixed-use development in an effort to reduce the need for transport, while stimulating developments in less valued areas near existing public transportation. The plan also creates new economic opportunities in the city’s poorest neighborhoods.\n With the scheme raising $150 million per year, the city has been able to invest in projects such as bus rapid transit, subway, and train service, as well as create parks to reduce the urban heat island effect and improve rainwater management. São Paulo aims to have its entire municipal bus fleet run on renewable fuels by 2018, and the increased use of public transportation significantly contributes to the reduction of the city’s greenhouse gas emissions.\n Social Benefits – As part of this scheme, the city aims for all citizens to live within 300 meters of a BRT stop and 600 meters of a subway or train station.\n Economic Benefits – The scheme promotes more efficient public transit, which reduces the economic opportunity cost of commuting between São Paulo’s peripheries and the city center.\n Health Benefits – By encouraging more mixed-use developments and active transportation, such as biking and walking, the scheme offers health benefits to citizens.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-sao-paulo-incentivizing-density-near-public-transit/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27022",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-sao-paulo-incentivizing-density-near-public-transit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

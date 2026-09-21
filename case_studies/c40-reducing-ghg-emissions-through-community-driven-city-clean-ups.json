@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-reducing-ghg-emissions-through-community-driven-city-clean-ups",
   "url": "https://www.c40.org/case-studies/reducing-ghg-emissions-through-community-driven-city-clean-ups/",
   "title": "Reducing GHG Emissions through Community-Driven City Clean-Ups",
@@ -26,6 +26,36 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nairobi",
+      "label": "Nairobi"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Nairobi City County Government has been engaging local communities in monthly clean-ups as a way of eliminating illegal dumpsites and sensitizing residents on the need to embrace proper waste management practices. The initiative is geared towards ensuring sustainable waste management which ultimately will also reduce GHG emissions emanating from decomposing waste not managed properly. Nairobi generates approximately 2,400 tons/day of waste, which is taken to the main landfill of Dandora – 57% of this waste is organic, 22% plastic and 21% paper and glass.",
+    "measures": "The Governor of Nairobi, H.E Mike Sonko, has put in place robust measures that have seen Nairobi residents embrace monthly clean-ups within their neighbourhoods. Unlike in the past, when clean-ups were held sporadically in separate locations, the current administration has set the first Saturday of every month as the official city’s clean-up day.\n While launching the initiative five months ago, the governor was on record stating that he would be at the forefront to ensure that the clean-ups were sustained. The concept behind these clean-ups was inspired by the idea of engaging stakeholders to ensure that they take up waste management as their own initiative. There are at least 85 clean-ups going on at the same time during the day of the ‘monthly clean-up’. Political leaders, administrators and environment officers are leading the initiative, which has been widely embraced by the residents of all the 85 wards across Nairobi.\n To ensure sustainability, campaigns have been conducted by urging stakeholders to support the initiative. Business owners in different localities provide working tools and equipment, refreshments and branded shirts in areas within their jurisdictions. Several schools let their pupils join other stakeholders as a way of creating awareness on responsible waste management. In previous clean-ups, some State Agencies have supported the process by providing tree seedlings, used to reclaim ground that was initially used as dumping ground. All this in an effort to increase green spaces in the City, improve environmental benefits, reduce carbon emissions, improve air quality, and ultimately enhance the health of city residents.\n Some illegal dumpsites around the city were manned by criminal gangs. There have been positive changes in their management since the clean-ups were launched. The street urchins who used to charge levies at those grounds, have since voluntarily abandoned those areas, allowing the County Government to finally clear the accumulated waste from those sites. On its part, the County Government, in partnership with stakeholders, has planted trees in these areas as a clear indication of a change in use of such spaces. For instance, one of the areas that held over 500 loads of solid waste was the former Kangemi Cemetery, which has now been rehabilitated into a children’s playground after a successful clean-up.\n These clean-ups have seen the city streets and backyards cleared of garbage, and clean standards encouraged and sustained. The County Government has been able to carry out campaigns through the printing and electronic press and social media, so as to reach out as many stakeholders as possible. The Governor also reached out to the President inviting him to the October 2018 monthly clean-up at Uhuru Market in Makadara Subcounty. An invitation which the President accepted.\n There is plenty of hope and optimism towards having the public fully embracing the clean-ups and sustain cleanliness in the city. This program is also meant to encourage waste source separation and segregation so that Nairobi residents can view waste as a resource rather than just trash. Within a few months there has been a great increase in the number of green open spaces in the County. All this will go a long way in reducing methane gas and other greenhouse gases generated from decomposing waste and waste incineration.\n Links to further Information \n President Kenyatta at Nairobi County Clean up (VIDEO) \n Uhuru Market Clean-up exercise led by Nairobi Governor Mike Sonko (VIDEO – partially in English) \n Contact Details \n Phillip Dinga\n C40 City Adviser\n Nairobi, Kenya\n pdinga@c40.org",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/reducing-ghg-emissions-through-community-driven-city-clean-ups/",
     "publication_date": "2018-11-27",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27413",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=reducing-ghg-emissions-through-community-driven-city-clean-ups&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

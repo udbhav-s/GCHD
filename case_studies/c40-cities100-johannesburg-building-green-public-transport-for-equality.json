@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-johannesburg-building-green-public-transport-for-equality",
   "url": "https://www.c40.org/case-studies/cities100-johannesburg-building-green-public-transport-for-equality/",
   "title": "Cities100: Johannesburg – Building Green Public Transport for Equality",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Johannesburg is still shaped by its apartheid past, resulting in a large share of black citizens struggling with unemployment – up to 60% of residents in some areas – or traveling long distances to work and school, forced either to walk or pay a disproportionate share of their earnings for transport. With the Corridors of Freedom, the city combats high levels of inequality by creating affordable public transport services and improving economic growth and job density.",
+    "measures": "Johannesburg is undergoing a transformation to rid itself from its past as a segregated city. The city plans to build high-density housing, offices, social facilities, and retail along its revitalized transport corridors – the Corridors of Freedom – enabling residents to have shorter, more enjoyable commutes, without using private motorized transport. Implementing a low-emissions bus rapid transit (BRT) system will offer fast, safe, and affordable mobility, and increase employment opportunities for residents living far from central city areas.\n With transportation responsible for 25% of the city’s total emissions, Johannesburg is a big emitter of greenhouse gases, contributing 56% of emissions in South Africa. Johannesburg therefore aims to replace old minibus taxi fleets with cleaner buses using alternative fuels. As an incentive, taxi owners handing over their vehicles – which 585 owners have done to date – are granted shares in the company operating the new BRT system. The city makeover is estimated to reduce CO2 emissions by 1.6 million tons by 2020.\n Environmental Benefits – As the transportation sector is the second highest source of pollution in Johannesburg, the Corridors of Freedom will relieve some of this environmental burden on the city.\n Social Benefits – As 67.4% of households in Johannesburg live on less than $325 per month, the introduction of affordable public transport service simply puts more money back into residents’ pockets.\n Economic Benefits – Building the BRT system has already created more than 24,600 jobs, and the ongoing expansion will create an additional 18,600 job opportunities.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-building-green-public-transport-for-equality/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27050",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-johannesburg-building-green-public-transport-for-equality&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

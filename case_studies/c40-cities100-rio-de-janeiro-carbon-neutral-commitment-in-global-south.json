@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-rio-de-janeiro-carbon-neutral-commitment-in-global-south",
   "url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-carbon-neutral-commitment-in-global-south/",
   "title": "Cities100: Rio de Janeiro – Carbon-Neutral Commitment in Global South",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Rio faces climate change threats due to a change in rainfall patterns, impacting the availability of water and energy, with hydropower production accounting for more than 70 % of current electricity usage. Rio is securing a sustainable future for its people by planning for water and energy efficiency measures with a commitment to carbon neutrality through the Neutral Carbon Rio Strategy.",
+    "measures": "As one of the first cities in the global south to commit to long-term carbon neutrality as a municipal policy, Rio de Janeiro has launched its 50-year Neutral Carbon Rio Strategy to achieve carbon neutrality by 2065, putting the city on a low-carbon, resilient, and inclusive path to development. Rio has established a greenhouse gas inventory based on the Global Protocol for Community-Scale Greenhouse Gas Emission Inventories (GPC), acting as the foundation for establishing climate goals and actions, which will be regularly revisited and updated. So far, the city plans to improve the public transport network, as well as water and energy efficiency, with a goal to reuse more than 80% of all water consumed, preserve floodplains within the city, and produce 30% of energy consumed in the city from renewable and decentralized sources. Overall, the project aims to reduce the city’s annual carbon emissions from a baseline of 11.6 million tons to 9.2 million tons by 2020, and further to 2.3 million tons by 2050, a full 80% reduction.\n Environmental Benefits – The strategy will see cleaner air through the use of clean fuels, improving the quality of local ecosystems.\n Social Benefits – The strategy promotes a more inclusive city, due to a better and more efficient public transportation network, available to more people.\n Economic Benefits – Through the implementation of the Neutral Carbon Rio Strategy, Rio de Janeiro will focus and develop its sustainable construction industry, making use of green technology and renewable energy.\n Health Benefits – It is expected that there will be fewer occurrences of waterborne diseases due to better water management and measures to decrease urban flooding that are included in the strategy.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Emissions or carbon inventory",
@@ -44,7 +69,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-carbon-neutral-commitment-in-global-south/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27247",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rio-de-janeiro-carbon-neutral-commitment-in-global-south&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-boston-microgrids",
   "url": "https://www.c40.org/case-studies/boston-microgrids/",
   "title": "Boston Smart Utilities Vision: Initiating a New Microgrid Policy",
@@ -27,6 +27,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "boston",
+      "label": "Boston"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Boston has initiatied a policy that will see any building with a floorspace of over 1.5 million square feet be supplied with its own electrical microgrid.",
+    "measures": "In June 2018, the Boston Planning and Development Agency (BPDA) adopted the Smart Utilities Policy. This policy is an implementation tool of the Boston Smart Utilities Vision, a multi-departmental initiative for more sustainable, resilient, equitable and innovative utility services across energy, water, transit, and telecom. The policy calls for the integration of five Smart Utility Technologies (SUTs) into new large projects. Specific to energy, this policy requires proponents of new developments 1.5 million square feet or larger to submit a technical and financial feasibility assessment for advanced energy systems, including a district energy microgrid. The assessment is reviewed by the Smart Utilities Program Steering Committee and the Interagency Green Building Committee. If an advanced system is feasible, developers must produce a District Energy Microgrid Master Plan, which coordinates the phasing-in of the energy system with the phasing-in of the development. Because four separate utility sectors share the City’s space underground, the program will foster more efficient and effective deployment of Smart Utility Technologies.\n What is the project? How does it work? \n Boston’s requirement for large developments to study and install district energy microgrids is a first in the country. By addressing the concrete technical, legal, regulatory, and financial issues associated with private, multi-user local energy systems, it will provide a model for others.\n District Energy Microgrids are a novel way of addressing specific vulnerability concerns for large developments. When major flooding or other storm events knock out power on the grid, the district energy microgrid continues to provide both electricity and thermal energy. The district energy component means that heating and cooling is generated as a by-product of other generation, limiting and at times eliminating the need for energy produced by a fossil fuel furnace. While the regulation currently only applies to developments over 1.5 million square feet, its successful implementation will stand as an example of what is possible for both district energy and microgrids in the city.\n The district energy microgrid feasibility assessment required by the Smart Utilities Policy will be adjusted over time to support the evolution of carbon neutrality policies and programs.\n What are the CO2 reduction goals? \n Under the policy, project proponents assess advanced energy system benefits in terms of GHG emission reduction, resilience, and cost reduction. Projects under review are resulting in greater amounts of cogeneration, which achieve significant GHG reductions compared to business-as-usual energy systems, as well as in an increased amount of rooftop solar and other renewables.\n The Smart Utilities Policy aims to create new development that is resilient to the expected increase in storms and sea level rise. The District Energy Microgrid technology should allow developments greater than 1.5 million square feet to “island” themselves and disconnect from the grid during power outages and continue to provide thermal energy and electricity. \n The program supports economic development by attracting businesses through world-class, modern, efficient, and cheaper utility services. The deployment of Smart Utility Technologies aims to support the creation of jobs, as highlighted in the Resilient Boston report of 2016. Requiring street light poles to be designed with extra electrical and fiber optics enable future smart technology city-wide, supporting innovation and smart technology businesses. \n A goal of the program is to lower the cost of utility services. District Energy Microgrids will reduce energy costs through energy efficiency. A Telecom Utilidor will eliminate entry barriers for new companies by eliminating the need for street opening for infrastructure installation.\n Next Steps \n By embedding this policy into the review of large development areas, the program will achieve deployment across the City. Although the District Energy Microgrid policy currently applies only to the largest project, it is likely that these solutions will be applicable to smaller projects in the future.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/boston-microgrids/",
     "publication_date": "2020-02-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27509",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=boston-microgrids&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

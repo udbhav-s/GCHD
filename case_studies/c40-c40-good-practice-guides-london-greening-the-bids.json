@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-london-greening-the-bids",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-greening-the-bids/",
   "title": "C40 Good Practice Guides: London – Greening the BIDs",
@@ -31,6 +31,31 @@
     "river_flood",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "london",
+      "label": "London"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Greater London Authority (GLA) is working with Business Improvement Districts (BIDs)xxviii in central London to identify and then…",
+    "measures": "Summary \n The Greater London Authority (GLA) is working with Business Improvement Districts (BIDs) xxviii in central London to identify and then deliver opportunities for increasing green cover. The ‘Greening the BIDs’ project has supported 15 green infrastructure audits and part-funded demonstration projects with the aim of catalysing urban greening in central London. This will help deliver Mayoral objectives to increase green cover to reduce the Urban Heat Island effect and tackle local surface water flooding, while enhancing the beauty of London.\n Results \n In total over 500 hectares have been audited through Greening the BIDs, identifying the potential for over 300 rain gardens, 200 green walls and more than 100 hectares of green roofs, as well as other small-scale interventions such as planters and window boxes. These audits have revealed the potential to introduce 1 million m2 of new green cover. Greening the BIDs has successfully generated interest in and awareness of urban greening. This in turn encourages businesses to invest in green infrastructure as part of their longer-term refurbishment and regeneration strategies.\n Reasons for success \n This project was a success because it put the co-benefits of greening at the forefront, showing that “greening is good for business”. Increasing green infrastructure not only makes areas more attractive to business – both workers and clients/shoppers, but also increases property value and rental incomes, while helping urban areas to be more resilient to extreme weather events, thus helping to preserve economic sustainability. Another reason for the success of the project was that it approached it from the angle of economic value, rather than just environmental impacts, and the implementers spent time confirming that value was what BID managers were looking for before launching the project.\n When/why a city might adopt an approach like this \n This approach works well where cities have limited control over building regulation or there is limited popular support or understanding of co-benefits of greening (including cooling). It also requires a high degree of capacity within government to undertake these audits or collaborate with a third party to perform the audits. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cool Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "In total over 500 hectares have been audited through Greening the BIDs, identifying the potential for over 300 rain gardens, 200 green walls and more than 100 hectares of green roofs, as well as other small-scale interventions such as planters and window boxes. These audits have revealed the potential to introduce 1 million m2 of new green cover. Greening the BIDs has successfully generated interest in and awareness of urban greening. This in turn encourages businesses to invest in green infrastructure as part of their longer-term refurbishment and regeneration strategies.\n\nThis project was a success because it put the co-benefits of greening at the forefront, showing that “greening is good for business”. Increasing green infrastructure not only makes areas more attractive to business – both workers and clients/shoppers, but also increases property value and rental incomes, while helping urban areas to be more resilient to extreme weather events, thus helping to preserve economic sustainability. Another reason for the success of the project was that it approached it from the angle of economic value, rather than just environmental impacts, and the implementers spent time confirming that value was what BID managers were looking for before launching the project.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-greening-the-bids/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27104",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-london-greening-the-bids&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-rainwater-harvesting-in-mexico-city-as-a-measure-to-reduce-the-impacts-of-floods-increase-water-security-and-guarantee-rights-to-water-and-health",
   "url": "https://www.c40.org/case-studies/rainwater-harvesting-in-mexico-city-as-a-measure-to-reduce-the-impacts-of-floods-increase-water-security-and-guarantee-rights-to-water-and-health/",
   "title": "Rainwater Harvesting in Mexico City as a Measure to Reduce the Impacts of Floods, Increase Water Security and Guarantee Rights to Water and Health",
@@ -26,6 +26,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Mexico City has implemented a rainwater harvesting system that reduces the negative impacts of floods, guarantees the human right to water and health and favours the water security of Mexico City.",
+    "measures": "Currently, one of the fundamental sectors associated with the resilience of Mexico City is the supply and management of water resources. Dependence on external sources of supply, increased demand due to urban expansion, overexploitation of the aquifer and inefficiencies in the water management system, generate a situation of vulnerability exacerbated by the adverse effects of climate change, such as increase in water demand, degradation of catchment areas and reduction in quality and recharge (Mexico City Resilience Office, 2016; SEDEMA, 2014).\n By 2050, a reduction of between 13% and 17% in the natural availability of water for Mexico City is estimated. Likewise, climate change can increase problems currently faced by water infrastructure, for example, through lower rainfall, which is linked to supply cuts to ration consumption and ensure resource supply; or more intense periods of rain, which exceeds the discharge capacity of the drainage causing flooding and affecting mobility and public health (SEDEMA, 2014).\n In this regard, Mexico City is in the process of designing its Local Climate Action Strategy (ELAC) 2020-2040 and the Climate Action Programme of Mexico City (PACCM) 2020-2026, which integrate climate policy cross-cutting and coordinated in the long, medium and short term, contributing to achieving the 2030 Agenda Objectives on Sustainable Development and meeting the goals of the Paris Agreement.\n Specifically, the adaptation policy of Mexico City will be aligned with the objectives of the Paris Agreement on adaptation and with the goals set in the Nationally Determined Contribution (NDC) of Mexico. Thus, the ELAC and the PACCM will aim to reduce vulnerability and increase the adaptive capacity of communities in the face of the effects of climate change (community-based adaptation – AbC); reduce risks and increase the resilience of strategic infrastructure and productive systems (adaptation based on disaster risk reduction – DRR), and conserve and sustainably use the ecosystems and ecosystem services they provide (ecosystem-based adaptation – AbE).\n The climate change adaptation policy will be developed and implemented through participatory and inclusive projects, with a human rights and gender equity perspective, seeking to reduce the risks of the most vulnerable populations and ecosystems, and promoting capacity building and mainstreaming and integrality of environmental and development policies.\n What is the Policy? \n Specifically, the implementation of rainwater harvesting systems (“sistemas de captación de agua de lluvia” (SCALL)) promotes the development and use of green technologies, promotes education and awareness of the use and care of water and guarantees the inclusion of the most vulnerable groups. It also reduces the negative impacts of floods, guarantees the human right to water and health and favors the water security of Mexico City.\n Therefore, the SCALL are positioned as one of the strategic lines of action in the design of the ELAC and the PACCM, in order to reduce the water vulnerability of Mexico City and strengthen the participatory and inclusive construction of resilience.\n Links to further information \n Mexico City Resilience Office (2016), Mexico City Resilience Strategy \n Secretariat of the Environment (2014), Climate Action Program of Mexico City 2014-2020",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/rainwater-harvesting-in-mexico-city-as-a-measure-to-reduce-the-impacts-of-floods-increase-water-security-and-guarantee-rights-to-water-and-health/",
     "publication_date": "2019-12-23",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27466",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=rainwater-harvesting-in-mexico-city-as-a-measure-to-reduce-the-impacts-of-floods-increase-water-security-and-guarantee-rights-to-water-and-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

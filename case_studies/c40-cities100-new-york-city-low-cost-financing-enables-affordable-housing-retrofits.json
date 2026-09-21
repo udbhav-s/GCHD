@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-low-cost-financing-enables-affordable-housing-retrofits",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-low-cost-financing-enables-affordable-housing-retrofits/",
   "title": "Cities100: New York City – Low-Cost Financing Enables Affordable Housing Retrofits",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Thirty-five percent of New York’s emissions come from residential buildings; however, many small or medium property owners do not have the means to undertake retrofits as they also face mounting utility and operating costs. GHPP enables the city’s affordable housing sector to undertake upgrades and reduce greenhouse gas emissions while maintaining housing affordability",
+    "measures": "New York City’s Green Housing Preservation Program (GHPP) aims to reduce housing costs and greenhouse gas emissions in the city’s affordable housing sector by easing barriers to undertake energy efficiency and water conservation improvements. Under the program, property owners, who often perceive housing improvements as out of reach, gain access to energy audit information and low- or no-cost financing for key retrofit measures. With improvements such as the installation of efficiency controls, it is anticipated that owners may see more than a 10% annual reduction in utility costs, which account for roughly 25% of the average operating budget of a rent stabilized building. GHPP has the potential to impact a large number of owners and tenants in the city, as almost two-thirds of New York’s rental apartment buildings are eligible for the program. In addition to securing the climate resilience of owners and tenants in low- to moderate-income neighborhoods, the initiative is an important aspect of the city’s plan to reduce greenhouse gas emissions from buildings by 30% below 2005 levels by 2025.\n Environmental Benefits – GHPP decreases greenhouse gas emissions and increases the city’s resilience to extreme weather events.\n Social Benefits – Reductions in utility costs can help affordable buildings with restricted cash flow better prepare for financial and climate-related shocks and repair needs.\n Economic Benefits – Energy efficiency improvements could yield an average annual savings of approximately $1,500 per building for a 10-unit building and $3,000 for a 20-unit building.\n Health Benefits – Reducing greenhouse gas emissions reduces air pollutants, lowering risks for asthma, heart disease, and premature death.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-low-cost-financing-enables-affordable-housing-retrofits/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27201",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-low-cost-financing-enables-affordable-housing-retrofits&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

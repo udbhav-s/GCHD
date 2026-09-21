@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-paris-adaptation-strategy-secures-crucial-resources",
   "url": "https://www.c40.org/case-studies/cities100-paris-adaptation-strategy-secures-crucial-resources/",
   "title": "Cities100: Paris – Adaptation Strategy Secures Crucial Resources",
@@ -33,6 +33,31 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "paris",
+      "label": "Paris"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Paris faces a wide range of challenges due to climate change, such as heat waves, drought, flooding, fires, food and water security, and many more. The Paris Adaptation Strategy takes into account all known climate- related challenges, and sets out clear objectives for how the city can respond and adapt to these challenges while improving the resilience of the city.",
+    "measures": "In 2015, Paris implemented its Adaptation Strategy, a framework unanimously approved by the Paris City Council, aiming to adapt to climate change risks and their impacts on the city’s residents and resources. The strategy sets out four priority areas: protecting Parisians against extreme climate events; ensuring water, food, and energy supply; living with climate change; and fostering new lifestyles and boosting solidarity. As such, 30 goals and 35 actions have been identified and are now under implementation, monitored continuously. Such actions include securing the city’s food supply, aiming to reach 30 hectares of urban agriculture by 2020; monitoring how much of the city will be impacted by power failure in case of 100-year river flood; and increasing the area and length of the city’s cooling pathways during heat waves. Also helping Parisians cool down during extreme heat, the strategy ensures that all residents live within a seven-minute walk of a cool place and mandates that city parks remain open 24 hours a day during heat spells.\n Environmental Benefits – Greening actions taken under the strategy will help preserve and encourage more biodiversity in the city.\n Social Benefits – By constructing pools and increasing the amount of green spaces, residents have a new place to socialize during the summer.\n Economic Benefits – The strategy aims to have 25% of food consumed in Paris be locally produced by 2050, expanding the market for urban agriculture.\n Health Benefits – Parisians have access to new cooling options during heat spells, reducing the amount of heat-related health issues.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -41,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-paris-adaptation-strategy-secures-crucial-resources/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27229",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-paris-adaptation-strategy-secures-crucial-resources&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

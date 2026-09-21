@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-kuala-lumpur-carbon-inventory-leads-to-action-plan",
   "url": "https://www.c40.org/case-studies/cities100-kuala-lumpur-carbon-inventory-leads-to-action-plan/",
   "title": "Cities100: Kuala Lumpur – Carbon Inventory Leads to Action Plan",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kuala-lumpur",
+      "label": "Kuala Lumpur"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "According to the greenhouse gas inventory, buildings account for 55% of total emissions. Public housing makes up 64% of that figure. Leveraging emissions cuts in private buildings is a considerable challenge for cities like Kuala Lumpur.",
+    "measures": "Malaysia's largest and most populous city performed a carbon accounting exercise to measure quantities emitted in 2015, and is using that baseline to make further cuts through to 2022. Working with the Carbon Trust and the UK Foreign and Commonwealth Office, the city set up five-year carbon management strategies focusing on low-cost, high-impact policies. The greenhouse gas inventory was performed in line with the World Resources Institute's globally recognized accounting methodology and calculated that emissions in 2015 totaled 120,906 metric tons of CO2 equivalent. The inventory also identified buildings, transport, and outdoor lighting as the most emitting sectors. With an LED streetlight replacement program, as well as upgrading energy systems in inefficient municipal buildings, the city is showing the way for others in the region.\n Environmental Benefits – Kuala Lumpur has a consistent problem with air pollution due to illegal forest burning, industrial activity, and traffic emissions. Cutting energy consumption in the city can help to clear the haze.\n Economic Benefits – If successful, the carbon management plan will produce financial savings of $18 million compared to business as usual via energy bill savings.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Emissions or carbon inventory",
@@ -44,7 +69,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-kuala-lumpur-carbon-inventory-leads-to-action-plan/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27327",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-kuala-lumpur-carbon-inventory-leads-to-action-plan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

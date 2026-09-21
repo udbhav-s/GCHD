@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-umoja-estate-nairobi-turns-organic-waste-into-clean-energy-biogas",
   "url": "https://www.c40.org/case-studies/umoja-estate-nairobi-turns-organic-waste-into-clean-energy-biogas/",
   "title": "Umoja Estate: Nairobi Turns Organic Waste Into Clean Energy Biogas",
@@ -26,6 +26,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nairobi",
+      "label": "Nairobi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Nairobi City County Government, in partnership with other development partners (e.g. the World Bank), has set up a biogas plant in one of the 17 sub-counties of the city. The facility will use food waste to produce biogas.",
+    "measures": "Nairobi is the biggest economic and industrial city of Kenya. More than half of the city’s total population resides in informal settlements.\n There is a lack of organized solid waste management systems in the slums, partly due to poor accessibility, and lack of proper support infrastructure.\n There is, therefore, an urgent need to address the existing gaps in waste management in these areas. Perennial flooding has been attributed to blockages along sewer systems, and indiscriminate waste disposal led to waste in gullies, street medians, and water bodies. It is estimated that Nairobi generates 2,400 tons of waste daily. Out of this, more than 50% is organic.\n The current urbanization trend indicates that waste generation will continue to increase. The County Government established several partnerships with a number of institutions to set up facilities that can add value to the different waste streams, especially in areas with vulnerable individuals. Umoja estate was one such area.\n The project entails empowerment of local communities in the waste management chain. There is an ongoing development of a biogas power plant that is planned to benefit over 5,000 individuals in the surrounding area, and that will be built on a piece of land provided by the City County Government.\n How does it work? \n The biogas power plant will be fed with food waste from surrounding estates, and it will also use animal waste, such as cow dung.\n The plant will be able to capture, collect and process biogas for domestic use. The gas will be distributed among 5,000 local households and to nearby restaurants. This project is foreseen to positively impact the local residents’ economy and leave the surroundings cleaner.\n What are the CO2 reduction goals? \n The project will significantly reduce the city’s GHG emissions along with the number of illegal dumpsites within the Umoja estate, especially those with predominantly organic waste composition. This means that methane emissions from decomposing food will also diminish.\n Secondly, it will reduce the need to rely on wood-burning stoves, therefore significantly reducing CO2 emissions while at the same time bringing extra health benefits from switching to a cleaner cooking method.\n Next steps \n Nairobi City County is open to ideas that would go towards city’s emissions reduction. The success of the current plant will, in a large way, inform the next steps. It will be important to evaluate the appeal the project will have to other potential partners, such as the national government, the community, the private sector, as well as individuals.\n Contact details \n Mr. David Makori\n County Chief Officer- Environment and Natural Resources\n Nairobi City County Government\n P.O Box 30075-00100\n Nairobi",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/umoja-estate-nairobi-turns-organic-waste-into-clean-energy-biogas/",
     "publication_date": "2019-05-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27440",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=umoja-estate-nairobi-turns-organic-waste-into-clean-energy-biogas&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

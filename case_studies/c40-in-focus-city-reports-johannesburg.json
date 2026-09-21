@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-in-focus-city-reports-johannesburg",
   "url": "https://www.c40.org/case-studies/in-focus-city-reports-johannesburg/",
   "title": "In Focus City Reports: Johannesburg",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The In Focus city reports provide valuable insight into the efforts of the world's leading cities to become more sustainable. This report has been developed with C40's official reporting partner, CDP Cities, and AECOM, using data submitted through CDP's reporting platform. It conveys information about how Johannesburg perceives its climate risk, measures key climate change-related data, and manages climate action.",
+    "measures": "The In Focus city reports provide valuable insight into the efforts of the world's leading cities to become more sustainable. This report has been developed with C40's official reporting partner, CDP Cities, and AECOM, using data submitted through CDP's reporting platform. It conveys information about how Johannesburg perceives its climate risk, measures key climate change-related data, and manages climate action. Johannesburg was selected as the subject of an In Focus report based on the comprehensiveness of its submission and the quality of its data.\n Download the Report .\n For more details on the cities that participated in this year's reporting process, please visit https://data.cdp.net .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/in-focus-city-reports-johannesburg/",
     "publication_date": "2015-02-25",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26950",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=in-focus-city-reports-johannesburg&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

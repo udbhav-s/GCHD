@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-land-use-climate-change-bogota",
   "url": "https://www.c40.org/case-studies/land-use-climate-change-bogota/",
   "title": "Integrating Land-Use Planning and Climate Change in Bogota’s City Master Plan",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Bogota urban masterplan integrates climate objectives with land-use planning, through the Eco-efficiency policy.",
+    "measures": "The 2019 Bogotá City Master Plan, or the Bogotá POT (El Plan de Ordenamiento Territorial), is the overarching public policy plan for urban and rural regulation in Bogotá for the next 12 years. It is the primary roadmap to assign budgets and regulatory frameworks for urban development and contains policies, regulations, strategic projects, programmes, and indicators relevant to the below areas: \n Ecological Structure \n Public Space \n Public Transportation \n Public services (water, energy, sewage, waste management, etc) \n Land use\n One of the three key policies of the POT is the Eco-efficiency Policy. \n Its objective is to ensure that by 2031, Bogotá will have a responsible and efficient management system within its entire territory. This policy will be materialized through concrete mitigation and adaptation measures such as: \n Merging ecological structures and public space; \n Controlling the growth of ecological footprint by striving for a compact, dense and mixed use city; \n Increasing the environmental quality of the City;\n Mitigating climate change-induced risk;\n Implementing concrete actions to mitigate greenhouse gas emissions; and \n Planning a transit-oriented development.\n What is the policy? How does it work? \n Bogotá has been a national leader in urban regulation. This new policy builds on the previous urban plan, integrating lessons in terms of monitoring and evaluation, budget assignment and governance. Many cities in Colombia (small, medium or large scale) will be able to learn from this new 2.0 version of the urban regulation, as this is the first time that an urban regulation in Colombia tackles climate change in such a concrete way. The narrative around climate change adopted in the plan is clear and results-oriented, and it has been included in the strategic chapter in order to permeate as many aspects of the plan as possible.\n What are the CO2 reduction goals/achievements? \n The 2019 Bogotá City Master Plan tackles emissions reduction from all key sectors. It aims to transform the city model and orientate new developments and future densification areas around public transportation nods in order to disincentive the use of private cars. Currently, 9 lines of Bogota’s bus rapid transit (BRT) system have been built. The plan aims to add two additional BRT lines and the first metro line in Bogota. \nThe Plan also established a bicycle programme to promote cycling. It hopes to double the city’s 550km of cycling paths by 2050.\nIt also aims to upgrade the waste management scheme, implementing recycling goals and new technologies to treat solid waste.\n Finally, this Master Plan expects to implement a programme of ecological rehabilitation in non-mitigated high-risk areas. Today Bogotá has 26.6 ha of these areas, which should expand to 240 ha by 2031. The city aims to resettle 6,315 homes due to houses located in high-risk areas. The city also hopes to increase the number of sustainable drainage areas from 2 in 2018 to 40 in 2031.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/land-use-climate-change-bogota/",
     "publication_date": "2020-01-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27502",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=land-use-climate-change-bogota&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

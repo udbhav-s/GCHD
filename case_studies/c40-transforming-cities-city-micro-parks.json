@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-city-micro-parks",
   "url": "https://www.c40.org/case-studies/transforming-cities-city-micro-parks/",
   "title": "Transforming Cities: The need for micro-parks in urban spaces",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "fortaleza",
+      "label": "Fortaleza"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "Why micro-parks are changing how children play and engage with nature in Brazil \n In Fortaleza, the sound of motorbikes fades as children play in the shade of new micro-parks. These small green spaces are helping families experience the city differently – connecting children to nature and creating calm, playful places in the middle of busy streets. \n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Van Leer Foundation by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-city-micro-parks/",
     "publication_date": "2025-06-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42580",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-city-micro-parks&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-17T12:33:46",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

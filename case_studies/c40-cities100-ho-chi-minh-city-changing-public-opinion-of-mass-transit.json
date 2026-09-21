@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-ho-chi-minh-city-changing-public-opinion-of-mass-transit",
   "url": "https://www.c40.org/case-studies/cities100-ho-chi-minh-city-changing-public-opinion-of-mass-transit/",
   "title": "Cities100: Ho Chi Minh City – Changing Public Opinion of Mass Transit",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "ho-chi-minh-city",
+      "label": "Ho Chi Minh City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The city’s current road system is congested and dangerous, experiencing an average of 4,700 accidents each year. Many of these crashes involve motorbikes, of which there are eight for every 10 people. The SaiGon BRT line, which will expand to six corridors upon completion, will help ease this congestion and prepare Ho Chi Minh City for a safer and more sustainable future.",
+    "measures": "In cooperation with the World Bank, Ho Chi Minh City launched the Green Transport Development Project in 2013, with the aim of catalyzing a cultural shift around transportation in the region and getting more people onto mass transit and off of the congested roadways. The cornerstone of the project is SaiGon BRT, a 23 km bus rapid transit system that will accommodate up to 28,300 passengers daily when fully operational.\n In addition to the bus infrastructure, the BRT corridor will also provide space for cycling and walking, as well as bike parking facilities. With SaiGon BRT, the city seeks to transform how citizens view public transport, and lay the ground-work for a more sustainable future based on transit-oriented development. Prospective communities and commercial nodes will be built around tree-lined transit corridors, making mass transit the optimal way to get around the city while supporting development and growth.\n Social Benefits – By ensuring safer, faster, and more comfortable transportation, the Green Transport Development Project aims to change commuting habits and improve the public’s attitude towards mass transit.\n Economic Benefits – The city anticipates a substantial decline in traffic accidents and their associated costs due to the introduction of the BRT system.\n Health Benefits – Ho Chi Minh City foresees improvements in air quality that will reduce cases of bronchial and asthmatic diseases among residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-ho-chi-minh-city-changing-public-opinion-of-mass-transit/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27044",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-ho-chi-minh-city-changing-public-opinion-of-mass-transit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

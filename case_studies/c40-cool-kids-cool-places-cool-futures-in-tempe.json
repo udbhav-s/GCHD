@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cool-kids-cool-places-cool-futures-in-tempe",
   "url": "https://www.c40.org/case-studies/cool-kids-cool-places-cool-futures-in-tempe/",
   "title": "Cool Kids, Cool Places, Cool Futures in Tempe",
@@ -26,6 +26,36 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tempe",
+      "label": "Tempe"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative, Tempe was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects.",
+    "measures": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative , Tempe was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects. \n What is Cool Kids, Cool Places, Cool Futures? \n Tempe, Arizona is a sprawling Phoenix suburb impacted by record-breaking heat and heat-related deaths. In 2023, Phoenix endured the hottest month on record for any U.S. city: 31 days in a row at 43º Celsius (110° Fahrenheit) or above.\n In response to these dangerous temperatures, staff from the City of Tempe’s Office of Sustainability and Resilience united with local high school students and teachers for a project centred on youth education, dialogue, and activism. With support from Arizona State University (ASU) and the Indigenous Design Collaborative, the team worked together to establish Cool Kids, Cool Places, Cool Futures, a project designed to introduce nature-based solutions to help cool the city.\n Inspired by community-focused youth coalitions in Morocco and New Zealand , the project’s larger goal is to move heat resilience from individual responsibility to a community response.\n What has Cool Kids, Cool Places, Cool Futures achieved so far? \n The City of Tempe worked with partners to design and implement training sessions for six Summer Youth Fellows from McClintock High School to empower young people to become thought leaders and activists. \n ASU’s Indigenous Design Collaborative, ASU professors and researchers, and equity consultants co-developed the youth training programme. The training covered the history of Tempe and Indigenous knowledge in city planning decisions, particularly against extreme heat. At the same time, it made space for the young people to express their vision for a more inclusive and resilient city as its future caretakers.\n The history modules covered how the Native tribes indigenous to Tempe – including Salt-River Pima Maricopa Indian Community, Pascua Yaqui Tribe, and Gila River Indian Community – were systematically oppressed by the Federal government. Some, like the San Pablo Barrio Community, were displaced from their centrally located neighbourhood to La Victoria, a rural, isolated, and disinvested neighbourhood.\n The training highlighted the environmental injustice of the extreme heat in the neighbourhoods where Indigenous Peoples were displaced to, due to the lack of tree canopy, green spaces, and access to nature. The young people engaged in facilitated dialogue to increase their awareness of the historical and present-day lived realities of Tempe residents and empower them to take action.\n School gardens \n At one of the project’s partnering schools, McClintock High School, the 25 students in the Sustainability Club established a greenhouse and garden on the school grounds. Recognising the importance of nature in heat mitigation, the club planted over 30 desert-adapted native trees on the school grounds. \n Students planting native species to create a bioswale. © City of Tempe’s Sustainability Office \n Thanks to the Indigenous Design Collective, McClintock students are learning about indigenous growing and farming practices and using this knowledge to build and grow a larger courtyard garden at the school.\n At Connolly Elementary, teachers and students planted 61 trees of different species that are either native or well-suited for Tempe’s dry heat climate.\n Building on this success, the City of Tempe’s Sustainability Office has established a formal agreement with the Tempe school district to deepen existing partnerships and form new ones with passionate students, teachers and schools across the city.\n Beyond the school gates \n Extreme heat impacts are felt most by already vulnerable communities. The project’s members co-hosted an event during the Summer where they distributed ‘Readi Pack’ kits to unhoused people to help cope with the heat. The kits included a reusable water bottle, a cooling towel, sunblock, a collapsible bowl, wet wipes, and a transit pass in a reusable bag.\n Through the Cool Kids, Cool Places, Cool Futures project, the visionary leaders at City of Tempe’s Sustainability Office, Arizona State University, and Tempe school students and teachers have raised awareness about environmental justice, and empowered young people to be advocates and changemakers. Together, they have instituted initiatives at the city level to make Tempe a more equitable, green, and cool place to be.\n Learn more about Cool Kids, Cool Places, Cool Futures in Tempe \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cool-kids-cool-places-cool-futures-in-tempe/",
     "publication_date": "2023-10-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36688",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cool-kids-cool-places-cool-futures-in-tempe&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-16T12:17:16",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

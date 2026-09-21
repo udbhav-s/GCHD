@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights",
   "url": "https://www.c40.org/case-studies/efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights/",
   "title": "Efficient Urban Lighting in Chennai – Sodium Vapor Lamps Replaced with LED Lights",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "To reduce its stationary energy footprint, Chennai has set out to replace its stock of existing sodium vapour lamps with LED lights.",
+    "measures": "After the Greater Chennai Corporation (GCC) completed its Greenhouse Gas Inventory for the year 2015-16, it was found that the emissions footprint of GCC is about 2.9 T CO2 e / capita / year. The stationary energy footprint represented about 61%.\n The Greater Chennai Corporation has over the years worked to reduce the emissions footprint of the city by implementing various projects across domains.\n To reduce its stationary energy footprint, one of the major initiatives taken by Greater Chennai Corporation under the national Smart City Project was to replace its stock of existing sodium vapour lamps with LED lights. Sodium vapor lamps have been used for urban lighting traditionally, but the GCC believes that adapting to new changes is part of the process of progressing towards a better city. LED based lighting systems have become popular in recent years, thanks to their low voltage and brighter lighting capabilities. It is an excellent substitute to incandescent and compact fluorescent bulbs, as LEDs convert far more of their energy into light and less is wasted as heat. Increased efficiency means less strain for the electricity grid; the new lights also last much longer than their incandescent and fluorescent counterparts. The expected lifetime of LEDs is over 50,000 running hours. Finally, the maintenance cost is negligible, as they operate at a very low voltage.\n In summary, the benefits of converting Sodium Vapor lamps into LED lights are:\n Better illumination of areas compared to sodium vapor lamps;\n LED lights have more stable output even in fluctuating operating power supply;\n Lifecycle costs are lower.\n What is the project? How does it work? \n Brighter Chennai. Safer Chennai. Better Chennai. \n Chennai is the pioneer city in India for converting sodium vapor lamps into LED lights and can serve as example for other cities. The GCC has a primary responsibility for illuminating Chennai during the night hours. It has been shown that anti-social activities are drastically reduced following improved lighting coverage and illumination also has a beautifying effect on the city. During the duration of this project, a total of 1,772 sodium vapor lamps have been replaced by LED lights in the ABD region of T. Nagar, a popular shopping district.\n What are the CO2 reduction goals/achievements? \n The highlights of this project are: \n A total number of 1772 of LED lights in ABD region of T. Nagar have been supplied and fitted\n An estimated amount of Rs 1,38,00,000 (~190,000 USD) will be saved per year\n A total amount of 6,54,800 Kw hrs will be saved in terms of energy.\n Next Steps \n Greater Chennai Corporation has successfully delivered the project and the maintenance period is currently underway.\n Contact details: \n Administrative Contact:\n Commissioner\n Greater Chennai Corporation\n commissioner@chennaicorporation.gov.in \n Technical Contact:\n Chief Engineer\n Electrical Department\n ceelectrical@chennaicoporation.gov.in",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Emissions or carbon inventory",
@@ -42,7 +67,12 @@
     "document_url": "https://www.c40.org/case-studies/efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights/",
     "publication_date": "2019-09-06",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27451",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

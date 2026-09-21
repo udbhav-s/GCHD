@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-stockholm-from-brownfield-to-sustainable-district",
   "url": "https://www.c40.org/case-studies/cities100-stockholm-from-brownfield-to-sustainable-district/",
   "title": "Cities100: Stockholm – From Brownfield to Sustainable District",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "stockholm",
+      "label": "Stockholm"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Stockholm faces the challenge of developing a livable city district in a former industrial brownfield area. In the area, 17 hectares of contaminated land have been remediated with local treatment and 200,000 metric tons of rock have been crushed and reused. With the development of the Stockholm Royal Seaport, the city plans to support green growth to meet global and local challenges.",
+    "measures": "In 2009, the City Council of Stockholm decided to develop the abandoned Stockholm Royal Seaport (SRS), a brownfield area, into a modern, sustainable city district for residents and businesses. The SRS project’s goal of becoming a fossil fuel-free district by 2030 is linked with Stockholm’s ambitious goal to become fossil fuel-free by 2040, as well as the city’s need to adapt to growing impacts of climate change and deal with projected population growth. As the population in the Swedish capital is expected to reach 1.5 million within the city and 3.5 million in the region by 2030, 12,000 new homes and 35,000 work-places have been built in the new district and 140,000 new homes are planned by 2030.\n The SRS project involves multiple aspects of sustainable urban development, including waste management goals of sending zero waste to landfills and collecting all food waste to increase biogas production by 50%. The project also requires all developers to install solar photovoltaic systems to cover up to 20% of a building’s electricity needs and mandates that average water use be reduced from 150 liters of water per person daily to 100 liters.\n Environmental Benefits – Energy-efficient housing and automated waste management systems reduce energy use by up to 80%, and production of renewable energy reduces the use of fossil fuel.\n Social Benefits – Proximity to and availability of outdoor recreational areas, as well as walking and biking infrastructure, will provide opportunities for physical activity and improve residents’ well-being.\n Economic Benefits – Policies for lower resource use will deliver economic savings for residents and the local government, and contribute to growth by creating jobs in green service sectors.\n Health Benefits – With restrictions on private cars and parking per household, and a Mobility Index tool to nudge users to more sustainable mobility behavior, 70% of work-related trips are expected to be made by public transport, reducing air pollution in the city.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-stockholm-from-brownfield-to-sustainable-district/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27049",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-stockholm-from-brownfield-to-sustainable-district&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

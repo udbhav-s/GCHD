@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-sustainable-homes",
   "url": "https://www.c40.org/case-studies/transforming-cities-sustainable-homes/",
   "title": "Transforming Cities: Seeking more sustainable homes",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kuala-lumpur",
+      "label": "Kuala Lumpur"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "How data insights can empower property seekers and developers to make greener choices \n From green public spaces to more sustainable developments, Kuala Lumpur continues to grow in popularity. See how Property Guru is helping both developers and property seekers make greener choices for city living.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for PropertyGuru Group by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-sustainable-homes/",
     "publication_date": "2025-06-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42533",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-sustainable-homes&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-07-01T16:30:34",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

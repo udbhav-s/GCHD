@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-cape-town-turning-trashed-bins-into-trash-bins",
   "url": "https://www.c40.org/case-studies/cities100-cape-town-turning-trashed-bins-into-trash-bins/",
   "title": "Cities100: Cape Town – Turning Trashed Bins into Trash Bins",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With increased urbanization and population growth in Cape Town, waste sent to landfill is growing, as is demand for city services. Therefore, diverting as much waste from landfill as possible is a city priority. The Fifty/50 Wheelie Bin program is a smart and targeted effort to achieve these goals, as recycling old wheelie bins into new bins not only diverts waste from landfill but lowers costs and reduces lifecycle CO2 emissions.",
+    "measures": "Cape Town is giving new life to old, worn out, or damaged garbage collection wheelie bins by recycling them into new 240-L wheelie bins in an effort to circularize municipal waste management. With the project, the city’s Solid Waste Management Department embarked on its first closed-loop procurement scheme between a public authority and a private manufacturer. Launched in 2014, the Fifty/50 Wheelie Bin program utilizes 50% virgin material and 50% old bins that have been recycled, rather than using solely 100% virgin high-density polyethylene (HDPE). This has been identified as a safe ratio of virgin and recycled plastics based on months of research and development. Under this program, Cape Town is taking a targeted and progressive step towards implementing a new approach to recycling in local government. With the Fifty/50 Wheelie Bins estimated to have up to a 25% smaller environmental impact than manufacturing new bins, the project earned the city the South African Plastics Recycling Organization Trophy for the Recycled Product of the Year in 2015.\n Environmental Benefits – A 63% reduction in global warming potential, which is the heat trapped in the atmosphere by a given greenhouse gas, has been predicted using the program’s recycled bins versus virgin HDPE.\n Social Benefits – Twenty-two new jobs have been created in the manufacturing of Fifty/50 Bins.\n Economic Benefits – The city has saved nearly $160,000 under the program, as each Fifty/50 bin costs approximately $26.85 as opposed to $28.70 for each 100% virgin HDPE bin.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-cape-town-turning-trashed-bins-into-trash-bins/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27217",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cape-town-turning-trashed-bins-into-trash-bins&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

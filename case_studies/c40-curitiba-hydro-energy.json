@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-curitiba-hydro-energy",
   "url": "https://www.c40.org/case-studies/curitiba-hydro-energy/",
   "title": "Waterfalls to Generate Clean Energy: Curitiba’s First Hydroelectric Power Plant",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "curitiba",
+      "label": "Curitiba"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Curitiba is tapping into the potential of using waterfalls from artificial lakes to generate clean energy for the city using hydropower.",
+    "measures": "Curitiba is taking advantage of the existing waterfalls from artificial lakes in its parks to generate clean energy for the city. The installation of the first Hydroelectric Energy Generator (CGH), in the Barigui Park, is set to produce clean energy without damaging the environment. This is thanks to the energy efficiency program of Curitiba City Hall, which also encompasses new legislation that allows the use of public spaces to produce renewable energy. The project was accompanied by an environmental impact assessment, concluding that there is no change on the lake’s flow rate nor issues for the animals. The hydroelectric energy reduces the necessity of using thermoelectric plants, which corresponds to 14% of the Brazilian energy matrix. This will thus reduce CO2e emissions, and contribute to the municipal resources savings. \n The project encompasses multiple actions, providing a landscape structure around the CGH to disclose environmental and educational actions to the benefit of the population, nurturing awareness about clean energy, and to the preservation of the environment and actions to tackle climate change. \n What is the project? How does it work? \n It is the first Hydroelectric Power Plant of Curitiba, with a potential to generate 30Kw of electricity, and the first to utilize the Archimedes' screw principle, the mechanism of helical thread, in an urban environment.\n It is a project that encompasses environmental protection, flood management, production of clean energy and environmental awareness.\n What are the CO2 reduction goals? \n Climate change is already causing an impact on the city, mainly in the occurrence of heavy storms, cloud bursts and flooding. The CGH has the objective to reduce the city’s GHG emissions, producing clean energy taking advantage of the existing lakes while preserving their biodiversity and reducing neighbouring population vulnerability.\n Next Steps \n The project is first being implanted in Bairgui Park, a popular site for visitors. There are currently two more in development.\n The Hydroelectric Energy Generator Plan in Barigui park has the potential to generate 30Kw. The CGH in São Lourenço Park has the potential of more 30Kw while the Lago Azul Park of another 1Kw. By the end of 2020, the generation started in July 2019 will be at least duplicated.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/curitiba-hydro-energy/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27488",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=curitiba-hydro-energy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

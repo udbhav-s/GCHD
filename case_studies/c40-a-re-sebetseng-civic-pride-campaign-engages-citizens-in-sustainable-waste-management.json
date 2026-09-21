@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-a-re-sebetseng-civic-pride-campaign-engages-citizens-in-sustainable-waste-management",
   "url": "https://www.c40.org/case-studies/a-re-sebetseng-civic-pride-campaign-engages-citizens-in-sustainable-waste-management/",
   "title": "“A Re Sebetseng” Civic Pride Campaign Engages Citizens in Sustainable Waste Management",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Waste management is one of the key services every city government must provide to its residents, and has widely variable service levels, costs and environmental impacts. As the world population becomes more urbanized, the increase in waste generation is putting enormous pressure on local governments, primarily in rapidly growing cities. Poorly managed waste has an enormous impact on the climate, the public health, the environment, and the economy too. ‘A re Sebetseng’ is a City of Johannesburg Mayoral-led campaign aiming to encourage community participation and engagement around the issue of waste management.",
+    "measures": "The conceptualisation of ‘A Re Sebetseng’ was based on a community participation programme implemented in Kigali, Rwanda, explored by a team of officials from the City of Johannesburg (from EISD, Pikitup, and Mayoral Committee) during a visit to learn more about the national clean-up campaign. \n The original Rwandan mandatory campaign requested the community to participate in keeping the country clean following the civil war. The City of Johannesburg got inspired by this approach but turned it into a voluntary community participation and civic pride initiative. The campaign is intended to encourage communities to take care of and clean the environment. The Mayor actively leads and participates in the voluntary campaign every third Saturday of the month. The ‘Group Citizen Relationship & Urban Management’ (CRUM) plays a key role in the identification of waste hotspots and the mobilisation of logistical requirements. It also coordinates the mobilisation of communities and participation of ward committee councilors.\n The campaign was initially limited to City Departments and Municipal Entities and included the following activities:\n Sharing of information;\n Fixing stormwater channels;\n Doing street markings;\n Increasing safety presence;\n Fixing of water leaks, burst pipes, etc.;\n Street sweeping, litter picking, clearance of illegal dumpsites and disposal of waste collected during the campaign;\n Fixing of streetlights, replacement of streetlights’ and traffic signals’ covers;\n Relocalisation and support to displaced people.\n The campaign happens at two levels, one led by the Mayor and the other as a staff participatory session. The Mayoral A re Sebetseng takes place every 3rd Saturday of each month, with staff sessions taking place the Friday just before.\n What is the innovation? How does it work ?\n The ward councilors deployed in all regions of the city (8 regions in total) are responsible for the identification and selection of dedicated sites for the monthly mayoral campaign. The Mayor actively participates in the litter pick up and community members also get an opportunity to bring to the attention of the Mayor other community concerns that they may have.\n The campaign aim is to promote civic pride and get communities to start caring more about their environment. Activities include waste removal and cleaning of spaces, with the city government also offering the below:\n Health services (e.g. taking blood pressure and diabetes tests);\n Pest control;\n Open space management;\n Communications around city policies and strategies, city by-laws in the water, energy, waste and transport sectors, etc.\n It is noteworthy to emphasise the principles of this engaged and inclusive approach, where communities are encouraged to participate directly in the waste management process.\n C40 is a platform for Mayors where to share best practice examples of challenges cities face and to learn from other cities alike. The Mayor of Johannesburg therefore has an opportunity and interest in sharing the concept of the ‘A Re Sebetsen’ campaign with other global leaders within the C40 Waste Network. Community participation and engagement is key to A Re Sebetseng. A total of 19,735 community members across 554 sites have participated in the campaign since 2017.\n Next Steps \n The City was also able to attract and leverage other global collaboration opportunities such as the Global Citizen Campaign, which was instrumental in raising the numbers of participants. The Mayor is seeking other similar partnerships in order to investigate other opportunities to encourage participation, such as offering tickets e.g. for the Johannesburg Zoo, various nature reserves, the Joburg Theatre, and also free tickets the BRT system.\n Contact Details \n Lebo Molefe\n City of Johannesburg\n Tel: +27 080 9335\n Email: lebomol@joburg.org.za",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/a-re-sebetseng-civic-pride-campaign-engages-citizens-in-sustainable-waste-management/",
     "publication_date": "2019-07-01",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27450",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=a-re-sebetseng-civic-pride-campaign-engages-citizens-in-sustainable-waste-management&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

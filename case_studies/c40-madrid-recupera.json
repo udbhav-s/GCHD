@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-madrid-recupera",
   "url": "https://www.c40.org/case-studies/madrid-recupera/",
   "title": "The Madrid Recupera Plan",
@@ -31,6 +31,31 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "madrid",
+      "label": "Madrid"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Madrid City Council is carrying out a plan to implement changes to residential buildings which include energy efficiency improvements and CO2 emissions reduction. The plan, called Mad-Re (Madrid Recupera), provides economic support for works like façade retention, improving lighting, heating and cooling facilities, or putting in place renewable energy systems or green roofs. These interventions help to mitigate and adapt to climate change.",
+    "measures": "After a period of urban extension based on the creation of new peripheral neighbourhoods, Madrid urban planning is now turning towards a city regeneration strategy focused on the areas most vulnerable to climate change.\n In order to develop this new regeneration strategy in the residential buildings sector, Madrid City Council is carrying out an urban plan named Mad-Re, which aims to improve building conditions in those areas of the city with the lowest social, economic and construction standards.\n The plan began in 2016 with the goal of promoting building interventions that would improve energetic performance, reduce energy consumption and emissions, enhance accessibility, solve problems posed by existing architectural features, as well as foster restoration works, and preserve and improve the state of the buildings.\n The Mad-Re action plan provides grants to subsidise works in dwellings. The interventions financed are:\n Accessibility improvements: elevator installation, including demolition and reconstruction of stairs if necessary, or any other measures to improve accessibility in common areas.\n Energy efficiency improvements: actions to improve the envelope isolation, efficiency of HVAC and heating systems, lighting, and water savings, and the incorporation of renewable energies and green roofs.\n Conservation and consolidation of structures and foundations, and the repair of roofs, façades and facilities. The call in 2017 included a specific subsidy for replacing asbestos roofs if there is an improvement in their insulation.\n The neighbourhoods covered by the plan are located in the inner city as well as the outskirts. Locations were selected on the basis of their social, economic and environmental vulnerability. A set of indicators was used to select the target areas, and this included: building age (before 1980), building value (0.8 under the average), educational attainment (1.20 above the average), or population age (1.20 above the average).\n From a climate change point of view, the plan contributes to mitigation and adaptation. The isolation and energy efficiency improvements reduce consumption, local pollutants and CO2 emissions. As a result, dwellings are better prepared for extreme thermal conditions, and energy poverty vulnerability is therefore reduced.\n Regarding adaptation to climate change, the plan also focuses on the most vulnerable areas. It has to be pointed out that the selected neighbourhoods were evaluated according to heat waves and extreme temperature exposure. Those areas were compared with maps of hot spots and UHI (Urban Heat Island) as well as with studies of climate change vulnerability assessments. It concluded that almost all of them are located in the most vulnerable parts of the city.\n In order to qualify for grants, proposed works have to be evaluated and must raise the energy efficiency category of the building by one or two levels. The bigger the improvement, the higher the subsidy.\n The Mad-Re plan began in 2016 and comprised 112 areas, over 3,546 hectares, and was open to 1,198,326 inhabitants (38% of the whole population). In 2017 the number of areas was increased to 120, including more than 590,000 homes and 43% of Madrid’s population.\n The results of the two campaigns for the years 2016 and 2017 are:\n Mad-Re 2016 \n General budget \n 24 EUR \n Energy efficiency budget \n 19% \n N° buildings \n 1,615 \n Grant holders \n 25,730 households \n Mad-Re 2017 \n General budget \n 50 EUR \n Energy efficiency budget \n 23% \n N° buildings \n 1,515 \n Grant holders \n 28,525 households \n The Mad-Re plan will continue over the next few years and will be complemented by other initiatives with similar objectives for public spaces or institutional buildings.\n Links to further information \n http://www.madrid.es/portales/munimadrid/es/Inicio/Vivienda-y-urbanismo/Plan-MAD-RE?vgnextfmt=default&vgnextoid=e000cb5ee0993510VgnVCM1000001d4a900aRCRD&vgnextchannel=593e31d3b28fe410VgnVCM1000000b205a0aRCRD \n Contact details \n Ayuntamiento de Madrid\nÁrea de Gobierno de Desarrollo Urbano Sostenible\nRaquel del Río Machín\nriomra@madrid.es\nTl: +0034915882967",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/madrid-recupera/",
     "publication_date": "2018-03-19",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27377",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=madrid-recupera&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-02-08T09:39:02",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

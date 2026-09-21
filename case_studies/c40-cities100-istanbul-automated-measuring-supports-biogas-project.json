@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-istanbul-automated-measuring-supports-biogas-project",
   "url": "https://www.c40.org/case-studies/cities100-istanbul-automated-measuring-supports-biogas-project/",
   "title": "Cities100: Istanbul – Automated Measuring Supports Biogas Project",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "istanbul",
+      "label": "Istanbul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Half of Turkey’s electricity generation is supplied by natural gas that has to be imported. By investing in its landfill gas-to-energy project, Istanbul is creating an affordable power source while decreasing its dependency on foreign gas.",
+    "measures": "Located in Istanbul, Turkey’s largest landfill gas-to-energy project generates 50 MW/h, enough to provide electricity for 200,000 families. The project consists of two power plants, located close to the Kömürcüoda and the Odayeri landfills. At each landfill site, wells and pipes dug through solid waste collect methane gas and transfer it to a heat exchanger and demister for cooling and dehumidification. The treated gas feeds a combustion engine that drives an electric generator that supplies power to the national grid. Setting Istanbul’s landfill gas-to-energy site apart from others is the fact that its facilities are equipped with an automatic measurement and adjustment system that controls the flow of gas from the 500 wells and 50 pipelines dispersed throughout the landfill sites. As a result of the landfill gas-to-energy project, potent methane gas emissions are mitigated and the equivalent of approximately 1.2 million tons of CO2 emissions per year were avoided between 2011 and 2015.\n Environmental Benefits – Between 2011 and 2015, the project avoided emissions equivalent to those from 800,000 cars.\n Social Benefits – Ninety-three permanent workers are needed to operate the facilities and approximately 100 workers were employed during its construction.\n Economic Benefits – By generating electricity locally from waste at Istanbul’s two landfills, the project decreases the need for government expenditure on foreign energy sources.\n Health Benefits – The project’s collection system prevents methane from polluting the nearby air and groundwater, which is detrimental to residents’ health",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-istanbul-automated-measuring-supports-biogas-project/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27179",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-istanbul-automated-measuring-supports-biogas-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

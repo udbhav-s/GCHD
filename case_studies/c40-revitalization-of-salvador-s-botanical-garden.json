@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-revitalization-of-salvador-s-botanical-garden",
   "url": "https://www.c40.org/case-studies/revitalization-of-salvador-s-botanical-garden/",
   "title": "Revitalization of Salvador’s Botanical Garden",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The requalification of Salvador’s Botanical Garden, inaugurated on November 12th, is one of the actions of the Municipal Government that aim…",
+    "measures": "The requalification of Salvador’s Botanical Garden, inaugurated on November 12th, is one of the actions of the Municipal Government that aim to contribute to climate change adaptation, mitigation, and address climate justice. It is in line with Salvador’s Climate Action Plan and Resilience Strategy to strengthen adaptation efforts against the effects of climate change. The Botanical Garden is located in São Marcos, a very dense, low-income neighbourhood with few green spaces. It is one of the few spots of conservation of the Atlantic Forest in the area. Its revitalization brought to the area a green, public leisure space. This is a space for environmental education, a breath of fresh air, and the preservation of the Atlantic Forest in the middle of the urban chaos.\n With priceless environmental value for the municipality, this space has about 61 thousand plant species in an area of 160 thousand square meters. The Botanical Garden of Salvador is one of the areas of the city that houses an ethnobotanical space dedicated to the protection and cultivation of species used in Afro-indigenous-Brazilian cults and endangered plants.\n The constant push of urbanization into the remaining green spaces of the city makes the requalification of the botanical garden even more important, as it contains species not only from the Atlantic Forest but also from the Cerrado and Caatinga biomes. According to the Secretary of Sustainability, Innovation, and Resilience of Salvador, João Resch, \n “This here I say is a living laboratory. This fragment of forest has been here since the beginning of our history, so it is only recovering that we can maintain and study it, especially as it receives many students to carry out research and hold masterclasses.”\n The revitalization work was carried out for a year and involved an investment of $9,6 million (US$ 1.893.491,13 dollars). The financing was made available through the Development Bank of Latin America (CAF), the Urban Requalification Program of Salvador (Proquali), and with resources from the Municipal Government.\n The investment allowed for the “seedling nursery” to gain a nature observation pavilion, a nursery for the creation of a museum, and a meliponary of bees of the Uruçu species, which have no sting and are on the red list of extinction. The surrounding area was landscaped with grass and vegetation native to the Atlantic Forest in more than 4000m², and the sidewalks were recovered and made walkable again.\n All this revitalization will attract visitors and tourists to the area to help increase local commerce and generate wealth for local communities. Therefore, the expected impact of the revitalization of the Botanical Garden is both social, economic, and environmental. This is due to it becoming an important area of study, maintenance, and conservation for the Atlantic Forest in Salvador. It is receiving a new look and becoming available to the public again.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/revitalization-of-salvador-s-botanical-garden/",
     "publication_date": "2020-12-18",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27517",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=revitalization-of-salvador-s-botanical-garden&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T16:41:30",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

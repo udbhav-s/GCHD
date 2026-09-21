@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-city-of-toronto-s-eco-roof-incentive-program-and-green-roof-bylaw",
   "url": "https://www.c40.org/case-studies/city-of-toronto-s-eco-roof-incentive-program-and-green-roof-bylaw/",
   "title": "City of Toronto’s Eco-Roof Incentive Program and Green Roof Bylaw",
@@ -32,6 +32,31 @@
     "air_pollution_pm25",
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Green roofs and cool roofs – known collectively as 'eco-roofs' – help make Toronto more resilient and better adapted to climate change. Eco-roofs reduce urban heat and its associated energy use. Green roofs also help manage storm water runoff, enhance biodiversity, improve air quality, and beautify the city. In 2009, Toronto established the Green Roof Bylaw and Eco-Roof Incentive Program to transform the roofscape of the city.",
+    "measures": "Toronto’s leadership in green roof policy began in 2006 with the City Council’s adoption of a Green Roof Strategy that encouraged the construction of green roofs on City- and privately-owned buildings through incentives, public education and the streamlined development approval process. This led to the adoption of the City’s Green Roof Bylaw and the Eco-Roof Incentive Program in 2009.\n What is the innovation? How does it work? \n Green Roof Bylaw \n Toronto was the first city in North America to have a bylaw to require and govern the construction of green roofs on new developments. The Green Roof Bylaw sets out a graduated green roof requirement for new developments that are greater than 2,000 m² in gross floor area. The requirement ranges from 20-60% of the available roof space of a building. The Bylaw includes an option for developers to seek approval to pay $200/m 2 as cash-in-lieu instead of constructing the required green roof. All funds collected as cash-in-lieu are directed to the Eco-Roof Incentive Program.\n Eco-Roof Incentive Program \n Toronto's Eco-Roof Incentive Program encourages the installation of green roofs and cool roofs on existing (and some new) buildings through financial incentives. The program offers $100/m 2 for green roof 1 projects and $2-5/m 2 for cool roof 2 projects. In addition, applicants who want to construct a green roof on an existing building may also be eligible to receive a Structural Assessment Grant, which provides up to $1,000 to help offset the costs associated with determining whether the building is suitable for green roof construction. The program is self-sustaining, drawing funding from cash-in-lieu payments through the Green Roof Bylaw.\n 1 A green roof or living roof is a roof of a building that is partially or completely covered with vegetation and a growing medium, planted over a waterproofing membrane. It may also include additional layers such as a root barrier and drainage and irrigation systems.\n 2 A cool roof is one that has been designed to reflect more sunlight and absorb less heat than a standard roof. Cool roofs can be made of a highly reflective type of paint, a sheet covering, or highly reflective tiles or shingles.\n Green Roof Construction Standard \n Whether constructing a green roof voluntarily, or as required by the Green Roof Bylaw, all green roofs in Toronto, at a minimum, must conform to the Toronto Green Roof Construction Standard. The purpose of the Standard is to govern the design and construction of green roofs by setting out minimum requirements that meet the City’s objective.\n What are the achievements? \n Between 2010 and 2017, approximately 420 green roof permits were issued in Toronto, totaling 450,000 square meters of green roof space. The Eco-Roof Incentive Program has received over 500 applications and successfully supported 336 eco-roof projects since 2009. Achievements of projects funded through the Eco-Roof Incentive Program are summarized in the table below.\n Area of Concern\n Outcomes\n Stormwater Management\n Approximately 11 million liters of storm water diverted from sewers annually, resulting in a cost saving of at least $100,000.\n Energy Efficiency\n Average of 1000 megawatt hours per year in energy savings primarily from reduced need for air conditioning.\n Greenhouse Gas Emission Reductions/Air Quality\n Average of 220 metric tons of greenhouse gases avoided annually.\n Green Space Enhancement and Biodiversity\n Green roofs will help increase green space in the urban environment with the potential to enhance biodiversity.\n Economic Development\n Minimum of 12 person-years of new employment generated.\n Urban Heat Island Mitigation\n Widespread implementation of green roofs can reduce local ambient air temperature 1.5 to 2°C, with a direct 4-5°C temperature roof surface cooling effect.\n Note: Data is only available for projects funded through the Eco-Roof Incentive Program at this time.\n Next Steps \n The Green Roof Bylaw and the Eco-Roof Incentive Program are key components for implementing Toronto's ‘ Official Plan Vision ’, intended to ensure the city evolves, improves and realises its full potential in areas such as transit, land use development, and the environment.\n Such policies are also designed to manage the quantity and improve the quality of stormwater; to reduce GHG emissions, promote green infrastructure to complement infrastructure, and to encourage green roofs as an innovative approach to reducing the urban heat island effect. They address multiple city-wide environmental policy objectives including TransfromTO (Toronto’s new and ambitious climate action strategy); and the Wet Weather Flow Management Master Plan (Toronto’s plan to protect water quality in Toronto's watercourses and Lake Ontario).\n The City of Toronto plans to continue to undertake consultation with stakeholders on a regular basis, including the roofing industry, to ensure the program and policies remain relevant.\n Links to further information \n Green Roof Bylaw \n Eco-Roof Incentive Program \n Contact Details \n Eco-Roof Incentive Program\n Annemarie Baynton\n T: 416-392-1848\n E: annemarie.baynton@toronto.ca \n Green Roof Bylaw\n Shayna Stott\n T: 416-392-0171\n E: shayna.stott@toronto.ca",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/city-of-toronto-s-eco-roof-incentive-program-and-green-roof-bylaw/",
     "publication_date": "2018-12-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27420",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-of-toronto-s-eco-roof-incentive-program-and-green-roof-bylaw&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

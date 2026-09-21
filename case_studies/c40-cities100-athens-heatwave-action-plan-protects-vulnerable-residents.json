@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-athens-heatwave-action-plan-protects-vulnerable-residents",
   "url": "https://www.c40.org/case-studies/cities100-athens-heatwave-action-plan-protects-vulnerable-residents/",
   "title": "Cities100: Athens – Heatwave Action Plan Protects Vulnerable Residents",
@@ -28,6 +28,36 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "athens",
+      "label": "Athens"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With the mean temperature rising .5°C per year since the 1990s, Athens is experiencing hotter and longer summers, with more frequent and intense heatwaves, which disproportionately affect vulnerable populations. As part of the Heatwave Action Plan, Athens is implementing heatwave warnings and constructing green areas with cooling spots, increasing resilience to heat and ensuring the well-being of the most at-risk residents.",
+    "measures": "Athens’ Heatwave Action Plan was launched in 2016, aiming to protect the city’s most at-risk residents, including the elderly, those with cardiovascular or respiratory conditions, infants, people with obesity problems, and energy poverty stricken households from the adverse health threats of heatwaves. Through the coordination of municipal social services, the city is instituting projects such as increasing green areas, expanding the use of cool materials, increasing shade options, and promoting “cooling routes” in parts of the city where the urban heat island effect is more intense, ensuring that vulnerable residents are protected. Under a strategic partnership between the city and the National Observatory of Athens, a digital heatwave warning mechanism is now available to residents via either personal computers or smartphones. The mechanism provides valuable information such as the current temperature in the user’s location, whether or not they are at risk depending on their age and medical condition, as well as how to reach a cooling spot in case they are indeed at risk.\n Environmental Benefits – By cooling the city, smog and ozone concentrations above threshold limits are predicted to reduce during summer months.\n Social Benefits – Athens hopes to reverse “urban flight” with the deployment of greening and cooling infrastructure, attracting locals, tourists, and immigrants back to the city center.\n Economic Benefits – By applying measures for cooling included in the Heatwave Action Plan, Athens can reduce its energy demand in summer months by 15%.\n Health Benefits – With successful awareness campaigns and proper preventive measures included in the Heatwave Action Plan, Athens aims to reduce the number of heat-related health incidents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-athens-heatwave-action-plan-protects-vulnerable-residents/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27239",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-athens-heatwave-action-plan-protects-vulnerable-residents&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-buenos-aires-small-changes-lead-to-efficient-bus-service",
   "url": "https://www.c40.org/case-studies/cities100-buenos-aires-small-changes-lead-to-efficient-bus-service/",
   "title": "Cities100: Buenos Aires – Small Changes Lead to Efficient Bus Service",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Argentina, the federal government operates public transportation systems, including where buses run and how frequently they stop. A decade of deregulation and state subsidies had led to poor service and inefficiency on many routes. Unable to change the system completely, the City of Buenos Aires developed a way to introduce a well-functioning BRT system into the existing bus infrastructure, thus satisfying both political demands and residents’ needs.",
+    "measures": "Three million commuters are on the move each day in the Buenos Aires metro region, 60% of whom use public transport to get around town. The city’s state-controlled public transit network, however, was unable to accommodate this many people. In 2011, the city launched the first phase of an extensive bus rapid transit system (BRT), Metrobus, which transforms existing bus routes into highly efficient dedicated BRT lanes, equipped with standard elevated platforms, faster boarding, and safer and more comfortable bus stops. The simple concept has had impressive results: in four years, the city\n The simple concept has had impressive results: in four years, the city has not only revitalized existing routes, it built an additional 50.5 km of bus-only lanes. Average travel time has been reduced by 50%, and frequency of stops has increased from 180 to 220 stops hourly. A key corridor of the BRT system, the enormous, 16-lane 9 de Julio Avenue has been transformed by the project. Previously, cars dominated the Avenue’s central lanes, but today, the four central lanes of the avenue are exclusively reserved for 11 bus lines with infrastructure to ensure safe pedestrian access.\n Environmental Benefits – The system improves air quality thanks to an average distance of 400 meters between bus stops, which diminishes buses’ stops, starts, and sudden braking, cutting harmful emissions and reducing fuel consumption.\n Social Benefits – The system ensures that street space is accessible and available for all citizens regardless of age, class, gender, or physical abilities.\n Economic Benefits – One formerly dangerous route experienced an average of eight accidents per month before the introduction of Metrobus and only one accident in an entire year afterward.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-small-changes-lead-to-efficient-bus-service/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27046",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-small-changes-lead-to-efficient-bus-service&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

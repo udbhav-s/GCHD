@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-curitiba-urban-voids-become-community-gardens",
   "url": "https://www.c40.org/case-studies/cities100-curitiba-urban-voids-become-community-gardens/",
   "title": "Cities100: Curitiba – Urban Voids Become Community Gardens",
@@ -30,6 +30,36 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "curitiba",
+      "label": "Curitiba"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Curitiba, swathes of land have long been treated as garbage disposal sites. By repurposing this land for community urban agriculture, the city is boosting resilience to climate change by simultaneously targeting food security and urban vegetation cover.",
+    "measures": "The Urban Agriculture program in Curitiba is a community project that rehabilitates degraded land, and makes use of vacant space in private and public locations, including schools, backyards, and balconies, to produce food. Through local organic food production, the city hopes to mitigate the greenhouse gas emissions caused by the transport of food as well as enable more carbon sequestration from increased vegetation. In addition, the urban agriculture project increases food security and can serve as an income generating activity for participants. Since its launch in 2011, the initiative has generated more than 750 tons of food and has benefited more than 83,000 people. The program also fosters social inclusion by providing a therapeutic group activity for a diverse group of participants, including children and the elderly and those afflicted by drug addiction and mental health issues. Environmental awareness and education is also a key element of the project, which offers training activities, including home composting, alternative methods of cultivation, pest control, and soil conservation.\n Environmental Benefits – The use of urban voids for agriculture helps mitigate the risk of flooding by reducing soil sealing and allowing water infiltration.\n Economic Benefits – By saving on the purchase of vegetables or selling surpluses, each participating family earns or saves an average of $50 per month.\n Health Benefits – Gardening serves as physical activity for seniors and others.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-curitiba-urban-voids-become-community-gardens/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27206",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-curitiba-urban-voids-become-community-gardens&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

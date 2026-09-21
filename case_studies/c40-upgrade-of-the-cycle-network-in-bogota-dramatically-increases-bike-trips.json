@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips",
   "url": "https://www.c40.org/case-studies/upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips/",
   "title": "Upgrade of the Cycle Network in Bogotà Dramatically Increases Bike Trips",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The municipality of Bogotá has invested in several cycling projects in the past few years, resulting in an increase of bike trips taken per day from 635,000 in 2015 to 800,000 in 2018.",
+    "measures": "The municipality of Bogotá has invested in a number of cycling projects in the past few years, which resulted in a steady increase in the percentage of trips taken daily by bike, i.e. from 4.2% (635,000 trips) in 2015 to 6% (800,000 trips) in 2018. \n One of the reasons for this increase has been the expansion of the bike lane network of over 80km in the past two years. There have also been over 120 repairing or improvement works across the network, especially at crossroads and intersections. Over 10 “ciclopuentes” (bike bridges) have also been assembled, providing exclusive bike lanes on bridges to facilitate crossing for cyclists. The “Day With No Cars” in 2018 reached a peak of 1.2 million bike trips.\n The Secretariat of Mobility also organized a joint initiative with the Secretariat of Education to encourage students to use bikes as a mode of transport. The initiative consisted of coordinated guided trips for students on their way to school. A special programme for children between 3 and 6 years old was also implemented to foster bicycle use from an early age. The Secretariat of Mobility also established a label for bicycle parking lots – i.e. gold, silver, orange and red – adding up to 200 parking options throughout the city. \n In order to improve gender equality with regards to bicycle use, the city organized over 12 activities with the participation of over 10 organizations from civil society and 7 different city agencies. On the occasion of the International Women's Day on March 8th, the city delivered the ‘Manual of the Good Cyclist’, also detailing specific measures aiming to improve the system for women cyclists.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips/",
     "publication_date": "2019-01-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27428",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

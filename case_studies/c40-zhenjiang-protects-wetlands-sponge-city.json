@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-zhenjiang-protects-wetlands-sponge-city",
   "url": "https://www.c40.org/case-studies/zhenjiang-protects-wetlands-sponge-city/",
   "title": "Zhenjiang protects wetlands and renews urban areas with “sponge city” models",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "zhenjiang",
+      "label": "Zhenjiang"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Zhenjiang is protecting the Yangtze River and renewing older urban areas by applying “sponge city” methods, such as expanding green roofs and permeable pavements, to its ecological development.",
+    "measures": "Zhenjiang is protecting the Yangtze River and renewing older urban areas by applying “sponge city” methods, such as expanding green roofs and permeable pavements, to its ecological development. \n With ambitions to be a city famous for its landscapes and gardens, Zhenjiang focused on greening both sides of the Yangtze River, which runs through the city, and restoring forests and wetlands. \n By 2020 , the city had already created 13 national forest villages and 119 green construction projects for villages. By 2025, Zhenjiang aims for its natural wetland protection rate to remain above 60%, to achieve 43% green coverage of urban built-up areas, and maintain a 25% forest coverage rate. \n At the same time, Zhenjiang has created its own version of the “sponge city” model, based on its high-density urban area, to address flooding, building improvements and community environmental management issues. By 2025, more than 50% of Zhenjiang’s urban area will meet “sponge city” standards.\n Xu Shuhai, Mayor of Zhenjiang , emphasised the importance of strong coordination and regular assessment as Zhenjiang works to prevent and control environmental pollution, protect the Yangtze, and improve the conservation, restoration and utilisation of ecological resources.\n More About Adaptation & Water",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/zhenjiang-protects-wetlands-sponge-city/",
     "publication_date": "2023-03-27",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "34199",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=zhenjiang-protects-wetlands-sponge-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-27T11:31:30",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

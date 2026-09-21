@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-paris-green-spaces-keep-the-city-cool",
   "url": "https://www.c40.org/case-studies/cities100-paris-green-spaces-keep-the-city-cool/",
   "title": "Cities100: Paris – Green Spaces Keep the City Cool",
@@ -32,6 +32,31 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "paris",
+      "label": "Paris"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Paris’ dense infrastructure network, built largely of concrete and asphalt, causes a significant urban heat island effect in which city temperatures are noticably higher than those in nearby rural areas. This trend is exacerbated by climate change, and to help reverse its effects, the city has instituted a range of greening initiatives that will make the city’s infrastructure more permeable and absorbent and improve air quality",
+    "measures": "One of the most urgent and noticeable ways in which climate change affects the French capital is the city’s urban heat island effect. To alleviate rising temperatures, Paris is greening its grey infrastructure, planting trees, and creating rooftop gardens all over the city in order to adapt to climate change and create a more pleasant living environment for its citizens. The city has already added 62 hectares of green space and 4.7 hectares of green roofs.\n The coming years will see this progress expanded. Going forward, vegetation must be planted on all new buildings, and, by 2020, the city will build 100 additional hectares of green roofs – one-third of which will be used to produce fruit and vegetables. To get citizens on board with the initiatives, the city issued a “license to green” to all Parisians encouraging them to plant more trees and gardens on vacant pieces of land – anything from a small strip of grass on a sidewalk to a full-fledged community garden.\n Environmental Benefits – Increased vegetation absorbs more CO2 and improves air quality.\n Social Benefits – 80% of Parisians support the initiatives to create more green spaces in the city, which will lead to a more pleasant living environment\n Health Benefits – Fifteen thousand people died in France during a heat wave in 2003. To prevent such disasters from becoming more common, Paris is protecting its citizens – particularly the elderly and those in ill health – from excessive heat.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-paris-green-spaces-keep-the-city-cool/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26994",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-paris-green-spaces-keep-the-city-cool&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

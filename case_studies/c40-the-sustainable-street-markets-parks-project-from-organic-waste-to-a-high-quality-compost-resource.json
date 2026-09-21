@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource",
   "url": "https://www.c40.org/case-studies/the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource/",
   "title": "The Sustainable Street Markets & Parks project: From organic waste to a high-quality compost resource",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "sao-paulo",
+      "label": "São Paulo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of São Paulo has launched a project called ‘Feiras & Jardins Sustentáveis’ (Sustainable Street Markets & Parks) to promote decentralized and low-cost projects to treat organic waste from the approximately 900 street markets across the city.",
+    "measures": "The pilot project is located in the Lapa district, one of the city’s 96 districts, stretching over an area of 3,000 m2. Officially opened in 2015, the project has been overseen by technical experts to monitor its economic and environmental benefits. The types of waste accepted at the composting park include fruits, vegetables, green garden waste and structuring materials such as wood chips. The maximum treatment capacity of the composting park is 54 tons/week and a total output of high-quality compost of 10.8 tons/week. \n CO2 reduction \n The composting park will achieve a reduction of 87% of greenhouse gas (GHG) emissions from organic waste treated, compared to the business as usual scenario which currently consists of disposing of this type of waste in a landfill. This should bring the GHG emissions from 819,1 kg CO2e/t to 110,3 kg CO2e/t, and amounts to about 160 tons of CO2e avoided per month. These figures do not even reflect the benefits of indirect emissions reductions from compost use in agriculture that are estimated at -130.5 kg CO2e/t and that would lead to an estimated net saving of 20.2kg CO2e/t.\n Next Steps \n The city plans to launch another 10 similar decentralized composting parks by 2020 in different regions across São Paulo.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource/",
     "publication_date": "2018-08-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27399",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-durban-landfill-greening-empowers-a-community",
   "url": "https://www.c40.org/case-studies/cities100-durban-landfill-greening-empowers-a-community/",
   "title": "Cities100: Durban – Landfill Greening Empowers a Community",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Historically, landfills have been viewed as detrimental to the environment, but through the Buffelsdraai Landfill Site Reforesta-tion Project, Durban is proving that enhancing both social and environmental conditions is possible with innovative thinking and local community involvement.",
+    "measures": "Rarely are landfills viewed as a positive factor for a city, but the Buffelsdraai Landfill Site Reforestation Project in Durban, South Africa is the exception to the rule. The project enhances the city’s environment by involving citizens in turning the buffer zone around the landfill into a conservancy, thus improving quality of life for local citizens and limiting the landfill’s carbon footprint. With 200 hectares of local natural habitat around the landfill rehabilitated and more than 750,000 indigenous trees planted, Durban is not only mitigating its car-bon footprint but also increasing local climate adaptation capacity.\n Empowering local communities to become “tree-preneurs,” the project addresses unemployment and assists in alleviating poverty by giving the tree-preneurs vouchers for school fees, bicycles, food, or other services in exchange for growing and planting trees. To further limit greenhouse gas emissions, methane gas from the landfill is burned for electricity. Durban plans to be the first city in Africa to turn a landfill’s methane gas into electric power.\n Environmental Benefits – EnvironmentalThe amount of trees currently planted will save about 55,000 tons of CO2.\n Social Benefits – The Buffelsdraai Landfill Site Reforestation Project has created 43 full-time jobs, 16 part-time jobs, and 389 temporary jobs, decreasing the poverty level in the local community.\n Economic Benefits – Vouchers worth $970,000 have been distributed to the local community for taking part in planting trees near the landfill.\n Health Benefits – Due to the regular meals provided through vouchers for the underprivileged residents of the local community, their overall health and quality of life have improved.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-durban-landfill-greening-empowers-a-community/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26978",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-durban-landfill-greening-empowers-a-community&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

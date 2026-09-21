@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-rotterdam-mitigation-meets-adaptation-on-rotterdam-s-rooftops",
   "url": "https://www.c40.org/case-studies/cities100-rotterdam-mitigation-meets-adaptation-on-rotterdam-s-rooftops/",
   "title": "Cities100: Rotterdam – Mitigation Meets Adaptation on Rotterdam’s Rooftops",
@@ -26,6 +26,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rotterdam",
+      "label": "Rotterdam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "WWII bombardment destroyed the center of Rotterdam in 1940, and flat roofs now dominate the reconstructed areas. Today, facing climate hazards and high urban population density, Rotterdam is using its rooftops to address its climate challenges and add value to the city.",
+    "measures": "In Rotterdam, colored roofs have officially become part of the city's climate adaptation strategy. Challenges with flooding, air quality, and a lack of green space are all addressed via a multifunctional approach to the development of the roofs. And with 14.5 km2 of unused roof space above the city, the possibilities seem almost endless. Four colors represent four functions: blue roofs retain water, green roofs add biodiversity, yellow roofs produce renewable energy, and red roofs add social value. This holistic approach offers valuable cross-sector co-benefits. The city aims to create 10,000 m2 of yellow roofs, generating 1.25 MW of renewable energy, and construct another 80,000 m2 of blue roofs, which can retain 2,000 m3 of water.\n Economic Benefits – Green roofs already reduce water treatment costs by $75,000 annually.\n Health Benefits – The Erasmus Medical Centre in Rotterdam has installed 5,000 m2 of green roofs and turned 3,000 m2 into gardens, improving the environment for patients.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-rotterdam-mitigation-meets-adaptation-on-rotterdam-s-rooftops/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27300",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rotterdam-mitigation-meets-adaptation-on-rotterdam-s-rooftops&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan",
   "url": "https://www.c40.org/case-studies/implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan/",
   "title": "Implementation Of A Large-Scale LED Street Lighting Project In The City Of Jaipur And Across The State Of Rajasthan",
@@ -24,6 +24,25 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In collaboration with the state government, Jaipur has begun replacing all of its incandescent bulbs with LED lights, saving a large amount of money on energy usage.",
+    "measures": "Jaipur is the capital and the largest city of the Indian State of Rajasthan . As of 2011, the city had a population of 3.1 million and annual growth rate of 4.5%, making it the tenth most populous city in the country. \n In 2015, under an initiative of the State Government of Rajasthan and Jaipur Nagar Nigam (JNN), a project was proposed to replace all existing street lighting in the State with LED lighting. The project aims to replace all conventional street lights under JNN jurisdiction with high efficacy LEDs. The JNN LED-based Energy Saving Project is rated by IFC (International Finance Corporation) as one of the largest ESCO (Energy Service Company) projects based on actual savings.\n Its uniqueness lies in the fact that it is an environmentally-friendly implementation as it contains no lead, no mercury or any poisonous gas.\n Apart from energy savings and providing better public illumination and road safety, this project comes without any capital expenditure to the state governemnt and JNN. These savings can hence be utilised for other important projects, for example, illuminating rural areas.\n What is the project? \n Major components of the project \n To implement this energy saving project, the Government of Rajasthan signed on January 23, 2015, an MoU with Energy Efficiency Services Limited New Delhi (EESL).\n The following are the objectives of the project: \n Development, operation and maintenance of energy efficient public lighting in Jaipur at zero cost to JNN and Government of Rajasthan during the contract period of ten years.\n To bring all un-metered and direct point lamps under the scope of Centralised Control Monitoring System (CCMS).\n Making Jaipur, India’s first ‘LED Street Light City’ for international recognition in energy efficiency and Co2 reduction – GSM/GPRS technology is used to remotely monitor lights and energy consumption.\n Building the new concept of 80% energy savings in the street lighting industry – a first in India.\n The following were some of the challenges that the project needed to address: \n High consumption leading to higher energy bills.\n Poor illumination despite high energy consumption.\n Frequent failures and replacements leading to high maintenance costs.\n Manual switch-off and switch-on leading to wastage of energy.\n Faulty cabling and poor infrastructure leading to power losses.\n Solution \n Based on an initial baseline energy audit and power consumption pattern, the project replaced existing conventional fixtures consuming 48 to 550 Watt of energy with LED fixtures 5 to 112 Watt to provide better illumination and higher energy savings. This has ensured achievement of ca. 77% energy savings compared to the baseline data.\n The introduction of CCMS has led to increased accountability and made the process of identifying failures accurate and fast, thereby reducing the turnaround time of repairs and maintenance. \n The results are thus:\n 95% lights are guaranteed to be working at any given time during the contract;\n 50% reduction in maintenance costs;\n Next to nil failure rate in comparison to the conventional lighting system.\n Cost effectiveness \n Zero investment project, even for new lights, for the first 7 years in any new locations under JNN.\n Total number of street lights: 198,000\n Street lights replaced in Phase I – March 2016: 70,652\n Current annual consumption of power for 70,652 street lights: 44,326 MW\n Annual consumption after replacing with Samudra LED street lights: 10,137 MW\n Savings for Jaipur Nagar Nigam: 34,189 MW\n Assured savings: 77%\n Revenue for Jaipur Nagar Nigam and the Government of Rajasthan in 10 years through savings in energy and maintenance costs: INR 100 crore (approx. $14,000,000 USD).\n Next Steps \n Jaipur is currently in the process of building its city-wide Green House Gas Inventory in collaboration with UNIDO and the carbon reduction as a result of the LED street light transition is being quantified and will be made available shortly.\n Contact \n Mr. Anil Singhal \n Chief Enginner \n Email: “ce.jmc@rajasthan.gov.in” \n Tel: +91 95717 82111",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +51,12 @@
     "document_url": "https://www.c40.org/case-studies/implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27482",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

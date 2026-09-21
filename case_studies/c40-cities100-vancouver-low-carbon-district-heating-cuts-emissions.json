@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-vancouver-low-carbon-district-heating-cuts-emissions",
   "url": "https://www.c40.org/case-studies/cities100-vancouver-low-carbon-district-heating-cuts-emissions/",
   "title": "Cities100: Vancouver – Low Carbon District Heating Cuts Emissions",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "vancouver",
+      "label": "Vancouver"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Energy used for space heating of buildings generates more than 50% of the CO2 emissions in Vancouver. The Neighbourhood Energy Strategy provides a costeffective solution to significantly reduce these emissions. In order to compete with very low-cost fossil fuels, the city has established a number of enabling policies for district heating to be more cost-effective and competitive.",
+    "measures": "The Vancouver Neighbourhood Energy Strategy is rolling out low carbon district heating and cooling systems in high-density areas of the city. The strategy serves the dual purpose of converting existing fossil fuel-based district heating systems to run on low carbon fuel sources, such as wood chips, and building new district heating systems to serve both new developments and existing buildings. With three new systems operational, two new systems on the way, and an additional two low carbon conversions of existing systems to be completed in 2020, the Neighbourhood Energy Strategy aims to reduce city-wide carbon pollution by 11%, which is one-third of the city’s overall climate reduction target.\n To facilitate the roll out of low carbon district heating, Vancouver has created a competitive selection process involving relevant utilities and use of franchise agreements to leverage private sector expertise and financing. This approach includes the use of a number of different enabling policy tools, and results in minimal financial exposure and risk to the city government. Vancouver has taken the unusual step of openly sharing its information, including consultant studies, financial models, building standards, and franchise agreement contracts with other cities.\n Environmental Benefits – The district heating projects tap waste heat from sewers, data centers, and solid waste residues that would not otherwise be available to individual buildings, thereby making more efficient use of resources.\n Social Benefits – Customers connected to low carbon district heating benefit from much more stable and predictable energy costs as a result of using local renewable energy sources rather than depending solely on fossil fuels.\n Economic Benefits – The Neighbourhood Energy Strategy projects generate employment activity stemming from $173.6 million in construction investments as well as ongoing operations.\n Health Benefits – The roll out of district heating in Vancouver results in less combustion of fossil fuels for heating, improves local air quality, and reduces the potential for respiratory illness for residents",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-vancouver-low-carbon-district-heating-cuts-emissions/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26964",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-vancouver-low-carbon-district-heating-cuts-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

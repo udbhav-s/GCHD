@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-los-angeles-electric-car-sharing-in-low-income-communities",
   "url": "https://www.c40.org/case-studies/cities100-los-angeles-electric-car-sharing-in-low-income-communities/",
   "title": "Cities100: Los Angeles – Electric Car-Sharing in Low-Income Communities",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "los-angeles",
+      "label": "Los Angeles"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Each year, Los Angeles experiences unhealthy levels of particle pollution for the equivalent of nearly a month, and unhealthy ozone pollution for the equivalent of more than two months, mainly impacting underprivileged communities of the city. By introducing electric car-sharing fleets in disadvantaged communities, the city hopes to reduce CO2 emissions, while addressing pollution and transit injustice in historically underserved communities.",
+    "measures": "In 2016, Los Angeles launched its plan to introduce electric car-sharing fleets into disadvantaged communities, benefiting those most impacted by air pollution and most in need of improved mobility options, in addition to reducing greenhouse gas emissions. As the first project of its kind in the world, the pilot will double car-sharing in the city, initially placing 100 shared-use EVs and 200 charging stations in disadvantaged communities in and around Central Los Angeles. Within three years, the project aims to recruit 7,000 new users, who are expected to sell or avoid purchasing 1,000 private vehicles. By putting EVs and infrastructure in low-income neighborhoods and providing a subsidy to encourage their use, the city is helping increase access to economic opportunities while also promoting behavior change, eco-friendly mobility options, and improved air quality. The project is part of Los Angeles’ Sustainable City plan, which includes a goal of installing 1,000 public EV charging stations by 2017. Having already surpassed that goal, this program will help the city achieve its aims of having 25% of all vehicles on the road be emissions free by 2035 and reducing greenhouse gas emissions by 45% below 1990 baseline levels by 2025.\n Environmental Benefits – The project will result in 5.3 million fewer annual vehicle miles traveled in Los Angeles and more than 900,000 fewer annual liters of gasoline used.\n Social Benefits – The project will lift up historically disadvantaged communities by providing them with affordable access to resources around the city, such as jobs and schools.\n Economic Benefits – The car-sharing program can help boost the economy by lowering transportation costs, allowing for greater purchasing power in the local and regional economies.\n Health Benefits – The project will help decrease air pollution that can cause asthma attacks, heart problems, and other health issues.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-los-angeles-electric-car-sharing-in-low-income-communities/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27236",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-los-angeles-electric-car-sharing-in-low-income-communities&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

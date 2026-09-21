@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-kolkata-india-financial-management-best-practices",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-kolkata-india-financial-management-best-practices/",
   "title": "C40 Good Practice Guides: Kolkata, India – Financial management best practices",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The city of Kolkata is one of the wealthiest and most successful cities in India. The Kolkata Municipal Corporation…",
+    "measures": "Summary \n The city of Kolkata is one of the wealthiest and most successful cities in India. The Kolkata Municipal Corporation has been making steady progress in improving the city’s financial management over the past decade, which resulted in the city achieving an A+ rating from CRISIL (reaffirmed in December 2015), India's leading ratings agency xii . The city has been able to maintain this rating since 2005, providing it with the ability to issue bonds. This has been largely due to the city’s commitment to continuous improvements in its financial management systems, including more efficient revenue collection systems and greater use of revenue- generating mechanisms. In particular, the city has been implementing measures to more effectively manage expenditure and improve the ratio of revenue to expenditure. Individual measures may be relatively minor in scale and impact, but cumulatively have had a significant effect on improving the city’s creditworthiness.\n Results \n They city has consistently and steadily managed to improve both its revenue collection and expenditure through the introduction of financial management best practices. As a result, the city has demonstrated itself to be highly creditworthy, attracting significant external investment. This includes a USD 300 million support for the Environmental Improvement Investment Program, provided by the Asian Development Bank.\n Reasons for success \n The slow but steady improvements in the city’s financial situation have been the result of significant and committed investment in building the expertise and capacity of staff. As the city has continued to make improvements, investment and funding to the city have increased, creating a positive cycle of improvements.\n When/why a city might apply an approach like this \n Low capacity and expertise are a common problem for many cities in both developed and developing countries. Investment in staff yields reliable results through general improvements across the city’s financial management practices. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Creditworthiness Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "They city has consistently and steadily managed to improve both its revenue collection and expenditure through the introduction of financial management best practices. As a result, the city has demonstrated itself to be highly creditworthy, attracting significant external investment. This includes a USD 300 million support for the Environmental Improvement Investment Program, provided by the Asian Development Bank.\n\nThe slow but steady improvements in the city’s financial situation have been the result of significant and committed investment in building the expertise and capacity of staff. As the city has continued to make improvements, investment and funding to the city have increased, creating a positive cycle of improvements.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-kolkata-india-financial-management-best-practices/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27108",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-kolkata-india-financial-management-best-practices&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

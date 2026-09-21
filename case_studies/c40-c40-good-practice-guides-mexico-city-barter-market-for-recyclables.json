@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-mexico-city-barter-market-for-recyclables",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-mexico-city-barter-market-for-recyclables/",
   "title": "C40 Good Practice Guides: Mexico City – Barter market for recyclables",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary In March 2012, Mexico City’s administration initiated a barter market project to trade clean and separated household solid waste…",
+    "measures": "Summary \n In March 2012, Mexico City’s administration initiated a barter market project to trade clean and separated household solid waste recyclables for locally produced agricultural products. The overall objective of the barter market is to build an educational program promoting a culture of recycling and local consumption among the population of Mexico City. With about 12,500 tons of municipal solid waste generated per day ending up in landfills, the city created the barter market to explore sustainable alternatives to landfilling, as well as develop and maintain a culture of waste minimization and recycling. An additional aim of the project is to provide support to local producers and traditional forms of agriculture in the rural areas of Mexico City.\n Results \n The barter market takes place once a month on a Sunday morning in public places such as parks or plazas. The market is itinerant in order to gradually cover the different boroughs of Mexico City. Each citizen can trade up to 10 kilograms of waste per market day in one or more categories of valuable recyclables, which currently include paper, cardboard, PET, glass, tetra-pack, aluminium, tin cans, and electronic waste. The agricultural products that are traded for waste are grown by local producers in rural areas of Mexico City and range from fruits and vegetables to plants and homemade jams. The barter market has developed strategic partnerships with 80 local producers and several recycling companies that are responsible for collecting the waste gathered during the event and transporting it to recycling facilities at their own cost. In exchange for the recyclables the private companies provide in-kind donations to the city government in form of environmental education materials. xx \n The project contributes to the citywide recycling target of 5,000 tonnes/day (twice as much as the current recycling rate) and it has yielded significant results on a small scale. In 2013, 12 editions of the barter market were conducted, with nearly 20,000 citizens trading their recyclable solid waste, adding up to approximately 151,000 tonnes of material in total.\n The main environmental goal of this project is to divert valuable recyclable waste from final disposal in landfills, but it is also expected to bring significant co-benefits, such as contributing to the fight against malnutrition, a recurrent health issue in Mexico, by providing healthy, good quality food traded at barter markets. The market not only benefits local agricultural producers (80 were involved in 2014 through a strategic partnership) who receive subsidies from the city in the trading process, but also benefits the private waste industry by generating jobs in collecting and reusing valuable recyclables. The barter market is very popular among citizens, with more than 2,000 citizens participating in the trade every month.\n Reasons for success \n The barter market is a remarkable social laboratory in which citizens actively get involved to promote a sustainable recycling economy. It is an opportunity for citizens not only to learn to separate, collect and value recyclable household solid waste in order to reduce final disposal in landfills, but also to consume local agricultural products (healthy produce with fewer GHG emissions from transport as they are grown close to the consumer). The barter market is growing in popularity because it provides families with fresh seasonal agricultural products in exchange for household waste.\n When/why a city might adopt an approach like this \n Cities can adopt this approach to foster awareness of the value of recyclables among urban citizens, while supporting local agricultural production or other local products and services that can be offered in exchange for recyclable waste. The project particularly benefits the low-income population, generating important social and economic co-benefits. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The barter market takes place once a month on a Sunday morning in public places such as parks or plazas. The market is itinerant in order to gradually cover the different boroughs of Mexico City. Each citizen can trade up to 10 kilograms of waste per market day in one or more categories of valuable recyclables, which currently include paper, cardboard, PET, glass, tetra-pack, aluminium, tin cans, and electronic waste. The agricultural products that are traded for waste are grown by local producers in rural areas of Mexico City and range from fruits and vegetables to plants and homemade jams. The barter market has developed strategic partnerships with 80 local producers and several recycling companies that are responsible for collecting the waste gathered during the event and transporting it to recycling facilities at their own cost. In exchange for the recyclables the private companies provide in-kind donations to the city government in form of environmental education materials. xx \n The project contributes to the citywide recycling target of 5,000 tonnes/day (twice as much as the current recycling rate) and it has yielded significant results on a small scale. In 2013, 12 editions of the barter market were conducted, with nearly 20,000 citizens trading their recyclable solid waste, adding up to approximately 151,000 tonnes of material in total.\n The main environmental goal of this project is to divert valuable recyclable waste from final disposal in landfills, but it is also expected to bring significant co-benefits, such as contributing to the fight against malnutrition, a recurrent health issue in Mexico, by providing healthy, good quality food traded at barter markets. The market not only benefits local agricultural producers (80 were involved in 2014 through a strategic partnership) who receive subsidies from the city in the trading process, but also benefits the private waste industry by generating jobs in collecting and reusing valuable recyclables. The barter market is very popular among citizens, with more than 2,000 citizens participating in the trade every month.\n\nThe barter market is a remarkable social laboratory in which citizens actively get involved to promote a sustainable recycling economy. It is an opportunity for citizens not only to learn to separate, collect and value recyclable household solid waste in order to reduce final disposal in landfills, but also to consume local agricultural products (healthy produce with fewer GHG emissions from transport as they are grown close to the consumer). The barter market is growing in popularity because it provides families with fresh seasonal agricultural products in exchange for household waste.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-mexico-city-barter-market-for-recyclables/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27129",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-mexico-city-barter-market-for-recyclables&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-bogota-metro-system",
   "url": "https://www.c40.org/case-studies/bogota-metro-system/",
   "title": "Transforming Cities: The new network moving Bogotá forward",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "Why Bogotá is creating its first city-wide metro system \n Getting around Colombia’s sprawling capital hasn’t always been easy. Residents have long relied on irregular and overcrowded buses. Discover how improved bus routes and the city’s first electric-powered metro network are set to transform the daily life of locals.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Linea 1 del Metro de Bogotá – Transmilenio Bogotá by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/bogota-metro-system/",
     "publication_date": "2025-06-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42542",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=bogota-metro-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-17T12:32:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

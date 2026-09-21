@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-dubai-air-quality-strategy-2017-outlook",
   "url": "https://www.c40.org/case-studies/dubai-air-quality-strategy-2017-outlook/",
   "title": "Dubai Air Quality Strategy: 2017 Outlook",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In recent years, Dubai has witnessed achievements across various sectors making it one of the most competitive cities in the world. Bolstered by its culture of innovation and creativity, Dubai continues to develop and integrate its infrastructure through the implementation of advanced projects and the provision of efficient logistics and high-quality government services. In light of the challenges brought by this rapid economic development, Dubai is determined to safeguard the environment and preserves the natural resources in the Emirate.",
+    "measures": "The Dubai Municipality developed in 2017 the Dubai Air Quality Strategy 2017 – 2021 . The Strategy is laid to achieve the National Agenda’s target of 90% clean air days by 2021 under the sustainable environment and infrastructure theme. Similarly, the Strategy supports the Smart and Sustainable City pillar of the Dubai Plan 2021 which embeds the concept of environmental sustainability and efforts in preserving the natural resources, such as air, following international best practices.\n The Dubai Air Quality Strategy specifically aims to reduce emissions, support sustainable development and clean energy production, strengthen the national competitive profile and support global goals and directions, promote air quality awareness through pioneering methods and tools, and cultivate a society of happy people by ensuring a clean air and healthy environment.\n The Dubai Municipality has developed a practical and comprehensive framework defining a clear and long-term vision for improving the air quality in Dubai to ensure the successful implementation of the strategy. It identifies the applicable legislation, criteria pollutants as well as the sectors and strategic stakeholders that have collaborated to ensure robust implementation over the next five years. Key Performance Indicators undergo periodic review to ensure their relevance to the overall strategic goals, and sectoral plans, policies, and initiatives.\n What is the policy? \n The assessment of current and future scenarios and associated risks was based on quantitative and qualitative analysis of the air pollutants emitted by operational and manufacturing activities of all viable sectors in Dubai. The considered criteria pollutants are carbon monoxide (CO), nitrogen dioxide (NO2), sulfur dioxide (SO2), ozone (O3) and particulate matter (PM), which all adversely affect human health particularly the respiratory system.\n The Air Quality Strategy sets out annual emission reduction targets from 2017 through 2021. A target of 8% emission load reduction across all sectors was set for 2017, gradually increasing to 22% reduction by 2021. The aim in 2017 was to achieve 87% clean air days increasing to 90% clean air days by 2021.\n What are the emissions reduction achievements? \n A review of the performance of the Air Quality Strategy on its first year of implementation showed that the overall target has been achieved with a total emission load reduction of 8.6%, which is beyond the 8% target. The achieved reduction in emissions per pollutant was 7% for NO2, 6% for SO2 and 13% for PM10.\n The achieved reduction is a result of the collective efforts of all stakeholders. Reduction in emissions from the Road Transport Authority is mainly attributed to the commissioning of hybrid taxis, the Dubai Green Mobility Initiative, the reduction of public buses fuel consumption through biofuel use and avoiding engine idling among others, and expansion of the public transport such as the metro and tram.\n Emissions reduction in the Aviation sector was realized through the efforts of the Airport Environmental Action Group led by the Dubai Airports.\n The implementation of the Solar Park Project, procurement of hybrid vehicles, and energy and water saving initiatives have all contributed to the reduction of emissions from the Maritime Sector.\n Dubai Electricity and Water Authority has reduced its emissions through the implementation of emission reduction technologies in the power plants, equipment efficiency improvement, increased capacity of solar power plant, energy and water saving programs, among others.\n Retrofitting and upgrade to low-emission technologies, use of low-sulfur or cleaner fuel, process optimization have been implemented by various industrial facilities.\n Initiatives from support stakeholders that played a role in the reduction of emissions towards the improvement of air quality include installation of vapor recovery systems in petrol filling stations, launch of clean fuel (Biodiesel 5), and development of fuel specifications and standards. Similarly, Dubai Municipality’s Car-Free Day, Carbon Abatement Strategy 2021 and environmental awareness programs of government and private entities have all contributed to reduced emissions in Dubai.\n These reductions in emission loads were manifested in the improvement of air quality in Dubai, which is actively monitored through the Dubai Municipality’s Ambient Air Quality Monitoring Network. In 2017, Dubai has attained 87.6% clean air days exceeding the target of 87% and showing an increase from the 87% clean air days reported in 2016. This increase in clean air days provides an indication of a promising path towards the achievement of the national target of 90% clean air days by 2021.\n Next Steps \n Initiatives from lead and supporting stakeholders to be implemented in the forthcoming years are already laid out in the Strategy. It is notable to mention DM’s plan of expanding the monitoring network and deploying the Air Environment Mobile Station to support the Air Quality Strategy. The commitment of the government and all other stakeholders to implement these initiatives is vital to the success of this Strategy.\n Links to further information \n Dubai Air Quality Strategy",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Air-quality monitoring data",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/dubai-air-quality-strategy-2017-outlook/",
     "publication_date": "2018-12-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27421",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=dubai-air-quality-strategy-2017-outlook&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-tshwane-stakeholder-engagement-in-a-re-yeng",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-tshwane-stakeholder-engagement-in-a-re-yeng/",
   "title": "C40 Good Practice Guides: Tshwane – Stakeholder engagement in “A Re Yeng”",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tshwane",
+      "label": "Tshwane"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Tshwane’s BRT system (A Re Yeng or “Let’s Go”), approved in 2011, forms part of the City of Tshwane’s…",
+    "measures": "Summary \n Tshwane’s BRT system (A Re Yeng or “Let’s Go”), approved in 2011, forms part of the City of Tshwane’s 2055 Growth and Development Strategy xxvi and aims to provide an alternative to private cars and minibuses in the city, offering a faster, regular, more equitable and reliable transport option for getting into the city centre. Aware of the economic losses this may cause for minibus and taxi operators along the corridor, Tshwane involved the affected stakeholders in the negotiations from the beginning of the project and provided for their integration in the BRT system, thus building a unique relationship between the city and the transport industry. Those affected by the transport system change received financial compensation, were offered shareholder position in the new Bus Operating Company (BOC) or were directly incorporated in the BRT system operation (as bus drivers or other employees). The pilot corridor for Tshwane’s BRT is now in place, and expansion of the system is continuing.\n Results \n The project hopes to carry 100,000 passengers a day when the almost 70 km BRT corridor is fully operational in 2020. Around 209,000 tons of CO 2 will be reduced annually if Tshwane achieves its goal of shifting 10% of journeys to BRT. With more commuters shifting from private to public transport, the city also expects fewer traffic accidents. xxvii The Tshwane BRT bus fleet will also run on low-emission diesel engines and compressed natural gas, and will emit on average 34% less CO 2 and 24% less NOx than a standard diesel counterpart xxviii .\n Reasons for success \n Early, strong and continuous engagement with stakeholders to ensure they are on board with the plans as much as possible, and are not fearful of/in opposition to the new system being introduced, were key to successfully implementing the BRT system.\n When/why a city might adopt an approach like this \n Many cities around the world have existing minibus or taxi industries in place, whose livelihoods may be perceived to be at risk from the introduction of a new BRT system. Tshwane’s approach is a great example of including the industry and other stakeholders early in the planning phase, and finding roles for them in the BRT system that is being developed. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The project hopes to carry 100,000 passengers a day when the almost 70 km BRT corridor is fully operational in 2020. Around 209,000 tons of CO 2 will be reduced annually if Tshwane achieves its goal of shifting 10% of journeys to BRT. With more commuters shifting from private to public transport, the city also expects fewer traffic accidents. xxvii The Tshwane BRT bus fleet will also run on low-emission diesel engines and compressed natural gas, and will emit on average 34% less CO 2 and 24% less NOx than a standard diesel counterpart xxviii .\n\nEarly, strong and continuous engagement with stakeholders to ensure they are on board with the plans as much as possible, and are not fearful of/in opposition to the new system being introduced, were key to successfully implementing the BRT system.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-tshwane-stakeholder-engagement-in-a-re-yeng/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27097",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-tshwane-stakeholder-engagement-in-a-re-yeng&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-comprehensive-waste-management-in-beijing",
   "url": "https://www.c40.org/case-studies/comprehensive-waste-management-in-beijing/",
   "title": "Comprehensive Waste Management in Beijing",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "beijing",
+      "label": "Beijing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Beijing Chaoyang Circular Economy Industrial Park is located in the south of Jinzhan Township, Chaoyang District. The total area of the park is 1,956,500 square meters, or 2,935 mu. It is among the first industrialised waste treatment parks in Beijing, and has become the practice base of the School of Environment of Tsinghua University, the College of Environmental Sciences and Engineering of Peking University, China Agricultural University, and the University of Chinese Academy of Sciences.",
+    "measures": "Beijing Chaoyang Circular Economy Industrial Park is located in the south of Jinzhan Township, Chaoyang District. The total area of the park is 1,956,500 square meters, or 2,935 mu. It is among the first industrialised waste treatment parks in Beijing, and has become the practice base of the School of Environment of Tsinghua University, the College of Environmental Sciences and Engineering of Peking University, China Agricultural University, and the University of Chinese Academy of Sciences.\n The construction of the park upholds one of the guiding socio-economic principles of the Communist Party of China, i.e. the Scientific Outlook on Development. The design of the Park takes resource recovery as the core principle and sustainable development as the direction, adopting unified planning and thorough implementation in order to build a technologically advanced solid waste treatment and comprehensive utilization facility. It serves as a solid waste recycling center, but also as a solid waste treatment research & development education center and a circular economy’s industry development demonstration center.\n What is the innovation ? How does it work? \n Gaoan Electric Vehicle Charging and Battery Swap Station:\n The electric vehicle charging and battery swap station, which covers an area of 1 hectare, was built and put into operation in 2011 with an investment of 290 million RMB. It is able to serve sanitation vehicles, electric cars and Dongdong buses, with its largest daily service capacity of up to 400 vehicles.\n Beijing Gao'an Restaurant Kitchen Waste Treatment Plant:\n It is the largest kitchen waste treatment plant in China and has required a total investment of 130 million RMB. Put in operation in October 2010, it covers an area of 2.13 hectares and it can process 400 tons of kitchen waste per day. A biochemical treatment technology with high-temperature aerobic fermentation allows to produce ‘microbial inoculant’ intended for organic agriculture.\n Beijing Gao'an Medical Waste Treatment Plant:\n it is a facility for safe treatment of medical waste. The total investment is more than 80 million RMB. Operating since March 2006, It covers an area of 1.58 hectares, with a daily treatment capacity of 30 tons.\n Beijing Gao'an Waste Incineration Power Plant:\n It is the first modern large-scale domestic waste incineration project in Beijing, and also the largest single-line treatment plant in Asia. The total investment is 1 billion RMB and it covers an area of 4.6 hectares. The designed daily capacity is 1,600 tons, while the annual rated power generation is of 220,000 MWh.\n Gao'antun Sanitary Landfill:\n It is the first large-scale fully-enclosed domestic waste landfill in Beijing. Operating since the end of 2002 and with an investment of 150 million RMB, the facility covers an area of 41.64 hectares, with a total storage capacity of 8.92 million cubic meters and a daily waste disposal capacity of 1,000 tons.\n Contact Details \n Management Center of Beijing Chaoyang Circular Economy Industrial Park\n People's Government, Chaoyang District, Beijing Municipality\n E-mail: wangzhan@bjchy.gov.cn \n Tel: 010-65094288",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/comprehensive-waste-management-in-beijing/",
     "publication_date": "2019-03-29",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27435",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=comprehensive-waste-management-in-beijing&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

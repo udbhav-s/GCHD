@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-sustainability-agenda-protects-public-housing",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-sustainability-agenda-protects-public-housing/",
   "title": "Cities100: New York City – Sustainability Agenda Protects Public Housing",
@@ -32,6 +32,31 @@
     "coastal_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The NYCHA serves 400,000 residents and provides amenities that contribute to the social cohesion of entire neighborhoods. However, many of these residents are particularly vulnerable to climate change, with 54,000 living in a 100-year flood plain. The NYCHA Sustainability Agenda contributes to the city’s CO2 reduction goals, but also ensures developments adapt to weather impacts, so residents are not displaced.",
+    "measures": "In 2016, the NextGeneration NYCHA Sustainability Agenda was developed as a 10-year roadmap for healthy and comfortable homes able to withstand the impacts of climate change, in addition to supporting the city’s commitment to reduce its greenhouse gas emissions by 80% by 2050. The plan outlines 17 strategies to reduce NYCHA’s carbon footprint by 30% by 2025, foster resilience, and safeguard resident wellness, including improving heating and hot water efficiency, establishing standards for new buildings and improving existing buildings, adopting large-scale use of clean energy, and connecting residents to economic opportunity. Flood risk and stormwater management are a priority of the agenda, with resilience plans in development for all housing vulnerable to coastal flooding, including risk assessments and retrofit guidelines based on lessons learned from Hurricane Sandy. Phase one of the stormwater infrastructure implementation projects has the potential to capture approximately 72 million liters per year. Additionally, NYCHA will provide back-up power for all Sandy affected developments, develop microgrids at certain developments, and install 25 MW of solar power in an effort to protect public housing residents from the short- and long-term impacts of climate change.\n Environmental Benefits – By the end 2015, recycling infrastructure had been installed in 99 NYCHA developments housing more than 150,000 residents.\n Social Benefits – NYCHA will recruit 100 young residents for sustainability training provided by local community organizations as part of the Sustainability Agenda.\n Economic Benefits – The strategies laid out in the Sustainability Agenda will contribute about $980 million toward decreasing NYCHA’s capital needs and reduce energy- and water- related costs.\n Health Benefits – Repairing roofs, fixing leaking plumbing, and modernizing ventilation improves the respiratory health of residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-sustainability-agenda-protects-public-housing/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27233",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-sustainability-agenda-protects-public-housing&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

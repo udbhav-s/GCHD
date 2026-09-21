@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-buenos-aires-pasate-a-led",
   "url": "https://www.c40.org/case-studies/buenos-aires-pasate-a-led/",
   "title": "‘Pasate a LED’ – Buenos Aires Lamp Replacement Programme",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "PASATE A LED is a programme that aims to promote the efficient use of energy in homes through LED lighting. It is planning on reaching 325,000 homes, culminating in a reduction of 43,000 tCO2e per year.",
+    "measures": "Buenos Aires is aiming to promote energy efficiency among the residents of the City. In this sense, with the residential sector as a target, the PASATE A LED project has been designed. It is a lamp replacement program that seeks to promote the efficient use of energy in homes through LED lighting. This project is the continuation of a previous one focused on lamps replacement in vulnerable neighborhoods of the City, started in October 2017 and completed in June 2018.\n What is the project? How does it work \n What makes this project innovative is the effective replacement of the lamps. This allows to properly dispose used lamps. On the one hand, fluorescent lamps containing mercury undergo a treatment that makes their final disposal safe and, on the other hand, lamps that do not have contaminating material are crushed and used as raw material for the manufacture of the City's tiles. This strategy supports the change to a low-carbon and efficient economy.\n Unlike other cities, this project places a special emphasis on the future replacement of LED lamps, ensuring that the energy saving is not moot. It is also the first project of its kind at this level of magnitude. The replacement of up to 3 million LED lamps is currently being considered.\n What are the CO2 reduction goals/achievements? \n So far, 162,757 households out of the planned 325,000 homes have been reached. 740,613 lamps were delivered in the first phase of the project, which implies an equivalent of 21,367 tCO2e reduced out of a planned 43,000 tCO2e total. \n The citizens of Buenos Aires will have a significant saving in energy consumption that will be reflected on their electricity bill, with 14% less energy spent on average.\n To date, $3 million USD has been saved for the residents of the City, with an expected $100 million USD to be saved over the course of the project.\n With the decrease of electrical energy demand, there will be less reliance on thermal energy sources. This action is directly carried out to mitigate the effects caused by climate change. Another benefit of the program is provided thanks to the long life of the lightbulbs, which are able to extend up to 10 years. In total, 45.2 GWh will be saved for the residents of the City, which is equivalent to the consumption of 13,627 homes per year.\n Next Steps \n The city is planning on scaling up the project. In less than a year since the beginning of the project, 740,613 lamps have been replaced and an open purchase order has recently been initiated to have more stock of lamps available (up to 3 million). \n Links to further information \n Promotional Video for the Campaign",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/buenos-aires-pasate-a-led/",
     "publication_date": "2020-01-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27505",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=buenos-aires-pasate-a-led&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-rotterdam-strategic-transition-to-a-clean-heating-network",
   "url": "https://www.c40.org/case-studies/cities100-rotterdam-strategic-transition-to-a-clean-heating-network/",
   "title": "Cities100: Rotterdam – Strategic Transition to a Clean Heating Network",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rotterdam",
+      "label": "Rotterdam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Installing a district heating system to serve the needs of more than 900,000 people is an enormous logistical challenge for the city, but by focusing on the potential improvements in other areas, the city is turning a risk into an opportunity.",
+    "measures": "In order to reduce energy consumption and replace fossil-based energy use, Rotterdam launched its Heat Transition Programme, which will optimize the balance between targeting individual building performance and city-wide clean energy policy. The city is rolling out the changes in stages, and is using the opportunity to identify other city-wide upgrades that can be achieved simultaneously, such as sewage and building maintenance. The pilot stage of the project will connect the first 1% of houses to the district heating system, and the lessons learned will be used to produce a blueprint for city-wide scale up. The goal of the heat transition is to achieve virtually zero-emission heating. The districts in transition will also be scanned for improvement opportunities such as parking problems or social cohesion. This will not only result in lower emissions, cleaner air, more jobs, and a call for innovations, but will also have a valuable and positive social and physical impact.\n Social Benefits – The city is using the heat transition as an opportunity to address social issues and improve local problems such as waste water management and sustainable mobility solutions.\n Health Benefits – The reduction in NOx from reduced gas boiler use will improve the air quality of Rotterdam and reduce the frequency of respiratory-related illnesses.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-rotterdam-strategic-transition-to-a-clean-heating-network/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27318",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rotterdam-strategic-transition-to-a-clean-heating-network&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

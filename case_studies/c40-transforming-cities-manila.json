@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-manila",
   "url": "https://www.c40.org/case-studies/transforming-cities-manila/",
   "title": "Transforming Cities: Manila’s flood fighters",
@@ -27,6 +27,31 @@
     "river_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "manila",
+      "label": "Manila"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Manila, Cherry and her community decided to take on the typhoons that were devastating her neighbourhood.",
+    "measures": "After almost having to flee her home for a second time due to flooding, Cherry and her community decided to take on the typhoons that were devastating her neighbourhood.\n More From The ‘Transforming Cities’ Series \n This content was produced for the Asian Development Bank by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-manila/",
     "publication_date": "2022-11-01",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33424",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-manila&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-13T15:18:34",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

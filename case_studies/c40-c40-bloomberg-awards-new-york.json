@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-bloomberg-awards-new-york",
   "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-new-york/",
   "title": "C40-Bloomberg Philanthropies Awards: New York City Housing Authority’s sustainability agenda",
@@ -30,6 +30,31 @@
   "hazards": [
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New York City is implementing transformative policies to decarbonise energy use in NYC residential buildings.",
+    "measures": "The New York City Housing Authority (NYCHA) has developed a sustainable plan to slash emissions across all sectors by 80% by 2050 whilst ensuring 300,000 residents are protected from the impacts of climate change, such as heat waves, storms and temperature rise.\n The city is implementing transformative policies to decarbonise energy use in NYC residential buildings. These include deep retrofits to reduce energy consumption, and the installation of 30 megawatts of solar panels on residential rooftops, on top of the city’s 2025 100 megawatts solar target for municipal buildings, which will help clean up the city’s electricity supply.\n A key part of the plan is moving away from fossil fuel use in heating and cooking through innovative electrification solutions. Through the Clean Heat for All challenge , manufacturers were invited to develop new cold-climate heat pumps, which can be installed in windows in around half the usual installation time, minimising disruptions for residents. The city will purchase 24,000 heat pumps to enable rapid, low-cost electrification of tens of thousands of multi-family buildings and provide reliable heat. Geothermal energy solutions are also being deployed, and gas stoves are being replaced with induction cookstoves in select buildings.\n These actions create equitable job opportunities for public housing residents; over 300 city residents have been hired to complete the works, with an additional 40 enrolled in solar training programmes. NYCHA is also establishing the Clean Energy Academy to train 250 residents over four years in green jobs in the solar and building decarbonisation industries.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Accelerating Immediate Action in Critical Sectors",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-new-york/",
     "publication_date": "2022-10-19",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31489",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-new-york&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:30:50",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

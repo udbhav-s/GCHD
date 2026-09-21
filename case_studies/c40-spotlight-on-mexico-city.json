@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-spotlight-on-mexico-city",
   "url": "https://www.c40.org/case-studies/spotlight-on-mexico-city/",
   "title": "Spotlight on… Mexico City",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Mayor Claudia Sheinbaum explains Mexico City’s key focuses and climate actions.",
+    "measures": "Mayor Claudia Sheinbaum explains Mexico City’s key focuses and climate actions.\n More From The ‘Spotlight On…’ Series \n This video was originally produced for the C40 World Mayors Summit in Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/spotlight-on-mexico-city/",
     "publication_date": "2022-10-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33080",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=spotlight-on-mexico-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-13T16:09:49",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

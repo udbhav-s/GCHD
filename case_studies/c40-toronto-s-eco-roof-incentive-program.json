@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-toronto-s-eco-roof-incentive-program",
   "url": "https://www.c40.org/case-studies/toronto-s-eco-roof-incentive-program/",
   "title": "Toronto’s Eco-Roof Incentive Program",
@@ -30,6 +30,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of Toronto launched the Eco-Roof Incentive Program in 2009 to support the uptake of eco-roofs by building owners, make buildings more sustainable and promote the creation of green jobs. The Program provides grant funding for building owners to install new roofing materials – green roofs with living plants and cool roofs that reflect solar heat – that provide environmental benefits and build resilience.",
+    "measures": "The Eco-Roof Incentive Program provides funding for existing buildings, and new buildings not required to construct a green roof as part of the Green Roof Bylaw. Buildings must be located in the city of Toronto.\n Eligible green roof projects will receive $75 / square metre up to a maximum of $100,000.\n Eligible cool roof projects will receive $2-5 / square metre up to a maximum of $50,000.\n\nThe Eco-Roof Incentive Program provides funds for green roof projects on:\n Existing residential, industrial, commercial, and institutional buildings\n New residential, industrial, commercial, and institutional buildings with a gross floor area of less than of 2,000 m 2 .\n New and existing Toronto Public and Separate School Board buildings of any size\n To be eligible for the Eco-Roof Incentive Program, a green roof must meet the following specifications:\n Be designed, constructed and maintained in conformance with the requirements of the Toronto Green Roof Construction Standard\n Have minimum coverage of available roof space that ranges from 20-60% based on the size of the building.\n The Eco-Roof Incentive Program provides funds for cool roof projects on existing residential, industrial, commercial, and institutional buildings that meet the following specifications:\n Cover 100% of the roof area of the building\n Be comprised of a roof material or coating system that:\n has a minimum Solar Reflectance Index (SRI) rating of 78 for low-sloped roofs or SRI of 29 for steep-sloped roofs.\n has an emissivity greater than 0.9 and an initial solar reflectance of 0.65.\n is asbestos and mercury-free and emits zero volatile organic compounds (VOCs) and ozone depleting substances (ODSs).\n The program grants are funded by fees paid by developers under the Green Roof Bylaw.",
+    "outcomes": "In 2013 the program was expanded to include the residential sector. As a result there has been an increase in applications and uptake of green roofs from this sector. It is expected that this trend will continue as more property owners embrace eco-roof technology.\n In 2015 City Council will be presented with a report that will discuss the outcomes of the program and make recommendations for increasing uptake of the program.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/toronto-s-eco-roof-incentive-program/",
     "publication_date": "2015-01-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26941",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=toronto-s-eco-roof-incentive-program&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

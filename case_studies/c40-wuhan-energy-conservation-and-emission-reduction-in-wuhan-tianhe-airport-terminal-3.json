@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-wuhan-energy-conservation-and-emission-reduction-in-wuhan-tianhe-airport-terminal-3",
   "url": "https://www.c40.org/case-studies/wuhan-energy-conservation-and-emission-reduction-in-wuhan-tianhe-airport-terminal-3/",
   "title": "Wuhan Energy Conservation and Emission Reduction in Wuhan Tianhe Airport Terminal 3",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Tianhe Terminal 3 is one of the most comprehensive integrated transport hubs in China, the and spans 495,000 m2. The terminal integrates seven transport modes， namely air travel, intercity railway, metro, long distance coaches, private passenger cars, taxis and buses. Terminal 3 has employed the latest energy conservation and emission reduction technology and, based on the results in similar buildings in and outside China, energy savings could reach at 20~30%.",
+    "measures": "In terms of building energy conservation, Terminal 3’s transparent glass facade serves as ventilation and as a sun-shading structure. In the summertime, flowing air will remove surface heat, greatly reducing heat radiation. The roof of Terminal 3 is flat, making it conducive to the installation of solar panels which can collect thermal energy and provide power for lighting systems in some areas and working zones. Light conducting devices are used to bring natural lighting into underground and inside of the Terminal; waste heat from lighting and ventilating exhaust ducts are recovered; Exxon ABJ plate heat exchangers are used to minimize AC heat exchange energy consumption; and underground water resources and ground source heat pump air conditioners are used to provide auxiliary heating and save operating costs.\n In order to recycle rainwater, Terminal 3 has adopted a roof rainwater collection system. Reclaimed water are used to flush the road, irrigate plants and save water resources. \n The andscaping area of terminal 3 is around 850,000 m2, consisting of one axis, one core and two wings. The axis refers to the greening of the main access point to the airport. The core stands for the greening of the areas around the transport center. And the two wings refers to the road greening efforts in the south and north areas of the terminal. Greening area for main access is about 240,000 m2. Public greening area of terminal is around 270,000 m2. Green area of roof garden of transport center is around 59,000 m2. Indoor greening area of terminal is around 22,000 m2. According to investigation, the dust reduction rate within landscaping areas can reach 37%~60% and noise mitigation can reach 10~20 dB.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/wuhan-energy-conservation-and-emission-reduction-in-wuhan-tianhe-airport-terminal-3/",
     "publication_date": "2017-11-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27373",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-energy-conservation-and-emission-reduction-in-wuhan-tianhe-airport-terminal-3&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

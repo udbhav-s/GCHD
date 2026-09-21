@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-energy-efficiency-built-to-last",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-energy-efficiency-built-to-last/",
   "title": "Cities100: New York City – Energy Efficiency, Built to Last",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In densely populated New York City, buildings account for nearly three-quarters of greenhouse gas emissions. In order to achieve the ambitious goal of 80% reduction in greenhouse gas emissions by 2050, the city must increase investments in energy efficiency for public buildings, and the private sector must overcome barriers to energy efficiency investments in a fragmented market for energy efficiency and clean energy services. This new program integrates the market and helps the public and private sectors realize the benefits of more efficient building energy use.",
+    "measures": "One City: Built to Last is a 10-year plan to improve the energy efficiency of New York City’s buildings through a combination of public investments in city owned buildings and new programs to spur private-sector action. Initiatives for public buildings, which are backed by more than $1 billion in funding, will improve city operations and maintenance and retrofit every city-owned building with significant energy use by 2025. To encourage private sector action, the plan includes energy audit ordinances, lighting upgrades, and sub-metering for mid-sized buildings, as well as assistance for private building owners undertaking efficiency upgrades. Cumulatively these programs will reduce building based emissions 30% by 2025 in private sector buildings, and 35% by 2025 for city-owned buildings.\n To analyze potential greenhouse gas reduction pathways for the buildings sector, the Technical Working Group of 38 experts in architecture, engineering, real estate, and the environment will recommend the additional policies necessary to reach the city’s goal of an 80% reduction in CO2 emissions by 2050.\n Environmental Benefits – The programs and initiatives included in One City are expected to reduce water use in buildings by at least 14 million liters annually by 2025.\n Social Benefits – Lower utility bills will help to alleviate the rent burden faced by many New Yorkers, especially low-income households.\n Economic Benefits – One City will save New Yorkers $8.5 billion in energy costs by 2025 and create 3,500 new jobs.\n Health Benefits – By 2030, improved air quality as a result of NYC Clean Heat – a One City program – could prevent an estimated 290 deaths, 180 hospital admissions, and 550 emergency room visits for asthma annually.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-energy-efficiency-built-to-last/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27011",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-energy-efficiency-built-to-last&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

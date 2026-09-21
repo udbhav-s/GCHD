@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-saving-oceansides-beaches",
   "url": "https://www.c40.org/case-studies/transforming-cities-saving-oceansides-beaches/",
   "title": "Transforming Cities: Trying to save one beach at a time",
@@ -26,6 +26,31 @@
   "hazards": [
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "oceanside",
+      "label": "Oceanside"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+    "measures": "The community effort to protect Oceanside’s seashores \n As sea levels rise and the ocean swallows the sand, Oceanside residents are coming together to protect the coastline they love. Watch how local organisations are innovating and adapting to slow coastal erosion and build a more resilient seaside city.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Resilient Cities Catalyst (Alumbra Foundation) by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": "As sea levels rise and the ocean swallows the sand, Oceanside residents are coming together to protect the coastline they love. Watch how local organisations are innovating and adapting to slow coastal erosion and build a more resilient seaside city.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for Resilient Cities Catalyst (Alumbra Foundation) by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-saving-oceansides-beaches/",
     "publication_date": "2025-06-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "42614",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-saving-oceansides-beaches&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-17T13:19:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

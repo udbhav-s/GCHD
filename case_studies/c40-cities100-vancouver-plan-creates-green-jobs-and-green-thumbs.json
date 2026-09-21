@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-vancouver-plan-creates-green-jobs-and-green-thumbs",
   "url": "https://www.c40.org/case-studies/cities100-vancouver-plan-creates-green-jobs-and-green-thumbs/",
   "title": "Cities100: Vancouver – Plan Creates Green Jobs and Green Thumbs",
@@ -30,6 +30,31 @@
   "hazards": [
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "vancouver",
+      "label": "Vancouver"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Vancouver’s population is constantly growing, and its coastal location makes it vulnerable to rising sea levels. The ambitious GCAP builds on decades of positive climate action and will help Vancouver achieve its climate goals, such as reducing its ecological footprint by 33% and exceeding the highest regional, national, and WHO air quality guidelines.",
+    "measures": "Vancouver’s 2011 Greenest City Action Plan (GCAP) sets the overall sustainability direction for this Canadian city’s future development, focusing on job creation, carbon emission reduction, and local food systems, in the hopes of becoming the greenest city in the world. Green jobs and local food systems play a major role in this plan. By 2020, the GCAP aims to double the number of green jobs and green companies, and action is already being taken. Since 2010, green building design and construction jobs have increased by 50%. Similarly, local food jobs have grown by 21% and green transportation-related jobs have grown by 19%, largely through local electric vehicle infrastructure projects and increasing demand for car-sharing services.\n Aside from green job growth and local food systems, Vancouver’s GCAP also requires all new buildings from 2020 onwards to be carbon neutral and that the volume of solid waste going to the landfill or the incinerator be reduced by 50%. In all, the city’s nearly 170 actions, completed or underway, ensure that GCAP targets will be achieved and that the city is transparent and accountable throughout the process.\n Environmental Benefits – Vancouver’s GCAP aims to reduce per capita water consumption by 33% by 2020.\n Social Benefits – By empowering residents to grow their own food, and providing access to community gardens and mobile food markets, GCAP improves food security, food justice, health, and citizens’ well-being.\n Economic Benefits – The plan is dedicated to creating more green jobs. Currently, 20,000 people in Vancouver, nearly one in 20, have a job in a green or local food-related industry.\n Health Benefits – The plan promotes active transportation infrastructure and local food suppliers, in part, to help lower obesity rates and improve overall health outcomes.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-vancouver-plan-creates-green-jobs-and-green-thumbs/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27002",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-vancouver-plan-creates-green-jobs-and-green-thumbs&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

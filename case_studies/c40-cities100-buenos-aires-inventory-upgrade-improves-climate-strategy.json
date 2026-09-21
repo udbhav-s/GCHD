@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-buenos-aires-inventory-upgrade-improves-climate-strategy",
   "url": "https://www.c40.org/case-studies/cities100-buenos-aires-inventory-upgrade-improves-climate-strategy/",
   "title": "Cities100: Buenos Aires – Inventory Upgrade Improves Climate Strategy",
@@ -32,6 +32,31 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Buenos Aires has faced challenges from urbanization since the 1950s. This, combined with the increase of heavy rainfall and heat waves due to climate change, has increased the city’s vulnerability, particularly in flood-prone areas occupied by informal settlements. The inventory upgraded through the Climate Change Action Plan has allowed the city to more appropriately and accurately plan projects to reduce CO2 emissions and lessen the impacts climate change.",
+    "measures": "In 2011, Buenos Aires enacted the Climate Change Law in support of its Climate Change Action Plan, confirming its commitment to reducing emissions. The law enforces checks and updates of the plan every five years, the first of which occurred in 2015 and resulted in the conversion of the city’s initial emission inventories to a more accurate, robust version based on the Global Protocol for Community-Scale Greenhouse Gas Emission Inventories (GPC). The process of upgrading the inventories has helped the city define a new focus area of the Climate Change Action Plan for 2020. In addition to the three core pillars of the initial Action Plan – waste, transport, and energy – the city has proposed a fourth pillar on tree planting in urban areas, aiming to improve carbon sequestration and rainfall capture, while reducing the urban heat island effect. Moving forward with these four pillars, combined with efforts already in place, Buenos Aires plans to reduce emissions by 10% by 2020 and by 30% by 2030.\n Environmental Benefits – So far, waste handling measures implemented under the plan have reduced CO₂ emissions by 181,000 tons.\n Social Benefits – As part of the strategy, more than 6,000 municipal agents, in addition to community institutions such as schools and senior centers, have been trained to respond in emergency situations caused by climate change.\n Health Benefits – The plan aims to plant more trees, which will reduce the urban heat island effect and place less pressure on the public health system.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Emissions or carbon inventory",
@@ -46,7 +71,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-inventory-upgrade-improves-climate-strategy/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27245",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-inventory-upgrade-improves-climate-strategy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

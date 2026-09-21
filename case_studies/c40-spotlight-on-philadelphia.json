@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-spotlight-on-philadelphia",
   "url": "https://www.c40.org/case-studies/spotlight-on-philadelphia/",
   "title": "Spotlight on… Philadelphia",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "philadelphia",
+      "label": "Philadelphia"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Mayor Jim Kenney is already dealing with the significant impacts of the climate crisis in Philadelphia…",
+    "measures": "Mayor Jim Kenney is already dealing with the significant impacts of the climate crisis in Philadelphia. \n Residents are at risk of more frequent and severe heat, storms, and flooding, with issues such as housing affordability, neighbourhood instability, pollution, and health exacerbated. \n More From The ‘Spotlight On…’ Series \n This video was originally produced for the C40 World Mayors Summit in Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/spotlight-on-philadelphia/",
     "publication_date": "2022-10-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33082",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=spotlight-on-philadelphia&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-13T16:22:05",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

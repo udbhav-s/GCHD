@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-daijiahu-park-wuhan",
   "url": "https://www.c40.org/case-studies/daijiahu-park-wuhan/",
   "title": "Landscape Greening and Ecological Restoration Project of Daijiahu Park in Wuhan City",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Daijiahu Lake, a previously polluted lake, has been transformed into a municipal park and ‘green lung’ for Wuhan through consolidated city action.",
+    "measures": "Daijiahu Lake was a natural lake rich in fish, shrimp and lotus root prior to the 1950s. With the development of the city, a thermal power plant with installed capacity of 1.06 million kilowatts was built in the Daijiahu area. Over the past 50 years, Daijiahu Lake became a landfill for fly ash discharged from the thermal power plants. It then evolved from a fly ash dumpsite to a black hill more than 10 meters high, becoming the main polluting source of dust groundwater.\nIn 2003, fly ash began being used as raw material for making bricks, which led to the fly ash in Daijiahu Lake to be excavated and turned into low-lying land where now more than 100,000 residents live. The low-lying land then became an illegal accumulation site of domestic and construction waste. Daijia Lake had become a synonym for a dirty, chaotic and poor environment.\nAt the end of 2013, the municipal and district governments began to construct a series of ecological parks, starting out with Daijiahu lake.Daijiahu Park, with its new appearance as a comprehensive ecological park, has become a sample of the new industrial city “production, life, ecology and survival”. It serves as a model project for Wuhan “Baihu City” in the past 50 years, from the destruction of original ecology to the restoration of it, and plays a demonstration role in building an eco-city with harmonious coexistence of man and nature.\n What is the project? \n Daijiahu Park is the first comprehensive urban park built on the original site of industrial waste in Wuhan, and also its first economized Park (by adapting measures to local conditions and taking local materials). In 2017, it was awarded the China Habitat Environment Model Award.\n Daijiahu Park upholds the concept of sponge city design, makes rational use of waste materials, relies on the original terrain, retains part of the water area, levels, raises and lowers, and saves 20 million yuan. At the same time, ecological ditches and rainwater gardens are set up to collect rainwater, which will be collected into the central lake of the park, provide greening water for the park, and merge domestic sewage into the municipal pipeline network, making sure that the lake is clean.\n In terms of resource utilization, relying on science and technology, the regeneration value of fly ash, and improving the soil scientifically to meet the needs of plant growth, the fly ash field of Daijiahu Lake has become an important site for the annual tree planting festival.\n The park’s landscape architecture makes full use of the lake’s past: broken bricks, rubble, fly ash, old metal parts, and concentrate on the expression of industrial history and culture through paving, landscape walls, galleries, sculpture sketches, etc.\n Three-dimensional use of elevated space. The urban viaduct loop line and the Intercity High Speed Rail pass through the garden. In order to make rational use of the space resources under the two giant viaducts a considerable number of ecological parking lots, sports fitness grounds and special tourist trails at the bridge shade area were developed, integrating the elements of ecology and movement into the daily life of citizens, and experiencing healthy life.\n What are the CO2 reduction goals? \n More than 30,000 trees and shrubs were planted in Daijiahu Park, with a greening rate of 91.8%. It provides more than 80 hectares of public green space, which is called a “green lung” in the East Gate of Wuhan. According to IPCC (2006 IPCC Guidelines for National Greenhouse Gas Inventories, Vol.4 AFOLU), the net growth value of aboveground biomass in subtropical grassland is 6 tons of dry matter/ha/year and the dry matter carbon ratio (CF) is 0.47 tons of carbon/ton dry matter. It is calculated that this project can increase carbon sink by 827.2 tons per year.\n Additionally, this project aims to solve the problem of serious dust pollution in Daijiahu Lake. The park can absorb 827 tons of carbon dioxide and more than 200 tons of dust every year.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/daijiahu-park-wuhan/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27495",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=daijiahu-park-wuhan&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-johannesburg-waste-to-energy-partnership-saves-money",
   "url": "https://www.c40.org/case-studies/cities100-johannesburg-waste-to-energy-partnership-saves-money/",
   "title": "Cities100: Johannesburg – Waste-to-Energy Partnership Saves Money",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The procurement and use of energy is an expensive and often polluting endeavor for cities. Through its biogas-to-energy project, Johannesburg is mitigating those impacts while also reducing methane emissions and turning waste into a productive resource.",
+    "measures": "In 2011, Johannesburg launched a project to transform methane emissions from wastewater and landfill waste into energy. The project currently supplies 1.1 MW of electricity to the Northern Water Treatment plant, the largest in the city, which is equivalent to 12% of the plant’s operational needs. The city plans to expand the project to four other wastewater plants. In addition, to further scale up this solution, Johannesburg will partner with an energy management services company to develop biodigestors that will process organic waste from the city’s five landfills, turning it into biogas used to fuel the city’s bus fleet. Recognized as a Clean Development Mechanism project by the United Nations Framework Convention on Climate Change, this initiative is the result of a public-private partnership wherein the city provides the rights to the landfill gas to the developer, who is responsible for financing and operating the project. This arrangement enables the city to undertake the project risk-free while receiving royalties from the developer.\n Environmental Benefits – The project helps mitigate methane gas emissions, which are more potent than CO2.\n Economic Benefits – With the biogas-to-energy project, the Northern Water Treatment plant saves money previously used to purchase electricity from the local power utility.\n Health Benefits – The project ensures better waste management at landfills and wastewater treatment plants, which reduces potential environmental contamination, and related negative health impacts for nearby communities.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-waste-to-energy-partnership-saves-money/",
     "publication_date": "2016-11-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27175",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-johannesburg-waste-to-energy-partnership-saves-money&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

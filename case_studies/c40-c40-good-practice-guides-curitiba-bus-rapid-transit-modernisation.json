@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation/",
   "title": "C40 Good Practice Guides: Curitiba – Bus Rapid Transit Modernisation",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "curitiba",
+      "label": "Curitiba"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Curitiba was the first city to develop Bus Rapid Transit in 1974 and today the city continues to be…",
+    "measures": "Summary \n Curitiba was the first city to develop Bus Rapid Transit in 1974 and today the city continues to be a transit innovator, having recently launched a program to implement hybrid and electric buses. Curitiba’s BRT system was developed as an integral part of an overall Masterplan (1966), xxxii its main objectives included radial expansion of the city along five corridors, integrating land use and transport, and creating a dedicated planning institute IPPUC. xxxiii The Masterplan is revised every 10 years, and the latest revision includes a comprehensive urban sustainable development plan for the next 50 years.\n In the 1990s, after creating the BRT system thanks to a partnership between the municipality and bus operators (which made the first BRT lanes cost 50 times less than subway xxxiv ), Curitiba tackled the integration of all bus lines into the Rede Integrada de Transporte, with a hierarchy of bus service types and common terminals, allowing passengers to use one ticket for as many bus lines as necessary. xxxv In 2011, BRT expanded its carrying capacity with the implementation of the Direct Line – a bus stopping at fewer stops, reducing substantially longer-distance travel time. In 2012, the city also initiated the integration with a bicycle network, expanded through the 2012 Bicycle Masterplan. xxxvi Curitiba also continues innovation in other parts of its transport sector: since 2014, they have been promoting 100% electric buses.\n Results \n Today, 80% of travellers use the BRT system and it carries around 2 million passengers per day. xxxvii The BRT has 30 hybrid buses, reducing overall fuel needs by 35% and limiting pollutant emissions (NOx, particles). Curitiba’s BRT system model has already been replicated in more than 150 cities worldwide.\n Reasons for success \n The success of the BRT system is related to its integration in Curitiba’s masterplanning and support from different stakeholders. On the micro level, some employers subsidise their employees who use the BRT system. On the macro level, urban planning is integrated with the BRT system, with urban growth being restricted to corridors of growth – along key transport routes – using a combination of control and incentives, such as extended permitting for developers that wish to construct taller buildings close to the transit corridors.\n When/why a city might adopt an approach like this \n Cities developing or updating urban development plans, planning for upgrade of their transport system or looking into implementing a BRT system, can all use this approach to ensure that different transport modes are well integrated and constitute the most efficient system possible. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Today, 80% of travellers use the BRT system and it carries around 2 million passengers per day. xxxvii The BRT has 30 hybrid buses, reducing overall fuel needs by 35% and limiting pollutant emissions (NOx, particles). Curitiba’s BRT system model has already been replicated in more than 150 cities worldwide.\n\nThe success of the BRT system is related to its integration in Curitiba’s masterplanning and support from different stakeholders. On the micro level, some employers subsidise their employees who use the BRT system. On the macro level, urban planning is integrated with the BRT system, with urban growth being restricted to corridors of growth – along key transport routes – using a combination of control and incentives, such as extended permitting for developers that wish to construct taller buildings close to the transit corridors.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation/",
     "publication_date": "2016-02-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27168",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

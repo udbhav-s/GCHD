@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development",
   "url": "https://www.c40.org/case-studies/hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development/",
   "title": "Hanoi’s Bus Rapid Transit System – The Key to Sustainable Urban Development",
@@ -26,6 +26,36 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With the ambition of transforming its transport sector, the City of Hanoi has introduced the first mass rapid transit system – a Bus Rapid Transit (BRT) system – which helps to meet the increasing demand for high capacity and high-quality public transport services.",
+    "measures": "Hanoi’s transportation has been characterized by the dominance of motorcycles, a symbol of high personal mobility associated with rapidly rising incomes. Over 5 million motorcycles and 585,000 private cars are occupying 85.8% of the city’s road networks. Congestion was already becoming a critical problem in the city. Traffic was in general unorderly and sometimes chaotic at intersections, posing safety concerns and exacerbating air pollution especially for vulnerable groups such as women, children, elderly, and long-distance motorists.\n City’s efforts to curb motorization aimed to restrict motor vehicle access to the inner city by the year 2030 and to increasingly promote public transport. With these motivations, the City of Hanoi, backed by the World Bank, approved the construction of a critical road infrastructure (a Bus Rapid Transit system) to improve access to city’s less developed areas and to facilitate an environmentally sustainable urbanization of Hanoi.\n This BRT project has been designed as a Specific Investment Loan, with the Global Environmental Facility (GEF) co-financing a set of initiatives that either would reduce barriers to project implementation or maximize its global environmental benefits. The project is consistent with the GEF Operational Program 11th objective of ‘Promoting Environmentally Sustainable Transport’ and the GEF climate change strategic priority related to sustainable transport. The Hanoi Bus Rapid Transit (BRT) system proposed in this project has also been the first such system financed by the World Bank in Asia, with the potential to be a high-profile demonstration for bus-based mass rapid transit in the region.\n What is the project? How does it work? \n The Hanoi project is the first BRT line in Vietnam. It consists so far of one route, a 14.7 km long busway (one bus lane per direction); 21 stations; 2 terminals (Kim Ma and Yen Nghia); one depot at Yen Nghia; 10 pedestrian overpasses; 35 BRT vehicles; and traffic signals.\n The BRT line began operation on January 1, 2017. In the first month, passengers could ride the BRT free of charge. Now, a one-way ticket costs VND 7,000 (about US$0.3).\n The core benefits of the Hanoi BRT were identified by estimating the difference in passenger travel time and vehicle operating cost (VOC) after its operation started, compared to the before. The benefits were valued based on the willingness of users to pay time-cost and VOC per trip, with new trips generated assumed to have a uniformly distributed ‘willingness to pay’ ranging from just below the per-trip cost without the project and that with the project.\n The BRT has been operating with a service frequency of one bus every 5 minutes (each direction) during peak hours, 7 minutes during daytime off-peak hours, and every 10 minutes in the evening. Approximately 14,000 people use the service each day, 80% of whom are students and office workers. According to the Hanoi Department of Transport, 23% of riders have switched to using BRT from their private vehicles. The BRT system has helped to increase urban mobility in targeted areas of the city, promoting more environmentally sustainable transport modes. It increased the use of public transport in selected traffic corridors and reduced travel time between the center and the west and northwest sections of Hanoi.\n What are the CO2 reduction achievements? \n The principal GHG emissions reduction comes from reduced car and motorcycle trips. The total GHG emissions reduction estimated until 2025 is 122,177 tons of CO2e.\n Next Steps: \n From the results and lessons learnt from the first BRT project, the Hanoi city has been considering to invest in a second BRT route from Kim Ma to High tech Hoa Lac. The High tech area has over 20,000 active commuters, including government officials, industrial workers and students. 24 out of 35 BRT buses will be used for BRT route 1, and the remaining for the BRT route 2.\n Links to further information \n Hanoi Bus Rapid Transit (BRT) \n Contact Details \n Ms. Nga\n Hanoi Urban transport development Project (HUTDP)\n Tel. +84982042807\n hutdppmu@vnn.vn",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development/",
     "publication_date": "2019-01-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27429",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

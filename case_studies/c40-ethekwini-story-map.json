@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-ethekwini-story-map",
   "url": "https://www.c40.org/case-studies/ethekwini-story-map/",
   "title": "eThekwini Municipality Climate Story Map: Turning Future Climate Risk into Resilience",
@@ -32,6 +32,31 @@
     "coastal_flood",
     "meteorological_drought"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "eThekwini has developed an interactive online story map in order to identify and share current and projected climate conditions and impacts with its citizens.",
+    "measures": "eThekwini’s Climate Story Map is a unique approach identifying and sharing current and projected climate conditions, risks and impacts through an online, interactive platform that is publicly available. There was a considerable emphasis that was placed on visualizing climate information in a distinctive way that connects it with the priorities of the municipality, linking climate science with city priorities and concerns. The city adopted a combined top-down and bottom-up approach, where consultants and municipal officials worked together to co-produce a series of maps, to illustrate climate risk. The Story Map focuses on key climate risks for Durban, including increased heat, a higher frequency of both storms and droughts, as well as sea-level rise. The Story Map climate lens allows users to see impact of climate change. Users can zoom and move the lens to see the effects for the area of their interest. The Story Map provides users, decision-makers and planners with a snapshot of how these factors will impact on the City given different climate change scenarios. The interactive platform distils the complex climate science to make it easy to understand through maps and graphics, enabling users to effectively engage with and respond to climate change forecasts in the City.\n The idea was to not write a report that could eventually disappear in a drawer, but co-develop an interactive platform, hosted by the city itself, generating massive amounts of traffic and kick-started with a big launch. The format of climate story mapping was used to translate the results of the risk assessment towards actionable information that city professionals can work with.\n What is the innovation? \n The Climate Story Map bridges the gap between climate science and city level action, by translating climate change science to policy relevant and usable information and making it publicly accessible to all stakeholders. \n Consultants and municipal officials worked together to co-produce a series of maps that link climate science with city priorities and concerns. \n The climate risk assessment and climate action plan update highlighted the need to frame climate adaptation not only as a means of risk reduction or risk avoidance, but also as a value creation or value enhancing proposition. This moves away from the traditional approach of generating climate information to feed into risk, impact and vulnerability assessments, but rather what climate adaptation and mitigation actions can support the city to change for the better.\n The goals of the project were as follows:\n To assess particular climate-related hazards, risks and key sources of vulnerability that will impact the city, as well as each sector. \n To ‘mainstream’ climate adaptation and resilience into various activities that the municipality undertakes. \n To provide a spatial representation of climate risk and hazards that is easily communicated to various municipal departments and public stakeholders. \n To develop an interactive, accessible platform for climate risks in the city to support city-wide planning, decision-making to improve overall climate resilience in the city. \n To understand the likelihood and impact of future climate hazards on Durban and our citizens to inform the development of Durban’s Climate Action Plan and to provide the evidence base for climate action in the City. \n To identify priority actions to mitigate the adverse impacts of climate change and build resilience in the City. \n To reach out to all stakeholders (including private sector, NGOs & public) and create awareness through the story map online platform.\n Additionally, the work included updating and simplifying climate projections for Durban using climate change projections for RCP2.6, RCP4.5 and RCP8.5 were used, to span the full range of possible futures. The projections showed that: \n Temperatures are rising – up to 1.6 degrees by 2050 \n More frequent droughts – 1 in 10 year dry periods expected to increase to 3 in 10 years \n Increased flooding – 1 in 10 year floods are expected to increase to 3 in 10 years \n Sea level rise – up to 1 meter above current levels\n Next Steps \n The city is exploring the potential of housing the Story Map in the City’s Strategy Office and building on the functionality to enable further decision-making. \nFurthermore, during the workshop, the potential to expand the Story Map to the rest of the province (KwaZulu-Natal) was explored and can potentially be achieved pending budget.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Weather or climate-projection data",
@@ -46,7 +71,12 @@
     "document_url": "https://www.c40.org/case-studies/ethekwini-story-map/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27489",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ethekwini-story-map&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

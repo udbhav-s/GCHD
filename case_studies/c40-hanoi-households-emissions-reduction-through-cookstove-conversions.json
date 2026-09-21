@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hanoi-households-emissions-reduction-through-cookstove-conversions",
   "url": "https://www.c40.org/case-studies/hanoi-households-emissions-reduction-through-cookstove-conversions/",
   "title": "Hanoi – Households Emissions Reduction through Cookstove Conversions",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Fulfilling an urgent need for clean cookstoves as a greening and healthy solution for Hanoi City",
+    "measures": "In Hanoi alone, there are over 50,000 households which have been using inefficient Beehive stoves for various purposes like cooking, food & drink services and cattle feed. The exposure to smoke poses significant health risks, particularly for women and children. Considering that households spend more than two hours a day cooking, health hazards are ever so likely. The WHO estimates that short and long-term health effects associated with the smoke produced by these fuels have contributed to approximately 45,000 deaths per year in the country.\n Picture of an old beehive cookstove\n The traditional fuel used for beehive stoves in Hanoi is what is called “beehive coal”. Beehive coal is similar to conventional coal but is mixed with mud and other substances. When burning, it emits a number of hazardous substances.\n The beehive stoves conversion into advanced clean cookstoves (see pictures below) leads to burning of biomass rather than fossil fuels, which contributes to GHG reduction. The clean cookstoves have also been checked and tested by ‘Smart Development Works Vietnam’ (SNV Vietnam) against efficiency, emissions, safety and fuel savings international standards. These advanced clean cookstoves have greater heating efficiency and need less fuel, therefore emit less CO2 and particles, reducing harmful impacts on user’s health.\n What is the innovation? How does it work? \n To improve the quality of the urban environment and citizens’ health, Hanoi has committed to eliminate beehive stoves by 2020, encouraging citizens to use innovative stoves which are fuel efficient, have less carbon emissions, and benefit users’ health and safety.\n Since April 2017, the city assessed the cookstove usage status in every district of Hanoi by assessing users’ habits and demands, so that policies and financial mechanisms can be proposed for incentives for conversion to innovative stoves.\n Statistics show that cookstoves are used mainly in middle and high-income areas. Awareness of cookstoves’ impacts is limited among local people. Only 14-30% of cookstove users want to replace traditional cookstoves with cleaner ones. Most of the interviewees did not know about advanced cookstoves with a lower price. This is why researchers, local and international NGOs and civil society have been working together to tackle the issue. Thanks to an effective network and awareness-raising campaigns, many Hanoi inhabitants now have clean cookstoves that drastically reduce smoke levels and carbon emissions.\n At present, SNV Vietnam has provided financial support for qualified clean cookstove producers in order to promote clean advanced cookstoves across the country, including Hanoi.\n Hanoi will continue to work with SNV Vietnam to increase access to and availability of advanced clean cookstoves for households, while increasing the capacity of local producers to distribute clean cookstoves.\n What are the CO2 reduction goals? \n According to estimates, it is possible to achieve emission reductions of up to 3,667 million tons of CO2 by replacing all Hanoi’s 50,000 fossil fuel-burning cookstoves with cleaner stoves burning biomass.\n Contact Details \n Le Thanh Thuy\n Hanoi Environmental Protection Agency\n thuyle.epa@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/hanoi-households-emissions-reduction-through-cookstove-conversions/",
     "publication_date": "2018-12-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27426",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hanoi-households-emissions-reduction-through-cookstove-conversions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

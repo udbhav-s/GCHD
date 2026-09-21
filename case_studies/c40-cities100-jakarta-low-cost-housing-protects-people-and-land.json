@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-jakarta-low-cost-housing-protects-people-and-land",
   "url": "https://www.c40.org/case-studies/cities100-jakarta-low-cost-housing-protects-people-and-land/",
   "title": "Cities100: Jakarta – Low-cost Housing Protects People and Land",
@@ -28,6 +28,31 @@
     "coastal_flood",
     "malaria"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "jakarta",
+      "label": "Jakarta"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Jakarta is surrounded by 13 rivers, and 40% of the city sits below sea level, making it extremely susceptible to flooding arising from changes in rainfall pattern and sea level rise. As the risk is especially high in the city’s informal settlements along the waterfront, this relocation scheme offers these residents protection from environmental disasters and enhanced economic opportunities, while also improving the resilience of the land and water.",
+    "measures": "To cope with increased rates of flooding and to protect its poorest citizens, Indonesia’s bustling capital city provides low-cost housing to the 400,000 citizens who reside along the city’s waterfront in informal housing. With the land free of settlement, the city will revitalize the nearby water bodies, increase the water retention ability of the land, and boost reservoir capacity, thus reducing the risks of floods while protecting citizens. By the end of 2014, Jakarta had already built more than 14,000 low-cost apartment units, 13% of its goal of 52,656, which it hopes to accomplish by 2017. Units come furnished and are rent-free for the first six months, after which families are responsible for paying $22 per month.\n City officials consulted with residents face-to-face and involved them in the planning process to ensure that relocation is dignified. The new housing units will provide residents with safer, cleaner housing that will improve the livelihoods of tenants and alleviate environmental stress on the land they formerly occupied.\n Environmental Benefits – As much as 200 tons of rubbish reach Jakarta’s rivers each day. With fewer people living along the waterfront, less waste will be disposed of in the city’s rivers and reservoirs, making the water cleaner, safer, and more hospitable to biodiversity.\n Social Benefits – The program will provide safer, more sanitary housing conditions and improved economic opportunities for 400,000 Jakartans.\n Economic Benefits – Improved sanitation conditions will prevent unmanaged waste disposal, which currently costs the city $80 million every year.\n Health Benefits – Housing with better sanitation facilities and waste management services will help prevent disease outbreaks, such as malaria, typhus, and E. coli.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-jakarta-low-cost-housing-protects-people-and-land/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26998",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-jakarta-low-cost-housing-protects-people-and-land&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

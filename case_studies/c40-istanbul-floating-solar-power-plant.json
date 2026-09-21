@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-istanbul-floating-solar-power-plant",
   "url": "https://www.c40.org/case-studies/istanbul-floating-solar-power-plant/",
   "title": "Istanbul Floating Solar Power Plant",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "istanbul",
+      "label": "Istanbul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Floating Solar Power Plant Project aims to make use of the currently unused space on top of freshwater sources to produce renewable energy to meet the increasing need for electricity in the city, through installation of floating solar panels. The current capacity of the project is at 240 kWp, but moving forward will be scaled upwards to 10 MWp, saving up to 7,800 tonnes of carbon dioxide per annum.",
+    "measures": "Istanbul has started an extremely ambitious project in committing to expand the City’s own renewable energy supply, by placing floating solar panels on water surfaces by the Büyükçekmece dam, which will generate electricity for the national electricity grid, making use of the unused space on the city’s water basins and ponds.\n\nThe project uses solar panels which can float on the surface of a body of water. These solar panels will then feed electricity into the power grid to be used by the city, replacing the need for fossil fuel intensive energy production and providing greater electricity capacity. This floating solar power plant will make the use of otherwise un-useable space. The project has been launched in 2016 on a small scale with a capacity of around 240 kWp, which then will be expanded over the following 3 years to have a total capacity of 10 MWp, capable of completely replacing the electricity consumption of 2,400 homes.",
+    "outcomes": "The project is one of the most ambitious to-date taken by the City of Istanbul. The current project is at the R&D phase and produces 240 kWp, which is preventing 210 tonnes of carbon dioxide per year. When the project has been expanded to its full capacity it will be able to produce 10 MWp, with the ability to reduce carbon emissions by 7,800 tons per annum from 2019.\n Furthermore, this project will produce several environmental co-benefits such as significantly reducing the rate of evapo-transpiration of water bodies which are used for public drinking water, reducing the need for finding additional water sources, or spending additional resources ensuring providing water filtration. Reducing algae growth through reduced light levels will also significantly improve water quality, which in turn can benefit public health.\n\nThis project itself will be expanded over the next three years, moving from the R&D phase to total planned capacity of 10 MWp. The power plant on the Büyükçekmece dam is just one of three that are currently planned, with expansion to Terkos and Ömerli dams to be installed by 2022. Solar power potential from these 3 dams make up just 1.25% of the total potential of the city, and beyond 2022, there is scope for further projects.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The project uses solar panels which can float on the surface of a body of water. These solar panels will then feed electricity into the power grid to be used by the city, replacing the need for fossil fuel intensive energy production and providing greater electricity capacity. This floating solar power plant will make the use of otherwise un-useable space. The project has been launched in 2016 on a small scale with a capacity of around 240 kWp, which then will be expanded over the following 3 years to have a total capacity of 10 MWp, capable of completely replacing the electricity consumption of 2,400 homes."
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/istanbul-floating-solar-power-plant/",
     "publication_date": "2017-09-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27368",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=istanbul-floating-solar-power-plant&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

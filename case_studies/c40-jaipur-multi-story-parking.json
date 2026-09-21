@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-jaipur-multi-story-parking",
   "url": "https://www.c40.org/case-studies/jaipur-multi-story-parking/",
   "title": "A New Parking In Jaipur To Manage Mobility And Address The Urban Heat Island Effect",
@@ -30,6 +30,25 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Jaipur is building a new multi-story parking garage that will lead to less idling and congesting vehicles on the streets.",
+    "measures": "Jaipur is the capital and the largest city of the Indian State of Rajasthan . As of 2011, the city had a population of 3.1 million and annual growth rate of 4.5%, making it the tenth most populous city in the country. \n Jaipur has got roughly 6 times more vehicular density of registered vehicles in comparison to vehicular density of the entire state. There has been a constant increase in the number of registered two-wheelers and cars in Jaipur. The growth percentage of cars has outpaced the growth percentage of two-wheelers and there is an urgent need to regulate parking, both on-street and off-street. \n Given the lack of space to provide additional parking and the extreme heat conditions that are prevalent in the city during the summer season, there is an opportunity to look at parking management as a tool to introduce green spaces on the streets, helping to reduce the urban heat island effect.\n One of the consequences of the urbanization is the urgent need to find a way to deal with parking in the city. With no space to widen the roads, the city is dealing with an acute shortage of space to provide vehicular parking.\n Parking space has become an indispensible requirement in the city, which is undergoing a constant increase in the number of vehicles. With the increasing traffic volume on prime roads in the walled city and outer areas of Jaipur, available parking spaces are fast being outnumbered by the demand. \n In the absence of available parking spaces, people tend to halt their vehicles, especially cars and auto-rickshaws, on the carriage way waiting for their co-riders to finish their work and return. This in turn, proves obstruction to the already slow moving traffic. Also, the availability of space and cost of infrastructure for building new parking spaces are two important factors to be considered while developing the new parking spaces in the city.\n In order to overcome the limitation of these two factors and parking problems, Jaipur Municipal Corporation (JMC) decided to develop, through PPP funding, a multilevel parking covering a storm water drain at Ashok Nagar. The covering of this storm water drain has also promoted the beautification of the area through improved aesthetics. \n What is the project? \n Major components of the project \n The infrastructure development includes a ground floor along with three 12m structures, covering a total of 4,750 square meters. The structure covers approximately 400 m of the drain, constituting 30% of its total length.\n An automatic parking facility with a capacity of 400 cars has been developed and will be maintained for up to 30 years. Retrieval time in fully automatic parking is less than 3 minutes. \n It is equipped with a modern parking management system consisting of sensors, video cameras, computers, security systems, signage and so on. This is to guide commuters towards vacant parking areas, among other tasks contributing to its smooth operation.\n The automated parking facility has been furnished with a Graphical User Interface (GUI) or Human Machine Interface (HMI). The GUI shows the geometry of the entire parking facility with actual occupancy and all installed machines reflecting real time movements/positions of machinery and stored vehicles. The GUI is capable of running fully automated without any human assistance. \n Motion detectors and CCTV cameras are installed inside the entry and exit areas to ensure that no persons or animals are inside when the machine starts moving. Cameras have been installed to record the physical condition of the cars entering and exiting the premises.All entry and exit areas comply with disability requirements.\n Safety locks/emergency switches have been installed to stop any machinery if a person or animal is detected.\n Installation of a radio frequency access system so the readers have enough range to detect approaching vehicles from at least 9 meters outside of the entry and exit areas.\n Sufficient electronic message centers have been provided to guide drivers to the locations of their cars. The operator room is located near the lobby to enable the operator to assist drivers and to oversee the operation of the parking structure’s lobby space, which can fit 35 drivers.\n Automated provisions have been provided to detect if a vehicle is on fire and to transport it to a fire extinguishing cell at a space on ground floor easily accessible for fire fighters. Also, a sprinkler system is installed in the parking bays in automated parking systems as per the fire safety act.\n The project has been developed on a ‘Design, Build, Finance, Operate and Transfer’ (DBFOT) basis (PPP Model). The entire development expenses have been borne by the developer. The operation and maintenance period of the parking facility is of 30 years. Total premium payable to Jaipur Municipal Corporation (JMC) is Rs. 11,903,500 (ca. $170,000 USD) during the contract period. \n As a consequence of this project, approximately 40,000 Sq.ft of parking space has been diverted from the street, resulting in the creation of green areas which in turn will add to tackling the urban heat island effect in the city during the summer season. \n Next Steps \n The Jaipur Municipal Corporation is in consultation with the State Government of Rajasthan and is expected to take up the recommendations for scaling up the implementation across the city in a phased manner and set aside funds for this initiative. \n Contact Details \n Mr. Anil Singhal \n Chief Enginner \n Email: “ce.jmc@rajasthan.gov.in” \n Tel: +91 95717 82111",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/jaipur-multi-story-parking/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27483",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=jaipur-multi-story-parking&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

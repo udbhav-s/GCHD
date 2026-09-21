@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-ica-cities-fund-bogota",
   "url": "https://www.c40.org/case-studies/ica-cities-fund-bogota/",
   "title": "ICA Fund | Training women in public sector green jobs",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn about the inclusive climate project led by the City of Bogotá that is supported by a C40 Inclusive Climate Action (ICA) Cities Fund grant.",
+    "measures": "C40’s ICA Fund supported an innovative project in Bogotá to help women, particularly those who are already socially or economically disadvantaged, access the Electric Vehicle (EV) transport labour market. \n The project offered professional psychosocial support, training, and targeted material assistance (food vouchers) to women workers at Bogotá’s pioneering public transportation operator, La Rolita, which already prioritises hiring women electric-bus drivers. \n The comprehensive package of support has fostered an inclusive and healthy work environment, improved mental health, and reduced anxiety among La Rolita’s women staff. Helping women to access and retain jobs and thrive in the sector ensures that good, green job opportunities are accessible to those who need them the most, while contributing to Bogotá’s climate goals and a just transition. \n The city aims to replicate this success in other transport operators, setting a precedent for cities worldwide.\n © The City of Bogotá \n Find out more about this project \n more about C40’s ica fund \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. More about C40’s ICA Fund . \n Editor’s note: this case study was originally published in June 2023; the content was updated in June 2025 to reflect the latest details about the project, which can be accessed in full here .",
+    "outcomes": null,
+    "cost_benefit": "The project offered professional psychosocial support, training, and targeted material assistance (food vouchers) to women workers at Bogotá’s pioneering public transportation operator, La Rolita, which already prioritises hiring women electric-bus drivers. \n The comprehensive package of support has fostered an inclusive and healthy work environment, improved mental health, and reduced anxiety among La Rolita’s women staff. Helping women to access and retain jobs and thrive in the sector ensures that good, green job opportunities are accessible to those who need them the most, while contributing to Bogotá’s climate goals and a just transition. \n The city aims to replicate this success in other transport operators, setting a precedent for cities worldwide.\n © The City of Bogotá \n Find out more about this project \n more about C40’s ica fund \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. More about C40’s ICA Fund . \n Editor’s note: this case study was originally published in June 2023; the content was updated in June 2025 to reflect the latest details about the project, which can be accessed in full here .",
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/ica-cities-fund-bogota/",
     "publication_date": "2024-05-28",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "35219",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ica-cities-fund-bogota&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-16T15:54:40",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

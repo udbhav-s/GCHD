@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-engaging-communities-in-climate-change-adaptation",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-engaging-communities-in-climate-change-adaptation/",
   "title": "Cities100: New York City – Engaging Communities in Climate Change Adaptation",
@@ -33,6 +33,31 @@
     "tropical_storm",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New York’s vulnerability to climate change was made clear after Hurricane Sandy ripped through the city, costing it more than $19 billion in damages. These projects will protect the city’s residents housing, infrastructure, and other assets from coastal flooding, wind, extreme heat events, extreme precipitation events and other energy system outtages, while also enhancing theenvironmental, social, and economic conditions of each neighborhood.",
+    "measures": "The East Side Coastal Resiliency (ESCR) and Hunts Point Resiliency (HPR) projects utilize community participation in the planning for physical infrastructure and public improvements which enhance the resilience of two critical communities along New York City’s coastline. The ESCR project will create a flood-protection system and improve open spaces along Manhattan’s East River waterfront, consisting of vegetated berms and deployable flood barriers. The HPR project will support the resilience of the South Bronx neighborhood, including the Food Distribution Center, a crucial node in the region’s food supply chain, by studying the most effective coastal protection and resilient energy strategies for the area. In all, the projects will protect more than 350,000 New Yorkers, 10,000 buildings, and more than 1,200 hectares of land.\n Both projects rely heavily on community boards, civic groups, tenant associations, and business owners in designing the adaptation strategies for these neighborhoods. Other participatory planning methods, such as hands-on public workshops, stakeholder-led working groups, community task forces, and large public meetings help the larger community engage with these plans to ensure that outcomes reflect the needs and desires of those affected.\n Environmental Benefits – Improved storm water management and drainage will result in improved water quality by reducing sewage entering waterways during coastal surge events.\n Social Benefits – In Hunts Point, resilience interventions will bring community-building opportunities to a well-organized residential, civic, and business community in one of the country’s poorest congressional districts.\n Economic Benefits – Safeguarding the Hunts Point Food Distribution Center alone will protect 8,400 jobs and meat, fish, and produce markets that generate over $4 billion in annual revenue.\n Health Benefits – Disruption to the operation of Hunts Point Food Distribution Center could put at risk the food supply for 22 million people in the region.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -41,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-engaging-communities-in-climate-change-adaptation/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26997",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-engaging-communities-in-climate-change-adaptation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

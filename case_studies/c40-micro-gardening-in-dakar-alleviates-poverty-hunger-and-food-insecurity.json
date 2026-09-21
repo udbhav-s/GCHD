@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity",
   "url": "https://www.c40.org/case-studies/micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity/",
   "title": "Micro gardening in Dakar alleviates poverty, hunger and food insecurity",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dakar",
+      "label": "Dakar"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Micro gardening in Dakar represents an alternative model of economic development aiming to alleviate poverty, hunger and food insecurity.",
+    "measures": "The city of Dakar faces an unprecedented population increase, which brings along increased health and nutritional vulnerabilities. Although the Municipality strives to improve the quality and living conditions of its people, it is becoming increasingly challenging to grow healthy and high-quality crops where cultivated areas are becoming increasingly scarce. As this case study shows, micro-gardening has proved to be an alternative and sustainable food system for a population facing poverty and food insecurity.\n The project described here is the result of decentralized cooperation between the cities of Dakar and Milan, with FAO and the NGO ACRA as strategic partners.\n What is the innovation? How does it work? \n Micro gardens are small, simple, inexpensive production units suited to high-density urban neighborhoods. Given the lack of suitable production spaces in the urban area, micro gardening in Dakar consists of growing food literally on the market tables.\n Recovered materials are used for micro-gardening:\n Crop trays are made with wooden pallets used to import potatoes and onions;\n The substrate consists of recovered peanut husks and rice straw;\n Old utensils, tires, bottles, seals are all reused.\n The benefit is tangible because micro gardens are real green lungs for the capital of Senegal, whose landscape is dominated by concrete. With the Micro Gardening programme, the City of Dakar is also developing a concept of a green city that is able to successfully adapt to the consequences of climate change and the scarcity of agricultural land. The programme also aims to contribute to regreening the capital. In a city where vegetation is particularly absent, the social and health benefits of expanding micro gardening is extremely important.\n Below are some of the key features of the programme and the benefits of micro gardening in Dakar:\n 12 Training and Demonstration Centers (CFDs) installed;\n 24 micro gardening trainers educated, 18 women and 6 men, specifically trained also to train others.\n 9,694 beneficiaries so far with 83% women and 17% men;\n 26 elementary schools around micro gardening formed;\n Collective catering with micro garden products organised for vulnerable groups such as elderly people and women have improved their quality of life thanks to the availability of fresh vegetables at a reasonable price;\n Improvement of diet for sick women affected by diabetes, anemia, obesity etc;\n Vegetable deficiencies of detainees in correctional facilities reduced through improved diet;\n Increased consumption of vegetables among students and young people with disabilities;\n Micro gardening is also a source of income, in addition to enabling a more complete and healthy diet;\n It requires little investment because it uses recycled material and local products;\n The yields obtained from micro gardening are generally higher than those obtained with traditional gardening, and also of superior quality.\n Next steps \n The Micro Gardening programme is integrated into the city's master plan. The city government aims to support the beneficiaries with the acquisition of agricultural equipment and the establishment of a purchase center for the project actors’ association, which needs additional funding to improve its productivity. A key concern is especially the availability of required agricultural equipment, which is momentarily not possible to find on the local market.\n Links to further information \n www.fao.org/senegal/fr \n Dakar: Creating micro-gardens using recycled materials \n Contact details \n Ms. Ndeye Ndack Pouye Mbodj\n Coordinator of the Micro Gardening Project of the City of Dakar\n Tel: 00221 77 652 63 89\n Email: pouyend@yahoo.fr",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity/",
     "publication_date": "2019-06-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27448",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

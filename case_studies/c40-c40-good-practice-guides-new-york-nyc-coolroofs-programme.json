@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-new-york-nyc-coolroofs-programme",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-york-nyc-coolroofs-programme/",
   "title": "C40 Good Practice Guides: New York – NYC °CoolRoofs Programme",
@@ -30,6 +30,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The NYC °CoolRoofs programmexxxi,xxxii encourages and facilitates the cooling of New York City’s rooftops through its “Cool It Yourself”xxxiii…",
+    "measures": "Summary \n The NYC °CoolRoofs programme xxxi,xxxii encourages and facilitates the cooling of New York City’s rooftops through its “Cool It Yourself” xxxiii programme for private installations and through volunteer and green workforce programmes for public buildings and properties that may not otherwise have access to energy-saving benefits.\n Results \n The NYC °CoolRoofs Programme, launched in 2009, has coated over 5.7 million ft 2 (around 530,000 m 2 ) of rooftop (626 buildings) with a white, reflective coating, offsetting the urban heat island effect and thereby cooling the city. The programme provides benefits and savings directly to the building owner by reducing cooling costs by 10-30% and has proved to be an effective way to help tackle the urban heat island effect and reduce GHG emissions.\n Reasons for success \n The successful uptake of the NYC °CoolRoofs Programme has resulted, in part, from low-income, non-profit, and public building owners having no costs, or overheads to bear during the installation process. In addition to the environmental benefits, there are social benefits to New York due to the unique social design that coordinates civic-minded volunteerism and provides green job training. This type of arrangement can be effective even when there is limited regulatory authority over the building sector (which, however, is not the case in New York).\n When/why a city might adopt an approach like this \n This type of solution works well when a city does not have a budget earmarked for cooling but has other resources to contribute – such as a volunteer force or training programmes that can be mobilized and matched with building owners. The City of Pittsburgh xxxiv , and the City of Phoeni xxxxv have both found elements of this approach useful and have introduced Cool Roofs Volunteer Programs. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cool Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The NYC °CoolRoofs Programme, launched in 2009, has coated over 5.7 million ft 2 (around 530,000 m 2 ) of rooftop (626 buildings) with a white, reflective coating, offsetting the urban heat island effect and thereby cooling the city. The programme provides benefits and savings directly to the building owner by reducing cooling costs by 10-30% and has proved to be an effective way to help tackle the urban heat island effect and reduce GHG emissions.\n\nThe successful uptake of the NYC °CoolRoofs Programme has resulted, in part, from low-income, non-profit, and public building owners having no costs, or overheads to bear during the installation process. In addition to the environmental benefits, there are social benefits to New York due to the unique social design that coordinates civic-minded volunteerism and provides green job training. This type of arrangement can be effective even when there is limited regulatory authority over the building sector (which, however, is not the case in New York).",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-york-nyc-coolroofs-programme/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27106",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-new-york-nyc-coolroofs-programme&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

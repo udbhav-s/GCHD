@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety",
   "url": "https://www.c40.org/case-studies/cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety/",
   "title": "Cities100: Mexico City – Reshaping Streets Prevents Flooding and Ensures Safety",
@@ -27,6 +27,31 @@
     "river_flood",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Faced with increased instances of flooding and extreme heat, the Mexican mega-city is combining smart climate adaptation with urban planning improvements in an effort to not only improve drainage and mitigate heat, but also ensure that streets, transit corridors, and public spaces are safe and inviting.",
+    "measures": "In 2016, Mexico City launched a “complete streets” initiative, dubbed Calle Verde, in an effort to improve drainage, add green spaces, and cultivate a safer and more attractive streetscape that caters to the needs of pedestrians, cyclists, and public transit users while better preparing the city for the effects of climate change. Consisting of both grey and green interventions, the program will repair drainage pipes under key corridors and repave streets and sidewalks with permeable pavement in order to prevent flooding during extreme weather events. Furthermore, corner extensions at intersections will improve pedestrian safety, and planting trees and green spaces will help the city manage rainwater, mitigate urban heat island effects, and serve as attractive public spaces. The project is financed by the city’s bus rapid transit system, Metrobus, and aligns with the objectives of the larger, city-wide Comprehensive Mobility Program. As such, the project takes care to ensure that these newly renovated and redesigned streets are accessible and well-connected by adding and improving existing bicycle paths and integrating transit lines along these corridors.\n Environmental Benefits – Local vegetation is used throughout the green spaces along Calle Verde, ensuring that all plants are appropriate for the climatic conditions of the city.\n Social Benefits – Interventions and redesigned streets will provide wider sidewalks and more inviting public spaces, which make the city safer and more enjoyable for pedestrians, cyclists, and public transit users.\n Economic Benefits – The city expects that shops in the area will experience a 25% increase in sales after the project is fully implemented.\n Health Benefits – By preventing flooding, the improved drainage network and green infrastructure will also hinder the spread of waterborne diseases.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27225",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

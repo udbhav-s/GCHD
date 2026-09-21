@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-hong-kong-reducing-food-waste-by-raising-awareness",
   "url": "https://www.c40.org/case-studies/cities100-hong-kong-reducing-food-waste-by-raising-awareness/",
   "title": "Cities100: Hong Kong – Reducing Food Waste by Raising Awareness",
@@ -20,6 +20,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong’s three landfills are estimated to reach capacity within the next five years. With limited opportunities to facilitate source separation due to the density of Hong Kong, the city has found a way to reduce waste and avoid potential health risks associated with daily disposal of tons of municipal waste.",
+    "measures": "The Hong Kong Food Wise Campaign increases public knowledge of the growing food waste problem in the dense city. Trained Food Wise Ambassadors spread targeted key messages and practical tips about food waste reduction across communities. Through an extensive media campaign, including televised commercials and an eye-catching mascot, messaging is spread throughout all of Hong Kong. As part of the campaign, the city is also financially supporting NGOs in implementing food donation projects.\n The Food Wise Campaign and its associated charter, which has been signed by more than 420 companies, are paving the way for a new “food wise” culture, projected to limit food waste disposal to landfills by 40% in 2022. Due to the campaign’s early success, Hong Kong is now going further to target one ofthe city’s major contributing sectors to food waste: eateries. By signing up to the Food Wise Eateries Scheme, restaurants and other food service providers are encouraged to adopt initiatives such as serving portioned meals to reduce Hong Kong’s food waste even further.\n Environmental Benefits – Food waste will be reduced by 1,440 tons per day by 2022 from the Hong Kong Food Wise Campaign.\n Health Benefits – Hong Kong’s overfilled landfills will pose serious health risks to nearby residents, which can be reduced by generating less waste.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -28,7 +53,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-reducing-food-waste-by-raising-awareness/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26979",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-reducing-food-waste-by-raising-awareness&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

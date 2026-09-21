@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity",
   "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity/",
   "title": "Inclusive Water Resilience Accelerator Fund | Developing safe rainwater harvesting solutions to reduce water scarcity",
@@ -26,6 +26,36 @@
   "hazards": [
     "meteorological_drought"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "freetown",
+      "label": "Freetown"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Freetown, chronic water scarcity, worsened by the impacts of climate breakdown, is forcing many residents in vulnerable neighbourhoods to…",
+    "measures": "In Freetown, chronic water scarcity, worsened by the impacts of climate breakdown, is forcing many residents in vulnerable neighbourhoods to rely on contaminated water sources. This increases health risks and disproportionately affects women and children. With support from the C40 Inclusive Water Resilience Accelerator Fund, the city is exploring safe rainwater harvesting solutions to address these challenges for its frontline communities. \n Following a policy gap analysis and assessment of existing community-led systems, the city evaluated the feasibility of expanding rainwater collection systems in several informal settlements. More than 30 community leaders and resident groups are now being trained in safe water harvesting, system maintenance, and conservation – fostering local ownership, community buy-in, and knowledge sharing.\n The results of the feasibility study will help Freetown approach funders and development partners with a scalable model for community-level rainwater harvesting infrastructure that enhances health, equity, water security, and climate resilience.\n Learn more about the Freetown project \n More about C40’s ICA Fund",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity/",
     "publication_date": "2025-11-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45696",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-developing-safe-rainwater-harvesting-solutions-to-reduce-water-scarcity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:53:11",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

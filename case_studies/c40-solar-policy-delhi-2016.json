@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-solar-policy-delhi-2016",
   "url": "https://www.c40.org/case-studies/solar-policy-delhi-2016/",
   "title": "Solar Energy Policy in Delhi",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "delhi-nct",
+      "label": "Delhi NCT"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Delhi has enacted a Solar Energy Policy that will monitor actual performance, market conditions and consumer experience in order to encourage the use of rooftop solar panels within its city borders.",
+    "measures": "The Government of NCT of Delhi (GNCTD) considers solar power to be the most viable form of green energy in Delhi. It has the potential of lowering the state’s expenditure on energy, strengthening its energy security, and reducing its reliance on unsustainable fossil fuels. To attain this potential, rapid capacity addition in solar power is needed. Hence, it is deemed necessary to have a Delhi Solar Energy Policy for the promotion of solar power plants. \n The following Delhi Solar Energy Policy is for the period 2016-2020. It’s being monitored annually based on actual performance, market conditions, and consumer experience.\n In 2014, the peak power demand in Delhi was almost 6000 MW and the total annual consumption in 2014-15 was 27,266 million kWh. Power demand can vary considerably across a 24-hour window, especially in summers, owing to the increasing use of air conditioning. \n In general, energy utilities (DISCOMS) pay more to meet short-term demand surges, raising the average cost of power. Delhi’s daily day time peak demand curve broadly matches the generation curve of solar system, which can therefore help to reduce peak demands. Moreover, the energy produced by rooftop solar systems is mostly consumed at, or near, the point of generation, minimizing transmission and distribution losses. Self-consumption of rooftop solar energy also reduces the need for, and the challenge of, provisioning new distribution infrastructure, such as transformers, in congested localities.\n Rooftop solar systems offer sustainable energy, environmental benefits, low gestation period, low transmission and distribution losses, reduced need for distribution infrastructure, and peak load offset that reduces costs for DISCOMS and ultimately for the consumers as well. \n Market conditions are also more favourable for solar power than before. While solar energy tariffs have, on average, fallen 6-8% per year since 1998, solar panel prices have dropped 75% in the last six years and conventional energy tariffs risen 6.9% per year on average since 2007. After years of innovation and declining prices, solar energy tariffs in Delhi have become so much cheaper than conventional energy that subsidies from the State of Delhi are deemed not necessary. However, a generation-based Incentive for a limited period seems prudent to promote adoption in the domestic segment.\n The Government of India has set a target of 100 GW (100000 MW) of solar energy generation in India by the year 2022, of which 40 GW (40000 MW) is from rooftops. Delhi is well positioned to lead India’s rooftop solar revolution and it has consequently established solar generation targets of 1GW (1000 MW) by 2020 (4.2% of energy consumed) and 2.0 GW (2000 MW) by 2025 (6.6% of energy consumed). To help achieve these targets, GNCTD aims to raise consumer awareness of solar energy, promote capacity building, and generate healthy competition among solar developers, so that solar power is adopted on a mass scale.\n What are the CO2 reduction achievements? \n 2016’s Delhi Solar Energy Policy has the following ten broad objectives: \n i. Reduce Delhi’s reliance on conventional energy while increasing its energy security and lowering average energy prices in the long term. Promote rapid growth of rooftop solar power via a combination of generation targets, regulations, mandates and incentives. \n ii. Encourage market-based approaches and public-private partnerships to drive demand and adoption, with minimal use of State Government subsidies. Develop initiatives to raise public awareness of solar energy in Delhi. \n iii. Ensure fairness for all stakeholders in the solar ecosystem, including roof top owners, DISCOMS, investors, consumers of non-solar power, technology and services providers. \n iv. Use regulatory mechanisms to drive demand and adoption, such as mandating solar plant deployments on government rooftops, requiring in-state solar RPO targets for DISCOMS, modifying building bylaws to facilitate solar plant deployment, specifying responsibilities for the inspection/certification of solar plants, aggregating demand for solar projects, and more. \n v. Promote net metering / gross metering and grid connectivity for all solar plants by simplifying and streamlining processes and methods. \n vi. Generate employment in the solar energy sector through skill development especially for youth. Establish core technical competence of professionals in the NCT of Delhi to initiate and sustain effective management of solar projects and infrastructure. \n vii. Provide generation-based Incentives for the domestic segment where solar power costs are yet to achieve parity for most users, as well as tax exemptions and waivers for all consumers. \n viii. Promote a robust investment climate that enables multiple financial models, from self-owned (CAPEX) to third-party owned (RESCO) models. Also facilitate access to loans at preferential interest rates through various schemes that may be introduced from time to time, whether through public or private channels. \n ix. Establish policy implementation, monitoring and compliance framework to make sure that efficient execution and periodic review of the policy takes place. \n x. Develop solar energy as part of an overall strategy of providing affordable, reliable, 24/7 power to all citizens, incorporating demand side management, energy conservation, energy efficiency initiatives, quality assurance and longevity of projects, distributed renewable energy generation, and smart grid development.\n Links to Further Information \n Delhi Solar Energy Policy (2016) \n Image retrieved from https://www.hindustantimes.com/delhi/delhi-s-solar-energy-policy-to-see-the-light-of-day-next-month/story-ZGZ8FT35FCURMtGugxuiRM.html",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/solar-policy-delhi-2016/",
     "publication_date": "2020-01-02",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27481",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=solar-policy-delhi-2016&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

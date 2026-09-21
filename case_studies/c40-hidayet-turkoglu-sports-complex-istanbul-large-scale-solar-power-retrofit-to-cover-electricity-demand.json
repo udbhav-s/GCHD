@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand",
   "url": "https://www.c40.org/case-studies/hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand/",
   "title": "Hıdayet Turkoğlu Sports Complex, Istanbul: large-scale solar power retrofit to cover electricity demand",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "istanbul",
+      "label": "Istanbul"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As one of the first solar retrofitting projects by the City of Istanbul, the Hidayet Turkoglu Sports complex stands to benefit from having 650-unit rooftop solar energy panels installed. These will produce approximately 340,000 KWH of electricity meeting over 10% of the annual needs of the facility, saving over US$23,000 and 105 tonnes of CO2 emissions annually.",
+    "measures": "This pilot programme which ran over 2016, is one of the first solar retrofitting projects orchestrated by the metropolitan municipality of Istanbul, and the first time that a sports facility will generate renewable energy. This project has been beneficial both economically and environmentally, saving significant quantities of carbon dioxide and providing significant annual economic savings to the City, meaning that the programme can be cost neutral in less than 25 years.\n\nThe project involved installing 650 unit-solar energy power systems onto the roof of the Hıdayet Turkoğlu Sports Complex, where the electricity produced by the solar panels will be directly consumed by the sports complex, thereby reducing the amount of electricity taken from the carbon intensive national grid.",
+    "outcomes": "This pilot project is designed to be the first of many projects from the Metropolitan Municipality of Istanbul, aimed at reducing the City of Istanbul’s CO2 emissions, reducing the risk of dangerous climate change and decreasing the vulnerability of the City’s infrastructure to acute and chronic shocks from climate impacts. This project will decarbonise around 10.33% of the electricity consumption of the Hıdayet Turkoğlu Sports Complex, saving approximately 105 tonnes of carbon dioxide per year, the equivalent of planting 255 trees.\n\nThis will be the first of many projects looking to reduce carbon emissions of the City of Istanbul, and with the Metropolitan Municipality committed to produce its own renewable energy, these projects will continue to flourish. The municipality wishes to better design the City and buildings to ensure that in the future, they can produce their own energy. This pilot project has allowed the City to learn a number of lessons and helped to build the skills to be able to further invest in clean, green and renewable energy, scaling the ambitions City-wide.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The project involved installing 650 unit-solar energy power systems onto the roof of the Hıdayet Turkoğlu Sports Complex, where the electricity produced by the solar panels will be directly consumed by the sports complex, thereby reducing the amount of electricity taken from the carbon intensive national grid."
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand/",
     "publication_date": "2017-09-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27366",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

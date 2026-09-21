@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-spotlight-on-clean-construction",
   "url": "https://www.c40.org/case-studies/spotlight-on-clean-construction/",
   "title": "Spotlight on… Clean Construction",
@@ -84,6 +84,46 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "ekurhuleni",
+      "label": "Ekurhuleni"
+    },
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    },
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "milan",
+      "label": "Milan"
+    },
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "oslo",
+      "label": "Oslo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn how cities such as Ekurhuleni, Mexico City, Milan, and Oslo are working to reduce emissions from construction.",
+    "measures": "Construction is responsible for more than 23% of global emissions and consumes more than 30% of the world’s resources.\n Cities such as Ekurhuleni , Mexico City , Milan , and Oslo want to change that.\n More From The ‘Spotlight On…’ Series \n This video was originally produced for the C40 World Mayors Summit in Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -92,7 +132,12 @@
     "document_url": "https://www.c40.org/case-studies/spotlight-on-clean-construction/",
     "publication_date": "2022-10-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33067",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=spotlight-on-clean-construction&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-13T15:51:40",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

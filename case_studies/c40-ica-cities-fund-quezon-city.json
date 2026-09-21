@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-ica-cities-fund-quezon-city",
   "url": "https://www.c40.org/case-studies/ica-cities-fund-quezon-city/",
   "title": "ICA Fund | Making the city’s climate action plan accessible to all",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quezon-city",
+      "label": "Quezon City"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Learn about the inclusive climate project led by Quezon City that is supported by a C40 Inclusive Climate Action (ICA) Cities Fund grant.",
+    "measures": "Quezon City aims to deliver educational materials that meet the needs of children with a focus on inclusive and accessible climate education. \n C40’s ICA Fund supported the city to develop age-/ability-appropriate climate-education materials informed by qualitative data gathered through inclusive, participatory activities. \n The development process included a needs assessment with over 250 participants and prototype testing. The result was a climate-action-themed storybook called ‘Ako Na ang Mauuna!’ (I’ll be the first to do it!), available in both Filipino and English. \n Distributed in public libraries and schools, the book was accompanied by additional training material for parents and educators, adding to the city’s resources for promoting climate awareness while fostering inclusivity for children with disabilities. \n The city plans to make the book available digitally and to develop additional climate learning resources, including braille and sensory materials.\n FIND OUT MORE ABOUT THIS PROJECT \n more about C40’s ICA fund \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. Learn more about C40’s ICA Fund .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/ica-cities-fund-quezon-city/",
     "publication_date": "2024-05-28",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "35233",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ica-cities-fund-quezon-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-07-14T17:33:48",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

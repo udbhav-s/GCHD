@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health",
   "url": "https://www.c40.org/case-studies/electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health/",
   "title": "Electric Urban Cleaning Vehicles to Drive Down City’s GHG Emissions, Save Costs, and Improve Citizens’ Health",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "COMLURB – Rio’s municipal urban cleaning company – has been provided with three 100% electric vehicles, which will reduce the city’s GHG emissions and costs and improve citizens’ health.",
+    "measures": "Mayor of Rio de Janeiro – Marcelo Crivella – presented on June 5th (World Environment Day), the three 100% electric vehicles of COMLURB (the municipal company of urban cleaning) that are being used in the collection of biological waste in municipal hospitals. The vehicles are environmentally sustainable, with zero emissions of greenhouse gases, and produce very low noise. They have 750 kg load capacity and a lifetime five times higher than fossil fuel vehicles.\n “In the second half of the year, we will start to change our fleet of residential waste collection trucks. The fleet will receive electric vehicles, until all of them are like this. They will reduce city’s costs and, above all, will raise the health quality of our citizens” said Crivella.\n These electric vans are used to collect hospital waste across the five largest municipal public network units: Souza Aguiar (Center), Miguel Couto (Gávea), Salgado Filho (Méier), Hospital-Maternidade Leila Diniz and Lourenço Jorge (both in Barra da Tijuca).\n “COMLURB is always looking for innovations, savings are considerable. In addition to the longer lifetime, electric vans represent one-fifth of the cost of a combustion-powered car”, according to the president of the company, Tarquínio Prisco.\n What is the innovation? How does it work? \n By producing virtually no noise, vehicles can operate in residential areas at night. The recharge of the batteries takes place in the COMLURB depot in Bangu, in the West Zone of Rio. It takes 120 minutes to fully recharge and they have an autonomy of 250 km, with an average speed in urban areas of 50 km/h.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health/",
     "publication_date": "2018-12-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27415",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

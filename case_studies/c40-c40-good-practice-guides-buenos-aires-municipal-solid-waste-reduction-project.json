@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-buenos-aires-municipal-solid-waste-reduction-project",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-buenos-aires-municipal-solid-waste-reduction-project/",
   "title": "C40 Good Practice Guides: Buenos Aires – Municipal Solid Waste Reduction Project",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Municipal Solid Waste Reduction Projectxxiii in Buenos Aires, initiated in January 2014 aims to reduce the amount of…",
+    "measures": "Summary \n The Municipal Solid Waste Reduction Projectxxiii in Buenos Aires, initiated in January 2014 aims to reduce the amount of waste sent to landfills through source separation, resource recovery, recycling and resource valorisation, while bringing responsibility back to the citizens. Buenos Aires for instance launched ‘Green Centres’ for recyclable materials and green waste, and installed a Mechanical Biological Treatment plant, using new innovative technologies. xxiv This should enable the city to reduce an estimated 45,000 tCO 2 annually. xxv The city is also implementing intensive awareness campaigns to educate citizens on how to sort, separate and dispose of waste in a sustainable manner.\n Results \n Progress has been made in the deployment of street containers and lateral collection vehicles in order to avoid garbage bags on the streets, reduce odours and improve the street’s image. Local waste transfer stations have been installed, which reduced CO 2 emissions from waste transportation. During the initial stage, it was possible to achieve a 44% waste disposal reduction, avoiding the emission of 25,297 tCO 2 e in 2013. In 2014, after a 78% waste reduction during a second stage, the GHG emission reductions reached 45,787 tCO 2 e. The project has also been designed to generate new job opportunities and foster greater social participation and transparency in the waste and recycling chain. Thus far, 4,500 ‘urban recoverer’ jobs have been created, with 2,000 more expected, in a sustained effort to create long-term formal employment growth. xxvi \n Reasons for success \n Buenos Aires is achieving fast results by focusing on the residential sector and enacting policies to increase the responsibility of waste management for private businesses, significantly reducing the waste stream managed by the municipality. Coupled with the fast deployment of innovative street containers that minimise negative impacts, participation is increasing rapidly.\n When/why a city might adopt an approach like this \n Cities in need of implementing fast transitions in their waste systems, especially if the city is simultaneously aiming to achieve long-term and ambitious waste reduction targets, can adopt the integrated waste management planning approach to benefit from related synergies and co-benefits.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Progress has been made in the deployment of street containers and lateral collection vehicles in order to avoid garbage bags on the streets, reduce odours and improve the street’s image. Local waste transfer stations have been installed, which reduced CO 2 emissions from waste transportation. During the initial stage, it was possible to achieve a 44% waste disposal reduction, avoiding the emission of 25,297 tCO 2 e in 2013. In 2014, after a 78% waste reduction during a second stage, the GHG emission reductions reached 45,787 tCO 2 e. The project has also been designed to generate new job opportunities and foster greater social participation and transparency in the waste and recycling chain. Thus far, 4,500 ‘urban recoverer’ jobs have been created, with 2,000 more expected, in a sustained effort to create long-term formal employment growth. xxvi\n\nBuenos Aires is achieving fast results by focusing on the residential sector and enacting policies to increase the responsibility of waste management for private businesses, significantly reducing the waste stream managed by the municipality. Coupled with the fast deployment of innovative street containers that minimise negative impacts, participation is increasing rapidly.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-buenos-aires-municipal-solid-waste-reduction-project/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27132",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-buenos-aires-municipal-solid-waste-reduction-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-increasing-biodiversity-and-community-in-changwon",
   "url": "https://www.c40.org/case-studies/increasing-biodiversity-and-community-in-changwon/",
   "title": "Increasing Biodiversity and Community in Changwon",
@@ -28,6 +28,30 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Changwon’s Sustainable Community Building Project is a comprehensive effort to reduce the city’s CO 2 emissions by 30% by 2020. The aim of the project is to improve the biodiversity of the city by expanding the city’s green spaces, maintaining parks and rivers, developing a green transit system, improving recycling, increasing the renewable energy supply, and building eco-communities.",
+    "measures": "Rapid industrialization in South Korea since the early 1970s has resulted in heavy air, water, and soil pollution and has caused serious disruption to traditional communities whose livelihoods are largely based on agriculture. Simultaneously, demographic changes have led to high-density populations in urban areas, traffic congestion, increased property values and a higher cost of living.\n These demographic shifts are in part due to the 2010 consolidation of three urban areas into one, when over one million people were voluntarily integrated into one urban area. This poses an additional challenge of how to integrate different groups into one community.\n With the shift to an urban way of life, a growing trend has seen a majority of citizens’ living in apartments, a factor influenced by a general decline in household sizes whilst life expectancy has increased. This has also enhanced social cohesion as neighbours were previously more isolated.\n\nCity officials established the ‘2020 Environmental Project’ in 2006, setting the goal of reducing carbon emissions by 30% by 2020. The 2020 Environmental Project outlined four goals and eight strategies to improve the biodiversity of the city, including expanding the city’s green spaces, maintaining parks and rivers, developing a green transit system, improving recycling, increasing the renewable energy supply and building eco-communities.\n One example of the 2020 Environmental Project in action is the ‘Eutteum Neighbourhood Building Project’, which is a voluntary citizen participation project that empowers communities to find local solutions to local problems. Throughout the city’s 62 administrative districts, the neighbourhood committees (consisting of citizens, experts, and local officials) identify community-specific challenges and solutions. To date, 980 committee members, including the leaders and the activists of the projects, have participated in the program by suggesting and creating environmental initiatives to be implemented within their local community. As part of the project, residents compete for public funding with project proposals that aim to improve living conditions, curb pollution, and promote green lifestyles in the urban environment.\n\nThe success of the Sustainable Community Building Project Strategy is evident by the fact that 132 community projects were implemented in 2012 alone.\n Projects range from organic roof top gardens, enhanced water quality, tree planting, biodiversity and creating more green spaces. Some communities also created flea markets to improve recycling habits. All projects are geared towards creating urban spaces rich in biodiversity and improving the resiliency of the city by decreasing carbon consumption, improving waste management and recycling, and supplying safe food supplies.\n The ‘Green Apartments Competition’, encourages residents living in apartment dwellings to live greener lifestyles by through such efforts as make energy savings and reduce their water usage, encourage walking and cycling, and support efforts to restore local communities through improved cooperation and communications. Other projects focus on the environmental quality of the surrounding areas, such as cleaning river streams within local communities by planting aquatic plants to improve the water quality and biodiversity of the streams.\n A key factor in the success of the program is the creation of a new administrative structure to stimulate greater citizen participation by encouraging citizens to organize their own community events and identify local projects of importance to the community. Thanks to these strategic approaches, ‘The Citizens Self-autonomy Committee’ – organized by local citizens – was established in every neighbourhood. The goal of the committee is to find solutions to community issues and environmental problems, in addition to inspiring the implementation of local activities and projects. The neighbourhood community network was launched with 200 people to build neighbourhood leaders’ capacity and supply opportunities for better education.\n In addition, project organizers have educated roughly 500 ‘Green Leaders’ per year. These Green Leaders are key to educating the wider community about climate change and advising on community initiatives and activities. A further 1,000 citizens were engaged in leadership training and community-based project groups, resulting in a more sustainable commitment from the local community. Finally, the project has a strong social component achieved by engaging women, youth and the elderly as project leaders, thereby empowering groups more susceptible to being marginalized.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/increasing-biodiversity-and-community-in-changwon/",
     "publication_date": "2015-01-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26944",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=increasing-biodiversity-and-community-in-changwon&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-nature-conservation-ordinance-is-greening-tokyo-s-buildings",
   "url": "https://www.c40.org/case-studies/nature-conservation-ordinance-is-greening-tokyo-s-buildings/",
   "title": "Nature Conservation Ordinance is Greening Tokyo’s Buildings",
@@ -26,6 +26,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tokyo",
+      "label": "Tokyo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Since 2000, the City of Tokyo has been taking measures to mitigate the impacts of the urban heat island effect, including covering roofs and walls with greenery in order to lower the surface temperature of buildings. To further these efforts, the Tokyo Metropolitan Government passed the Nature Conservation Ordinance in 2001, requiring the greening of building roofs and walls in addition to ground-level greenings for all new construction as well as existing buildings undergoing renovations.",
+    "measures": "According to the Nature Conservation Ordinance, greening areas must be provided on the premises and on rooftops when buildings are newly constructed, repaired or extended to an area larger than 1,000 m 2 for private facilities and 250 m 2 for public facilities. Plans must be also submitted to include rooftop greenery for new construction with a total floor area exceeding 10,000m 2 .\n The first stage of the Nature Conservation Ordinance required 20% green coverage for buildings with a gross floor area of over 1,000 m 2 . In 2009, the ordinance was further strengthened by requiring buildings over 5,000m 2 to provide 25% green coverage; buildings between 1,000 – 5,000m 2 are still required to continue to meet 20% green coverage.\n To popularize the Ordinance, the City of Tokyo conducted media outreach and advertised the conservation ordinance and compliance requirements widely and has played a leading role in keeping public awareness high.",
+    "outcomes": "The building sector is heeding local governments’ requirements to implement green roofs. Thanks to the Ordinance, more than 5,700 new or existing buildings have added about 180 hectares (1,800,000 m 2 ) of green roofs.\n Promoting the greening of existing buildings has proven to be another effective measure to counter the heat island effect. Research done in 2004 showed that new light-weight green roofs applied to existing buildings could lower the surface temperature by 25 degrees Celsius and ceiling temperature by 1 to 3 degrees Celsius even under thermal insulation. The study also found that plant species and physiology, and water conditions are all key factors in mitigating urban heat island effect. Of seven different rooftop greening types – relawn, perennial, sedum mexicanum, no greening roof area, soil, dry lawn, and lawn on the sewage sludge – it was found that perennial and lawn-type roof plants (including dry lawns), had a larger effect in reducing sensible heat than sedum mexicanum type roof plants.\n\nTokyo’s goal is to install 1,000 hectares (10 million square meters) of greenery by 2016, both on rooftops and at the ground level.\n The City continues to work on the key task of maintaining the stakeholders’ attention and enthusiasm in order to keep these measures/efforts moving forward. Tokyo is also piloting more specification on the type of greening required, looking at cooling and other biodiversity benefits of various species, and looking at additional ways to put large scale, long-term urban heat island mitigation projects in place.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/nature-conservation-ordinance-is-greening-tokyo-s-buildings/",
     "publication_date": "2015-03-18",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26956",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=nature-conservation-ordinance-is-greening-tokyo-s-buildings&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2024-08-14T13:00:17",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

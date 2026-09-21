@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-hong-kong-water-security-through-supply-and-demand-management",
   "url": "https://www.c40.org/case-studies/cities100-hong-kong-water-security-through-supply-and-demand-management/",
   "title": "Cities100: Hong Kong – Water Security through Supply and Demand Management",
@@ -22,6 +22,31 @@
   "hazards": [
     "meteorological_drought"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Until recently, Hong Kong had been importing 70% to 80% of its freshwater resources from mainland China. Faced with uncertainty of access to this supply due to the effects of climate change, the city’s Total Water Management Strategy lays out efforts to reduce demand, prevent water loss, and source water through innovative means.",
+    "measures": "Acknowledging future risks of reduced water availability, Hong Kong has adopted a Total Water Management Strategy to enhance water security and reliability. The project focuses not only on improving and expanding water resources but curbing demand as well. To reduce demand, the city is reducing water loss by repairing and upgrading water mains, lowering leakage rates. The city also encourages water conservation methods through collaboration, active participation, and mutual commitments between public, private, and civic sectors. In terms of supply, Hong Kong is expanding its already world-leading sourcing strategies. While the city has used seawater for toilet flushing for many years, as part of the Total Water Management Strategy, this technique is now applied to 85% of the population as of 2015, saving 27 million m3 of freshwater and accounting for 27% of Hong Kong’s target for the 2020s. Hong Kong is exploring further alternative resources for the remainder of the target including reclaimed water, recycled grey water, and desalinated water.\n Environmental Benefits – Through the Total Water Management Strategy, freshwater and saltwater usage is predicted to be reduced by 200 million m3 and 24 million m3, respectively, by 2030.\n Social Benefits – To help curb demand and promote citizen engagement regardless of income level, the city installed 160,000 water flow controllers in 33 public housing estates, 2,000 government premises and 300 schools.\n Economic Benefits – The city will benefit from savings of up to $240 million by 2030, contributed by water loss management and water conservation, resulting in reductions in operating expenditure and delaying the expansion of waterworks infrastructure projects which would otherwise be required.\n Health Benefits – By enhancing the reliability and security of freshwater, the future health of Hong Kong’s citizens is safeguarded from the impacts of climate change.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -30,7 +55,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-water-security-through-supply-and-demand-management/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27221",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-water-security-through-supply-and-demand-management&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

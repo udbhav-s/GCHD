@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers",
   "url": "https://www.c40.org/case-studies/kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers/",
   "title": "Kolkata Launches India’s First Electric Tram Library for Adults and Young Readers",
@@ -30,6 +30,36 @@
   "hazards": [
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary To increase the appeal of using electrified trams as the choice mode of transport among students in Kolkata, the…",
+    "measures": "It is the first tram library in India. Kolkata has been the first city in India to establish many innovations. To add to their list of feats, the city is now the first to introduce a tram library in the iconic area of College Street. It is said that if a book doesn’t exist in College Street, it was never published. \n College Street is the academic district of Kolkata. The area around the street is home to the most iconic educational institutions. The Wi-Fi-enabled tram library was launched with the aim to attract more students into using trams as their default mode of transport, provide access to educational material, and to reinvigorate the love for reading.\n Since COVID-19, which led to the suspension of tram services, and Cyclone Amphan in May, which grounded the trams, four out of six tram routes have resumed services. The tram library was launched on 24 September 2020, when the iconic Shyambazar-Esplanade route that passes by the academic institutions resumed. The route coincides with 30 educational institutions on College Street. \n “The idea is to catapult the tram as the chosen mode for Kolkata students again,” said Rajanvir Singh Kapur, Managing Director of WBTC. \n Introduced by the West Bengal Transport Corporation (WBTC), the corporation that oversees India’s only functional tramways, the Tram Library is a special tram with a section for books, magazines, and various exam material. The books are updated regularly. The tram also has free Wi-Fi, allowing passengers to access e-books on top of the books in the library. With access to both physical and e-books, youth can spend their travel time productively. \n There are plans to host literature festivals and book launches in the tram libraries in the future, which will increase the appeal of using the trams as their preferred transport. \n As a part of the campaign to celebrate the inauguration of the Tram Library, free pens were also given on all ticket purchases in the first week. \n Prior to the launch, WBTC installed art in some trams which depict how the trams began in 1873 and got electrified in 1900. Since 1902, the electric tramcars have operated in Kolkata and they are the oldest running electric tram system in Asia. \n Amidst the COVID-19 pandemic, trams and depots will be properly and regularly disinfected and sanitised to maintain the safety of passengers.",
+    "outcomes": "There are plans to host more literary events in the trams in the future. There are plans to conduct activities such as storytelling, dramatised readings, poetry sessions, book launches, and music. These activities conducted throughout the year aim to increase the appeal of travelling by trams as opposed to using private transport.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers/",
     "publication_date": "2021-01-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27530",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:49:14",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

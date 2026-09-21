@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-changwon-incentives-for-a-shift-to-electric-vehicles",
   "url": "https://www.c40.org/case-studies/cities100-changwon-incentives-for-a-shift-to-electric-vehicles/",
   "title": "Cities100: Changwon – Incentives for a Shift to Electric Vehicles",
@@ -30,6 +30,25 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Changwon is situated in a basin that exacerbates the negative effects of air pollution, and has experienced twice the global average temperature increase. After implementing South Korea's first bike-sharing system, the city now turns towards making cars more sustainable.",
+    "measures": "Through public-private partnerships, various incentives, and new regulations, the city of Changwon aims to restore clean air and reduce CO2 emissions by replacing existing vehicles with environmentally friendly electric vehicles (EVs). The city has installed 31 quick-charge stations, and, from January 2017, a new regulation requires all new buildings to install EV charging facilities. The city plans to supply 3,000 mobile chargers to multi-unit houses and public facilities by the end of 2017, and add 50 additional public charging stations by 2018. The EV fleet rollout is part of the city's plan to become an 'Environmental Capital' by 2020. After first installing EVs for public use, the city now offers briefing sessions and trial rides for interested companies and individuals to promote and further disperse the technology. The goal is 5,500 EVs on the road, 1% of all registered vehicles, by 2020.\n Health Benefits – The deployment of EVs will help to reduce levels of local air pollutants.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-changwon-incentives-for-a-shift-to-electric-vehicles/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27344",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-changwon-incentives-for-a-shift-to-electric-vehicles&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

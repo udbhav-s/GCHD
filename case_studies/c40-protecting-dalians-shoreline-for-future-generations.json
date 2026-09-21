@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-protecting-dalians-shoreline-for-future-generations",
   "url": "https://www.c40.org/case-studies/protecting-dalians-shoreline-for-future-generations/",
   "title": "Protecting Dalian’s shoreline for future generations",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dalian",
+      "label": "Dalian"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Dalian has undertaken extensive work to strengthen the city shoreline and protect riverfront wetlands.",
+    "measures": "Dalian has undertaken extensive work to strengthen the city shoreline and protect riverfront wetlands. The ecological remediation of Fuzhou Bay is one of the city’s best examples. \n Dalian tailored restoration methods for different types of shoreline areas; the dam that is near residential areas is being reinforced by mud, stone and other artificial materials. Meanwhile, at the dam closest to the shoreline, local vegetation is being replanted. The city’s efforts are guided by nature-based solutions, which rely more heavily on enhancing resilience through nature, and less on manual intervention.\n Chen Shaowang, Mayor of Dalian , stressed the importance of improving marine governance and accelerating marine ecological restoration to achieve the nation’s Blue Bay Initiative.\n More About Adaptation & Water",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/protecting-dalians-shoreline-for-future-generations/",
     "publication_date": "2023-03-27",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "34190",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=protecting-dalians-shoreline-for-future-generations&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-27T11:18:59",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

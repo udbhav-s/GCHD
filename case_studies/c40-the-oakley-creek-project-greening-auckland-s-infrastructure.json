@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-the-oakley-creek-project-greening-auckland-s-infrastructure",
   "url": "https://www.c40.org/case-studies/the-oakley-creek-project-greening-auckland-s-infrastructure/",
   "title": "The Oakley Creek Project – Greening Auckland’s Infrastructure",
@@ -30,6 +30,36 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "auckland",
+      "label": "Auckland"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Te Auaunga/Oakley Creek project is a great example of a green infrastructure solution on Auckland’s longest urban stream. Originally a simple stormwater improvement project, the restoration of the stream developed into an opportunity to radically improve the environment and social wellbeing of the Mt Roskill area.",
+    "measures": "Significant flooding issues affected a 1.3 kilometre section of the stream, in an area that was slated for greater intensification under the Auckland Unitary Plan. To overcome these issues, the Auckland Council replaced the existing concrete channel with a wider, naturalised stream channel. The use of plants – native trees, ferns and flaxes – increased the water-carrying capacity of the watercourse and provided greater potential for stormwater to naturally soak into the ground.\n What is the innovation? How does it work? \n The project exemplifies best practice by anticipating climate change and population growth, enabling greater urban intensification in an existing flood plain and building a future-focused resilience to climate change impacts. The use of green infrastructure techniques has reduced the effects of flooding on surrounding areas and provides natural filtration and cleaning of collected stormwater.\n The community was extensively engaged in the planning process, and the scope of the project includes not just flood mitigation aspects but new cycle paths, walking trails, play spaces, a community center, an outdoor classroom, and a beginners’ BMX track, in the reserves bordering the creek. Massive community-carved swamp kauri stumps were repurposed in the interactive play areas and traditional Māori games area. This prevented large amounts of wood being sent to landfill and allowed construction at a fraction of the cost of a typical playground.\n An objective of the project was to use social procurement to deliver social and economic outcomes over and above the infrastructural improvements. A youth employment initiative involved a multi-skills training certificate, provision of mentoring and drivers’ license training. The initiative was designed to act as a pathway for five local employment/apprenticeship positions on the project (included as a tender requirement).\n The initiative has resulted in 11 young people having completed a Level 2 certificate in Multi-Skills Building Construction training programme at Unitec. Three trainees are employed at Te Auaunga site; a further 2 are working elsewhere with the contractor, and one is working with Te Whangai Trust. Another trainee gained an apprenticeship elsewhere.\n Next Steps \n The project also led to an innovative new partnership between Auckland Council, Te Whāngai Trust and Wesley Intermediate School, to create a native nursery on the school's grounds that will provide training and employment opportunities while also supplying the native plants. The nursery is required to work with 60 people per year in delivering the plants, planting and plant maintenance contract to Te Auaunga. Te Whāngai Trust’s work focuses on bringing long-term unemployed and people with mental health/offending history into sustained employment through building work and life skills.\n Links to further Information \n The Auckland Plan 2050: Green infrastructure \n Te Auaunga (Oakley Creek) Social Evaluation: Social procurement case studies \n Contact Details \n Tom Mansell \n Principal Social Outcomes \n Healthy Waters \n Auckland Council \n Tom.Mansell@aucklandcouncil.govt.nz",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/the-oakley-creek-project-greening-auckland-s-infrastructure/",
     "publication_date": "2018-11-27",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27414",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-oakley-creek-project-greening-auckland-s-infrastructure&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

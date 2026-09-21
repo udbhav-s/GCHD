@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-collecting-and-recycling-milk-cartons-from-schools-in-hanoi",
   "url": "https://www.c40.org/case-studies/collecting-and-recycling-milk-cartons-from-schools-in-hanoi/",
   "title": "Collecting and Recycling Milk Cartons From Schools in Hanoi",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In response to the increasing amount of solid waste in Hanoi, and as a way to mitigate plastic waste, in 2019 the city has engaged with relevant stakeholders in order to collect, sort, and recycle milk cartons at kindergardens and elementary schools. The program significantly helps in reducing the amount of milk cartons that are dumped in landfills, returns the waste into resources, and forms waste-sorting habits among young people for a healthy and livable lifestyle.",
+    "measures": "Hanoi is facing a big challenge in waste generation due to its fast population growth. It is estimated that Hanoi generates 5,500 to 6,000 tons of domestic waste every day, of which plastic accounts for 8-10%. This domestic waste is unsorted and is typically transported to landfills. This method accounts for 76% of waste disposal in Ho Chi Minh City and 95% of Hanoi’s waste disposal, with the remaining waste trated by inceneration methods or recycled at craft villages.\n Neither method brings environmental or economic benefits. Landfills waste land resources, state budgets and has social costs. The value of recyclable materials are wasted, ground and surface water are affected by secondary pollution and, in the long term, even land is affected. Incineration avoids some of these problems with landfills, but requires a huge upfront investment and involves a long implementation time. Dioxin emissions by incenerators also pose an environment problem. These projects also come under the objection of local residents.\n Accordingly, Vietnam discharges between 280,000 and 730,000 tons of plastic into the ocean per year, accounting for 6% of plastic waste in the world’s oceans (ranking fourth in the world, according to a UNEP workshop).\n Hanoi City implemented a “school milk” program, in which the City subidzes the price of milk as to ensure adequate dairy intake among the city’s children. This has caused the volume of discarded milk cartons from schools to be large. Milk boxes consist of 75% paper, 21% aluminium and 4% plastic. Although all these materials are recyclable, these cartons are disposed of in general waste bins and thus poured directly into landfills.\n Facing this situation, Hanoi City collaborated with Tetra Pak Vietnam (a major milk carton producer), Lagom Vietnam (a recycling company) and NHC Social Enterprise to launch a pilot program to facilitate the collection, sorting and recycling of milk cartons in kindergardens and primary schools throughout the city. \n The program does not only recycle large quantities of milk cartons (minimizing the amount of waste for landfills), but also raises the pupils’ awareness of environmental issues and responsible waste separation habits.\n What is the project? How does it work? \n The Hanoi Department of Natural Resources and Environment (DONRE), Hanoi Department of Education and Training (DOET), Tetra Pak Vietnam Joint Stock Company, Lagom Vietnam Co., Ltd. and NHC Social Enterprises have established a program coordinating the process of collecting and recucling 100% of milk cartons among the registered schools in Hanoi. In particular, Tetra Pak Vietnam has a social responsibility to return its waste to resources by supporting the program’s communication initiatives. Through NHC Social Enterprises, the program has experts instructing teachers and pupils on how to best collect, classify, treat, and store milk cartons as to avoid unpleasant odors. Lagom Vietnam Co., Ltd are responsible for ensuring that 100% of milk cartons are processesd into other products such as paper, construction materials, etc…\n This pilot program will act as the foundation for Hanoi DONRE and DOET to develop a citywide program in all schools and residential areas in Hanoi city in the future.\n What are the CO2 reduction goals and achievements? \n Since the start of the program, 100 tons of milk cartons have been collected and the program is projected to reduce over 1,000 tons of milk cartons per year, which will help mitigate 111 tons of methane at landfills. The CO2 reduction goals of this programme sit at around 2.78 thousand tCO2e/year.\n Next Steps \n Judging from the preliminary results of the program, Hanoi will gradually expand to all 30 districts of the city in the coming years, which will cover over 4,000 schools. Simultaneously, Hanoi will continue to cimplement models of collecting, sorting and recycling plastic waste in offices, businesses and residential areas, in order to minimize the amount of waste discharged into the environment.\n Links to further Information \n Official Programme Page \n Contact Details \n Ms. Le Thanh Thuy\n Project Management and Communication Division\n Hanoi Environmental Protection Agency (EPA)\n Hanoi Department of Natural Resources and Environment (DONRE)\n Tel: +84 983376658 \n Fax +84 4 37833926 \n Email: thuyle.epa@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/collecting-and-recycling-milk-cartons-from-schools-in-hanoi/",
     "publication_date": "2020-01-09",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27498",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=collecting-and-recycling-milk-cartons-from-schools-in-hanoi&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

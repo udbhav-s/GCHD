@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-paris-renewed-plan-advances-climate-action",
   "url": "https://www.c40.org/case-studies/cities100-paris-renewed-plan-advances-climate-action/",
   "title": "Cities100: Paris – Renewed Plan Advances Climate Action",
@@ -32,6 +32,31 @@
     "meteorological_drought",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "paris",
+      "label": "Paris"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Paris Climate Action Plan was initially developed in 2007 in response to heat waves, flooding, and water scarcity caused by climate change. With energy consumption expected to increase and temperatures expected to rise, the city has renewed its commitment with new measures in order to promote renewable energy generation and reduce energy use, creating a climate resilient and livable city for Parisians.",
+    "measures": "Paris’ Climate Action Plan was renewed in 2012 and covers six main themes: low-energy urban planning; energy efficient and affordable housing; the service industry; low-carbon transport; sustainable consumption; and the city’s first adaptation strategy. Since 2012, specific roadmaps on housing, commercial development, and adaptation have been published, in addition to the creation of web tools for citizens. The ultimate goal of the Climate Action Plan is to achieve a 25% reduction in greenhouse gas emissions and energy consumption by 2020. By the same year, one-quarter of energy consumed in the city should be powered by renewable or recovered energy. So far, the plan is already achieving impressive results. By 2014, 75% of energy production in Paris came from renewable sources, and by the end of 2015, 80% of the plan’s initiatives had been launched and the city had succeeded in reducing greenhouse emissions by 10%. With yearly reports released to monitor progress, Paris hopes that this large scale plan will lay the groundwork for a more resilient and climate-proof future.\n Environmental Benefits – So far 5,000 trees have been planted as part of the plan, increasing biodiversity.\n Social Benefits – More than 55,000 housing units will be refurbished under the Paris Climate Action Plan, reducing energy consumption and saving tenants money through lower utility bills.\n Economic Benefits – $1 billion was invested to retrofit housing under the plan, creating about 5,000 jobs.\n Health Benefits – The plan aims to reduce atmospheric pollutants by at least 50 % by 2020, improving the respiratory health of Parisians.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-paris-renewed-plan-advances-climate-action/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27244",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-paris-renewed-plan-advances-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

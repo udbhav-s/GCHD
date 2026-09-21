@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience/",
   "title": "Cities100: New York City and Copenhagen – Cities Collaborating on Climate Resilience",
@@ -27,6 +27,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New York City and Copenhagen experienced extreme weather events in 2011 and 2012, respectively. New York City experienced coastal flooding, and Copenhagen battled downpours. As both coastal cities face rising sea levels and more frequent cloudbursts, they have teamed up to develop projects based on past experiences.",
+    "measures": "Instead of waiting for more extreme weather to hit, New York City and Copenhagen have decided to leverage experiences from each other and share their successful climate solutions. While New York City is learning from Copenhagen's experience with cloudburst management, Copenhagen is drawing on New York City's experience with coastal flooding. For example, New York City's Cloudburst Resilience Planning Study is based on Copenhagen's approach, and seeks to use a combination of blue-green and traditional infrastructure to manage extreme rain events. This approach brings added benefits of CO2 sequestration, aesthetic improvements, and increased biodiversity. Not only does the collaboration demonstrate how to share and develop innovative adaptation projects, but it also paves the way for future climate action partnerships. The extensive engagement involved between the cities' governments, as well as their public and and private sectors, proves intercontinental collaboration can result in climate-adapted, resilient cities.\n Environmental Benefits – The proposed green infrastructure in New York City will reduce runoff and flooding, and also have a natural filtration capacity that treats stormwater before being discharged into Jamaica Bay.\n Social Benefits – Green infrastructure encourages community engagement via activities such as gardening and farming.\n Economic Benefits – With full implementation of the Copenhagen cloudburst project, the avoided social and environmental costs are estimated at $290 million.\n Health Benefits – Flooding in both cities resulted in loss of life and displaced populations, which will be avoided through these climate resilience projects.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27303",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-delhi-energy-recovery",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-delhi-energy-recovery/",
   "title": "C40 Good Practice Guides: Delhi – Energy recovery",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "delhi-nct",
+      "label": "Delhi NCT"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Of the total 9,000 tonnes per day (TPD) of municipal solid waste that Delhi generates, more than 2,000 TPD…",
+    "measures": "Summary\n Of the total 9,000 tonnes per day (TPD) of municipal solid waste that Delhi generates, more than 2,000 TPD is sent to the Ghazipur dumpsite. This dumpsite is overflowing and poses serious environmental, health and safety hazards to the neighbourhood. The Integrated Municipal Waste Processing Complex at Ghazipur project is being implemented to create a sustainable solution to this critical urban issue. The waste-to-energy plant will produce 12 MW of electric power, using 1,300 tonnes of municipal solid waste per day, diverting around 15% of Delhi’s municipal solid waste generation and addressing the environmental problems of open dumpsites. To set a benchmark in environmental standards and ensure its adherence to European emissions standard norms, the managing company has used best-in-class technology from Keppel Seigher of Belgium, Siemens, Schneider, SPIG, and BMH Finland amongst others. The project is also providing alternative livelihoods for rag pickers and their families through a mix of direct employment, capacity building and support for micro enterprises.\n Results \n The waste-to-energy plant uses waste materials from the landfill to produce refuse derived fuel (RDF), which powers a boiler used to generate electricity. The first stage of the project was completed in August 2014 and second phase is scheduled for completion by the end of 2015.\n The project generates substantial co-benefits, avoiding a release of methane emissions (saving an estimated 8.2 million tonnes over the 25 years of expected site operation) and dumping of waste in open solid waste disposal site (SWDS). The co-benefits include: lower health and safety risks compared to an open SWDS; land savings (estimated savings in the cost of acquisition of land alone over a period of 25 years equal to US$2.26 million); and environmental benefits through dilution of leachate (saving annual cost of treatment equivalent to US$0.4 per kWh) and reduction of toxic emissions from the landfill. Moreover, the project has tangible social benefits. Of the total of local 373 rag-picker families, the project will employ over 70 rag pickers directly in the plant. In addition, alternative livelihoods will be provided to about 100 women rag pickers and functional literacy education to 150 rag-picking family members. The project is also providing two crèches where 70 children are being given development and nutritional support. As part of financial inclusion, bank accounts and PAN (Permanent Account Number for income tax purposes) cards have also been provided to over 400 families in the area.\n Reasons for success \n Facing the challenge of limited land available for new landfill sites and a high volume of waste, Delhi has successfully upgraded an existing landfill to add a waste-to- energy plant infrastructure, exploiting the double benefit of waste reduction and power production, while generating support of the local community through social mainstreaming and re-training of the rag-picking families. This successful project is to be replicated in similar plants in Delhi and in other cities in India.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The waste-to-energy plant uses waste materials from the landfill to produce refuse derived fuel (RDF), which powers a boiler used to generate electricity. The first stage of the project was completed in August 2014 and second phase is scheduled for completion by the end of 2015.\n The project generates substantial co-benefits, avoiding a release of methane emissions (saving an estimated 8.2 million tonnes over the 25 years of expected site operation) and dumping of waste in open solid waste disposal site (SWDS). The co-benefits include: lower health and safety risks compared to an open SWDS; land savings (estimated savings in the cost of acquisition of land alone over a period of 25 years equal to US$2.26 million); and environmental benefits through dilution of leachate (saving annual cost of treatment equivalent to US$0.4 per kWh) and reduction of toxic emissions from the landfill. Moreover, the project has tangible social benefits. Of the total of local 373 rag-picker families, the project will employ over 70 rag pickers directly in the plant. In addition, alternative livelihoods will be provided to about 100 women rag pickers and functional literacy education to 150 rag-picking family members. The project is also providing two crèches where 70 children are being given development and nutritional support. As part of financial inclusion, bank accounts and PAN (Permanent Account Number for income tax purposes) cards have also been provided to over 400 families in the area.\n\nFacing the challenge of limited land available for new landfill sites and a high volume of waste, Delhi has successfully upgraded an existing landfill to add a waste-to- energy plant infrastructure, exploiting the double benefit of waste reduction and power production, while generating support of the local community through social mainstreaming and re-training of the rag-picking families. This successful project is to be replicated in similar plants in Delhi and in other cities in India.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-delhi-energy-recovery/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27126",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-delhi-energy-recovery&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

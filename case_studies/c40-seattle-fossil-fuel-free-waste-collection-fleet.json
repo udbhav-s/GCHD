@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-seattle-fossil-fuel-free-waste-collection-fleet",
   "url": "https://www.c40.org/case-studies/seattle-fossil-fuel-free-waste-collection-fleet/",
   "title": "Seattle’s Fossil Fuel Free Waste Collection Fleet",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seattle",
+      "label": "Seattle"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Seattle is overhauling its fleet of waste vehicles by adding 200 new clean energy vehicles through an updated procurement system. This will support the achievement of Seattle's climate goal to reduce total core GHG emissions 58% by 2030 (and transportation emission by 82%) and become carbon neutral by 2050.",
+    "measures": "Seattle is one of the first cities in the nation to mandate that contracted waste haulers transition to a renewable fuels fleet. This is helping drive market share for alternative fuel heavy duty vehicles in the region.\n Heavy duty vehicles have typically been powered by diesel fuel. By transitioning to a waste hauling fleet that is fossil fuel free, Seattle is actively reducing the impacts of their own operations. With significant advancements in electric vehicles and alternative fuel technologies, the challenges of cost or logistics are no longer barriers to transitioning to a heavy-duty fleet that does not run on fossil fuels. Seattle Public Utilities recognised they had a once-a-decade opportunity to improve service delivery, reduce climate and air pollution impacts, and drive market share for trucks that run on clean technology. Both the renewable natural gas and renewable diesel trucks have state-of-the-art engines and controls that produce near-zero or ultra-low emissions. Rounding out the fleet are electric trucks powered by Seattle’s carbon neutral electricity. This includes 2 full-size recycle route trucks, 4 mid-size trucks for smaller routes and container delivery, and 8 small electric-support trucks or cars.",
+    "outcomes": "The aim of this project is to continue to keep future solid waste rates low while still providing excellent customers service. It is expected to result in savings of around $5 million annually.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/seattle-fossil-fuel-free-waste-collection-fleet/",
     "publication_date": "2020-02-07",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27514",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=seattle-fossil-fuel-free-waste-collection-fleet&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T16:46:40",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

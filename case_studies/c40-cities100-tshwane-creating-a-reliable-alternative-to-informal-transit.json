@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-tshwane-creating-a-reliable-alternative-to-informal-transit",
   "url": "https://www.c40.org/case-studies/cities100-tshwane-creating-a-reliable-alternative-to-informal-transit/",
   "title": "Cities100: Tshwane – Creating a Reliable Alternative to Informal Transit",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tshwane",
+      "label": "Tshwane"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "For decades, an inefficient informal transit system has been the primary mode by which underprivileged and remote communities could access economic development opportunities in the city center. This BRT system seeks to remedy this injustice by making affordable, reliable, and safe transit an easy option for more residents.",
+    "measures": "Approved in 2011, this multi-phase project aims to provide an alternative to private cars and minibuses for commuters in the Pretoria region. While minibuses – a common form of transport in South Africa – are more efficient than traditional cars, the introduction of a dedicated BRT route will provide residents with a faster, scheduled, and more reliable direct route to the city center. Aware of the economic losses this may cause for minibus operators along the corridor, those affected will receive financial compensation and be offered a shareholder position in the new BOC (Bus Operating Company).\n The BRT bus fleet will run on low-emission diesel engines and compressed natural gas, and will emit on average 34% less CO2 and 24% less NOx than a standard diesel counterpart. The project hopes to carry 100,000 passengers a day when the 69 km BRT trunk is fully operational in 2020.\n Social Benefits – The system will provide faster and more equitable access to the city’s resources including jobs, universities, and hospitals, for those on the urban periphery.\n Health Benefits – The city hopes the project will achieve a 2.4% reduction in NOx and 7.9% drop in particulate matter, which in turn contribute to better air quality.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-tshwane-creating-a-reliable-alternative-to-informal-transit/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26960",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-tshwane-creating-a-reliable-alternative-to-informal-transit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

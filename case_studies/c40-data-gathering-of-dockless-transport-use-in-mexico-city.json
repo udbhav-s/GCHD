@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-data-gathering-of-dockless-transport-use-in-mexico-city",
   "url": "https://www.c40.org/case-studies/data-gathering-of-dockless-transport-use-in-mexico-city/",
   "title": "Data Gathering of Dockless Transport Use in Mexico City",
@@ -24,6 +24,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "SiTIS is one of the first programmes in the world to use data analysis to determine policy formulation for dockless bikes and scooters. By working closely with the companies and requiring broad data sharing, the city was able to identify the most efficient organization of the system, control the number of units available, better plan new infrastructure and ensure better quality and safety for both users and pedestrians. The system also allowed for a flexible concession system which maximized the gains for the municipal government as well as for the users.",
+    "measures": "In the wake of the rapid increase of the offer of dockless bikes and scooters in the city, the Mexico City government has gone through a broad process of data gathering to define clear guidelines for the use of these new modes of transport. Headed by the Undersecretariat of Planning, Policy and Regulation of the Secretariat of Mobility (SEMOVI), the city has successfully launched SiTIS – Sustainable Individual Transportation Systems, defining an efficient and comprehensive urban mobility policy based on data analysis. \n What is the project? How does it work? \n The entire process started in February 6 th , 2019, when the newly elected municipal government provided a temporary concession of one month and a half, to ten companies that were already operating in the city, out of which six decided to continue offering the service. The city required the participating companies to provide the city with access to the platform and the location in real time of all units and weekly data of the system operation including trips, routes, time, etc. On March 26 th , the city published SiTIS’ operational guidelines, which included, among others, the area of the city where the service could be offered, basic components required for bikes and scooters, branding regulations, parking restrictions and most importantly, they were required to share details of operational data with the Secretariat of Mobility. This data included several indicators such as georeferenced place and time of start and end of each trip, users’ gender and age, duration and length of each trip, total amount of units available, accident details (date, time, type and location), amount of complaints divided by type (safety, maintenance, communication, parking, etc.) and thefts, with a copy of the respective records. In this initial phase, each company could provide a maximum of 1,483 bikers and 856 scooters. \n Between February 6 th and March 25 th , SEMOVI conducted the pilot operation of SiTIS, focused on ordering and homologating operating conditions of the various companies that already provided this service since March (dockless bikes) and October (scooters) 2018. During this period, a specific supervision operation was implemented that included communication and cooperation mechanisms with companies. The information provided by the companies was analyzed and used to design future regulation and planning. Among these findings, it is worth noting that 701 thousand total trips were made during the period, in which different trends were identified in terms of hours of use, as well as the distance and duration of trips between those made by bicycle, electric bicycle and scooters. Most users were men and adults between 25 and 34 years old. Regarding routes, it was possible to identify certain “corridors” with a considerable amount of trips, including in routes with and without cycling infrastructure. The data also highlighted days and times when most of the trips were taken in each mode of transport, which allowed to recognize daily usage dynamics.\n Figure 1: rider demographics\n Figure 2: chronological data of bike usage\n Figure 3: chronological data of scooter usage\n Figure 4: density of bike routes\n In terms of distribution between weekdays and weekends, the average of trips during the week were considerably higher than those on weekends, demonstrating that most trips were used to carry out daily activities such as going from home to school or work and vice-versa, whereas leisure was responsible for a smaller amount of trips.\n Prior to the pilot operation, some operators, on their own accord, increased their fleets exceeding the authorized limit set by the previous administration. In spite of the 68% reduction of the fleet during the operation, the reduction in trips was of 39%, meaning that the average number of uses per bike almost doubled in the period, going from 6 to 11.1 daily uses, representing a significant gain in efficiency. The decrease in the number of units in turn led to a decrease in formal complaints, reaching one-fifth of the total documented before the pilot operation in a specific area. According to origin and destination data, it was also possible to determine areas that have a higher concentration of trips, which have some variation between bikes and scooters, but both converge in the spatial density of trips in the neighborhoods of Polanco, Reforma, Roma and Juárez. \n Figure 5: Neighborhoods with most originating trips (left) and most destinations (right)\n Figure 6: Neighborhoods with most originating trips (left) and most destinations (right)\n The joint effort with the companies was fundamental to satisfactorily attend to complaint reports about illegal use of sidewalks, access to buildings and inadequate parking, which negatively affected accessibility, mobility and safety, especially of children and people with disabilities. After reviewing the operation, it was found that dockless bikes use is predominantly related to school and work activities whereas scooters are associated with other types of trips, in different times of the day, possibly for leisure of intermediary work trips. Finally, the analysis was also able to identify specific areas that required further interventions in the public space, especially in the integration of clear parking spaces to the respective systems in order to ensure the safety of pedestrians using sidewalks and crosswalks. \n Based on this analysis, the city launched the first stage of the new one-year concession on April 16 th with the publication of the technical criteria for SiTIS and the public invitation for companies to apply for an annual permit. This document describes the area of the concession, bike and parking distribution in the area, technical details for eligible bikes and scooters, the need for emission reductions estimations by each company and data sharing. \n The second stage then started on May 29 th with calls for proposals from the 11 companies (5 for dockless bikes and 6 for scooters) that met all the requirements established in the previous round. Companies in this round had to include fees that would be paid to the municipal government for the number of units that they wish to operate through a series of proposals, which were then evaluated by an algorithm developed by the Public Innovation Digital Agency, which is able to process millions of possible combinations of fees and number of units, ensuring transparency and efficiency. No company is allowed to have more than 50% of the market share and based on the pilot operation and the subsequent data analysis, the maximum number of units allowed in the city in this round was 4,800 bikes and 3,500 scooters. In this initial round, various companies submitted proposals that provided a total of 2,400 bikes and 1,750 scooters. \n Since not all companies that participated in the tender were able to meet the legal and financial requirements, the city conducted another bidding for the remaining dockless bikes and scooters. The second round succeeded in providing 1,750 scooters adding up to the initially planned 3,500 units and 400 bikes, adding up to 2,800 bikes. This process is currently being analyzed by SEMOVI every three months through operational data analysis to evaluate whether the number of scooters and bikes is sufficient or if the numbers should be updated. \n Next Steps \n This process is currently ongoing, while SEMOVI is simultaneously analyzing the information gathered from previous rounds to implement parking points based on demand, modality and operation. 75 parking points have been defined and the Secretariat of Works is now building the parking areas across different areas of the city. The implementation of these points aims to organize SiTIS, replacing car parking lots and liberating space for pedestrians. Simultaneously, the parking zones allow cyclists to park their bikes in this new equipment. These points were a solution found in consultation with companies and local communities to incentivize the use of sustainable transport for short trips by assuring users of urban equipment available to start and end bike and scooter trips. Finally, these points are also integrated in the Integrated Mobility Network of CDMX, fostering intermodality. \n Links to Further Information \n Análisis sobre la operación piloto de bicicletas sin anclaje y monopatines eléctricos \n Lineamientos para la Operación de los Sistemas de Transporte Individual Sustentable de la Ciudad de México, por personas morales \n Lineamientos técnicos para unidades que prestan servicio en los Sistemas de Transporte Individual Sustentable de la Ciudad de México \n Presentación del proceso del permiso anual para operar en la Ciudad de México:",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/data-gathering-of-dockless-transport-use-in-mexico-city/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27467",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=data-gathering-of-dockless-transport-use-in-mexico-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

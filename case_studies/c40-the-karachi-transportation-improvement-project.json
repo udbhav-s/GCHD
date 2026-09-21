@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-the-karachi-transportation-improvement-project",
   "url": "https://www.c40.org/case-studies/the-karachi-transportation-improvement-project/",
   "title": "The Karachi Transportation Improvement Project",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "karachi",
+      "label": "Karachi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Karachi Transportation Improvement Project, conducted from April 2010 to June 2012 and composed of a master plan and a feasibility study, resulted in the proposal and assessment of 2 Bus Rapid Transit corridors, namely Green and Red lines.",
+    "measures": "The public transport system in Karachi is very poor. Bus services are historically considered unpredictable, unstable and uncomfortable. People who can use other transport modes, usually prefer motorcycle, rickshaw and taxi rather than buses. Hence, Karachi has been looking for ways to invest in two new BRT lines.\n The Karachi Transportation Improvement Project (KTIP) was conducted from April 2010 to June 2012 by the Japan International Cooperation Agency (JICA) in collaboration with the Karachi Mass Transit Cell (KMTC) and the City District Government of Karachi (CDGK).\n KTIP consisted of a master plan and a feasibility study. In the master plan study, the JICA Study Team proposed a circular railway (composed of 2 railway systems) and 6 BRT corridors. Each corridor has been given a name of color for better legibility. After the master plan stage, JICA selected 2 BRT corridors, namely Green Line and Red Line, to be assessed in the feasibility study.\n The feasibility study was conducted from July 2011 to June 2012 resulting in the proposal of 2 dedicated bus lanes in the median strips along M.A. Jinnah Road – Gurmandir – Lasbela – A.O. Clock – Surjani (Green Line) and Regal Chowk – People’s Roundabout – University Road – Model Colony (Red Line), with 57 stations.\n Private Sector Involvement \n In Pakistan, there are currently only a few cases of large investments in the transport sector by the private sector. The largest one in the country today is for high-speed railways, PKR 225 million. Karachi’s BRT would need PKR 5.1 billion for vehicle acquisition alone, which makes the necessary investment more than 20 times bigger than what was needed for the high-speed railway.\n BRT is also a completely new approach for Karachi, and it seems unrealistic that the private sector would be confident to invest a huge amount of capital for it. Hence, Karachi opened up to the possibility of accepting investments from a foreign private operator or creating a joint venture with local companies.\n Equity Investment \n In the case of the Karachi Circular Railway development, the equity investment was planned as only 3.7% of the total investment cost. Most portion of the project was planned to be covered by foreign loans. The total cost of the project was estimated to be as large as PKR 160 billion with the equity investment estimated to be PKR 5.9 billion only.\n The total investment cost of the BRT system, instead, is estimated to be PKR 17.2 billion (USD 111,260,000). The Study Team considers that the equity investment could be as high as PKR 3.4 billion, which is equivalent to 20% of the total investment.\n Loans \n Two types of loans were considered. One with JICA, a very soft and long-term loan with a low-interest rate, and the other one, a short term loan with higher interest rates, available in the domestic market to cope with potential money shortages.\n Links to further information \n “ Pakistan: Karachi Bus Rapid Transit Red Line Project “, Asian Development Bank",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/the-karachi-transportation-improvement-project/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27479",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-karachi-transportation-improvement-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

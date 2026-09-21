@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-bogota-waste-to-energy-project-supplies-national-grid",
   "url": "https://www.c40.org/case-studies/cities100-bogota-waste-to-energy-project-supplies-national-grid/",
   "title": "Cities100: Bogotá – Waste-to-Energy Project Supplies National Grid",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Bogotá faced serious waste management challenges in the past, as the Doña Juana Landfill had received 2 million tons of waste annually,1 putting human health at risk and increasing greenhouse gas emissions. Under the Doña Juana Landfill Gas to Energy project, emissions are reduced by converting methane to electricity, and communities benefit from cleaner air as well as investments in their well- being from the profits.",
+    "measures": "With the Doña Juana Landfill Gas to Energy project, Bogotá is capturing landfill biogas and turning it into electricity delivered to residents via the national grid. While the city had been capturing and destroying methane from landfill waste since 2009, this past year it became the first Colombian city to go a step further and create electricity from this waste. The process is undertaken at the landfill’s plant, which boasts one of the largest biogas systems in the country. The plant has a capacity of 30 MW of electricity, operating 24 hours a day, seven days a week. The project reduces CO2 emissions by 900,000 tons per year, and, by 2018, the city plans to construct two additional plants, further increasing the production of biogas and decreasing CO2 emissions. In addition to reducing greenhouse gas emissions, the project has an innovative social component. Twenty-four percent of the proceeds from the sale of carbon emission reduction credits and 4% of electricity sales are allocated to social investment in surrounding communities. Projects constructed with this funding include kindergartens, a multipurpose community center, pedestrian paths, and basic sanitation infrastructure, among other initiatives.\n Environmental Benefits – Before beginning to convert biogas to electricity this year, the capture and destruction of methane at the plant alone reduced CO2 emissions by more than 4.4 million tons between 2009 and 2016.\n Social Benefits – Vocational training has been provided to local youth through the project, providing opportunities not previously accessible.\n Economic Benefits – More than $2 million has been allocated to the city for social investment because of electricity sales through the project.\n Health Benefits – In capturing biogas, neighboring communities are no longer exposed to poisonous gases such as ammonia and hydrogen sulfide.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-bogota-waste-to-energy-project-supplies-national-grid/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27215",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-bogota-waste-to-energy-project-supplies-national-grid&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

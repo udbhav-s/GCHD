@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-the-bengaluru-waste-and-brand-audit-accountability-and-best-practices",
   "url": "https://www.c40.org/case-studies/the-bengaluru-waste-and-brand-audit-accountability-and-best-practices/",
   "title": "The Bengaluru Waste and Brand Audit: Accountability and Best Practices",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bengaluru",
+      "label": "Bengaluru"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Bengaluru Waste and Brand Audit is a great example of civil society engagement in solid waste management, happening in the capital of India’s southern Karnataka state. The Audit aimed to highlight and scale up the responsibility of brand owners, manufacturers and producers of plastic packaging with regards to the implementation of waste collection systems.",
+    "measures": "The Challenge: \n A large part of the plastic used and produced is non-recyclable. And this, in turn, sets a sequence in motion – no salvage value and expensive proposition to collect, sort and store. Hence such plastic waste ends up to landfill or is littered in the streets, water bodies or burnt with leaves and other waste materials.\n Findings: \n Carried out by more than a hundred volunteers across 8 locations around the city, the Bengaluru Waste and Brand Audit revealed that amongst the 12,000 pieces of plastic sorted, 607 different brands have been identified, respectively 479 representing local firms and 128 international brands. The International top polluters recognised were multinational corporations like Coca-Cola, Nestlé, Pepsico, Cadbury and Domino’s, or again Johnson & Johnson, Colgate-Palmolive and Amazon. Almost 90% of this ‘branded litter’ falls into the food packaging category with the remainder being personal care and household packaging. Of the 10,300 pieces of plastic regarded as food packaging, the 61% is completely not recyclable with just the 8% of the total amount being highly recyclable.\n The Solution: \n The Indian’s Plastic Waste Management Rules 2016 and Policy Resolution for Petrochemicals 2007 encourage the producers to implement waste collection system and phase out single-use plastic while conferring them the primary responsibility of this collection. Evolving from these guidelines, the Audit produced detailed recommendations aiming to strengthen the Polluter Pays Principle as an overarching principle of environmental responsibility. Several key recommendations are summarized below:\n Set up by waste producers of supporting infrastructures for collection, sorting and aggregation of plastic waste; Include waste pickers and create salvage value through ‘buy back’ in all waste collection plans;\n Until multilayer film and laminate is phased out, sachet packaging sizes should not go below a defined minimum size packaging;\n Ensure brand labeling of all multi-piece packaging to make it identifiable;\n Stop use of plastic straws that form part of the integrated packaging;\n Industry associations, tech parks, corporate campuses, malls etc. must invest 5% of the plot areas for setting up recycling facilities;\n Set norms for safe packaging to avoid the impact of plastics on health;\n Monitor the introduction of sustainable packaging, set up strict norms for new packaging and ensure that it is certified on the parameter of Life Cycle Assessment. Upgrade informal or semi-formal hubs as parks for plastic recycling;\n Use the Petrochemical Research and Development Fund for the development of projects of waste management;\n Increase community awareness on the safe use of plastic and local and national authorities to run educational campaigns on how to stop littering, segregate to promote recovery and promote recycled plastic products.\n Links to further information: \n Ministry of Environment, Forest and Climate Change notification – Solid Waste Management – New Delhi, the 8th April 2016 \n Contact Details: \n Sandya Narayanan\n sandyavn@gmail.com \n Nalini Shekar\n nalinipalyam@gmail.com \n Pinky Chandran\n pinky.chandran@gmail.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/the-bengaluru-waste-and-brand-audit-accountability-and-best-practices/",
     "publication_date": "2018-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27401",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-bengaluru-waste-and-brand-audit-accountability-and-best-practices&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

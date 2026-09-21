@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions",
   "url": "https://www.c40.org/case-studies/cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions/",
   "title": "Cities100: Salvador – Tree Planting Project Sequesters and Reduces CO2 Emissions",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Due to years of unregulated waste disposal, Canabrava Park is severely degraded, unable to sequester CO2 emissions, which increases the local temperature and spreads disease. Furthermore, approximately 8% of Salvador’s greenhouse gas emissions are the result of waste, 59% from wastewater plants. The Environmental Recovery Program is transforming the area by planting native trees and using treated sludge as fertilizer, capturing greenhouse gases, improving the local climate, and providing green spaces to one of the poorest neighborhoods in the city.",
+    "measures": "Launched in 2015, Salvador’s Environmental Recovery Program of the Canabrava Park is reforesting an old 52,000 m2 outdoor dump that received 22 million tons of waste in the last year, while transforming the area into a new ecosystem and a much-needed green space for the underprivileged neighborhood. The Brazilian city’s program is planting 20,000 trees native to the Atlantic Forest biome, and using sludge from the city’s sewage, treated by anaerobic digestion, and biosolids from an industrial wastewater plant as fertilizer. Consequently, the project is a measure for CO2 sequestration and reduction, as well as local temperature control. The program is a partnership with the private sector, where different parties plant and maintain different sections of the park, creating ownership of the program. So far, two large plantations have been planted with the assistance of 300 participants, including environmental engineering students from the local university, and inhabitants of the surrounding areas. The program has encouraged the planting of even more trees, with a goal to reach 100,000 across the city in the coming years.\n Environmental Benefits – It has been estimated that approximately 2.8 million tons of CO2 will be captured over 20 years by trees planted under the project.\n Social Benefits – The Environmental Recovery Program of the Canabrava Park provides a new meeting place for the extremely dense and underprivileged neighborhood, where there are otherwise few leisure options and green spaces.\n Economic Benefits – Reforestation of the park will reduce public health risks for residents in the area, such as respiratory diseases, that are associated with an open-air garbage dump.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27216",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

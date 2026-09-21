@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-yokohama-city-wide-rollout-of-smart-energy-management",
   "url": "https://www.c40.org/case-studies/cities100-yokohama-city-wide-rollout-of-smart-energy-management/",
   "title": "Cities100: Yokohama – City-wide Rollout of Smart Energy Management",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "yokohama",
+      "label": "Yokohama"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With increasing urbanization, Yokohama is experiencing fast growth that poses challenges in terms of energy use, traffic jams, air pollution, and an overall increase in greenhouse gas emissions. The YSCP strives to better manage energy use and mitigate climate change through a rapid deployment of smart energy infrastructure.",
+    "measures": "In 2010, the Japanese City of Yokohama formulated the Yokohama Smart City Project (YSCP) as a five-year pilot in three city districts. It has since been deployed to the entire city of 3.7 million people. The YSCP applies smart grids for the energy management of households, buildings, and local communities; introduces large-scale renewable energy; and promotes green transportation systems.\n Under the project, energy management systems have been installed in 4,200 homes, resulting in a 20% reduction in energy consumption through visualization of energy use and curbing power demand by providing consumers with incentives to limit electricity use. Similarly, energy management systems in offices and commercial buildings have resulted in a 20% reduction in peak energy consumption. In addition, the project has introduced 2,300 electric vehicles, and installed charging stations throughout the city. The use of renewable energy sources is also a priority under the YSCP, aiming for solar power generation in 249 locations, wind power generation in two locations, hydropower generation in three locations, and biomass power generation in six locations.\n Environmental Benefits – The installation of solar photovoltaic panels under the YSCP totals 37 MW.\n Social Benefits – In 2012, 418 lectures on climate change were held for 35,000 participants and 121 partner organizations to increase participation in the YSCP.\n Economic Benefits – By using locally produced products, the YSCP creates new jobs and boosts the city’s economy.\n Health Benefits – The introduction of electric vehicles will reduce ambient air pollution, which improves public health.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-yokohama-city-wide-rollout-of-smart-energy-management/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27032",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-yokohama-city-wide-rollout-of-smart-energy-management&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-sydney-inclusive-adaptation-to-climate-risks",
   "url": "https://www.c40.org/case-studies/cities100-sydney-inclusive-adaptation-to-climate-risks/",
   "title": "Cities100: Sydney – Inclusive Adaptation to Climate Risks",
@@ -34,6 +34,31 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "sydney",
+      "label": "Sydney"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In Australia, a lack of national-level political commitment to climate change adaptation has meant that local policy development is the best course of action for cities eager to create meaningful change. Sydney has demonstrated significant leadership in terms of adapting to the effects of climate change such as extreme heat, frequent storms, and sea level rise.",
+    "measures": "To protect Sydney from climate change-related extreme weather, ranging from changing rainfall patterns and rising sea levels to more severe heat waves, the city developed the Sydney Climate Adaptation Strategy, taking an inclusive and collaborative approach to the multiple jurisdictions operating across Sydney’s local government. In developing the strategy and prioritizing actions, a scientific reference group was established to ensure rigorous academic inputs, an interdependency analysis was undertaken to identify responses to climate risks and extreme weather, and a citizens’ panel was created to review adaptation actions and increase democratic engagement.\n The city’s efforts are paying off, and Sydney’s Climate Adaptation Strategy is seeing results. Many adaptation actions have been realized, such as the Urban Forestry Strategy, resulting in over 10,250 trees planted, drought-proofing parks, and testing light-colored pavement to reduce the urban heat island effect. New planned actions include a heat wave management plan, detailed community vulnerability assessment, and community awareness-raising.\n Environmental Benefits – The additional trees have improved Sydney’s air quality, and the urban tree canopy has increased to cover 23% of the city.\n Social Benefits – The community vulnerability assessment is leading to stronger community networks, with the city helping residents to help each other.\n Economic Benefits – Sydney’s Climate Adaptation Strategy advocates for more tree-lined streets, which are proven to increase property values.\n Health Benefits – Part of the Climate Adaptation Strategy is revising outdoor working practices for city staff to address heat-related health risks.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -42,7 +67,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-sydney-inclusive-adaptation-to-climate-risks/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26988",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-sydney-inclusive-adaptation-to-climate-risks&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

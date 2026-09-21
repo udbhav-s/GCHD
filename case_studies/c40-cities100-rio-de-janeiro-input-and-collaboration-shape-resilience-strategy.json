@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-rio-de-janeiro-input-and-collaboration-shape-resilience-strategy",
   "url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-input-and-collaboration-shape-resilience-strategy/",
   "title": "Cities100: Rio de Janeiro – Input and Collaboration Shape Resilience Strategy",
@@ -33,6 +33,31 @@
     "meteorological_drought",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Climate impacts, such as strong winds and rain, sea level rise, and flooding, combined with increased heat waves and heat islands, threaten Rio de Janeiro’s residents and infrastructure. The Rio Resilience Strategy serves as a guiding document for how, in both the short and long term, the city can protect itself from these challenges and transform into a global leader in urban resilience measures.",
+    "measures": "The Rio Resilience Strategy was born in 2016 as a guide for Rio de Janeiro to become a global leader in resilience by 2035. Developed with the support of a group of sector-specific experts, interviews with 39 city departments, and workshops with private sector stakeholders, the strategy defines six key goals: understand and mitigate the impacts of severe weather; cultivate green, cool, and safe urban spaces; provide high-quality basic services to all citizens; promote a circular and low-carbon economy; and increase the overall resilience and cohesion of the city and its people. The specific actions that will help Rio de Janeiro achieve these goals address flooding, drought, lack of access to clean water, and securing a safer supply of energy by decreasing dependence on hydropower. The city hopes that this strategy, underpinned by targeted stakeholder engagement, will serve as a necessary intermediary between the city’s short-term goals, as set forth in the Strategic Plan 2017-2020, and long-term roadmap, Vision Rio 500.\n Environmental Benefits – Improved management of water resources, particularly sanitation, will reduce pollution in waterways, improving local ecosystems.\n Social Benefits – The city aims to create and implement a “Massive Online Open Course (MOOC) on Urban Resilience,” as part of the plan, educating the public on the importance of resilience and climate change action.\n Economic Benefits – By calling for the implementation of circular economic measures, the plan will help shape a new market for compost and solid waste, which have immense potential for job creation.\n Health Benefits – By reducing temperatures in the city through the introduction of green and cool spaces, the plan aims to reduce epidemics and pandemics such as dengue fever, Chikungunya, and Zika.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -41,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-rio-de-janeiro-input-and-collaboration-shape-resilience-strategy/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27231",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-rio-de-janeiro-input-and-collaboration-shape-resilience-strategy&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

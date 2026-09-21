@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-toronto-public-fund-invests-in-climate-solutions",
   "url": "https://www.c40.org/case-studies/cities100-toronto-public-fund-invests-in-climate-solutions/",
   "title": "Cities100: Toronto – Public Fund Invests in Climate Solutions",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "toronto",
+      "label": "Toronto"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Two of Toronto’s largest greenhouse gas reduction opportunities – investment in energy efficiency and public transit – face major barriers due to competing capital needs in a city juggling multiple priorities. Establishing a permanent fund to address this long-term issue proved a solution to reduce emissions, improve air quality, and save the city $41 million in energy cost",
+    "measures": "TAF helps advance Toronto’s community-wide greenhouse gas and air pollution reduction targets. With more than 80% of its endowment invested in projects that have positive climate impacts, the fund is increasingly acting as an “impact investor,” mobilizing public and private capital toward investments that are not only financially sound, but socially and environmentally conscious. The fund’s investment returns have covered all TAF program expenses, at no cost to the taxpayer, since its establishment 25 years ago.\n TAF targets the transport and building energy sectors, as they are responsible for 41% and 48% of Toronto’s CO2 emissions, respectively. To unlock the significant local energy efficiency investment opportunities in buildings, TAF launched Efficiency Capital Corp. in 2015. This private venture will fund efficiency investments in Toronto’s building stock and raise up to $75 million in capital through third-party investors. To address transportation energy use, TAF funds a collective impact initiative called Move the Greater Toronto and Hamilton Area, consisting of 12 diverse civic groups who leverage provincial support for local transit. In 2014, their efforts helped secure a public commitment of almost $11.3 billion over 10 years for regional transit investments.\n Environmental Benefits – With support from the TAF, the City of Toronto has achieved a 25% reduction in GHG emissions below 1990 levels.\n Social Benefits – TAF’s “Climate Spark” initiative supports social ventures that offer significant greenhouse gas emissions reductions and pair a social and commercial mission with service to the broader community interest.\n Economic Benefits – Every $1 million spent on energy efficiency retrofits in the province of Ontario home to Toronto generate a net increase of $2.4 million in provincial GDP, and a net increase in employment of 17 person-years.\n Health Benefits – Toronto has reduced premature deaths related to air pollution from 1,700 to 1,300 within 10 years, due largely to the phase-out of coal-fired electricity. TAF funded research and advocacy to support the coal phase-out over a 10-year period.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-toronto-public-fund-invests-in-climate-solutions/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27021",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-toronto-public-fund-invests-in-climate-solutions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

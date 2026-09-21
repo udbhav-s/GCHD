@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-growsmarter-sustainable-delivery-platform-in-stockholm",
   "url": "https://www.c40.org/case-studies/growsmarter-sustainable-delivery-platform-in-stockholm/",
   "title": "GrowSmarter: Sustainable Delivery Platform in Stockholm",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "stockholm",
+      "label": "Stockholm"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of Stockholm partnered up with GrowSmarter to pilot a smart, automatic and sustainable parcel delivery room that will lower local emissions and pollution through reducing the volume of heavy vehicles on the streets.",
+    "measures": "The City of Stockholm partnered up with GrowSmarter to pilot a smart, automatic and sustainable parcel delivery room located on the bottom floor of a multi-storey apartment block in Årsta, Stockholm, where residents can order their home deliveries to a pick-up point. \n The delivery room is part of a larger renovation made by the housing company Stockholmshem, who are the owners of the apartment blocks take on most of the costs. Certain implementations of the renovation, such as the delivery room, are part of GrowSmarter and thus supported by EU-funding through the Horizon 2020 initiative. \n The parcels are transported to the delivery room using e-cargo bikes. Couriers and residents access the delivery room using a smartphone app/electronic key, which controls entry to the room, restricting it only to those with a package to collect. This GrowSmarter Sustainable Delivery project makes delivery more convenient for tenants, as they can pick up their goods at any time during the day and are not required to travel to a nearby delivery point to pick up their goods. The delivery of wide range of parcels (e.g. furniture) is possible, as the full space of the room can be used for storage. This service improves residents’ accessibility to postal services whilst reducing delivery traffic. Throught this concept, unused space in residential buildings can be transformed to provide an important service for residents. \n What are the sustainability goals and achievements? \n By using electric assisted bicycles for the delivery of the goods to the delivery room, the project reduces CO2 emissions since the goods otherwise would have been distributed by a truck or car. As a result, this reduced need for conventional delivery vehicles frees up street space for bicycles and pedestrians. By decreasing the volume of fossil fuel vehicles in the area, especially heavy vehicles, CO2 emissions will be reduced by an estimated 60 %. The goal is a 100 % decrease of fossil fuel delivery vehicles to the area.\n Apart from the delivery room with fossil fuel free delivery system per se, a number of other mobility measures were connected to the refurbishment of the buildings, such as electric car, e-bike and e-cargo bike charging and parking infrastructure. These will help residents reduce their use of fossil fuel vehicles and hence decrease air pollution.\n Next Steps \n The City of Stockholm and partners are delivering a series of reports as policy recommendations to local decision-makers, covering the technical, social and economic validation of the project as well as its potential to be replicated. They are also arranging study visits and workshops at the pilot site, where many international delegations have participated in order to understand the replicability of the measures in their cities. In addition, the project’s website as well as the SmartCity website serve as means of communication and awareness raising.\n The potential for adaptation and further improvements to this climate action measure is high. Additional functions can be added, such as delivering refrigerated goods or responding to other residents’ serviced demand, such as sharing cycles, ladders, machine tools or other items. A wide range of cities and other stakeholders have shown interest in replicating this measure, including PostNord, the postal service of Denmark and Sweden. The project partners and app provider have also developed related services using a similar approach, including unmanned “delivery containers” for use at construction sites.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/growsmarter-sustainable-delivery-platform-in-stockholm/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27476",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=growsmarter-sustainable-delivery-platform-in-stockholm&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

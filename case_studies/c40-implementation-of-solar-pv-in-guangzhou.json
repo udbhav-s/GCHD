@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-implementation-of-solar-pv-in-guangzhou",
   "url": "https://www.c40.org/case-studies/implementation-of-solar-pv-in-guangzhou/",
   "title": "Implementation of solar PV in Guangzhou",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guangzhou",
+      "label": "Guangzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Municipality of Guangzhou is active in devising policies to support the development of solar photovoltaics (PV). Multiple measures have been taken to encourage the implementation of solar PV, including developing guidelines and providing subsidies.",
+    "measures": "Guangzhou is actively researching and developing a set of policies that supports the development of solar PV. In 2013, Guangzhou Conghua Pearl Industrial Park was recognised as one of the first 18 national demonstration zones for large-scale implementation of distributed solar photovoltaic power generation. In 2014, the city released a series of documents, including “Development Plan for Distributed Solar PV in Guangzhou,” “Working Plan for Promotion and Implementation of Distributed Solar PV in Guangzhou,” and “Management of Distributed Solar PV Projects in Guangzhou.” These documents simplified the processes of accreditation, grid connection, and subsidy application. They also set out the goals for each district of Guangzhou in terms of solar PV projects.\n In 2017, Guangzhou published the “Regulations on Utilising the Emerging Industries Development Fund for Solar PV Projects” and provided subsidies (0.2 yuan per watt of installed capacity or 0.15 yuan per kWh of electricity actually generated). Guangzhou also encouraged industrial and commercial enterprises, public institutions, and citizens to take advantage of their rooftops for the exploitation of solar energy. In the first half of 2017, the overall installed capacity of solar PV reached 220,000 kilowatts, amongst which the capacity of household solar PV stood at 1800 kilowatts with 260 household projects. Between 2014 and 2017, 37.83 million yuan of municipal special fund was granted to 162 solar PV projects.\n Guangzhou will support the implementation of the “Development Plan for Distributed Solar PV in Guangzhou” and “Management of Distributed Solar PV Projects in Guangzhou” as well as give financial support to solar PV projects. The goal is to reach 2 million kilowatts of installed capacity by 2020.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/implementation-of-solar-pv-in-guangzhou/",
     "publication_date": "2018-01-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27374",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=implementation-of-solar-pv-in-guangzhou&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-city-stories-empowering-women-in-salvadors-solar-industry",
   "url": "https://www.c40.org/case-studies/city-stories-empowering-women-in-salvadors-solar-industry/",
   "title": "City Stories: Empowering women in Salvador’s solar industry",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Tainá, a solar engineer in the Salvador Solar programme, finds happiness and fulfilment in her good, green job, and proudly…",
+    "measures": "Tainá, a solar engineer in the Salvador Solar programme, finds happiness and fulfilment in her good, green job, and proudly demonstrates how women can thrive in the clean energy sector.\n Salvador is creating good #GreenJobsNow that address systemic social and economic inequities, helping women like Tainá enter the workforce into sustainable and future-proofed industries.\n LEARN MORE ABOUT GOOD, GREEN JOBS",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/city-stories-empowering-women-in-salvadors-solar-industry/",
     "publication_date": "2023-10-05",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36553",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=city-stories-empowering-women-in-salvadors-solar-industry&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-05T12:48:35",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

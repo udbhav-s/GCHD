@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-moscow-air-quality-monitoring",
   "url": "https://www.c40.org/case-studies/moscow-air-quality-monitoring/",
   "title": "PM Monitoring Supports Air Quality Improvement in Moscow",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "moscow",
+      "label": "Moscow"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Automatic air pollution monitoring stations have been installed in Moscow in order to better target the source of particulate matter within the city.",
+    "measures": "As one of the largest cities in Europe, Moscow hosts an extensive transportation infrastructure and a large amount of industrial enterprises. Improving ambient air quality is one of the greatest challenges the city faces today. There are many sources that discharge polluting compounds into the atmosphere, most of them anthropogenic. In addition to gaseous compounds, one of the most important pollutants is particulate matter (PM). Fine particulates are exceptionally dangerous for the health of Moscow residents. 2.5 µm particles can penetrate the alveolaris system and can remain there permanently. The Government of Moscow has identified the reduction of ambient PM in the air as one of their main environmental goals.\n Within the scope of this goal, the city government has developed a modern system for monitoring the PM-content in the atmosphere and keeping citizens and the municipality informed. The monitoring system includes automatic methods for measuring particulate matters (PM10 and PM2.5), as well as a unique method for determining the chemical composition (PAH and heavy metals), which helps identify the pollution sources. \n There are currently over 50 automatic air pollution monitoring stations in the city, including 32 stations equipped with instruments for PM measurement. This approach allows the municipality to identify and assess the impact of individual anthropogenic sources of PM. The city developed public information resources to inform citizens and policymakers about pollutants within the city, which has led to better decision-making. As a result, emissions from industry in Moscow have gone down by 13% in the past 5 years. \n What is the policy? \n The automatic air pollution monitoing stations in Moscow also include automated dust sampling systems for fine particles. The first automatic weighing system with such function of temperature control and filter coding in Russia was put into operation in 2013. The city takes an interest in the composition of these particles, because health damage is not only caused by the mechanical particles, but also by chemical substances absorbed by these particulates. The monitoring system has helped identify pollution sources – such as sources of benzo(a)pyrene (which stems from the combustion process), copper and iron (from industrial sources of pollution), and calcium and aluminium (from the components of building mixtures).\n CO2 reduction: Despite the fact that this project is designed in the first place to assess and reduce emissions of PM in the air, its long-term goals are more extensive. Measures for reducing PM emissions have a cumulative effect on other pollutants, including GHG emissions. Moscow is introducing a number of advanced measures to regulate the entry of vehicles of low ecological class into the city center. Special attention is paid to heavy trucks and buses. Since January 2017, the entry of freight vehicles with environment standards below class 3 into the central part of the city is prohibited , while driving in and along the city perimiter is prohibited to all vehicles with an environmental performance requirement below class 2.\n Air Quality: The new environmental policy of Moscow has significantly reduced air pollution. The monitoring data shows that since 2010, carbon monoxide and nitrogen oxide concentrations decreased 2.2 times and 1.9 times respectively along motorways. Compared to 2015, the air by the motorways also saw a 30% decrease in PM levels and sulfur dioxide levels were halved. 2015 was an important year within the air quality testing framework in Moscow. For the first time over the measurement period through the automatic air pollution monitoring stations, the growth of air pollution by nitrogen dioxide stopped and its content in the air began to decline. Since 2014, the average annual concentrations of nitrogen dioxide near highways have decreased by 15% every year.\n According to the data of automatic control stations and real surveys of the city’s territory, the content of PM10 in the atmospheric air near the highways has decreased by 30% since 2015. This was achieved thanks to a systematic, purposeful city policy, which is based on air monitoring data of particulate matter.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [
     {
       "name": "Air-quality monitoring data",
@@ -44,7 +69,12 @@
     "document_url": "https://www.c40.org/case-studies/moscow-air-quality-monitoring/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27472",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=moscow-air-quality-monitoring&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

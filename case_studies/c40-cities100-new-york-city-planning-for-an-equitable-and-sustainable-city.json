@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-planning-for-an-equitable-and-sustainable-city",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-planning-for-an-equitable-and-sustainable-city/",
   "title": "Cities100: New York City – Planning for an Equitable and Sustainable City",
@@ -31,6 +31,31 @@
     "river_flood",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Despite the city’s overall growth and prosperity, it struggles with high poverty rates and growing income inequality. The fact that the city’s most disadvantaged populations tend to be the most vulnerable to the effects of climate change has spurred New York to action in addressing the connection between climate change and social justice through OneNYC.",
+    "measures": "OneNYC is New York City’s blueprint for the future. It is a comprehensive long-term plan for sustainable development built on the core themes of prior plans – growth, sustainability, and resilience – with an added focus on justice and equity. Within four key themes, the far-reaching plan has 27 specific goals, 62 performance indicators, and 199 initiatives that address everything from waste and transportation to climate adaptation and social justice.\n The plan is unique in its added focus on the interconnectedness of poverty alleviation and climate change. The plan aims to reduce the risk of flooding in vulnerable neighborhoods and to eliminate long-term displacement from homes and jobs after shock events by 2050. Through OneNYC, the city aims to lift 800,000 New Yorkers out of poverty by 2025. The plan will also reduce disparity in PM2.5 air pollution across city neighborhoods by 20% by 2030 and increase the percentage of NYC residents living within walking distance of a park from 79.5% to 85% by 2030.\n Environmental Benefits – Under the plan, New York aims to eliminate the need to send waste to landfills by 2030, thus minimizing the overall environmental impact of waste and reducing the city’s greenhouse gas emissions by 80% by 2050 relative to 2005 levels.\n Social Benefits – The plan aims to create and preserve 200,000 affordable housing units and support the creation of 160,000 additional new housing units by 2024.\n Economic Benefits – To help lift nearly 1 million New Yorkers out of poverty by 2025, OneNYC aims to spur the creation of more than 4.9 million jobs by 2040.\n Health Benefits – OneNYC seeks to reduce premature mortality by 25% by ensuring that all New Yorkers have access to physical and mental healthcare services.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-planning-for-an-equitable-and-sustainable-city/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27000",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-planning-for-an-equitable-and-sustainable-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

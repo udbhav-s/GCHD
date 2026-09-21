@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-copenhagen-green-infrastructure-prevents-flooding",
   "url": "https://www.c40.org/case-studies/cities100-copenhagen-green-infrastructure-prevents-flooding/",
   "title": "Cities100: Copenhagen – Green Infrastructure Prevents Flooding",
@@ -27,6 +27,31 @@
     "river_flood",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "copenhagen",
+      "label": "Copenhagen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Faced with stormwater volumes increasing by up to 40%, and the risk of stronger and more frequent downpours rising by up to 55%, Copenhagen decided to prepare a comprehensive cloudburst plan. With an expected monetary gain, the city proves that a climate adapted city also makes economic sense.",
+    "measures": "Acknowledging future risks of increased stormwater volumes and more frequent cloudbursts – including a severe event in 2011 that resulted in more than $910 million in repairs – the Copenhagen City Council adopted a Cloudburst Management Plan in 2012. The city is preparing a full-scale rollout of 300 cloudburst projects over the coming 20 years, and has drafted plans for seven cloudburst catchment areas dispersed throughout the city, designed to increase the city’s blue and green infrastructure and prevent flooding.\n The green infrastructure, in the form of parks and natural areas, will absorb rainwater for storage and managed seepage, while water-transporting boulevards will funnel excess water away from inundated areas. These actions address not only cloudburst events but also urban heat island issues. The 300 cloudburst projects that combine green surface and sewer-based solutions will not only retain and drain water and protect the entire city against a 100-year rainfall, but also represent a good business case as they result in an estimated overall benefit of $767 million. The property market is expected to respond positively to the security associated with a climate adapted city.\n Environmental Benefits – The city’s green infrastructure has many functions, such as creating shade and air circulation, which assist in reducing the energy Copenhagen uses to cool buildings.\n Social Benefits – The city’s green infrastructure provides opportunities for recreation and stress prevention, which maintain a high quality of life for Copenhagen residents.\n Economic Benefits – The damage from stormwater and heavy rains is calculated to cost up to $3 billion over a period of 100 years in Copenhagen, which the city reduces with the Cloudburst Management Plan.\n Health Benefits – Some of the benefits to the Cloudburst Management Plan include remediation and reduction of air and noise pollution in the bustling Danish capital.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-copenhagen-green-infrastructure-prevents-flooding/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26985",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-copenhagen-green-infrastructure-prevents-flooding&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

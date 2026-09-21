@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-wuhan-new-energy-research-institute",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-wuhan-new-energy-research-institute/",
   "title": "C40 Good Practice Guides: Wuhan – New Energy Research Institute",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Wuhan has recently completed the construction of the Wuhan New Energy Research Institute Centrexxxviii, one of the most advanced…",
+    "measures": "Summary \n Wuhan has recently completed the construction of the Wuhan New Energy Research Institute Centre xxxviii , one of the most advanced energy efficient buildings in the world. The institute’s 140 m high main building (Wuhan Energy Flower) is designed according to the UK BREEAM standard and the “China Green 3-star” standard. The project is a world-leading building with zero fossil-fuel energy consumption and zero net carbon emissions, and is also the largest green building in China. Equally important is the role of the building as it houses the New Energy Research Centre containing over 2,000 sustainable engineering students and researchers dedicated to delivering new innovations in the field of green technology.\n Results \n The Wuhan Energy Flower is a low-energy consumption building, which harnesses rainwater and uses wind and solar energy to cover its energy needs (annual electricity produced by wind and sunlight is estimated at 480,000 kWh). The design of the building is adapted to the local subtropical climate, where temperatures peak at 45°C and the air is hot and humid for half of the year. The building is designed with an overhanging roof to maximise shading of the glass-fronted southern façade, which otherwise allows for maximum day lighting. In winter, the south-facing offices get direct sunlight, as the sun is lower in the sky. The large overhanging roof, tilted towards the sun, is covered with 3,500 m 2 of PV solar panels, generating electricity for the local grid. A 57 m high steel framed pillar emerges from the centre of the building and contains a vertical wind turbine. It also enables the building’s “mixed-mode” natural ventilation: air is heated by the sun in a 3 m diameter tube made of black aluminium panels at the base of the pillar, which is connected to a central duct running vertically through the centre of the whole building. As hot air rises through the central shaft, the stack effect causes air to be sucked through the building via window openings, helping to ventilate the space. The system is supported by two HVAC units, serving as backup. The building also has a rainwater harvesting system, providing water to toilets and a rooftop garden (38% of water used in the building is reclaimed water).\n Reasons for success \n A strong partnership between the City of Wuhan and the New Energy Research Institute, combined with the high standards during the procurement process, enabled the creation of the world-class low-energy building, serving as a demonstration of viability of new technologies. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Municipal Building Efficiency Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The Wuhan Energy Flower is a low-energy consumption building, which harnesses rainwater and uses wind and solar energy to cover its energy needs (annual electricity produced by wind and sunlight is estimated at 480,000 kWh). The design of the building is adapted to the local subtropical climate, where temperatures peak at 45°C and the air is hot and humid for half of the year. The building is designed with an overhanging roof to maximise shading of the glass-fronted southern façade, which otherwise allows for maximum day lighting. In winter, the south-facing offices get direct sunlight, as the sun is lower in the sky. The large overhanging roof, tilted towards the sun, is covered with 3,500 m 2 of PV solar panels, generating electricity for the local grid. A 57 m high steel framed pillar emerges from the centre of the building and contains a vertical wind turbine. It also enables the building’s “mixed-mode” natural ventilation: air is heated by the sun in a 3 m diameter tube made of black aluminium panels at the base of the pillar, which is connected to a central duct running vertically through the centre of the whole building. As hot air rises through the central shaft, the stack effect causes air to be sucked through the building via window openings, helping to ventilate the space. The system is supported by two HVAC units, serving as backup. The building also has a rainwater harvesting system, providing water to toilets and a rooftop garden (38% of water used in the building is reclaimed water).\n\nA strong partnership between the City of Wuhan and the New Energy Research Institute, combined with the high standards during the procurement process, enabled the creation of the world-class low-energy building, serving as a demonstration of viability of new technologies.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-wuhan-new-energy-research-institute/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27119",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-wuhan-new-energy-research-institute&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

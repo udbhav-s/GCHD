@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-johannesburg-trash-for-cash",
   "url": "https://www.c40.org/case-studies/cities100-johannesburg-trash-for-cash/",
   "title": "Cities100: Johannesburg – Trash for Cash",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Johannesburg generates about 1.6 million tons of waste annually, a majority of which goes to landfill. Three out of four landfill sites are approaching their full capacity, with less than 10 years disposal time left. To avoid adding more landfill sites, Johannesburg must move away from a waste-to-landfill model.",
+    "measures": "To cope with a massive waste problem, the City of Johannesburg has initiated a waste strategy. Entrepreneurship is stimulated in the communities by establishing waste buy-back centers, which are operated by communities. The centers buy recyclable waste such as paper, plastic, cans, and glass from people and then sell it to recyclers. Waste collectors receive a direct cash payment according to the volume of cleaned waste they bring in. An important aspect of the initiative is the incorporation of the informal waste collectors. Without the buy-back centers matching supply and demand, waste collectors would have to travel long distances by foot to sell waste. The aim is to empower impoverished communities via business entity ownership and increased recycling rates. There are seven buy-back centers spread across the city, each of which employs 10 to 15 full-time staff as well as 30 more people who indirectly benefit from the centers.\n Environmental Benefits – Waste is diverted from landfills and enters the recycling chain, contributing to a cleaner environment in Johannesburg.\n Economic Benefits – Each of the buy-back centers generates up to 45 jobs and increases the earnings of the waste collectors, who reduce their travel time for processing and selling waste.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-trash-for-cash/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27358",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-johannesburg-trash-for-cash&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

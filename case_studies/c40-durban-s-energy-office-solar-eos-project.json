@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-durban-s-energy-office-solar-eos-project",
   "url": "https://www.c40.org/case-studies/durban-s-energy-office-solar-eos-project/",
   "title": "Durban’s Energy Office Solar (EOS) Project",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Energy Office Solar (EOS) project is a pilot project that culminated in the eThekwini Municipality installing 300kWp of rooftop Photovoltaic on 5 municipal owned rooftops. This pilot project was undertaken in part to test the regulations and processes that the Municipality has put in place for the private sector to adhere to when installing Rooftop PV.",
+    "measures": "The EOS project has its roots in the Durban Climate Change Strategy (DCCS). The DCCS was approved by the eThekwini Municipal Council in 2015. It was developed through a consultative and participatory approach which revolves around thematic areas. One of the thematic areas is Energy, the first objective of this theme is “40% of Durban’s electricity consumption is supplied from renewable energy by 2030 in line with the national long term mitigation targets”. One of the specific responses that will enable us to achieve that objective is “Implement viable small-scale renewable energy generation such as micro-hydropower, rooftop solar photovoltaic and anaerobic digesters within municipal assets”\n The EOS project came to life when a 2-page funding request was made to the eThekwini Municipal Treasury Cluster. Initially, the EOS project was based on a solar charging station for Electric Vehicles (EV). However, that EV solar charging station concept was redeveloped into a Rooftop PV project due to the low penetration of EVs in eThekwini Municipality at the time.\n The identification of suitable buildings for this pilot posed a few challenges, as the Municipality owns thousands of facilities. A long list of 18 buildings was created and further shortened by utilising criteria such as visibility of the building, available roof space, global irradiance and electricity consumption. The shortlisting process resulted in 6 buildings being identified for installation, these buildings are uShaka Marine World, Water and Sanitation Headquarters, Metro Police Headquarters, Moses Mabhida Stadium Arch, People’s Park Café and Loram House (which was later removed due to structural concerns).\n Polycrystalline PV panels are utilised because the modules have a longer proven track record than thin-film and are more cost-effective than monocrystalline. The system is well equipped with P300 and P600 Power optimizers to operate at 99.5% maximum efficiency and able to record real-time performance measurement. Four of the five buildings utilise Solar Edge technology which differs from conventional string inverters as it uses optimizers on each solar panels. The ABB conventional string inverter has been installed in the remaining Municipal owned building that is part of this project. The systems are well equipped with built-in communication functionality. The performance of modules, string and inverters can be well managed and controlled to achieve required production performance ratio. The system can also be responsive when parameters are operating far below the required specification. In the event of an emergency the system is designed to respond and shut down electric flows. \n The designed generation capability of the various systems are as follows, with corresponding GHG reductions per annum: uShaka Marine World (165.4 MWh/yr, 170,4 tCO2e/yr), Water and Sanitation Headquarters (76.7 MWh/yr, 79 tCO2e/yr), Metro Police Headquarters (137.4 MWh/yr, 141.5 tCO2e/yr), Moses Mabhida Stadium Arch (6.8 MWh/yr, 7 tCO2e/yr), People’s Park Café (40.4 MWh/yr, 41.6 tCO2e/yr).\n In our context, consultation was one of the critical elements that would determine the success of the project. Some of the critical stakeholders are mentioned below, most are part of the eThekwini Municipality as an organisation: Architecture Department (All work on Municipal buildings needs to go through Architecture Department or get approved by them); Electricity Unit (for connection to the electrical grid), Planning Unit (for minor building works approval), and the relevant building managers (for maintenance and safety issues). In addition, Amafa, the heritage body for Kwa-Zulu Natal, had to be consulted as the Loram House building is classified as a Heritage building – as a result no work can be undertaken on the building without Amafa’s consent. Other stakeholders included the consultant and contractor. Communication needs to be as inclusive as possible – this will mitigate not taking into account the needs or regulations of some departments. It is also essential to have an efficient document management system, particularly for the easy access of compliance documents post installation.\n Alignment of the Tender Document that is issued to assessment reports needs to be given special attention, due to the fact that once a tender is entered into with the contractor it does not leave much room to deviate and the Supply Chain Management process to make changes to the contract is often time consuming, which will delay the project.\n As a coastal city, we had to pay special attention to the metal protection measures that were utilised for the installation. In the case of uShaka Marine, the installation is less than 75m from the surf, making it a very corrosive environment.\n Installing PV is the first main milestone, it is not the only milestone. Thought needs to be given to monitoring the installation, which includes tracking yield – this is best done through a real-time cloud based system, certain systems will also allow you to locate faults within minutes. Manually collecting data is inefficient and you will have lost days, if not weeks between a fault, identification of a fault and rectification of the fault.\n Maintenance also needs to be catered for, it should not be taken for granted that the building managers will automatically maintain the system. This is best addressed by the contractor maintaining the system over a year or 2, and gradually handing over the maintenance aspects to the facility managers.\n Training needs to be targeted at the facility managers and supervisors. This will likely be new technology for them and a thorough understanding will allow them to trouble shoot minor issues.\n Such an installation is a good opportunity for an awareness campaign, not only so that broader building stakeholders are aware of the installation but also the opportunity is taken to drive home the Renewable Energy message, which is linked to greenhouse gas emissions reduction and climate change.\n It is important to note that PV panels do not stop generating DC, as a result the necessary precautions and regulations have to be followed closely. The necessary isolation measures need to be included. For example, in the event of a fire, normally the Firemen switch off electricity supply to the building – but without the necessary notifications and isolations mechanisms the PV panel will still be generating DC and pushing it through the system which poses a risk for emergency personnel.",
+    "outcomes": "All installations were commissioned between December 2016 and January 2017. We are currently monitoring the generation data from all installations. This data will determine the feasibility of rooftop PV in Durban, should the figures be favourable it will be utilised as the core of the motivation for Phase 2 for EOS. Phase 2 is envisaged to be more of a programme, rather than a project and see the rollout of rooftop PV to a larger number of municipal owned facilities.\n At the same time the data will also be packaged to promote the installation of rooftop PV by private sector property owners. Naturally the private sector has a larger potential for the installation of rooftop PV because of the larger number of buildings owned as compared to municipal owned facilities.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/durban-s-energy-office-solar-eos-project/",
     "publication_date": "2017-09-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27369",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=durban-s-energy-office-solar-eos-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

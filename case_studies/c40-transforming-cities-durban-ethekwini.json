@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-durban-ethekwini",
   "url": "https://www.c40.org/case-studies/transforming-cities-durban-ethekwini/",
   "title": "Transforming Cities: Durban’s “tree-preneurs”",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "On the outskirts of South Africa’s capital, “tree-preneur” Thembi ‘s homegrown indigenous saplings are improving biodiversity and encouraging wildlife to return to former sugar cane fields.",
+    "measures": "On the outskirts of South Africa’s capital, “tree-preneur” Thembi ‘s homegrown indigenous saplings are improving biodiversity and encouraging wildlife to return to former sugar cane fields.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for EThekwini Municipality by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-durban-ethekwini/",
     "publication_date": "2022-11-08",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33439",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-durban-ethekwini&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-13T16:58:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

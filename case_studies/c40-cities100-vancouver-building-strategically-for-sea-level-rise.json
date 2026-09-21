@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-vancouver-building-strategically-for-sea-level-rise",
   "url": "https://www.c40.org/case-studies/cities100-vancouver-building-strategically-for-sea-level-rise/",
   "title": "Cities100: Vancouver – Building Strategically for Sea Level Rise",
@@ -31,6 +31,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "vancouver",
+      "label": "Vancouver"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Vancouver is ranked among the 20 most vulnerable cities in the world to sea level rise. Being the largest port in Canada, coastal flooding would also cause serious economic implications for the city. Canada does not have insurance mechanisms for residential flooding or a national flood hazard program. With the Climate Change Adaptation Strategy, the city plans to ensure that Vancouver remains livable andresilient in the face of climate change and sea level rise.",
+    "measures": "In 2012, Vancouver City Council adopted a comprehensive Climate Change Adaptation Strategy due to an increased focus on the city’s vulnerable position. This strategy also led Vancouver to change its building bylaws, so that new buildings in flood-prone areas must be built to elevations that account for sea level rise projections. Major city projects near the coast, such as an initiative to area-plan a large industrial site, now prioritize adaptation to sea level rise.\n As part of the strategy, a Coastal Flood Risk Assessment (CFRA) has been developed, which will result in area-specific adaptation responses to sea level rise and the associated increase in flood risk. As the CFRA requires information such as the depth of potential flooding under various sea level rise scenarios, as well as information about the assets and people that are vulnerable to flooding, decision-makers are able to comprehend the consequences of flooding in their communities and compare response options. The goals for these responses are maximizing actions that will benefit the community regardless of the degree of sea level rise, prioritizing vulnerable populations, and minimizing flood risk.\n Environmental Benefits – The debris created by a 500-year storm would fill over 4,500 trucks, causing a significant waste concern in the city.\n Social Benefits – Under a scenario in which the sea level rises one meter in connection with a 500-year storm, the Climate Change Adaptation Strategy is estimated to avoid damage to 800 buildings and displacement of 14,000 residents.\n Economic Benefits – Climate-related disaster response costs, including damage to buildings, direct business impacts, city infrastructure costs, and emergency response costs, would be widespread and significant if no adaptation action was taken.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-vancouver-building-strategically-for-sea-level-rise/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26984",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-vancouver-building-strategically-for-sea-level-rise&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-cape-town-transformative-land-use-plan-supports-transit",
   "url": "https://www.c40.org/case-studies/cities100-cape-town-transformative-land-use-plan-supports-transit/",
   "title": "Cities100: Cape Town – Transformative Land Use Plan Supports Transit",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Due to sprawl, historical emphasis on road-based transport, and inequitable access to transit, Cape Town consumes a great deal of diesel, and transport, as a whole, is responsible for 34% of the city’s CO2 emissions. By directing its long-term strategic vision to address these systemic issues, Cape Town will not only reduce its greenhouse gas emissions, it will enable residents to navigate the city more efficiently.",
+    "measures": "With its Transit Oriented Development Strategic Framework (TODSF), Cape Town is using transport as the the foundation of its long-term land use management and growth development, marking a paradigm shift for the city, which wants to become more compact and connected. The TODSF’s priorities include a modal shift towards public transport, the reduction of travel distances and costs, and the alleviation of urban sprawl through the optimization of land use. Concrete measures include a 12% improvement in access to transit and a 23% reduction in passenger kilometers traveled by 2032. To embark on this new vision, Cape Town developed an optimized transport scenario that will direct the organization of different land uses, including transport zones, public utilities, and businesses, and identify the actors necessary to deliver the new developments. To facilitate the uptake of the new directives, this focus on transit- oriented development will be embedded within all strategic and built environment plans of the city and will be used as a sustainable growth management tool.\n Environmental Benefits – The TODSF aims to have 20% fewer cars circulating in the city by 2032, which will improve the air quality of Cape Town.\n Economic Benefits – By prioritizing transit-oriented development, the TODSF will decrease kilometers traveled and transportation costs, particularly for low-income groups who currently spend 43% of their income on transport.\n Health Benefits – By reshaping the city to allow for greater use of non-motorized transport such as walking and cycling, the TODSF will help residents lead healthier lifestyles.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-cape-town-transformative-land-use-plan-supports-transit/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27208",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cape-town-transformative-land-use-plan-supports-transit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

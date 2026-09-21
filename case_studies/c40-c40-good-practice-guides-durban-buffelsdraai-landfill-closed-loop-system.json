@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-durban-buffelsdraai-landfill-closed-loop-system",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-durban-buffelsdraai-landfill-closed-loop-system/",
   "title": "C40 Good Practice Guides: Durban – Buffelsdraai landfill closed loop system",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Buffelsdraai landfill management is a large-scale project to improve waste management practices in Durban. The project as a…",
+    "measures": "Summary \n The Buffelsdraai landfill management is a large-scale project to improve waste management practices in Durban. The project as a whole supports the city’s goal to be the most liveable city in Africa by 2030, as it aims to alleviate poverty in the surrounding disadvantaged neighbourhoods, generates renewable energy, and reduce GHG emissions. The Buffelsdraai landfill is managed as a closed loop system, i.e. anything that comes onto site should not leave in any form.\n Results \n The modern landfill compacts and covers the waste every day to minimise the chances of odour or fly and vermin breeding. The leachate is collected and treated and the water is used for dust suppression, thus saving valuable drinking water. The landfill gas is extracted and used for flaring, thus destroying methane, a potent GHG. By extracting the gas and reducing methane emissions the city is expected to reduce 10 million tons of CO 2 equivalent over the life span of the landfill, which is nearly 50 years. In the future, the gas will be cleaned and used as a fuel for city’s vehicles or electricity generation. The methane gas captured will be sufficient to produce the equivalent of 10-12 MWh of electricity.\n The city also manages the buffer zone as a nature conservancy. There is currently a coastal forest re-establishment project, where the local community is given seeds and cuttings and they grow these to a predetermined size and return them to the landfill area, where they are exchanged for vouchers. The vouchers can be used for various items such as school fees, bicycles, food or any other service. In just five years, 723,000 trees have been planted and some 200 hectares rehabilitated into coastal forests from previous land under sugar cane cultivation. This is expected to save more than an additional 55,000 tons of CO 2 emissions per year.\n The co-benefits of the project include stronger community engagement and social capital (as the surrounding community is earning a living and improving their economic situation), environmental benefits (through the reintroduction of coastal forests which would otherwise be under threat from farming), and economic development (energy use and sale, local jobs). The project has already been replicated in Durban's other landfills.\n Reasons for success \n The project’s success is based on the strong involvement of the community in directly addressing the project’s impacts on local livelihoods and seeing that as an opportunity for development. Multiple co-benefits, such as planned electricity production, also help reduce the long-term costs of the project.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The modern landfill compacts and covers the waste every day to minimise the chances of odour or fly and vermin breeding. The leachate is collected and treated and the water is used for dust suppression, thus saving valuable drinking water. The landfill gas is extracted and used for flaring, thus destroying methane, a potent GHG. By extracting the gas and reducing methane emissions the city is expected to reduce 10 million tons of CO 2 equivalent over the life span of the landfill, which is nearly 50 years. In the future, the gas will be cleaned and used as a fuel for city’s vehicles or electricity generation. The methane gas captured will be sufficient to produce the equivalent of 10-12 MWh of electricity.\n The city also manages the buffer zone as a nature conservancy. There is currently a coastal forest re-establishment project, where the local community is given seeds and cuttings and they grow these to a predetermined size and return them to the landfill area, where they are exchanged for vouchers. The vouchers can be used for various items such as school fees, bicycles, food or any other service. In just five years, 723,000 trees have been planted and some 200 hectares rehabilitated into coastal forests from previous land under sugar cane cultivation. This is expected to save more than an additional 55,000 tons of CO 2 emissions per year.\n The co-benefits of the project include stronger community engagement and social capital (as the surrounding community is earning a living and improving their economic situation), environmental benefits (through the reintroduction of coastal forests which would otherwise be under threat from farming), and economic development (energy use and sale, local jobs). The project has already been replicated in Durban's other landfills.\n\nThe project’s success is based on the strong involvement of the community in directly addressing the project’s impacts on local livelihoods and seeing that as an opportunity for development. Multiple co-benefits, such as planned electricity production, also help reduce the long-term costs of the project.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-durban-buffelsdraai-landfill-closed-loop-system/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27124",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-durban-buffelsdraai-landfill-closed-loop-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

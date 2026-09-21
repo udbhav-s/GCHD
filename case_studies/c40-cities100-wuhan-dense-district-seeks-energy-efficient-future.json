@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-wuhan-dense-district-seeks-energy-efficient-future",
   "url": "https://www.c40.org/case-studies/cities100-wuhan-dense-district-seeks-energy-efficient-future/",
   "title": "Cities100: Wuhan – Dense District Seeks Energy-Efficient Future",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Residents of Baibuting live in a very dense area in one of China’s most populous cities. While the area’s space constraints promote mobility, the district needed to improve its energy efficiency as well. Therefore, Wuhan initiated a holistic low-carbon approach to the neighborhood’s development that engages residents and incentivizes the uptake of green technologies.",
+    "measures": "As part of Wuhan’s Low-Carbon City Pilot Program, Baibuting, a community of 150,000 people living on 5.5 km2, is infusing a low-carbon philosophy into its strategic development goals. Launched in 2011, some of the main directives guiding Baibuting’s development are affordable, energy efficient housing, convenient transport, and access to green space and essential services. According to the area’s development strategy, housing construction is encouraged to incorporate low-carbon and climate-resilient technologies. So far, developers’ investment in renewable energy has yielded a geothermal heat pump heating and cooling system and solar powered water heaters for the community’s benefit. Baibuting’s strategy focuses not only on physical improvements but also on the importance of instilling a low-carbon culture and environmentally responsible habits among residents. With the help of 40,000 volunteers, almost a third of the population, the Baibuting council helps residents adopt a green lifestyle by, among other initiatives, bringing awareness to power and water savings and clarifying waste separation guidelines.\n Environmental Benefits – The geothermal and solar energy systems have already reduced CO2 emissions by 300,000 tons annually.\n Social Benefits – There are now more than 170 cultural and sports groups in Baibuting, keeping the community active and engaged.\n Economic Benefits – By reducing energy consumption and promoting energy conservation in buildings, Baibuting’s low-carbon focus is also saving residents money on energy bills.\n Health Benefits – Baibuting’s low-carbon transportation projects encourage walking, cycling, and the use of public transit, which will improve residents’ health outcomes.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-wuhan-dense-district-seeks-energy-efficient-future/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27203",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-wuhan-dense-district-seeks-energy-efficient-future&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

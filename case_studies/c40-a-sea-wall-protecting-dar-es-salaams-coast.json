@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-a-sea-wall-protecting-dar-es-salaams-coast",
   "url": "https://www.c40.org/case-studies/a-sea-wall-protecting-dar-es-salaams-coast/",
   "title": "A Sea Wall Protecting Dar es Salaam’s Coast",
@@ -26,6 +26,36 @@
   "hazards": [
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dar-es-salaam",
+      "label": "Dar es Salaam"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "A total of 1180 meters of sea wall were constructed in the city’s effort to adapt to climate change and prevent coastal erosion.",
+    "measures": "Dar es Salaam has constructed a concrete sea-retaining wall to prevent beach erosion from sea waves. This project fits within the scope of the National Climate Change Strategy of 2012.\n A total of 1180 meters of sea wall were constructed in the city’s effort to adapt to climate change, and it has enabled the beach to recover within its erected area. As a result, no more coastal erosion is happening. Dar es Salaam residents now use the area for recreation, and small businesses in the area are now in-place, providing new sources of income for youth and women. The wall has added to the beautification of the area, and new trees will add to the green environment of the city. From the mitigation side, the presence of a beautiful beach that is easily accessible from the city centre now allows city residents to spend their time in a naturally breezy area, thus reducing their use of air conditioning at home.\n Next Steps \n The project will help reduce coastal erosion and make the beach area along Barack Obama Drive sustainable thanks to the added benefits of recreation and income generation. Other erosion-prone beach areas along Dar es Salaam’s waterfront could also benefit by the development of additional sea-retaining walls.\n Additional Info \n Survey of the extent of human-induced beach erosion problems in Tanzania \n Contact Details \n Shedrack Maximilian\n Head of Waste Management Unit\n Dar es Salaam City Council\n Shedrack_Maximilian@yahoo.co.uk \n Tel: +255754944504",
+    "outcomes": "The project will help reduce coastal erosion and make the beach area along Barack Obama Drive sustainable thanks to the added benefits of recreation and income generation. Other erosion-prone beach areas along Dar es Salaam’s waterfront could also benefit by the development of additional sea-retaining walls.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/a-sea-wall-protecting-dar-es-salaams-coast/",
     "publication_date": "2019-12-19",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27455",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=a-sea-wall-protecting-dar-es-salaams-coast&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

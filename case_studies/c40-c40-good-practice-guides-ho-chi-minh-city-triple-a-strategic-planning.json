@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-ho-chi-minh-city-triple-a-strategic-planning",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-ho-chi-minh-city-triple-a-strategic-planning/",
   "title": "C40 Good Practice Guides: Ho Chi Minh City – Triple-A Strategic Planning",
@@ -28,6 +28,31 @@
     "coastal_flood",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "ho-chi-minh-city",
+      "label": "Ho Chi Minh City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Ho Chi Minh City (HCMC) is located in the delta area of the Saigon and Dong Nai rivers. The…",
+    "measures": "Summary \n Ho Chi Minh City (HCMC) is located in the delta area of the Saigon and Dong Nai rivers. The city’s main challenge is urban flooding due to heavy rainfall and insufficient drainage capacity, exacerbated by fast urban development occurring on low-lying marshland, higher frequency of heavy rainfall events (attributed to the urban heat island effect) and projected or already occurring sea-level rise. HCMC also suffers from salinisation of the ground and groundwater. To address these multiple climate-change related impacts, HCMC adopted its comprehensive Climate Adaptation Strategy xxi in April 2013, within the ‘Moving Towards the Sea with Climate Change Adaptation’ project initiated in 2011 with assistance from Rotterdam. Based on the Triple-A Strategic Planning method (Assessment Atlas – Adaptation Strategy – Action Plan), the integrated Strategy consists of six directions: create smart urban density with connected living and working areas; develop step-by-step multi-scale flood protection measures; avoid local rainwater flooding by improving drainage and storage systems; reduce salinisation problems by relocating drinking water intakes upstream; and reduce land subsidence by restricting groundwater abstraction and improving surface water quality; reduce urban heat stress through developing the urban green-blue network.\n Results \n Currently in implementation, the Climate Adaptation Strategy divides the city into implementation zones, with on-going pilot projects in each. The pilot activities include the relocation of harbour infrastructure from the dense city area (District 4). This relocation opens space for climate adaptation measures – including improvements in the urban landscape such as parks to provide stormwater attenuation – towards the sea and onto low-lying areas (Nha Be District). These low-lying areas and the new harbour facilities on them are adapting flood proofing measures as they are located outside of planned dykes. The larger city-wide Strategy is being complemented by other measures, including: a mandate for all new developments to be elevated 2-2.5 m above mean sea level; a polder system to be built around the city with around 200 km of dykes and hundreds of tidal gates; and workshops on community based adaptation (early warning systems in communities and design of evacuation routes and drainage channels); in addition to on-going research by HCMC University on entire city modelling and simulations of probable flooding events.\n Reasons for success \n HCMC builds on experience and lessons-learned shared through cooperation with Rotterdam and through the C40 Connecting Delta Cities Network and tailors it to local geographical and political conditions. It also seizes climate change adaptation as an opportunity for new urban development and approaches the related land-use planning on a “whole-of-city” level, seeking synergies and complementarity between different redevelopment projects (e.g. District 4 – Nha Be district). HCMC also increases the Strategy’s likelihood of success by first implementing pilot projects before scaling-up the measures.\n When/why a city might apply an approach like this \n A city might adopt this approach when the local administration is fully committed to addressing climate change and prepared to think “big picture” and long-term, and when there is significant political support to see implementation at a larger scale across the city. There is a great opportunity for a city to use this approach when it is developing or revising a land-use master plan/development plan or when hit by a climate-related event that has affected the city in many different areas. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Currently in implementation, the Climate Adaptation Strategy divides the city into implementation zones, with on-going pilot projects in each. The pilot activities include the relocation of harbour infrastructure from the dense city area (District 4). This relocation opens space for climate adaptation measures – including improvements in the urban landscape such as parks to provide stormwater attenuation – towards the sea and onto low-lying areas (Nha Be District). These low-lying areas and the new harbour facilities on them are adapting flood proofing measures as they are located outside of planned dykes. The larger city-wide Strategy is being complemented by other measures, including: a mandate for all new developments to be elevated 2-2.5 m above mean sea level; a polder system to be built around the city with around 200 km of dykes and hundreds of tidal gates; and workshops on community based adaptation (early warning systems in communities and design of evacuation routes and drainage channels); in addition to on-going research by HCMC University on entire city modelling and simulations of probable flooding events.\n\nHCMC builds on experience and lessons-learned shared through cooperation with Rotterdam and through the C40 Connecting Delta Cities Network and tailors it to local geographical and political conditions. It also seizes climate change adaptation as an opportunity for new urban development and approaches the related land-use planning on a “whole-of-city” level, seeking synergies and complementarity between different redevelopment projects (e.g. District 4 – Nha Be district). HCMC also increases the Strategy’s likelihood of success by first implementing pilot projects before scaling-up the measures.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-ho-chi-minh-city-triple-a-strategic-planning/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27149",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-ho-chi-minh-city-triple-a-strategic-planning&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

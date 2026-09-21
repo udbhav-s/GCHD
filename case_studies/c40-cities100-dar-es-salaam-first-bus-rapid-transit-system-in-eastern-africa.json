@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-dar-es-salaam-first-bus-rapid-transit-system-in-eastern-africa",
   "url": "https://www.c40.org/case-studies/cities100-dar-es-salaam-first-bus-rapid-transit-system-in-eastern-africa/",
   "title": "Cities100: Dar es Salaam – First Bus Rapid Transit System in Eastern Africa",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dar-es-salaam",
+      "label": "Dar es Salaam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Dar es Salaam is one of the fastest-growing urban centers in the region, with a population growth of 6.5% annually. The population is expected to reach 10 million by 2027. The large and ambitious BRT aims to provide sustainable transport solutions for this growing population and will help to avoid urban congestion and air pollution.",
+    "measures": "Dar es Salaam is the first Eastern African city to implement a public bus rapid transit (BRT) project. The ambitious project, which will eventually cover 130 km and serve 90% of the population, is being phased in incrementally. Phase one has 39 trunk buses of 18 m, which can carry 160 passengers each, and 101 feeder buses of 12 m, with a capacity of 80 passengers each. When fully implemented, the BRT system will provide better, more environmentally friendly, and more efficient mobility to the city's residents. Until now, public transport, which accounts for up to 60% of all trips made daily, has been provided by more than 5,200 privately owned so-called daladala buses. The BRT line already in operation has 100% exclusive lanes and elevated terminals, and is transporting about 200,000 passengers daily. Stations and terminals bring safety and comfort not only for those who use the system, but for the entire local population, with sidewalks, cycle tracks, and a better organized public space. Funding for phase two, which will expand the network further, will commence shortly.\n Economic Benefits – The BRT corridor has increased productivity, as people are cutting journey times at affordable costs. Additionally, new jobs have been created alongside the corridor, with park and ride services like car-parking and car-washing.\n Health Benefits – Non-motorized-transport facilities have been provided along the BRT corridor to attract and encourage road users to change to more environmentally friendly transportation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-dar-es-salaam-first-bus-rapid-transit-system-in-eastern-africa/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27353",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-dar-es-salaam-first-bus-rapid-transit-system-in-eastern-africa&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-duwamish-valley-resilience-district-seattle",
   "url": "https://www.c40.org/case-studies/duwamish-valley-resilience-district-seattle/",
   "title": "Duwamish Valley Resilience District, Seattle",
@@ -27,6 +27,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "seattle",
+      "label": "Seattle"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative, Seattle was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects.",
+    "measures": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative , Seattle was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects. \n What is the Duwamish Valley Resilience District? \n Seattle is one of the fastest-growing cities in the U.S., resulting in long-time residents being pushed out as it becomes more expensive to live there. Two of the most affected neighbourhoods are Georgetown and South Park, where 27% and 50% of residents, respectively, live in poverty.\n Inequality in Seattle is compounded by annual seasonal flood risks due to the worsening climate crisis. An extreme high tide event in December 2022 flooded South Park, displaced around 40 residents, and damaged homes and businesses. The flooding is only set to get worse with continued sea-level rise.\n To confront these environmental and economic challenges and improve residents’ quality of life, the City of Seattle and community members developed the Duwamish Valley Action Plan in 2018, a vision for environmental justice and equitable development in the region.\n Building on the action plan, the City of Seattle convened the Duwamish Valley Resilience District advisory group . The 17 advisory group members represent diverse communities and interests, including from the two priority neighbourhoods – South Park and Georgetown – as well as community-based organisations, an affordable housing association, and industrial business representatives and landowners. The advisory group fosters shared decision-making and community action against displacement and sea level rise.\n What has the Duwamish Valley Resilience District achieved so far? \n The Duwamish Valley Resilience District advisory group convenes to learn about and inform local climate breakdown adaptation and mitigation efforts. Through community engagement, the group involves residents in planning and implementing positive change in Duwamish Valley.\n Inspired by climate action in other cities, the Duwamish Valley Resilience District Advisory Group and City of Seattle Advisors selected three main categories to focus on:\n Community coordination and cross-sector collaboration – inspired by Proyecto ENLACE del Caño Martín Peña in Puerto Rico .\n Sea-level rise adaptation and mitigation strategies – inspired by Ōtākaro Avon River Corridor of Regenerate Christchurch in New Zealand .\n Finance and funding – inspired by Água Espraiada Urban Operation in São Paulo, Brazil .\n With the support of expert consultants, the advisory group has developed guiding decision-making principles for future Resilience District initiatives; engaged in training and discussions about racial equity; and learned about what sea-level rise means for Duwamish Valley and what adaptation and mitigation responses are available, including sea walls, berm (raised land barriers), pumps, habitat, and drainage. \n Community engagement \n These ideas are used as a launchpad for community engagement in South Park and Georgetown, to educate and exchange ideas with residents and businesses.\n The team has hosted six community events, including a ‘multilingual open house’ involving 78 residents. Interpreters attended and translated for residents in four languages ­– Spanish, Somali, Khmer, and Vietnamese. \n People gathered at the Community Open House to learn about sea-level rise. © City of Seattle \n Residents were invited to learn and share ideas about the advisory group’s work streams, including sea-level rise strategies, the Resilience District guiding principles, and finance and funding.\n Based on input from residents, the team will develop recommendations on sea-level rise mitigation infrastructure and policy for the City of Seattle – ranging from affordable housing, business and workforce development strategies, land use changes, financing mechanisms and new community-led organisations to advance resilience.\n The Duwamish Valley Resilience District project has brought together a cross-sectoral coalition of people bringing to life their vision for an environmentally just and equitable Duwamish Valley. In the face of the climate crisis and its challenges, they have set the foundation for action and organisation by the community, for the community.\n Learn more about the Duwamish Valley Resilience District \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/duwamish-valley-resilience-district-seattle/",
     "publication_date": "2023-10-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36685",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=duwamish-valley-resilience-district-seattle&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-16T12:16:53",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

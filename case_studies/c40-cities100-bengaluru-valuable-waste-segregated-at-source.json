@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-bengaluru-valuable-waste-segregated-at-source",
   "url": "https://www.c40.org/case-studies/cities100-bengaluru-valuable-waste-segregated-at-source/",
   "title": "Cities100: Bengaluru – Valuable Waste Segregated at Source",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bengaluru",
+      "label": "Bengaluru"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Changing public perceptions and behaviors involving waste processing was challenging in a city used to dumping waste on street corners, but more than 2,000 dedicated volunteers, called 'Suchi Mitras', have been responsible for monitoring their local community and ensuring waste is properly disposed of.",
+    "measures": "India's third most populous and second-fastest growing city is leading the way on waste separation and collection. Bengaluru, formerly Bangalore, has transitioned from a system reliant on street corner dumping to a well-organized segregation system in which the municipality collects wet, dry, and sanitary waste on a door-to-door basis across the entire city. Bengaluru is the first city in India to segregate as much as 50% of its waste, and is also the first Indian city to collect sanitary waste separately from households. The collected wet waste is converted into manure compost, which is then given to local farmers in collaboration with the Agriculture and Urban Development ministries. Anyone generating more than 10 kg of waste per day is classified as a bulk waste generator and must either deploy their own waste processing units or use private companies.\n Environmental Benefits – Reducing rubbish sent to landfill or burned on the street reduces methane emissions and protects groundwater from contamination.\n Social Benefits – The waste segregation scheme employs informal waste-pickers, providing some security for low earners and encouraging volunteers to take responsibility for their local area.\n Health Benefits – Reducing street-level waste dumping decreases vermin-spread disease and improves living conditions in the city via improved air quality and fewer odors.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-bengaluru-valuable-waste-segregated-at-source/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27356",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-bengaluru-valuable-waste-segregated-at-source&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-san-francisco-connecting-climate-action-with-public-health",
   "url": "https://www.c40.org/case-studies/cities100-san-francisco-connecting-climate-action-with-public-health/",
   "title": "Cities100: San Francisco – Connecting Climate Action with Public Health",
@@ -34,6 +34,31 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "san-francisco",
+      "label": "San Francisco"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Global climate change has local impacts. For San Francisco, these include extreme heat days, sea-level rise and storms, and severe droughts, all of which can cause fatalities. San Francisco's Climate and Health Adaptation Framework explicitly addresses these risks.",
+    "measures": "The San Francisco Department of Public Health (SFDPH) has released a framework describing the connection between climate change and local health impacts. It represents a comprehensive approach to engage stakeholders in designing solutions that reduce health disparities and climate health impacts. The SFDPH's framework assesses climate trends, defines disease burden, develops specific intervention methods, and evaluates the effects of change for communities at greatest risk. Some of the suggested city-led strategies include the deployment of a sensor network to provide real-time monitoring of air quality and weather-related warnings for vulnerable populations. To continuously address the projected health impacts of climate change, the city will develop emergency plans, create educational material for adaptation and resilience efforts, strengthen cross-collaboration between government agencies, and support vulnerable communities in capacity building.\n Environmental Benefits – Strategies in the framework include working with city partners to develop green urban spaces and increase tree canopy to reduce the urban heat island effect, as well as develop natural stormwater management practices to soften the impact of extreme storms.\n Social Benefits – One of the objectives of the framework is to develop an outreach plan that builds capacity between the SFDPH and the people they serve. Improving social cohesion will support resilience and help protect vulnerable communities.\n Health Benefits – The framework will alleviate health consequences of climate change such as extreme heat, flood inundation increasing exposure to molds, and worsening air quality that exacerbates respiratory illnesses and triggers asthma symptoms.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -42,7 +67,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-san-francisco-connecting-climate-action-with-public-health/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27310",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-san-francisco-connecting-climate-action-with-public-health&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

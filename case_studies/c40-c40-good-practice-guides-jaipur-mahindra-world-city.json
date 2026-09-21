@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-jaipur-mahindra-world-city",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-jaipur-mahindra-world-city/",
   "title": "C40 Good Practice Guides: Jaipur – Mahindra World City",
@@ -28,6 +28,25 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Mahindra World City, Jaipur is a 3,000 acre integrated business city located in the fast growing Delhi-Mumbai Industrial Corridor….",
+    "measures": "Summary \n Mahindra World City, Jaipur is a 3,000 acre integrated business city located in the fast growing Delhi-Mumbai Industrial Corridor. It is a Public-Private Partnership (PPP) between Mahindra Group and Rajasthan State Industrial Development and Investment Corporation (RIICO), and will be a home and workplace to over 300,000 people.\n Results \n While in the early phases of development, the project has completed its Climate Positive Roadmap xiv that details the strategies and tactics to be pursued to achieve a Climate Positive outcome. Situated 25 km from Jaipur airport, Mahindra World City already houses more than 65 global and domestic multinational clients like Infosys, Wipro, JCB, Perto, Rexam and others, across its Special Economic Zone (SEZ) and Domestic Tariff Area (DTA) facilities.\n As detailed in the Roadmap, Mahindra World City, Jaipur will have a net impact of reducing over 60,000 tCO 2 e per year, compared to a business as usual baseline of over 800,000 tCO 2 e.\n Energy currently accounts for over 80% of the site’s total emissions. The project is pursuing three strategies to reduce that impact:\n Efficient use of energy in buildings;\n Efficient use of energy for utilities; and\n Use of renewable energy (solar).\n Embracing flexibility to accommodate changes in technology, the plans for the Mahindra World City call for a minimum of 30% savings from energy efficiency strategies and at least 50% of rooftops dedicated to solar.  The sustainable transport strategy for Mahindra World City utilises the ‘Avoid, Shift and Improve’ approach xv for developing a sustainable transport plan. The sustainable transport strategy also incorporates a variety of non-motorised and public modes of transport, thereby reducing the overall CO 2 impact from transport on-site.  \n Reasons for success \n The project adopted a holistic approach to sustainable development right from the master-planning stage and prioritised infrastructure investments that are projected to help deliver carbon savings. With both partners – State Government and Mahindra World City – having a strong desire to deliver a sustainable new development, they were able to think creatively about how to expand the impact across the community and leverage additional investment opportunities, positioning them to better deliver a lower carbon outcome.  \n When/why might a city adopt an approach like this \n This strategic approach will work well in a greenfield development or in cities that are growing rapidly, where there are opportunities to develop infrastructure at scale.  \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cimate Positive Development Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "While in the early phases of development, the project has completed its Climate Positive Roadmap xiv that details the strategies and tactics to be pursued to achieve a Climate Positive outcome. Situated 25 km from Jaipur airport, Mahindra World City already houses more than 65 global and domestic multinational clients like Infosys, Wipro, JCB, Perto, Rexam and others, across its Special Economic Zone (SEZ) and Domestic Tariff Area (DTA) facilities.\n As detailed in the Roadmap, Mahindra World City, Jaipur will have a net impact of reducing over 60,000 tCO 2 e per year, compared to a business as usual baseline of over 800,000 tCO 2 e.\n Energy currently accounts for over 80% of the site’s total emissions. The project is pursuing three strategies to reduce that impact:\n Efficient use of energy in buildings;\n Efficient use of energy for utilities; and\n Use of renewable energy (solar).\n Embracing flexibility to accommodate changes in technology, the plans for the Mahindra World City call for a minimum of 30% savings from energy efficiency strategies and at least 50% of rooftops dedicated to solar.  The sustainable transport strategy for Mahindra World City utilises the ‘Avoid, Shift and Improve’ approach xv for developing a sustainable transport plan. The sustainable transport strategy also incorporates a variety of non-motorised and public modes of transport, thereby reducing the overall CO 2 impact from transport on-site.\n\nThe project adopted a holistic approach to sustainable development right from the master-planning stage and prioritised infrastructure investments that are projected to help deliver carbon savings. With both partners – State Government and Mahindra World City – having a strong desire to deliver a sustainable new development, they were able to think creatively about how to expand the impact across the community and leverage additional investment opportunities, positioning them to better deliver a lower carbon outcome.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +55,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-jaipur-mahindra-world-city/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27103",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-jaipur-mahindra-world-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

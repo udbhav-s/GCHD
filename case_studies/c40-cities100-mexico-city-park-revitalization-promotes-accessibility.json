@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-mexico-city-park-revitalization-promotes-accessibility",
   "url": "https://www.c40.org/case-studies/cities100-mexico-city-park-revitalization-promotes-accessibility/",
   "title": "Cities100: Mexico City – Park Revitalization Promotes Accessibility",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Chapultepec Park is a beacon of nature in the bustling Mexican capital. Yet, years of poor maintenance within the park, and low connectivity between the park and the rest of the city, left it underutilized. Chapultepec Second Section’s Master Plan seeks to reinvigorate the park by adding better features and services for visitors and making it more accessible to all.",
+    "measures": "Mexico City’s enormous Chapultepec Park is undergoing a makeover to become more connected to the city, more accessible to residents, and more environmentally friendly. In 2013, the city created the Chapultepec Second Section’s Master Plan to address four priorities: improving mobility options, achieving better water and infrastructure maintenance, organizing merchants and vendors so as to optimize the use of public space, and revitalizing green spaces.\n In order to make the park’s 6.86 million m2 more accessible and enjoyable for its 19 million annual visitors, the city plans to expand public transit via a 3.5 km long bus and cycling circuit and the creation of 16,500 m2 of sidewalks. The city will also rehabilitate fountains and clean lakes, install 500 solar-powered lamps, and create more maintained and accessible spaces for recreational activities. The plan seeks to break down the borders between the city and the park and to make nature easily accessible for all residents and visitors.\n Environmental Benefits – More than 400 new trees were planted as part of the plan, and 15,000 m2 of green area were recovered.\n Social Benefits – Improving public transit options and walking and cycling networks makes the park more accessible to all citizens and visitors regardless of social class or car ownership.\n Economic Benefits – The plan improves the quantity and quality of services available to visitors, such as public lighting, walkways, and squares, which will attract more visitors and increase sales of goods and services by park vendors.\n Health Benefits – Revitalizing open green spaces encourages sports activities, and newly built, safe pedestrian and cycling infrastructure invites visitors to experience the park on foot or by bike rather than by car.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-park-revitalization-promotes-accessibility/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27057",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-park-revitalization-promotes-accessibility&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

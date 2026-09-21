@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-rotterdam-blue-label",
   "url": "https://www.c40.org/case-studies/rotterdam-blue-label/",
   "title": "Rotterdam’s BlueLabel, The First Digital Water Vulnerability Scan In The World",
@@ -27,6 +27,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rotterdam",
+      "label": "Rotterdam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "BlueLabel is offering the first digital water vulnerability scan in the world that gives detailed information into rain induced flooding down to the square metre, which allows for proactive preventative action.",
+    "measures": "Climate change is rapidly introducing climate related risks for the urban environment. Extreme weather events are occurring more frequently, and the impacts of these events are more dramatic than before. Heavy downpours can cause unexpected surface (pluvial) flooding when urban drainage and rivers systems can no longer cope with extreme water volumes. It is essential to understand and quantify these risks, in order to be able to plan, implement and manage flood resilient activities – from infrastructure and development, to the daily running of lives and businesses.\nFor these reasons, an adequate understanding of flood risk is vitally important. BlueLabel provides insight into flood risks at your fingertips by offering the first digital water vulnerability scan in the world that gives detailed information into rain induced flooding down to the square metre. This translates into a risk label (A-E) on individual buildings, streets and infrastructure, which reflects the risk of flooding. The ultimate aim is to encourage and be proactive in preventing disasters, rather than devising recovery measures in the aftermath.'\n What is the innovation? How does it work? \nAs a city in the Dutch Delta, Rotterdam is a front runner and worldwide leader in the area of water management and has an ambitious strategy for city resilience. Johan Verlinde, Programme Manager of the Rotterdam Water Delta Plan said: “Our city is vulnerable. Doing nothing is not an option. BlueLabel enables us to communicate with private individuals and companies, and to actively involve them. Smart, digital solutions such as BlueLabel help Rotterdam to become even more climate-proof. That makes it more attractive to live and work in our city.”\n At the moment 12 % of the buildings in Rotterdam have a risk of flooding based on BlueLabel. By 2022, this will be reduced to 10 %.\nThe city’s intention is to make its citizens aware of their exposure to floods and give them the opportunity to mitigate their risk. To achieve this, Rotterdam has harnessed smart technologies to make complex data visual, and thereby easy to understand and apply. This is done without giving up on accuracy: extreme rainfall events are analysed and used to calculate the risk of floods using hydrodynamic models. Using smart technologies that highlights areas vulnerable to flooding, BlueLabel aims to empower governments, industries, organisations and home owners to take specific measures that will mitigate the risks of rainwater flooding. BlueLabel helps to develop climate resilience and robust water systems in cities by providing clear insight into the areas where rainwater flooding can occur. It precisely shows vulnerable spots in an area. This insight can be used to effectively plan large and small-scale interventions towards greater flood resilience, thereby improving liveability.\n By using labels (A-E), BlueLabel provides insight which is easy to interpret, also by non-experts. This way BlueLabel can be used to create dialogue between stakeholders and citizens. This dialogue is essential as the challenges that climate change introduces are not for one organization to solve. BlueLabel allows authorities to monitor flood vulnerability patterns over a period of time, in order to make spatial and infrastructure planning more climate-proof and water-resilient. The service can be used to further responsible policy making, and develop new flood protection standards that are linked to a risk-based approach. In addition, river (fluvial) flooding and coastal flooding (storm surges), or any combination of these, can be considered where relevant depending on the local water system.\n Links to further Information \n https://bluelabel.net/En/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/rotterdam-blue-label/",
     "publication_date": "2020-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27494",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=rotterdam-blue-label&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-wuhan-green-transport-city-pilot-programme",
   "url": "https://www.c40.org/case-studies/wuhan-green-transport-city-pilot-programme/",
   "title": "Wuhan’s ‘building a green transport city’ pilot programme",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Since 2013, Wuhan has taken advantage of the ‘building a green and low carbon mobility programme’ regional pilot. It has begun to: promote the construction of green and low carbon transport infrastructure; develop green and low carbon transport equipment; optimise transport organisation; and boost the construction of cyclical green and low carbon mobility capacity. In this regard, 28 core projects have been launched, 17 of which are energy conservation and emission reduction incentivisation programmes.",
+    "measures": "In terms of organisation and management regulations, a steering panel for the construction of a green and low carbon mobility city was set up in order to coordinate the pilot. The panel’s role was also to draft an implementation plan for the construction of Wuhan’s green and low carbon mobility system regional programme, as well as the provisional management rules governing the special fund for Wuhan’s green and low carbon mobility system regional programme.\n Regarding the prevention and control of air pollution, the old, high pollution “yellow-label” buses and commercial “yellow label” passenger cars have been taken out of operation. \n During the execution of the programme, by December 2015, 2.75 billion RMB had been invested into the construction of Wuhan’s green and low carbon mobility system regional programme. An amount of 3.4 kiloton/year standard coal equivalent has been saved, and 171 kilotons/year of standard fuel equivalent has been substituted.\n In the meantime, clean energy vehicles using liquefied natural gas or compressed natural gas are now promoted in the mobility industry. Between 2013 and 2015, more than 1,169 CNG buses were purchased. The average unit of CNG consumption is 45 m3/100km, and yearly oil substitution is 31.0293 kilotons of fuel equivalent. In 2013, 12,499 taxis were retrofitted to use CNG, with CNG consumption around 100.09 million m3/year and fuel substitution of 85.0765 kilotons of fuel equivalent. Between 2013 and 2015, 48 LNG traction engines were purchased, with an annual fuel substitution of 4,285 tons of fuel equivalent. Besides this, two hybrid fuel power vessels were constructed and commissioned at the Yangtze River.\n The use of ‘new energy’ vehicles was promoted in public transport, passenger transport, and freight transport. By 2015, more than 1,000 ‘new energy’ buses, 465 electric taxis and 113 ‘new energy’ logistics trucks had been put in operation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/wuhan-green-transport-city-pilot-programme/",
     "publication_date": "2016-06-22",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27173",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-green-transport-city-pilot-programme&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

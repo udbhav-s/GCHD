@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-sustainable-mobility-buenos-aires",
   "url": "https://www.c40.org/case-studies/sustainable-mobility-buenos-aires/",
   "title": "Sustainable mobility for a carbon neutral, resilient and inclusive Buenos Aires",
@@ -30,6 +30,36 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Exploring how Buenos Aires is transforming the city’s streets to make them more accessible, less crowded and more inclusive.",
+    "measures": "Transforming the city’s streets to make them more accessible, less crowded and more inclusive \n The city of Buenos Aires has been working to transform itself into a wellbeing city, where residents can access all the services, shops and green spaces they need within a short walk or bicycle ride away from their homes. A wellbeing city is designed with pedestrians, wheelchair users and cyclists in mind, rather than prioritising cars, trucks and other vehicles. This results in better air quality, greener and healthier streets, and well-connected communities. \n “Buenos Aires has committed to become a carbon neutral, resilient and inclusive city by 2050 – an initiative promoted and supported by C40. To meet these targets, we have a 2050 Climate Action Plan that establishes actions, tools and strategies for adaptation and mitigation to climate change so as to reduce human vulnerability and natural systems”, said Manuela López Menéndez, Secretary of Transportation and Public Works of the City of Buenos Aires .\n In order to become a carbon neutral city by 2050, Buenos Aires is focusing on improving public transport and encouraging cycling. The transport sector is responsible for 30% of Buenos Aires’ greenhouse gas emissions , so creating a sustainable transportation network is absolutely crucial to achieving the city’s wider climate goals. The Buenos Aires City Government is working to offer sustainable, fast, comfortable and safe transport options for the 6 million people who live and travel through the city every day.\n Public transportation \n Over the past 10 years, Buenos Aires has transformed public transportation. This can be seen most clearly in the introduction of the Metrobús network, which now includes seven corridors of exclusive lanes for buses, with one more under construction. These corridors allow for efficient, comfortable and safe journeys for over 1 million passengers daily. \n The network covers 62.5 kilometres across 11 of the 15 communes of Buenos Aires, and has reduced commuting times by up to 50% . Exclusive lanes for public transport have improved traffic flow and road safety. Because vehicles aren’t constantly accelerating and decelerating, the lanes also achieve a reduction of around 50,000 equivalent tons of CO2 .\n The subway is an essential way of getting around the city, and another key focus of public transport improvements in Buenos Aires. Over the last 12 years, the city government has made significant investments in the network. There are now 14 new subway stations, an additional 18 kilometres on the network, more frequent and newer trains, more security cameras, and free Wi-Fi access in all stations. More than 850,000 daily trips are made on the subway in Buenos Aires. \n One million daily bike trips \n To reduce transport emissions and improve air quality, more people need to be out of their cars and on their bikes. The City of Buenos Aires is making it easier and more accessible for cyclists to move around the city. In the last 12 years, 277 kilometres of bike lanes have been built in all the city’s communes, and the number of trips made by bike has increased by a whopping 2,550% . Back in 2009, 0.4% of the total trips made in the city were by bicycle, and cycling now accounts for 10.2% of all trips. Buenos Aires has committed to have a total of 300 kilometres of bike lanes across the city, supporting 1 million daily bike trips by 2023. \n The bike lane network has vastly improved connectivity in and to the centre of Buenos Aires, where there is a high concentration of workers and students. People can cycle to a train station, park up their bike and continue their journey by rail – encouraging both public transport and cycling. \n You don’t have to own a bike in Buenos Aires to ride one. In recent years the Ecobici bicycle system has expanded across the city. There are now 312 Ecobici stations in the 15 communes of Buenos Aires , used by more than 600,000 cyclists. \n A city without barriers: improving traffic flow \n The Buenos Aires City Government is transforming the city’s streets to make them more accessible, less crowded and more inclusive. The iconic Libertador Avenue is currently undergoing a major transformation. It will become the city’s first shared street , made up of an 11-kilometre-long metropolitan corridor that reclaims space for pedestrians, incorporates bicycle paths, creates bus platforms and uses technology to improve traffic flow. All of the city’s tolls are now fitted with TelePASE to automatically read licence plates. Vehicles no longer have to stop, reducing CO 2 emissions by more than 1,154 tons per year .\n Since 2007, more than 70 interventions have been carried out to improve traffic flow. 31 new underpasses have been built, 29 train barriers removed, and more than 14 streets have been opened thanks to the construction of new viaducts. This has significantly improved the frequency of trains, achieved greater road safety and reduced environmental pollution. The benefits have been felt by a huge number of travellers – over 650,000 bus passengers, 500,000 train passengers and 385,000 motorists.\n In another significant transformation, the City Government of Buenos Aires has invested in the construction of Paseo del Bajo , a 7.1-kilometre underground road corridor exclusively for trucks and long-distance buses. This has reduced visual and noise pollution and saved the equivalent of 12,505 tons of CO2 per year . Paseo del Bajo has reduced travel times by an impressive 75% and increased the flow of light traffic by 80%.\n Paseo Del Bajo before… \n Paseo del Bajo after… \n The City Government of Buenos Aires is constantly monitoring its progress and finding innovative ways of improving mobility in the city. It is working towards becoming a carbon neutral, resilient and inclusive city where everyone can travel safely around Buenos Aires, breathe clean air, and access the goods and services they need to thrive. \n All photos courtesy of the City of Buenos Aires. \n This article was originally produced as a “Spaces in the City” feature for the C40 World Mayors Summit 2022 hosted by the City of Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/sustainable-mobility-buenos-aires/",
     "publication_date": "2022-08-12",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "32791",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=sustainable-mobility-buenos-aires&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-10T16:02:33",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

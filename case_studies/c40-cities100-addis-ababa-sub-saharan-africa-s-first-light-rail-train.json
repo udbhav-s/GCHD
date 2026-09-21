@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-addis-ababa-sub-saharan-africa-s-first-light-rail-train",
   "url": "https://www.c40.org/case-studies/cities100-addis-ababa-sub-saharan-africa-s-first-light-rail-train/",
   "title": "Cities100: Addis Ababa – Sub-Saharan Africa’s First Light-Rail Train",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "addis-ababa",
+      "label": "Addis Ababa"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Transportation accounts for 47% of the CO₂ emissions in Addis Ababa. The renewable energy-powered LRT reduces greenhouse gas emissions while bringing clean and efficient transportation to city dwellers.",
+    "measures": "In September 2015, Addis Ababa inaugurated Sub-Saharan Africa’s first lightrail train (LRT). The LRT, an inner-city tram, can carry up to 60,000 people per hour, and after 10 months of operation, ridership has reached 15,000 passengers per hour in each direction. The train is powered by Ethiopia’s power grid, which is fueled almost exclusively by hydropower, geothermal, and wind power. Emissions reductions from the project are estimated to grow from 55,000 tons of CO₂ per year in 2015 to 170,000 tons CO₂ per year by 2030. The more efficient mode of transportation is expected to stimulate the local economy and attract new investments and will become a blueprint for local expansion and regional replication. The project is the fruit of an international multi-stakeholder collaboration that involved different levels of the Ethiopian government, foreign banks, and the Chinese government. It is also an important tenet of the Addis Ababa Climate Resilient Growth Economy plan to drive the transition to a green economy.\n Environmental Benefits – The LRT is less land-intensive than conventional roads, which will decrease the burden on ecosystems.\n Social Benefits – The city’s average transport speed is improved from 10 km/hour by road traffic to 22 km/hour with LRT, which significantly reduces the commuting time of workers in the city.\n Economic Benefits – More than 1,100 jobs were created to operate the LRT after its opening. The Ethiopian government also expects to spend less money on purchasing foreign oil.\n Health Benefits – The city expects a decrease in particulate emission that will reduce the incidence of heart and respiratory diseases.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-addis-ababa-sub-saharan-africa-s-first-light-rail-train/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27240",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-addis-ababa-sub-saharan-africa-s-first-light-rail-train&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

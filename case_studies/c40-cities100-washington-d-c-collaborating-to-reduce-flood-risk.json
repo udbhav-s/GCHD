@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-washington-d-c-collaborating-to-reduce-flood-risk",
   "url": "https://www.c40.org/case-studies/cities100-washington-d-c-collaborating-to-reduce-flood-risk/",
   "title": "Cities100: Washington, D.C. – Collaborating to Reduce Flood Risk",
@@ -27,6 +27,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Washington, D.C. faces flooding risks due to sea level rise, increased precipitation, and storms. As no single agency had the authority to address these challenges, and since managing flood risks not only falls under floodplain management, but also emergency and stormwater management, public health administration, and land use planning, the city was in dire need of joint efforts. The DC Silver Jackets team was thus established to improve coordination to reduce flood risks.",
+    "measures": "In a complex jurisdiction like Washington, D.C. managing coastal, river, and surface flooding hazards and building climate resilience requires coordination across multiple levels of government and with private stakeholders. The DC Silver Jackets team, led by the District’s Department of Energy and Environment, was established in 2014 to improve coordination and collaboration to reduce flood risks, providing a platform for representatives from federal, regional, and District of Columbia government agencies and academia to meet bimonthly and advance joint initiatives to better prepare for, respond to, and recover from flood events.\n The DC Silver Jackets use available resources and opportunities within each member agency to address common issues. For instance, developing the interagency flood inundation mapping tool leveraged $291,000 in financial support from its members. On top of an online flood inundation mapping tool to better predict flood impacts and a flood-fighting tabletop exercise to teach the necessary agencies which actions to take during a storm, the DC Silver Jackets are also planning to complete the Potomac Park levee system, protecting the U.S. Capitol, monuments, museums, and residential and commercial buildings from a 500-year flood event and preventing $1.5 billion in potential damages.\n Environmental Benefits – With improved water management, natural and wetland areas will increase, as will the degree of stormwater retention through green infrastructure\n Social Benefits – The project will communicate flood risks to residents of Washington, D.C., particularly owners of the 4,000 private and public buildings located within 100 and 500-year floodplains.\n Economic Benefits – The last flooding to hit Washington, D.C. in 2006, cost more than $1.5 million for just the immediate cleanup. The efforts from the DC Silver Jackets will help avoid costly damages from future flood events.\n Health Benefits – The projects that reduce the risk of flooding will also reduce exposure to waterborne disease, chemical hazards, and injuries to residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-collaborating-to-reduce-flood-risk/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26989",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-collaborating-to-reduce-flood-risk&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

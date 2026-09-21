@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-buenos-aires-stakeholder-management-for-brt-corridors",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-buenos-aires-stakeholder-management-for-brt-corridors/",
   "title": "C40 Good Practice Guides: Buenos Aires – Stakeholder management for BRT Corridors",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Like other growing cities, Buenos Aires faced significant problems with traffic congestion and transport related air pollution. As a…",
+    "measures": "Summary \n Like other growing cities, Buenos Aires faced significant problems with traffic congestion and transport related air pollution. As a result, the city developed a Plan for Sustainable Mobility to tackle these problems, with the BRT system forming a key element of this Plan. Stakeholder engagement has been crucial for the city’s successful BRT delivery, enabling it to overcome initial negative publicity – to eventually deliver a BRT system with an extremely positive reaction from the media and citizens alike. This is in part due to the strong stakeholder management and time spent working with affected groups to overcome initial concerns. The BRT system now consistently rates among the best initiatives launched by the city administration, with positive impacts on everyday life.\n Results \n By 2015, the BRT corridors in Buenos Aires carried 1.2m people across the city and resulted in 49,000 tonnes of CO 2 emissions reduction per year. So far, the introduction of BRT lines on key routes has cut travel times by 20-40% on average, although in some cases it has been by 50% or more. By the end of 2015 there will be 56 km of Metrobus corridors connecting the main transport hubs in the city and 1.2m people will benefit everyday. Adopting articulated buses on some routes has also led to a further reduction in carbon emissions. All of these benefits have been made possible by the city’s strong work on engagement and the support generated across the full range of stakeholders.\n Reasons for success \n The city’s strategy was to phase in implementation of the BRT. The experience and positive results from the first route encouraged the city to proceed with the delivery of more corridors, accompanied by active opinion polling, awareness campaigns and the launch of a dedicated educational website. In subsequent stakeholder surveys, over 90% of commuters gave positive feedback for Metrobus. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Bus Rapid Transit Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "By 2015, the BRT corridors in Buenos Aires carried 1.2m people across the city and resulted in 49,000 tonnes of CO 2 emissions reduction per year. So far, the introduction of BRT lines on key routes has cut travel times by 20-40% on average, although in some cases it has been by 50% or more. By the end of 2015 there will be 56 km of Metrobus corridors connecting the main transport hubs in the city and 1.2m people will benefit everyday. Adopting articulated buses on some routes has also led to a further reduction in carbon emissions. All of these benefits have been made possible by the city’s strong work on engagement and the support generated across the full range of stakeholders.\n\nThe city’s strategy was to phase in implementation of the BRT. The experience and positive results from the first route encouraged the city to proceed with the delivery of more corridors, accompanied by active opinion polling, awareness campaigns and the launch of a dedicated educational website. In subsequent stakeholder surveys, over 90% of commuters gave positive feedback for Metrobus.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-buenos-aires-stakeholder-management-for-brt-corridors/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27095",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-buenos-aires-stakeholder-management-for-brt-corridors&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

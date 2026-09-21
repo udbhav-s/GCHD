@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-tokyo-super-levees",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-super-levees/",
   "title": "C40 Good Practice Guides: Tokyo – Super levees",
@@ -29,6 +29,31 @@
     "tropical_storm",
     "earthquake"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tokyo",
+      "label": "Tokyo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The City of Tokyo lies largely below the flood level of its three main rivers, has high annual rainfall…",
+    "measures": "Summary \n The City of Tokyo lies largely below the flood level of its three main rivers, has high annual rainfall and is vulnerable to storm surges, earthquakes and tsunamis xlii . Climate change is projected to increase peak river discharge and frequencies (peak discharge currently up to 100 times higher compared to minimum discharge), raise high tide and increase typhoon size, and exacerbate the impacts of potential earthquakes and tsunamis due to higher sea level. Thus, extreme floods are expected to occur more frequently in the future. To respond to the multitude of risks, Tokyo has developed the concept of a super levee.\n Results \n A super levee is a robust broad river embankment resistant to overflow, seepage and even earthquakes, thanks to special seismic reinforcement. It mainly differs from a conventional dyke by its width (a 10 m high super levee will be about 300 m wide). Super levees are well suited for dense urban areas, allowing for urban development on its top, integrating multifunctional structures and, compared to traditional levees, allowing easy access to rivers and reconnection with urban water ecosystems. For instance, the super levee built along Tokyo’s Ara River combines a broad dyke with a park and a small high-rise, whereas the Sumida River super levee combines a broad dyke/flood-wall with a promenade and a large high-rise.\n Reasons for success \n Tokyo’s multi-risk approach success builds on a long history of experience with coastal and river flooding defences and detailed risk-assessment with wide margins, strengthened especially after the March 2011 earthquake and tsunami flooding.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "A super levee is a robust broad river embankment resistant to overflow, seepage and even earthquakes, thanks to special seismic reinforcement. It mainly differs from a conventional dyke by its width (a 10 m high super levee will be about 300 m wide). Super levees are well suited for dense urban areas, allowing for urban development on its top, integrating multifunctional structures and, compared to traditional levees, allowing easy access to rivers and reconnection with urban water ecosystems. For instance, the super levee built along Tokyo’s Ara River combines a broad dyke with a park and a small high-rise, whereas the Sumida River super levee combines a broad dyke/flood-wall with a promenade and a large high-rise.\n\nTokyo’s multi-risk approach success builds on a long history of experience with coastal and river flooding defences and detailed risk-assessment with wide margins, strengthened especially after the March 2011 earthquake and tsunami flooding.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -37,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-super-levees/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27087",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-tokyo-super-levees&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

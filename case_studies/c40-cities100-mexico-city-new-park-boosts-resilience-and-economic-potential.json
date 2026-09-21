@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-mexico-city-new-park-boosts-resilience-and-economic-potential",
   "url": "https://www.c40.org/case-studies/cities100-mexico-city-new-park-boosts-resilience-and-economic-potential/",
   "title": "Cities100: Mexico City – New Park Boosts Resilience and Economic Potential",
@@ -27,6 +27,31 @@
     "river_flood",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The effects of climate change, such as cyclical floods, water shortages, and heatwaves are some of the most pressing urban vulnerabilities in Mexico City, and the most disadvantaged communities are most at risk. The Parque Lineal La Viga sets an example of how investment in public spaces that integrate resource management infrastructure is not a lifestyle amenity, but a strategic city action, mitigating urban climate vulnerabilities while opening up opportunities for economic development.",
+    "measures": "Spreading across almost 16,500 m2, Parque Lineal La Viga was constructed in the eastern part of Mexico City in 2015, mitigating urban climate vulnerabilities such as floods, water shortages, and heatwaves, in addition to preventing unequal urban development in an underprivileged part of the city. Up to 60% of the park’s area serves as a rain water catchment surface, mitigating floods by relieving pressure from the drainage and sewage systems. The collected stormwater is then treated and can be used as potable water, diversifying the city’s water sources. Nearly 500 neighbors participated in the design of the park, aiming to create a major attraction to encourage social cohesion and economic development. Reachable by up to 4.6 million people within 30 minutes on public transport, the city anticipates that the presence of the park will result in increased revenues by local businesses, improve the livelihoods of nearby residents, and demonstrate the critical role of accessible public spaces in cities.\n Environmental Benefits – In an attempt to raise the available green space per inhabitant from 5 m2 to 10 m2, as suggested by the World Health Organization, there will be 22% more green areas and up to 100 new trees in the park.\n Social Benefits – The accessibility of the park will encourage interactions between people of all ages and genders, improving social cohesion in the area.\n Economic Benefits – Based on the experience of the Parque Lineal La Viga, Mexico City’s Authority for Public Space plans to invest in a new park twice its size, in one of the most densely populated and marginalized boroughs of the city, Iztapalapa.\n Health Benefits – The park’s design has allocated areas for sports and exercise, including a multi-use forum, which can be used for activities such as dance and yoga.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -35,7 +60,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-new-park-boosts-resilience-and-economic-potential/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27234",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-new-park-boosts-resilience-and-economic-potential&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

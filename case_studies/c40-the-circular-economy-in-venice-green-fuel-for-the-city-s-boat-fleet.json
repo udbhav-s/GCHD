@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet",
   "url": "https://www.c40.org/case-studies/the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet/",
   "title": "The Circular Economy in Venice: Green Fuel For the City’s Boat Fleet",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "venice",
+      "label": "Venice"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In March of 2018, the City of Venice, AVAM Group, VERITAS Spa and ENI signed an agreement to test-run an experimental project based on the use of the “Eni Diesel +” by the boat public fleet. The new Eni fuel is constituted of 15% renewable content (waste cooking oil) which will be supplied to the Venetian public transport company at the same cost as usual diesel.",
+    "measures": "In March of 2018, the City of Venice, AVAM Group, VERITAS Spa and ENI signed an agreement to test-run an experimental project based on the use of the “Eni Diesel +” by the boat public fleet. The new Eni fuel is constituted of 15% renewable content (waste cooking oil) which will be supplied to the Venetian public transport company at the same cost as usual diesel. The main purpose of this agreement is to test new technologies that will help implement the circular economy. \n Signatory bodies involved in this agreement: \n The City of Venice: coordinator and promoter;\n ENI: an oil and gas company that operates in Venice mainland, owner of a Bio refinery;\n AVM Holding: a local leader in the public transport sector (with ACTV as local management);\n VERITAS: a public company operating in the City of Venice that conducts waste collection;\n In Marghera, ENI has realized the conversion of a conventional refinery into a biorefinery. The raw materials of biological origin, including waste vegetable oil and animal fat, are transformed into high quality biofuels called Enidiesel+.\n Waste cooking oil produced by citizens is collected by VERITAS in several collection bins located throughout the City (both in the historic center and the mainland) and taken to the Eni bio-refinery in Marghera to be transformed into biodiesel (Eni Diesl +). This will then be used by ACTV as fuel for its lagoon boat fleet.\n This agreement is important in lowering the rate of atmospheric emissions and reducing pollutants like nitrogen oxides (NOX), primary and secondary particulate matters (PM10) and ultra-fine particles (PM2.5) in Venice. The combustion efficiency has also reduced the repair rate of engines, reducing consumption up to 4% thanks to its high calorific value.\n It is estimated that the 3.13 tons of CO2e and 1.9 mc of water/ton is saved for each ton of biodiesel.\n What were the main challenges? \n Biodiesel is more expensive than traditional diesel. For the sake of experimenting with the concept, ENI supplied ACTV with its biodiesel without any additional costs.\n Furthermore, ACTV and ENI conducted special tests on engines powered by biodiesel according to a test protocol standard for the analysis of emissions and consumption, in collaboration with the University of Venice Ca’Foscari and the Naples National Research Council (CNR).\n VERITAS undertook the task to assign the same technical and economic conditions to the operators who will take the collected waste oil (after purification) to the ENI bio-refinery. \n What are the next steps? \n The agreement was meant to last for only seven months, but thanks to its success, the agreement is still in place. Furthermore, Veritas was inspired by the results of this experiment with biofuels and has the intention to start using biodiesel for its own fleet. The ENI bio-refinery is planning to improve its processing capacity to around 560,000 tons of oil by 2021. This will see ENI increase its share of raw materials derived from food production waste, with a total production of green diesel that will reach to around 420,000 tons / year.\n Links to further information (in Italian) \n Venezia e Gela: due raffinerie all'avanguardia \n A Venezia i vaporetti vanno a Eni Diesel+ \n Spostarsi eco: Il biocarburante Eni che fa muovere le città \n Contact details: \n City of Venice\n Strategic and Environmental Project Department \n Location: Campo Manin – S.Marco 4023 – 30124 Venice \n tel + 39 041 274 7974\n servizio.ambiente@comune.venezia.it \n web: comune.venezia.it/clima",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet/",
     "publication_date": "2020-01-08",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27496",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-tax-incentives-for-solar-panel-usage-introduced-in-salvador",
   "url": "https://www.c40.org/case-studies/tax-incentives-for-solar-panel-usage-introduced-in-salvador/",
   "title": "Tax Incentives for Solar Panel Usage Introduced in Salvador",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "salvador",
+      "label": "Salvador"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Salvador has launched a new tax incentive scheme that encourages solar energy production by private buildings. The larger percentage of total energy consumed that one produces with solar energy, the more one saves on land tax.",
+    "measures": "The Mayor of Salvador, Antônio Carlos Magalhães Neto, launched on 20 December 2018 the “Yellow Land Tax” (IPTU Amarelo in Portuguese), a certification programme that will provide tax incentive for the use of solar energy on private buildings.\n What is the innovation? How does it work? \n The programme will provide discounts for users of solar energy based on the percentage of solar energy in total household consumption. Buildings have to adhere to the programme to receive a certificate that will allow them to receive the tax incentives, which will be proportional to the solar energy generated. Buildings that generate 90% or more of solar energy out of the total energy consumed will receive 10% discount on land tax, those that generate between 70% and 90% will receive a 7% discount and those that generate 50% will receive a 5% discount.\n What are the CO2 reduction goals/achievements? \n This is one of the actions Salvador is taking to promote and increase decentralized solar energy generation, which also aims at generating jobs and new sources of income for its citizens.\n Links to Further Information \n Programa de Certificação Sustentável IPTU Amarelo (official website): http://www.iptuamarelo.salvador.ba.gov.br/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/tax-incentives-for-solar-panel-usage-introduced-in-salvador/",
     "publication_date": "2019-09-06",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27452",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=tax-incentives-for-solar-panel-usage-introduced-in-salvador&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

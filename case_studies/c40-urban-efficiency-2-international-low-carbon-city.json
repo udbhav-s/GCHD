@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-urban-efficiency-2-international-low-carbon-city",
   "url": "https://www.c40.org/case-studies/urban-efficiency-2-international-low-carbon-city/",
   "title": "Urban Efficiency II: Shenzhen – International Low Carbon City",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Urban Efficiency II: Seven Innovative City Programmes for Existing Building Energy Efficiency builds on research in the successful predecessor “Urban Efficiency”…",
+    "measures": "Urban Efficiency II : Seven Innovative City Programmes for Existing Building Energy Efficiency builds on research in the successful predecessor “Urban Efficiency” Report and captures seven new detailed city case studies from C40 member cities. It is primarily targeted at city-level policy makers and decision makers across the world. The report increases the resource and evidence base available to support cities understanding of the characteristics and impact of innovative city programmes emerging across C40 cities, that advance operational energy efficiency and retrofitting in existing, privately owned buildings.\n Shenzhen's International Low Carbon City (ILCC) – Abstract \n Shenzhen is taking the lead in demonstrating innovation in sustainable urban transformation and future-orientated city planning through its ambitious International Low Carbon City (ILCC). This initiative aims to transform the previously manufacturing-based and carbon-intensive economy and built environment of Pingdi into a model of low-carbon, post-industrial urban revitalisation. ILCC maintains a focus on preserving and refurbishing existing buildings to the latest environmental standards whilst also pursuing new construction of cutting-edge, low-carbon buildings and urban infrastructure. As such, this initiative marks a significant shift from large-scale demolition and new construction centred modes of urban development. Also, involving extensive collaborations with the Dutch government and other international partners, futuristic green buildings and economic transformation is pursued whilst taking the utmost care to preserve the natural environment and cultural identity of the area. \n The full case study for International Low Carbon City can be found here .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/urban-efficiency-2-international-low-carbon-city/",
     "publication_date": "2017-02-17",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27291",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=urban-efficiency-2-international-low-carbon-city&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life",
   "url": "https://www.c40.org/case-studies/cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life/",
   "title": "Cities100: Kolkata – Segregating Waste Leads to a Better Quality of Life",
@@ -31,6 +31,31 @@
     "air_pollution_pm25",
     "malaria"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kolkata",
+      "label": "Kolkata"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Mounds of waste at the Kolkata dumping site have measured up to 16 m high, causing land, water, air, and visual pollution. Furthermore, disposal of untreated sewage and waste dumping in the River Ganges has resulted in the extinction or endangerment of biodiversity in the area. The Kolkata Solid Waste Management Project has taken actions, through the segregation and appropriate management of waste, to reduce these hazards to the natural environment and the people of the city.",
+    "measures": "The Kolkata Solid Waste Management Project encourages segregation of waste, a feat that had never been accomplished before in the city. Targeting 1 million people across six boroughs and covering over 65 km2 of land on the western bank of the River Ganges, the project focuses on recycling, composting organic waste, burying inert waste, and treating septic sludge. The project takes an engineering approach, through the development of infrastructure, but also incorporates a soft approach, including an eight year mass awareness program, ensuring community participation. A common Regional Waste Management Centre, which houses a sanitary landfill, leachate treatment plant, and septic tank sludge treatment plant, as well as five composting centers, have been constructed, as part of the project. Eventually, the ambitious project aims to reduce open dumping and waste burning by 100% and achieve 100% waste segregation at the source. In addition, the project will monitor air quality, reduce the concentration of landfill methane, and preserve groundwater within 50 m of the periphery of the Regional Waste Management Centre. Since the program launched, the rate of segregation has increased by up to 80%.\n Environmental Benefits – Under the Kolkata Solid Waste Management Project, uncontrolled decomposition of waste that generates methane and carbon dioxide has been reduced and will eventually be prevented.\n Social Benefits – Many job opportunities have been provided through the implementation of the project, particularly to unskilled citizens, in waste collection and producing and selling compost.\n Economic Benefits – A new market has been created for compost, as one of Kolkata’s boroughs, covering 10.9 km2, can produce more than 25 metric tons and earn approximately $1,026 per day.\n Health Benefits – Since the launch of the Solid Waste Management Project, the city reports a gradual decrease in disease, such as skin and liver ailments, jaundice, malaria, and poliomyelitis, reducing pressure on the health system",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27212",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

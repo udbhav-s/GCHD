@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-chennai-s-public-bicycle-sharing-system",
   "url": "https://www.c40.org/case-studies/chennai-s-public-bicycle-sharing-system/",
   "title": "Chennai’s Public Bicycle Sharing System",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Chennai is the fourth largest metropolis in India. The vehicular traffic has been increasing year on year. Now, Chennai is adopting a very comprehensive strategy to augment public transport but also creating a supporting non-motorised transport infrastructure.",
+    "measures": "Chennai is the fourth largest metropolis in India. The vehicular traffic has been increasing year on year. Now, Chennai is adopting a very comprehensive strategy to augment public transport but also creating a supporting non-motorised transport infrastructure. \n Read the full case study and the benefits of the project here .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/chennai-s-public-bicycle-sharing-system/",
     "publication_date": "2019-01-11",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27431",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=chennai-s-public-bicycle-sharing-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-chennai-transforming-streets-for-walking-and-cycling",
   "url": "https://www.c40.org/case-studies/cities100-chennai-transforming-streets-for-walking-and-cycling/",
   "title": "Cities100: Chennai – Transforming Streets for Walking and Cycling",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Despite a lack of safe infrastructure for non-motorized transport, one third of all trips in the city are already made on foot and bicycle. Chennai Street Design Project will ensure that these trips become safer, healthier, and more enjoyable through a redesigned urban transportation network.",
+    "measures": "With more than 10,000 traffic crashes reported every year, Chennai has one of the highest rates of road deaths in India. In 2012, the city government launched the Chennai Street Design Project to address this problem. This project aims to reclaim the city’s streets for pedestrians and cyclists by prioritizing modes of transport other than private automobiles.\n The policy requires at least 60% of the city’s transport budget to be allocated to constructing and maintaining infrastructure for non-motorized transit. This includes widening sidewalks, building safe bicycle infrastructure, better managing intersections, and even implementing street furniture. By 2018, the city aims to have built safe and continuous footpaths on at least 80% of all streets, increase the share of walking and cycling trips to more than 40%, and, most significantly, eliminate pedestrian and cyclist deaths.\n Environmental Benefits – By promoting walking and cycling, the new streets encourage more residents to walk, which limits automobile usage and contributes to a cleaner, less polluted city.\n Social Benefits – The initiative ensures that street space is accessible and available for all citizens regardless of age, class, gender, or physical abilities.\n Economic Benefits – The initiative will limit the cost of road crashes in India, which the government estimates to be about\n Health Benefits – Active transportation increases physical activity and improves health while contributing to better quality of life.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-chennai-transforming-streets-for-walking-and-cycling/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27042",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-chennai-transforming-streets-for-walking-and-cycling&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

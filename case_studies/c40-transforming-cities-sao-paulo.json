@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-transforming-cities-sao-paulo",
   "url": "https://www.c40.org/case-studies/transforming-cities-sao-paulo/",
   "title": "Transforming Cities: Sustaining São Paulo",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "sao-paulo",
+      "label": "São Paulo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In São Paulo, Bernadete is part of an initiative that connects farmers to sustainable growing systems and buyers – to feed residents and keep local food culture alive.",
+    "measures": "Bernadete grows native fruits like cambuci on the outskirts of one of the world’s biggest cities. She’s part of an initiative that connects farmers to sustainable growing systems and buyers – to feed the people of São Paulo and keep local food culture alive.\n MORE FROM THE ‘TRANSFORMING CITIES’ SERIES \n This content was produced for the City of São Paulo by BBC StoryWorks as part of the Transforming Cities series presented by C40 Cities. Learn more about Transforming Cities: www.transformingcitiesseries.com",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/transforming-cities-sao-paulo/",
     "publication_date": "2022-11-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33427",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=transforming-cities-sao-paulo&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-03-13T15:25:34",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

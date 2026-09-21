@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-washington-d-c-legal-obligations-for-renewables",
   "url": "https://www.c40.org/case-studies/cities100-washington-d-c-legal-obligations-for-renewables/",
   "title": "Cities100: Washington, D.C. – Legal Obligations for Renewables",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Washington, D.C. is almost entirely reliant upon imported electricity. By targeting 5% of electricity generation from local solar, and providing financial assistance for lowand middle-income earners to access solar power, the city hopes to reduce its reliance on imports.",
+    "measures": "The USA's capital city passed a law requiring all energy suppliers to source 50% of their electricity from renewable energy sources by 2032, 5% of which must come from locally generated solar energy. In order to meet this target, the city must increase local solar capacity from 60 MW to 400 MW, which is expected to generate an additional 3,500 jobs in the clean energy sector. 'Solar for All' is an extension of the new act that obliges non-conforming suppliers to pay a fee, which is then used to provide the benefits of solar energy to lowand moderate-income residents of the city. These benefits must be equivalent to reducing the household's electricity bill by 50%, and can either be distributed in direct payments or by way of investment in energy storage, rooftop repair, or electrical upgrades related to development of solar projects. The Solar for All program also works with private partners to provide further benefits to low-income residents. They plan to award $13 million in grants for organizations that help low-income residents access solar technology.\n Environmental Benefits – Reducing the amount of electricity consumed from coal and nuclear power plants will improve water quality and water habitats. A coal-fired power plant can consume between one and four billion liters of water per year, and a nuclear powered plant consumes even more.\n Social Benefits – The Solar for All program redistributes the benefits from the new legal framework, ensuring that lowand middle-income residents feel the benefits of renewable electricity generation.\n Health Benefits – Reducing the amount of electricity produced from fossil fuels will reduce NOx, SOx, and particulate matter released by fossil fuel combustion and improve air quality in the city.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-legal-obligations-for-renewables/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27317",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-legal-obligations-for-renewables&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

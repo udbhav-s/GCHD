@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-jaipur-cutting-edge-technology-for-safer-smarter-streets",
   "url": "https://www.c40.org/case-studies/cities100-jaipur-cutting-edge-technology-for-safer-smarter-streets/",
   "title": "Cities100: Jaipur – Cutting-Edge Technology for Safer, Smarter Streets",
@@ -30,6 +30,25 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Jaipur is one of the country's fastest-growing and most chaotic urban centers, and the historic inner city's infrastructure is not able to cope with the increase in population and traffic. The promotion of smart low-carbon modes of transportation seeks to improve mobility in the area.",
+    "measures": "The city center of Jaipur, known as the Pink Walled City and home to more than 20% of the city's population in just 1.5% of the city area, is getting more friendly for non-motorized transportation (NMT). By using smart technology, the city is calming traffic and providing more space for NMT. The Smart Mobility project, part of the Indian government's Smart Cities Mission, consists of several initiatives. Implementing smart roads will create safer conditions for pedestrians, enable smart mobility, and improve the overall physical environment. Using smart sensors, the city is collecting actionable data to use to optimize its services. As an example, the city deployed parking sensors for better management of parking spaces, smart lightning that turns on or off depending on nearby activity, synchronized traffic lights to provide 'green waves,'and a mobility card to use with various modes of public transport. This plethora of smart initiatives aim to reduce CO2 emissions and improve the quality of life for citizens and visitors.\n Environmental Benefits – The goal is to improve the air quality by reducing the air pollution from the current 155 ug/m3 to 60 ug/m3 PM10.\n Social Benefits – Protecting the livelihoods of 2,500 street vendors will benefit not just them but their families and the entire community, too.\n Economic Benefits – A better walking and biking environment is expected to both increase visitors to the Pink City and support local enterprises.\n Health Benefits – With streets designed to calm traffic and protect vulnerable NMT users, streets become safer and the risk of accidents is reduced. Fatalities from accidents are to be reduced from 35 annually to near zero.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-jaipur-cutting-edge-technology-for-safer-smarter-streets/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27352",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-jaipur-cutting-edge-technology-for-safer-smarter-streets&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

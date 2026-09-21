@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-hong-kong-from-brownfield-to-low-carbon-business-district",
   "url": "https://www.c40.org/case-studies/cities100-hong-kong-from-brownfield-to-low-carbon-business-district/",
   "title": "Cities100: Hong Kong – From Brownfield to Low-Carbon Business District",
@@ -23,6 +23,31 @@
     "river_flood",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hong Kong had the double challenge to render Kowloon East economically attractive while ensuring the area’s CO2 mitigating abilities and resilience to climate change in the face of increasing water levels. The city integrated green development directives and policy into the neighborhood’s redevelopment plan to ensure that climate impacts were mitigated.",
+    "measures": "The Energizing Kowloon East redevelopment project aims not only to transform Kowloon East into an additional central business district of Hong Kong but also a resilient, low-carbon community. To achieve this, the city has installed a large-scale district cooling system, serving about 1.73 million m2 of floor space. Furthermore, both new and existing buildings in the district will have to adopt green certifications and provide electric vehicle charging facilities. So far, the 30 green building projects in Kowloon East have reduced CO2 emissions by 56,100 metric tons annually. In addition to reductions in energy use, the city is promoting active mobility in Kowloon East by improving walkability and well-integrated pedestrian networks. The district is also conscious of its adaptation measures, working to improve drainage and water quality while ramping up flood protection capacity. Boosting this effort, one-third of Kowloon East will be public space, and 60% of that land will consist of green areas.\n Environmental Benefits – Compared with the 2011 base value, NO2, PM10, and PM2.5 concentrations in the Kwun Tong section of Kowloon East had decreased by 12.7%, 10.2%, and 12.9%, respectively, in 2015.\n Social Benefits – The remediated waterfronts have become popular destinations for art and cultural events in the district.\n Economic Benefits – The district cooling system saves up to 10% of the private capital required to build conventional cooling plants and enables more flexible building design.\n Health Benefits – Various pedestrian-centric improvements promote active mobility, which will result in positive health outcomes for the community.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -31,7 +56,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-from-brownfield-to-low-carbon-business-district/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27205",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-hong-kong-from-brownfield-to-low-carbon-business-district&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-creating-local-good-green-jobs-in-bogota",
   "url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-bogota/",
   "title": "Creating local good, green jobs in Bogotá",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "C40, Vivid Economics, and Cambridge Econometrics examined how climate action in Bogotá could create good, green jobs.",
+    "measures": "Bogotá joined several C40 cities in announcing a goal to help drive the creation of 50 million good, green jobs by 2030. To assess the feasibility of this, C40, Vivid Economics, and Cambridge Econometrics examined how climate action in Bogotá could create good, green jobs.\n The analysis assessed who would benefit from these jobs, how quickly they could be created, which sectors the jobs could be created in, and how they would be distributed, providing clear data and identifying areas where public programmes could improve access to green jobs for everyone. Key findings include:\n Ambitious climate action in this decade could generate and support over 726,000 jobs in Bogotá and its supply chains by 2030 . These jobs would primarily be in buildings, public transport, clean energy, and waste.\n More than 60,000 additional jobs could result from adaptation interventions to enhance the city’s resilience to climate breakdown impacts , such as investing in urban parks or drainage systems.\n Realising this opportunity to enhance community livelihoods, create sustainable employment, reduce energy bills, and provide additional benefits for all residents requires significant investment from both public and private sources.\n Bogota’s climate action will lead to substantial job creation through various interventions within the city, such as infrastructure and installation projects, as well as within supply chains. Additionally, it will boost workers’ incomes. This effort could also benefit informal workers, who represent approximately 46% of employment in the city, by providing them access to formal jobs through a fair transition.\n Access the job analysis in English and Spanish .\n LEARN MORE ABOUT GOOD, GREEN JOBS",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-bogota/",
     "publication_date": "2022-10-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "39105",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=creating-local-good-green-jobs-in-bogota&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2024-05-23T10:22:37",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

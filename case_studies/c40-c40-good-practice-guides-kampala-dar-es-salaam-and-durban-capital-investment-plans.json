@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-kampala-dar-es-salaam-and-durban-capital-investment-plans",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-kampala-dar-es-salaam-and-durban-capital-investment-plans/",
   "title": "C40 Good Practice Guides: Kampala, Dar es Salaam and Durban – Capital investment plans",
@@ -26,6 +26,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dar-es-salaam",
+      "label": "Dar es Salaam"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary In recent years, several cities such as Kampala, Durban and Dar es Salaam, started to develop ‘Climate-Smart’ capital investment…",
+    "measures": "Summary \n In recent years, several cities such as Kampala, Durban and Dar es Salaam, started to develop ‘Climate-Smart’ capital investment plans that look to integrate climate mitigation and adaptation more effectively into long-term capital investment planning. As a result, projects are designed from the outset to provide carbon reduction and resilience-building benefits to the municipality. These plans are currently under development by each city, but could help these cities more effectively mainstream mitigation and adaptation into their long-term development.  \n Kampala has been developing and implementing, with the support of the World Bank and other agencies, a new capital investment plan that takes into account the carbon and climate-impact risk aspects and implications of new projects. As a result, potential issues are identified while projects are still in initial stages of development, and preference is given to those projects that are more resilient and low-carbon.\n The city of Dar es Salaam is also implementing a similar system, but is at an earlier stage of development.  The city of Durban has identified the need to prioritise low-carbon and climate resilient projects in its budget planning. As of December 2015, the city is exploring the measures it can put in place in the annual budget planning process, with the intention of implementing these measures in the 2016-2017 budget cycle.  \n Results \n A ‘climate-smart’ capital investment plan is a relatively new concept and as such, its results have yet to be fully demonstrated. The main benefit it provides is to help ensure that climate change implications (positive and negative) of projects will be considered extremely early in the process of their design and implementation, encouraging cities to more effectively achieve their climate change goals and avoid the need for costly retrofits in the future. In Kampala, observers have noticed a change in the types and designs of projects being put forward for consideration as a result of the new processes, with mitigation and adaptation being considered in their design. For example, greater consideration is being given to the location and vulnerability of new facilities such as hospitals and municipal buildings. Historically, only aspects such as the cost and availability of land would have been considered, though now, for example, the likelihood of flooding is also assessed.\n When/why a city might apply an approach like this \n The creation of capital investment plans is an extremely important part of a city’s move towards achieving an investment-grade credit rating. Integrating climate change into the planning process will also help cities to achieve their low-carbon, climate resilient goals more cost-effectively, as potential measures are generally cheaper and easier to build in at the design stage of a project than to retroactively introduce once the project has been built. It can also help avoid potentially costly mistakes by identifying potential risks early on e.g. building a project in a location that will become increasingly vulnerable to flood risk or erosion over time. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Creditworthiness Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here .\n All references can be found in the full guide.",
+    "outcomes": "A ‘climate-smart’ capital investment plan is a relatively new concept and as such, its results have yet to be fully demonstrated. The main benefit it provides is to help ensure that climate change implications (positive and negative) of projects will be considered extremely early in the process of their design and implementation, encouraging cities to more effectively achieve their climate change goals and avoid the need for costly retrofits in the future. In Kampala, observers have noticed a change in the types and designs of projects being put forward for consideration as a result of the new processes, with mitigation and adaptation being considered in their design. For example, greater consideration is being given to the location and vulnerability of new facilities such as hospitals and municipal buildings. Historically, only aspects such as the cost and availability of land would have been considered, though now, for example, the likelihood of flooding is also assessed.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-kampala-dar-es-salaam-and-durban-capital-investment-plans/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27109",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-kampala-dar-es-salaam-and-durban-capital-investment-plans&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-dubai-demand-and-supply-side-co2-reductions",
   "url": "https://www.c40.org/case-studies/cities100-dubai-demand-and-supply-side-co2-reductions/",
   "title": "Cities100: Dubai – Demand and Supply-Side CO2 Reductions",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "dubai",
+      "label": "Dubai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Dubai is situated in one of the world's leading oil-producing countries and faces challenges regarding deeply rooted, vested carbon interests. The carbon abatement strategy is a big step towards reframing the city as a sustainability pioneer.",
+    "measures": "The Dubai Carbon Abatement Strategy (CAS) is a performance-based program for reducing carbon emissions up to 2021 that integrates demand reductions with increased supply of renewable energy. This strategy, costing around $4 billion in total, allows Dubai to manage its energy demand, increase energy efficiency, and develop sector-based greenhouse gas emissions reduction targets. The high-impact sectors identified for emissions reductions in a preliminary study are power, water, manufacturing, road transportation, and waste processing. In 2015, Dubai reduced emissions equivalent to 5.7 million metric tons of CO2 and has achieved a 7.29% sectoral reduction target, of which 11% is from the power and water, 3% is from manufacturing, 6% is from road transport, and 6% is from waste. On the supply side, a planned 800 MW solar photovoltaic power plant will contribute more than 260,000 tons of CO2 equivalent emissions savings.\n Environmental Benefits – Dubai aims to increase domestic solid waste recycling rates from 10% to 70% by 2030, significantly reducing waste to landfill.\n Economic Benefits – Dubai's CAS aims to enhance green trade and investment and accelerate adoption of green technologies via initiatives like the Green Economy Partnership.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-dubai-demand-and-supply-side-co2-reductions/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27334",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-dubai-demand-and-supply-side-co2-reductions&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

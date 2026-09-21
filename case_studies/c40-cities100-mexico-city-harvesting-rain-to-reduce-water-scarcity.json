@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-mexico-city-harvesting-rain-to-reduce-water-scarcity",
   "url": "https://www.c40.org/case-studies/cities100-mexico-city-harvesting-rain-to-reduce-water-scarcity/",
   "title": "Cities100: Mexico City – Harvesting Rain to Reduce Water Scarcity",
@@ -26,6 +26,31 @@
   "hazards": [
     "meteorological_drought"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "mexico-city",
+      "label": "Mexico City"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Factors such as inaccessibility and high population density, along with water and soil pollution, result in a lack of adequate supply of drinking water for more than a million people in Mexico City. The city is solving this problem by making better use of the abundant rainwater in an equitable, sustainable, and innovative manner.",
+    "measures": "In 2016, Mexico City launched the 'Aqua a tu Casa' program with the purpose of solving the drinking water scarcity problem in marginalized areas. By installing rainwater harvesting systems and water purification technologies in houses, apartments, and public buildings, 75 million liters of water have been saved since the implementation of the program. One of the main goals is to consolidate the reuse of rainwater in the city, thus avoiding overexploitation of aquifers and groundwater systems, the latter of which is already sinking up to 40 cm per year. Since its implementation, nearly 500 rainwater harvesting systems, water purification technologies, and drinking devices have been installed, benefitting 56,320 people. The program's focus goes beyond water conservation, and it has become a core part of the city's social policy, with its efforts towards gender equality. To promote empowerment of women who have suffered domestic violence, the city offers these women training in the installation and maintenance of rainwater harvesting systems.\n Economic Benefits – Each rainwater harvesting system guarantees the supply of up to 40,000 liters of drinking water per year, which means an annual saving of around $200 per family.\n Health Benefits – The water purification systems and drinking devices ensure the quality of water for human consumption, mitigating 99% of pathogenic bacteria, which helps to prevent diseases such as diarrhea and typhoid.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-harvesting-rain-to-reduce-water-scarcity/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27299",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-mexico-city-harvesting-rain-to-reduce-water-scarcity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

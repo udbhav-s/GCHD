@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-delhi-turning-waste-into-compost-and-fuel",
   "url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-compost-and-fuel/",
   "title": "Cities100: Delhi – Turning Waste into Compost and Fuel",
@@ -26,6 +26,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "delhi-nct",
+      "label": "Delhi NCT"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "With thousands of tons of municipal waste generated daily, Delhi was suffering from increased greenhouse gas emissions from anaerobic decomposing waste, contamination of groundwater, and air pollution in the vicinity of waste disposal sites. To combat this, a composting plant was reopened to produce compost and resource-derived fuel from the city’s municipal waste.",
+    "measures": "The dense Indian City of Delhi generates over 9,000 tons of waste every day, most of which end up in waste disposal sites resulting in a number of detrimental environmental consequences. To limit these negative impacts, Delhi’s municipality collaborated with the company IL&FS to reopen a composting plant to process waste and produce compost and resource-derived fuel, which is fuel produced by shredding and dehydrating solid waste. The plant currently handles 200 tons of waste per day, but is undergoing upgrades in order to handle 500 tons per day by 2016.\n To successfully generate valuable compost, the plant carefully handles the waste by, for example, turning the waste weekly to ensure an appropriate supply of oxygen. The city has teamed up with the company Mother Dairy to sell the compost to farmers. The resource-derived fuel generated at the plantis sold to cement manufacturing plants, thus limiting their need to burn coal.\n Environmental Benefits – Every 250,000 tons of waste processed at the plant reduces greenhouse gas emissions by the same amount as removing 1 million cars from the streets of Delhi for 10 days.\n Economic Benefits – As a composting plant requires much less land for managing waste than landfills do, land is freed for sustainable urban development which can financially benefit the city.\n Health Benefits – With greater amounts of waste handled at the composting plant, toxic gasses from open burning of waste at dumpsites are reduced, which limits air pollution that harms the health of citizens in Delhi.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-compost-and-fuel/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26980",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-delhi-turning-waste-into-compost-and-fuel&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

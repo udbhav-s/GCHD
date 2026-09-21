@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-san-francisco-carpet",
   "url": "https://www.c40.org/case-studies/san-francisco-carpet/",
   "title": "San Francisco Carpet Requirements for City Departments",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "san-francisco",
+      "label": "San Francisco"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "San Francisco has introduced new regulation on purchasing and maintenance of carpets in municipal buildings, ensuring that they are environmentally sourced and do not cause any adverse health effects.",
+    "measures": "The Carpet Purchasing regulation is the most comprehensive and stringent of its kind and has been recognised by leading standard-setting organisations ( UL Standards ), advocates ( Healthy Building Network ), and practitioners ( Miller Hull ). The carpet products must be Cradle2Cradle Certified Silver or higher – it lists prohibited chemicals, limits VOCs, and includes requirements for materials’ reutilisation, renewable energy and carbon management, water stewardship, and social fairness. The City government expanded the C2C Certification’s Banned List of Chemicals* to include new toxic chemicals that are typically found in carpet products.",
+    "outcomes": "San Francisco City municipal buildings use more than 15 million square feet (4.5 million square meters) of carpet, therefore this initiative has a tremendous market and environmental impact potential.\n\nThe regulation already applies to all City carpet purchases and SFE has trained approximately 100 city staff procuring products. SFE is currently exploring the development of a regulation for other flooring options.\n After the regulation for municipal buildings passed, many groups contacted the City to discuss replicating the regulation requirements. City staff have provided one-on-one technical assistance to other governments, schools and universities, and advocacy groups such as Global Alliance for Incinerator Alternatives, Health Care Without Harm, Ecology Center, and Green Science Policy Institute. \n Though the regulation currently applies only to City purchases, private architecture firms who work on City projects are also specifying SFE approved products for their other projects. SFE is a founding member of the SF Business Council on Climate Change (BC3) and advises the large businesses that are BC3 members on environmental initiatives—they often replicate city policies for their own operations.\n Manufacturers with compliant product options are promoting these throughout San Francisco and beyond for all types of building projects. So, while the city is not scaling the project locally, this initiative is being adopted by businesses, universities and other cities around the world.\n *. C2C’s Material Health evaluation criteria is recognised internationally for building products.",
+    "cost_benefit": "While compliant carpet products will not be cheaper than rolled carpets, there will nonetheless be savings related to maintenance. Since the regulation calls for using carpet tiles instead of broadloom (rolled carpet), carpeted areas will be easier to maintain as tiles are easier to remove, recycle, and replace than a soiled area of rolled carpet. In addition, with rolled carpets, users would generally have to pay a fee to dispose of the entire carpet in the landfill.\n\nThe purchasing requirements provide a range of environmental benefits by reducing the use of virgin materials, thus reducing GHG emissions, improving air quality, protecting and conserving water, reducing landfill disposal, and promoting transparency. \n The regulation aims to: \n Increase transparency by requiring Environmental and Health Product Declarations , in which the carpet provider quantifies environmental impacts of the product throughout its lifecycle, such as raw material extraction, energy use, chemical makeup, waste generation, and emissions to air, soil, and water. \n Reduce waste by requiring use of carpet tiles instead of rolled carpet except in a few situations. Products must contain at least 45% recycled content, with a 10% post-consumer minimum, and follow specific yarn and dyeing processes that allow for recyclability. This also improves the durability of the product – reducing the need for it to be removed and replaced.\n Achieve better air quality via strict Volatile Organic Compound (VOC) limitations . The regulation prohibits classes of chemicals with adverse health impacts, including: \n Polyvinyl chloride (PVC). This common carpet chemical has phthalates which can disrupt hormones and cause cancer. It can also contain lead (which can cause reproductive and nerve disorders).\n Antimicrobial chemicals. These create antibiotic-resistant bacteria and disrupt hormones and are not necessary for city carpets.\n Flame retardant chemicals. These do little, if anything, to slow or prevent fire. They migrate into air, dust and our bodies and are associated with cancer and reproductive harm. \n Teflon-like, per- and poly-fluoroalkyl substances. These provide stain resistance but are associated with cancer and obesity. They migrate into air, dust, water and our bodies. They never degrade and are generally not necessary, particularly as there are stain-resistant carpet yarns available without those chemicals.",
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The Carpet Purchasing regulation is the most comprehensive and stringent of its kind and has been recognised by leading standard-setting organisations ( UL Standards ), advocates ( Healthy Building Network ), and practitioners ( Miller Hull ). The carpet products must be Cradle2Cradle Certified Silver or higher – it lists prohibited chemicals, limits VOCs, and includes requirements for materials’ reutilisation, renewable energy and carbon management, water stewardship, and social fairness. The City government expanded the C2C Certification’s Banned List of Chemicals* to include new toxic chemicals that are typically found in carpet products."
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/san-francisco-carpet/",
     "publication_date": "2020-02-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27510",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=san-francisco-carpet&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T16:57:31",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

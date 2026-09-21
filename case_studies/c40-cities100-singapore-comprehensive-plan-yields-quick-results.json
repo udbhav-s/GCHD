@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-singapore-comprehensive-plan-yields-quick-results",
   "url": "https://www.c40.org/case-studies/cities100-singapore-comprehensive-plan-yields-quick-results/",
   "title": "Cities100: Singapore – Comprehensive Plan Yields Quick Results",
@@ -23,6 +23,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "singapore",
+      "label": "Singapore"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As a dense and low-lying city-state, Singapore must be conscious of its energy consumption, as it is vulnerable to the impacts of climate change. The Climate Action Plan allows Singapore to use this density to its advantage, by ensuring building efficiency and low-carbon transport while at the same time prioritizing adaptive measures. Results are already showing that the plan’s dual focus on mitigation and adaptation is yielding impressive results, reducing the city-state’s environmental footprint and boosting its resilience.",
+    "measures": "Singapore’s Climate Action Plan provides the framework for both mitigating and adapting to climate change impacts. Within three years of adoption, the plan already has seen an increase in solar power capacity, from 5.9 MW in 2011 to 33.1 MW in 2014. Furthermore, the plan includes a target of having 80% of buildings certified by Green Mark by 2030, with more than 30% already certified. Transport carbon efficiency will also improve under the plan, with the construction of 700 km of cycling paths and expansion of the rail network by 2030, putting 80% of households within a 10-minute walk of a train station. In terms of adaptation, protection structures, such as sea walls and stone embankments, have been constructed along 70% to 80% of Singapore’s coastline. In 2011, minimum reclamation levels were raised from 3 m to 4 m above the mean sea level in order to build resilience to sea level rise. Singapore has also invested some $1.5 billion in building and upgrading drainage infrastructure, reducing flood-prone areas from 3,200 hectares in the 1970s to 36 hectares in 2013. In all, the plan showcases that mitigation and adaptation truly go hand in hand.\n Environmental Benefits – Under the plan the use of solar power is expected to increase to 350 MW by 2020.\n Social Benefits – Residents have access to new career opportunities with the creation of approximately 60,000 jobs in green industries.\n Economic Benefits – Under the Singapore’s Climate Action Plan, the green economy has expanded, boosting GDP by about $4.4 billion.\n Health Benefits – The construction of bike paths provides a new and active commuting option for residents, contributing to the general health and well-being of the city.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -31,7 +56,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-singapore-comprehensive-plan-yields-quick-results/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27243",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-singapore-comprehensive-plan-yields-quick-results&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-ica-cities-fund-vancouver",
   "url": "https://www.c40.org/case-studies/ica-cities-fund-vancouver/",
   "title": "ICA Fund | Supporting the city’s most heat-vulnerable residents",
@@ -31,6 +31,31 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "vancouver",
+      "label": "Vancouver"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Addressing rising temperatures is a priority for Vancouver, as the increasing frequency of extreme heat events poses significant risks to residents.\n C40’s ICA Fund supported the city to expand its Resilient Neighbourhoods Programme which provides cooling support during extreme heat events, to include appropriate and accessible options for people with disabilities. \n The city leveraged insights from the Praxis Spinal Cord Institute’s Climate Futures project ’s research into climate-friendly cooling devices for people with physical disabilities. Vancouver partnered with Technology for Living to distribute 155 wearable cooling devices to residents with chronic health conditions. \n The project highlighted the importance of people with disabilities having options and agency, and being able to access daily living in the context of worsening climate conditions.\n Find out more about this project \n more about C40’s ica fund \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. Learn more about C40’s ICA Fund .",
+    "measures": "The 2021 extreme heat wave (“Heat Dome”) in Vancouver tragically demonstrated how different populations do not face equal risk from climate-related hazards. Most people who lost their lives to heat-related illnesses were over 70, lived alone, had chronic health conditions and mobility challenges, and were materially or socially deprived. \n Addressing rising temperatures is a priority for Vancouver, as the increasing frequency of extreme heat events poses significant risks to residents.\n C40’s ICA Fund supported the city to expand its Resilient Neighbourhoods Programme which provides cooling support during extreme heat events, to include appropriate and accessible options for people with disabilities. \n The city leveraged insights from the Praxis Spinal Cord Institute’s Climate Futures project ’s research into climate-friendly cooling devices for people with physical disabilities. Vancouver partnered with Technology for Living to distribute 155 wearable cooling devices to residents with chronic health conditions. \n The project highlighted the importance of people with disabilities having options and agency, and being able to access daily living in the context of worsening climate conditions.\n Find out more about this project \n more about C40’s ica fund \n The C40 Inclusive Climate Action (ICA) Cities Fund is designed to help cities develop and implement climate projects with equity and inclusion principles at their core. As part of the 2023-2024 programme, C40 supported six global cities to develop and deliver climate projects that are inclusive, fair and benefit all residents. Learn more about C40’s ICA Fund .",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/ica-cities-fund-vancouver/",
     "publication_date": "2023-06-28",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "35235",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=ica-cities-fund-vancouver&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-06-20T09:17:41",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

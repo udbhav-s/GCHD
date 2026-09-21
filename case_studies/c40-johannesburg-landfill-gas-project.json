@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-johannesburg-landfill-gas-project",
   "url": "https://www.c40.org/case-studies/johannesburg-landfill-gas-project/",
   "title": "Johannesburg’s Landfill Gas Project",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Johannebsurg has initiated a new methane-harvesting landfill sit, creating a new energy source for the city",
+    "measures": "Johannesburg has developed a project which harvests methane gas from landfill sites and then generate electricity. The project is implemented on three landfill sites. The electricity generation capacity by the project is approximately 19MW which is fed to the grid and distributed to households. The project is registered as a Clean Development Mechanism (CDM) project and generates over 250,000 carbon credits annually.\n What is the technology? How does it work \n The project was initiated in 2007, the actual construction and implementation started in 2016.\n The contract of the project is 20 years which will end in 2036.\n The City entered into an agreement with a private project developer to construct , operate and maintain landfill gas to energy CDM project at no cost to the city. The agreement gave the service provider exclusive gas rights to harvest and generate electricity and royalties to the city.\n Total costs: 12,973,606 USD.\n Yes, we expect to see a ROI between 5 and ten years (The assumptions were based on a feasibility study conducted in 2007).\n The City didn't have funds to undertake the project without the assistance of the private partnership.\n Public meetings: It was done in all the city's 7 regions and through stakeholder engagement involving local councillors.\n Citizen engagement: It created awareness among the citizen and also it was in compliance with the Municipal Finance management Act.\n What are the CO2 reduction goals/achievements? \n In June 2018 the CO2e reduction was 1813 tons (13% reduction) and the target for June 2019 was set at 19% reduction.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/johannesburg-landfill-gas-project/",
     "publication_date": "2020-01-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27506",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=johannesburg-landfill-gas-project&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

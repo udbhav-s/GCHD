@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-guangzhou-s-waste-management-system",
   "url": "https://www.c40.org/case-studies/guangzhou-s-waste-management-system/",
   "title": "Guangzhou’s waste management system",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "guangzhou",
+      "label": "Guangzhou"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Guangzhou is continuing its efforts in improving its waste management system, developing waste treatment facilities, and turning waste to resource with low-carbon treatment.",
+    "measures": "Recent years have seen Guangzhou improving its urban waste management system and developing waste treatment facilities. In 2016, daily household waste was about 25,000 tons, among which 18,800 tons were treated by landfill or incineration. Landfill accounts for 84% while the rest 16% of waste was burned. 6,700 tons of renewable waste was recovered, and the renewable recovery network covers 100% of the rural and urban areas. 100% of hazardous industrial waste was treated and utilised. The disposal rate of medical waste was 100%, the integrated utilisation rate of industrial solid waste reached 95%, and 90% of construction waste from demolition was recycled. Guangzhou has explored a way for a megacity to sort and treat solid waste.\n Firstly, the city is further pushing ahead on household waste sorting. In 2014, the city was listed among the country’s best cities in household waste sorting. Secondly, the city is continuing its efforts in advancing the sorting management system. Thirdly, the city makes an effective connection between waste sorting and waste recovery. Fourthly, the city is pushing forward the development of waste treatment facilities in a holistic way. As of now, Guangzhou has built three thermal power plants for household waste, which disposes of 5,000 tons of waste per day. Five thermal power plants, with a total disposal amount of 12,000 tons per day, are now under construction and expected to be completed and put into use by the end of 2018.\n Next steps \n Firstly, Guangzhou will further carry forward precise household waste sorting. In government institutions and public places, a compulsory precise waste sorting system will be in place to avoid mixed waste collection and transport. Secondly, the city will further strengthen recovery of renewable resource, actively pushing forward the integration of the waste collection and transport system and the resource recovery system. Thirdly, the city will make greater efforts in reducing waste production by reducing excessive packaging of commercial products. Fourthly, Guangzhou will improve its capacity in dealing with construction waste, greening waste and sludge, medical waste, industrial waste and hazardous waste. Fifthly, the city will make good use of high-standard and clean technology to build waste treatment facilities to solve the urban waste problem.\n Annual CO2 reduction \n After all the thermal power plants are built by 2018, it will be possible to treat 17,000 tons of household waste per day. This will lead to a total of 6.2 million tons of waste being disposed of every year, with a reduction of CO2 emission of around 13.26 million tons. If this amount of waste goes to landfill, around 6.04 million tons of CO2 and 420,000 tons of methane will be produced, which equals 14.866 million tons of carbon dioxide equivalent.",
+    "outcomes": "Firstly, Guangzhou will further carry forward precise household waste sorting. In government institutions and public places, a compulsory precise waste sorting system will be in place to avoid mixed waste collection and transport. Secondly, the city will further strengthen recovery of renewable resource, actively pushing forward the integration of the waste collection and transport system and the resource recovery system. Thirdly, the city will make greater efforts in reducing waste production by reducing excessive packaging of commercial products. Fourthly, Guangzhou will improve its capacity in dealing with construction waste, greening waste and sludge, medical waste, industrial waste and hazardous waste. Fifthly, the city will make good use of high-standard and clean technology to build waste treatment facilities to solve the urban waste problem.\n\nAfter all the thermal power plants are built by 2018, it will be possible to treat 17,000 tons of household waste per day. This will lead to a total of 6.2 million tons of waste being disposed of every year, with a reduction of CO2 emission of around 13.26 million tons. If this amount of waste goes to landfill, around 6.04 million tons of CO2 and 420,000 tons of methane will be produced, which equals 14.866 million tons of carbon dioxide equivalent.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/guangzhou-s-waste-management-system/",
     "publication_date": "2018-03-28",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27383",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=guangzhou-s-waste-management-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

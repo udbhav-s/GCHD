@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-buenos-aires-monitoring-climate-data-for-flood-prevention",
   "url": "https://www.c40.org/case-studies/cities100-buenos-aires-monitoring-climate-data-for-flood-prevention/",
   "title": "Cities100: Buenos Aires – Monitoring Climate Data for Flood Prevention",
@@ -31,6 +31,31 @@
     "river_flood",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In recent years, Buenos Aires has set records for rainfall and heat waves, and the intensity of storms and flooding is expected to increase in the future. The frequent floods have caused property damage, loss of income, negative public health impacts, and impaired living and working conditions. These events led the city to develop a monitoring system in order to help prevent and lessen the consequences of floods.",
+    "measures": "Buenos Aires has created a hydro-meteorological monitoring system to provide reliable and accurate information needed for planning and emergency management, risk management and flood mitigation, as well as for monitoring and protecting water resources. The monitoring system consists of a network of interconnected sensors that automatically measures and monitors meteorological, hydrological, and environmental parameters. So far, 30 information collection points have been installed, with more sensors underdevelopment. With the knowledge of changes in rainfall, temperature, humidity, wind direction and speed, and stream water level, the city can generate much more reliable community alerts and make better-informed, real-time decisions during emergencies.\n With the data derived from the monitoring system, Buenos Aires will be better equipped for emergency management by pre-empting social and medical assistance needs; predicting and monitoring weather phenomena; automatically operating pumping stations and floodgates; issuing warnings to key institutions and the public; and sending cleaning crews to compromised drains. All these data-informed actions can save lives, infrastructure, and money.\n Environmental Benefits – Better information on water sources and water quality will help restore and protect aquatic ecosystems.\n Social Benefits – Including residents and daily commuters, the monitoring system will protect approximately 6 million people.\n Economic Benefits – In April 2013, Buenos Aires suffered a record rainfall, causing more than $300 million in damages. The hydro-meteorological monitoring system will help prevent such catastrophes in the future.\n Health Benefits – The monitoring system will help avoid injuries caused by flooding and illness caused by waterborne diseases.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-monitoring-climate-data-for-flood-prevention/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27038",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-monitoring-climate-data-for-flood-prevention&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

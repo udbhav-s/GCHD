@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-spotlight-on-cape-town",
   "url": "https://www.c40.org/case-studies/spotlight-on-cape-town/",
   "title": "Spotlight on… Cape Town",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Executive Mayor Geordin Hill-Lewis highlights the key focus areas in Cape Town’s climate action plan.",
+    "measures": "Executive Mayor of Cape Town, Geordin Hill-Lewis, highlights the key focus areas in the city’s climate action plan, including ensuring high-quality and affordable services for water, sanitation, refuse collection, and clean energy for residents.\n More from the ‘Spotlight On…’ Series \n This video was originally produced for the C40 World Mayors Summit in Buenos Aires.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/spotlight-on-cape-town/",
     "publication_date": "2022-10-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "33060",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=spotlight-on-cape-town&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-01-13T16:06:34",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

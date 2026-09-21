@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-changwon-improving-water-quality-and-biodiversity",
   "url": "https://www.c40.org/case-studies/cities100-changwon-improving-water-quality-and-biodiversity/",
   "title": "Cities100: Changwon – Improving Water Quality and Biodiversity",
@@ -30,6 +30,25 @@
   "hazards": [
     "meteorological_drought"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As an industrial city, Changwon’s water supply has been polluted by its many factories over the years. The action taken by the city to clean up its water sources not only reverses the damage done, but also prepares Changwon for expected increased frequency of droughts in coming years by improving quality and efficiency in water management.",
+    "measures": "In an effort to revitalize the city’s local water supply, the South Korean City of Changwon launched a three-phase master plan to better manage water drainage, improve drinking water quality, and boost biodiversity in the region’s aquatic environments. The city is taking an integrated approach to solving these local water challenges, targeting thorough water quality management, controlling pollution caused by runoff, restoring streams, and capping ocean pollutants. So far, the city has revitalized 10% of its 535 km of streams. This includes reducing organic pollutant levels from 2.5 ppm in 2010 to 1.8 ppm in 2013. Similarly, the region’s water ecosystems experienced a growth in aquatic plant species, from 33 species in 2010 to 70 in 2014.\n The project is carried out in collaboration with private stakeholders, including citizens and academia, to promote participation and to reflect public opinion. Changwon hopes to expand on its already successful water management plan by applying it to more rivers and streams in coming years.\n Environmental Benefits – Changwon expects that, when complete, the rehabilitation of these aquatic ecosystems will lead to a rise in the number of animal species in the region.\n Economic Benefits – A primary goal of this project is to improve drinking water quality, which will help improve the overall health of the city’s residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-changwon-improving-water-quality-and-biodiversity/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26996",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-changwon-improving-water-quality-and-biodiversity&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

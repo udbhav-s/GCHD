@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding/",
   "title": "Cities100: New York City – Resilience Study Prepares Communities for Future Flooding",
@@ -32,6 +32,31 @@
     "coastal_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Hurricane Sandy demonstrated that New York City is highly at risk from coastal storms, and climate change and sea level rise will only increase this risk in the future. To respond to these concerns, the New York City Department of City Planning has completed a coastal risk assessment, taking into account the impact of flooding from sea level rise and changes in weather patterns, resulting in changes to zoning regulations, and securing resilient neighborhoods for the future.",
+    "measures": "New York City’s Resilient Neighborhoods Study was launched in 2013 as a way to develop locally tailored strategies for land use and zoning changes that are responsive to the coastal hazards the city faces now and in the future. Ten studies were completed across a range of coastal neighborhoods in the city which analyzed damage from Hurricane Sandy; risks from coastal storms, including 10-, 50-, and 100-year storms; flood elevations; wave threats; future floodplains; and sea level rise. Information from these studies will help shape how and where development occurs on vulnerable coastal land and protect the 71,500 buildings currently located along these shorelines. In addition, the city is producing a web-based mapping tool for each study area, informing property owners about the current and future flood risks in their neighborhood, and enabling them to make better investments in resilient infrastructure. The city hopes the recommendations created from this study will influence the future growth and development of these 10 neighborhoods, as well as districts across New York City’s 837 km of coastline that are at risk from flooding and sea level rise.\n Environmental Benefits – More than 250 hectares of tidal and freshwater wetlands in Queens and Staten Island will be better protected thanks to the Resilient Neighborhood Studies.\n Social Benefits – In each study area, the Department of City Planning has met with key community leaders and stakeholders, whose first-hand experiences shaped the study.\n Economic Benefits – The new zoning regulations will enable businesses to better manage flood risk through resilience investments, protecting 271,000 jobs and encouraging the development of new businesses.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27226",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

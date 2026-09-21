@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-wuhan-intelligent-parking-service-system",
   "url": "https://www.c40.org/case-studies/wuhan-intelligent-parking-service-system/",
   "title": "Wuhan Intelligent Parking Service System",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "wuhan",
+      "label": "Wuhan"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "On Jan. 1, 2016, Wuhan launched its intelligent parking service system. Since the system came online, traffic has been reduced, the use of public resources has risen, and parking issues have been minimized.",
+    "measures": "The Wuhan intelligent parking system has four operating units: the parking lot detector, the Watertek intelligent terminal, ETC technology and a smart mobile app. Parking lot detection is made possible by an earth inductor installed in the parking lot which can automatically detect cars entering and exiting the parking lot and transmit a signal to the back-end in order to automate the payment process. The Watertek intelligent terminal is designed to be a road inspector. When a driver doesn’t pay after parking for over 15 minutes, the intelligent terminal will alert the inspector. The inspector can instruct the driver to pay, take a photo and check the driver’s information. There are 7 ways for drivers to pay parking fee: APP, We-chat official account, Ali-pay, telephone, outlet and supplementary payment through site inspector.\n The system is used on 435 toll roads and in 31, 700 parking lots. Another 13,000 parking lots are in a trial period. Eleven districts in the city of Wuhan have been covered by the program: Jiangan, Jianghan, Qiaokou, Hanyang, Wuchang, Hongshan ,Qingshan, the Wuhan Economic Development Zone, the East Lake Economic Development Zone, the East Lake Ecological Resorts and the Wuhan Chemical Industry Zone. Use of the parking lot without making a payment will result in fines: a company offender will be subject to a fine 10,000 RMB and an individual offender will be subjec to a fine of 1,000 RMB.\n According to statistics from the back-end of the Wuhan Intelligent Parking Service System， since its trial run in Sept. 29th, the daily average car parking has reached 60,000 and the parking lot turnaround rate has been stayed at around 500%, approaching 600% at peak hours.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/wuhan-intelligent-parking-service-system/",
     "publication_date": "2018-02-12",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27375",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=wuhan-intelligent-parking-service-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

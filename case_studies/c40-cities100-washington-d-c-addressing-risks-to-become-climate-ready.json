@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-washington-d-c-addressing-risks-to-become-climate-ready",
   "url": "https://www.c40.org/case-studies/cities100-washington-d-c-addressing-risks-to-become-climate-ready/",
   "title": "Cities100: Washington, D.C. – Addressing Risks to Become Climate Ready",
@@ -28,6 +28,31 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Record-breaking heat waves, flooding and heavy rains, and the Derecho storm in 2012 were some of the reminders that without action, Washington, D.C., would see disruptions to its power grid and face increasing economic challenges and worsening health issues. In efforts to adapt to the changing climate, the Climate Ready DC strategy was developed to ensure resilience, and a greener, healthier, and more livable city.",
+    "measures": "Climate Ready DC is Washington, D.C.'s new climate adaptation plan. As part of a holistic planning process, the city worked with technical experts to develop local climate change projections; conduct a vulnerability and risk assessment of infrastructure, community resources, and residents; and identify adaptation actions. In total, 77 actions will address the identified risks across four sectors: utilities and transportation infrastructure; buildings and development; neighborhoods and communities; and governance. In addition to increasing resilience via the actions, the city also remains committed to cutting greenhouse gas emissions 50% by 2032 and 80% by 2050. Four goals set by Climate Ready DC include improving transportation and infrastructure to maintain viability during periods of extreme weather; upgrading existing and designing new buildings to withstand climate change impacts; making neighborhoods safer and more prepared; and, finally, establishing the policies and evaluation procedures to ensure successful implementation of adaptation. In one of the initial steps, the city increased tree canopy cover to 38% to reduce the urban heat island effect.\n Environmental Benefits – The strategy uses natural solutions, including tree planting, living shorelines, and other green infrastructure, to maximize co-benefits of habitat creation and water quality improvements. Last year, 14,137 trees were planted and around 18,000 m2 of green roofs were installed.\n Economic Benefits – The city will leverage existing incentive programs for solar power, energy efficiency, and green infrastructure to help residents improve the resilience of their homes and save money on water and energy bills.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-addressing-risks-to-become-climate-ready/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27301",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-addressing-risks-to-become-climate-ready&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

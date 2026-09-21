@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-rio-biomethanisation-unit",
   "url": "https://www.c40.org/case-studies/rio-biomethanisation-unit/",
   "title": "Organic Waste to Biogas in Rio de Janeiro’s Biomethanisation Unit",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "rio-de-janeiro",
+      "label": "Rio de Janeiro"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Rio de Janeiro’s biomethanisation unit has allowed the city to generate energy through anaerobic digestion of organic waste while reducing amount of waste sent to landfill.",
+    "measures": "The biomethanisation technology developed has never been implemented in Brazil or Latin America before. This is a national expertise and technology developed through a partnership between Methanum Company, the Federal University of Minas Gerais (UFMG) and the Municipal Urban Cleaning Company of Rio de Janeiro (Comlurb) in order to promote the “tropicalisation” of batch biomethanisation with leachate recirculation process.\n The Biomethanisation Unit has an annual processing capacity of approximately 3,000 tons, equivalent to the organic waste output of a city with over 15,000 inhabitants. The organic waste sources include food waste from large generators such as municipal schools, supermarkets and restaurants, along with pruning waste from green areas – a crucial carbon source and bulking material for the biomethanisation process. Pruning undergoes a mechanical process involving shredding and screening, which is also used as energy biomass in the ceramic industry.\n As a result of the biological degradation, it produces more than 300 tons of organic compost each year, offering essential support to Rio de Janeiro City’s urban agriculture and reforestation programs. Additionally, this process operates with a biogas yield of approximately 70 Nm³ per ton of organic waste. The generated biogas is recovered into electrical energy to ensure the self-sufficiency of the treatment process.\n The pilot project is dedicated to overcoming challenges and providing solutions for the gaps in treating the organic fraction of municipal solid waste. These include:\n Technological adaptation (“tropicalisation”) to manage feedstock and by-products in compliance with Brazil’s legal framework (National Solid Waste Policy – PNRS), market demands and sociocultural aspects intrinsic to Brazilian waste management practices.\n Lack of knowledge and research regarding the optimal operational parameters to manage and treat the organic fraction of municipal solid waste, particularly when not separated at the source as occurs in Brazil;\n High costs of implementation and maintenance of mechanical-biological treatment (MBT) facilities in Brazil.",
+    "outcomes": "The Biomethanisation Unit can process 3,000 tons of organic waste annually. By diverting this amount of organic waste from landfills, it effectively mitigates the approximately 3.4 MtCO2e each year. This reduction is attributed to avoiding the greenhouse gases (GHG) from fugitive methane emissions in landfills and the reduction of waste transfer by fossil fuel trucks. The 2022 IPCC Report highlighted that reducing methane emissions is the fastest way to tackle global heating due to its powerful near-term impact. Additionally, the utilisation of biogas in a 35 kW moto-generator ensures self-sufficiency within the process, preventing additional GHG emissions from the Brazilian energy mix.\n Moreover, the organic compost produced at the Biomethanisation Unit plays a vital role in City Hall’s soil recovery initiatives, including the Hortas Cariocas program, which encourages urban agriculture in low-income communities; the reforestation projects in the Tijuca Urban Rainforest and the maintenance of the city’s gardens and parks. The utilisation of compost also facilitates ‘soil carbon sequestration’, enhances biodiversity and improves the food security within the city. This approach not only fosters a circular economy but also strengthens community resilience and food security.\n It’s important to note that the reduction of GHG is intrinsically linked to the decrease in waste sent to landfills, which currently stand as the third-largest source of GHG emissions in Rio. Therefore, the City of Rio de Janeiro’s 2030 Climate Action Plan aligns with key goals: \n Achieve in 2030 the 20% reduction of the municipality’s GHG emissions compared to the 2017 base-year emission, outlined in the goal MCR3.1; \n Achieve an 80% diversion rate of organic food waste from large generators (such as supermarkets, restaurants, etc.) to waste processing/recycling plants (composting and/or biodigestion), goal MCR1.2. This initiative also aims to contribute locally towards accomplishing Sustainable Development Goals (SDGs) 2, 11, 12 and 13.\n\nOne of the main goals outlined in the Rio de Janeiro City Hall Strategic Plan (2021-2024) is to reduce the final disposal of solid waste in landfills, emphasizing the recovering and valorizing of recyclables and the organic fraction to advance a zero-waste governance approach.\n To accomplish the goals set in Rio’s Strategic Plan, it is crucial to scale up the current biological treatment methods (biomethanisation and/or composting). Therefore, establishing a mechanical-biological treatment (MBT) facility is essential to increase the municipality’s organic waste treatment capacity (over 40,000 tons per year). This initiative will enable the implementation of selective collection for household organic waste.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/rio-biomethanisation-unit/",
     "publication_date": "2024-01-03",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27515",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=rio-biomethanisation-unit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2024-01-03T15:28:56",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

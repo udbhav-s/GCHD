@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-durban-solar-framework-calls-citizens-to-action",
   "url": "https://www.c40.org/case-studies/cities100-durban-solar-framework-calls-citizens-to-action/",
   "title": "Cities100: Durban – Solar Framework Calls Citizens to Action",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "durban-ethekwini",
+      "label": "Durban (eThekwini)"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Ninety-three percent of South Africa's primary energy consumption came from coal and oil in 2014. Establishing renewables in the energy mix will require an intelligent combination of national strategies as well as educational campaigns such as Durban's calling individuals to action.",
+    "measures": "Durban has created an evidence-based solar framework to promote the uptake of solar technologies in residential and commercial properties, stimulate local industry, and promote information sharing among municipalities to encourage further solar development. In a learning-by-doing approach, the city has installed 300 kW of PV on five municipal buildings. The lessons learned from these initial projects will feed into future policy developments and installations as the city adds to its solar portfolio on the 2,000 available municipal buildings. In order to encourage solar uptake more widely, the city created the first African PV mapping tool, enabling residents and businesses to calculate the PV potential of their roof, estimate savings, payback time, and find a local installer. Additionally, they are developing an online short course about renewable energy as well as an educational website for people to learn more about the potential of solar technology.\n Environmental Benefits – The rooftop PV pilot project delivered an estimated 82 metric tons of CO2 reductions in February and March of 2017 alone.\n Economic Benefits – Estimated annual savings from the pilot PV installations are more than $5,000. If the project was scaled to cover all municipal buildings, the city would save around $10 million annually.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-durban-solar-framework-calls-citizens-to-action/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27313",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-durban-solar-framework-calls-citizens-to-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

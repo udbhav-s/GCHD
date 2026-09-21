@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact",
   "url": "https://www.c40.org/case-studies/cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact/",
   "title": "Cities100: Shenzhen – Carbon Trading Decouples Growth from Climate impact",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The main challenge for Shenzhen’s ETS is regulating allowance allocation as well as enforcing companies’ adherence to their allowances. To overcome this, the city carefully monitors the market at each step and produces frequent assessment reports that clearly show how the ETS has succeeded in driving low carbon development without harming economic growth",
+    "measures": "In 2013, the Chinese City of Shenzhen launched an emissions trading scheme (ETS), which allows companies and public infrastructure projects to trade carbon emissions under the Chinese Certified Emissions Reduction program. The allowances in Shenzhen’s ETS are based on carbon intensity and the city caps the number of allowances based on the results of the best performing companies and agencies, creating healthy competition. 635 key companies and 197 large public infrastructure projects participate in the scheme; together these emitters are responsible for 40% of the city’s carbon emissions, making the impacts of the scheme substantial.\n Shenzhen’s ETS has successfully decoupled economic growth from climate impact, as participating industrial companies have achieved a 12.6% reduction in CO2 emissions while increasing their value by almost 40%. The city plans to scale its ETS to include more companies as well as the transportation sector, where CO2 emissions are rapidly rising. Shenzhen expects the scope of trans-actions within the market to expand, and, when implemented at full scale, to reduce companies’ long-term costs of mitigating emissions.\n Environmental Benefits – By reducing power generation from coal, the ETS improves air quality and lowers harmful PM2.5 particle emissions.\n Social Benefits – In order to involve the local community, the city holds exhibitions and promotional campaigns to promote the uptake of a low carbon lifestyle.\n Economic Benefits – Companies covered by the ETS represent 26% of the city’s GDP and have reduced their carbon intensity by 34%.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27023",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

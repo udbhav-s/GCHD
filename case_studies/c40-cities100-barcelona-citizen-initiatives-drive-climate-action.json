@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-barcelona-citizen-initiatives-drive-climate-action",
   "url": "https://www.c40.org/case-studies/cities100-barcelona-citizen-initiatives-drive-climate-action/",
   "title": "Cities100: Barcelona – Citizen Initiatives Drive Climate Action",
@@ -30,6 +30,36 @@
   "hazards": [
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "barcelona",
+      "label": "Barcelona"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Home to a large population located on the Mediterranean basin, Barcelona faces a number of deep rooted problems related to climate change including high energy consumption and vulnerability to rising sea levels. To combat these challenges, the city is employing the power of collective local action to enact necessary changes to reduce emissions and improve resilience.",
+    "measures": "In 2015, Barcelona adopted a bottom-up approach to mitigating climate change through its citizen-led initiative Commitment to Climate Change. The city invited more than 800 organizations including schools, businesses, and NGOs to participate in the process, resulting in the creation of nine citizen-centric projects. It is the city’s goal that these actions, along with city-led initiatives, will help Barcelona substantially reduce CO2 emissions and increase the total urban green area by 1.6 km2 by 2030. The nine citizen-centric plans include a bike-sharing program to encourage people to cycle to work and a mobile application that connects residents who want to swap goods and offer repairs. Another project will employ and train residents to renovate housing with passive and low cost systems to reduce energy consumption. All these projects work in synergy with Barcelona’s strategic measures to address climate change with the hope that the citizen driven process will ensure the city’s long-term commitment to climate action.\n Environmental Benefits – The Green Point 2.0 project, which provides spaces for collection, reuse, and sharing of items that would otherwise be tossed, and the door-to-door waste collection and separation project, both initiated by residents, support the city’s goal of cutting waste generation by 10% by 2020.\n Economic Benefits – The implementation of Barcelona’s plan could create up to 9,500 jobs in Barcelona and the surrounding area.\n Health Benefits – The project’s Safe School Routes initiative aims to reduce the number of children going to school by car by 10% over two years, thereby improving kids’ health by increasing active mobility like walking and cycling.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-barcelona-citizen-initiatives-drive-climate-action/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27209",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-barcelona-citizen-initiatives-drive-climate-action&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

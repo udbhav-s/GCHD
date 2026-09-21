@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-shenzhen-new-energy-vehicles-including-electric-buses",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-shenzhen-new-energy-vehicles-including-electric-buses/",
   "title": "C40 Good Practice Guides: Shenzhen – New Energy Vehicles (including Electric Buses)",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shenzhen",
+      "label": "Shenzhen"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Shenzhen pioneered an innovative business model, successfully mobilising vehicle manufacturers, grid companies, bus and taxi operators, policy research institutes…",
+    "measures": "Summary \n Shenzhen pioneered an innovative business model, successfully mobilising vehicle manufacturers, grid companies, bus and taxi operators, policy research institutes and citizens to promote its New Energy Vehicles (NEVs) Plan in 2009 (NEVs include electric, hybrid and fuel cell vehicles). Since then, the city’s strategy has been to prioritise electrified public transportation (buses and taxis), and then gradually transition private cars to NEVs as well. This project has set two main goals: a short-term goal of adding 35,000 NEVs in the next two years, and a long-term goal of reaching a zero-emission ecosystem.\n Results \n The project has already shown substantial results. The NEV fleet has enabled Shenzhen to reduce CO 2 emissions by 160,000 tonnes between 2009 and 2013, which has led to the city being ranked in the top 10 for best air quality in China, according to China’s Environment Agency. As of December 2013, 3,050 mostly electric buses (accounting for 20% of the public buses in Shenzhen), and 850 pure electric taxis (accounting for 6% of the taxis in Shenzhen) were operating in the city. xii In addition, there was significant investment in infrastructure with Shenzhen installing 57 new energy bus charging stations by September 2009.\n Reasons for success \n In 2009, Shenzhen was approved by the central government to be one of many cities for piloting new energy vehicle technology and infrastructure. With this support from the Chinese central government, along with commitment and actions by the regional and city level governments, a multifaceted approach to LEV development, production, and uptake was launched. By focusing on city fleets in the first instance and encouraging other sectors to gear their operations towards LEV uptake in the city through policy shifts, LEV uptake was expanded more rapidly. By recognising the importance of involving other sectors and stakeholders, including citizens, Shenzhen has been able to successfully transition to new energy vehicles across diverse markets and fleets. For example, Shenzhen provides an open platform to encourage communication between companies and organizations in related industries, spurring better relationships between public and private partners on new energy vehicles.\n When/why a city might adopt an approach like this \n Since cities generally have more control over their own fleets, such as buses, the uptake of LEVs in these fleets provides a major opportunity to reduce emissions and improve air quality in urban centres. Cities with influential municipal or regional governments with control over these assets can look to Shenzhen’s NEV Plan to develop an integrated approach to significantly increase LEV uptake. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Low Emission Vehicles Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The project has already shown substantial results. The NEV fleet has enabled Shenzhen to reduce CO 2 emissions by 160,000 tonnes between 2009 and 2013, which has led to the city being ranked in the top 10 for best air quality in China, according to China’s Environment Agency. As of December 2013, 3,050 mostly electric buses (accounting for 20% of the public buses in Shenzhen), and 850 pure electric taxis (accounting for 6% of the taxis in Shenzhen) were operating in the city. xii In addition, there was significant investment in infrastructure with Shenzhen installing 57 new energy bus charging stations by September 2009.\n\nIn 2009, Shenzhen was approved by the central government to be one of many cities for piloting new energy vehicle technology and infrastructure. With this support from the Chinese central government, along with commitment and actions by the regional and city level governments, a multifaceted approach to LEV development, production, and uptake was launched. By focusing on city fleets in the first instance and encouraging other sectors to gear their operations towards LEV uptake in the city through policy shifts, LEV uptake was expanded more rapidly. By recognising the importance of involving other sectors and stakeholders, including citizens, Shenzhen has been able to successfully transition to new energy vehicles across diverse markets and fleets. For example, Shenzhen provides an open platform to encourage communication between companies and organizations in related industries, spurring better relationships between public and private partners on new energy vehicles.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-shenzhen-new-energy-vehicles-including-electric-buses/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27161",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-shenzhen-new-energy-vehicles-including-electric-buses&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

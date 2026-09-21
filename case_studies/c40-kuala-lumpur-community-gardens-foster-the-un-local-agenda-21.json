@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-kuala-lumpur-community-gardens-foster-the-un-local-agenda-21",
   "url": "https://www.c40.org/case-studies/kuala-lumpur-community-gardens-foster-the-un-local-agenda-21/",
   "title": "Kuala Lumpur Community Gardens Foster the UN Local Agenda 21",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "kuala-lumpur",
+      "label": "Kuala Lumpur"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The UN Local Agenda 21 (LA21) has been implemented in Malaysia and the Kuala Lumpur (KL) region since 2005. This was done in order to encourage public, private and community partnerships in fostering a better city vision.",
+    "measures": "With a strong focus on fostering community interaction and encouraging food resilience, the Urban Farm programme was initiated in 2015 and will contribute to climate action through a few key areas:\n 1. Community engagement\n 2. Productive recreational space (food resilience)\n 3. Carbon Sink (green space)",
+    "outcomes": "At the moment, the CO2 reduction achievements are very minimal; but the city is establishing their long-term reductions goals as part of its Climate Action Plan (CAP) programme.\n *The current estimated contribution of total greenery (and water body) in creating projects are estimated to account for 1% of total carbon emissions intensity reduction targets through the Low Carbon Society by 2030.\n\nThe City Hall of Kuala Lumpur continue facilitate community garden programmes, while undertaking measurement and target-setting exercises through the C40 Climate Action Planning Programme.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "With a strong focus on fostering community interaction and encouraging food resilience, the Urban Farm programme was initiated in 2015 and will contribute to climate action through a few key areas:\n 1. Community engagement\n 2. Productive recreational space (food resilience)\n 3. Carbon Sink (green space)"
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/kuala-lumpur-community-gardens-foster-the-un-local-agenda-21/",
     "publication_date": "2019-09-09",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27453",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=kuala-lumpur-community-gardens-foster-the-un-local-agenda-21&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

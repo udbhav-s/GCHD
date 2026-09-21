@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-caracas-holistically-improving-urban-life",
   "url": "https://www.c40.org/case-studies/cities100-caracas-holistically-improving-urban-life/",
   "title": "Cities100: Caracas – Holistically Improving Urban Life",
@@ -30,6 +30,25 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Explosive urban development southeast of Caracas has generated a problematic and unsustainable situation in terms of mobility and its repercussions on the habitat, environment, and quality of life for residents.",
+    "measures": "In response to accelerated expansion and resulting congestion south of Caracas, in Venezuela, the city is implementing a plan for the corridor going through three different municipalities. The main focus is to connect a fractured and disconnected area in a sustainable manner. The holistic urban plan is developed in partnership with civic organizations, local authorities, and private developers, aiming to integrate mobility efforts and recreation opportunities and prevent natural disasters like flooding and erosion. The plan includes the construction of a new and exclusive 17 km-long public transport system with 29 stops. In addition, six km of bikeways and a system of green public spaces will be built, the latter including activities such as playgrounds, exercise stations, and special areas for elderly people. New commercial zones will be added to support the popular entrepreneurship of the informal merchants in the area.\n Environmental Benefits – By building 5.35 km of sewage collectors, surface water pollution is reduced and the public green space of the area is increased by 24,534 m2.\n Social Benefits – A new urban center was built, benefitting cultural activities and consolidating local social organizations.\n Economic Benefits – New premises for commercial activities are created to support entrepreneurship in the area.\n Health Benefits – Living conditions of people located in the margins of the ravine have been improved by generating 60 new and hygienic homes, including urban equipment such as school, parks, and green areas.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-caracas-holistically-improving-urban-life/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27343",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-caracas-holistically-improving-urban-life&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-washington-d-c-retrofitted-municipal-roofs-mitigate-and-adapt",
   "url": "https://www.c40.org/case-studies/cities100-washington-d-c-retrofitted-municipal-roofs-mitigate-and-adapt/",
   "title": "Cities100: Washington, D.C. – Retrofitted Municipal Roofs Mitigate and Adapt",
@@ -29,6 +29,31 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "washington-dc",
+      "label": "Washington, DC"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Washington, D.C.'s overarching adaptation strategy identified four local climate change-related challenges: extreme heat events, extreme precipitation, sea-level rise, and storm surge. The DC SmartRoof Program is designed to mitigate emissions and adapt to these challenges.",
+    "measures": "In Washington, D.C., they now have more than just roofs over their heads. The DC SmartRoof Program maximizes the potential of the roofs on all public buildings to minimize and battle the effects of climate change. The city is utilizing roofs of office buildings, schools, and hospitals, totaling more than 2.6 million m2. So far, nine megawatts of solar PV have been deployed, more than 204,000 m2 of white-colored, 'cool roofs' have been constructed, and more than 37,000 m2 of vegetative roofs have been installed. The latter will be able to retain more than 360,000 liters of stormwater runoff annually, which earlier contributed to flooding caused by climate change-related extreme weather events. The program also seeks to reduce the urban heat island effect with its adapted roofs, as studies show that increasing the albedo of just under 100 m2 roof by 0.25 can offset 0.5 tons of CO2 equivalent per year, through reduced cooling demand. The nine megawatts of PV installed has further reduced CO2 emissions by approximately 5,000 metric tons in just over a year.\n Economic Benefits – The DC SmartRoof Program is expected to save $40.2 million, with $25 million from solar PV installations and $15.2 million from cool roofs. The program has also created more than 300 jobs and employed dozens of local companies.\n Health Benefits – Installing cool and green roofs will help to reduce the urban heat island effect and the exposure of citizens to extreme heat conditions, whilst PV will contribute to improved air quality and lower rates of respiratory health issues.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -37,7 +62,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-retrofitted-municipal-roofs-mitigate-and-adapt/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27328",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-washington-d-c-retrofitted-municipal-roofs-mitigate-and-adapt&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

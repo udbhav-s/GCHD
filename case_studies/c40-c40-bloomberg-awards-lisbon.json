@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-bloomberg-awards-lisbon",
   "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-lisbon/",
   "title": "C40-Bloomberg Philanthropies Awards: Safeguarding Lisbon’s drinking water to improve water security and circularity",
@@ -31,6 +31,36 @@
     "meteorological_drought",
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lisbon",
+      "label": "Lisbon"
+    },
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lisbon-lisbon",
+      "label": "Lisbon"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Climate breakdown is causing more frequent and severe heat waves, changing rainfall patterns and water scarcity in Lisbon.",
+    "measures": "Climate breakdown is causing more frequent and severe heat waves, changing rainfall patterns and water scarcity in Lisbon. The city is responding to this threat by recycling water from three treatment plants, providing potable water and ensuring residents have reliable access to clean and safe drinking water.\n Lisbon currently uses 75% of its drinking water reserves for non-potable uses such as irrigation and street cleaning. To reduce this, the city has invested €20 billion in creating a 55-kilometre-long reclaimed water distribution network; 8.6 kilometres are already built. The city is also introducing water circularity through its Wastewater Reuse Plan; the initiative will reuse more than 1 million m 3 of the highest quality reused wastewater to irrigate many urban parks. Lisbon’s Taguspark is the first to use reclaimed water to nourish its flowers and trees.\n Lower tariffs are in place for recycled water compared with drinking water, enabling Lisbon to save €26.8 million by 2030, and the city has already saved almost €3 million due to the initiative.\n The city estimates the programme will reduce drinking water use for non-potable purposes by 69% and water-related emissions by 50% compared with 2020 levels, thereby preventing water scarcity while protecting the public and environment’s health. The Wastewater Reuse Plan effectively educates residents on the issue of water scarcity and receives strong public support.\n This case study was originally published for the 2022 C40 Cities Bloomberg Philanthropies Awards, which recognise ambitious and impactful projects led by mayors that address climate challenges. The initiative featured as a finalist in the award category: Building Climate Resilience",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +69,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-lisbon/",
     "publication_date": "2022-10-19",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "31494",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-bloomberg-awards-lisbon&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-10-04T17:41:14",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-lima-infrastructure-investment-experience",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-lima-infrastructure-investment-experience/",
   "title": "C40 Good Practice Guides: Lima – Infrastructure investment experience",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lima",
+      "label": "Lima"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Lima, a city of over 7 million people, is one of the fastest growing in Latin America and has…",
+    "measures": "Summary \n Lima, a city of over 7 million people, is one of the fastest growing in Latin America and has been facing the challenge of rapidly increasing greenhouse gas emissions. Studies conducted on behalf of the city illustrated that investment in transport would reduce emissions by 15% by 2025, while saving citizens over US$1.1bn per annum xiv . To enhance its funding capacity and attract additional investments, Lima launched an effort to improve substantially its governance structure and operational performance. Starting in 2006, Lima introduced elements of corporate governance management policies and improved its fiscal and financial management, in particular through updating its tax collection strategies, improving quality of accounting and adopting solid treasury and debt management practices. This resulted in improvements of credit ratings, in turn leading to higher attractiveness to investors, willing to finance infrastructure projects in the city at lower financial costs and longer-term maturities of loans.\n Results \n Between 2006 and 2011, Lima managed to substantially increase its creditworthiness and achieve an investment-grade credit rating (BBB- from Fitch, Baa3 from Moody’s), which was recently improved to BBB+. xv In order to get the process started back in 2006, the city worked with the World Bank to create a series of investment projects through innovative financing mechanisms, such as pooling financing opportunities and improving tax revenue collection. Lima was able to obtain a $190 million bank loan (Banco del Credito de Peru and BBVA), xvi the largest market-based financing ever obtained by a municipality in Peru. This has then also helped Lima to apply for a credit rating by demonstrating the city’s ability to borrow and repay loans. The funds made a significant contribution to the Metropolitan Bus Rapid Transit Corridor Project xvii .\n Reasons for success \n Lima worked with several external organisations, including donors and international finance institutions, to explore the range of different finance options available for projects in the city. This allowed the city to identify those that were most appropriate and cost-effective for their project needs. Despite initially not having a credit rating, the city was able to introduce innovative financing mechanisms that helped the city create a track record of successfully raising funding for projects.\n When/why a city might apply an approach like this \n Cities without an existing credit rating should adopt this approach to set out to improve their fiscal management, secure initial investment projects and improve their creditworthiness. The process of pursuing creditworthiness itself is beneficial to the city’s financial attractiveness and can drive the strengthening of underlying fiscal and financial management practices.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Creditworthiness Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Between 2006 and 2011, Lima managed to substantially increase its creditworthiness and achieve an investment-grade credit rating (BBB- from Fitch, Baa3 from Moody’s), which was recently improved to BBB+. xv In order to get the process started back in 2006, the city worked with the World Bank to create a series of investment projects through innovative financing mechanisms, such as pooling financing opportunities and improving tax revenue collection. Lima was able to obtain a $190 million bank loan (Banco del Credito de Peru and BBVA), xvi the largest market-based financing ever obtained by a municipality in Peru. This has then also helped Lima to apply for a credit rating by demonstrating the city’s ability to borrow and repay loans. The funds made a significant contribution to the Metropolitan Bus Rapid Transit Corridor Project xvii .\n\nLima worked with several external organisations, including donors and international finance institutions, to explore the range of different finance options available for projects in the city. This allowed the city to identify those that were most appropriate and cost-effective for their project needs. Despite initially not having a credit rating, the city was able to introduce innovative financing mechanisms that helped the city create a track record of successfully raising funding for projects.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-lima-infrastructure-investment-experience/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27110",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-lima-infrastructure-investment-experience&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

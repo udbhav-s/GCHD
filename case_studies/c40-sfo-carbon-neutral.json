@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-sfo-carbon-neutral",
   "url": "https://www.c40.org/case-studies/sfo-carbon-neutral/",
   "title": "San Francisco International Airport Carbon Neutral Strategy",
@@ -31,6 +31,31 @@
     "coastal_flood",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "san-francisco",
+      "label": "San Francisco"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The City of San Francisco’s San Francisco International Airport (SFO) adopted a Carbon Neutral Strategy that charts a path towards carbon neutrality and achieving a 50% reduction in GHG emissions relative to 1990 by 2021.",
+    "measures": "In 2018, the Carbon Neutral Strategy (CNS) updated the SFO’s 2009 Climate Action Plan and targets by identifying, analyzing and prioritizing key projects that have the most GHG reduction potential. It also continues to measure progress across key emissions areas, including buildings, vehicles, aircraft, and more. The CNS is a guidebook on how to accomplish quantifiable emissions reductions in today’s operations and to reach net carbon neutrality by 2021 by lowering its emissions to 50% of its 1990 baseline and purchasing offsets. The aim is for SFO to become the first carbon neutral, zero waste, and zero net energy airport in the world, to serve as a model for airports around the world.\n In 2018, SFO achieved a 39% reduction in GHG emissions, and launched new and industry-leading initiatives that included a sustainable aviation fuel logistics, supply chain, and financing program, to accelerate the airport’s alternative fuel transition. This innovative program is leading the aviation industry globally toward a sustainable fuel transition. SFO also boosted efforts to electrify third-party-owned ground support equipment on the airfield, in an effort to reduce emissions and improve the well-being of airfield workers; implemented a Zero Waste Plan; commissioned the first net-zero energy facility at an airport; and is acquiring six electric buses.\n Scope 3 emissions addressed \n SFO’s Climate Action Plan and Carbon Neutral Strategy is one of only a few, if not the only, airport carbon neutral strategy which incorporates sustainable aviation fuel (SAF) as a key approach to reduce Scope 3 emissions . SFO was the first airport in the world to convene a Sustainable Aviation Fuel Stakeholder Working Group (SAF SWG), bringing key partners from the aviation and fuel industries together with other governmental and non-government partners to advance the industry transition towards sustainable aviation fuel. \n SFO’s emphasis on SAF as a key strategy necessary for reducing Scope 3 emissions is a major innovative element of the CNS. SFO’s efforts to organize a SAF Stakeholder Working Group (SWG) with over 100 active members, sign a voluntary MOU with 10 airlines and fuel producers, and initiate a study to identify and overcome the numerous barriers are groundbreaking in the industry. At most airports, new infrastructure is required to handle increased provision of sustainable aviation fuel, and SFO is leading the way on preparing for a sustainable aviation future. \n Net-zero energy facilities \n SFO is also one of the first airports in the U.S. to construct a net-zero energy facility (Airfield Operations) and plans to dramatically reduce energy intensity of buildings through coordinated net-zero projects. The CNS addresses challenges with designing decarbonized facilities in high-occupancy environments like an airport and pushes for developing a new, fully decarbonized central utilities plant, utilizing innovative technologies like heat pumps and thermal storage at large scale. \n Zero Waste Plan \n SFO is also among the first to adopt a Zero Waste Plan. \n Project financing \n The CNS itself was developed by staff who are paid through Airport operational funds, which derive from Airport revenues (City funds). The capital projects to reduce emissions that have been implemented to achieve emissions reductions, either as outlined in prior action plans or in the 2018 Carbon Neutral Strategy, are sourced either from the same operational funds, or as part of a larger bond-funded capital improvement program. \n The Airport reserved $100 million in a ZERO (Zero Energy & Resilient Outcomes) fund for energy efficiency measures across capital projects that exceed baseline energy code ( CalGreen ) and the Municipal Green Building Code ( LEED Gold ). All of these projects must be reviewed by SFO’s operators – its airlines – and approved by the Airport Commission and the Board of Supervisors.\n GHG emissions reduction and air quality improvement: \n By 2021, reduce GHG emissions by 50% from a 1990 baseline of 29,702 metric tons (MT) through direct infrastructure projects, and achieve carbon neutrality (anticipated through carbon offsets).\n Achieved a 39% reduction in Fiscal Year 2018 (total direct emissions from SFO operations were 18,252 MT) relative to 1990 baseline (29,702 MT); accomplished through natural gas reduction, improved management of refrigerants in the primary cooling systems, switching to renewable transportation fuels, and switching to carbon-free electricity.\n Workers on the airfield and at the Airport, as well as wildlife and sensitive habitat in the areas surrounding the airport (including wetlands and marine habitat), benefit from avoided criteria air pollutants through these reductions. There are direct air pollution reduction benefits from criteria pollutants such as NOx and particulate matter resulting from fleet fuel improvements (e.g. SFO fleet runs on either electricity or renewable fuels) and gate electrification that reduces jet fuel burn by aircraft parked at the gates. Measures proposed in the Carbon Neutral Strategy, such as transitioning backup generators and aircraft to sustainable fuel alternatives, could reduce air pollutants and carbon emissions due to a reduction of fuel impurities. \n In addition, transitioning to carbon-free electricity resulted in general environmental benefits across the state of California.\n Climate Resilience: \n The CNS itself doe not set specific goals for reducing climate change risk or vulnerability, but these are articulated in an accompanying Sustainability and Social Equity Plan, which informs the CNS. \n These actions include coordinating with research institutions and coastal airports to answer questions on climate resilience, conducting vulnerability assessments and scenario forecasts, and planning and deploying capital investments to protect Airport assets and property, which are at risk due to sea level rise.\n Next Steps \n SFO meets regularly with industry stakeholders through the Airports Council International (ACI), including its Airport Carbon Accreditation working group, to share key work products, challenges and opportunities for partnership. Here, SFO has presented its Carbon Neutral Strategy and is also actively serving on a variety of working groups to support others in drafting their own. \n SFO is also co-leading a Sustainable Aviation Fuel Task Group, under the ACI Sustainability Council, to convene both ‘leaders’ and ‘skeptics’ to define what an airport’s role is in accelerating SAF use. \n SFO also regularly presents its work at conferences and through working groups including active participation in the US Green Building Council (“LEED for Airports” rating system), CERES (Business Investing in Clean Energy Policy Committee), FAA ASCENT, (Center of Excellence for Alternative Jet Fuels and Environment) UN International Civil Aviation Organization (Greening Airports Forum, Committee on Aviation Environmental Protection, Conference on Aviation and Alternative Fuels), among others.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/sfo-carbon-neutral/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27471",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=sfo-carbon-neutral&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone/",
   "title": "C40 Good Practice Guides: Shanghai – International Electric Vehicle Demonstration Zone",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "shanghai",
+      "label": "Shanghai"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Responding to a low level of awareness, confidence, and understanding of LEVs, and aiming to spur development of an…",
+    "measures": "Summary \n Responding to a low level of awareness, confidence, and understanding of LEVs, and aiming to spur development of an urban electric vehicle market, Shanghai established an EV Demonstration Zone. This zone is devoted to helping individuals understand how and why LEVs are a viable option for transportation, with a variety of important benefits. This is helping overcome existing barriers to LEV adoption. Under an agreement with LEV manufacturers, up to 160 vehicles of different types are available for test-drives at the Zone, along with educational programming, one-on-one interviews, and outreach. Data and feedback provided by visitors is then relayed to manufacturers and other stakeholders to elicit more specific and strategic promotional initiatives that directly address the concerns of potential buyers and Shanghai residents.\n Results \n The EV Zone has already provided up to 80,000 free test-drives, along with an established fleet of 160 cars from which it acquires performance and usage data. The Zone has plans to expand into the Pudong region in the near future.\n Reasons for success \n The Zone is dedicated to establishing strong integration of LEVs and people’s lives in the city through direct and interpersonal interactions that cater to the specific needs and concerns of visitors to the Zone. The usage data collection strategy has led to significant achievements in educating drivers about the links between their daily usage patterns and the benefits of purchasing LEVs, popularising the free test-driving opportunities the Zone provides city residents.\n When/why a city might adopt an approach like this \n Cities where purchasing LEVs is viable, even under early market conditions, or that have potential for significant presence of the LEV industry can look towards the Demonstration Zone as an option for integrating production, awareness raising, and adoption of LEVs.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Creditworthiness Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The EV Zone has already provided up to 80,000 free test-drives, along with an established fleet of 160 cars from which it acquires performance and usage data. The Zone has plans to expand into the Pudong region in the near future.\n\nThe Zone is dedicated to establishing strong integration of LEVs and people’s lives in the city through direct and interpersonal interactions that cater to the specific needs and concerns of visitors to the Zone. The usage data collection strategy has led to significant achievements in educating drivers about the links between their daily usage patterns and the benefits of purchasing LEVs, popularising the free test-driving opportunities the Zone provides city residents.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27166",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

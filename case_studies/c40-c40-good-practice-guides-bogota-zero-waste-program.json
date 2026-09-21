@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-bogota-zero-waste-program",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-bogota-zero-waste-program/",
   "title": "C40 Good Practice Guides: Bogotá – Zero Waste Program",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bogota",
+      "label": "Bogotá"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Bogotá’s Zero Waste Programxvii was created to achieve a change of cultural behaviour and waste perception among citizens. The…",
+    "measures": "Summary \n Bogotá’s Zero Waste Program xvii was created to achieve a change of cultural behaviour and waste perception among citizens. The aim was to privilege conscious consumption and a strong recycling policy for the city, while making sure the informal “recyclers” are integrated into the social and economic structure of the city, dignified for their labour and remunerated appropriately. The Zero Waste program, which was integrated in the city’s Development Program “Bogotá Humana” in 2012, has 6 priority areas: 1) Separation at source; 2) Manufacturers’ extended responsibility; 3) Recycling model; 4) Reduction of disposal in city landfill; 5) Zero debris; and 6) Hazardous and special waste management.\n Results \n The Zero Waste Program created a legal framework for a social inclusion plan and evolution of the established solid waste collection and disposal system into one that privileges the ‘reduce-reuse-recycle’ model, conscious consumerism, and social inclusion. The goal for 2016 is to divert at least 20% of solid waste from landfill. The social inclusion of recyclers in particular was designed to address the challenges they were facing, such as a lack of transparent organization and often violent competition between recyclers; a lack of technical training; a lack of information about their basic rights; a significant percentage facing homelessness; and cases of child labour or lack of schooling.\n The Zero Waste Program not only contributes to the integration of informal workforce, better waste management and waste reduction (about 1 ton/day of usable materials have been recycled), but also has multiple co-benefits, including a reduction in the cost of waste collection service by 15.23%; better health protection for recyclers through the distribution of about 12,000 protection kits in 2015 by the UAESP (City Public Service Special Administrative Unit responsible for waste management); and power generation at the Doña Juana Landfill biogas plant (39.69 MW monthly average production in 2014), which also leads to CO 2 emissions reduction of about 700,000 tons/year.\n Reasons for success \n The project successfully used the existing informal infrastructure to build an integrated waste collection model, while providing livelihoods to local communities. It also recognized the potential and necessity of behaviour change to achieve a mature and cost-effective waste management system.\n When/why a city might adopt an approach like this \n Cities with an existing informal waste collection economy can adopt this approach to integrate existing infrastructure and workers at lower costs than establishing new systems. All cities should include an education and awareness-raising element to motivate behaviour change among urban citizens and help build a sustainable modern waste management/ resource valuation system. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Sustainable Solid Waste Systems Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The Zero Waste Program created a legal framework for a social inclusion plan and evolution of the established solid waste collection and disposal system into one that privileges the ‘reduce-reuse-recycle’ model, conscious consumerism, and social inclusion. The goal for 2016 is to divert at least 20% of solid waste from landfill. The social inclusion of recyclers in particular was designed to address the challenges they were facing, such as a lack of transparent organization and often violent competition between recyclers; a lack of technical training; a lack of information about their basic rights; a significant percentage facing homelessness; and cases of child labour or lack of schooling.\n The Zero Waste Program not only contributes to the integration of informal workforce, better waste management and waste reduction (about 1 ton/day of usable materials have been recycled), but also has multiple co-benefits, including a reduction in the cost of waste collection service by 15.23%; better health protection for recyclers through the distribution of about 12,000 protection kits in 2015 by the UAESP (City Public Service Special Administrative Unit responsible for waste management); and power generation at the Doña Juana Landfill biogas plant (39.69 MW monthly average production in 2014), which also leads to CO 2 emissions reduction of about 700,000 tons/year.\n\nThe project successfully used the existing informal infrastructure to build an integrated waste collection model, while providing livelihoods to local communities. It also recognized the potential and necessity of behaviour change to achieve a mature and cost-effective waste management system.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-bogota-zero-waste-program/",
     "publication_date": "2016-02-08",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27074",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-bogota-zero-waste-program&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

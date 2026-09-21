@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-extrema-emergency-notification-system-for-extreme-temperatures",
   "url": "https://www.c40.org/case-studies/extrema-emergency-notification-system-for-extreme-temperatures/",
   "title": "EXTREMA – Emergency Notification System for Extreme Temperatures",
@@ -26,6 +26,31 @@
   "hazards": [
     "heatwave"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "athens",
+      "label": "Athens"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Athens implemented an innovative system to reach out to city residents during extreme weather events that are becoming more frequent globally as a result of climate change.",
+    "measures": "EXTREMA project aims to improve city resilience to extreme temperature events . Such events can cause many excess deaths and are projected to become more pronounced due to climate change. To maintain an acceptable quality of life for the foreseeable future, cities must increase the population’s resilience to extreme temperatures by establishing disaster risk reduction actions and by building the capacity of the population to anticipate and respond to disasters. \n EXTREMA project envisions a new innovative and effective approach that aims to exploit the high penetration of smartphones in Europe to implement a digital infrastructure in the form of a mobile application for the public, and an administration Dashboard for the local authorities. The mobile app evaluates the real-time personalised health risk of the user at his/her location, and if high, it alerts him/her and provides recommendations and routing instructions to the nearest cooling centres. The Dashboard provides information and tools to the authorities to manage the disaster: (1) next day alerts, (2) current hazard maps, and (3) an information management tool for the cooling centres. \n What is the innovation/policy/project/technology? How does it work \n EXTREMA uses real-time satellite data, along with other model and city-specific data to estimate the temperature, humidity, and discomfort index for every square kilometer in the city. Temperature estimates are updated every 5 minutes, providing data at a spatial and temporal resolution that is not available from any other service. \n EXTREMA connects vast networks of individuals over vast geographical areas (continental and later global scale) and facilitates fast flows of information. It also exploits the high penetration of smartphones and turns it into a digital infrastructure that can be used in Disaster Risk Reduction (DRR )to raise awareness, facilitate risk communication with the general public, and help build resilient communities.\n At city scale, the National Observatory of Athens (Public Research Centre) coordinates EXTREMA and collaborates with the City of Athens, the Medical School of the National Kapodistrian University of Athens and ARATOS-Systems. The Resilience and Sustainability Department (RSD) and DAEM SA- IT company of the city of Athens in collaboration with numerous municipal Agencies (Department of Childhood, Education and Lifelong Learning, Urban Nature, Social Solidarity and Health, Building Infrastructure) delivered and constantly updates the detailed map of Cooling centres of the municipal buildings that appear in the application. The Department of Social Solidarity and Health provided 9 of the 25 Municipal Elderly Centers and other air-conditioned places to be used during heatwave events for people in need in order to be protected from the extreme high-temperature weather events. Moreover, Near Field Communication (NFC) tags referring to “Cool Athens” campaign have been installed with the cooperation with the Athens Coordination Center for Migrant and Refugee issues (ACCMR) and international and local NGOS.\n EXTREMA project is funded by 75% by the Directorate‑General for European Civil Protection and Humanitarian Aid of the European Commission (EC). 25% is funded by own contribution of the partners. The project success stems from the establishment of strong links between different communities, e.g. policy-makers with scientists and stakeholders that result to better informed and more effective Disaster Risk Reduction actions and further cooperation on building community resilience. The financial support from the EC provided the necessary means to set up EXTREMA at European level. Starting from Athens, EXTREMA is being promoted as a success story via international city networks (C40, 100 Resilient Cities, and iCLEI).\n What are the climate risk reduction goals/achievements? \n EXTREMA goals are: \n To help foster a culture of self-protection by making available and easily accessible real-time personalised risk assessments, \n To enhance the risk management and planning capability of cities, \n To address the global targets and priorities for actions set in United Nations’ (UN) Sendai framework for disaster risk reduction (SFDRR), in particular: – To provide actionable information to the authorities to design prevention actions for reducing the number of affected people and the loss of life (i.e. SFDRR’s 1st and 2nd global target) due to climate change, – To increase the availability of, and access to, climate change risk information and assessment to people (i.e. SFDRR’s 4th and 7th global targets, respectively).\nEXTREMA also contributes towards understanding of climate change risk through the collection, analysis, management and dissemination of in-situ and space data relevant to extreme temperature. These can help develop more effective prevention policies and actions.\n EXTREMA has also improved city-to-city and cross border collaboration for climate change risk and in particular with regards to heat waves. Six constituencies – Athens, Paris, Rotterdam, Milan, Lisbon and the Island of Mallorca – have endorsed EXTREMA services, have learnt from each other and have worked to mitigate the heatwave impacts by enhancing the capacities of the people to anticipate heat, respond appropriately, and provide them with a network of cooling centres (outdoor and indoors, parks, municipal air conditioned buildings, free drinking water spots, fountains, water games and much more).\n Next Steps \n New mobile application version has been updated with all cities now sharing the same application platform. Following the overview of outreach and feedback, more cooling centers will be identified and provided through the updated application platform. \n Links to further Information \n More info: https://extrema.space/",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/extrema-emergency-notification-system-for-extreme-temperatures/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27470",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=extrema-emergency-notification-system-for-extreme-temperatures&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

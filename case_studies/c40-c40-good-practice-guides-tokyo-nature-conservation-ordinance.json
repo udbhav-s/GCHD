@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-tokyo-nature-conservation-ordinance",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-nature-conservation-ordinance/",
   "title": "C40 Good Practice Guides: Tokyo – Nature Conservation Ordinance",
@@ -26,6 +26,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tokyo",
+      "label": "Tokyo"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Since 2000, the City of Tokyo has been taking measures to mitigate the impacts of the urban heat island…",
+    "measures": "Summary \n Since 2000, the City of Tokyo has been taking measures to mitigate the impacts of the urban heat island effect, including covering roofs and walls with greenery in order to lower the surface temperature of buildings. To further these efforts, the Tokyo Metropolitan Government passed the Nature Conservation Ordinance in 2001 xxxix , requiring the greening of building roofs and walls in addition to ground-level greenings for all new construction and existing buildings undergoing renovations.\n Results \n The building sector is heeding local government’s requirements to implement green roofs. Thanks to the Ordinance, more than 5,700 new or existing buildings have added about 180 hectares (1,800,000 m 2 ) of green roofs. Promoting the greening of existing buildings has proven to be an effective measure to counter the heat island effect. Research done in 2004 showed that new light-weight green roofs applied to existing buildings could lower the surface temperature by 25 degrees Celsius and ceiling temperature by 1 to 3 degrees Celsius even under thermal insulation.\n Reasons for success \n In this case, strong regulatory authority that enabled a mandatory requirement to implement green roofs was heeded by the building sector. The Tokyo Metropolitan Government also did media outreach and advertised the Conservation Ordinance and compliance requirements widely.\n When/why a city might adopt an approach like this \n This type of approach works best when a city has strong legislative authority and enforcement over the building sector. Apart from that, having a strong regulatory authority to ensure adoption of the regulation – and if necessary enforcement of the regulation – Is crucial to the success of similar measures.\n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Cool Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The building sector is heeding local government’s requirements to implement green roofs. Thanks to the Ordinance, more than 5,700 new or existing buildings have added about 180 hectares (1,800,000 m 2 ) of green roofs. Promoting the greening of existing buildings has proven to be an effective measure to counter the heat island effect. Research done in 2004 showed that new light-weight green roofs applied to existing buildings could lower the surface temperature by 25 degrees Celsius and ceiling temperature by 1 to 3 degrees Celsius even under thermal insulation.\n\nIn this case, strong regulatory authority that enabled a mandatory requirement to implement green roofs was heeded by the building sector. The Tokyo Metropolitan Government also did media outreach and advertised the Conservation Ordinance and compliance requirements widely.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-nature-conservation-ordinance/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27077",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-tokyo-nature-conservation-ordinance&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

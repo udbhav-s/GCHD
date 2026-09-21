@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation",
   "url": "https://www.c40.org/case-studies/cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation/",
   "title": "Cities100: Yokohama – Recognizing Ecosystem Services for Climate Adaptation",
@@ -28,6 +28,36 @@
     "heatwave",
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "yokohama",
+      "label": "Yokohama"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Torrential downpours and heat waves have become more common in Yokohama in recent years. As the impacts become increasingly serious, the city has implemented adaptation measures to minimize damage and to create a safe, secure, and sustainable city.",
+    "measures": "Yokohama is introducing a new climate adaptation strategy aiming to improve urban resilience and mainstream adaptation into all city policies. Within the strategy, concrete actions are proposed in response to climatic changes such as increased downpours and extreme heat events. One such action is to install more than 1,000 infiltration inlet systems by 2018, to separate stormwater and wastewater flows, improving flood response. Other actions include hazard mapping and disaster mitigation, improving infrastructure around the city's rivers and sewerage system, and issuing public reminders about heat stroke prevention. Under the policy, in efforts to conserve the city's green environment, is the Yokohama Green Tax, which collects $116 million yearly, enabling protection of rivers, waterways, forests, parks, and farmlands. Including the taxation income, the city plans to invest $433 million over the next five years to increase conserved forest areas by an extra five million m2, increase rice paddies by 1.2 million m2, and establish a public agriculture farm which will all add to the natural climate resiliency of the city.\n Social Benefits – Part of the policy is the Yokohama Green-up Plan, in which elementary school students participate in greening around the city and help promote environmental efforts.\n Health Benefits – The city issues caution alerts for heat stroke and infectious disease prevention via media channels and with the help from the public.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27302",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

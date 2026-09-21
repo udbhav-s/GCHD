@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-tshwane-specialist-assistance-sustainability-unit",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-tshwane-specialist-assistance-sustainability-unit/",
   "title": "C40 Good Practice Guides: Tshwane – Specialist assistance Sustainability Unit",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "tshwane",
+      "label": "Tshwane"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The City of Tshwane established the City Sustainability Unit in 2013xliii. Located within the Office of the Executive Mayor,…",
+    "measures": "Summary \n The City of Tshwane established the City Sustainability Unit in 2013 xliii . Located within the Office of the Executive Mayor, its mandate is to assist the city in “developing a green economy strategy for the city and guide the process of transitioning into a low carbon, resource efficient and climate resilient city in line with the objectives and targets set in the Tshwane Vision 2055.” xliv The unit’s role is to coordinate between departments and assist in facilitating access to external funding for green economy projects, including municipal building efficiency.\n Results \n The City Sustainability Unit works in collaboration with other departments to implement their own green economy projects guided by the Vision 2055 xlv . It has the benefit of addressing crosscutting issues and discouraging a silo approach in the different city departments. The unit also implements test cases and demonstration programmes (including introduction of new technologies) and hands these over to the relevant departments once a project is at a mature stage in development. The Unit also works to enhance the level of awareness and capacity for local representatives and citizens through stakeholder programmes and collaborative partnerships. A sustainability task team of representatives from key departments has been established within the Unit to align the different green economy programmes of the city by enabling inter-departmental communication and collaboration on crosscutting projects and streamline energy efficiency throughout the city initiatives.\n Reasons for success \n The success of the City Sustainability Unit comes from Tshwane’s recognition of sustainability and energy efficiency as an issue integral to all sectors and municipal agencies. The Unit builds on its inter-departmental and crosscutting approach, centralising and spreading expertise, policy support, and technology innovation. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Municipal Building Efficiency Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "The City Sustainability Unit works in collaboration with other departments to implement their own green economy projects guided by the Vision 2055 xlv . It has the benefit of addressing crosscutting issues and discouraging a silo approach in the different city departments. The unit also implements test cases and demonstration programmes (including introduction of new technologies) and hands these over to the relevant departments once a project is at a mature stage in development. The Unit also works to enhance the level of awareness and capacity for local representatives and citizens through stakeholder programmes and collaborative partnerships. A sustainability task team of representatives from key departments has been established within the Unit to align the different green economy programmes of the city by enabling inter-departmental communication and collaboration on crosscutting projects and streamline energy efficiency throughout the city initiatives.\n\nThe success of the City Sustainability Unit comes from Tshwane’s recognition of sustainability and energy efficiency as an issue integral to all sectors and municipal agencies. The Unit builds on its inter-departmental and crosscutting approach, centralising and spreading expertise, policy support, and technology innovation.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-tshwane-specialist-assistance-sustainability-unit/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27121",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-tshwane-specialist-assistance-sustainability-unit&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

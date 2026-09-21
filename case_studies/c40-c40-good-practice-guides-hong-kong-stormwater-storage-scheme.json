@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-hong-kong-stormwater-storage-scheme",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-stormwater-storage-scheme/",
   "title": "C40 Good Practice Guides: Hong Kong – Stormwater Storage Scheme",
@@ -23,6 +23,31 @@
     "river_flood",
     "tropical_storm"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hong-kong-china",
+      "label": "Hong Kong, China"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary On average, Hong Kong is affected by about six tropical cyclones between April and October each year causing extremely…",
+    "measures": "Summary \n On average, Hong Kong is affected by about six tropical cyclones between April and October each year causing extremely heavy rainfall and their duration and strength is projected to increase with climate change. The annual average rainfall is about 2,400 mm and a record high rainfall intensity of 145 mm per hour was set in 2008. During these rainstorms, urban and rural low-lying areas and natural floodplains in the northern part of the territory face the risk of flooding, with rainwater management being complicated by the high speed of runoff due to the steep terrain in Hong Kong. The Drainage Services Department of the Government of the Hong Kong Special Administrative Region has been addressing the threats of heavy rainfall by expanding and improving the existing drainage, pumping and storage systems through detailed hydraulic analysis of different drainage basins in the Drainage Master Plan Studies xxix .\n Results \n Upon the completion of these Studies between 1994 and 2010, Hong Kong constructed four storm water drainage tunnels to intercept the runoff at uphill catchments, built 27 village polders, 3 urban underground stormwater storage schemes, 360 km of trained (directed and slowed-down) river channels, and 2,400 km of drainage pipes for effective stormwater conveyance. The Happy Valley Underground Stormwater Storage Scheme, composed of storage tanks beneath several sports fields with a capacity of 60,000 m3, is currently under construction. The first phase of the scheme was completed in early 2015 with half of its design capacity (30,000 m 3 ) commissioned. The above measures are complemented by sustainability and ecology considerations. Since last decade, Hong Kong has included greening and ecological enhancement in many of the river improvement works. The once channelized streams, such as Ho Chung River, Upper Lam Tsuen River and Kai Tak River, are gradually being revitalised into green rivers. More revitalisation projects such as Tsui Ping River and Yuen Long Nullah are under planning.\n Reasons for success \n With a population of 7 million and land area of around 1,100 km 2 , Hong Kong is extremely compact with high potential negative impacts from flooding, which drives the prioritisation of adaptation measures by the local government, committed to protecting the city through holistic urban planning. Hong Kong’s success in managing the flooding risks is attributed to the comprehensive Drainage Master Plan Studies (between 1994-2010), the subsequent Review Studies (since 2008) and continuous drainage infrastructure upgrade.\n When/why a city might apply an approach like this \n All cities need to understand the flow of water expected during major rainfall events and the natural water catchment areas. With urban infrastructure, these natural catchment areas can be augmented or re-routed as needed, based on land-use and vulnerable populations or infrastructure characteristics. In many cases, new rainwater management infrastructures can be multi-functional – as in the case of city roads in Copenhagen or the sports fields in Hong Kong. A city that is planning major infrastructure maintenance or overhaul has a particular opportunity to employ this approach. \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Climate Change Adaptation in Delta Cities Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Upon the completion of these Studies between 1994 and 2010, Hong Kong constructed four storm water drainage tunnels to intercept the runoff at uphill catchments, built 27 village polders, 3 urban underground stormwater storage schemes, 360 km of trained (directed and slowed-down) river channels, and 2,400 km of drainage pipes for effective stormwater conveyance. The Happy Valley Underground Stormwater Storage Scheme, composed of storage tanks beneath several sports fields with a capacity of 60,000 m3, is currently under construction. The first phase of the scheme was completed in early 2015 with half of its design capacity (30,000 m 3 ) commissioned. The above measures are complemented by sustainability and ecology considerations. Since last decade, Hong Kong has included greening and ecological enhancement in many of the river improvement works. The once channelized streams, such as Ho Chung River, Upper Lam Tsuen River and Kai Tak River, are gradually being revitalised into green rivers. More revitalisation projects such as Tsui Ping River and Yuen Long Nullah are under planning.\n\nWith a population of 7 million and land area of around 1,100 km 2 , Hong Kong is extremely compact with high potential negative impacts from flooding, which drives the prioritisation of adaptation measures by the local government, committed to protecting the city through holistic urban planning. Hong Kong’s success in managing the flooding risks is attributed to the comprehensive Drainage Master Plan Studies (between 1994-2010), the subsequent Review Studies (since 2008) and continuous drainage infrastructure upgrade.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -31,7 +56,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-hong-kong-stormwater-storage-scheme/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27152",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-hong-kong-stormwater-storage-scheme&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

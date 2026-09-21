@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-retrofitting-and-adapting-the-slussen-lock-stockholm-sweden",
   "url": "https://www.c40.org/case-studies/retrofitting-and-adapting-the-slussen-lock-stockholm-sweden/",
   "title": "Retrofitting and adapting the slussen lock",
@@ -31,6 +31,31 @@
     "river_flood",
     "coastal_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "stockholm",
+      "label": "Stockholm"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The New Slussen project and reconstruction is vital for the entire Stockholm region around Lake Mälaren. The New Slussen will both protect key infrastructure from flooding, and secure the drinking water basin for two million people.\n The project will redesign and retrofit the existing 80-year-old structure. Intended to last for another 100 years, the new facility incorporates elements of climate resilience and flexibility by design. The foundations of the New Slussen facility will be oversized for current conditions in order to bear the heavier loads from rising sea levels and the higher flood gates that are projected to become necessary from 2050 onwards.",
+    "measures": "The Stockholm area is subjected to two opposing forces: rising water levels in the Baltic Sea related to climate change, and a geological process known as ‘land uplift’ causing its land to rise.\n The New Slussen lock has been designed for what has been deemed an acceptable level of risk. The level of risk New Slussen can withstand from the Lake Mälaren and the Baltic Sea bay is:\n • a 1-in-10,000 year inflow of freshwater into the lake (from extreme rainfall and rapid snow melt, for instance) combined with a rise in the mean water level of the Baltic Sea by the year 2100;\n • a 1-in-300 year event of maximum high tide position in the Baltic Sea in combination with the highest, but not the most probable, projected sea level rise due to climate change over the next 100 years (0.5m), and a local rise in sea level due to strong wind.\n This means that the New Slussen facility can cope with a sea level that is over two metres higher than today’s average water level in the Baltic Sea bay (Saltsjön). The project includes three main measures which will make the asset, the City of Stockholm and the Mälardalen region, more resilient to climate change:\n • Addressing the current and future flood risk due to climate change around the Lake Mälaren by increasing the lock’s drainage capacity from 300 m3/s to 1,400 m3/s by widening and deepening its existing channels. Overall, New Slussen more than doubles the total discharge capacity of Lake Mälaren.\n • Building in climate adaption and flexibility in the project’s design to accommodate higher flood risk levels, by ‘oversizing’ the foundations for the whole facility and to support the heavier water loads from the sea and the higher flood gates that will become necessary from 2050 onwards.\n • Developing a new water regulation plan to account for climate change impacts. In addition, this plan integrates a new system of hydrological monitoring and forecasting, led by SMHI, to allow the regulation of water levels in the lake to be more responsive.",
+    "outcomes": "If the sea level of the Baltic Sea outside Stockholm continues to rise above half a metre, there will be a need for more actions to be taken on a larger regional scale. One such action could be to install barriers outside the city of Stockholm in the Stockholm archipelago.\n This would address future unacceptable flooding risks and could be a possible future complement to increased discharge capacity.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "The Stockholm area is subjected to two opposing forces: rising water levels in the Baltic Sea related to climate change, and a geological process known as ‘land uplift’ causing its land to rise.\n The New Slussen lock has been designed for what has been deemed an acceptable level of risk. The level of risk New Slussen can withstand from the Lake Mälaren and the Baltic Sea bay is:\n • a 1-in-10,000 year inflow of freshwater into the lake (from extreme rainfall and rapid snow melt, for instance) combined with a rise in the mean water level of the Baltic Sea by the year 2100;\n • a 1-in-300 year event of maximum high tide position in the Baltic Sea in combination with the highest, but not the most probable, projected sea level rise due to climate change over the next 100 years (0.5m), and a local rise in sea level due to strong wind.\n This means that the New Slussen facility can cope with a sea level that is over two metres higher than today’s average water level in the Baltic Sea bay (Saltsjön). The project includes three main measures which will make the asset, the City of Stockholm and the Mälardalen region, more resilient to climate change:\n • Addressing the current and future flood risk due to climate change around the Lake Mälaren by increasing the lock’s drainage capacity from 300 m3/s to 1,400 m3/s by widening and deepening its existing channels. Overall, New Slussen more than doubles the total discharge capacity of Lake Mälaren.\n • Building in climate adaption and flexibility in the project’s design to accommodate higher flood risk levels, by ‘oversizing’ the foundations for the whole facility and to support the heavier water loads from the sea and the higher flood gates that will become necessary from 2050 onwards.\n • Developing a new water regulation plan to account for climate change impacts. In addition, this plan integrates a new system of hydrological monitoring and forecasting, led by SMHI, to allow the regulation of water levels in the lake to be more responsive."
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -39,7 +64,12 @@
     "document_url": "https://www.c40.org/case-studies/retrofitting-and-adapting-the-slussen-lock-stockholm-sweden/",
     "publication_date": "2018-05-25",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27394",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=retrofitting-and-adapting-the-slussen-lock-stockholm-sweden&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-c40-good-practice-guides-singapore-pedestrian-links",
   "url": "https://www.c40.org/case-studies/c40-good-practice-guides-singapore-pedestrian-links/",
   "title": "C40 Good Practice Guides: Singapore – Pedestrian Links",
@@ -20,6 +20,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "singapore",
+      "label": "Singapore"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary Singapore has introduced urban design guidelines to encourage the provision of new through-block pedestrian links and view corridors within…",
+    "measures": "Summary \n Singapore has introduced urban design guidelines to encourage the provision of new through-block pedestrian links and view corridors within selected developments in order to break down the scale and improve permeability of street blocks. xxv The overall pedestrian network in Singapore includes covered walkways, linkways as well as through-block links, and has been designed to be three-dimensional with key routes linking upper and basement levels in addition to at-grade pathways. Specific design guidelines have also been implemented on some key sites, alongside minimum widths and heights of through-block links.\n Results \n Downtown Singapore has been planned as a pedestrian-friendly area. The city features a comprehensive network of pathways that provide convenient connections between developments, transport nodes, and key facilities. Due to strong design guidelines, the pedestrian networks have been planned for an enhanced walking experience, with the inclusion of awnings being particularly important to protect walkers from the extreme sunshine and rainfall typical to the climate of Singapore.  \n Reasons for success \n The provision of through-block links is guided by a set of planning parameters and urban design guidelines used to assess development proposals. In addition, further incentives are given by exempting linkages from Gross Floor Area calculations if they form part of the larger pedestrian network.  \n When/why a city might adopt an approach like this \n Cities with large footprint buildings might adopt through-block policies to provide more permeable urban environment and convenient walking routes, encouraging pedestrian activity. In addition, cities with inclement weather could benefit from the three-dimensional pedestrian network approach of Singapore by providing links on upper and basement levels, and covered paths for a sheltered and more comfortable experience.  \n C40 Good Practice Guides \n C40's Good Practice Guides offer mayors and urban policymakers roadmaps for tackling climate change, reducing climate risk and encouraging sustainable urban development. With 100 case studies taken from cities of every size, geography and stage of development around the world, the Good Practice Guides provide tangible examples of climate solutions that other cities can learn from. \n The Transit Oriented Development Good Practice Guide is available for download here . The full collection of C40 Good Practice Guides is available for download here . \n All references can be found in the full guide.",
+    "outcomes": "Downtown Singapore has been planned as a pedestrian-friendly area. The city features a comprehensive network of pathways that provide convenient connections between developments, transport nodes, and key facilities. Due to strong design guidelines, the pedestrian networks have been planned for an enhanced walking experience, with the inclusion of awnings being particularly important to protect walkers from the extreme sunshine and rainfall typical to the climate of Singapore.\n\nThe provision of through-block links is guided by a set of planning parameters and urban design guidelines used to assess development proposals. In addition, further incentives are given by exempting linkages from Gross Floor Area calculations if they form part of the larger pedestrian network.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -28,7 +53,12 @@
     "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-singapore-pedestrian-links/",
     "publication_date": "2016-02-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27136",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=c40-good-practice-guides-singapore-pedestrian-links&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

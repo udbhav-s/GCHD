@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-buenos-aires-environmental-education-targets-low-income-youth",
   "url": "https://www.c40.org/case-studies/cities100-buenos-aires-environmental-education-targets-low-income-youth/",
   "title": "Cities100: Buenos Aires – Environmental Education Targets Low-Income Youth",
@@ -28,6 +28,36 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Buenos Aires faces a number of challenges associated with climate change and urbanization, notably air and water pollution particularly in underprivileged neighborhoods. The Green Schools Program aims to alleviate socioeconomic inequalities in the city and boost climate resilience by focusing on environmental education and equipping the city’s low-income youth with waste management and urban gardening skills.",
+    "measures": "Buenos Aires’ Green Schools Program seeks to provide the city’s youth, particularly in low-income neighborhoods, with education about four key sustainability themes: integrated waste management, environmental health, energy efficiency and renewable energy, and climate change. The program offers both direct learning opportunities for students, as well as strategies to improve the teaching methods around these themes. The program is already achieving impressive results. In 2016, more than 2,500 schools and 588,000 students had already participated in the Green Schools Program’s integrated waste management initiative, and more than 16,000 supervisors, managers, teachers, and assistants were trained under Green Schools Program principles. One-fourth of the program’s resources are dedicated specifically to Buenos Aires’ poorer southern neighborhoods, ensuring that socioeconomic disparities do not impact environmental education. These targeted programs include the creation of hydroponics gardens at schools near the polluted Mantanza River, in order to avoid the area’s heavily contaminated soil, and ensuring students not only have access to healthy, fresh, and safe food, but also learn about the importance of safe waste disposal and gardening practices.\n Environmental Benefits – Under the program, 35 schools have renewable energy installations and six boast green roofs.\n Social Benefits – The Green Schools Program encourages all schools, students, and teachers to share their experiences in order to improve services and outcomes.\n Economic Benefits – The program helps schools save money by reducing electricity, water, and energy use expenses.\n Health Benefits – By learning the principles of gardening, hydroponics, and local food production, students are introduced to healthy eating and sustainability practices.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +66,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-environmental-education-targets-low-income-youth/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27235",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-environmental-education-targets-low-income-youth&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:23",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

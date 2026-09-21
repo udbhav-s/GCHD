@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-johannesburg-mainstreaming-climate-action-to-lower-co2",
   "url": "https://www.c40.org/case-studies/cities100-johannesburg-mainstreaming-climate-action-to-lower-co2/",
   "title": "Cities100: Johannesburg – Mainstreaming Climate Action to Lower CO2",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "johannesburg",
+      "label": "Johannesburg"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Eighty-seven percent of South Africa's energy came from fossil fuel in 2014. Instead of producing an energy-centric, short-term policy to cut emissions, South Africa has instead mainstreamed mitigation into all aspects of society, creating a more holistic approach.",
+    "measures": "In 2006, Johannesburg developed its first strategy for long-term growth and development, envisioning a resilient and sustainable city. To deliver on this vision, the city has introduced the Climate Change Strategic Framework (CCSF). The purpose of the CCSF is to strengthen the city's organization in its delivery on climate change action across sectors internally in the municipality and between communities, businesses, and citizens in the city. As part of the CCSF, Johannesburg aims to mainstream climate action in the city. Measuring greenhouse gas emissions will take a bottom-up approach, with a joint effort between the municipality's departments as well as from business and communities. The city will make use of C40's modeling tool 'CURB,' which helps cities and local climate planners better understand the energy and emission implications of different low-carbon interventions in order to implement those most appropriate for Johannesburg. In doing so, Johannesburg hopes to see a unified city working towards a greener and more resilient future together.\n Environmental Benefits – Working towards significantly reducing its CO2 emissions, Johannesburg will undertake projects that will benefit the overall environment of the city.\n Economic Benefits – Johannesburg issued $143 million worth of green bonds in 2014 for climate mitigation investments, which will feed into the holistic climate action strategy.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-mainstreaming-climate-action-to-lower-co2/",
     "publication_date": "2017-09-14",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27335",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-johannesburg-mainstreaming-climate-action-to-lower-co2&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:21",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

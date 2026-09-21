@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-cape-town-building-trust-in-solar-water-heating",
   "url": "https://www.c40.org/case-studies/cities100-cape-town-building-trust-in-solar-water-heating/",
   "title": "Cities100: Cape Town – Building Trust in Solar Water Heating",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "cape-town",
+      "label": "Cape Town"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Cape Town has a high carbon foot-print relative to other similar-sized cities, driven by electricity sourced largely from coal-fired power stations. Solar water heaters have the potential to significantly reduce electricity consumption, but recently a national rebate for solar water heaters was suspended. The Accredited Solar Water Heater Programme has successfully addressed the lack of trust in providers, which has spurred the market and increased installation of solar heaters.",
+    "measures": "The residential sector uses 37% of the total electricity consumed in Cape Town, and water heating is one of the highest energy users in the city’s homes. Cape Town’s Accredited Solar Water Heater Programme promotes installation of solar water heaters among middle-class home owners, replacing electric water heaters that are typically responsible for about 40% of the electricity used in residences. Lack of trust in suppliers was identiﬁed as a main barrier for consumers to install solar water heaters, which the city addressed by vetting providers and accrediting those meeting rigorous standards for competence and customer service.\n With steeply rising electricity tariffs, the investment case for solar water heaters is strong. The Accredited Solar Water Heater Programme actively promotes their use through direct marketing, media advertising, social media channels, and a dedicated website providing easy access to practical information. The results thus far have been remarkable, with 5,729 solar water heaters installed in the ﬁrst 21 months, reducing energy use by 15.9 GWh, and saving residents a total of $2.2 million on utility bills. Information about benefits, installation, and the 20 accredited providers can be easily accessed through a dedicated web-site. Cape Town is investigating whether to expand the Accredited Solar Water Heater Programme to heat pumps and solar photovoltaic systems.\n Environmental Benefits – The use of solar water heaters leads to less coal burned in power plants, reducing air pollution and water use.\n Social Benefits – The installation of solar water heaters under the program has created 158 jobs.\n Economic Benefits – The Accredited Solar Water Heater Programme has contributed $7.7 million to the local economy.\n Health Benefits – The installation of solar water heaters reduces the need for coal-fired power plants, which in turn reduces respiratory diseases for residents living near the plants.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-cape-town-building-trust-in-solar-water-heating/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26962",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-cape-town-building-trust-in-solar-water-heating&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

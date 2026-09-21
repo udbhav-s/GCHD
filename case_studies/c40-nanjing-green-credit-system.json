@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-nanjing-green-credit-system",
   "url": "https://www.c40.org/case-studies/nanjing-green-credit-system/",
   "title": "Nanjing ‘Green Credit’ system",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "nanjing",
+      "label": "Nanjing"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Nanjing has a ‘Green Credit’ system which it promotes in order to engage people of all backgrounds in participating in a low-carbon way of life. Via the My Nanjing APP, it introduced a city-wide, low-carbon travel public service platform.",
+    "measures": "Taking the carbon footprint concept as its basis, the product programme makes the connection between individuals’ low-carbon behaviours and carbon management; a concrete method of credit quantification is determined as well. Citizens’ real-time low-carbon behaviours are recorded and quantified into carbon reductions using green credits granted via the My Nanjing app. Citizens may use the green credits to trade discount and public services and other commodities in the green store.",
+    "outcomes": "Step by step, Nanjing will build a city-wide carbon-inclusive system promotion platform based on the low-carbon travel public service platform and the carbon footprint concept. It will organise the implementation of a carbon-inclusive system pilot programme, further quantify carbon reductions deriving from the low-carbon behaviours of the public, reward members of the public with corresponding credits or carbon coins, and encourage the public to embrace a low-carbon life. We will establish a commercial incentive mechanism to develop financial and fiscal policies that support the promotion of the carbon-inclusive system. We will also encourage financial organisations and business alliances to develop innovative carbon-inclusive financial products such as carbon credits and carbon coins to facilitate the public in enjoying low-carbon rights and interest and credit exchange. We will support financial organisations to build green loans, green securities, green insurance and green trust and thereby to expand the financing channels of low-carbon enterprises.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": "Taking the carbon footprint concept as its basis, the product programme makes the connection between individuals’ low-carbon behaviours and carbon management; a concrete method of credit quantification is determined as well. Citizens’ real-time low-carbon behaviours are recorded and quantified into carbon reductions using green credits granted via the My Nanjing app. Citizens may use the green credits to trade discount and public services and other commodities in the green store."
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/nanjing-green-credit-system/",
     "publication_date": "2018-05-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27386",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=nanjing-green-credit-system&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

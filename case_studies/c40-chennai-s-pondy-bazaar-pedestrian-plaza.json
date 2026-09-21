@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-chennai-s-pondy-bazaar-pedestrian-plaza",
   "url": "https://www.c40.org/case-studies/chennai-s-pondy-bazaar-pedestrian-plaza/",
   "title": "Chennai’s Pondy Bazaar Pedestrian Plaza",
@@ -30,6 +30,36 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "chennai",
+      "label": "Chennai"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "llm_assisted",
+    "evidence_terms": [
+      "children",
+      "youth"
+    ],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "In a traffic study conducted in 2016, it was noted that nearly 5,000 people walk through Pondy Bazaar during peak hours in a day. The 1.4 km stretch, though crowded with retailers and shoppers, lacked basic safety and convenience for pedestrians. There were several issues of broken footpaths, intruding greenery, encroachments by vehicles parked in a haphazard manner, utilities blocking the movement of shoppers, broad carriageways narrow walkways, exposed crossings, and no spots for public convenience.\n All the above reasons implied that the central commercial zone was a traffic hazard for common people. Moreover, it became a hotspot for petty crimes such as pickpocketing and also an opportunity for anti-social activities such as molesting and harassment. It was vital to make the experience for the pedestrians a safe, inclusive, happy and vibrant one.\n Other case studies from places such as Times Square in New York and La Rambla in Barcelona showed that busy commercial zones are best experienced by foot. The transformation of the walkways into public recreational space also added to the revenue of those regions. The Pedestrian Plaza was thus conceived with the intent of enhancing the unique shopping experience by reclaiming the public space for shoppers.",
+    "measures": "Some of the key design elements of the Pedestrian Plaza is given below:\n Widened, inclusive footpath: The previous footpath of a narrow 2-3 feet has been widened up to 10 ft in Pondy Bazaar region and up to 6ft in other places. The footpath is designed to include the use of wheelchairs and to block out motorists through the strategic placement of bollards.\n Vibrant seaters: There are clusters of seaters provided in vibrant colours to add to the convenience of pedestrians. It provides a good resting space for senior citizens, women and tired shoppers.\n Child-friendly play equipment: The plaza has simple play equipment at various locations for children to enjoy. It is a safe and inclusive space that adds much joy and vibrancy to the commercial space.\n Lighting: Decorative LED lights have replaced the earlier sodium-vapour lamps. The new lights are energy-efficient and provide a new aesthetic to the plaza. With better lighting, petty crimes can be curbed.\n Trees and planters: Around 60 new trees have been planted along the plaza, including native species such as Punnai, Poovarasu, Mugizham etc. Planter boxes have also been placed close to seating clusters to increase the greenery at eye level.\n Utility design: Smart ducting boxes have been provided for underground utilities so that maintenance work in the future does not curb pedestrian space. On the surface, regular utility/junction boxes have been given aesthetic covers to add to the beauty of the plaza.\n Bicycle sharing: Smart Bike cycle sharing stations have been provided at three locations across the Pedestrian Plaza to promote more non-motorised transport options. The cycles are available for rent at a nominal rate of Rs. 5 for the first hour and Rs. 9 for every additional hour.\n Wall murals: The plaza has been transformed into a public social space by providing colorful wall murals that add to the vibrancy of the space and also provide a calming effect for motorists and pedestrians alike.\n Feeder vehicles: Additionally, battery-operated feeder vehicles are provided in the Pondy Bazaar section of the Pedestrian Plaza for the use of the elderly and for persons with disabilities. There was also a connection created from the Multi-Level Parking Facility to the Thanikachalam Road junction and the rest of the plaza.\n Women’s and men’s lounges: Rotary Club of Madras has collaborated with Chennai Smart City Limited to set up women’s and men’s restrooms with lounges. Additionally, these spaces will also host healthcare professionals often for regular medical check-ups of pedestrians.\n\nThe implementation of Pedestrian Plaza at Sir Theyagraya Road was done across three stretches. The first stretch is 730m from Panagal Park to Thanikachalam Road junction. The second stretch is 380m from Thanikachalam Road junction to Boag Road junction. The third stretch is 450m from Boag Road junction to Mount Road. The project was initiated on 7th May 2018 and was implemented by the Special Projects Department of Greater Chennai Corporation with funding from Chennai Smart City Limited. The project was executed at an overall cost of Rs. 39.86 crores. It was inaugurated on 13th November 2019 by Hon’ble Chief Minister of Tamil Nadu, Thiru Edapadi K Palanisami amidst much fanfare and celebrations.",
+    "outcomes": "The project aims at transforming the street to encourage more people to walk, shop and wander without the fear of accidents. It will enhance pedestrian and cyclist safety, foster community interaction, and boost local businesses. By transforming the shopping street from a car-centric to a people-centric space, the pedestrian plaza will result in better air quality, health, and wellbeing of the users.\n Fear and anxiety surrounding parking, as well as if it will impact the footfall to the area, are common across pedestrian plaza projects throughout the world. However, it is important to note, that so far, none of these businesses have been found to bleed revenue due to limited vehicle space.\n Some of the visible benefits/ positive impacts observed in the few months after the inauguration were:\n Use of public space as recreation zones : The Pedestrian Plaza has already hosted a range of street festivals including prestigious ‘Margazhi’ concerts apart from weekend activities that include storytelling sessions, dance, Zumba, yoga and street music.\n Increase in revenues : Retail shop owners reported an increase in sales by 15-20% during Nov-Feb 20 compared to the sales of the same period in 2017 and 2018.\n Greater safety and mobility of pedestrians : Since children were found playing for longer durations at the play spaces, women and the elderly have had a more convenient shopping experience at the Plaza.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +68,12 @@
     "document_url": "https://www.c40.org/case-studies/chennai-s-pondy-bazaar-pedestrian-plaza/",
     "publication_date": "2021-01-13",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27527",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=chennai-s-pondy-bazaar-pedestrian-plaza&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T11:56:28",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

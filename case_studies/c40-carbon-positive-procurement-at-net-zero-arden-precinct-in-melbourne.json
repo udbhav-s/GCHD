@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne",
   "url": "https://www.c40.org/case-studies/carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne/",
   "title": "Carbon Positive Procurement at Net zero Arden Precinct in Melbourne",
@@ -32,6 +32,31 @@
     "extreme_heat",
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Melbourne is creating a net zero carbon precinct North of its city centre, showcasing best practice standards for environmental, social and economic sustainability for the new communities and buildings.",
+    "measures": "The Arden Urban Renewal Precinct is an under-utilised area to the north of the Melbourne Central Business District that will accommodate 34,000 jobs and 15,000 residents by 2051. Arden will advance Melbourne's strengths as a progressive, innovative and connected local and global city. The new North Melbourne underground station will catalyse Arden's transformation and public transport connectivity, helping to make Arden an exemplar of sustainable urban renewal. \n What is the project? \n The project is looking to draw upon unique precedents at an international scale that will help define exemplar sustainable urban renewal. This includes net zero emissions for energy, waste and transport, 100% renewable energy targets, blue and green infrastructure which celebrates water in the landscape to foster good levels of green infrastructure across the private and public realm to keep Arden healthy and cool. The community and built form within the precinct will aspire to meet the highest attainable star ratings available, using Green Star tools (or equivalent) which will be underpinned by strong governance to ensure continual operational reporting frameworks align to the Arden Vision.\n The mix of private and public land ownership and the opportunity to drive a high level of sustainable change through this mechanism makes the precinct unique at a local scale. Other significant urban renewal areas have a mix that is much lower and therefore it is harder to drive significant sustainable change especially in private land areas where the planning scheme is the only effective mechanism available to drive targeted outcomes. In the Arden precinct, contractual arrangements for the sale or long term lease of public land parcels will allow for strong sustainability incentives such as procuring carbon positive developments. \n What are the CO2 reduction goals and achievements? \n CO2 Reduction: The 5 key opportunity areas related to CO2 reduction in Arden include: \n Zero Carbon Arden – Arden is aiming to become a net zero emissions precinct. With a high percentage of government owned land there is potential to enter into contractual arrangements where emissions reductions can be embedded into the design, construction and operational phases.\n 100 % renewable energy supply – The Arden precinct as a whole will achieve 100 per cent renewable energy supply. Arden will maximise opportunities for decentralised generation of renewable energy locally.\n Healthy and energy efficient buildings – New buildings will be zero carbon by 2030 and will contain low embodied energy and provide shared amenity with the building of the broader community to maximise the benefit of limited space and resources.\n Zero emissions transport – Arden will be a truly transit-orientated development, with the most intensive activity focused around the new North Melbourne Station to realise the greatest outcomes for active transport within the station catchment at Arden.\n Enabling the circular economy – Waste and resource recovery systems will support the delivery of Arden Central's Climate Positive target and whole of precinct Green Star Communities (or equivalent) rating. The urban structure will deliver the equitable access required to support collaborative efforts to conserve and re-use resources.\n Resilience: Arden is Located along the Moonee Ponds Creek and has several lower lying land areas which present challenges in regards to flooding in the urban renewal precinct. With previously developed industrial areas and related infrastructure within the precinct it is also exposed to the urban heat island (UHI) effect. The Arden Climate Response Framework has identified additional two key opportunity areas related to climate change risk which are: \n Integrated Water Management – The Moonee Ponds Creek corridor will be celebrated as a waterway with recreational, environmental and active transport functions and a valued environmental and cultural heritage. Integrated water management and water-sensitive design will reduce flooding risks and make development feasible across the precinct.Innovative design for managing and conserving water will be delivered at the building, street and precinct level and by the public and private sectors. \n Cool and Green – Blue-green infrastructure (combining open space and flood mitigation) will create a distinctive sense of place around water in the landscape, provide open spaces for recreation and biodiversity, and reduce stormwater and flooding risks.\n Air Quality: While there are no specific air pollution reduction goals for the Arden precinct, actions from the below areas will bring air pollution measures benefits: \n Healthy and energy efficient buildings – improving internal air quality \n Zero emissions transport – decreasing the release of pollution in the public realm \n Integrated Water Management – facilitating removal of carbon dioxide in the atmosphere \n Cool and Green – facilitating removal of carbon dioxide in the atmosphere\n Next Steps \n The project has a geographic boundary – however the problems, challenges and resulting ideas for the precinct are aligned to other urban renewal areas within the municipality where precedents can be adapted and replicated to work in parallel precincts.\n Image retrieved from https://www.heraldsun.com.au/news/victoria/plans-to-develop-melbournes-arden-precinct-unveiled/news-story/f71e1e860d699a866d159ecec6f0558d",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -40,7 +65,12 @@
     "document_url": "https://www.c40.org/case-studies/carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne/",
     "publication_date": "2019-12-24",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27474",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

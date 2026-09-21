@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-melbourne-s-growing-green-guide",
   "url": "https://www.c40.org/case-studies/melbourne-s-growing-green-guide/",
   "title": "Melbourne’s Growing Green Guide",
@@ -30,6 +30,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "melbourne",
+      "label": "Melbourne"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Growing Green Guide was released in February 2014 to promote green surfaces and provide technical advice on how to design, build and manage green roofs, walls and facades so they can provide multiple long-term benefits for building owners and the wider community. The Guide has been developed as a first policy response for Melbourne, which is facing a doubling of population over the next 30 years, increased urban heat island from climate change, and is therefore highly at risk from heat-related deaths into the future.",
+    "measures": "The Growing Green Guide (‘the Guide’) is a thoroughly researched, accessible guidebook that promotes green surfaces and explains how to create high quality green roofs, walls and facades to the public and professionals who may be involved in the design, construction and maintenance of them. The guidelines cover benefits for building owners and the public, and provide case studies, in order to broaden awareness and understanding.\n The Guide has been released in conjunction with a Growing Green policy options paper for local councils and state government and a number of demonstration projects. The three-part project is the result of a compilation of evidence from around the world (including programs in Toronto, Portland and Seattle and studies done in Athens and Brazil). As the policy paper indicates, the three-pronged approach aims to exemplify, enable, engage and encourage the implementation of green roofs and walls.\n Led by the City of Melbourne, the project is a joint initiative of the inner Melbourne Action Plan councils (IMAP): Melbourne, Yarra, Stonnington and Port Philip along with the University of Melbourne. This project was funded through the Victorian Government’s Victorian Adaptation and Sustainability Partnership, and through the IMAP Councils.\n\nThe Guide provides practical methods for implementing the policy behind green roofs, walls and facades. It will help to increase the number of high quality, multifunctional green roofs, walls and facades to make our cities more liveable and sustainable. It is relevant to developers, homeowners, and local and state governments, and is targeted at projects based in Melbourne and Victoria, Australia. There are currently around 50 green walls, 100 green roofs and many green facades across Melbourne – and the numbers are growing.",
+    "outcomes": "Currently, Melbourne is introducing green roof and façade elements into the planning schemes at the state level. The next step will be to consider supporting financial incentives for larger and medium size buildings – most likely from charges collected from tree removal – before likely moving on to introduce an ordinance to require a certain amount of greening per development.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/melbourne-s-growing-green-guide/",
     "publication_date": "2015-01-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26940",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=melbourne-s-growing-green-guide&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:26",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

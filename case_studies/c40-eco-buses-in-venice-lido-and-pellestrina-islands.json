@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-eco-buses-in-venice-lido-and-pellestrina-islands",
   "url": "https://www.c40.org/case-studies/eco-buses-in-venice-lido-and-pellestrina-islands/",
   "title": "Eco buses in Venice Lido and Pellestrina Islands",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "venice",
+      "label": "Venice"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Summary The Venice Lido and Pellestrina Island transport system will be fully electric by 2021. 30 eco buses will replace…",
+    "measures": "The eco-buses are equipped with battery packs with a distance of 70 km/day, guaranteed for 7 years and 15,000 charging cycles.",
+    "outcomes": "In the next years, the city will renovate the whole transport fleet. Today the Actv fleet counts on 59 new last generation buses. By the beginning of 2022, 75% of users will travel on new buses. By 2023, there will be around 200 new vehicles. Moreover, the installation of 50 charging stations for private cars is also essential.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/eco-buses-in-venice-lido-and-pellestrina-islands/",
     "publication_date": "2021-01-12",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27524",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=eco-buses-in-venice-lido-and-pellestrina-islands&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-03-18T12:02:38",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

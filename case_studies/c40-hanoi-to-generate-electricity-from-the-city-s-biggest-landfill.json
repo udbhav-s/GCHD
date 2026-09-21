@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-hanoi-to-generate-electricity-from-the-city-s-biggest-landfill",
   "url": "https://www.c40.org/case-studies/hanoi-to-generate-electricity-from-the-city-s-biggest-landfill/",
   "title": "Hanoi to Generate Electricity from The City’s Biggest Landfill",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "hanoi",
+      "label": "Hanoi"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Hanoi Urban Environment Company (URENCO) and partners are aiming to capture and flare landfill gas produced in the Nam Son landfill through an active methane collection system that would greatly reduce GHG emissions and other health- and environment-related risks.",
+    "measures": "With a population of 93 million people, Vietnam generates daily nearly 35,000 tons of urban domestic waste and 34,000 tons of rural domestic waste. In the capital city of Hanoi alone, 10,000 tons of solid waste are generated everyday. Without a sustainable recovery process, waste resources are not being optimised.\n Such resources could be for example utilised to generate electricity. Effective waste treatment for energy generation will help ensure energy security, reduce environmental pollution, and contribute to effective land use and green sustainable economic development.\n Currently, waste-to-energy technologies are becoming a popular solution around the world to reduce emissions from waste while contributing to divert power generation towards alternative energy sources. In Vietnam, the government has also established a range of mechanisms aiming to encourage electricity generation from waste, with all energy-from-waste production being purchased by the national utility company.\n The utilization of landfill gas in power generation is a highly regarded project for its double benefit of reusing waste to produce electricity. It is being piloted in Hanoi, to lead the way in transforming other waste facilities across Vietnam.\n What is the project? How does it work? \n The Hanoi Urban Environment Company (URENCO) and its partners (T&T Group and 3 leading Korean companies) agreed in September 2017 to jointly design, build, finance and operate a facility that will gather, process, and treat methane gas emitted from decomposing garbage to produce electricity, aiming to reduce methane emissions, environmental pollution and dependence on fossil fuels.\n The landfill gas utilization plant will be developed at the Nam Son landfill in the Soc Son District, just outside Hanoi. The waste treatment complex at Nam Son landfill is the largest of its kind in Hanoi, treating around 4,000 metric tons of garbage per day and stretching across 83.5 hectares.\n Following the completion of a feasibility study, the facility is expected to have a total capacity of 5MW.\n The equipment that will be installed includes a gas collection network, an extraction and flaring station including high temperature enclosed flares, and monitoring and control systems.\n What are the CO2 reduction goals? \n It is estimated that the project will achieve emissions reductions of about 128,304 tCO2e/year.\n Next Steps \n Construction is expected to start in 2019 and take 15 months at a cost of US$13.14 million. The plant will be operating for 15 years. At present, the feasibility study for the project is being finalised and submitted to Hanoi People’s Committee for approval.\n Links to further information \n UNFCC: Project 3733 \n Contact Details \n Ms. Vu Thi Thuy\n International Cooperation Department\n Hanoi Urban Environment Company Limited (URENCO) \n No. 282 Kim Ma, Ba Dinh, Hanoi, Vietnam\n Tel: (024)38454807 – Fax: (024)38236384",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/hanoi-to-generate-electricity-from-the-city-s-biggest-landfill/",
     "publication_date": "2019-01-10",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27430",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=hanoi-to-generate-electricity-from-the-city-s-biggest-landfill&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:20",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

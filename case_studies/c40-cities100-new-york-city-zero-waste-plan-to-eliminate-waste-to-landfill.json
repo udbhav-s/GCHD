@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-new-york-city-zero-waste-plan-to-eliminate-waste-to-landfill",
   "url": "https://www.c40.org/case-studies/cities100-new-york-city-zero-waste-plan-to-eliminate-waste-to-landfill/",
   "title": "Cities100: New York City – Zero Waste Plan to Eliminate Waste to Landfill",
@@ -30,6 +30,31 @@
   "hazards": [
     "air_pollution_pm25"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "new-york",
+      "label": "New York"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "More than 6 million tons of waste are disposed of yearly in New York, and with no local landfills, the city’s current solution of trucking waste to out-of-state landfills not only has negative environmental and socialconsequences, but is extremely costly. The zero waste plan will thus limit the city’s CO2 emissions, improve conditions in affected neighborhoods, and save the city a great expense.",
+    "measures": "New York City’s Zero Waste plan is to eventually eliminate the use of landfills. Through a combination of waste reduction, reuse and recycling programs, and wastewater treatment plants with anaerobic digestion that harness food scraps to create energy, the city aims to achieve 90% reduction in waste to landfill and render landfills a thing of the past.\n The city is already well on the way to achieving its goal, as initiatives such as expanding the collection of organics, implementing more zero waste school programs, increasing recycling of textiles and electronics, and reducing the use of non-recyclable materials have led to a 22% drop in emissions from the solid waste sector. Aside from reducing waste, these initiatives will help alleviate another challenge for the city: limiting the number of trucks needed to collect and transport waste to landfills. Reducing the number of these vehicles will minimize neighborhood traffic congestion and limit associated emissions.\n Environmental Benefits – The average New Yorker throws out about 11 kg of waste every week, adding up to 6 million tons of waste per year. Reducing the waste volume will decrease air pollution with fewer trucks transporting waste to landfills.\n Social Benefits – The zero waste plan continues the city’s commitment to reducing the impact of its waste management system on historically overburdened poor and minority communities including, but not limited to, the South Bronx, North Brooklyn, and Jamaica neighborhoods.\n Economic Benefits – Eliminating the transportation of waste to landfills will save the city more than $310 million a year.\n Health Benefits – Waste reduction and less truck traffic will improve pedestrian safety, respiratory health, and overall quality of life.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-zero-waste-plan-to-eliminate-waste-to-landfill/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "26970",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-new-york-city-zero-waste-plan-to-eliminate-waste-to-landfill&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:24",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

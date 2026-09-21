@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-lawrence-palante-safer-cooler-streets",
   "url": "https://www.c40.org/case-studies/lawrence-palante-safer-cooler-streets/",
   "title": "Lawrence Pa’lante: Safer Cooler Streets",
@@ -26,6 +26,31 @@
   "hazards": [
     "extreme_heat"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "lawrence",
+      "label": "Lawrence"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative, Lawrence was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects.",
+    "measures": "As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative , Lawrence was one of six U.S. cities that received support from the Robert Wood Johnson Foundation and C40 Cities to create transformative community-led projects. \n What is Lawrence Pa’lante: Safer Cooler Streets? \n The landscape of Lawrence, Massachusetts, is made up of surfaces that retain heat, such as concrete pavements and buildings. Combined with few green spaces and a heating climate, this creates the ‘urban heat island’ effect. As heat impacts the most vulnerable populations, like the elderly, low-income and outdoor workers, and the chronically ill, many Lawrence residents are at high risk of suffering from extreme heat.\n Public transit options in Lawrence are also limited, meaning long walks without much shade. This pushes many people to drive cars, increasing pollution and reducing people’s physical activity. Due to a combination of factors, Lawrence residents experience many health challenges.\n Lawrence Pa’lante: Safer Cooler Streets is a collaborative project designed to address these connected challenges. Led by the Conservation Law Foundation (CLF), Groundwork Lawrence, and the Pa’lante resident taskforce , the project engages residents to create a cooler, more walkable and connected Lawrence.\n Pa’lante means to “go forward” both literally and metaphorically. This captures the focus of the task force and is an ode to the community of Lawrence, the vast majority of whom have Puerto Rican, Dominican, or other Latin American heritage. The term has historically been used among young activist circles resisting oppressive policies, inspiring hope and community. Out of this spirit, the Pa’lante resident taskforce was born. \n The Lawrence Pa’lante Safer Cooler Streets project team members at the Bennington Triangle. © Groundwork Lawrence \n What has Lawrence Pa’lante: Safer Cooler Streets achieved so far? \n Creating a ‘cool island’ \n A ‘cool island’ is a central meeting place featuring safe walkable areas, shaded streets, and essential services for residents. A heat map was used to understand which areas of Lawrence would benefit from a ‘cool island’.\n The ‘Bennington Triangle’ – a once abandoned gas station and informal parking space – was chosen as a perfect location for a pilot, close to schools and homes.\n Groundwork Lawrence, CLF, and the Pa’lante resident taskforce transformed the area into a vibrant community park and meeting place. The team hosted the ‘Bennington Pop-Up’ for a weekend, creating a green space with free food, plants, seats, picnic tables and city buses for people to try. Some residents rarely, if ever, have ridden the bus in Lawrence. After encouraging feedback from residents, Groundwork Lawrence and community volunteers kept the green space open through winter.\n One year later, the weekend ‘pop-up’ is still there. Groundwork Lawrence is now working with the City of Lawrence to make this essential community space into a public park.\n White Roof Campaign \n Research has shown that dark roofs can get 10–15.5 degrees Celsius (50–60 degrees Fahrenheit) hotter than white- or cooler-coloured roofs. Using studies on the cooling benefits of white roofs, members of the Pa’lante resident taskforce created a white paper and a slide deck to share with Lawrence homeowners. In collaboration with Groundwork, the taskforce is working to secure funding for a white roof pilot with some homeowners in Lawrence. The success will be measured through temperature and satellite readings, paving the way for more cooling roofs in Lawrence.\n The resident taskforce members, Groundwork Lawrence, and CLF have collaborated with each other and with residents of Lawrence for a safer, cooler community, and fostered spaces for community and knowledge. \n Learn more about Lawrence Pa’lante: Safer Cooler Streets \n Support for this project was provided by the Robert Wood Johnson Foundation as part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative . The views expressed here do not necessarily reflect the views of the Foundation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -34,7 +59,12 @@
     "document_url": "https://www.c40.org/case-studies/lawrence-palante-safer-cooler-streets/",
     "publication_date": "2023-10-16",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "36681",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=lawrence-palante-safer-cooler-streets&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2023-10-16T12:16:33",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

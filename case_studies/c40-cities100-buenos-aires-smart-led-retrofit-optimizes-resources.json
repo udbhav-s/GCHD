@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-buenos-aires-smart-led-retrofit-optimizes-resources",
   "url": "https://www.c40.org/case-studies/cities100-buenos-aires-smart-led-retrofit-optimizes-resources/",
   "title": "Cities100: Buenos Aires – Smart LED Retrofit Optimizes Resources",
@@ -28,6 +28,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "buenos-aires",
+      "label": "Buenos Aires"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Faced with the threat of rising energy prices and a volatile market, Buenos Aires decided to become a leader in energy efficiency by embarking on this four-year street light retrofit project. The most efficient way to reduce energy costs is to reduce electricity usage, and the city is already making headway on that front, as the initiative saves 44.5 million kWh of electricity annually.",
+    "measures": "In 2013, the Argentine capital began a public light retrofit project with the goal of replacing 91,000, or 72%, of conventional street lights with energy-efficient LEDs by the end of 2016. The city is well on its way to achieving its goal, as 60,000 street lights have already been retrofitted. So far, these new lights have avoided 9,866 tons of CO2 emissions and generated 14.77 GWh of energy savings. On top of the street light plan, the city has also replaced all 138,000 traffic lights with high-efficiency LED bulbs, leading to a 90% electricity savings. The LED fixtures generate electricity savings of between 40% and 70%\n The LED fixtures generate electricity savings of between 40% and 70% compared to conventional technologies. But the new street lights are not just efficient, they are smart. Buenos Aires’ new street lights include a built-in tele-management system under which every city street light can be controlled remotely from a centralized control panel. This enables the city to turn the lights on incrementally as it gets darker, quickly detect and correct failures, and plan maintenance more efficiently.\n Social Benefits – The city expects to see a reduction in crime and increase in use of public space in areas with new LED lights.\n Health Benefits – Traffic accidents are expected to be reduced, as drivers, pedestrians, and cyclists all have better visibility due to new LED street lights.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -36,7 +61,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-smart-led-retrofit-optimizes-resources/",
     "publication_date": "2015-10-30",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27016",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-buenos-aires-smart-led-retrofit-optimizes-resources&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:25",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

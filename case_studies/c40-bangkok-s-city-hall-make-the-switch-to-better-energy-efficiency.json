@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-bangkok-s-city-hall-make-the-switch-to-better-energy-efficiency",
   "url": "https://www.c40.org/case-studies/bangkok-s-city-hall-make-the-switch-to-better-energy-efficiency/",
   "title": "Bangkok’s city hall make the switch to better energy efficiency",
@@ -24,6 +24,31 @@
     }
   ],
   "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "bangkok",
+      "label": "Bangkok"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "The Buildings of Department of Public Works (DPW) and the Department of Drainage and Sewerage (DDS), located at the Bangkok City Hall, will replace their lighting and air conditioning with higher efficiency machines.",
+    "measures": "The Buildings of Department of Public Works (DPW) and the Department of Drainage and Sewerage (DDS), located at the Bangkok City Hall 2, are office buildings with approximately 23,135 square meters each. Due to having been in use for more than 30 years, their electrical and air conditioning systems have become less energy efficient and now cause high monthly electricity charges as well as incomplete usability. Consequently, the Bangkok Metropolitan Administration (BMA) has allocated the budget of the 2017 fiscal year to the amount of 580,000,000 Baht (THB) or 18,051,103 US Dollar1 (USD) in order to renovate the DPW and DDS buildings. The scope of renovation includes improving the capacity of the sanitary system, the electrical system and the air conditioning system. The duration of this project took place between 2017 and 2018. Ultimately, the objective was to reduce the cost of monthly electricity charges.\n For the improvement of the electrical system, the 36 Watt (W) fluorescents were replaced by 18-W LEDs. In order to improve the air conditioning system, the current 305-ton of refrigeration (TR) chiller and two of 335-TR chillers installed in each building, both with an efficiency of 0.85 kW/TR, will be changed to three 370-TR chillers installed in each building with an efficiency of 0.62 kW/TR. Replacing fluorescent bulbs to LEDs and using air conditioners with higher efficiency are both measures of energy efficiency and alternative energy defined in the Bangkok Master Plan on Climate Change 2013-2023. According to the energy data collected in 2012 (before the renovation project began), the total energy consumption of DPW and DDS buildings were at 7,111,000 kwh/year. However, after the completion of the project, the total energy consumption of both buildings dropped to approximately 3,086,153 kwh/year. It shows that the amount of energy consumption decreased by 4,024,847 kwh/year which is estimated to have saved 16,099,387 THB or 501,055 USD in electrical costs. When calculated by the formula provided by the 2006 IPCC Guidelines for National Greenhouse Gas Inventories, it is shown that the emission rate of Greenhouse Gas (GHG) from electricity utilization is 0.59 tCO2-eq/MWh. So, after the renovation project, the GHG emission from both renovated buildings have decreased by around 2,374.66 tCO2-eq. The target of GHG emission mitigation under the Bangkok Master Plan on Climate Change 2013-2023 is set that, by the year 2023, all of the BMA buildings shall reduce the amount of total GHG emissions by 26,570 tCO2-eq compared to business as usual (BAU) (based on the year 2010). Therefore, the renovation project of the DPW and DDS buildings can reduce GHG emissions by up to 8.94 percent of the overall target in 2023.\n Next Steps \n After the completion of the renovation project, the concept of using LEDs and high efficiency chillers will be adopted as a measure applied for construction design of the new BMA buildings. This implementation will support the BMA in achieving its target of GHG emission mitigation under the Bangkok Master Plan on Climate Change 2013-2023 successfully.\n Image taken from https://fastly.4sqi.net/img/general/600×600/5315868_Zl-G_UmYQB_DUZc7vWkdlQ2z9saEobOuZsExYmfjin8.jpg",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -32,7 +57,12 @@
     "document_url": "https://www.c40.org/case-studies/bangkok-s-city-hall-make-the-switch-to-better-energy-efficiency/",
     "publication_date": "2019-12-19",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27457",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=bangkok-s-city-hall-make-the-switch-to-better-energy-efficiency&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:19",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

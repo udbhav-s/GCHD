@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-inclusive-water-resilience-accelerator-fund-strengthening-local-and-city-level-systems-for-safe-water-management-and-distribution-during-emergencies-and-disaster-scenarios",
   "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-strengthening-local-and-city-level-systems-for-safe-water-management-and-distribution-during-emergencies-and-disaster-scenarios/",
   "title": "Inclusive Water Resilience Accelerator Fund | Strengthening local and city-level systems for safe water management and distribution during emergencies and disaster scenarios",
@@ -30,6 +30,31 @@
   "hazards": [
     "landslide"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "quito",
+      "label": "Quito"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Quito has strengthened local and city-level capacity for emergency water management…",
+    "measures": "Supported by the C40 Inclusive Water Resilience Accelerator Fund, Quito has strengthened local and city-level capacity for emergency water management through training, equipment, and resident empowerment. \n Following an assessment of vulnerabilities in the city’s water system, the project developed a train-the-trainer programme for municipal staff, followed by training for residents in vulnerable communities. This training covered the use of portable water bladders, nine of which were given to the city for deployment during water shortages. These bladders proved critical during a July 2025 landslide that cut water access for 400,000 people, supplying safe water to around 5,500 people each day. \n These lessons helped Quito develop stronger, more inclusive approaches to crisis response and lay the foundations for long-term water resilience centred on preparedness, equity, and shared responsibility. \n Learn more about the Quito project \n more about C40’s ICA fund",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-strengthening-local-and-city-level-systems-for-safe-water-management-and-distribution-during-emergencies-and-disaster-scenarios/",
     "publication_date": "2025-11-20",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "45700",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=inclusive-water-resilience-accelerator-fund-strengthening-local-and-city-level-systems-for-safe-water-management-and-distribution-during-emergencies-and-disaster-scenarios&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2025-11-21T09:53:50",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {

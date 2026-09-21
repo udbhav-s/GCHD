@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.2",
   "id": "c40-cities100-auckland-smart-green-waterfront-development",
   "url": "https://www.c40.org/case-studies/cities100-auckland-smart-green-waterfront-development/",
   "title": "Cities100: Auckland – Smart Green Waterfront Development",
@@ -30,6 +30,31 @@
   "hazards": [
     "river_flood"
   ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "c40_city_tax",
+      "code": "auckland",
+      "label": "Auckland"
+    }
+  ],
+  "population_focus": {
+    "groups": [],
+    "determined_by": "manual",
+    "evidence_terms": [],
+    "group_mentions": {}
+  },
+  "intervention": {
+    "objectives": "New Zealand is experiencing growth in many urban areas, but development often happens in a haphazard way without consideration for environmental impacts and climate adaptation measures, especially flooding risks. Utilizing neighborhood data and smart infrastructure, Wynyard Quarter is demonstrating replicable practices to both mitigate and adapt to climate change at a district scale.",
+    "measures": "Data capture and reporting through neighborhood-scale smart infrastructure is central to Auckland’s largest urban regeneration project to date: Wynyard Quarter, an 18-hectare former brownfield waterfront site. From the plan’s inception in 2011, the city has enforced strict environmental performance targets and is using state-of-the art sensors to gather detailed data on the project’s goals, including energy efficiency, sustainable transport, and climate adaptation. The data collected will enable the city to monitor the environmental performance of Wynyard Quarter over time. Environmental standards were integrated in the development’s construction contracts to ensure that the city’s goals are met. With these measures, the city wants to reach a respective 48% and 79% reduction in greenhouse gas emissions from energy and transport compared to business as usual in Wynyard Quarter. Special attention was also given to the climate resilience of the waterfront project, with the incorporation of sustainable design features like stormwater infrastructure, rainwater harvesting, and waterproof basement pumping stations.\n Environmental Benefits – Wynyard Quarter is an old industrial area that was severely contaminated in the past. By improving water quality and remediating the land, the project will help restore the biodiversity and ecology of the area.\n Social Benefits – As transparency is one of the stated goals of the redevelopment project, citizens can view the environmental impact of the development in real time on a city website.\n Economic Benefits – By 2040, the waterfront redevelopment will contribute $4.29 billion to Auckland’s economy and support 20,000 new full-time jobs in the city.\n Health Benefits – Wynyard Quarter aims to have 70% of trips made by walking, cycling, or public transport, fostering a healthier lifestyle for residents.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
   "data_sources": [],
   "provenance": {
     "collection_name": "C40 Cities case studies",
@@ -38,7 +63,12 @@
     "document_url": "https://www.c40.org/case-studies/cities100-auckland-smart-green-waterfront-development/",
     "publication_date": "2016-11-15",
     "retrieved_at": "2026-09-21",
-    "extraction_method": "llm_assisted"
+    "extraction_method": "llm_assisted",
+    "source_record_id": "27204",
+    "source_api_url": "https://www.c40.org/wp-json/wp/v2/case-study?slug=cities100-auckland-smart-green-waterfront-development&_embed=wp:term",
+    "source_content_type": "case-study",
+    "source_modified": "2022-02-15T13:02:22",
+    "extracted_by": "migrate_c40_schema_22.py@1.0"
   },
   "sdgs": [
     {
