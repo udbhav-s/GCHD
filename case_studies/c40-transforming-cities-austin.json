@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-austin",
+  "url": "https://www.c40.org/case-studies/transforming-cities-austin/",
+  "title": "Transforming Cities: The city addressing inequality by connecting communities",
+  "summary": "This C40 case study describes “Transforming Cities: The city addressing inequality by connecting communities,” an urban initiative documented for Austin. It is included because it addresses river flood, meteorological drought, extreme heat, wildfire hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: When a city is better connected, all residents benefit. Learn about Austin’s transformative ‘Project Connect’ initiative.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Austin",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Texas",
+        "ucode": "USA_0044_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Austin",
+        "ucode": "USA_0044_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "extreme_heat",
+    "wildfire"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-austin/",
+    "publication_date": "2022-11-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development",
+  "url": "https://www.c40.org/case-studies/hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development/",
+  "title": "Hanoi’s Bus Rapid Transit System – The Key to Sustainable Urban Development",
+  "summary": "This C40 case study describes “Hanoi’s Bus Rapid Transit System – The Key to Sustainable Urban Development,” an urban initiative documented for Hanoi. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: With the ambition of transforming its transport sector, the City of Hanoi has introduced the first mass rapid transit system – a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hanoi",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ha Noi City",
+        "ucode": "VNM_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/hanoi-s-bus-rapid-transit-system-the-key-to-sustainable-urban-development/",
+    "publication_date": "2019-01-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

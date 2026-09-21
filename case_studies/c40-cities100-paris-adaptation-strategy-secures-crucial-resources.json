@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-paris-adaptation-strategy-secures-crucial-resources",
+  "url": "https://www.c40.org/case-studies/cities100-paris-adaptation-strategy-secures-crucial-resources/",
+  "title": "Cities100: Paris – Adaptation Strategy Secures Crucial Resources",
+  "summary": "This C40 case study describes “Cities100: Paris – Adaptation Strategy Secures Crucial Resources,” an urban initiative documented for Paris. It is included because it addresses river flood, meteorological drought, heatwave, extreme heat hazards. C40 describes the action this way: The comprehensive Paris Adaptation Strategy is transforming the French capital into a climate-resilient city, focusing on securing resources and protecting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Paris",
+      "adm0": {
+        "name": "France",
+        "ucode": "FRA_V1",
+        "dcid": null,
+        "iso3": "FRA"
+      },
+      "adm1": {
+        "name": "Ile-De-France",
+        "ucode": "FRA_0012_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Paris",
+        "ucode": "FRA_0012_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-paris-adaptation-strategy-secures-crucial-resources/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

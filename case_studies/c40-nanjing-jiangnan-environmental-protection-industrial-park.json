@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-nanjing-jiangnan-environmental-protection-industrial-park",
+  "url": "https://www.c40.org/case-studies/nanjing-jiangnan-environmental-protection-industrial-park/",
+  "title": "Nanjing Jiangnan Environmental Protection Industrial Park",
+  "summary": "This C40 case study describes “Nanjing Jiangnan Environmental Protection Industrial Park,” an urban initiative documented for Nanjing. It is included because it is located in the Global South. C40 describes the action this way: Nanjing Jiangnan Environmental Protection Industrial Park is a park hosting environmental protection businesses receiving majority support from the municipality of Nanjing, which…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nanjing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Nanjing",
+        "ucode": "CHN_0015_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/nanjing-jiangnan-environmental-protection-industrial-park/",
+    "publication_date": "2018-05-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

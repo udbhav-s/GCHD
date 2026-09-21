@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet",
+  "url": "https://www.c40.org/case-studies/the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet/",
+  "title": "The Circular Economy in Venice: Green Fuel For the City’s Boat Fleet",
+  "summary": "This C40 case study describes “The Circular Economy in Venice: Green Fuel For the City’s Boat Fleet,” an urban initiative documented for Venice. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: In March of 2018, the City of Venice, AVAM Group, VERITAS Spa and ENI signed an agreement to test-run an experimental project…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Venice",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": "ITA_0020_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Venezia",
+        "ucode": "ITA_0020_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-circular-economy-in-venice-green-fuel-for-the-city-s-boat-fleet/",
+    "publication_date": "2020-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

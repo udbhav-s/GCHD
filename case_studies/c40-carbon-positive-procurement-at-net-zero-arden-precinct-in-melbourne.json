@@ -1,0 +1,77 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne",
+  "url": "https://www.c40.org/case-studies/carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne/",
+  "title": "Carbon Positive Procurement at Net zero Arden Precinct in Melbourne",
+  "summary": "This C40 case study describes “Carbon Positive Procurement at Net zero Arden Precinct in Melbourne,” an urban initiative documented for Melbourne. It is included because it addresses river flood, extreme heat, air pollution pm25 hazards. C40 describes the action this way: Melbourne is creating a net zero carbon precinct North of its city centre, showcasing best practice standards for environmental, social and economic…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/carbon-positive-procurement-at-net-zero-arden-precinct-in-melbourne/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

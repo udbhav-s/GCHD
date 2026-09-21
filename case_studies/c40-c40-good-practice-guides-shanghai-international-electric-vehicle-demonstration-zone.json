@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone/",
+  "title": "C40 Good Practice Guides: Shanghai – International Electric Vehicle Demonstration Zone",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Shanghai – International Electric Vehicle Demonstration Zone,” an urban initiative documented for Shanghai. It is included because it is located in the Global South. C40 describes the action this way: Summary Responding to a low level of awareness, confidence, and understanding of LEVs, and aiming to spur development of an…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shanghai",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shanghai Shi",
+        "ucode": "CHN_0024_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shanghai",
+        "ucode": "CHN_0024_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-shanghai-international-electric-vehicle-demonstration-zone/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

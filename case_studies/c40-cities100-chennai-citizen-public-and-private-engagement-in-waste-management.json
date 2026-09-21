@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-chennai-citizen-public-and-private-engagement-in-waste-management",
+  "url": "https://www.c40.org/case-studies/cities100-chennai-citizen-public-and-private-engagement-in-waste-management/",
+  "title": "Cities100: Chennai – Citizen, Public, and Private Engagement in Waste Management",
+  "summary": "This C40 case study describes “Cities100: Chennai – Citizen, Public, and Private Engagement in Waste Management,” an urban initiative documented for Chennai. It is included because it addresses river flood, malaria hazards, and it is located in the Global South. C40 describes the action this way: By targeting public, private, and residential actors, Chennai is experimenting to find the most effective methods for reducing waste, as…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-chennai-citizen-public-and-private-engagement-in-waste-management/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

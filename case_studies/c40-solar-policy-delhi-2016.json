@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-solar-policy-delhi-2016",
+  "url": "https://www.c40.org/case-studies/solar-policy-delhi-2016/",
+  "title": "Solar Energy Policy in Delhi",
+  "summary": "This C40 case study describes “Solar Energy Policy in Delhi,” an urban initiative documented for Delhi NCT. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Delhi has enacted a Solar Energy Policy that will monitor actual performance, market conditions and consumer experience in order to encourage the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Delhi NCT",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Delhi",
+        "ucode": "IND_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/solar-policy-delhi-2016/",
+    "publication_date": "2020-01-02",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

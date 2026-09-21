@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-san-francisco-connecting-climate-action-with-public-health",
+  "url": "https://www.c40.org/case-studies/cities100-san-francisco-connecting-climate-action-with-public-health/",
+  "title": "Cities100: San Francisco – Connecting Climate Action with Public Health",
+  "summary": "This C40 case study describes “Cities100: San Francisco – Connecting Climate Action with Public Health,” an urban initiative documented for San Francisco. It is included because it addresses river flood, coastal flood, meteorological drought, extreme heat, air pollution pm25 hazards. C40 describes the action this way: San Francisco explicitly linked climate change with adverse public health effects and created an adaptation framework to better prepare citizens…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "San Francisco",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "San Francisco",
+        "ucode": "USA_0005_0038_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "meteorological_drought",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-san-francisco-connecting-climate-action-with-public-health/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

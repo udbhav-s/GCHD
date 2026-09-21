@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-community-based-interventions-to-improve-river-health",
+  "url": "https://www.c40.org/case-studies/community-based-interventions-to-improve-river-health/",
+  "title": "100 Resilient Cities Pilot Project: Community Based Interventions to Improve River Health (Aller River)",
+  "summary": "This C40 case study describes “100 Resilient Cities Pilot Project: Community Based Interventions to Improve River Health (Aller River),” an urban initiative documented for Durban (eThekwini). It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The Take Back Our Rivers project (TBOR) is an initiative of eThekwini Conservancies Forum (ECF) that seeks to restore the river health…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Durban (eThekwini)",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Kwa-Zulu Natal",
+        "ucode": "ZAF_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "eThekwini",
+        "ucode": "ZAF_0004_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/community-based-interventions-to-improve-river-health/",
+    "publication_date": "2017-09-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

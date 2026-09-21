@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience/",
+  "title": "Cities100: New York City and Copenhagen – Cities Collaborating on Climate Resilience",
+  "summary": "This C40 case study describes “Cities100: New York City and Copenhagen – Cities Collaborating on Climate Resilience,” an urban initiative documented for Copenhagen. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: New York City and Copenhagen have joined forces in an international, innovative collaboration to build upon the successes of their…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-and-copenhagen-cities-collaborating-on-climate-resilience/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

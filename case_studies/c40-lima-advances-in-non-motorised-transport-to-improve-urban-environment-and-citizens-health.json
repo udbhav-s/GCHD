@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health",
+  "url": "https://www.c40.org/case-studies/lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health/",
+  "title": "Lima Advances in Non-Motorised Transport to Improve Urban Environment and Citizens’ Health",
+  "summary": "This C40 case study describes “Lima Advances in Non-Motorised Transport to Improve Urban Environment and Citizens’ Health,” an urban initiative documented for Lima. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Municipality of Lima is implementing various projects to promote non-motorised transport within the city.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lima",
+      "adm0": {
+        "name": "Peru",
+        "ucode": "PER_V1",
+        "dcid": null,
+        "iso3": "PER"
+      },
+      "adm1": {
+        "name": "Lima",
+        "ucode": "PER_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Lima",
+        "ucode": "PER_0015_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/lima-advances-in-non-motorised-transport-to-improve-urban-environment-and-citizens-health/",
+    "publication_date": "2019-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

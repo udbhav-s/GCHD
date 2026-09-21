@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-bengaluru-valuable-waste-segregated-at-source",
+  "url": "https://www.c40.org/case-studies/cities100-bengaluru-valuable-waste-segregated-at-source/",
+  "title": "Cities100: Bengaluru – Valuable Waste Segregated at Source",
+  "summary": "This C40 case study describes “Cities100: Bengaluru – Valuable Waste Segregated at Source,” an urban initiative documented for Bengaluru. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Bengaluru is beginning to clean up its streets with a domestic waste segregation program driven by community volunteers and providing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bengaluru-valuable-waste-segregated-at-source/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

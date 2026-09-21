@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-ica-cities-fund-dar-es-salaam",
+  "url": "https://www.c40.org/case-studies/ica-cities-fund-dar-es-salaam/",
+  "title": "ICA Fund | Engaging informal workers in the organic waste management sector",
+  "summary": "This C40 case study describes “ICA Fund | Engaging informal workers in the organic waste management sector,” an urban initiative documented for Dar es Salaam. It is included because it is located in the Global South. C40 describes the action this way: Learn about the inclusive climate project led by the City of Dar es Salaam that is supported by a C40 Inclusive Climate…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dar es Salaam",
+      "adm0": {
+        "name": "United Republic of Tanzania",
+        "ucode": "TZA_V1",
+        "dcid": null,
+        "iso3": "TZA"
+      },
+      "adm1": {
+        "name": "Dar-Es-Salaam",
+        "ucode": "TZA_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/ica-cities-fund-dar-es-salaam/",
+    "publication_date": "2024-05-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-sustainable-catering-at-the-university-of-basel",
+  "url": "https://www.c40.org/case-studies/sustainable-catering-at-the-university-of-basel/",
+  "title": "Sustainable Catering at the University of Basel",
+  "summary": "This C40 case study describes “Sustainable Catering at the University of Basel,” an urban initiative documented for Basel. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: The University of Basel considers its campus a Living Lab for sustainability. In cooperation with WWF Switzerland, the University Caterer developed a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Basel",
+      "adm0": {
+        "name": "Switzerland",
+        "ucode": "CHE_V1",
+        "dcid": null,
+        "iso3": "CHE"
+      },
+      "adm1": {
+        "name": "Basel-Stadt",
+        "ucode": "CHE_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/sustainable-catering-at-the-university-of-basel/",
+    "publication_date": "2017-11-01",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

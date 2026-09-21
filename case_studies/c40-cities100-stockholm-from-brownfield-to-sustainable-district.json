@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-stockholm-from-brownfield-to-sustainable-district",
+  "url": "https://www.c40.org/case-studies/cities100-stockholm-from-brownfield-to-sustainable-district/",
+  "title": "Cities100: Stockholm – From Brownfield to Sustainable District",
+  "summary": "This C40 case study describes “Cities100: Stockholm – From Brownfield to Sustainable District,” an urban initiative documented for Stockholm. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Developing a modern, sustainable city district on a former industrial site solves population growth issues and helps Stockholm achieve its…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Stockholm",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": null,
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Stockholms Laen",
+        "ucode": "SWE_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Stockholm",
+        "ucode": "SWE_0015_0018_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-stockholm-from-brownfield-to-sustainable-district/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

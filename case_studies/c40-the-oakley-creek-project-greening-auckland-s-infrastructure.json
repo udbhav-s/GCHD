@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-oakley-creek-project-greening-auckland-s-infrastructure",
+  "url": "https://www.c40.org/case-studies/the-oakley-creek-project-greening-auckland-s-infrastructure/",
+  "title": "The Oakley Creek Project – Greening Auckland’s Infrastructure",
+  "summary": "This C40 case study describes “The Oakley Creek Project – Greening Auckland’s Infrastructure,” an urban initiative documented for Auckland. It is included because it addresses river flood hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: The Te Auaunga/Oakley Creek project is a great example of a green infrastructure solution on Auckland’s longest urban stream. Originally a simple…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Auckland",
+      "adm0": {
+        "name": "New Zealand",
+        "ucode": "NZL_V1",
+        "dcid": null,
+        "iso3": "NZL"
+      },
+      "adm1": {
+        "name": "Auckland",
+        "ucode": "NZL_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Auckland",
+        "ucode": "NZL_0002_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-oakley-creek-project-greening-auckland-s-infrastructure/",
+    "publication_date": "2018-11-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

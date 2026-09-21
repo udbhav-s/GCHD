@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-cape-town-set-back-line-protects-the-coast-and-guides-development",
+  "url": "https://www.c40.org/case-studies/cities100-cape-town-set-back-line-protects-the-coast-and-guides-development/",
+  "title": "Cities100: Cape Town – Set-back Line Protects the Coast and Guides Development",
+  "summary": "This C40 case study describes “Cities100: Cape Town – Set-back Line Protects the Coast and Guides Development,” an urban initiative documented for Cape Town. It is included because it addresses coastal flood hazards, and it is located in the Global South. C40 describes the action this way: Cape Town’s Coastal Set-back Line ensures that development does not encroach on the immediate coastal environment, encouraging risk-averse coastal planning…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Cape Town",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Western Cape",
+        "ucode": "ZAF_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Cape Town",
+        "ucode": "ZAF_0009_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-cape-town-set-back-line-protects-the-coast-and-guides-development/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

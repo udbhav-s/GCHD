@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-london-thames-estuary-2100-plan",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-thames-estuary-2100-plan/",
+  "title": "C40 Good Practice Guides: London – Thames Estuary 2100 Plan",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: London – Thames Estuary 2100 Plan,” an urban initiative documented for London. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Summary London already benefits from world-class tidal flood defences. However, increasing pressures, including climate change, means that flood risk is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [
+    {
+      "name": "Weather or climate-projection data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-london-thames-estuary-2100-plan/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

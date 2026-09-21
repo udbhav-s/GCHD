@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-million-trees-project",
+  "url": "https://www.c40.org/case-studies/the-million-trees-project/",
+  "title": "The Million Trees project",
+  "summary": "This C40 case study describes “The Million Trees project,” an urban initiative documented for Moscow. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: This project seeks to increase the size of the city's green fund as a way of reducing greenhouse gas emissions and adapting…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Moscow",
+      "adm0": {
+        "name": "Russian Federation",
+        "ucode": "RUS_V1",
+        "dcid": null,
+        "iso3": "RUS"
+      },
+      "adm1": {
+        "name": "Central Federal District",
+        "ucode": "RUS_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Moscow City",
+        "ucode": "RUS_0001_0010_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-million-trees-project/",
+    "publication_date": "2018-05-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-austin-commitment-to-low-cost-solar-net-zero-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-austin-commitment-to-low-cost-solar-net-zero-emissions/",
+  "title": "Cities100: Austin – Commitment to Low-Cost Solar, Net-Zero Emissions",
+  "summary": "This C40 case study describes “Cities100: Austin – Commitment to Low-Cost Solar, Net-Zero Emissions,” an urban initiative documented for Austin. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: The people of Austin are blessed with abundant sunshine, and together with the municipal utility, they are committed to powering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Austin",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Texas",
+        "ucode": "USA_0044_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Austin",
+        "ucode": "USA_0044_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-austin-commitment-to-low-cost-solar-net-zero-emissions/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

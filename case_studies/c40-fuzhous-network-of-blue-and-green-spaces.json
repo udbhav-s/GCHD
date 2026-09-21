@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-fuzhous-network-of-blue-and-green-spaces",
+  "url": "https://www.c40.org/case-studies/fuzhous-network-of-blue-and-green-spaces/",
+  "title": "Fuzhou’s network of blue and green spaces",
+  "summary": "This C40 case study describes “Fuzhou’s network of blue and green spaces,” an urban initiative documented for Fuzhou. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Since 2017, Fuzhou has been working to create a network of parks linked together by river walkways and urban greenbelts, which make…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Fuzhou",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Fujian Sheng",
+        "ucode": "CHN_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Fuzhou",
+        "ucode": "CHN_0004_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/fuzhous-network-of-blue-and-green-spaces/",
+    "publication_date": "2023-03-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

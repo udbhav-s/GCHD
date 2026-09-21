@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city",
+  "url": "https://www.c40.org/case-studies/cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city/",
+  "title": "Cities100: Quito – Prioritizing Nature for a Climate-Adapted, Low-Carbon City",
+  "summary": "This C40 case study describes “Cities100: Quito – Prioritizing Nature for a Climate-Adapted, Low-Carbon City,” an urban initiative documented for Quito. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: By recognizing the value of the city's ecosystems and protecting them in municipal planning, Quito is setting the standard for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-quito-prioritizing-nature-for-a-climate-adapted-low-carbon-city/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-bengaluru-using-intelligence-to-create-better-public-transport",
+  "url": "https://www.c40.org/case-studies/cities100-bengaluru-using-intelligence-to-create-better-public-transport/",
+  "title": "Cities100: Bengaluru – Using Intelligence to Create Better Public Transport",
+  "summary": "This C40 case study describes “Cities100: Bengaluru – Using Intelligence to Create Better Public Transport,” an urban initiative documented for Bengaluru. It is included because it is located in the Global South. C40 describes the action this way: By using big data and an electronic tracking system, the City of Bengaluru can optimize the operation of public transport…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bengaluru-using-intelligence-to-create-better-public-transport/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-singapore-solar-power-on-land-and-sea",
+  "url": "https://www.c40.org/case-studies/cities100-singapore-solar-power-on-land-and-sea/",
+  "title": "Cities100: Singapore – Solar Power on Land and Sea",
+  "summary": "This C40 case study describes “Cities100: Singapore – Solar Power on Land and Sea,” an urban initiative documented for Singapore. It is included because it is located in the Global South. C40 describes the action this way: Space-constrained Singapore is looking to water as well as rooftops for solar energy as the city's population continues to grow…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Singapore",
+      "adm0": {
+        "name": "Singapore",
+        "ucode": "SGP_V2",
+        "dcid": null,
+        "iso3": "SGP"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-singapore-solar-power-on-land-and-sea/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-johannesburg-waste-to-energy-partnership-saves-money",
+  "url": "https://www.c40.org/case-studies/cities100-johannesburg-waste-to-energy-partnership-saves-money/",
+  "title": "Cities100: Johannesburg – Waste-to-Energy Partnership Saves Money",
+  "summary": "This C40 case study describes “Cities100: Johannesburg – Waste-to-Energy Partnership Saves Money,” an urban initiative documented for Johannesburg. It is included because it is located in the Global South. C40 describes the action this way: Johannesburg is putting its wastewater and landfill methane emissions to productive use with a biogas-to-energy project, at a minimal cost…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Johannesburg",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Johannesburg",
+        "ucode": "ZAF_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-johannesburg-waste-to-energy-partnership-saves-money/",
+    "publication_date": "2016-11-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

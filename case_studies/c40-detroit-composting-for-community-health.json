@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-detroit-composting-for-community-health",
+  "url": "https://www.c40.org/case-studies/detroit-composting-for-community-health/",
+  "title": "Detroit Composting for Community Health",
+  "summary": "This C40 case study describes “Detroit Composting for Community Health,” an urban initiative documented for Detroit. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: As part of the Cities Taking Action to Address Health, Equity, and Climate Change Initiative, Detroit was one of six U.S. cities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Detroit",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Michigan",
+        "ucode": "USA_0023_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/detroit-composting-for-community-health/",
+    "publication_date": "2023-10-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

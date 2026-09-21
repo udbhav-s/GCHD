@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-bloomberg-awards-new-york",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-new-york/",
+  "title": "C40-Bloomberg Philanthropies Awards: New York City Housing Authority’s sustainability agenda",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: New York City Housing Authority’s sustainability agenda,” an urban initiative documented for New York. It is included because it addresses heatwave hazards. C40 describes the action this way: New York City is implementing transformative policies to decarbonise energy use in NYC residential buildings.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-new-york/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

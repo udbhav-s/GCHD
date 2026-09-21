@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-copenhagen-city-of-cyclists",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-city-of-cyclists/",
+  "title": "C40 Good Practice Guides: Copenhagen – City of Cyclists",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Copenhagen – City of Cyclists,” an urban initiative documented for Copenhagen. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Summary Copenhagen is renowned for its cycling culture. Since the 1970s, the city has invested heavily in cycle infrastructure, tailoring…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-city-of-cyclists/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

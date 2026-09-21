@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-kuala-lumpur-structure-plan-2040",
+  "url": "https://www.c40.org/case-studies/kuala-lumpur-structure-plan-2040/",
+  "title": "Kuala Lumpur Structure Plan 2040",
+  "summary": "This C40 case study describes “Kuala Lumpur Structure Plan 2040,” an urban initiative documented for Kuala Lumpur. It is included because it is located in the Global South. C40 describes the action this way: What is it? The Draft Kuala Lumpur Structure Plan (PSKL) encompasses the vision, goals, policies, and proposals to drive the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kuala Lumpur",
+      "adm0": {
+        "name": "Malaysia",
+        "ucode": "MYS_V1",
+        "dcid": null,
+        "iso3": "MYS"
+      },
+      "adm1": {
+        "name": "Kuala Lumpur",
+        "ucode": "MYS_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kuala Lumpur",
+        "ucode": "MYS_0004_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/kuala-lumpur-structure-plan-2040/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

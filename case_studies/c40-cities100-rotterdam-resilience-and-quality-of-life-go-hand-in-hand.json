@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand",
+  "url": "https://www.c40.org/case-studies/cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand/",
+  "title": "Cities100: Rotterdam – Resilience and Quality of Life Go Hand in Hand",
+  "summary": "This C40 case study describes “Cities100: Rotterdam – Resilience and Quality of Life Go Hand in Hand,” an urban initiative documented for Rotterdam. It is included because it addresses river flood, coastal flood, extreme heat hazards. C40 describes the action this way: Securing and maintaining a robust city by incorporating adaptation measures in urban development, Rotterdam is achieving climate resilience while improving…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rotterdam",
+      "adm0": {
+        "name": "Netherlands",
+        "ucode": "NLD_V1",
+        "dcid": null,
+        "iso3": "NLD"
+      },
+      "adm1": {
+        "name": "Zuid-Holland",
+        "ucode": "NLD_0012_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-rotterdam-resilience-and-quality-of-life-go-hand-in-hand/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

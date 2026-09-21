@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-tokyo-super-levees",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-super-levees/",
+  "title": "C40 Good Practice Guides: Tokyo – Super levees",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Tokyo – Super levees,” an urban initiative documented for Tokyo. It is included because it addresses river flood, coastal flood, tropical storm, earthquake hazards. C40 describes the action this way: Summary The City of Tokyo lies largely below the flood level of its three main rivers, has high annual rainfall…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tokyo",
+      "adm0": {
+        "name": "Japan",
+        "ucode": "JPN_V1",
+        "dcid": null,
+        "iso3": "JPN"
+      },
+      "adm1": {
+        "name": "Tookyoo",
+        "ucode": "JPN_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm",
+    "earthquake"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-tokyo-super-levees/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

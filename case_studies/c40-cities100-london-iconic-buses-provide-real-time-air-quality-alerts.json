@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-london-iconic-buses-provide-real-time-air-quality-alerts",
+  "url": "https://www.c40.org/case-studies/cities100-london-iconic-buses-provide-real-time-air-quality-alerts/",
+  "title": "Cities100: London – Iconic Buses Provide Real-Time Air Quality Alerts",
+  "summary": "This C40 case study describes “Cities100: London – Iconic Buses Provide Real-Time Air Quality Alerts,” an urban initiative documented for London. It is included because it addresses air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Low-emission bus zones and real-time air quality updates are two ways London is cleaning up the capital's dangerous air quality….",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-london-iconic-buses-provide-real-time-air-quality-alerts/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

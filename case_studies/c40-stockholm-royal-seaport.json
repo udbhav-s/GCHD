@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-stockholm-royal-seaport",
+  "url": "https://www.c40.org/case-studies/stockholm-royal-seaport/",
+  "title": "Stockholm Royal Seaport",
+  "summary": "This C40 case study describes “Stockholm Royal Seaport,” an urban initiative documented for Stockholm. It is included because it addresses coastal flood hazards. C40 describes the action this way: The Stockholm Royal Seaport (SRS) project is transforming the old industrial port area into a modern city environment for both residents and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Stockholm",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": null,
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Stockholms Laen",
+        "ucode": "SWE_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Stockholm",
+        "ucode": "SWE_0015_0018_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/stockholm-royal-seaport/",
+    "publication_date": "2015-01-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

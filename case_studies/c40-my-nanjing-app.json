@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-my-nanjing-app",
+  "url": "https://www.c40.org/case-studies/my-nanjing-app/",
+  "title": "The “My Nanjing” App and The Promotion of Citywide Low-Carbon Travel",
+  "summary": "This C40 case study describes “The “My Nanjing” App and The Promotion of Citywide Low-Carbon Travel,” an urban initiative documented for Nanjing. It is included because it is located in the Global South. C40 describes the action this way: The “My Nanjing” app has been incentivizing public and active transportation among Nanjing residents by providing instant bike sharing and bus positioning…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Nanjing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Nanjing",
+        "ucode": "CHN_0015_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/my-nanjing-app/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

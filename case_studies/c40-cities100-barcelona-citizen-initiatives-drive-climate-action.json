@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-barcelona-citizen-initiatives-drive-climate-action",
+  "url": "https://www.c40.org/case-studies/cities100-barcelona-citizen-initiatives-drive-climate-action/",
+  "title": "Cities100: Barcelona – Citizen Initiatives Drive Climate Action",
+  "summary": "This C40 case study describes “Cities100: Barcelona – Citizen Initiatives Drive Climate Action,” an urban initiative documented for Barcelona. It is included because it addresses coastal flood hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: By collaborating with various civil society actors, Barcelona is engaging residents in developing citizen-led actions that address climate resilience. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Barcelona",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": null,
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Cataluna",
+        "ucode": "ESP_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Barcelona",
+        "ucode": "ESP_0008_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-barcelona-citizen-initiatives-drive-climate-action/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

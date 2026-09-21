@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities",
+  "url": "https://www.c40.org/case-studies/greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities/",
+  "title": "Greening the BIDs: Private-public collaboration to deliver green infrastructure opportunities",
+  "summary": "This C40 case study describes “Greening the BIDs: Private-public collaboration to deliver green infrastructure opportunities,” an urban initiative documented for London. It is included because it addresses river flood, extreme heat, air pollution pm25 hazards. C40 describes the action this way: The Greater London Authority (GLA) is working with Business Improvement Districts (BIDs) in central London to identify and then deliver opportunities for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "London",
+      "adm0": {
+        "name": "United Kingdom of Great Britain & Northern Ireland",
+        "ucode": "GBR_V1",
+        "dcid": null,
+        "iso3": "GBR"
+      },
+      "adm1": {
+        "name": "England",
+        "ucode": "GBR_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater London",
+        "ucode": "GBR_0001_0017_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/greening-the-bids-private-public-collaboration-to-deliver-green-infrastructure-opportunities/",
+    "publication_date": "2015-01-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

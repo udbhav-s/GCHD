@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities",
+  "url": "https://www.c40.org/case-studies/hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities/",
+  "title": "Hanoi Metro: A Sustainable Public Transport for Densely Populated Cities",
+  "summary": "This C40 case study describes “Hanoi Metro: A Sustainable Public Transport for Densely Populated Cities,” an urban initiative documented for Hanoi. It is included because it is located in the Global South. C40 describes the action this way: The Hanoi Sustainable Urban Transport (SUT) Program will develop an integrated public transport system in six districts of Hanoi that will support…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hanoi",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ha Noi City",
+        "ucode": "VNM_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/hanoi-metro-a-sustainable-public-transport-for-densely-populated-cities/",
+    "publication_date": "2018-12-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

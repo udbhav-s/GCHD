@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-toronto-s-eco-roof-incentive-program",
+  "url": "https://www.c40.org/case-studies/toronto-s-eco-roof-incentive-program/",
+  "title": "Toronto’s Eco-Roof Incentive Program",
+  "summary": "This C40 case study describes “Toronto’s Eco-Roof Incentive Program,” an urban initiative documented for Toronto. It is included because it addresses extreme heat hazards. C40 describes the action this way: The City of Toronto launched the Eco-Roof Incentive Program in 2009 to support the uptake of eco-roofs by building owners, make buildings…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Toronto",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "Ontario",
+        "ucode": "CAN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Toronto",
+        "ucode": "CAN_0009_0046_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/toronto-s-eco-roof-incentive-program/",
+    "publication_date": "2015-01-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

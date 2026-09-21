@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-smart-led-street-lighting-in-chennai",
+  "url": "https://www.c40.org/case-studies/smart-led-street-lighting-in-chennai/",
+  "title": "Smart LED Street Lighting in Chennai",
+  "summary": "This C40 case study describes “Smart LED Street Lighting in Chennai,” an urban initiative documented for Chennai. It is included because it is located in the Global South. C40 describes the action this way: Rapid urbanisation encourages proportionate enhancements to be made in the appropriate urban public utility infrastructures. Such public utilities are energised majorly…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/smart-led-street-lighting-in-chennai/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

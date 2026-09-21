@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-nature-conservation-ordinance-is-greening-tokyo-s-buildings",
+  "url": "https://www.c40.org/case-studies/nature-conservation-ordinance-is-greening-tokyo-s-buildings/",
+  "title": "Nature Conservation Ordinance is Greening Tokyo’s Buildings",
+  "summary": "This C40 case study describes “Nature Conservation Ordinance is Greening Tokyo’s Buildings,” an urban initiative documented for Tokyo. It is included because it addresses extreme heat hazards. C40 describes the action this way: Since 2000, the City of Tokyo has been taking measures to mitigate the impacts of the urban heat island effect, including covering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tokyo",
+      "adm0": {
+        "name": "Japan",
+        "ucode": "JPN_V1",
+        "dcid": null,
+        "iso3": "JPN"
+      },
+      "adm1": {
+        "name": "Tookyoo",
+        "ucode": "JPN_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/nature-conservation-ordinance-is-greening-tokyo-s-buildings/",
+    "publication_date": "2015-03-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

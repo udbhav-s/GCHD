@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools",
+  "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools/",
+  "title": "Inclusive Water Resilience Accelerator Fund | Improving access to sustainable and inclusive water and sanitation in public schools",
+  "summary": "This C40 case study describes “Inclusive Water Resilience Accelerator Fund | Improving access to sustainable and inclusive water and sanitation in public schools,” an urban initiative documented for Dakar. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Supported by the C40 Inclusive Water Resilience Accelerator Fund, Dakar is working to improve water, sanitation, and hygiene (WASH) facilities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dakar",
+      "adm0": {
+        "name": "Senegal",
+        "ucode": "SEN_V1",
+        "dcid": null,
+        "iso3": "SEN"
+      },
+      "adm1": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-improving-access-to-sustainable-and-inclusive-water-and-sanitation-in-public-schools/",
+    "publication_date": "2025-11-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

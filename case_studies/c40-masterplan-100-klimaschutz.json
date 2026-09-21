@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-masterplan-100-klimaschutz",
+  "url": "https://www.c40.org/case-studies/masterplan-100-klimaschutz/",
+  "title": "Masterplan 100% Klimaschutz",
+  "summary": "This C40 case study describes “Masterplan 100% Klimaschutz,” an urban initiative documented for Heidelberg. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: In 1992, the City of Heidelberg developed a municipal climate protection concept. Emissions from stationary energy appliances and transport were…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Heidelberg",
+      "adm0": {
+        "name": "Germany",
+        "ucode": "DEU_V1",
+        "dcid": null,
+        "iso3": "DEU"
+      },
+      "adm1": {
+        "name": "Baden-Württemberg",
+        "ucode": "DEU_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Heidelberg",
+        "ucode": "DEU_0001_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/masterplan-100-klimaschutz/",
+    "publication_date": "2017-05-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-clean-cities-through-better-waste-management-systems",
+  "url": "https://www.c40.org/case-studies/clean-cities-through-better-waste-management-systems/",
+  "title": "Clean Cities Through Better Waste Management Systems",
+  "summary": "This C40 case study describes “Clean Cities Through Better Waste Management Systems,” an urban initiative documented for Amman. It is included because it is located in the Global South. C40 describes the action this way: The challenge The waste management sector is Jordan’s second-largest emitter of greenhouse gases, with the most notable of those being…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [
+    {
+      "name": "Household or community survey data",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/clean-cities-through-better-waste-management-systems/",
+    "publication_date": "2021-01-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

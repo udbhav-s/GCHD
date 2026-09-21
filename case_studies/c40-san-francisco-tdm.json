@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-san-francisco-tdm",
+  "url": "https://www.c40.org/case-studies/san-francisco-tdm/",
+  "title": "San Francisco’s Transportation Demand Management Programme",
+  "summary": "This C40 case study describes “San Francisco’s Transportation Demand Management Programme,” an urban initiative documented for San Francisco. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: San Francisco has initiated a Transportation Demand Management Program designed to reduce congestion, greenhouse gas (GHG) emissions and air pollution related to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "San Francisco",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "San Francisco",
+        "ucode": "USA_0005_0038_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/san-francisco-tdm/",
+    "publication_date": "2020-02-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

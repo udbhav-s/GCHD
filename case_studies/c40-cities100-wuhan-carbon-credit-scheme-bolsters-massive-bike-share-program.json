@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program/",
+  "title": "Cities100: Wuhan – Carbon Credit Scheme Bolsters Massive Bike-Share Program",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Carbon Credit Scheme Bolsters Massive Bike-Share Program,” an urban initiative documented for Wuhan. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Wuhan has unveiled one of the world’s largest bike-sharing programs in an effort to solve last-mile transportation while engaging citizens…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-carbon-credit-scheme-bolsters-massive-bike-share-program/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-melbourne-refresh",
+  "url": "https://www.c40.org/case-studies/melbourne-refresh/",
+  "title": "Melbourne’s Climate Change Adaptation Strategy Refresh",
+  "summary": "This C40 case study describes “Melbourne’s Climate Change Adaptation Strategy Refresh,” an urban initiative documented for Melbourne. It is included because it addresses river flood, heatwave hazards. C40 describes the action this way: Melbourne’s Climate Change Adaptation Strategy Refresh (2017) initiated a re-articulation of Melbourne’s Climate Change Goals, fostering stronger partnerships with others and empowering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/melbourne-refresh/",
+    "publication_date": "2020-01-31",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

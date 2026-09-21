@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-curitiba-hydro-energy",
+  "url": "https://www.c40.org/case-studies/curitiba-hydro-energy/",
+  "title": "Waterfalls to Generate Clean Energy: Curitiba’s First Hydroelectric Power Plant",
+  "summary": "This C40 case study describes “Waterfalls to Generate Clean Energy: Curitiba’s First Hydroelectric Power Plant,” an urban initiative documented for Curitiba. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Curitiba is tapping into the potential of using waterfalls from artificial lakes to generate clean energy for the city using hydropower.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Curitiba",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Paraná",
+        "ucode": "BRA_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Curitiba",
+        "ucode": "BRA_0016_0133_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/curitiba-hydro-energy/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

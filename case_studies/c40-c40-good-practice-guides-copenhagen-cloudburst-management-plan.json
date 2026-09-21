@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-copenhagen-cloudburst-management-plan",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-cloudburst-management-plan/",
+  "title": "C40 Good Practice Guides: Copenhagen – Cloudburst Management Plan",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Copenhagen – Cloudburst Management Plan,” an urban initiative documented for Copenhagen. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Summary Copenhagen, the capital of Denmark situated on the coast of the Øresunds region that connects the North Sea with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Copenhagen",
+      "adm0": {
+        "name": "Denmark",
+        "ucode": "DNK_V1",
+        "dcid": null,
+        "iso3": "DNK"
+      },
+      "adm1": {
+        "name": "The Capitol Region",
+        "ucode": "DNK_0015_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-copenhagen-cloudburst-management-plan/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

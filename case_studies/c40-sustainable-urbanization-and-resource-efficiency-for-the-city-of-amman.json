@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman",
+  "url": "https://www.c40.org/case-studies/sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman/",
+  "title": "Sustainable Urbanization and Resource Efficiency for the City of Amman",
+  "summary": "This C40 case study describes “Sustainable Urbanization and Resource Efficiency for the City of Amman,” an urban initiative documented for Amman. It is included because it is located in the Global South. C40 describes the action this way: SURE (Sustainable Urbanization and Resource Efficiency) is designed to promote low-carbon buildings in Amman, and eventually in other municipalities and cities in…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/sustainable-urbanization-and-resource-efficiency-for-the-city-of-amman/",
+    "publication_date": "2019-12-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

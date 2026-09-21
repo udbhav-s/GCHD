@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-durban-ethekwini",
+  "url": "https://www.c40.org/case-studies/transforming-cities-durban-ethekwini/",
+  "title": "Transforming Cities: Durban’s “tree-preneurs”",
+  "summary": "This C40 case study describes “Transforming Cities: Durban’s “tree-preneurs”,” an urban initiative documented for Durban (eThekwini). It is included because it is located in the Global South. C40 describes the action this way: On the outskirts of South Africa’s capital, “tree-preneur” Thembi ‘s homegrown indigenous saplings are improving biodiversity and encouraging wildlife to return to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Durban (eThekwini)",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Kwa-Zulu Natal",
+        "ucode": "ZAF_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "eThekwini",
+        "ucode": "ZAF_0004_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-durban-ethekwini/",
+    "publication_date": "2022-11-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

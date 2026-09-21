@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding/",
+  "title": "Cities100: New York City – Resilience Study Prepares Communities for Future Flooding",
+  "summary": "This C40 case study describes “Cities100: New York City – Resilience Study Prepares Communities for Future Flooding,” an urban initiative documented for New York. It is included because it addresses river flood, coastal flood, tropical storm hazards. C40 describes the action this way: New York City has conducted comprehensive studies over areas at risk of flooding due to climate change, increasing the resilience…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-resilience-study-prepares-communities-for-future-flooding/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

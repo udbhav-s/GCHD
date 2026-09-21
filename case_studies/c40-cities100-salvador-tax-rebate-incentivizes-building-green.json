@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-salvador-tax-rebate-incentivizes-building-green",
+  "url": "https://www.c40.org/case-studies/cities100-salvador-tax-rebate-incentivizes-building-green/",
+  "title": "Cities100: Salvador – Tax Rebate Incentivizes Building Green",
+  "summary": "This C40 case study describes “Cities100: Salvador – Tax Rebate Incentivizes Building Green,” an urban initiative documented for Salvador. It is included because it is located in the Global South. C40 describes the action this way: The Brazilian City of Salvador is using a discount on property taxes to incentivize the deployment of sustainable technologies in…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-salvador-tax-rebate-incentivizes-building-green/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park/",
+  "title": "Cities100: Wuhan – Rehabilitated River Embankment Becomes Beach Park",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Rehabilitated River Embankment Becomes Beach Park,” an urban initiative documented for Wuhan. It is included because it addresses river flood, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: Wuhan has re-embraced nature to make its city safe from flooding, while also providing the world's largest beach park for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-rehabilitated-river-embankment-becomes-beach-park/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan",
+  "url": "https://www.c40.org/case-studies/implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan/",
+  "title": "Implementation Of A Large-Scale LED Street Lighting Project In The City Of Jaipur And Across The State Of Rajasthan",
+  "summary": "This C40 case study describes “Implementation Of A Large-Scale LED Street Lighting Project In The City Of Jaipur And Across The State Of Rajasthan,” an urban initiative documented for Jaipur. It is included because it is located in the Global South. C40 describes the action this way: In collaboration with the state government, Jaipur has begun replacing all of its incandescent bulbs with LED lights, saving a large amount…",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": null,
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Rajasthan",
+        "ucode": "IND_0028_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/implementation-of-a-large-scale-led-street-lighting-project-in-the-city-of-jaipur-and-across-the-state-of-rajasthan/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

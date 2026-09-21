@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-amman-urban-micro-lungs-initiative",
+  "url": "https://www.c40.org/case-studies/amman-urban-micro-lungs-initiative/",
+  "title": "Urban Micro-Lungs Initiative in Amman",
+  "summary": "This C40 case study describes “Urban Micro-Lungs Initiative in Amman,” an urban initiative documented for Amman. It is included because it addresses river flood, meteorological drought, heatwave, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: The Urban Micro-Lungs (UML) initiative is a green infrastructure intervention executed by the project Improving Living Conditions in disadvantaged areas…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "meteorological_drought",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/amman-urban-micro-lungs-initiative/",
+    "publication_date": "2021-05-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-new-waste-collection-system-in-venice",
+  "url": "https://www.c40.org/case-studies/new-waste-collection-system-in-venice/",
+  "title": "New waste collection system in Venice",
+  "summary": "This C40 case study describes “New waste collection system in Venice,” an urban initiative documented for Venice. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: Venice (historical centre) has developed a new strategy to increase and improve the collection of separated waste: the historical centre of Venice…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Venice",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": "ITA_0020_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Venezia",
+        "ucode": "ITA_0020_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/new-waste-collection-system-in-venice/",
+    "publication_date": "2018-03-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

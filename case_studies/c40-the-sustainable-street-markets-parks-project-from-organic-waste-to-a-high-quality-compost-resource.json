@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource",
+  "url": "https://www.c40.org/case-studies/the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource/",
+  "title": "The Sustainable Street Markets & Parks project: From organic waste to a high-quality compost resource",
+  "summary": "This C40 case study describes “The Sustainable Street Markets & Parks project: From organic waste to a high-quality compost resource,” an urban initiative documented for São Paulo. It is included because it is located in the Global South. C40 describes the action this way: The City of São Paulo has launched a project called ‘Feiras & Jardins Sustentáveis’ (Sustainable Street Markets & Parks) to promote decentralized…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "São Paulo",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "São Paulo",
+        "ucode": "BRA_0025_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "São Paulo",
+        "ucode": "BRA_0025_0305_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-sustainable-street-markets-parks-project-from-organic-waste-to-a-high-quality-compost-resource/",
+    "publication_date": "2018-08-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

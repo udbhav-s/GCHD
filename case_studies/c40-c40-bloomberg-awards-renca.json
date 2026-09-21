@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-bloomberg-awards-renca",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-renca/",
+  "title": "C40-Bloomberg Philanthropies Awards: Putting people at the centre of climate action in Renca",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Putting people at the centre of climate action in Renca,” an urban initiative documented for Renca. It is included because it addresses meteorological drought, heatwave, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: With a population of 160,000, the Chilean municipality of Renca may be small in size, but it has proved to be a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Renca",
+      "adm0": {
+        "name": "Chile",
+        "ucode": "CHL_V1",
+        "dcid": null,
+        "iso3": "CHL"
+      },
+      "adm1": {
+        "name": "Metropolitana",
+        "ucode": "CHL_0006_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-renca/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

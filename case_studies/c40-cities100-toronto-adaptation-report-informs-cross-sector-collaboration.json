@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-toronto-adaptation-report-informs-cross-sector-collaboration",
+  "url": "https://www.c40.org/case-studies/cities100-toronto-adaptation-report-informs-cross-sector-collaboration/",
+  "title": "Cities100: Toronto – Adaptation Report Informs Cross-Sector Collaboration",
+  "summary": "This C40 case study describes “Cities100: Toronto – Adaptation Report Informs Cross-Sector Collaboration,” an urban initiative documented for Toronto. It is included because it addresses river flood, heatwave, extreme heat, air pollution pm25, malaria hazards. C40 describes the action this way: Toronto published a policy report outlining an approach that will see climate change resilience integrated into decision-making and coordination across…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Toronto",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "Ontario",
+        "ucode": "CAN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Toronto",
+        "ucode": "CAN_0009_0046_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "extreme_heat",
+    "air_pollution_pm25",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-toronto-adaptation-report-informs-cross-sector-collaboration/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

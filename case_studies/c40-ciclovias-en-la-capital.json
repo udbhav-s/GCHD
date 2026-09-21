@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-ciclovias-en-la-capital",
+  "url": "https://www.c40.org/case-studies/ciclovias-en-la-capital/",
+  "title": "Ciclovías en la capital",
+  "summary": "This C40 case study describes “Ciclovías en la capital,” an urban initiative documented for Quito. It is included because it is located in the Global South. C40 describes the action this way: Quito, a sus 2.835 metros sobre el nivel del mar, con una topografía compleja, con una pared montañosa al occidente,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/ciclovias-en-la-capital/",
+    "publication_date": "2021-01-08",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

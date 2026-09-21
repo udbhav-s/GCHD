@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-protecting-dalians-shoreline-for-future-generations",
+  "url": "https://www.c40.org/case-studies/protecting-dalians-shoreline-for-future-generations/",
+  "title": "Protecting Dalian’s shoreline for future generations",
+  "summary": "This C40 case study describes “Protecting Dalian’s shoreline for future generations,” an urban initiative documented for Dalian. It is included because it is located in the Global South. C40 describes the action this way: Dalian has undertaken extensive work to strengthen the city shoreline and protect riverfront wetlands.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dalian",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Liaoning Sheng",
+        "ucode": "CHN_0018_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dalian",
+        "ucode": "CHN_0018_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/protecting-dalians-shoreline-for-future-generations/",
+    "publication_date": "2023-03-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-moscow-air-quality-monitoring",
+  "url": "https://www.c40.org/case-studies/moscow-air-quality-monitoring/",
+  "title": "PM Monitoring Supports Air Quality Improvement in Moscow",
+  "summary": "This C40 case study describes “PM Monitoring Supports Air Quality Improvement in Moscow,” an urban initiative documented for Moscow. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Automatic air pollution monitoring stations have been installed in Moscow in order to better target the source of particulate matter within the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Moscow",
+      "adm0": {
+        "name": "Russian Federation",
+        "ucode": "RUS_V1",
+        "dcid": null,
+        "iso3": "RUS"
+      },
+      "adm1": {
+        "name": "Central Federal District",
+        "ucode": "RUS_0001_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Moscow City",
+        "ucode": "RUS_0001_0010_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/moscow-air-quality-monitoring/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

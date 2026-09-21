@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-saltmarshes-restoration-in-the-venice-lagoon-addresses-land-erosion",
+  "url": "https://www.c40.org/case-studies/saltmarshes-restoration-in-the-venice-lagoon-addresses-land-erosion/",
+  "title": "Saltmarshes Restoration in the Venice Lagoon Addresses Land Erosion",
+  "summary": "This C40 case study describes “Saltmarshes Restoration in the Venice Lagoon Addresses Land Erosion,” an urban initiative documented for Venice. It is included because it addresses coastal flood hazards. C40 describes the action this way: LIFE VIMINE is a European Project which aims to define and implement a novel, integrated approach to landscape management, with the goal…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Venice",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Veneto",
+        "ucode": "ITA_0020_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Venezia",
+        "ucode": "ITA_0020_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/saltmarshes-restoration-in-the-venice-lagoon-addresses-land-erosion/",
+    "publication_date": "2018-12-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

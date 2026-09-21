@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-wuhan-industrial-city-becomes-ecological-town",
+  "url": "https://www.c40.org/case-studies/cities100-wuhan-industrial-city-becomes-ecological-town/",
+  "title": "Cities100: Wuhan – Industrial City Becomes Ecological Town",
+  "summary": "This C40 case study describes “Cities100: Wuhan – Industrial City Becomes Ecological Town,” an urban initiative documented for Wuhan. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: By shutting down chemical companies and turning industrial areas into new ecological communities, Wuhan has dramatically reduced pollution and enabled…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-wuhan-industrial-city-becomes-ecological-town/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

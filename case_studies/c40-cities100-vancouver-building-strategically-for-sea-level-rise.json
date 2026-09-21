@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-vancouver-building-strategically-for-sea-level-rise",
+  "url": "https://www.c40.org/case-studies/cities100-vancouver-building-strategically-for-sea-level-rise/",
+  "title": "Cities100: Vancouver – Building Strategically for Sea Level Rise",
+  "summary": "This C40 case study describes “Cities100: Vancouver – Building Strategically for Sea Level Rise,” an urban initiative documented for Vancouver. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Vancouver developed a comprehensive climate change adaptation strategy and changed bylaws to ensure that new buildings are elevated to protect…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Vancouver",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "British Columbia",
+        "ucode": "CAN_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater Vancouver",
+        "ucode": "CAN_0002_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-vancouver-building-strategically-for-sea-level-rise/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

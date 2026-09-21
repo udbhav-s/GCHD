@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure",
+  "url": "https://www.c40.org/case-studies/improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure/",
+  "title": "Improving Living Conditions in Poverty-Stricken Areas in Amman by Implementing Green Infrastructure",
+  "summary": "This C40 case study describes “Improving Living Conditions in Poverty-Stricken Areas in Amman by Implementing Green Infrastructure,” an urban initiative documented for Amman. It is included because it addresses river flood, heatwave, air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Improving Living Conditions in poverty-stricken Areas in Amman (ILCA) is a pilot project set up to develop and improve existing elements of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/improving-living-conditions-in-poverty-stricken-areas-in-amman-by-implementing-green-infrastructure/",
+    "publication_date": "2019-06-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

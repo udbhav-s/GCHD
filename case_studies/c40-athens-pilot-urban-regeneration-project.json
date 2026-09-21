@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-athens-pilot-urban-regeneration-project",
+  "url": "https://www.c40.org/case-studies/athens-pilot-urban-regeneration-project/",
+  "title": "Athens’ Pilot Urban Regeneration Project",
+  "summary": "This C40 case study describes “Athens’ Pilot Urban Regeneration Project,” an urban initiative documented for Athens. It is included because it addresses extreme heat hazards. C40 describes the action this way: In 2016, the CIty of Athens plans to launch a significant pilot project to regenerate the commercial triangle of the center of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Athens",
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": null,
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Attiki",
+        "ucode": "GRC_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/athens-pilot-urban-regeneration-project/",
+    "publication_date": "2016-04-12",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

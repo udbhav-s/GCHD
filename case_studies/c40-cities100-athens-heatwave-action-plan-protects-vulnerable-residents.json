@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-athens-heatwave-action-plan-protects-vulnerable-residents",
+  "url": "https://www.c40.org/case-studies/cities100-athens-heatwave-action-plan-protects-vulnerable-residents/",
+  "title": "Cities100: Athens – Heatwave Action Plan Protects Vulnerable Residents",
+  "summary": "This C40 case study describes “Cities100: Athens – Heatwave Action Plan Protects Vulnerable Residents,” an urban initiative documented for Athens. It is included because it addresses heatwave, extreme heat, air pollution pm25 hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Athens is implementing a Heatwave Action Plan, ensuring the most vulnerable residents are less at risk from rising temperatures. The…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Athens",
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": null,
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Attiki",
+        "ucode": "GRC_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "heatwave",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-athens-heatwave-action-plan-protects-vulnerable-residents/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

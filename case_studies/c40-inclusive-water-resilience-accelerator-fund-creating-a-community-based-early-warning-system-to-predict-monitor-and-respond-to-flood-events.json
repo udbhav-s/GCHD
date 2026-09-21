@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events",
+  "url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events/",
+  "title": "Inclusive Water Resilience Accelerator Fund | Creating a community-based early warning system to predict, monitor, and respond to flood events",
+  "summary": "This C40 case study describes “Inclusive Water Resilience Accelerator Fund | Creating a community-based early warning system to predict, monitor, and respond to flood events,” an urban initiative documented for Lagos. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Lagos is addressing severe flood risks caused by heavy rainfall, exacerbated by inadequate drainage infrastructure and limited forecasting systems. With…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lagos",
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": null,
+        "iso3": "NGA"
+      },
+      "adm1": {
+        "name": "Lagos",
+        "ucode": "NGA_0025_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/inclusive-water-resilience-accelerator-fund-creating-a-community-based-early-warning-system-to-predict-monitor-and-respond-to-flood-events/",
+    "publication_date": "2025-11-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

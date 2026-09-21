@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals",
+  "url": "https://www.c40.org/case-studies/cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals/",
+  "title": "Cities100: Medellín – Restoring Ecosystems Provides Opportunities for Locals",
+  "summary": "This C40 case study describes “Cities100: Medellín – Restoring Ecosystems Provides Opportunities for Locals,” an urban initiative documented for Medellín. It is included because it addresses river flood, landslide hazards, and it is located in the Global South. C40 describes the action this way: Medellín is tackling hillside urban growth and protecting these areas from flooding and landslides by adopting a socially inclusive approach…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Medellín",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Antioquia",
+        "ucode": "COL_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Medellín",
+        "ucode": "COL_0002_0069_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "landslide"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-medellin-restoring-ecosystems-provides-opportunities-for-locals/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

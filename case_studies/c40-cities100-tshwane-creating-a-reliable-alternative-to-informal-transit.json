@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-tshwane-creating-a-reliable-alternative-to-informal-transit",
+  "url": "https://www.c40.org/case-studies/cities100-tshwane-creating-a-reliable-alternative-to-informal-transit/",
+  "title": "Cities100: Tshwane – Creating a Reliable Alternative to Informal Transit",
+  "summary": "This C40 case study describes “Cities100: Tshwane – Creating a Reliable Alternative to Informal Transit,” an urban initiative documented for Tshwane. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: This South African city’s bus rapid transit system will provide more reliable and efficient transportation for residents on the outskirts…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Tshwane",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Tshwane",
+        "ucode": "ZAF_0003_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-tshwane-creating-a-reliable-alternative-to-informal-transit/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

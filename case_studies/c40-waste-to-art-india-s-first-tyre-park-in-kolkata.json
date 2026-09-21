@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-waste-to-art-india-s-first-tyre-park-in-kolkata",
+  "url": "https://www.c40.org/case-studies/waste-to-art-india-s-first-tyre-park-in-kolkata/",
+  "title": "Waste to Art: India’s first tyre park in Kolkata",
+  "summary": "This C40 case study describes “Waste to Art: India’s first tyre park in Kolkata,” an urban initiative documented for Kolkata. It is included because it is located in the Global South. C40 describes the action this way: With the aim to turn waste into art, the West Bengal Transport Corporation (WBTC) has planned to launch India’s first…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/waste-to-art-india-s-first-tyre-park-in-kolkata/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

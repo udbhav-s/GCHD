@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-buenos-aires-citizens-ready-against-climate-change",
+  "url": "https://www.c40.org/case-studies/buenos-aires-citizens-ready-against-climate-change/",
+  "title": "Buenos Aires ‘Citizens Ready Against Climatic Change’ Programme",
+  "summary": "This C40 case study describes “Buenos Aires ‘Citizens Ready Against Climatic Change’ Programme,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood, heatwave hazards, and it is located in the Global South. C40 describes the action this way: The “Citizens Ready against Climate Change” campaign was initiated to inform the public about the risks of climate change and improve the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/buenos-aires-citizens-ready-against-climate-change/",
+    "publication_date": "2020-01-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-hong-kong-building-cooperation",
+  "url": "https://www.c40.org/case-studies/hong-kong-building-cooperation/",
+  "title": "Strategic Collaboration for Better Building Efficiency in Hong Kong",
+  "summary": "This C40 case study describes “Strategic Collaboration for Better Building Efficiency in Hong Kong,” an urban initiative documented for Hong Kong, China. It is included because it is located in the Global South. C40 describes the action this way: To combat climate change, Hong Kong has implemented a series of strategies to enhance building energy efficiency through legislation and collaboration.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/hong-kong-building-cooperation/",
+    "publication_date": "2020-01-31",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

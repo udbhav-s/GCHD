@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood/",
+  "title": "Cities100: Hong Kong – Abandoned Quarry Converted to Resilient Neighborhood",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Abandoned Quarry Converted to Resilient Neighborhood,” an urban initiative documented for Hong Kong, China. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong is transforming an old industrial site into a sustainable residential development, providing much-needed housing while ensuring climate resiliency…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-abandoned-quarry-converted-to-resilient-neighborhood/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

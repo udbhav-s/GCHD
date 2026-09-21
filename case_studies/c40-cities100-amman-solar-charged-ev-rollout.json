@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-amman-solar-charged-ev-rollout",
+  "url": "https://www.c40.org/case-studies/cities100-amman-solar-charged-ev-rollout/",
+  "title": "Cities100: Amman – Solar-charged EV Rollout",
+  "summary": "This C40 case study describes “Cities100: Amman – Solar-charged EV Rollout,” an urban initiative documented for Amman. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Jordan’s capital of Amman is preparing a rollout of electric vehicles fueled by solar energy with the aim of lowering…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-amman-solar-charged-ev-rollout/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

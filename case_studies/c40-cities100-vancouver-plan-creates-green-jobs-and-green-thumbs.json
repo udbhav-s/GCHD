@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-vancouver-plan-creates-green-jobs-and-green-thumbs",
+  "url": "https://www.c40.org/case-studies/cities100-vancouver-plan-creates-green-jobs-and-green-thumbs/",
+  "title": "Cities100: Vancouver – Plan Creates Green Jobs and Green Thumbs",
+  "summary": "This C40 case study describes “Cities100: Vancouver – Plan Creates Green Jobs and Green Thumbs,” an urban initiative documented for Vancouver. It is included because it addresses coastal flood hazards. C40 describes the action this way: Vancouver aims to become the greenest city in the world by 2020, in large part by developing green jobs and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Vancouver",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "British Columbia",
+        "ucode": "CAN_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater Vancouver",
+        "ucode": "CAN_0002_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-vancouver-plan-creates-green-jobs-and-green-thumbs/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

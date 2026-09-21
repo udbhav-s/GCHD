@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-warsaw-electrification-of-the-bus-fleet",
+  "url": "https://www.c40.org/case-studies/cities100-warsaw-electrification-of-the-bus-fleet/",
+  "title": "Cities100: Warsaw – Electrification of the Bus Fleet",
+  "summary": "This C40 case study describes “Cities100: Warsaw – Electrification of the Bus Fleet,” an urban initiative documented for Warsaw. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: To fight increasing CO2 emissions from transport, the city of Warsaw aims to have one of the cleanest bus fleets…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Warsaw",
+      "adm0": {
+        "name": "Poland",
+        "ucode": "POL_V1",
+        "dcid": null,
+        "iso3": "POL"
+      },
+      "adm1": {
+        "name": "Mazowieckie",
+        "ucode": "POL_0007_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "M. St. Warszawa",
+        "ucode": "POL_0007_0015_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-warsaw-electrification-of-the-bus-fleet/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-creating-local-good-green-jobs-in-rio-de-janeiro",
+  "url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-rio-de-janeiro/",
+  "title": "Creating local good green jobs in Rio de Janeiro",
+  "summary": "This C40 case study describes “Creating local good green jobs in Rio de Janeiro,” an urban initiative documented for Rio de Janeiro. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: In a 2022 analysis by C40, Vivid Economics, and Cambridge Econometrics, we examined how Rio’s climate action could create these good, green…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/creating-local-good-green-jobs-in-rio-de-janeiro/",
+    "publication_date": "2022-10-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

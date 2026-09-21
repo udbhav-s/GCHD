@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity",
+  "url": "https://www.c40.org/case-studies/micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity/",
+  "title": "Micro gardening in Dakar alleviates poverty, hunger and food insecurity",
+  "summary": "This C40 case study describes “Micro gardening in Dakar alleviates poverty, hunger and food insecurity,” an urban initiative documented for Dakar. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Micro gardening in Dakar represents an alternative model of economic development aiming to alleviate poverty, hunger and food insecurity.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dakar",
+      "adm0": {
+        "name": "Senegal",
+        "ucode": "SEN_V1",
+        "dcid": null,
+        "iso3": "SEN"
+      },
+      "adm1": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Dakar",
+        "ucode": "SEN_0009_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/micro-gardening-in-dakar-alleviates-poverty-hunger-and-food-insecurity/",
+    "publication_date": "2019-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

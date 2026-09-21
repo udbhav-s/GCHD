@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-karachi-swm-study",
+  "url": "https://www.c40.org/case-studies/karachi-swm-study/",
+  "title": "A Study for Better Solid Waste Management in Karachi",
+  "summary": "This C40 case study describes “A Study for Better Solid Waste Management in Karachi,” an urban initiative documented for Karachi. It is included because it is located in the Global South. C40 describes the action this way: The City of Karachi in Pakistan houses a population of 25 million residents and produces a waste quantity of 14,000 to 16,000…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Karachi",
+      "adm0": {
+        "name": "Pakistan",
+        "ucode": "PAK_V1",
+        "dcid": null,
+        "iso3": "PAK"
+      },
+      "adm1": {
+        "name": "Sindh",
+        "ucode": "PAK_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [
+    {
+      "name": "Household or community survey data",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/karachi-swm-study/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

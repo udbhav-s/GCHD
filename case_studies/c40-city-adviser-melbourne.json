@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-city-adviser-melbourne",
+  "url": "https://www.c40.org/case-studies/city-adviser-melbourne/",
+  "title": "City Adviser Case Study Series: City of Melbourne – Queen Victoria Market Precinct Renewal",
+  "summary": "This C40 case study describes “City Adviser Case Study Series: City of Melbourne – Queen Victoria Market Precinct Renewal,” an urban initiative documented for Melbourne. It is included because it addresses extreme heat, river flood hazards. C40 describes the action this way: Summary Melbourne is the fastest growing capital city in Australia. It is anticipated that Melbourne’s population will effectively double from…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "extreme_heat",
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/city-adviser-melbourne/",
+    "publication_date": "2016-11-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

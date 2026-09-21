@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-wuhan-intelligent-parking-service-system",
+  "url": "https://www.c40.org/case-studies/wuhan-intelligent-parking-service-system/",
+  "title": "Wuhan Intelligent Parking Service System",
+  "summary": "This C40 case study describes “Wuhan Intelligent Parking Service System,” an urban initiative documented for Wuhan. It is included because it is located in the Global South. C40 describes the action this way: On Jan. 1, 2016, Wuhan launched its intelligent parking service system. Since the system came online, traffic has been reduced, the use…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/wuhan-intelligent-parking-service-system/",
+    "publication_date": "2018-02-12",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

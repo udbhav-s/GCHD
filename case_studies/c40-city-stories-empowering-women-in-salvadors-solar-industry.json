@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-city-stories-empowering-women-in-salvadors-solar-industry",
+  "url": "https://www.c40.org/case-studies/city-stories-empowering-women-in-salvadors-solar-industry/",
+  "title": "City Stories: Empowering women in Salvador’s solar industry",
+  "summary": "This C40 case study describes “City Stories: Empowering women in Salvador’s solar industry,” an urban initiative documented for Salvador. It is included because it is located in the Global South. C40 describes the action this way: Tainá, a solar engineer in the Salvador Solar programme, finds happiness and fulfilment in her good, green job, and proudly…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/city-stories-empowering-women-in-salvadors-solar-industry/",
+    "publication_date": "2023-10-05",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

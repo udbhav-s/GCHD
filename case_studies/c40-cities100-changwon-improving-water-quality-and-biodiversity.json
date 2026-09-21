@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-changwon-improving-water-quality-and-biodiversity",
+  "url": "https://www.c40.org/case-studies/cities100-changwon-improving-water-quality-and-biodiversity/",
+  "title": "Cities100: Changwon – Improving Water Quality and Biodiversity",
+  "summary": "This C40 case study describes “Cities100: Changwon – Improving Water Quality and Biodiversity,” an urban initiative documented for Changwon. It is included because it addresses meteorological drought hazards. C40 describes the action this way: Changwon’s integrated water management plan enhances drinking water quality, improves irrigation management, and restores aquatic biodiversity. The Challenge As an…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Changwon",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Gyeongsangnam-Do",
+        "ucode": "KOR_0010_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Changwon-Si",
+        "ucode": "KOR_0010_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-changwon-improving-water-quality-and-biodiversity/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

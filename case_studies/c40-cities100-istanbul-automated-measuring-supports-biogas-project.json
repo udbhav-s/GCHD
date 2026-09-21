@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-istanbul-automated-measuring-supports-biogas-project",
+  "url": "https://www.c40.org/case-studies/cities100-istanbul-automated-measuring-supports-biogas-project/",
+  "title": "Cities100: Istanbul – Automated Measuring Supports Biogas Project",
+  "summary": "This C40 case study describes “Cities100: Istanbul – Automated Measuring Supports Biogas Project,” an urban initiative documented for Istanbul. It is included because it is located in the Global South. C40 describes the action this way: Istanbul now boasts Turkey’s largest landfill gas-to-energy facility, equipped with automated measuring and able to adjust to gas flows, which…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Istanbul",
+      "adm0": {
+        "name": "Republic of Türkiye",
+        "ucode": "TUR_V1",
+        "dcid": null,
+        "iso3": "TUR"
+      },
+      "adm1": {
+        "name": "İstanbul",
+        "ucode": "TUR_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-istanbul-automated-measuring-supports-biogas-project/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

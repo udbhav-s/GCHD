@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-dhaka-park-regeneration",
+  "url": "https://www.c40.org/case-studies/dhaka-park-regeneration/",
+  "title": "Regeneration of Public Spaces in Dhaka North",
+  "summary": "This C40 case study describes “Regeneration of Public Spaces in Dhaka North,” an urban initiative documented for Dhaka North. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Retrofitting of Parks & Playgrounds and Reclaiming Public Spaces in Dhaka North City Corporation area",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dhaka North",
+      "adm0": {
+        "name": "Bangladesh",
+        "ucode": "BGD_V1",
+        "dcid": null,
+        "iso3": "BGD"
+      },
+      "adm1": {
+        "name": "Dhaka",
+        "ucode": "BGD_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [
+    {
+      "name": "Household or community survey data",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dhaka-park-regeneration/",
+    "publication_date": "2020-01-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

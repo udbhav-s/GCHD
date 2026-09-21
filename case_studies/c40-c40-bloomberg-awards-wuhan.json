@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-bloomberg-awards-wuhan",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-wuhan/",
+  "title": "C40-Bloomberg Philanthropies Awards: Wuhan’s one-hundred-mile Yangtze river ecological corridor",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Wuhan’s one-hundred-mile Yangtze river ecological corridor,” an urban initiative documented for Wuhan. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Wuhan is taking action to upgrade 396 kilometres of shorelines of the Yangtze River Economic Belt to improve flood control capacity and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-wuhan/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

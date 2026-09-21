@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-bloomberg-awards-seoul",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-seoul/",
+  "title": "C40-Bloomberg Philanthropies Awards: Seoul’s transformative electric vehicle programme",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Seoul’s transformative electric vehicle programme,” an urban initiative documented for Seoul. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Seoul is tackling the twin challenges of air pollution and the climate crisis by slashing transport emissions, replacing 400,000 polluting combustion engine…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-seoul/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

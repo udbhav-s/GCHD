@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation",
+  "url": "https://www.c40.org/case-studies/cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation/",
+  "title": "Cities100: Yokohama – Recognizing Ecosystem Services for Climate Adaptation",
+  "summary": "This C40 case study describes “Cities100: Yokohama – Recognizing Ecosystem Services for Climate Adaptation,” an urban initiative documented for Yokohama. It is included because it addresses river flood, heatwave, extreme heat hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: By mainstreaming adaptation measures and investing in green infrastructure, Yokohama is continuing on its path to becoming a climate adapted…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Yokohama",
+      "adm0": {
+        "name": "Japan",
+        "ucode": "JPN_V1",
+        "dcid": null,
+        "iso3": "JPN"
+      },
+      "adm1": {
+        "name": "Kanagawa",
+        "ucode": "JPN_0018_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-yokohama-recognizing-ecosystem-services-for-climate-adaptation/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

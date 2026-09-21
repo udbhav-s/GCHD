@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-rio-de-janeiro-transoeste-brt",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-rio-de-janeiro-transoeste-brt/",
+  "title": "C40 Good Practice Guides: Rio de Janeiro – TransOeste BRT",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Rio de Janeiro – TransOeste BRT,” an urban initiative documented for Rio de Janeiro. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Summary The first BRT corridor, the TransOeste located in the west side of the city, was launched in June 2012….",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-rio-de-janeiro-transoeste-brt/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

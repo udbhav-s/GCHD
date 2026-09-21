@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-spotlight-on-bangkok",
+  "url": "https://www.c40.org/case-studies/spotlight-on-bangkok/",
+  "title": "Spotlight on… Bangkok",
+  "summary": "This C40 case study describes “Spotlight on… Bangkok,” an urban initiative documented for Bangkok. It is included because it is located in the Global South. C40 describes the action this way: Governor Chadchart Sittipunt discusses the threats that climate crisis impacts pose to Bangkok and how the city is working to implement solutions…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bangkok",
+      "adm0": {
+        "name": "Thailand",
+        "ucode": "THA_V1",
+        "dcid": null,
+        "iso3": "THA"
+      },
+      "adm1": {
+        "name": "Bangkok",
+        "ucode": "THA_0003_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/spotlight-on-bangkok/",
+    "publication_date": "2022-10-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

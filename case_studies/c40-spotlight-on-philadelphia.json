@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-spotlight-on-philadelphia",
+  "url": "https://www.c40.org/case-studies/spotlight-on-philadelphia/",
+  "title": "Spotlight on… Philadelphia",
+  "summary": "This C40 case study describes “Spotlight on… Philadelphia,” an urban initiative documented for Philadelphia. It is included because it addresses river flood hazards. C40 describes the action this way: Mayor Jim Kenney is already dealing with the significant impacts of the climate crisis in Philadelphia…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Philadelphia",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Pennsylvania",
+        "ucode": "USA_0039_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Philadelphia",
+        "ucode": "USA_0039_0051_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/spotlight-on-philadelphia/",
+    "publication_date": "2022-10-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

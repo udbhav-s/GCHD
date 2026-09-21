@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-cape-town-turning-trashed-bins-into-trash-bins",
+  "url": "https://www.c40.org/case-studies/cities100-cape-town-turning-trashed-bins-into-trash-bins/",
+  "title": "Cities100: Cape Town – Turning Trashed Bins into Trash Bins",
+  "summary": "This C40 case study describes “Cities100: Cape Town – Turning Trashed Bins into Trash Bins,” an urban initiative documented for Cape Town. It is included because it is located in the Global South. C40 describes the action this way: Cape Town is recycling its old wheeled garbage collection bins, or “wheelie bins,” into new ones, diverting waste from landfill…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Cape Town",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Western Cape",
+        "ucode": "ZAF_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "City of Cape Town",
+        "ucode": "ZAF_0009_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-cape-town-turning-trashed-bins-into-trash-bins/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

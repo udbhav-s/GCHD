@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-green-finance-shenzhen",
+  "url": "https://www.c40.org/case-studies/green-finance-shenzhen/",
+  "title": "The Real Economy Lab of Green Financial Services in Shenzhen",
+  "summary": "This C40 case study describes “The Real Economy Lab of Green Financial Services in Shenzhen,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: The Real Economy Lab of Green Financial Services aims to bring the characteristics of Shenzhen into play, connect global resources, and rely…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-finance-shenzhen/",
+    "publication_date": "2019-12-23",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

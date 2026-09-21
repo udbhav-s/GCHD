@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project/",
+  "title": "C40 Good Practice Guides: Melbourne – Coastal Adaptation Pathways Project",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Melbourne – Coastal Adaptation Pathways Project,” an urban initiative documented for Melbourne. It is included because it addresses river flood, coastal flood, heatwave hazards. C40 describes the action this way: Summary The City of Melbourne adopted its Adaptation Strategy in 2009 to address different climate change related risks, from warmer…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Melbourne",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "Victoria",
+        "ucode": "AUS_0008_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Melbourne",
+        "ucode": "AUS_0008_0043_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-melbourne-coastal-adaptation-pathways-project/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

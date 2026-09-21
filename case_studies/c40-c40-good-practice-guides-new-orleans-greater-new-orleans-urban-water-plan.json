@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-new-orleans-greater-new-orleans-urban-water-plan",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-orleans-greater-new-orleans-urban-water-plan/",
+  "title": "C40 Good Practice Guides: New Orleans – Greater New Orleans Urban Water Plan",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: New Orleans – Greater New Orleans Urban Water Plan,” an urban initiative documented for New Orleans. It is included because it addresses river flood, coastal flood, tropical storm hazards. C40 describes the action this way: Summary New Orleans, lying on the coast of the Gulf of Mexico, suffers from increasingly frequent hurricanes (on average 11…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New Orleans",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Louisiana",
+        "ucode": "USA_0019_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-new-orleans-greater-new-orleans-urban-water-plan/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

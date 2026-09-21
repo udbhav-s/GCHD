@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health",
+  "url": "https://www.c40.org/case-studies/electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health/",
+  "title": "Electric Urban Cleaning Vehicles to Drive Down City’s GHG Emissions, Save Costs, and Improve Citizens’ Health",
+  "summary": "This C40 case study describes “Electric Urban Cleaning Vehicles to Drive Down City’s GHG Emissions, Save Costs, and Improve Citizens’ Health,” an urban initiative documented for Rio de Janeiro. It is included because it is located in the Global South. C40 describes the action this way: COMLURB – Rio’s municipal urban cleaning company – has been provided with three 100% electric vehicles, which will reduce the city’s GHG…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Rio de Janeiro",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Rio De Janeiro",
+        "ucode": "BRA_0019_0013_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/electric-urban-cleaning-vehicles-to-drive-down-city-s-ghg-emissions-save-costs-and-improve-citizens-health/",
+    "publication_date": "2018-12-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

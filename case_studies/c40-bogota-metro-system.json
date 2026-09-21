@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-bogota-metro-system",
+  "url": "https://www.c40.org/case-studies/bogota-metro-system/",
+  "title": "Transforming Cities: The new network moving Bogotá forward",
+  "summary": "This C40 case study describes “Transforming Cities: The new network moving Bogotá forward,” an urban initiative documented for Bogotá. It is included because it is located in the Global South. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/bogota-metro-system/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

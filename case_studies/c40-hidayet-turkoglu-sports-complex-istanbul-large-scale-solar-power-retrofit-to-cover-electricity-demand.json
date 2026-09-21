@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand",
+  "url": "https://www.c40.org/case-studies/hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand/",
+  "title": "Hıdayet Turkoğlu Sports Complex, Istanbul: large-scale solar power retrofit to cover electricity demand",
+  "summary": "This C40 case study describes “Hıdayet Turkoğlu Sports Complex, Istanbul: large-scale solar power retrofit to cover electricity demand,” an urban initiative documented for Istanbul. It is included because it is located in the Global South. C40 describes the action this way: As one of the first solar retrofitting projects by the City of Istanbul, the Hidayet Turkoglu Sports complex stands to benefit from…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Istanbul",
+      "adm0": {
+        "name": "Republic of Türkiye",
+        "ucode": "TUR_V1",
+        "dcid": null,
+        "iso3": "TUR"
+      },
+      "adm1": {
+        "name": "İstanbul",
+        "ucode": "TUR_0040_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/hidayet-turkoglu-sports-complex-istanbul-large-scale-solar-power-retrofit-to-cover-electricity-demand/",
+    "publication_date": "2017-09-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

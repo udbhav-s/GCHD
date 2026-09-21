@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model",
+  "url": "https://www.c40.org/case-studies/clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model/",
+  "title": "Clean Energy in Quezon City: A Wasteland turned into a Waste-to-Energy Model",
+  "summary": "This C40 case study describes “Clean Energy in Quezon City: A Wasteland turned into a Waste-to-Energy Model,” an urban initiative documented for Quezon City. It is included because it is located in the Global South. C40 describes the action this way: An iconic wasteland in Quezon City has been transformed into a successful and international recognized methane gas recover Waste-to-Energy model.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quezon City",
+      "adm0": {
+        "name": "Philippines",
+        "ucode": "PHL_V1",
+        "dcid": null,
+        "iso3": "PHL"
+      },
+      "adm1": {
+        "name": "National Capital Region (Ncr)",
+        "ucode": "PHL_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/clean-energy-in-quezon-city-a-wasteland-turned-into-a-waste-to-energy-model/",
+    "publication_date": "2018-09-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

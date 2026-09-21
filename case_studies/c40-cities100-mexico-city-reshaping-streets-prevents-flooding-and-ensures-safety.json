@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety/",
+  "title": "Cities100: Mexico City – Reshaping Streets Prevents Flooding and Ensures Safety",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Reshaping Streets Prevents Flooding and Ensures Safety,” an urban initiative documented for Mexico City. It is included because it addresses river flood, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: Mexico City is redefining its streetscape by improving drainage conditions, adding green infrastructure, and ensuring that key city spaces are…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-reshaping-streets-prevents-flooding-and-ensures-safety/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

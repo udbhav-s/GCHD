@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-mexico-city-public-transit-integration-catapults-bike-share",
+  "url": "https://www.c40.org/case-studies/cities100-mexico-city-public-transit-integration-catapults-bike-share/",
+  "title": "Cities100: Mexico City – Public Transit Integration Catapults Bike-share",
+  "summary": "This C40 case study describes “Cities100: Mexico City – Public Transit Integration Catapults Bike-share,” an urban initiative documented for Mexico City. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: To create a true shift in transit habits, Mexico City integrated its bike-share program with the city’s public transport network,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-mexico-city-public-transit-integration-catapults-bike-share/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

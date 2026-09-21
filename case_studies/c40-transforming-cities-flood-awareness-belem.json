@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-flood-awareness-belem",
+  "url": "https://www.c40.org/case-studies/transforming-cities-flood-awareness-belem/",
+  "title": "Transforming Cities: Raising flood awareness in a lowland city",
+  "summary": "This C40 case study describes “Transforming Cities: Raising flood awareness in a lowland city,” an urban initiative documented for Belém. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Belém",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Pará",
+        "ucode": "BRA_0014_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Belém",
+        "ucode": "BRA_0014_0076_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-flood-awareness-belem/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

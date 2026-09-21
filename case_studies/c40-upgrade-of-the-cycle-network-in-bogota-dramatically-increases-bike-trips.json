@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips",
+  "url": "https://www.c40.org/case-studies/upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips/",
+  "title": "Upgrade of the Cycle Network in Bogotà Dramatically Increases Bike Trips",
+  "summary": "This C40 case study describes “Upgrade of the Cycle Network in Bogotà Dramatically Increases Bike Trips,” an urban initiative documented for Bogotá. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: The municipality of Bogotá has invested in several cycling projects in the past few years, resulting in an increase of bike trips…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/upgrade-of-the-cycle-network-in-bogota-dramatically-increases-bike-trips/",
+    "publication_date": "2019-01-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

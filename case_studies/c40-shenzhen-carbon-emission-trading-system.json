@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-shenzhen-carbon-emission-trading-system",
+  "url": "https://www.c40.org/case-studies/shenzhen-carbon-emission-trading-system/",
+  "title": "Shenzhen carbon emission trading system",
+  "summary": "This C40 case study describes “Shenzhen carbon emission trading system,” an urban initiative documented for Shenzhen. It is included because it is located in the Global South. C40 describes the action this way: Shenzhen became the pilot city in China to officially begin using carbon trading on 18 June 2013. Carbon trading in Shenzhen has…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shenzhen-carbon-emission-trading-system/",
+    "publication_date": "2018-03-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

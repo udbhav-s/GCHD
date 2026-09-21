@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation",
+  "url": "https://www.c40.org/case-studies/bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation/",
+  "title": "Bus Rapid Transit to Tackle Air Pollution, CO2 Emissions, and Improve Mass Public Transportation",
+  "summary": "This C40 case study describes “Bus Rapid Transit to Tackle Air Pollution, CO2 Emissions, and Improve Mass Public Transportation,” an urban initiative documented for Amman. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Amman's BRT will be the city’s first bus rapid transit system (BRT), which is expected to increase public transport mode share from…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Amman",
+      "adm0": {
+        "name": "Jordan",
+        "ucode": "JOR_V1",
+        "dcid": null,
+        "iso3": "JOR"
+      },
+      "adm1": {
+        "name": "'Amman",
+        "ucode": "JOR_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Qasabet Amman",
+        "ucode": "JOR_0003_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/bus-rapid-transit-to-tackle-air-pollution-co2-emissions-and-improve-mass-public-transportation/",
+    "publication_date": "2019-06-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

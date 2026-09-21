@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-buenos-aires-inventory-upgrade-improves-climate-strategy",
+  "url": "https://www.c40.org/case-studies/cities100-buenos-aires-inventory-upgrade-improves-climate-strategy/",
+  "title": "Cities100: Buenos Aires – Inventory Upgrade Improves Climate Strategy",
+  "summary": "This C40 case study describes “Cities100: Buenos Aires – Inventory Upgrade Improves Climate Strategy,” an urban initiative documented for Buenos Aires. It is included because it addresses river flood, heatwave, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: By upgrading the methodology of the city’s emissions inventory, Buenos Aires identified a new focus area for its Climate Change…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Buenos Aires",
+      "adm0": {
+        "name": "Argentina",
+        "ucode": "ARG_V1",
+        "dcid": null,
+        "iso3": "ARG"
+      },
+      "adm1": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ciudad Autonoma De Buenos Aires",
+        "ucode": "ARG_0005_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [
+    {
+      "name": "Emissions or carbon inventory",
+      "url": null,
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-buenos-aires-inventory-upgrade-improves-climate-strategy/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

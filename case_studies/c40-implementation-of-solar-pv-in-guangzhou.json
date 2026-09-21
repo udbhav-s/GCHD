@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-implementation-of-solar-pv-in-guangzhou",
+  "url": "https://www.c40.org/case-studies/implementation-of-solar-pv-in-guangzhou/",
+  "title": "Implementation of solar PV in Guangzhou",
+  "summary": "This C40 case study describes “Implementation of solar PV in Guangzhou,” an urban initiative documented for Guangzhou. It is included because it is located in the Global South. C40 describes the action this way: The Municipality of Guangzhou is active in devising policies to support the development of solar photovoltaics (PV). Multiple measures have been taken…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Guangzhou",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Guangzhou",
+        "ucode": "CHN_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/implementation-of-solar-pv-in-guangzhou/",
+    "publication_date": "2018-01-10",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

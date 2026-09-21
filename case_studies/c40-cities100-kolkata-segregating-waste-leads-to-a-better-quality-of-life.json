@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life",
+  "url": "https://www.c40.org/case-studies/cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life/",
+  "title": "Cities100: Kolkata – Segregating Waste Leads to a Better Quality of Life",
+  "summary": "This C40 case study describes “Cities100: Kolkata – Segregating Waste Leads to a Better Quality of Life,” an urban initiative documented for Kolkata. It is included because it addresses air pollution pm25, malaria hazards, and it is located in the Global South. C40 describes the action this way: In an effort to end waste burning, Kolkata is segregating its waste under the Solid Waste Management Project, creating a…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-kolkata-segregating-waste-leads-to-a-better-quality-of-life/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

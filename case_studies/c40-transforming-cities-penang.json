@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-penang",
+  "url": "https://www.c40.org/case-studies/transforming-cities-penang/",
+  "title": "Transforming Cities: Cooling down Penang",
+  "summary": "This C40 case study describes “Transforming Cities: Cooling down Penang,” an urban initiative documented for Penang. It is included because it addresses river flood, landslide hazards, and it is located in the Global South. C40 describes the action this way: Corina’s beloved home of Penang has seen flooding, landslides, and unbearable heat. A programme harnessing the power of nature is giving her…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Penang",
+      "adm0": {
+        "name": "Malaysia",
+        "ucode": "MYS_V1",
+        "dcid": null,
+        "iso3": "MYS"
+      },
+      "adm1": {
+        "name": "Pulau Pinang",
+        "ucode": "MYS_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "landslide"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-penang/",
+    "publication_date": "2022-11-04",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

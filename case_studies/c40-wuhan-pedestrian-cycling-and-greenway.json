@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-wuhan-pedestrian-cycling-and-greenway",
+  "url": "https://www.c40.org/case-studies/wuhan-pedestrian-cycling-and-greenway/",
+  "title": "Overview of Wuhan pedestrian & cycling and greenway systems planning",
+  "summary": "This C40 case study describes “Overview of Wuhan pedestrian & cycling and greenway systems planning,” an urban initiative documented for Wuhan. It is included because it is located in the Global South. C40 describes the action this way: The objectives of the plan are to build a regulated “safe, seamless, convenient, comfortable, ecological and charming” pedestrian & cycling system to…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Wuhan",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Hubei Sheng",
+        "ucode": "CHN_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Wuhan",
+        "ucode": "CHN_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/wuhan-pedestrian-cycling-and-greenway/",
+    "publication_date": "2016-10-11",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

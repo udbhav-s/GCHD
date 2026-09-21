@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-retrofitting-and-adapting-the-slussen-lock-stockholm-sweden",
+  "url": "https://www.c40.org/case-studies/retrofitting-and-adapting-the-slussen-lock-stockholm-sweden/",
+  "title": "Retrofitting and adapting the slussen lock",
+  "summary": "This C40 case study describes “Retrofitting and adapting the slussen lock,” an urban initiative documented for Stockholm. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: The New Slussen project and reconstruction is vital for the entire Stockholm region around Lake Mälaren. The New Slussen will both protect…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Stockholm",
+      "adm0": {
+        "name": "Sweden",
+        "ucode": "SWE_V1",
+        "dcid": null,
+        "iso3": "SWE"
+      },
+      "adm1": {
+        "name": "Stockholms Laen",
+        "ucode": "SWE_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Stockholm",
+        "ucode": "SWE_0015_0018_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/retrofitting-and-adapting-the-slussen-lock-stockholm-sweden/",
+    "publication_date": "2018-05-25",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

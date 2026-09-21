@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-city-micro-parks",
+  "url": "https://www.c40.org/case-studies/transforming-cities-city-micro-parks/",
+  "title": "Transforming Cities: The need for micro-parks in urban spaces",
+  "summary": "This C40 case study describes “Transforming Cities: The need for micro-parks in urban spaces,” an urban initiative documented for Fortaleza. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: A community project in Washington DC that is giving back to locals and ensuring their homes are comfortable and energy efficient.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Fortaleza",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Ceará",
+        "ucode": "BRA_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Fortaleza",
+        "ucode": "BRA_0006_0176_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-city-micro-parks/",
+    "publication_date": "2025-06-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

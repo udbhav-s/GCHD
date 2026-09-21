@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-seoul-citizens-shape-climate-action",
+  "url": "https://www.c40.org/case-studies/cities100-seoul-citizens-shape-climate-action/",
+  "title": "Cities100: Seoul – Citizens Shape Climate Action",
+  "summary": "This C40 case study describes “Cities100: Seoul – Citizens Shape Climate Action,” an urban initiative documented for Seoul. It is included because it addresses heatwave hazards. C40 describes the action this way: The Promise of Seoul engages citizens in helping the South Korean capital reach its climate targets. The Challenge Many cities…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-seoul-citizens-shape-climate-action/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

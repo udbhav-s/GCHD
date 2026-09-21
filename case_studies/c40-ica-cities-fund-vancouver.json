@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-ica-cities-fund-vancouver",
+  "url": "https://www.c40.org/case-studies/ica-cities-fund-vancouver/",
+  "title": "ICA Fund | Supporting the city’s most heat-vulnerable residents",
+  "summary": "This C40 case study describes “ICA Fund | Supporting the city’s most heat-vulnerable residents,” an urban initiative documented for Vancouver. It is included because it addresses heatwave, extreme heat hazards. C40 describes the action this way: Learn about the inclusive climate project led by the City of Vancouver that is supported by a C40 Inclusive Climate Action (ICA)…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Vancouver",
+      "adm0": {
+        "name": "Canada",
+        "ucode": "CAN_V1",
+        "dcid": null,
+        "iso3": "CAN"
+      },
+      "adm1": {
+        "name": "British Columbia",
+        "ucode": "CAN_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Greater Vancouver",
+        "ucode": "CAN_0002_0014_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/ica-cities-fund-vancouver/",
+    "publication_date": "2023-06-28",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

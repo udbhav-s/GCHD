@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-drive-less-chengdu-low-carbon-e-travel-credits-initiative",
+  "url": "https://www.c40.org/case-studies/drive-less-chengdu-low-carbon-e-travel-credits-initiative/",
+  "title": "Drive Less! – Chengdu Low-carbon e-Travel Credits Initiative",
+  "summary": "This C40 case study describes “Drive Less! – Chengdu Low-carbon e-Travel Credits Initiative,” an urban initiative documented for Chengdu. It is included because it is located in the Global South. C40 describes the action this way: The Chengdu Development and Reform Commission, the Municipal Traffic Management Bureau and other units jointly announced in 2017 the launch of the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chengdu",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Sichuan Sheng",
+        "ucode": "CHN_0026_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chengdu",
+        "ucode": "CHN_0026_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/drive-less-chengdu-low-carbon-e-travel-credits-initiative/",
+    "publication_date": "2019-06-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

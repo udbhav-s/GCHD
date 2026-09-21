@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-comprehensive-waste-management-in-beijing",
+  "url": "https://www.c40.org/case-studies/comprehensive-waste-management-in-beijing/",
+  "title": "Comprehensive Waste Management in Beijing",
+  "summary": "This C40 case study describes “Comprehensive Waste Management in Beijing,” an urban initiative documented for Beijing. It is included because it is located in the Global South. C40 describes the action this way: Beijing Chaoyang Circular Economy Industrial Park is located in the south of Jinzhan Township, Chaoyang District. The total area of the park…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Beijing",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Beijing Shi",
+        "ucode": "CHN_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/comprehensive-waste-management-in-beijing/",
+    "publication_date": "2019-03-29",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

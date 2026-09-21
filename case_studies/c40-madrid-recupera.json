@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-madrid-recupera",
+  "url": "https://www.c40.org/case-studies/madrid-recupera/",
+  "title": "The Madrid Recupera Plan",
+  "summary": "This C40 case study describes “The Madrid Recupera Plan,” an urban initiative documented for Madrid. It is included because it addresses heatwave, extreme heat hazards. C40 describes the action this way: Madrid City Council is carrying out a plan to implement changes to residential buildings which include energy efficiency improvements and CO2 emissions…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Madrid",
+      "adm0": {
+        "name": "Spain",
+        "ucode": "ESP_V1",
+        "dcid": null,
+        "iso3": "ESP"
+      },
+      "adm1": {
+        "name": "Madrid, Comunidad De",
+        "ucode": "ESP_0013_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Madrid",
+        "ucode": "ESP_0013_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/madrid-recupera/",
+    "publication_date": "2018-03-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

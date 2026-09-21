@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation/",
+  "title": "C40 Good Practice Guides: Curitiba – Bus Rapid Transit Modernisation",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Curitiba – Bus Rapid Transit Modernisation,” an urban initiative documented for Curitiba. It is included because it is located in the Global South. C40 describes the action this way: Summary Curitiba was the first city to develop Bus Rapid Transit in 1974 and today the city continues to be…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Curitiba",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Paraná",
+        "ucode": "BRA_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Curitiba",
+        "ucode": "BRA_0016_0133_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-curitiba-bus-rapid-transit-modernisation/",
+    "publication_date": "2016-02-16",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

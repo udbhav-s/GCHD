@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-shanghai-international-tourism-and-resorts-zone-central-gas-distributed-energy-station",
+  "url": "https://www.c40.org/case-studies/shanghai-international-tourism-and-resorts-zone-central-gas-distributed-energy-station/",
+  "title": "Shanghai international tourism and resorts zone central gas distributed energy station",
+  "summary": "This C40 case study describes “Shanghai international tourism and resorts zone central gas distributed energy station,” an urban initiative documented for Shanghai. It is included because it is located in the Global South. C40 describes the action this way: The Shanghai international tourism and resorts zone central gas distributed energy station is an important energy facility for the zone, which is…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shanghai",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Shanghai Shi",
+        "ucode": "CHN_0024_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shanghai",
+        "ucode": "CHN_0024_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/shanghai-international-tourism-and-resorts-zone-central-gas-distributed-energy-station/",
+    "publication_date": "2018-03-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

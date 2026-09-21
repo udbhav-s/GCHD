@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-caracas-holistically-improving-urban-life",
+  "url": "https://www.c40.org/case-studies/cities100-caracas-holistically-improving-urban-life/",
+  "title": "Cities100: Caracas – Holistically Improving Urban Life",
+  "summary": "This C40 case study describes “Cities100: Caracas – Holistically Improving Urban Life,” an urban initiative documented for Caracas. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: With a comprehensive and holistic plan, Caracas is combating congestion and natural damages to upgrade the quality of life for…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Caracas",
+      "adm0": {
+        "name": "Venezuela",
+        "ucode": "VEN_V1",
+        "dcid": null,
+        "iso3": "VEN"
+      },
+      "adm1": {
+        "name": "Distrito Federal",
+        "ucode": "VEN_0011_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Libertador",
+        "ucode": "VEN_0011_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-caracas-holistically-improving-urban-life/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

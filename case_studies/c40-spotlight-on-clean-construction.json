@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-spotlight-on-clean-construction",
+  "url": "https://www.c40.org/case-studies/spotlight-on-clean-construction/",
+  "title": "Spotlight on… Clean Construction",
+  "summary": "This C40 case study describes “Spotlight on… Clean Construction,” an urban initiative documented for Ekurhuleni, Mexico City, Milan, Oslo. It is included because it is located in the Global South. C40 describes the action this way: Learn how cities such as Ekurhuleni, Mexico City, Milan, and Oslo are working to reduce emissions from construction.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ekurhuleni",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Gauteng",
+        "ucode": "ZAF_0003_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Ekurhuleni",
+        "ucode": "ZAF_0003_0003_V1",
+        "dcid": null
+      }
+    },
+    {
+      "level": "non_administrative",
+      "place_name": "Mexico City",
+      "adm0": {
+        "name": "Mexico",
+        "ucode": "MEX_V1",
+        "dcid": null,
+        "iso3": "MEX"
+      },
+      "adm1": {
+        "name": "Ciudad De México",
+        "ucode": "MEX_0007_V1",
+        "dcid": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "non_administrative",
+      "place_name": "Milan",
+      "adm0": {
+        "name": "Italy",
+        "ucode": "ITA_V1",
+        "dcid": null,
+        "iso3": "ITA"
+      },
+      "adm1": {
+        "name": "Lombardia",
+        "ucode": "ITA_0009_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Milano",
+        "ucode": "ITA_0009_0008_V1",
+        "dcid": null
+      }
+    },
+    {
+      "level": "non_administrative",
+      "place_name": "Oslo",
+      "adm0": {
+        "name": "Norway",
+        "ucode": "NOR_V1",
+        "dcid": null,
+        "iso3": "NOR"
+      },
+      "adm1": {
+        "name": "Oslo",
+        "ucode": "NOR_0012_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Oslo",
+        "ucode": "NOR_0012_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/spotlight-on-clean-construction/",
+    "publication_date": "2022-10-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-increasing-biodiversity-and-community-in-changwon",
+  "url": "https://www.c40.org/case-studies/increasing-biodiversity-and-community-in-changwon/",
+  "title": "Increasing Biodiversity and Community in Changwon",
+  "summary": "This C40 case study describes “Increasing Biodiversity and Community in Changwon,” an urban initiative documented for Changwon. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: Changwon’s Sustainable Community Building Project is a comprehensive effort to reduce the city’s CO 2 emissions by 30% by 2020. The aim…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Changwon",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Gyeongsangnam-Do",
+        "ucode": "KOR_0010_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Changwon-Si",
+        "ucode": "KOR_0010_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/increasing-biodiversity-and-community-in-changwon/",
+    "publication_date": "2015-01-17",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually",
+  "url": "https://www.c40.org/case-studies/dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually/",
+  "title": "Dubai’s ‘Mohammed Bin Rashid Al Maktoum’ 5,000MW Solar Park Aims to Save 6.5 Million tCO2e Annually",
+  "summary": "This C40 case study describes “Dubai’s ‘Mohammed Bin Rashid Al Maktoum’ 5,000MW Solar Park Aims to Save 6.5 Million tCO2e Annually,” an urban initiative documented for Dubai. It is included because it is located in the Global South. C40 describes the action this way: The Mohammed bin Rashid Al Maktoum Solar Park is one of Dubai’s key initiatives aiming to achieve the goals set in the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dubai",
+      "adm0": {
+        "name": "United Arab Emirates",
+        "ucode": "ARE_V1",
+        "dcid": null,
+        "iso3": "ARE"
+      },
+      "adm1": {
+        "name": "Dubai",
+        "ucode": "ARE_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dubai-s-mohammed-bin-rashid-al-maktoum-5-000mw-solar-park-aims-to-save-6-5-million-tco2e-annually/",
+    "publication_date": "2019-04-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

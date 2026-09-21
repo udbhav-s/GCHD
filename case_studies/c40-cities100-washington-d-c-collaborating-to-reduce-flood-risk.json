@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-washington-d-c-collaborating-to-reduce-flood-risk",
+  "url": "https://www.c40.org/case-studies/cities100-washington-d-c-collaborating-to-reduce-flood-risk/",
+  "title": "Cities100: Washington, D.C. – Collaborating to Reduce Flood Risk",
+  "summary": "This C40 case study describes “Cities100: Washington, D.C. – Collaborating to Reduce Flood Risk,” an urban initiative documented for Washington, DC. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Forming a team to improve coordination between government agencies, Washington, D.C. is now properly managing its flood risk and avoiding…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Washington, DC",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "District Of Columbia",
+        "ucode": "USA_0009_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-washington-d-c-collaborating-to-reduce-flood-risk/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

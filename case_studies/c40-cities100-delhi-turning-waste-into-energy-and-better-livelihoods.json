@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-delhi-turning-waste-into-energy-and-better-livelihoods",
+  "url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-energy-and-better-livelihoods/",
+  "title": "Cities100: Delhi – Turning Waste into Energy and Better Livelihoods",
+  "summary": "This C40 case study describes “Cities100: Delhi – Turning Waste into Energy and Better Livelihoods,” an urban initiative documented for Delhi NCT. It is included because it addresses air pollution pm25, malaria hazards, and it is located in the Global South. C40 describes the action this way: A new waste-to-energy plant in Delhi is turning would-be landfill waste into a resource, while at the same time reducing…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Delhi NCT",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Delhi",
+        "ucode": "IND_0010_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-delhi-turning-waste-into-energy-and-better-livelihoods/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

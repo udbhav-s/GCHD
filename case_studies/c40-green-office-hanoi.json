@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-green-office-hanoi",
+  "url": "https://www.c40.org/case-studies/green-office-hanoi/",
+  "title": "Hanoi’s “Green Office” Environmental Management System",
+  "summary": "This C40 case study describes “Hanoi’s “Green Office” Environmental Management System,” an urban initiative documented for Hanoi. It is included because it is located in the Global South. C40 describes the action this way: Hanoi DONRE office has made its offices green by reducing the consumption of resources and changed behaviours of its staff",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hanoi",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ha Noi City",
+        "ucode": "VNM_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-office-hanoi/",
+    "publication_date": "2020-01-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

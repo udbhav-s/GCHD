@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-auckland-smart-green-waterfront-development",
+  "url": "https://www.c40.org/case-studies/cities100-auckland-smart-green-waterfront-development/",
+  "title": "Cities100: Auckland – Smart Green Waterfront Development",
+  "summary": "This C40 case study describes “Cities100: Auckland – Smart Green Waterfront Development,” an urban initiative documented for Auckland. It is included because it addresses river flood hazards. C40 describes the action this way: By using smart sensors and development contracts tied to environmental standards, Auckland is ensuring the climate resilience and energy efficiency…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Auckland",
+      "adm0": {
+        "name": "New Zealand",
+        "ucode": "NZL_V1",
+        "dcid": null,
+        "iso3": "NZL"
+      },
+      "adm1": {
+        "name": "Auckland",
+        "ucode": "NZL_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Auckland",
+        "ucode": "NZL_0002_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-auckland-smart-green-waterfront-development/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

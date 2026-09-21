@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-new-york-city-integrating-climate-projections-in-city-planning",
+  "url": "https://www.c40.org/case-studies/cities100-new-york-city-integrating-climate-projections-in-city-planning/",
+  "title": "Cities100: New York City – Integrating Climate Projections in City Planning",
+  "summary": "This C40 case study describes “Cities100: New York City – Integrating Climate Projections in City Planning,” an urban initiative documented for New York. It is included because it addresses river flood, coastal flood, tropical storm, heatwave, extreme heat hazards. C40 describes the action this way: In New York City, climate change risks are now integrated into the city's existing planning and construction operations, ensuring city…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "New York",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "New York",
+        "ucode": "USA_0033_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "New York",
+        "ucode": "USA_0033_0031_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "tropical_storm",
+    "heatwave",
+    "extreme_heat"
+  ],
+  "data_sources": [
+    {
+      "name": "Weather or climate-projection data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-new-york-city-integrating-climate-projections-in-city-planning/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

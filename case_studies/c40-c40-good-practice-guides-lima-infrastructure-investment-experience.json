@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-lima-infrastructure-investment-experience",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-lima-infrastructure-investment-experience/",
+  "title": "C40 Good Practice Guides: Lima – Infrastructure investment experience",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Lima – Infrastructure investment experience,” an urban initiative documented for Lima. It is included because it is located in the Global South. C40 describes the action this way: Summary Lima, a city of over 7 million people, is one of the fastest growing in Latin America and has…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lima",
+      "adm0": {
+        "name": "Peru",
+        "ucode": "PER_V1",
+        "dcid": null,
+        "iso3": "PER"
+      },
+      "adm1": {
+        "name": "Lima",
+        "ucode": "PER_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Lima",
+        "ucode": "PER_0015_0008_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-lima-infrastructure-investment-experience/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

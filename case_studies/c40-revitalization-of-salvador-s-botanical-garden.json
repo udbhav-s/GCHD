@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-revitalization-of-salvador-s-botanical-garden",
+  "url": "https://www.c40.org/case-studies/revitalization-of-salvador-s-botanical-garden/",
+  "title": "Revitalization of Salvador’s Botanical Garden",
+  "summary": "This C40 case study describes “Revitalization of Salvador’s Botanical Garden,” an urban initiative documented for Salvador. It is included because it is located in the Global South. C40 describes the action this way: The requalification of Salvador’s Botanical Garden, inaugurated on November 12th, is one of the actions of the Municipal Government that aim…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/revitalization-of-salvador-s-botanical-garden/",
+    "publication_date": "2020-12-18",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-sydney-inclusive-adaptation-to-climate-risks",
+  "url": "https://www.c40.org/case-studies/cities100-sydney-inclusive-adaptation-to-climate-risks/",
+  "title": "Cities100: Sydney – Inclusive Adaptation to Climate Risks",
+  "summary": "This C40 case study describes “Cities100: Sydney – Inclusive Adaptation to Climate Risks,” an urban initiative documented for Sydney. It is included because it addresses coastal flood, meteorological drought, heatwave, extreme heat, air pollution pm25 hazards. C40 describes the action this way: Sydney has developed an adaptation strategy across multiple jurisdictions to safeguard the city from pressing climate change risks. The Challenge…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Sydney",
+      "adm0": {
+        "name": "Australia",
+        "ucode": "AUS_V1",
+        "dcid": null,
+        "iso3": "AUS"
+      },
+      "adm1": {
+        "name": "New South Wales",
+        "ucode": "AUS_0002_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Sydney",
+        "ucode": "AUS_0002_0146_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "coastal_flood",
+    "meteorological_drought",
+    "heatwave",
+    "extreme_heat",
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-sydney-inclusive-adaptation-to-climate-risks/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

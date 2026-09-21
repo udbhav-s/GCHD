@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-hong-kong-landslide-protection-with-low-impact-design",
+  "url": "https://www.c40.org/case-studies/cities100-hong-kong-landslide-protection-with-low-impact-design/",
+  "title": "Cities100: Hong Kong – Landslide Protection with Low-Impact Design",
+  "summary": "This C40 case study describes “Cities100: Hong Kong – Landslide Protection with Low-Impact Design,” an urban initiative documented for Hong Kong, China. It is included because it addresses landslide hazards, and it is located in the Global South. C40 describes the action this way: Hong Kong is protecting residents from deadly, rain-induced landslides by strategically installing barriers and drainage tunnels. The Challenge Hong Kong…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Hong Kong, China",
+      "adm0": {
+        "name": "China, Hong Kong SAR",
+        "ucode": "HKG_V1",
+        "dcid": null,
+        "iso3": "HKG"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "landslide"
+  ],
+  "data_sources": [
+    {
+      "name": "Satellite or remote-sensing imagery",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-hong-kong-landslide-protection-with-low-impact-design/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

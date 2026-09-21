@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-jakarta-socially-inclusive-climate-adaptation-for-urban-revitalization-project",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-jakarta-socially-inclusive-climate-adaptation-for-urban-revitalization-project/",
+  "title": "C40 Good Practice Guides: Jakarta – Socially Inclusive Climate Adaptation for Urban Revitalization Project",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Jakarta – Socially Inclusive Climate Adaptation for Urban Revitalization Project,” an urban initiative documented for Jakarta. It is included because it addresses river flood, coastal flood, malaria hazards, and it is located in the Global South. C40 describes the action this way: Summary Through the Spatial Plan 2030xxiii, Jakarta Water Management Strategy 2030xxiv and Climate Adaptation Road Map for 2030xxv, Jakarta aims…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-jakarta-socially-inclusive-climate-adaptation-for-urban-revitalization-project/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

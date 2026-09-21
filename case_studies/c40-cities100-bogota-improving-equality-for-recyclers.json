@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-bogota-improving-equality-for-recyclers",
+  "url": "https://www.c40.org/case-studies/cities100-bogota-improving-equality-for-recyclers/",
+  "title": "Cities100: Bogotá – Improving Equality for Recyclers",
+  "summary": "This C40 case study describes “Cities100: Bogotá – Improving Equality for Recyclers,” an urban initiative documented for Bogotá. It is included because it is located in the Global South. C40 describes the action this way: By including Bogotá’s informal recyclers in the city’s social and economic structure, thousands of people have been granted deserved dignity…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-bogota-improving-equality-for-recyclers/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-spotlight-on-chennai",
+  "url": "https://www.c40.org/case-studies/spotlight-on-chennai/",
+  "title": "Spotlight on… Chennai",
+  "summary": "This C40 case study describes “Spotlight on… Chennai,” an urban initiative documented for Chennai. It is included because it is located in the Global South. C40 describes the action this way: Supriya Sahu, Additional Chief Secretary, Ministry of Environment, Climate Change & Forests, Government of Tamil Nadu explains Chennai’s strategy to transform the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/spotlight-on-chennai/",
+    "publication_date": "2022-10-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

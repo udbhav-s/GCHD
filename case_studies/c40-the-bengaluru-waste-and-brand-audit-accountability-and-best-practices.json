@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-bengaluru-waste-and-brand-audit-accountability-and-best-practices",
+  "url": "https://www.c40.org/case-studies/the-bengaluru-waste-and-brand-audit-accountability-and-best-practices/",
+  "title": "The Bengaluru Waste and Brand Audit: Accountability and Best Practices",
+  "summary": "This C40 case study describes “The Bengaluru Waste and Brand Audit: Accountability and Best Practices,” an urban initiative documented for Bengaluru. It is included because it is located in the Global South. C40 describes the action this way: The Bengaluru Waste and Brand Audit is a great example of civil society engagement in solid waste management, happening in the capital…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bengaluru",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Karnataka",
+        "ucode": "IND_0016_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bengaluru Urban",
+        "ucode": "IND_0016_0005_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-bengaluru-waste-and-brand-audit-accountability-and-best-practices/",
+    "publication_date": "2018-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

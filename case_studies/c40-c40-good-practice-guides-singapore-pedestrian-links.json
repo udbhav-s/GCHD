@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-good-practice-guides-singapore-pedestrian-links",
+  "url": "https://www.c40.org/case-studies/c40-good-practice-guides-singapore-pedestrian-links/",
+  "title": "C40 Good Practice Guides: Singapore – Pedestrian Links",
+  "summary": "This C40 case study describes “C40 Good Practice Guides: Singapore – Pedestrian Links,” an urban initiative documented for Singapore. It is included because it is located in the Global South. C40 describes the action this way: Summary Singapore has introduced urban design guidelines to encourage the provision of new through-block pedestrian links and view corridors within…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Singapore",
+      "adm0": {
+        "name": "Singapore",
+        "ucode": "SGP_V2",
+        "dcid": null,
+        "iso3": "SGP"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-good-practice-guides-singapore-pedestrian-links/",
+    "publication_date": "2016-02-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-durban-s-energy-office-solar-eos-project",
+  "url": "https://www.c40.org/case-studies/durban-s-energy-office-solar-eos-project/",
+  "title": "Durban’s Energy Office Solar (EOS) Project",
+  "summary": "This C40 case study describes “Durban’s Energy Office Solar (EOS) Project,” an urban initiative documented for Durban (eThekwini). It is included because it is located in the Global South. C40 describes the action this way: The Energy Office Solar (EOS) project is a pilot project that culminated in the eThekwini Municipality installing 300kWp of rooftop Photovoltaic on…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Durban (eThekwini)",
+      "adm0": {
+        "name": "South Africa",
+        "ucode": "ZAF_V1",
+        "dcid": null,
+        "iso3": "ZAF"
+      },
+      "adm1": {
+        "name": "Kwa-Zulu Natal",
+        "ucode": "ZAF_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "eThekwini",
+        "ucode": "ZAF_0004_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/durban-s-energy-office-solar-eos-project/",
+    "publication_date": "2017-09-22",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

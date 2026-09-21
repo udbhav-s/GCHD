@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-kolkata-tram-network",
+  "url": "https://www.c40.org/case-studies/kolkata-tram-network/",
+  "title": "Upgrading Kolkata’s Tram Network",
+  "summary": "This C40 case study describes “Upgrading Kolkata’s Tram Network,” an urban initiative documented for Kolkata. It is included because it is located in the Global South. C40 describes the action this way: The city of Kolkata, the earstwhile capital city of India, has a population of 44,96,694 and a municipal area of 205 sq.km.…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/kolkata-tram-network/",
+    "publication_date": "2020-01-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

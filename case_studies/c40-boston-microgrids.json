@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-boston-microgrids",
+  "url": "https://www.c40.org/case-studies/boston-microgrids/",
+  "title": "Boston Smart Utilities Vision: Initiating a New Microgrid Policy",
+  "summary": "This C40 case study describes “Boston Smart Utilities Vision: Initiating a New Microgrid Policy,” an urban initiative documented for Boston. It is included because it addresses river flood, coastal flood hazards. C40 describes the action this way: Boston has initiatied a policy that will see any building with a floorspace of over 1.5 million square feet be supplied with…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Boston",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Massachusetts",
+        "ucode": "USA_0022_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/boston-microgrids/",
+    "publication_date": "2020-02-03",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

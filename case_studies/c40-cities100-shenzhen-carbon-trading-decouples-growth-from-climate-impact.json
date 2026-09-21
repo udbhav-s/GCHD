@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact",
+  "url": "https://www.c40.org/case-studies/cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact/",
+  "title": "Cities100: Shenzhen – Carbon Trading Decouples Growth from Climate impact",
+  "summary": "This C40 case study describes “Cities100: Shenzhen – Carbon Trading Decouples Growth from Climate impact,” an urban initiative documented for Shenzhen. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Shenzhen has created a market for trading carbon emission allowances between the city’s largest companies, driving down carbon intensity and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Shenzhen",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Guangdong Sheng",
+        "ucode": "CHN_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Shenzhen",
+        "ucode": "CHN_0006_0003_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-shenzhen-carbon-trading-decouples-growth-from-climate-impact/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

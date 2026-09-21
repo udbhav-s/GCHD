@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-zhenjiang-protects-wetlands-sponge-city",
+  "url": "https://www.c40.org/case-studies/zhenjiang-protects-wetlands-sponge-city/",
+  "title": "Zhenjiang protects wetlands and renews urban areas with “sponge city” models",
+  "summary": "This C40 case study describes “Zhenjiang protects wetlands and renews urban areas with “sponge city” models,” an urban initiative documented for Zhenjiang. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: Zhenjiang is protecting the Yangtze River and renewing older urban areas by applying “sponge city” methods, such as expanding green roofs and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Zhenjiang",
+      "adm0": {
+        "name": "China",
+        "ucode": "CHN_V1",
+        "dcid": null,
+        "iso3": "CHN"
+      },
+      "adm1": {
+        "name": "Jiangsu Sheng",
+        "ucode": "CHN_0015_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Zhenjiang",
+        "ucode": "CHN_0015_0011_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/zhenjiang-protects-wetlands-sponge-city/",
+    "publication_date": "2023-03-27",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

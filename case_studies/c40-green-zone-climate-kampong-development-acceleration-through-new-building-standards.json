@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-green-zone-climate-kampong-development-acceleration-through-new-building-standards",
+  "url": "https://www.c40.org/case-studies/green-zone-climate-kampong-development-acceleration-through-new-building-standards/",
+  "title": "Green Zone (Climate Kampong) Development Acceleration Through New Building Standards",
+  "summary": "This C40 case study describes “Green Zone (Climate Kampong) Development Acceleration Through New Building Standards,” an urban initiative documented for Jakarta. It is included because it is located in the Global South. C40 describes the action this way: This initiative focuses on accelerating the development of low to middle-Income high-rise housing in Green Zone Daan Mogot ( Climate Kampong )…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/green-zone-climate-kampong-development-acceleration-through-new-building-standards/",
+    "publication_date": "2018-09-21",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-karachi-transportation-improvement-project",
+  "url": "https://www.c40.org/case-studies/the-karachi-transportation-improvement-project/",
+  "title": "The Karachi Transportation Improvement Project",
+  "summary": "This C40 case study describes “The Karachi Transportation Improvement Project,” an urban initiative documented for Karachi. It is included because it is located in the Global South. C40 describes the action this way: The Karachi Transportation Improvement Project, conducted from April 2010 to June 2012 and composed of a master plan and a feasibility study,…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Karachi",
+      "adm0": {
+        "name": "Pakistan",
+        "ucode": "PAK_V1",
+        "dcid": null,
+        "iso3": "PAK"
+      },
+      "adm1": {
+        "name": "Sindh",
+        "ucode": "PAK_0005_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-karachi-transportation-improvement-project/",
+    "publication_date": "2019-12-24",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

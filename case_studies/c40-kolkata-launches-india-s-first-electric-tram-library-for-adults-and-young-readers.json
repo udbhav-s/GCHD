@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers",
+  "url": "https://www.c40.org/case-studies/kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers/",
+  "title": "Kolkata Launches India’s First Electric Tram Library for Adults and Young Readers",
+  "summary": "This C40 case study describes “Kolkata Launches India’s First Electric Tram Library for Adults and Young Readers,” an urban initiative documented for Kolkata. It is included because it addresses tropical storm hazards, and it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Summary To increase the appeal of using electrified trams as the choice mode of transport among students in Kolkata, the…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kolkata",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "West Bengal",
+        "ucode": "IND_0035_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kolkata",
+        "ucode": "IND_0035_0012_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "tropical_storm"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/kolkata-launches-india-s-first-electric-tram-library-for-adults-and-young-readers/",
+    "publication_date": "2021-01-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

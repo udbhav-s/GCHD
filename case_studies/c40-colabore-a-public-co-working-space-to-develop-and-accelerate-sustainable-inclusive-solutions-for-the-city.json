@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city",
+  "url": "https://www.c40.org/case-studies/colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city/",
+  "title": "COLABORE – A Public Co-working Space to Develop and Accelerate Sustainable & Inclusive Solutions for the City",
+  "summary": "This C40 case study describes “COLABORE – A Public Co-working Space to Develop and Accelerate Sustainable & Inclusive Solutions for the City,” an urban initiative documented for Salvador. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: Salvador kicks off the first public incubator of social affairs in Brazil focusing on the seventeen Sustainable Development Goals of the United…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/colabore-a-public-co-working-space-to-develop-and-accelerate-sustainable-inclusive-solutions-for-the-city/",
+    "publication_date": "2019-05-31",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

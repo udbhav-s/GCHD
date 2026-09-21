@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-dubai-air-quality-strategy-2017-outlook",
+  "url": "https://www.c40.org/case-studies/dubai-air-quality-strategy-2017-outlook/",
+  "title": "Dubai Air Quality Strategy: 2017 Outlook",
+  "summary": "This C40 case study describes “Dubai Air Quality Strategy: 2017 Outlook,” an urban initiative documented for Dubai. It is included because it addresses air pollution pm25 hazards, and it is located in the Global South. C40 describes the action this way: In recent years, Dubai has witnessed achievements across various sectors making it one of the most competitive cities in the world. Bolstered…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Dubai",
+      "adm0": {
+        "name": "United Arab Emirates",
+        "ucode": "ARE_V1",
+        "dcid": null,
+        "iso3": "ARE"
+      },
+      "adm1": {
+        "name": "Dubai",
+        "ucode": "ARE_0004_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [
+    {
+      "name": "Air-quality monitoring data",
+      "url": null,
+      "role": "hazard_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/dubai-air-quality-strategy-2017-outlook/",
+    "publication_date": "2018-12-13",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

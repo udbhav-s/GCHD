@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions",
+  "url": "https://www.c40.org/case-studies/cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions/",
+  "title": "Cities100: Salvador – Tree Planting Project Sequesters and Reduces CO2 Emissions",
+  "summary": "This C40 case study describes “Cities100: Salvador – Tree Planting Project Sequesters and Reduces CO2 Emissions,” an urban initiative documented for Salvador. It is included because it has evidence relevant to children's livelihoods, and it is located in the Global South. C40 describes the action this way: Locals and students in Salvador are planting 20,000 native species as part of the Environmental Recovery Program of the Canabrava…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Salvador",
+      "adm0": {
+        "name": "Brazil",
+        "ucode": "BRA_V1",
+        "dcid": null,
+        "iso3": "BRA"
+      },
+      "adm1": {
+        "name": "Bahia",
+        "ucode": "BRA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Salvador",
+        "ucode": "BRA_0005_0147_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-salvador-tree-planting-project-sequesters-and-reduces-co2-emissions/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

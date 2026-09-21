@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-san-francisco-mandatory-on-site-treatment-conserves-water",
+  "url": "https://www.c40.org/case-studies/cities100-san-francisco-mandatory-on-site-treatment-conserves-water/",
+  "title": "Cities100: San Francisco – Mandatory On-site Treatment Conserves Water",
+  "summary": "This C40 case study describes “Cities100: San Francisco – Mandatory On-site Treatment Conserves Water,” an urban initiative documented for San Francisco. It is included because it addresses meteorological drought, river flood hazards. C40 describes the action this way: San Francisco requires all new large buildings to treat their non-potable water on-site, reducing the use of potable water and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "San Francisco",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "San Francisco",
+        "ucode": "USA_0005_0038_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-san-francisco-mandatory-on-site-treatment-conserves-water/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

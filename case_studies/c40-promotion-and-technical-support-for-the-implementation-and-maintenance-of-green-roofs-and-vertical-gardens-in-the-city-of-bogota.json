@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota",
+  "url": "https://www.c40.org/case-studies/promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota/",
+  "title": "Promotion and Technical Support for The Implementation and Maintenance of Green Roofs and Vertical Gardens in the City of Bogotá",
+  "summary": "This C40 case study describes “Promotion and Technical Support for The Implementation and Maintenance of Green Roofs and Vertical Gardens in the City of Bogotá,” an urban initiative documented for Bogotá. It is included because it addresses air pollution pm25, extreme heat hazards, and it is located in the Global South. C40 describes the action this way: This project is focused on sharing best practices and research to better understand the effect of urban heat islands and develop tools…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Bogotá",
+      "adm0": {
+        "name": "Colombia",
+        "ucode": "COL_V1",
+        "dcid": null,
+        "iso3": "COL"
+      },
+      "adm1": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Bogotá, D.C.",
+        "ucode": "COL_0006_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/promotion-and-technical-support-for-the-implementation-and-maintenance-of-green-roofs-and-vertical-gardens-in-the-city-of-bogota/",
+    "publication_date": "2019-12-20",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

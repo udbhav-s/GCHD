@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-los-angeles-sustainability-embedded-in-every-city-department",
+  "url": "https://www.c40.org/case-studies/cities100-los-angeles-sustainability-embedded-in-every-city-department/",
+  "title": "Cities100: Los Angeles – Sustainability Embedded in Every City Department",
+  "summary": "This C40 case study describes “Cities100: Los Angeles – Sustainability Embedded in Every City Department,” an urban initiative documented for Los Angeles. It is included because it addresses meteorological drought, extreme heat hazards. C40 describes the action this way: Los Angeles has integrated its wide-reaching sustainability plan into all municipal departments in the pursuit of an impressive list of…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Los Angeles",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "California",
+        "ucode": "USA_0005_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Los Angeles",
+        "ucode": "USA_0005_0019_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-los-angeles-sustainability-embedded-in-every-city-department/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas",
+  "url": "https://www.c40.org/case-studies/revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas/",
+  "title": "Revitalising the Kuala Lumpur Klang River Waterfront into Resilient Sustainable Pedestrian Areas",
+  "summary": "This C40 case study describes “Revitalising the Kuala Lumpur Klang River Waterfront into Resilient Sustainable Pedestrian Areas,” an urban initiative documented for Kuala Lumpur. It is included because it addresses river flood hazards, and it is located in the Global South. C40 describes the action this way: The River of Life (ROL) is a project headed by the Government of Malaysia to transform the main rivers of Kuala Lumpur…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Kuala Lumpur",
+      "adm0": {
+        "name": "Malaysia",
+        "ucode": "MYS_V1",
+        "dcid": null,
+        "iso3": "MYS"
+      },
+      "adm1": {
+        "name": "Kuala Lumpur",
+        "ucode": "MYS_0004_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Kuala Lumpur",
+        "ucode": "MYS_0004_0001_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "river_flood"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/revitalising-the-kuala-lumpur-klang-river-waterfront-into-resilient-sustainable-pedestrian-areas/",
+    "publication_date": "2019-09-09",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2",
+  "url": "https://www.c40.org/case-studies/seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2/",
+  "title": "Seoul’s Sustainable Energy Action Plan: One Less Nuclear Power Plant – Phase 2",
+  "summary": "This C40 case study describes “Seoul’s Sustainable Energy Action Plan: One Less Nuclear Power Plant – Phase 2,” an urban initiative documented for Seoul. It is included because it has evidence relevant to children's livelihoods. C40 describes the action this way: The One Less Nuclear Power Plant 2 initiative is the second phase of Seoul’s energy policy, which aims to increase the ability…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Seoul",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Seoul",
+        "ucode": "KOR_0016_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/seoul-s-sustainable-energy-action-plan-one-less-nuclear-power-plant-phase-2/",
+    "publication_date": "2018-12-05",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

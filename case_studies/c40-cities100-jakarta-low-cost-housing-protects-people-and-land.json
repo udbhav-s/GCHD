@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-jakarta-low-cost-housing-protects-people-and-land",
+  "url": "https://www.c40.org/case-studies/cities100-jakarta-low-cost-housing-protects-people-and-land/",
+  "title": "Cities100: Jakarta – Low-cost Housing Protects People and Land",
+  "summary": "This C40 case study describes “Cities100: Jakarta – Low-cost Housing Protects People and Land,” an urban initiative documented for Jakarta. It is included because it addresses river flood, coastal flood, malaria hazards, and it is located in the Global South. C40 describes the action this way: To address the fact that its poorest citizens live in informal housing on the most vulnerable land, Jakarta is resettling…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Jakarta",
+      "adm0": {
+        "name": "Indonesia",
+        "ucode": "IDN_V1",
+        "dcid": null,
+        "iso3": "IDN"
+      },
+      "adm1": {
+        "name": "Dki Jakarta",
+        "ucode": "IDN_0011_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "coastal_flood",
+    "malaria"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-jakarta-low-cost-housing-protects-people-and-land/",
+    "publication_date": "2015-10-30",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-c40-bloomberg-awards-lisbon",
+  "url": "https://www.c40.org/case-studies/c40-bloomberg-awards-lisbon/",
+  "title": "C40-Bloomberg Philanthropies Awards: Safeguarding Lisbon’s drinking water to improve water security and circularity",
+  "summary": "This C40 case study describes “C40-Bloomberg Philanthropies Awards: Safeguarding Lisbon’s drinking water to improve water security and circularity,” an urban initiative documented for Lisbon. It is included because it addresses meteorological drought, heatwave hazards. C40 describes the action this way: Climate breakdown is causing more frequent and severe heat waves, changing rainfall patterns and water scarcity in Lisbon.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Lisbon",
+      "adm0": {
+        "name": "Portugal",
+        "ucode": "PRT_V1",
+        "dcid": null,
+        "iso3": "PRT"
+      },
+      "adm1": {
+        "name": "Lisboa",
+        "ucode": "PRT_0011_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Lisboa",
+        "ucode": "PRT_0011_0007_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "meteorological_drought",
+    "heatwave"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/c40-bloomberg-awards-lisbon/",
+    "publication_date": "2022-10-19",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 6,
+      "name": "Clean Water and Sanitation"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

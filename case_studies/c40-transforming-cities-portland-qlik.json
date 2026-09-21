@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-transforming-cities-portland-qlik",
+  "url": "https://www.c40.org/case-studies/transforming-cities-portland-qlik/",
+  "title": "Transforming Cities: How cities can use data to track their climate goals",
+  "summary": "This C40 case study describes “Transforming Cities: How cities can use data to track their climate goals,” an urban initiative documented for Portland. It is included because it addresses river flood, heatwave, wildfire, air pollution pm25, landslide hazards. C40 describes the action this way: Learn how a data dashboard developed using Qlik is helping Portland understand its climate action performance.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Portland",
+      "adm0": {
+        "name": "United States of America",
+        "ucode": "USA_V1",
+        "dcid": null,
+        "iso3": "USA"
+      },
+      "adm1": {
+        "name": "Oregon",
+        "ucode": "USA_0038_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "river_flood",
+    "heatwave",
+    "wildfire",
+    "air_pollution_pm25",
+    "landslide"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/transforming-cities-portland-qlik/",
+    "publication_date": "2023-05-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

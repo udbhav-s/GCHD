@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights",
+  "url": "https://www.c40.org/case-studies/efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights/",
+  "title": "Efficient Urban Lighting in Chennai – Sodium Vapor Lamps Replaced with LED Lights",
+  "summary": "This C40 case study describes “Efficient Urban Lighting in Chennai – Sodium Vapor Lamps Replaced with LED Lights,” an urban initiative documented for Chennai. It is included because it is located in the Global South. C40 describes the action this way: To reduce its stationary energy footprint, Chennai has set out to replace its stock of existing sodium vapour lamps with LED lights.",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Chennai",
+      "adm0": {
+        "name": "India",
+        "ucode": "IND_V1",
+        "dcid": null,
+        "iso3": "IND"
+      },
+      "adm1": {
+        "name": "Tamil Nadu",
+        "ucode": "IND_0030_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Chennai",
+        "ucode": "IND_0030_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [
+    {
+      "name": "Emissions or carbon inventory",
+      "url": null,
+      "role": "contextual_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/efficient-urban-lighting-in-chennai-sodium-vapor-lamps-replaced-with-led-lights/",
+    "publication_date": "2019-09-06",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

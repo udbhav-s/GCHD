@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-quito-creating-electricity-and-compost-from-organic-waste",
+  "url": "https://www.c40.org/case-studies/cities100-quito-creating-electricity-and-compost-from-organic-waste/",
+  "title": "Cities100: Quito – Creating Electricity and Compost from Organic Waste",
+  "summary": "This C40 case study describes “Cities100: Quito – Creating Electricity and Compost from Organic Waste,” an urban initiative documented for Quito. It is included because it is located in the Global South. C40 describes the action this way: Quito is reducing emissions and changing the definition of waste by generating clean energy, creating compost, and recycling paper and…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Quito",
+      "adm0": {
+        "name": "Ecuador",
+        "ucode": "ECU_V1",
+        "dcid": null,
+        "iso3": "ECU"
+      },
+      "adm1": {
+        "name": "Pichincha",
+        "ucode": "ECU_0019_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Distrito Metropolitano De Quito",
+        "ucode": "ECU_0019_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-quito-creating-electricity-and-compost-from-organic-waste/",
+    "publication_date": "2016-11-15",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 8,
+      "name": "Decent Work and Economic Growth"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

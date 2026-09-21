@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-cities100-changwon-incentives-for-a-shift-to-electric-vehicles",
+  "url": "https://www.c40.org/case-studies/cities100-changwon-incentives-for-a-shift-to-electric-vehicles/",
+  "title": "Cities100: Changwon – Incentives for a Shift to Electric Vehicles",
+  "summary": "This C40 case study describes “Cities100: Changwon – Incentives for a Shift to Electric Vehicles,” an urban initiative documented for Changwon. It is included because it addresses air pollution pm25 hazards. C40 describes the action this way: Changwon is taking the next step towards sustainable transport by promoting the uptake of electric vehicles to combat local air…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Changwon",
+      "adm0": {
+        "name": "Republic of Korea",
+        "ucode": "KOR_V1",
+        "dcid": null,
+        "iso3": "KOR"
+      },
+      "adm1": {
+        "name": "Gyeongsangnam-Do",
+        "ucode": "KOR_0010_V1",
+        "dcid": null
+      },
+      "adm2": {
+        "name": "Changwon-Si",
+        "ucode": "KOR_0010_0002_V1",
+        "dcid": null
+      }
+    }
+  ],
+  "hazards": [
+    "air_pollution_pm25"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/cities100-changwon-incentives-for-a-shift-to-electric-vehicles/",
+    "publication_date": "2017-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

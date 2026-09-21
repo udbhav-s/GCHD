@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama",
+  "url": "https://www.c40.org/case-studies/the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama/",
+  "title": "The Project to Support the Planning and Implementation of Nationally Appropriate Mitigation Actions (NAMAs) in a Measurement, Reporting and Verification Manner (SPI-NAMA)",
+  "summary": "This C40 case study describes “The Project to Support the Planning and Implementation of Nationally Appropriate Mitigation Actions (NAMAs) in a Measurement, Reporting and Verification Manner (SPI-NAMA),” an urban initiative documented for Ho Chi Minh City. It is included because it is located in the Global South. C40 describes the action this way: The technical cooperation project is aiming to enhance the planning and implementation capacity of relevant ministries and local governments. It will develop…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Ho Chi Minh City",
+      "adm0": {
+        "name": "Viet Nam",
+        "ucode": "VNM_V1",
+        "dcid": null,
+        "iso3": "VNM"
+      },
+      "adm1": {
+        "name": "Ho Chi Minh City",
+        "ucode": "VNM_0027_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/the-project-to-support-the-planning-and-implementation-of-nationally-appropriate-mitigation-actions-namas-in-a-measurement-reporting-and-verification-manner-spi-nama/",
+    "publication_date": "2018-09-14",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 12,
+      "name": "Responsible Consumption and Production"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

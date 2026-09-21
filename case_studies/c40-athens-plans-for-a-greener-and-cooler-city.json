@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "id": "c40-athens-plans-for-a-greener-and-cooler-city",
+  "url": "https://www.c40.org/case-studies/athens-plans-for-a-greener-and-cooler-city/",
+  "title": "Athens Plans for a Greener and Cooler City",
+  "summary": "This C40 case study describes “Athens Plans for a Greener and Cooler City,” an urban initiative documented for Athens. It is included because it addresses extreme heat hazards, and it has evidence relevant to children's livelihoods. C40 describes the action this way: Athens’ Operational Programme for the next five years sets the long-term strategy objectives of the City. The Greener and Cooler City project…",
+  "location_scope": "non_administrative",
+  "locations": [
+    {
+      "level": "non_administrative",
+      "place_name": "Athens",
+      "adm0": {
+        "name": "Greece",
+        "ucode": "GRC_V1",
+        "dcid": null,
+        "iso3": "GRC"
+      },
+      "adm1": {
+        "name": "Attiki",
+        "ucode": "GRC_0002_V1",
+        "dcid": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "extreme_heat"
+  ],
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "C40 Cities case studies",
+    "collection_url": "https://www.c40.org/case-studies/",
+    "publisher": "C40 Cities",
+    "document_url": "https://www.c40.org/case-studies/athens-plans-for-a-greener-and-cooler-city/",
+    "publication_date": "2016-04-12",
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 7,
+      "name": "Affordable and Clean Energy"
+    },
+    {
+      "goal": 10,
+      "name": "Reduced Inequalities"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 15,
+      "name": "Life on Land"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}
