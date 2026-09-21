@@ -38,6 +38,7 @@ from georepo_core import (
     get_boundary_collection,
     get_feature_by_ucode as get_local_feature_by_ucode,
 )
+from case_studies_core import load_case_studies
 
 # ---------------------------------------------------------------------------
 # GEE init (once at server start)
@@ -61,6 +62,26 @@ GEE_ATTR       = "Google Earth Engine public data catalog"
 UN_ATTR        = "© United Nations Geospatial"
 CARTO_ATTR     = "© OpenStreetMap contributors © CARTO"
 TOPIC_LIST     = list(HAZARD_TOPICS.keys())
+CASE_STUDIES   = load_case_studies()
+CASE_STUDY_BY_ID = {study["id"]: study for study in CASE_STUDIES}
+
+HAZARD_LABELS = {
+    "river_flood": "River flood",
+    "coastal_flood": "Coastal flood",
+    "tropical_storm": "Tropical storm",
+    "agricultural_drought": "Agricultural drought",
+    "meteorological_drought": "Meteorological drought",
+    "heatwave": "Heatwave",
+    "extreme_heat": "Extreme heat",
+    "wildfire": "Wildfire",
+    "sand_dust_storm": "Sand & dust storm",
+    "air_pollution_pm25": "PM2.5 air pollution",
+    "malaria": "Malaria",
+    "earthquake": "Earthquake",
+    "volcano": "Volcano",
+    "landslide": "Landslide",
+    "armed_conflict": "Armed conflict",
+}
 
 
 def ask_gemini(_query):
@@ -175,6 +196,7 @@ def sidebar():
             nav_btn("bi bi-people",        "Exposure", "btn-exposure"),
             nav_btn("bi bi-stack",         "Multi HZ", "btn-mh", hidden=True),
             nav_btn("bi bi-bar-chart-line","Analysis", "btn-analysis"),
+            nav_btn("bi bi-journal-richtext", "Case Studies", "btn-case-studies"),
             nav_btn("bi bi-robot",         "AI",       "btn-ai", hidden=True),
         ]),
     ])
@@ -538,6 +560,129 @@ def tab_analysis():
     ])
 
 
+def _case_study_filter_options():
+    sdgs = {}
+    hazards = set()
+    countries = {}
+    for study in CASE_STUDIES:
+        for sdg in study.get("sdgs", []):
+            sdgs[sdg["goal"]] = sdg["name"]
+        hazards.update(study.get("hazards", []))
+        for country in study["countries"]:
+            countries[country["ucode"]] = country["name"]
+    return (
+        [{"label": f"SDG {goal}: {sdgs[goal]}", "value": goal} for goal in sorted(sdgs)],
+        [{"label": HAZARD_LABELS.get(hazard, _layer_label(hazard)), "value": hazard}
+         for hazard in sorted(hazards)],
+        [{"label": name, "value": ucode}
+         for ucode, name in sorted(countries.items(), key=lambda item: item[1])],
+    )
+
+
+CASE_STUDY_SDG_OPTIONS, CASE_STUDY_HAZARD_OPTIONS, CASE_STUDY_COUNTRY_OPTIONS = (
+    _case_study_filter_options()
+)
+
+
+def _case_study_admin_options(country_ucode=None):
+    regions = {}
+    for study in CASE_STUDIES:
+        if country_ucode and not any(
+            country["ucode"] == country_ucode for country in study["countries"]
+        ):
+            continue
+        for region in study["admin_regions"]:
+            regions[region["ucode"]] = region
+    return [
+        {
+            "label": f"{region['name']} ({region['level'].upper()})",
+            "value": region["ucode"],
+        }
+        for region in sorted(regions.values(), key=lambda item: (item["name"], item["level"]))
+    ]
+
+
+def _case_study_tag(text, kind):
+    return html.Span(text, className=f"case-study-tag case-study-tag-{kind}")
+
+
+def _case_study_card(study):
+    tags = []
+    tags.extend(_case_study_tag(f"SDG {sdg['goal']}", "sdg") for sdg in study.get("sdgs", []))
+    tags.extend(
+        _case_study_tag(HAZARD_LABELS.get(hazard, _layer_label(hazard)), "hazard")
+        for hazard in study.get("hazards", [])
+    )
+    tags.extend(_case_study_tag(label, "region") for label in study["location_labels"])
+    provenance = study.get("provenance", {})
+    mapped_class = "" if study.get("map_point") else " case-study-card-unmapped"
+    return html.Div(
+        id={"type": "case-study-card", "index": study["id"]},
+        className=f"case-study-card{mapped_class}",
+        n_clicks=0,
+        role="button",
+        tabIndex=0,
+        title="Zoom to this case study" if study.get("map_point") else "No mapped region",
+        children=[
+            html.Div(study["title"], className="case-study-title"),
+            html.Div(study["summary"], className="case-study-summary"),
+            html.Div(tags, className="case-study-tags"),
+            html.Div(className="case-study-card-footer", children=[
+                html.Span(provenance.get("collection_name", "Case study")),
+                html.A("Open source ↗", href=study["url"], target="_blank",
+                       rel="noopener noreferrer", className="case-study-source-link"),
+            ]),
+        ],
+    )
+
+
+def tab_case_studies():
+    return html.Div(id="tab-case-studies", style={"display": "none"}, children=[
+        html.Div(className="ph", children=[
+            html.Div("Case Studies", className="ph-title"),
+            html.Div("Explore data-driven responses to child hazards", className="ph-sub"),
+        ]),
+        html.Div(className="case-study-filters", children=[
+            html.Div(className="case-study-filter", children=[
+                html.Div("SDGs", className="ps-label"),
+                dcc.Dropdown(
+                    id="case-study-sdg-filter", className="ps-select case-study-chip-select",
+                    options=CASE_STUDY_SDG_OPTIONS, value=[], multi=True,
+                    placeholder="Select SDGs…", clearable=True, searchable=True,
+                ),
+            ]),
+            html.Div(className="case-study-filter", children=[
+                html.Div("Hazards", className="ps-label"),
+                dcc.Dropdown(
+                    id="case-study-hazard-filter", className="ps-select case-study-chip-select",
+                    options=CASE_STUDY_HAZARD_OPTIONS, value=[], multi=True,
+                    placeholder="Select hazards…", clearable=True, searchable=True,
+                ),
+            ]),
+            html.Div(className="case-study-filter-row", children=[
+                html.Div(className="case-study-filter", children=[
+                    html.Div("Country", className="ps-label"),
+                    dcc.Dropdown(
+                        id="case-study-country-filter", className="ps-select",
+                        options=CASE_STUDY_COUNTRY_OPTIONS, value=None,
+                        placeholder="All countries", clearable=True, searchable=True,
+                    ),
+                ]),
+                html.Div(className="case-study-filter", children=[
+                    html.Div("Admin region", className="ps-label"),
+                    dcc.Dropdown(
+                        id="case-study-admin-filter", className="ps-select",
+                        options=_case_study_admin_options(), value=None,
+                        placeholder="All regions", clearable=True, searchable=True,
+                    ),
+                ]),
+            ]),
+        ]),
+        html.Div(id="case-study-result-count", className="case-study-result-count"),
+        html.Div(id="case-study-list", className="case-study-list"),
+    ])
+
+
 def tab_ai():
     return html.Div(id="tab-ai", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
@@ -623,6 +768,7 @@ def map_component():
                 dl.LayerGroup(id="data-layers"),
                 dl.LayerGroup(id="boundary-layers"),
                 dl.LayerGroup(id="selection-layer"),
+                dl.LayerGroup(id="case-study-markers"),
                 dl.GeoJSON(
                     id="custom-boundary-geojson",
                     data=None,
@@ -831,6 +977,7 @@ app.layout = html.Div(id="app-root", children=[
             tab_exposure(),
             tab_mh(),
             tab_analysis(),
+            tab_case_studies(),
             tab_ai(),
         ]),
         map_component(),
@@ -874,34 +1021,137 @@ def restore_embargo_state(accepted):
     Output("btn-exposure",      "className"),
     Output("btn-mh",            "className"),
     Output("btn-analysis",      "className"),
+    Output("btn-case-studies",  "className"),
     Output("btn-ai",            "className"),
     Output("tab-hazard",        "style"),
     Output("tab-exposure",      "style"),
     Output("tab-mh",            "style"),
     Output("tab-analysis",      "style"),
+    Output("tab-case-studies",  "style"),
     Output("tab-ai",            "style"),
     Output("hazard-info-panel", "style", allow_duplicate=True),
     Input("btn-hazard",    "n_clicks"),
     Input("btn-exposure",  "n_clicks"),
     Input("btn-mh",        "n_clicks"),
     Input("btn-analysis",  "n_clicks"),
+    Input("btn-case-studies", "n_clicks"),
     Input("btn-ai",        "n_clicks"),
     State("store-tab",     "data"),
     prevent_initial_call=True,
 )
-def switch_tab(n1, n2, n3, n4, n5, current):
+def switch_tab(n1, n2, n3, n4, n5, n6, current):
     tab = {"btn-hazard":"hazard","btn-exposure":"exposure",
            "btn-mh":"mh","btn-analysis":"analysis",
+           "btn-case-studies":"case-studies",
            "btn-ai":"ai"}.get(ctx.triggered_id, current)
     cls = lambda t: "nav-btn active" if tab == t else "nav-btn"
     vis = lambda t: {"display": "block"} if tab == t else {"display": "none"}
     info_panel = no_update if tab == "hazard" else {"display": "none"}
     return (
         tab,
-        cls("hazard"), cls("exposure"), cls("mh"), cls("analysis"), cls("ai"),
-        vis("hazard"), vis("exposure"), vis("mh"), vis("analysis"), vis("ai"),
+        cls("hazard"), cls("exposure"), cls("mh"), cls("analysis"),
+        cls("case-studies"), cls("ai"),
+        vis("hazard"), vis("exposure"), vis("mh"), vis("analysis"),
+        vis("case-studies"), vis("ai"),
         info_panel,
     )
+
+
+# ── Case-study explorer ─────────────────────────────────────────────────────
+
+@app.callback(
+    Output("case-study-admin-filter", "options"),
+    Output("case-study-admin-filter", "value"),
+    Input("case-study-country-filter", "value"),
+    State("case-study-admin-filter", "value"),
+)
+def update_case_study_admin_options(country_ucode, current_admin):
+    options = _case_study_admin_options(country_ucode)
+    valid_values = {option["value"] for option in options}
+    return options, current_admin if current_admin in valid_values else None
+
+
+def _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode):
+    selected_sdgs = set(sdg_goals or [])
+    selected_hazards = set(hazards or [])
+    matches = []
+    for study in CASE_STUDIES:
+        study_sdgs = {sdg["goal"] for sdg in study.get("sdgs", [])}
+        study_hazards = set(study.get("hazards", []))
+        study_countries = {country["ucode"] for country in study["countries"]}
+        study_regions = {region["ucode"] for region in study["admin_regions"]}
+        if selected_sdgs and not selected_sdgs.intersection(study_sdgs):
+            continue
+        if selected_hazards and not selected_hazards.intersection(study_hazards):
+            continue
+        if country_ucode and country_ucode not in study_countries:
+            continue
+        if admin_ucode and admin_ucode not in study_regions:
+            continue
+        matches.append(study)
+    return matches
+
+
+def _case_study_marker(study):
+    return dl.CircleMarker(
+        center=study["map_point"],
+        radius=7,
+        pathOptions={
+            "color": "#ffffff",
+            "weight": 2,
+            "fillColor": "#1CABE2",
+            "fillOpacity": 0.92,
+        },
+        children=[
+            dl.Tooltip(study["title"]),
+            dl.Popup(html.Div(className="case-study-popup", children=[
+                html.Div(study["title"], className="case-study-popup-title"),
+                html.Div(", ".join(study["location_labels"]), className="case-study-popup-location"),
+                html.A("Read case study ↗", href=study["url"], target="_blank",
+                       rel="noopener noreferrer"),
+            ])),
+        ],
+    )
+
+
+@app.callback(
+    Output("case-study-list", "children"),
+    Output("case-study-result-count", "children"),
+    Output("case-study-markers", "children"),
+    Input("case-study-sdg-filter", "value"),
+    Input("case-study-hazard-filter", "value"),
+    Input("case-study-country-filter", "value"),
+    Input("case-study-admin-filter", "value"),
+    Input("store-tab", "data"),
+)
+def update_case_study_view(sdg_goals, hazards, country_ucode, admin_ucode, active_tab):
+    studies = _filter_case_studies(sdg_goals, hazards, country_ucode, admin_ucode)
+    mapped = [study for study in studies if study.get("map_point")]
+    if studies:
+        cards = [_case_study_card(study) for study in studies]
+    else:
+        cards = html.Div(
+            "No case studies match these filters.", className="case-study-empty"
+        )
+    label = "case study" if len(studies) == 1 else "case studies"
+    count = f"{len(studies)} {label} · {len(mapped)} mapped"
+    markers = [_case_study_marker(study) for study in mapped] if active_tab == "case-studies" else []
+    return cards, count, markers
+
+
+@app.callback(
+    Output("main-map", "viewport", allow_duplicate=True),
+    Input({"type": "case-study-card", "index": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def zoom_to_case_study(card_clicks):
+    triggered = ctx.triggered_id
+    if not triggered or not any(card_clicks or []):
+        return no_update
+    study = CASE_STUDY_BY_ID.get(triggered.get("index"))
+    if not study or not study.get("map_bounds"):
+        return no_update
+    return {"bounds": study["map_bounds"], "transition": "fitBounds"}
 
 
 # ── Hazard info popup ────────────────────────────────────────────────────────

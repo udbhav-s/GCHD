@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "id": "unicef-vaccines-rtu",
+  "url": "https://data.unicef.org/data-for-action/reaching-the-unreached-with-life-saving-vaccines-through-data-science-and-geospatial-technologies/",
+  "title": "Reaching the unreached with life-saving vaccines through data science and geospatial technologies",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": { "name": "Cameroon", "iso3": "CMR", "ucode": "CMR_V1", "dcid": "country/CMR" },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": { "name": "Chad", "iso3": "TCD", "ucode": "TCD_V1", "dcid": "country/TCD" },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": { "name": "Côte d'Ivoire", "iso3": "CIV", "ucode": "CIV_V1", "dcid": "country/CIV" },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": { "name": "Guinea", "iso3": "GIN", "ucode": "GIN_V1", "dcid": "country/GIN" },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": { "name": "Mali", "iso3": "MLI", "ucode": "MLI_V2", "dcid": "country/MLI" },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "data_sources": [
+    { "name": "WHO/UNICEF Estimates of National Immunization Coverage", "url": "https://data.unicef.org/topic/child-health/immunization/", "role": "contextual_input" },
+    { "name": "Census-based population projections", "url": null, "role": "population_input" },
+    { "name": "Household surveys", "url": null, "role": "survey_input" },
+    { "name": "Health facility administrative data", "url": null, "role": "operational_input" }
+  ],
+  "provenance": {
+    "collection_name": "UNICEF Data for Action",
+    "collection_url": "https://data.unicef.org/data-for-action/",
+    "publisher": "UNICEF",
+    "document_url": "https://data.unicef.org/data-for-action/reaching-the-unreached-with-life-saving-vaccines-through-data-science-and-geospatial-technologies/",
+    "publication_date": null,
+    "retrieved_at": "2026-09-21",
+    "extraction_method": "llm_assisted"
+  },
+  "sdgs": [
+    { "goal": 3, "name": "Good Health and Well-being" },
+    { "goal": 10, "name": "Reduced Inequalities" },
+    { "goal": 17, "name": "Partnerships for the Goals" }
+  ],
+  "indicators_measured": [
+    {
+      "dcid": "undata/sdg/SH_ACS_DTP3",
+      "name": "Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine",
+      "sdg_indicator": "3.b.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_ACS_MCV2",
+      "name": "Proportion of the target population who received measles-containing-vaccine second-dose (MCV2)",
+      "sdg_indicator": "3.b.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4__SEX--_T",
+      "name": "Under-5 mortality rate",
+      "sdg_indicator": "3.2.1"
+    },
+    {
+      "dcid": "undata/sdg/SH_STA_STNT.AGE--Y0T4__SEX--_T",
+      "name": "Proportion of children moderately or severely stunted",
+      "sdg_indicator": "2.2.1"
+    }
+  ],
+  "indicators_targeted": [
+    {
+      "dcid": "undata/sdg/SH_ACS_DTP3",
+      "name": "DTP3 immunization coverage",
+      "rationale": "Identifying and reaching 'zero-dose' children who received no lifesaving vaccines"
+    },
+    {
+      "dcid": "undata/sdg/SH_ACS_MCV2",
+      "name": "Measles second-dose coverage",
+      "rationale": "Closing immunization gaps among unreached children in remote areas"
+    },
+    {
+      "dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4__SEX--_T",
+      "name": "Under-5 mortality rate",
+      "rationale": "Vaccination prevents child deaths from vaccine-preventable diseases"
+    }
+  ],
+  "summary": "Roughly 6 million children annually in West and Central Africa receive no vaccines ('zero-dose children'), often in remote, inaccessible areas. UNICEF's Reach the Unreached (RtU) initiative in five pilot countries (Cameroon, Chad, Côte d'Ivoire, Guinea, Mali) uses machine learning, geostatistical models, and probability models to produce geolocated vaccination estimates, locating over 1.3 million zero-dose children. Data sources include WHO/UNICEF Estimates of National Immunization Coverage (WUENIC), census-based population projections, household surveys, and health facility administrative data. RtU partnered with MIT and the Frontier Data Network to compare estimation models, benchmark against WUENIC, and assess correlations with child rights deprivation indicators. Methods include probabilistic geospatial modeling, model validation, and health-facility-level data aggregation to improve targeting, planning, and service delivery for immunization equity."
+}

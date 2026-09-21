@@ -1,0 +1,329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mirror-worlds.local/schema/case-study.schema.json",
+  "title": "Mirror Worlds case study",
+  "description": "A data-driven case study indexed by administrative coverage, GCHD hazard, provenance, SDGs, and indicators.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "url",
+    "title",
+    "summary",
+    "location_scope",
+    "locations",
+    "hazards",
+    "data_sources",
+    "provenance",
+    "sdgs",
+    "indicators_measured",
+    "indicators_targeted"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location_scope": {
+      "enum": ["global", "adm0", "adm1", "adm2", "non_administrative"]
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/location"
+      }
+    },
+    "hazards": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "river_flood",
+          "coastal_flood",
+          "tropical_storm",
+          "agricultural_drought",
+          "meteorological_drought",
+          "heatwave",
+          "extreme_heat",
+          "wildfire",
+          "sand_dust_storm",
+          "air_pollution_pm25",
+          "malaria",
+          "earthquake",
+          "volcano",
+          "landslide",
+          "armed_conflict"
+        ]
+      }
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dataSource"
+      }
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "sdgs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sdg"
+      }
+    },
+    "indicators_measured": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/indicator"
+      }
+    },
+    "indicators_targeted": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/indicator"
+      }
+    },
+    "indicators_referenced": {
+      "type": "array",
+      "description": "Named indicators used by the study that do not have a UN Data Commons DCID.",
+      "items": {
+        "$ref": "#/$defs/referencedIndicator"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "location_scope": {
+            "const": "global"
+          }
+        },
+        "required": ["location_scope"]
+      },
+      "then": {
+        "properties": {
+          "locations": {
+            "type": "array",
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "locations": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "administrativeUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "ucode", "dcid"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "iso3": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{3}$"
+        },
+        "ucode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dcid": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "place_name", "adm0", "adm1", "adm2"],
+      "properties": {
+        "level": {
+          "enum": ["adm0", "adm1", "adm2", "non_administrative"]
+        },
+        "place_name": {
+          "type": ["string", "null"]
+        },
+        "adm0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adm1": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adm2": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/administrativeUnit"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "dataSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "role"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "role": {
+          "enum": [
+            "hazard_input",
+            "population_input",
+            "administrative_input",
+            "survey_input",
+            "operational_input",
+            "contextual_input",
+            "other"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "collection_name",
+        "collection_url",
+        "publisher",
+        "document_url",
+        "publication_date",
+        "retrieved_at",
+        "extraction_method"
+      ],
+      "properties": {
+        "collection_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collection_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publication_date": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "extraction_method": {
+          "enum": ["manual", "scraped", "api", "llm_assisted"]
+        }
+      }
+    },
+    "sdg": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["goal", "name"],
+      "properties": {
+        "goal": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 17
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "indicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dcid", "name"],
+      "properties": {
+        "dcid": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sdg_indicator": {
+          "type": ["string", "null"]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "referencedIndicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "source", "note"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
