@@ -16,26 +16,37 @@ to look, not as a measure of risk to children.
 
 ## What it runs
 
-| Layer | Source | Flagged when | Resolution |
+| Layer | Source | What it counts | Resolution |
 |---|---|---|---|
-| Extreme heat | ERA5-Land daily, 2024 | the highest daily maximum went above 35 °C | ~11 km |
-| Drought | TerraClimate PDSI, 2024 | the lowest monthly PDSI fell below −2 | ~4 km |
-| Fire | NASA FIRMS, 2024 | at least one daily detection landed in the cell | ~1 km |
+| Extreme heat | ERA5-Land daily, 2024 | days above 35 °C | ~11 km |
+| Drought | TerraClimate PDSI, 2024 | months below −2 | ~4 km |
+| Fire | NASA FIRMS, 2024 | days with a detection | ~1 km |
 | Child population | WorldPop 2020 age and sex bands | — | 100 m |
 
 Children are the under-18 bands, with 15–19 counted at three fifths.
 
 Two things to keep in mind when reading any figure this produces:
 
-**The hazard flags are occurrence, not severity.** A place with two days above
-35 °C and a place above 35 °C for most of the year are the same pixel. Measured
-across the land this flags, days above 35 °C run from 2 at the 10th percentile
-to 343 at the maximum, and every one of them counts equally.
+**You choose how long a hazard has to last.** Each layer counts the time steps
+that met its condition, and you set the minimum before a place counts as
+exposed — any, 7 days or 30 days for heat and fire; any, 2 months or 3 months
+for drought. The units follow the source and are deliberately not normalised:
+temperature and fire are recorded daily, drought monthly, so twelve readings a
+year is the most drought can resolve.
 
-**They are single-year statistics, not return periods.** Each layer describes
-2024 and says nothing about how likely those conditions are in any other year.
-2024 was the warmest year on record, so the heat layer reads hot against a
-longer baseline.
+The default is "any", which reproduces the older behaviour of asking only
+whether a hazard ever occurred. It is worth moving off it. Globally, a third of
+land saw at least one day above 35 °C in 2024, and among those places the count
+runs from 2 days to 343 — figures at the default treat all of them alike.
+
+**They are still single-year statistics, not return periods.** Each layer
+describes 2024 and says nothing about how likely those conditions are in any
+other year. 2024 was the warmest year on record, so the heat layer reads hot
+against a longer baseline.
+
+**Counting length is not measuring intensity.** A day at 35.1 °C counts the same
+as a day at 45 °C, and the threshold is fixed worldwide, so it ignores that
+people acclimatise to their own climate.
 
 The **Multi Hazard Count** is how many of the three topics flag a pixel. It is a
 tally, not a score: two topics does not mean twice the harm of one.

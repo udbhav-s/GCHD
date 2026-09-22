@@ -21,6 +21,7 @@ from config import (
     HAZARD_TOPICS, TOPIC_COLORS, ADMIN_DATA,
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
     MHC_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
+    DURATION_HAZARDS, duration_label, default_durations, clean_durations,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -30,7 +31,7 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_hazard_tile_url,
+    get_hazard_tile_url, durations_key,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
@@ -300,8 +301,69 @@ def tab_hazard_layers():
             html.Div("Select a layer to display on the map", className="ph-sub"),
         ]),
         html.Div(items, className="layer-list"),
+        duration_panel(),
         html.Div(id="hazard-legend"),
     ])
+
+
+def duration_panel():
+    """Lets the reader say how long a hazard must last before it counts.
+
+    Without this the layers answer "did this ever happen", which treats one hot
+    day and a hot year alike. The units differ by source, so each hazard keeps
+    its own: ERA5-Land and FIRMS report daily, TerraClimate monthly.
+    """
+    rows = []
+    for hazard in DURATION_HAZARDS:
+        name = hazard["name"]
+        rows.append(html.Div(className="ps", style={"paddingTop": "10px"}, children=[
+            html.Div(_layer_label(name), className="ps-label"),
+            html.Div(
+                className="duration-chips",
+                style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
+                children=[
+                    html.Button(
+                        duration_label(hazard, value),
+                        id={"type": "duration-chip", "hazard": name, "value": value},
+                        className="duration-chip",
+                        n_clicks=0,
+                        style=_chip_style(value == hazard["duration_default"]),
+                    )
+                    for value in hazard["duration_options"]
+                ],
+            ),
+        ]))
+
+    return html.Div(className="exposure-method-note", children=[
+        html.Div("How long it has to last", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.P(
+            "A hazard counts where it lasted at least this long during 2024. "
+            "Raising it lowers the exposure figures, because a place that saw "
+            "one bad day stops counting the same as a place that saw a hundred.",
+            className="exposure-method-p",
+        ),
+        *rows,
+        html.P(
+            "Units follow the source. Temperature and fire are recorded daily, "
+            "drought monthly, so 12 readings a year is the most drought can show.",
+            className="exposure-method-p",
+            style={"marginTop": "8px"},
+        ),
+    ])
+
+
+def _chip_style(active):
+    return {
+        "padding": "4px 10px",
+        "fontSize": "0.7rem",
+        "borderRadius": "999px",
+        "cursor": "pointer",
+        "border": "1px solid " + ("#1CABE2" if active else "var(--border)"),
+        "background": "#1CABE2" if active else "transparent",
+        "color": "#fff" if active else "var(--mid)",
+        "fontWeight": "600" if active else "500",
+    }
 
 
 def tab_exposure():
@@ -1022,6 +1084,7 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-embargo",       storage_type="session", data=True),
     dcc.Store(id="store-tab",           data="hazard"),
     dcc.Store(id="store-hazard-layer",  data=None),
+    dcc.Store(id="store-durations",     data=default_durations()),
     dcc.Store(id="store-exposure-topic",data=None),
     dcc.Store(id="store-country",       data=None),
     dcc.Store(id="store-ucode",         data=None),
@@ -1633,7 +1696,14 @@ def update_hazard_legend(sel):
         if not hazard:
             return None
         pal = HAZARD_VIS_PALETTES.get(sel, ["#ffffb2","#fecc5c","#fd8d3c","#f03b20","#bd0026"])
-        sub = [html.Span("Low"), html.Span("High")]
+        if hazard.get("duration_options"):
+            # The layer draws a count now, so the legend states the unit rather
+            # than saying "Low" and "High" over a quantity nobody can name.
+            unit = hazard["duration_unit"]
+            top = hazard.get("vis_max", 1)
+            sub = [html.Span(f"1 {unit[:-1]}"), html.Span(f"{top}+ {unit}")]
+        else:
+            sub = [html.Span("Low"), html.Span("High")]
 
     return html.Div(className="legend-wrap", children=[
         html.Div("Legend", className="legend-label"),
@@ -1651,13 +1721,15 @@ def update_hazard_legend(sel):
     Input("store-exposure-topic", "data"),
     Input("mhc-select",           "value"),
     Input("store-tab",            "data"),
+    Input("store-durations",      "data"),
 )
-def update_data_layers(sel_layer, exp_topic, mhc, tab):
+def update_data_layers(sel_layer, exp_topic, mhc, tab, durations):
     layers = []
+    key = durations_key(durations)
 
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
-            url, _ = get_topic_count_tile_url()
+            url, _ = get_topic_count_tile_url(key)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
             url, _ = get_hazard_tile_url(sel_layer)
@@ -1666,15 +1738,42 @@ def update_data_layers(sel_layer, exp_topic, mhc, tab):
 
     elif tab == "exposure" and exp_topic:
         color = TOPIC_COLORS.get(exp_topic, "#ff0000")
-        url, _ = get_topic_tile_url(exp_topic, color)
+        url, _ = get_topic_tile_url(exp_topic, color, key)
         layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "mh":
         if mhc:
-            url, _ = get_topic_count_tile_url()
+            url, _ = get_topic_count_tile_url(key)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     return layers
+
+
+# ── Duration chips ────────────────────────────────────────────────────────────
+
+@app.callback(
+    Output("store-durations", "data"),
+    Input({"type": "duration-chip", "hazard": ALL, "value": ALL}, "n_clicks"),
+    State("store-durations", "data"),
+    prevent_initial_call=True,
+)
+def pick_duration(_clicks, current):
+    trigger = ctx.triggered_id
+    if not trigger:
+        return no_update
+    updated = clean_durations(current)
+    updated[trigger["hazard"]] = trigger["value"]
+    return updated
+
+
+@app.callback(
+    Output({"type": "duration-chip", "hazard": ALL, "value": ALL}, "style"),
+    Input("store-durations", "data"),
+    State({"type": "duration-chip", "hazard": ALL, "value": ALL}, "id"),
+)
+def mark_selected_duration(durations, ids):
+    chosen = clean_durations(durations)
+    return [_chip_style(chosen.get(i["hazard"]) == i["value"]) for i in ids]
 
 
 # ── Country selection ─────────────────────────────────────────────────────────
@@ -1926,23 +2025,46 @@ def update_badge(name, ucode):
     State("store-level",          "data"),
     State("mhc-select",           "value"),
     State("store-exposure",       "data"),
+    Input("store-durations",      "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, existing):
+def run_exposure(ucode, name, level, mhc, existing, durations):
     if not ucode or not level:
         return no_update, None
-    if existing:
+    # Exposure depends on the duration choice, so a cached result from a
+    # different one cannot be reused.
+    if existing and existing.get("_durations") == clean_durations(durations):
         return no_update, render_results(existing, name, mhc)
     result = compute_exposure(
         feature_ucode=ucode, admin_level=level,
         mhc_value=mhc if mhc else None,
+        durations=durations_key(durations),
     )
+    if result is not None:
+        result["_durations"] = clean_durations(durations)
     return result, render_results(result, name, mhc)
 
 
 def _hazard_label(name):
     words = [w.capitalize() for w in name.replace("-", " ").split("_")]
     return " ".join(words[:2])
+
+
+def _duration_note(result):
+    """States the durations behind these figures, so a number cannot travel
+    without the condition that produced it."""
+    chosen = clean_durations(result.get("_durations"))
+    parts = []
+    for hazard in DURATION_HAZARDS:
+        value = chosen[hazard["name"]]
+        unit = hazard["duration_unit"]
+        label = _layer_label(hazard["name"]).replace(" 2024", "")
+        parts.append(f"{label}: {'any' if value <= 1 else f'{value}+'} {unit}")
+    return html.Div(
+        "Counted where a hazard lasted — " + " · ".join(parts),
+        className="ps-caption",
+        style={"padding": "6px 16px 0", "fontSize": "0.68rem", "lineHeight": "1.5"},
+    )
 
 
 def render_results(result, region_name, mhc_val):
@@ -2018,7 +2140,9 @@ def render_results(result, region_name, mhc_val):
             exposure_items.append(html.Div(header))
 
     export_data = {
-        "region": region_name, "total_population": total,
+        "region": region_name,
+        "durations": clean_durations(result.get("_durations")),
+        "total_population": total,
         "male": male, "female": fema,
         "exposure_by_topic": {
             td["topic"]: {"count": td["count"], "pct": round(td["pct"], 2)}
@@ -2078,6 +2202,7 @@ def render_results(result, region_name, mhc_val):
         html.Div(className="ps", children=[
             html.Div("Exposure by hazard topic", className="ps-label"),
             *exposure_items,
+            _duration_note(result),
         ]) if topic_data else None,
         html.Div(className="ps", children=[
             html.Div("Multi Hazard Filters", className="ps-label"),

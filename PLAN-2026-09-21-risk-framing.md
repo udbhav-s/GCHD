@@ -190,8 +190,16 @@ loaded the asset and read its bands.
 vulnerability at ADM2 exists only as modelled DHS estimates in survey countries.
 Do not draw ADM2 vulnerability as if it were measured.
 
-**Before either of those, fix the hazard layers themselves.** Count days above
-the threshold instead of flagging any occurrence. The machinery already exists —
+**Done 2026-09-21.** Layers count qualifying time steps and the minimum is a
+user control: any / 7 / 30 days for heat and fire, any / 2 / 3 months for
+drought. Units are not normalised across sources. The default of "any"
+reproduces the previous behaviour exactly, so no published figure moved on the
+day it shipped. Measured cost: counting is not slower than reducing to a single
+value (0.8s against 1.6s for a district), because each step becomes a boolean
+before the sum, so no precomputation was needed. The multi-year version below
+still needs it.
+
+**Originally written as:** count days above The machinery already exists —
 `config.py`'s `count_mask` reducer does this for FIRMS, so heat and drought only
 need the same treatment (`era.map(lambda i: i.gt(threshold)).sum()`). That alone
 restores the severity range the measurement above shows we are throwing away.

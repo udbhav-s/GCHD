@@ -62,3 +62,49 @@ def test_no_topic_exposes_more_children_than_live_there(stats):
 
 def test_the_count_filter_never_exceeds_the_population(stats):
     assert stats["active_count_filter"] <= stats["total_population"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_asking_for_a_longer_spell_never_raises_exposure():
+    """Requiring more days cannot add children. If it does, the duration is
+    being applied in the wrong direction."""
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    previous = None
+    for minimum in (1, 7, 30):
+        result = gee_core.compute_exposure(
+            UCODE, ADMIN_LEVEL, durations=durations_key({heat: minimum})
+        )
+        if result is None:
+            pytest.skip("boundary cache does not hold the test district")
+        current = result["Extreme Heat"]
+        if previous is not None:
+            assert current <= previous * (1 + RELATIVE_TOLERANCE), (
+                f"exposure rose when the minimum went to {minimum} days"
+            )
+        previous = current
+
+
+def test_the_duration_control_actually_changes_something():
+    """Bang Rak sees 29 to 41 days above 35 C, so a 30-day minimum has to cut
+    the figure. A control that never moves a number is worse than none."""
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    loose = gee_core.compute_exposure(UCODE, ADMIN_LEVEL, durations=durations_key({heat: 1}))
+    tight = gee_core.compute_exposure(UCODE, ADMIN_LEVEL, durations=durations_key({heat: 30}))
+    if loose is None or tight is None:
+        pytest.skip("boundary cache does not hold the test district")
+    assert tight["Extreme Heat"] < loose["Extreme Heat"]
