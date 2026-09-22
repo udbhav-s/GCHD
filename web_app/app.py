@@ -20,7 +20,7 @@ import json as _json_mod
 from config import (
     HAZARD_TOPICS, TOPIC_COLORS, ADMIN_DATA,
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
-    MHC_OPTIONS, MHI_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
+    MHC_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -30,7 +30,6 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_pixel_score_tile_url, get_pixel_score_percentile_tile_url,
     get_hazard_tile_url,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
@@ -126,7 +125,7 @@ def _hazard_info_body(info):
 
 
 def _layer_label(name):
-    if name in ("Multi Hazard Count", "Multi Hazard Intensity"):
+    if name == "Multi Hazard Count":
         return name
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
@@ -134,9 +133,7 @@ def _layer_label(name):
 
 def _layer_meta(name):
     if name == "Multi Hazard Count":
-        return f"{len(HAZARD_TOPICS)} hazard topics combined"
-    if name == "Multi Hazard Intensity":
-        return "Pixel-based hazard score (MHI)"
+        return f"{len(HAZARD_TOPICS)} hazard topics counted"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -250,7 +247,7 @@ def tab_hazard_layers():
         items.append(_layer_item(n))
 
     # Per-topic sections
-    items.append(html.Div("Hazard Intensity", className="layer-section-header"))
+    items.append(html.Div("Hazard topics", className="layer-section-header"))
     for topic, names in by_topic:
         color     = TOPIC_COLORS.get(topic, "#9ca3af")
         foldable  = topic in SUB_TOPIC_DETAIL
@@ -340,16 +337,16 @@ def tab_exposure():
 
 def tab_mh():
     mhc_pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
-    mhi_pal = ["#000004","#3b0f70","#8c2981","#de4968","#fe9f6d"]
     n = len(HAZARD_TOPICS)
     return html.Div(id="tab-mh", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
-            html.Div("Multi Hazard Indicators", className="ph-title"),
-            html.Div("Combined hazard count & intensity", className="ph-sub"),
+            html.Div("Multi Hazard Count", className="ph-title"),
+            html.Div(f"How many of the {n} hazard topics flag a place", className="ph-sub"),
         ]),
         html.Div(className="ps", children=[
             html.Div("Hazard Count (MHC)", className="ps-label"),
-            html.Div("Areas exposed to ≥ N simultaneous hazard topics", className="ps-caption"),
+            html.Div("Areas where at least N hazard topics flag the same pixel",
+                     className="ps-caption"),
             dcc.Dropdown(
                 id="mhc-select", className="ps-select",
                 options=[{"label": v, "value": v} for v in MHC_OPTIONS],
@@ -364,40 +361,21 @@ def tab_mh():
             html.Div(className="legend-range",
                      children=[html.Span("1 topic"), html.Span(f"{n} topics")]),
         ]),
-        html.Div(className="ps", children=[
-            html.Div("Hazard Intensity (MHI)", className="ps-label"),
-            html.Div("Areas with pixel hazard score above global percentile", className="ps-caption"),
-            dcc.Dropdown(
-                id="mhi-select", className="ps-select",
-                options=[{"label": f"P{v}", "value": v} for v in MHI_OPTIONS],
-                value=None, placeholder="None",
-                clearable=True, searchable=False,
-            ),
-        ]),
-        html.Div(className="ps", children=[
-            html.Div("Intensity layer legend", className="ps-label"),
-            html.Div(className="legend-bar",
-                     style={"background": f"linear-gradient(to right,{','.join(mhi_pal)})"}),
-            html.Div(className="legend-range",
-                     children=[html.Span("Low (0)"), html.Span("High (10)")]),
-        ]),
         html.Div(className="exposure-method-note", children=[
             html.Div("Methodology", className="hi-label", style={"marginBottom": "6px"}),
             html.P([
                 html.Strong("MHC — "),
-                "Each hazard topic is flagged at the pixel level when its threshold is exceeded. "
-                "For topics with multiple layers (e.g. Drought combines agricultural and "
-                "meteorological drought), an OR union is applied across layers before flagging. "
-                "MHC then counts how many topics flag each pixel; only pixels reaching the "
-                "user-selected minimum count N are displayed.",
+                "A hazard topic flags a pixel when one of its layers crosses that layer's "
+                "threshold. Where a topic holds several layers, they are combined with an OR "
+                "union before flagging. The count is how many topics flag the pixel, and the "
+                "map shows only pixels reaching the count you pick.",
             ], className="exposure-method-p"),
             html.P([
-                html.Strong("MHI — "),
-                "A continuous pixel-based hazard score is derived by combining the normalised "
-                "intensity values across all hazard layers, integrating both the breadth and "
-                "severity of co-occurring hazards. The user selects a global percentile "
-                "threshold (e.g. P90); only pixels whose score exceeds that percentile are "
-                "highlighted on the map.",
+                html.Strong("What the count is not — "),
+                f"It is a tally of {n} topics, not a severity score. Two topics does not mean "
+                "twice the harm of one, and a pixel flagged once by a hazard that lasted all "
+                "year counts the same as one flagged by a hazard that lasted a day. Each "
+                "layer's own limits are listed against it in the hazard list.",
             ], className="exposure-method-p"),
         ]),
     ])
@@ -1411,9 +1389,6 @@ def update_hazard_legend(sel):
         pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
         n   = len(HAZARD_TOPICS)
         sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
-    elif sel == "Multi Hazard Intensity":
-        pal = ["#000004","#3b0f70","#8c2981","#de4968","#fe9f6d"]
-        sub = [html.Span("Low (0)"), html.Span("High (10)")]
     else:
         hazard = HAZARD_MAP.get(sel)
         if not hazard:
@@ -1436,18 +1411,14 @@ def update_hazard_legend(sel):
     Input("store-hazard-layer",   "data"),
     Input("store-exposure-topic", "data"),
     Input("mhc-select",           "value"),
-    Input("mhi-select",           "value"),
     Input("store-tab",            "data"),
 )
-def update_data_layers(sel_layer, exp_topic, mhc, mhi, tab):
+def update_data_layers(sel_layer, exp_topic, mhc, tab):
     layers = []
 
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
             url, _ = get_topic_count_tile_url()
-            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
-        elif sel_layer == "Multi Hazard Intensity":
-            url, _ = get_pixel_score_tile_url()
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
             url, _ = get_hazard_tile_url(sel_layer)
@@ -1463,9 +1434,6 @@ def update_data_layers(sel_layer, exp_topic, mhc, mhi, tab):
         if mhc:
             url, _ = get_topic_count_tile_url()
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
-        if mhi:
-            url, _ = get_pixel_score_percentile_tile_url(mhi)
-            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.65))
 
     return layers
 
@@ -1718,21 +1686,19 @@ def update_badge(name, ucode):
     Input("store-clicked-name",   "data"),
     State("store-level",          "data"),
     State("mhc-select",           "value"),
-    State("mhi-select",           "value"),
     State("store-exposure",       "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, mhi, existing):
+def run_exposure(ucode, name, level, mhc, existing):
     if not ucode or not level:
         return no_update, None
     if existing:
-        return no_update, render_results(existing, name, mhc, mhi)
+        return no_update, render_results(existing, name, mhc)
     result = compute_exposure(
         feature_ucode=ucode, admin_level=level,
         mhc_value=mhc if mhc else None,
-        mhi_percentile=mhi if mhi else None,
     )
-    return result, render_results(result, name, mhc, mhi)
+    return result, render_results(result, name, mhc)
 
 
 def _hazard_label(name):
@@ -1740,7 +1706,7 @@ def _hazard_label(name):
     return " ".join(words[:2])
 
 
-def render_results(result, region_name, mhc_val, mhi_val):
+def render_results(result, region_name, mhc_val):
     if not result:
         return html.Div("No data available.", className="ps-caption",
                         style={"padding": "14px 16px"})
@@ -1823,15 +1789,12 @@ def render_results(result, region_name, mhc_val, mhi_val):
     }
     if mhc_val and result.get("active_count_filter"):
         export_data[f"mhc_gte_{mhc_val}"] = int(round(result["active_count_filter"]))
-    if mhi_val and result.get("active_intensity_filter"):
-        export_data[f"mhi_gte_p{mhi_val}"] = int(round(result["active_intensity_filter"]))
 
     safe = re.sub(r"[^a-zA-Z0-9]", "_", region_name or "result")
 
     mh_rows = []
     for val, key, color, label in [
-        (mhc_val, "active_count_filter",      "#800026", f"MHC (≥{mhc_val} topics)"),
-        (mhi_val, "active_intensity_filter",  "#de4968", f"MHI (≥P{mhi_val})"),
+        (mhc_val, "active_count_filter", "#800026", f"MHC (≥{mhc_val} topics)"),
     ]:
         if val and (result.get(key) or 0) > 0:
             c   = int(round(result[key]))

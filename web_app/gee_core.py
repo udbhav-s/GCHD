@@ -11,7 +11,7 @@ import ee
 
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
-    HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS, GLOBAL_GEOMETRY,
+    HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS,
     ADMIN_DATA,
 )
 from exposure_math import child_band_weights
@@ -99,12 +99,6 @@ def build_core_images():
     childpop = childpop_m.add(childpop_f).rename("population")
 
     pop_target_res = population_collection.first().select("population").projection().nominalScale()
-    target_crs = population_collection.first().select("population").projection()
-    target_scale = pop_target_res
-
-    country_boundaries = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level0")
-    country_boundaries_reproj = country_boundaries.map(lambda f: f.transform(target_crs))
-    global_geom = ee.Geometry.Polygon([GLOBAL_GEOMETRY], None, False)
 
     def summarize_population(hazard):
         layer = _hazard_image(hazard)
@@ -148,22 +142,16 @@ def build_core_images():
         return ee.Image.constant(1).updateMask(union).rename(f"cov_{safe_key}")
 
     topic_coverage = {t: build_coverage_image(t) for t in HAZARD_TOPICS}
-    hazard_score = topic_count_image.toFloat()
 
     return {
         "childpop":                  childpop,
         "childpop_m":                childpop_m,
         "childpop_f":                childpop_f,
         "pop_target_res":            pop_target_res,
-        "target_crs":                target_crs,
-        "target_scale":              target_scale,
-        "country_boundaries_reproj": country_boundaries_reproj,
-        "global_geom":               global_geom,
         "exposure_by_hazard":        exposure_by_hazard,
         "topic_masks":               topic_masks,
         "topic_coverage":            topic_coverage,
         "topic_count_image":         topic_count_image,
-        "hazard_score":              hazard_score,
     }
 
 
@@ -207,42 +195,6 @@ def get_topic_count_tile_url():
     return mid["tile_fetcher"].url_format, vis
 
 
-@lru_cache(maxsize=1)
-def get_pixel_score_tile_url():
-    core = build_core_images()
-    vis = {"min": 1, "max": len(HAZARD_TOPICS), "palette": ["#ffffd4", "#fe9929", "#993404"]}
-    mid = core["topic_count_image"].getMapId(vis)
-    return mid["tile_fetcher"].url_format, vis
-
-
-@lru_cache(maxsize=8)
-def get_pixel_score_percentile_tile_url(percentile):
-    core         = build_core_images()
-    hazard_score = core["hazard_score"]
-    land_mask_base = core["country_boundaries_reproj"]
-    target_crs   = core["target_crs"]
-    target_scale = core["target_scale"]
-    global_geom  = core["global_geom"]
-
-    land_mask = (
-        ee.Image(1).clip(land_mask_base).unmask(0)
-        .reproject(crs=target_crs, scale=target_scale)
-    )
-    threshold = (
-        hazard_score.updateMask(land_mask)
-        .reduceRegion(
-            reducer=ee.Reducer.percentile([int(percentile)]),
-            geometry=global_geom,
-            scale=hazard_score.projection().nominalScale(),
-            bestEffort=True,
-        ).values().get(0)
-    )
-    masked = hazard_score.updateMask(hazard_score.gt(ee.Number(threshold)))
-    vis = {"min": 0, "max": 10, "palette": ["#000004", "#3b0f70", "#8c2981", "#de4968", "#fe9f6d"]}
-    mid = masked.getMapId(vis)
-    return mid["tile_fetcher"].url_format, vis
-
-
 @lru_cache(maxsize=64)
 def get_hazard_tile_url(hazard_name):
     hazard = HAZARD_MAP.get(hazard_name)
@@ -282,7 +234,7 @@ def get_feature_by_ucode(feature_ucode, admin_level, country_ucode=None):
 # Exposure computation
 # ---------------------------------------------------------------------------
 
-def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=None):
+def compute_exposure(feature_ucode, admin_level, mhc_value=None):
     core        = build_core_images()
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
@@ -292,11 +244,6 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
     topic_cov   = core["topic_coverage"]
     exposure_by = core["exposure_by_hazard"]
     topic_count = core["topic_count_image"]
-    hazard_score= core["hazard_score"]
-    global_geom = core["global_geom"]
-    land_mask_base = core["country_boundaries_reproj"]
-    target_crs  = core["target_crs"]
-    target_scale= core["target_scale"]
 
     bands = []
     for topic_name in HAZARD_TOPICS:
@@ -318,23 +265,6 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
     if mhc_value:
         count_mask = topic_count.gte(ee.Number.parse(str(mhc_value)))
         combined = combined.addBands(childpop.updateMask(count_mask).rename("active_count_filter"))
-
-    if mhi_percentile:
-        land_mask = (
-            ee.Image(1).clip(land_mask_base).unmask(0)
-            .reproject(crs=target_crs, scale=target_scale)
-        )
-        mhi_threshold = (
-            hazard_score.updateMask(land_mask)
-            .reduceRegion(
-                reducer=ee.Reducer.percentile([int(mhi_percentile)]),
-                geometry=global_geom,
-                scale=hazard_score.projection().nominalScale(),
-                bestEffort=True,
-            ).values().get(0)
-        )
-        intensity_mask = hazard_score.gt(ee.Number(mhi_threshold))
-        combined = combined.addBands(childpop.updateMask(intensity_mask).rename("active_intensity_filter"))
 
     feature = get_feature_geojson(feature_ucode)
     if not feature:

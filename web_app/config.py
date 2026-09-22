@@ -93,7 +93,6 @@ TOPIC_COLORS = {
     "Air Pollution":       "#cab2d6",
     "Malaria":             "#b2df8a",
     "Multi Hazard Count":  "#800026",
-    "Multi Hazard Intensity": "#c63a26",
 }
 
 # Vis palettes per individual hazard (for map display)
@@ -144,10 +143,7 @@ ADMIN_DATA = {
     },
 }
 
-GLOBAL_GEOMETRY = [[-180, 90], [-180, -90], [180, -90], [180, 90]]
-
 MHC_OPTIONS = [str(i) for i in range(1, len(HAZARD_TOPICS) + 1)]
-MHI_OPTIONS  = ["75", "80", "85", "90", "95"]
 
 # Informational text shown in the hazard info popup
 # Each entry: description, units, source (from CCRR Internal Data Catalog - Indicators tab)
@@ -291,12 +287,6 @@ HAZARD_INFO = {
     "Multi Hazard Count": {
         "description": "Combined count of hazard types exceeding their respective thresholds at each pixel.",
         "units": "Count",
-        "source": "UNICEF Children's Climate Risk Report 2026",
-        "source_url": "https://www.unicef.org/reports/climate-crisis-child-rights-crisis",
-    },
-    "Multi Hazard Intensity": {
-        "description": "Combined hazard count and intensity score across all hazard types.",
-        "units": "Score",
         "source": "UNICEF Children's Climate Risk Report 2026",
         "source_url": "https://www.unicef.org/reports/climate-crisis-child-rights-crisis",
     },
