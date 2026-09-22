@@ -889,15 +889,26 @@ app.server.wsgi_app = ProxyFix(app.server.wsgi_app, x_for=1, x_proto=1, x_host=1
 # ---------------------------------------------------------------------------
 # Auth — Flask secret key (auto-generated on first run)
 # ---------------------------------------------------------------------------
-import secrets as _secrets, datetime as _dt
+import secrets as _secrets, datetime as _dt, tempfile as _tempfile
 from flask import session as _fsess, request as _freq, redirect as _fredirect
 
-_key_path = os.path.join(os.path.dirname(__file__), "credentials", "flask_secret.txt")
-if os.path.exists(_key_path):
+_key_path = os.getenv(
+    "FLASK_SECRET_PATH",
+    os.path.join(_tempfile.gettempdir(), "gchd_flask_secret.txt"),
+)
+_configured_key = os.getenv("FLASK_SECRET_KEY")
+if _configured_key:
+    app.server.secret_key = _configured_key
+elif os.path.exists(_key_path):
     app.server.secret_key = open(_key_path).read().strip()
 else:
     _key = _secrets.token_hex(32)
-    open(_key_path, "w").write(_key)
+    try:
+        open(_key_path, "w").write(_key)
+    except OSError:
+        # Read-only container filesystems (for example, a Secret Manager
+        # volume mounted over credentials/) still need a per-instance key.
+        pass
     app.server.secret_key = _key
 
 _PUBLIC_PATHS = ("/login", "/assets/", "/_dash-component-suites/", "/favicon.ico")
