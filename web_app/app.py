@@ -9,6 +9,7 @@ import json as _json
 from urllib.parse import urlencode
 
 import dash
+from urllib.parse import quote as _quote
 from dash import dcc, html, Input, Output, State, ctx, no_update, ALL
 import dash_leaflet as dl
 from dash_extensions.javascript import Namespace
@@ -43,6 +44,7 @@ from gee_core import (
     get_feature_at_point, get_feature_by_ucode,
     compute_exposure, compute_topic_overlap,
 )
+import brief as region_brief
 from georepo_core import (
     ATTRIBUTION as GEOREPO_ATTR,
     get_boundary_collection,
@@ -2265,6 +2267,7 @@ def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency
         "period": clean_period(period),
         "frequency": clean_frequency(frequency),
         "access": chosen_access,
+        "level": level,
     }
     if existing and existing.get("_view") == view:
         return no_update, render_results(existing, name, mhc)
@@ -2284,6 +2287,11 @@ def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency
 def _hazard_label(name):
     words = [w.capitalize() for w in name.replace("-", " ").split("_")]
     return " ".join(words[:2])
+
+
+def _brief_level(result):
+    """The admin level these figures came from, for the brief's header."""
+    return (result.get("_view") or {}).get("level") or "region"
 
 
 def _duration_note(result):
@@ -2505,6 +2513,17 @@ def render_results(result, region_name, mhc_val):
             ),
         ]) if no_data_topics else None,
         html.Div(className="ps", children=[
+            html.A(
+                "⬇  Region brief (print or save as PDF)",
+                href="data:text/html;charset=utf-8,"
+                     + _quote(region_brief.to_html(
+                         region_brief.build(result, region_name, _brief_level(result)))),
+                target="_blank",
+                className="ps-btn-ghost",
+                style={"display": "block", "textAlign": "center",
+                       "textDecoration": "none", "padding": "9px 16px",
+                       "marginBottom": "6px"},
+            ),
             html.A(
                 "⬇  Download results (JSON)",
                 href=f"data:application/json;charset=utf-8,{_json.dumps(export_data, indent=2)}",

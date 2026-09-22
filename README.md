@@ -78,6 +78,17 @@ sources are joined to administrative boundaries as a discovery layer. 217 of
 them carry no hazard tag and so cannot be reached by a hazard filter — mostly
 C40 records about waste, transport and energy efficiency that address no hazard.
 
+## The region brief
+
+Select a region and the results panel offers a one-page brief: children and
+under-fives, hazards ranked worst first, how many are also far from care, the
+exact conditions the figures were counted under, what the brief cannot tell you,
+and every source with its date and resolution. It opens in a tab and prints to
+PDF.
+
+Hazards with no data in a region are listed as having no data, never as zero. A
+region a layer does not reach is not a region a hazard spares.
+
 ## Run it
 
 ```bash

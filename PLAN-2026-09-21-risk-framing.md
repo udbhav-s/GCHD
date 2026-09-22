@@ -261,7 +261,14 @@ showing one model's number alone would repeat the MHI mistake in a new place.
 
 ## Stage 3 — the Region Risk Brief
 
-Pick a district, get one to two pages, exportable as PDF plus CSV:
+**First version done 2026-09-22.** Built in `web_app/brief.py`, with no Earth
+Engine or Dash import so its content rules are tested directly. It renders a
+standalone HTML page that prints to PDF, rather than pulling in a PDF library.
+
+Still to come: compare mode across two to five districts, and the prioritisation
+matrix with visible weights.
+
+Original specification:
 
 - Region, admin level, total and child population, and a "data as of" per input
 - Ranked hazards, with exposed child counts and shares
