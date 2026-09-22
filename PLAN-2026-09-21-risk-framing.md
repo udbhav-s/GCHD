@@ -26,8 +26,15 @@ only takes the values 0, 1, 2, 3. So:
   `hazard_score.gt(p)` (`:334`) on the same image. Two controls, one variable.
 - The palette is stretched over `{min: 0, max: 10}` (`:239`) against data that
   maxes at 3, so only the dark end of the ramp ever appears.
-- The panel text at `app.py:395-399` describes a PCA across 13 layers. No code
-  does that.
+- The panel text at `app.py:395-399` describes a PCA across 13 layers. The web
+  app does not build one. That score does exist in this repository, at
+  `multi_hazard_indicators/mhi/mhi_construction.ipynb`, computed from rasters
+  this public build cannot reach.
+
+So the app was not showing an invented metric. It was showing a placeholder
+under the name and the description of a real product it had no access to, which
+is harder to catch: the description checked out against something, just not
+against what was on screen.
 
 A policymaker reading "Multi-Hazard Intensity, P90" gets a severity claim the
 data cannot support.
