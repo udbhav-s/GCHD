@@ -2,6 +2,11 @@
 # config.py — Static configuration: hazards, topics, colors, admin levels
 # No GEE imports here so this loads instantly.
 # =============================================================================
+#
+# Only the layers this fork runs appear here. Colours, palettes and info text
+# for the wider GCHD hazard catalogue used to sit alongside them with no code
+# behind them, which made the app look like it covered hazards it does not.
+# Git history has them if a layer arrives.
 
 HAZARDS = [
     {
@@ -82,16 +87,9 @@ SUB_TOPIC_DETAIL = []
 ALLOW_NEGATIVE = []  # Public layers use explicit visualization ranges.
 
 TOPIC_COLORS = {
-    "River Flood":         "#1f78b4",
-    "Coastal Flood":       "#a6cee3",
-    "Tropical Storm":      "#33a02c",
     "Drought":             "#ff7f00",
-    "Heatwave":            "#e31a1c",
     "Extreme Heat":        "#6a3d9a",
     "Fire":                "#fb9a99",
-    "Sand and Dust Storm": "#b15928",
-    "Air Pollution":       "#cab2d6",
-    "Malaria":             "#b2df8a",
     "Multi Hazard Count":  "#800026",
 }
 
@@ -101,31 +99,10 @@ HAZARD_VIS_PALETTES = {
     "maximum_temperature_era5_land_2024": ["#313695", "#74add1", "#fdae61", "#d73027", "#7f0000"],
     "drought_pdsi_terraclimate_2024": ["#8c510a", "#d8b365", "#f6e8c3", "#c7eae5", "#01665e"],
     "active_fire_frequency_firms_2024": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"],
-    "river_flood_100yr_jrc_2024":       ["#cfe8ff", "#8fcbff", "#1d7bff", "#0654be", "#00357d"],
-    "coastal_flood_100yr_jrc_2024":     ["#ffffff", "#084081"],
-    "tropical_storm_100yr_giri_2024":   ["#e4eff2", "#c3dce7", "#9ebdd2", "#7e8ab0", "#6d6c91"],
-    "agricultural_drought_fao_1984-2023": ["#fdf4cb", "#fbd992", "#f3b431", "#c66216", "#843d09"],
-    "drought_spei_terraclimate_1958-2025": ["#fdf4cb", "#fbd992", "#f3b431", "#c66216", "#843d09"],
-    "drought_spi_terraclimate_1958-2025":  ["#fdf4cb", "#fbd992", "#f3b431", "#c66216", "#843d09"],
-    "heatwave_frequency_ecmwf_2014-2024": ["#f8e593", "#f8cc14", "#F89800", "#F86800", "#F83000"],
-    "heatwave_duration_ecmwf_2014-2024":  ["#f8e593", "#f8cc14", "#F89800", "#F86800", "#F83000"],
-    "heatwave_severity_ecmwf_2014-2024":  ["#f8e593", "#f8cc14", "#F89800", "#F86800", "#F83000"],
-    "extreme_heat_ecmwf_2014-2024":     ["#f8e593", "#f8cc14", "#F89800", "#F86800", "#F83000"],
-    "fire_FRP_nasa_2001-2024":          ["#F0F0DC", "#FFD282", "#FF8C3C", "#DC3C1E", "#5A0000"],
-    "fire_frequency_nasa_2001-2023":    ["#F0F0DC", "#FFD282", "#FF8C3C", "#DC3C1E", "#5A0000"],
-    "sand_dust_storm_unccd_2024":       ["#faf0dc", "#e6d2b4", "#c8aa82", "#a0785a", "#261f28"],
-    "air_pollution_pm25_1998-2023":     ["#d0dde5", "#99a1b4", "#7c6e87", "#5a4b5e", "#261f27"],
-    "vectorborne_malariapv_2012-2022":  ["#e8f0e3", "#bcd4b4", "#8ba889", "#607c66", "#35503d"],
-    "vectorborne_malariapf_2012-2022":  ["#e8f0e3", "#bcd4b4", "#8ba889", "#607c66", "#35503d"],
 }
 
 # Hazards that need selfMask (0 = transparent)
 SELF_MASK_HAZARDS = [
-    "tropical_storm_100yr_giri_2024",
-    "coastal_flood_100yr_jrc_2024",
-    "heatwave_frequency_ecmwf_2014-2024",
-    "heatwave_duration_ecmwf_2014-2024",
-    "heatwave_severity_ecmwf_2014-2024",
 ]
 
 ADMIN_DATA = {
@@ -145,20 +122,33 @@ ADMIN_DATA = {
 
 MHC_OPTIONS = [str(i) for i in range(1, len(HAZARD_TOPICS) + 1)]
 
-# Informational text shown in the hazard info popup
-# Each entry: description, units, source (from CCRR Internal Data Catalog - Indicators tab)
+# Informational text shown in the hazard info popup.
+#
+# Every layer states how it was built and where it falls short, because the
+# counts drawn from these layers get read as risk figures. Keep `rule`,
+# `temporal_basis` and `known_gaps` filled in for anything new: a layer with no
+# stated limits reads as if it has none.
 HAZARD_INFO = {
     "population_worldpop_2020": {
-        "description": "Estimated residential population per 100 m grid cell, with totals constrained to UN population estimates.",
+        "description": "Estimated residential population per 100 m grid cell, with totals constrained to UN population estimates. Children are the under-18 age bands, with 15-19 counted at three fifths.",
         "units": "People per grid cell",
         "availability": "2020",
+        "native_resolution": "100 m at the equator",
+        "temporal_basis": "Single year, 2020.",
+        "coverage": "Global land.",
+        "known_gaps": "Later WorldPop years exist upstream but are not used here. Age bands are modelled, so the under-18 split carries more uncertainty than the total.",
         "source": "WorldPop",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex_cons_unadj",
     },
     "maximum_temperature_era5_land_2024": {
-        "description": "Maximum daily 2 m air temperature observed during 2024 in the ERA5-Land reanalysis.",
+        "description": "Highest daily 2 m air temperature reached during 2024 in the ERA5-Land reanalysis.",
         "units": "Kelvin",
         "availability": "2024",
+        "rule": "Flagged where the highest daily maximum in 2024 went above 35 °C (308.15 K).",
+        "native_resolution": "About 11 km",
+        "temporal_basis": "Single year, 2024. This is not a return period, and it says nothing about how likely the temperature is in any other year.",
+        "coverage": "Global land.",
+        "known_gaps": "The flag records that it happened, not how often. Across the land it flags, days above 35 °C run from 2 at the 10th percentile to 343 at the maximum, and all of them count the same. 2024 was the warmest year on record, so this reads hot against a longer baseline.",
         "source": "ECMWF ERA5-Land",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR",
     },
@@ -166,6 +156,11 @@ HAZARD_INFO = {
         "description": "Lowest monthly Palmer Drought Severity Index value during 2024. Values below -2 indicate drought conditions.",
         "units": "PDSI",
         "availability": "2024",
+        "rule": "Flagged where the lowest monthly PDSI in 2024 fell below -2.",
+        "native_resolution": "About 4 km",
+        "temporal_basis": "Single year, 2024, in monthly steps. This is not a return period.",
+        "coverage": "Global land.",
+        "known_gaps": "One dry month reads the same as a dry year, so the flag misses how long a drought lasted. PDSI is also calibrated locally, which limits comparison between climates.",
         "source": "TerraClimate",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE",
     },
@@ -173,121 +168,22 @@ HAZARD_INFO = {
         "description": "Count of 2024 daily FIRMS active-fire detections per raster cell.",
         "units": "Detection days",
         "availability": "2024",
+        "rule": "Flagged where at least one daily detection landed in the cell during 2024.",
+        "native_resolution": "About 1 km",
+        "temporal_basis": "Single year, 2024. This is not a return period.",
+        "coverage": "Global.",
+        "known_gaps": "FIRMS detects agricultural and land-clearing burns alongside wildfire and cannot tell them apart. Cloud cover and satellite overpass timing hide some fires. One detection day counts the same as a hundred.",
         "source": "NASA FIRMS",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/FIRMS",
     },
-    "river_flood_100yr_jrc_2024": {
-        "description": "A fluvial or riverine flood is a rise, usually brief, in the water level of a stream or water body to a peak from which the water level recedes at a slower rate.",
-        "units": "Depth in m",
-        "source": "JRC",
-        "source_url": "https://global-flood-maps.jrc.ec.europa.eu/",
-    },
-    "coastal_flood_100yr_jrc_2024": {
-        "description": "Coastal flooding is most frequently the result of storm surges and high winds coinciding with high tides.",
-        "units": "Binary",
-        "source": "JRC",
-        "source_url": "https://global-flood-maps.jrc.ec.europa.eu/",
-    },
-    "tropical_storm_100yr_giri_2024": {
-        "description": "A tropical storm is a type of storm system characterized by a low-pressure center, a closed low-level atmospheric circulation, strong winds, and a spiral arrangement of thunderstorms that produce heavy rain.",
-        "units": "Wind speed in m/s",
-        "source": "GIRI",
-        "source_url": "https://www.undrr.org/",
-    },
-    "agricultural_drought_fao_1984-2023": {
-        "description": "Agricultural drought occurs when there is insufficient soil moisture to meet the needs of a particular crop at a particular time.",
-        "units": "Agricultural Stress Index (%)",
-        "availability": "1984–2023",
-        "source": "FAO",
-        "source_url": "https://www.fao.org/giews/earthobservation/",
-    },
-    "drought_spi_terraclimate_1958-2025": {
-        "description": "SPI measures the deviation of precipitation from the climatological average over a given accumulation period and is widely used to detect and characterize meteorological droughts. Probability values are computed from the full 1958–2025 record (804 monthly time steps).",
-        "units": "Index",
-        "availability": "1958–present",
-        "source": "TerraClimate",
-        "source_url": "https://www.climatologylab.org/terraclimate.html",
-    },
-    "drought_spei_terraclimate_1958-2025": {
-        "description": "SPEI adds the effect of evapotranspiration and is better suited to assess droughts under climate change scenarios where temperature changes are important. Probability values are computed from the full 1958–2025 record (804 monthly time steps).",
-        "units": "Index",
-        "availability": "1958–present",
-        "source": "TerraClimate",
-        "source_url": "https://www.climatologylab.org/terraclimate.html",
-    },
-    "heatwave_frequency_ecmwf_2014-2024": {
-        "description": "A heatwave can be defined as a period where local excess heat accumulates over a sequence of unusually hot days and nights. Heatwave frequency refers to the number of heatwaves per year.",
-        "units": "Times per year",
-        "availability": "2014–2024",
-        "source": "ECMWF",
-        "source_url": "https://www.ecmwf.int/",
-    },
-    "heatwave_duration_ecmwf_2014-2024": {
-        "description": "A heatwave can be defined as a period where local excess heat accumulates over a sequence of unusually hot days and nights. Heatwave duration refers to the total number of days an event lasts.",
-        "units": "Number of days",
-        "availability": "2014–2024",
-        "source": "ECMWF",
-        "source_url": "https://www.ecmwf.int/",
-    },
-    "heatwave_severity_ecmwf_2014-2024": {
-        "description": "A heatwave can be defined as a period where local excess heat accumulates over a sequence of unusually hot days and nights. Heatwave severity refers to the temperature above the local 15-day average during the heatwave, expressed in degrees Celsius.",
-        "units": "Temperature in °C",
-        "availability": "2014–2024",
-        "source": "ECMWF",
-        "source_url": "https://www.ecmwf.int/",
-    },
-    "extreme_heat_ecmwf_2014-2024": {
-        "description": "Extremely high temperatures (extremely hot days) are estimated when a day exceeds 35 degrees Celsius.",
-        "units": "Number of days over 35°C",
-        "availability": "2014–2024",
-        "source": "ECMWF",
-        "source_url": "https://www.ecmwf.int/",
-    },
-    "fire_FRP_nasa_2001-2024": {
-        "description": "Wildfires are uncontrolled burns of vegetation, including forests, shrublands, grasslands, savannas, and croplands. Fire Radiative Power (FRP) is a measure of the energy released by a fire in the form of radiation.",
-        "units": "MW",
-        "availability": "2001–2023",
-        "source": "NASA FIRMS",
-        "source_url": "https://firms.modaps.eosdis.nasa.gov/",
-    },
-    "fire_frequency_nasa_2001-2023": {
-        "description": "Wildfires are uncontrolled burns of vegetation, including forests, shrublands, grasslands, savannas, and croplands. Fire frequency is obtained from NASA's Fire Information for Resource Management System (FIRMS) and is used as a proxy for fire hazard.",
-        "units": "km⁻² · yr⁻¹",
-        "availability": "2001–2023",
-        "source": "NASA FIRMS",
-        "source_url": "https://firms.modaps.eosdis.nasa.gov/",
-    },
-    "sand_dust_storm_unccd_2024": {
-        "description": "Sand and dust storms (SDS) are caused by intense winds over areas of arid soil that pick up large amounts of ground material into the atmosphere.",
-        "units": "Index",
-        "source": "UNCCD",
-        "source_url": "https://www.unccd.int/",
-    },
-    "air_pollution_pm25_1998-2023": {
-        "description": "Air pollution refers to the presence of substances in the atmosphere that are harmful to human health and the environment. Fine particle air pollution (PM2.5) refers to airborne particles measuring less than 2.5 micrometers in diameter emitted from vehicles, fuel use, power plants, agriculture, waste burning, wildfires, and other sources.",
-        "units": "PM2.5 in μg/m³",
-        "availability": "2012–2022",
-        "source": "ACAG",
-        "source_url": "https://sites.wustl.edu/acag/",
-    },
-    "vectorborne_malariapv_2012-2022": {
-        "description": "P. vivax is the dominant malaria parasite in most countries outside of sub-Saharan Africa. Malaria is a life-threatening disease caused by parasites transmitted to humans through the bites of infected female Anopheles mosquitoes.",
-        "units": "Persons",
-        "availability": "2012–2022",
-        "source": "MAP",
-        "source_url": "https://malariaatlas.org/",
-    },
-    "vectorborne_malariapf_2012-2022": {
-        "description": "Malaria is a life-threatening disease caused by parasites transmitted to humans through the bites of infected female Anopheles mosquitoes. P. falciparum is the deadliest malaria parasite and the most prevalent on the African continent.",
-        "units": "Persons",
-        "availability": "2012–2022",
-        "source": "MAP",
-        "source_url": "https://malariaatlas.org/",
-    },
     "Multi Hazard Count": {
-        "description": "Combined count of hazard types exceeding their respective thresholds at each pixel.",
-        "units": "Count",
-        "source": "UNICEF Children's Climate Risk Report 2026",
-        "source_url": "https://www.unicef.org/reports/climate-crisis-child-rights-crisis",
+        "description": f"How many of the {len(HAZARD_TOPICS)} hazard topics flag a pixel. The topics are counted, not weighted or scored, so two topics does not mean twice the severity of one.",
+        "units": f"Topics (0-{len(HAZARD_TOPICS)})",
+        "rule": "A topic flags a pixel when any of its layers crosses that layer's threshold.",
+        "native_resolution": "Set by the coarsest layer involved, about 11 km",
+        "temporal_basis": "Single year, 2024, inherited from the layers it counts.",
+        "coverage": "Where all counted layers have data. A pixel one layer does not reach cannot reach the full count.",
+        "known_gaps": "Each layer carries its own limits into this count, and the count hides them. Three topics is a narrow basis for a multi-hazard measure.",
+        "source": "Derived here from the layers above",
     },
 }

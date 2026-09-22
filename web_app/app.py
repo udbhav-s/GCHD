@@ -106,7 +106,17 @@ def _hazard_info_body(info):
     if not isinstance(info, dict):
         return info
     rows = []
-    for label, key in [("Description", "description"), ("Units", "units"), ("Availability", "availability")]:
+    fields = [
+        ("Description",   "description"),
+        ("How it flags",  "rule"),
+        ("Units",         "units"),
+        ("Data as of",    "availability"),
+        ("Resolution",    "native_resolution"),
+        ("Time basis",    "temporal_basis"),
+        ("Coverage",      "coverage"),
+        ("Known gaps",    "known_gaps"),
+    ]
+    for label, key in fields:
         val = info.get(key, "")
         if val:
             rows.append(html.Div([
@@ -990,15 +1000,35 @@ app.layout = html.Div(id="app-root", children=[
         sidebar(),
         html.Div(id="panel", children=[
             html.Div(
-                "Global Child Hazard Database",
                 style={
                     "padding": "14px 16px",
-                    "fontSize": "0.95rem",
-                    "fontWeight": "700",
-                    "color": "#1CABE2",
                     "borderBottom": "1px solid var(--border)",
-                    "letterSpacing": "0.01em",
-                }
+                },
+                children=[
+                    html.Div(
+                        "Global Child Hazard Database",
+                        style={
+                            "fontSize": "0.95rem",
+                            "fontWeight": "700",
+                            "color": "#1CABE2",
+                            "letterSpacing": "0.01em",
+                        },
+                    ),
+                    # The app pairs hazard layers with a population grid and stops
+                    # there. It holds nothing on vulnerability or coping capacity,
+                    # so it cannot answer a risk question. Say so where every
+                    # figure here is read.
+                    html.Div(
+                        "Hazard and exposure screening — not a risk assessment",
+                        style={
+                            "marginTop": "3px",
+                            "fontSize": "0.68rem",
+                            "fontWeight": "500",
+                            "color": "var(--mid)",
+                            "letterSpacing": "0.01em",
+                        },
+                    ),
+                ],
             ),
             tab_hazard_layers(),
             tab_exposure(),
