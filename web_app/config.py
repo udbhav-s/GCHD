@@ -135,11 +135,17 @@ TOPIC_COLORS = {
     "Multi Hazard Count":  "#800026",
 }
 
-# Vis palettes per individual hazard (for map display)
+# Vis palettes per individual hazard (for map display).
+#
+# These ramps run light to dark as the count rises. They have to: the layers now
+# draw how many days or months met a condition, so more colour must mean more
+# hazard. The drought ramp used to run the other way, because it was built for
+# PDSI values where a negative number means dry. Against a count of dry months
+# that put the driest places in the same green as the wettest.
 HAZARD_VIS_PALETTES = {
     "population_worldpop_2020": ["#24126c", "#1fff4f", "#d4ff50"],
-    "maximum_temperature_era5_land_2024": ["#313695", "#74add1", "#fdae61", "#d73027", "#7f0000"],
-    "drought_pdsi_terraclimate_2024": ["#8c510a", "#d8b365", "#f6e8c3", "#c7eae5", "#01665e"],
+    "maximum_temperature_era5_land_2024": ["#ffffcc", "#fdae61", "#f46d43", "#d73027", "#7f0000"],
+    "drought_pdsi_terraclimate_2024": ["#f6e8c3", "#dfc27d", "#bf812d", "#8c510a", "#543005"],
     "active_fire_frequency_firms_2024": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"],
 }
 
