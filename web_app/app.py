@@ -22,6 +22,9 @@ from config import (
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
     MHC_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
     DURATION_HAZARDS, duration_label, default_durations, clean_durations,
+    PERIOD_OPTIONS, PERIOD_DEFAULT, PERIOD_LABELS, FREQUENCY_OPTIONS,
+    FREQUENCY_DEFAULT, clean_period, clean_frequency, frequency_label,
+    baseline_label,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -31,7 +34,7 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_hazard_tile_url, durations_key,
+    get_hazard_tile_url, durations_key, view_key,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
@@ -141,6 +144,21 @@ def _layer_label(name):
         return name
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
+
+
+_TOPIC_BY_HAZARD = {
+    name: topic for topic, names in HAZARD_TOPICS.items() for name in names
+}
+
+
+def _hazard_display_name(name):
+    """The name a reader knows the hazard by.
+
+    Layer ids carry their source and year, which is right in a data catalogue
+    and wrong in a sentence: "Maximum Temperature Era5 Land 1991-2020" says the
+    same thing as "Extreme Heat" and reads far worse.
+    """
+    return _TOPIC_BY_HAZARD.get(name) or _layer_label(name)
 
 
 def _layer_meta(name):
@@ -317,7 +335,7 @@ def duration_panel():
     for hazard in DURATION_HAZARDS:
         name = hazard["name"]
         rows.append(html.Div(className="ps", style={"paddingTop": "10px"}, children=[
-            html.Div(_layer_label(name), className="ps-label"),
+            html.Div(_hazard_display_name(name), className="ps-label"),
             html.Div(
                 className="duration-chips",
                 style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
@@ -334,7 +352,46 @@ def duration_panel():
             ),
         ]))
 
-    return html.Div(className="exposure-method-note", children=[
+    windows = " · ".join(
+        f"{_hazard_display_name(h['name'])} {baseline_label(h)}"
+        for h in DURATION_HAZARDS
+    )
+
+    period_block = html.Div(className="exposure-method-note", children=[
+        html.Div("What the figures describe", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "margin": "8px 0"},
+            children=[
+                html.Button(
+                    PERIOD_LABELS[value],
+                    id={"type": "period-choice", "value": value},
+                    className="period-choice",
+                    n_clicks=0,
+                    style=_chip_style(value == PERIOD_DEFAULT),
+                )
+                for value in PERIOD_OPTIONS
+            ],
+        ),
+        html.P(
+            "2024 is what happened that year. Typical year asks how often a "
+            "year like that turned up across a longer record, which is as close "
+            "as this data comes to saying how likely something is. The map shows "
+            "one or the other, never both.",
+            className="exposure-method-p",
+        ),
+        html.Div(id="frequency-block"),
+        html.P(
+            f"Records differ by source, so the baselines do too — {windows}. "
+            "Counts are stated per ten years so they stay comparable. Fire "
+            "starts in 2001 because that is when the satellite record begins, "
+            "and it spans a sensor change that altered detection sensitivity.",
+            className="exposure-method-p",
+            style={"marginTop": "8px"},
+        ),
+    ])
+
+    return html.Div([period_block, html.Div(className="exposure-method-note", children=[
         html.Div("How long it has to last", className="hi-label",
                  style={"marginBottom": "2px"}),
         html.P(
@@ -350,7 +407,7 @@ def duration_panel():
             className="exposure-method-p",
             style={"marginTop": "8px"},
         ),
-    ])
+    ])])
 
 
 def _chip_style(active):
@@ -1085,6 +1142,8 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-tab",           data="hazard"),
     dcc.Store(id="store-hazard-layer",  data=None),
     dcc.Store(id="store-durations",     data=default_durations()),
+    dcc.Store(id="store-period",        data=PERIOD_DEFAULT),
+    dcc.Store(id="store-frequency",     data=FREQUENCY_DEFAULT),
     dcc.Store(id="store-exposure-topic",data=None),
     dcc.Store(id="store-country",       data=None),
     dcc.Store(id="store-ucode",         data=None),
@@ -1722,28 +1781,32 @@ def update_hazard_legend(sel):
     Input("mhc-select",           "value"),
     Input("store-tab",            "data"),
     Input("store-durations",      "data"),
+    Input("store-period",         "data"),
+    Input("store-frequency",      "data"),
 )
-def update_data_layers(sel_layer, exp_topic, mhc, tab, durations):
+def update_data_layers(sel_layer, exp_topic, mhc, tab, durations, period, frequency):
     layers = []
     key = durations_key(durations)
+    period = clean_period(period)
+    frequency = clean_frequency(frequency)
 
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
-            url, _ = get_topic_count_tile_url(key)
+            url, _ = get_topic_count_tile_url(key, period, frequency)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
-            url, _ = get_hazard_tile_url(sel_layer)
+            url, _ = get_hazard_tile_url(sel_layer, key, period)
             if url:
                 layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "exposure" and exp_topic:
         color = TOPIC_COLORS.get(exp_topic, "#ff0000")
-        url, _ = get_topic_tile_url(exp_topic, color, key)
+        url, _ = get_topic_tile_url(exp_topic, color, key, period, frequency)
         layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "mh":
         if mhc:
-            url, _ = get_topic_count_tile_url(key)
+            url, _ = get_topic_count_tile_url(key, period, frequency)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     return layers
@@ -1774,6 +1837,66 @@ def pick_duration(_clicks, current):
 def mark_selected_duration(durations, ids):
     chosen = clean_durations(durations)
     return [_chip_style(chosen.get(i["hazard"]) == i["value"]) for i in ids]
+
+
+# ── Period and frequency ──────────────────────────────────────────────────────
+
+@app.callback(
+    Output("store-period", "data"),
+    Input({"type": "period-choice", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_period(_clicks):
+    trigger = ctx.triggered_id
+    return clean_period(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output({"type": "period-choice", "value": ALL}, "style"),
+    Input("store-period", "data"),
+    State({"type": "period-choice", "value": ALL}, "id"),
+)
+def mark_selected_period(period, ids):
+    chosen = clean_period(period)
+    return [_chip_style(i["value"] == chosen) for i in ids]
+
+
+@app.callback(
+    Output("frequency-block", "children"),
+    Input("store-period", "data"),
+    Input("store-frequency", "data"),
+)
+def show_frequency_choice(period, frequency):
+    """Frequency only means something across a run of years, so the control is
+    absent for the single observed year rather than present and inert."""
+    if clean_period(period) != "typical":
+        return None
+    chosen = clean_frequency(frequency)
+    return html.Div(style={"marginTop": "10px"}, children=[
+        html.Div("How often a qualifying year has to occur", className="ps-label"),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
+            children=[
+                html.Button(
+                    frequency_label(value),
+                    id={"type": "frequency-chip", "value": value},
+                    n_clicks=0,
+                    style=_chip_style(value == chosen),
+                )
+                for value in FREQUENCY_OPTIONS
+            ],
+        ),
+    ])
+
+
+@app.callback(
+    Output("store-frequency", "data"),
+    Input({"type": "frequency-chip", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_frequency(_clicks):
+    trigger = ctx.triggered_id
+    return clean_frequency(trigger["value"]) if trigger else no_update
 
 
 # ── Country selection ─────────────────────────────────────────────────────────
@@ -2026,22 +2149,30 @@ def update_badge(name, ucode):
     State("mhc-select",           "value"),
     State("store-exposure",       "data"),
     Input("store-durations",      "data"),
+    Input("store-period",         "data"),
+    Input("store-frequency",      "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, existing, durations):
+def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency):
     if not ucode or not level:
         return no_update, None
-    # Exposure depends on the duration choice, so a cached result from a
-    # different one cannot be reused.
-    if existing and existing.get("_durations") == clean_durations(durations):
+    # The figures mean something different under each of these, so a cached
+    # result from another combination cannot be reused.
+    view = {
+        "durations": clean_durations(durations),
+        "period": clean_period(period),
+        "frequency": clean_frequency(frequency),
+    }
+    if existing and existing.get("_view") == view:
         return no_update, render_results(existing, name, mhc)
     result = compute_exposure(
         feature_ucode=ucode, admin_level=level,
         mhc_value=mhc if mhc else None,
         durations=durations_key(durations),
+        period=view["period"], frequency=view["frequency"],
     )
     if result is not None:
-        result["_durations"] = clean_durations(durations)
+        result["_view"] = view
     return result, render_results(result, name, mhc)
 
 
@@ -2051,17 +2182,31 @@ def _hazard_label(name):
 
 
 def _duration_note(result):
-    """States the durations behind these figures, so a number cannot travel
-    without the condition that produced it."""
-    chosen = clean_durations(result.get("_durations"))
+    """States the conditions behind these figures, so a number cannot travel
+    without what produced it."""
+    view = result.get("_view") or {}
+    chosen = clean_durations(view.get("durations"))
+    period = clean_period(view.get("period"))
+    frequency = clean_frequency(view.get("frequency"))
+
     parts = []
     for hazard in DURATION_HAZARDS:
         value = chosen[hazard["name"]]
         unit = hazard["duration_unit"]
-        label = _layer_label(hazard["name"]).replace(" 2024", "")
+        label = _hazard_display_name(hazard["name"])
         parts.append(f"{label}: {'any' if value <= 1 else f'{value}+'} {unit}")
+
+    if period == "typical":
+        windows = ", ".join(baseline_label(h) for h in DURATION_HAZARDS)
+        heading = (
+            f"Typical year — counted where a qualifying year occurred "
+            f"{frequency}+ times in 10 across {windows}. "
+        )
+    else:
+        heading = "During 2024, counted where a hazard lasted — "
+
     return html.Div(
-        "Counted where a hazard lasted — " + " · ".join(parts),
+        heading + " · ".join(parts),
         className="ps-caption",
         style={"padding": "6px 16px 0", "fontSize": "0.68rem", "lineHeight": "1.5"},
     )
@@ -2141,7 +2286,7 @@ def render_results(result, region_name, mhc_val):
 
     export_data = {
         "region": region_name,
-        "durations": clean_durations(result.get("_durations")),
+        "view": result.get("_view"),
         "total_population": total,
         "male": male, "female": fema,
         "exposure_by_topic": {

@@ -35,6 +35,8 @@ HAZARDS = [
         "duration_unit": "days",
         "duration_options": [1, 7, 30],
         "duration_default": 1,
+        "baseline_start": 1991,
+        "baseline_end": 2020,
         "vis_min": 0,
         "vis_max": 120,
     },
@@ -51,6 +53,8 @@ HAZARDS = [
         "duration_unit": "months",
         "duration_options": [1, 2, 3],
         "duration_default": 1,
+        "baseline_start": 1991,
+        "baseline_end": 2020,
         "vis_min": 0,
         "vis_max": 12,
     },
@@ -66,6 +70,11 @@ HAZARDS = [
         "duration_unit": "days",
         "duration_options": [1, 7, 30],
         "duration_default": 1,
+        # FIRMS begins in November 2000, so fire cannot share the 1991-2020
+        # baseline. It also spans a MODIS to VIIRS change, which alters how
+        # sensitive detection is across the window.
+        "baseline_start": 2001,
+        "baseline_end": 2024,
         "vis_min": 0,
         "vis_max": 30,
     },
@@ -102,6 +111,55 @@ def clean_durations(selected):
             value = hazard["duration_default"]
         cleaned[hazard["name"]] = value
     return cleaned
+
+
+# Two periods, never mixed on one map. "observed" is what happened in 2024.
+# "typical" counts how often a year like that turned up across a longer record,
+# which is the closest this data comes to saying how likely something is.
+PERIOD_OPTIONS = ["observed", "typical"]
+PERIOD_DEFAULT = "observed"
+
+PERIOD_LABELS = {
+    "observed": "2024",
+    "typical":  "Typical year",
+}
+
+# How often the hazard has to qualify before a place counts, stated per ten
+# years so the windows stay comparable: heat and drought run 30 years, fire 24.
+FREQUENCY_OPTIONS = [1, 3, 5]
+FREQUENCY_DEFAULT = 1
+
+
+def clean_period(value):
+    return value if value in PERIOD_OPTIONS else PERIOD_DEFAULT
+
+
+def clean_frequency(value):
+    return value if value in FREQUENCY_OPTIONS else FREQUENCY_DEFAULT
+
+
+def frequency_label(per_ten):
+    return f"{per_ten}+ years in 10"
+
+
+def baseline_window(hazard):
+    return hazard["baseline_start"], hazard["baseline_end"]
+
+
+def baseline_years(hazard):
+    start, end = baseline_window(hazard)
+    return end - start + 1
+
+
+def baseline_label(hazard):
+    start, end = baseline_window(hazard)
+    return f"{start}–{end}"
+
+
+def baseline_windows_differ():
+    """True when the layers do not share one baseline, which has to be said out
+    loud rather than left for a reader to discover."""
+    return len({baseline_window(h) for h in DURATION_HAZARDS}) > 1
 
 # WorldPop splits population into age bands labelled by the first year each one
 # covers: 0 is under 1, 1 is 1-4, 5 is 5-9, 10 is 10-14, 15 is 15-19. UNICEF

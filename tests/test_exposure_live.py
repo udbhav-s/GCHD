@@ -108,3 +108,51 @@ def test_the_duration_control_actually_changes_something():
     if loose is None or tight is None:
         pytest.skip("boundary cache does not hold the test district")
     assert tight["Extreme Heat"] < loose["Extreme Heat"]
+
+
+def test_a_typical_year_is_not_more_exposed_than_a_bad_one():
+    """2024 was the warmest year on record. Requiring the same conditions in
+    several years out of ten cannot find more children than 2024 alone did."""
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    key = durations_key({heat: 30})
+    observed = gee_core.compute_exposure(UCODE, ADMIN_LEVEL, durations=key, period="observed")
+    typical = gee_core.compute_exposure(
+        UCODE, ADMIN_LEVEL, durations=key, period="typical", frequency=3
+    )
+    if observed is None or typical is None:
+        pytest.skip("boundary cache does not hold the test district")
+    assert typical["Extreme Heat"] <= observed["Extreme Heat"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_demanding_a_hazard_more_often_never_finds_more_children():
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    key = durations_key({heat: 30})
+    previous = None
+    for frequency in (1, 3, 5):
+        result = gee_core.compute_exposure(
+            UCODE, ADMIN_LEVEL, durations=key, period="typical", frequency=frequency
+        )
+        if result is None:
+            pytest.skip("boundary cache does not hold the test district")
+        current = result["Extreme Heat"]
+        if previous is not None:
+            assert current <= previous * (1 + RELATIVE_TOLERANCE), (
+                f"exposure rose when the requirement went to {frequency} years in 10"
+            )
+        previous = current

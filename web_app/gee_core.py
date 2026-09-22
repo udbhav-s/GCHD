@@ -13,6 +13,7 @@ from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS,
     ADMIN_DATA, default_durations, clean_durations,
+    clean_period, clean_frequency, baseline_window, baseline_years,
 )
 from exposure_math import child_band_weights
 from georepo_core import (
@@ -72,6 +73,10 @@ def _hazard_image(hazard):
         .filterDate(hazard["start"], hazard["end"])
         .select(hazard["band"])
     )
+    return collection.map(_step_test(hazard)).sum().rename(hazard["name"])
+
+
+def _step_test(hazard):
     scale_factor = hazard.get("scale_factor", 1)
     threshold = hazard["threshold"]
     direction = hazard.get("direction", "gt")
@@ -80,7 +85,39 @@ def _hazard_image(hazard):
         value = image.multiply(scale_factor) if scale_factor != 1 else image
         return _step_exceeds(value, threshold, direction)
 
-    return collection.map(step).sum().rename(hazard["name"])
+    return step
+
+
+def _qualifying_years_image(hazard, minimum_steps):
+    """How many years in the baseline lasted at least `minimum_steps`.
+
+    Each year is counted separately and the results added, so the answer is a
+    number of years rather than a total of days. Earth Engine runs the years in
+    parallel, which is why thirty of them cost about the same as one.
+    """
+    start_year, end_year = baseline_window(hazard)
+    collection = ee.ImageCollection(hazard["id"]).select(hazard["band"])
+    step = _step_test(hazard)
+
+    def year(value):
+        value = ee.Number(value)
+        opens = ee.Date.fromYMD(value, 1, 1)
+        window = collection.filterDate(opens, opens.advance(1, "year"))
+        return window.map(step).sum().gte(minimum_steps)
+
+    years = ee.List.sequence(start_year, end_year)
+    return (
+        ee.ImageCollection(years.map(year))
+        .sum()
+        .rename(hazard["name"])
+    )
+
+
+def _years_per_ten_image(hazard, minimum_steps):
+    """The same count expressed per ten years, so windows of different lengths
+    can sit beside each other."""
+    scale = 10.0 / baseline_years(hazard)
+    return _qualifying_years_image(hazard, minimum_steps).multiply(scale)
 
 
 # ---------------------------------------------------------------------------
@@ -103,15 +140,21 @@ def _child_population_by_sex(population, prefix):
     return total
 
 
-@lru_cache(maxsize=32)
-def build_core_images(durations=None):
+@lru_cache(maxsize=64)
+def build_core_images(durations=None, period="observed", frequency=1):
     """Build the images the app draws and measures.
 
     `durations` maps a hazard name to the minimum number of time steps that
     must meet its condition before a pixel counts as exposed. It is a tuple of
     pairs rather than a dict so the result can be cached per choice.
+
+    `period` picks what the figures describe. "observed" is 2024. "typical"
+    asks how often a year like that occurred across the hazard's baseline, and
+    `frequency` is how many such years per ten are needed to count.
     """
     durations = dict(durations) if durations else default_durations()
+    period = clean_period(period)
+    frequency = clean_frequency(frequency)
 
     population_collection = (
         ee.ImageCollection("WorldPop/GP/100m/pop_age_sex_cons_unadj")
@@ -125,10 +168,13 @@ def build_core_images(durations=None):
     pop_target_res = population_collection.first().select("population").projection().nominalScale()
 
     def summarize_population(hazard):
-        # The layer already holds a count of qualifying steps, so exposure is
-        # everywhere that count reaches the minimum the user asked for.
         minimum = durations.get(hazard["name"], hazard.get("duration_default", 1))
-        mask = _hazard_image(hazard).gte(minimum)
+        if period == "typical":
+            # Exposed where a qualifying year turned up often enough, rather
+            # than because it happened once in 2024.
+            mask = _years_per_ten_image(hazard, minimum).gte(frequency)
+        else:
+            mask = _hazard_image(hazard).gte(minimum)
         return childpop.updateMask(mask).rename(hazard["name"])
 
     exposure_by_hazard = {
@@ -200,17 +246,22 @@ def durations_key(selected=None):
     return tuple(sorted(clean_durations(selected).items()))
 
 
+def view_key(durations=None, period="observed", frequency=1):
+    """Everything that changes what the figures mean, in one cacheable value."""
+    return durations_key(durations), clean_period(period), clean_frequency(frequency)
+
+
 @lru_cache(maxsize=64)
-def get_topic_tile_url(topic_name, color, durations=None):
-    core = build_core_images(durations)
+def get_topic_tile_url(topic_name, color, durations=None, period="observed", frequency=1):
+    core = build_core_images(durations, period, frequency)
     vis  = {"palette": [color], "min": 0, "max": 1}
     mid  = core["topic_masks"][topic_name].getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
 @lru_cache(maxsize=32)
-def get_topic_count_tile_url(durations=None):
-    core = build_core_images(durations)
+def get_topic_count_tile_url(durations=None, period="observed", frequency=1):
+    core = build_core_images(durations, period, frequency)
     n    = len(HAZARD_TOPICS)
     vis  = {"min": 0, "max": n, "palette": ["#ffffd4", "#fed98e", "#fe9929", "#d95f0e", "#993404"]}
     mid  = core["topic_count_image"].getMapId(vis)
@@ -218,7 +269,7 @@ def get_topic_count_tile_url(durations=None):
 
 
 @lru_cache(maxsize=64)
-def get_hazard_tile_url(hazard_name):
+def get_hazard_tile_url(hazard_name, durations=None, period="observed"):
     """Tile for one hazard layer, showing how long its condition held.
 
     The map shows the same quantity the exposure figures are built from. Drawing
@@ -229,13 +280,18 @@ def get_hazard_tile_url(hazard_name):
     if not hazard:
         return None, None
 
-    image = _hazard_image(hazard)
     palette = HAZARD_VIS_PALETTES.get(hazard_name, ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"])
-    vis = {
-        "min": hazard.get("vis_min", 0),
-        "max": hazard.get("vis_max", 1),
-        "palette": palette,
-    }
+    if clean_period(period) == "typical" and hazard.get("duration_options"):
+        minimum = dict(durations_key(dict(durations) if durations else None))[hazard_name]
+        image = _years_per_ten_image(hazard, minimum)
+        vis = {"min": 0, "max": 10, "palette": palette}
+    else:
+        image = _hazard_image(hazard)
+        vis = {
+            "min": hazard.get("vis_min", 0),
+            "max": hazard.get("vis_max", 1),
+            "palette": palette,
+        }
     # Zero steps means the hazard never occurred, which should read as empty
     # rather than as the bottom of the colour ramp.
     if hazard.get("duration_options") or hazard.get("kind") == "population":
@@ -264,8 +320,9 @@ def get_feature_by_ucode(feature_ucode, admin_level, country_ucode=None):
 # Exposure computation
 # ---------------------------------------------------------------------------
 
-def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None):
-    core        = build_core_images(durations)
+def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None,
+                     period="observed", frequency=1):
+    core        = build_core_images(durations, period, frequency)
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
     childpop_f  = core["childpop_f"]
@@ -309,9 +366,10 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None)
     return stats.getInfo()
 
 
-def compute_topic_overlap(feature_ucode, admin_level, topic_names, durations=None):
+def compute_topic_overlap(feature_ucode, admin_level, topic_names, durations=None,
+                          period="observed", frequency=1):
     """Children exposed to ALL of the listed hazard topics simultaneously (intersection)."""
-    core        = build_core_images(durations)
+    core        = build_core_images(durations, period, frequency)
     childpop    = core["childpop"]
     pop_res     = core["pop_target_res"]
     topic_masks = core["topic_masks"]
