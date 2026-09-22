@@ -156,3 +156,21 @@ def test_demanding_a_hazard_more_often_never_finds_more_children():
                 f"exposure rose when the requirement went to {frequency} years in 10"
             )
         previous = current
+
+
+def test_under_fives_are_counted_and_never_exceed_the_children(stats):
+    """The share is a subset, so it cannot be larger than the whole."""
+    assert stats["total_under_five"] > 0
+    assert stats["total_under_five"] <= stats["total_population"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_each_topic_reports_its_own_under_fives(stats):
+    from config import HAZARD_TOPICS
+
+    for topic in HAZARD_TOPICS:
+        exposed_children = stats[topic]
+        exposed_under_five = stats["u5_" + topic]
+        assert exposed_under_five <= exposed_children * (1 + RELATIVE_TOLERANCE), (
+            f"{topic} reports more under-fives than children"
+        )
+        assert exposed_under_five <= stats["total_under_five"] * (1 + RELATIVE_TOLERANCE)

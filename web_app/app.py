@@ -24,7 +24,7 @@ from config import (
     DURATION_HAZARDS, duration_label, default_durations, clean_durations,
     PERIOD_OPTIONS, PERIOD_DEFAULT, PERIOD_LABELS, FREQUENCY_OPTIONS,
     FREQUENCY_DEFAULT, clean_period, clean_frequency, frequency_label,
-    baseline_label,
+    baseline_label, UNDER_FIVE_LAYER, UNDER_FIVE_LABEL, VULNERABILITY_PALETTE,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -34,7 +34,7 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_hazard_tile_url, durations_key, view_key,
+    get_hazard_tile_url, durations_key, view_key, get_under_five_tile_url,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
@@ -100,11 +100,12 @@ def ask_gemini(_query):
 
 # Ordered layers for the hazard list
 MH_LAYERS  = ["Multi Hazard Count"]
+VULNERABILITY_LAYERS = [UNDER_FIVE_LAYER]
 HAZ_LAYERS = list(dict.fromkeys(
     [name for names in HAZARD_TOPICS.values() for name in names]
     + REFERENCE_LAYERS
 ))
-ALL_LAYERS = MH_LAYERS + HAZ_LAYERS   # order matches pattern-match order in layout
+ALL_LAYERS = MH_LAYERS + HAZ_LAYERS + VULNERABILITY_LAYERS
 
 
 def _hazard_info_body(info):
@@ -142,6 +143,8 @@ def _hazard_info_body(info):
 def _layer_label(name):
     if name == "Multi Hazard Count":
         return name
+    if name == UNDER_FIVE_LAYER:
+        return "Under-5 share"
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
 
@@ -164,6 +167,8 @@ def _hazard_display_name(name):
 def _layer_meta(name):
     if name == "Multi Hazard Count":
         return f"{len(HAZARD_TOPICS)} hazard topics counted"
+    if name == UNDER_FIVE_LAYER:
+        return "Percent of children under five"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -309,6 +314,18 @@ def tab_hazard_layers():
             ))
         else:
             items.extend(layer_divs)
+
+    # Vulnerability sits in its own section. Listing it among the hazards would
+    # suggest it can be read the same way, or added to them.
+    items.append(html.Div("Vulnerability", className="layer-section-header"))
+    for name in VULNERABILITY_LAYERS:
+        items.append(_layer_item(name))
+    items.append(html.Div(
+        "Who is exposed, not how much hazard there is. Shown on its own — the "
+        "app has no way to combine the two that it could defend.",
+        className="ps-caption",
+        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
+    ))
 
     items.append(html.Div("Reference data", className="layer-section-header"))
     items.extend(_layer_item(name) for name in REFERENCE_LAYERS)
@@ -1750,6 +1767,9 @@ def update_hazard_legend(sel):
         pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
         n   = len(HAZARD_TOPICS)
         sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
+    elif sel == UNDER_FIVE_LAYER:
+        pal = VULNERABILITY_PALETTE
+        sub = [html.Span("0% under 5"), html.Span("25%+ under 5")]
     else:
         hazard = HAZARD_MAP.get(sel)
         if not hazard:
@@ -1793,6 +1813,9 @@ def update_data_layers(sel_layer, exp_topic, mhc, tab, durations, period, freque
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
             url, _ = get_topic_count_tile_url(key, period, frequency)
+            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
+        elif sel_layer == UNDER_FIVE_LAYER:
+            url, _ = get_under_five_tile_url()
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
             url, _ = get_hazard_tile_url(sel_layer, key, period)
@@ -2217,6 +2240,7 @@ def render_results(result, region_name, mhc_val):
         return html.Div("No data available.", className="ps-caption",
                         style={"padding": "14px 16px"})
 
+    under5 = int(round(result.get("total_under_five", 0) or 0))
     total = int(round(result.get("total_population",       0) or 0))
     male  = int(round(result.get("total_population_male",  0) or 0))
     fema  = int(round(result.get("total_population_female",0) or 0))
@@ -2235,6 +2259,7 @@ def render_results(result, region_name, mhc_val):
         topic_data.append({
             "topic": topic, "count": count,
             "pct": count / total * 100 if total else 0,
+            "under_five": int(round(result.get("u5_" + topic) or 0)),
         })
     topic_data.sort(key=lambda r: r["count"], reverse=True)
 
@@ -2253,6 +2278,11 @@ def render_results(result, region_name, mhc_val):
                     html.Span(f" ({pct:.1f}%)", className="info-pct"),
                 ]),
             ]),
+            html.Div(
+                f"of whom {td['under_five']:,} are under 5",
+                className="ps-caption",
+                style={"paddingLeft": "18px", "fontSize": "0.66rem", "marginTop": "-2px"},
+            ) if td.get("under_five") else None,
             html.Div(className="bar-track", children=[
                 html.Div(className="bar-fill",
                          style={"width": f"{min(100,pct)}%", "background": color}),
@@ -2289,8 +2319,13 @@ def render_results(result, region_name, mhc_val):
         "view": result.get("_view"),
         "total_population": total,
         "male": male, "female": fema,
+        "under_five": under5,
         "exposure_by_topic": {
-            td["topic"]: {"count": td["count"], "pct": round(td["pct"], 2)}
+            td["topic"]: {
+                "count": td["count"],
+                "pct": round(td["pct"], 2),
+                "under_five": td["under_five"],
+            }
             for td in topic_data
         },
         "no_data_topics": no_data_topics,
@@ -2342,6 +2377,13 @@ def render_results(result, region_name, mhc_val):
             html.Div(className="metric", children=[
                 html.Div(pct_f, className="metric-val", style={"color": "#ec4899"}),
                 html.Div("Female %", className="metric-lbl"),
+            ]),
+            html.Div(className="metric", children=[
+                html.Div(_fmt(under5), className="metric-val", style={"color": "#ce1256"}),
+                html.Div(
+                    f"Under 5 ({under5 / total * 100:.0f}%)" if total else "Under 5",
+                    className="metric-lbl",
+                ),
             ]),
         ]),
         html.Div(className="ps", children=[

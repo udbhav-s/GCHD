@@ -7,12 +7,17 @@ Earth Engine datasets, so it needs no access to UNICEF's private assets. It maps
 three hazard layers over a gridded child population and counts how many children
 live where each hazard is flagged.
 
-It stops there. Under the UNDRR and [INFORM](https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology)
+Under the UNDRR and [INFORM](https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology)
 framing, risk is hazard combined with exposure, vulnerability and coping
-capacity. This app holds the first two. It carries nothing on vulnerability,
-nothing on coping capacity, no likelihood or return periods, no future
-scenarios, and no uncertainty measures. Read its numbers as a screen for where
-to look, not as a measure of risk to children.
+capacity. This app holds hazard and exposure, and one sliver of vulnerability:
+the share of children who are under five. It carries nothing on coping capacity,
+no future scenarios and no uncertainty measures. Read its numbers as a screen
+for where to look, not as a measure of risk to children.
+
+The under-five layer is shown on its own and reported beside the exposure
+figures. It is never multiplied into them. A combined score would need a formula
+and a weighting this app cannot defend, and the last one it had turned out to be
+measuring nothing.
 
 ## What it runs
 

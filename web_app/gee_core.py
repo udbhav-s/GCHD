@@ -12,10 +12,10 @@ import ee
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS,
-    ADMIN_DATA, default_durations, clean_durations,
+    ADMIN_DATA, VULNERABILITY_PALETTE, default_durations, clean_durations,
     clean_period, clean_frequency, baseline_window, baseline_years,
 )
-from exposure_math import child_band_weights
+from exposure_math import child_band_weights, under_five_band_weights
 from georepo_core import (
     get_country_names as get_local_country_names,
     get_country_ucode as get_local_country_ucode,
@@ -124,13 +124,7 @@ def _years_per_ten_image(hazard, minimum_steps):
 # Core GEE objects — built once at startup
 # ---------------------------------------------------------------------------
 
-def _child_population_by_sex(population, prefix):
-    """Add up the WorldPop age bands that fall under 18, for one sex.
-
-    The weights come from exposure_math so the same arithmetic can be tested
-    without Earth Engine.
-    """
-    weights = child_band_weights()
+def _weighted_bands(population, prefix, weights):
     total = None
     for band, weight in weights.items():
         term = population.select(f"{prefix}_{band}")
@@ -138,6 +132,15 @@ def _child_population_by_sex(population, prefix):
             term = term.multiply(weight)
         total = term if total is None else total.add(term)
     return total
+
+
+def _child_population_by_sex(population, prefix):
+    """Add up the WorldPop age bands that fall under 18, for one sex.
+
+    The weights come from exposure_math so the same arithmetic can be tested
+    without Earth Engine.
+    """
+    return _weighted_bands(population, prefix, child_band_weights())
 
 
 @lru_cache(maxsize=64)
@@ -165,21 +168,40 @@ def build_core_images(durations=None, period="observed", frequency=1):
     childpop_f = _child_population_by_sex(population, "F").rename("population_f")
     childpop = childpop_m.add(childpop_f).rename("population")
 
+    # Vulnerability, kept as its own quantity rather than folded into exposure.
+    under_five = (
+        _weighted_bands(population, "M", under_five_band_weights())
+        .add(_weighted_bands(population, "F", under_five_band_weights()))
+        .rename("under_five")
+    )
+    # Masked where no children live: a cell with none has no age structure, and
+    # drawing it as 0% would place it beside genuinely older populations.
+    under_five_share = (
+        under_five.divide(childpop.selfMask()).multiply(100).rename("under_five_share")
+    )
+
     pop_target_res = population_collection.first().select("population").projection().nominalScale()
 
-    def summarize_population(hazard):
+    def exposed_area(hazard):
+        """Where this hazard counts, under the current duration and period."""
         minimum = durations.get(hazard["name"], hazard.get("duration_default", 1))
         if period == "typical":
             # Exposed where a qualifying year turned up often enough, rather
             # than because it happened once in 2024.
-            mask = _years_per_ten_image(hazard, minimum).gte(frequency)
-        else:
-            mask = _hazard_image(hazard).gte(minimum)
-        return childpop.updateMask(mask).rename(hazard["name"])
+            return _years_per_ten_image(hazard, minimum).gte(frequency)
+        return _hazard_image(hazard).gte(minimum)
 
-    exposure_by_hazard = {
-        h["name"]: summarize_population(h)
+    hazard_masks = {
+        h["name"]: exposed_area(h)
         for h in HAZARDS if h.get("threshold") is not None
+    }
+    exposure_by_hazard = {
+        name: childpop.updateMask(mask).rename(name)
+        for name, mask in hazard_masks.items()
+    }
+    under_five_by_hazard = {
+        name: under_five.updateMask(mask).rename("u5_" + name)
+        for name, mask in hazard_masks.items()
     }
 
     def build_topic_mask(topic_name):
@@ -215,6 +237,9 @@ def build_core_images(durations=None, period="observed", frequency=1):
         "topic_masks":               topic_masks,
         "topic_coverage":            topic_coverage,
         "topic_count_image":         topic_count_image,
+        "under_five":                under_five,
+        "under_five_share":          under_five_share,
+        "under_five_by_hazard":      under_five_by_hazard,
     }
 
 
@@ -265,6 +290,19 @@ def get_topic_count_tile_url(durations=None, period="observed", frequency=1):
     n    = len(HAZARD_TOPICS)
     vis  = {"min": 0, "max": n, "palette": ["#ffffd4", "#fed98e", "#fe9929", "#d95f0e", "#993404"]}
     mid  = core["topic_count_image"].getMapId(vis)
+    return mid["tile_fetcher"].url_format, vis
+
+
+@lru_cache(maxsize=8)
+def get_under_five_tile_url():
+    """Share of children who are under five, as its own layer.
+
+    Vulnerability is shown beside hazard and exposure, not multiplied into
+    them. Any combined score would need a formula this app cannot yet defend.
+    """
+    core = build_core_images()
+    vis = {"min": 0, "max": 25, "palette": VULNERABILITY_PALETTE}
+    mid = core["under_five_share"].getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
@@ -336,6 +374,11 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None,
     for topic_name in HAZARD_TOPICS:
         bands.append(childpop.updateMask(topic_masks[topic_name]).rename(topic_name))
         bands.append(topic_cov[topic_name])
+        # Under-fives within the same area, so the age split can be reported
+        # beside the total rather than inferred from it.
+        bands.append(
+            core["under_five"].updateMask(topic_masks[topic_name]).rename("u5_" + topic_name)
+        )
 
     for topic_name, hazard_names in HAZARD_TOPICS.items():
         if len(hazard_names) > 1:
@@ -347,6 +390,7 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None,
         .addBands(childpop.rename("total_population"))
         .addBands(childpop_m.rename("total_population_male"))
         .addBands(childpop_f.rename("total_population_female"))
+        .addBands(core["under_five"].rename("total_under_five"))
     )
 
     if mhc_value:

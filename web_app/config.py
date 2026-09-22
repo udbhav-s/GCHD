@@ -173,6 +173,13 @@ CHILD_PARTIAL_BAND = "15"
 CHILD_PARTIAL_FRACTION = 0.6
 CHILD_AGE_LABEL = "under 18"
 
+# The youngest children, band 0 being under one and band 1 covering one to four.
+# They are counted separately because age is the one thing about vulnerability
+# this data can already answer: under-fives carry far more of the health burden
+# from heat, smoke and undernutrition than older children do.
+UNDER_FIVE_BANDS = ["0", "1"]
+UNDER_FIVE_LABEL = "under 5"
+
 HAZARD_TOPICS = {
     "Extreme Heat": ["maximum_temperature_era5_land_2024"],
     "Drought":      ["drought_pdsi_terraclimate_2024"],
@@ -206,6 +213,12 @@ HAZARD_VIS_PALETTES = {
     "drought_pdsi_terraclimate_2024": ["#f6e8c3", "#dfc27d", "#bf812d", "#8c510a", "#543005"],
     "active_fire_frequency_firms_2024": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"],
 }
+
+# Vulnerability is drawn in its own colour family so it cannot be mistaken for
+# a hazard layer on the map.
+VULNERABILITY_PALETTE = ["#f7f4f9", "#d4b9da", "#c994c7", "#df65b0", "#ce1256"]
+
+UNDER_FIVE_LAYER = "under_five_share"
 
 # Hazards that need selfMask (0 = transparent)
 SELF_MASK_HAZARDS = [
@@ -281,6 +294,18 @@ HAZARD_INFO = {
         "known_gaps": "FIRMS detects agricultural and land-clearing burns alongside wildfire and cannot tell them apart. Cloud cover and satellite overpass timing hide some fires, so the count is a floor rather than a total.",
         "source": "NASA FIRMS",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/FIRMS",
+    },
+    "under_five_share": {
+        "description": "Share of the children in a cell who are under five. Shown on its own, never multiplied into the hazard figures.",
+        "units": "Percent of children",
+        "availability": "2020",
+        "rule": "Under-fives divided by all under-18s in the same cell. Cells with no children are left blank rather than drawn as zero.",
+        "native_resolution": "100 m at the equator",
+        "temporal_basis": "Single year, 2020.",
+        "coverage": "Global land, wherever children live.",
+        "known_gaps": "This is the only part of vulnerability the app holds. Poverty, health, housing, disability and displacement are all absent, and age alone does not rank places by how badly a hazard will hurt them. WorldPop models its age bands, so the split is less certain than the population total.",
+        "source": "WorldPop, age and sex bands",
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex_cons_unadj",
     },
     "Multi Hazard Count": {
         "description": f"How many of the {len(HAZARD_TOPICS)} hazard topics flag a pixel. The topics are counted, not weighted or scored, so two topics does not mean twice the severity of one.",
