@@ -1,0 +1,4 @@
+# Test dependencies. The app itself does not need these.
+# The slow tests also need web_app/requirements.txt and Earth Engine credentials.
+pytest>=8.0
+jsonschema>=4.0
