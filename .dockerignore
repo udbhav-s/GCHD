@@ -1,0 +1,13 @@
+.git
+.gitignore
+.DS_Store
+
+web_app/.env
+web_app/.venv
+web_app/__pycache__
+web_app/**/__pycache__
+web_app/credentials/*
+web_app/**/*.py[cod]
+
+*.log
+otp_store.db
