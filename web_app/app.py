@@ -845,6 +845,10 @@ def map_component():
             ],
             style={"height": "100vh", "width": "100%"},
             trackViewport=True,
+            eventHandlers={
+                "dragend": CASE_STUDY_JS("onViewChanged"),
+                "zoomend": CASE_STUDY_JS("onViewChanged"),
+            },
         ),
         html.Div(
             id="context-case-study-panel",
@@ -1335,7 +1339,8 @@ def _matching_context_case_studies(active_tab, selected_layer, exposure_topic, v
     Input("main-map", "viewport"),
     Input("store-bounds", "data"),
 )
-def update_context_case_studies(active_tab, selected_layer, exposure_topic, viewport, selected_bounds):
+def update_context_case_studies(active_tab, selected_layer, exposure_topic,
+                                viewport, selected_bounds):
     hazards, label = _context_hazards(active_tab, selected_layer, exposure_topic)
     hidden = {"display": "none"}
     if hazards is None:
