@@ -1,0 +1,14 @@
+.git
+.git/**
+.DS_Store
+
+web_app/.env
+web_app/.venv
+web_app/credentials/**
+web_app/**/__pycache__/**
+web_app/**/*.py[cod]
+
+# The dashboard needs this local GeoRepo cache at startup.
+!web_app/data/
+!web_app/data/georepo/
+!web_app/data/georepo/boundaries.sqlite

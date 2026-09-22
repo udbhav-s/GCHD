@@ -11,9 +11,10 @@ import ee
 
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
-    HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS, GLOBAL_GEOMETRY,
-    ADMIN_DATA, CHILD_AGE_BANDS, CHILD_PARTIAL_BAND, CHILD_PARTIAL_FRACTION,
+    HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS,
+    ADMIN_DATA, default_durations, clean_durations,
 )
+from exposure_math import child_band_weights
 from georepo_core import (
     get_country_names as get_local_country_names,
     get_country_ucode as get_local_country_ucode,
@@ -37,7 +38,26 @@ def initialize_gee():
     ee.Initialize(credentials=credentials, project=project)
 
 
+def _step_exceeds(image, threshold, direction):
+    """Whether one time step met the hazard's condition."""
+    if direction == "lt":
+        return image.lt(threshold)
+    if direction == "lte":
+        return image.lte(threshold)
+    if direction == "gte":
+        return image.gte(threshold)
+    return image.gt(threshold)
+
+
 def _hazard_image(hazard):
+    """How many time steps met the condition, per pixel.
+
+    The old version reduced the year to a single value and asked whether it
+    crossed the threshold once. That made a place with two hot days identical
+    to a place hot for most of the year. Counting the steps keeps the
+    difference, and costs no more to compute: the comparison reduces each step
+    to a boolean before the sum.
+    """
     if hazard.get("kind") == "population":
         return (
             ee.ImageCollection(hazard["id"])
@@ -52,18 +72,15 @@ def _hazard_image(hazard):
         .filterDate(hazard["start"], hazard["end"])
         .select(hazard["band"])
     )
-    reducer = hazard.get("reducer", "max")
-    if reducer == "min":
-        image = collection.min()
-    elif reducer == "mean":
-        image = collection.mean()
-    elif reducer == "sum":
-        image = collection.sum()
-    elif reducer == "count_mask":
-        image = collection.map(lambda item: item.gt(0)).sum()
-    else:
-        image = collection.max()
-    return image.multiply(hazard.get("scale_factor", 1)).rename(hazard["name"])
+    scale_factor = hazard.get("scale_factor", 1)
+    threshold = hazard["threshold"]
+    direction = hazard.get("direction", "gt")
+
+    def step(image):
+        value = image.multiply(scale_factor) if scale_factor != 1 else image
+        return _step_exceeds(value, threshold, direction)
+
+    return collection.map(step).sum().rename(hazard["name"])
 
 
 # ---------------------------------------------------------------------------
@@ -73,20 +90,29 @@ def _hazard_image(hazard):
 def _child_population_by_sex(population, prefix):
     """Add up the WorldPop age bands that fall under 18, for one sex.
 
-    The 15-19 band straddles the cutoff, so it is counted at CHILD_PARTIAL_FRACTION
-    and the younger bands are counted whole.
+    The weights come from exposure_math so the same arithmetic can be tested
+    without Earth Engine.
     """
-    whole = population.select(
-        [f"{prefix}_{band}" for band in CHILD_AGE_BANDS]
-    ).reduce(ee.Reducer.sum())
-    partial = population.select(f"{prefix}_{CHILD_PARTIAL_BAND}").multiply(
-        CHILD_PARTIAL_FRACTION
-    )
-    return whole.add(partial)
+    weights = child_band_weights()
+    total = None
+    for band, weight in weights.items():
+        term = population.select(f"{prefix}_{band}")
+        if weight != 1.0:
+            term = term.multiply(weight)
+        total = term if total is None else total.add(term)
+    return total
 
 
-@lru_cache(maxsize=1)
-def build_core_images():
+@lru_cache(maxsize=32)
+def build_core_images(durations=None):
+    """Build the images the app draws and measures.
+
+    `durations` maps a hazard name to the minimum number of time steps that
+    must meet its condition before a pixel counts as exposed. It is a tuple of
+    pairs rather than a dict so the result can be cached per choice.
+    """
+    durations = dict(durations) if durations else default_durations()
+
     population_collection = (
         ee.ImageCollection("WorldPop/GP/100m/pop_age_sex_cons_unadj")
         .filter(ee.Filter.eq("year", 2020))
@@ -97,25 +123,12 @@ def build_core_images():
     childpop = childpop_m.add(childpop_f).rename("population")
 
     pop_target_res = population_collection.first().select("population").projection().nominalScale()
-    target_crs = population_collection.first().select("population").projection()
-    target_scale = pop_target_res
-
-    country_boundaries = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level0")
-    country_boundaries_reproj = country_boundaries.map(lambda f: f.transform(target_crs))
-    global_geom = ee.Geometry.Polygon([GLOBAL_GEOMETRY], None, False)
 
     def summarize_population(hazard):
-        layer = _hazard_image(hazard)
-        threshold = hazard["threshold"]
-        direction = hazard.get("direction", "gt")
-        if direction == "lt":
-            mask = layer.lt(threshold)
-        elif direction == "lte":
-            mask = layer.lte(threshold)
-        elif direction == "gte":
-            mask = layer.gte(threshold)
-        else:
-            mask = layer.gt(threshold)
+        # The layer already holds a count of qualifying steps, so exposure is
+        # everywhere that count reaches the minimum the user asked for.
+        minimum = durations.get(hazard["name"], hazard.get("duration_default", 1))
+        mask = _hazard_image(hazard).gte(minimum)
         return childpop.updateMask(mask).rename(hazard["name"])
 
     exposure_by_hazard = {
@@ -146,22 +159,16 @@ def build_core_images():
         return ee.Image.constant(1).updateMask(union).rename(f"cov_{safe_key}")
 
     topic_coverage = {t: build_coverage_image(t) for t in HAZARD_TOPICS}
-    hazard_score = topic_count_image.toFloat()
 
     return {
         "childpop":                  childpop,
         "childpop_m":                childpop_m,
         "childpop_f":                childpop_f,
         "pop_target_res":            pop_target_res,
-        "target_crs":                target_crs,
-        "target_scale":              target_scale,
-        "country_boundaries_reproj": country_boundaries_reproj,
-        "global_geom":               global_geom,
         "exposure_by_hazard":        exposure_by_hazard,
         "topic_masks":               topic_masks,
         "topic_coverage":            topic_coverage,
         "topic_count_image":         topic_count_image,
-        "hazard_score":              hazard_score,
     }
 
 
@@ -188,61 +195,36 @@ def get_country_bounds(country_ucode):
 # Tile URL helpers (cached 1 h — GEE tokens expire)
 # ---------------------------------------------------------------------------
 
+def durations_key(selected=None):
+    """A hashable, validated form of a duration selection, for caching."""
+    return tuple(sorted(clean_durations(selected).items()))
+
+
 @lru_cache(maxsize=64)
-def get_topic_tile_url(topic_name, color):
-    core = build_core_images()
+def get_topic_tile_url(topic_name, color, durations=None):
+    core = build_core_images(durations)
     vis  = {"palette": [color], "min": 0, "max": 1}
     mid  = core["topic_masks"][topic_name].getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
-@lru_cache(maxsize=1)
-def get_topic_count_tile_url():
-    core = build_core_images()
+@lru_cache(maxsize=32)
+def get_topic_count_tile_url(durations=None):
+    core = build_core_images(durations)
     n    = len(HAZARD_TOPICS)
     vis  = {"min": 0, "max": n, "palette": ["#ffffd4", "#fed98e", "#fe9929", "#d95f0e", "#993404"]}
     mid  = core["topic_count_image"].getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
-@lru_cache(maxsize=1)
-def get_pixel_score_tile_url():
-    core = build_core_images()
-    vis = {"min": 1, "max": len(HAZARD_TOPICS), "palette": ["#ffffd4", "#fe9929", "#993404"]}
-    mid = core["topic_count_image"].getMapId(vis)
-    return mid["tile_fetcher"].url_format, vis
-
-
-@lru_cache(maxsize=8)
-def get_pixel_score_percentile_tile_url(percentile):
-    core         = build_core_images()
-    hazard_score = core["hazard_score"]
-    land_mask_base = core["country_boundaries_reproj"]
-    target_crs   = core["target_crs"]
-    target_scale = core["target_scale"]
-    global_geom  = core["global_geom"]
-
-    land_mask = (
-        ee.Image(1).clip(land_mask_base).unmask(0)
-        .reproject(crs=target_crs, scale=target_scale)
-    )
-    threshold = (
-        hazard_score.updateMask(land_mask)
-        .reduceRegion(
-            reducer=ee.Reducer.percentile([int(percentile)]),
-            geometry=global_geom,
-            scale=hazard_score.projection().nominalScale(),
-            bestEffort=True,
-        ).values().get(0)
-    )
-    masked = hazard_score.updateMask(hazard_score.gt(ee.Number(threshold)))
-    vis = {"min": 0, "max": 10, "palette": ["#000004", "#3b0f70", "#8c2981", "#de4968", "#fe9f6d"]}
-    mid = masked.getMapId(vis)
-    return mid["tile_fetcher"].url_format, vis
-
-
 @lru_cache(maxsize=64)
 def get_hazard_tile_url(hazard_name):
+    """Tile for one hazard layer, showing how long its condition held.
+
+    The map shows the same quantity the exposure figures are built from. Drawing
+    the year's peak temperature while counting children by days above a
+    threshold would put two different measures on the same screen.
+    """
     hazard = HAZARD_MAP.get(hazard_name)
     if not hazard:
         return None, None
@@ -254,7 +236,9 @@ def get_hazard_tile_url(hazard_name):
         "max": hazard.get("vis_max", 1),
         "palette": palette,
     }
-    if hazard.get("reducer") == "count_mask" or hazard.get("kind") == "population":
+    # Zero steps means the hazard never occurred, which should read as empty
+    # rather than as the bottom of the colour ramp.
+    if hazard.get("duration_options") or hazard.get("kind") == "population":
         image = image.selfMask()
 
     mid = image.getMapId(vis)
@@ -280,8 +264,8 @@ def get_feature_by_ucode(feature_ucode, admin_level, country_ucode=None):
 # Exposure computation
 # ---------------------------------------------------------------------------
 
-def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=None):
-    core        = build_core_images()
+def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None):
+    core        = build_core_images(durations)
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
     childpop_f  = core["childpop_f"]
@@ -290,11 +274,6 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
     topic_cov   = core["topic_coverage"]
     exposure_by = core["exposure_by_hazard"]
     topic_count = core["topic_count_image"]
-    hazard_score= core["hazard_score"]
-    global_geom = core["global_geom"]
-    land_mask_base = core["country_boundaries_reproj"]
-    target_crs  = core["target_crs"]
-    target_scale= core["target_scale"]
 
     bands = []
     for topic_name in HAZARD_TOPICS:
@@ -317,23 +296,6 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
         count_mask = topic_count.gte(ee.Number.parse(str(mhc_value)))
         combined = combined.addBands(childpop.updateMask(count_mask).rename("active_count_filter"))
 
-    if mhi_percentile:
-        land_mask = (
-            ee.Image(1).clip(land_mask_base).unmask(0)
-            .reproject(crs=target_crs, scale=target_scale)
-        )
-        mhi_threshold = (
-            hazard_score.updateMask(land_mask)
-            .reduceRegion(
-                reducer=ee.Reducer.percentile([int(mhi_percentile)]),
-                geometry=global_geom,
-                scale=hazard_score.projection().nominalScale(),
-                bestEffort=True,
-            ).values().get(0)
-        )
-        intensity_mask = hazard_score.gt(ee.Number(mhi_threshold))
-        combined = combined.addBands(childpop.updateMask(intensity_mask).rename("active_intensity_filter"))
-
     feature = get_feature_geojson(feature_ucode)
     if not feature:
         return None
@@ -347,9 +309,9 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, mhi_percentile=
     return stats.getInfo()
 
 
-def compute_topic_overlap(feature_ucode, admin_level, topic_names):
+def compute_topic_overlap(feature_ucode, admin_level, topic_names, durations=None):
     """Children exposed to ALL of the listed hazard topics simultaneously (intersection)."""
-    core        = build_core_images()
+    core        = build_core_images(durations)
     childpop    = core["childpop"]
     pop_res     = core["pop_target_res"]
     topic_masks = core["topic_masks"]
@@ -403,11 +365,11 @@ def get_custom_asset_tile_url(asset_id):
     return mid["tile_fetcher"].url_format
 
 
-def compute_exposure_asset(asset_id):
+def compute_exposure_asset(asset_id, durations=None):
     """Run per-hazard exposure for a GEE FeatureCollection asset.
     Returns list of property dicts (geometries stripped).
     """
-    core        = build_core_images()
+    core        = build_core_images(durations)
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
     childpop_f  = core["childpop_f"]
@@ -431,11 +393,11 @@ def compute_exposure_asset(asset_id):
     return props_only.getInfo()["features"]
 
 
-def compute_exposure_custom(geojson_dict):
+def compute_exposure_custom(geojson_dict, durations=None):
     """Run per-hazard exposure for every feature in a GeoJSON FeatureCollection.
     Returns list of property dicts (geometries stripped to reduce payload size).
     """
-    core        = build_core_images()
+    core        = build_core_images(durations)
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
     childpop_f  = core["childpop_f"]

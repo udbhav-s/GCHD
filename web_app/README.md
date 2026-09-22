@@ -19,6 +19,7 @@ Interactive dashboard for the Global Children's Hazard Database.
 web_app/
 ├── app.py              # Main Dash layout and callbacks
 ├── gee_core.py         # GEE authentication, tile URL generation, exposure queries
+├── exposure_math.py    # Child population arithmetic, no GEE import so it is testable
 ├── config.py           # Hazard list, topics, colour palettes, admin level config
 ├── georepo_core.py     # Local administrative-boundary queries
 ├── scripts/            # GeoRepo preprocessing utility
@@ -105,7 +106,24 @@ gunicorn -w 4 -b 127.0.0.1:8502 app:server
 
 Configure Nginx using `nginx-pixel-aid.conf` as a template. Update the `server_name` directive to match your domain and update SSL certificate paths.
 
+## Tests
+
+Run from the repository root, not from here:
+
+```bash
+pip install -r ../requirements-dev.txt
+pytest              # unit and data tests
+pytest -m slow      # adds a live Earth Engine exposure check
+```
+
+The boundary tests skip when `data/georepo/boundaries.sqlite` is absent, so a
+clean checkout still runs green.
+
 ## Environment Notes
 
 - AI and email authentication are disabled in public-data mode.
 - Administrative boundary data must be attributed to UNICEF GeoRepo under CC BY 4.0.
+- The dashboard reports hazard and exposure only. It holds no vulnerability or
+  coping-capacity data, so its figures are a screening aid rather than a measure
+  of risk. Layer descriptions in `config.py` carry the limits of each input;
+  keep them filled in for anything new.

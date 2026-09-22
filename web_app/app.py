@@ -20,7 +20,8 @@ import json as _json_mod
 from config import (
     HAZARD_TOPICS, TOPIC_COLORS, ADMIN_DATA,
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
-    MHC_OPTIONS, MHI_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
+    MHC_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
+    DURATION_HAZARDS, duration_label, default_durations, clean_durations,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -30,8 +31,7 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_pixel_score_tile_url, get_pixel_score_percentile_tile_url,
-    get_hazard_tile_url,
+    get_hazard_tile_url, durations_key,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
@@ -87,6 +87,7 @@ HAZARD_LABELS = {
     "armed_conflict": "Armed conflict",
 }
 CASE_STUDY_PAGE_SIZE = 20
+CONTEXT_CASE_STUDY_LIMIT = 12
 EMPTY_FEATURE_COLLECTION = {"type": "FeatureCollection", "features": []}
 CASE_STUDY_JS = Namespace("gchd", "caseStudies")
 
@@ -107,7 +108,17 @@ def _hazard_info_body(info):
     if not isinstance(info, dict):
         return info
     rows = []
-    for label, key in [("Description", "description"), ("Units", "units"), ("Availability", "availability")]:
+    fields = [
+        ("Description",   "description"),
+        ("How it flags",  "rule"),
+        ("Units",         "units"),
+        ("Data as of",    "availability"),
+        ("Resolution",    "native_resolution"),
+        ("Time basis",    "temporal_basis"),
+        ("Coverage",      "coverage"),
+        ("Known gaps",    "known_gaps"),
+    ]
+    for label, key in fields:
         val = info.get(key, "")
         if val:
             rows.append(html.Div([
@@ -126,7 +137,7 @@ def _hazard_info_body(info):
 
 
 def _layer_label(name):
-    if name in ("Multi Hazard Count", "Multi Hazard Intensity"):
+    if name == "Multi Hazard Count":
         return name
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
@@ -134,9 +145,7 @@ def _layer_label(name):
 
 def _layer_meta(name):
     if name == "Multi Hazard Count":
-        return f"{len(HAZARD_TOPICS)} hazard topics combined"
-    if name == "Multi Hazard Intensity":
-        return "Pixel-based hazard score (MHI)"
+        return f"{len(HAZARD_TOPICS)} hazard topics counted"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -250,7 +259,7 @@ def tab_hazard_layers():
         items.append(_layer_item(n))
 
     # Per-topic sections
-    items.append(html.Div("Hazard Intensity", className="layer-section-header"))
+    items.append(html.Div("Hazard topics", className="layer-section-header"))
     for topic, names in by_topic:
         color     = TOPIC_COLORS.get(topic, "#9ca3af")
         foldable  = topic in SUB_TOPIC_DETAIL
@@ -292,8 +301,69 @@ def tab_hazard_layers():
             html.Div("Select a layer to display on the map", className="ph-sub"),
         ]),
         html.Div(items, className="layer-list"),
+        duration_panel(),
         html.Div(id="hazard-legend"),
     ])
+
+
+def duration_panel():
+    """Lets the reader say how long a hazard must last before it counts.
+
+    Without this the layers answer "did this ever happen", which treats one hot
+    day and a hot year alike. The units differ by source, so each hazard keeps
+    its own: ERA5-Land and FIRMS report daily, TerraClimate monthly.
+    """
+    rows = []
+    for hazard in DURATION_HAZARDS:
+        name = hazard["name"]
+        rows.append(html.Div(className="ps", style={"paddingTop": "10px"}, children=[
+            html.Div(_layer_label(name), className="ps-label"),
+            html.Div(
+                className="duration-chips",
+                style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
+                children=[
+                    html.Button(
+                        duration_label(hazard, value),
+                        id={"type": "duration-chip", "hazard": name, "value": value},
+                        className="duration-chip",
+                        n_clicks=0,
+                        style=_chip_style(value == hazard["duration_default"]),
+                    )
+                    for value in hazard["duration_options"]
+                ],
+            ),
+        ]))
+
+    return html.Div(className="exposure-method-note", children=[
+        html.Div("How long it has to last", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.P(
+            "A hazard counts where it lasted at least this long during 2024. "
+            "Raising it lowers the exposure figures, because a place that saw "
+            "one bad day stops counting the same as a place that saw a hundred.",
+            className="exposure-method-p",
+        ),
+        *rows,
+        html.P(
+            "Units follow the source. Temperature and fire are recorded daily, "
+            "drought monthly, so 12 readings a year is the most drought can show.",
+            className="exposure-method-p",
+            style={"marginTop": "8px"},
+        ),
+    ])
+
+
+def _chip_style(active):
+    return {
+        "padding": "4px 10px",
+        "fontSize": "0.7rem",
+        "borderRadius": "999px",
+        "cursor": "pointer",
+        "border": "1px solid " + ("#1CABE2" if active else "var(--border)"),
+        "background": "#1CABE2" if active else "transparent",
+        "color": "#fff" if active else "var(--mid)",
+        "fontWeight": "600" if active else "500",
+    }
 
 
 def tab_exposure():
@@ -340,16 +410,16 @@ def tab_exposure():
 
 def tab_mh():
     mhc_pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
-    mhi_pal = ["#000004","#3b0f70","#8c2981","#de4968","#fe9f6d"]
     n = len(HAZARD_TOPICS)
     return html.Div(id="tab-mh", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
-            html.Div("Multi Hazard Indicators", className="ph-title"),
-            html.Div("Combined hazard count & intensity", className="ph-sub"),
+            html.Div("Multi Hazard Count", className="ph-title"),
+            html.Div(f"How many of the {n} hazard topics flag a place", className="ph-sub"),
         ]),
         html.Div(className="ps", children=[
             html.Div("Hazard Count (MHC)", className="ps-label"),
-            html.Div("Areas exposed to ≥ N simultaneous hazard topics", className="ps-caption"),
+            html.Div("Areas where at least N hazard topics flag the same pixel",
+                     className="ps-caption"),
             dcc.Dropdown(
                 id="mhc-select", className="ps-select",
                 options=[{"label": v, "value": v} for v in MHC_OPTIONS],
@@ -364,40 +434,21 @@ def tab_mh():
             html.Div(className="legend-range",
                      children=[html.Span("1 topic"), html.Span(f"{n} topics")]),
         ]),
-        html.Div(className="ps", children=[
-            html.Div("Hazard Intensity (MHI)", className="ps-label"),
-            html.Div("Areas with pixel hazard score above global percentile", className="ps-caption"),
-            dcc.Dropdown(
-                id="mhi-select", className="ps-select",
-                options=[{"label": f"P{v}", "value": v} for v in MHI_OPTIONS],
-                value=None, placeholder="None",
-                clearable=True, searchable=False,
-            ),
-        ]),
-        html.Div(className="ps", children=[
-            html.Div("Intensity layer legend", className="ps-label"),
-            html.Div(className="legend-bar",
-                     style={"background": f"linear-gradient(to right,{','.join(mhi_pal)})"}),
-            html.Div(className="legend-range",
-                     children=[html.Span("Low (0)"), html.Span("High (10)")]),
-        ]),
         html.Div(className="exposure-method-note", children=[
             html.Div("Methodology", className="hi-label", style={"marginBottom": "6px"}),
             html.P([
                 html.Strong("MHC — "),
-                "Each hazard topic is flagged at the pixel level when its threshold is exceeded. "
-                "For topics with multiple layers (e.g. Drought combines agricultural and "
-                "meteorological drought), an OR union is applied across layers before flagging. "
-                "MHC then counts how many topics flag each pixel; only pixels reaching the "
-                "user-selected minimum count N are displayed.",
+                "A hazard topic flags a pixel when one of its layers crosses that layer's "
+                "threshold. Where a topic holds several layers, they are combined with an OR "
+                "union before flagging. The count is how many topics flag the pixel, and the "
+                "map shows only pixels reaching the count you pick.",
             ], className="exposure-method-p"),
             html.P([
-                html.Strong("MHI — "),
-                "A continuous pixel-based hazard score is derived by combining the normalised "
-                "intensity values across all hazard layers, integrating both the breadth and "
-                "severity of co-occurring hazards. The user selects a global percentile "
-                "threshold (e.g. P90); only pixels whose score exceeds that percentile are "
-                "highlighted on the map.",
+                html.Strong("What the count is not — "),
+                f"It is a tally of {n} topics, not a severity score. Two topics does not mean "
+                "twice the harm of one, and a pixel flagged once by a hazard that lasted all "
+                "year counts the same as one flagged by a hazard that lasted a day. Each "
+                "layer's own limits are listed against it in the hazard list.",
             ], className="exposure-method-p"),
         ]),
     ])
@@ -655,6 +706,35 @@ def _case_study_card(study):
     )
 
 
+def _context_case_study_card(study):
+    """Compact card used beside the map while a hazard/exposure layer is open."""
+    sdgs = list(study.get("sdgs", []))
+    tags = [_case_study_sdg_tag(sdg) for sdg in sdgs[:5]]
+    if len(sdgs) > 5:
+        tags.append(_case_study_tag(f"+{len(sdgs) - 5}", "region"))
+    tags.extend(
+        _case_study_tag(HAZARD_LABELS.get(hazard, _layer_label(hazard)), "hazard")
+        for hazard in study.get("hazards", [])[:3]
+    )
+    locations = list(study.get("location_labels", []))
+    tags.extend(_case_study_tag(label, "region") for label in locations[:2])
+    if len(locations) > 2:
+        tags.append(_case_study_tag(f"+{len(locations) - 2} regions", "region"))
+    return html.Div(
+        [
+            html.Div(study["title"], className="context-case-study-title"),
+            html.Div(study["summary"], className="context-case-study-summary"),
+            html.Div(tags, className="case-study-tags"),
+        ],
+        id={"type": "context-case-study-card", "index": study["id"]},
+        className="context-case-study-card",
+        n_clicks=0,
+        title="Zoom to this case study",
+        role="button",
+        tabIndex=0,
+    )
+
+
 def tab_case_studies():
     return html.Div(id="tab-case-studies", style={"display": "none"}, children=[
         html.Div(className="ph", children=[
@@ -826,6 +906,34 @@ def map_component():
                 ),
             ],
             style={"height": "100vh", "width": "100%"},
+            trackViewport=True,
+            eventHandlers={
+                "dragend": CASE_STUDY_JS("onViewChanged"),
+                "zoomend": CASE_STUDY_JS("onViewChanged"),
+            },
+        ),
+        html.Div(
+            id="context-case-study-panel",
+            className="context-case-study-panel",
+            style={"display": "none"},
+            children=[
+                html.Div(className="context-case-study-header", children=[
+                    html.Div(id="context-case-study-title", className="context-case-study-heading"),
+                    html.Div(id="context-case-study-subtitle", className="context-case-study-subtitle"),
+                ]),
+                dcc.Loading(
+                    id="context-case-study-loading",
+                    className="context-case-study-loading",
+                    type="dot",
+                    color="#1CABE2",
+                    delay_show=120,
+                    delay_hide=100,
+                    children=html.Div([
+                        html.Div(id="context-case-study-count", className="context-case-study-count"),
+                        html.Div(id="context-case-study-list", className="context-case-study-list"),
+                    ], className="context-case-study-results"),
+                ),
+            ],
         ),
     ])
 
@@ -843,15 +951,26 @@ app.server.wsgi_app = ProxyFix(app.server.wsgi_app, x_for=1, x_proto=1, x_host=1
 # ---------------------------------------------------------------------------
 # Auth — Flask secret key (auto-generated on first run)
 # ---------------------------------------------------------------------------
-import secrets as _secrets, datetime as _dt
+import secrets as _secrets, datetime as _dt, tempfile as _tempfile
 from flask import session as _fsess, request as _freq, redirect as _fredirect
 
-_key_path = os.path.join(os.path.dirname(__file__), "credentials", "flask_secret.txt")
-if os.path.exists(_key_path):
+_key_path = os.getenv(
+    "FLASK_SECRET_PATH",
+    os.path.join(_tempfile.gettempdir(), "gchd_flask_secret.txt"),
+)
+_configured_key = os.getenv("FLASK_SECRET_KEY")
+if _configured_key:
+    app.server.secret_key = _configured_key
+elif os.path.exists(_key_path):
     app.server.secret_key = open(_key_path).read().strip()
 else:
     _key = _secrets.token_hex(32)
-    open(_key_path, "w").write(_key)
+    try:
+        open(_key_path, "w").write(_key)
+    except OSError:
+        # Read-only container filesystems (for example, a Secret Manager
+        # volume mounted over credentials/) still need a per-instance key.
+        pass
     app.server.secret_key = _key
 
 _PUBLIC_PATHS = ("/login", "/assets/", "/_dash-component-suites/", "/favicon.ico")
@@ -965,6 +1084,7 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-embargo",       storage_type="session", data=True),
     dcc.Store(id="store-tab",           data="hazard"),
     dcc.Store(id="store-hazard-layer",  data=None),
+    dcc.Store(id="store-durations",     data=default_durations()),
     dcc.Store(id="store-exposure-topic",data=None),
     dcc.Store(id="store-country",       data=None),
     dcc.Store(id="store-ucode",         data=None),
@@ -1012,15 +1132,35 @@ app.layout = html.Div(id="app-root", children=[
         sidebar(),
         html.Div(id="panel", children=[
             html.Div(
-                "Global Child Hazard Database",
                 style={
                     "padding": "14px 16px",
-                    "fontSize": "0.95rem",
-                    "fontWeight": "700",
-                    "color": "#1CABE2",
                     "borderBottom": "1px solid var(--border)",
-                    "letterSpacing": "0.01em",
-                }
+                },
+                children=[
+                    html.Div(
+                        "Global Child Hazard Database",
+                        style={
+                            "fontSize": "0.95rem",
+                            "fontWeight": "700",
+                            "color": "#1CABE2",
+                            "letterSpacing": "0.01em",
+                        },
+                    ),
+                    # The app pairs hazard layers with a population grid and stops
+                    # there. It holds nothing on vulnerability or coping capacity,
+                    # so it cannot answer a risk question. Say so where every
+                    # figure here is read.
+                    html.Div(
+                        "Hazard and exposure screening — not a risk assessment",
+                        style={
+                            "marginTop": "3px",
+                            "fontSize": "0.68rem",
+                            "fontWeight": "500",
+                            "color": "var(--mid)",
+                            "letterSpacing": "0.01em",
+                        },
+                    ),
+                ],
             ),
             tab_hazard_layers(),
             tab_exposure(),
@@ -1180,6 +1320,122 @@ def _case_study_feature_collection(studies):
     }
 
 
+def _bounds_from_viewport(viewport):
+    """Read Leaflet's [[south, west], [north, east]] bounds safely."""
+    if isinstance(viewport, dict):
+        viewport = viewport.get("bounds")
+    if not isinstance(viewport, (list, tuple)) or len(viewport) < 2:
+        return None
+    try:
+        south, west = float(viewport[0][0]), float(viewport[0][1])
+        north, east = float(viewport[1][0]), float(viewport[1][1])
+    except (TypeError, ValueError, IndexError):
+        return None
+    return (min(south, north), max(south, north), west, east)
+
+
+def _longitude_intervals(west, east):
+    if west <= east:
+        return [(west, east)]
+    return [(west, 180.0), (-180.0, east)]
+
+
+def _study_in_viewport(study, viewport):
+    """Return true when a mapped study region intersects the visible map."""
+    bounds = _bounds_from_viewport(viewport)
+    if not bounds:
+        return bool(study.get("map_point"))
+    south, north, west, east = bounds
+    study_bounds = study.get("map_bounds")
+    if study_bounds and len(study_bounds) >= 2:
+        try:
+            ssouth, swest = float(study_bounds[0][0]), float(study_bounds[0][1])
+            snorth, seast = float(study_bounds[1][0]), float(study_bounds[1][1])
+            if snorth < south or ssouth > north:
+                return False
+            viewport_intervals = _longitude_intervals(west, east)
+            study_intervals = _longitude_intervals(swest, seast)
+            return any(
+                max(left, swest) <= min(right, seast)
+                for left, right in viewport_intervals
+                for swest, seast in study_intervals
+            )
+        except (TypeError, ValueError, IndexError):
+            pass
+    point = study.get("map_point")
+    if not point or len(point) < 2:
+        return False
+    try:
+        lat, lon = float(point[0]), float(point[1])
+    except (TypeError, ValueError):
+        return False
+    return south <= lat <= north and any(left <= lon <= right for left, right in _longitude_intervals(west, east))
+
+
+def _context_hazards(active_tab, selected_layer, exposure_topic):
+    if active_tab == "hazard":
+        if not selected_layer:
+            return None, None
+        if selected_layer in ("Multi Hazard Count", "Multi Hazard Intensity"):
+            return set(hazard_taxonomy.HAZARDS), "All linked hazards"
+        hazards = hazard_taxonomy.hazards_for_layers([selected_layer])
+        # Reference layers (for example population) are not tied to a hazard;
+        # keep the contextual panel hidden for those selections.
+        return (hazards or None), _layer_label(selected_layer)
+    if active_tab == "exposure" and exposure_topic:
+        hazards = hazard_taxonomy.TOPIC_TO_HAZARDS.get(exposure_topic, set())
+        return (hazards or None), exposure_topic
+    return None, None
+
+
+def _matching_context_case_studies(active_tab, selected_layer, exposure_topic, viewport=None):
+    """Return mapped studies relevant to the active hazard/exposure view."""
+    hazards, label = _context_hazards(active_tab, selected_layer, exposure_topic)
+    if hazards is None:
+        return [], label
+    return [
+        study for study in CASE_STUDIES
+        if study.get("map_point")
+        and bool(set(study.get("hazards", [])).intersection(hazards))
+        and _study_in_viewport(study, viewport)
+    ], label
+
+
+@app.callback(
+    Output("context-case-study-panel", "style"),
+    Output("context-case-study-title", "children"),
+    Output("context-case-study-subtitle", "children"),
+    Output("context-case-study-count", "children"),
+    Output("context-case-study-list", "children"),
+    Input("store-tab", "data"),
+    Input("store-hazard-layer", "data"),
+    Input("store-exposure-topic", "data"),
+    Input("main-map", "viewport"),
+    Input("store-bounds", "data"),
+)
+def update_context_case_studies(active_tab, selected_layer, exposure_topic,
+                                viewport, selected_bounds):
+    hazards, label = _context_hazards(active_tab, selected_layer, exposure_topic)
+    hidden = {"display": "none"}
+    if hazards is None:
+        return hidden, "", "", "", []
+
+    view = viewport or selected_bounds
+    matching, _ = _matching_context_case_studies(
+        active_tab, selected_layer, exposure_topic, view
+    )
+    matching.sort(key=lambda study: study.get("title", "").casefold())
+    cards = [_context_case_study_card(study) for study in matching[:CONTEXT_CASE_STUDY_LIMIT]]
+    if not cards:
+        cards = [html.Div(
+            "No mapped case studies match this hazard in the visible map area.",
+            className="context-case-study-empty",
+        )]
+    shown = min(len(matching), CONTEXT_CASE_STUDY_LIMIT)
+    count = f"Showing {shown} of {len(matching)} mapped studies in view"
+    return {"display": "flex"}, "Related case studies", f"{label} · current map view", count, cards
+
+
 @app.callback(
     Output("case-study-page", "data"),
     Input("case-study-prev-page", "n_clicks"),
@@ -1272,9 +1528,18 @@ def describe_region_lock(region_lock, clicked_ucode, clicked_name, country_name)
     Input("store-clicked-ucode", "data"),
     Input("store-ucode", "data"),
     Input("store-tab", "data"),
+    Input("store-hazard-layer", "data"),
+    Input("store-exposure-topic", "data"),
+    Input("main-map", "viewport"),
 )
 def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode,
-                              region_lock, clicked_ucode, map_country_ucode, active_tab):
+                              region_lock, clicked_ucode, map_country_ucode, active_tab,
+                              selected_layer, exposure_topic, viewport):
+    if active_tab in ("hazard", "exposure"):
+        studies, _ = _matching_context_case_studies(
+            active_tab, selected_layer, exposure_topic, viewport
+        )
+        return _case_study_feature_collection(studies)
     if active_tab != "case-studies":
         return EMPTY_FEATURE_COLLECTION
     region = _selected_map_region(region_lock, clicked_ucode, map_country_ucode)
@@ -1288,6 +1553,21 @@ def update_case_study_markers(sdg_goals, hazards, country_ucode, admin_ucode,
     prevent_initial_call=True,
 )
 def zoom_to_case_study(card_clicks):
+    triggered = ctx.triggered_id
+    if not triggered or not any(card_clicks or []):
+        return no_update
+    study = CASE_STUDY_BY_ID.get(triggered.get("index"))
+    if not study or not study.get("map_bounds"):
+        return no_update
+    return {"bounds": study["map_bounds"], "transition": "fitBounds"}
+
+
+@app.callback(
+    Output("main-map", "viewport", allow_duplicate=True),
+    Input({"type": "context-case-study-card", "index": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def zoom_to_context_case_study(card_clicks):
     triggered = ctx.triggered_id
     if not triggered or not any(card_clicks or []):
         return no_update
@@ -1411,15 +1691,19 @@ def update_hazard_legend(sel):
         pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
         n   = len(HAZARD_TOPICS)
         sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
-    elif sel == "Multi Hazard Intensity":
-        pal = ["#000004","#3b0f70","#8c2981","#de4968","#fe9f6d"]
-        sub = [html.Span("Low (0)"), html.Span("High (10)")]
     else:
         hazard = HAZARD_MAP.get(sel)
         if not hazard:
             return None
         pal = HAZARD_VIS_PALETTES.get(sel, ["#ffffb2","#fecc5c","#fd8d3c","#f03b20","#bd0026"])
-        sub = [html.Span("Low"), html.Span("High")]
+        if hazard.get("duration_options"):
+            # The layer draws a count now, so the legend states the unit rather
+            # than saying "Low" and "High" over a quantity nobody can name.
+            unit = hazard["duration_unit"]
+            top = hazard.get("vis_max", 1)
+            sub = [html.Span(f"1 {unit[:-1]}"), html.Span(f"{top}+ {unit}")]
+        else:
+            sub = [html.Span("Low"), html.Span("High")]
 
     return html.Div(className="legend-wrap", children=[
         html.Div("Legend", className="legend-label"),
@@ -1436,18 +1720,16 @@ def update_hazard_legend(sel):
     Input("store-hazard-layer",   "data"),
     Input("store-exposure-topic", "data"),
     Input("mhc-select",           "value"),
-    Input("mhi-select",           "value"),
     Input("store-tab",            "data"),
+    Input("store-durations",      "data"),
 )
-def update_data_layers(sel_layer, exp_topic, mhc, mhi, tab):
+def update_data_layers(sel_layer, exp_topic, mhc, tab, durations):
     layers = []
+    key = durations_key(durations)
 
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
-            url, _ = get_topic_count_tile_url()
-            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
-        elif sel_layer == "Multi Hazard Intensity":
-            url, _ = get_pixel_score_tile_url()
+            url, _ = get_topic_count_tile_url(key)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
             url, _ = get_hazard_tile_url(sel_layer)
@@ -1456,18 +1738,42 @@ def update_data_layers(sel_layer, exp_topic, mhc, mhi, tab):
 
     elif tab == "exposure" and exp_topic:
         color = TOPIC_COLORS.get(exp_topic, "#ff0000")
-        url, _ = get_topic_tile_url(exp_topic, color)
+        url, _ = get_topic_tile_url(exp_topic, color, key)
         layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "mh":
         if mhc:
-            url, _ = get_topic_count_tile_url()
+            url, _ = get_topic_count_tile_url(key)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
-        if mhi:
-            url, _ = get_pixel_score_percentile_tile_url(mhi)
-            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.65))
 
     return layers
+
+
+# ── Duration chips ────────────────────────────────────────────────────────────
+
+@app.callback(
+    Output("store-durations", "data"),
+    Input({"type": "duration-chip", "hazard": ALL, "value": ALL}, "n_clicks"),
+    State("store-durations", "data"),
+    prevent_initial_call=True,
+)
+def pick_duration(_clicks, current):
+    trigger = ctx.triggered_id
+    if not trigger:
+        return no_update
+    updated = clean_durations(current)
+    updated[trigger["hazard"]] = trigger["value"]
+    return updated
+
+
+@app.callback(
+    Output({"type": "duration-chip", "hazard": ALL, "value": ALL}, "style"),
+    Input("store-durations", "data"),
+    State({"type": "duration-chip", "hazard": ALL, "value": ALL}, "id"),
+)
+def mark_selected_duration(durations, ids):
+    chosen = clean_durations(durations)
+    return [_chip_style(chosen.get(i["hazard"]) == i["value"]) for i in ids]
 
 
 # ── Country selection ─────────────────────────────────────────────────────────
@@ -1718,21 +2024,25 @@ def update_badge(name, ucode):
     Input("store-clicked-name",   "data"),
     State("store-level",          "data"),
     State("mhc-select",           "value"),
-    State("mhi-select",           "value"),
     State("store-exposure",       "data"),
+    Input("store-durations",      "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, mhi, existing):
+def run_exposure(ucode, name, level, mhc, existing, durations):
     if not ucode or not level:
         return no_update, None
-    if existing:
-        return no_update, render_results(existing, name, mhc, mhi)
+    # Exposure depends on the duration choice, so a cached result from a
+    # different one cannot be reused.
+    if existing and existing.get("_durations") == clean_durations(durations):
+        return no_update, render_results(existing, name, mhc)
     result = compute_exposure(
         feature_ucode=ucode, admin_level=level,
         mhc_value=mhc if mhc else None,
-        mhi_percentile=mhi if mhi else None,
+        durations=durations_key(durations),
     )
-    return result, render_results(result, name, mhc, mhi)
+    if result is not None:
+        result["_durations"] = clean_durations(durations)
+    return result, render_results(result, name, mhc)
 
 
 def _hazard_label(name):
@@ -1740,7 +2050,24 @@ def _hazard_label(name):
     return " ".join(words[:2])
 
 
-def render_results(result, region_name, mhc_val, mhi_val):
+def _duration_note(result):
+    """States the durations behind these figures, so a number cannot travel
+    without the condition that produced it."""
+    chosen = clean_durations(result.get("_durations"))
+    parts = []
+    for hazard in DURATION_HAZARDS:
+        value = chosen[hazard["name"]]
+        unit = hazard["duration_unit"]
+        label = _layer_label(hazard["name"]).replace(" 2024", "")
+        parts.append(f"{label}: {'any' if value <= 1 else f'{value}+'} {unit}")
+    return html.Div(
+        "Counted where a hazard lasted — " + " · ".join(parts),
+        className="ps-caption",
+        style={"padding": "6px 16px 0", "fontSize": "0.68rem", "lineHeight": "1.5"},
+    )
+
+
+def render_results(result, region_name, mhc_val):
     if not result:
         return html.Div("No data available.", className="ps-caption",
                         style={"padding": "14px 16px"})
@@ -1813,7 +2140,9 @@ def render_results(result, region_name, mhc_val, mhi_val):
             exposure_items.append(html.Div(header))
 
     export_data = {
-        "region": region_name, "total_population": total,
+        "region": region_name,
+        "durations": clean_durations(result.get("_durations")),
+        "total_population": total,
         "male": male, "female": fema,
         "exposure_by_topic": {
             td["topic"]: {"count": td["count"], "pct": round(td["pct"], 2)}
@@ -1823,15 +2152,12 @@ def render_results(result, region_name, mhc_val, mhi_val):
     }
     if mhc_val and result.get("active_count_filter"):
         export_data[f"mhc_gte_{mhc_val}"] = int(round(result["active_count_filter"]))
-    if mhi_val and result.get("active_intensity_filter"):
-        export_data[f"mhi_gte_p{mhi_val}"] = int(round(result["active_intensity_filter"]))
 
     safe = re.sub(r"[^a-zA-Z0-9]", "_", region_name or "result")
 
     mh_rows = []
     for val, key, color, label in [
-        (mhc_val, "active_count_filter",      "#800026", f"MHC (≥{mhc_val} topics)"),
-        (mhi_val, "active_intensity_filter",  "#de4968", f"MHI (≥P{mhi_val})"),
+        (mhc_val, "active_count_filter", "#800026", f"MHC (≥{mhc_val} topics)"),
     ]:
         if val and (result.get(key) or 0) > 0:
             c   = int(round(result[key]))
@@ -1876,6 +2202,7 @@ def render_results(result, region_name, mhc_val, mhi_val):
         html.Div(className="ps", children=[
             html.Div("Exposure by hazard topic", className="ps-label"),
             *exposure_items,
+            _duration_note(result),
         ]) if topic_data else None,
         html.Div(className="ps", children=[
             html.Div("Multi Hazard Filters", className="ps-label"),

@@ -39,6 +39,25 @@ window.gchd = Object.assign({}, window.gchd, {
         popup.appendChild(link);
       }
       layer.bindPopup(popup);
+    },
+    onViewChanged: function (event, context) {
+      var map = context && context.map ? context.map : context;
+      if (!map || !map.getBounds) {
+        return;
+      }
+      var bounds = map.getBounds();
+      var center = map.getCenter();
+      var viewport = {
+        center: [center.lat, center.lng],
+        zoom: map.getZoom(),
+        bounds: [
+          [bounds.getSouth(), bounds.getWest()],
+          [bounds.getNorth(), bounds.getEast()]
+        ]
+      };
+      if (context && typeof context.setProps === "function") {
+        context.setProps({viewport: viewport});
+      }
     }
   }
 });
