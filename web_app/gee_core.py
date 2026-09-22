@@ -12,8 +12,9 @@ import ee
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS, GLOBAL_GEOMETRY,
-    ADMIN_DATA, CHILD_AGE_BANDS, CHILD_PARTIAL_BAND, CHILD_PARTIAL_FRACTION,
+    ADMIN_DATA,
 )
+from exposure_math import child_band_weights
 from georepo_core import (
     get_country_names as get_local_country_names,
     get_country_ucode as get_local_country_ucode,
@@ -73,16 +74,17 @@ def _hazard_image(hazard):
 def _child_population_by_sex(population, prefix):
     """Add up the WorldPop age bands that fall under 18, for one sex.
 
-    The 15-19 band straddles the cutoff, so it is counted at CHILD_PARTIAL_FRACTION
-    and the younger bands are counted whole.
+    The weights come from exposure_math so the same arithmetic can be tested
+    without Earth Engine.
     """
-    whole = population.select(
-        [f"{prefix}_{band}" for band in CHILD_AGE_BANDS]
-    ).reduce(ee.Reducer.sum())
-    partial = population.select(f"{prefix}_{CHILD_PARTIAL_BAND}").multiply(
-        CHILD_PARTIAL_FRACTION
-    )
-    return whole.add(partial)
+    weights = child_band_weights()
+    total = None
+    for band, weight in weights.items():
+        term = population.select(f"{prefix}_{band}")
+        if weight != 1.0:
+            term = term.multiply(weight)
+        total = term if total is None else total.add(term)
+    return total
 
 
 @lru_cache(maxsize=1)
