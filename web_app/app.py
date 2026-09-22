@@ -25,6 +25,8 @@ from config import (
     PERIOD_OPTIONS, PERIOD_DEFAULT, PERIOD_LABELS, FREQUENCY_OPTIONS,
     FREQUENCY_DEFAULT, clean_period, clean_frequency, frequency_label,
     baseline_label, UNDER_FIVE_LAYER, UNDER_FIVE_LABEL, VULNERABILITY_PALETTE,
+    ACCESS_LAYER, ACCESS_OPTIONS, ACCESS_DEFAULT, ACCESS_VIS_MAX, CAPACITY_PALETTE,
+    clean_access, access_label, access_choice, ACCESS_OFF,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -35,6 +37,7 @@ from gee_core import (
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
     get_hazard_tile_url, durations_key, view_key, get_under_five_tile_url,
+    get_access_tile_url,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
@@ -101,11 +104,12 @@ def ask_gemini(_query):
 # Ordered layers for the hazard list
 MH_LAYERS  = ["Multi Hazard Count"]
 VULNERABILITY_LAYERS = [UNDER_FIVE_LAYER]
+CAPACITY_LAYERS = [ACCESS_LAYER]
 HAZ_LAYERS = list(dict.fromkeys(
     [name for names in HAZARD_TOPICS.values() for name in names]
     + REFERENCE_LAYERS
 ))
-ALL_LAYERS = MH_LAYERS + HAZ_LAYERS + VULNERABILITY_LAYERS
+ALL_LAYERS = MH_LAYERS + HAZ_LAYERS + VULNERABILITY_LAYERS + CAPACITY_LAYERS
 
 
 def _hazard_info_body(info):
@@ -145,6 +149,8 @@ def _layer_label(name):
         return name
     if name == UNDER_FIVE_LAYER:
         return "Under-5 share"
+    if name == ACCESS_LAYER:
+        return "Travel time to care"
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
 
@@ -169,6 +175,8 @@ def _layer_meta(name):
         return f"{len(HAZARD_TOPICS)} hazard topics counted"
     if name == UNDER_FIVE_LAYER:
         return "Percent of children under five"
+    if name == ACCESS_LAYER:
+        return "Minutes to the nearest health facility"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -327,6 +335,18 @@ def tab_hazard_layers():
         style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
     ))
 
+    # Capacity is a third construct, kept apart from both the hazards and the
+    # vulnerability layer for the same reason: nothing here combines them.
+    items.append(html.Div("Coping capacity", className="layer-section-header"))
+    for name in CAPACITY_LAYERS:
+        items.append(_layer_item(name))
+    items.append(html.Div(
+        "Whether care can be reached — not whether it has beds, staff, or "
+        "anyone who treats children. No global data says that.",
+        className="ps-caption",
+        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
+    ))
+
     items.append(html.Div("Reference data", className="layer-section-header"))
     items.extend(_layer_item(name) for name in REFERENCE_LAYERS)
 
@@ -408,7 +428,37 @@ def duration_panel():
         ),
     ])
 
-    return html.Div([period_block, html.Div(className="exposure-method-note", children=[
+    access_block = html.Div(className="exposure-method-note", children=[
+        html.Div("Children beyond reach of care", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.P(
+            "Counts the exposed children who are also far from a health "
+            "facility. It is an intersection of two numbers, not a combined "
+            "score — nothing here weighs a hazard against an hour of travel.",
+            className="exposure-method-p",
+        ),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "margin": "8px 0",
+                   "flexWrap": "wrap"},
+            children=[
+                html.Button(
+                    "Not counted" if value == ACCESS_OFF else access_label(value),
+                    id={"type": "access-chip", "value": value},
+                    n_clicks=0,
+                    style=_chip_style(value == ACCESS_OFF),
+                )
+                for value in [ACCESS_OFF] + ACCESS_OPTIONS
+            ],
+        ),
+        html.P(
+            "Off by default because it costs another pass over the region, and "
+            "a whole country at 100 m is already near what Earth Engine will do "
+            "in one request.",
+            className="exposure-method-p",
+        ),
+    ])
+
+    return html.Div([period_block, access_block, html.Div(className="exposure-method-note", children=[
         html.Div("How long it has to last", className="hi-label",
                  style={"marginBottom": "2px"}),
         html.P(
@@ -1161,6 +1211,7 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-durations",     data=default_durations()),
     dcc.Store(id="store-period",        data=PERIOD_DEFAULT),
     dcc.Store(id="store-frequency",     data=FREQUENCY_DEFAULT),
+    dcc.Store(id="store-access",        data=ACCESS_OFF),
     dcc.Store(id="store-exposure-topic",data=None),
     dcc.Store(id="store-country",       data=None),
     dcc.Store(id="store-ucode",         data=None),
@@ -1770,6 +1821,9 @@ def update_hazard_legend(sel):
     elif sel == UNDER_FIVE_LAYER:
         pal = VULNERABILITY_PALETTE
         sub = [html.Span("0% under 5"), html.Span("25%+ under 5")]
+    elif sel == ACCESS_LAYER:
+        pal = CAPACITY_PALETTE
+        sub = [html.Span("Care nearby"), html.Span(f"{ACCESS_VIS_MAX}+ min away")]
     else:
         hazard = HAZARD_MAP.get(sel)
         if not hazard:
@@ -1816,6 +1870,9 @@ def update_data_layers(sel_layer, exp_topic, mhc, tab, durations, period, freque
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         elif sel_layer == UNDER_FIVE_LAYER:
             url, _ = get_under_five_tile_url()
+            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
+        elif sel_layer == ACCESS_LAYER:
+            url, _ = get_access_tile_url()
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
             url, _ = get_hazard_tile_url(sel_layer, key, period)
@@ -1920,6 +1977,26 @@ def show_frequency_choice(period, frequency):
 def pick_frequency(_clicks):
     trigger = ctx.triggered_id
     return clean_frequency(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output("store-access", "data"),
+    Input({"type": "access-chip", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_access(_clicks):
+    trigger = ctx.triggered_id
+    return access_choice(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output({"type": "access-chip", "value": ALL}, "style"),
+    Input("store-access", "data"),
+    State({"type": "access-chip", "value": ALL}, "id"),
+)
+def mark_selected_access(access, ids):
+    chosen = access_choice(access)
+    return [_chip_style(i["value"] == chosen) for i in ids]
 
 
 # ── Country selection ─────────────────────────────────────────────────────────
@@ -2174,17 +2251,20 @@ def update_badge(name, ucode):
     Input("store-durations",      "data"),
     Input("store-period",         "data"),
     Input("store-frequency",      "data"),
+    Input("store-access",         "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency):
+def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency, access):
     if not ucode or not level:
         return no_update, None
     # The figures mean something different under each of these, so a cached
     # result from another combination cannot be reused.
+    chosen_access = access_choice(access)
     view = {
         "durations": clean_durations(durations),
         "period": clean_period(period),
         "frequency": clean_frequency(frequency),
+        "access": chosen_access,
     }
     if existing and existing.get("_view") == view:
         return no_update, render_results(existing, name, mhc)
@@ -2193,6 +2273,8 @@ def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency
         mhc_value=mhc if mhc else None,
         durations=durations_key(durations),
         period=view["period"], frequency=view["frequency"],
+        access_minutes=None if chosen_access == ACCESS_OFF else chosen_access,
+        include_access=chosen_access != ACCESS_OFF,
     )
     if result is not None:
         result["_view"] = view
@@ -2219,6 +2301,8 @@ def _duration_note(result):
         label = _hazard_display_name(hazard["name"])
         parts.append(f"{label}: {'any' if value <= 1 else f'{value}+'} {unit}")
 
+    access = (result.get("_view") or {}).get("access", ACCESS_OFF)
+
     if period == "typical":
         windows = ", ".join(baseline_label(h) for h in DURATION_HAZARDS)
         heading = (
@@ -2228,8 +2312,16 @@ def _duration_note(result):
     else:
         heading = "During 2024, counted where a hazard lasted — "
 
+    tail = ""
+    if access != ACCESS_OFF:
+        tail = (
+            f". Care counted as out of reach beyond {access} minutes of "
+            "motorised travel, which says nothing about whether it can treat "
+            "a child"
+        )
+
     return html.Div(
-        heading + " · ".join(parts),
+        heading + " · ".join(parts) + tail,
         className="ps-caption",
         style={"padding": "6px 16px 0", "fontSize": "0.68rem", "lineHeight": "1.5"},
     )
@@ -2260,6 +2352,7 @@ def render_results(result, region_name, mhc_val):
             "topic": topic, "count": count,
             "pct": count / total * 100 if total else 0,
             "under_five": int(round(result.get("u5_" + topic) or 0)),
+            "beyond_care": int(round(result.get("far_" + topic) or 0)),
         })
     topic_data.sort(key=lambda r: r["count"], reverse=True)
 
@@ -2279,7 +2372,9 @@ def render_results(result, region_name, mhc_val):
                 ]),
             ]),
             html.Div(
-                f"of whom {td['under_five']:,} are under 5",
+                f"of whom {td['under_five']:,} are under 5"
+                + (f", and {td['beyond_care']:,} are far from care"
+                   if td.get("beyond_care") else ""),
                 className="ps-caption",
                 style={"paddingLeft": "18px", "fontSize": "0.66rem", "marginTop": "-2px"},
             ) if td.get("under_five") else None,
@@ -2325,6 +2420,7 @@ def render_results(result, region_name, mhc_val):
                 "count": td["count"],
                 "pct": round(td["pct"], 2),
                 "under_five": td["under_five"],
+                "beyond_care": td["beyond_care"],
             }
             for td in topic_data
         },

@@ -9,15 +9,21 @@ live where each hazard is flagged.
 
 Under the UNDRR and [INFORM](https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology)
 framing, risk is hazard combined with exposure, vulnerability and coping
-capacity. This app holds hazard and exposure, and one sliver of vulnerability:
-the share of children who are under five. It carries nothing on coping capacity,
-no future scenarios and no uncertainty measures. Read its numbers as a screen
-for where to look, not as a measure of risk to children.
+capacity. This app now holds something of all four, thinly: hazard and exposure
+in full, the share of children under five as vulnerability, and travel time to
+the nearest health facility as coping capacity. It has no future scenarios and
+no uncertainty measures. Read its numbers as a screen for where to look, not as
+a measure of risk to children.
 
-The under-five layer is shown on its own and reported beside the exposure
-figures. It is never multiplied into them. A combined score would need a formula
-and a weighting this app cannot defend, and the last one it had turned out to be
-measuring nothing.
+The three constructs are shown separately and never multiplied together. You can
+ask for the intersection — children exposed to a hazard who are also more than an
+hour from care — and get a count you can check. What you cannot get is a single
+score, because that needs a weighting this app cannot defend, and the last
+composite it carried turned out to be measuring nothing.
+
+Travel time is about whether care can be reached, not whether it can treat
+anyone. No global data exists on beds, staff or paediatric capability, so a
+reachable clinic and a functioning hospital look identical here.
 
 ## What it runs
 

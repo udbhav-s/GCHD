@@ -220,6 +220,49 @@ VULNERABILITY_PALETTE = ["#f7f4f9", "#d4b9da", "#c994c7", "#df65b0", "#ce1256"]
 
 UNDER_FIVE_LAYER = "under_five_share"
 
+# Coping capacity, as far as global data can carry it. This is travel time to
+# the nearest health facility: whether care is reachable, not whether it has
+# beds or staff. No global facility-level capacity data exists, so the app says
+# "access" and never claims more.
+ACCESS_LAYER = "travel_time_to_healthcare"
+ACCESS_ASSET = "projects/malariaatlasproject/assets/accessibility/accessibility_to_healthcare/2019"
+ACCESS_BAND = "accessibility"
+
+# Minutes beyond which care counts as out of reach. Kept as discrete choices
+# rather than a slider, like every other threshold here.
+ACCESS_OPTIONS = [30, 60, 120]
+ACCESS_DEFAULT = 60
+ACCESS_VIS_MAX = 300
+
+# Its own colour family again, so capacity cannot be read as hazard or as
+# vulnerability on the same map.
+CAPACITY_PALETTE = ["#f7fbff", "#c6dbef", "#6baed6", "#2171b5", "#08306b"]
+
+
+ACCESS_OFF = "off"
+
+
+def clean_access(value):
+    return value if value in ACCESS_OPTIONS else ACCESS_DEFAULT
+
+
+def access_choice(value):
+    """The access setting, where "off" means do not count it at all.
+
+    Off is the default. Every extra band is another full-resolution pass over
+    the region, and a large country at 100 m is already near what Earth Engine
+    will do in one request.
+    """
+    return value if value in ACCESS_OPTIONS else ACCESS_OFF
+
+
+def access_label(minutes):
+    if minutes >= 60 and minutes % 60 == 0:
+        hours = minutes // 60
+        return f"Over {hours} hour{'s' if hours > 1 else ''} away"
+    return f"Over {minutes} min away"
+
+
 # Hazards that need selfMask (0 = transparent)
 SELF_MASK_HAZARDS = [
 ]
@@ -306,6 +349,18 @@ HAZARD_INFO = {
         "known_gaps": "This is the only part of vulnerability the app holds. Poverty, health, housing, disability and displacement are all absent, and age alone does not rank places by how badly a hazard will hurt them. WorldPop models its age bands, so the split is less certain than the population total.",
         "source": "WorldPop, age and sex bands",
         "source_url": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex_cons_unadj",
+    },
+    "travel_time_to_healthcare": {
+        "description": "Motorised travel time to the nearest health facility, in minutes. Shown on its own, never multiplied into the hazard figures.",
+        "units": "Minutes",
+        "availability": "2019",
+        "rule": "Children count as beyond care where travel time exceeds the number of minutes you select.",
+        "native_resolution": "About 1 km",
+        "temporal_basis": "Single year, 2019. Roads, facilities and conflict have moved since.",
+        "coverage": "Global land.",
+        "known_gaps": "This is whether care can be reached, not whether it can treat anyone. No global data exists on beds, staff or paediatric capability, so a reachable clinic and a functioning hospital look identical here. It assumes motorised travel, which overstates access for anyone without a vehicle, and it inherits gaps in the facility database that are largest in the places with the worst access.",
+        "source": "Malaria Atlas Project (Weiss et al. 2020)",
+        "source_url": "https://www.nature.com/articles/s41591-020-1059-1",
     },
     "Multi Hazard Count": {
         "description": f"How many of the {len(HAZARD_TOPICS)} hazard topics flag a pixel. The topics are counted, not weighted or scored, so two topics does not mean twice the severity of one.",

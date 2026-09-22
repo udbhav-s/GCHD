@@ -18,7 +18,7 @@ def test_every_layer_the_app_shows_has_an_info_entry():
 # Layers the app builds rather than reads from a source. They have no entry in
 # HAZARDS but are drawn and described, so they are named here on purpose:
 # anything else appearing in HAZARD_INFO has no code behind it.
-DERIVED_LAYERS = {"Multi Hazard Count", config.UNDER_FIVE_LAYER}
+DERIVED_LAYERS = {"Multi Hazard Count", config.UNDER_FIVE_LAYER, config.ACCESS_LAYER}
 
 
 def test_no_info_entry_describes_a_layer_that_does_not_exist():

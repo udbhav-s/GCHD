@@ -12,7 +12,8 @@ import ee
 from config import (
     HAZARDS, HAZARD_MAP, HAZARD_TOPICS, ALLOW_NEGATIVE,
     HAZARD_VIS_PALETTES, SELF_MASK_HAZARDS,
-    ADMIN_DATA, VULNERABILITY_PALETTE, default_durations, clean_durations,
+    ADMIN_DATA, VULNERABILITY_PALETTE, CAPACITY_PALETTE, default_durations, clean_durations,
+    ACCESS_ASSET, ACCESS_BAND, ACCESS_VIS_MAX, clean_access,
     clean_period, clean_frequency, baseline_window, baseline_years,
 )
 from exposure_math import child_band_weights, under_five_band_weights
@@ -86,6 +87,11 @@ def _step_test(hazard):
         return _step_exceeds(value, threshold, direction)
 
     return step
+
+
+def _access_image():
+    """Minutes of motorised travel to the nearest health facility."""
+    return ee.Image(ACCESS_ASSET).select(ACCESS_BAND).rename("travel_minutes")
 
 
 def _qualifying_years_image(hazard, minimum_steps):
@@ -240,6 +246,7 @@ def build_core_images(durations=None, period="observed", frequency=1):
         "under_five":                under_five,
         "under_five_share":          under_five_share,
         "under_five_by_hazard":      under_five_by_hazard,
+        "access_minutes":            _access_image(),
     }
 
 
@@ -290,6 +297,18 @@ def get_topic_count_tile_url(durations=None, period="observed", frequency=1):
     n    = len(HAZARD_TOPICS)
     vis  = {"min": 0, "max": n, "palette": ["#ffffd4", "#fed98e", "#fe9929", "#d95f0e", "#993404"]}
     mid  = core["topic_count_image"].getMapId(vis)
+    return mid["tile_fetcher"].url_format, vis
+
+
+@lru_cache(maxsize=8)
+def get_access_tile_url():
+    """Travel time to care, as its own layer.
+
+    Capacity is shown beside hazard and vulnerability rather than folded in.
+    Combining them would need a weighting this app cannot defend.
+    """
+    vis = {"min": 0, "max": ACCESS_VIS_MAX, "palette": CAPACITY_PALETTE}
+    mid = _access_image().getMapId(vis)
     return mid["tile_fetcher"].url_format, vis
 
 
@@ -359,8 +378,17 @@ def get_feature_by_ucode(feature_ucode, admin_level, country_ucode=None):
 # ---------------------------------------------------------------------------
 
 def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None,
-                     period="observed", frequency=1):
+                     period="observed", frequency=1, access_minutes=None,
+                     include_access=False):
+    """Children exposed in one region.
+
+    `include_access` adds the travel-time intersection. It is off by default
+    because every extra band is another full-resolution pass over the region,
+    and a large country at 100 m is already near what Earth Engine will do in
+    one request.
+    """
     core        = build_core_images(durations, period, frequency)
+    access_minutes = clean_access(access_minutes)
     childpop    = core["childpop"]
     childpop_m  = core["childpop_m"]
     childpop_f  = core["childpop_f"]
@@ -392,6 +420,20 @@ def compute_exposure(feature_ucode, admin_level, mhc_value=None, durations=None,
         .addBands(childpop_f.rename("total_population_female"))
         .addBands(core["under_five"].rename("total_under_five"))
     )
+
+    if include_access:
+        # Where care is out of reach. An intersection, not a blended score:
+        # "exposed and more than an hour from a clinic" is a number someone can
+        # act on and check.
+        beyond_care = core["access_minutes"].gt(access_minutes)
+        combined = combined.addBands(
+            childpop.updateMask(beyond_care).rename("beyond_care")
+        )
+        for topic_name in HAZARD_TOPICS:
+            combined = combined.addBands(
+                childpop.updateMask(topic_masks[topic_name]).updateMask(beyond_care)
+                .rename("far_" + topic_name)
+            )
 
     if mhc_value:
         count_mask = topic_count.gte(ee.Number.parse(str(mhc_value)))
