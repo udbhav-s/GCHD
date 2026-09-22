@@ -9,6 +9,7 @@ import json as _json
 from urllib.parse import urlencode
 
 import dash
+from urllib.parse import quote as _quote
 from dash import dcc, html, Input, Output, State, ctx, no_update, ALL
 import dash_leaflet as dl
 from dash_extensions.javascript import Namespace
@@ -22,6 +23,11 @@ from config import (
     HAZARDS, HAZARD_MAP, SUB_TOPIC_DETAIL,
     MHC_OPTIONS, HAZARD_INFO, REFERENCE_LAYERS,
     DURATION_HAZARDS, duration_label, default_durations, clean_durations,
+    PERIOD_OPTIONS, PERIOD_DEFAULT, PERIOD_LABELS, FREQUENCY_OPTIONS,
+    FREQUENCY_DEFAULT, clean_period, clean_frequency, frequency_label,
+    baseline_label, UNDER_FIVE_LAYER, UNDER_FIVE_LABEL, VULNERABILITY_PALETTE,
+    ACCESS_LAYER, ACCESS_OPTIONS, ACCESS_DEFAULT, ACCESS_VIS_MAX, CAPACITY_PALETTE,
+    clean_access, access_label, access_choice, ACCESS_OFF,
     CHILD_AGE_LABEL,
 )
 import hazard_taxonomy
@@ -31,12 +37,14 @@ from gee_core import (
     get_country_names,
     get_country_ucode, get_country_bounds,
     get_topic_tile_url, get_topic_count_tile_url,
-    get_hazard_tile_url, durations_key,
+    get_hazard_tile_url, durations_key, view_key, get_under_five_tile_url,
+    get_access_tile_url,
     compute_exposure_custom, compute_exposure_asset,
     get_asset_info, get_asset_bounds, get_custom_asset_tile_url,
     get_feature_at_point, get_feature_by_ucode,
     compute_exposure, compute_topic_overlap,
 )
+import brief as region_brief
 from georepo_core import (
     ATTRIBUTION as GEOREPO_ATTR,
     get_boundary_collection,
@@ -97,11 +105,13 @@ def ask_gemini(_query):
 
 # Ordered layers for the hazard list
 MH_LAYERS  = ["Multi Hazard Count"]
+VULNERABILITY_LAYERS = [UNDER_FIVE_LAYER]
+CAPACITY_LAYERS = [ACCESS_LAYER]
 HAZ_LAYERS = list(dict.fromkeys(
     [name for names in HAZARD_TOPICS.values() for name in names]
     + REFERENCE_LAYERS
 ))
-ALL_LAYERS = MH_LAYERS + HAZ_LAYERS   # order matches pattern-match order in layout
+ALL_LAYERS = MH_LAYERS + HAZ_LAYERS + VULNERABILITY_LAYERS + CAPACITY_LAYERS
 
 
 def _hazard_info_body(info):
@@ -139,13 +149,36 @@ def _hazard_info_body(info):
 def _layer_label(name):
     if name == "Multi Hazard Count":
         return name
+    if name == UNDER_FIVE_LAYER:
+        return "Under-5 share"
+    if name == ACCESS_LAYER:
+        return "Travel time to care"
     # "flood_river_2yr" → "Flood River 2yr"
     return " ".join(w.capitalize() for w in name.replace("-", " ").split("_"))
+
+
+_TOPIC_BY_HAZARD = {
+    name: topic for topic, names in HAZARD_TOPICS.items() for name in names
+}
+
+
+def _hazard_display_name(name):
+    """The name a reader knows the hazard by.
+
+    Layer ids carry their source and year, which is right in a data catalogue
+    and wrong in a sentence: "Maximum Temperature Era5 Land 1991-2020" says the
+    same thing as "Extreme Heat" and reads far worse.
+    """
+    return _TOPIC_BY_HAZARD.get(name) or _layer_label(name)
 
 
 def _layer_meta(name):
     if name == "Multi Hazard Count":
         return f"{len(HAZARD_TOPICS)} hazard topics counted"
+    if name == UNDER_FIVE_LAYER:
+        return "Percent of children under five"
+    if name == ACCESS_LAYER:
+        return "Minutes to the nearest health facility"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -292,6 +325,30 @@ def tab_hazard_layers():
         else:
             items.extend(layer_divs)
 
+    # Vulnerability sits in its own section. Listing it among the hazards would
+    # suggest it can be read the same way, or added to them.
+    items.append(html.Div("Vulnerability", className="layer-section-header"))
+    for name in VULNERABILITY_LAYERS:
+        items.append(_layer_item(name))
+    items.append(html.Div(
+        "Who is exposed, not how much hazard there is. Shown on its own — the "
+        "app has no way to combine the two that it could defend.",
+        className="ps-caption",
+        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
+    ))
+
+    # Capacity is a third construct, kept apart from both the hazards and the
+    # vulnerability layer for the same reason: nothing here combines them.
+    items.append(html.Div("Coping capacity", className="layer-section-header"))
+    for name in CAPACITY_LAYERS:
+        items.append(_layer_item(name))
+    items.append(html.Div(
+        "Whether care can be reached — not whether it has beds, staff, or "
+        "anyone who treats children. No global data says that.",
+        className="ps-caption",
+        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
+    ))
+
     items.append(html.Div("Reference data", className="layer-section-header"))
     items.extend(_layer_item(name) for name in REFERENCE_LAYERS)
 
@@ -317,7 +374,7 @@ def duration_panel():
     for hazard in DURATION_HAZARDS:
         name = hazard["name"]
         rows.append(html.Div(className="ps", style={"paddingTop": "10px"}, children=[
-            html.Div(_layer_label(name), className="ps-label"),
+            html.Div(_hazard_display_name(name), className="ps-label"),
             html.Div(
                 className="duration-chips",
                 style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
@@ -334,7 +391,76 @@ def duration_panel():
             ),
         ]))
 
-    return html.Div(className="exposure-method-note", children=[
+    windows = " · ".join(
+        f"{_hazard_display_name(h['name'])} {baseline_label(h)}"
+        for h in DURATION_HAZARDS
+    )
+
+    period_block = html.Div(className="exposure-method-note", children=[
+        html.Div("What the figures describe", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "margin": "8px 0"},
+            children=[
+                html.Button(
+                    PERIOD_LABELS[value],
+                    id={"type": "period-choice", "value": value},
+                    className="period-choice",
+                    n_clicks=0,
+                    style=_chip_style(value == PERIOD_DEFAULT),
+                )
+                for value in PERIOD_OPTIONS
+            ],
+        ),
+        html.P(
+            "2024 is what happened that year. Typical year asks how often a "
+            "year like that turned up across a longer record, which is as close "
+            "as this data comes to saying how likely something is. The map shows "
+            "one or the other, never both.",
+            className="exposure-method-p",
+        ),
+        html.Div(id="frequency-block"),
+        html.P(
+            f"Records differ by source, so the baselines do too — {windows}. "
+            "Counts are stated per ten years so they stay comparable. Fire "
+            "starts in 2001 because that is when the satellite record begins, "
+            "and it spans a sensor change that altered detection sensitivity.",
+            className="exposure-method-p",
+            style={"marginTop": "8px"},
+        ),
+    ])
+
+    access_block = html.Div(className="exposure-method-note", children=[
+        html.Div("Children beyond reach of care", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.P(
+            "Counts the exposed children who are also far from a health "
+            "facility. It is an intersection of two numbers, not a combined "
+            "score — nothing here weighs a hazard against an hour of travel.",
+            className="exposure-method-p",
+        ),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "margin": "8px 0",
+                   "flexWrap": "wrap"},
+            children=[
+                html.Button(
+                    "Not counted" if value == ACCESS_OFF else access_label(value),
+                    id={"type": "access-chip", "value": value},
+                    n_clicks=0,
+                    style=_chip_style(value == ACCESS_OFF),
+                )
+                for value in [ACCESS_OFF] + ACCESS_OPTIONS
+            ],
+        ),
+        html.P(
+            "Off by default because it costs another pass over the region, and "
+            "a whole country at 100 m is already near what Earth Engine will do "
+            "in one request.",
+            className="exposure-method-p",
+        ),
+    ])
+
+    return html.Div([period_block, access_block, html.Div(className="exposure-method-note", children=[
         html.Div("How long it has to last", className="hi-label",
                  style={"marginBottom": "2px"}),
         html.P(
@@ -350,7 +476,7 @@ def duration_panel():
             className="exposure-method-p",
             style={"marginTop": "8px"},
         ),
-    ])
+    ])])
 
 
 def _chip_style(active):
@@ -1085,6 +1211,9 @@ app.layout = html.Div(id="app-root", children=[
     dcc.Store(id="store-tab",           data="hazard"),
     dcc.Store(id="store-hazard-layer",  data=None),
     dcc.Store(id="store-durations",     data=default_durations()),
+    dcc.Store(id="store-period",        data=PERIOD_DEFAULT),
+    dcc.Store(id="store-frequency",     data=FREQUENCY_DEFAULT),
+    dcc.Store(id="store-access",        data=ACCESS_OFF),
     dcc.Store(id="store-exposure-topic",data=None),
     dcc.Store(id="store-country",       data=None),
     dcc.Store(id="store-ucode",         data=None),
@@ -1691,6 +1820,12 @@ def update_hazard_legend(sel):
         pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
         n   = len(HAZARD_TOPICS)
         sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
+    elif sel == UNDER_FIVE_LAYER:
+        pal = VULNERABILITY_PALETTE
+        sub = [html.Span("0% under 5"), html.Span("25%+ under 5")]
+    elif sel == ACCESS_LAYER:
+        pal = CAPACITY_PALETTE
+        sub = [html.Span("Care nearby"), html.Span(f"{ACCESS_VIS_MAX}+ min away")]
     else:
         hazard = HAZARD_MAP.get(sel)
         if not hazard:
@@ -1722,28 +1857,38 @@ def update_hazard_legend(sel):
     Input("mhc-select",           "value"),
     Input("store-tab",            "data"),
     Input("store-durations",      "data"),
+    Input("store-period",         "data"),
+    Input("store-frequency",      "data"),
 )
-def update_data_layers(sel_layer, exp_topic, mhc, tab, durations):
+def update_data_layers(sel_layer, exp_topic, mhc, tab, durations, period, frequency):
     layers = []
     key = durations_key(durations)
+    period = clean_period(period)
+    frequency = clean_frequency(frequency)
 
     if tab == "hazard" and sel_layer:
         if sel_layer == "Multi Hazard Count":
-            url, _ = get_topic_count_tile_url(key)
+            url, _ = get_topic_count_tile_url(key, period, frequency)
+            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
+        elif sel_layer == UNDER_FIVE_LAYER:
+            url, _ = get_under_five_tile_url()
+            layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
+        elif sel_layer == ACCESS_LAYER:
+            url, _ = get_access_tile_url()
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
         else:
-            url, _ = get_hazard_tile_url(sel_layer)
+            url, _ = get_hazard_tile_url(sel_layer, key, period)
             if url:
                 layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "exposure" and exp_topic:
         color = TOPIC_COLORS.get(exp_topic, "#ff0000")
-        url, _ = get_topic_tile_url(exp_topic, color, key)
+        url, _ = get_topic_tile_url(exp_topic, color, key, period, frequency)
         layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     elif tab == "mh":
         if mhc:
-            url, _ = get_topic_count_tile_url(key)
+            url, _ = get_topic_count_tile_url(key, period, frequency)
             layers.append(dl.TileLayer(url=url, attribution=GEE_ATTR, opacity=0.75))
 
     return layers
@@ -1774,6 +1919,86 @@ def pick_duration(_clicks, current):
 def mark_selected_duration(durations, ids):
     chosen = clean_durations(durations)
     return [_chip_style(chosen.get(i["hazard"]) == i["value"]) for i in ids]
+
+
+# ── Period and frequency ──────────────────────────────────────────────────────
+
+@app.callback(
+    Output("store-period", "data"),
+    Input({"type": "period-choice", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_period(_clicks):
+    trigger = ctx.triggered_id
+    return clean_period(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output({"type": "period-choice", "value": ALL}, "style"),
+    Input("store-period", "data"),
+    State({"type": "period-choice", "value": ALL}, "id"),
+)
+def mark_selected_period(period, ids):
+    chosen = clean_period(period)
+    return [_chip_style(i["value"] == chosen) for i in ids]
+
+
+@app.callback(
+    Output("frequency-block", "children"),
+    Input("store-period", "data"),
+    Input("store-frequency", "data"),
+)
+def show_frequency_choice(period, frequency):
+    """Frequency only means something across a run of years, so the control is
+    absent for the single observed year rather than present and inert."""
+    if clean_period(period) != "typical":
+        return None
+    chosen = clean_frequency(frequency)
+    return html.Div(style={"marginTop": "10px"}, children=[
+        html.Div("How often a qualifying year has to occur", className="ps-label"),
+        html.Div(
+            style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
+            children=[
+                html.Button(
+                    frequency_label(value),
+                    id={"type": "frequency-chip", "value": value},
+                    n_clicks=0,
+                    style=_chip_style(value == chosen),
+                )
+                for value in FREQUENCY_OPTIONS
+            ],
+        ),
+    ])
+
+
+@app.callback(
+    Output("store-frequency", "data"),
+    Input({"type": "frequency-chip", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_frequency(_clicks):
+    trigger = ctx.triggered_id
+    return clean_frequency(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output("store-access", "data"),
+    Input({"type": "access-chip", "value": ALL}, "n_clicks"),
+    prevent_initial_call=True,
+)
+def pick_access(_clicks):
+    trigger = ctx.triggered_id
+    return access_choice(trigger["value"]) if trigger else no_update
+
+
+@app.callback(
+    Output({"type": "access-chip", "value": ALL}, "style"),
+    Input("store-access", "data"),
+    State({"type": "access-chip", "value": ALL}, "id"),
+)
+def mark_selected_access(access, ids):
+    chosen = access_choice(access)
+    return [_chip_style(i["value"] == chosen) for i in ids]
 
 
 # ── Country selection ─────────────────────────────────────────────────────────
@@ -2026,22 +2251,36 @@ def update_badge(name, ucode):
     State("mhc-select",           "value"),
     State("store-exposure",       "data"),
     Input("store-durations",      "data"),
+    Input("store-period",         "data"),
+    Input("store-frequency",      "data"),
+    Input("store-access",         "data"),
     prevent_initial_call=True,
 )
-def run_exposure(ucode, name, level, mhc, existing, durations):
+def run_exposure(ucode, name, level, mhc, existing, durations, period, frequency, access):
     if not ucode or not level:
         return no_update, None
-    # Exposure depends on the duration choice, so a cached result from a
-    # different one cannot be reused.
-    if existing and existing.get("_durations") == clean_durations(durations):
+    # The figures mean something different under each of these, so a cached
+    # result from another combination cannot be reused.
+    chosen_access = access_choice(access)
+    view = {
+        "durations": clean_durations(durations),
+        "period": clean_period(period),
+        "frequency": clean_frequency(frequency),
+        "access": chosen_access,
+        "level": level,
+    }
+    if existing and existing.get("_view") == view:
         return no_update, render_results(existing, name, mhc)
     result = compute_exposure(
         feature_ucode=ucode, admin_level=level,
         mhc_value=mhc if mhc else None,
         durations=durations_key(durations),
+        period=view["period"], frequency=view["frequency"],
+        access_minutes=None if chosen_access == ACCESS_OFF else chosen_access,
+        include_access=chosen_access != ACCESS_OFF,
     )
     if result is not None:
-        result["_durations"] = clean_durations(durations)
+        result["_view"] = view
     return result, render_results(result, name, mhc)
 
 
@@ -2050,18 +2289,47 @@ def _hazard_label(name):
     return " ".join(words[:2])
 
 
+def _brief_level(result):
+    """The admin level these figures came from, for the brief's header."""
+    return (result.get("_view") or {}).get("level") or "region"
+
+
 def _duration_note(result):
-    """States the durations behind these figures, so a number cannot travel
-    without the condition that produced it."""
-    chosen = clean_durations(result.get("_durations"))
+    """States the conditions behind these figures, so a number cannot travel
+    without what produced it."""
+    view = result.get("_view") or {}
+    chosen = clean_durations(view.get("durations"))
+    period = clean_period(view.get("period"))
+    frequency = clean_frequency(view.get("frequency"))
+
     parts = []
     for hazard in DURATION_HAZARDS:
         value = chosen[hazard["name"]]
         unit = hazard["duration_unit"]
-        label = _layer_label(hazard["name"]).replace(" 2024", "")
+        label = _hazard_display_name(hazard["name"])
         parts.append(f"{label}: {'any' if value <= 1 else f'{value}+'} {unit}")
+
+    access = (result.get("_view") or {}).get("access", ACCESS_OFF)
+
+    if period == "typical":
+        windows = ", ".join(baseline_label(h) for h in DURATION_HAZARDS)
+        heading = (
+            f"Typical year — counted where a qualifying year occurred "
+            f"{frequency}+ times in 10 across {windows}. "
+        )
+    else:
+        heading = "During 2024, counted where a hazard lasted — "
+
+    tail = ""
+    if access != ACCESS_OFF:
+        tail = (
+            f". Care counted as out of reach beyond {access} minutes of "
+            "motorised travel, which says nothing about whether it can treat "
+            "a child"
+        )
+
     return html.Div(
-        "Counted where a hazard lasted — " + " · ".join(parts),
+        heading + " · ".join(parts) + tail,
         className="ps-caption",
         style={"padding": "6px 16px 0", "fontSize": "0.68rem", "lineHeight": "1.5"},
     )
@@ -2072,6 +2340,7 @@ def render_results(result, region_name, mhc_val):
         return html.Div("No data available.", className="ps-caption",
                         style={"padding": "14px 16px"})
 
+    under5 = int(round(result.get("total_under_five", 0) or 0))
     total = int(round(result.get("total_population",       0) or 0))
     male  = int(round(result.get("total_population_male",  0) or 0))
     fema  = int(round(result.get("total_population_female",0) or 0))
@@ -2090,6 +2359,8 @@ def render_results(result, region_name, mhc_val):
         topic_data.append({
             "topic": topic, "count": count,
             "pct": count / total * 100 if total else 0,
+            "under_five": int(round(result.get("u5_" + topic) or 0)),
+            "beyond_care": int(round(result.get("far_" + topic) or 0)),
         })
     topic_data.sort(key=lambda r: r["count"], reverse=True)
 
@@ -2108,6 +2379,13 @@ def render_results(result, region_name, mhc_val):
                     html.Span(f" ({pct:.1f}%)", className="info-pct"),
                 ]),
             ]),
+            html.Div(
+                f"of whom {td['under_five']:,} are under 5"
+                + (f", and {td['beyond_care']:,} are far from care"
+                   if td.get("beyond_care") else ""),
+                className="ps-caption",
+                style={"paddingLeft": "18px", "fontSize": "0.66rem", "marginTop": "-2px"},
+            ) if td.get("under_five") else None,
             html.Div(className="bar-track", children=[
                 html.Div(className="bar-fill",
                          style={"width": f"{min(100,pct)}%", "background": color}),
@@ -2141,11 +2419,17 @@ def render_results(result, region_name, mhc_val):
 
     export_data = {
         "region": region_name,
-        "durations": clean_durations(result.get("_durations")),
+        "view": result.get("_view"),
         "total_population": total,
         "male": male, "female": fema,
+        "under_five": under5,
         "exposure_by_topic": {
-            td["topic"]: {"count": td["count"], "pct": round(td["pct"], 2)}
+            td["topic"]: {
+                "count": td["count"],
+                "pct": round(td["pct"], 2),
+                "under_five": td["under_five"],
+                "beyond_care": td["beyond_care"],
+            }
             for td in topic_data
         },
         "no_data_topics": no_data_topics,
@@ -2198,6 +2482,13 @@ def render_results(result, region_name, mhc_val):
                 html.Div(pct_f, className="metric-val", style={"color": "#ec4899"}),
                 html.Div("Female %", className="metric-lbl"),
             ]),
+            html.Div(className="metric", children=[
+                html.Div(_fmt(under5), className="metric-val", style={"color": "#ce1256"}),
+                html.Div(
+                    f"Under 5 ({under5 / total * 100:.0f}%)" if total else "Under 5",
+                    className="metric-lbl",
+                ),
+            ]),
         ]),
         html.Div(className="ps", children=[
             html.Div("Exposure by hazard topic", className="ps-label"),
@@ -2222,6 +2513,17 @@ def render_results(result, region_name, mhc_val):
             ),
         ]) if no_data_topics else None,
         html.Div(className="ps", children=[
+            html.A(
+                "⬇  Region brief (print or save as PDF)",
+                href="data:text/html;charset=utf-8,"
+                     + _quote(region_brief.to_html(
+                         region_brief.build(result, region_name, _brief_level(result)))),
+                target="_blank",
+                className="ps-btn-ghost",
+                style={"display": "block", "textAlign": "center",
+                       "textDecoration": "none", "padding": "9px 16px",
+                       "marginBottom": "6px"},
+            ),
             html.A(
                 "⬇  Download results (JSON)",
                 href=f"data:application/json;charset=utf-8,{_json.dumps(export_data, indent=2)}",

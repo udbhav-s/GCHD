@@ -204,11 +204,17 @@ still needs it.
 need the same treatment (`era.map(lambda i: i.gt(threshold)).sum()`). That alone
 restores the severity range the measurement above shows we are throwing away.
 
-Then extend it across years: how many years in ten exceed the threshold. That is
-the empirical-probability statement the return-period vocabulary already promises
-and does not deliver, and it is what makes the Observed half of the Stage 2
-toggle worth showing. Precompute to an Earth Engine asset rather than computing
-live — a 30-year daily global reduction is not an on-request operation.
+**Done 2026-09-22.** A period control switches between 2024 and a typical year,
+with frequency chips of 1, 3 or 5 years in ten. Baselines are 1991-2020 for heat
+and drought and 2001-2024 for fire, stated in the interface because they differ.
+
+Two things turned out differently from this plan. Asset export is not available:
+the service account cannot write to its project, an export task reaches READY and
+then fails at write time, and provisioning it needs an owner of the GCP project.
+It also turned out not to matter — a 30-year reduction takes 1.6s for a district
+and a global tile 0.2s, because Earth Engine runs the years in parallel. The
+claim above that this "is not an on-request operation" was an assumption, and
+measurement contradicted it. Nothing is precomputed.
 
 **Then ship the smallest defensible pair:**
 
@@ -255,7 +261,14 @@ showing one model's number alone would repeat the MHI mistake in a new place.
 
 ## Stage 3 — the Region Risk Brief
 
-Pick a district, get one to two pages, exportable as PDF plus CSV:
+**First version done 2026-09-22.** Built in `web_app/brief.py`, with no Earth
+Engine or Dash import so its content rules are tested directly. It renders a
+standalone HTML page that prints to PDF, rather than pulling in a PDF library.
+
+Still to come: compare mode across two to five districts, and the prioritisation
+matrix with visible weights.
+
+Original specification:
 
 - Region, admin level, total and child population, and a "data as of" per input
 - Ranked hazards, with exposed child counts and shares

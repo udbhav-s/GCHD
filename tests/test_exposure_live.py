@@ -108,3 +108,131 @@ def test_the_duration_control_actually_changes_something():
     if loose is None or tight is None:
         pytest.skip("boundary cache does not hold the test district")
     assert tight["Extreme Heat"] < loose["Extreme Heat"]
+
+
+def test_a_typical_year_is_not_more_exposed_than_a_bad_one():
+    """2024 was the warmest year on record. Requiring the same conditions in
+    several years out of ten cannot find more children than 2024 alone did."""
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    key = durations_key({heat: 30})
+    observed = gee_core.compute_exposure(UCODE, ADMIN_LEVEL, durations=key, period="observed")
+    typical = gee_core.compute_exposure(
+        UCODE, ADMIN_LEVEL, durations=key, period="typical", frequency=3
+    )
+    if observed is None or typical is None:
+        pytest.skip("boundary cache does not hold the test district")
+    assert typical["Extreme Heat"] <= observed["Extreme Heat"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_demanding_a_hazard_more_often_never_finds_more_children():
+    import gee_core
+    from gee_core import durations_key
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    heat = "maximum_temperature_era5_land_2024"
+    key = durations_key({heat: 30})
+    previous = None
+    for frequency in (1, 3, 5):
+        result = gee_core.compute_exposure(
+            UCODE, ADMIN_LEVEL, durations=key, period="typical", frequency=frequency
+        )
+        if result is None:
+            pytest.skip("boundary cache does not hold the test district")
+        current = result["Extreme Heat"]
+        if previous is not None:
+            assert current <= previous * (1 + RELATIVE_TOLERANCE), (
+                f"exposure rose when the requirement went to {frequency} years in 10"
+            )
+        previous = current
+
+
+def test_under_fives_are_counted_and_never_exceed_the_children(stats):
+    """The share is a subset, so it cannot be larger than the whole."""
+    assert stats["total_under_five"] > 0
+    assert stats["total_under_five"] <= stats["total_population"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_each_topic_reports_its_own_under_fives(stats):
+    from config import HAZARD_TOPICS
+
+    for topic in HAZARD_TOPICS:
+        exposed_children = stats[topic]
+        exposed_under_five = stats["u5_" + topic]
+        assert exposed_under_five <= exposed_children * (1 + RELATIVE_TOLERANCE), (
+            f"{topic} reports more under-fives than children"
+        )
+        assert exposed_under_five <= stats["total_under_five"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_access_is_not_computed_unless_asked():
+    """The intersection costs another pass over the region, so it must stay
+    absent rather than arrive as a zero."""
+    import gee_core
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    result = gee_core.compute_exposure(UCODE, ADMIN_LEVEL, include_access=False)
+    if result is None:
+        pytest.skip("boundary cache does not hold the test district")
+    assert "beyond_care" not in result
+
+
+def test_children_far_from_care_are_a_subset_of_those_exposed():
+    import gee_core
+    from config import HAZARD_TOPICS
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    result = gee_core.compute_exposure(
+        UCODE, ADMIN_LEVEL, access_minutes=60, include_access=True
+    )
+    if result is None:
+        pytest.skip("boundary cache does not hold the test district")
+
+    assert result["beyond_care"] <= result["total_population"] * (1 + RELATIVE_TOLERANCE)
+    for topic in HAZARD_TOPICS:
+        assert result["far_" + topic] <= result[topic] * (1 + RELATIVE_TOLERANCE), (
+            f"{topic} reports more children far from care than exposed at all"
+        )
+        assert result["far_" + topic] <= result["beyond_care"] * (1 + RELATIVE_TOLERANCE)
+
+
+def test_a_stricter_travel_threshold_never_finds_more_children():
+    import gee_core
+
+    try:
+        gee_core.initialize_gee()
+    except Exception as exc:
+        pytest.skip(f"Earth Engine unavailable: {exc}")
+
+    previous = None
+    for minutes in (30, 60, 120):
+        result = gee_core.compute_exposure(
+            UCODE, ADMIN_LEVEL, access_minutes=minutes, include_access=True
+        )
+        if result is None:
+            pytest.skip("boundary cache does not hold the test district")
+        current = result["beyond_care"]
+        if previous is not None:
+            assert current <= previous * (1 + RELATIVE_TOLERANCE), (
+                f"more children were beyond {minutes} minutes than beyond a shorter trip"
+            )
+        previous = current
