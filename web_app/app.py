@@ -179,6 +179,8 @@ def _layer_meta(name):
         return "Percent of children under five"
     if name == ACCESS_LAYER:
         return "Minutes to the nearest health facility"
+    if name == "population_worldpop_2020":
+        return "Estimated residential population per 100 m grid cell"
     h = HAZARD_MAP.get(name)
     return h["id"].split("/")[-1] if h else ""
 
@@ -244,7 +246,10 @@ def sidebar():
             nav_btn("bi bi-layers",        "Layers",   "btn-hazard",   active=True),
             nav_btn("bi bi-people",        "Exposure", "btn-exposure"),
             nav_btn("bi bi-stack",         "Multi HZ", "btn-mh", hidden=True),
-            nav_btn("bi bi-bar-chart-line","Analysis", "btn-analysis"),
+            # Analysis is a persistent right-side panel rather than a
+            # mutually-exclusive left navigation tab. Keep the old control in
+            # the DOM for callback compatibility, but do not show it here.
+            nav_btn("bi bi-bar-chart-line", "Analysis", "btn-analysis", hidden=True),
             nav_btn("bi bi-journal-richtext", "Case Studies", "btn-case-studies"),
             nav_btn("bi bi-robot",         "AI",       "btn-ai", hidden=True),
         ]),
@@ -253,26 +258,29 @@ def sidebar():
 
 def _layer_item(name):
     return html.Div([
-        html.Div(
-            [
-                html.Div(className="layer-radio"),
-                html.Div([
-                    html.Div(_layer_label(name), className="layer-name"),
-                    html.Div(_layer_meta(name),  className="layer-meta"),
-                ], className="layer-text"),
-            ],
-            id={"type": "layer-item", "index": name},
-            className="layer-item",
-            n_clicks=0,
-        ),
-        html.Button(
-            html.I(className="bi bi-info-circle"),
-            id={"type": "hazard-info-btn", "index": name},
-            className="hazard-info-btn",
-            n_clicks=0,
-            title=_layer_label(name),
-        ),
-    ], className="layer-item-row")
+        html.Div([
+            html.Div(
+                [
+                    html.Div(className="layer-radio"),
+                    html.Div([
+                        html.Div(_layer_label(name), className="layer-name"),
+                        html.Div(_layer_meta(name),  className="layer-meta"),
+                    ], className="layer-text"),
+                ],
+                id={"type": "layer-item", "index": name},
+                className="layer-item",
+                n_clicks=0,
+            ),
+            html.Button(
+                html.I(className="bi bi-info-circle"),
+                id={"type": "hazard-info-btn", "index": name},
+                className="hazard-info-btn",
+                n_clicks=0,
+                title=_layer_label(name),
+            ),
+        ], className="layer-item-row"),
+        html.Div(id={"type": "layer-controls", "index": name}),
+    ], className="layer-entry")
 
 
 def tab_hazard_layers():
@@ -330,25 +338,12 @@ def tab_hazard_layers():
     items.append(html.Div("Vulnerability", className="layer-section-header"))
     for name in VULNERABILITY_LAYERS:
         items.append(_layer_item(name))
-    items.append(html.Div(
-        "Who is exposed, not how much hazard there is. Shown on its own — the "
-        "app has no way to combine the two that it could defend.",
-        className="ps-caption",
-        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
-    ))
 
     # Capacity is a third construct, kept apart from both the hazards and the
     # vulnerability layer for the same reason: nothing here combines them.
     items.append(html.Div("Coping capacity", className="layer-section-header"))
     for name in CAPACITY_LAYERS:
         items.append(_layer_item(name))
-    items.append(html.Div(
-        "Whether care can be reached — not whether it has beds, staff, or "
-        "anyone who treats children. No global data says that.",
-        className="ps-caption",
-        style={"padding": "4px 16px 8px", "fontSize": "0.66rem", "lineHeight": "1.5"},
-    ))
-
     items.append(html.Div("Reference data", className="layer-section-header"))
     items.extend(_layer_item(name) for name in REFERENCE_LAYERS)
 
@@ -359,38 +354,11 @@ def tab_hazard_layers():
         ]),
         html.Div(items, className="layer-list"),
         duration_panel(),
-        html.Div(id="hazard-legend"),
     ])
 
 
 def duration_panel():
-    """Lets the reader say how long a hazard must last before it counts.
-
-    Without this the layers answer "did this ever happen", which treats one hot
-    day and a hot year alike. The units differ by source, so each hazard keeps
-    its own: ERA5-Land and FIRMS report daily, TerraClimate monthly.
-    """
-    rows = []
-    for hazard in DURATION_HAZARDS:
-        name = hazard["name"]
-        rows.append(html.Div(className="ps", style={"paddingTop": "10px"}, children=[
-            html.Div(_hazard_display_name(name), className="ps-label"),
-            html.Div(
-                className="duration-chips",
-                style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
-                children=[
-                    html.Button(
-                        duration_label(hazard, value),
-                        id={"type": "duration-chip", "hazard": name, "value": value},
-                        className="duration-chip",
-                        n_clicks=0,
-                        style=_chip_style(value == hazard["duration_default"]),
-                    )
-                    for value in hazard["duration_options"]
-                ],
-            ),
-        ]))
-
+    """Show the global period controls below the layer list."""
     windows = " · ".join(
         f"{_hazard_display_name(h['name'])} {baseline_label(h)}"
         for h in DURATION_HAZARDS
@@ -429,8 +397,56 @@ def duration_panel():
             style={"marginTop": "8px"},
         ),
     ])
+    return html.Div([
+        period_block,
+    ])
 
-    access_block = html.Div(className="exposure-method-note", children=[
+
+def _duration_controls(hazards, selected_durations=None):
+    """Build duration controls only for the currently selected layer(s)."""
+    selected_durations = clean_durations(selected_durations)
+    rows = []
+    for hazard in hazards:
+        name = hazard["name"]
+        rows.append(html.Div(className="selected-layer-control", children=[
+            html.Div(_hazard_display_name(name), className="ps-label"),
+            html.Div(
+                className="duration-chips",
+                style={"display": "flex", "gap": "6px", "marginTop": "6px", "flexWrap": "wrap"},
+                children=[
+                    html.Button(
+                        duration_label(hazard, value),
+                        id={"type": "duration-chip", "hazard": name, "value": value},
+                        className="duration-chip",
+                        n_clicks=0,
+                        style=_chip_style(value == selected_durations.get(name)),
+                    )
+                    for value in hazard["duration_options"]
+                ],
+            ),
+        ]))
+    return html.Div(className="selected-layer-controls-body", children=[
+        html.Div("How long it has to last", className="hi-label",
+                 style={"marginBottom": "2px"}),
+        html.P(
+            "A hazard counts where it lasted at least this long during 2024. "
+            "Raising it lowers the exposure figures, because a place that saw "
+            "one bad day stops counting the same as a place that saw a hundred.",
+            className="exposure-method-p",
+        ),
+        *rows,
+        html.P(
+            "Units follow the source. Temperature and fire are recorded daily, "
+            "drought monthly, so 12 readings a year is the most drought can show.",
+            className="exposure-method-p",
+            style={"marginTop": "8px"},
+        ),
+    ])
+
+
+def _access_controls(selected_access=ACCESS_OFF):
+    selected_access = access_choice(selected_access)
+    return html.Div(className="selected-layer-controls-body", children=[
         html.Div("Children beyond reach of care", className="hi-label",
                  style={"marginBottom": "2px"}),
         html.P(
@@ -447,7 +463,7 @@ def duration_panel():
                     "Not counted" if value == ACCESS_OFF else access_label(value),
                     id={"type": "access-chip", "value": value},
                     n_clicks=0,
-                    style=_chip_style(value == ACCESS_OFF),
+                    style=_chip_style(value == selected_access),
                 )
                 for value in [ACCESS_OFF] + ACCESS_OPTIONS
             ],
@@ -460,23 +476,44 @@ def duration_panel():
         ),
     ])
 
-    return html.Div([period_block, access_block, html.Div(className="exposure-method-note", children=[
-        html.Div("How long it has to last", className="hi-label",
-                 style={"marginBottom": "2px"}),
-        html.P(
-            "A hazard counts where it lasted at least this long during 2024. "
-            "Raising it lowers the exposure figures, because a place that saw "
-            "one bad day stops counting the same as a place that saw a hundred.",
-            className="exposure-method-p",
+
+def _hazard_legend(selected):
+    if not selected:
+        return None
+
+    from config import HAZARD_VIS_PALETTES
+    if selected == "Multi Hazard Count":
+        pal = ["#ffffd4", "#fed98e", "#fe9929", "#d95f0e", "#993404"]
+        n = len(HAZARD_TOPICS)
+        sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
+    elif selected == UNDER_FIVE_LAYER:
+        pal = VULNERABILITY_PALETTE
+        sub = [html.Span("0% under 5"), html.Span("25%+ under 5")]
+    elif selected == ACCESS_LAYER:
+        pal = CAPACITY_PALETTE
+        sub = [html.Span("Care nearby"), html.Span(f"{ACCESS_VIS_MAX}+ min away")]
+    else:
+        hazard = HAZARD_MAP.get(selected)
+        if not hazard:
+            return None
+        pal = HAZARD_VIS_PALETTES.get(
+            selected, ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"]
+        )
+        if hazard.get("duration_options"):
+            unit = hazard["duration_unit"]
+            top = hazard.get("vis_max", 1)
+            sub = [html.Span(f"1 {unit[:-1]}"), html.Span(f"{top}+ {unit}")]
+        else:
+            sub = [html.Span("Low"), html.Span("High")]
+
+    return html.Div(className="legend-wrap", children=[
+        html.Div("Legend", className="legend-label"),
+        html.Div(
+            className="legend-bar",
+            style={"background": f"linear-gradient(to right,{','.join(pal)})"},
         ),
-        *rows,
-        html.P(
-            "Units follow the source. Temperature and fire are recorded daily, "
-            "drought monthly, so 12 readings a year is the most drought can show.",
-            className="exposure-method-p",
-            style={"marginTop": "8px"},
-        ),
-    ])])
+        html.Div(className="legend-range", children=sub),
+    ])
 
 
 def _chip_style(active):
@@ -581,7 +618,7 @@ def tab_mh():
 
 
 def tab_analysis():
-    return html.Div(id="tab-analysis", style={"display": "none"}, children=[
+    return html.Div(id="tab-analysis", children=[
         html.Div(className="ph", children=[
             html.Div("Exposure Analysis", className="ph-title"),
             html.Div("Compute population exposed by admin region", className="ph-sub"),
@@ -1061,6 +1098,19 @@ def map_component():
                 ),
             ],
         ),
+        html.Button(
+            [html.I(className="bi bi-bar-chart-line"), html.Span("Analysis")],
+            id="btn-analysis-panel",
+            className="analysis-panel-toggle",
+            n_clicks=0,
+            title="Open exposure analysis",
+        ),
+        html.Div(
+            id="analysis-panel",
+            className="analysis-panel",
+            style={"display": "none"},
+            children=[tab_analysis()],
+        ),
     ])
 
 
@@ -1209,6 +1259,7 @@ app.layout = html.Div(id="app-root", children=[
     # ── Stores ──
     dcc.Store(id="store-embargo",       storage_type="session", data=True),
     dcc.Store(id="store-tab",           data="hazard"),
+    dcc.Store(id="store-analysis-open", data=False),
     dcc.Store(id="store-hazard-layer",  data=None),
     dcc.Store(id="store-durations",     data=default_durations()),
     dcc.Store(id="store-period",        data=PERIOD_DEFAULT),
@@ -1294,7 +1345,6 @@ app.layout = html.Div(id="app-root", children=[
             tab_hazard_layers(),
             tab_exposure(),
             tab_mh(),
-            tab_analysis(),
             tab_case_studies(),
             tab_ai(),
         ]),
@@ -1334,6 +1384,22 @@ def restore_embargo_state(accepted):
 # ── Tab switching ─────────────────────────────────────────────────────────────
 
 @app.callback(
+    Output("store-analysis-open", "data"),
+    Output("analysis-panel", "style"),
+    Output("btn-analysis-panel", "className"),
+    Input("btn-analysis-panel", "n_clicks"),
+    State("store-analysis-open", "data"),
+    prevent_initial_call=True,
+)
+def toggle_analysis_panel(_n_clicks, is_open):
+    is_open = not bool(is_open)
+    return (
+        is_open,
+        {"display": "block"} if is_open else {"display": "none"},
+        "analysis-panel-toggle open" if is_open else "analysis-panel-toggle",
+    )
+
+@app.callback(
     Output("store-tab",         "data"),
     Output("btn-hazard",        "className"),
     Output("btn-exposure",      "className"),
@@ -1344,22 +1410,20 @@ def restore_embargo_state(accepted):
     Output("tab-hazard",        "style"),
     Output("tab-exposure",      "style"),
     Output("tab-mh",            "style"),
-    Output("tab-analysis",      "style"),
     Output("tab-case-studies",  "style"),
     Output("tab-ai",            "style"),
     Output("hazard-info-panel", "style", allow_duplicate=True),
     Input("btn-hazard",    "n_clicks"),
     Input("btn-exposure",  "n_clicks"),
     Input("btn-mh",        "n_clicks"),
-    Input("btn-analysis",  "n_clicks"),
     Input("btn-case-studies", "n_clicks"),
     Input("btn-ai",        "n_clicks"),
     State("store-tab",     "data"),
     prevent_initial_call=True,
 )
-def switch_tab(n1, n2, n3, n4, n5, n6, current):
+def switch_tab(n1, n2, n3, n4, n5, current):
     tab = {"btn-hazard":"hazard","btn-exposure":"exposure",
-           "btn-mh":"mh","btn-analysis":"analysis",
+           "btn-mh":"mh",
            "btn-case-studies":"case-studies",
            "btn-ai":"ai"}.get(ctx.triggered_id, current)
     cls = lambda t: "nav-btn active" if tab == t else "nav-btn"
@@ -1369,7 +1433,7 @@ def switch_tab(n1, n2, n3, n4, n5, n6, current):
         tab,
         cls("hazard"), cls("exposure"), cls("mh"), cls("analysis"),
         cls("case-studies"), cls("ai"),
-        vis("hazard"), vis("exposure"), vis("mh"), vis("analysis"),
+        vis("hazard"), vis("exposure"), vis("mh"),
         vis("case-studies"), vis("ai"),
         info_panel,
     )
@@ -1755,6 +1819,38 @@ def select_hazard_layer(all_clicks):
     return classes, selected
 
 
+@app.callback(
+    Output({"type": "layer-controls", "index": ALL}, "children"),
+    Input("store-hazard-layer", "data"),
+    Input("store-durations", "data"),
+    Input("store-access", "data"),
+    State({"type": "layer-controls", "index": ALL}, "id"),
+)
+def show_selected_layer_controls(selected, durations, access, layer_ids):
+    controls = []
+    for layer_id in layer_ids:
+        layer_name = layer_id["index"]
+        if layer_name != selected:
+            controls.append(None)
+            continue
+
+        body = None
+        if selected == ACCESS_LAYER:
+            body = _access_controls(access)
+        elif selected == "Multi Hazard Count":
+            body = _duration_controls(DURATION_HAZARDS, durations)
+        else:
+            hazard = HAZARD_MAP.get(selected)
+            if hazard and hazard.get("duration_options"):
+                body = _duration_controls([hazard], durations)
+
+        contents = [_hazard_legend(selected)]
+        if body is not None:
+            contents.append(body)
+        controls.append(html.Div(className="selected-layer-controls", children=contents))
+    return controls
+
+
 # ── Exposure topic selection ──────────────────────────────────────────────────
 
 @app.callback(
@@ -1803,49 +1899,6 @@ def toggle_topic_group(all_clicks):
             "transition": "transform 0.2s", "transform": rot,
         })
     return body_styles, chevron_styles
-
-
-# ── Hazard legend ─────────────────────────────────────────────────────────────
-
-@app.callback(
-    Output("hazard-legend", "children"),
-    Input("store-hazard-layer", "data"),
-)
-def update_hazard_legend(sel):
-    if not sel:
-        return None
-
-    from config import HAZARD_VIS_PALETTES
-    if sel == "Multi Hazard Count":
-        pal = ["#ffffd4","#fed98e","#fe9929","#d95f0e","#993404"]
-        n   = len(HAZARD_TOPICS)
-        sub = [html.Span("1 topic"), html.Span(f"{n} topics")]
-    elif sel == UNDER_FIVE_LAYER:
-        pal = VULNERABILITY_PALETTE
-        sub = [html.Span("0% under 5"), html.Span("25%+ under 5")]
-    elif sel == ACCESS_LAYER:
-        pal = CAPACITY_PALETTE
-        sub = [html.Span("Care nearby"), html.Span(f"{ACCESS_VIS_MAX}+ min away")]
-    else:
-        hazard = HAZARD_MAP.get(sel)
-        if not hazard:
-            return None
-        pal = HAZARD_VIS_PALETTES.get(sel, ["#ffffb2","#fecc5c","#fd8d3c","#f03b20","#bd0026"])
-        if hazard.get("duration_options"):
-            # The layer draws a count now, so the legend states the unit rather
-            # than saying "Low" and "High" over a quantity nobody can name.
-            unit = hazard["duration_unit"]
-            top = hazard.get("vis_max", 1)
-            sub = [html.Span(f"1 {unit[:-1]}"), html.Span(f"{top}+ {unit}")]
-        else:
-            sub = [html.Span("Low"), html.Span("High")]
-
-    return html.Div(className="legend-wrap", children=[
-        html.Div("Legend", className="legend-label"),
-        html.Div(className="legend-bar",
-                 style={"background": f"linear-gradient(to right,{','.join(pal)})"}),
-        html.Div(className="legend-range", children=sub),
-    ])
 
 
 # ── Map data layers ───────────────────────────────────────────────────────────
@@ -2134,13 +2187,13 @@ def update_selection_layer(ucode, level):
     State("store-level",          "data"),
     State("store-ucode",          "data"),
     State("store-last-click",     "data"),
-    State("store-tab",            "data"),
+    State("store-analysis-open",  "data"),
     prevent_initial_call=True,
 )
-def on_map_click(click_data, level, country_ucode, last_click, tab):
+def on_map_click(click_data, level, country_ucode, last_click, analysis_open):
     if not click_data or not level or not country_ucode:
         return no_update, no_update, no_update, no_update
-    if level == "adm0 (Country)" or tab != "analysis":
+    if level == "adm0 (Country)" or not analysis_open:
         return no_update, no_update, no_update, no_update
     latlng = click_data.get("latlng")
     if not latlng:

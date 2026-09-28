@@ -338,12 +338,19 @@ def get_hazard_tile_url(hazard_name, durations=None, period="observed"):
         return None, None
 
     palette = HAZARD_VIS_PALETTES.get(hazard_name, ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026"])
-    if clean_period(period) == "typical" and hazard.get("duration_options"):
+    minimum = None
+    if hazard.get("duration_options"):
         minimum = dict(durations_key(dict(durations) if durations else None))[hazard_name]
+
+    if clean_period(period) == "typical" and hazard.get("duration_options"):
         image = _years_per_ten_image(hazard, minimum)
         vis = {"min": 0, "max": 10, "palette": palette}
     else:
         image = _hazard_image(hazard)
+        if minimum is not None:
+            # Keep the time-step count as the colour value, but hide pixels
+            # that do not reach the selected duration threshold.
+            image = image.updateMask(image.gte(minimum))
         vis = {
             "min": hazard.get("vis_min", 0),
             "max": hazard.get("vis_max", 1),
