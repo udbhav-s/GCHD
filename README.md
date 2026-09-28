@@ -7,12 +7,23 @@ Earth Engine datasets, so it needs no access to UNICEF's private assets. It maps
 three hazard layers over a gridded child population and counts how many children
 live where each hazard is flagged.
 
-It stops there. Under the UNDRR and [INFORM](https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology)
+Under the UNDRR and [INFORM](https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology)
 framing, risk is hazard combined with exposure, vulnerability and coping
-capacity. This app holds the first two. It carries nothing on vulnerability,
-nothing on coping capacity, no likelihood or return periods, no future
-scenarios, and no uncertainty measures. Read its numbers as a screen for where
-to look, not as a measure of risk to children.
+capacity. This app now holds something of all four, thinly: hazard and exposure
+in full, the share of children under five as vulnerability, and travel time to
+the nearest health facility as coping capacity. It has no future scenarios and
+no uncertainty measures. Read its numbers as a screen for where to look, not as
+a measure of risk to children.
+
+The three constructs are shown separately and never multiplied together. You can
+ask for the intersection — children exposed to a hazard who are also more than an
+hour from care — and get a count you can check. What you cannot get is a single
+score, because that needs a weighting this app cannot defend, and the last
+composite it carried turned out to be measuring nothing.
+
+Travel time is about whether care can be reached, not whether it can treat
+anyone. No global data exists on beds, staff or paediatric capability, so a
+reachable clinic and a functioning hospital look identical here.
 
 ## What it runs
 
@@ -39,10 +50,21 @@ whether a hazard ever occurred. It is worth moving off it. Globally, a third of
 land saw at least one day above 35 °C in 2024, and among those places the count
 runs from 2 days to 343 — figures at the default treat all of them alike.
 
-**They are still single-year statistics, not return periods.** Each layer
-describes 2024 and says nothing about how likely those conditions are in any
-other year. 2024 was the warmest year on record, so the heat layer reads hot
-against a longer baseline.
+**You can ask how typical 2024 was.** A period control switches between what
+happened in 2024 and how often a year like it occurred across a longer record —
+1991–2020 for heat and drought, 2001–2024 for fire, which is as far back as the
+satellite fire record goes. In that second view you also choose how often a
+qualifying year has to turn up: 1, 3 or 5 years in ten. Counts are stated per
+ten years because the baselines are different lengths.
+
+The difference matters. In Bang Rak, Bangkok, 36,414 children lived where 2024
+brought 30 or more days above 35 °C. Where that happens in 3 years out of 10,
+the figure is 6,457. At 5 years in 10 it is zero. 2024 was the warmest year on
+record and the app can now show what that means locally.
+
+**These are still not return periods.** Thirty years of record cannot support a
+one-in-a-hundred-year claim, so nothing here makes one. The language throughout
+is years in ten.
 
 **Counting length is not measuring intensity.** A day at 35.1 °C counts the same
 as a day at 45 °C, and the threshold is fixed worldwide, so it ignores that
@@ -55,6 +77,17 @@ Alongside the map, 638 case studies drawn from C40, Climate-ADAPT and other
 sources are joined to administrative boundaries as a discovery layer. 217 of
 them carry no hazard tag and so cannot be reached by a hazard filter — mostly
 C40 records about waste, transport and energy efficiency that address no hazard.
+
+## The region brief
+
+Select a region and the results panel offers a one-page brief: children and
+under-fives, hazards ranked worst first, how many are also far from care, the
+exact conditions the figures were counted under, what the brief cannot tell you,
+and every source with its date and resolution. It opens in a tab and prints to
+PDF.
+
+Hazards with no data in a region are listed as having no data, never as zero. A
+region a layer does not reach is not a region a hazard spares.
 
 ## Run it
 
