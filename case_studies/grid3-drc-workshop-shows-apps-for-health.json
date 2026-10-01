@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-drc-workshop-shows-apps-for-health",
+  "url": "https://grid3.org/news/drc-workshop-shows-apps-for-health",
+  "title": "DRC workshop shows applications for health",
+  "summary": "GRID3 use case: GRID3 and the team working on the Mapping for Health project hosted a three-day workshop in Kinshasa, Democratic Republic of the Congo (DRC), with health sector stakeholders from the entire Kwilu Province. The aim of the workshop was to make progress toward incorporating geospatial data into immunisation microplanning in DRC.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Kwilu",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Kwilu",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Kwilu",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 and the team working on the Mapping for Health project hosted a three-day workshop in Kinshasa, Democratic Republic of the Congo (DRC), with health sector stakeholders from the entire Kwilu Province. The aim of the workshop was to make progress toward incorporating geospatial data into immunisation microplanning in DRC.",
+    "measures": "In January 2020, GRID3 and the team working on the Mapping for Health project hosted a three-day workshop in Kinshasa, Democratic Republic of the Congo (DRC), with health sector stakeholders from the entire Kwilu Province. The aim of the workshop was to make progress toward incorporating geospatial data into immunisation microplanning in DRC; a microplan is a population-based set of components for delivering vaccination and/or other health care interventions.1 Using preliminary maps of two health districts in Kwilu to identify settlements, health facilities, health boundaries, and populations, workshop participants discussed the local health teams’ current approach to microplanning, and obtained feedback on the new maps. Workshop participants then designed new digital microplans that took advantage of geospatial data tailored to the needs of vaccination teams at different administrative levels (i.e. health area, health zone, and provincial). Participants also discussed how estimates of population mobility can help vaccinators better anticipate and account for population movements, as well as strategies for addressing gender barriers that arise during immunisation efforts. Jean Pierre Makala, Chef de Division de la DPS (Division Provinciale de la Santé) de Kwilu (Head of the Kwilu Provincial Health Division) and a workshop participant, observed that “with the development of digital microplans, I could independently look at a health area or a health zone, get a realistic picture of how the area looks, and see where highly populated areas are located. This helps to support informed decision-making to choose, for instance, where the next fridge should be installed, or how many vaccines should be allocated to a specific area.”",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/drc-workshop-shows-apps-for-health",
+    "publication_date": "2020-03-24",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

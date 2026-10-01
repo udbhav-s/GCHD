@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-maps-covid19-vaccination-zambia",
+  "url": "https://grid3.org/news/maps-covid19-vaccination-zambia",
+  "title": "Maps play an important role in Zambia’s COVID-19 vaccination planning",
+  "summary": "GRID3 use case: The Expanded Program of Immunization (EPI), under Zambia’s Ministry of Health, and GRID3 have been organising and facilitating district-level microplanning workshops. The first round of workshops were held in all of Zambia’s 10 provinces and over 2,700 health officials were trained on how to incorporate GRID3 maps into their COVID-19 vaccination microplans.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The Expanded Program of Immunization (EPI), under Zambia’s Ministry of Health, and GRID3 have been organising and facilitating district-level microplanning workshops. The first round of workshops were held in all of Zambia’s 10 provinces and over 2,700 health officials were trained on how to incorporate GRID3 maps into their COVID-19 vaccination microplans.",
+    "measures": "Since February 2022, the Expanded Program of Immunization (EPI), under Zambia’s Ministry of Health, and GRID3 have been organising and facilitating district-level microplanning workshops. The first round of workshops were held in all of Zambia’s 10 provinces and over 2,700 health officials were trained on how to incorporate GRID3 maps into their COVID-19 vaccination microplans. “Microplanning” refers to the process in which health workers plan how to deploy resources—including vaccines and other health-related commodities—to ensure that vulnerable populations are reached during a health intervention. In preparation for these workshops, the GRID3 Zambia team produced over 2,000 health facility catchment area maps featuring GRID3 data on population, settlements, and health facilities.",
+    "outcomes": "“Microplanning” refers to the process in which health workers plan how to deploy resources—including vaccines and other health-related commodities—to ensure that vulnerable populations are reached during a health intervention.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/maps-covid19-vaccination-zambia",
+    "publication_date": "2022-06-17",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

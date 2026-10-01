@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-popestimates-improve-understanding-of-displacement-southsudan",
+  "url": "https://grid3.org/news/popestimates-improve-understanding-of-displacement-southsudan",
+  "title": "High-resolution population estimates improve understanding of displacement in South Sudan",
+  "summary": "GRID3 use case: GRID3 has updated its high-resolution gridded population estimates which provides timely population data for the Government of South Sudan and other decision-makers. GRID3 South Sudan technical experts produced the estimates by combining 2008 county level census data collected by the National Bureau of Statistics with field-collected displacement data from IOM (through its Displacement Tracking Matrix) and UNHCR, the UN Refugee Agency.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "South Sudan",
+        "ucode": "SSD_V1",
+        "dcid": "country/SSD",
+        "iso3": "SSD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "disaster-response-and-hazard-mitigation",
+      "label": "Disaster response and hazard mitigation"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "south-sudan",
+      "label": "South Sudan"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 has updated its high-resolution gridded population estimates which provides timely population data for the Government of South Sudan and other decision-makers. GRID3 South Sudan technical experts produced the estimates by combining 2008 county level census data collected by the National Bureau of Statistics with field-collected displacement data from IOM (through its Displacement Tracking Matrix) and UNHCR, the UN Refugee Agency.",
+    "measures": "GRID3 has updated its high-resolution gridded population estimates which provides timely geospatial data for the Government of South Sudan and other decision-makers. The dataset is an current estimation of population counts for all of South Sudan, the newest country in the world, which has not collected population data in its entire territory since 2008, before the country’s independence. Since gaining its independence in 2011, South Sudan has been affected by instability and conflict, resulting in internal displacement that has prevented the government from obtaining a comprehensive, demographic picture of the country. Through thetop-down modelling approachwhich used theRandom Forest methodology, GRID3 South Sudan technical experts produced the estimates by combining 2008 county-level census data collected by the National Bureau of Statistics (NBS) with field-collected displacement data from IOM (through its Displacement Tracking Matrix) and UNHCR, the UN Refugee Agency. The latter used information on where displaced people have moved to and from in order to estimate displacement. The first step in producing the population estimates was to create a map that demonstrates the location of displaced people in South Sudan at high-resolution (approximately 100 x 100 metre grid cells). This was done by disaggregating IOM and UNHCR data on the locations of internally displaced persons among buildings (using Digitize Africa building footprints from Ecopia.AI powered by Maxar). The next step was to augment the map with information on where displaced people were originally located. Accurately pinpointing the place of origin can be difficult, as various communities will often use different settlement and administrative unit names. However, the GRID3 South Sudan team used theArmed Conflict Location Events Databaseto estimate the number of people displaced from each area of the country. In the final step, the GRID3 South Sudan team added census projections from NBS to the map.",
+    "outcomes": "Since gaining its independence in 2011, South Sudan has been affected by instability and conflict, resulting in internal displacement that has prevented the government from obtaining a comprehensive, demographic picture of the country. Through thetop-down modelling approachwhich used theRandom Forest methodology, GRID3 South Sudan technical experts produced the estimates by combining 2008 county-level census data collected by the National Bureau of Statistics (NBS) with field-collected displacement data from IOM (through its Displacement Tracking Matrix) and UNHCR, the UN Refugee Agency. The latter used information on where displaced people have moved to and from in order to estimate displacement.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "2008 South Sudan census",
+      "url": "https://nbs.gov.ss/",
+      "role": "survey_input"
+    },
+    {
+      "name": "IOM Displacement Tracking Matrix",
+      "url": "https://dtm.iom.int/",
+      "role": "survey_input"
+    },
+    {
+      "name": "UNHCR displacement data",
+      "url": "https://www.unhcr.org/refugee-statistics/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/popestimates-improve-understanding-of-displacement-southsudan",
+    "publication_date": "2021-03-29",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

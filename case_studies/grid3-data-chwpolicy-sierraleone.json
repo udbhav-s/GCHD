@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-data-chwpolicy-sierraleone",
+  "url": "https://grid3.org/news/data-chwpolicy-sierraleone",
+  "title": "GRID3 data to support implementation of Sierra Leone’s Community Health Worker Policy",
+  "summary": "GRID3 use case: Sierra Leone’s Directorate of Policy Planning and Information, under the Ministry of Health and Sanitation, is working with GRID3 to map settlements where newly trained community health workers will be stationed. The deployment of these workers is part of Sierra Leone’s extended community health policy programme which aims to deliver preventive, promotive, and basic curative services.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "water-sanitation-and-hygiene",
+      "label": "Water, sanitation, and hygiene"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Sierra Leone’s Directorate of Policy Planning and Information, under the Ministry of Health and Sanitation, is working with GRID3 to map settlements where newly trained community health workers will be stationed. The deployment of these workers is part of Sierra Leone’s extended community health policy programme which aims to deliver preventive, promotive, and basic curative services.",
+    "measures": "Sierra Leone’s Directorate ofPolicy Planning and Information (DPPI), under the Ministry of Health and Sanitation, is working with GRID3 to map settlements where newly trained community health workers will be stationed. The deployment of these workers is part of Sierra Leone’s extended community healthpolicy programmewhich aims to deliver preventive, promotive, and basic curative services (especially in areas of maternal, child, and nutritional health). Under the policy, each community health worker is expected to serve a given catchment area determined by population and distance (including road and/or terrain access challenges) from the nearest peripheral health unit to each community. Accurate geospatial data, especiallysettlement data, can help determine challenges community health workers face in service delivery (e.g. barriers to movement, distance of health facilities from communities, households/settlements that are too remote, etc.); DDPI’s hopes to use this information to improve its capacity to deploy health workers.",
+    "outcomes": "GRID3 gathered existing settlement point data (including census cartography data, health facility data, school census data, and water point data) from the Ministry of Health and Sanitation, Statistics Sierra Leone, the Ministry of Basic and Senior Secondary Education, the Ministry of Water Resources, OpenStreetMap, UNICEF, Hellen Keller, Concern International, WHO, and the Institute for Governance Reform. Records of community health workers provided by the Ministry (and de-identified to exclude names and other personal data) were then matched by GRID3 to the geographic coordinates of those settlement point data. This step made it easier to visualise the current distribution of community health workers and where additional data need to be collected in order to completely georeference the community health worker dataset.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 health facility data",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/data-chwpolicy-sierraleone",
+    "publication_date": "2022-08-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

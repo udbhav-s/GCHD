@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-sierraleone-hpv-vaccinationcampaign",
+  "url": "https://grid3.org/news/sierraleone-hpv-vaccinationcampaign",
+  "title": "Sierra Leone tackles HPV in its latest nationwide vaccination campaign",
+  "summary": "GRID3 use case: Sierra Leone’s Ministry of Health and Sanitation and its Expanded Programme on Immunization (EPI) embarked on a campaign with Clinton Health Access Initiative, Gavi, GRID3, and WHO to administer HPV vaccines to ten-year-old girls throughout the country.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Sierra Leone’s Ministry of Health and Sanitation and its Expanded Programme on Immunization (EPI) embarked on a campaign with Clinton Health Access Initiative, Gavi, GRID3, and WHO to administer HPV vaccines to ten-year-old girls throughout the country.",
+    "measures": "Cervical cancer is the second most common cause of cancer deaths for women in Sierra Leone,according to government figures. With the sexually transmitted Human Papillomavirus (HPV) the leading cause of cervical cancer, it’s a matter of urgency to vaccinate young people for HPV before they become sexually active. To that end, Sierra Leone’s Ministry of Health and Sanitation and its Expanded Programme on Immunization (EPI) embarked on a campaign with Clinton Health Access Initiative (CHAI), Gavi, GRID3, and WHO to administer vaccines to 153,991 ten-year-old girls throughout the country (the number is the projected population figure for that age group in the country, according to Sierra Leone’s national statistics office). Throughout 2022, GRID3 has served as a key technical partner in the campaign, developing 223 microplanning maps to support campaign planning. In 2021, the government and GRID3 were working to use GRID3 data in the country’s COVID-19 vaccination outreach when it was decided that these data could also be used to improve outreach for the upcoming HPV campaign, as well as for campaigns geared towards reaching children missed during earlier routine immunisation campaigns. The ministry and EPI asked GRID3 to create a set of multi-purpose maps that could estimate the right denominator (i.e. how many people need vaccines) and locate the target group (i.e. where those people who need vaccines live) for each campaign.",
+    "outcomes": "The HPV campaign targeted two groups of 10-year-old girls: those currently enrolled in school and those who are out of school. School teachers identified eligible students in the former population while community health workers identified eligible girls in the latter.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/sierraleone-hpv-vaccinationcampaign",
+    "publication_date": "2023-02-23",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

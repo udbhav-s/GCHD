@@ -1,0 +1,159 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-african-govts-utilise-grid3-data-in-response-to-covid-19",
+  "url": "https://grid3.org/news/african-govts-utilise-grid3-data-in-response-to-covid-19",
+  "title": "African governments utilise GRID3 data in response to COVID-19",
+  "summary": "GRID3 use case: As the outbreak of the new coronavirus begins to extend into sub-Saharan Africa, GRID3 is marshalling its data resources and capacities to help partner governments plan rapid, effective responses.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "As the outbreak of the new coronavirus begins to extend into sub-Saharan Africa, GRID3 is marshalling its data resources and capacities to help partner governments plan rapid, effective responses.",
+    "measures": "As the outbreak of the new coronavirus begins to extend into sub-Saharan Africa, GRID3 is marshalling its data resources and capacities to help partner governments plan rapid, effective responses. In Zambia, GRID3 is working closely with the National Spatial Data Infrastructure (NSDI) Technical Committee, a multisectoral group of government officers that includes geographic information systems specialists. In consultation with various ministries and in line with Zambia’s COVID-19 National Multi-sectoral Contingency and Response Plan, the technical committee will be assisting the country’s Emergency Operations Centre, (hosted by the Disaster Management and Mitigation Unit (DMMU), under the Office of the Vice President) to integrate GRID3’s high resolution geospatial data into the outbreak information that is already being collected. This integration will facilitate the visualisation of COVID-19 hotspot areas, the underlying populations in these areas, and the locations of quarantine centres and test facilities. Additionally, GRID3 is creating an easily-accessible, user-friendly platform to host these high-resolution datasets; strengthening the capacity of the Zambian government to generate interactive web maps and maintain the new platform; and, more generally, increasing knowledge around how spatial data can be utilised to improve decision-making and response. A formal concept note on the joint NSDI/GRID3 support for the Government of Zambia’s COVID-19 Response has been sent to the DMMU; as GRID3 awaits an official response to the note, it is assisting NSDI officers to develop the capacity they will need to support the Emergency Operations Centre. At the beginning of April, Nigeria’s Office of the Vice President asked GRID3 to describe how the programme can support the government’s COVID-19 response. GRID3 submitted a note outlining various ways in which it can contribute to action on the outbreak, including: using GRID3’s high-resolution geospatial datasets to facilitate more accurate and informed COVID-19 response decisions; drawing upon GRID3’s diverse technical and user-oriented resources to produce tools and analyses customized to the needs of the government; and utilising GRID3’s partnership with other actors to support building the tools and/or platforms needed by the government. GRID3 is in a position to support disease surveillance (by mapping popul",
+    "outcomes": "At the beginning of April, Nigeria’s Office of the Vice President asked GRID3 to describe how the programme can support the government’s COVID-19 response. GRID3 submitted a note outlining various ways in which it can contribute to action on the outbreak, including: using GRID3’s high-resolution geospatial datasets to facilitate more accurate and informed COVID-19 response decisions; drawing upon GRID3’s diverse technical and user-oriented resources to produce tools and analyses customized to the needs of the government; and utilising GRID3’s partnership with other actors to support building the tools and/or platforms needed by the government. GRID3 is in a position to support disease surveillance (by mapping population movements); infection prevention and control (modelling and mapping populations most at risk to infection and developing population density maps); and case management (helping to optimise placement of new quarantine facilities and/or expansion of existing facilities). A",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/african-govts-utilise-grid3-data-in-response-to-covid-19",
+    "publication_date": "2020-04-17",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

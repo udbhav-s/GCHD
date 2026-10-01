@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-formalising-partnership-in-sierra-leone",
+  "url": "https://grid3.org/news/formalising-partnership-in-sierra-leone",
+  "title": "Formalising a vital partnership in Sierra Leone",
+  "summary": "GRID3 use case: On 23 May, Sierra Leone’s Ministry of Health and Sanitation and GRID3 signed a memorandum of understanding that formalised a partnership that has already made important progress in the country’s drive to accurately map its health facilities.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "On 23 May, Sierra Leone’s Ministry of Health and Sanitation and GRID3 signed a memorandum of understanding that formalised a partnership that has already made important progress in the country’s drive to accurately map its health facilities.",
+    "measures": "On 23 May, Sierra Leone’s Ministry of Health and Sanitation and GRID3 signed a memorandum of understanding (MoU) that formalised a partnership that has already made important progress in the country’s drive to accurately map its health facilities. Chief among the partnership’s objectives is the improvement of a geo-referenced master list of health facilities, which aids understanding of the spatial distribution of facilities and supports decision-making around resource distribution and service delivery, among other benefits. The advances made in the quality and scope of Sierra Leone’s health facility data are helping to support the country’s COVID-19 vaccination campaign by allowing policymakers to monitor and respond to outbreaks, and will have significant long-term outcomes, including the public release of the master list, further improvement of maps of health catchment areas, and capacity strengthening around geospatial data for ministry staff. The MoU will govern the partnership through December 2022. “Development data should always be shaped by stakeholders, for stakeholders ”",
+    "outcomes": "The first step was to analyse the health facility data that DPPI and implementing partners had collected over the last four years. Following exploratory data analyses on each of the existing datasets, GRID3 performed basic cleaning on the attribute data and spatial cleaning of the latitude and longitude fields. GRID3 spatially matched these existing data to DPPI’s 2020 master list and gave confidence rankings for each point. Gaps in the data (either missing or unvalidated GPS coordinates for facilities) were identified, and GRID3 subsequently met with DPPI and its partners on a regular basis to address these gaps and other work around the master list.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 health facility data",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/formalising-partnership-in-sierra-leone",
+    "publication_date": "2021-07-15",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

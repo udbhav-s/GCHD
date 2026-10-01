@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-measles-immunisation-coverage-nigeria",
+  "url": "https://grid3.org/news/measles-immunisation-coverage-nigeria",
+  "title": "Geospatial analysis of measles immunisation coverage in Nigeria",
+  "summary": "GRID3 use case: To understand measles vaccination coverage, the GRID3 Nigeria team, following a request from the PCCS working group, analysed data produced from the PCCS survey in February 2019. The team also compared results from their analyses to previous PCCS coverage estimates using the 2013 Nigeria Demographic and Health Survey and the 2016-17 Multiple Indicator Cluster Survey / National Immunisation Coverage Survey.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "To understand measles vaccination coverage, the GRID3 Nigeria team, following a request from the PCCS working group, analysed data produced from the PCCS survey in February 2019. The team also compared results from their analyses to previous PCCS coverage estimates using the 2013 Nigeria Demographic and Health Survey and the 2016-17 Multiple Indicator Cluster Survey / National Immunisation Coverage Survey.",
+    "measures": "The 2017-18 measles post-campaign coverage survey (PCCS) in Nigeria was designed to produce estimates of measles vaccination at 1×1 kilometre and Local Government Area (LGA) level. These large-area estimates often mask spatial differences in coverage and do not facilitate targeting of immunisation efforts at the local scale. To understand measles vaccination coverage, the GRID3 Nigeria team, following a request from the PCCS working group, analysed data produced from the PCCS survey in February 2019. The team also compared results from their analyses to previous PCCS coverage estimates using the 2013 Nigeria Demographic and Health Survey and the 2016-17 Multiple Indicator Cluster Survey / National Immunisation Coverage Survey. Prior to GRID3’s involvement, the PCCS team analyses and reporting were limited to the state level which do not demonstrate immunisation coverage variation at finer-scale administrative and settlement resolutions. By monitoring metrics at more localised scales, improvements in vaccination coverage can be properly measured over time. To perform the analysis, GRID3 Nigeria experts assembled over 72 geospatial covariate datasets and 30 covariates were selected. These were then run through a covariate selection process, after which six covariates were retained for the final analyses. The covariate data* selected for the final analyses included 1) proportion of people living in poverty, 2) pig density, 3) travel time to health facilities, 4) mean land surface temperature, 5) settlement type – urban/rural, and 6) distance to the edge of cultivated areas.",
+    "outcomes": "To understand measles vaccination coverage, the GRID3 Nigeria team, following a request from the PCCS working group, analysed data produced from the PCCS survey in February 2019. The team also compared results from their analyses to previous PCCS coverage estimates using the 2013 Nigeria Demographic and Health Survey and the 2016-17 Multiple Indicator Cluster Survey / National Immunisation Coverage Survey. Prior to GRID3’s involvement, the PCCS team analyses and reporting were limited to the state level which do not demonstrate immunisation coverage variation at finer-scale administrative and settlement resolutions. By monitoring metrics at more localised scales, improvements in vaccination coverage can be properly measured over time.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "Nigeria Demographic and Health Survey",
+      "url": "https://dhsprogram.com/",
+      "role": "survey_input"
+    },
+    {
+      "name": "Multiple Indicator Cluster Survey",
+      "url": "https://mics.unicef.org/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/measles-immunisation-coverage-nigeria",
+    "publication_date": "2020-02-14",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

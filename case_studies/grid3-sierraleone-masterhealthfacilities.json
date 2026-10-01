@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-sierraleone-masterhealthfacilities",
+  "url": "https://grid3.org/news/sierraleone-masterhealthfacilities",
+  "title": "Sierra Leone reaches new milestone in mapping health facilities",
+  "summary": "GRID3 use case: Representatives from government ministries and departments, global health organisations, and GRID3 convened in Bo, Sierra Leone in July 2021 to review and validate the country’s master health facility list, a vital tool for planning health service delivery and interventions.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Representatives from government ministries and departments, global health organisations, and GRID3 convened in Bo, Sierra Leone in July 2021 to review and validate the country’s master health facility list, a vital tool for planning health service delivery and interventions.",
+    "measures": "The drive towards timely and efficient delivery of health services for all continues in Sierra Leone. Representatives from government ministries and departments, global health organisations, and GRID3 convened in Bo, Sierra Leone in July 2021 to review and validate the country’s master health facility list, a vital tool for planning health service delivery and interventions. Health officials can use the dataset to accurately develop health catchment areas, understand where health services and workers are located, and use this information in policy development and resource allocation. In January 2020, the Directorate of Policy Planning and Information (DPPI), under Sierra Leone’s Ministry of Health and Sanitation, requested GRID3’s support in updating and geo-referencing the country’s master health facility list as part of thepartnership between the government of Sierra Leone and GRID3. In the months that followed, GRID3 worked with DPPI, WHO, and UNICEFto analyse and refine existing data andcontracted Premise to collect geographic coordinates of health facilities that were missing from previous datasets. After collecting and refining the data, a three-day Master Health Facility List Validation workshop was held to provide stakeholders an opportunity to understand GRID3’s approach in creating the master list. Participants in the workshop included officials from government ministries and departments, as well as representatives of the Clinton Health Access Initiative, UNICEF, and the Christian Health Association of Sierra Leone.With a clear understanding of how GRID3 evaluated the spatial quality of existing and newly collected data, participants then reviewed the dataset and provided edits to ensure its accuracy on the final day of the workshop.",
+    "outcomes": "Once the final version of the master health facility list is published, GRID3 will lead a data governance workshop to support the government in developing standard operating procedures for housing, distributing and maintaining the data. GRID3 will continue to provide technical support to enable various government agencies and humanitarian organisations to use the data for improved delivery of health services as well as other development interventions in Sierra Leone.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/sierraleone-masterhealthfacilities",
+    "publication_date": "2021-08-11",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-liberia-saves-big-on-satellite-imagery",
+  "url": "https://grid3.org/news/liberia-saves-big-on-satellite-imagery",
+  "title": "Liberia saves big on satellite imagery with the support of GRID3",
+  "summary": "GRID3 use case: GRID3’s support across various African borders enabled over a million US dollars in savings for Liberia’s government in a recent purchase of high-resolution satellite imagery. These funds can now be used to make other critical investments that modernise Liberia’s geospatial capabilities for census and national population data systems.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Liberia",
+        "ucode": "LBR_V1",
+        "dcid": "country/LBR",
+        "iso3": "LBR"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "economics-and-finance",
+      "label": "Economics and finance"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "liberia",
+      "label": "Liberia"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3’s support across various African borders enabled over a million US dollars in savings for Liberia’s government in a recent purchase of high-resolution satellite imagery. These funds can now be used to make other critical investments that modernise Liberia’s geospatial capabilities for census and national population data systems.",
+    "measures": "GRID3’s support across various African borders enabled over a million US dollars in savings for Liberia’s government in a recent purchase of high-resolution satellite imagery. These funds can now be used to make other critical investments that modernise Liberia’s geospatial capabilities for census and national population data systems. A population and housing census is among the most complex and massive peacetime exercises a nation can undertake. It requires careful planning, resourcing and implementation. Ensuring a modern and accurate census processincreases data collection efficiency and reduces costs.. High-resolution satellite imagery is a vital data source and one of the key components of census modernisation, but purchasing the images is generally expensive. Within the space industry, the field of Earth Observation represents14% of the total market, and governments account for a significant number of clients.",
+    "outcomes": "While preparing for a census, satellite imagery can be used to update base maps and to capture and identify different land-use and land cover classes, and other geographic features. These products are then used by census cartography teams to optimise their field operations and logistical planning, leading to cost savings and ensuring that most settlements and buildings can be reached.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "2008 South Sudan census",
+      "url": "https://nbs.gov.ss/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/liberia-saves-big-on-satellite-imagery",
+    "publication_date": "2020-10-27",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

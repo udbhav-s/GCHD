@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-radio-campaigns-use-data-zmb",
+  "url": "https://grid3.org/news/radio-campaigns-use-data-zmb",
+  "title": "Radio campaigns use geospatial data to reduce barriers to contraceptive use in Zambia",
+  "summary": "GRID3 use case: Using risk data provided by GRID3 in collaboration with Fraym, DMI was able to refine a Social and Behaviour Change Communication (SBCC) strategy which included running a radio campaigns for specific districts with the aim of addressing barriers to the uptake of contraceptives, such as misconceptions about their safety, low support from men, and stigmatisation of young people accessing contraceptives.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Using risk data provided by GRID3 in collaboration with Fraym, DMI was able to refine a Social and Behaviour Change Communication (SBCC) strategy which included running a radio campaigns for specific districts with the aim of addressing barriers to the uptake of contraceptives, such as misconceptions about their safety, low support from men, and stigmatisation of young people accessing contraceptives.",
+    "measures": "To aid the government of Zambia in its efforts to improveaccess to and demand for sexual and reproductive health services, Development Media International refined a Social and Behaviour Change Communication strategy that uses data produced by GRID3 in collaboration withFraym. This strategy analysesthe current need for contraceptivesat the district level alongside access to radio broadcasts to identify areas where a radio campaign will have the greatest impact. Through the campaigns, DMI is reaching 8 million listeners every month. In Zambia, contraceptive use has been low.A report published by Family Planning 2020reveals that in 2019 roughly 35% of all women were using contraceptives. Low contraceptive use can lead to early and unintended pregnancies and the contraction of sexually transmitted infections (STIs), resulting in adverse health, educational, social, and economic outcomes. TheWomen’s Integrated Sexual Health Lot 2(WISH2ACTION) Consortium is working with the Ministry of Health to increase the use of modern contraception in Zambia, thereby reducing maternal and child mortality. As part of this consortium, 1Development Media International (DMI)is developing evidence-based mass media campaigns to tackle the social and cultural norms which prevent people accessing modern contraceptives. Using risk data provided by GRID3 in collaboration with Fraym, DMI was able to refine a Social and Behaviour Change Communication (SBCC) strategy which included running radio campaigns for specific districts with the aim of addressing barriers to the uptake of contraceptives, such as misconceptions about their safety, low support from men, and stigmatisation of young people accessing contraceptives. Ultimately the aim of the campaigns was to change behaviours, tackle norms, and increase contraceptive use in the country.",
+    "outcomes": "To inform the strategy, DMI collaborated with the GRID3 Zambia team to analyse information on the number of people who regularly listen to the radio and risk data on communication and socioeconomic vulnerability. Communications risk analyses cover vulnerability resulting from limited access to information through traditional media, while socio-economic risk data measures vulnerability of populations with limited options to cope with economic shocks. From these data, DMI identified districts with high access to communication media and radio listenership and compared them with key sexual and reproductive health indicators from Zambia’s Demographic Health Survey data. GRID3 made the risk data available through interactive web maps and an online data dashboard.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/radio-campaigns-use-data-zmb",
+    "publication_date": "2021-02-16",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

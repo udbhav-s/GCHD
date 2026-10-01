@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-geospatialdata-covid19-migrant-zambia",
+  "url": "https://grid3.org/news/geospatialdata-covid19-migrant-zambia",
+  "title": "Geospatial data informs COVID-19 preparedness plans for migrant population in Zambia",
+  "summary": "GRID3 use case: Despite falling COVID-19 cases around the world, countries still need accurate information on people and resources to continue slowing the spread of the virus. In Zambia, the International Organization for Migration is using GRID3 data to mitigate the effects of the COVID-19 crisis on the country’s migrant population.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "disaster-response-and-hazard-mitigation",
+      "label": "Disaster response and hazard mitigation"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Despite falling COVID-19 cases around the world, countries still need accurate information on people and resources to continue slowing the spread of the virus. In Zambia, the International Organization for Migration is using GRID3 data to mitigate the effects of the COVID-19 crisis on the country’s migrant population.",
+    "measures": "Despite falling COVID-19 cases around the world, countries still need accurate information on people and resources to continue slowing the spread of the virus. In Zambia, the International Organization for Migration is using GRID3 data tomitigate the effects of the COVID-19 crisis on the country’s migrant population, which includes internally displaced persons, refugees, and migrant workers. In Zambia,IOMis working to obtain accurate information on the numbers and locations of migrant communities in markets, refugee camps, and areas prone to flooding (locations thatincrease migrants’ susceptibility to health-related illnessesbecause they can be crowded and lack adequate sanitation and healthcare services) to ensure that migrants can withstand possible coronavirus outbreaks. To support IOM’s efforts, Zambia’s Disaster Management and Mitigation Unit, GRID3 Zambia team, and Esri, developed an to analyse how many people live within 30km of markets near the country’s borders and within 5km of refugee camps; the former distance helps to provide a picture of similar communities that tend to engage in commerce with one another, and the latter was used to determine populations’ access to important community services like health facilities and schools. Using GRID3 data on population (produced jointly with the Zambia Statistics Agency), settlements, district boundaries, and points of interest (markets, refugee camps, rivers, schools, and health facilities), the web map served as a tool to plan and implement COVID-19 response measures, such as building the capacity of local leaders to support migrants. interactive web map",
+    "outcomes": "To support IOM’s efforts, Zambia’s Disaster Management and Mitigation Unit, GRID3 Zambia team, and Esri, developed an to analyse how many people live within 30km of markets near the country’s borders and within 5km of refugee camps; the former distance helps to provide a picture of similar communities that tend to engage in commerce with one another, and the latter was used to determine populations’ access to important community services like health facilities and schools. Using GRID3 data on population (produced jointly with the Zambia Statistics Agency), settlements, district boundaries, and points of interest (markets, refugee camps, rivers, schools, and health facilities), the web map served as a tool to plan and implement COVID-19 response measures, such as building the capacity of local leaders to support migrants. interactive web map",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/geospatialdata-covid19-migrant-zambia",
+    "publication_date": "2020-09-09",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

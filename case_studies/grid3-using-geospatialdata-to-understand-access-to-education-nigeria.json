@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-using-geospatialdata-to-understand-access-to-education-nigeria",
+  "url": "https://grid3.org/news/using-geospatialdata-to-understand-access-to-education-nigeria",
+  "title": "Understanding access to education in Nigeria",
+  "summary": "GRID3 use case: To support Nigeria’s Universal Basic Educational Commission (UBEC) in improving access to education, GRID3 Nigeria used geospatial data to analyse the location of current schools to Nigeria’s school-age population and recommend new school locations.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "regional-planning",
+      "label": "Regional planning"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "To support Nigeria’s Universal Basic Educational Commission (UBEC) in improving access to education, GRID3 Nigeria used geospatial data to analyse the location of current schools to Nigeria’s school-age population and recommend new school locations.",
+    "measures": "Nigeria is characterised as having the world’s greatest out of school population, which is estimated to be10.5 million. While this is due to a variety of socio-cultural and economic factors, the inaccessibility of educational facilities is often a key issue.Researchhas shown that the main contributing factors to primary school absenteeism in north west Nigeria include low levels of parental education, gender inequality, low incomes, perceived teacher performance, and prohibitive distances to schools. Theeffect of distanceis further highlighted; living 20 or more minutes away from a school reduces the odds of attendance by 52%. In an effort to improve education access,Nigeria’s Universal Basic Educational Commission (UBEC)established a range of policiesto address school absenteeism, including one that mandates no student should have to travel more than 2 kilometres to the nearest school. To support UBEC, GRID3 Nigeria used geospatial data to analyse the location of current schools to Nigeria’s school-age population and recommend new school locations. In order to understand the current state of Nigeria’s education system, the GRID3 Nigeria team first analysed information from UBEC’s dataset in relation to GRID3 population estimates. The team calculated the percentage of children within each local government area (LGA) that live within two kilometres of a school. Findings revealed percentages are lowest in the North East, particularly in Borno state. LGAs within many South South and South East states have rates as high as 95-100%. National Personnel Audit (NPA)",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/using-geospatialdata-to-understand-access-to-education-nigeria",
+    "publication_date": "2020-02-14",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

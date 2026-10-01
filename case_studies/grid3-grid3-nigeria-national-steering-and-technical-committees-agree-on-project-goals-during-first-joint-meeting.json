@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-grid3-nigeria-national-steering-and-technical-committees-agree-on-project-goals-during-first-joint-meeting",
+  "url": "https://grid3.org/news/grid3-nigeria-national-steering-and-technical-committees-agree-on-project-goals-during-first-joint-meeting",
+  "title": "GRID3 Nigeria National Steering and Technical Committees agree on project goals during first joint meeting",
+  "summary": "GRID3 use case: The first joint meeting of the GRID3 Nigeria National Steering and Technical Committees took place on Monday, February 10th, at the Federal Ministry of Finance headquarters in Abuja. The meeting was convened by the Chair of the Steering Committee, Mrs. Zainab Shamsuna Ahmed, who is the Minister of Finance, Budget, and National Planning.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "countries",
+      "label": "Countries"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "economics-and-finance",
+      "label": "Economics and finance"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The first joint meeting of the GRID3 Nigeria National Steering and Technical Committees took place on Monday, February 10th, at the Federal Ministry of Finance headquarters in Abuja. The meeting was convened by the Chair of the Steering Committee, Mrs. Zainab Shamsuna Ahmed, who is the Minister of Finance, Budget, and National Planning.",
+    "measures": "The first joint meeting of the GRID3 Nigeria National Steering and Technical Committees took place on Monday, February 10th, at the Federal Ministry of Finance headquarters in Abuja. The meeting was convened by the Chair of the Steering Committee, Mrs. Zainab Shamsuna Ahmed, who is the Minister of Finance, Budget, and National Planning. These Committees support the Nigerian government’s efforts to use geospatial data in the country’s pursuit of achieving sustainable development for everyone. The HMFBNP , chaired the Joint Maiden meeting for the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) Nigeria National Steering and Technical Committees at HQ in Abuja. @ZShamsuna@FinMinNigeriapic.twitter.com/6HbZ3VGp90 — Federal Ministry of Finance (@FinMinNigeria) February 11, 2020",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/grid3-nigeria-national-steering-and-technical-committees-agree-on-project-goals-during-first-joint-meeting",
+    "publication_date": "2020-02-20",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

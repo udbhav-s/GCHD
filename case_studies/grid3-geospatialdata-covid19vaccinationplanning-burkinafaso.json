@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-geospatialdata-covid19vaccinationplanning-burkinafaso",
+  "url": "https://grid3.org/news/geospatialdata-covid19vaccinationplanning-burkinafaso",
+  "title": "Geospatial data to improve COVID-19 vaccination planning in Burkina Faso",
+  "summary": "GRID3 use case: Burkina Faso’s government has been working with GRID3 to understand how geospatial data can inform COVID-19 vaccination campaigns.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Burkina Faso",
+        "ucode": "BFA_V1",
+        "dcid": "country/BFA",
+        "iso3": "BFA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "burkina-faso",
+      "label": "Burkina Faso"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Burkina Faso’s government has been working with GRID3 to understand how geospatial data can inform COVID-19 vaccination campaigns.",
+    "measures": "In June 2021, the Director General of the WHO set the goal of achieving a 70 percent global vaccination rate for COVID-19. GRID3 has been supporting numerous sub-Saharan African countries in their campaigns to achieve this objective, including Burkina Faso. Over the past year, GRID3 has made significant contributions to Burkina Faso’s microplanning work around COVID-19 vaccinations (“microplanning” is one of the processes that health workers use to optimally deploy resources, including vaccines and personnel, to ensure that vulnerable populations are reached during health campaigns). GRID3 has advised the government on how geospatial data can inform vaccination campaigns, piloting data use through the creation of 16 microplanning maps for health districts (district sanitaire) in the Centre, Centre Sud, and Centre Ouest regions; as well as conducting trainings for district sanitaire data managers, regional staff, and national staff on the use of geospatial data and maps for microplanning. As a part of a wider GRID3 effort to increase geospatial data use in Burkina Faso, a training was held this past April that focussed on using GIS for microplanning. Following the training, the Department for the Prevention of Disease through Vaccination (DPV) requested support from GRID3 in mapping COVID-19 vaccination sites in the Centre Region (which was selected both for the availability of input data as well as for being the most populous region in the country).",
+    "outcomes": "Over the past year, GRID3 has made significant contributions to Burkina Faso’s microplanning work around COVID-19 vaccinations (“microplanning” is one of the processes that health workers use to optimally deploy resources, including vaccines and personnel, to ensure that vulnerable populations are reached during health campaigns). GRID3 has advised the government on how geospatial data can inform vaccination campaigns, piloting data use through the creation of 16 microplanning maps for health districts (district sanitaire) in the Centre, Centre Sud, and Centre Ouest regions; as well as conducting trainings for district sanitaire data managers, regional staff, and national staff on the use of geospatial data and maps for microplanning.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/geospatialdata-covid19vaccinationplanning-burkinafaso",
+    "publication_date": "2022-10-17",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

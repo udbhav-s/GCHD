@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-zambian-government-partners-malaria",
+  "url": "https://grid3.org/news/zambian-government-partners-malaria",
+  "title": "Zambian government works with GRID3 and partners to control malaria",
+  "summary": "GRID3 use case: GRID3 Zambia partnered with Akros, National Malaria Elimination Programme (NMEP), PATH and President’s Malaria Initiative (PMI) to create maps as a low-cost solution that can contribute significantly to controlling malaria in the country. The maps display GRID3 population estimates, settlement extents with estimated residential structure counts, schools, health facilities and village names. These datasets were developed with multiple Zambian government agencies.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "applications",
+      "label": "Applications"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "water-sanitation-and-hygiene",
+      "label": "Water, sanitation, and hygiene"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 Zambia partnered with Akros, National Malaria Elimination Programme (NMEP), PATH and President’s Malaria Initiative (PMI) to create maps as a low-cost solution that can contribute significantly to controlling malaria in the country. The maps display GRID3 population estimates, settlement extents with estimated residential structure counts, schools, health facilities and village names. These datasets were developed with multiple Zambian government agencies.",
+    "measures": "In 2016, the World Health Organization (WHO) estimated3 millionpeople in Zambia had malaria. Within this population, 7% of these cases progressed to severe forms of the disease which, if left untreated, could be fatal especially for children under the age of 5 due to their lack of immunity. In a major effort to protect the Zambian population, the Government of the Republic of Zambia has set the ambitious goal toeliminate malaria by 2021. Currently, the Ministry of Health primarily relies on community-based surveillance and vector control measures. Zambia reached 84% of total coverage in 2018 through either insecticide-treated bed nets (ITN) or indoor residual spraying (IRS) interventions, a malaria intervention method that is preferred for settlements with 25 households or more. However, besides limited funding, the lack of up-to-date population and settlement data poses a constraint to understand the accuracy of reported coverage and to properly plan and execute interventions for nationwide malaria elimination. GRID3 Zambia partnered withAkrosand National Malaria Elimination Programme (NMEP)to create maps as a low-cost solution that can contribute significantly to control malaria in the country. The maps display GRID3 population estimates, settlement extents with estimated residential structure counts, schools, health facilities and village names. These datasets were developed with multiple Zambian government agencies including (ZamStats), Office of the Surveyor General (OSG), Ministry of Water Development, Sanitation and Environmental Protection (MWDSEP), Ministry of Health (MoH), and Ministry of General Education (MoGE).Zambia Statistics Agency Example of a district planning map",
+    "outcomes": "GRID3 Zambia partnered withAkrosand National Malaria Elimination Programme (NMEP)to create maps as a low-cost solution that can contribute significantly to control malaria in the country. The maps display GRID3 population estimates, settlement extents with estimated residential structure counts, schools, health facilities and village names. These datasets were developed with multiple Zambian government agencies including (ZamStats), Office of the Surveyor General (OSG), Ministry of Water Development, Sanitation and Environmental Protection (MWDSEP), Ministry of Health (MoH), and Ministry of General Education (MoGE).Zambia Statistics Agency",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/zambian-government-partners-malaria",
+    "publication_date": "2020-07-30",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

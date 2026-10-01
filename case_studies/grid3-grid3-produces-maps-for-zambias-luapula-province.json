@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-grid3-produces-maps-for-zambias-luapula-province",
+  "url": "https://grid3.org/news/grid3-produces-maps-for-zambias-luapula-province",
+  "title": "GRID3 produces maps for Zambia’s Luapula province",
+  "summary": "GRID3 use case: On 16 April 2020, an earthquake with a 4.5 magnitude and depth of 10km struck the Luapula Province in Zambia. The GRID3 Zambia team produced high resolution maps, showcasing the number of people potentially at risk based on their location in relation to the epicentre of the earthquake.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Luapula Province",
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": {
+        "name": "Luapula Province",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Luapula Province",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "earthquake"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "disaster-response-and-hazard-mitigation",
+      "label": "Disaster response and hazard mitigation"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "On 16 April 2020, an earthquake with a 4.5 magnitude and depth of 10km struck the Luapula Province in Zambia. The GRID3 Zambia team produced high resolution maps, showcasing the number of people potentially at risk based on their location in relation to the epicentre of the earthquake.",
+    "measures": "On 16 April 2020, an earthquake with a 4.5 magnitude and depth of 10km struck the Luapula Province in Zambia. Prior to the earthquake, many settlements in the province, with an estimated population density of 20 people per km2, had never been mapped due to the area’s rural nature. To change this, the GRID3 Zambia team produced high resolution maps, showcasing the number of people potentially at risk based on their location in relation to the epicentre of the earthquake. They provide information about the population within a 5km, 10km, and 20km radius of the epicentre. “These maps can be beneficial for planning purposes in times of crisis. They can be used to assess and locate populations that may be in need of support after a disaster strikes. We are currently liaising with the Government of Zambia to identify gaps in information and detail how these maps can be part of the solution,” explains Silvia Renn, a GRID3 expert who helped produce the maps.",
+    "outcomes": "To change this, the GRID3 Zambia team produced high resolution maps, showcasing the number of people potentially at risk based on their location in relation to the epicentre of the earthquake. They provide information about the population within a 5km, 10km, and 20km radius of the epicentre.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/grid3-produces-maps-for-zambias-luapula-province",
+    "publication_date": "2020-04-27",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

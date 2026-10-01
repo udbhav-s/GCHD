@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-fighting-covid-19-in-namibia",
+  "url": "https://grid3.org/news/fighting-covid-19-in-namibia",
+  "title": "Data is high priority for fighting COVID-19 in Namibia",
+  "summary": "GRID3 use case: Under the leadership of the Government of Namibia, GRID3 has launched another COVID-19 data hub in sub-Saharan Africa, expanding the access to much needed reliable and timely geospatial data to fight and prevent the global pandemic on the continent.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Namibia",
+        "ucode": "NAM_V1",
+        "dcid": "country/NAM",
+        "iso3": "NAM"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "namibia",
+      "label": "Namibia"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Under the leadership of the Government of Namibia, GRID3 has launched another COVID-19 data hub in sub-Saharan Africa, expanding the access to much needed reliable and timely geospatial data to fight and prevent the global pandemic on the continent.",
+    "measures": "Under the leadership of the Government of Namibia, GRID3 has launched anotherCOVID-19 data hubin sub-Saharan Africa, expanding access to much needed reliable and timely geospatial data to fight and prevent the global pandemic on the continent. “This is a step in the best direction,” said Tulimegameno Amutenya, Manager of Data Processing at Namibia’s National Statistics Agency (NSA), during an interview for Namibia’s television channel NBC1. While being clear about her high expectations for the interactive COVID-19 data hub, she was also quick to point out that the success of the platform will depend on the work of many: “It requires a lot of effort from the local stakeholders, key stakeholders that are producing data.” What the statistician presented on national TV is the newest development in the country’s efforts to curb and prevent the COVID-19 pandemic and keep people in Namibia safe. The NSA, together with Namibia’s Ministry of Health and Social Services (MoHSS), GRID3, United Nations Economic Commission for Africa (UNECA), Environmental Systems Research Institute (Esri) and Global Partnership for Sustainable Development Data (GPSDD), launched an interactive COVID-19 data hub to generate and display timely, accurate population and infrastructure data that supports the country’s response and prevention measures. The hub also visualises health risks such as diabetes and heart disease by region, comparative COVID-19 risk, and general demographics.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/fighting-covid-19-in-namibia",
+    "publication_date": "2020-09-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-mapmaking-healthservice-mozambique",
+  "url": "https://grid3.org/news/mapmaking-healthservice-mozambique",
+  "title": "Map-making resources from joint workshop to support health service delivery in Mozambique",
+  "summary": "GRID3 use case: In collaboration with Mozambique’s ministry of health (MoH), Expanded Programme on Immunization, and National Agency for Spatial Development, GRID3 and ICAP convened a map template transfer workshop in Maputo between 18 and 20 April 2023.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Mozambique",
+        "ucode": "MOZ_V1",
+        "dcid": "country/MOZ",
+        "iso3": "MOZ"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mozambique",
+      "label": "Mozambique"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In collaboration with Mozambique’s ministry of health (MoH), Expanded Programme on Immunization, and National Agency for Spatial Development, GRID3 and ICAP convened a map template transfer workshop in Maputo between 18 and 20 April 2023.",
+    "measures": "In collaboration with Mozambique’s ministry of health (MoH), Expanded Programme on Immunization (EPI), and National Agency for Spatial Development (ADE), GRID3 and ICAP convened a map template transfer workshop in Maputo between 18 and 20 April 2023. At the workshop, ADE’s Geographic Information Systems (GIS) analysts received training from GRID3 on generating up-to-date district- and subdistrict-level maps based on a GRID3 cartographic template and data collected and generated through the . The RED initiative focuses on routine immunisation and is led by UNICEF in collaboration with the MoH, ADE, the Clinton Health Access Initiative (CHAI), and the Health GeoLab (HGL). It is also supported by Gavi in Mozambique. UNICEF, CHAI, and the HGL also supported workshop coordination efforts.Reach Every District (RED) microplanning initiative These maps will play an integral role in the health campaign microplanning process by ensuring health workers consistently have accurate information on the locations of people, settlements, boundaries, health facilities, and vaccination sites. Health workers in Mozambique can use these data to efficiently allocate personnel and important resources such as vaccines and funding.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 health facility data",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/mapmaking-healthservice-mozambique",
+    "publication_date": "2023-06-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

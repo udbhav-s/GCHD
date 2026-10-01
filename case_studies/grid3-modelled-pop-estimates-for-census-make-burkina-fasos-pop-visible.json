@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-modelled-pop-estimates-for-census-make-burkina-fasos-pop-visible",
+  "url": "https://grid3.org/news/modelled-pop-estimates-for-census-make-burkina-fasos-pop-visible",
+  "title": "Modelled population estimates for census under-coverage make Burkina Faso’s population visible in times of conflict",
+  "summary": "GRID3 use case: GRID3 has produced datasets, featuring high-resolution modelled population estimates and maps to complement Burkina Faso’s 2019 census results.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Burkina Faso",
+        "ucode": "BFA_V1",
+        "dcid": "country/BFA",
+        "iso3": "BFA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "burkina-faso",
+      "label": "Burkina Faso"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 has produced datasets, featuring high-resolution modelled population estimates and maps to complement Burkina Faso’s 2019 census results.",
+    "measures": "GRID3 has produced datasets featuring high-resolution modelled population estimates and maps to complement Burkina Faso’s . The approach the GRID3 Burkina Faso team took to generate the estimates introduces an innovative method of estimating population for the country by leveraging the power of geospatial data and .2019 census resultssatellite imagery To ensure maximum completeness of Burkina Faso’s 2019 census, the GRID3 Burkina Faso team produced high-resolution modelled population estimates disaggregated by age and sex for 20%, or 5,620,429 hectares, of the country’s territory. Enumeration in these areas was not possible partly due to security issues. The estimates led to the inclusion of 2,098,645 people into Burkina Faso’s census. Where insecurity, disease, and remoteness make universal enumeration impossible, GRID3’s methods can be applied in any country. This map demonstrates what areas were covered/counted from census enumeration. Insecurity prevented census enumerators from reaching certain areas.",
+    "outcomes": "To ensure maximum completeness of Burkina Faso’s 2019 census, the GRID3 Burkina Faso team produced high-resolution modelled population estimates disaggregated by age and sex for 20%, or 5,620,429 hectares, of the country’s territory. Enumeration in these areas was not possible partly due to security issues. The estimates led to the inclusion of 2,098,645 people into Burkina Faso’s census. Where insecurity, disease, and remoteness make universal enumeration impossible, GRID3’s methods can be applied in any country.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "2019 Burkina Faso census",
+      "url": "https://www.insd.bf/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/modelled-pop-estimates-for-census-make-burkina-fasos-pop-visible",
+    "publication_date": "2021-01-11",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

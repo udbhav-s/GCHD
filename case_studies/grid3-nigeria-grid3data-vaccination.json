@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-nigeria-grid3data-vaccination",
+  "url": "https://grid3.org/news/nigeria-grid3data-vaccination",
+  "title": "CDC Nigeria and GRID3 collaborate to improve vaccination coverage",
+  "summary": "GRID3 use case: In Nigeria, the need to boost COVID-19 vaccination rates in areas with low vaccine uptake was a key priority for the country’s government. Learn how GRID3 geospatial data supported these vaccination efforts.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In Nigeria, the need to boost COVID-19 vaccination rates in areas with low vaccine uptake was a key priority for the country’s government. Learn how GRID3 geospatial data supported these vaccination efforts.",
+    "measures": "During the pandemic, Nigeria’s National Primary Healthcare Development Agency (NPHCDA) was charged with implementing the country’s COVID-19 vaccination mandate through the coordination of mass vaccination campaigns. In 2021, low and inconsistent COVID-19 vaccination rates were observed, presenting a significant challenge for the country. To understand why there was low vaccine uptake, NPHCDA partnered with Center for Disease Control Nigeria (CDC Nigeria). This institution between July and August 2021. The findings revealed a lack of confidence in vaccines and issues around access to vaccination services as major reasons.conducted national studies Using this information, CDC Nigeria, with the support of African Field Epidemiology Network (AFENET) and Sydani, began helping NPHCDA in late 2021 to increase COVID-19 vaccination rates in priority states (Adamawa, Benue, Borno, Ekiti, Kwara, Niger, Osun, Plateau, and Yobe). These organisations supported NPHCDA by overseeing the collection and analysis of vaccination-related data.",
+    "outcomes": "In early 2022, the dashboard was presented by NPHCDA at a COVID-19 Strategy Group meeting where international organisations with country offices in Nigeria, such as CDC Nigeria, were in attendance. Dr. Hadley Ikwe, a Senior Immunisation Specialist at CDC Nigeria, saw the value of the dashboard. He noticed how GRID3 population estimates and settlement data could be used to prioritise efforts within daily implementation plans (DIPs, a series of documents produced and used by health staff each day to determine where they plan to cover and how many vaccines they should try to administer). With this purpose in mind, Dr. Hadley spent time familiarising himself with the dashboard and then he, with support from AFENET and Sydani, met with state/Local Government Area Immunisation managers and COVID-19 vaccination teams to train them on how to use the tool within their vaccination planning process.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/nigeria-grid3data-vaccination",
+    "publication_date": "2023-05-23",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}
