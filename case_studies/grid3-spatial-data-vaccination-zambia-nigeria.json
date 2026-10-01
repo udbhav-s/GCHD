@@ -1,0 +1,134 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-spatial-data-vaccination-zambia-nigeria",
+  "url": "https://grid3.org/news/spatial-data-vaccination-zambia-nigeria",
+  "title": "Spatial data at the forefront of vaccination strategies in Zambia and Nigeria",
+  "summary": "GRID3 use case: Demand for accurate spatial data across sub-Saharan Africa is rising as governments formulate vaccination campaigns. In recent months, Zambia and Nigeria have requested support from GRID3 in creating and rolling out maps and spatial data technologies to aid these interventions.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Demand for accurate spatial data across sub-Saharan Africa is rising as governments formulate vaccination campaigns. In recent months, Zambia and Nigeria have requested support from GRID3 in creating and rolling out maps and spatial data technologies to aid these interventions.",
+    "measures": "Demand for accurate spatial data across sub-Saharan Africa is rising as governments formulate vaccination campaigns. In recent months, Zambia and Nigeria have requested support from GRID3 in creating and rolling out maps and spatial data technologies to aid these interventions. Continue reading to learn how GRID3 is responding. Following the success ofGRID3 maps for malaria microplans, the government of Zambia partnered with GRID3 again in April 2021 to use geospatial data to improve COVID-19 vaccination planning. The government plans to reach a total of 8.4 million people above the age of 18 (or a 70 percent vaccination rate) through mass campaigns. However, to date only2 million doses of COVID vaccineshave been administered. To increase vaccine uptake, the Expanded Programme on Immunisation (EPI) within Zambia’s Ministry of Health will be conducting more targeted vaccination campaigns. To prepare, EPI is developing microplans aimed at improving vaccine allocation planning and tracking vaccinations in all districts. (Microplanning refers to the process in which health workers document how to deploy resources—including vaccines and staff—to ensure that vulnerable populations are reached during a health intervention.) In response, the GRID3 Zambia team produced 246 maps to support the EPI. The maps feature GRID3 data on population, settlements, and health facilities and will be integrated into the microplanning process alongside templates based on the WHO’sReach Every District/Reach Every Childstrategy. Standard operating procedures which describe how to use GRID3 maps for future COVID-19 vaccination microplans were also developed in collaboration with the Zambian government.",
+    "outcomes": "Following the success ofGRID3 maps for malaria microplans, the government of Zambia partnered with GRID3 again in April 2021 to use geospatial data to improve COVID-19 vaccination planning. The government plans to reach a total of 8.4 million people above the age of 18 (or a 70 percent vaccination rate) through mass campaigns. However, to date only2 million doses of COVID vaccineshave been administered. To increase vaccine uptake, the Expanded Programme on Immunisation (EPI) within Zambia’s Ministry of Health will be conducting more targeted vaccination campaigns. To prepare, EPI is developing microplans aimed at improving vaccine allocation planning and tracking vaccinations in all districts. (Microplanning refers to the process in which health workers document how to deploy resources—including vaccines and staff—to ensure that vulnerable populations are reached during a health intervention.)",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/spatial-data-vaccination-zambia-nigeria",
+    "publication_date": "2022-01-14",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

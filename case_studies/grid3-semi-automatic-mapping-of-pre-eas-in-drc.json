@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-semi-automatic-mapping-of-pre-eas-in-drc",
+  "url": "https://grid3.org/news/semi-automatic-mapping-of-pre-eas-in-drc",
+  "title": "GRID3 tests semi-automatic mapping of pre-Enumeration Areas to support census cartography in the Democratic Republic of the Congo",
+  "summary": "GRID3 use case: In December 2019, GRID3 together with in-country partners in DRC, carried out a series of field tests in a range of urban and rural contexts to assess the suitability of a semi-automated approach to create pre-Enumeration Area boundaries.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "countries",
+      "label": "Countries"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In December 2019, GRID3 together with in-country partners in DRC, carried out a series of field tests in a range of urban and rural contexts to assess the suitability of a semi-automated approach to create pre-Enumeration Area boundaries.",
+    "measures": ".The latest population and housing census in the Democratic Republic of the Congo (DRC) dates back to 1984 A census aspires to count every person in a defined territory at a given time, providing key information on population and socioeconomic factors. Governments use these data for electoral planning, policy decisions and formulation, and the allocation of resources for essential development such as health programmes, schools, roads, and much more. For the DRC, the absence of a recent census means that the country has had to rely on population projections as the basis for decision-making. A census is among the most complex and massive peacetime exercises a nation undertakes. , GRID3 has been working closely with the National Institute of Statistics and the Bureau Central de Recensement (BCR, Census Bureau) to provide overall technical assistance and supportTo support pre-census activities in the countryto incorporate geospatial data into census planning and cartography implementation.",
+    "outcomes": "Between 05 and 13 December 2019, the GRID3 team together with in-country partners, carried out. In this context, pre-EAs are approximate enumeration areas that are intended to be checked and validated in the field. The BCR identified three field sites in the provinces of Kongo-Central and Kinshasa. Using the semi-automated approach, GRID3 created approximately 300 pre-EAs across the three sites, which were checked against satellite imagery before fieldwork. Out of these 300+ outputs, 15 pre-EAs were selected for detailed data collection in the field.a series of field tests in a range of urban and rural contexts to assess the suitability of a semi-automated approach to create pre-EA boundaries",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/semi-automatic-mapping-of-pre-eas-in-drc",
+    "publication_date": "2020-02-19",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

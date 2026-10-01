@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-drc-moh-works-with-grid3",
+  "url": "https://grid3.org/news/drc-moh-works-with-grid3",
+  "title": "DRC’s Ministry of Health works with GRID3 to fight measles epidemic",
+  "summary": "GRID3 use case: GRID3 produced 121 maps of health zones in the Democratic Republic of the Congo (DRC) to support a six-month rapid-response measles vaccination campaign.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 produced 121 maps of health zones in the Democratic Republic of the Congo (DRC) to support a six-month rapid-response measles vaccination campaign.",
+    "measures": "In February, GRID3 produced 121 maps of health zones in the Democratic Republic of the Congo (DRC) to support a six-month rapid-response measles vaccination campaign. These maps were created in four days following an urgent request from Dr. Eteni Longondo, head of DRC’s Ministry of Public Health, and will be used in the effort to end a measles epidemic that has killed more than 6,000 people since the beginning of 2019. Other partners in the vaccination effort include The European Civil Protection and Humanitarian Aid Operations, Gavi–the Vaccine Alliance, Médecins du Monde, Médecins Sans Frontières, and the United Nations Children’s Fund. Utilising GRID3’s extensive network in the country, including DRC’s census bureau (Bureau Central du Recensement), the National Health Information System Division (DSNIS), and international partners such as Bluesquare, GRID3 created the key data layers needed to produce the maps. These layers included settlement names and locations; settlement extents; health facilities; health zones and health area boundaries; and road data. GRID3 is working closely with DRC’s Expanded Programme on Immunisation to further improve maps used for microplanning efforts.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/drc-moh-works-with-grid3",
+    "publication_date": "2020-03-04",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

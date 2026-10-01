@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-geospatialdata-routine-vaccination-strategies-drc",
+  "url": "https://grid3.org/news/geospatialdata-routine-vaccination-strategies-drc",
+  "title": "Geospatial data informs routine vaccination strategies in the Democratic Republic of the Congo",
+  "summary": "GRID3 use case: In an effort to understand the true extent of vaccine-preventable deaths, the GRID3 Mapping for Health team in close coordination with DRC’s Ministry of Health utilised a participatory mapping approach to map settlements, health facilities and delineate health area boundaries. This information is crucial to developing vaccination strategies and assembling the appropriate resources required for targeted interventions.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In an effort to understand the true extent of vaccine-preventable deaths, the GRID3 Mapping for Health team in close coordination with DRC’s Ministry of Health utilised a participatory mapping approach to map settlements, health facilities and delineate health area boundaries. This information is crucial to developing vaccination strategies and assembling the appropriate resources required for targeted interventions.",
+    "measures": "Routine vaccination in the Democratic Republic of the Congo (DRC) is informed by a planning process referred to as “microplanning”. In the microplanning process, information about the number, age, distribution of the population, and the names of settlements are collected by local health workers and community volunteers. Collecting and compiling this information needed for vaccine delivery, however, has been time-consuming and challenging in the DRC. Often, decisions about the quantity and distribution of resources rely on population data that were collected in 1984. These challenges—coupled with hard-to-reach and highly mobile populations, stockouts, and imprecise service area boundaries—contribute to poor vaccination rates. Poor vaccination coverage causes 1.5 million deaths globally from vaccine-preventable illnesses annually, many of which are children under five years old. In an effort to understand the true extent of vaccine-preventable deaths, the GRID3 Mapping for Health (M4H) team in close coordination with DRC’s Ministry of Health utilised a participatory mapping approach to map settlements and health facilities and delineate health area boundaries. This information is crucial to developing vaccination strategies and assembling the appropriate resources required for targeted interventions. GRID3’s participatory mapping approach involved training local health workers to collect information on settlements, health facilities, and health area boundaries. This information was combined with GRID3 population estimates to produce maps that can be used to support vaccination efforts in the DRC.",
+    "outcomes": "While reviewing the maps, stakeholders calculated distances, estimated travel times, designated vaccination outreach sites, and identified populations routinely overlooked. Workshop participants also compared health area sketches to maps of the same area and discussed advantages and disadvantages of both. Some of the feedback included the following:",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/geospatialdata-routine-vaccination-strategies-drc",
+    "publication_date": "2020-02-14",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

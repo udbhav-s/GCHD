@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-sierraleone-grid3insights-newpolicy",
+  "url": "https://grid3.org/news/sierraleone-grid3insights-newpolicy",
+  "title": "Sierra Leone government uses GRID3 insights for new school infrastructure and catchment area planning policy",
+  "summary": "GRID3 use case: In June 2021, the government of Sierra Leone released its new School Infrastructure and Catchment Area Planning policy. Laying the foundation for increased access to safe, quality education, the document draws extensively upon insights from the GRID3 Education Coverage in Sierra Leone report. The policy was also informed by additional school catchment mapping conducted by GRID3 in collaboration with Fab Inc.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "regional-planning",
+      "label": "Regional planning"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In June 2021, the government of Sierra Leone released its new School Infrastructure and Catchment Area Planning policy. Laying the foundation for increased access to safe, quality education, the document draws extensively upon insights from the GRID3 Education Coverage in Sierra Leone report. The policy was also informed by additional school catchment mapping conducted by GRID3 in collaboration with Fab Inc.",
+    "measures": "In June 2021, the government of Sierra Leone, through the Ministry of Basic and Senior Secondary Education (MBSSE), released its newSchool Infrastructure and Catchment Area Planning policy. Laying the foundation for increased access to safe, quality education, the document draws extensively upon insights from theGRID3Education Coverage in Sierra Leonereport published in December 2020. The policy was also informed by additional school catchment mapping conducted by GRID3 in collaboration with Fab Inc. “The school catchment policy will bolster planning and coordination around improvements to school infrastructure,” says David Sengeh, Minister of Basic and Senior Secondary Education and Chief Innovation Officer.",
+    "outcomes": "In 2021, the government’sFree Quality School Educationinitiative increased school enrolment by 800,000. However, increased enrolment has been straining the country’s school system, affecting the availability of and access to educational resources. MBSSE officials saw the creation of a school infrastructure development plan, informed by detailed school coverage analyses, as a necessary step towards achieving the guiding principles underpinning the initiative.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/sierraleone-grid3insights-newpolicy",
+    "publication_date": "2021-08-31",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-taking-on-covid-19-with-data-nigerias-government-collaborates-with-grid3-on-response-and-prevention",
+  "url": "https://grid3.org/news/taking-on-covid-19-with-data-nigerias-government-collaborates-with-grid3-on-response-and-prevention",
+  "title": "Taking on COVID-19 with data: Nigeria’s government collaborates with GRID3 on response and prevention",
+  "summary": "GRID3 use case: The quick and effective reaction of the Government of Nigeria is underpinned by a National COVID-19 Multi-Sectoral Pandemic Response Plan. GRID3 Nigeria has been working closely with the Presidential Task Force to swiftly support the government’s efforts and integrate geospatial data solutions into their plans.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "countries",
+      "label": "Countries"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "disaster-response-and-hazard-mitigation",
+      "label": "Disaster response and hazard mitigation"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The quick and effective reaction of the Government of Nigeria is underpinned by a National COVID-19 Multi-Sectoral Pandemic Response Plan. GRID3 Nigeria has been working closely with the Presidential Task Force to swiftly support the government’s efforts and integrate geospatial data solutions into their plans.",
+    "measures": "As of 23 June 2020, Nigeria had 13,285 active COVID-19 cases, bringing the total of confirmed cases in the country to 20,919. The first case was registered in the country on 27 February 2020 in Lagos State. Since then, the (NCDC) has been informing the public on a big scale, providing advisory guidelines on hygiene measures and informing about the importance of practicing physical distancing. In addition to raising awareness among its citizens, the Federal Government enacted mobility restrictions, including a ban of all international flights and a lockdown of non-essential activities in the Federal Capital Territory, and in Lagos and Ogun States. About a month later, the government announced the ease of lockdown measures while enforcing additional preventive measures such as the prohibition of gatherings of more than 20 people outside a workplace and physical distancing of two metres between people in public areas.Nigeria Center for Disease Control The quick and effective reaction of the Government of Nigeria is underpinned by a National COVID-19 Multi-Sectoral Pandemic Response Plan, which presents the country’s actions to slow down the spread of the virus and control the pandemic. GRID3 Nigeria has been working closely with the Presidential Task Force to swiftly support the government’s efforts and integrate geospatial data solutions into their plans. The GRID3 Nigeria team met with Dr. Mukhtar Muhammad, Incident Manager, National COVID-19 Response Centre of the Presidential Task Force, at the Presidential Villa in Abuja, to discuss how the GRID3 Nigeria geospatial data can be leveraged to support the country’s response against COVID-19, and present an overview of the work taken place to date. Shortly after, the GRID3 Nigeria team, led by Minister of State, Finance, Budget and National Planning Prince Clem Ikanade Agba, met with the Executive Governor of Lagos State, Babajide Sanwo-Olu, and his team to discuss how GRID3 geospatial data can support Lagos State specifically.",
+    "outcomes": "GRID3 Nigeria has previously produced and made available for the whole country (see ). These estimates provide a comprehensive picture of where people live, broken down by age and sex, at a 100 x 100m resolution. This dataset has been utilised to produce maps highlighting areas with populations most vulnerable to the virus by employing data on age groups and population distribution. In addition, GRID3 Nigeria combined these estimates with health facility locations to measure geographical access to health facilities – this can be illustrated with the following two examples:high-resolution gridded population estimateshere",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/taking-on-covid-19-with-data-nigerias-government-collaborates-with-grid3-on-response-and-prevention",
+    "publication_date": "2020-06-24",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

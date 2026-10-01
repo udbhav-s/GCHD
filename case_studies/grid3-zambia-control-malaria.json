@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-zambia-control-malaria",
+  "url": "https://grid3.org/news/zambia-control-malaria",
+  "title": "Data-driven interventions bring Zambia closer to controlling malaria",
+  "summary": "GRID3 use case: For microplanning ahead of the 2021 indoor residual spraying campaign led by Zambia’s National Malaria Elimination Programme, GRID3 and Akros developed improved maps featuring field-mapped health facility catchment boundaries and updated residential structure counts using GRID3 settlement extents.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "For microplanning ahead of the 2021 indoor residual spraying campaign led by Zambia’s National Malaria Elimination Programme, GRID3 and Akros developed improved maps featuring field-mapped health facility catchment boundaries and updated residential structure counts using GRID3 settlement extents.",
+    "measures": "For many years, the government of Zambia has used community-based surveillance and vector control measures such as insecticide-treated bednets (ITN) and indoor residual spraying (IRS) to decrease the prevalence of malaria-related illnesses. In 2018 alone, the country reached84 percentof households through ITN or IRS. However, without sufficient funding and accurate data on population and settlements, it has been difficult to reach everyone with these interventions. To overcome these obstacles, thegovernment of Zambia, through its National Malaria Elimination Programme (NMEP), partnered with GRID3, and Akroslast year. Through this NMEP-led partnership, GRID3 created geo-referenced, high-resolution maps featuring data on population, residential structures, settlements, administrative boundaries, and points of interest. The maps were first piloted as a microplanning tool in three districts in June 2020 before being scaled up to all 116 districts at NMEP-led and Akros-supportedvector control(VC) microplanning sessions carried out by provincial and district health officials. By drawing on the maps, health officials delineated settlements to target for IRS and ITN interventions, thus helping to support NMEP’s goal of 100% VC coverage by ensuring no settlements were excluded from microplans. For microplanning ahead of the 2021 IRS campaign, health officials requested additional improvements to the GRID3/Akros maps, such as including data on health facility catchment boundaries. Additional funding was allocated to map these boundaries and GRID3 and Akros applied the recommended improvements. The maps now feature the field-mapped catchment boundaries and updated residential structure counts using GRID3 settlement extents.",
+    "outcomes": "After the new maps were produced, they were delivered to the respective districts and a second round of microplanning training sessions was held in May through August 2021 to support health officials in using them. At these sessions, officials used the maps and an accompanying template to delineate areas being targeted for the 2021 IRS campaign. Officials also used the map template to precisely monitor the campaign and plan for additional interventions.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/zambia-control-malaria",
+    "publication_date": "2021-12-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

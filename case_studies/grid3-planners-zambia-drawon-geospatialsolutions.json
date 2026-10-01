@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-planners-zambia-drawon-geospatialsolutions",
+  "url": "https://grid3.org/news/planners-zambia-drawon-geospatialsolutions",
+  "title": "Planners in Zambia continue to draw on geospatial solutions to make sure no one is left behind",
+  "summary": "GRID3 use case: One of GRID3’s programmatic goals is to strengthen countries’ capacities to use geospatial data and technologies for development interventions. GRID3 delivered an extensive training of trainers (ToT) programme in Zambia which was attended by urban planners. As a result of these trainings, planning councils look to use geospatial solutions to inform integrated development plans (IDPs).",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "regional-planning",
+      "label": "Regional planning"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "One of GRID3’s programmatic goals is to strengthen countries’ capacities to use geospatial data and technologies for development interventions. GRID3 delivered an extensive training of trainers (ToT) programme in Zambia which was attended by urban planners. As a result of these trainings, planning councils look to use geospatial solutions to inform integrated development plans (IDPs).",
+    "measures": "One of GRID3’s programmatic goals is to strengthen countries’ capacities to use geospatial data and technologies for development interventions. In May 2022, GRID3 delivered an extensive training of trainers (ToT) programme in Zambia which was attended by urban and rural planners from 10 provinces. This programme is a follow-up to QGIS beginner and intermediate trainings conducted in 2021. As a result of these trainings, planning councils look to use geospatial solutions to inform integrated development plans (IDPs). Such plans highlight key development challenges within an area and detail how planners will address these challenges within a specified time frame and in accordance with national planning standards. Accurate geospatial data and GIS technology can support planning officials in understanding where service gaps exist. After learning about a strong need for technical capacity strengthening in the Department of Physical Planning (under Zambia’s Ministry of Local Government and Rural Development), GRID3 delivered two geographic information systems (GIS) trainings to members of the department in April and May 2021. Topics covered included introduction to QGIS, understanding coordinate reference systems, spatial data management, creating and editing GIS data, use of GRID3 data for IDPs, and basic map production. At the concluding session, participants expressed interest in extending the training to include more planning officers. In response, GRID3 prepared a virtual ToT programme for May 2022, in which planners from all of Zambia’s 10 provinces were provided training and resources in teaching and presenting GIS-related information. Topics covered included population and other data sources, data visualisation, making thematic maps using customised styles and map templates, geoprocessing and spatial analysis, using GIS for IDP gap and poverty analysis, access to healthcare gaps analysis, remote sensing and change analysis, deforestation analysis, multi-criteria, and new school placement. Following the completion of the programme, trainees have been conducting their own training sessions in which they train other professionals in the planning community. To see the GRID3 training catalogue with general course descriptions, please visit the .Learning Management System",
+    "outcomes": "In particular, three districts, Luapula, Shiwangandu, and Serenje, are using the maps they produced in the ToT programme sessions to support their regional planning efforts. The maps demonstrate service gaps and the spatial distribution of people and key infrastructure such as schools.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/planners-zambia-drawon-geospatialsolutions",
+    "publication_date": "2022-10-21",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-sierra-leone-health-facilities-dataset",
+  "url": "https://grid3.org/news/sierra-leone-health-facilities-dataset",
+  "title": "Sierra Leone’s first openly accessible health facilities dataset now available",
+  "summary": "GRID3 use case: In collaboration with Sierra Leone’s Ministry of Health and Sanitation (MoHS), GRID3 has producedthe country’s first openly accessible health facility dataset. Published this month,the dataset contains attributes related to the location, name, type, administration, and ownership of over 1,500 health facilities. This information will support timely and effective healthcare service delivery in Sierra Leone.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In collaboration with Sierra Leone’s Ministry of Health and Sanitation (MoHS), GRID3 has produced the country’s first openly accessible health facility dataset. Published this month, the dataset contains attributes related to the location, name, type, administration, and ownership of over […]",
+    "measures": "In collaboration with Sierra Leone’s Ministry of Health and Sanitation (MoHS), GRID3 has producedthe country’s first openly accessible health facility dataset. Published this month,the dataset contains attributes related to the location, name, type, administration, and ownership of over 1,500 health facilities. This information will support timely and effective healthcare service delivery in Sierra Leone. In 2020, Sierra Leone’s Directorate of Policy, Planning and Information (DPPI, a department within MoHS) and GRID3 began working together to update the country’s health facility data. GRID3 worked with DPPI to better understand gaps within its datasets while also obtaining existing health facility data from other sources, including government departments and health NGOs working in Sierra Leone. As the first step in the production of the dataset, GRID3standardized health facility names and types across allthe data sources in order to consolidate the data into one comprehensive resource. GRID3 and DPPI also identified health facilities that were missing geocoordinates or had locations that needed to be validated. In 2021-2022, GRID3 partnered withPremiseto collect and validate the data that were required to complete the dataset; thisadditional fieldwork resulted in the collection of data on hundreds of health facilities.",
+    "outcomes": "As the first step in the production of the dataset, GRID3standardized health facility names and types across allthe data sources in order to consolidate the data into one comprehensive resource. GRID3 and DPPI also identified health facilities that were missing geocoordinates or had locations that needed to be validated. In 2021-2022, GRID3 partnered withPremiseto collect and validate the data that were required to complete the dataset; thisadditional fieldwork resulted in the collection of data on hundreds of health facilities.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 health facility data",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/sierra-leone-health-facilities-dataset",
+    "publication_date": "2023-08-29",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

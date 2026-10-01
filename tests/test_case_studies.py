@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-# 217 of the 638 records carry no hazard, so no hazard filter can reach them.
+# 267 of the 697 records carry no GCHD-mapped hazard, so no hazard filter can reach them.
 # They split into two kinds:
 #
 # 15 came from Climate-ADAPT with impact tokens that map to no GCHD hazard —
@@ -13,11 +13,12 @@ import pytest
 # keep their source_hazard_tags, so the decision stays visible.
 #
 # The other 202 are mostly C40 records about waste, transport and energy
-# efficiency. They name no hazard because they address none.
+# efficiency. They name no hazard because they address none. GRID3 adds 50
+# records without a mapped GCHD hazard; 20 retain COVID-19 as a source-only tag.
 #
 # Pinned so the split cannot drift quietly. If a mapping improves, change these.
-EXPECTED_EMPTY_HAZARDS = 217
-EXPECTED_UNMAPPED_WITH_TAGS = 15
+EXPECTED_EMPTY_HAZARDS = 267
+EXPECTED_UNMAPPED_WITH_TAGS = 35
 
 
 def test_every_record_declares_the_current_schema(case_studies):

@@ -1,0 +1,112 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-how-geospatial-data-can-help-solve-nigerias-educational-challenges",
+  "url": "https://grid3.org/news/how-geospatial-data-can-help-solve-nigerias-educational-challenges",
+  "title": "How geospatial data can help solve Nigeria’s educational challenges",
+  "summary": "GRID3 use case: The Nigerian Universal Basic Educational Commission (UBEC) and GRID3 Nigeria are working together to apply new geospatial data to achieve the desired impact of education for all Nigerians and reduce the rate of out-of-school children in the country.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "countries",
+      "label": "Countries"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The Nigerian Universal Basic Educational Commission (UBEC) and GRID3 Nigeria are working together to apply new geospatial data to achieve the desired impact of education for all Nigerians and reduce the rate of out-of-school children in the country.",
+    "measures": "It is estimated that 10.5 million Nigerian children aged 5-14 currently do not attend school, due to a range of socio-cultural and economic factors, including insufficient access to and lack of capacity of educational facilities as well as high student to teacher ratios and overall gender marginalisation. The has developed a range of policies which aim to address the issues of school attendance, and established the Universal Basic Education Commission Act in 2004. This Act states that periodic National Personnel Audits (NPAs) of teaching and non-teaching staff should be carried out in all basic primary educational institutions in the country for policy making purposes.Nigerian Universal Basic Educational Commission (UBEC) On 16 December 2019, the Minister of Education, Mallam Adamu Adamu, representing the President of the Federal Republic of Nigeria, officially released The launch was attended by a large number of key national and governmental organisations, including the Minister of Environment; the Minister of Humanitarian Affairs, Disaster Management & Social Development; DFID Nigeria; USAID, as well as other key stakeholders in the Nigerian education sector.UBEC’s 2018 NPA dataset.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/how-geospatial-data-can-help-solve-nigerias-educational-challenges",
+    "publication_date": "2020-02-11",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

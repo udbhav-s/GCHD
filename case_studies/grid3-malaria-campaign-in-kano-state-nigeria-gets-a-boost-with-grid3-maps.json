@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-malaria-campaign-in-kano-state-nigeria-gets-a-boost-with-grid3-maps",
+  "url": "https://grid3.org/news/malaria-campaign-in-kano-state-nigeria-gets-a-boost-with-grid3-maps",
+  "title": "Campaign aimed at controlling malaria in Kano State, Nigeria, gets a boost with GRID3 maps",
+  "summary": "GRID3 use case: To support the National Malaria Elimination Programme with digital microplanning for an upcoming malaria bednet distribution campaign in Kano state, Nigeria, GRID3 produced 484 microplanning maps.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Kano State",
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": {
+        "name": "Kano State",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Kano State",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "To support the National Malaria Elimination Programme with digital microplanning for an upcoming malaria bednet distribution campaign in Kano state, Nigeria, GRID3 produced 484 microplanning maps.",
+    "measures": "To support the National Malaria Elimination Programme (NMEP) with digital microplanning for an upcoming October 2022 Insecticide-Treated Net (ITN) distribution campaign in Kano State, GRID3 has produced 484 ward-level microplanning maps. The aim is to stem the spread of malaria using data-driven decision making. According to Nigeria’s National Malaria Elimination Programme (NMEP),97 percentof the country’s population is at risk of malaria. Insecticide-Treated Net (ITN) distribution campaigns help reduce the prevalence of malaria through the “community effect” that occurs when the majority of residents in high transmission areas sleep under chemically treated bednets. Previous ITN distribution campaigns led by NMEP, including the last one conducted in Kano in 2019, relied on residents walking to distribution hubs to register their households and collect treated nets allocated to them. Microplanning for those campaigns involved health officials using their knowledge of their assigned communities to draw maps of the areas. Information from these maps were then collected by state officials to populate microplans for the campaigns. Fatima Bukar Ali, the focal person for ITN campaigns at NMEP, notes this process was tedious: “it required several levels of review and, even then, our microplans sometimes missed some settlements.”",
+    "outcomes": "In addition to issues related to microplanning, the need to mitigate the spread of COVID-19 increased the complexities of implementing this year’s ITN distribution campaigns. To address this, the NMEP — working with a consortium of partners including the Alliance for Malaria Prevention, Society for Family Health, Catholic Relief Services, International Federation of Red Cross and Red Crescent, and GRID3 — devised a new door-to-door campaign strategy.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/malaria-campaign-in-kano-state-nigeria-gets-a-boost-with-grid3-maps",
+    "publication_date": "2022-08-26",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

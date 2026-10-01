@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-southsudan-count-population",
+  "url": "https://grid3.org/news/southsudan-count-population",
+  "title": "Historic progress in South Sudan’s drive to count its population",
+  "summary": "GRID3 use case: Enumeration for South Sudan’s Population Estimation Survey (PES) has been completed, marking the end of the single largest data collection effort in the country’s history.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "South Sudan",
+        "ucode": "SSD_V1",
+        "dcid": "country/SSD",
+        "iso3": "SSD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "south-sudan",
+      "label": "South Sudan"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Enumeration for South Sudan’s Population Estimation Survey (PES) has been completed, marking the end of the single largest data collection effort in the country’s history.",
+    "measures": "Enumeration for South Sudan’s Population Estimation Survey (PES) has been completed, marking the end of the single largest data collection effort in the country’s history. Survey field work began on 24 May and was carried out by South Sudan’s National Bureau of Statistics (NBS), with support from GRID3, the United Nations Population Fund (UNFPA), and various stakeholders. More than 600 enumerators and supervisors implemented the PES, collecting data across all ten of the country’s states and its three administrative areas. Before now, the most recent official population data for South Sudan were found in the Sudan Population and Housing Census of 2008, conducted prior to South Sudan’s independence in 2011. In the years since, political conflict and linked population movements rendered the 2008 numbers outdated, and there was an urgent need to produce up-to-date, accurate, relevant demographic data that could inform the country’s development agenda. The PES is the culmination of extensive planning and coordination. In addition to the design of the survey (in a microcensus, the questionnaire is shorter and the survey covers a smaller number of households than a full national census), the NBS, GRID3, UNFPA, and other partners had to recruit and train enumerators in each state, obtain tablets from UN partner agencies (which were then uploaded with the questionnaires and maps of sample sites), and devise a strategy for the roughly three-week-long exercise. Enumerators and their supervisors had to negotiate many challenges in the field, including poor internet access, inconsistent power supplies, and travel to politically unstable areas. They effectively navigated these obstacles with the aid of the PES’s well-crafted technical procedures, as well as the survey staff’s ability to come up with creative solutions in short timeframes, including the use of canoes and tractors to access particularly hard-to-reach areas.",
+    "outcomes": "Save for Panyijar County (where insecurity is making enumeration especially difficult), all data have been submitted by the field teams; 1,491 of 1,536 of the sample sites have been reached. Concurrently, the NBS, GRID3 and UNFPA are devising plans to clean and analyse the data, and will produce a report describing the experience in the field as well as some preliminary survey results.For its part, GRID3 is preparing to model country-wide population estimates that rely on the PES data; these new estimates will improve the accuracy of the programme’sexistingpopulation estimates.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "2008 South Sudan census",
+      "url": "https://nbs.gov.ss/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/southsudan-count-population",
+    "publication_date": "2021-07-01",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

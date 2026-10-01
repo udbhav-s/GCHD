@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-drcs-strategy-healthcare",
+  "url": "https://grid3.org/news/drcs-strategy-healthcare",
+  "title": "DRC strategy uses geospatial data to improve access to quality healthcare",
+  "summary": "GRID3 use case: Over 65 percent of people in the Democratic Republic of the Congo (DRC) live more than 5 kilometres from a health facility, compromising their ability to access timely healthcare. DRC’s National Program for the Elimination of Cholera and the Control of Other Diarrheal Diseases partnered with GRID3 and the Clinton Health Access Initiative to use GRID3 geospatial data to gain a better understanding of access to healthcare within communities.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Over 65 percent of people in the Democratic Republic of the Congo (DRC) live more than 5 kilometres from a health facility, compromising their ability to access timely healthcare. DRC’s National Program for the Elimination of Cholera and the Control of Other Diarrheal Diseases partnered with GRID3 and the Clinton Health Access Initiative to use GRID3 geospatial data to gain a better understanding of access to healthcare within communities.",
+    "measures": "Over 65 percent of people in the Democratic Republic of the Congo (DRC) live more than 5 kilometres from a health facility, compromising their ability to access timely healthcare. This problem directly contributes to DRC’s high child mortality rate; according to DRC’s Ministry of Health, over 80 percent of children who die from malaria, cholera, and other common diseases do so at home or on the way to find treatment. In 2005, the ministry launched a community health strategy that aims to improve access to quality healthcare in remote areas via community care sites (sites de soins communautaires, SSCs). These sites are volunteer-led clinics equipped to treat certain cases of malaria, diarrhoea and pneumonia, screen for malnutrition, and conduct epidemiological surveillance. After two decades of efforts, there are now10,198 SSCs in operation throughout the country. And yet, since DRC’slast nationwide census was held in 1984, the data that have been used to place new SSCs have been very outdated. In response, GRID3 and theClinton Health Access Initiative (CHAI)worked with the ministry to use GRID3 geospatial data to gain a better understanding of today’s communities that, in turn, will help to ensure new SSCs are built in areas where they are needed the most.",
+    "outcomes": "These data were also fed into theoptimisation algorithmto model optimal locations for potential new sites and maximise the population reached by a new SSC (and minimise overlaps in catchment areas). Potential sites were ranked by population density within the service radius; the rankings were then used by DRC officials in their decision-making about where to place six new SSCs in Kasaï (these new facilities have been in operation since December 2021). The GRID3-produced maps helped to show the travel time from settled areas to the nearest health centre and SSC. They also helped to show barriers (such as natural features or conflicts) that prevent populations from accessing basic healthcare.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/drcs-strategy-healthcare",
+    "publication_date": "2022-10-12",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

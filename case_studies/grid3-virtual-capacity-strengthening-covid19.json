@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-virtual-capacity-strengthening-covid19",
+  "url": "https://grid3.org/news/virtual-capacity-strengthening-covid19",
+  "title": "Virtual capacity strengthening during COVID-19",
+  "summary": "GRID3 use case: The GRID3 Training Team has been working full speed to develop an online Learning Management System (LMS) that will make it possible to train hundreds of data experts during a time in which COVID-19 makes in-person interaction impossible. Now the platform is ready and being implemented in various of the GRID3 countries.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The GRID3 Training Team has been working full speed to develop an online Learning Management System (LMS) that will make it possible to train hundreds of data experts during a time in which COVID-19 makes in-person interaction impossible. Now the platform is ready and being implemented in various of the GRID3 countries.",
+    "measures": "The GRID3 Training Team has been working full speed to develop an online Learning Management System (LMS) that will make it possible to train hundreds of data experts during a time in which COVID-19 makes in-person interaction limited. Now the platform is ready and being implemented in various of the GRID3 countries. The LMS aims to complement and substitute face-to-face learning activities and will be an inherent part of the GRID3 programme even beyond COVID-19. The GRID3 LMS, available atlearn.grid3.org,hosts GRID3 courses and teaching materials, and allows to engage directly with enrolled participants in one application. GRID3 is now implementing distance learning activities, built around defined geospatial competencies,linked to theGeospatial Technology Competency Model(GTCM), and using theclassification of learning activities. These two frameworks are widely-used methods and models that aim to harmonise competencies and statistics related to learning activities across countries. The LMS will host courses around the following themes: Foundations of Geographic Information Systems (GIS) and Spatial Statistics; Support for Population Census and Microcensus; Gridded Population Survey; and Spatial Analysis, Statistics and Visualisation.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "Population Census and Housing Census",
+      "url": null,
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/virtual-capacity-strengthening-covid19",
+    "publication_date": "2020-06-29",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

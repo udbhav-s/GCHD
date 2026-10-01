@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-harnessing-geospatialdata-malaria-drc-nigeria",
+  "url": "https://grid3.org/news/harnessing-geospatialdata-malaria-drc-nigeria",
+  "title": "Harnessing geospatial data to reduce malaria’s burden in Nigeria and the DRC",
+  "summary": "GRID3 use case: GRID3 has considerable experience with harnessing innovative geospatial solutions to reduce malaria’s effect on the region, and has recently extended its support to two campaigns in Nigeria and the DRC.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 has considerable experience with harnessing innovative geospatial solutions to reduce malaria’s effect on the region, and has recently extended its support to two campaigns in Nigeria and the DRC.",
+    "measures": "As COVID-19 continues to take its toll around the world, it is important to remember that other, longer-standing diseases also annually disrupt millions of lives. Among these is malaria, which infected241 million people in 2020 and led to 627,000 deaths that year. Sub-Saharan Africa experiences the overwhelming share of malaria’s burden, with 95 percent of cases and 96 percent of deaths. Despite the many challenges that remain in eliminating the disease in sub-Saharan Africa, important progress has been made in providing communities the tools they need to prevent it.GRID3 hasconsiderableexperiencewith harnessing innovative geospatial solutions to reduce malaria’s effect on the region, and has recently extended its support to two campaigns in Nigeria and the Democratic Republic of the Congo (DRC). In Nigeria, where according to the National Malaria Elimination Programme (NMEP) 97 percent of the population is at risk of contracting malaria, GRID3 is working with the NMEP to develop microplanning maps that will be used in a bednet distribution campaign in Kano State that will take place this June.",
+    "outcomes": "“Microplanning”is a process that health workers use to optimally deploy resources—including vaccines and other health-related commodities—to ensure that vulnerable populations are reached during health campaigns. Maps are a crucial tool for the microplanning process, and GRID3 is currently helping to produce such maps for the upcoming Kano campaign. So far, GRID3 has matched itscomprehensive list of settlements in Kanoto the list of settlements the NMEP is aiming to cover by bednet distributors and has also compiled other existing geospatial data. All this information was used to produce initial versions of the microplanning maps, and GRID3 and NMEP have in turn trained fieldworkers in using the maps. When the campaign gets underway, bednet distributors will collect data on the settlements they visit; that data will be used to update the maps and continuously improve their quality.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/harnessing-geospatialdata-malaria-drc-nigeria",
+    "publication_date": "2022-04-25",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

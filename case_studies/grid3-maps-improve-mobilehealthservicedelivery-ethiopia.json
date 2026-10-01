@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-maps-improve-mobilehealthservicedelivery-ethiopia",
+  "url": "https://grid3.org/news/maps-improve-mobilehealthservicedelivery-ethiopia",
+  "title": "GRID3 maps to improve mobile health service delivery in the Somali and Afar regions of Ethiopia",
+  "summary": "GRID3 use case: GRID3 created 133 maps showcasing how far people live from health facilities and the size of those populations for all districts (called woredas) in the Somali and Afar regions. Amref Health Africa will be using the maps to identify where mobile health/outreach services are most needed.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Somali",
+      "adm0": {
+        "name": "Ethiopia",
+        "ucode": "ETH_V1",
+        "dcid": "country/ETH",
+        "iso3": "ETH"
+      },
+      "adm1": {
+        "name": "Somali",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Somali",
+        "source_code": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": "Afar",
+      "adm0": {
+        "name": "Ethiopia",
+        "ucode": "ETH_V1",
+        "dcid": "country/ETH",
+        "iso3": "ETH"
+      },
+      "adm1": {
+        "name": "Afar",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Afar",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "applications",
+      "label": "Applications"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "ethiopia",
+      "label": "Ethiopia"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 created 133 maps showcasing how far people live from health facilities and the size of those populations for all districts (called woredas) in the Somali and Afar regions. Amref Health Africa will be using the maps to identify where mobile health/outreach services are most needed.",
+    "measures": "Amref Health Africa is in the middle of planning the equitable placement of mobile health services for the Somali and Afar regions of Ethiopia. The NGO aims to ensure lasting changes to healthcare access in Africa’s second most populous country. Due to regional instability, staff have had difficulty in obtaining up-to-date demographic and infrastructure data to help with the placement of new mobile outreach service sites. Derebe Tadesse, Monitoring & Evaluation Director at Amref Health Africa, explains the lack of geospatial demographic and infrastructure data is also due to changing population movements: “A majority of the population in the Somali and Afar regions are pastoralists who frequently move in search of food and water resources. Because there are constant movements, it has been difficult for us to accurately assess where people live in relation to health facilities. As a result, we looked into other ways we could obtain this information to aid our planning.”",
+    "outcomes": "Subsequently, the GRID3 team used friction surface and travel time scripts they produced to create an accessibility model that calculates the number of people living within 30, 60, 90 and 120-minute walking distance from the nearest health facility based onWorldPop’s UN-adjusted population estimatesand the new health facility dataset. A friction surface script predicts the time it would take for a person to cross a 100m grid cell, taking into account “resistance” factors that might affect travel time such as road or footpath accessibility, land cover type when paths are not present, surface elevation and terrain slope, and the presence of physical barriers like rivers and waterways. The travel time script generates contours of 30, 60, 90, and 120-minute walking distance from each facility and catchment boundaries, dividing and directing populations to the nearest health facility based on the shortest available travel time. Friction surface and travel time scripts are written into ArcGI",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "GRID3 health facility data",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/maps-improve-mobilehealthservicedelivery-ethiopia",
+    "publication_date": "2021-07-27",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-tackling-covid-19-in-nigeria",
+  "url": "https://grid3.org/news/tackling-covid-19-in-nigeria",
+  "title": "Tackling COVID-19 in Nigeria: using population data to model virus spread post-lockdown",
+  "summary": "GRID3 use case: The Government of Nigeria collaborated with researchers from the United Kingdom’s University College London (UCL) to study, using GRID3 Nigeria’s gridded population estimates, the transmission of SARS-CoV-2 — the virus causing the COVID-19 disease — across Nigeria.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The Government of Nigeria collaborated with researchers from the United Kingdom’s University College London (UCL) to study, using GRID3 Nigeria’s gridded population estimates, the transmission of SARS-CoV-2 — the virus causing the COVID-19 disease — across Nigeria.",
+    "measures": "to study, using GRID3 Nigeria’s gridded population estimates, the transmission of SARS-CoV-2Where is the rate of COVID-19 transmission highest? Based on current infection rates, what measures could be put in place to flatten the curve? Does asymptomatic or pre-symptomatic transmission exist? To answer these questions, the Government of Nigeria collaborated with researchers from the United Kingdom’s University College London (UCL)— the virus causing the COVID-19 disease — across Nigeria. In this study, UCL’s team used GRID3 data to model the spread and impact of the virus. Their findings were then used to estimate the impact of post-lockdown control measures and inform the government response to the pandemic. The team developed a mathematical model to study transmission according to age and location, based on aprevious studyin London. GRID3 Nigeria’s gridded population estimates were especially important to the study because they represent the most timely picture of where people live across the country, at very high-resolution. The most recent census in Nigeria took place in 2006, and GRID3 data fills a crucial gap by providing up-to-date, high-resolution, and accurate estimates of population density in between censuses that take place decades apart. GRID3 data splits the entire country into grids that are approximately 100×100 metres squared and estimates population by age and sex within each grid.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/tackling-covid-19-in-nigeria",
+    "publication_date": "2020-11-09",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

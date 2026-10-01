@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-mapping-microplanning-mozambique",
+  "url": "https://grid3.org/news/mapping-microplanning-mozambique",
+  "title": "Supporting vaccination microplanning in Mozambique",
+  "summary": "GRID3 use case: Geospatial analyses and GIS-based microplanning maps to aid the deployment of vaccination resources in Mozambique.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Mozambique",
+        "ucode": "MOZ_V1",
+        "dcid": "country/MOZ",
+        "iso3": "MOZ"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mozambique",
+      "label": "Mozambique"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Geospatial analyses and GIS-based microplanning maps to aid the deployment of vaccination resources in Mozambique.",
+    "measures": "With nearlyaIl adultsvaccinated against COVID-19, Mozambique has made important strides toward protecting communities from the virus’s worst effects. GRID3 provided support in these areas, with a focus on two specific initiatives: mapping communities’ relative risk to COVID-19 and producing microplanning maps that can aid the deployment of resources around vaccination efforts. In April 2021, GRID3 received a request to support the National Institute of Health (INS), Ministry of Health (MISAU), and Office of the President in the production of COVID-19 risk data. The project, coordinated by Oxford Policy Management (OPM), sought to combine different data sources on COVID-19 risk factors, improve digital mapping of these factors, and make these data available via a dynamic, interactive online data visualisation tool (a “risk mapper”) that could help officials more effectively allocate resources. GRID3 coordinated with Fraym, OPM, INS, and the Academic Association of Nutrition and Food Security (ANSA) to identify the available geospatial data sources, identify outstanding data needs, and select priority indicators to be used on the online tool. GRID3 and Fraym then produced a COVID-19 risk mapping data package which included a total of 10 indicators, including ones relating to population density; access to health facilities; water, sanitation, and hygiene; comorbidities; socioeconomic status; education; and access to forms of communications. In September 2021, the data were integrated into the Mozambique Risk Mapper platform that was being developed with INS. The risk data were also published onGRID3’s data hub.",
+    "outcomes": "GRID3 coordinated with Fraym, OPM, INS, and the Academic Association of Nutrition and Food Security (ANSA) to identify the available geospatial data sources, identify outstanding data needs, and select priority indicators to be used on the online tool. GRID3 and Fraym then produced a COVID-19 risk mapping data package which included a total of 10 indicators, including ones relating to population density; access to health facilities; water, sanitation, and hygiene; comorbidities; socioeconomic status; education; and access to forms of communications. In September 2021, the data were integrated into the Mozambique Risk Mapper platform that was being developed with INS. The risk data were also published onGRID3’s data hub.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/mapping-microplanning-mozambique",
+    "publication_date": "2023-01-26",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

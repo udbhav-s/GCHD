@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-boundary-burkina-faso",
+  "url": "https://grid3.org/news/boundary-burkina-faso",
+  "title": "Updating health district boundaries in Burkina Faso",
+  "summary": "GRID3 use case: An updated district sanitaire boundaries dataset is now available for Burkina Faso. This dataset was created by the Ministère de la Santé et de l’Hygiène Publique in collaboration with GRID3.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Burkina Faso",
+        "ucode": "BFA_V1",
+        "dcid": "country/BFA",
+        "iso3": "BFA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "burkina-faso",
+      "label": "Burkina Faso"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "An updated district sanitaire boundaries dataset is now available for Burkina Faso. This dataset was created by the Ministère de la Santé et de l’Hygiène Publique in collaboration with GRID3.",
+    "measures": "An updateddistrict sanitaireboundaries dataset is now available for Burkina Faso. This dataset was created by the Ministère de la Santé et de l’Hygiène Publique (MSHP) in collaboration with GRID3 .Thedistrict sanitaire, or health district, is the basic operational unit for the MSHP and a key geospatial dataset for planning health campaigns and delivering health services such as routine immunisations and COVID-19 vaccinations. This release comes after a validation workshop organised by MSHP and GRID3 in Koudougou in December 2022. Workshop participants included MSHP officials (from the national, regional, anddistrict sanitairelevels) and technical partners GRID3, Bluesquare, the Clinton Health Access Initiative (CHAI), and Terre des Hommes. Administrative boundaries for Ouagadougou (left) and Bobo-Dioulasso (right)",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/boundary-burkina-faso",
+    "publication_date": "2023-06-30",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

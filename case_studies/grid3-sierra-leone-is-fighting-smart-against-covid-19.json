@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-sierra-leone-is-fighting-smart-against-covid-19",
+  "url": "https://grid3.org/news/sierra-leone-is-fighting-smart-against-covid-19",
+  "title": "Sierra Leone is fighting smart against COVID-19",
+  "summary": "GRID3 use case: Sierra Leone’s government is reacting fast and in innovative ways to ensure the safety of its citizens. Together with Esri, Fraym, GPSDD, Maxar and UNECA, the government produced crucial geospatial datasets, analyses, and tools to support the COVID-19 response in Sierra Leone.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Sierra Leone’s government is reacting fast and in innovative ways to ensure the safety of its citizens. Together with Esri, Fraym, GPSDD, Maxar and UNECA, the government produced crucial geospatial datasets, analyses, and tools to support the COVID-19 response in Sierra Leone.",
+    "measures": "COVID-19 reached Africa in February of 2020; the spread started out relatively slow with it taking nearly 100 days to reach 100,000 cases but then accelerated at a rapid pace with infections doubling in less than 20 days, according to the World Health Organization (WHO). As many countries on the continent are scrambling to cope with the consequences of COVID-19, the Government of Sierra Leone reacted fast and convened an expert group of partners to use geospatial data to inform its prevention and response to the pandemic. The west-African country of Sierra Leone currently finds itself mid-table for total infections in Africa. The good results can particularly be attributed to the government’s prevention measures which included public information campaigns reaching the most remote areas and enlisting the help of traditional authorities, and swift and decisive measures ranging from traveller quarantines dating back to January tocontinued curfews and inter-district lockdowns. Thanks to the quick reaction, the country was able to delay an outbreak within its borders till the end of March. Now that the virus has inevitably entered the country, Sierra Leone’s government is once again reacting fast and in innovative ways to ensure the safety of its citizens: Together with GRID3, , , , and , the government produced crucial geospatial datasets, analyses, and tools to support the COVID-19 response in Sierra Leone. The most granular geospatial data in the country’s history centre around rapid population estimates based on the 2015 census. To ensure that everyone can benefit from these groundbreaking geospatial data, the new findings will be openly accessible in a , featuring a national digital dashboard, to enable easy interaction and interpretation for experts and the general public alike.EsriFraymGPSDDMaxarUNECACOVID-19 hub",
+    "outcomes": "Thanks to the quick reaction, the country was able to delay an outbreak within its borders till the end of March. Now that the virus has inevitably entered the country, Sierra Leone’s government is once again reacting fast and in innovative ways to ensure the safety of its citizens: Together with GRID3, , , , and , the government produced crucial geospatial datasets, analyses, and tools to support the COVID-19 response in Sierra Leone. The most granular geospatial data in the country’s history centre around rapid population estimates based on the 2015 census. To ensure that everyone can benefit from these groundbreaking geospatial data, the new findings will be openly accessible in a , featuring a national digital dashboard, to enable easy interaction and interpretation for experts and the general public alike.EsriFraymGPSDDMaxarUNECACOVID-19 hub",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/sierra-leone-is-fighting-smart-against-covid-19",
+    "publication_date": "2020-07-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

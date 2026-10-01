@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-psd-geospatialdata-crisisresponserecovery",
+  "url": "https://grid3.org/news/psd-geospatialdata-crisisresponserecovery",
+  "title": "Puntland Statistics Department, Somalia, leads the way in using geospatial data for crisis response and recovery",
+  "summary": "GRID3 use case: On 22 November 2020, Tropical Cyclone Gati made landfall on the Puntland State of Somalia’s coast. Drawing on new skills and techniques acquired during a series of GRID3 capacity strengthening sessions, the Puntland Statistics Department used geospatial data to effectively coordinate the state’s disaster response.",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Puntland",
+      "adm0": {
+        "name": "Somalia",
+        "ucode": "SOM_V1",
+        "dcid": "country/SOM",
+        "iso3": "SOM"
+      },
+      "adm1": {
+        "name": "Puntland",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Puntland",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "tropical_storm"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "disaster-response-and-hazard-mitigation",
+      "label": "Disaster response and hazard mitigation"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "somalia",
+      "label": "Somalia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "On 22 November 2020, Tropical Cyclone Gati made landfall on the Puntland State of Somalia’s coast. Drawing on new skills and techniques acquired during a series of GRID3 capacity strengthening sessions, the Puntland Statistics Department used geospatial data to effectively coordinate the state’s disaster response.",
+    "measures": "On 22 November 2020, Tropical Cyclone Gati made landfall on the Puntland State of Somalia’s coast. Drawing on new skills and techniques acquired during a series of GRID3 capacity strengthening sessions, the Puntland Statistics Department used geospatial data to effectively coordinate the state’s disaster response. The partnership between Somalia’s National Bureau of Statistics (NBS), including the Puntland Statistics Department (PSD), and GRID3 began when these government bodies requested support in accessing and using high-resolution demographic and infrastructure data in their COVID-19 response. Seeing how central data was to these efforts, NBS and PSD have since made rapid mapping and high-resolution imagery a cornerstone of their subsequent crisis response efforts; Geographic Information Systems (GIS) and satellite maps are now used to support the efforts in containing the spread of the virus. With this success in mind, the Global Partnership for Sustainable Development Data (GPSDD) and United Nations Economic Commission for Africa (UNECA), through theCOVID-19: Data for a Resilient Africa initiative, facilitated more opportunities for these three bodies to cooperate. Over a two-month period, GRID3 provided a comprehensive virtual training and certification course for statistics officers from NBS and PSD in Mogadishu and Puntland on spatial analysis of gridded population data in ArcGIS, a GIS software programme. The workshops equipped each organisation with newly acquired geospatial tools and capabilities, such as producing a data visualisation hub, that could support the country’s COVID-19 decision-making. The newly acquired tools and skills also proved extremely crucial in the state’s response to Cyclone Gati.",
+    "outcomes": "On the same day, Cyclone Gati, anunprecedented stormin Somalia, with maximum sustained winds of 170 km/h, hit the coast of Puntland. To coordinate a data-informed emergency response, the department used tools from GRID3’s virtual training to monitor the cyclone and assess its impact. As a first step, PSD combined UNFPA Somalia’s 2014 Puntland Population Estimation Survey data with its DHS findings to overcome the lack of comprehensive state-wide population data. PSD then used satellite imagery to map the cyclone’s path and magnitude using data from theJoint Typhoon Warning Center (JTWC). Subsequently, they identified the location of villages and critical infrastructure such as roads, schools, and health clinics within Gati’s trajectory. By triangulating these various data, PSD was able to estimate that approximately 10,000 households (60,000 people) lived in the worst-affected areas of Bosaso, Hafun, and Qandala districts. Overall, nearly 180,000 people lost their livelihoods, shelter,",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/psd-geospatialdata-crisisresponserecovery",
+    "publication_date": "2021-05-28",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

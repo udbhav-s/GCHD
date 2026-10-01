@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-outside-the-box-how-nigeria-won-the-fight-against-polio",
+  "url": "https://grid3.org/news/outside-the-box-how-nigeria-won-the-fight-against-polio",
+  "title": "Outside the box: how Nigeria won the fight against polio",
+  "summary": "GRID3 use case: Nigeria celebrates being wild polio free following an official declaration by the African Regional Certification Commission (ARCC), an independent advisory body of the World Health Organisation, for the eradication of poliomyelitis (WPV). This step marks a landmark victory for a country that had been battling the virus for decades.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Nigeria celebrates being wild polio free following an official declaration by the African Regional Certification Commission (ARCC), an independent advisory body of the World Health Organisation, for the eradication of poliomyelitis (WPV). This step marks a landmark victory for a country that had been battling the virus for decades.",
+    "measures": "Nigeria is now free of wild polio. On 21 June 2020, the African Regional Certification Commission, an independent advisory body of the World Health Organisation, certified that the country eradicated the disease. The victory was hard-fought. For decades, health officials encountered numerous challenges to eradication, despite understanding the roots of the disease and receiving the necessary resources from the international community to fight it. By the end of 2010, it seemed that the country was finally on the verge of winning the battle—that year, there had been only 21 recorded cases in the whole country—but spikes in cases over the next two years (62 in 2011 and 99 in 2012) signaled there was more work to be done. Health officials were puzzled by the spike; they had reached vaccination rates above 90 percent for children under the age of five, the threshold required to eliminate the disease. Initially, officials suspected that vaccination delivery campaigns struggled because of challenges arising from conflict and negative perceptions of foreign medicine; these suspicions seemed to be supported by the fact that most of the new outbreaks were in the north, where conflict and negative perceptions are more common. But then Yau Barau, who in his work with the (NPHCDA) has been on the frontlines of this battle for over a decade, realised that they needed to think outside the box. Soon, Barau and his colleagues saw the real root of the problem was that the vaccination teams were using faulty maps.National Primary Health Care Development Agency",
+    "outcomes": "Health officials were puzzled by the spike; they had reached vaccination rates above 90 percent for children under the age of five, the threshold required to eliminate the disease. Initially, officials suspected that vaccination delivery campaigns struggled because of challenges arising from conflict and negative perceptions of foreign medicine; these suspicions seemed to be supported by the fact that most of the new outbreaks were in the north, where conflict and negative perceptions are more common. But then Yau Barau, who in his work with the (NPHCDA) has been on the frontlines of this battle for over a decade, realised that they needed to think outside the box. Soon, Barau and his colleagues saw the real root of the problem was that the vaccination teams were using faulty maps.National Primary Health Care Development Agency",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/outside-the-box-how-nigeria-won-the-fight-against-polio",
+    "publication_date": "2020-07-31",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

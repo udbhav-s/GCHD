@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-drc-campaign-vaccination-planning",
+  "url": "https://grid3.org/news/drc-campaign-vaccination-planning",
+  "title": "A milestone in DRC’s campaign to make vaccination planning more effective and equitable",
+  "summary": "GRID3 use case: The GRID3 Mapping for Health project has reached a major milestone in its 19-month effort to support vaccination interventions in the Democratic Republic of the Congo.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "The GRID3 Mapping for Health project has reached a major milestone in its 19-month effort to support vaccination interventions in the Democratic Republic of the Congo.",
+    "measures": "TheGRID3 Mapping for Health project(GRID3 M4H) has reached a major milestone in its 19-month effort to support vaccination interventions in the Democratic Republic of the Congo (DRC). Funded by Gavi’s INFUSE programme, the project’s primary aims were to bolster routine immunisation via the generation of core spatial data (on population, boundaries, health facilities, and settlements), support geo-enabled microplanning, generate mobility data that would support regular updating of resources needed for routine childhood immunisation nationwide (such as restocking vaccine supplies or boosting the number of health staff in a facility), enable health planners to strengthen their geospatial analytical skills, and improve the gender equity of routine childhood immunisation and vaccination intervention planning. The project is an initiative of DRC’s ministry of health (Ministère de la Santé)and relied on the expertise of a wide array of organisations, both governmental and non-governmental. The work was led by the Center for International Earth Science and Information Network (CIESIN) and the Flowminder Foundation, and supported by WorldPop. At the national level, key collaborators were the Expanded Programme on Immunisation (EPI), Acasus, UNICEF, WHO, UNOPS, and the Kinshasa School of Public Health (KSPH). GRID3 M4H was conceived to directly support the realisation of theMashako Plan, an effort to boost vaccine coverage in targeted provinces and protect 220,000 additional children nationally through more effective and equitable vaccination interventions.",
+    "outcomes": "A massive fieldwork exercise involving 27 GIS technicians/coordinators and over 2,000 people from local health teams was carried out in 5 provinces (Kinshasa, Kasaï, Kasaï Oriental, Haut Katanga, and Lomami) with the purpose of collecting data onhealth facilities,health catchment areas,settlements,schools,religious centres, and other points of interest for the maps. Additionally, data andmaps are being produced for Haut-Lomami, Kwilu, Ituri, and Tanganyika provinces via cleaning and consolidating existing data from partners and previous GRID3 fieldwork. By the end of October 2022, GRID3 will have produced and distributed nearly 4,000 health area and health zone level maps across 9 provinces.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/drc-campaign-vaccination-planning",
+    "publication_date": "2022-08-25",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

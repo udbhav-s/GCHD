@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-radiocoverage-educationaccess-sierraleone",
+  "url": "https://grid3.org/news/radiocoverage-educationaccess-sierraleone",
+  "title": "Using data analytics to improve radio coverage and enhance education access during disease outbreaks in Sierra Leone",
+  "summary": "GRID3 use case: In collaboration with MBSSE, the GRID3 team at Flowminder carried out an analysis using GIS and its optimisation algorithm to improve radio coverage and enhance education access during disease outbreaks.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "applications",
+      "label": "Applications"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "countries",
+      "label": "Countries"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "In collaboration with MBSSE, the GRID3 team at Flowminder carried out an analysis using GIS and its optimisation algorithm to improve radio coverage and enhance education access during disease outbreaks.",
+    "measures": "Disease outbreaks often force governments to make extraordinary decisions to protect their populations. Chiefly, governments will implement measures to reduce population movements or otherwise prevent people from coming into close contact with each other; these measures can include in-country or international travel restrictions, bans on public or private gatherings, as well as closures of service sites such as schools and religious centres. Some of these measures were instituted in Guinea, Liberia, and Sierra Leone from 2014 to 2016 to fight in history. As a result, the government of Sierra Leone closed all educational institutions, disrupting the educations of thousands of children To continue educating students remotely, in a country where households have limited access to the internet and other technologies, the Ministry of Basic and Senior Secondary Education (MBSSE) developed the Education Radio Teaching Programme. This cost-effective initiative relied on experienced teachers recording lessons, adapted to local languages, that were broadcast across the country and allowed children to safely listen to their classes from home.the largest and most complex Ebola outbreak. In March 2020, the ministry rolled out the same initiative in response to the spread of COVID-19. But the limited range of the nine radio transmitters (owned byMBSSE’s Education Radio) used to broadcast the lessons led to some regions having better access to the programme than others. To solve this problem, the MBSSE enlisted GRID3 to use geospatial data to inform strategic planning around improving coverage. In collaboration with MBSSE, the GRID3 team at Flowminder carried out a three-phase analysis using Geographic Information System (GIS) techniques and its optimisation algorithm to determine how to achieve complete coverage. First, the team identified the coverage gaps of the nine Education Radio transmitters; then assessed broadcast power of other existing transmitters for expanding coverage; and finally used Flowminder’s optimisation algorithm to identify the location of possible new transmitters to be built.",
+    "outcomes": "In collaboration with MBSSE, the GRID3 team at Flowminder carried out a three-phase analysis using Geographic Information System (GIS) techniques and its optimisation algorithm to determine how to achieve complete coverage. First, the team identified the coverage gaps of the nine Education Radio transmitters; then assessed broadcast power of other existing transmitters for expanding coverage; and finally used Flowminder’s optimisation algorithm to identify the location of possible new transmitters to be built.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/radiocoverage-educationaccess-sierraleone",
+    "publication_date": "2021-07-16",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

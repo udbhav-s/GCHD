@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-report-provides-insight-for-improving-access-to-education-in-sierra-leone",
+  "url": "https://grid3.org/news/report-provides-insight-for-improving-access-to-education-in-sierra-leone",
+  "title": "A new report provides insight for improving access to education for all children in Sierra Leone",
+  "summary": "GRID3 use case: The Ministry of Basic and Senior Secondary Education (MBSSE) in Sierra Leone and GRID3 jointly released a School Coverage Analysis in Sierra Leone report which identifies where children are located relative to schools based on national targets.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "education",
+      "label": "Education"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "sierra-leone",
+      "label": "Sierra Leone"
+    }
+  ],
+  "population_focus": {
+    "groups": [
+      "children_youth"
+    ],
+    "determined_by": "keyword_scan",
+    "evidence_terms": [
+      "children"
+    ],
+    "group_mentions": {
+      "children_youth": 2
+    }
+  },
+  "intervention": {
+    "objectives": "The Ministry of Basic and Senior Secondary Education (MBSSE) in Sierra Leone and GRID3 jointly released a School Coverage Analysis in Sierra Leone report which identifies where children are located relative to schools based on national targets.",
+    "measures": "The Ministry of Basic and Senior Secondary Education (MBSSE) in Sierra Leone and GRID3 jointly released anEducation Coverage in Sierra Leonereport which identifies where children are located relative to schools based on a three-mile distance. Analyses from this report used data on existing school locations from the MBSSE 2019 Annual School Census, as well as GRID3 population estimates and settlement data. “This report comes at a crucial time when we are embarking on school development. The findings demonstrate that while current national school coverage is high but more can be done. The collaboration with GRID3 will allow the government to continue its provision of educational resources to the people of Sierra Leone by informing future school plans,” says David Sengeh, Minister of Basic and Senior Secondary Education and Chief Innovation Officer for the Government of Sierra Leone.",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "GRID3 settlement extents",
+      "url": "https://data.grid3.org",
+      "role": "administrative_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/report-provides-insight-for-improving-access-to-education-in-sierra-leone",
+    "publication_date": "2020-12-22",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

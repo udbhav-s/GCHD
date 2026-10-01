@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-grid3maps-npsia-campaign-nigeria",
+  "url": "https://grid3.org/news/grid3maps-npsia-campaign-nigeria",
+  "title": "GRID3 microplanning maps to support non-polio immunisation activities in Nigeria",
+  "summary": "GRID3 use case: Nigeria’s National Primary Health Care Development Agency has partnered with GRID3 to improve microplanning for its Non-Polio Supplementary Immunisation Activities campaign. The agency is using 9,308 ward-level maps produced by GRID3 to prepare microplans ahead of the next campaign, set to start in November 2021.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Nigeria",
+        "ucode": "NGA_V1",
+        "dcid": "country/NGA",
+        "iso3": "NGA"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "applications",
+      "label": "Applications"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "nigeria",
+      "label": "Nigeria"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Nigeria’s National Primary Health Care Development Agency has partnered with GRID3 to improve microplanning for its Non-Polio Supplementary Immunisation Activities campaign. The agency is using 9,308 ward-level maps produced by GRID3 to prepare microplans ahead of the next campaign, set to start in November 2021.",
+    "measures": "Having been certified wild polio-free in 2020, Nigeria has ramped up Non-Polio Supplementary Immunisation Activities (NPSIA) with an eye towards attaining herd immunity against vaccine-preventable diseases like measles, yellow fever, and meningitis. To that end, Nigeria’s National Primary Health Care Development Agency (NPHCDA) has partnered with GRID3 to improve microplanning for its NPSIA campaign. The agency is using 9,308 ward-level maps produced by GRID3 to prepare microplans ahead of the next campaign, set to start in November 2021. “Microplanning” is one of the tools that health workers use to optimally deploy resources—including vaccines and other health-related commodities—to ensure that target populations are reached during immunisation campaigns; maps are a crucial component of this process. After a number of preliminary meetings with health officials to determine needs and gather important information on the scope of the upcoming NPSIA campaign, the GRID3 Nigeria team produced 9,308 maps leveraging GRID3 data onsettlements,populations,administrative boundaries, andinfrastructure(such as health facilities, schools, and markets). The maps cluster settlements within 1km radius of one another. Health facilities that fall within each cluster are then designated as fixed vaccination posts; other infrastructure (including schools, places of worship, and markets) are designated as temporary vaccination posts. A sample of GRID3-produced GIS-based ward map designating vaccination posts within 1km distance of one another; Sumaila Ward, Kano State, Nigeria.",
+    "outcomes": "“Microplanning” is one of the tools that health workers use to optimally deploy resources—including vaccines and other health-related commodities—to ensure that target populations are reached during immunisation campaigns; maps are a crucial component of this process. After a number of preliminary meetings with health officials to determine needs and gather important information on the scope of the upcoming NPSIA campaign, the GRID3 Nigeria team produced 9,308 maps leveraging GRID3 data onsettlements,populations,administrative boundaries, andinfrastructure(such as health facilities, schools, and markets). The maps cluster settlements within 1km radius of one another. Health facilities that fall within each cluster are then designated as fixed vaccination posts; other infrastructure (including schools, places of worship, and markets) are designated as temporary vaccination posts.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/grid3maps-npsia-campaign-nigeria",
+    "publication_date": "2021-09-24",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

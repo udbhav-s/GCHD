@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-genderbasedsolutions-vaccinationcoverage-roundtable-drc",
+  "url": "https://grid3.org/news/genderbasedsolutions-vaccinationcoverage-roundtable-drc",
+  "title": "Adopting gender-based solutions to increase vaccination coverage: spotlight on GRID3 Mapping for Health multi-sectoral roundtable in the Democratic Republic of the Congo",
+  "summary": "GRID3 use case: As DRC has one of the highest rates of maternal, child, and infant mortality in sub-Saharan Africa, one aspect of the GRID3 M4H project focuses on the integration of gender and social inclusion (GESI) into vaccination programmes. This work achieved a milestone in May with the organisation of a roundtable focused on the intersection of gender and vaccination.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "As DRC has one of the highest rates of maternal, child, and infant mortality in sub-Saharan Africa, one aspect of the GRID3 M4H project focuses on the integration of gender and social inclusion (GESI) into vaccination programmes. This work achieved a milestone in May with the organisation of a roundtable focused on the intersection of gender and vaccination.",
+    "measures": "In a country where almost half of the population is under the age of 15, the government of the Democratic Republic of the Congo (DRC) is encountering significant challenges in achieving full vaccination coverage of its children. According to the2017-2018 Multiple Indicator Cluster Surveys(MICS), only 35 percent of DRC’s children aged 12 to 23 months are fully immunised, 45 percent are incompletely immunised, and 20 percent have received no vaccines at all. An estimated 1,224,000 children were unvaccinated or incompletely vaccinated in the provinces of Kinshasa, Kwilu, Kasai, Kasai-Oriental, Sud-Kivu, Ituri, Lomami, Haut-Katanga, and Haut-Lomami. Accordingly, these provinces were prioritised under the Mashako Plan, an ambitious programme launched by the government in 2018 to tackle low immunisation coverage across the country. Socio-economic disparities, conflicts, and gender inequalities are some of the factors contributing to low coverage. The GRID3 Mapping for Health (M4H) project, delivered under the leadership of DRC’s Ministry of Public Health, Hygiene and Prevention and funded by Gavi, the Vaccine Alliance, extends the work GRID3 has already done around health in the country. This project aims to support the Mashako Plan and strengthen the effectiveness and equity of DRC’s vaccination interventions. As DRC has one of the highest rates of maternal, child, and infant mortality in sub-Saharan Africa, one aspect of the project focuses on the integration of gender and social inclusion (GESI) into vaccination programmes. This work achieved a milestone in May with the organisation of a roundtable focused on the intersection of gender and vaccination. The event brought together, in-person and online, 50 guests from more than 30 organisations. The group included health and gender experts, members of governmental and international organisations, as well as women’s organisations. Among these were representatives from the Ministry of Gender, Family, and Children; the Expanded Programme on Immunisation (EPI); the School of Public Health at the University of Kinshasa; Gavi, the Vaccine Alliance; Global Affairs Canada; the National Programme for Nutrition;Sanru; UNICEF; andPlateforme des Organisations de la Société Civile pour la Vaccination et l’Immunisation au Togo(POSCVI-TOGO).",
+    "outcomes": "Participants took part in practical workshops on the use of specific tools and participatory methods for implementing gender-sensitive immunisation programmes, such as considering gender-related barriers to immunisation during the production of vaccination microplans. In turn, concrete, realistic actions were identified to promote the integration of specific and inclusive approaches to vaccination and health programmes. For example, participants recommended stronger involvement from men in promoting the use of immunisation services and in understanding the importance of equitable sharing of domestic roles with their wives or female partners (such as decision-making and escorting children to care services). They also identified the need for the population data that are integrated in the microplans to be disaggregated by sex and age, which will better facilitate gender and equity considerations.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "Multiple Indicator Cluster Survey",
+      "url": "https://mics.unicef.org/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/genderbasedsolutions-vaccinationcoverage-roundtable-drc",
+    "publication_date": "2021-05-31",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 2,
+      "name": "Zero Hunger"
+    },
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

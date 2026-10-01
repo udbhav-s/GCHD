@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-zimba-town-council-plans-ahead",
+  "url": "https://grid3.org/news/zimba-town-council-plans-ahead",
+  "title": "Zimba Town Council plans ahead to ensure no one is left behind",
+  "summary": "GRID3 use case: Accurate and accessible geospatial data plays a pivotal role in district planning for Zimba District, Zambia, where planners are trying to facilitate development. Through an interview with Josephine Chiila, District Planning Officer in Zimba, we learn how GRID3 population, settlement and infrastructure data are being used to identify service provision gaps and inform future development decisions.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "good-governance-and-accountability",
+      "label": "Good governance and accountability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "regional-planning",
+      "label": "Regional planning"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Accurate and accessible geospatial data plays a pivotal role in district planning for Zimba District, Zambia, where planners are trying to facilitate development. Through an interview with Josephine Chiila, District Planning Officer in Zimba, we learn how GRID3 population, settlement and infrastructure data are being used to identify service provision gaps and inform future development decisions.",
+    "measures": "Accurate and accessible geospatial data plays a pivotal role in district planning for Zimba District, Zambia, where planners are trying to facilitate development. Through an interview with Josephine Chiila, District Planning Officer in Zimba, we learn how GRID3 population, settlement and infrastructure data are being used to identify service provision gaps and inform future development decisions. District officials in Zimba, a rural district located in the Southern Province of Zambia, are putting together an Integrated Development Plan (IDP) for 2020-2030. The plan will highlight key issues within the area and provide concrete actions that Zimba Town Council will take in accordance with national planning standards. While developing the plan, officers recognised the need for data that accurately depicted where people and resources were located in order to inform planning decisions. They tried to collect this information themselves but faced numerous challenges. Josephine Chiila, District Planning Officer, explains more:",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/zimba-town-council-plans-ahead",
+    "publication_date": "2020-10-21",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-physicaldistancingdata-helpcontrol-covid19-spread",
+  "url": "https://grid3.org/news/physicaldistancingdata-helpcontrol-covid19-spread",
+  "title": "Physical distancing datasets can help control COVID-19 spread in sub-Saharan Africa’s urban areas",
+  "summary": "GRID3 use case: GRID3 has released 50 new datasets that can support countries looking to use nuanced, data-driven approaches to controlling the spread of the novel coronavirus. These data provide information on urban areas in sub-Saharan Africa where population density and the spatial arrangement of buildings may make it difficult to maintain physical distancing (also known as “social distancing”).",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Burkina Faso",
+        "ucode": "BFA_V1",
+        "dcid": "country/BFA",
+        "iso3": "BFA"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Mozambique",
+        "ucode": "MOZ_V1",
+        "dcid": "country/MOZ",
+        "iso3": "MOZ"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Sierra Leone",
+        "ucode": "SLE_V1",
+        "dcid": "country/SLE",
+        "iso3": "SLE"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    },
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Namibia",
+        "ucode": "NAM_V1",
+        "dcid": "country/NAM",
+        "iso3": "NAM"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19-covax-support",
+      "label": "COVID-19/COVAX support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 has released 50 new datasets that can support countries looking to use nuanced, data-driven approaches to controlling the spread of the novel coronavirus. These data provide information on urban areas in sub-Saharan Africa where population density and the spatial arrangement of buildings may make it difficult to maintain physical distancing (also known as “social distancing”).",
+    "measures": "GRID3 has released 50 new datasets that can support countries looking to use nuanced, data-driven approaches in controlling the spread of the novel coronavirus. These data provide information on urban areas in sub-Saharan Africa where population density and the spatial arrangement of buildings may make it difficult to maintain physical distancing (also known as “social distancing”). explains Heather Chamberlain, a GRID3 expert who worked on the datasets.“This information can be used by public health officials to identify where there is potential for rapid spread, and where additional measures may be needed to limit the spread of the virus. It may also be beneficial as an advocacy tool for communities in affected areas, as it provides evidence of the difficulties they face in complying with COVID-19 restrictions,“ To ensure these data can be widely used, GRID3 will be developing interactive maps that enable public health officials to perform relevant analyses critical for COVID-19-focused interventions, such as planning for vaccination campaigns. The data will also be shared with stakeholders who can use the information to plan for and respond to coronavirus outbreaks.",
+    "outcomes": "To produce the datasets, GRID3 experts used high-resolution geospatial data that provide granular insights into the likely space available around buildings and estimated population density. These data took the form of building footprint polygons (from Ecopia.AI, powered by Maxar) that displayed an outline of each building and gridded population datasets from WorldPop (WorldPop Global and GRID3 datasets) that have an estimated population count for each 100 x 100 metre grid cell. These data were classified to create a population and building score, from which an index value was calculated. Areas with higher index values indicate greater difficulty in practicing physical distancing among individuals while areas with lower index values have less difficulty. GRID3 experts then calculated the physical distancing risk for areas bounded by features such as roads or rivers.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/physicaldistancingdata-helpcontrol-covid19-spread",
+    "publication_date": "2021-05-13",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

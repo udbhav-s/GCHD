@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-zambia-partners-with-grid3-to-produce-pop-estimates",
+  "url": "https://grid3.org/news/zambia-partners-with-grid3-to-produce-pop-estimates",
+  "title": "The Government of Zambia partners with GRID3 to produce high-resolution intercensal population estimates",
+  "summary": "GRID3 use case: GRID3 and the Government of Zambia have produced gridded population estimates, led by the Zambia Statistics Agency (ZamStats) to support the country’s humanitarian and development planning and operations across the country.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Zambia",
+        "ucode": "ZMB_V1",
+        "dcid": "country/ZMB",
+        "iso3": "ZMB"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [
+    "malaria"
+  ],
+  "source_hazard_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "covid-19",
+      "label": "COVID-19",
+      "mapped_to": []
+    }
+  ],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "zambia",
+      "label": "Zambia"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "GRID3 and the Government of Zambia have produced gridded population estimates, led by the Zambia Statistics Agency (ZamStats) to support the country’s humanitarian and development planning and operations across the country.",
+    "measures": "GRID3 and the Government of Zambia have produced gridded population estimates, led by the Zambia Statistics Agency () to support the country’s humanitarian and development planning and operations across the country.ZamStats Gridded population data provide the Government of Zambia and public actors with recent and highly accurate estimates of their population across the country at very high resolution. Heather Chamberlain, one of the GRID3 experts working on the project, explains: “These data provide a detailed picture of where people live across the country, with estimates for roughly every 100x100m area. The level of detail in these estimates can really help the Government of Zambia to effectively plan and implement development interventions, as they provide insights into where the population is located, including information on the population size, age, and density at a very fine spatial resolution. In between censuses, this can help to ensure that all populations are considered in resource planning and allows for a more effective response to people’s needs.” Please click on the maps for further detailsLeft map: Lusaka (capital city).Right map:: Zoomed in to the centre of Lusaka",
+    "outcomes": "GRID3 Zambia produced these gridded population estimates using a bottom-up modelling approach. For more information about the general method, please visit our . Innovations of the GRID3 Zambia model include the use of new settlement data sources and the fact that the population input data was solely collected by the Government of Zambia. Claire Dooley, GRID3 Lead Modeller for Zambia explains:high-resolution population estimates page",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/zambia-partners-with-grid3-to-produce-pop-estimates",
+    "publication_date": "2020-06-18",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 11,
+      "name": "Sustainable Cities and Communities"
+    },
+    {
+      "goal": 13,
+      "name": "Climate Action"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

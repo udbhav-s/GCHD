@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-southsudans-microcensus-campaign",
+  "url": "https://grid3.org/news/southsudans-microcensus-campaign",
+  "title": "South Sudan’s microcensus marks an important first step in campaign to leave no one behind",
+  "summary": "GRID3 use case: On 21 May, field data collection began for South Sudan’s National Population Estimation Survey (PES), an important milestone in the country’s effort to collect baseline demographic and socioeconomic data.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "South Sudan",
+        "ucode": "SSD_V1",
+        "dcid": "country/SSD",
+        "iso3": "SSD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "capacity-strengthening",
+      "label": "Capacity strengthening"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "census-cartography-and-enumeration",
+      "label": "Census cartography and enumeration"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "economics-and-finance",
+      "label": "Economics and finance"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "south-sudan",
+      "label": "South Sudan"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "On 21 May, field data collection began for South Sudan’s National Population Estimation Survey (PES), an important milestone in the country’s effort to collect baseline demographic and socioeconomic data.",
+    "measures": "On 24 May, field data collection began for South Sudan’s National Population Estimation Survey (PES), an important milestone in the country’s effort to collect baseline demographic and socioeconomic data. Information collected for the survey can be used to guide policy formulation, development planning, service delivery, and infrastructure investments. GRID3 has provided South Sudan’s National Bureau of Statistics (NBS) extensive technical, logistical, and administrative support for the PES. Up to now, the most recent official population data for South Sudan were found in the Sudan Population and Housing Census of 2008, which was conducted prior to South Sudan’s independence in 2011. In the years since, political conflict and linked population movements have rendered the 2008 numbers outdated, and there is an urgent need for up-to-date, accurate, relevant demographic data that can be used to inform the country’s development agenda. South Sudan’s government and GRID3 identified the PES as an important way to begin collecting these data. In early 2019, GRID3 organised an exploratory mission to South Sudan to see how the programme could contribute its expertise on geospatial data to the country’s development efforts; it was decided that a microcensus would be a highly useful tool for government officials.",
+    "outcomes": "Up to now, the most recent official population data for South Sudan were found in the Sudan Population and Housing Census of 2008, which was conducted prior to South Sudan’s independence in 2011. In the years since, political conflict and linked population movements have rendered the 2008 numbers outdated, and there is an urgent need for up-to-date, accurate, relevant demographic data that can be used to inform the country’s development agenda. South Sudan’s government and GRID3 identified the PES as an important way to begin collecting these data.",
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [
+    {
+      "name": "GRID3 population estimates",
+      "url": "https://data.grid3.org",
+      "role": "population_input"
+    },
+    {
+      "name": "2008 South Sudan census",
+      "url": "https://nbs.gov.ss/",
+      "role": "survey_input"
+    }
+  ],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/southsudans-microcensus-campaign",
+    "publication_date": "2021-05-24",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

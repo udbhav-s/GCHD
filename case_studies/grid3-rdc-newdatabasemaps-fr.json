@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-rdc-newdatabasemaps-fr",
+  "url": "https://grid3.org/news/rdc-newdatabasemaps-fr",
+  "title": "Nouveaux jeux de données et cartes de base pour renforcer la prestation des services de santé dans cinq provinces de la RDC",
+  "summary": "GRID3 use case: Dans le cadre du projet GRID3 Cartographie pour la santé, cinq nouveaux jeux de données GRID3 (localités, limites des aires et des zones de santé, établissements de santé, écoles et centres religieux) ont été publiés pour les provinces du Haut-Katanga, Kinshasa, Kasaï, Kasaï-Oriental, Kinshasa et Lomami en République démocratique du Congo (RDC).",
+  "location_scope": "adm1",
+  "locations": [
+    {
+      "level": "adm1",
+      "place_name": "Haut-Katanga",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Haut-Katanga",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Haut-Katanga",
+        "source_code": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": "Kinshasa",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Kinshasa",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Kinshasa",
+        "source_code": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": "Kasaï",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Kasaï",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Kasaï",
+        "source_code": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": "Kasaï-Oriental",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Kasaï-Oriental",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Kasaï-Oriental",
+        "source_code": null
+      },
+      "adm2": null
+    },
+    {
+      "level": "adm1",
+      "place_name": "Lomami",
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": {
+        "name": "Lomami",
+        "ucode": null,
+        "dcid": null,
+        "source_name": "Lomami",
+        "source_code": null
+      },
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "Dans le cadre du projet GRID3 Cartographie pour la santé, cinq nouveaux jeux de données GRID3 (localités, limites des aires et des zones de santé, établissements de santé, écoles et centres religieux) ont été publiés pour les provinces du Haut-Katanga, Kinshasa, Kasaï, Kasaï-Oriental, Kinshasa et Lomami en République démocratique du Congo (RDC).",
+    "measures": "Dans le cadre du projet GRID3 Cartographie pour la santé, cinq nouveaux jeux de données GRID3 (localités, limites des aires et des zones de santé, établissements de santé, écoles et centres religieux) ont été publiés pour les provinces du Haut-Katanga, Kinshasa, Kasaï, Kasaï-Oriental, Kinshasa et Lomami en République démocratique du Congo (RDC). Ces jeux de données, ainsi que les cartes de base qui superposent les données et permettent leur visualisation, seront inclus dans la base de données sanitaire nationale de la RDC. Avec lesestimations de la population GRID3 en RDC, elles ont déjà facilité et guidé la planification, la prestation et la surveillance des vaccinations de routine depuis l’élaboration de documents d’appui à la microplanification en janvier 2022. Amélioration des limites de l’aire de santé de Likasi, province du Haut-Katanga",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/rdc-newdatabasemaps-fr",
+    "publication_date": "2022-07-15",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}

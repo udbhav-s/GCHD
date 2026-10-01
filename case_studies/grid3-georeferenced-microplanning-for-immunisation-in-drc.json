@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.2",
+  "id": "grid3-georeferenced-microplanning-for-immunisation-in-drc",
+  "url": "https://grid3.org/news/georeferenced-microplanning-for-immunisation-in-drc",
+  "title": "Improving geo-referenced microplanning for immunisation interventions in the DRC",
+  "summary": "GRID3 use case: As part of a broader push to strengthen the capacity of health actors to use geo-referenced data to improve immunisation outcomes in the Democratic Republic of the Congo, GRID3 carried out extensive stakeholder engagement and field exercises aimed at evaluating the impact of the pilot phase of its geo-referenced microplanning work over the course of the last three months.",
+  "location_scope": "adm0",
+  "locations": [
+    {
+      "level": "adm0",
+      "place_name": null,
+      "adm0": {
+        "name": "Democratic Republic of the Congo",
+        "ucode": "COD_V1",
+        "dcid": "country/COD",
+        "iso3": "COD"
+      },
+      "adm1": null,
+      "adm2": null
+    }
+  ],
+  "hazards": [],
+  "source_hazard_tags": [],
+  "source_tags": [
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "analytics-and-decision-support",
+      "label": "Analytics and decision-support"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "grid3-mapping-for-health",
+      "label": "GRID3 Mapping for Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "health",
+      "label": "Health"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "mainstreaming-and-sustainability",
+      "label": "Mainstreaming and sustainability"
+    },
+    {
+      "vocabulary": "grid3_use_cases",
+      "code": "production-of-core-geospatial-datasets",
+      "label": "Production of core geospatial datasets"
+    }
+  ],
+  "population_focus": null,
+  "intervention": {
+    "objectives": "As part of a broader push to strengthen the capacity of health actors to use geo-referenced data to improve immunisation outcomes in the Democratic Republic of the Congo, GRID3 carried out extensive stakeholder engagement and field exercises aimed at evaluating the impact of the pilot phase of its geo-referenced microplanning work over the course of the last three months.",
+    "measures": "Over the course of the last three months, theGRID3 Mapping for Healthproject carried out extensive stakeholder engagement and field exercises aimed at evaluating the impact of the pilot phase of its geo-referenced microplanning work. These activities are part of a broader push to strengthen the capacity of health actors to use geo-referenced data to inform immunisation planning decisions throughout the country. In the DRC, GRID3 Mapping for Health project contributes high-resolution geospatial data and key information related to gender and equity to support theMashako Plan, a government-led effort to boost routine vaccine coverage. Working in collaboration with government agencies, the project collected data on the locations of health facilities, towns, villages, and hamlets; boundaries of health zones and areas; the size, density, age, sex structure, and spatial distribution of populations; as well as information on population movements. These datasets were then used to produce a collection of maps and tables for microplanning (microplanning is the process of determining a strategy to optimally deploy resources in order to vaccinate eligible populations).",
+    "outcomes": null,
+    "cost_benefit": null,
+    "timeline": null,
+    "lifetime": null,
+    "stakeholders": null,
+    "legal_context": null
+  },
+  "point": null,
+  "data_sources": [],
+  "provenance": {
+    "collection_name": "GRID3 Use Cases",
+    "collection_url": "https://grid3.org/category/use-cases",
+    "publisher": "GRID3",
+    "document_url": "https://grid3.org/news/georeferenced-microplanning-for-immunisation-in-drc",
+    "publication_date": "2021-12-21",
+    "retrieved_at": "2026-09-27",
+    "extraction_method": "scraped",
+    "source_record_id": null,
+    "source_api_url": null,
+    "source_content_type": "use-case",
+    "source_modified": null,
+    "extracted_by": "import_grid3.py@1.0"
+  },
+  "sdgs": [
+    {
+      "goal": 3,
+      "name": "Good Health and Well-being"
+    },
+    {
+      "goal": 4,
+      "name": "Quality Education"
+    },
+    {
+      "goal": 5,
+      "name": "Gender Equality"
+    },
+    {
+      "goal": 16,
+      "name": "Peace, Justice and Strong Institutions"
+    },
+    {
+      "goal": 17,
+      "name": "Partnerships for the Goals"
+    }
+  ],
+  "indicators_measured": [],
+  "indicators_targeted": []
+}
